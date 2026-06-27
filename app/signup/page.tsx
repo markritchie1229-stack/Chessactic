@@ -92,18 +92,38 @@ export default function SignUpPage() {
           emailToUse = (data as string).trim().toLowerCase();
         }
 
-        const { error } = await supabase.auth.signInWithPassword({
+        const { data, error } = await supabase.auth.signInWithPassword({
           email: emailToUse,
           password,
         });
 
         if (error) throw error;
 
+        const nowIso = new Date().toISOString();
+        const userId = data.user?.id ?? data.session?.user.id;
+
+        if (userId) {
+          const { error: activityError } = await supabase
+            .from("profiles")
+            .update({
+              last_login: nowIso,
+              last_seen: nowIso,
+            })
+            .eq("id", userId);
+
+          if (activityError) {
+            console.warn("Could not update login timestamps:", activityError.message);
+          }
+        }
+
         router.push("/");
         router.refresh();
       }
     } catch (err: any) {
-      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+      if (
+        err?.code === "23505" ||
+        err?.message?.includes("profiles_username_key")
+      ) {
         setMessage("Username is already taken.");
         return;
       }
@@ -138,7 +158,10 @@ export default function SignUpPage() {
 
       setMessage("Confirmation email sent. Check your inbox.");
     } catch (err: any) {
-      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+      if (
+        err?.code === "23505" ||
+        err?.message?.includes("profiles_username_key")
+      ) {
         setMessage("Username is already taken.");
         return;
       }
@@ -203,7 +226,10 @@ export default function SignUpPage() {
 
           {mode === "signup" ? (
             <div>
-              <label htmlFor="email" className="mb-2 block text-sm text-slate-300">
+              <label
+                htmlFor="email"
+                className="mb-2 block text-sm text-slate-300"
+              >
                 Email
               </label>
               <input

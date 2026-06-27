@@ -6,23 +6,84 @@ import type { Session } from "@supabase/supabase-js";
 import { UserCircle2, X } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
+type ProfileRow = {
+  username: string | null;
+  email: string | null;
+  created_at: string | null;
+  last_login: string | null;
+  last_seen: string | null;
+};
+
+function formatDateTime(value: string | null) {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "—";
+
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(date);
+}
+
 export function AccountRail() {
   const router = useRouter();
 
   const [session, setSession] = useState<Session | null>(null);
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("");
+  const [joinedAt, setJoinedAt] = useState<string | null>(null);
+  const [lastLoginAt, setLastLoginAt] = useState<string | null>(null);
+  const [lastSeenAt, setLastSeenAt] = useState<string | null>(null);
   const [message, setMessage] = useState("");
   const [saving, setSaving] = useState(false);
+
+  const touchLastSeen = async (userId: string) => {
+    const nowIso = new Date().toISOString();
+
+    const { error } = await supabase
+      .from("profiles")
+      .update({ last_seen: nowIso })
+      .eq("id", userId);
+
+    if (!error) {
+      setLastSeenAt(nowIso);
+    }
+  };
 
   useEffect(() => {
     const loadSession = async () => {
       const { data } = await supabase.auth.getSession();
-      setSession(data.session);
+      const nextSession = data.session;
 
-      const currentUsername =
-        data.session?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
-      setUsername(currentUsername);
+      setSession(nextSession);
+
+      if (!nextSession) {
+        setUsername("");
+        setJoinedAt(null);
+        setLastLoginAt(null);
+        setLastSeenAt(null);
+        return;
+      }
+
+      const fallbackName =
+        nextSession.user.user_metadata?.username?.trim().toLowerCase() ??
+        nextSession.user.email?.trim().toLowerCase() ??
+        "Player";
+
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("username,email,created_at,last_login,last_seen")
+        .eq("id", nextSession.user.id)
+        .maybeSingle();
+
+      const row = profile as ProfileRow | null;
+
+      setUsername(row?.username?.trim().toLowerCase() ?? fallbackName);
+      setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
+      setLastLoginAt(row?.last_login ?? null);
+      setLastSeenAt(row?.last_seen ?? null);
+
+      void touchLastSeen(nextSession.user.id);
     };
 
     void loadSession();
@@ -32,13 +93,51 @@ export function AccountRail() {
     } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
 
-      const currentUsername =
-        nextSession?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
-      setUsername(currentUsername);
+      if (!nextSession) {
+        setUsername("");
+        setJoinedAt(null);
+        setLastLoginAt(null);
+        setLastSeenAt(null);
+        return;
+      }
+
+      const fallbackName =
+        nextSession.user.user_metadata?.username?.trim().toLowerCase() ??
+        nextSession.user.email?.trim().toLowerCase() ??
+        "Player";
+
+      void (async () => {
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("username,email,created_at,last_login,last_seen")
+          .eq("id", nextSession.user.id)
+          .maybeSingle();
+
+        const row = profile as ProfileRow | null;
+
+        setUsername(row?.username?.trim().toLowerCase() ?? fallbackName);
+        setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
+        setLastLoginAt(row?.last_login ?? null);
+        setLastSeenAt(row?.last_seen ?? null);
+
+        void touchLastSeen(nextSession.user.id);
+      })();
     });
 
     return () => subscription.unsubscribe();
   }, []);
+
+  useEffect(() => {
+    if (!session) return;
+
+    void touchLastSeen(session.user.id);
+
+    const interval = window.setInterval(() => {
+      void touchLastSeen(session.user.id);
+    }, 5 * 60 * 1000);
+
+    return () => window.clearInterval(interval);
+  }, [session]);
 
   const handleSaveUsername = async () => {
     setSaving(true);
@@ -105,7 +204,10 @@ export function AccountRail() {
       setSession(refreshed.session);
       setMessage("Username updated.");
     } catch (err: any) {
-      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+      if (
+        err?.code === "23505" ||
+        err?.message?.includes("profiles_username_key")
+      ) {
         setMessage("Username is already taken.");
         return;
       }
@@ -120,6 +222,9 @@ export function AccountRail() {
     await supabase.auth.signOut();
     setSession(null);
     setUsername("");
+    setJoinedAt(null);
+    setLastLoginAt(null);
+    setLastSeenAt(null);
     setOpen(false);
     router.push("/");
     router.refresh();
@@ -176,6 +281,27 @@ export function AccountRail() {
                   </div>
                   <div className="mt-1 text-sm text-slate-500">
                     {session.user.email}
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-3 text-sm">
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                    <div className="text-slate-500">Joined</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {formatDateTime(joinedAt)}
+                    </div>
+                  </div>
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                    <div className="text-slate-500">Last login</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {formatDateTime(lastLoginAt)}
+                    </div>
+                  </div>
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                    <div className="text-slate-500">Last seen</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {formatDateTime(lastSeenAt)}
+                    </div>
                   </div>
                 </div>
 
