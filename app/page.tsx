@@ -5,7 +5,6 @@ import { Chess, type Square } from "chess.js";
 import { Chessboard } from "react-chessboard";
 import {
   CheckCircle2,
-  ChevronDown,
   ChevronRight,
   RefreshCw,
   Shuffle,
@@ -30,6 +29,8 @@ type Puzzle = {
   san?: string;
   theme?: string;
   difficulty?: number;
+  categoryId: string;
+  categoryLabel: string;
 };
 
 type Category = {
@@ -80,6 +81,8 @@ const CATEGORIES: Category[] = [
     file: "/Skewers.Complete.Rated_deduped_filled.json",
   },
 ];
+
+const ALL_CATEGORY_ID = "__all__";
 
 type MoveSpec = {
   from: Square;
@@ -151,7 +154,7 @@ function buildPreviewLine(raw: RawPuzzle): string[] {
   );
 }
 
-function normalizePuzzle(raw: RawPuzzle): Puzzle {
+function normalizePuzzle(raw: RawPuzzle, category: Category): Puzzle {
   const san =
     raw.san ??
     raw.winning_sequence?.[0]?.san ??
@@ -166,28 +169,65 @@ function normalizePuzzle(raw: RawPuzzle): Puzzle {
     san,
     theme: raw.theme,
     difficulty: raw.difficulty,
+    categoryId: category.id,
+    categoryLabel: category.label,
   };
 }
 
+function shuffleArray<T>(items: T[]) {
+  const arr = [...items];
+  for (let i = arr.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function interleavePuzzleGroups(groups: Puzzle[][]) {
+  const maxLen = Math.max(0, ...groups.map((group) => group.length));
+  const output: Puzzle[] = [];
+
+  for (let i = 0; i < maxLen; i += 1) {
+    for (const group of groups) {
+      const puzzle = group[i];
+      if (puzzle) {
+        output.push(puzzle);
+      }
+    }
+  }
+
+  return output;
+}
+
 export default function Page() {
-  const [categoryId, setCategoryId] = useState(CATEGORIES[0].id);
+  const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([
+    CATEGORIES[0].id,
+  ]);
   const [puzzles, setPuzzles] = useState<Puzzle[]>([]);
   const [loading, setLoading] = useState(true);
 
   const [index, setIndex] = useState(0);
   const [game, setGame] = useState<Chess | null>(null);
   const [selectedSquare, setSelectedSquare] = useState<Square | null>(null);
-  const [message, setMessage] = useState("Choose a category to begin.");
+  const [message, setMessage] = useState("Choose categories to begin.");
   const [solved, setSolved] = useState(false);
   const [moveLog, setMoveLog] = useState<string[]>([]);
   const [lineIndex, setLineIndex] = useState(0);
   const [userColor, setUserColor] = useState<"w" | "b">("w");
   const [showHint, setShowHint] = useState(false);
 
-  const category = useMemo(
-    () => CATEGORIES.find((c) => c.id === categoryId) ?? CATEGORIES[0],
-    [categoryId]
-  );
+  const selectedCategoryLabel =
+    selectedCategoryIds.length === CATEGORIES.length
+      ? "All categories"
+      : selectedCategoryIds.length === 1
+        ? CATEGORIES.find((c) => c.id === selectedCategoryIds[0])?.label ??
+          "Selected categories"
+        : `${selectedCategoryIds.length} categories`;
+
+  const categoryOptions = [
+    { id: ALL_CATEGORY_ID, label: "All" },
+    ...CATEGORIES.map((c) => ({ id: c.id, label: c.label })),
+  ];
 
   const puzzle = puzzles[index];
   const boardOrientation = userColor === "w" ? "white" : "black";
@@ -207,12 +247,34 @@ export default function Page() {
     setShowHint(false);
   };
 
-  const loadCategory = async (id: string) => {
-    const selected = CATEGORIES.find((c) => c.id === id);
-    if (!selected) return;
+  const toggleCategory = (id: string) => {
+    if (id === ALL_CATEGORY_ID) {
+      setSelectedCategoryIds(CATEGORIES.map((c) => c.id));
+      return;
+    }
+
+    setSelectedCategoryIds((prev) => {
+      const exists = prev.includes(id);
+      const next = exists ? prev.filter((x) => x !== id) : [...prev, id];
+
+      return next.length > 0 ? next : prev;
+    });
+  };
+
+  const loadCategories = async (ids: string[]) => {
+    const selectedIds =
+      ids.length === CATEGORIES.length ? CATEGORIES.map((c) => c.id) : ids;
+
+    if (selectedIds.length === 0) {
+      setPuzzles([]);
+      setGame(null);
+      setMessage("Choose at least one category.");
+      setLoading(false);
+      return;
+    }
 
     setLoading(true);
-    setMessage(`Loading ${selected.label}...`);
+    setMessage(`Loading ${selectedCategoryLabel}...`);
     setSolved(false);
     setMoveLog([]);
     setSelectedSquare(null);
@@ -220,40 +282,56 @@ export default function Page() {
     setShowHint(false);
 
     try {
-      const res = await fetch(encodeURI(selected.file));
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status} while loading ${selected.file}`);
-      }
+      const selectedCategories = CATEGORIES.filter((c) =>
+        selectedIds.includes(c.id)
+      );
 
-      const raw = (await res.json()) as RawPuzzle[];
-      const normalized = raw.filter(Boolean).map(normalizePuzzle);
+      const loadedGroups = await Promise.all(
+        selectedCategories.map(async (cat) => {
+          const res = await fetch(encodeURI(cat.file));
+          if (!res.ok) {
+            throw new Error(`HTTP ${res.status} while loading ${cat.file}`);
+          }
 
-      setPuzzles(normalized);
+          const raw = (await res.json()) as RawPuzzle[];
+          const puzzlesForCategory = raw
+            .filter(Boolean)
+            .map((p) => normalizePuzzle(p, cat));
+
+          return shuffleArray(puzzlesForCategory);
+        })
+      );
+
+      const merged = interleavePuzzleGroups(loadedGroups);
+
+      setPuzzles(merged);
       setIndex(0);
 
-      if (normalized.length > 0) {
-        const firstGame = new Chess(normalized[0].fen);
+      if (merged.length > 0) {
+        const firstGame = new Chess(merged[0].fen);
         setGame(firstGame);
         setUserColor(firstGame.turn());
-        setMessage(`Loaded ${normalized.length} puzzles from ${selected.label}.`);
+        setMessage(
+          `Loaded ${merged.length} puzzles from ${selectedCategoryLabel}.`
+        );
       } else {
         setGame(null);
-        setMessage(`No valid puzzles found in ${selected.label}.`);
+        setMessage(`No valid puzzles found in ${selectedCategoryLabel}.`);
       }
     } catch (err) {
       console.error(err);
       setPuzzles([]);
       setGame(null);
-      setMessage(`Could not load ${selected.label}.`);
+      setMessage(`Could not load puzzles for ${selectedCategoryLabel}.`);
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    void loadCategory(categoryId);
+    void loadCategories(selectedCategoryIds);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [categoryId]);
+  }, [selectedCategoryIds]);
 
   const nextPuzzle = () => {
     if (!puzzles.length) return;
@@ -297,7 +375,7 @@ export default function Page() {
 
       const playedMove = userResult.promotion
         ? `${from}${to}${userResult.promotion}`.toLowerCase()
-        : `${from}${to}`.toLowerCase();
+        : `${from}${to}`;
 
       if (!isSameMove(playedMove, expectedMove)) {
         setMessage("That is not the correct move.");
@@ -395,22 +473,34 @@ export default function Page() {
               Chess Puzzle Trainer
             </h1>
             <p className="mt-2 max-w-2xl text-sm text-slate-400 md:text-base">
-              Pick a category, then solve puzzles one by one.
+              Pick one or more categories, then solve puzzles one by one.
             </p>
 
-            <div className="mt-4 inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2">
-              <ChevronDown className="h-4 w-4 text-slate-400" />
-              <select
-                value={categoryId}
-                onChange={(e) => setCategoryId(e.target.value)}
-                className="bg-transparent text-sm outline-none"
-              >
-                {CATEGORIES.map((cat) => (
-                  <option key={cat.id} value={cat.id} className="bg-slate-900">
-                    {cat.label}
-                  </option>
-                ))}
-              </select>
+            <div className="mt-4">
+              <div className="mb-2 text-sm text-slate-400">Mix categories:</div>
+
+              <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                {categoryOptions.map((option) => {
+                  const active =
+                    option.id === ALL_CATEGORY_ID
+                      ? selectedCategoryIds.length === CATEGORIES.length
+                      : selectedCategoryIds.includes(option.id);
+
+                  return (
+                    <button
+                      key={option.id}
+                      onClick={() => toggleCategory(option.id)}
+                      className={`rounded-2xl border px-3 py-2 text-left text-sm transition ${
+                        active
+                          ? "border-slate-100 bg-slate-100 text-slate-950"
+                          : "border-slate-800 bg-slate-900 text-slate-100 hover:bg-slate-800"
+                      }`}
+                    >
+                      {option.label}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
 
@@ -470,9 +560,11 @@ export default function Page() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="text-sm uppercase tracking-wide text-slate-400">
-                    Current category
+                    Current selection
                   </div>
-                  <div className="mt-1 text-xl font-semibold">{category.label}</div>
+                  <div className="mt-1 text-xl font-semibold">
+                    {selectedCategoryLabel}
+                  </div>
                 </div>
                 {solved ? (
                   <div className="inline-flex items-center gap-2 rounded-full bg-emerald-500/15 px-3 py-1 text-sm text-emerald-300">
@@ -498,9 +590,9 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                  <div className="text-slate-500">Hint</div>
+                  <div className="text-slate-500">Current puzzle type</div>
                   <div className="mt-1 font-medium">
-                    {showHint ? puzzle?.san ?? puzzle?.solution ?? "-" : "Hidden"}
+                    {puzzle?.categoryLabel ?? "-"}
                   </div>
                 </div>
                 <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">

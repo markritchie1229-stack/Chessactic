@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     template: "%s | Chessactic",
   },
   description: "Master chess through tactics, puzzles, and training.",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
