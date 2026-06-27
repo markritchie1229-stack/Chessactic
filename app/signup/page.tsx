@@ -19,25 +19,6 @@ export default function SignUpPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
-  const resolveEmail = async (identifier: string) => {
-    const res = await fetch("/api/auth/resolve-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ identifier }),
-      cache: "no-store",
-    });
-
-    const data = (await res.json()) as { email?: string; error?: string };
-
-    if (!res.ok) {
-      throw new Error(data.error ?? "Unable to resolve login identifier.");
-    }
-
-    return data.email ?? "";
-  };
-
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -82,7 +63,25 @@ export default function SignUpPage() {
           return;
         }
 
-        const emailToUse = await resolveEmail(rawLogin);
+        let emailToUse = rawLogin.toLowerCase();
+
+        if (!rawLogin.includes("@")) {
+          const { data, error } = await supabase.rpc(
+            "get_email_by_username",
+            {
+              p_username: rawLogin.toLowerCase(),
+            }
+          );
+
+          if (error) throw error;
+
+          if (!data) {
+            setMessage("That username was not found.");
+            return;
+          }
+
+          emailToUse = (data as string).trim().toLowerCase();
+        }
 
         const { error } = await supabase.auth.signInWithPassword({
           email: emailToUse,
