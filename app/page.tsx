@@ -10,6 +10,7 @@ import {
   Shuffle,
 } from "lucide-react";
 import { AccountRail } from "./components/AccountRail";
+import { StatsRail } from "./components/StatsRail";
 import { supabase } from "@/lib/supabase";
 
 type RawPuzzle = {
@@ -569,9 +570,10 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[300px_minmax(0,1.05fr)_360px]">
-          <div className="lg:sticky lg:top-6 self-start">
+        <div className="grid gap-6 lg:grid-cols-[120px_minmax(0,1.05fr)_360px]">
+          <div className="lg:sticky lg:top-6 self-start flex flex-col gap-3">
             <AccountRail />
+            <StatsRail />
           </div>
 
           <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-2xl shadow-black/20">
