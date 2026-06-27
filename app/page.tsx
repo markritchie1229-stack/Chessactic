@@ -10,6 +10,7 @@ import {
   Shuffle,
 } from "lucide-react";
 import { AccountRail } from "./components/AccountRail";
+import { SocialRail } from "./components/SocialRail";
 import { StatsRail } from "./components/StatsRail";
 import { supabase } from "@/lib/supabase";
 
@@ -604,6 +605,7 @@ export default function Page() {
         <div className="grid gap-6 lg:grid-cols-[120px_minmax(0,1.05fr)_360px]">
           <div className="lg:sticky lg:top-6 self-start flex flex-col gap-3">
             <AccountRail />
+            <SocialRail />
             <StatsRail />
           </div>
 
