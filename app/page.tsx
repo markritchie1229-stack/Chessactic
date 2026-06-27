@@ -9,7 +9,7 @@ import {
   RefreshCw,
   Shuffle,
 } from "lucide-react";
-import { AccountSidebar } from "./components/AccountSidebar";
+import { AccountRail } from "./components/AccountRail";
 
 type RawPuzzle = {
   fen: string;
@@ -535,7 +535,7 @@ export default function Page() {
 
         <div className="grid gap-6 lg:grid-cols-[300px_minmax(0,1.05fr)_360px]">
           <div className="lg:sticky lg:top-6 self-start">
-            <AccountSidebar />
+            <AccountRail />
           </div>
 
           <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-2xl shadow-black/20">
