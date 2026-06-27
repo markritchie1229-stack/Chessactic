@@ -123,8 +123,9 @@ const SAMPLE_FORUM_TOPICS: ForumTopic[] = [
   },
 ];
 
-function formatDateTime(value: string | null) {
+function formatDateTime(value: string | null | undefined) {
   if (!value) return "—";
+
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "—";
 
@@ -247,8 +248,7 @@ export function SocialRail() {
               {!session ? (
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                    Sign in to use public profile, messages, friends, clubs, and
-                    forum features.
+                    Sign in to use public profile, messages, friends, clubs, and forum features.
                   </div>
 
                   <button
@@ -325,8 +325,7 @@ export function SocialRail() {
                       </div>
 
                       <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
-                        This section can eventually edit avatar, bio, links, and
-                        privacy controls.
+                        This section can eventually edit avatar, bio, links, and privacy controls.
                       </div>
                     </div>
                   ) : null}
