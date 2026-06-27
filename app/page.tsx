@@ -271,6 +271,29 @@ export default function Page() {
     }
   };
 
+  const recordFailedAttempt = async () => {
+    try {
+      const { data } = await supabase.auth.getSession();
+      const user = data.session?.user;
+
+      if (!user) return;
+
+      const { error } = await supabase.rpc("register_failed_attempt", {
+        p_user_id: user.id,
+      });
+
+      if (error) throw error;
+
+      window.dispatchEvent(
+        new CustomEvent("profile-metrics-updated", {
+          detail: { failedAttemptDelta: 1 },
+        })
+      );
+    } catch (err) {
+      console.warn("Could not record failed attempt:", err);
+    }
+  };
+
   const resetPuzzle = (fen?: string) => {
     const targetFen = fen ?? puzzle?.fen;
     if (!targetFen) return;
@@ -409,13 +432,18 @@ export default function Page() {
         applyMove(trial, { from, to, promotion: "q" }) ??
         applyMove(trial, { from, to });
 
-      if (!userResult) return false;
+      if (!userResult) {
+        void recordFailedAttempt();
+        setMessage("That move is illegal or does not match the solution line.");
+        return false;
+      }
 
       const playedMove = userResult.promotion
         ? `${from}${to}${userResult.promotion}`.toLowerCase()
         : `${from}${to}`;
 
       if (!isSameMove(playedMove, expectedMove)) {
+        void recordFailedAttempt();
         setMessage("That is not the correct move.");
         return false;
       }
@@ -456,6 +484,7 @@ export default function Page() {
       return true;
     } catch (err) {
       console.error(err);
+      void recordFailedAttempt();
       setMessage("That move is illegal or does not match the solution line.");
       return false;
     }
