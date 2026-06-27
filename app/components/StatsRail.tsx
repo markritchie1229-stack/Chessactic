@@ -8,12 +8,12 @@ import { BarChart3, X } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
 type ProfileRow = {
-  games_solved?: number | null;
-  current_streak?: number | null;
-  longest_streak?: number | null;
-  puzzle_rating?: number | null;
-  accuracy?: number | null;
-  favorite_theme?: string | null;
+  games_solved: number | null;
+  current_streak: number | null;
+  longest_streak: number | null;
+  puzzle_rating: number | null;
+  accuracy: number | null;
+  favorite_theme: string | null;
 };
 
 type StatCard = {
@@ -53,7 +53,9 @@ export function StatsRail() {
 
     const { data, error } = await supabase
       .from("profiles")
-      .select("*")
+      .select(
+        "games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme"
+      )
       .eq("id", nextSession.user.id)
       .maybeSingle();
 
@@ -89,14 +91,10 @@ export function StatsRail() {
       void loadStats(nextSession);
     });
 
-    const handleMetricsUpdated = () => {
-      const refresh = async () => {
-        const { data } = await supabase.auth.getSession();
-        await loadStats(data.session);
-      };
-
+    const handleMetricsUpdated = async () => {
       setLoading(true);
-      void refresh();
+      const { data } = await supabase.auth.getSession();
+      await loadStats(data.session);
     };
 
     window.addEventListener("profile-metrics-updated", handleMetricsUpdated);
