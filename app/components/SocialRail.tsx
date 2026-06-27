@@ -1,36 +1,128 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useEffect, useMemo, useState, type ComponentType } from "react";
+import { createPortal } from "react-dom";
+import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import {
-  Check,
-  Copy,
-  ImagePlus,
-  PencilLine,
-  Save,
+  ArrowRight,
+  Bell,
+  Hash,
+  MessageSquareMore,
   Shield,
+  UserCircle2,
+  Users,
+  UsersRound,
   X,
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
 type ProfileRow = {
-  id: string;
   username: string | null;
   created_at: string | null;
   last_seen: string | null;
-  games_solved: number | null;
-  current_streak: number | null;
-  longest_streak: number | null;
-  puzzle_rating: number | null;
-  accuracy: number | null;
-  favorite_theme: string | null;
-  avatar_url?: string | null;
-  bio?: string | null;
-  country?: string | null;
-  favorite_opening?: string | null;
-  favorite_player?: string | null;
 };
+
+type SocialTab = "profile" | "messages" | "friends" | "clubs" | "forum";
+
+type SocialTabConfig = {
+  id: SocialTab;
+  label: string;
+  icon: ComponentType<{ className?: string }>;
+};
+
+type MessageItem = {
+  from: string;
+  title: string;
+  snippet: string;
+  unread?: boolean;
+};
+
+type FriendItem = {
+  name: string;
+  status: string;
+};
+
+type ClubItem = {
+  name: string;
+  members: string;
+  topic: string;
+};
+
+type ForumTopic = {
+  title: string;
+  category: string;
+  replies: string;
+};
+
+const TABS: SocialTabConfig[] = [
+  { id: "profile", label: "Public profile", icon: UserCircle2 },
+  { id: "messages", label: "Messages", icon: MessageSquareMore },
+  { id: "friends", label: "Friends", icon: Users },
+  { id: "clubs", label: "Clubs", icon: Shield },
+  { id: "forum", label: "Forum", icon: Hash },
+];
+
+const SAMPLE_MESSAGES: MessageItem[] = [
+  {
+    from: "CoachMira",
+    title: "Nice win yesterday",
+    snippet: "Your king-side attack was sharp. Want to review the final position?",
+    unread: true,
+  },
+  {
+    from: "Club Admin",
+    title: "Weekend rapid event",
+    snippet: "We are running a 10+0 tournament on Saturday at 3 PM.",
+  },
+  {
+    from: "PuzzleBuddy",
+    title: "Study group invite",
+    snippet: "A few of us are doing endgame drills tonight if you want in.",
+  },
+];
+
+const SAMPLE_FRIENDS: FriendItem[] = [
+  { name: "Ava", status: "Online now" },
+  { name: "Noah", status: "Playing rapid" },
+  { name: "Mila", status: "Last seen 12m ago" },
+];
+
+const SAMPLE_CLUBS: ClubItem[] = [
+  {
+    name: "Tactical Tuesdays",
+    members: "248 members",
+    topic: "Weekly tactics battles and analysis",
+  },
+  {
+    name: "Endgame Lab",
+    members: "91 members",
+    topic: "King, pawn, and rook endgames",
+  },
+  {
+    name: "Weekend Blitzers",
+    members: "1.2k members",
+    topic: "Fast games, ladders, and arenas",
+  },
+];
+
+const SAMPLE_FORUM_TOPICS: ForumTopic[] = [
+  {
+    title: "Best way to convert extra piece endgames?",
+    category: "Endgames",
+    replies: "24 replies",
+  },
+  {
+    title: "Opening prep for the French defense",
+    category: "Openings",
+    replies: "18 replies",
+  },
+  {
+    title: "Show your favorite mating net",
+    category: "Middlegame",
+    replies: "41 replies",
+  },
+];
 
 function formatDateTime(value: string | null | undefined) {
   if (!value) return "—";
@@ -44,635 +136,349 @@ function formatDateTime(value: string | null | undefined) {
   }).format(date);
 }
 
-function formatNumber(value: number | null | undefined) {
-  if (value == null || Number.isNaN(value)) return "—";
-  return value.toLocaleString();
-}
-
-function formatAccuracy(value: number | null | undefined) {
-  if (value == null || Number.isNaN(value)) return "—";
-  const percentage = value <= 1 ? value * 100 : value;
-  return `${percentage.toFixed(1)}%`;
-}
-
-function buildAvatarFallback(username: string | null | undefined) {
-  const cleaned = username?.trim() || "P";
-  return cleaned.slice(0, 1).toUpperCase();
-}
-
-function getAvatarPathFromUrl(url: string | null | undefined) {
-  if (!url) return null;
-
-  const marker = "/storage/v1/object/public/avatars/";
-  const index = url.indexOf(marker);
-  if (index === -1) return null;
-
-  return decodeURIComponent(url.slice(index + marker.length));
-}
-
-export default function ProfilePage() {
+export function SocialRail() {
   const router = useRouter();
-  const params = useParams<{ username?: string }>();
-  const fileInputRef = useRef<HTMLInputElement | null>(null);
-
-  const usernameParam = useMemo(() => {
-    const raw = params?.username;
-    if (typeof raw !== "string") return "";
-    return raw.trim().toLowerCase();
-  }, [params]);
 
   const [session, setSession] = useState<Session | null>(null);
   const [profile, setProfile] = useState<ProfileRow | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
-  const [uploadingAvatar, setUploadingAvatar] = useState(false);
-  const [message, setMessage] = useState("");
-  const [editing, setEditing] = useState(false);
-  const [username, setUsername] = useState("");
-  const [avatarUrl, setAvatarUrl] = useState("");
-  const [bio, setBio] = useState("");
-  const [country, setCountry] = useState("");
-  const [favoriteOpening, setFavoriteOpening] = useState("");
-  const [favoritePlayer, setFavoritePlayer] = useState("");
-  const [copied, setCopied] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
+  const [activeTab, setActiveTab] = useState<SocialTab>("profile");
 
-  const isOwner = Boolean(session?.user.id && profile?.id === session.user.id);
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   useEffect(() => {
     let mounted = true;
 
-    const load = async () => {
-      setLoading(true);
-      setMessage("");
-
+    const loadSession = async () => {
       const { data } = await supabase.auth.getSession();
       const nextSession = data.session;
 
       if (!mounted) return;
+
       setSession(nextSession);
 
-      if (!usernameParam) {
+      if (!nextSession) {
         setProfile(null);
-        setLoading(false);
-        setMessage("Missing profile username.");
         return;
       }
 
-      const { data: row, error } = await supabase
+      const { data: row } = await supabase
         .from("profiles")
-        .select(
-          "id,username,created_at,last_seen,games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme,avatar_url,bio,country,favorite_opening,favorite_player",
-        )
-        .eq("username", usernameParam)
+        .select("username,created_at,last_seen")
+        .eq("id", nextSession.user.id)
         .maybeSingle();
 
       if (!mounted) return;
-
-      if (error) {
-        console.warn("Could not load profile:", error);
-        setProfile(null);
-        setLoading(false);
-        setMessage("Could not load this profile.");
-        return;
-      }
-
-      const nextProfile = (row as ProfileRow | null) ?? null;
-      setProfile(nextProfile);
-      setUsername(nextProfile?.username ?? "");
-      setAvatarUrl(nextProfile?.avatar_url ?? "");
-      setBio(nextProfile?.bio ?? "");
-      setCountry(nextProfile?.country ?? "");
-      setFavoriteOpening(nextProfile?.favorite_opening ?? "");
-      setFavoritePlayer(nextProfile?.favorite_player ?? "");
-      setEditing(false);
-      setLoading(false);
-
-      if (!nextProfile) {
-        setMessage("Profile not found.");
-      }
+      setProfile((row as ProfileRow | null) ?? null);
     };
 
-    void load();
+    void loadSession();
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
+
+      if (!nextSession) {
+        setProfile(null);
+        return;
+      }
+
+      void (async () => {
+        const { data: row } = await supabase
+          .from("profiles")
+          .select("username,created_at,last_seen")
+          .eq("id", nextSession.user.id)
+          .maybeSingle();
+
+        if (!mounted) return;
+        setProfile((row as ProfileRow | null) ?? null);
+      })();
     });
 
     return () => {
       mounted = false;
       subscription.unsubscribe();
     };
-  }, [usernameParam]);
+  }, []);
 
-  const uploadAvatar = async (file: File) => {
-    if (!profile || !session?.user) return;
+  const displayName =
+    session?.user.user_metadata?.username?.trim() ||
+    session?.user.email?.trim() ||
+    "Player";
 
-    const allowedTypes = ["image/png", "image/jpeg", "image/webp", "image/gif"];
-    if (!allowedTypes.includes(file.type)) {
-      setMessage("Please upload a PNG, JPG, WEBP, or GIF image.");
-      return;
-    }
+  const publicProfileUsername = profile?.username?.trim().toLowerCase() ?? "";
+  const canOpenProfile = Boolean(publicProfileUsername);
 
-    setUploadingAvatar(true);
-    setMessage("");
-
-    try {
-      const extension = file.name.split(".").pop()?.toLowerCase() || "png";
-      const safeExt = ["png", "jpg", "jpeg", "webp", "gif"].includes(extension)
-        ? extension
-        : "png";
-
-      const previousPath = getAvatarPathFromUrl(avatarUrl);
-      const path = `${session.user.id}/${Date.now()}.${safeExt}`;
-
-      const { error: uploadError } = await supabase.storage
-        .from("avatars")
-        .upload(path, file, {
-          cacheControl: "3600",
-          upsert: true,
-          contentType: file.type,
-        });
-
-      if (uploadError) throw uploadError;
-
-      const { data: publicData } = supabase.storage.from("avatars").getPublicUrl(path);
-      const nextUrl = publicData.publicUrl;
-
-      const { error: updateError } = await supabase
-        .from("profiles")
-        .update({ avatar_url: nextUrl })
-        .eq("id", profile.id);
-
-      if (updateError) throw updateError;
-
-      if (previousPath && previousPath !== path) {
-        await supabase.storage.from("avatars").remove([previousPath]);
-      }
-
-      setAvatarUrl(nextUrl);
-      setProfile((prev) => (prev ? { ...prev, avatar_url: nextUrl } : prev));
-      setMessage("Avatar updated.");
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        setMessage(err.message);
-      } else {
-        setMessage("Could not upload avatar.");
-      }
-    } finally {
-      setUploadingAvatar(false);
-    }
-  };
-
-  const saveProfile = async () => {
-    if (!profile || !session?.user) return;
-
-    setSaving(true);
-    setMessage("");
-
-    try {
-      const cleanedUsername = username.trim().toLowerCase();
-      const cleanedAvatarUrl = avatarUrl.trim();
-      const cleanedBio = bio.trim();
-      const cleanedCountry = country.trim();
-      const cleanedFavoriteOpening = favoriteOpening.trim();
-      const cleanedFavoritePlayer = favoritePlayer.trim();
-
-      if (!cleanedUsername) {
-        setMessage("Username cannot be empty.");
-        return;
-      }
-
-      if (cleanedUsername.length < 3) {
-        setMessage("Username must be at least 3 characters.");
-        return;
-      }
-
-      if (!/^[a-z0-9_]+$/.test(cleanedUsername)) {
-        setMessage("Use only letters, numbers, and underscores.");
-        return;
-      }
-
-      if (cleanedUsername !== profile.username?.trim().toLowerCase()) {
-        const { data: usernameTaken, error: usernameCheckError } = await supabase.rpc(
-          "is_username_taken",
-          {
-            p_username: cleanedUsername,
-          },
-        );
-
-        if (usernameCheckError) throw usernameCheckError;
-
-        if (usernameTaken) {
-          setMessage("Username is already taken.");
-          return;
-        }
-      }
-
-      const { error: authError } = await supabase.auth.updateUser({
-        data: { username: cleanedUsername },
-      });
-      if (authError) throw authError;
-
-      const { error: profileError } = await supabase
-        .from("profiles")
-        .update({
-          username: cleanedUsername,
-          avatar_url: cleanedAvatarUrl || null,
-          bio: cleanedBio || null,
-          country: cleanedCountry || null,
-          favorite_opening: cleanedFavoriteOpening || null,
-          favorite_player: cleanedFavoritePlayer || null,
-        })
-        .eq("id", profile.id);
-      if (profileError) throw profileError;
-
-      setProfile((prev) =>
-        prev
-          ? {
-              ...prev,
-              username: cleanedUsername,
-              avatar_url: cleanedAvatarUrl || null,
-              bio: cleanedBio || null,
-              country: cleanedCountry || null,
-              favorite_opening: cleanedFavoriteOpening || null,
-              favorite_player: cleanedFavoritePlayer || null,
-            }
-          : prev,
-      );
-      setEditing(false);
-      setMessage("Profile updated.");
-      router.replace(`/profile/${cleanedUsername}`);
-    } catch (err: unknown) {
-      if (err instanceof Error) {
-        setMessage(err.message);
-      } else {
-        setMessage("Something went wrong.");
-      }
-    } finally {
-      setSaving(false);
-    }
-  };
-
-  const shareProfile = async () => {
-    if (!profile?.username) return;
-
-    try {
-      await navigator.clipboard.writeText(
-        `${window.location.origin}/profile/${profile.username}`,
-      );
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 1500);
-    } catch {
-      setMessage("Could not copy link.");
-    }
-  };
-
-  const statCards = useMemo(
+  const counts = useMemo(
     () => [
-      {
-        label: "Games solved",
-        value: formatNumber(profile?.games_solved ?? 0),
-      },
-      {
-        label: "Current streak",
-        value: formatNumber(profile?.current_streak),
-      },
-      {
-        label: "Longest streak",
-        value: formatNumber(profile?.longest_streak),
-      },
-      {
-        label: "Puzzle rating",
-        value: formatNumber(profile?.puzzle_rating),
-      },
-      {
-        label: "Accuracy",
-        value: formatAccuracy(profile?.accuracy),
-      },
-      {
-        label: "Favorite theme",
-        value: profile?.favorite_theme?.trim() || "—",
-      },
+      { label: "Messages", value: "3" },
+      { label: "Friends", value: "28" },
+      { label: "Clubs", value: "4" },
+      { label: "Forum posts", value: "17" },
     ],
-    [profile],
+    [],
   );
 
-  if (loading) {
-    return (
-      <main className="min-h-screen bg-slate-950 px-4 py-10 text-slate-100">
-        <div className="mx-auto max-w-5xl rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          Loading profile...
-        </div>
-      </main>
-    );
-  }
+  const handleOpenProfile = () => {
+    if (!canOpenProfile) return;
+    router.push(`/profile/${publicProfileUsername}`);
+    setOpen(false);
+  };
 
-  if (!profile) {
-    return (
-      <main className="min-h-screen bg-slate-950 px-4 py-10 text-slate-100">
-        <div className="mx-auto max-w-5xl rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="text-sm uppercase tracking-wide text-slate-400">
-            Profile
-          </div>
-          <h1 className="mt-2 text-3xl font-semibold">Profile not found</h1>
-          <p className="mt-3 text-slate-400">
-            {message || "That profile does not exist."}
-          </p>
-          <button
-            onClick={() => router.push("/")}
-            className="mt-6 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white"
-          >
-            Go home
-          </button>
-        </div>
-      </main>
-    );
-  }
-
-  const avatarFallback = buildAvatarFallback(profile.username);
-
-  return (
-    <main className="min-h-screen bg-slate-950 px-4 py-10 text-slate-100">
-      <div className="mx-auto max-w-5xl space-y-6">
-        <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-5">
-              <button
-                type="button"
-                onClick={() => isOwner && editing && fileInputRef.current?.click()}
-                className={`flex h-24 w-24 items-center justify-center overflow-hidden rounded-3xl border border-slate-800 bg-slate-950 text-3xl font-semibold text-slate-100 transition ${
-                  isOwner && editing ? "cursor-pointer hover:ring-2 hover:ring-slate-500" : "cursor-default"
-                }`}
-                aria-label={isOwner && editing ? "Change avatar" : "Profile avatar"}
-              >
-                {profile.avatar_url ? (
-                  <img
-                    src={profile.avatar_url}
-                    alt={`${profile.username} avatar`}
-                    className="h-full w-full object-cover"
-                  />
-                ) : (
-                  avatarFallback
-                )}
-              </button>
-
-              <div>
-                <div className="text-sm uppercase tracking-wide text-slate-400">
-                  Public profile
-                </div>
-                <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-5xl">
-                  {profile.username}
-                </h1>
-                <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400 sm:text-base">
-                  This profile is visible to everyone. Only the owner can edit the
-                  account details.
-                </p>
-
-                <div className="mt-4 flex flex-wrap gap-2 text-sm text-slate-300">
-                  {profile.country ? (
-                    <span className="inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-950/60 px-3 py-1">
-                      <Shield className="h-4 w-4" />
-                      {profile.country}
-                    </span>
-                  ) : null}
-                  {profile.favorite_opening ? (
-                    <span className="rounded-full border border-slate-800 bg-slate-950/60 px-3 py-1">
-                      {profile.favorite_opening}
-                    </span>
-                  ) : null}
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={shareProfile}
-                className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
-              >
-                {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
-                {copied ? "Copied" : "Copy link"}
-              </button>
-
-              {isOwner && !editing ? (
-                <button
-                  onClick={() => setEditing(true)}
-                  className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-2 text-sm font-medium text-slate-950 transition hover:bg-white"
-                >
-                  <PencilLine className="h-4 w-4" />
-                  Edit profile
-                </button>
-              ) : null}
-            </div>
-          </div>
-
-          <div className="mt-6 grid gap-3 text-sm sm:grid-cols-3">
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <div className="text-slate-500">Joined</div>
-              <div className="mt-1 font-medium text-slate-100">
-                {formatDateTime(profile.created_at)}
-              </div>
-            </div>
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <div className="text-slate-500">Last seen</div>
-              <div className="mt-1 font-medium text-slate-100">
-                {formatDateTime(profile.last_seen)}
-              </div>
-            </div>
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <div className="text-slate-500">Public status</div>
-              <div className="mt-1 font-medium text-slate-100">Visible to all</div>
-            </div>
-          </div>
-        </section>
-
-        {profile.bio ? (
-          <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-lg">
-            <div className="text-sm uppercase tracking-wide text-slate-400">
-              Bio
-            </div>
-            <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">
-              {profile.bio}
-            </p>
-          </section>
-        ) : null}
-
-        {editing && isOwner ? (
-          <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-lg">
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="image/png,image/jpeg,image/webp,image/gif"
-              className="hidden"
-              onChange={(e) => {
-                const file = e.target.files?.[0];
-                if (file) void uploadAvatar(file);
-                e.target.value = "";
-              }}
+  const panel =
+    open && hydrated
+      ? createPortal(
+          <>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="fixed inset-0 z-[60] bg-black/40"
+              aria-label="Close social panel"
             />
 
-            <div className="flex items-center justify-between gap-4">
-              <div>
+            <aside className="fixed left-[88px] top-[104px] z-[70] w-[420px] max-w-[calc(100vw-112px)] rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
+              <div className="flex items-center justify-between">
                 <div className="text-sm uppercase tracking-wide text-slate-400">
-                  Edit profile
+                  Social
                 </div>
-                <h2 className="mt-1 text-xl font-semibold">Owner controls</h2>
-              </div>
-              <button
-                onClick={() => {
-                  setEditing(false);
-                  setUsername(profile.username ?? "");
-                  setAvatarUrl(profile.avatar_url ?? "");
-                  setBio(profile.bio ?? "");
-                  setCountry(profile.country ?? "");
-                  setFavoriteOpening(profile.favorite_opening ?? "");
-                  setFavoritePlayer(profile.favorite_player ?? "");
-                }}
-                className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2 text-sm text-slate-100 transition hover:bg-slate-800"
-              >
-                <X className="h-4 w-4" />
-                Cancel
-              </button>
-            </div>
-
-            <div className="mt-4 grid gap-4">
-              <div>
-                <label className="mb-2 block text-sm text-slate-300">
-                  Username
-                </label>
-                <input
-                  type="text"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                  placeholder="new_username"
-                />
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm text-slate-300">
-                  Avatar URL
-                </label>
-                <div className="flex gap-3">
-                  <input
-                    type="text"
-                    value={avatarUrl}
-                    onChange={(e) => setAvatarUrl(e.target.value)}
-                    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                    placeholder="https://..."
-                  />
-                  <button
-                    type="button"
-                    onClick={() => fileInputRef.current?.click()}
-                    disabled={uploadingAvatar}
-                    className="flex h-12 w-12 flex-none items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-slate-300 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
-                    aria-label="Upload avatar image"
-                  >
-                    <ImagePlus className="h-5 w-5" />
-                  </button>
-                </div>
-                <p className="mt-2 text-xs text-slate-500">
-                  {uploadingAvatar
-                    ? "Uploading avatar..."
-                    : "Click the icon to upload an image to Supabase Storage."}
-                </p>
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm text-slate-300">Bio</label>
-                <textarea
-                  value={bio}
-                  onChange={(e) => setBio(e.target.value)}
-                  rows={4}
-                  className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                  placeholder="Tell people a little about your chess style..."
-                />
-              </div>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div>
-                  <label className="mb-2 block text-sm text-slate-300">
-                    Country
-                  </label>
-                  <input
-                    type="text"
-                    value={country}
-                    onChange={(e) => setCountry(e.target.value)}
-                    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                    placeholder="United States"
-                  />
-                </div>
-                <div>
-                  <label className="mb-2 block text-sm text-slate-300">
-                    Favorite opening
-                  </label>
-                  <input
-                    type="text"
-                    value={favoriteOpening}
-                    onChange={(e) => setFavoriteOpening(e.target.value)}
-                    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                    placeholder="Sicilian Defense"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm text-slate-300">
-                  Favorite player
-                </label>
-                <input
-                  type="text"
-                  value={favoritePlayer}
-                  onChange={(e) => setFavoritePlayer(e.target.value)}
-                  className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                  placeholder="Magnus Carlsen"
-                />
-              </div>
-
-              <div className="flex flex-wrap gap-3">
                 <button
-                  onClick={saveProfile}
-                  disabled={saving}
-                  className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  className="rounded-xl p-1 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100"
+                  aria-label="Close social panel"
                 >
-                  <Save className="h-4 w-4" />
-                  {saving ? "Saving..." : "Save changes"}
+                  <X className="h-5 w-5" />
                 </button>
               </div>
-            </div>
-          </section>
-        ) : null}
 
-        <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {statCards.map((card) => (
-            <div
-              key={card.label}
-              className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg"
-            >
-              <div className="text-sm text-slate-500">{card.label}</div>
-              <div className="mt-2 text-2xl font-semibold text-slate-100">
-                {card.value}
-              </div>
-            </div>
-          ))}
-        </section>
+              {!session ? (
+                <div className="mt-4 space-y-4">
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                    Sign in to use public profile, messages, friends, clubs, and
+                    forum features.
+                  </div>
 
-        <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-lg">
-          <div className="text-sm uppercase tracking-wide text-slate-400">
-            Notes
-          </div>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
-            This adds the first profile identity layer: avatar upload, bio,
-            country, favorite opening, and favorite player.
-          </p>
-          {message ? (
-            <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-300">
-              {message}
-            </div>
-          ) : null}
-        </section>
+                  <button
+                    onClick={() => router.push("/signup")}
+                    className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
+                  >
+                    Log in / Sign up
+                  </button>
+                </div>
+              ) : (
+                <div className="mt-4 space-y-4">
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+                    {counts.map((item) => (
+                      <div
+                        key={item.label}
+                        className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3"
+                      >
+                        <div className="text-xs text-slate-500">{item.label}</div>
+                        <div className="mt-1 text-lg font-semibold text-slate-100">
+                          {item.value}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="flex flex-wrap gap-2">
+                    {TABS.map((tab) => {
+                      const Icon = tab.icon;
+                      const active = activeTab === tab.id;
+
+                      return (
+                        <button
+                          key={tab.id}
+                          type="button"
+                          onClick={() => setActiveTab(tab.id)}
+                          className={`inline-flex items-center gap-2 rounded-2xl border px-3 py-2 text-sm transition ${
+                            active
+                              ? "border-slate-100 bg-slate-100 text-slate-950"
+                              : "border-slate-800 bg-slate-950/60 text-slate-200 hover:bg-slate-800"
+                          }`}
+                        >
+                          <Icon className="h-4 w-4" />
+                          {tab.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {activeTab === "profile" ? (
+                    <div className="space-y-4">
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                        <div className="text-sm text-slate-400">Public profile</div>
+                        <div className="mt-1 text-xl font-semibold text-slate-100">
+                          {displayName}
+                        </div>
+                        <div className="mt-1 text-sm text-slate-500">
+                          {session.user.email}
+                        </div>
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                          <div className="text-slate-500">Joined</div>
+                          <div className="mt-1 font-medium text-slate-100">
+                            {formatDateTime(profile?.created_at ?? session.user.created_at)}
+                          </div>
+                        </div>
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                          <div className="text-slate-500">Last seen</div>
+                          <div className="mt-1 font-medium text-slate-100">
+                            {formatDateTime(profile?.last_seen)}
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
+                        This section can eventually edit avatar, bio, links, and
+                        privacy controls.
+                      </div>
+
+                      <button
+                        type="button"
+                        onClick={handleOpenProfile}
+                        disabled={!canOpenProfile}
+                        className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                      >
+                        Open full profile
+                        <ArrowRight className="h-4 w-4" />
+                      </button>
+                    </div>
+                  ) : null}
+
+                  {activeTab === "messages" ? (
+                    <div className="space-y-3">
+                      {SAMPLE_MESSAGES.map((message) => (
+                        <div
+                          key={`${message.from}-${message.title}`}
+                          className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                        >
+                          <div className="flex items-start justify-between gap-3">
+                            <div>
+                              <div className="font-medium text-slate-100">
+                                {message.title}
+                              </div>
+                              <div className="text-sm text-slate-500">
+                                From {message.from}
+                              </div>
+                            </div>
+                            {message.unread ? (
+                              <span className="rounded-full bg-blue-500/15 px-2 py-1 text-xs text-blue-300">
+                                New
+                              </span>
+                            ) : null}
+                          </div>
+                          <p className="mt-3 text-sm leading-6 text-slate-300">
+                            {message.snippet}
+                          </p>
+                        </div>
+                      ))}
+
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
+                        Connect this to your inbox table later.
+                      </div>
+                    </div>
+                  ) : null}
+
+                  {activeTab === "friends" ? (
+                    <div className="space-y-3">
+                      {SAMPLE_FRIENDS.map((friend) => (
+                        <div
+                          key={friend.name}
+                          className="flex items-center justify-between rounded-2xl border border-slate-800 bg-slate-950/60 px-4 py-3"
+                        >
+                          <div>
+                            <div className="font-medium text-slate-100">
+                              {friend.name}
+                            </div>
+                            <div className="text-sm text-slate-500">
+                              {friend.status}
+                            </div>
+                          </div>
+                          <button className="rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-100 transition hover:bg-slate-800">
+                            View
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+
+                  {activeTab === "clubs" ? (
+                    <div className="space-y-3">
+                      {SAMPLE_CLUBS.map((club) => (
+                        <div
+                          key={club.name}
+                          className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                        >
+                          <div className="flex items-start justify-between gap-3">
+                            <div>
+                              <div className="font-medium text-slate-100">
+                                {club.name}
+                              </div>
+                              <div className="text-sm text-slate-500">
+                                {club.members}
+                              </div>
+                            </div>
+                            <UsersRound className="h-5 w-5 text-slate-500" />
+                          </div>
+                          <div className="mt-3 text-sm leading-6 text-slate-300">
+                            {club.topic}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+
+                  {activeTab === "forum" ? (
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950/60 p-3 text-sm text-slate-400">
+                        <Bell className="h-4 w-4" />
+                        Trending topics from the forum
+                      </div>
+
+                      {SAMPLE_FORUM_TOPICS.map((topic) => (
+                        <div
+                          key={topic.title}
+                          className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                        >
+                          <div className="font-medium text-slate-100">
+                            {topic.title}
+                          </div>
+                          <div className="mt-1 text-sm text-slate-500">
+                            {topic.category} · {topic.replies}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </div>
+              )}
+            </aside>
+          </>,
+          document.body,
+        )
+      : null;
+
+  return (
+    <div className="relative z-20">
+      <div className="flex w-[72px] flex-col items-center rounded-3xl border border-slate-800 bg-slate-900/80 py-4 shadow-lg">
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-slate-100 transition hover:bg-slate-800"
+          aria-label="Open social panel"
+        >
+          <MessageSquareMore className="h-6 w-6" />
+        </button>
       </div>
-    </main>
+
+      {panel}
+    </div>
   );
 }
