@@ -3,12 +3,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { Chess, type Square } from "chess.js";
 import { Chessboard } from "react-chessboard";
+import { Session } from "@supabase/supabase-js";
 import {
   CheckCircle2,
   ChevronRight,
   RefreshCw,
   Shuffle,
 } from "lucide-react";
+import { supabase } from "@/lib/supabase";
 
 type RawPuzzle = {
   fen: string;
@@ -200,6 +202,8 @@ function interleavePuzzleGroups(groups: Puzzle[][]) {
 }
 
 export default function Page() {
+  const [session, setSession] = useState<Session | null>(null);
+
   const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([
     CATEGORIES[0].id,
   ]);
@@ -231,6 +235,28 @@ export default function Page() {
 
   const puzzle = puzzles[index];
   const boardOrientation = userColor === "w" ? "white" : "black";
+
+  useEffect(() => {
+    const loadSession = async () => {
+      const { data } = await supabase.auth.getSession();
+      setSession(data.session);
+    };
+
+    void loadSession();
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      setSession(nextSession);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setSession(null);
+  };
 
   const resetPuzzle = (fen?: string) => {
     const targetFen = fen ?? puzzle?.fen;
@@ -461,6 +487,11 @@ export default function Page() {
     return moved;
   };
 
+  const displayName =
+    session?.user.user_metadata?.username?.trim() ||
+    session?.user.email?.trim() ||
+    "Account";
+
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto max-w-6xl px-4 py-6 md:py-10">
@@ -477,12 +508,27 @@ export default function Page() {
             </p>
 
             <div className="mt-4 flex flex-wrap gap-2">
-              <a
-                href="/signup"
-                className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
-              >
-                Log in / Sign up
-              </a>
+              {session ? (
+                <>
+                  <div className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100">
+                    {displayName}
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleLogout}
+                    className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+                  >
+                    Log out
+                  </button>
+                </>
+              ) : (
+                <a
+                  href="/signup"
+                  className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+                >
+                  Log in / Sign up
+                </a>
+              )}
             </div>
 
             <div className="mt-4">
