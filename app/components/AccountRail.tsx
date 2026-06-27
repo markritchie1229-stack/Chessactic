@@ -71,17 +71,21 @@ export function AccountRail() {
         return;
       }
 
-      const { data: existing, error: checkError } = await supabase
-        .from("profiles")
-        .select("id")
-        .eq("username", cleaned)
-        .maybeSingle();
+      const currentUsername =
+        session?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
 
-      if (checkError) throw checkError;
+      if (cleaned !== currentUsername) {
+        const { data: usernameTaken, error: usernameCheckError } =
+          await supabase.rpc("is_username_taken", {
+            p_username: cleaned,
+          });
 
-      if (existing && existing.id !== user.id) {
-        setMessage("That username is already taken.");
-        return;
+        if (usernameCheckError) throw usernameCheckError;
+
+        if (usernameTaken) {
+          setMessage("Username is already taken.");
+          return;
+        }
       }
 
       const { error: authError } = await supabase.auth.updateUser({
@@ -100,8 +104,13 @@ export function AccountRail() {
       const { data: refreshed } = await supabase.auth.getSession();
       setSession(refreshed.session);
       setMessage("Username updated.");
-    } catch (err: unknown) {
-      setMessage(err instanceof Error ? err.message : "Something went wrong.");
+    } catch (err: any) {
+      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(err?.message ?? "Something went wrong.");
     } finally {
       setSaving(false);
     }

@@ -39,6 +39,18 @@ export default function SignUpPage() {
           return;
         }
 
+        const { data: usernameTaken, error: usernameCheckError } =
+          await supabase.rpc("is_username_taken", {
+            p_username: cleanUsername,
+          });
+
+        if (usernameCheckError) throw usernameCheckError;
+
+        if (usernameTaken) {
+          setMessage("Username is already taken.");
+          return;
+        }
+
         const { error } = await supabase.auth.signUp({
           email: cleanEmail,
           password,
@@ -66,12 +78,9 @@ export default function SignUpPage() {
         let emailToUse = rawLogin.toLowerCase();
 
         if (!rawLogin.includes("@")) {
-          const { data, error } = await supabase.rpc(
-            "get_email_by_username",
-            {
-              p_username: rawLogin.toLowerCase(),
-            }
-          );
+          const { data, error } = await supabase.rpc("get_email_by_username", {
+            p_username: rawLogin.toLowerCase(),
+          });
 
           if (error) throw error;
 
@@ -93,10 +102,13 @@ export default function SignUpPage() {
         router.push("/");
         router.refresh();
       }
-    } catch (error: unknown) {
-      const text =
-        error instanceof Error ? error.message : "Something went wrong.";
-      setMessage(text);
+    } catch (err: any) {
+      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(err?.message ?? "Something went wrong.");
     } finally {
       setLoading(false);
     }
@@ -125,12 +137,13 @@ export default function SignUpPage() {
       if (error) throw error;
 
       setMessage("Confirmation email sent. Check your inbox.");
-    } catch (error: unknown) {
-      const text =
-        error instanceof Error
-          ? error.message
-          : "Unable to resend confirmation email.";
-      setMessage(text);
+    } catch (err: any) {
+      if (err?.code === "23505" || err?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(err?.message ?? "Unable to resend confirmation email.");
     } finally {
       setLoading(false);
     }
@@ -207,7 +220,10 @@ export default function SignUpPage() {
           ) : null}
 
           <div>
-            <label htmlFor="password" className="mb-2 block text-sm text-slate-300">
+            <label
+              htmlFor="password"
+              className="mb-2 block text-sm text-slate-300"
+            >
               Password
             </label>
             <input
