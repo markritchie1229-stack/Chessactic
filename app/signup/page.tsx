@@ -19,6 +19,25 @@ export default function SignUpPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
+  const resolveEmail = async (identifier: string) => {
+    const res = await fetch("/api/auth/resolve-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ identifier }),
+      cache: "no-store",
+    });
+
+    const data = (await res.json()) as { email?: string; error?: string };
+
+    if (!res.ok) {
+      throw new Error(data.error ?? "Unable to resolve login identifier.");
+    }
+
+    return data.email ?? "";
+  };
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -63,26 +82,7 @@ export default function SignUpPage() {
           return;
         }
 
-        let emailToUse = rawLogin.toLowerCase();
-
-        if (!rawLogin.includes("@")) {
-          const normalizedUsername = rawLogin.toLowerCase();
-
-          const { data, error } = await supabase
-            .from("profiles")
-            .select("email")
-            .eq("username", normalizedUsername)
-            .maybeSingle();
-
-          if (error) throw error;
-
-          emailToUse = data?.email?.trim().toLowerCase() ?? "";
-
-          if (!emailToUse) {
-            setMessage("That username was not found.");
-            return;
-          }
-        }
+        const emailToUse = await resolveEmail(rawLogin);
 
         const { error } = await supabase.auth.signInWithPassword({
           email: emailToUse,
@@ -191,10 +191,7 @@ export default function SignUpPage() {
 
           {mode === "signup" ? (
             <div>
-              <label
-                htmlFor="email"
-                className="mb-2 block text-sm text-slate-300"
-              >
+              <label htmlFor="email" className="mb-2 block text-sm text-slate-300">
                 Email
               </label>
               <input
@@ -211,10 +208,7 @@ export default function SignUpPage() {
           ) : null}
 
           <div>
-            <label
-              htmlFor="password"
-              className="mb-2 block text-sm text-slate-300"
-            >
+            <label htmlFor="password" className="mb-2 block text-sm text-slate-300">
               Password
             </label>
             <input
