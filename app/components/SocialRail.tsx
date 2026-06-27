@@ -13,6 +13,7 @@ import {
   UserCircle2,
   Shield,
   X,
+  ArrowRight,
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
@@ -209,6 +210,9 @@ export function SocialRail() {
     session?.user.email?.trim() ||
     "Player";
 
+  const publicProfileUsername = profile?.username?.trim().toLowerCase() ?? "";
+  const canOpenProfile = Boolean(publicProfileUsername);
+
   const counts = useMemo(
     () => [
       { label: "Messages", value: "3" },
@@ -218,6 +222,12 @@ export function SocialRail() {
     ],
     [],
   );
+
+  const handleOpenProfile = () => {
+    if (!canOpenProfile) return;
+    router.push(`/profile/${publicProfileUsername}`);
+    setOpen(false);
+  };
 
   const panel =
     open && hydrated
@@ -248,7 +258,8 @@ export function SocialRail() {
               {!session ? (
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                    Sign in to use public profile, messages, friends, clubs, and forum features.
+                    Sign in to use public profile, messages, friends, clubs, and forum
+                    features.
                   </div>
 
                   <button
@@ -325,8 +336,19 @@ export function SocialRail() {
                       </div>
 
                       <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
-                        This section can eventually edit avatar, bio, links, and privacy controls.
+                        This section can eventually edit avatar, bio, links, and privacy
+                        controls.
                       </div>
+
+                      <button
+                        type="button"
+                        onClick={handleOpenProfile}
+                        disabled={!canOpenProfile}
+                        className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                      >
+                        Open full profile
+                        <ArrowRight className="h-4 w-4" />
+                      </button>
                     </div>
                   ) : null}
 
