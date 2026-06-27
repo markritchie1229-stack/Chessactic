@@ -3,14 +3,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { Chess, type Square } from "chess.js";
 import { Chessboard } from "react-chessboard";
-import { Session } from "@supabase/supabase-js";
 import {
   CheckCircle2,
   ChevronRight,
   RefreshCw,
   Shuffle,
 } from "lucide-react";
-import { supabase } from "@/lib/supabase";
+import { AccountSidebar } from "./components/AccountSidebar";
 
 type RawPuzzle = {
   fen: string;
@@ -202,8 +201,6 @@ function interleavePuzzleGroups(groups: Puzzle[][]) {
 }
 
 export default function Page() {
-  const [session, setSession] = useState<Session | null>(null);
-
   const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([
     CATEGORIES[0].id,
   ]);
@@ -236,28 +233,6 @@ export default function Page() {
   const puzzle = puzzles[index];
   const boardOrientation = userColor === "w" ? "white" : "black";
 
-  useEffect(() => {
-    const loadSession = async () => {
-      const { data } = await supabase.auth.getSession();
-      setSession(data.session);
-    };
-
-    void loadSession();
-
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession);
-    });
-
-    return () => subscription.unsubscribe();
-  }, []);
-
-  const handleLogout = async () => {
-    await supabase.auth.signOut();
-    setSession(null);
-  };
-
   const resetPuzzle = (fen?: string) => {
     const targetFen = fen ?? puzzle?.fen;
     if (!targetFen) return;
@@ -282,7 +257,6 @@ export default function Page() {
     setSelectedCategoryIds((prev) => {
       const exists = prev.includes(id);
       const next = exists ? prev.filter((x) => x !== id) : [...prev, id];
-
       return next.length > 0 ? next : prev;
     });
   };
@@ -433,7 +407,9 @@ export default function Page() {
 
       if (nextIndex >= puzzle.playableLine.length) {
         setSolved(true);
-        setMessage(`Correct. ${puzzle.san ?? puzzle.solution} completes the line.`);
+        setMessage(
+          `Correct. ${puzzle.san ?? puzzle.solution} completes the line.`
+        );
       } else {
         setMessage("Correct.");
       }
@@ -487,14 +463,9 @@ export default function Page() {
     return moved;
   };
 
-  const displayName =
-    session?.user.user_metadata?.username?.trim() ||
-    session?.user.email?.trim() ||
-    "Account";
-
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto max-w-6xl px-4 py-6 md:py-10">
+      <div className="mx-auto max-w-7xl px-4 py-6 md:py-10">
         <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900 px-3 py-1 text-sm text-slate-300">
@@ -507,33 +478,8 @@ export default function Page() {
               Pick one or more categories, then solve puzzles one by one.
             </p>
 
-            <div className="mt-4 flex flex-wrap gap-2">
-              {session ? (
-                <>
-                  <div className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100">
-                    {displayName}
-                  </div>
-                  <button
-                    type="button"
-                    onClick={handleLogout}
-                    className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
-                  >
-                    Log out
-                  </button>
-                </>
-              ) : (
-                <a
-                  href="/signup"
-                  className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
-                >
-                  Log in / Sign up
-                </a>
-              )}
-            </div>
-
             <div className="mt-4">
               <div className="mb-2 text-sm text-slate-400">Mix categories:</div>
-
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {categoryOptions.map((option) => {
                   const active =
@@ -587,7 +533,11 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1.1fr)_minmax(320px,0.9fr)]">
+        <div className="grid gap-6 lg:grid-cols-[300px_minmax(0,1.05fr)_360px]">
+          <div className="lg:sticky lg:top-6 self-start">
+            <AccountSidebar />
+          </div>
+
           <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-2xl shadow-black/20">
             <div className="w-full max-w-[640px]">
               {game ? (
