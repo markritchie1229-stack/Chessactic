@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import { UserCircle2, X } from "lucide-react";
@@ -30,6 +31,7 @@ export function AccountRail() {
 
   const [session, setSession] = useState<Session | null>(null);
   const [open, setOpen] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
   const [username, setUsername] = useState("");
   const [joinedAt, setJoinedAt] = useState<string | null>(null);
   const [lastLoginAt, setLastLoginAt] = useState<string | null>(null);
@@ -49,6 +51,10 @@ export function AccountRail() {
       setLastSeenAt(nowIso);
     }
   };
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   useEffect(() => {
     let mounted = true;
@@ -244,8 +250,121 @@ export function AccountRail() {
     session?.user.email?.trim() ||
     "Account";
 
+  const panel =
+    open && hydrated
+      ? createPortal(
+          <>
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="fixed inset-0 z-[60] bg-black/40"
+              aria-label="Close account panel"
+            />
+
+            <aside className="fixed left-[88px] top-6 z-[70] w-[320px] rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
+              <div className="flex items-center justify-between">
+                <div className="text-sm uppercase tracking-wide text-slate-400">
+                  Account
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  className="rounded-xl p-1 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100"
+                  aria-label="Close account panel"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
+
+              {session ? (
+                <div className="mt-4 space-y-4">
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                    <div className="text-sm text-slate-400">Signed in as</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {displayName}
+                    </div>
+                    <div className="mt-1 text-sm text-slate-500">
+                      {session.user.email}
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-3 text-sm">
+                    <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                      <div className="text-slate-500">Joined</div>
+                      <div className="mt-1 font-medium text-slate-100">
+                        {formatDateTime(joinedAt)}
+                      </div>
+                    </div>
+                    <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                      <div className="text-slate-500">Last login</div>
+                      <div className="mt-1 font-medium text-slate-100">
+                        {formatDateTime(lastLoginAt)}
+                      </div>
+                    </div>
+                    <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                      <div className="text-slate-500">Last seen</div>
+                      <div className="mt-1 font-medium text-slate-100">
+                        {formatDateTime(lastSeenAt)}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="mb-2 block text-sm text-slate-300">
+                      Username
+                    </label>
+                    <input
+                      type="text"
+                      value={username}
+                      onChange={(e) => setUsername(e.target.value)}
+                      className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                      placeholder="new_username"
+                    />
+                  </div>
+
+                  <button
+                    onClick={handleSaveUsername}
+                    disabled={saving}
+                    className="w-full rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    {saving ? "Saving..." : "Save username"}
+                  </button>
+
+                  <button
+                    onClick={handleLogout}
+                    className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 font-medium text-slate-100 transition hover:bg-slate-800"
+                  >
+                    Log out
+                  </button>
+
+                  {message ? (
+                    <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-300">
+                      {message}
+                    </div>
+                  ) : null}
+                </div>
+              ) : (
+                <div className="mt-4 space-y-4">
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                    You are not logged in.
+                  </div>
+
+                  <button
+                    onClick={() => router.push("/signup")}
+                    className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
+                  >
+                    Log in / Sign up
+                  </button>
+                </div>
+              )}
+            </aside>
+          </>,
+          document.body,
+        )
+      : null;
+
   return (
-    <div className="relative">
+    <div className="relative z-20">
       <div className="flex w-[72px] flex-col items-center rounded-3xl border border-slate-800 bg-slate-900/80 py-4 shadow-lg">
         <button
           type="button"
@@ -257,114 +376,7 @@ export function AccountRail() {
         </button>
       </div>
 
-      {open ? (
-        <>
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            className="fixed inset-0 z-40 bg-black/40"
-            aria-label="Close account panel"
-          />
-
-          <aside className="fixed left-[88px] top-6 z-50 w-[320px] rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
-            <div className="flex items-center justify-between">
-              <div className="text-sm uppercase tracking-wide text-slate-400">
-                Account
-              </div>
-              <button
-                type="button"
-                onClick={() => setOpen(false)}
-                className="rounded-xl p-1 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100"
-                aria-label="Close account panel"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-
-            {session ? (
-              <div className="mt-4 space-y-4">
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                  <div className="text-sm text-slate-400">Signed in as</div>
-                  <div className="mt-1 font-medium text-slate-100">
-                    {displayName}
-                  </div>
-                  <div className="mt-1 text-sm text-slate-500">
-                    {session.user.email}
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 gap-3 text-sm">
-                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                    <div className="text-slate-500">Joined</div>
-                    <div className="mt-1 font-medium text-slate-100">
-                      {formatDateTime(joinedAt)}
-                    </div>
-                  </div>
-                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                    <div className="text-slate-500">Last login</div>
-                    <div className="mt-1 font-medium text-slate-100">
-                      {formatDateTime(lastLoginAt)}
-                    </div>
-                  </div>
-                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                    <div className="text-slate-500">Last seen</div>
-                    <div className="mt-1 font-medium text-slate-100">
-                      {formatDateTime(lastSeenAt)}
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm text-slate-300">
-                    Username
-                  </label>
-                  <input
-                    type="text"
-                    value={username}
-                    onChange={(e) => setUsername(e.target.value)}
-                    className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                    placeholder="new_username"
-                  />
-                </div>
-
-                <button
-                  onClick={handleSaveUsername}
-                  disabled={saving}
-                  className="w-full rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
-                >
-                  {saving ? "Saving..." : "Save username"}
-                </button>
-
-                <button
-                  onClick={handleLogout}
-                  className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 font-medium text-slate-100 transition hover:bg-slate-800"
-                >
-                  Log out
-                </button>
-
-                {message ? (
-                  <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-300">
-                    {message}
-                  </div>
-                ) : null}
-              </div>
-            ) : (
-              <div className="mt-4 space-y-4">
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                  You are not logged in.
-                </div>
-
-                <button
-                  onClick={() => router.push("/signup")}
-                  className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
-                >
-                  Log in / Sign up
-                </button>
-              </div>
-            )}
-          </aside>
-        </>
-      ) : null}
+      {panel}
     </div>
   );
 }
