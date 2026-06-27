@@ -10,6 +10,7 @@ import {
   Shuffle,
 } from "lucide-react";
 import { AccountRail } from "./components/AccountRail";
+import { supabase } from "@/lib/supabase";
 
 type RawPuzzle = {
   fen: string;
@@ -32,6 +33,7 @@ type Puzzle = {
   difficulty?: number;
   categoryId: string;
   categoryLabel: string;
+  puzzleKey: string;
 };
 
 type Category = {
@@ -172,6 +174,7 @@ function normalizePuzzle(raw: RawPuzzle, category: Category): Puzzle {
     difficulty: raw.difficulty,
     categoryId: category.id,
     categoryLabel: category.label,
+    puzzleKey: `${category.id}|${raw.fen}|${raw.solution}`,
   };
 }
 
@@ -232,6 +235,38 @@ export default function Page() {
 
   const puzzle = puzzles[index];
   const boardOrientation = userColor === "w" ? "white" : "black";
+
+  const recordSolvedPuzzle = async (p: Puzzle) => {
+    try {
+      const { data } = await supabase.auth.getSession();
+      const user = data.session?.user;
+
+      if (!user) return;
+
+      const { data: didInsert, error } = await supabase.rpc(
+        "register_solved_puzzle",
+        {
+          p_user_id: user.id,
+          p_puzzle_key: p.puzzleKey,
+          p_category_id: p.categoryId,
+          p_fen: p.fen,
+          p_solution: p.solution,
+        }
+      );
+
+      if (error) throw error;
+
+      if (didInsert) {
+        window.dispatchEvent(
+          new CustomEvent("profile-metrics-updated", {
+            detail: { gamesSolvedDelta: 1 },
+          })
+        );
+      }
+    } catch (err) {
+      console.warn("Could not record solved puzzle:", err);
+    }
+  };
 
   const resetPuzzle = (fen?: string) => {
     const targetFen = fen ?? puzzle?.fen;
@@ -410,6 +445,7 @@ export default function Page() {
         setMessage(
           `Correct. ${puzzle.san ?? puzzle.solution} completes the line.`
         );
+        void recordSolvedPuzzle(puzzle);
       } else {
         setMessage("Correct.");
       }

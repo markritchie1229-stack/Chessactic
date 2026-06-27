@@ -112,7 +112,10 @@ export default function SignUpPage() {
             .eq("id", userId);
 
           if (activityError) {
-            console.warn("Could not update login timestamps:", activityError.message);
+            console.warn(
+              "Could not update login timestamps:",
+              activityError.message
+            );
           }
         }
 

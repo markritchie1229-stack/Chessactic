@@ -12,6 +12,7 @@ type ProfileRow = {
   created_at: string | null;
   last_login: string | null;
   last_seen: string | null;
+  games_solved: number | null;
 };
 
 function formatDateTime(value: string | null) {
@@ -34,6 +35,7 @@ export function AccountRail() {
   const [joinedAt, setJoinedAt] = useState<string | null>(null);
   const [lastLoginAt, setLastLoginAt] = useState<string | null>(null);
   const [lastSeenAt, setLastSeenAt] = useState<string | null>(null);
+  const [gamesSolved, setGamesSolved] = useState(0);
   const [message, setMessage] = useState("");
   const [saving, setSaving] = useState(false);
 
@@ -62,6 +64,7 @@ export function AccountRail() {
         setJoinedAt(null);
         setLastLoginAt(null);
         setLastSeenAt(null);
+        setGamesSolved(0);
         return;
       }
 
@@ -72,7 +75,7 @@ export function AccountRail() {
 
       const { data: profile } = await supabase
         .from("profiles")
-        .select("username,email,created_at,last_login,last_seen")
+        .select("username,email,created_at,last_login,last_seen,games_solved")
         .eq("id", nextSession.user.id)
         .maybeSingle();
 
@@ -82,6 +85,7 @@ export function AccountRail() {
       setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
       setLastLoginAt(row?.last_login ?? null);
       setLastSeenAt(row?.last_seen ?? null);
+      setGamesSolved(row?.games_solved ?? 0);
 
       void touchLastSeen(nextSession.user.id);
     };
@@ -98,6 +102,7 @@ export function AccountRail() {
         setJoinedAt(null);
         setLastLoginAt(null);
         setLastSeenAt(null);
+        setGamesSolved(0);
         return;
       }
 
@@ -109,7 +114,7 @@ export function AccountRail() {
       void (async () => {
         const { data: profile } = await supabase
           .from("profiles")
-          .select("username,email,created_at,last_login,last_seen")
+          .select("username,email,created_at,last_login,last_seen,games_solved")
           .eq("id", nextSession.user.id)
           .maybeSingle();
 
@@ -119,12 +124,36 @@ export function AccountRail() {
         setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
         setLastLoginAt(row?.last_login ?? null);
         setLastSeenAt(row?.last_seen ?? null);
+        setGamesSolved(row?.games_solved ?? 0);
 
         void touchLastSeen(nextSession.user.id);
       })();
     });
 
     return () => subscription.unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    const handleMetricsUpdated = (event: Event) => {
+      const customEvent = event as CustomEvent<{ gamesSolvedDelta?: number }>;
+      const delta = customEvent.detail?.gamesSolvedDelta ?? 0;
+
+      if (delta !== 0) {
+        setGamesSolved((prev) => Math.max(0, prev + delta));
+      }
+    };
+
+    window.addEventListener(
+      "profile-metrics-updated",
+      handleMetricsUpdated as EventListener
+    );
+
+    return () => {
+      window.removeEventListener(
+        "profile-metrics-updated",
+        handleMetricsUpdated as EventListener
+      );
+    };
   }, []);
 
   useEffect(() => {
@@ -225,6 +254,7 @@ export function AccountRail() {
     setJoinedAt(null);
     setLastLoginAt(null);
     setLastSeenAt(null);
+    setGamesSolved(0);
     setOpen(false);
     router.push("/");
     router.refresh();
@@ -301,6 +331,12 @@ export function AccountRail() {
                     <div className="text-slate-500">Last seen</div>
                     <div className="mt-1 font-medium text-slate-100">
                       {formatDateTime(lastSeenAt)}
+                    </div>
+                  </div>
+                  <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                    <div className="text-slate-500">Games solved</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {gamesSolved}
                     </div>
                   </div>
                 </div>
