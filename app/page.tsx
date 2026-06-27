@@ -476,6 +476,15 @@ export default function Page() {
               Pick one or more categories, then solve puzzles one by one.
             </p>
 
+            <div className="mt-4 flex flex-wrap gap-2">
+              <a
+                href="/signup"
+                className="inline-flex items-center rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+              >
+                Log in / Sign up
+              </a>
+            </div>
+
             <div className="mt-4">
               <div className="mb-2 text-sm text-slate-400">Mix categories:</div>
 
