@@ -4,6 +4,10 @@ import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 
+function getAuthRedirectTo() {
+  return `${window.location.origin}/auth/callback`;
+}
+
 export default function SignUpPage() {
   const router = useRouter();
 
@@ -30,11 +34,16 @@ export default function SignUpPage() {
           return;
         }
 
+        if (!cleanEmail) {
+          setMessage("Please enter your email.");
+          return;
+        }
+
         const { error } = await supabase.auth.signUp({
           email: cleanEmail,
           password,
           options: {
-            emailRedirectTo: "http://localhost:3000/auth/callback",
+            emailRedirectTo: getAuthRedirectTo(),
             data: {
               username: cleanUsername,
             },
@@ -54,7 +63,7 @@ export default function SignUpPage() {
           return;
         }
 
-        let emailToUse = rawLogin;
+        let emailToUse = rawLogin.toLowerCase();
 
         if (!rawLogin.includes("@")) {
           const normalizedUsername = rawLogin.toLowerCase();
@@ -62,12 +71,12 @@ export default function SignUpPage() {
           const { data, error } = await supabase
             .from("profiles")
             .select("email")
-            .ilike("username", normalizedUsername)
+            .eq("username", normalizedUsername)
             .maybeSingle();
 
           if (error) throw error;
 
-          emailToUse = data?.email?.trim() ?? "";
+          emailToUse = data?.email?.trim().toLowerCase() ?? "";
 
           if (!emailToUse) {
             setMessage("That username was not found.");
@@ -110,7 +119,7 @@ export default function SignUpPage() {
         type: "signup",
         email: cleanEmail,
         options: {
-          emailRedirectTo: "http://localhost:3000/auth/callback",
+          emailRedirectTo: getAuthRedirectTo(),
         },
       });
 
@@ -119,7 +128,9 @@ export default function SignUpPage() {
       setMessage("Confirmation email sent. Check your inbox.");
     } catch (error: unknown) {
       const text =
-        error instanceof Error ? error.message : "Unable to resend confirmation email.";
+        error instanceof Error
+          ? error.message
+          : "Unable to resend confirmation email.";
       setMessage(text);
     } finally {
       setLoading(false);
@@ -140,7 +151,10 @@ export default function SignUpPage() {
         <form onSubmit={handleSubmit} className="mt-6 space-y-4">
           {mode === "signup" ? (
             <div>
-              <label htmlFor="username" className="mb-2 block text-sm text-slate-300">
+              <label
+                htmlFor="username"
+                className="mb-2 block text-sm text-slate-300"
+              >
                 Username
               </label>
               <input
@@ -156,7 +170,10 @@ export default function SignUpPage() {
             </div>
           ) : (
             <div>
-              <label htmlFor="loginIdentifier" className="mb-2 block text-sm text-slate-300">
+              <label
+                htmlFor="loginIdentifier"
+                className="mb-2 block text-sm text-slate-300"
+              >
                 Username or Email
               </label>
               <input
@@ -174,7 +191,10 @@ export default function SignUpPage() {
 
           {mode === "signup" ? (
             <div>
-              <label htmlFor="email" className="mb-2 block text-sm text-slate-300">
+              <label
+                htmlFor="email"
+                className="mb-2 block text-sm text-slate-300"
+              >
                 Email
               </label>
               <input
@@ -191,7 +211,10 @@ export default function SignUpPage() {
           ) : null}
 
           <div>
-            <label htmlFor="password" className="mb-2 block text-sm text-slate-300">
+            <label
+              htmlFor="password"
+              className="mb-2 block text-sm text-slate-300"
+            >
               Password
             </label>
             <input
