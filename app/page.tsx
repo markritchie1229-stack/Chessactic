@@ -252,6 +252,8 @@ export default function Page() {
           p_category_id: p.categoryId,
           p_fen: p.fen,
           p_solution: p.solution,
+          p_theme: p.theme ?? null,
+          p_difficulty: p.difficulty ?? null,
         }
       );
 
