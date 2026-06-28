@@ -5,11 +5,15 @@ import { useParams, useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import {
   Check,
+  Clock3,
   Copy,
   ImagePlus,
   PencilLine,
   Save,
   Trash2,
+  UserCheck,
+  UserPlus,
+  UserX,
   X,
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
@@ -29,8 +33,26 @@ type ProfileRow = {
   bio: string | null;
 };
 
+type FriendConnectionRow = {
+  id: string;
+  user_low_id: string;
+  user_high_id: string;
+  requested_by_id: string;
+  status: "pending" | "accepted" | "declined" | "cancelled";
+  created_at: string | null;
+  responded_at: string | null;
+};
+
 const MAX_AVATAR_SIZE_BYTES = 5 * 1024 * 1024;
 const MAX_BIO_LENGTH = 500;
+
+type RelationState =
+  | "loading"
+  | "self"
+  | "none"
+  | "outgoing"
+  | "incoming"
+  | "friends";
 
 function formatDateTime(value: string | null | undefined) {
   if (!value) return "—";
@@ -68,6 +90,10 @@ function isBlobUrl(value: string | null) {
   return Boolean(value?.startsWith("blob:"));
 }
 
+function sortPair(a: string, b: string) {
+  return a < b ? [a, b] : [b, a];
+}
+
 export default function ProfilePage() {
   const router = useRouter();
   const params = useParams<{ username?: string }>();
@@ -80,7 +106,7 @@ export default function ProfilePage() {
   const [session, setSession] = useState<Session | null>(null);
   const [profile, setProfile] = useState<ProfileRow | null>(null);
   const [loading, setLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
+  const [savingProfile, setSavingProfile] = useState(false);
   const [message, setMessage] = useState("");
   const [editing, setEditing] = useState(false);
   const [username, setUsername] = useState("");
@@ -89,6 +115,9 @@ export default function ProfilePage() {
   const [avatarPreview, setAvatarPreview] = useState<string | null>(null);
   const [avatarRemoved, setAvatarRemoved] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [relation, setRelation] = useState<FriendConnectionRow | null>(null);
+  const [relationLoading, setRelationLoading] = useState(false);
+  const [relationSaving, setRelationSaving] = useState(false);
   const mountedRef = useRef(true);
 
   const isOwner = Boolean(session?.user.id && profile?.id === session.user.id);
@@ -108,6 +137,46 @@ export default function ProfilePage() {
       }
     };
   }, [avatarPreview]);
+
+  const loadRelation = async (
+    nextSession: Session | null,
+    nextProfile: ProfileRow | null,
+  ) => {
+    if (!nextSession || !nextProfile || nextSession.user.id === nextProfile.id) {
+      setRelation(null);
+      setRelationLoading(false);
+      return;
+    }
+
+    setRelationLoading(true);
+
+    try {
+      const [userLowId, userHighId] = sortPair(nextSession.user.id, nextProfile.id);
+
+      const { data, error } = await supabase
+        .from("friend_connections")
+        .select(
+          "id,user_low_id,user_high_id,requested_by_id,status,created_at,responded_at",
+        )
+        .eq("user_low_id", userLowId)
+        .eq("user_high_id", userHighId)
+        .maybeSingle();
+
+      if (error) throw error;
+
+      if (!mountedRef.current) return;
+      setRelation((data as FriendConnectionRow | null) ?? null);
+    } catch (error) {
+      console.warn("Could not load relation:", error);
+      if (mountedRef.current) {
+        setRelation(null);
+      }
+    } finally {
+      if (mountedRef.current) {
+        setRelationLoading(false);
+      }
+    }
+  };
 
   const loadProfile = async (silent = false) => {
     if (!silent) {
@@ -158,7 +227,11 @@ export default function ProfilePage() {
 
     if (!nextProfile) {
       setMessage("Profile not found.");
+      setRelation(null);
+      return;
     }
+
+    void loadRelation(nextSession, nextProfile);
   };
 
   useEffect(() => {
@@ -171,12 +244,18 @@ export default function ProfilePage() {
       void loadProfile(true);
     };
 
+    const handleFriendUpdate = () => {
+      void loadProfile(true);
+    };
+
     window.addEventListener("profile-updated", handleProfileUpdate);
     window.addEventListener("profile-metrics-updated", handleProfileUpdate);
+    window.addEventListener("friend-updated", handleFriendUpdate);
 
     return () => {
       window.removeEventListener("profile-updated", handleProfileUpdate);
       window.removeEventListener("profile-metrics-updated", handleProfileUpdate);
+      window.removeEventListener("friend-updated", handleFriendUpdate);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [usernameParam]);
@@ -226,10 +305,15 @@ export default function ProfilePage() {
     setAvatarRemoved(true);
   };
 
+  const refreshRelation = async () => {
+    if (!session || !profile) return;
+    await loadRelation(session, profile);
+  };
+
   const saveProfile = async () => {
     if (!profile || !session?.user) return;
 
-    setSaving(true);
+    setSavingProfile(true);
     setMessage("");
 
     try {
@@ -348,9 +432,173 @@ export default function ProfilePage() {
         setMessage("Something went wrong.");
       }
     } finally {
-      setSaving(false);
+      setSavingProfile(false);
     }
   };
+
+  const sendFriendRequest = async () => {
+    if (!session?.user || !profile || isOwner) return;
+
+    setRelationSaving(true);
+    setMessage("");
+
+    try {
+      const [userLowId, userHighId] = sortPair(session.user.id, profile.id);
+      const { error } = await supabase.from("friend_connections").upsert(
+        {
+          user_low_id: userLowId,
+          user_high_id: userHighId,
+          requested_by_id: session.user.id,
+          status: "pending",
+          responded_at: null,
+        },
+        { onConflict: "user_low_id,user_high_id" },
+      );
+
+      if (error) throw error;
+
+      setMessage("Friend request sent.");
+      window.dispatchEvent(new CustomEvent("friend-updated"));
+      await refreshRelation();
+    } catch (err: unknown) {
+      setMessage(err instanceof Error ? err.message : "Could not send request.");
+    } finally {
+      setRelationSaving(false);
+    }
+  };
+
+  const cancelFriendRequest = async () => {
+    if (!session?.user || !profile || !relation) return;
+
+    setRelationSaving(true);
+    setMessage("");
+
+    try {
+      const { error } = await supabase
+        .from("friend_connections")
+        .update({
+          status: "cancelled",
+          responded_at: new Date().toISOString(),
+        })
+        .eq("id", relation.id);
+
+      if (error) throw error;
+
+      setMessage("Friend request cancelled.");
+      window.dispatchEvent(new CustomEvent("friend-updated"));
+      await refreshRelation();
+    } catch (err: unknown) {
+      setMessage(err instanceof Error ? err.message : "Could not cancel request.");
+    } finally {
+      setRelationSaving(false);
+    }
+  };
+
+  const respondToFriendRequest = async (status: "accepted" | "declined") => {
+    if (!session?.user || !profile || !relation) return;
+
+    setRelationSaving(true);
+    setMessage("");
+
+    try {
+      const { error } = await supabase
+        .from("friend_connections")
+        .update({
+          status,
+          responded_at: new Date().toISOString(),
+        })
+        .eq("id", relation.id);
+
+      if (error) throw error;
+
+      setMessage(status === "accepted" ? "Friend request accepted." : "Friend request declined.");
+      window.dispatchEvent(new CustomEvent("friend-updated"));
+      await refreshRelation();
+    } catch (err: unknown) {
+      setMessage(err instanceof Error ? err.message : "Could not update request.");
+    } finally {
+      setRelationSaving(false);
+    }
+  };
+
+  const relationState: RelationState = useMemo(() => {
+    if (!session || !profile) return "loading";
+    if (session.user.id === profile.id) return "self";
+    if (!relation || relation.status !== "pending" && relation.status !== "accepted") {
+      return "none";
+    }
+    if (relation.status === "accepted") return "friends";
+    if (relation.requested_by_id === session.user.id) return "outgoing";
+    return "incoming";
+  }, [session, profile, relation]);
+
+  const friendAction = useMemo(() => {
+    switch (relationState) {
+      case "self":
+        return null;
+      case "friends":
+        return (
+          <div className="inline-flex items-center gap-2 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-300">
+            <UserCheck className="h-4 w-4" />
+            Friends
+          </div>
+        );
+      case "incoming":
+        return (
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => void respondToFriendRequest("accepted")}
+              disabled={relationSaving}
+              className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              <UserCheck className="h-4 w-4" />
+              Accept request
+            </button>
+            <button
+              type="button"
+              onClick={() => void respondToFriendRequest("declined")}
+              disabled={relationSaving}
+              className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 font-medium text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              <UserX className="h-4 w-4" />
+              Decline
+            </button>
+          </div>
+        );
+      case "outgoing":
+        return (
+          <div className="flex flex-wrap gap-2">
+            <div className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3 text-sm text-slate-300">
+              <Clock3 className="h-4 w-4" />
+              Request sent
+            </div>
+            <button
+              type="button"
+              onClick={() => void cancelFriendRequest()}
+              disabled={relationSaving}
+              className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 font-medium text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              Cancel request
+            </button>
+          </div>
+        );
+      case "none":
+        return (
+          <button
+            type="button"
+            onClick={() => void sendFriendRequest()}
+            disabled={relationSaving}
+            className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            <UserPlus className="h-4 w-4" />
+            Add friend
+          </button>
+        );
+      default:
+        return null;
+    }
+  }, [cancelFriendRequest, relationSaving, relationState, respondToFriendRequest, sendFriendRequest]);
 
   const shareProfile = async () => {
     if (!profile?.username) return;
@@ -498,6 +746,19 @@ export default function ProfilePage() {
             </div>
           </div>
 
+          {!isOwner ? (
+            <div className="mt-5 flex flex-wrap items-center gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+              <div className="text-sm text-slate-400">Friend status</div>
+              {relationLoading || relationState === "loading" ? (
+                <div className="rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2 text-sm text-slate-300">
+                  Checking...
+                </div>
+              ) : (
+                friendAction
+              )}
+            </div>
+          ) : null}
+
           <div className="mt-6 grid gap-3 text-sm sm:grid-cols-3">
             <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
               <div className="text-slate-500">Joined</div>
@@ -610,11 +871,11 @@ export default function ProfilePage() {
                 <div className="flex flex-wrap gap-3">
                   <button
                     onClick={saveProfile}
-                    disabled={saving}
+                    disabled={savingProfile}
                     className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
                   >
                     <Save className="h-4 w-4" />
-                    {saving ? "Saving..." : "Save changes"}
+                    {savingProfile ? "Saving..." : "Save changes"}
                   </button>
                 </div>
               </div>
@@ -641,9 +902,9 @@ export default function ProfilePage() {
             Notes
           </div>
           <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
-            The public profile now supports an avatar and bio. Next, you can add
-            club membership, friends, and recent activity while keeping edit
-            access locked to the owner.
+            The public profile now supports an avatar, bio, and friend requests.
+            Next, we can add a friend list, online status, direct messages, and
+            activity feed while keeping edit access locked to the owner.
           </p>
           {message ? (
             <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-300">
