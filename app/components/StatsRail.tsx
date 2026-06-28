@@ -54,7 +54,7 @@ export function StatsRail() {
     const { data, error } = await supabase
       .from("profiles")
       .select(
-        "games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme"
+        "games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme",
       )
       .eq("id", nextSession.user.id)
       .maybeSingle();
@@ -102,10 +102,7 @@ export function StatsRail() {
     return () => {
       mounted = false;
       subscription.unsubscribe();
-      window.removeEventListener(
-        "profile-metrics-updated",
-        handleMetricsUpdated,
-      );
+      window.removeEventListener("profile-metrics-updated", handleMetricsUpdated);
     };
   }, [loadStats]);
 
@@ -153,67 +150,69 @@ export function StatsRail() {
         aria-label="Close player stats panel"
       />
 
-      <aside className="fixed left-[88px] top-[104px] z-[70] w-[340px] rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
-        <div className="flex items-center justify-between">
-          <div className="text-sm uppercase tracking-wide text-slate-400">
-            Player Stats
-          </div>
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            className="rounded-xl p-1 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100"
-            aria-label="Close player stats panel"
-          >
-            <X className="h-5 w-5" />
-          </button>
-        </div>
-
-        {!session ? (
-          <div className="mt-4 space-y-4">
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-              You are not logged in.
+      <aside className="fixed left-[88px] top-[104px] z-[70] w-[340px] rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl shadow-black/40">
+        <div className="max-h-[calc(100vh-128px)] overflow-y-auto p-5">
+          <div className="flex items-center justify-between">
+            <div className="text-sm uppercase tracking-wide text-slate-400">
+              Player Stats
             </div>
-
             <button
-              onClick={() => router.push("/signup")}
-              className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
+              type="button"
+              onClick={() => setOpen(false)}
+              className="rounded-xl p-1 text-slate-400 transition hover:bg-slate-800 hover:text-slate-100"
+              aria-label="Close player stats panel"
             >
-              Log in / Sign up
+              <X className="h-5 w-5" />
             </button>
           </div>
-        ) : (
-          <div className="mt-4 space-y-4">
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <div className="text-sm text-slate-400">Games solved</div>
-              <div className="mt-1 text-2xl font-semibold text-slate-100">
-                {loading ? "..." : formatNumber(profile?.games_solved ?? 0)}
+
+          {!session ? (
+            <div className="mt-4 space-y-4">
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                You are not logged in.
+              </div>
+
+              <button
+                onClick={() => router.push("/signup")}
+                className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
+              >
+                Log in / Sign up
+              </button>
+            </div>
+          ) : (
+            <div className="mt-4 space-y-4">
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                <div className="text-sm text-slate-400">Games solved</div>
+                <div className="mt-1 text-2xl font-semibold text-slate-100">
+                  {loading ? "..." : formatNumber(profile?.games_solved ?? 0)}
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 gap-3 text-sm">
+                {statCards.slice(1).map((stat) => (
+                  <div
+                    key={stat.label}
+                    className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3"
+                  >
+                    <div className="text-slate-500">{stat.label}</div>
+                    <div className="mt-1 font-medium text-slate-100">
+                      {loading ? "..." : stat.value}
+                    </div>
+                    {stat.helper ? (
+                      <div className="mt-1 text-xs leading-5 text-slate-500">
+                        {stat.helper}
+                      </div>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+
+              <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
+                These values refresh after each solved puzzle.
               </div>
             </div>
-
-            <div className="grid grid-cols-1 gap-3 text-sm">
-              {statCards.slice(1).map((stat) => (
-                <div
-                  key={stat.label}
-                  className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3"
-                >
-                  <div className="text-slate-500">{stat.label}</div>
-                  <div className="mt-1 font-medium text-slate-100">
-                    {loading ? "..." : stat.value}
-                  </div>
-                  {stat.helper ? (
-                    <div className="mt-1 text-xs leading-5 text-slate-500">
-                      {stat.helper}
-                    </div>
-                  ) : null}
-                </div>
-              ))}
-            </div>
-
-            <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
-              These values refresh after each solved puzzle.
-            </div>
-          </div>
-        )}
+          )}
+        </div>
       </aside>
     </>
   );
