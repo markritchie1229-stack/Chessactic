@@ -21,6 +21,8 @@ type ProfileSummary = {
   username: string | null;
   created_at: string | null;
   last_seen: string | null;
+  avatar_url: string | null;
+  bio: string | null;
 };
 
 type TabKey = "profile" | "messages" | "friends" | "clubs" | "forum";
@@ -109,6 +111,15 @@ function formatDate(value: string | null | undefined) {
   }).format(d);
 }
 
+function getInitials(value: string | null | undefined) {
+  const trimmed = value?.trim();
+  if (!trimmed) return "?";
+  const parts = trimmed.split(/\s+/).filter(Boolean);
+  const first = parts[0]?.[0] ?? trimmed[0] ?? "?";
+  const second = parts[1]?.[0] ?? parts[0]?.[1] ?? "";
+  return `${first}${second}`.toUpperCase();
+}
+
 export function SocialRail() {
   const router = useRouter();
   const [session, setSession] = useState<Session | null>(null);
@@ -130,7 +141,7 @@ export function SocialRail() {
 
     const { data: row } = await supabase
       .from("profiles")
-      .select("username,created_at,last_seen")
+      .select("username,created_at,last_seen,avatar_url,bio")
       .eq("id", nextSession.user.id)
       .maybeSingle();
 
@@ -191,6 +202,9 @@ export function SocialRail() {
     ],
     [],
   );
+
+  const bioPreview = profile?.bio?.trim();
+  const avatarUrl = profile?.avatar_url ?? null;
 
   const body =
     open && mounted
@@ -273,13 +287,40 @@ export function SocialRail() {
                   {activeTab === "profile" ? (
                     <div className="space-y-4">
                       <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                        <div className="text-sm text-slate-400">Public profile</div>
-                        <div className="mt-1 text-xl font-semibold text-slate-100">
-                          {displayName}
+                        <div className="flex items-start gap-3">
+                          <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-950 text-lg font-semibold text-slate-100">
+                            {avatarUrl ? (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img
+                                src={avatarUrl}
+                                alt={`${displayName} avatar`}
+                                className="h-full w-full object-cover"
+                              />
+                            ) : (
+                              getInitials(displayName)
+                            )}
+                          </div>
+
+                          <div className="min-w-0 flex-1">
+                            <div className="text-sm text-slate-400">Public profile</div>
+                            <div className="mt-1 text-xl font-semibold text-slate-100">
+                              {displayName}
+                            </div>
+                            <div className="mt-1 text-sm text-slate-500">
+                              {session.user.email}
+                            </div>
+                          </div>
                         </div>
-                        <div className="mt-1 text-sm text-slate-500">
-                          {session.user.email}
-                        </div>
+
+                        {bioPreview ? (
+                          <p className="mt-4 whitespace-pre-wrap text-sm leading-6 text-slate-300">
+                            {bioPreview}
+                          </p>
+                        ) : (
+                          <p className="mt-4 text-sm leading-6 text-slate-500">
+                            No bio added yet.
+                          </p>
+                        )}
                       </div>
 
                       <div className="grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
