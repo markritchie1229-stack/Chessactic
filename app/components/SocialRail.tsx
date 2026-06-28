@@ -852,7 +852,7 @@ export function SocialRail() {
               aria-label="Close social panel"
             />
 
-            <aside className="fixed left-[88px] top-[104px] z-[70] w-[420px] max-w-[calc(100vw-112px)] rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
+            <aside className="fixed left-[88px] top-[104px] z-[70] w-[420px] max-w-[calc(100vw-112px)] max-h-[calc(100vh-128px)] overflow-y-auto overscroll-contain rounded-3xl border border-slate-800 bg-slate-900 p-5 shadow-2xl shadow-black/40">
               <div className="flex items-center justify-between">
                 <div className="text-sm uppercase tracking-wide text-slate-400">
                   Social
