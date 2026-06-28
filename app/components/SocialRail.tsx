@@ -224,16 +224,16 @@ export function SocialRail() {
 
       const { data: connectionRows, error: connectionError } = await supabase
         .from("friend_connections")
-        .select("requester_id,addressee_id")
+        .select("user_low_id,user_high_id,status")
         .eq("status", "accepted")
-        .or(`requester_id.eq.${nextSession.user.id},addressee_id.eq.${nextSession.user.id}`);
+        .or(`user_low_id.eq.${nextSession.user.id},user_high_id.eq.${nextSession.user.id}`);
 
       if (connectionError) throw connectionError;
 
       const friendIds = Array.from(
         new Set(
           (connectionRows ?? []).map((row) =>
-            row.requester_id === nextSession.user.id ? row.addressee_id : row.requester_id,
+            row.user_low_id === nextSession.user.id ? row.user_high_id : row.user_low_id,
           ),
         ),
       );
@@ -1055,13 +1055,6 @@ export function SocialRail() {
                         <p className="mt-2 text-sm leading-6 text-slate-400">
                           Search usernames and bios to find people on the site.
                         </p>
-                        <input
-                          type="text"
-                          value={memberSearch}
-                          onChange={(e) => setMemberSearch(e.target.value)}
-                          placeholder="Search members"
-                          className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-                        />
                       </div>
 
                       {memberSearch.trim() ? (
