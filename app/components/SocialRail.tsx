@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import {
-  ArrowRight,
+  ArrowUpRight,
   Bell,
   Hash,
   MessageSquareMore,
@@ -17,147 +17,118 @@ import {
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
-type ProfileRow = {
+type ProfileSummary = {
   username: string | null;
   created_at: string | null;
   last_seen: string | null;
 };
 
-type SocialTab = "profile" | "messages" | "friends" | "clubs" | "forum";
+type TabKey = "profile" | "messages" | "friends" | "clubs" | "forum";
 
-type SocialTabConfig = {
-  id: SocialTab;
+type TabItem = {
+  key: TabKey;
   label: string;
   icon: ComponentType<{ className?: string }>;
 };
 
-type MessageItem = {
-  from: string;
-  title: string;
-  snippet: string;
-  unread?: boolean;
-};
-
-type FriendItem = {
-  name: string;
-  status: string;
-};
-
-type ClubItem = {
-  name: string;
-  members: string;
-  topic: string;
-};
-
-type ForumTopic = {
-  title: string;
-  category: string;
-  replies: string;
-};
-
-const TABS: SocialTabConfig[] = [
-  { id: "profile", label: "Public profile", icon: UserCircle2 },
-  { id: "messages", label: "Messages", icon: MessageSquareMore },
-  { id: "friends", label: "Friends", icon: Users },
-  { id: "clubs", label: "Clubs", icon: Shield },
-  { id: "forum", label: "Forum", icon: Hash },
+const tabs: TabItem[] = [
+  { key: "profile", label: "Public profile", icon: UserCircle2 },
+  { key: "messages", label: "Messages", icon: MessageSquareMore },
+  { key: "friends", label: "Friends", icon: Users },
+  { key: "clubs", label: "Clubs", icon: Shield },
+  { key: "forum", label: "Forum", icon: Hash },
 ];
 
-const SAMPLE_MESSAGES: MessageItem[] = [
+const sampleMessages = [
   {
     from: "CoachMira",
     title: "Nice win yesterday",
-    snippet: "Your king-side attack was sharp. Want to review the final position?",
+    body: "Your kingside attack was sharp. Want to go over the final position?",
     unread: true,
   },
   {
     from: "Club Admin",
     title: "Weekend rapid event",
-    snippet: "We are running a 10+0 tournament on Saturday at 3 PM.",
+    body: "We are running a 10+0 tournament on Saturday afternoon.",
+    unread: false,
   },
   {
     from: "PuzzleBuddy",
     title: "Study group invite",
-    snippet: "A few of us are doing endgame drills tonight if you want in.",
+    body: "A few of us are doing endgame drills tonight if you want in.",
+    unread: false,
   },
 ];
 
-const SAMPLE_FRIENDS: FriendItem[] = [
+const sampleFriends = [
   { name: "Ava", status: "Online now" },
   { name: "Noah", status: "Playing rapid" },
   { name: "Mila", status: "Last seen 12m ago" },
 ];
 
-const SAMPLE_CLUBS: ClubItem[] = [
+const sampleClubs = [
   {
     name: "Tactical Tuesdays",
-    members: "248 members",
-    topic: "Weekly tactics battles and analysis",
+    meta: "248 members",
+    desc: "Weekly tactics battles and analysis",
   },
   {
     name: "Endgame Lab",
-    members: "91 members",
-    topic: "King, pawn, and rook endgames",
+    meta: "91 members",
+    desc: "King, pawn, and rook endgames",
   },
   {
     name: "Weekend Blitzers",
-    members: "1.2k members",
-    topic: "Fast games, ladders, and arenas",
+    meta: "1.2k members",
+    desc: "Fast games, ladders, and arenas",
   },
 ];
 
-const SAMPLE_FORUM_TOPICS: ForumTopic[] = [
+const sampleTopics = [
   {
     title: "Best way to convert extra piece endgames?",
-    category: "Endgames",
-    replies: "24 replies",
+    meta: "Endgames · 24 replies",
   },
   {
     title: "Opening prep for the French defense",
-    category: "Openings",
-    replies: "18 replies",
+    meta: "Openings · 18 replies",
   },
   {
     title: "Show your favorite mating net",
-    category: "Middlegame",
-    replies: "41 replies",
+    meta: "Middlegame · 41 replies",
   },
 ];
 
-function formatDateTime(value: string | null | undefined) {
+function formatDate(value: string | null | undefined) {
   if (!value) return "—";
-
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "—";
-
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return "—";
   return new Intl.DateTimeFormat(undefined, {
     dateStyle: "medium",
     timeStyle: "short",
-  }).format(date);
+  }).format(d);
 }
 
 export function SocialRail() {
   const router = useRouter();
-
   const [session, setSession] = useState<Session | null>(null);
-  const [profile, setProfile] = useState<ProfileRow | null>(null);
+  const [profile, setProfile] = useState<ProfileSummary | null>(null);
   const [open, setOpen] = useState(false);
-  const [hydrated, setHydrated] = useState(false);
-  const [activeTab, setActiveTab] = useState<SocialTab>("profile");
+  const [mounted, setMounted] = useState(false);
+  const [activeTab, setActiveTab] = useState<TabKey>("profile");
 
   useEffect(() => {
-    setHydrated(true);
+    setMounted(true);
   }, []);
 
   useEffect(() => {
-    let mounted = true;
+    let alive = true;
 
-    const loadSession = async () => {
+    const load = async () => {
       const { data } = await supabase.auth.getSession();
       const nextSession = data.session;
 
-      if (!mounted) return;
-
+      if (!alive) return;
       setSession(nextSession);
 
       if (!nextSession) {
@@ -171,11 +142,11 @@ export function SocialRail() {
         .eq("id", nextSession.user.id)
         .maybeSingle();
 
-      if (!mounted) return;
-      setProfile((row as ProfileRow | null) ?? null);
+      if (!alive) return;
+      setProfile((row as ProfileSummary | null) ?? null);
     };
 
-    void loadSession();
+    void load();
 
     const {
       data: { subscription },
@@ -194,13 +165,13 @@ export function SocialRail() {
           .eq("id", nextSession.user.id)
           .maybeSingle();
 
-        if (!mounted) return;
-        setProfile((row as ProfileRow | null) ?? null);
+        if (!alive) return;
+        setProfile((row as ProfileSummary | null) ?? null);
       })();
     });
 
     return () => {
-      mounted = false;
+      alive = false;
       subscription.unsubscribe();
     };
   }, []);
@@ -210,10 +181,10 @@ export function SocialRail() {
     session?.user.email?.trim() ||
     "Player";
 
-  const publicProfileUsername = profile?.username?.trim().toLowerCase() ?? "";
-  const canOpenProfile = Boolean(publicProfileUsername);
+  const username = profile?.username?.trim().toLowerCase() ?? "";
+  const profileLink = username ? `/profile/${username}` : null;
 
-  const counts = useMemo(
+  const stats = useMemo(
     () => [
       { label: "Messages", value: "3" },
       { label: "Friends", value: "28" },
@@ -223,14 +194,8 @@ export function SocialRail() {
     [],
   );
 
-  const handleOpenProfile = () => {
-    if (!canOpenProfile) return;
-    router.push(`/profile/${publicProfileUsername}`);
-    setOpen(false);
-  };
-
-  const panel =
-    open && hydrated
+  const body =
+    open && mounted
       ? createPortal(
           <>
             <button
@@ -245,6 +210,7 @@ export function SocialRail() {
                 <div className="text-sm uppercase tracking-wide text-slate-400">
                   Social
                 </div>
+
                 <button
                   type="button"
                   onClick={() => setOpen(false)}
@@ -258,10 +224,8 @@ export function SocialRail() {
               {!session ? (
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                    Sign in to use public profile, messages, friends, clubs, and
-                    forum features.
+                    Sign in to view your profile, messages, friends, clubs, and forum.
                   </div>
-
                   <button
                     onClick={() => router.push("/signup")}
                     className="block w-full rounded-2xl bg-slate-100 px-4 py-3 text-center font-medium text-slate-950 transition hover:bg-white"
@@ -272,7 +236,7 @@ export function SocialRail() {
               ) : (
                 <div className="mt-4 space-y-4">
                   <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-                    {counts.map((item) => (
+                    {stats.map((item) => (
                       <div
                         key={item.label}
                         className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3"
@@ -286,15 +250,15 @@ export function SocialRail() {
                   </div>
 
                   <div className="flex flex-wrap gap-2">
-                    {TABS.map((tab) => {
+                    {tabs.map((tab) => {
                       const Icon = tab.icon;
-                      const active = activeTab === tab.id;
+                      const active = activeTab === tab.key;
 
                       return (
                         <button
-                          key={tab.id}
+                          key={tab.key}
                           type="button"
-                          onClick={() => setActiveTab(tab.id)}
+                          onClick={() => setActiveTab(tab.key)}
                           className={`inline-flex items-center gap-2 rounded-2xl border px-3 py-2 text-sm transition ${
                             active
                               ? "border-slate-100 bg-slate-100 text-slate-950"
@@ -324,37 +288,36 @@ export function SocialRail() {
                         <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
                           <div className="text-slate-500">Joined</div>
                           <div className="mt-1 font-medium text-slate-100">
-                            {formatDateTime(profile?.created_at ?? session.user.created_at)}
+                            {formatDate(profile?.created_at ?? session.user.created_at)}
                           </div>
                         </div>
                         <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
                           <div className="text-slate-500">Last seen</div>
                           <div className="mt-1 font-medium text-slate-100">
-                            {formatDateTime(profile?.last_seen)}
+                            {formatDate(profile?.last_seen)}
                           </div>
                         </div>
                       </div>
 
-                      <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
-                        This section can eventually edit avatar, bio, links, and
-                        privacy controls.
-                      </div>
-
                       <button
                         type="button"
-                        onClick={handleOpenProfile}
-                        disabled={!canOpenProfile}
+                        onClick={() => {
+                          if (!profileLink) return;
+                          router.push(profileLink);
+                          setOpen(false);
+                        }}
+                        disabled={!profileLink}
                         className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
                       >
                         Open full profile
-                        <ArrowRight className="h-4 w-4" />
+                        <ArrowUpRight className="h-4 w-4" />
                       </button>
                     </div>
                   ) : null}
 
                   {activeTab === "messages" ? (
                     <div className="space-y-3">
-                      {SAMPLE_MESSAGES.map((message) => (
+                      {sampleMessages.map((message) => (
                         <div
                           key={`${message.from}-${message.title}`}
                           className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
@@ -368,6 +331,7 @@ export function SocialRail() {
                                 From {message.from}
                               </div>
                             </div>
+
                             {message.unread ? (
                               <span className="rounded-full bg-blue-500/15 px-2 py-1 text-xs text-blue-300">
                                 New
@@ -375,20 +339,16 @@ export function SocialRail() {
                             ) : null}
                           </div>
                           <p className="mt-3 text-sm leading-6 text-slate-300">
-                            {message.snippet}
+                            {message.body}
                           </p>
                         </div>
                       ))}
-
-                      <div className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-sm text-slate-400">
-                        Connect this to your inbox table later.
-                      </div>
                     </div>
                   ) : null}
 
                   {activeTab === "friends" ? (
                     <div className="space-y-3">
-                      {SAMPLE_FRIENDS.map((friend) => (
+                      {sampleFriends.map((friend) => (
                         <div
                           key={friend.name}
                           className="flex items-center justify-between rounded-2xl border border-slate-800 bg-slate-950/60 px-4 py-3"
@@ -411,7 +371,7 @@ export function SocialRail() {
 
                   {activeTab === "clubs" ? (
                     <div className="space-y-3">
-                      {SAMPLE_CLUBS.map((club) => (
+                      {sampleClubs.map((club) => (
                         <div
                           key={club.name}
                           className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
@@ -422,13 +382,13 @@ export function SocialRail() {
                                 {club.name}
                               </div>
                               <div className="text-sm text-slate-500">
-                                {club.members}
+                                {club.meta}
                               </div>
                             </div>
                             <UsersRound className="h-5 w-5 text-slate-500" />
                           </div>
                           <div className="mt-3 text-sm leading-6 text-slate-300">
-                            {club.topic}
+                            {club.desc}
                           </div>
                         </div>
                       ))}
@@ -439,10 +399,10 @@ export function SocialRail() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950/60 p-3 text-sm text-slate-400">
                         <Bell className="h-4 w-4" />
-                        Trending topics from the forum
+                        Trending topics
                       </div>
 
-                      {SAMPLE_FORUM_TOPICS.map((topic) => (
+                      {sampleTopics.map((topic) => (
                         <div
                           key={topic.title}
                           className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
@@ -451,7 +411,7 @@ export function SocialRail() {
                             {topic.title}
                           </div>
                           <div className="mt-1 text-sm text-slate-500">
-                            {topic.category} · {topic.replies}
+                            {topic.meta}
                           </div>
                         </div>
                       ))}
@@ -478,7 +438,7 @@ export function SocialRail() {
         </button>
       </div>
 
-      {panel}
+      {body}
     </div>
   );
 }
