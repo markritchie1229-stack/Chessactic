@@ -369,14 +369,20 @@ export default function ProfilePage() {
         const { error: uploadError } = await supabase.storage
           .from("profile-avatars")
           .upload(path, avatarFile, {
-          contentType: avatarFile.type,
-        });
+            contentType: avatarFile.type,
+          });
 
-    if (uploadError) {
-    console.error("Avatar upload failed:", uploadError);
-    throw uploadError;
-  }
-}
+        if (uploadError) {
+          console.error("Avatar upload failed:", uploadError);
+          throw uploadError;
+        }
+
+        const { data: publicData } = supabase.storage
+          .from("profile-avatars")
+          .getPublicUrl(path);
+
+        nextAvatarUrl = publicData.publicUrl;
+      }
       const { error: authError } = await supabase.auth.updateUser({
         data: { username: cleanedUsername },
       });
