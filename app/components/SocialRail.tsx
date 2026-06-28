@@ -13,9 +13,9 @@ import type { Session } from "@supabase/supabase-js";
 import {
   ArrowUpRight,
   Bell,
-  Clock3,
   Hash,
   MessageSquareMore,
+  Search,
   Send,
   Shield,
   UserCircle2,
@@ -59,7 +59,7 @@ type MessageRow = {
   created_at: string;
 };
 
-type TabKey = "profile" | "messages" | "friends" | "clubs" | "forum";
+type TabKey = "profile" | "messages" | "friends" | "members" | "clubs" | "forum";
 
 type TabItem = {
   key: TabKey;
@@ -78,6 +78,7 @@ const tabs: TabItem[] = [
   { key: "profile", label: "Public profile", icon: UserCircle2 },
   { key: "messages", label: "Messages", icon: MessageSquareMore },
   { key: "friends", label: "Friends", icon: Users },
+  { key: "members", label: "Members", icon: Search },
   { key: "clubs", label: "Clubs", icon: Shield },
   { key: "forum", label: "Forum", icon: Hash },
 ];
@@ -127,10 +128,6 @@ function formatDate(value: string | null | undefined) {
   }).format(date);
 }
 
-function isBlobUrl(value: string | null) {
-  return Boolean(value?.startsWith("blob:"));
-}
-
 function getInitials(value: string | null | undefined) {
   const trimmed = value?.trim();
   if (!trimmed) return "?";
@@ -161,6 +158,9 @@ export function SocialRail() {
   const [profile, setProfile] = useState<ProfileSummary | null>(null);
   const [friends, setFriends] = useState<FriendProfile[]>([]);
   const [friendFilter, setFriendFilter] = useState("");
+  const [memberSearch, setMemberSearch] = useState("");
+  const [memberResults, setMemberResults] = useState<FriendProfile[]>([]);
+  const [memberSearching, setMemberSearching] = useState(false);
   const [threads, setThreads] = useState<ThreadSummary[]>([]);
   const [activeThreadId, setActiveThreadId] = useState<string | null>(null);
   const [conversation, setConversation] = useState<MessageRow[]>([]);
@@ -209,6 +209,7 @@ export function SocialRail() {
         setThreads([]);
         setConversation([]);
         setActiveThreadId(null);
+        setMemberResults([]);
         return;
       }
 
@@ -256,7 +257,6 @@ export function SocialRail() {
       if (threadError) throw threadError;
 
       const threadRows = (threadRowsRaw as MessageThreadRow[] | null) ?? [];
-      const threadMap = new Map(threadRows.map((thread) => [thread.id, thread]));
 
       let messageRows: MessageRow[] = [];
       if (threadRows.length > 0) {
@@ -330,6 +330,36 @@ export function SocialRail() {
     }
   }, [activeThreadId, loadConversation]);
 
+  const searchMembers = useCallback(async (query: string) => {
+    const term = query.trim();
+
+    if (!term || !session) {
+      setMemberResults([]);
+      setMemberSearching(false);
+      return;
+    }
+
+    setMemberSearching(true);
+
+    try {
+      const { data, error } = await supabase
+        .from("profiles")
+        .select("id,username,last_seen,avatar_url,bio")
+        .or(`username.ilike.%${term}%,bio.ilike.%${term}%`)
+        .neq("id", session.user.id)
+        .order("username", { ascending: true })
+        .limit(20);
+
+      if (error) throw error;
+      setMemberResults((data as FriendProfile[] | null) ?? []);
+    } catch (error) {
+      console.warn("Could not search members:", error);
+      setMemberResults([]);
+    } finally {
+      setMemberSearching(false);
+    }
+  }, [session]);
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -378,6 +408,7 @@ export function SocialRail() {
         setThreads([]);
         setConversation([]);
         setActiveThreadId(null);
+        setMemberResults([]);
         return;
       }
 
@@ -388,6 +419,67 @@ export function SocialRail() {
       subscription.unsubscribe();
     };
   }, [loadSocialData]);
+
+  useEffect(() => {
+    if (!session?.user) return;
+
+    const channel = supabase
+      .channel(`social-messages:${session.user.id}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "INSERT",
+          schema: "public",
+          table: "messages",
+        },
+        (payload) => {
+          const newMessage = payload.new as MessageRow;
+
+          setConversation((current) => {
+            if (newMessage.thread_id !== activeThreadId) return current;
+            if (current.some((message) => message.id === newMessage.id)) return current;
+            return [...current, newMessage];
+          });
+
+          setThreads((current) => {
+            if (!current.some((thread) => thread.id === newMessage.thread_id)) {
+              return current;
+            }
+
+            const updated = current.map((thread) =>
+              thread.id === newMessage.thread_id
+                ? {
+                    ...thread,
+                    preview: formatThreadPreview(newMessage.body),
+                    lastMessageAt: newMessage.created_at,
+                  }
+                : thread,
+            );
+
+            updated.sort((a, b) => {
+              const aTime = a.lastMessageAt ? new Date(a.lastMessageAt).getTime() : 0;
+              const bTime = b.lastMessageAt ? new Date(b.lastMessageAt).getTime() : 0;
+              return bTime - aTime;
+            });
+
+            return updated;
+          });
+        },
+      )
+      .subscribe();
+
+    return () => {
+      void supabase.removeChannel(channel);
+    };
+  }, [activeThreadId, session?.user?.id]);
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      void searchMembers(memberSearch);
+    }, 250);
+
+    return () => window.clearTimeout(timer);
+  }, [memberSearch, searchMembers]);
 
   const displayName =
     session?.user.user_metadata?.username?.trim() || session?.user.email?.trim() || "Player";
@@ -429,15 +521,12 @@ export function SocialRail() {
   const ensureThreadWithFriend = async (friendId: string) => {
     if (!session?.user) return null;
 
-    const [userLowId, userHighId] = sortPair(session.user.id, friendId);
-    const existing = threads.find((thread) => {
-      const row = thread.id ? (thread as unknown as { user_low_id?: string; user_high_id?: string }) : null;
-      return Boolean(row && row.user_low_id && row.user_high_id);
-    });
-
+    const existing = threads.find((thread) => thread.friend.id === friendId);
     if (existing) {
       return existing.id;
     }
+
+    const [userLowId, userHighId] = sortPair(session.user.id, friendId);
 
     const { data, error } = await supabase
       .from("message_threads")
@@ -481,23 +570,59 @@ export function SocialRail() {
     setNotice("");
 
     try {
-      const { error } = await supabase.from("messages").insert({
-        thread_id: activeThreadId,
-        sender_id: session.user.id,
-        body,
-      });
+      const { data, error } = await supabase
+        .from("messages")
+        .insert({
+          thread_id: activeThreadId,
+          sender_id: session.user.id,
+          body,
+        })
+        .select("id,thread_id,sender_id,body,created_at")
+        .single();
 
       if (error) throw error;
 
       setMessageBody("");
-      await loadConversation(activeThreadId);
-      await loadSocialData(activeThreadId);
-      window.dispatchEvent(new CustomEvent("message-updated"));
+
+      if (data) {
+        const inserted = data as MessageRow;
+
+        setConversation((current) => {
+          if (current.some((message) => message.id === inserted.id)) return current;
+          return [...current, inserted];
+        });
+
+        setThreads((current) => {
+          const updated = current.map((thread) =>
+            thread.id === activeThreadId
+              ? {
+                  ...thread,
+                  preview: formatThreadPreview(inserted.body),
+                  lastMessageAt: inserted.created_at,
+                }
+              : thread,
+          );
+
+          updated.sort((a, b) => {
+            const aTime = a.lastMessageAt ? new Date(a.lastMessageAt).getTime() : 0;
+            const bTime = b.lastMessageAt ? new Date(b.lastMessageAt).getTime() : 0;
+            return bTime - aTime;
+          });
+
+          return updated;
+        });
+      }
     } catch (error) {
       setNotice(error instanceof Error ? error.message : "Could not send message.");
     } finally {
       setSending(false);
     }
+  };
+
+  const openMemberProfile = (member: FriendProfile) => {
+    if (!member.username) return;
+    router.push(`/profile/${member.username.toLowerCase()}`);
+    setOpen(false);
   };
 
   const body =
@@ -530,7 +655,7 @@ export function SocialRail() {
               {!session ? (
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                    Sign in to view your profile, messages, friends, clubs, and forum.
+                    Sign in to view your profile, messages, friends, members, clubs, and forum.
                   </div>
                   <button
                     onClick={() => router.push("/signup")}
@@ -916,6 +1041,85 @@ export function SocialRail() {
                             ) : null}
                           </div>
                         ))
+                      )}
+                    </div>
+                  ) : null}
+
+                  {activeTab === "members" ? (
+                    <div className="space-y-3">
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                        <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
+                          <Search className="h-4 w-4" />
+                          Member directory
+                        </div>
+                        <p className="mt-2 text-sm leading-6 text-slate-400">
+                          Search usernames and bios to find people on the site.
+                        </p>
+                      </div>
+
+                      {memberSearch.trim() ? (
+                        <div className="space-y-2">
+                          {memberSearching ? (
+                            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                              Searching members...
+                            </div>
+                          ) : memberResults.length === 0 ? (
+                            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                              No members matched that search.
+                            </div>
+                          ) : (
+                            memberResults.map((member) => (
+                              <div
+                                key={member.id}
+                                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                              >
+                                <div className="flex items-start justify-between gap-3">
+                                  <div className="flex items-center gap-3 min-w-0">
+                                    <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-950 text-sm font-semibold text-slate-100">
+                                      {member.avatar_url ? (
+                                        // eslint-disable-next-line @next/next/no-img-element
+                                        <img
+                                          src={member.avatar_url}
+                                          alt={member.username ?? "Member avatar"}
+                                          className="h-full w-full object-cover"
+                                        />
+                                      ) : (
+                                        getInitials(member.username)
+                                      )}
+                                    </div>
+                                    <div className="min-w-0">
+                                      <div className="truncate font-medium text-slate-100">
+                                        {member.username ?? "Player"}
+                                      </div>
+                                      <div className="text-sm text-slate-500">
+                                        {member.last_seen ? `Last seen ${formatDate(member.last_seen)}` : "Member"}
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <button
+                                    type="button"
+                                    onClick={() => openMemberProfile(member)}
+                                    disabled={!member.username}
+                                    className="rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+                                  >
+                                    View profile
+                                  </button>
+                                </div>
+
+                                {member.bio?.trim() ? (
+                                  <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-400">
+                                    {member.bio}
+                                  </p>
+                                ) : null}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      ) : (
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                          Start typing above to find members.
+                        </div>
                       )}
                     </div>
                   ) : null}
