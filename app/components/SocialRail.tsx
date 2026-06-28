@@ -74,6 +74,26 @@ type ThreadSummary = {
   lastMessageAt: string | null;
 };
 
+type ForumThreadRow = {
+  id: string;
+  author_id: string;
+  title: string;
+  created_at: string | null;
+  updated_at: string | null;
+  last_post_at: string | null;
+  reply_count: number | null;
+  is_pinned: boolean | null;
+};
+
+type ForumPostRow = {
+  id: string;
+  thread_id: string;
+  author_id: string;
+  body: string;
+  created_at: string;
+  updated_at: string | null;
+};
+
 const tabs: TabItem[] = [
   { key: "profile", label: "Public profile", icon: UserCircle2 },
   { key: "messages", label: "Messages", icon: MessageSquareMore },
@@ -101,20 +121,6 @@ const sampleClubs = [
   },
 ];
 
-const sampleTopics = [
-  {
-    title: "Best way to convert extra piece endgames?",
-    meta: "Endgames · 24 replies",
-  },
-  {
-    title: "Opening prep for the French defense",
-    meta: "Openings · 18 replies",
-  },
-  {
-    title: "Show your favorite mating net",
-    meta: "Middlegame · 41 replies",
-  },
-];
 
 function formatDate(value: string | null | undefined) {
   if (!value) return "—";
@@ -173,6 +179,18 @@ export function SocialRail() {
   const [sending, setSending] = useState(false);
   const [notice, setNotice] = useState("");
 
+  const [forumThreads, setForumThreads] = useState<ForumThreadRow[]>([]);
+  const [forumPosts, setForumPosts] = useState<ForumPostRow[]>([]);
+  const [forumProfiles, setForumProfiles] = useState<FriendProfile[]>([]);
+  const [forumActiveThreadId, setForumActiveThreadId] = useState<string | null>(null);
+  const [forumSearch, setForumSearch] = useState("");
+  const [forumComposerOpen, setForumComposerOpen] = useState(false);
+  const [forumThreadTitle, setForumThreadTitle] = useState("");
+  const [forumThreadBody, setForumThreadBody] = useState("");
+  const [forumReplyBody, setForumReplyBody] = useState("");
+  const [forumLoading, setForumLoading] = useState(false);
+  const [forumPosting, setForumPosting] = useState(false);
+
   const loadConversation = useCallback(async (threadId: string) => {
     setConversationLoading(true);
 
@@ -194,6 +212,74 @@ export function SocialRail() {
     }
   }, []);
 
+  const loadForumData = useCallback(async (nextActiveThreadId?: string | null) => {
+    setForumLoading(true);
+
+    try {
+      const { data: threadRowsRaw, error: threadError } = await supabase
+        .from("forum_threads")
+        .select("id,author_id,title,created_at,updated_at,last_post_at,reply_count,is_pinned")
+        .order("is_pinned", { ascending: false })
+        .order("last_post_at", { ascending: false })
+        .order("created_at", { ascending: false })
+        .limit(50);
+
+      if (threadError) throw threadError;
+
+      const threadRows = (threadRowsRaw as ForumThreadRow[] | null) ?? [];
+      const selectedThreadId =
+        nextActiveThreadId && threadRows.some((thread) => thread.id === nextActiveThreadId)
+          ? nextActiveThreadId
+          : forumActiveThreadId && threadRows.some((thread) => thread.id === forumActiveThreadId)
+            ? forumActiveThreadId
+            : threadRows[0]?.id ?? null;
+
+      let postRows: ForumPostRow[] = [];
+      if (selectedThreadId) {
+        const { data: postRowsRaw, error: postError } = await supabase
+          .from("forum_posts")
+          .select("id,thread_id,author_id,body,created_at,updated_at")
+          .eq("thread_id", selectedThreadId)
+          .order("created_at", { ascending: true });
+
+        if (postError) throw postError;
+        postRows = (postRowsRaw as ForumPostRow[] | null) ?? [];
+      }
+
+      const authorIds = new Set<string>();
+      for (const row of threadRows) {
+        if (row.author_id) authorIds.add(row.author_id);
+      }
+      for (const row of postRows) {
+        if (row.author_id) authorIds.add(row.author_id);
+      }
+
+      let authorRows: FriendProfile[] = [];
+      if (authorIds.size > 0) {
+        const { data: profileRows, error: profileError } = await supabase
+          .from("profiles")
+          .select("id,username,last_seen,avatar_url,bio")
+          .in("id", Array.from(authorIds));
+
+        if (profileError) throw profileError;
+        authorRows = (profileRows as FriendProfile[] | null) ?? [];
+      }
+
+      setForumThreads(threadRows);
+      setForumPosts(postRows);
+      setForumProfiles(authorRows);
+      setForumActiveThreadId(selectedThreadId);
+    } catch (error) {
+      console.warn("Could not load forum data:", error);
+      setForumThreads([]);
+      setForumPosts([]);
+      setForumProfiles([]);
+      setForumActiveThreadId(null);
+    } finally {
+      setForumLoading(false);
+    }
+  }, [forumActiveThreadId]);
+
   const loadSocialData = useCallback(async (nextActiveThreadId?: string | null) => {
     setLoading(true);
     setNotice("");
@@ -210,6 +296,10 @@ export function SocialRail() {
         setConversation([]);
         setActiveThreadId(null);
         setMemberResults([]);
+        setForumThreads([]);
+        setForumPosts([]);
+        setForumProfiles([]);
+        setForumActiveThreadId(null);
         return;
       }
 
@@ -322,13 +412,15 @@ export function SocialRail() {
       } else {
         setConversation([]);
       }
+
+      await loadForumData();
     } catch (error) {
       console.warn("Could not load social data:", error);
       setNotice(error instanceof Error ? error.message : "Could not load social data.");
     } finally {
       setLoading(false);
     }
-  }, [activeThreadId, loadConversation]);
+  }, [activeThreadId, loadConversation, loadForumData]);
 
   const searchMembers = useCallback(async (query: string) => {
     const term = query.trim();
@@ -409,6 +501,10 @@ export function SocialRail() {
         setConversation([]);
         setActiveThreadId(null);
         setMemberResults([]);
+        setForumThreads([]);
+        setForumPosts([]);
+        setForumProfiles([]);
+        setForumActiveThreadId(null);
         return;
       }
 
@@ -491,6 +587,40 @@ export function SocialRail() {
     ? threads.find((thread) => thread.id === activeThreadId) ?? null
     : null;
 
+  const forumProfileById = useMemo(
+    () => new Map(forumProfiles.map((member) => [member.id, member])),
+    [forumProfiles],
+  );
+
+  const forumActiveThread = useMemo(
+    () => forumThreads.find((thread) => thread.id === forumActiveThreadId) ?? null,
+    [forumActiveThreadId, forumThreads],
+  );
+
+  const forumActivePosts = useMemo(
+    () => forumPosts.filter((post) => post.thread_id === forumActiveThreadId),
+    [forumActiveThreadId, forumPosts],
+  );
+
+  const visibleForumThreads = useMemo(() => {
+    const query = forumSearch.trim().toLowerCase();
+    if (!query) return forumThreads;
+
+    return forumThreads.filter((thread) => {
+      const author = forumProfileById.get(thread.author_id);
+      const title = thread.title.toLowerCase();
+      const authorName = author?.username?.toLowerCase() ?? "";
+      const preview = forumActiveThreadId === thread.id
+        ? forumActivePosts.map((post) => post.body).join(" ").toLowerCase()
+        : "";
+      return (
+        title.includes(query) ||
+        authorName.includes(query) ||
+        preview.includes(query)
+      );
+    });
+  }, [forumActivePosts, forumActiveThreadId, forumProfileById, forumSearch, forumThreads]);
+
   const filteredFriends = useMemo(() => {
     const query = friendFilter.trim().toLowerCase();
     if (!query) return friends;
@@ -557,6 +687,92 @@ export function SocialRail() {
       await loadSocialData(threadId);
     } catch (error) {
       setNotice(error instanceof Error ? error.message : "Could not open chat.");
+    }
+  };
+
+  const openForumThread = async (threadId: string) => {
+    setActiveTab("forum");
+    setForumActiveThreadId(threadId);
+    await loadForumData(threadId);
+  };
+
+  const createForumThread = async () => {
+    if (!session?.user) return;
+
+    const title = forumThreadTitle.trim();
+    const body = forumThreadBody.trim();
+
+    if (!title) {
+      setNotice("Thread title cannot be empty.");
+      return;
+    }
+
+    if (!body) {
+      setNotice("Thread body cannot be empty.");
+      return;
+    }
+
+    setForumPosting(true);
+    setNotice("");
+
+    try {
+      const { data: threadData, error: threadError } = await supabase
+        .from("forum_threads")
+        .insert({
+          author_id: session.user.id,
+          title,
+        })
+        .select("id")
+        .single();
+
+      if (threadError) throw threadError;
+
+      const threadId = threadData.id as string;
+
+      const { error: postError } = await supabase.from("forum_posts").insert({
+        thread_id: threadId,
+        author_id: session.user.id,
+        body,
+      });
+
+      if (postError) throw postError;
+
+      setForumThreadTitle("");
+      setForumThreadBody("");
+      setForumComposerOpen(false);
+      setForumActiveThreadId(threadId);
+      await loadForumData(threadId);
+    } catch (error) {
+      setNotice(error instanceof Error ? error.message : "Could not create thread.");
+    } finally {
+      setForumPosting(false);
+    }
+  };
+
+  const replyForumThread = async () => {
+    if (!session?.user || !forumActiveThreadId) return;
+
+    const body = forumReplyBody.trim();
+    if (!body) return;
+
+    setForumPosting(true);
+    setNotice("");
+
+    try {
+      const { error } = await supabase.from("forum_posts").insert({
+        thread_id: forumActiveThreadId,
+        author_id: session.user.id,
+        body,
+      });
+
+      if (error) throw error;
+
+      setForumReplyBody("");
+      await loadForumData(forumActiveThreadId);
+    } catch (error) {
+      setNotice(error instanceof Error ? error.message : "Could not post reply.");
+    } finally {
+      setForumPosting(false);
     }
   };
 
@@ -693,6 +909,9 @@ export function SocialRail() {
                             setActiveTab(tab.key);
                             if (tab.key === "messages" && !activeThreadId && threads[0]) {
                               void openThread(threads[0].id);
+                            }
+                            if (tab.key === "forum") {
+                              void loadForumData();
                             }
                           }}
                           className={`inline-flex items-center gap-2 rounded-2xl border px-3 py-2 text-sm transition ${
@@ -1152,24 +1371,245 @@ export function SocialRail() {
 
                   {activeTab === "forum" ? (
                     <div className="space-y-3">
-                      <div className="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950/60 p-3 text-sm text-slate-400">
-                        <Bell className="h-4 w-4" />
-                        Trending topics
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
+                              <Bell className="h-4 w-4" />
+                              Public forum
+                            </div>
+                            <h3 className="mt-2 text-lg font-semibold text-slate-100">
+                              Chess Forum
+                            </h3>
+                            <p className="mt-2 text-sm leading-6 text-slate-400">
+                              One public board for discussions, openings, tactics, endgames, and site chat.
+                            </p>
+                          </div>
+
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setForumComposerOpen((current) => !current);
+                              setForumActiveThreadId(null);
+                            }}
+                            className="rounded-xl bg-slate-100 px-3 py-2 text-sm font-medium text-slate-950 transition hover:bg-white"
+                          >
+                            {forumComposerOpen ? "Close" : "New thread"}
+                          </button>
+                        </div>
+
+                        <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950 px-3 py-2">
+                          <input
+                            type="text"
+                            value={forumSearch}
+                            onChange={(e) => setForumSearch(e.target.value)}
+                            placeholder="Search forum threads"
+                            className="w-full bg-transparent text-sm text-slate-100 outline-none placeholder:text-slate-500"
+                          />
+                        </div>
                       </div>
 
-                      {sampleTopics.map((topic) => (
-                        <div
-                          key={topic.title}
-                          className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
-                        >
-                          <div className="font-medium text-slate-100">
-                            {topic.title}
+                      {forumComposerOpen ? (
+                        <div className="space-y-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                          <div className="text-xs uppercase tracking-wide text-slate-500">
+                            Start a thread
                           </div>
-                          <div className="mt-1 text-sm text-slate-500">
-                            {topic.meta}
+
+                          <input
+                            type="text"
+                            value={forumThreadTitle}
+                            onChange={(e) => setForumThreadTitle(e.target.value)}
+                            placeholder="Thread title"
+                            className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                          />
+
+                          <textarea
+                            value={forumThreadBody}
+                            onChange={(e) => setForumThreadBody(e.target.value)}
+                            rows={4}
+                            placeholder="Write the first post..."
+                            className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                          />
+
+                          <button
+                            type="button"
+                            onClick={() => void createForumThread()}
+                            disabled={forumPosting || !forumThreadTitle.trim() || !forumThreadBody.trim()}
+                            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                          >
+                            <Send className="h-4 w-4" />
+                            {forumPosting ? "Posting..." : "Publish thread"}
+                          </button>
+                        </div>
+                      ) : null}
+
+                      {forumLoading ? (
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                          Loading forum...
+                        </div>
+                      ) : forumThreads.length === 0 ? (
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                          No forum threads yet. Start the first discussion.
+                        </div>
+                      ) : forumActiveThread ? (
+                        <div className="space-y-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+                          <div className="flex items-start justify-between gap-3 border-b border-slate-800 pb-3">
+                            <div className="min-w-0">
+                              <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
+                                {forumActiveThread.is_pinned ? (
+                                  <span className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-1 text-amber-300">
+                                    Pinned
+                                  </span>
+                                ) : null}
+                                <span>Thread</span>
+                              </div>
+                              <h3 className="mt-2 text-lg font-semibold text-slate-100">
+                                {forumActiveThread.title}
+                              </h3>
+                              <div className="mt-1 text-xs text-slate-500">
+                                {forumActiveThread.reply_count != null
+                                  ? `${Math.max(forumActiveThread.reply_count - 1, 0)} replies`
+                                  : "Public discussion"}
+                              </div>
+                            </div>
+
+                            <button
+                              type="button"
+                              onClick={() => setForumActiveThreadId(null)}
+                              className="rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-xs text-slate-100 transition hover:bg-slate-800"
+                            >
+                              Back
+                            </button>
+                          </div>
+
+                          <div className="max-h-72 space-y-3 overflow-y-auto pr-1">
+                            {forumActivePosts.length === 0 ? (
+                              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-3 text-sm text-slate-400">
+                                Loading posts...
+                              </div>
+                            ) : (
+                              forumActivePosts.map((post, index) => {
+                                const author = forumProfileById.get(post.author_id);
+                                const isFirst = index === 0;
+                                return (
+                                  <div
+                                    key={post.id}
+                                    className={`rounded-2xl border p-4 ${
+                                      isFirst
+                                        ? "border-slate-700 bg-slate-900/80"
+                                        : "border-slate-800 bg-slate-900/60"
+                                    }`}
+                                  >
+                                    <div className="flex items-start justify-between gap-3">
+                                      <div className="flex items-center gap-3 min-w-0">
+                                        <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-950 text-sm font-semibold text-slate-100">
+                                          {author?.avatar_url ? (
+                                            // eslint-disable-next-line @next/next/no-img-element
+                                            <img
+                                              src={author.avatar_url}
+                                              alt={author.username ?? "Author avatar"}
+                                              className="h-full w-full object-cover"
+                                            />
+                                          ) : (
+                                            getInitials(author?.username)
+                                          )}
+                                        </div>
+                                        <div className="min-w-0">
+                                          <div className="truncate font-medium text-slate-100">
+                                            {author?.username ?? "Player"}
+                                          </div>
+                                          <div className="text-xs text-slate-500">
+                                            {formatDate(post.created_at)}
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {isFirst ? (
+                                        <div className="rounded-full border border-slate-700 bg-slate-950 px-2 py-1 text-[11px] uppercase tracking-wide text-slate-400">
+                                          OP
+                                        </div>
+                                      ) : null}
+                                    </div>
+
+                                    <p className="mt-3 whitespace-pre-wrap text-sm leading-6 text-slate-300">
+                                      {post.body}
+                                    </p>
+                                  </div>
+                                );
+                              })
+                            )}
+                          </div>
+
+                          <div className="space-y-2 border-t border-slate-800 pt-3">
+                            <textarea
+                              value={forumReplyBody}
+                              onChange={(e) => setForumReplyBody(e.target.value)}
+                              rows={3}
+                              placeholder="Write a reply..."
+                              className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                            />
+
+                            <button
+                              type="button"
+                              onClick={() => void replyForumThread()}
+                              disabled={forumPosting || !forumReplyBody.trim()}
+                              className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+                            >
+                              <Send className="h-4 w-4" />
+                              {forumPosting ? "Posting..." : "Post reply"}
+                            </button>
                           </div>
                         </div>
-                      ))}
+                      ) : (
+                        <div className="space-y-2">
+                          {visibleForumThreads.map((thread) => {
+                            const author = forumProfileById.get(thread.author_id);
+                            return (
+                              <button
+                                key={thread.id}
+                                type="button"
+                                onClick={() => void openForumThread(thread.id)}
+                                className="w-full rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-left transition hover:bg-slate-800/70"
+                              >
+                                <div className="flex items-start justify-between gap-3">
+                                  <div className="min-w-0">
+                                    <div className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
+                                      {thread.is_pinned ? (
+                                        <span className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-1 text-amber-300">
+                                          Pinned
+                                        </span>
+                                      ) : null}
+                                      <span>Forum thread</span>
+                                    </div>
+                                    <div className="mt-2 font-medium text-slate-100">
+                                      {thread.title}
+                                    </div>
+                                    <div className="mt-1 text-sm text-slate-500">
+                                      by {author?.username ?? "Player"}
+                                    </div>
+                                  </div>
+
+                                  <div className="text-right text-xs text-slate-500">
+                                    <div>
+                                      {thread.reply_count != null
+                                        ? `${Math.max(thread.reply_count - 1, 0)} replies`
+                                        : "0 replies"}
+                                    </div>
+                                    <div className="mt-1">
+                                      {thread.last_post_at ? formatDate(thread.last_post_at) : formatDate(thread.created_at)}
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>
+                            );
+                          })}
+
+                          {visibleForumThreads.length === 0 ? (
+                            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                              No threads match your search.
+                            </div>
+                          ) : null}
+                        </div>
+                      )}
                     </div>
                   ) : null}
 
