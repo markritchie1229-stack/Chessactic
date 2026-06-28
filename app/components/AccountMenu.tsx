@@ -94,6 +94,10 @@ export function AccountMenu() {
 
       if (profileError) throw profileError;
 
+      const { data: refreshed } = await supabase.auth.getSession();
+      setSession(refreshed.session);
+      setUsername(cleaned);
+      window.dispatchEvent(new CustomEvent("profile-updated"));
       setMessage("Username updated.");
     } catch (err: unknown) {
       setMessage(err instanceof Error ? err.message : "Something went wrong.");

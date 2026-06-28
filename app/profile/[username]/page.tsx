@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import { Check, Copy, PencilLine, Save, X } from "lucide-react";
@@ -59,70 +59,84 @@ export default function ProfilePage() {
   const [editing, setEditing] = useState(false);
   const [username, setUsername] = useState("");
   const [copied, setCopied] = useState(false);
+  const mountedRef = useRef(true);
 
   const isOwner = Boolean(session?.user.id && profile?.id === session.user.id);
 
   useEffect(() => {
-    let mounted = true;
-
-    const load = async () => {
-      setLoading(true);
-      setMessage("");
-
-      const { data } = await supabase.auth.getSession();
-      const nextSession = data.session;
-
-      if (!mounted) return;
-      setSession(nextSession);
-
-      if (!usernameParam) {
-        setProfile(null);
-        setLoading(false);
-        setMessage("Missing profile username.");
-        return;
-      }
-
-      const { data: row, error } = await supabase
-        .from("profiles")
-        .select(
-          "id,username,created_at,last_seen,games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme",
-        )
-        .eq("username", usernameParam)
-        .maybeSingle();
-
-      if (!mounted) return;
-
-      if (error) {
-        console.warn("Could not load profile:", error);
-        setProfile(null);
-        setLoading(false);
-        setMessage("Could not load this profile.");
-        return;
-      }
-
-      const nextProfile = (row as ProfileRow | null) ?? null;
-      setProfile(nextProfile);
-      setUsername(nextProfile?.username ?? "");
-      setEditing(false);
-      setLoading(false);
-
-      if (!nextProfile) {
-        setMessage("Profile not found.");
-      }
-    };
-
-    void load();
-
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, nextSession) => {
-      setSession(nextSession);
-    });
+    mountedRef.current = true;
 
     return () => {
-      mounted = false;
-      subscription.unsubscribe();
+      mountedRef.current = false;
     };
+  }, []);
+
+  const loadProfile = async (silent = false) => {
+    if (!silent) {
+      setLoading(true);
+    }
+    setMessage("");
+
+    const { data } = await supabase.auth.getSession();
+    const nextSession = data.session;
+
+    if (!mountedRef.current) return;
+    setSession(nextSession);
+
+    if (!usernameParam) {
+      setProfile(null);
+      setLoading(false);
+      setMessage("Missing profile username.");
+      return;
+    }
+
+    const { data: row, error } = await supabase
+      .from("profiles")
+      .select(
+        "id,username,created_at,last_seen,games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme",
+      )
+      .eq("username", usernameParam)
+      .maybeSingle();
+
+    if (!mountedRef.current) return;
+
+    if (error) {
+      console.warn("Could not load profile:", error);
+      setProfile(null);
+      setLoading(false);
+      setMessage("Could not load this profile.");
+      return;
+    }
+
+    const nextProfile = (row as ProfileRow | null) ?? null;
+    setProfile(nextProfile);
+    setUsername(nextProfile?.username ?? "");
+    setEditing(false);
+    setLoading(false);
+
+    if (!nextProfile) {
+      setMessage("Profile not found.");
+    }
+  };
+
+  useEffect(() => {
+    void loadProfile();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [usernameParam]);
+
+  useEffect(() => {
+    const handleProfileUpdate = () => {
+      void loadProfile(true);
+    };
+
+    window.addEventListener("profile-updated", handleProfileUpdate);
+    window.addEventListener("profile-metrics-updated", handleProfileUpdate);
+
+    return () => {
+      window.removeEventListener("profile-updated", handleProfileUpdate);
+      window.removeEventListener("profile-metrics-updated", handleProfileUpdate);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [usernameParam]);
 
   const saveUsername = async () => {
@@ -176,10 +190,15 @@ export default function ProfilePage() {
         .eq("id", profile.id);
       if (profileError) throw profileError;
 
+      const { data: refreshed } = await supabase.auth.getSession();
+      setSession(refreshed.session);
       setProfile((prev) => (prev ? { ...prev, username: cleaned } : prev));
+      setUsername(cleaned);
       setEditing(false);
       setMessage("Profile updated.");
+      window.dispatchEvent(new CustomEvent("profile-updated"));
       router.replace(`/profile/${cleaned}`);
+      router.refresh();
     } catch (err: unknown) {
       if (err instanceof Error) {
         setMessage(err.message);

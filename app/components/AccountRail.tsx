@@ -217,6 +217,8 @@ export function AccountRail() {
 
       const { data: refreshed } = await supabase.auth.getSession();
       setSession(refreshed.session);
+      setUsername(cleaned);
+      window.dispatchEvent(new CustomEvent("profile-updated"));
       setMessage("Username updated.");
     } catch (err: any) {
       if (

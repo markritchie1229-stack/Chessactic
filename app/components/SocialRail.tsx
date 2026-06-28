@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, type ComponentType } from "react";
+import { useEffect, useMemo, useState, useCallback, type ComponentType } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
@@ -117,36 +117,32 @@ export function SocialRail() {
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState<TabKey>("profile");
 
+  const loadProfile = useCallback(async () => {
+    const { data } = await supabase.auth.getSession();
+    const nextSession = data.session;
+
+    setSession(nextSession);
+
+    if (!nextSession) {
+      setProfile(null);
+      return;
+    }
+
+    const { data: row } = await supabase
+      .from("profiles")
+      .select("username,created_at,last_seen")
+      .eq("id", nextSession.user.id)
+      .maybeSingle();
+
+    setProfile((row as ProfileSummary | null) ?? null);
+  }, []);
+
   useEffect(() => {
     setMounted(true);
   }, []);
 
   useEffect(() => {
-    let alive = true;
-
-    const load = async () => {
-      const { data } = await supabase.auth.getSession();
-      const nextSession = data.session;
-
-      if (!alive) return;
-      setSession(nextSession);
-
-      if (!nextSession) {
-        setProfile(null);
-        return;
-      }
-
-      const { data: row } = await supabase
-        .from("profiles")
-        .select("username,created_at,last_seen")
-        .eq("id", nextSession.user.id)
-        .maybeSingle();
-
-      if (!alive) return;
-      setProfile((row as ProfileSummary | null) ?? null);
-    };
-
-    void load();
+    void loadProfile();
 
     const {
       data: { subscription },
@@ -158,23 +154,25 @@ export function SocialRail() {
         return;
       }
 
-      void (async () => {
-        const { data: row } = await supabase
-          .from("profiles")
-          .select("username,created_at,last_seen")
-          .eq("id", nextSession.user.id)
-          .maybeSingle();
-
-        if (!alive) return;
-        setProfile((row as ProfileSummary | null) ?? null);
-      })();
+      void loadProfile();
     });
 
     return () => {
-      alive = false;
       subscription.unsubscribe();
     };
-  }, []);
+  }, [loadProfile]);
+
+  useEffect(() => {
+    const handleProfileUpdate = () => {
+      void loadProfile();
+    };
+
+    window.addEventListener("profile-updated", handleProfileUpdate);
+
+    return () => {
+      window.removeEventListener("profile-updated", handleProfileUpdate);
+    };
+  }, [loadProfile]);
 
   const displayName =
     session?.user.user_metadata?.username?.trim() ||
