@@ -8,7 +8,9 @@ import {
   ArrowUpRight,
   Bell,
   Hash,
+  Loader2,
   MessageSquareMore,
+  Search,
   Shield,
   UserCircle2,
   Users,
@@ -18,14 +20,15 @@ import {
 import { supabase } from "@/lib/supabase";
 
 type ProfileSummary = {
+  id: string;
   username: string | null;
-  created_at: string | null;
-  last_seen: string | null;
   avatar_url: string | null;
   bio: string | null;
+  created_at: string | null;
+  last_seen: string | null;
 };
 
-type TabKey = "profile" | "messages" | "friends" | "clubs" | "forum";
+type TabKey = "profile" | "search" | "messages" | "friends" | "clubs" | "forum";
 
 type TabItem = {
   key: TabKey;
@@ -35,6 +38,7 @@ type TabItem = {
 
 const tabs: TabItem[] = [
   { key: "profile", label: "Public profile", icon: UserCircle2 },
+  { key: "search", label: "Search players", icon: Search },
   { key: "messages", label: "Messages", icon: MessageSquareMore },
   { key: "friends", label: "Friends", icon: Users },
   { key: "clubs", label: "Clubs", icon: Shield },
@@ -120,6 +124,12 @@ function getInitials(value: string | null | undefined) {
   return `${first}${second}`.toUpperCase();
 }
 
+function clampBio(value: string | null | undefined) {
+  const trimmed = value?.trim();
+  if (!trimmed) return "";
+  return trimmed.length > 110 ? `${trimmed.slice(0, 107)}...` : trimmed;
+}
+
 export function SocialRail() {
   const router = useRouter();
   const [session, setSession] = useState<Session | null>(null);
@@ -127,6 +137,10 @@ export function SocialRail() {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [activeTab, setActiveTab] = useState<TabKey>("profile");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<ProfileSummary[]>([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchMessage, setSearchMessage] = useState("");
 
   const loadProfile = useCallback(async () => {
     const { data } = await supabase.auth.getSession();
@@ -141,7 +155,7 @@ export function SocialRail() {
 
     const { data: row } = await supabase
       .from("profiles")
-      .select("username,created_at,last_seen,avatar_url,bio")
+      .select("id,username,avatar_url,bio,created_at,last_seen")
       .eq("id", nextSession.user.id)
       .maybeSingle();
 
@@ -185,6 +199,61 @@ export function SocialRail() {
     };
   }, [loadProfile]);
 
+  useEffect(() => {
+    if (!open || activeTab !== "search" || !session) {
+      setSearchResults([]);
+      setSearchMessage("");
+      setSearchLoading(false);
+      return;
+    }
+
+    const trimmed = searchQuery.trim();
+
+    if (trimmed.length < 2) {
+      setSearchResults([]);
+      setSearchMessage("Type at least 2 characters to search players.");
+      setSearchLoading(false);
+      return;
+    }
+
+    let cancelled = false;
+    setSearchLoading(true);
+    setSearchMessage("");
+
+    const timer = window.setTimeout(() => {
+      void (async () => {
+        const { data, error } = await supabase
+          .from("profiles")
+          .select("id,username,avatar_url,bio,created_at,last_seen")
+          .ilike("username", `%${trimmed}%`)
+          .order("username", { ascending: true })
+          .limit(10);
+
+        if (cancelled) return;
+
+        if (error) {
+          setSearchResults([]);
+          setSearchMessage("Could not load search results.");
+          setSearchLoading(false);
+          return;
+        }
+
+        const nextResults = (data as ProfileSummary[] | null) ?? [];
+        setSearchResults(nextResults);
+        setSearchLoading(false);
+
+        if (nextResults.length === 0) {
+          setSearchMessage("No players matched that name.");
+        }
+      })();
+    }, 250);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timer);
+    };
+  }, [activeTab, open, searchQuery, session]);
+
   const displayName =
     session?.user.user_metadata?.username?.trim() ||
     session?.user.email?.trim() ||
@@ -203,8 +272,11 @@ export function SocialRail() {
     [],
   );
 
-  const bioPreview = profile?.bio?.trim();
-  const avatarUrl = profile?.avatar_url ?? null;
+  const openProfile = (targetUsername: string | null) => {
+    if (!targetUsername) return;
+    router.push(`/profile/${targetUsername.toLowerCase()}`);
+    setOpen(false);
+  };
 
   const body =
     open && mounted
@@ -236,7 +308,8 @@ export function SocialRail() {
               {!session ? (
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                    Sign in to view your profile, messages, friends, clubs, and forum.
+                    Sign in to view your profile, search players, messages, friends, clubs,
+                    and forum.
                   </div>
                   <button
                     onClick={() => router.push("/signup")}
@@ -287,12 +360,13 @@ export function SocialRail() {
                   {activeTab === "profile" ? (
                     <div className="space-y-4">
                       <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                        <div className="flex items-start gap-3">
-                          <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-950 text-lg font-semibold text-slate-100">
-                            {avatarUrl ? (
+                        <div className="text-sm text-slate-400">Public profile</div>
+                        <div className="mt-3 flex items-center gap-4">
+                          <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-950 text-xl font-semibold text-slate-100">
+                            {profile?.avatar_url ? (
                               // eslint-disable-next-line @next/next/no-img-element
                               <img
-                                src={avatarUrl}
+                                src={profile.avatar_url}
                                 alt={`${displayName} avatar`}
                                 className="h-full w-full object-cover"
                               />
@@ -301,9 +375,8 @@ export function SocialRail() {
                             )}
                           </div>
 
-                          <div className="min-w-0 flex-1">
-                            <div className="text-sm text-slate-400">Public profile</div>
-                            <div className="mt-1 text-xl font-semibold text-slate-100">
+                          <div>
+                            <div className="text-xl font-semibold text-slate-100">
                               {displayName}
                             </div>
                             <div className="mt-1 text-sm text-slate-500">
@@ -311,16 +384,11 @@ export function SocialRail() {
                             </div>
                           </div>
                         </div>
-
-                        {bioPreview ? (
+                        {profile?.bio ? (
                           <p className="mt-4 whitespace-pre-wrap text-sm leading-6 text-slate-300">
-                            {bioPreview}
+                            {profile.bio}
                           </p>
-                        ) : (
-                          <p className="mt-4 text-sm leading-6 text-slate-500">
-                            No bio added yet.
-                          </p>
-                        )}
+                        ) : null}
                       </div>
 
                       <div className="grid grid-cols-1 gap-3 text-sm sm:grid-cols-2">
@@ -351,6 +419,76 @@ export function SocialRail() {
                         Open full profile
                         <ArrowUpRight className="h-4 w-4" />
                       </button>
+                    </div>
+                  ) : null}
+
+                  {activeTab === "search" ? (
+                    <div className="space-y-3">
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                        <label className="text-xs uppercase tracking-wide text-slate-500">
+                          Search players
+                        </label>
+                        <input
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          placeholder="Search by username"
+                          className="mt-2 w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                        />
+                      </div>
+
+                      {searchLoading ? (
+                        <div className="flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                          <Loader2 className="h-4 w-4 animate-spin" />
+                          Searching players...
+                        </div>
+                      ) : null}
+
+                      {searchMessage ? (
+                        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                          {searchMessage}
+                        </div>
+                      ) : null}
+
+                      {searchResults.length > 0 ? (
+                        <div className="space-y-3">
+                          {searchResults.map((result) => (
+                            <button
+                              key={result.id}
+                              type="button"
+                              onClick={() => openProfile(result.username)}
+                              className="flex w-full items-start gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-left transition hover:bg-slate-800"
+                            >
+                              <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 text-sm font-semibold text-slate-100">
+                                {result.avatar_url ? (
+                                  // eslint-disable-next-line @next/next/no-img-element
+                                  <img
+                                    src={result.avatar_url}
+                                    alt={`${result.username ?? "Player"} avatar`}
+                                    className="h-full w-full object-cover"
+                                  />
+                                ) : (
+                                  getInitials(result.username)
+                                )}
+                              </div>
+
+                              <div className="min-w-0 flex-1">
+                                <div className="flex items-center justify-between gap-3">
+                                  <div className="truncate font-medium text-slate-100">
+                                    {result.username}
+                                  </div>
+                                  <ArrowUpRight className="h-4 w-4 shrink-0 text-slate-500" />
+                                </div>
+                                <div className="mt-1 line-clamp-2 text-sm leading-6 text-slate-400">
+                                  {clampBio(result.bio) || "No bio yet."}
+                                </div>
+                                <div className="mt-2 text-xs text-slate-500">
+                                  Last seen {formatDate(result.last_seen)}
+                                </div>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      ) : null}
                     </div>
                   ) : null}
 
@@ -469,7 +607,10 @@ export function SocialRail() {
       <div className="flex w-[72px] flex-col items-center rounded-3xl border border-slate-800 bg-slate-900/80 py-4 shadow-lg">
         <button
           type="button"
-          onClick={() => setOpen(true)}
+          onClick={() => {
+            setOpen(true);
+            setActiveTab("search");
+          }}
           className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-slate-100 transition hover:bg-slate-800"
           aria-label="Open social panel"
         >
