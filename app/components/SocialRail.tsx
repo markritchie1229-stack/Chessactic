@@ -1055,6 +1055,13 @@ export function SocialRail() {
                         <p className="mt-2 text-sm leading-6 text-slate-400">
                           Search usernames and bios to find people on the site.
                         </p>
+                        <input
+                          type="text"
+                          value={memberSearch}
+                          onChange={(e) => setMemberSearch(e.target.value)}
+                          placeholder="Search members"
+                          className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+                        />
                       </div>
 
                       {memberSearch.trim() ? (
