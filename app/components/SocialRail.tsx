@@ -160,6 +160,7 @@ export function SocialRail() {
   const [session, setSession] = useState<Session | null>(null);
   const [profile, setProfile] = useState<ProfileSummary | null>(null);
   const [friends, setFriends] = useState<FriendProfile[]>([]);
+  const [friendFilter, setFriendFilter] = useState("");
   const [threads, setThreads] = useState<ThreadSummary[]>([]);
   const [activeThreadId, setActiveThreadId] = useState<string | null>(null);
   const [conversation, setConversation] = useState<MessageRow[]>([]);
@@ -397,6 +398,17 @@ export function SocialRail() {
   const activeThread = activeThreadId
     ? threads.find((thread) => thread.id === activeThreadId) ?? null
     : null;
+
+  const filteredFriends = useMemo(() => {
+    const query = friendFilter.trim().toLowerCase();
+    if (!query) return friends;
+
+    return friends.filter((friend) => {
+      const username = friend.username?.toLowerCase() ?? "";
+      const bio = friend.bio?.toLowerCase() ?? "";
+      return username.includes(query) || bio.includes(query);
+    });
+  }, [friendFilter, friends]);
 
   const stats = useMemo(
     () => [
@@ -830,12 +842,24 @@ export function SocialRail() {
 
                   {activeTab === "friends" ? (
                     <div className="space-y-3">
-                      {friends.length === 0 ? (
+                      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
+                        <input
+                          type="text"
+                          value={friendFilter}
+                          onChange={(e) => setFriendFilter(e.target.value)}
+                          placeholder="Search friends"
+                          className="w-full bg-transparent text-sm text-slate-100 outline-none placeholder:text-slate-500"
+                        />
+                      </div>
+
+                      {filteredFriends.length === 0 ? (
                         <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-                          No friends yet. Accept a request from a profile to start building your list.
+                          {friends.length === 0
+                            ? "No friends yet. Accept a request from a profile to start building your list."
+                            : "No friends match that search. "}
                         </div>
                       ) : (
-                        friends.map((friend) => (
+                        filteredFriends.map((friend) => (
                           <div
                             key={friend.id}
                             className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
@@ -885,6 +909,11 @@ export function SocialRail() {
                                 ) : null}
                               </div>
                             </div>
+                            {friend.bio?.trim() ? (
+                              <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-400">
+                                {friend.bio}
+                              </p>
+                            ) : null}
                           </div>
                         ))
                       )}
