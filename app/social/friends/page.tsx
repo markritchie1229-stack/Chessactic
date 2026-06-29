@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
-import { SocialPageShell } from "../_components/SocialPageShell";
 
 type FriendProfile = {
   id: string;
@@ -94,66 +93,76 @@ export default function SocialFriendsPage() {
   }, [friends, query]);
 
   return (
-    <SocialPageShell title="Friends" subtitle="Your accepted friends list.">
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search friends"
-        className="mb-4 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-      />
+    <div className="space-y-6">
+      <div>
+        <div className="text-sm uppercase tracking-wide text-slate-400">Social</div>
+        <h1 className="mt-2 text-3xl font-semibold">Friends</h1>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
+          Your accepted friends list.
+        </p>
+      </div>
 
-      {loading ? (
-        <div className="text-sm text-slate-400">Loading friends...</div>
-      ) : filtered.length === 0 ? (
-        <div className="text-sm text-slate-400">No friends found.</div>
-      ) : (
-        <div className="space-y-3">
-          {filtered.map((friend) => (
-            <div
-              key={friend.id}
-              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
-            >
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex items-center gap-3">
-                  <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 text-sm font-semibold">
-                    {friend.avatar_url ? (
-                      // eslint-disable-next-line @next/next/no-img-element
-                      <img
-                        src={friend.avatar_url}
-                        alt={friend.username ?? "Friend avatar"}
-                        className="h-full w-full object-cover"
-                      />
-                    ) : (
-                      getInitials(friend.username)
-                    )}
-                  </div>
-                  <div>
-                    <div className="font-medium text-slate-100">
-                      {friend.username ?? "Player"}
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search friends"
+          className="mb-4 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+        />
+
+        {loading ? (
+          <div className="text-sm text-slate-400">Loading friends...</div>
+        ) : filtered.length === 0 ? (
+          <div className="text-sm text-slate-400">No friends found.</div>
+        ) : (
+          <div className="space-y-3">
+            {filtered.map((friend) => (
+              <div
+                key={friend.id}
+                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 text-sm font-semibold">
+                      {friend.avatar_url ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={friend.avatar_url}
+                          alt={friend.username ?? "Friend avatar"}
+                          className="h-full w-full object-cover"
+                        />
+                      ) : (
+                        getInitials(friend.username)
+                      )}
                     </div>
-                    <div className="text-sm text-slate-500">
-                      {friend.last_seen ? `Last seen ${formatDate(friend.last_seen)}` : "Friend"}
+                    <div>
+                      <div className="font-medium text-slate-100">
+                        {friend.username ?? "Player"}
+                      </div>
+                      <div className="text-sm text-slate-500">
+                        {friend.last_seen ? `Last seen ${formatDate(friend.last_seen)}` : "Friend"}
+                      </div>
                     </div>
                   </div>
+
+                  {friend.username ? (
+                    <Link
+                      href={`/profile/${friend.username.toLowerCase()}`}
+                      className="rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-100 transition hover:bg-slate-800"
+                    >
+                      View
+                    </Link>
+                  ) : null}
                 </div>
 
-                {friend.username ? (
-                  <Link
-                    href={`/profile/${friend.username.toLowerCase()}`}
-                    className="rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-100 transition hover:bg-slate-800"
-                  >
-                    View
-                  </Link>
+                {friend.bio?.trim() ? (
+                  <p className="mt-3 text-sm leading-6 text-slate-400">{friend.bio}</p>
                 ) : null}
               </div>
-
-              {friend.bio?.trim() ? (
-                <p className="mt-3 text-sm leading-6 text-slate-400">{friend.bio}</p>
-              ) : null}
-            </div>
-          ))}
-        </div>
-      )}
-    </SocialPageShell>
+            ))}
+          </div>
+        )}
+      </section>
+    </div>
   );
 }

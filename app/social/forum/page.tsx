@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
-import { SocialPageShell } from "../_components/SocialPageShell";
 
 type ForumThread = {
   id: string;
@@ -110,74 +109,84 @@ export default function SocialForumPage() {
   };
 
   return (
-    <SocialPageShell title="Forum" subtitle="One public board for the whole site.">
-      <div className="grid gap-4 lg:grid-cols-[1fr_360px]">
-        <div className="space-y-3">
-          {loading ? (
-            <div className="text-sm text-slate-400">Loading topics...</div>
-          ) : threads.length === 0 ? (
-            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
-              No threads yet. Start the first one.
-            </div>
-          ) : (
-            threads.map((thread) => (
-              <div
-                key={thread.id}
-                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <div className="font-medium text-slate-100">{thread.title}</div>
-                    <div className="mt-1 text-sm text-slate-500">
-                      Replies: {thread.reply_count} · Last activity{" "}
-                      {formatDate(thread.last_post_at ?? thread.updated_at ?? thread.created_at)}
-                    </div>
-                  </div>
-                  {thread.is_pinned ? (
-                    <div className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs text-slate-200">
-                      Pinned
-                    </div>
-                  ) : null}
-                </div>
-              </div>
-            ))
-          )}
-        </div>
-
-        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-          <div className="text-sm uppercase tracking-wide text-slate-500">New thread</div>
-
-          <input
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            placeholder="Thread title"
-            className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-          />
-
-          <textarea
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
-            placeholder="Write the first post..."
-            rows={8}
-            className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-          />
-
-          <button
-            type="button"
-            onClick={() => void createThread()}
-            disabled={posting}
-            className="mt-3 w-full rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
-          >
-            {posting ? "Posting..." : "Post thread"}
-          </button>
-
-          {message ? (
-            <div className="mt-3 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-300">
-              {message}
-            </div>
-          ) : null}
-        </div>
+    <div className="space-y-6">
+      <div>
+        <div className="text-sm uppercase tracking-wide text-slate-400">Social</div>
+        <h1 className="mt-2 text-3xl font-semibold">Forum</h1>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
+          One public board for the whole site.
+        </p>
       </div>
-    </SocialPageShell>
+
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <div className="grid gap-4 lg:grid-cols-[1fr_360px]">
+          <div className="space-y-3">
+            {loading ? (
+              <div className="text-sm text-slate-400">Loading topics...</div>
+            ) : threads.length === 0 ? (
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-400">
+                No threads yet. Start the first one.
+              </div>
+            ) : (
+              threads.map((thread) => (
+                <div
+                  key={thread.id}
+                  className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <div className="font-medium text-slate-100">{thread.title}</div>
+                      <div className="mt-1 text-sm text-slate-500">
+                        Replies: {thread.reply_count} · Last activity{" "}
+                        {formatDate(thread.last_post_at ?? thread.updated_at ?? thread.created_at)}
+                      </div>
+                    </div>
+                    {thread.is_pinned ? (
+                      <div className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs text-slate-200">
+                        Pinned
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+
+          <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+            <div className="text-sm uppercase tracking-wide text-slate-500">New thread</div>
+
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder="Thread title"
+              className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+            />
+
+            <textarea
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
+              placeholder="Write the first post..."
+              rows={8}
+              className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
+            />
+
+            <button
+              type="button"
+              onClick={() => void createThread()}
+              disabled={posting}
+              className="mt-3 w-full rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              {posting ? "Posting..." : "Post thread"}
+            </button>
+
+            {message ? (
+              <div className="mt-3 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-300">
+                {message}
+              </div>
+            ) : null}
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }

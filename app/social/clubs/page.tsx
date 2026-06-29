@@ -1,5 +1,4 @@
 import { Shield } from "lucide-react";
-import { SocialPageShell } from "../_components/SocialPageShell";
 
 const clubs = [
   {
@@ -21,24 +20,34 @@ const clubs = [
 
 export default function SocialClubsPage() {
   return (
-    <SocialPageShell title="Clubs" subtitle="Community groups and chess hangouts.">
-      <div className="space-y-3">
-        {clubs.map((club) => (
-          <div
-            key={club.name}
-            className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <div className="font-medium text-slate-100">{club.name}</div>
-                <div className="text-sm text-slate-500">{club.meta}</div>
-              </div>
-              <Shield className="h-5 w-5 text-slate-500" />
-            </div>
-            <div className="mt-3 text-sm leading-6 text-slate-300">{club.desc}</div>
-          </div>
-        ))}
+    <div className="space-y-6">
+      <div>
+        <div className="text-sm uppercase tracking-wide text-slate-400">Social</div>
+        <h1 className="mt-2 text-3xl font-semibold">Clubs</h1>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
+          Community groups and chess hangouts.
+        </p>
       </div>
-    </SocialPageShell>
+
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <div className="space-y-3">
+          {clubs.map((club) => (
+            <div
+              key={club.name}
+              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <div className="font-medium text-slate-100">{club.name}</div>
+                  <div className="text-sm text-slate-500">{club.meta}</div>
+                </div>
+                <Shield className="h-5 w-5 text-slate-500" />
+              </div>
+              <div className="mt-3 text-sm leading-6 text-slate-300">{club.desc}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
   );
 }
