@@ -1,8 +1,8 @@
 import mate1Raw from "@/components/data/king-hunter/Mate.In.1.Complete.Rated_deduped.json";
 import mate2Raw from "@/components/data/king-hunter/Mate.In.2.Complete.Rated_deduped.json";
-import mate3Raw from "@/components/data/king-hunter/Mate.In.3.Complete.Rated_deduped.json";
-import mate4Raw from "@/components/data/king-hunter/synthetic_mate_in_4.json";
-import mate5Raw from "@/components/data/king-hunter/synthetic_mate_in_5.json";
+import mate3Raw from "@/components/data/king-hunter/Mates.In.3.Complete.Rated_deduped.json";
+import mate4Raw from "@/components/data/king-hunter/synthetic_mates_in_4.json";
+import mate5Raw from "@/components/data/king-hunter/synthetic_mates_in_5.json";
 
 import { drawTier } from "./utils";
 import type { DeckMap, Puzzle, SideToMove, Tier } from "./types";
