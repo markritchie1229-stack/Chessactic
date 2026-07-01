@@ -10,7 +10,7 @@ import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
 import { formatMovesRemaining } from "./utils";
-import { getBestMove, parseUciMove, verifyForcedMate } from "./StockfishEngine";
+import { getBestMove, parseUciMove } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
@@ -41,10 +41,6 @@ export default function KingHunter() {
   const currentTierDeck = decks[currentTier] ?? [];
   const currentPuzzle = currentTierDeck[puzzleIndex] ?? null;
   const puzzleCount = currentTierDeck.length;
-
-  const tierLabel = currentPuzzle?.theme
-    ? formatThemeLabel(currentPuzzle.theme)
-    : getTierLabel(currentTier);
 
   const boardOrientation: "white" | "black" =
     currentPuzzle?.side_to_move === "white" ? "white" : "black";
@@ -123,14 +119,12 @@ export default function KingHunter() {
   }
 
   async function playEngineReply(positionAfterUserMove: Chess): Promise<boolean> {
-    if (!currentPuzzle) return false;
-
     const result = await getBestMove(positionAfterUserMove.fen());
     const engineUci = result.bestMove;
 
     if (!engineUci) {
       setStatus("lost");
-      setMessage("Stockfish could not find a defensive reply.");
+      setMessage("Stockfish could not find a reply.");
       return false;
     }
 
@@ -201,32 +195,21 @@ export default function KingHunter() {
       return;
     }
 
-    if (nextRemaining < 0) {
+    if (nextRemaining <= 0) {
+      setMovesRemaining(0);
       setStatus("lost");
       setMessage("No moves remaining.");
       return;
     }
 
+    setMovesRemaining(nextRemaining);
     setEngineBusy(true);
-    setMessage("Stockfish is checking the line...");
+    setMessage("Stockfish is checking the reply...");
 
     try {
-      // Validate against the current remaining count, not the decremented one.
-      // The decrement happens only after the line has been verified.
-      if (!(await verifyForcedMate(nextBoard.fen(), movesRemaining))) {
-        setStatus("lost");
-        setMessage("Stockfish says the mate is gone.");
-        return;
-      }
-
       const enginePlayed = await playEngineReply(nextBoard);
       if (!enginePlayed) return;
-
-      setMovesRemaining(nextRemaining);
       setMessage(formatMovesRemaining(nextRemaining));
-    } catch {
-      setStatus("lost");
-      setMessage("Stockfish could not verify the line.");
     } finally {
       setEngineBusy(false);
     }
@@ -377,7 +360,11 @@ export default function KingHunter() {
 
           <aside className="space-y-6">
             <HUD
-              tierLabel={currentPuzzle?.theme ? formatThemeLabel(currentPuzzle.theme) : getTierLabel(currentTier)}
+              tierLabel={
+                currentPuzzle?.theme
+                  ? formatThemeLabel(currentPuzzle.theme)
+                  : getTierLabel(currentTier)
+              }
               puzzleNumber={puzzleIndex + 1}
               puzzleCount={puzzleCount}
               movesRemaining={movesRemaining}
