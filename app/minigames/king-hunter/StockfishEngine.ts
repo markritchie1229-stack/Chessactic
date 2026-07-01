@@ -52,7 +52,9 @@ async function runEngine(
       if (worker) {
         try {
           worker.terminate();
-        } catch {}
+        } catch {
+          // ignore termination errors
+        }
         worker = null;
       }
     };
@@ -181,6 +183,10 @@ export function parseUciMove(uci: string): UciMove | null {
     : { from, to };
 }
 
+function matePliesToMoves(matePlies: number): number {
+  return Math.ceil(Math.abs(matePlies) / 2);
+}
+
 export function preservesForcedMate(
   result: EngineResult,
   remainingMoves: number,
@@ -193,7 +199,6 @@ export function preservesForcedMate(
     return false;
   }
 
-  const mateDistance = Math.abs(result.score);
-
-  return mateDistance <= remainingMoves;
+  const mateMoves = matePliesToMoves(result.score);
+  return mateMoves <= remainingMoves;
 }
