@@ -12,6 +12,7 @@ import {
 import { AccountRail } from "./components/AccountRail";
 import { SocialRail } from "./components/SocialRail";
 import { StatsRail } from "./components/StatsRail";
+import { MiniGamesRail } from "./components/MiniGamesRail";
 import { supabase } from "@/lib/supabase";
 
 type RawPuzzle = {
@@ -607,6 +608,7 @@ export default function Page() {
             <AccountRail />
             <SocialRail />
             <StatsRail />
+            <MiniGamesRail />
           </div>
 
           <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-2xl shadow-black/20">
