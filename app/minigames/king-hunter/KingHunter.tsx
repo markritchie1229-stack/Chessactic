@@ -9,13 +9,8 @@ import ChessBoard from "./ChessBoard";
 import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
-import { formatMovesRemaining, normalizeUci } from "./utils";
-import {
-  analyzePosition,
-  getBestMove,
-  parseUciMove,
-  preservesForcedMate,
-} from "./StockfishEngine";
+import { formatMovesRemaining } from "./utils";
+import { analyzePosition, getBestMove, parseUciMove, preservesForcedMate } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
@@ -41,7 +36,6 @@ export default function KingHunter() {
   const [status, setStatus] = useState<GameStatus>("idle");
   const [message, setMessage] = useState("Press Start to begin.");
   const [engineBusy, setEngineBusy] = useState(false);
-  const [plyIndex, setPlyIndex] = useState(0);
 
   const currentTier = TIERS[Math.min(tierIndex, TIERS.length - 1)];
   const currentTierDeck = decks[currentTier] ?? [];
@@ -82,7 +76,6 @@ export default function KingHunter() {
     setMessage(
       `Tier ${getTierLabel(nextTier)} loaded. Puzzle ${nextPuzzleIndex + 1}/${nextTierDeck.length}.`,
     );
-    setPlyIndex(0);
     setEngineBusy(false);
   }
 
@@ -104,7 +97,6 @@ export default function KingHunter() {
     setMovesRemaining(1);
     setStatus("idle");
     setMessage("Press Start to begin.");
-    setPlyIndex(0);
     setEngineBusy(false);
   }
 
@@ -130,78 +122,53 @@ export default function KingHunter() {
     loadPuzzle(decks, nextTierIndex, 0);
   }
 
-  async function playEngineReply(
-    positionAfterUserMove: Chess,
-    nextPlyIndex: number,
-    nextRemaining: number,
-  ) {
-    if (!currentPuzzle) return;
+  async function playEngineReply(positionAfterUserMove: Chess): Promise<boolean> {
+    if (!currentPuzzle) return false;
 
-    try {
-      const expectedUci = currentPuzzle.sample_line?.[nextPlyIndex];
-      let engineUci: string | null = expectedUci ?? null;
+    const result = await getBestMove(positionAfterUserMove.fen());
+    const engineUci = result.bestMove;
 
-      if (!engineUci) {
-        const result = await getBestMove(positionAfterUserMove.fen());
-        engineUci = result.bestMove;
-      }
-
-      if (!engineUci) {
-        const legal = positionAfterUserMove.moves({ verbose: true }) as Array<{
-          from: Square;
-          to: Square;
-          promotion?: "q" | "r" | "b" | "n";
-        }>;
-
-        const fallback = legal[0];
-        if (!fallback) {
-          setStatus("lost");
-          setMessage("No legal engine reply.");
-          return;
-        }
-
-        engineUci = `${fallback.from}${fallback.to}${fallback.promotion ?? ""}`;
-      }
-
-      const parsed = parseUciMove(engineUci);
-      if (!parsed) {
-        setStatus("lost");
-        setMessage("Engine produced an invalid move.");
-        return;
-      }
-
-      const replyBoard = new Chess(positionAfterUserMove.fen());
-      const result = replyBoard.move({
-        from: parsed.from as Square,
-        to: parsed.to as Square,
-        promotion: parsed.promotion,
-      });
-
-      if (!result) {
-        setStatus("lost");
-        setMessage("Engine move could not be played.");
-        return;
-      }
-
-      setBoard(replyBoard);
-      setPlyIndex(nextPlyIndex + 1);
-
-      if (replyBoard.isCheckmate()) {
-        setStatus("lost");
-        setMessage("The king escaped your net.");
-        return;
-      }
-
-      if (replyBoard.isDraw() || replyBoard.isStalemate()) {
-        setStatus("lost");
-        setMessage("The position dried up.");
-        return;
-      }
-
-      setMessage(formatMovesRemaining(nextRemaining));
-    } finally {
-      setEngineBusy(false);
+    if (!engineUci) {
+      setStatus("lost");
+      setMessage("Stockfish could not find a defensive reply.");
+      return false;
     }
+
+    const parsed = parseUciMove(engineUci);
+    if (!parsed) {
+      setStatus("lost");
+      setMessage("Stockfish produced an invalid move.");
+      return false;
+    }
+
+    const replyBoard = new Chess(positionAfterUserMove.fen());
+    const played = replyBoard.move({
+      from: parsed.from as Square,
+      to: parsed.to as Square,
+      promotion: parsed.promotion,
+    });
+
+    if (!played) {
+      setStatus("lost");
+      setMessage("Stockfish move could not be played.");
+      return false;
+    }
+
+    setBoard(replyBoard);
+
+    if (replyBoard.isCheckmate()) {
+      setStatus("lost");
+      setMessage("The king escaped your net.");
+      return false;
+    }
+
+    if (replyBoard.isDraw() || replyBoard.isStalemate()) {
+      setStatus("lost");
+      setMessage("The position dried up.");
+      return false;
+    }
+
+    return true;
   }
 
   async function handleUserMove(targetSquare: Square) {
@@ -221,23 +188,11 @@ export default function KingHunter() {
       return;
     }
 
-    const playedUci = normalizeUci(`${move.from}${move.to}${move.promotion ?? ""}`);
-    const expectedUci = normalizeUci(currentPuzzle.sample_line?.[plyIndex] ?? "");
-
-    if (expectedUci && playedUci !== expectedUci && !nextBoard.isCheckmate()) {
-      setBoard(nextBoard);
-      setSelectedSquare(null);
-      setStatus("lost");
-      setMessage("Wrong move. The king escapes.");
-      return;
-    }
-
     setBoard(nextBoard);
     setSelectedSquare(null);
 
     const nextRemaining = movesRemaining - 1;
     setMovesRemaining(nextRemaining);
-    setPlyIndex((value) => value + 1);
 
     if (nextBoard.isCheckmate()) {
       setStatus("won");
@@ -255,25 +210,27 @@ export default function KingHunter() {
     setEngineBusy(true);
     setMessage("Stockfish is checking the line...");
 
-    let analysis;
     try {
-      analysis = await analyzePosition(nextBoard.fen());
+      const analysis = await analyzePosition(nextBoard.fen());
+
+      if (!preservesForcedMate(analysis, nextRemaining)) {
+        setStatus("lost");
+        setMessage("Stockfish says the mate is gone.");
+        return;
+      }
+
+      setMessage("Stockfish is choosing...");
+
+      const enginePlayed = await playEngineReply(nextBoard);
+      if (!enginePlayed) return;
+
+      setMessage(formatMovesRemaining(nextRemaining));
     } catch {
-      setEngineBusy(false);
       setStatus("lost");
       setMessage("Stockfish could not verify the line.");
-      return;
-    }
-
-    if (!preservesForcedMate(analysis, nextRemaining)) {
+    } finally {
       setEngineBusy(false);
-      setStatus("lost");
-      setMessage("Stockfish says the mate is gone.");
-      return;
     }
-
-    setMessage("Stockfish is choosing...");
-    await playEngineReply(nextBoard, plyIndex + 1, nextRemaining);
   }
 
   function handleSquareClick(square: Square) {
@@ -437,15 +394,14 @@ export default function KingHunter() {
               </div>
               <div className="mt-3 space-y-3 text-sm leading-6 text-stone-300">
                 <p>
-                  Tiers 1-5 are randomized from your uploaded JSON files each time you
-                  start.
+                  Tiers 1-5 are randomized from your uploaded JSON files each time you start.
                 </p>
                 <p>
-                  Tiers 6-10 and the boss are wired from the FENs you provided. Their exact
-                  solution lines can be added later if you want strict forced-line validation
-                  there too.
+                  Tiers 6-10 and the boss are wired from the FENs you provided.
                 </p>
-                <p>Promotions default to queens.</p>
+                <p>
+                  Promotions default to queens.
+                </p>
               </div>
             </section>
           </aside>
