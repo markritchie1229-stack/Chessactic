@@ -396,14 +396,15 @@ export default function KingHunter() {
 
           <aside className="space-y-6">
             <HUD
-              tierLabel={tierLabel}
-              puzzleNumber={puzzleIndex + 1}
-              puzzleCount={puzzleCount}
-              movesRemaining={movesRemaining}
-              status={status}
-              message={message}
-              engineBusy={engineBusy}
-            />
+            tierLabel={currentPuzzle?.theme ?? `Mate in ${currentTier}`}
+            puzzleNumber={puzzleIndex + 1}
+            puzzleCount={puzzleCount}
+            movesRemaining={movesRemaining}
+            status={status}
+            message={message}
+            sideToMove={currentPuzzle?.side_to_move ?? "white"}
+            engineBusy={engineBusy}
+/>
 
             <section className="rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-2xl shadow-black/20">
               <div className="text-sm uppercase tracking-[0.2em] text-slate-400">

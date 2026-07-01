@@ -7,6 +7,7 @@ type HUDProps = {
   movesRemaining: number;
   status: "idle" | "playing" | "won" | "lost";
   message: string;
+  sideToMove: "white" | "black";
   engineBusy?: boolean;
 };
 
@@ -17,8 +18,11 @@ export default function HUD({
   movesRemaining,
   status,
   message,
+  sideToMove,
   engineBusy = false,
 }: HUDProps) {
+  const isWhiteToMove = sideToMove === "white";
+
   return (
     <div className="space-y-4 rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-2xl shadow-black/20">
       <div>
@@ -29,6 +33,21 @@ export default function HUD({
         <p className="mt-2 text-sm leading-6 text-slate-400">
           Solve the forced mate before your moves run out.
         </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+        <div className="text-xs uppercase tracking-wide text-slate-500">
+          Side to move
+        </div>
+        <div className="mt-2 flex items-center gap-3 text-lg font-semibold text-slate-100">
+          <span
+            className={[
+              "inline-flex h-3 w-3 rounded-full",
+              isWhiteToMove ? "bg-slate-100" : "bg-slate-700",
+            ].join(" ")}
+          />
+          {isWhiteToMove ? "White to move" : "Black to move"}
+        </div>
       </div>
 
       <div className="grid gap-3 sm:grid-cols-3">
