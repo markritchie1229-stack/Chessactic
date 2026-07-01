@@ -11,6 +11,13 @@ type HUDProps = {
   engineBusy?: boolean;
 };
 
+function statusLabel(status: HUDProps["status"], engineBusy: boolean) {
+  if (status === "playing") return engineBusy ? "Engine thinking" : "Live";
+  if (status === "won") return "Cleared";
+  if (status === "lost") return "Game over";
+  return "Idle";
+}
+
 export default function HUD({
   tierLabel,
   puzzleNumber,
@@ -24,71 +31,65 @@ export default function HUD({
   const isWhiteToMove = sideToMove === "white";
 
   return (
-    <div className="space-y-4 rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-2xl shadow-black/20">
-      <div>
-        <div className="text-sm uppercase tracking-[0.2em] text-slate-400">
-          King Hunter
+    <div className="space-y-4 rounded-[2rem] border border-[#9b7b40]/25 bg-gradient-to-br from-[#1a1512] via-[#100d0b] to-[#070605] p-5 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
+      <div className="rounded-[1.5rem] border border-[#d7ab32]/20 bg-[radial-gradient(circle_at_top,rgba(255,244,210,0.06),rgba(255,255,255,0)_58%)] p-4">
+        <div className="text-xs uppercase tracking-[0.35em] text-amber-200/60">
+          Forged Kings
         </div>
-        <div className="mt-2 text-2xl font-bold text-slate-100">{tierLabel}</div>
-        <p className="mt-2 text-sm leading-6 text-slate-400">
-          Solve the forced mate before your moves run out.
+        <div className="mt-2 text-3xl font-semibold text-amber-50">{tierLabel}</div>
+        <p className="mt-2 max-w-md text-sm leading-6 text-stone-300">
+          Solve the forced mate before the board runs out of room.
         </p>
       </div>
 
-      <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-        <div className="text-xs uppercase tracking-wide text-slate-500">
-          Side to move
-        </div>
-        <div className="mt-2 flex items-center gap-3 text-lg font-semibold text-slate-100">
-          <span
-            className={[
-              "inline-flex h-3 w-3 rounded-full",
-              isWhiteToMove ? "bg-slate-100" : "bg-slate-700",
-            ].join(" ")}
-          />
-          {isWhiteToMove ? "White to move" : "Black to move"}
-        </div>
-      </div>
-
       <div className="grid gap-3 sm:grid-cols-3">
-        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-          <div className="text-xs uppercase tracking-wide text-slate-500">
+        <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
+          <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
+            Side to move
+          </div>
+          <div className="mt-2 flex items-center gap-3 text-lg font-semibold text-amber-50">
+            <span
+              className={[
+                "inline-flex h-3 w-3 rounded-full",
+                isWhiteToMove ? "bg-amber-100 shadow-[0_0_10px_rgba(255,236,179,0.5)]" : "bg-orange-500 shadow-[0_0_10px_rgba(249,115,22,0.45)]",
+              ].join(" ")}
+            />
+            {isWhiteToMove ? "White" : "Black"}
+          </div>
+        </div>
+
+        <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
+          <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
             Puzzle
           </div>
-          <div className="mt-2 text-xl font-semibold text-slate-100">
+          <div className="mt-2 text-2xl font-semibold text-amber-50">
             {puzzleNumber} / {puzzleCount}
           </div>
         </div>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-          <div className="text-xs uppercase tracking-wide text-slate-500">
-            Moves remaining
-          </div>
-          <div className="mt-2 text-xl font-semibold text-slate-100">
-            {movesRemaining}
-          </div>
-        </div>
-
-        <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-          <div className="text-xs uppercase tracking-wide text-slate-500">
+        <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
+          <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
             Status
           </div>
-          <div className="mt-2 text-xl font-semibold text-slate-100">
-            {status === "playing"
-              ? engineBusy
-                ? "Engine thinking"
-                : "Live"
-              : status === "won"
-                ? "Cleared"
-                : status === "lost"
-                  ? "Game over"
-                  : "Idle"}
+          <div className="mt-2 text-2xl font-semibold text-amber-50">
+            {statusLabel(status, engineBusy)}
           </div>
         </div>
       </div>
 
-      <div className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4 text-sm leading-6 text-slate-300">
-        {message}
+      <div className="grid gap-3 sm:grid-cols-2">
+        <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
+          <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
+            Remaining strikes
+          </div>
+          <div className="mt-2 text-2xl font-semibold text-amber-50">
+            {movesRemaining}
+          </div>
+        </div>
+
+        <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-[radial-gradient(circle_at_top,rgba(255,170,74,0.12),rgba(0,0,0,0)_60%)] p-4 text-sm leading-6 text-stone-200">
+          {message}
+        </div>
       </div>
     </div>
   );
