@@ -9,7 +9,7 @@ import ChessBoard from "./ChessBoard";
 import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
-import { formatMovesRemaining } from "./utils";
+import { formatMovesRemaining, normalizeUci } from "./utils";
 import { analyzePosition, getBestMove, parseUciMove, preservesForcedMate } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
 
@@ -188,20 +188,31 @@ export default function KingHunter() {
       return;
     }
 
+    const playedUci = normalizeUci(`${move.from}${move.to}${move.promotion ?? ""}`);
+    const expectedUci = normalizeUci(currentPuzzle.sample_line?.[0] ?? "");
+
+    if (expectedUci && playedUci !== expectedUci && !nextBoard.isCheckmate()) {
+      setBoard(nextBoard);
+      setSelectedSquare(null);
+      setStatus("lost");
+      setMessage("Wrong move. The king escapes.");
+      return;
+    }
+
     setBoard(nextBoard);
     setSelectedSquare(null);
 
     const nextRemaining = movesRemaining - 1;
-    setMovesRemaining(nextRemaining);
 
     if (nextBoard.isCheckmate()) {
+      setMovesRemaining(nextRemaining);
       setStatus("won");
       setMessage("Mate found.");
       window.setTimeout(() => advanceToNextPuzzle(), 650);
       return;
     }
 
-    if (nextRemaining <= 0) {
+    if (nextRemaining < 0) {
       setStatus("lost");
       setMessage("No moves remaining.");
       return;
@@ -213,17 +224,19 @@ export default function KingHunter() {
     try {
       const analysis = await analyzePosition(nextBoard.fen());
 
-      if (!preservesForcedMate(analysis, nextRemaining)) {
+      // IMPORTANT:
+      // Validate against the current remaining count, not the decremented one.
+      // The decrement happens only after the line has been verified.
+      if (!preservesForcedMate(analysis, movesRemaining)) {
         setStatus("lost");
         setMessage("Stockfish says the mate is gone.");
         return;
       }
 
-      setMessage("Stockfish is choosing...");
-
       const enginePlayed = await playEngineReply(nextBoard);
       if (!enginePlayed) return;
 
+      setMovesRemaining(nextRemaining);
       setMessage(formatMovesRemaining(nextRemaining));
     } catch {
       setStatus("lost");
