@@ -9,8 +9,8 @@ import ChessBoard from "./ChessBoard";
 import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
-import { getBestMove, parseUciMove } from "./StockfishEngine";
 import { formatMovesRemaining, normalizeUci } from "./utils";
+import { getBestMove, parseUciMove } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Puzzle, Tier } from "./types";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
@@ -139,8 +139,8 @@ export default function KingHunter() {
 
     setEngineBusy(true);
 
-    const nextExpected = currentPuzzle.sample_line?.[nextPlyIndex];
-    let engineUci: string | null = nextExpected ?? null;
+    const expectedUci = currentPuzzle.sample_line?.[nextPlyIndex];
+    let engineUci: string | null = expectedUci ?? null;
 
     if (!engineUci) {
       const result = await getBestMove(positionAfterUserMove.fen());
@@ -211,8 +211,8 @@ export default function KingHunter() {
     if (board.turn() !== currentPuzzle.side_to_move[0]) return;
     if (!selectedSquare) return;
 
-    const userMoveBoard = new Chess(board.fen());
-    const move = userMoveBoard.move({
+    const nextBoard = new Chess(board.fen());
+    const move = nextBoard.move({
       from: selectedSquare,
       to: targetSquare,
       promotion: "q",
@@ -223,26 +223,27 @@ export default function KingHunter() {
       return;
     }
 
-    const userPlyIndex = plyIndex;
-    const userExpected = currentPuzzle.sample_line?.[userPlyIndex];
-    const played = normalizeUci(`${move.from}${move.to}${move.promotion ?? ""}`);
+    const playedUci = normalizeUci(
+      `${move.from}${move.to}${move.promotion ?? ""}`,
+    );
+    const expectedUci = normalizeUci(currentPuzzle.sample_line?.[plyIndex] ?? "");
 
-    if (userExpected && normalizeUci(userExpected) !== played && !userMoveBoard.isCheckmate()) {
-      setBoard(userMoveBoard);
+    if (expectedUci && playedUci !== expectedUci && !nextBoard.isCheckmate()) {
+      setBoard(nextBoard);
       setSelectedSquare(null);
       setStatus("lost");
       setMessage("Wrong move. The king escapes.");
       return;
     }
 
-    setBoard(userMoveBoard);
+    setBoard(nextBoard);
     setSelectedSquare(null);
 
     const nextRemaining = movesRemaining - 1;
     setMovesRemaining(nextRemaining);
-    setPlyIndex(userPlyIndex + 1);
+    setPlyIndex((value) => value + 1);
 
-    if (userMoveBoard.isCheckmate()) {
+    if (nextBoard.isCheckmate()) {
       setStatus("won");
       setMessage("Mate found.");
       window.setTimeout(() => advanceToNextPuzzle(), 650);
@@ -256,7 +257,7 @@ export default function KingHunter() {
     }
 
     setMessage("Stockfish is choosing...");
-    await playEngineReply(userMoveBoard, userPlyIndex + 1);
+    await playEngineReply(nextBoard, plyIndex + 1);
   }
 
   function handleSquareClick(square: Square) {
@@ -285,11 +286,12 @@ export default function KingHunter() {
   }
 
   const tierProgressLabel = getTierLabel(currentTier);
+  const sideLabel = currentPuzzle?.side_to_move === "white" ? "White to move" : "Black to move";
 
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto max-w-7xl px-6 py-8">
-        <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
+      <div className="mx-auto max-w-7xl px-4 py-6 md:px-6 md:py-8">
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
           <Link
             href="/"
             className="inline-flex items-center gap-2 text-sm text-slate-400 transition hover:text-slate-100"
@@ -319,9 +321,9 @@ export default function KingHunter() {
           </div>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="grid gap-6 lg:grid-cols-[minmax(0,1.08fr)_minmax(320px,0.92fr)]">
           <section className="rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-2xl shadow-black/20">
-            <div className="mb-4 flex items-start justify-between gap-4">
+            <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
               <div>
                 <div className="text-sm uppercase tracking-[0.2em] text-slate-400">
                   Mini Game
@@ -380,7 +382,12 @@ export default function KingHunter() {
             </div>
 
             <div className="mb-4 rounded-2xl border border-slate-800 bg-slate-950/70 p-4 text-sm text-slate-300">
-              {message}
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <span>{message}</span>
+                <span className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs uppercase tracking-[0.18em] text-slate-300">
+                  {sideLabel}
+                </span>
+              </div>
             </div>
 
             <div className="mx-auto w-full max-w-[640px]">
@@ -396,15 +403,15 @@ export default function KingHunter() {
 
           <aside className="space-y-6">
             <HUD
-            tierLabel={currentPuzzle?.theme ?? `Mate in ${currentTier}`}
-            puzzleNumber={puzzleIndex + 1}
-            puzzleCount={puzzleCount}
-            movesRemaining={movesRemaining}
-            status={status}
-            message={message}
-            sideToMove={currentPuzzle?.side_to_move ?? "white"}
-            engineBusy={engineBusy}
-/>
+              tierLabel={currentPuzzle?.theme ? formatThemeLabel(currentPuzzle.theme) : getTierLabel(currentTier)}
+              puzzleNumber={puzzleIndex + 1}
+              puzzleCount={puzzleCount}
+              movesRemaining={movesRemaining}
+              status={status}
+              message={message}
+              sideToMove={currentPuzzle?.side_to_move ?? "white"}
+              engineBusy={engineBusy}
+            />
 
             <section className="rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-2xl shadow-black/20">
               <div className="text-sm uppercase tracking-[0.2em] text-slate-400">

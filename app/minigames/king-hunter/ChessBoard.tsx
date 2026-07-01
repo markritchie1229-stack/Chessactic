@@ -1,6 +1,7 @@
 "use client";
 
-import type { Square, Chess as ChessInstance } from "chess.js";
+import type { ReactNode } from "react";
+import type { Chess as ChessInstance, Square } from "chess.js";
 
 type ChessBoardProps = {
   board: ChessInstance;
@@ -34,20 +35,20 @@ function buildBoardSquares(orientation: "white" | "black") {
 function pieceTheme(color: PieceColor) {
   if (color === "w") {
     return {
-      fill: "#f7f7f5",
-      stroke: "#152033",
+      fill: "#f7f7f2",
+      stroke: "#101828",
       edge: "#ffffff",
-      shadow: "shadow-[0_3px_10px_rgba(15,23,42,0.28)]",
       shell: "bg-white/18 border-white/22",
+      glow: "shadow-[0_3px_10px_rgba(15,23,42,0.28)]",
     };
   }
 
   return {
-    fill: "#243041",
-    stroke: "#f4f7fb",
+    fill: "#263243",
+    stroke: "#f8fafc",
     edge: "#0f172a",
-    shadow: "shadow-[0_3px_10px_rgba(255,255,255,0.14)]",
     shell: "bg-black/18 border-white/10",
+    glow: "shadow-[0_3px_10px_rgba(255,255,255,0.14)]",
   };
 }
 
@@ -60,10 +61,10 @@ function PieceIcon({
 }) {
   const theme = pieceTheme(color);
 
-  const common = {
+  const main = {
     fill: theme.fill,
     stroke: theme.stroke,
-    strokeWidth: 2.15,
+    strokeWidth: 2.1,
     strokeLinejoin: "round" as const,
     strokeLinecap: "round" as const,
     vectorEffect: "non-scaling-stroke" as const,
@@ -72,95 +73,96 @@ function PieceIcon({
   const detail = {
     fill: "none",
     stroke: theme.edge,
-    strokeWidth: 1.1,
+    strokeWidth: 1.15,
     strokeLinejoin: "round" as const,
     strokeLinecap: "round" as const,
     vectorEffect: "non-scaling-stroke" as const,
-    opacity: color === "w" ? 0.85 : 0.8,
+    opacity: color === "w" ? 0.86 : 0.82,
   };
 
   switch (type) {
     case "p":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <circle cx="32" cy="17" r="6.6" />
-            <path d="M25.8 28.5c0-4.1 2.8-7.3 6.2-7.3s6.2 3.2 6.2 7.3v2.6h4.8c1.5 0 2.7 1.2 2.7 2.7v1.8H18.3v-1.8c0-1.5 1.2-2.7 2.7-2.7h4.8v-2.6z" />
-            <path d="M20 47.8h24.2l3.5 6.2H16.5l3.5-6.2z" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <circle cx="22.5" cy="11.8" r="5.1" />
+            <path d="M17.9 20.2c0-3.3 2.1-6.1 4.6-7.2 2.5 1.1 4.6 3.9 4.6 7.2 0 2.5-1 4.7-2.5 6.2 2.8 1.2 5.8 4.7 6.6 10.7H13.8c.8-6 3.8-9.5 6.6-10.7-1.5-1.5-2.5-3.7-2.5-6.2z" />
+            <path d="M12.8 37.8h19.4l2.6 4.4H10.2l2.6-4.4z" />
           </g>
-          <path {...detail} d="M28.1 22.5c1.1-1 2.5-1.6 3.9-1.6 1.5 0 2.8.5 4 1.6" />
-          <path {...detail} d="M22.9 31.8h18.2" />
-          <path {...detail} d="M18.4 48h27.2" />
+          <path {...detail} d="M18.5 21.8c1.4-1.3 3-2 4-2s2.6.7 4 2" />
+          <path {...detail} d="M14.9 30.7h15.2" />
         </svg>
       );
 
     case "r":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <path d="M18 16h8v6h4v-6h4v6h4v-6h4v6h4v-6h8v11h-4v4c0 2.8-2.2 5-5 5H27c-2.8 0-5-2.2-5-5v-4h-4V16z" />
-            <path d="M22 37.5h20.2l3.8 10.5H18.2L22 37.5z" />
-            <path d="M17 48h30v4.2H17z" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <path d="M13.2 9.8h3.2v3.2h3.6V9.8h4v3.2h3.6V9.8h4v3.2h3.2V9.8h3.2v8.7h-2.8v3.6c0 2.4-1.9 4.3-4.3 4.3H20.3c-2.4 0-4.3-1.9-4.3-4.3v-3.6h-2.8V9.8z" />
+            <path d="M15.2 22.7h14.6l1.5 5.5H13.7l1.5-5.5z" />
+            <path d="M13.2 28.2h18.6l2 9H11.2l2-9z" />
+            <path d="M10.6 37.2h23.8l1.8 4.2H8.8l1.8-4.2z" />
           </g>
-          <path {...detail} d="M24 24h16" />
-          <path {...detail} d="M22 40h20" />
+          <path {...detail} d="M16.9 17.4h11.2" />
+          <path {...detail} d="M15.8 30.4h13.4" />
         </svg>
       );
 
     case "b":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <path d="M31.8 11.5c4.4 0 8 3.6 8 8 0 3-1.6 5.5-3.9 7 2.3 2.4 3.4 5.1 3.4 8 0 3.2-1.4 5.9-3.8 7.9H28c-2.4-2-3.8-4.7-3.8-7.9 0-2.9 1.1-5.6 3.4-8-2.3-1.5-3.9-4-3.9-7 0-4.4 3.6-8 8.1-8z" />
-            <path d="M26.7 43h10.6l4.1 5.2H22.6l4.1-5.2z" />
-            <path d="M19 50.2h26v3.8H19z" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <path d="M22.5 8.8c3.7 0 6.6 2.9 6.6 6.6 0 2.5-1.4 4.7-3.5 5.9 2.2 2 3.5 4.7 3.5 7.8 0 2.6-1 5-2.7 6.8H18.6c-1.7-1.8-2.7-4.2-2.7-6.8 0-3.1 1.3-5.8 3.5-7.8-2.1-1.2-3.5-3.4-3.5-5.9 0-3.7 2.9-6.6 6.6-6.6z" />
+            <path d="M16.7 35.2h12.6l3.1 4.8H13.6l3.1-4.8z" />
+            <path d="M12.7 40h20v2.4h-20z" />
           </g>
-          <path {...detail} d="M29 18.8l6.1-4.3" />
-          <path {...detail} d="M28.4 28l7.6-7.6" />
-          <path {...detail} d="M24.8 43.2h14.2" />
+          <path {...detail} d="M19.4 13.2l5.5-3.5" />
+          <path {...detail} d="M18.8 22.4l6.9-6.9" />
+          <path {...detail} d="M16.9 35.6h11.2" />
         </svg>
       );
 
     case "n":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <path d="M18 49h28.5l3.2 5H14.8l3.2-5z" />
-            <path d="M24.3 43c0-4.6 1.3-8.4 3.9-11.8l5.8-7.5c1.3-1.7 1.1-4.1-.5-5.4l-1.7-1.4c6.8.5 11.7 4.4 13 10.2.7 3.1.1 6.4-1.5 9l-2.5 4.2H39c-1.9 0-3.6 1.1-4.4 2.8l-1.2 2.1H24.3z" />
-            <path d="M37.5 22.8c-2.5 1.3-5.7 1.3-8.2 0" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <path d="M12.2 36.6h16.7l2.9 4.2H9.3l2.9-4.2z" />
+            <path d="M15.8 32.4c0-4.5 1.2-8.1 3.4-11l4.5-5.5c1.2-1.4 1.1-3.4-.2-4.6l-1-.9c5.8.5 9.9 3.9 10.9 8.9.5 2.8 0 5.6-1.4 7.9l-1.8 3h-3.5c-1.6 0-3 1-3.8 2.3l-1 1.9H15.8z" />
+            <path d="M27.8 16.8c-2.1 1-4.6 1-6.7 0" />
           </g>
-          <path {...detail} d="M28 20.3l-2.2-3.8" />
-          <path {...detail} d="M31.8 18.3l1-4.6" />
-          <path {...detail} d="M24.6 43.5h15.6" />
+          <path {...detail} d="M19.8 15.7l-1.8-3" />
+          <path {...detail} d="M22.7 14.6l.9-3.9" />
+          <path {...detail} d="M16.2 36.9h12.7" />
         </svg>
       );
 
     case "q":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <circle cx="16" cy="17" r="3.2" />
-            <circle cx="32" cy="12" r="3.2" />
-            <circle cx="48" cy="17" r="3.2" />
-            <path d="M18 20l6.2 12.2 7.8-14.1 8 14.1L46 20l2.1 9.9-4 5.2H20l-4-5.2L18 20z" />
-            <path d="M23 40h18.2l5 8H18l5-8z" />
-            <path d="M17 50h30v4H17z" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <circle cx="10.7" cy="11.4" r="2.3" />
+            <circle cx="22.5" cy="8.8" r="2.3" />
+            <circle cx="34.3" cy="11.4" r="2.3" />
+            <path d="M12.4 14.2l4.3 9.4 5.8-11 5.8 11 4.3-9.4 1.8 8.6-3.5 4.8H14.1l-3.5-4.8 1.8-8.6z" />
+            <path d="M14.2 31.8h16.6l4.2 5.8H10l4.2-5.8z" />
+            <path d="M11 37.6h23v2.8H11z" />
           </g>
-          <path {...detail} d="M24.1 26.2h15.8" />
-          <path {...detail} d="M21.6 41.8h20.7" />
+          <path {...detail} d="M14.7 18.4h15.6" />
+          <path {...detail} d="M13.2 33.2h18.6" />
         </svg>
       );
 
     case "k":
       return (
-        <svg viewBox="0 0 64 64" className="h-[78%] w-[78%]">
-          <g {...common}>
-            <path d="M29 10h6v7h7v6h-7v7h-6v-7h-7v-6h7v-7z" />
-            <path d="M22 28h20l4 6v6c0 5.5-4.5 10-10 10H28c-5.5 0-10-4.5-10-10v-6l4-6z" />
-            <path d="M20 48h24l4 6H16l4-6z" />
+        <svg viewBox="0 0 45 45" className="h-[82%] w-[82%]">
+          <g {...main}>
+            <path d="M20.7 7.5h2.6v4.1h4.1v2.6h-4.1v4.1h-2.6v-4.1h-4.1v-2.6h4.1V7.5z" />
+            <path d="M15.2 17.7h14.6l3.1 5.2v4.9c0 4.7-3.8 8.5-8.5 8.5h-3.8c-4.7 0-8.5-3.8-8.5-8.5v-4.9l3.1-5.2z" />
+            <path d="M13.4 35.8h18.2l3.4 5.1H10l3.4-5.1z" />
+            <path d="M11.2 40.9h22.6v2.6H11.2z" />
           </g>
-          <path {...detail} d="M24 34h16" />
-          <path {...detail} d="M28 23h8" />
+          <path {...detail} d="M16.8 25.8h11.4" />
+          <path {...detail} d="M18.8 20.9h7.4" />
         </svg>
       );
   }
@@ -178,10 +180,10 @@ function Piece({
   return (
     <span
       className={[
-        "flex h-[80%] w-[80%] items-center justify-center rounded-full border",
+        "flex h-[82%] w-[82%] items-center justify-center rounded-full border",
         "transition-transform duration-150",
         theme.shell,
-        theme.shadow,
+        theme.glow,
       ].join(" ")}
       aria-label={color === "w" ? "White piece" : "Black piece"}
     >
