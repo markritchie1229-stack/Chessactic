@@ -42,6 +42,10 @@ export default function KingHunter() {
   const currentPuzzle = currentTierDeck[puzzleIndex] ?? null;
   const puzzleCount = currentTierDeck.length;
 
+  const tierLabel = currentPuzzle?.theme
+    ? formatThemeLabel(currentPuzzle.theme)
+    : getTierLabel(currentTier);
+
   const boardOrientation: "white" | "black" =
     currentPuzzle?.side_to_move === "white" ? "white" : "black";
 
@@ -119,33 +123,45 @@ export default function KingHunter() {
   }
 
   async function playEngineReply(positionAfterUserMove: Chess): Promise<boolean> {
+    const replyBoard = new Chess(positionAfterUserMove.fen());
+    const legalReplies = replyBoard.moves({ verbose: true });
+
+    if (legalReplies.length === 0) {
+      if (replyBoard.isCheckmate()) {
+        setStatus("won");
+        setMessage("Mate found.");
+      } else {
+        setStatus("lost");
+        setMessage("No legal replies remain.");
+      }
+      return false;
+    }
+
     const result = await getBestMove(positionAfterUserMove.fen());
     const engineUci = result.bestMove;
+    const parsed = engineUci ? parseUciMove(engineUci) : null;
+    const fallback = legalReplies[0];
 
-    if (!engineUci) {
-      setStatus("lost");
-      setMessage("Stockfish could not find a reply.");
-      return false;
-    }
-
-    const parsed = parseUciMove(engineUci);
-    if (!parsed) {
-      setStatus("lost");
-      setMessage("Stockfish produced an invalid move.");
-      return false;
-    }
-
-    const replyBoard = new Chess(positionAfterUserMove.fen());
     const played = replyBoard.move({
-      from: parsed.from as Square,
-      to: parsed.to as Square,
-      promotion: parsed.promotion,
+      from: (parsed?.from ?? fallback.from) as Square,
+      to: (parsed?.to ?? fallback.to) as Square,
+      promotion:
+        parsed?.promotion ??
+        (fallback.promotion as "q" | "r" | "b" | "n" | undefined),
     });
 
     if (!played) {
-      setStatus("lost");
-      setMessage("Stockfish move could not be played.");
-      return false;
+      const fallbackPlayed = replyBoard.move({
+        from: fallback.from as Square,
+        to: fallback.to as Square,
+        promotion: fallback.promotion as "q" | "r" | "b" | "n" | undefined,
+      });
+
+      if (!fallbackPlayed) {
+        setStatus("lost");
+        setMessage("Reply move could not be played.");
+        return false;
+      }
     }
 
     setBoard(replyBoard);
@@ -360,11 +376,7 @@ export default function KingHunter() {
 
           <aside className="space-y-6">
             <HUD
-              tierLabel={
-                currentPuzzle?.theme
-                  ? formatThemeLabel(currentPuzzle.theme)
-                  : getTierLabel(currentTier)
-              }
+              tierLabel={currentPuzzle?.theme ? formatThemeLabel(currentPuzzle.theme) : getTierLabel(currentTier)}
               puzzleNumber={puzzleIndex + 1}
               puzzleCount={puzzleCount}
               movesRemaining={movesRemaining}
