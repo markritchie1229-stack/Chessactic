@@ -158,6 +158,27 @@ export async function analyzePosition(
   return runEngine(fen, depth, timeoutMs);
 }
 
+const FORCED_MATE_SEARCHES = [
+  { depth: 16, timeoutMs: 5000 },
+  { depth: 20, timeoutMs: 8000 },
+  { depth: 22, timeoutMs: 12000 },
+] as const;
+
+export async function verifyForcedMate(
+  fen: string,
+  remainingMoves: number,
+): Promise<boolean> {
+  for (const attempt of FORCED_MATE_SEARCHES) {
+    const result = await analyzePosition(fen, attempt.depth, attempt.timeoutMs);
+
+    if (preservesForcedMate(result, remainingMoves)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 export function parseUciMove(uci: string): UciMove | null {
   const cleaned = normalizeMove(uci);
 

@@ -9,8 +9,8 @@ import ChessBoard from "./ChessBoard";
 import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
-import { formatMovesRemaining, normalizeUci } from "./utils";
-import { analyzePosition, getBestMove, parseUciMove, preservesForcedMate } from "./StockfishEngine";
+import { formatMovesRemaining } from "./utils";
+import { getBestMove, parseUciMove, verifyForcedMate } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
@@ -188,17 +188,6 @@ export default function KingHunter() {
       return;
     }
 
-    const playedUci = normalizeUci(`${move.from}${move.to}${move.promotion ?? ""}`);
-    const expectedUci = normalizeUci(currentPuzzle.sample_line?.[0] ?? "");
-
-    if (expectedUci && playedUci !== expectedUci && !nextBoard.isCheckmate()) {
-      setBoard(nextBoard);
-      setSelectedSquare(null);
-      setStatus("lost");
-      setMessage("Wrong move. The king escapes.");
-      return;
-    }
-
     setBoard(nextBoard);
     setSelectedSquare(null);
 
@@ -222,12 +211,9 @@ export default function KingHunter() {
     setMessage("Stockfish is checking the line...");
 
     try {
-      const analysis = await analyzePosition(nextBoard.fen());
-
-      // IMPORTANT:
       // Validate against the current remaining count, not the decremented one.
       // The decrement happens only after the line has been verified.
-      if (!preservesForcedMate(analysis, movesRemaining)) {
+      if (!(await verifyForcedMate(nextBoard.fen(), movesRemaining))) {
         setStatus("lost");
         setMessage("Stockfish says the mate is gone.");
         return;
