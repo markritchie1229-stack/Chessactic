@@ -6,6 +6,8 @@ export type UciMove = {
 
 export type EngineResult = {
   bestMove: string | null;
+  scoreType: "mate" | "cp" | null;
+  score: number | null;
   rawLine?: string;
 };
 
@@ -13,32 +15,51 @@ function normalizeMove(move: string) {
   return move.replace(/\s+/g, "").toLowerCase();
 }
 
-export async function getBestMove(
+function parseScore(
+  line: string,
+): { scoreType: "mate" | "cp"; score: number } | null {
+  const match = line.match(/score\s+(mate|cp)\s+(-?\d+)/);
+
+  if (!match) return null;
+
+  return {
+    scoreType: match[1] as "mate" | "cp",
+    score: Number(match[2]),
+  };
+}
+
+async function runEngine(
   fen: string,
-  depth = 14,
-  timeoutMs = 4500,
+  depth: number,
+  timeoutMs: number,
 ): Promise<EngineResult> {
   if (typeof window === "undefined" || typeof Worker === "undefined") {
-    return { bestMove: null };
+    return {
+      bestMove: null,
+      scoreType: null,
+      score: null,
+    };
   }
 
   return await new Promise<EngineResult>((resolve) => {
-    let finished = false;
     let worker: Worker | null = null;
+    let finished = false;
+
+    let latestScoreType: "mate" | "cp" | null = null;
+    let latestScore: number | null = null;
 
     const cleanup = () => {
       if (worker) {
         try {
           worker.terminate();
-        } catch {
-          // ignore
-        }
+        } catch {}
         worker = null;
       }
     };
 
     const finish = (result: EngineResult) => {
       if (finished) return;
+
       finished = true;
       cleanup();
       resolve(result);
@@ -48,7 +69,11 @@ export async function getBestMove(
       worker = new Worker("/stockfish.js");
 
       const timer = window.setTimeout(() => {
-        finish({ bestMove: null });
+        finish({
+          bestMove: null,
+          scoreType: latestScoreType,
+          score: latestScore,
+        });
       }, timeoutMs);
 
       worker.onmessage = (event) => {
@@ -66,12 +91,29 @@ export async function getBestMove(
           return;
         }
 
+        if (line.startsWith("info")) {
+          const parsed = parseScore(line);
+
+          if (parsed) {
+            latestScoreType = parsed.scoreType;
+            latestScore = parsed.score;
+          }
+
+          return;
+        }
+
         if (line.startsWith("bestmove ")) {
           window.clearTimeout(timer);
-          const parts = line.split(/\s+/);
-          const move = parts[1] ?? null;
+
+          const move = line.split(/\s+/)[1] ?? null;
+
           finish({
-            bestMove: move && move !== "(none)" ? normalizeMove(move) : null,
+            bestMove:
+              move && move !== "(none)"
+                ? normalizeMove(move)
+                : null,
+            scoreType: latestScoreType,
+            score: latestScore,
             rawLine: line,
           });
         }
@@ -79,25 +121,79 @@ export async function getBestMove(
 
       worker.onerror = () => {
         window.clearTimeout(timer);
-        finish({ bestMove: null });
+
+        finish({
+          bestMove: null,
+          scoreType: latestScoreType,
+          score: latestScore,
+        });
       };
 
       worker.postMessage("uci");
     } catch {
-      finish({ bestMove: null });
+      finish({
+        bestMove: null,
+        scoreType: null,
+        score: null,
+      });
     }
   });
 }
 
+export async function getBestMove(
+  fen: string,
+  depth = 14,
+  timeoutMs = 4500,
+): Promise<EngineResult> {
+  return runEngine(fen, depth, timeoutMs);
+}
+
+export async function analyzePosition(
+  fen: string,
+  depth = 16,
+  timeoutMs = 5000,
+): Promise<EngineResult> {
+  return runEngine(fen, depth, timeoutMs);
+}
+
 export function parseUciMove(uci: string): UciMove | null {
   const cleaned = normalizeMove(uci);
+
   if (cleaned.length < 4) return null;
 
   const from = cleaned.slice(0, 2);
   const to = cleaned.slice(2, 4);
-  const promotion = cleaned[4] as UciMove["promotion"] | undefined;
 
-  if (promotion && !["q", "r", "b", "n"].includes(promotion)) return null;
+  const promotion =
+    cleaned.length > 4
+      ? (cleaned[4] as UciMove["promotion"])
+      : undefined;
 
-  return promotion ? { from, to, promotion } : { from, to };
+  if (
+    promotion &&
+    !["q", "r", "b", "n"].includes(promotion)
+  ) {
+    return null;
+  }
+
+  return promotion
+    ? { from, to, promotion }
+    : { from, to };
+}
+
+export function preservesForcedMate(
+  result: EngineResult,
+  remainingMoves: number,
+): boolean {
+  if (result.scoreType !== "mate") {
+    return false;
+  }
+
+  if (result.score == null) {
+    return false;
+  }
+
+  const mateDistance = Math.abs(result.score);
+
+  return mateDistance <= remainingMoves;
 }

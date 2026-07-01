@@ -10,7 +10,12 @@ import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
 import { formatMovesRemaining, normalizeUci } from "./utils";
-import { getBestMove, parseUciMove } from "./StockfishEngine";
+import {
+  analyzePosition,
+  getBestMove,
+  parseUciMove,
+  preservesForcedMate,
+} from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
@@ -125,76 +130,78 @@ export default function KingHunter() {
     loadPuzzle(decks, nextTierIndex, 0);
   }
 
-  async function playEngineReply(positionAfterUserMove: Chess, nextPlyIndex: number) {
+  async function playEngineReply(
+    positionAfterUserMove: Chess,
+    nextPlyIndex: number,
+    nextRemaining: number,
+  ) {
     if (!currentPuzzle) return;
 
-    setEngineBusy(true);
+    try {
+      const expectedUci = currentPuzzle.sample_line?.[nextPlyIndex];
+      let engineUci: string | null = expectedUci ?? null;
 
-    const expectedUci = currentPuzzle.sample_line?.[nextPlyIndex];
-    let engineUci: string | null = expectedUci ?? null;
+      if (!engineUci) {
+        const result = await getBestMove(positionAfterUserMove.fen());
+        engineUci = result.bestMove;
+      }
 
-    if (!engineUci) {
-      const result = await getBestMove(positionAfterUserMove.fen());
-      engineUci = result.bestMove;
-    }
+      if (!engineUci) {
+        const legal = positionAfterUserMove.moves({ verbose: true }) as Array<{
+          from: Square;
+          to: Square;
+          promotion?: "q" | "r" | "b" | "n";
+        }>;
 
-    if (!engineUci) {
-      const legal = positionAfterUserMove.moves({ verbose: true }) as Array<{
-        from: Square;
-        to: Square;
-        promotion?: "q" | "r" | "b" | "n";
-      }>;
+        const fallback = legal[0];
+        if (!fallback) {
+          setStatus("lost");
+          setMessage("No legal engine reply.");
+          return;
+        }
 
-      const fallback = legal[0];
-      if (!fallback) {
-        setEngineBusy(false);
+        engineUci = `${fallback.from}${fallback.to}${fallback.promotion ?? ""}`;
+      }
+
+      const parsed = parseUciMove(engineUci);
+      if (!parsed) {
         setStatus("lost");
-        setMessage("No legal engine reply.");
+        setMessage("Engine produced an invalid move.");
         return;
       }
 
-      engineUci = `${fallback.from}${fallback.to}${fallback.promotion ?? ""}`;
-    }
+      const replyBoard = new Chess(positionAfterUserMove.fen());
+      const result = replyBoard.move({
+        from: parsed.from as Square,
+        to: parsed.to as Square,
+        promotion: parsed.promotion,
+      });
 
-    const parsed = parseUciMove(engineUci);
-    if (!parsed) {
+      if (!result) {
+        setStatus("lost");
+        setMessage("Engine move could not be played.");
+        return;
+      }
+
+      setBoard(replyBoard);
+      setPlyIndex(nextPlyIndex + 1);
+
+      if (replyBoard.isCheckmate()) {
+        setStatus("lost");
+        setMessage("The king escaped your net.");
+        return;
+      }
+
+      if (replyBoard.isDraw() || replyBoard.isStalemate()) {
+        setStatus("lost");
+        setMessage("The position dried up.");
+        return;
+      }
+
+      setMessage(formatMovesRemaining(nextRemaining));
+    } finally {
       setEngineBusy(false);
-      setStatus("lost");
-      setMessage("Engine produced an invalid move.");
-      return;
     }
-
-    const replyBoard = new Chess(positionAfterUserMove.fen());
-    const result = replyBoard.move({
-      from: parsed.from as Square,
-      to: parsed.to as Square,
-      promotion: parsed.promotion,
-    });
-
-    if (!result) {
-      setEngineBusy(false);
-      setStatus("lost");
-      setMessage("Engine move could not be played.");
-      return;
-    }
-
-    setBoard(replyBoard);
-    setEngineBusy(false);
-    setPlyIndex(nextPlyIndex + 1);
-
-    if (replyBoard.isCheckmate()) {
-      setStatus("lost");
-      setMessage("The king escaped your net.");
-      return;
-    }
-
-    if (replyBoard.isDraw() || replyBoard.isStalemate()) {
-      setStatus("lost");
-      setMessage("The position dried up.");
-      return;
-    }
-
-    setMessage(formatMovesRemaining(movesRemaining - 1));
   }
 
   async function handleUserMove(targetSquare: Square) {
@@ -245,8 +252,28 @@ export default function KingHunter() {
       return;
     }
 
+    setEngineBusy(true);
+    setMessage("Stockfish is checking the line...");
+
+    let analysis;
+    try {
+      analysis = await analyzePosition(nextBoard.fen());
+    } catch {
+      setEngineBusy(false);
+      setStatus("lost");
+      setMessage("Stockfish could not verify the line.");
+      return;
+    }
+
+    if (!preservesForcedMate(analysis, nextRemaining)) {
+      setEngineBusy(false);
+      setStatus("lost");
+      setMessage("Stockfish says the mate is gone.");
+      return;
+    }
+
     setMessage("Stockfish is choosing...");
-    await playEngineReply(nextBoard, plyIndex + 1);
+    await playEngineReply(nextBoard, plyIndex + 1, nextRemaining);
   }
 
   function handleSquareClick(square: Square) {
