@@ -17,6 +17,10 @@ type ClubRecord = {
   updated_at: string;
 };
 
+const CLUB_IMAGE_BUCKET = "club-images";
+
+type UploadKind = "avatars" | "banners";
+
 function slugify(value: string) {
   return value
     .toLowerCase()
@@ -37,6 +41,39 @@ function getSupabaseClient() {
   return createClient(supabaseUrl, supabaseAnonKey);
 }
 
+function makeFilePath(file: File, kind: UploadKind) {
+  const extension = file.name.includes(".") ? file.name.split(".").pop() : "png";
+  const uniqueId =
+    typeof crypto !== "undefined" && "randomUUID" in crypto
+      ? crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+  return `${kind}/${uniqueId}.${extension ?? "png"}`;
+}
+
+async function uploadImageToSupabase(file: File, kind: UploadKind) {
+  const supabase = getSupabaseClient();
+  const filePath = makeFilePath(file, kind);
+
+  const { error: uploadError } = await supabase.storage.from(CLUB_IMAGE_BUCKET).upload(filePath, file, {
+    cacheControl: "3600",
+    upsert: false,
+    contentType: file.type || "image/*",
+  });
+
+  if (uploadError) {
+    throw new Error(uploadError.message);
+  }
+
+  const { data } = supabase.storage.from(CLUB_IMAGE_BUCKET).getPublicUrl(filePath);
+
+  if (!data?.publicUrl) {
+    throw new Error("Upload succeeded, but no public URL was returned.");
+  }
+
+  return data.publicUrl;
+}
+
 export default function ClubsPage() {
   const [clubs, setClubs] = useState<ClubRecord[]>([]);
   const [loading, setLoading] = useState(true);
@@ -46,6 +83,10 @@ export default function ClubsPage() {
   const [description, setDescription] = useState("");
   const [avatarUrl, setAvatarUrl] = useState("");
   const [bannerUrl, setBannerUrl] = useState("");
+  const [avatarFileName, setAvatarFileName] = useState("");
+  const [bannerFileName, setBannerFileName] = useState("");
+  const [uploadingAvatar, setUploadingAvatar] = useState(false);
+  const [uploadingBanner, setUploadingBanner] = useState(false);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
@@ -101,10 +142,45 @@ export default function ClubsPage() {
     });
   }, [clubs, search]);
 
+  const handleUpload = async (file: File, kind: UploadKind) => {
+    setError("");
+
+    if (kind === "avatars") {
+      setUploadingAvatar(true);
+    } else {
+      setUploadingBanner(true);
+    }
+
+    try {
+      const publicUrl = await uploadImageToSupabase(file, kind);
+
+      if (kind === "avatars") {
+        setAvatarUrl(publicUrl);
+        setAvatarFileName(file.name);
+      } else {
+        setBannerUrl(publicUrl);
+        setBannerFileName(file.name);
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to upload image.");
+    } finally {
+      if (kind === "avatars") {
+        setUploadingAvatar(false);
+      } else {
+        setUploadingBanner(false);
+      }
+    }
+  };
+
   const handleCreateClub = async () => {
     const trimmedTitle = title.trim();
     if (!trimmedTitle) {
       setError("Please enter a club title.");
+      return;
+    }
+
+    if (uploadingAvatar || uploadingBanner) {
+      setError("Please wait for image uploads to finish.");
       return;
     }
 
@@ -142,6 +218,8 @@ export default function ClubsPage() {
       setDescription("");
       setAvatarUrl("");
       setBannerUrl("");
+      setAvatarFileName("");
+      setBannerFileName("");
       setShowCreateFlow(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create club.");
@@ -285,34 +363,72 @@ export default function ClubsPage() {
                   </div>
 
                   <div>
-                    <label className="mb-2 block text-sm text-slate-300">Avatar URL</label>
+                    <label className="mb-2 block text-sm text-slate-300">Club avatar upload</label>
                     <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
                       <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
                         <ImagePlus className="h-4 w-4 text-cyan-400" />
-                        Club avatar
+                        Upload an avatar image
                       </div>
                       <input
-                        value={avatarUrl}
-                        onChange={(e) => setAvatarUrl(e.target.value)}
-                        placeholder="https://..."
-                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                        type="file"
+                        accept="image/*"
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) {
+                            void handleUpload(file, "avatars");
+                          }
+                        }}
+                        className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
                       />
+                      <p className="mt-2 text-xs text-slate-500">
+                        {uploadingAvatar
+                          ? "Uploading avatar..."
+                          : avatarFileName
+                            ? `Uploaded: ${avatarFileName}`
+                            : "PNG, JPG, WebP, or GIF."}
+                      </p>
+                      {avatarUrl ? (
+                        <img
+                          src={avatarUrl}
+                          alt="Club avatar preview"
+                          className="mt-4 h-20 w-20 rounded-2xl object-cover ring-1 ring-slate-700"
+                        />
+                      ) : null}
                     </div>
                   </div>
 
                   <div>
-                    <label className="mb-2 block text-sm text-slate-300">Banner URL</label>
+                    <label className="mb-2 block text-sm text-slate-300">Club banner upload</label>
                     <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
                       <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
                         <Wallpaper className="h-4 w-4 text-cyan-400" />
-                        Club banner
+                        Upload a banner image
                       </div>
                       <input
-                        value={bannerUrl}
-                        onChange={(e) => setBannerUrl(e.target.value)}
-                        placeholder="https://..."
-                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                        type="file"
+                        accept="image/*"
+                        onChange={(e) => {
+                          const file = e.target.files?.[0];
+                          if (file) {
+                            void handleUpload(file, "banners");
+                          }
+                        }}
+                        className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
                       />
+                      <p className="mt-2 text-xs text-slate-500">
+                        {uploadingBanner
+                          ? "Uploading banner..."
+                          : bannerFileName
+                            ? `Uploaded: ${bannerFileName}`
+                            : "PNG, JPG, WebP, or GIF."}
+                      </p>
+                      {bannerUrl ? (
+                        <img
+                          src={bannerUrl}
+                          alt="Club banner preview"
+                          className="mt-4 h-24 w-full rounded-2xl object-cover ring-1 ring-slate-700"
+                        />
+                      ) : null}
                     </div>
                   </div>
 
@@ -325,7 +441,7 @@ export default function ClubsPage() {
                   <button
                     type="button"
                     onClick={handleCreateClub}
-                    disabled={submitting}
+                    disabled={submitting || uploadingAvatar || uploadingBanner}
                     className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
                   >
                     {submitting ? "Creating..." : "Create Club"}
