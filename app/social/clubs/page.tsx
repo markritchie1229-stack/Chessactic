@@ -19,7 +19,7 @@ type ClubRecord = {
 
 const CLUB_IMAGE_BUCKET = "club-media";
 
-type UploadKind = "avatars" | "banners";
+type UploadKind = "avatar" | "banner";
 
 function getSupabaseClient() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -39,7 +39,7 @@ function makeFilePath(file: File, kind: UploadKind) {
       ? crypto.randomUUID()
       : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 
-  return `${kind}/${uniqueId}.${extension ?? "png"}`;
+  return `${kind}-${uniqueId}.${extension ?? "png"}`;
 }
 
 async function uploadImageToSupabase(file: File, kind: UploadKind) {
@@ -136,7 +136,7 @@ export default function ClubsPage() {
   const handleUpload = async (file: File, kind: UploadKind) => {
     setError("");
 
-    if (kind === "avatars") {
+    if (kind === "avatar") {
       setUploadingAvatar(true);
     } else {
       setUploadingBanner(true);
@@ -145,7 +145,7 @@ export default function ClubsPage() {
     try {
       const publicUrl = await uploadImageToSupabase(file, kind);
 
-      if (kind === "avatars") {
+      if (kind === "avatar") {
         setAvatarUrl(publicUrl);
         setAvatarFileName(file.name);
       } else {
@@ -155,7 +155,7 @@ export default function ClubsPage() {
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to upload image.");
     } finally {
-      if (kind === "avatars") {
+      if (kind === "avatar") {
         setUploadingAvatar(false);
       } else {
         setUploadingBanner(false);
@@ -176,7 +176,6 @@ export default function ClubsPage() {
     }
 
     const supabase = getSupabaseClient();
-
     setSubmitting(true);
     setError("");
 
@@ -375,7 +374,7 @@ export default function ClubsPage() {
                         onChange={(e) => {
                           const file = e.target.files?.[0];
                           if (file) {
-                            void handleUpload(file, "avatars");
+                            void handleUpload(file, "avatar");
                           }
                         }}
                         className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
@@ -410,7 +409,7 @@ export default function ClubsPage() {
                         onChange={(e) => {
                           const file = e.target.files?.[0];
                           if (file) {
-                            void handleUpload(file, "banners");
+                            void handleUpload(file, "banner");
                           }
                         }}
                         className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
