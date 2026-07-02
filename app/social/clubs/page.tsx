@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { createClient } from "@supabase/supabase-js";
 import { ArrowRight, ImagePlus, Search, Shield, Sparkles, Wallpaper } from "lucide-react";
 
@@ -20,6 +21,15 @@ type ClubRecord = {
 const CLUB_IMAGE_BUCKET = "club-media";
 
 type UploadKind = "avatar" | "banner";
+
+function slugify(value: string) {
+  return value
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
 
 function getSupabaseClient() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -66,6 +76,8 @@ async function uploadImageToSupabase(file: File) {
 }
 
 export default function ClubsPage() {
+  const router = useRouter();
+
   const [clubs, setClubs] = useState<ClubRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -211,15 +223,21 @@ export default function ClubsPage() {
 
       if (data) {
         setClubs((current) => [data as ClubRecord, ...current]);
+
+        const clubSlug = data.title_search?.trim() || slugify(trimmedTitle);
+        setTitle("");
+        setDescription("");
+        setAvatarUrl("");
+        setBannerUrl("");
+        setAvatarFileName("");
+        setBannerFileName("");
+        setShowCreateFlow(false);
+
+        router.push(`/clubs/${clubSlug}`);
+        return;
       }
 
-      setTitle("");
-      setDescription("");
-      setAvatarUrl("");
-      setBannerUrl("");
-      setAvatarFileName("");
-      setBannerFileName("");
-      setShowCreateFlow(false);
+      throw new Error("Club was created, but no row was returned.");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create club.");
     } finally {
