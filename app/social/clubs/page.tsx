@@ -17,7 +17,7 @@ type ClubRecord = {
   updated_at: string;
 };
 
-const CLUB_IMAGE_BUCKET = "club-images";
+const CLUB_IMAGE_BUCKET = "club-media";
 
 type UploadKind = "avatars" | "banners";
 
