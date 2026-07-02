@@ -6,7 +6,6 @@ import { createClient } from "@supabase/supabase-js";
 import { ArrowRight, ImagePlus, Search, Shield, Sparkles, Wallpaper } from "lucide-react";
 
 type ClubRecord = {
-  id: string;
   title: string;
   title_search: string;
   description: string | null;
@@ -17,8 +16,6 @@ type ClubRecord = {
   created_at: string;
   updated_at: string;
 };
-
-const STORAGE_BUCKET = "club-media";
 
 function slugify(value: string) {
   return value
@@ -40,24 +37,6 @@ function getSupabaseClient() {
   return createClient(supabaseUrl, supabaseAnonKey);
 }
 
-async function uploadClubImage(file: File, clubSlug: string, kind: "avatar" | "banner") {
-  const supabase = getSupabaseClient();
-  const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
-  const path = `${clubSlug}/${kind}-${Date.now()}-${safeName}`;
-
-  const { error: uploadError } = await supabase.storage.from(STORAGE_BUCKET).upload(path, file, {
-    cacheControl: "3600",
-    upsert: true,
-  });
-
-  if (uploadError) {
-    throw new Error(uploadError.message);
-  }
-
-  const { data } = supabase.storage.from(STORAGE_BUCKET).getPublicUrl(path);
-  return data.publicUrl;
-}
-
 export default function ClubsPage() {
   const [clubs, setClubs] = useState<ClubRecord[]>([]);
   const [loading, setLoading] = useState(true);
@@ -65,8 +44,8 @@ export default function ClubsPage() {
   const [showCreateFlow, setShowCreateFlow] = useState(false);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [avatarFile, setAvatarFile] = useState<File | null>(null);
-  const [bannerFile, setBannerFile] = useState<File | null>(null);
+  const [avatarUrl, setAvatarUrl] = useState("");
+  const [bannerUrl, setBannerUrl] = useState("");
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
@@ -79,7 +58,7 @@ export default function ClubsPage() {
         const { data, error: fetchError } = await supabase
           .from("clubs")
           .select(
-            "id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
+            "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
           )
           .is("disbanded_at", null)
           .order("created_at", { ascending: false });
@@ -136,29 +115,18 @@ export default function ClubsPage() {
     setError("");
 
     try {
-      let avatarUrl: string | null = null;
-      let bannerUrl: string | null = null;
-
-      if (avatarFile) {
-        avatarUrl = await uploadClubImage(avatarFile, slug, "avatar");
-      }
-
-      if (bannerFile) {
-        bannerUrl = await uploadClubImage(bannerFile, slug, "banner");
-      }
-
       const { data, error: insertError } = await supabase
         .from("clubs")
         .insert({
           title: trimmedTitle,
           title_search: slug,
           description: description.trim() || null,
-          avatar_url: avatarUrl,
-          banner_url: bannerUrl,
+          avatar_url: avatarUrl.trim() || null,
+          banner_url: bannerUrl.trim() || null,
           created_by: null,
         })
         .select(
-          "id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
+          "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
         )
         .single();
 
@@ -172,8 +140,8 @@ export default function ClubsPage() {
 
       setTitle("");
       setDescription("");
-      setAvatarFile(null);
-      setBannerFile(null);
+      setAvatarUrl("");
+      setBannerUrl("");
       setShowCreateFlow(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create club.");
@@ -239,8 +207,8 @@ export default function ClubsPage() {
                 <div className="space-y-3">
                   {filteredClubs.map((club) => (
                     <Link
-                      key={club.id}
-                      href={`/clubs/${club.title_search}`}
+                      key={club.title_search}
+                      href={`/social/clubs/${club.title_search}`}
                       className="group block rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 hover:bg-slate-950"
                     >
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -270,10 +238,10 @@ export default function ClubsPage() {
                           Slug: {club.title_search}
                         </span>
                         {club.banner_url ? (
-                          <span className="rounded-full bg-slate-900 px-3 py-1">Banner uploaded</span>
+                          <span className="rounded-full bg-slate-900 px-3 py-1">Banner set</span>
                         ) : null}
                         {club.avatar_url ? (
-                          <span className="rounded-full bg-slate-900 px-3 py-1">Avatar uploaded</span>
+                          <span className="rounded-full bg-slate-900 px-3 py-1">Avatar set</span>
                         ) : null}
                       </div>
                     </Link>
@@ -290,9 +258,7 @@ export default function ClubsPage() {
                   <Sparkles className="h-5 w-5 text-cyan-400" />
                   <div>
                     <h2 className="text-xl font-semibold">Create a new club</h2>
-                    <p className="text-sm text-slate-400">
-                      Upload images and fill out the club details.
-                    </p>
+                    <p className="text-sm text-slate-400">Fill out the club details to continue.</p>
                   </div>
                 </div>
 
@@ -318,35 +284,35 @@ export default function ClubsPage() {
                     />
                   </div>
 
-                  <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                    <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                      <ImagePlus className="h-4 w-4 text-cyan-400" />
-                      Club avatar
-                    </div>
-                    <input
-                      type="file"
-                      accept="image/*"
-                      onChange={(e) => setAvatarFile(e.target.files?.[0] ?? null)}
-                      className="block w-full text-sm text-slate-400 file:mr-4 file:rounded-xl file:border-0 file:bg-slate-800 file:px-4 file:py-2 file:text-slate-100 hover:file:bg-slate-700"
-                    />
-                    <div className="mt-2 text-xs text-slate-500">
-                      Selected: {avatarFile ? avatarFile.name : "No image selected"}
+                  <div>
+                    <label className="mb-2 block text-sm text-slate-300">Avatar URL</label>
+                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
+                        <ImagePlus className="h-4 w-4 text-cyan-400" />
+                        Club avatar
+                      </div>
+                      <input
+                        value={avatarUrl}
+                        onChange={(e) => setAvatarUrl(e.target.value)}
+                        placeholder="https://..."
+                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                      />
                     </div>
                   </div>
 
-                  <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                    <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                      <Wallpaper className="h-4 w-4 text-cyan-400" />
-                      Club banner
-                    </div>
-                    <input
-                      type="file"
-                      accept="image/*"
-                      onChange={(e) => setBannerFile(e.target.files?.[0] ?? null)}
-                      className="block w-full text-sm text-slate-400 file:mr-4 file:rounded-xl file:border-0 file:bg-slate-800 file:px-4 file:py-2 file:text-slate-100 hover:file:bg-slate-700"
-                    />
-                    <div className="mt-2 text-xs text-slate-500">
-                      Selected: {bannerFile ? bannerFile.name : "No image selected"}
+                  <div>
+                    <label className="mb-2 block text-sm text-slate-300">Banner URL</label>
+                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
+                        <Wallpaper className="h-4 w-4 text-cyan-400" />
+                        Club banner
+                      </div>
+                      <input
+                        value={bannerUrl}
+                        onChange={(e) => setBannerUrl(e.target.value)}
+                        placeholder="https://..."
+                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                      />
                     </div>
                   </div>
 
