@@ -208,7 +208,7 @@ export default function ClubsPage() {
                   {filteredClubs.map((club) => (
                     <Link
                       key={club.title_search}
-                      href={`/social/clubs/${club.title_search}`}
+                      href={`/clubs/${club.title_search}`}
                       className="group block rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 hover:bg-slate-950"
                     >
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
