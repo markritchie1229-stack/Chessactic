@@ -181,6 +181,17 @@ export default function ClubsPage() {
     setError("");
 
     try {
+      const { data: userResult, error: userError } = await supabase.auth.getUser();
+
+      if (userError) {
+        throw new Error(userError.message);
+      }
+
+      const userId = userResult.user?.id;
+      if (!userId) {
+        throw new Error("You must be signed in to create a club.");
+      }
+
       const { data, error: insertError } = await supabase
         .from("clubs")
         .insert({
@@ -188,7 +199,7 @@ export default function ClubsPage() {
           description: description.trim() || null,
           avatar_url: avatarUrl.trim() || null,
           banner_url: bannerUrl.trim() || null,
-          created_by: null,
+          created_by: userId,
         })
         .select(
           "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
@@ -463,4 +474,4 @@ export default function ClubsPage() {
       </div>
     </div>
   );
-} 
+}
