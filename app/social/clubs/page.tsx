@@ -32,19 +32,19 @@ function getSupabaseClient() {
   return createClient(supabaseUrl, supabaseAnonKey);
 }
 
-function makeFilePath(file: File, kind: UploadKind) {
+function makeFilePath(file: File) {
   const extension = file.name.includes(".") ? file.name.split(".").pop() : "png";
   const uniqueId =
     typeof crypto !== "undefined" && "randomUUID" in crypto
       ? crypto.randomUUID()
       : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 
-  return `${kind}-${uniqueId}.${extension ?? "png"}`;
+  return `${uniqueId}.${extension ?? "png"}`;
 }
 
-async function uploadImageToSupabase(file: File, kind: UploadKind) {
+async function uploadImageToSupabase(file: File) {
   const supabase = getSupabaseClient();
-  const filePath = makeFilePath(file, kind);
+  const filePath = makeFilePath(file);
 
   const { error: uploadError } = await supabase.storage.from(CLUB_IMAGE_BUCKET).upload(filePath, file, {
     cacheControl: "3600",
@@ -143,7 +143,7 @@ export default function ClubsPage() {
     }
 
     try {
-      const publicUrl = await uploadImageToSupabase(file, kind);
+      const publicUrl = await uploadImageToSupabase(file);
 
       if (kind === "avatar") {
         setAvatarUrl(publicUrl);
@@ -311,15 +311,9 @@ export default function ClubsPage() {
                       </p>
 
                       <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-400">
-                        <span className="rounded-full bg-slate-900 px-3 py-1">
-                          Slug: {club.title_search}
-                        </span>
-                        {club.banner_url ? (
-                          <span className="rounded-full bg-slate-900 px-3 py-1">Banner set</span>
-                        ) : null}
-                        {club.avatar_url ? (
-                          <span className="rounded-full bg-slate-900 px-3 py-1">Avatar set</span>
-                        ) : null}
+                        <span className="rounded-full bg-slate-900 px-3 py-1">Slug: {club.title_search}</span>
+                        {club.banner_url ? <span className="rounded-full bg-slate-900 px-3 py-1">Banner set</span> : null}
+                        {club.avatar_url ? <span className="rounded-full bg-slate-900 px-3 py-1">Avatar set</span> : null}
                       </div>
                     </Link>
                   ))}
@@ -373,9 +367,7 @@ export default function ClubsPage() {
                         accept="image/*"
                         onChange={(e) => {
                           const file = e.target.files?.[0];
-                          if (file) {
-                            void handleUpload(file, "avatar");
-                          }
+                          if (file) void handleUpload(file, "avatar");
                         }}
                         className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
                       />
@@ -408,9 +400,7 @@ export default function ClubsPage() {
                         accept="image/*"
                         onChange={(e) => {
                           const file = e.target.files?.[0];
-                          if (file) {
-                            void handleUpload(file, "banner");
-                          }
+                          if (file) void handleUpload(file, "banner");
                         }}
                         className="block w-full text-sm text-slate-300 file:mr-4 file:rounded-2xl file:border-0 file:bg-cyan-500 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-slate-950 hover:file:bg-cyan-400"
                       />
