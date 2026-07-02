@@ -49,12 +49,12 @@ const CATEGORIES: Category[] = [
   {
     id: "discovered_attack",
     label: "Discovered Attacks",
-    file: "/Discovered.Attacks.Complete.Rated_deduped_filled.json",
+    file: "/discovered_attacks.pawn_only_first_moves.json",
   },
   {
     id: "forks",
     label: "Forks",
-    file: "/Forks.Complete.Rated_deduped_filled.json",
+    file: "/forks_filtered.json",
   },
   {
     id: "hanging_pieces",
@@ -74,7 +74,7 @@ const CATEGORIES: Category[] = [
   {
     id: "mate_3",
     label: "Mate in 3",
-    file: "/Mate.In.3.Complete.Rated_deduped.json",
+    file: "/Mates.In.3.Complete.Rated_deduped.json",
   },
   {
     id: "pins",

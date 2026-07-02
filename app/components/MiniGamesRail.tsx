@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
-import { ArrowUpRight, X } from "lucide-react";
+import { ArrowUpRight, Clock3, X } from "lucide-react";
 
 type MiniGameItem = {
   href: string;
@@ -106,6 +106,11 @@ const miniGameItems: MiniGameItem[] = [
     href: "/minigames/chess-puzzle",
     label: "Chess Puzzle",
     icon: StackedBoardsIcon,
+  },
+  {
+    href: "/minigames/speed-tactic",
+    label: "Speed Tactic",
+    icon: Clock3,
   },
 ] as const;
 
