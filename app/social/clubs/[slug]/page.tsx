@@ -10,7 +10,6 @@ type ClubPageProps = {
 };
 
 type ClubRecord = {
-  id: string;
   title: string;
   title_search: string;
   description: string | null;
@@ -27,7 +26,7 @@ function getSupabaseServerClient() {
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error("Missing Supabase environment variables.");
+    throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY.");
   }
 
   return createClient(supabaseUrl, supabaseAnonKey);
@@ -39,7 +38,7 @@ async function getClubBySlug(slug: string): Promise<ClubRecord | null> {
   const { data, error } = await supabase
     .from("clubs")
     .select(
-      "id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
+      "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
     )
     .eq("title_search", slug)
     .is("disbanded_at", null)
@@ -59,8 +58,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
     notFound();
   }
 
-  const description =
-    club.description?.trim() || "This club does not have a description yet.";
+  const description = club.description?.trim() || "This club does not have a description yet.";
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
@@ -88,15 +86,9 @@ export default async function ClubPage({ params }: ClubPageProps) {
           <div className="p-6">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <div className="text-sm uppercase tracking-[0.28em] text-slate-400">
-                  Club page
-                </div>
-                <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">
-                  {club.title}
-                </h1>
-                <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">
-                  {description}
-                </p>
+                <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Club page</div>
+                <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">{club.title}</h1>
+                <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">{description}</p>
               </div>
 
               {club.avatar_url ? (

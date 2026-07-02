@@ -1,30 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import {
-  ArrowRight,
-  BadgeInfo,
-  ImagePlus,
-  Search,
-  Shield,
-  Sparkles,
-  Users,
-  Wallpaper,
-} from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { createClient } from "@supabase/supabase-js";
+import { ArrowRight, ImagePlus, Search, Shield, Sparkles, Wallpaper } from "lucide-react";
 
-type Club = {
-  name: string;
-  slug: string;
-  meta: string;
-  desc: string;
-  leader: string;
-  background: string;
-  picture: string;
-  members: number;
+type ClubRecord = {
+  title: string;
+  title_search: string;
+  description: string | null;
+  avatar_url: string | null;
+  banner_url: string | null;
+  created_by: string | null;
+  disbanded_at: string | null;
+  created_at: string;
+  updated_at: string;
 };
-
-const profaneWords = ["badword", "curse", "profanity", "swear"].map((word) => word.toLowerCase());
 
 function slugify(value: string) {
   return value
@@ -35,15 +26,67 @@ function slugify(value: string) {
     .replace(/-+/g, "-");
 }
 
-export default function SocialClubsPage() {
+function getSupabaseClient() {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    throw new Error("Missing Supabase environment variables.");
+  }
+
+  return createClient(supabaseUrl, supabaseAnonKey);
+}
+
+export default function ClubsPage() {
+  const [clubs, setClubs] = useState<ClubRecord[]>([]);
+  const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
-  const [clubs, setClubs] = useState<Club[]>([]);
+  const [showCreateFlow, setShowCreateFlow] = useState(false);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [pictureName, setPictureName] = useState("No image selected");
-  const [backgroundName, setBackgroundName] = useState("No background selected");
+  const [avatarUrl, setAvatarUrl] = useState("");
+  const [bannerUrl, setBannerUrl] = useState("");
   const [error, setError] = useState("");
-  const [showCreateFlow, setShowCreateFlow] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    let mounted = true;
+
+    async function loadClubs() {
+      try {
+        const supabase = getSupabaseClient();
+        const { data, error: fetchError } = await supabase
+          .from("clubs")
+          .select(
+            "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
+          )
+          .is("disbanded_at", null)
+          .order("created_at", { ascending: false });
+
+        if (fetchError) {
+          throw new Error(fetchError.message);
+        }
+
+        if (mounted) {
+          setClubs((data ?? []) as ClubRecord[]);
+        }
+      } catch (err) {
+        if (mounted) {
+          setError(err instanceof Error ? err.message : "Failed to load clubs.");
+        }
+      } finally {
+        if (mounted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadClubs();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
 
   const filteredClubs = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -51,49 +94,60 @@ export default function SocialClubsPage() {
 
     return clubs.filter((club) => {
       return (
-        club.name.toLowerCase().includes(query) ||
-        club.desc.toLowerCase().includes(query) ||
-        club.leader.toLowerCase().includes(query)
+        club.title.toLowerCase().includes(query) ||
+        (club.description ?? "").toLowerCase().includes(query) ||
+        (club.created_by ?? "").toLowerCase().includes(query)
       );
     });
   }, [clubs, search]);
 
-  const handleCreateClub = () => {
+  const handleCreateClub = async () => {
     const trimmedTitle = title.trim();
-
     if (!trimmedTitle) {
       setError("Please enter a club title.");
       return;
     }
 
-    const hasProfanity = profaneWords.some((word) => trimmedTitle.toLowerCase().includes(word));
-    if (hasProfanity) {
-      setError("Not appropriate");
-      return;
-    }
-
+    const supabase = getSupabaseClient();
     const slug = slugify(trimmedTitle);
 
+    setSubmitting(true);
     setError("");
-    setClubs((current) => [
-      {
-        name: trimmedTitle,
-        slug,
-        meta: "1 member",
-        desc: description.trim() || "A newly created club.",
-        leader: "You",
-        background: backgroundName,
-        picture: pictureName,
-        members: 1,
-      },
-      ...current,
-    ]);
 
-    setTitle("");
-    setDescription("");
-    setPictureName("No image selected");
-    setBackgroundName("No background selected");
-    setShowCreateFlow(false);
+    try {
+      const { data, error: insertError } = await supabase
+        .from("clubs")
+        .insert({
+          title: trimmedTitle,
+          title_search: slug,
+          description: description.trim() || null,
+          avatar_url: avatarUrl.trim() || null,
+          banner_url: bannerUrl.trim() || null,
+          created_by: null,
+        })
+        .select(
+          "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
+        )
+        .single();
+
+      if (insertError) {
+        throw new Error(insertError.message);
+      }
+
+      if (data) {
+        setClubs((current) => [data as ClubRecord, ...current]);
+      }
+
+      setTitle("");
+      setDescription("");
+      setAvatarUrl("");
+      setBannerUrl("");
+      setShowCreateFlow(false);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to create club.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -104,8 +158,7 @@ export default function SocialClubsPage() {
             <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Social</div>
             <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">Clubs</h1>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-              Browse clubs here. All club-only content lives on each individual club page, just
-              like Chess.com.
+              Browse clubs here. Each club has its own page for forum, threads, chat, and settings.
             </p>
           </div>
 
@@ -125,9 +178,7 @@ export default function SocialClubsPage() {
               <div className="mb-4 flex items-center justify-between gap-3">
                 <div>
                   <h2 className="text-xl font-semibold">Club list</h2>
-                  <p className="text-sm text-slate-400">
-                    Search clubs, open a club page, or create a new club.
-                  </p>
+                  <p className="text-sm text-slate-400">Open a club page or create a new club.</p>
                 </div>
                 <div className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-xs text-slate-400">
                   {filteredClubs.length} clubs
@@ -144,7 +195,11 @@ export default function SocialClubsPage() {
                 />
               </div>
 
-              {filteredClubs.length === 0 ? (
+              {loading ? (
+                <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-6 text-sm text-slate-400">
+                  Loading clubs...
+                </div>
+              ) : filteredClubs.length === 0 ? (
                 <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-6 text-sm text-slate-400">
                   No clubs yet. Create the first club to get started.
                 </div>
@@ -152,20 +207,20 @@ export default function SocialClubsPage() {
                 <div className="space-y-3">
                   {filteredClubs.map((club) => (
                     <Link
-                      key={club.slug}
-                      href={`/clubs/${club.slug}`}
+                      key={club.title_search}
+                      href={`/clubs/${club.title_search}`}
                       className="group block rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 hover:bg-slate-950"
                     >
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                         <div className="space-y-1">
                           <div className="flex items-center gap-2">
                             <span className="font-medium text-slate-100 group-hover:text-cyan-300">
-                              {club.name}
+                              {club.title}
                             </span>
                             <Shield className="h-4 w-4 text-slate-500" />
                           </div>
                           <div className="text-sm text-slate-500">
-                            {club.meta} · Leader: {club.leader}
+                            Created by {club.created_by ?? "unknown"}
                           </div>
                         </div>
 
@@ -174,17 +229,20 @@ export default function SocialClubsPage() {
                         </div>
                       </div>
 
-                      <p className="mt-3 text-sm leading-6 text-slate-300">{club.desc}</p>
+                      <p className="mt-3 text-sm leading-6 text-slate-300">
+                        {club.description?.trim() || "No description yet."}
+                      </p>
+
                       <div className="mt-4 flex flex-wrap gap-2 text-xs text-slate-400">
                         <span className="rounded-full bg-slate-900 px-3 py-1">
-                          Background: {club.background}
+                          Slug: {club.title_search}
                         </span>
-                        <span className="rounded-full bg-slate-900 px-3 py-1">
-                          Picture: {club.picture}
-                        </span>
-                        <span className="rounded-full bg-slate-900 px-3 py-1">
-                          Members: {club.members}
-                        </span>
+                        {club.banner_url ? (
+                          <span className="rounded-full bg-slate-900 px-3 py-1">Banner set</span>
+                        ) : null}
+                        {club.avatar_url ? (
+                          <span className="rounded-full bg-slate-900 px-3 py-1">Avatar set</span>
+                        ) : null}
                       </div>
                     </Link>
                   ))}
@@ -200,9 +258,7 @@ export default function SocialClubsPage() {
                   <Sparkles className="h-5 w-5 text-cyan-400" />
                   <div>
                     <h2 className="text-xl font-semibold">Create a new club</h2>
-                    <p className="text-sm text-slate-400">
-                      Fill out the club details to continue.
-                    </p>
+                    <p className="text-sm text-slate-400">Fill out the club details to continue.</p>
                   </div>
                 </div>
 
@@ -228,32 +284,36 @@ export default function SocialClubsPage() {
                     />
                   </div>
 
-                  <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                    <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                      <ImagePlus className="h-4 w-4 text-cyan-400" />
-                      Club picture
+                  <div>
+                    <label className="mb-2 block text-sm text-slate-300">Avatar URL</label>
+                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
+                        <ImagePlus className="h-4 w-4 text-cyan-400" />
+                        Club avatar
+                      </div>
+                      <input
+                        value={avatarUrl}
+                        onChange={(e) => setAvatarUrl(e.target.value)}
+                        placeholder="https://..."
+                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                      />
                     </div>
-                    <input
-                      type="file"
-                      onChange={(e) => setPictureName(e.target.files?.[0]?.name ?? "No image selected")}
-                      className="block w-full text-sm text-slate-400 file:mr-4 file:rounded-xl file:border-0 file:bg-slate-800 file:px-4 file:py-2 file:text-slate-100 hover:file:bg-slate-700"
-                    />
-                    <div className="mt-2 text-xs text-slate-500">Selected: {pictureName}</div>
                   </div>
 
-                  <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                    <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                      <Wallpaper className="h-4 w-4 text-cyan-400" />
-                      Club background
+                  <div>
+                    <label className="mb-2 block text-sm text-slate-300">Banner URL</label>
+                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
+                        <Wallpaper className="h-4 w-4 text-cyan-400" />
+                        Club banner
+                      </div>
+                      <input
+                        value={bannerUrl}
+                        onChange={(e) => setBannerUrl(e.target.value)}
+                        placeholder="https://..."
+                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
+                      />
                     </div>
-                    <input
-                      type="file"
-                      onChange={(e) =>
-                        setBackgroundName(e.target.files?.[0]?.name ?? "No background selected")
-                      }
-                      className="block w-full text-sm text-slate-400 file:mr-4 file:rounded-xl file:border-0 file:bg-slate-800 file:px-4 file:py-2 file:text-slate-100 hover:file:bg-slate-700"
-                    />
-                    <div className="mt-2 text-xs text-slate-500">Selected: {backgroundName}</div>
                   </div>
 
                   {error ? (
@@ -265,9 +325,10 @@ export default function SocialClubsPage() {
                   <button
                     type="button"
                     onClick={handleCreateClub}
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+                    disabled={submitting}
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
                   >
-                    Continue
+                    {submitting ? "Creating..." : "Create Club"}
                     <ArrowRight className="h-4 w-4" />
                   </button>
                 </div>
@@ -278,9 +339,7 @@ export default function SocialClubsPage() {
                   <Sparkles className="h-5 w-5 text-cyan-400" />
                   <div>
                     <h2 className="text-xl font-semibold">Create a new club</h2>
-                    <p className="text-sm text-slate-400">
-                      Start the club creation flow from here.
-                    </p>
+                    <p className="text-sm text-slate-400">Start the club creation flow from here.</p>
                   </div>
                 </div>
 
