@@ -21,15 +21,6 @@ const CLUB_IMAGE_BUCKET = "club-images";
 
 type UploadKind = "avatars" | "banners";
 
-function slugify(value: string) {
-  return value
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
-}
-
 function getSupabaseClient() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -185,7 +176,6 @@ export default function ClubsPage() {
     }
 
     const supabase = getSupabaseClient();
-    const slug = slugify(trimmedTitle);
 
     setSubmitting(true);
     setError("");
@@ -195,7 +185,6 @@ export default function ClubsPage() {
         .from("clubs")
         .insert({
           title: trimmedTitle,
-          title_search: slug,
           description: description.trim() || null,
           avatar_url: avatarUrl.trim() || null,
           banner_url: bannerUrl.trim() || null,
@@ -474,4 +463,4 @@ export default function ClubsPage() {
       </div>
     </div>
   );
-}
+} 
