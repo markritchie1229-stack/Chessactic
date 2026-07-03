@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowRight, ImagePlus, Sparkles, Wallpaper } from "lucide-react";
+
 import { supabase } from "../_lib/supabase";
 
 const STORAGE_BUCKET = "club-media";
@@ -105,7 +106,6 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         .from("clubs")
         .insert({
           title: trimmedTitle,
-          title_search: slug,
           description: description.trim() || null,
           avatar_url: avatarUrl,
           banner_url: bannerUrl,
@@ -118,8 +118,8 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         throw new Error(insertError.message);
       }
 
-      if (!club?.id || !club.title_search) {
-        throw new Error("Club was created, but the route slug is missing.");
+      if (!club?.id) {
+        throw new Error("Club was created, but the club id is missing.");
       }
 
       const { error: membershipError } = await supabase
@@ -136,8 +136,10 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         throw new Error(membershipError.message);
       }
 
-      await onCreated?.(club.title_search);
-      router.push(`/social/clubs/${club.title_search}`);
+      const routeSlug = club.title_search ?? slugify(trimmedTitle);
+
+      await onCreated?.(routeSlug);
+      router.push(`/social/clubs/${routeSlug}`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create club.");
     } finally {
