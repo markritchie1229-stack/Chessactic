@@ -54,7 +54,7 @@ export default function ClubForumPage() {
   const [club, setClub] = useState<ClubRecord | null>(null);
   const [threads, setThreads] = useState<ThreadRecord[]>([]);
   const [currentUserId, setCurrentUserId] = useState<string | null>(null);
-  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("member");
   const [currentMember, setCurrentMember] = useState<ClubMemberRecord | null>(null);
   const [search, setSearch] = useState("");
   const [title, setTitle] = useState("");
@@ -78,7 +78,7 @@ export default function ClubForumPage() {
         setClub(null);
         setThreads([]);
         setCurrentUserId(null);
-        setCurrentUserRank("Member");
+        setCurrentUserRank("member");
         setCurrentMember(null);
         return;
       }
@@ -92,7 +92,7 @@ export default function ClubForumPage() {
       setClub(clubData);
       setThreads(threadData);
       setCurrentUserId(userId);
-      setCurrentUserRank(userRank ?? "Member");
+      setCurrentUserRank(userRank ?? "member");
 
       if (userId) {
         const { data: membership, error: membershipError } = await supabase
