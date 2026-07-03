@@ -2,24 +2,24 @@ import type { ClubMemberRecord, ClubRank } from "./types";
 import { isHigherRank } from "./ranks";
 
 export function isLeader(rank: ClubRank) {
-  return rank === "Leader";
+  return rank === "leader";
 }
 
 export function isCoLeader(rank: ClubRank) {
-  return rank === "Co-Leader";
+  return rank === "co-leader";
 }
 
 export function canOpenSettings(rank: ClubRank) {
-  return rank === "Leader" || rank === "Co-Leader";
+  return rank === "leader" || rank === "co-leader";
 }
 
 export function canInvite(rank: ClubRank) {
   return (
-    rank === "Leader" ||
-    rank === "Co-Leader" ||
-    rank === "Senior Admin" ||
-    rank === "Admin" ||
-    rank === "Coordinator"
+    rank === "leader" ||
+    rank === "co-leader" ||
+    rank === "senior admin" ||
+    rank === "admin" ||
+    rank === "coordinator"
   );
 }
 
@@ -33,10 +33,10 @@ export function canComment(member: ClubMemberRecord) {
 
 export function canDeleteThread(rank: ClubRank) {
   return (
-    rank === "Leader" ||
-    rank === "Co-Leader" ||
-    rank === "Senior Admin" ||
-    rank === "Admin"
+    rank === "leader" ||
+    rank === "co-leader" ||
+    rank === "senior admin" ||
+    rank === "admin"
   );
 }
 
@@ -45,49 +45,40 @@ export function canDeleteComment(rank: ClubRank) {
 }
 
 export function canKick(actor: ClubRank, target: ClubRank) {
-  if (actor === "Leader") return target !== "Leader";
+  if (actor === "leader") return target !== "leader";
 
-  if (actor === "Co-Leader")
-    return isHigherRank(actor, target);
+  if (actor === "co-leader") return isHigherRank(actor, target);
 
-  if (actor === "Senior Admin")
-    return isHigherRank(actor, target);
+  if (actor === "senior admin") return isHigherRank(actor, target);
 
   return false;
 }
 
 export function canMute(actor: ClubRank, target: ClubRank) {
-  if (actor === "Leader") return target !== "Leader";
+  if (actor === "leader") return target !== "leader";
 
-  if (actor === "Co-Leader")
-    return isHigherRank(actor, target);
+  if (actor === "co-leader") return isHigherRank(actor, target);
 
-  if (actor === "Senior Admin")
-    return isHigherRank(actor, target);
+  if (actor === "senior admin") return isHigherRank(actor, target);
 
-  if (actor === "Admin")
-    return isHigherRank(actor, target);
+  if (actor === "admin") return isHigherRank(actor, target);
 
   return false;
 }
 
 export function canPromote(actor: ClubRank, target: ClubRank) {
-  if (actor === "Leader") return target !== "Leader";
+  if (actor === "leader") return target !== "leader";
 
-  if (actor === "Co-Leader")
+  if (actor === "co-leader")
     return (
-      target === "Senior Admin" ||
-      target === "Admin" ||
-      target === "Coordinator" ||
-      target === "Member"
+      target === "senior admin" ||
+      target === "admin" ||
+      target === "coordinator" ||
+      target === "member"
     );
 
-  if (actor === "Senior Admin")
-    return (
-      target === "Admin" ||
-      target === "Coordinator" ||
-      target === "Member"
-    );
+  if (actor === "senior admin")
+    return target === "admin" || target === "coordinator" || target === "member";
 
   return false;
 }
@@ -97,9 +88,9 @@ export function canDemote(actor: ClubRank, target: ClubRank) {
 }
 
 export function canTransferLeadership(rank: ClubRank) {
-  return rank === "Leader";
+  return rank === "leader";
 }
 
 export function canDisbandClub(rank: ClubRank) {
-  return rank === "Leader";
+  return rank === "leader";
 }

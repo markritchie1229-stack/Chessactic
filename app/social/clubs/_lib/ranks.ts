@@ -1,12 +1,12 @@
 import type { ClubRank } from "./types";
 
 export const RANK_ORDER: ClubRank[] = [
-  "Leader",
-  "Co-Leader",
-  "Senior Admin",
-  "Admin",
-  "Coordinator",
-  "Member",
+  "leader",
+  "co-leader",
+  "senior admin",
+  "admin",
+  "coordinator",
+  "member",
 ];
 
 export function getRankIndex(rank: ClubRank): number {
@@ -30,7 +30,7 @@ export function isLowerOrEqualRank(a: ClubRank, b: ClubRank): boolean {
 }
 
 export function canPromoteTo(target: ClubRank): boolean {
-  return target !== "Leader";
+  return target !== "leader";
 }
 
 export function getNextHigherRank(rank: ClubRank): ClubRank | null {
@@ -43,4 +43,8 @@ export function getNextLowerRank(rank: ClubRank): ClubRank | null {
   const index = getRankIndex(rank);
   if (index < 0 || index >= RANK_ORDER.length - 1) return null;
   return RANK_ORDER[index + 1];
+}
+
+export function formatRankLabel(rank: ClubRank): string {
+  return rank.toUpperCase();
 }
