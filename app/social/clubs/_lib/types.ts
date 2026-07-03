@@ -1,10 +1,10 @@
 export type ClubRank =
-  | "Leader"
-  | "Co-Leader"
-  | "Senior Admin"
-  | "Admin"
-  | "Coordinator"
-  | "Member";
+  | "leader"
+  | "co-leader"
+  | "senior admin"
+  | "admin"
+  | "coordinator"
+  | "member";
 
 export type ClubRecord = {
   id: string;

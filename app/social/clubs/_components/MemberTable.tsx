@@ -15,6 +15,7 @@ import {
   canPromote,
 } from "../_lib/permissions";
 import {
+  formatRankLabel,
   getNextHigherRank,
   getNextLowerRank,
   isHigherRank,
@@ -116,7 +117,7 @@ export function MemberTable({
 
                 const canActOnThisMember =
                   isHigherRank(currentUserRank, member.rank) ||
-                  currentUserRank === "Leader";
+                  currentUserRank === "leader";
 
                 return (
                   <tr key={member.id}>
@@ -151,7 +152,9 @@ export function MemberTable({
                       </div>
                     </td>
 
-                    <td className="px-4 py-3 text-slate-300">{member.rank}</td>
+                    <td className="px-4 py-3 text-slate-300">
+                      {formatRankLabel(member.rank)}
+                    </td>
                     <td className="px-4 py-3 text-slate-400">
                       {formatJoinDate(member.created_at)}
                     </td>

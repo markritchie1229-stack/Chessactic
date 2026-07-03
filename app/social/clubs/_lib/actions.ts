@@ -155,7 +155,7 @@ export async function transferLeadership(
 
   const stepDown = await supabase
     .from("club_members")
-    .update({ rank: "Co-Leader" })
+    .update({ rank: "co-leader" })
     .eq("id", currentLeader.id)
     .eq("club_id", clubId);
 
@@ -165,7 +165,7 @@ export async function transferLeadership(
 
   const stepUp = await supabase
     .from("club_members")
-    .update({ rank: "Leader" })
+    .update({ rank: "leader" })
     .eq("id", newLeader.id)
     .eq("club_id", clubId);
 

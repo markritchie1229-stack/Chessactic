@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { RankedGroup } from "../_lib/types";
+import { formatRankLabel } from "../_lib/ranks";
 
 type RankedProfilesProps = {
   groups: RankedGroup[];
@@ -33,13 +34,12 @@ export function RankedProfiles({ groups }: RankedProfilesProps) {
           {groups.map((group) => (
             <div key={group.rank}>
               <div className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-                {group.rank}
+                {formatRankLabel(group.rank)}
               </div>
 
               <div className="flex flex-wrap gap-4">
                 {group.members.map(({ member, profile }) => {
-                  const username =
-                    profile?.username ?? member.user_id;
+                  const username = profile?.username ?? member.user_id;
 
                   return (
                     <Link

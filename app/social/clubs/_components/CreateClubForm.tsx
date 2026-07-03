@@ -127,7 +127,7 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         .insert({
           club_id: club.id,
           user_id: user.id,
-          rank: "Leader",
+          rank: "leader",
           muted: false,
         });
 
