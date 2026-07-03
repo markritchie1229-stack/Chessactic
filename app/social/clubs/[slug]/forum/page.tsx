@@ -1,237 +1,367 @@
-import Link from "next/link";
-import { createClient } from "@supabase/supabase-js";
-import { ArrowLeft, MessageSquare, Pin, Search, PlusCircle } from "lucide-react";
+"use client";
 
-type ClubPageProps = {
-  params: {
-    slug: string;
+import { useEffect, useMemo, useState } from "react";
+import { useParams } from "next/navigation";
+import {
+  ArrowUpRight,
+  MessageSquare,
+  Pin,
+  PlusCircle,
+  Search,
+  Trash2,
+} from "lucide-react";
+
+import {
+  createThread,
+  deleteThread,
+  getCurrentUserId,
+  getMyClubRank,
+} from "../../_lib/actions";
+import { canCreateThread, canDeleteThread } from "../../_lib/permissions";
+import { getClubBySlug, getClubThreads } from "../../_lib/queries";
+import { supabase } from "../../_lib/supabase";
+import type {
+  ClubMemberRecord,
+  ClubRecord,
+  ClubRank,
+  ThreadRecord,
+} from "../../_lib/types";
+
+type ParamsShape = {
+  slug?: string | string[];
+};
+
+function getSlugFromParams(params: ParamsShape) {
+  const value = params.slug;
+  return Array.isArray(value) ? value[0] : value ?? "";
+}
+
+function formatDate(value: string | null | undefined) {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "—";
+  return date.toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
+export default function ClubForumPage() {
+  const params = useParams<ParamsShape>();
+  const slug = useMemo(() => getSlugFromParams(params), [params]);
+
+  const [club, setClub] = useState<ClubRecord | null>(null);
+  const [threads, setThreads] = useState<ThreadRecord[]>([]);
+  const [currentUserId, setCurrentUserId] = useState<string | null>(null);
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [currentMember, setCurrentMember] = useState<ClubMemberRecord | null>(null);
+  const [search, setSearch] = useState("");
+  const [title, setTitle] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [error, setError] = useState("");
+  const [status, setStatus] = useState("");
+
+  const loadData = async () => {
+    if (!slug) return;
+
+    setLoading(true);
+    setError("");
+    setStatus("");
+
+    try {
+      const clubData = await getClubBySlug(slug);
+
+      if (!clubData) {
+        setClub(null);
+        setThreads([]);
+        setCurrentUserId(null);
+        setCurrentUserRank("Member");
+        setCurrentMember(null);
+        return;
+      }
+
+      const [threadData, userId, userRank] = await Promise.all([
+        getClubThreads(clubData.id),
+        getCurrentUserId(),
+        getMyClubRank(clubData.id),
+      ]);
+
+      setClub(clubData);
+      setThreads(threadData);
+      setCurrentUserId(userId);
+      setCurrentUserRank(userRank ?? "Member");
+
+      if (userId) {
+        const { data: membership, error: membershipError } = await supabase
+          .from("club_members")
+          .select("id, club_id, user_id, rank, muted, created_at")
+          .eq("club_id", clubData.id)
+          .eq("user_id", userId)
+          .maybeSingle();
+
+        if (membershipError) {
+          throw new Error(membershipError.message);
+        }
+
+        setCurrentMember((membership as ClubMemberRecord | null) ?? null);
+      } else {
+        setCurrentMember(null);
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to load forum.");
+    } finally {
+      setLoading(false);
+    }
   };
-};
 
-type ClubRecord = {
-  id: string;
-  title: string;
-  title_search: string;
-  description: string | null;
-  avatar_url: string | null;
-  banner_url: string | null;
-  created_by: string | null;
-  disbanded_at: string | null;
-  created_at: string;
-  updated_at: string;
-};
+  useEffect(() => {
+    void loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
 
-type ThreadRecord = {
-  id: string;
-  club_id: string;
-  author_id: string | null;
-  title: string;
-};
+  const refreshAfterMutation = async () => {
+    await loadData();
+  };
 
-function getSupabaseClient() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const canPost = currentMember ? canCreateThread(currentMember) : false;
+  const canModerate = canDeleteThread(currentUserRank);
 
-  if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error("Missing Supabase environment variables.");
-  }
+  const filteredThreads = useMemo(() => {
+    const term = search.trim().toLowerCase();
+    if (!term) return threads;
 
-  return createClient(supabaseUrl, supabaseAnonKey);
-}
+    return threads.filter((thread) => {
+      return (
+        thread.title.toLowerCase().includes(term) ||
+        (thread.author_id ?? "").toLowerCase().includes(term)
+      );
+    });
+  }, [search, threads]);
 
-async function getClubBySlug(slug: string): Promise<ClubRecord | null> {
-  const supabase = getSupabaseClient();
+  const handleCreateThread = async () => {
+    if (!club) return;
 
-  const { data, error } = await supabase
-    .from("clubs")
-    .select("id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at")
-    .eq("title_search", slug)
-    .is("disbanded_at", null)
-    .maybeSingle();
+    const trimmed = title.trim();
+    if (!trimmed) {
+      setError("Please enter a thread title.");
+      return;
+    }
 
-  if (error) {
-    throw new Error(error.message);
-  }
+    if (!currentUserId) {
+      setError("You must be signed in to create a thread.");
+      return;
+    }
 
-  return data ?? null;
-}
+    if (!canPost) {
+      setError("You are muted and cannot create threads.");
+      return;
+    }
 
-async function getThreads(clubId: string): Promise<ThreadRecord[]> {
-  const supabase = getSupabaseClient();
+    setSubmitting(true);
+    setError("");
+    setStatus("");
 
-  const { data, error } = await supabase
-    .from("club_threads")
-    .select("id, club_id, author_id, title")
-    .eq("club_id", clubId);
+    try {
+      await createThread(club.id, trimmed, currentUserId);
+      setTitle("");
+      setStatus("Thread created.");
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to create thread.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
 
-  if (error) {
-    throw new Error(error.message);
-  }
+  const handleDeleteThread = async (thread: ThreadRecord) => {
+    if (!club) return;
 
-  return (data ?? []) as ThreadRecord[];
-}
+    setDeletingId(thread.id);
+    setError("");
+    setStatus("");
 
-export default async function ClubForumPage({ params }: ClubPageProps) {
-  const club = await getClubBySlug(params.slug);
+    try {
+      await deleteThread(club.id, currentUserRank, thread.id);
+      setStatus("Thread deleted.");
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to delete thread.");
+    } finally {
+      setDeletingId(null);
+    }
+  };
 
-  if (!club) {
+  if (!slug) {
     return (
-      <div className="min-h-screen bg-slate-950 text-slate-100">
-        <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-          <Link
-            href="/social/clubs"
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to clubs
-          </Link>
-
-          <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-8 text-center shadow-2xl shadow-black/20">
-            <h1 className="text-3xl font-semibold">Club not found</h1>
-            <p className="mt-3 text-sm leading-6 text-slate-400">
-              This forum page could not find an active club for the slug in the URL.
-            </p>
-          </div>
-        </div>
-      </div>
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-sm text-slate-400 shadow-2xl shadow-black/20">
+        Missing club slug.
+      </section>
     );
   }
 
-  const base = `/social/clubs/${club.title_search}`;
-  const threads = await getThreads(club.id);
+  if (!loading && !club) {
+    return (
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-center shadow-2xl shadow-black/20">
+        <h2 className="text-2xl font-semibold">Club not found</h2>
+        <p className="mt-3 text-sm text-slate-400">
+          No active club matched this slug.
+        </p>
+      </section>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="mb-6 flex items-center justify-between gap-3">
-          <Link
-            href={base}
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to club
-          </Link>
-
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/85 p-3 shadow-lg shadow-black/20">
-            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-              Quick links
+    <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
+      <main className="space-y-6">
+        <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h2 className="text-xl font-semibold">Forum</h2>
+              <p className="mt-2 text-sm text-slate-400">
+                Threads live here. Muted members cannot create new threads.
+              </p>
             </div>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-2">
-              <Link
-                href={`${base}/members`}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-              >
-                Members
-              </Link>
-              <Link
-                href={`${base}/invite`}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-              >
-                Invite
-              </Link>
-              <Link
-                href={`${base}/forum`}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-cyan-500 px-3 py-2 text-sm font-medium text-slate-950"
-              >
-                Forum
-              </Link>
-              <Link
-                href={`${base}/settings`}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-              >
-                Settings
-              </Link>
+
+            <button
+              type="button"
+              onClick={handleCreateThread}
+              disabled={submitting || !canPost}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              <PlusCircle className="h-4 w-4" />
+              {submitting ? "Creating..." : "New Thread"}
+            </button>
+          </div>
+
+          <div className="mt-4 grid gap-3 md:grid-cols-[1fr_auto]">
+            <input
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder="Thread title"
+              className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
+            />
+
+            <button
+              type="button"
+              onClick={handleCreateThread}
+              disabled={submitting || !canPost}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-sm text-slate-100 transition hover:border-cyan-500/60 hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              <ArrowUpRight className="h-4 w-4" />
+              Post
+            </button>
+          </div>
+
+          {!canPost ? (
+            <div className="mt-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200">
+              You are muted and cannot create new threads.
+            </div>
+          ) : null}
+
+          {error ? (
+            <div className="mt-4 rounded-2xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
+              {error}
+            </div>
+          ) : null}
+
+          {status ? (
+            <div className="mt-4 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 text-sm text-emerald-200">
+              {status}
+            </div>
+          ) : null}
+
+          <div className="relative mt-5">
+            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search threads"
+              className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 py-3 pl-11 pr-4 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
+            />
+          </div>
+        </section>
+
+        <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+          <div className="mb-4 flex items-center gap-3">
+            <MessageSquare className="h-5 w-5 text-cyan-400" />
+            <div>
+              <h2 className="text-xl font-semibold">Recent threads</h2>
+              <p className="text-sm text-slate-400">
+                Loaded from the club_threads table.
+              </p>
             </div>
           </div>
-        </div>
 
-        <header className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Forum</div>
-          <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">{club.title}</h1>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
-            Threads live here. Muted members should not be able to create new threads.
-          </p>
-        </header>
-
-        <div className="mt-6 flex flex-col gap-6 lg:flex-row">
-          <main className="flex-1 space-y-6">
-            <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-              <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                <div className="relative flex-1">
-                  <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
-                  <input
-                    placeholder="Search threads"
-                    className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 py-3 pl-11 pr-4 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
-                  />
-                </div>
-
-                <button className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400">
-                  <PlusCircle className="h-4 w-4" />
-                  New Thread
-                </button>
-              </div>
-            </section>
-
-            <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-              <div className="mb-4 flex items-center gap-3">
-                <Pin className="h-5 w-5 text-cyan-400" />
-                <div>
-                  <h2 className="text-xl font-semibold">Pinned threads</h2>
-                  <p className="text-sm text-slate-400">Pinned threads stay at the top of the forum.</p>
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-5 text-sm leading-6 text-slate-400">
-                Pinned thread cards will go here.
-              </div>
-            </section>
-
-            <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-              <div className="mb-4 flex items-center gap-3">
-                <MessageSquare className="h-5 w-5 text-cyan-400" />
-                <div>
-                  <h2 className="text-xl font-semibold">Recent threads</h2>
-                  <p className="text-sm text-slate-400">Loaded from the club_threads table.</p>
-                </div>
-              </div>
-
-              {threads.length === 0 ? (
-                <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-5 text-sm text-slate-400">
-                  No threads yet.
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  {threads.map((thread) => (
-                    <div key={thread.id} className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+          {loading ? (
+            <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-5 text-sm text-slate-400">
+              Loading threads...
+            </div>
+          ) : filteredThreads.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-5 text-sm text-slate-400">
+              No threads yet.
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {filteredThreads.map((thread) => (
+                <div
+                  key={thread.id}
+                  className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 hover:bg-slate-950"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
                       <div className="font-medium text-slate-100">{thread.title}</div>
                       <div className="mt-2 text-sm leading-6 text-slate-400">
                         Author ID: {thread.author_id ?? "unknown"}
                       </div>
+                      <div className="mt-2 text-xs text-slate-500">
+                        {formatDate(thread.created_at)}
+                      </div>
                     </div>
-                  ))}
-                </div>
-              )}
-            </section>
-          </main>
 
-          <aside className="w-full lg:w-[20rem]">
-            <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+                    {canModerate ? (
+                      <button
+                        type="button"
+                        onClick={() => handleDeleteThread(thread)}
+                        disabled={deletingId === thread.id}
+                        className="inline-flex items-center gap-2 rounded-xl border border-rose-500/30 bg-rose-500/10 px-3 py-2 text-xs text-rose-200 transition hover:bg-rose-500/20 disabled:cursor-not-allowed disabled:opacity-60"
+                      >
+                        <Trash2 className="h-3.5 w-3.5" />
+                        {deletingId === thread.id ? "Deleting..." : "Delete"}
+                      </button>
+                    ) : null}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      </main>
+
+      <aside className="space-y-6">
+        <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+          <div className="mb-4 flex items-center gap-3">
+            <Pin className="h-5 w-5 text-cyan-400" />
+            <div>
               <h2 className="text-xl font-semibold">Forum rules</h2>
-              <div className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                  All members can post threads unless muted.
-                </div>
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                  Admins and above can delete threads and comments.
-                </div>
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                  Leader and Co-Leader can manage club settings.
-                </div>
-              </div>
-            </section>
-          </aside>
-        </div>
-      </div>
+              <p className="text-sm text-slate-400">
+                All members can post threads unless muted.
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-3 text-sm leading-6 text-slate-300">
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+              Leaders, Co-Leaders, Senior Admins, and Admins can moderate threads.
+            </div>
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+              Search and posting are handled directly from this page.
+            </div>
+          </div>
+        </section>
+      </aside>
     </div>
   );
 }

@@ -1,288 +1,282 @@
-import Link from "next/link";
-import { createClient } from "@supabase/supabase-js";
-import { ArrowLeft, Search, Shield, Users } from "lucide-react";
+"use client";
 
-type ClubPageProps = {
-  params: {
-    slug: string;
+import { useEffect, useMemo, useState } from "react";
+import { useParams } from "next/navigation";
+import { Search, Shield } from "lucide-react";
+
+import { MemberTable } from "../../_components/MemberTable";
+import {
+  demoteMember,
+  getMyClubRank,
+  kickMember,
+  muteMember,
+  promoteMember,
+  unmuteMember,
+} from "../../_lib/actions";
+import { getClubBySlug, getClubMembers, getProfiles } from "../../_lib/queries";
+import type {
+  ClubMemberRecord,
+  ClubRecord,
+  ClubRank,
+  ProfileRecord,
+} from "../../_lib/types";
+
+type ParamsShape = {
+  slug?: string | string[];
+};
+
+function getSlugFromParams(params: ParamsShape) {
+  const value = params.slug;
+  return Array.isArray(value) ? value[0] : value ?? "";
+}
+
+export default function ClubMembersPage() {
+  const params = useParams<ParamsShape>();
+  const slug = useMemo(() => getSlugFromParams(params), [params]);
+
+  const [club, setClub] = useState<ClubRecord | null>(null);
+  const [members, setMembers] = useState<ClubMemberRecord[]>([]);
+  const [profiles, setProfiles] = useState<Map<string, ProfileRecord>>(new Map());
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [search, setSearch] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState("");
+
+  const loadData = async () => {
+    if (!slug) return;
+
+    setLoading(true);
+    setError("");
+
+    try {
+      const clubData = await getClubBySlug(slug);
+
+      if (!clubData) {
+        setClub(null);
+        setMembers([]);
+        setProfiles(new Map());
+        setCurrentUserRank("Member");
+        return;
+      }
+
+      const [memberData, myRank] = await Promise.all([
+        getClubMembers(clubData.id),
+        getMyClubRank(clubData.id),
+      ]);
+
+      const memberProfiles = await getProfiles(
+        memberData.map((member) => member.user_id),
+      );
+
+      setClub(clubData);
+      setMembers(memberData);
+      setProfiles(memberProfiles);
+      setCurrentUserRank(myRank ?? "Member");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to load members.");
+    } finally {
+      setLoading(false);
+    }
   };
-};
 
-type ClubRecord = {
-  id: string;
-  title: string;
-  title_search: string;
-  description: string | null;
-  avatar_url: string | null;
-  banner_url: string | null;
-  created_by: string | null;
-  disbanded_at: string | null;
-  created_at: string;
-  updated_at: string;
-};
+  useEffect(() => {
+    void loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [slug]);
 
-type ClubMemberRecord = {
-  id: string;
-  club_id: string;
-  user_id: string;
-  rank: string;
-  muted: boolean | null;
-  created_at: string | null;
-};
+  const refreshAfterMutation = async () => {
+    await loadData();
+  };
 
-type ProfileRecord = {
-  id: string;
-  username: string | null;
-  avatar_url: string | null;
-};
+  const handlePromote = async (member: ClubMemberRecord, nextRank: ClubRank) => {
+    if (!club) return;
 
-function getSupabaseClient() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    setSaving(true);
+    setError("");
 
-  if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error("Missing Supabase environment variables.");
-  }
+    try {
+      await promoteMember(club.id, currentUserRank, member, nextRank);
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to promote member.");
+    } finally {
+      setSaving(false);
+    }
+  };
 
-  return createClient(supabaseUrl, supabaseAnonKey);
-}
+  const handleDemote = async (member: ClubMemberRecord, nextRank: ClubRank) => {
+    if (!club) return;
 
-async function getClubBySlug(slug: string): Promise<ClubRecord | null> {
-  const supabase = getSupabaseClient();
+    setSaving(true);
+    setError("");
 
-  const { data, error } = await supabase
-    .from("clubs")
-    .select("id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at")
-    .eq("title_search", slug)
-    .is("disbanded_at", null)
-    .maybeSingle();
+    try {
+      await demoteMember(club.id, currentUserRank, member, nextRank);
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to demote member.");
+    } finally {
+      setSaving(false);
+    }
+  };
 
-  if (error) {
-    throw new Error(error.message);
-  }
+  const handleKick = async (member: ClubMemberRecord) => {
+    if (!club) return;
 
-  return data ?? null;
-}
+    setSaving(true);
+    setError("");
 
-async function getClubMembers(clubId: string): Promise<ClubMemberRecord[]> {
-  const supabase = getSupabaseClient();
+    try {
+      await kickMember(club.id, currentUserRank, member);
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to kick member.");
+    } finally {
+      setSaving(false);
+    }
+  };
 
-  const { data, error } = await supabase
-    .from("club_members")
-    .select("id, club_id, user_id, rank, muted, created_at")
-    .eq("club_id", clubId)
-    .order("created_at", { ascending: true });
+  const handleMute = async (member: ClubMemberRecord) => {
+    if (!club) return;
 
-  if (error) {
-    throw new Error(error.message);
-  }
+    setSaving(true);
+    setError("");
 
-  return (data ?? []) as ClubMemberRecord[];
-}
+    try {
+      await muteMember(club.id, currentUserRank, member);
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to mute member.");
+    } finally {
+      setSaving(false);
+    }
+  };
 
-async function getProfiles(userIds: string[]): Promise<Map<string, ProfileRecord>> {
-  const supabase = getSupabaseClient();
+  const handleUnmute = async (member: ClubMemberRecord) => {
+    if (!club) return;
 
-  if (userIds.length === 0) return new Map();
+    setSaving(true);
+    setError("");
 
-  try {
-    const { data, error } = await supabase.from("profiles").select("id, username, avatar_url").in("id", userIds);
+    try {
+      await unmuteMember(club.id, currentUserRank, member);
+      await refreshAfterMutation();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to unmute member.");
+    } finally {
+      setSaving(false);
+    }
+  };
 
-    if (error) return new Map();
+  const filteredMembers = useMemo(() => {
+    const term = search.trim().toLowerCase();
+    if (!term) return members;
 
-    const map = new Map<string, ProfileRecord>();
-    (data ?? []).forEach((profile) => {
-      map.set(profile.id, profile as ProfileRecord);
+    return members.filter((member) => {
+      const profile = profiles.get(member.user_id);
+      const username = (profile?.username ?? member.user_id).toLowerCase();
+      return username.includes(term) || member.user_id.toLowerCase().includes(term);
     });
-    return map;
-  } catch {
-    return new Map();
-  }
-}
+  }, [members, profiles, search]);
 
-function formatJoinDate(value: string | null) {
-  if (!value) return "—";
-
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return "—";
-
-  return date.toLocaleDateString(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
-}
-
-export default async function ClubMembersPage({ params }: ClubPageProps) {
-  const club = await getClubBySlug(params.slug);
-
-  if (!club) {
+  if (!slug) {
     return (
-      <div className="min-h-screen bg-slate-950 text-slate-100">
-        <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-          <Link
-            href="/social/clubs"
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to clubs
-          </Link>
-
-          <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-8 text-center shadow-2xl shadow-black/20">
-            <h1 className="text-3xl font-semibold">Club not found</h1>
-            <p className="mt-3 text-sm leading-6 text-slate-400">
-              This members page could not find an active club for the slug in the URL.
-            </p>
-          </div>
-        </div>
+      <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-sm text-slate-400 shadow-2xl shadow-black/20">
+        Missing club slug.
       </div>
     );
   }
 
-  const base = `/social/clubs/${club.title_search}`;
-  const members = await getClubMembers(club.id);
-  const profiles = await getProfiles(members.map((member) => member.user_id));
+  if (!loading && !club) {
+    return (
+      <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-center shadow-2xl shadow-black/20">
+        <h2 className="text-2xl font-semibold">Club not found</h2>
+        <p className="mt-3 text-sm text-slate-400">
+          No active club matched this slug.
+        </p>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="mb-6 flex items-center justify-between gap-3">
-          <Link
-            href={base}
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to club
-          </Link>
+    <div className="grid gap-6">
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <div className="mb-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <h2 className="text-xl font-semibold">Member roster</h2>
+            <p className="mt-2 text-sm text-slate-400">
+              Search by username to make browsing easier.
+            </p>
+          </div>
 
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/85 p-3 shadow-lg shadow-black/20">
-            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-              Quick links
-            </div>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-2">
-              <Link href={`${base}/members`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-cyan-500 px-3 py-2 text-sm font-medium text-slate-950">
-                Members
-              </Link>
-              <Link href={`${base}/invite`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Invite
-              </Link>
-              <Link href={`${base}/forum`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Forum
-              </Link>
-              <Link href={`${base}/settings`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Settings
-              </Link>
-            </div>
+          <div className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-xs text-slate-400">
+            {filteredMembers.length} members
           </div>
         </div>
 
-        <header className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Members</div>
-          <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">{club.title}</h1>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
-            Search members and manage promotions, demotions, kicks, mutes, and unmute actions from here.
-          </p>
-        </header>
+        <div className="relative mb-5">
+          <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search by username"
+            className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 py-3 pl-11 pr-4 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
+          />
+        </div>
 
-        <section className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="mb-4 flex items-center justify-between gap-3">
-            <div className="flex items-center gap-3">
-              <Users className="h-5 w-5 text-cyan-400" />
-              <div>
-                <h2 className="text-xl font-semibold">Member roster</h2>
-                <p className="text-sm text-slate-400">Search by username to make browsing easier.</p>
-              </div>
+        {loading ? (
+          <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-6 text-sm text-slate-400">
+            Loading members...
+          </div>
+        ) : error ? (
+          <div className="rounded-2xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
+            {error}
+          </div>
+        ) : (
+          <MemberTable
+            members={filteredMembers}
+            profiles={profiles}
+            currentUserRank={currentUserRank}
+            onPromote={handlePromote}
+            onDemote={handleDemote}
+            onKick={handleKick}
+            onMute={handleMute}
+            onUnmute={handleUnmute}
+          />
+        )}
+      </section>
+
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <div className="mb-4 flex items-center gap-3">
+          <Shield className="h-5 w-5 text-cyan-400" />
+          <div>
+            <h2 className="text-xl font-semibold">Permissions</h2>
+            <p className="text-sm text-slate-400">
+              The current role rules are enforced from this page.
+            </p>
+          </div>
+        </div>
+
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {[
+            "Leader: full control, disband, transfer leadership, moderation, and role changes.",
+            "Co-Leader: manage most settings, moderate lower ranks, and handle rank changes up to Senior Admin.",
+            "Senior Admin: moderate and manage up to Admin, including kicks and mutes below their rank.",
+            "Admin: delete threads/comments and mute lower ranks.",
+            "Coordinator and Member: invite and posting abilities as specified later.",
+          ].map((item) => (
+            <div
+              key={item}
+              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm leading-6 text-slate-300"
+            >
+              {item}
             </div>
-            <div className="rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-xs text-slate-400">
-              {members.length} members
-            </div>
-          </div>
+          ))}
+        </div>
+      </section>
 
-          <div className="relative mb-5">
-            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
-            <input
-              placeholder="Search by username"
-              className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 py-3 pl-11 pr-4 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
-            />
-          </div>
-
-          <div className="overflow-hidden rounded-2xl border border-slate-800">
-            <table className="w-full text-left text-sm">
-              <thead className="bg-slate-950 text-slate-400">
-                <tr>
-                  <th className="px-4 py-3 font-medium">Username</th>
-                  <th className="px-4 py-3 font-medium">Rank</th>
-                  <th className="px-4 py-3 font-medium">Join date</th>
-                  <th className="px-4 py-3 font-medium">Muted</th>
-                  <th className="px-4 py-3 font-medium">Actions</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-800 bg-slate-900/60">
-                {members.length === 0 ? (
-                  <tr>
-                    <td className="px-4 py-6 text-slate-400" colSpan={5}>
-                      No members are in this club yet.
-                    </td>
-                  </tr>
-                ) : (
-                  members.map((member) => {
-                    const profile = profiles.get(member.user_id);
-                    const username = profile?.username ?? member.user_id;
-
-                    return (
-                      <tr key={member.id}>
-                        <td className="px-4 py-3">
-                          <div className="flex items-center gap-3">
-                            <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-xs font-semibold text-slate-200">
-                              {(profile?.username ?? member.user_id).slice(0, 2).toUpperCase()}
-                            </div>
-                            <div>
-                              <div className="font-medium text-slate-100">{username}</div>
-                              <div className="text-xs text-slate-500">{member.user_id}</div>
-                            </div>
-                          </div>
-                        </td>
-                        <td className="px-4 py-3 text-slate-300">{member.rank}</td>
-                        <td className="px-4 py-3 text-slate-400">{formatJoinDate(member.created_at)}</td>
-                        <td className="px-4 py-3 text-slate-300">{member.muted ? "Yes" : "No"}</td>
-                        <td className="px-4 py-3 text-slate-400">Promote · Demote · Kick · Mute · Unmute</td>
-                      </tr>
-                    );
-                  })
-                )}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="mb-4 flex items-center gap-3">
-            <Shield className="h-5 w-5 text-cyan-400" />
-            <div>
-              <h2 className="text-xl font-semibold">Permissions</h2>
-              <p className="text-sm text-slate-400">This is where the rank rules will be enforced.</p>
-            </div>
-          </div>
-
-          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-            {[
-              "Leader: full control, disband, transfer leadership, moderation, and role changes.",
-              "Co-Leader: manage most settings and moderate lower ranks.",
-              "Senior Admin: moderate and manage up to Admin, including kicks and mutes below their rank.",
-              "Admin: delete threads/comments and mute lower ranks.",
-              "Coordinator: send invites only.",
-              "Member: no special privileges.",
-            ].map((item) => (
-              <div
-                key={item}
-                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm leading-6 text-slate-300"
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
+      {saving ? <div className="text-sm text-slate-400">Saving changes...</div> : null}
     </div>
   );
 }

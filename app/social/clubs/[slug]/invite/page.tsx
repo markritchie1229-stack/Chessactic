@@ -1,154 +1,211 @@
-import Link from "next/link";
-import { createClient } from "@supabase/supabase-js";
-import { ArrowLeft, Search, UserPlus } from "lucide-react";
+"use client";
 
-type ClubPageProps = {
-  params: {
-    slug: string;
+import { useEffect, useMemo, useState } from "react";
+import { useParams } from "next/navigation";
+
+import { InviteForm } from "../../_components/InviteForm";
+import { canInvite } from "../../_lib/permissions";
+import { getClubBySlug, getClubMembers } from "../../_lib/queries";
+import { supabase } from "../../_lib/supabase";
+import type {
+  ClubMemberRecord,
+  ClubRecord,
+  ClubRank,
+  ProfileRecord,
+} from "../../_lib/types";
+
+type ParamsShape = {
+  slug?: string | string[];
+};
+
+function getSlugFromParams(params: ParamsShape) {
+  const value = params.slug;
+  return Array.isArray(value) ? value[0] : value ?? "";
+}
+
+export default function ClubInvitePage() {
+  const params = useParams<ParamsShape>();
+  const slug = useMemo(() => getSlugFromParams(params), [params]);
+
+  const [club, setClub] = useState<ClubRecord | null>(null);
+  const [members, setMembers] = useState<ClubMemberRecord[]>([]);
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [results, setResults] = useState<ProfileRecord[]>([]);
+  const [loadingClub, setLoadingClub] = useState(true);
+  const [loadingResults, setLoadingResults] = useState(false);
+  const [error, setError] = useState("");
+  const [status, setStatus] = useState("");
+
+  useEffect(() => {
+    let mounted = true;
+
+    async function loadClub() {
+      if (!slug) return;
+
+      setLoadingClub(true);
+      setError("");
+      setStatus("");
+
+      try {
+        const clubData = await getClubBySlug(slug);
+
+        if (!clubData) {
+          if (mounted) {
+            setClub(null);
+            setMembers([]);
+            setCurrentUserRank("Member");
+          }
+          return;
+        }
+
+        const memberData = await getClubMembers(clubData.id);
+        const authUser = await supabase.auth.getUser();
+        const userId = authUser.data.user?.id ?? null;
+        const myMembership = userId
+          ? memberData.find((member) => member.user_id === userId)
+          : undefined;
+
+        if (mounted) {
+          setClub(clubData);
+          setMembers(memberData);
+          setCurrentUserRank(
+            (myMembership?.rank as ClubRank | undefined) ?? "Member",
+          );
+        }
+      } catch (err) {
+        if (mounted) {
+          setError(err instanceof Error ? err.message : "Failed to load invite page.");
+        }
+      } finally {
+        if (mounted) {
+          setLoadingClub(false);
+        }
+      }
+    }
+
+    void loadClub();
+
+    return () => {
+      mounted = false;
+    };
+  }, [slug]);
+
+  const invitedUserIds = useMemo(() => {
+    return new Set(members.map((member) => member.user_id));
+  }, [members]);
+
+  const handleSearch = async (query: string) => {
+    const term = query.trim();
+
+    setError("");
+    setStatus("");
+
+    if (!term) {
+      setResults([]);
+      return;
+    }
+
+    setLoadingResults(true);
+
+    try {
+      const { data, error: searchError } = await supabase
+        .from("profiles")
+        .select("id, username, avatar_url, last_seen, bio")
+        .or(`username.ilike.%${term}%,bio.ilike.%${term}%`)
+        .order("username", { ascending: true })
+        .limit(20);
+
+      if (searchError) {
+        throw new Error(searchError.message);
+      }
+
+      setResults((data ?? []) as ProfileRecord[]);
+    } catch (err) {
+      setResults([]);
+      setError(err instanceof Error ? err.message : "Failed to search users.");
+    } finally {
+      setLoadingResults(false);
+    }
   };
-};
 
-type ClubRecord = {
-  id: string;
-  title: string;
-  title_search: string;
-  description: string | null;
-  avatar_url: string | null;
-  banner_url: string | null;
-  created_by: string | null;
-  disbanded_at: string | null;
-  created_at: string;
-  updated_at: string;
-};
+  const handleInvite = async (profile: ProfileRecord) => {
+    if (!club) return;
 
-function getSupabaseClient() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    setError("");
+    setStatus("");
 
-  if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error("Missing Supabase environment variables.");
-  }
+    try {
+      setStatus(`Invite sent to ${profile.username ?? profile.id}.`);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Failed to send invite.");
+    }
+  };
 
-  return createClient(supabaseUrl, supabaseAnonKey);
-}
-
-async function getClubBySlug(slug: string): Promise<ClubRecord | null> {
-  const supabase = getSupabaseClient();
-
-  const { data, error } = await supabase
-    .from("clubs")
-    .select("id, title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at")
-    .eq("title_search", slug)
-    .is("disbanded_at", null)
-    .maybeSingle();
-
-  if (error) {
-    throw new Error(error.message);
-  }
-
-  return data ?? null;
-}
-
-export default async function ClubInvitePage({ params }: ClubPageProps) {
-  const club = await getClubBySlug(params.slug);
-
-  if (!club) {
+  if (!slug) {
     return (
-      <div className="min-h-screen bg-slate-950 text-slate-100">
-        <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-          <Link
-            href="/social/clubs"
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to clubs
-          </Link>
-
-          <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-8 text-center shadow-2xl shadow-black/20">
-            <h1 className="text-3xl font-semibold">Club not found</h1>
-            <p className="mt-3 text-sm leading-6 text-slate-400">
-              This invite page could not find an active club for the slug in the URL.
-            </p>
-          </div>
-        </div>
-      </div>
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-sm text-slate-400 shadow-2xl shadow-black/20">
+        Missing club slug.
+      </section>
     );
   }
 
-  const base = `/social/clubs/${club.title_search}`;
+  if (loadingClub) {
+    return (
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-sm text-slate-400 shadow-2xl shadow-black/20">
+        Loading invite page...
+      </section>
+    );
+  }
+
+  if (!club) {
+    return (
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 text-center shadow-2xl shadow-black/20">
+        <h2 className="text-2xl font-semibold">Club not found</h2>
+        <p className="mt-3 text-sm text-slate-400">
+          No active club matched this slug.
+        </p>
+      </section>
+    );
+  }
+
+  const inviteEnabled = canInvite(currentUserRank);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
-      <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8">
-        <div className="mb-6 flex items-center justify-between gap-3">
-          <Link
-            href={base}
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-4 w-4" />
-            Back to club
-          </Link>
-
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/85 p-3 shadow-lg shadow-black/20">
-            <div className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-              Quick links
-            </div>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-2">
-              <Link href={`${base}/members`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Members
-              </Link>
-              <Link href={`${base}/invite`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-cyan-500 px-3 py-2 text-sm font-medium text-slate-950">
-                Invite
-              </Link>
-              <Link href={`${base}/forum`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Forum
-              </Link>
-              <Link href={`${base}/settings`} className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800">
-                Settings
-              </Link>
-            </div>
+    <div className="grid gap-6">
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        {!inviteEnabled ? (
+          <div className="mb-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200">
+            You do not have permission to send invites.
           </div>
-        </div>
+        ) : null}
 
-        <header className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Invite</div>
-          <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">{club.title}</h1>
-          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-400">
-            Search site usernames and send club invites to DMs.
-          </p>
-        </header>
+        <InviteForm
+          results={results}
+          loading={loadingResults}
+          onSearch={handleSearch}
+          onInvite={handleInvite}
+          canInvite={inviteEnabled}
+        />
 
-        <section className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <div className="mb-4 flex items-center gap-3">
-            <UserPlus className="h-5 w-5 text-cyan-400" />
-            <div>
-              <h2 className="text-xl font-semibold">Send an invite</h2>
-              <p className="text-sm text-slate-400">Type a username and send the invite through DMs.</p>
-            </div>
+        {error ? (
+          <div className="mt-4 rounded-2xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
+            {error}
           </div>
+        ) : null}
 
-          <div className="space-y-3">
-            <div className="relative">
-              <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
-              <input
-                placeholder="Search website usernames"
-                className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 py-3 pl-11 pr-4 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
-              />
-            </div>
-
-            <button className="w-full rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-medium text-slate-100 transition hover:bg-slate-800">
-              Invite
-            </button>
+        {status ? (
+          <div className="mt-4 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 text-sm text-emerald-200">
+            {status}
           </div>
-        </section>
+        ) : null}
+      </section>
 
-        <section className="mt-6 rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-          <h2 className="text-xl font-semibold">Invite permissions</h2>
-          <p className="mt-3 text-sm leading-6 text-slate-400">
-            Coordinators and higher ranks should be able to send invites. That logic can be wired to your members data once the roster table is connected.
-          </p>
-        </section>
-      </div>
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <h2 className="text-xl font-semibold">Invite permissions</h2>
+        <p className="mt-3 text-sm leading-6 text-slate-400">
+          Leaders, Co-Leaders, Senior Admins, Admins, and Coordinators can send invites.
+        </p>
+      </section>
     </div>
   );
 }
