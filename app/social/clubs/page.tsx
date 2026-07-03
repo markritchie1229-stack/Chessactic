@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
-import { ArrowRight, ImagePlus, Search, Shield, Sparkles, Wallpaper } from "lucide-react";
+import { ArrowRight, Search, Shield, Sparkles } from "lucide-react";
 
 type ClubRecord = {
   title: string;
@@ -16,15 +16,6 @@ type ClubRecord = {
   created_at: string;
   updated_at: string;
 };
-
-function slugify(value: string) {
-  return value
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-");
-}
 
 function getSupabaseClient() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -41,13 +32,7 @@ export default function ClubsPage() {
   const [clubs, setClubs] = useState<ClubRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
-  const [showCreateFlow, setShowCreateFlow] = useState(false);
-  const [title, setTitle] = useState("");
-  const [description, setDescription] = useState("");
-  const [avatarUrl, setAvatarUrl] = useState("");
-  const [bannerUrl, setBannerUrl] = useState("");
   const [error, setError] = useState("");
-  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     let mounted = true;
@@ -101,55 +86,6 @@ export default function ClubsPage() {
     });
   }, [clubs, search]);
 
-  const handleCreateClub = async () => {
-    const trimmedTitle = title.trim();
-    if (!trimmedTitle) {
-      setError("Please enter a club title.");
-      return;
-    }
-
-    const supabase = getSupabaseClient();
-    const slug = slugify(trimmedTitle);
-
-    setSubmitting(true);
-    setError("");
-
-    try {
-      const { data, error: insertError } = await supabase
-        .from("clubs")
-        .insert({
-          title: trimmedTitle,
-          title_search: slug,
-          description: description.trim() || null,
-          avatar_url: avatarUrl.trim() || null,
-          banner_url: bannerUrl.trim() || null,
-          created_by: null,
-        })
-        .select(
-          "title, title_search, description, avatar_url, banner_url, created_by, disbanded_at, created_at, updated_at",
-        )
-        .single();
-
-      if (insertError) {
-        throw new Error(insertError.message);
-      }
-
-      if (data) {
-        setClubs((current) => [data as ClubRecord, ...current]);
-      }
-
-      setTitle("");
-      setDescription("");
-      setAvatarUrl("");
-      setBannerUrl("");
-      setShowCreateFlow(false);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to create club.");
-    } finally {
-      setSubmitting(false);
-    }
-  };
-
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -158,18 +94,17 @@ export default function ClubsPage() {
             <div className="text-sm uppercase tracking-[0.28em] text-slate-400">Social</div>
             <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">Clubs</h1>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-400">
-              Browse clubs here. Each club has its own page for forum, threads, chat, and settings.
+              Browse clubs here. Each club has its own page for forum, members, invites, and settings.
             </p>
           </div>
 
-          <button
-            type="button"
-            onClick={() => setShowCreateFlow(true)}
+          <Link
+            href="/social/clubs/create"
             className="inline-flex h-fit items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
           >
             Create New Club
             <ArrowRight className="h-4 w-4" />
-          </button>
+          </Link>
         </header>
 
         <div className="grid gap-6 xl:grid-cols-[1.45fr_0.9fr]">
@@ -199,6 +134,10 @@ export default function ClubsPage() {
                 <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-6 text-sm text-slate-400">
                   Loading clubs...
                 </div>
+              ) : error ? (
+                <div className="rounded-2xl border border-red-500/30 bg-red-500/10 p-6 text-sm text-red-200">
+                  {error}
+                </div>
               ) : filteredClubs.length === 0 ? (
                 <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-6 text-sm text-slate-400">
                   No clubs yet. Create the first club to get started.
@@ -208,7 +147,7 @@ export default function ClubsPage() {
                   {filteredClubs.map((club) => (
                     <Link
                       key={club.title_search}
-                      href={`/clubs/${club.title_search}`}
+                      href={`/social/clubs/${club.title_search}`}
                       className="group block rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 hover:bg-slate-950"
                     >
                       <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
@@ -252,107 +191,25 @@ export default function ClubsPage() {
           </main>
 
           <aside className="space-y-6">
-            {showCreateFlow ? (
-              <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-                <div className="mb-4 flex items-center gap-3">
-                  <Sparkles className="h-5 w-5 text-cyan-400" />
-                  <div>
-                    <h2 className="text-xl font-semibold">Create a new club</h2>
-                    <p className="text-sm text-slate-400">Fill out the club details to continue.</p>
-                  </div>
+            <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+              <div className="mb-4 flex items-center gap-3">
+                <Sparkles className="h-5 w-5 text-cyan-400" />
+                <div>
+                  <h2 className="text-xl font-semibold">Create a new club</h2>
+                  <p className="text-sm text-slate-400">
+                    Titles, descriptions, avatars, and backgrounds are all handled on the creation page.
+                  </p>
                 </div>
+              </div>
 
-                <div className="space-y-4">
-                  <div>
-                    <label className="mb-2 block text-sm text-slate-300">Club title</label>
-                    <input
-                      value={title}
-                      onChange={(e) => setTitle(e.target.value)}
-                      placeholder="Enter club title"
-                      className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="mb-2 block text-sm text-slate-300">Club description</label>
-                    <textarea
-                      value={description}
-                      onChange={(e) => setDescription(e.target.value)}
-                      placeholder="Write a short club description"
-                      rows={4}
-                      className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="mb-2 block text-sm text-slate-300">Avatar URL</label>
-                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                        <ImagePlus className="h-4 w-4 text-cyan-400" />
-                        Club avatar
-                      </div>
-                      <input
-                        value={avatarUrl}
-                        onChange={(e) => setAvatarUrl(e.target.value)}
-                        placeholder="https://..."
-                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="mb-2 block text-sm text-slate-300">Banner URL</label>
-                    <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/50 p-4">
-                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-slate-200">
-                        <Wallpaper className="h-4 w-4 text-cyan-400" />
-                        Club banner
-                      </div>
-                      <input
-                        value={bannerUrl}
-                        onChange={(e) => setBannerUrl(e.target.value)}
-                        placeholder="https://..."
-                        className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm outline-none placeholder:text-slate-500 focus:border-cyan-500"
-                      />
-                    </div>
-                  </div>
-
-                  {error ? (
-                    <div className="rounded-2xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
-                      {error}
-                    </div>
-                  ) : null}
-
-                  <button
-                    type="button"
-                    onClick={handleCreateClub}
-                    disabled={submitting}
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
-                  >
-                    {submitting ? "Creating..." : "Create Club"}
-                    <ArrowRight className="h-4 w-4" />
-                  </button>
-                </div>
-              </section>
-            ) : (
-              <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-                <div className="mb-4 flex items-center gap-3">
-                  <Sparkles className="h-5 w-5 text-cyan-400" />
-                  <div>
-                    <h2 className="text-xl font-semibold">Create a new club</h2>
-                    <p className="text-sm text-slate-400">Start the club creation flow from here.</p>
-                  </div>
-                </div>
-
-                <button
-                  type="button"
-                  onClick={() => setShowCreateFlow(true)}
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
-                >
-                  Create New Club
-                  <ArrowRight className="h-4 w-4" />
-                </button>
-              </section>
-            )}
+              <Link
+                href="/social/clubs/create"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+              >
+                Open create flow
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </section>
           </aside>
         </div>
       </div>
