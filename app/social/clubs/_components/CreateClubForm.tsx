@@ -118,24 +118,6 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         throw new Error(insertError.message);
       }
 
-      if (!club?.id) {
-        throw new Error("Club was created, but the club id is missing.");
-      }
-
-      const { error: membershipError } = await supabase
-        .from("club_members")
-        .insert({
-          club_id: club.id,
-          user_id: user.id,
-          rank: "leader",
-          muted: false,
-        });
-
-      if (membershipError) {
-        await supabase.from("clubs").delete().eq("id", club.id);
-        throw new Error(membershipError.message);
-      }
-
       const routeSlug = club.title_search ?? slugify(trimmedTitle);
 
       await onCreated?.(routeSlug);

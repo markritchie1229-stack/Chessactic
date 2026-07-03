@@ -1,0 +1,128 @@
+app/social/clubs/_lib/queries.ts:3:  ClubMemberRecord,
+app/social/clubs/_lib/queries.ts:67:export async function getClubMembers(
+app/social/clubs/_lib/queries.ts:69:): Promise<ClubMemberRecord[]> {
+app/social/clubs/_lib/queries.ts:78:  return (data ?? []) as ClubMemberRecord[];
+app/social/clubs/_lib/permissions.ts:1:import type { ClubMemberRecord, ClubRank } from "./types";
+app/social/clubs/_lib/permissions.ts:4:export function isLeader(rank: ClubRank) {
+app/social/clubs/_lib/permissions.ts:8:export function isCoLeader(rank: ClubRank) {
+app/social/clubs/_lib/permissions.ts:26:export function canCreateThread(member: ClubMemberRecord) {
+app/social/clubs/_lib/permissions.ts:30:export function canComment(member: ClubMemberRecord) {
+app/social/clubs/_lib/permissions.ts:90:export function canTransferLeadership(rank: ClubRank) {
+app/social/clubs/_lib/types.ts:22:export type ClubMemberRecord = {
+app/social/clubs/_lib/types.ts:55:export type RankedMember = {
+app/social/clubs/_lib/types.ts:56:  member: ClubMemberRecord;
+app/social/clubs/_lib/types.ts:62:  members: RankedMember[];
+app/social/clubs/_lib/actions.ts:2:import type { ClubMemberRecord, ClubRank } from "./types";
+app/social/clubs/_lib/actions.ts:10:  canTransferLeadership,
+app/social/clubs/_lib/actions.ts:18:async function getMyMembership(clubId: string) {
+app/social/clubs/_lib/actions.ts:36:  return (data as ClubMemberRecord | null) ?? null;
+app/social/clubs/_lib/actions.ts:40:  const membership = await getMyMembership(clubId);
+app/social/clubs/_lib/actions.ts:44:export async function promoteMember(
+app/social/clubs/_lib/actions.ts:47:  member: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:65:export async function demoteMember(
+app/social/clubs/_lib/actions.ts:68:  member: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:86:export async function kickMember(
+app/social/clubs/_lib/actions.ts:89:  member: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:106:export async function muteMember(
+app/social/clubs/_lib/actions.ts:109:  member: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:126:export async function unmuteMember(
+app/social/clubs/_lib/actions.ts:129:  member: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:146:export async function transferLeadership(
+app/social/clubs/_lib/actions.ts:149:  currentLeader: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:150:  newLeader: ClubMemberRecord,
+app/social/clubs/_lib/actions.ts:152:  if (!canTransferLeadership(actorRank)) {
+app/social/clubs/_lib/actions.ts:153:    throw new Error("Only the current Leader can transfer leadership.");
+app/social/clubs/_lib/actions.ts:159:    .eq("id", currentLeader.id)
+app/social/clubs/_lib/actions.ts:169:    .eq("id", newLeader.id)
+app/social/clubs/_lib/actions.ts:179:    throw new Error("Only the Leader can disband the club.");
+app/social/clubs/_components/ClubChat.tsx:44:        Members can post messages here in real time.
+app/social/clubs/_components/ClubChat.tsx:85:                  {comment.author_id ?? "Member"}
+app/social/clubs/_components/MemberTable.tsx:7:  ClubMemberRecord,
+app/social/clubs/_components/MemberTable.tsx:24:type MemberTableProps = {
+app/social/clubs/_components/MemberTable.tsx:25:  members: ClubMemberRecord[];
+app/social/clubs/_components/MemberTable.tsx:28:  onPromote?: (member: ClubMemberRecord, nextRank: ClubRank) => Promise<void> | void;
+app/social/clubs/_components/MemberTable.tsx:29:  onDemote?: (member: ClubMemberRecord, nextRank: ClubRank) => Promise<void> | void;
+app/social/clubs/_components/MemberTable.tsx:30:  onKick?: (member: ClubMemberRecord) => Promise<void> | void;
+app/social/clubs/_components/MemberTable.tsx:31:  onMute?: (member: ClubMemberRecord) => Promise<void> | void;
+app/social/clubs/_components/MemberTable.tsx:32:  onUnmute?: (member: ClubMemberRecord) => Promise<void> | void;
+app/social/clubs/_components/MemberTable.tsx:54:export function MemberTable({
+app/social/clubs/_components/MemberTable.tsx:63:}: MemberTableProps) {
+app/social/clubs/_components/MemberTable.tsx:64:  const sortedMembers = useMemo(() => {
+app/social/clubs/_components/MemberTable.tsx:78:          <h2 className="text-xl font-semibold">Member roster</h2>
+app/social/clubs/_components/MemberTable.tsx:102:            {sortedMembers.length === 0 ? (
+app/social/clubs/_components/MemberTable.tsx:109:              sortedMembers.map((member) => {
+app/social/clubs/_components/MemberTable.tsx:118:                const canActOnThisMember =
+app/social/clubs/_components/MemberTable.tsx:227:                        {!canActOnThisMember ? (
+app/social/clubs/_components/ClubQuickLinks.tsx:33:          Members
+app/social/clubs/_components/RankedProfiles.tsx:24:          Coordinator and above are displayed below.
+app/social/clubs/[slug]/settings/page.tsx:36:          Only the Leader and Co-Leader can access club settings.
+app/social/clubs/[slug]/settings/page.tsx:52:              Leader and Co-Leader controls live here.
+app/social/clubs/[slug]/settings/page.tsx:63:            {canDisband ? "Leader only. Remove the club entirely." : "Unavailable."}
+app/social/clubs/[slug]/settings/page.tsx:71:            Promote another member to Leader and step down.
+app/social/clubs/[slug]/settings/page.tsx:103:            Only one Leader exists at a time. Co-Leader is the next highest role.
+app/social/clubs/[slug]/forum/page.tsx:24:  ClubMemberRecord,
+app/social/clubs/[slug]/forum/page.tsx:58:  const [currentMember, setCurrentMember] = useState<ClubMemberRecord | null>(null);
+app/social/clubs/[slug]/forum/page.tsx:82:        setCurrentMember(null);
+app/social/clubs/[slug]/forum/page.tsx:109:        setCurrentMember((membership as ClubMemberRecord | null) ?? null);
+app/social/clubs/[slug]/forum/page.tsx:111:        setCurrentMember(null);
+app/social/clubs/[slug]/forum/page.tsx:129:  const canPost = currentMember ? canCreateThread(currentMember) : false;
+app/social/clubs/[slug]/forum/page.tsx:357:              Leaders, Co-Leaders, Senior Admins, and Admins can moderate threads.
+app/social/clubs/[slug]/invite/page.tsx:8:import { getClubBySlug, getClubMembers } from "../../_lib/queries";
+app/social/clubs/[slug]/invite/page.tsx:11:  ClubMemberRecord,
+app/social/clubs/[slug]/invite/page.tsx:31:  const [members, setMembers] = useState<ClubMemberRecord[]>([]);
+app/social/clubs/[slug]/invite/page.tsx:55:            setMembers([]);
+app/social/clubs/[slug]/invite/page.tsx:61:        const memberData = await getClubMembers(clubData.id);
+app/social/clubs/[slug]/invite/page.tsx:64:        const myMembership = userId
+app/social/clubs/[slug]/invite/page.tsx:70:          setMembers(memberData);
+app/social/clubs/[slug]/invite/page.tsx:72:            (myMembership?.rank as ClubRank | undefined) ?? "member",
+app/social/clubs/[slug]/invite/page.tsx:206:          Leaders, Co-Leaders, Senior Admins, Admins, and Coordinators can send invites.
+app/social/clubs/[slug]/members/page.tsx:7:import { MemberTable } from "../../_components/MemberTable";
+app/social/clubs/[slug]/members/page.tsx:9:  demoteMember,
+app/social/clubs/[slug]/members/page.tsx:11:  kickMember,
+app/social/clubs/[slug]/members/page.tsx:12:  muteMember,
+app/social/clubs/[slug]/members/page.tsx:13:  promoteMember,
+app/social/clubs/[slug]/members/page.tsx:14:  unmuteMember,
+app/social/clubs/[slug]/members/page.tsx:16:import { getClubBySlug, getClubMembers, getProfiles } from "../../_lib/queries";
+app/social/clubs/[slug]/members/page.tsx:18:  ClubMemberRecord,
+app/social/clubs/[slug]/members/page.tsx:33:export default function ClubMembersPage() {
+app/social/clubs/[slug]/members/page.tsx:38:  const [members, setMembers] = useState<ClubMemberRecord[]>([]);
+app/social/clubs/[slug]/members/page.tsx:57:        setMembers([]);
+app/social/clubs/[slug]/members/page.tsx:64:        getClubMembers(clubData.id),
+app/social/clubs/[slug]/members/page.tsx:73:      setMembers(memberData);
+app/social/clubs/[slug]/members/page.tsx:92:  const handlePromote = async (member: ClubMemberRecord, nextRank: ClubRank) => {
+app/social/clubs/[slug]/members/page.tsx:99:      await promoteMember(club.id, currentUserRank, member, nextRank);
+app/social/clubs/[slug]/members/page.tsx:108:  const handleDemote = async (member: ClubMemberRecord, nextRank: ClubRank) => {
+app/social/clubs/[slug]/members/page.tsx:115:      await demoteMember(club.id, currentUserRank, member, nextRank);
+app/social/clubs/[slug]/members/page.tsx:124:  const handleKick = async (member: ClubMemberRecord) => {
+app/social/clubs/[slug]/members/page.tsx:131:      await kickMember(club.id, currentUserRank, member);
+app/social/clubs/[slug]/members/page.tsx:140:  const handleMute = async (member: ClubMemberRecord) => {
+app/social/clubs/[slug]/members/page.tsx:147:      await muteMember(club.id, currentUserRank, member);
+app/social/clubs/[slug]/members/page.tsx:156:  const handleUnmute = async (member: ClubMemberRecord) => {
+app/social/clubs/[slug]/members/page.tsx:163:      await unmuteMember(club.id, currentUserRank, member);
+app/social/clubs/[slug]/members/page.tsx:172:  const filteredMembers = useMemo(() => {
+app/social/clubs/[slug]/members/page.tsx:207:            <h2 className="text-xl font-semibold">Member roster</h2>
+app/social/clubs/[slug]/members/page.tsx:214:            {filteredMembers.length} members
+app/social/clubs/[slug]/members/page.tsx:237:          <MemberTable
+app/social/clubs/[slug]/members/page.tsx:238:            members={filteredMembers}
+app/social/clubs/[slug]/members/page.tsx:263:            "Leader: full control, disband, transfer leadership, moderation, and role changes.",
+app/social/clubs/[slug]/members/page.tsx:264:            "Co-Leader: manage most settings, moderate lower ranks, and handle rank changes up to Senior Admin.",
+app/social/clubs/[slug]/members/page.tsx:265:            "Senior Admin: moderate and manage up to Admin, including kicks and mutes below their rank.",
+app/social/clubs/[slug]/members/page.tsx:266:            "Admin: delete threads/comments and mute lower ranks.",
+app/social/clubs/[slug]/members/page.tsx:267:            "Coordinator and Member: invite and posting abilities as specified later.",
+app/social/clubs/[slug]/page.tsx:9:  getClubMembers,
+app/social/clubs/[slug]/page.tsx:26:function groupMembersByRank(
+app/social/clubs/[slug]/page.tsx:27:  members: Awaited<ReturnType<typeof getClubMembers>>,
+app/social/clubs/[slug]/page.tsx:66:    getClubMembers(club.id),
+app/social/clubs/[slug]/page.tsx:75:  const rankedGroups = groupMembersByRank(
+app/social/clubs/[slug]/page.tsx:106:              Leader: full control over club settings,
+app/social/clubs/[slug]/page.tsx:112:              Co-Leader, Senior Admin, Admin,
+app/social/clubs/[slug]/page.tsx:113:              Coordinator, and Member permissions are
+app/social/layout.tsx:33:    label: "Members",
+app/social/members/page.tsx:7:type MemberProfile = {
+app/social/members/page.tsx:34:export default function SocialMembersPage() {
+app/social/members/page.tsx:36:  const [results, setResults] = useState<MemberProfile[]>([]);
+app/social/members/page.tsx:57:        setResults((data as MemberProfile[] | null) ?? []);
+app/social/members/page.tsx:72:        <h1 className="mt-2 text-3xl font-semibold">Members</h1>
+app/social/members/page.tsx:106:                          alt={member.username ?? "Member avatar"}
+app/social/members/page.tsx:119:                        {member.last_seen ? `Last seen ${formatDate(member.last_seen)}` : "Member"}
+app/components/SocialRail.tsx:21:  { href: "/social/members", label: "Members", icon: Search },
