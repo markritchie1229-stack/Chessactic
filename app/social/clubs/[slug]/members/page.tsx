@@ -37,7 +37,7 @@ export default function ClubMembersPage() {
   const [club, setClub] = useState<ClubRecord | null>(null);
   const [members, setMembers] = useState<ClubMemberRecord[]>([]);
   const [profiles, setProfiles] = useState<Map<string, ProfileRecord>>(new Map());
-  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("member");
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -56,7 +56,7 @@ export default function ClubMembersPage() {
         setClub(null);
         setMembers([]);
         setProfiles(new Map());
-        setCurrentUserRank("Member");
+        setCurrentUserRank("member");
         return;
       }
 
@@ -72,7 +72,7 @@ export default function ClubMembersPage() {
       setClub(clubData);
       setMembers(memberData);
       setProfiles(memberProfiles);
-      setCurrentUserRank(myRank ?? "Member");
+      setCurrentUserRank(myRank ?? "member");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to load members.");
     } finally {

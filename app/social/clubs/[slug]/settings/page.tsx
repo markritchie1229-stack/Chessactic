@@ -25,7 +25,7 @@ export default async function ClubSettingsPage({ params }: PageProps) {
     notFound();
   }
 
-  const currentRank = (await getMyClubRank(club.id)) ?? "Member";
+  const currentRank = (await getMyClubRank(club.id)) ?? "member";
   const canAccessSettings = canOpenSettings(currentRank);
 
   if (!canAccessSettings) {

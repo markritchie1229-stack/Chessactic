@@ -29,7 +29,7 @@ export default function ClubInvitePage() {
 
   const [club, setClub] = useState<ClubRecord | null>(null);
   const [members, setMembers] = useState<ClubMemberRecord[]>([]);
-  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("Member");
+  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("member");
   const [results, setResults] = useState<ProfileRecord[]>([]);
   const [loadingClub, setLoadingClub] = useState(true);
   const [loadingResults, setLoadingResults] = useState(false);
@@ -53,7 +53,7 @@ export default function ClubInvitePage() {
           if (mounted) {
             setClub(null);
             setMembers([]);
-            setCurrentUserRank("Member");
+            setCurrentUserRank("member");
           }
           return;
         }
@@ -69,7 +69,7 @@ export default function ClubInvitePage() {
           setClub(clubData);
           setMembers(memberData);
           setCurrentUserRank(
-            (myMembership?.rank as ClubRank | undefined) ?? "Member",
+            (myMembership?.rank as ClubRank | undefined) ?? "member",
           );
         }
       } catch (err) {
