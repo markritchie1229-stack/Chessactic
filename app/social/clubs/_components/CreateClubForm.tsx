@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ArrowRight, ImagePlus, Sparkles, Wallpaper } from "lucide-react";
-
 import { supabase } from "../_lib/supabase";
 
 const STORAGE_BUCKET = "club-media";
@@ -102,7 +101,7 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
         bannerUrl = await uploadClubImage(bannerFile, slug, "banner");
       }
 
-      const { data, error: insertError } = await supabase
+      const { data: club, error: insertError } = await supabase
         .from("clubs")
         .insert({
           title: trimmedTitle,
@@ -112,19 +111,33 @@ export function CreateClubForm({ onCreated }: CreateClubFormProps) {
           banner_url: bannerUrl,
           created_by: user.id,
         })
-        .select("title_search")
+        .select("id, title_search")
         .single();
 
       if (insertError) {
         throw new Error(insertError.message);
       }
 
-      if (!data?.title_search) {
+      if (!club?.id || !club.title_search) {
         throw new Error("Club was created, but the route slug is missing.");
       }
 
-      await onCreated?.(data.title_search);
-      router.push(`/social/clubs/${data.title_search}`);
+      const { error: membershipError } = await supabase
+        .from("club_members")
+        .insert({
+          club_id: club.id,
+          user_id: user.id,
+          rank: "Leader",
+          muted: false,
+        });
+
+      if (membershipError) {
+        await supabase.from("clubs").delete().eq("id", club.id);
+        throw new Error(membershipError.message);
+      }
+
+      await onCreated?.(club.title_search);
+      router.push(`/social/clubs/${club.title_search}`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to create club.");
     } finally {
