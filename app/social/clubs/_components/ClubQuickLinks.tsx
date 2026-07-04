@@ -1,35 +1,56 @@
 import Link from "next/link";
 import {
-  BadgeInfo,
-  Settings2,
-  UserPlus,
+  Home,
   Users,
+  UserPlus,
+  MessageSquare,
+  Settings,
 } from "lucide-react";
+
+type ActiveSection =
+  | "club"
+  | "members"
+  | "invite"
+  | "forum"
+  | "settings";
 
 type Props = {
   base: string;
-  active: "club" | "members" | "invite" | "forum" | "settings";
+  active: ActiveSection;
 };
 
 function buttonClass(selected: boolean) {
   return selected
-    ? "inline-flex items-center justify-center gap-2 rounded-xl border border-cyan-500 bg-cyan-500 px-3 py-2 text-sm font-medium text-slate-950"
-    : "inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-900 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-500/60 hover:bg-slate-800";
+    ? "flex items-center gap-3 rounded-2xl border border-cyan-500 bg-cyan-500 px-4 py-3 font-medium text-slate-950 transition"
+    : "flex items-center gap-3 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-slate-200 transition hover:border-cyan-500 hover:bg-slate-800";
 }
 
-export function ClubQuickLinks({ base, active }: Props) {
+export function ClubQuickLinks({
+  base,
+  active,
+}: Props) {
   return (
-    <div className="rounded-2xl border border-slate-800 bg-slate-950/85 p-3 shadow-lg shadow-black/20">
-      <div className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-        Quick links
+    <section className="rounded-3xl border border-slate-800 bg-slate-900 p-4 shadow-2xl shadow-black/20">
+
+      <div className="mb-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
+        Navigation
       </div>
 
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-2">
+      <nav className="space-y-2">
+
+        <Link
+          href={base}
+          className={buttonClass(active === "club")}
+        >
+          <Home className="h-5 w-5" />
+          Overview
+        </Link>
+
         <Link
           href={`${base}/members`}
           className={buttonClass(active === "members")}
         >
-          <Users className="h-4 w-4" />
+          <Users className="h-5 w-5" />
           Members
         </Link>
 
@@ -37,7 +58,7 @@ export function ClubQuickLinks({ base, active }: Props) {
           href={`${base}/invite`}
           className={buttonClass(active === "invite")}
         >
-          <UserPlus className="h-4 w-4" />
+          <UserPlus className="h-5 w-5" />
           Invite
         </Link>
 
@@ -45,7 +66,7 @@ export function ClubQuickLinks({ base, active }: Props) {
           href={`${base}/forum`}
           className={buttonClass(active === "forum")}
         >
-          <BadgeInfo className="h-4 w-4" />
+          <MessageSquare className="h-5 w-5" />
           Forum
         </Link>
 
@@ -53,10 +74,12 @@ export function ClubQuickLinks({ base, active }: Props) {
           href={`${base}/settings`}
           className={buttonClass(active === "settings")}
         >
-          <Settings2 className="h-4 w-4" />
+          <Settings className="h-5 w-5" />
           Settings
         </Link>
-      </div>
-    </div>
+
+      </nav>
+
+    </section>
   );
 }

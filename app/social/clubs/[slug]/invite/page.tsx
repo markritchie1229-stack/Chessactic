@@ -2,16 +2,16 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
+import { Loader2, UserPlus } from "lucide-react";
 
-import { InviteForm } from "../../_components/InviteForm";
+import { supabase } from "@/lib/supabase";
 import { canInvite } from "../../_lib/permissions";
-import { getClubBySlug, getClubMembers } from "../../_lib/queries";
-import { supabase } from "../../_lib/supabase";
+import { useCurrentClubMember } from "../../_lib/useCurrentClubMember";
 import type {
-  ClubMemberRecord,
-  ClubRecord,
+  Club,
+  ClubMember,
   ClubRank,
-  ProfileRecord,
+  Profile,
 } from "../../_lib/types";
 
 type ParamsShape = {
@@ -27,10 +27,10 @@ export default function ClubInvitePage() {
   const params = useParams<ParamsShape>();
   const slug = useMemo(() => getSlugFromParams(params), [params]);
 
-  const [club, setClub] = useState<ClubRecord | null>(null);
-  const [members, setMembers] = useState<ClubMemberRecord[]>([]);
-  const [currentUserRank, setCurrentUserRank] = useState<ClubRank>("member");
-  const [results, setResults] = useState<ProfileRecord[]>([]);
+  const [club, setClub] = useState<Club | null>(null);
+  const [members, setMembers] = useState<ClubMember[]>([]);
+  const [results, setResults] = useState<Profile[]>([]);
+  const [search, setSearch] = useState("");
   const [loadingClub, setLoadingClub] = useState(true);
   const [loadingResults, setLoadingResults] = useState(false);
   const [error, setError] = useState("");
@@ -47,34 +47,44 @@ export default function ClubInvitePage() {
       setStatus("");
 
       try {
-        const clubData = await getClubBySlug(slug);
+        const { data: clubData, error: clubError } = await supabase
+          .from("clubs")
+          .select("*")
+          .eq("title_search", slug)
+          .is("disbanded_at", null)
+          .maybeSingle();
+
+        if (clubError) {
+          throw new Error(clubError.message);
+        }
 
         if (!clubData) {
           if (mounted) {
             setClub(null);
             setMembers([]);
-            setCurrentUserRank("member");
           }
           return;
         }
 
-        const memberData = await getClubMembers(clubData.id);
-        const authUser = await supabase.auth.getUser();
-        const userId = authUser.data.user?.id ?? null;
-        const myMembership = userId
-          ? memberData.find((member) => member.user_id === userId)
-          : undefined;
+        const { data: memberData, error: memberError } = await supabase
+          .from("club_members")
+          .select("*")
+          .eq("club_id", clubData.id)
+          .order("created_at", { ascending: true });
+
+        if (memberError) {
+          throw new Error(memberError.message);
+        }
 
         if (mounted) {
-          setClub(clubData);
-          setMembers(memberData);
-          setCurrentUserRank(
-            (myMembership?.rank as ClubRank | undefined) ?? "member",
-          );
+          setClub(clubData as Club);
+          setMembers((memberData ?? []) as ClubMember[]);
         }
       } catch (err) {
         if (mounted) {
-          setError(err instanceof Error ? err.message : "Failed to load invite page.");
+          setError(
+            err instanceof Error ? err.message : "Failed to load invite page.",
+          );
         }
       } finally {
         if (mounted) {
@@ -90,56 +100,84 @@ export default function ClubInvitePage() {
     };
   }, [slug]);
 
+  const clubMember = useCurrentClubMember(club?.id ?? "");
+
   const invitedUserIds = useMemo(() => {
     return new Set(members.map((member) => member.user_id));
   }, [members]);
 
-  const handleSearch = async (query: string) => {
-    const term = query.trim();
+  const inviteEnabled =
+    !clubMember.loading && !!clubMember.member && canInvite(clubMember.member.rank);
 
-    setError("");
-    setStatus("");
+  useEffect(() => {
+    let mounted = true;
 
-    if (!term) {
-      setResults([]);
-      return;
-    }
+    async function handleSearch() {
+      const term = search.trim();
 
-    setLoadingResults(true);
+      setError("");
+      setStatus("");
 
-    try {
-      const { data, error: searchError } = await supabase
-        .from("profiles")
-        .select("id, username, avatar_url, last_seen, bio")
-        .or(`username.ilike.%${term}%,bio.ilike.%${term}%`)
-        .order("username", { ascending: true })
-        .limit(20);
-
-      if (searchError) {
-        throw new Error(searchError.message);
+      if (!term) {
+        setResults([]);
+        return;
       }
 
-      setResults((data ?? []) as ProfileRecord[]);
-    } catch (err) {
-      setResults([]);
-      setError(err instanceof Error ? err.message : "Failed to search users.");
-    } finally {
-      setLoadingResults(false);
-    }
-  };
+      setLoadingResults(true);
 
-  const handleInvite = async (profile: ProfileRecord) => {
+      try {
+        const { data, error: searchError } = await supabase
+          .from("profiles")
+          .select("id, username, avatar_url, last_seen, bio")
+          .or(`username.ilike.%${term}%,bio.ilike.%${term}%`)
+          .order("username", { ascending: true })
+          .limit(20);
+
+        if (searchError) {
+          throw new Error(searchError.message);
+        }
+
+        if (mounted) {
+          setResults((data ?? []) as Profile[]);
+        }
+      } catch (err) {
+        if (mounted) {
+          setResults([]);
+          setError(
+            err instanceof Error ? err.message : "Failed to search users.",
+          );
+        }
+      } finally {
+        if (mounted) {
+          setLoadingResults(false);
+        }
+      }
+    }
+
+    void handleSearch();
+
+    return () => {
+      mounted = false;
+    };
+  }, [search]);
+
+  async function handleInvite(profile: Profile) {
     if (!club) return;
 
     setError("");
     setStatus("");
 
     try {
-      setStatus(`Invite sent to ${profile.username ?? profile.id}.`);
+      if (invitedUserIds.has(profile.id)) {
+        setStatus(`${profile.username ?? profile.id} is already a member.`);
+        return;
+      }
+
+      setStatus(`Invite ready for ${profile.username ?? profile.id}.`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to send invite.");
     }
-  };
+  }
 
   if (!slug) {
     return (
@@ -168,24 +206,45 @@ export default function ClubInvitePage() {
     );
   }
 
-  const inviteEnabled = canInvite(currentUserRank);
-
   return (
     <div className="grid gap-6">
       <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-        {!inviteEnabled ? (
+        <div className="mb-4 flex items-center gap-3">
+          <UserPlus className="h-5 w-5 text-cyan-400" />
+          <div>
+            <h2 className="text-xl font-semibold">Invite members</h2>
+            <p className="mt-2 text-sm text-slate-400">
+              Leaders, Co-Leaders, Senior Admins, Admins, and Coordinators can
+              send invites.
+            </p>
+          </div>
+        </div>
+
+        {clubMember.loading ? (
+          <div className="mb-4 rounded-2xl border border-slate-700 bg-slate-950/60 p-4 text-sm text-slate-400">
+            Checking your permissions...
+          </div>
+        ) : !clubMember.member ? (
+          <div className="mb-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200">
+            You are not a member of this club.
+          </div>
+        ) : !inviteEnabled ? (
           <div className="mb-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 text-sm text-amber-200">
             You do not have permission to send invites.
           </div>
         ) : null}
 
-        <InviteForm
-          results={results}
-          loading={loadingResults}
-          onSearch={handleSearch}
-          onInvite={handleInvite}
-          canInvite={inviteEnabled}
-        />
+        <label className="grid gap-2">
+          <span className="text-sm font-medium text-slate-100">
+            Search users
+          </span>
+          <input
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            placeholder="Search by username or bio"
+            className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
+          />
+        </label>
 
         {error ? (
           <div className="mt-4 rounded-2xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
@@ -198,13 +257,44 @@ export default function ClubInvitePage() {
             {status}
           </div>
         ) : null}
-      </section>
 
-      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-        <h2 className="text-xl font-semibold">Invite permissions</h2>
-        <p className="mt-3 text-sm leading-6 text-slate-400">
-          Leaders, Co-Leaders, Senior Admins, Admins, and Coordinators can send invites.
-        </p>
+        <div className="mt-6 space-y-3">
+          {loadingResults ? (
+            <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-4 text-sm text-slate-400">
+              <Loader2 className="mr-2 inline h-4 w-4 animate-spin" />
+              Searching users...
+            </div>
+          ) : results.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-4 text-sm text-slate-400">
+              No users found.
+            </div>
+          ) : (
+            results.map((profile) => (
+              <div
+                key={profile.id}
+                className="flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 sm:flex-row sm:items-center sm:justify-between"
+              >
+                <div className="min-w-0">
+                  <div className="font-medium text-slate-100">
+                    {profile.username ?? profile.id}
+                  </div>
+                  <div className="mt-1 text-sm text-slate-400">
+                    {profile.bio?.trim() || "No bio provided."}
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => void handleInvite(profile)}
+                  disabled={!inviteEnabled}
+                  className="inline-flex items-center justify-center rounded-2xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+                >
+                  Invite
+                </button>
+              </div>
+            ))
+          )}
+        </div>
       </section>
     </div>
   );

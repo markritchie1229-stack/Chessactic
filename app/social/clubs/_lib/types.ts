@@ -1,12 +1,21 @@
 export type ClubRank =
   | "leader"
-  | "co-leader"
-  | "senior admin"
+  | "co_leader"
+  | "senior_admin"
   | "admin"
   | "coordinator"
   | "member";
 
-export type ClubRecord = {
+export const CLUB_RANKS: ClubRank[] = [
+  "leader",
+  "co_leader",
+  "senior_admin",
+  "admin",
+  "coordinator",
+  "member",
+];
+
+export type Club = {
   id: string;
   title: string;
   title_search: string;
@@ -19,7 +28,7 @@ export type ClubRecord = {
   updated_at: string;
 };
 
-export type ClubMemberRecord = {
+export type ClubMember = {
   id: string;
   club_id: string;
   user_id: string;
@@ -28,33 +37,37 @@ export type ClubMemberRecord = {
   created_at: string | null;
 };
 
-export type ProfileRecord = {
+export type Profile = {
   id: string;
   username: string | null;
   avatar_url: string | null;
-  last_seen?: string | null;
+  email?: string | null;
   bio?: string | null;
+  last_login?: string | null;
+  last_seen?: string | null;
 };
 
-export type ThreadRecord = {
+export type ClubThread = {
   id: string;
   club_id: string;
   author_id: string | null;
   title: string;
+  body: string;
   created_at: string | null;
 };
 
-export type CommentRecord = {
+export type ClubComment = {
   id: string;
   club_id: string;
+  thread_id: string | null;
   author_id: string | null;
   body: string;
   created_at: string | null;
 };
 
 export type RankedMember = {
-  member: ClubMemberRecord;
-  profile: ProfileRecord | undefined;
+  member: ClubMember;
+  profile?: Profile;
 };
 
 export type RankedGroup = {
@@ -65,3 +78,10 @@ export type RankedGroup = {
 export type ClubPageParams = Promise<{
   slug: string;
 }>;
+
+/* Backwards-compatible aliases for older files */
+export type ClubRecord = Club;
+export type ClubMemberRecord = ClubMember;
+export type ProfileRecord = Profile;
+export type ThreadRecord = ClubThread;
+export type CommentRecord = ClubComment;

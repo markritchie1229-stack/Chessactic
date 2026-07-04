@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 
 import { ClubLayout } from "../_components/ClubLayout";
-import { getClubBySlug } from "../_lib/queries";
+import { getClubBySlug } from "../_lib/server-queries";
 import type { ClubPageParams } from "../_lib/types";
 
 type LayoutProps = {
@@ -25,7 +25,7 @@ export default async function ClubPageLayout({
   return (
     <ClubLayout
       club={club}
-      activeSection="club"
+      active="club"
     >
       {children}
     </ClubLayout>

@@ -2,8 +2,8 @@ import type { ClubRank } from "./types";
 
 export const RANK_ORDER: ClubRank[] = [
   "leader",
-  "co-leader",
-  "senior admin",
+  "co_leader",
+  "senior_admin",
   "admin",
   "coordinator",
   "member",
@@ -13,38 +13,80 @@ export function getRankIndex(rank: ClubRank): number {
   return RANK_ORDER.indexOf(rank);
 }
 
-export function isHigherRank(a: ClubRank, b: ClubRank): boolean {
-  return getRankIndex(a) < getRankIndex(b);
+export function isHigherRank(
+  actor: ClubRank,
+  target: ClubRank,
+): boolean {
+  return getRankIndex(actor) < getRankIndex(target);
 }
 
-export function isHigherOrEqualRank(a: ClubRank, b: ClubRank): boolean {
-  return getRankIndex(a) <= getRankIndex(b);
+export function isHigherOrEqualRank(
+  actor: ClubRank,
+  target: ClubRank,
+): boolean {
+  return getRankIndex(actor) <= getRankIndex(target);
 }
 
-export function isLowerRank(a: ClubRank, b: ClubRank): boolean {
-  return getRankIndex(a) > getRankIndex(b);
+export function isLowerRank(
+  actor: ClubRank,
+  target: ClubRank,
+): boolean {
+  return getRankIndex(actor) > getRankIndex(target);
 }
 
-export function isLowerOrEqualRank(a: ClubRank, b: ClubRank): boolean {
-  return getRankIndex(a) >= getRankIndex(b);
-}
-
-export function canPromoteTo(target: ClubRank): boolean {
-  return target !== "leader";
-}
-
-export function getNextHigherRank(rank: ClubRank): ClubRank | null {
+export function getNextHigherRank(
+  rank: ClubRank,
+): ClubRank | null {
   const index = getRankIndex(rank);
-  if (index <= 0) return null;
+
+  if (index <= 0) {
+    return null;
+  }
+
   return RANK_ORDER[index - 1];
 }
 
-export function getNextLowerRank(rank: ClubRank): ClubRank | null {
+export function getNextLowerRank(
+  rank: ClubRank,
+): ClubRank | null {
   const index = getRankIndex(rank);
-  if (index < 0 || index >= RANK_ORDER.length - 1) return null;
+
+  if (index === -1 || index >= RANK_ORDER.length - 1) {
+    return null;
+  }
+
   return RANK_ORDER[index + 1];
 }
 
-export function formatRankLabel(rank: ClubRank): string {
-  return rank.toUpperCase();
+export function isLeader(rank: ClubRank) {
+  return rank === "leader";
+}
+
+export function isCoLeader(rank: ClubRank) {
+  return rank === "co_leader";
+}
+
+export function formatRank(rank: ClubRank): string {
+  switch (rank) {
+    case "leader":
+      return "Leader";
+
+    case "co_leader":
+      return "Co-Leader";
+
+    case "senior_admin":
+      return "Senior Admin";
+
+    case "admin":
+      return "Admin";
+
+    case "coordinator":
+      return "Coordinator";
+
+    case "member":
+      return "Member";
+
+    default:
+      return rank;
+  }
 }
