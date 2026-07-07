@@ -45,28 +45,16 @@ export function RecentThreads({ threads, base }: Props) {
           </div>
         ) : (
           threads.map((thread) => (
-            <article
+            <Link
               key={thread.id}
-              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+              href={`${base}/forum/${encodeURIComponent(thread.id)}`}
+              className="block rounded-2xl border border-slate-800 bg-slate-950/60 px-4 py-4 text-left text-lg font-medium text-slate-100 transition hover:border-cyan-500 hover:bg-slate-900"
             >
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="font-medium text-slate-100">
-                    {thread.title}
-                  </h3>
-                  <p className="mt-1 text-xs text-slate-500">
-                    {formatDate(thread.created_at)}
-                  </p>
-                </div>
-
-                <Link
-                  href={`${base}/forum`}
-                  className="text-sm text-cyan-300 transition hover:text-cyan-200"
-                >
-                  Open
-                </Link>
+              <div>{thread.title}</div>
+              <div className="mt-1 text-xs text-slate-500">
+                {formatDate(thread.created_at)}
               </div>
-            </article>
+            </Link>
           ))
         )}
       </div>

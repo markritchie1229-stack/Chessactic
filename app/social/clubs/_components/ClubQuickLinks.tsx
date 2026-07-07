@@ -7,16 +7,14 @@ import {
   Settings,
 } from "lucide-react";
 
-type ActiveSection =
-  | "club"
-  | "members"
-  | "invite"
-  | "forum"
-  | "settings";
+import { LeaveClubButton } from "./LeaveClubButton";
+
+type ActiveSection = "club" | "members" | "invite" | "forum" | "settings";
 
 type Props = {
   base: string;
   active: ActiveSection;
+  clubId: string;
 };
 
 function buttonClass(selected: boolean) {
@@ -25,23 +23,15 @@ function buttonClass(selected: boolean) {
     : "flex items-center gap-3 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-slate-200 transition hover:border-cyan-500 hover:bg-slate-800";
 }
 
-export function ClubQuickLinks({
-  base,
-  active,
-}: Props) {
+export function ClubQuickLinks({ base, active, clubId }: Props) {
   return (
     <section className="rounded-3xl border border-slate-800 bg-slate-900 p-4 shadow-2xl shadow-black/20">
-
       <div className="mb-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
         Navigation
       </div>
 
       <nav className="space-y-2">
-
-        <Link
-          href={base}
-          className={buttonClass(active === "club")}
-        >
+        <Link href={base} className={buttonClass(active === "club")}>
           <Home className="h-5 w-5" />
           Overview
         </Link>
@@ -78,8 +68,8 @@ export function ClubQuickLinks({
           Settings
         </Link>
 
+        <LeaveClubButton clubId={clubId} />
       </nav>
-
     </section>
   );
 }

@@ -1,22 +1,11 @@
 "use client";
 
-import { useMemo, useState, useTransition, type FormEvent } from "react";
+import { useEffect, useState, useTransition, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { Loader2, Settings2 } from "lucide-react";
+import { Loader2, Plus } from "lucide-react";
 
 import { supabase } from "@/lib/supabase";
-import { updateClubAppearance } from "../../../_lib/server-actions";
-import type { Club, ClubRank } from "../../../_lib/types";
-
-type Props = {
-  club: Club;
-  actorRank: ClubRank;
-};
-
-function normalizeUrl(value: string) {
-  const trimmed = value.trim();
-  return trimmed.length > 0 ? trimmed : "";
-}
+import { createClub } from "../_lib/server-actions";
 
 async function uploadClubMediaFile(
   clubId: string,
@@ -39,99 +28,70 @@ async function uploadClubMediaFile(
   return data.publicUrl;
 }
 
-export function ClubAppearance({ club, actorRank }: Props) {
+export function CreateClubForm() {
   const router = useRouter();
-  const [title, setTitle] = useState(club.title);
-  const [description, setDescription] = useState(club.description ?? "");
+
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
   const [avatarFile, setAvatarFile] = useState<File | null>(null);
   const [bannerFile, setBannerFile] = useState<File | null>(null);
-  const [savedAvatarUrl, setSavedAvatarUrl] = useState(club.avatar_url ?? "");
-  const [savedBannerUrl, setSavedBannerUrl] = useState(club.banner_url ?? "");
   const [error, setError] = useState("");
-  const [status, setStatus] = useState("");
   const [isPending, startTransition] = useTransition();
 
-  const dirty = useMemo(() => {
-    return (
-      title.trim() !== club.title ||
-      description.trim() !== (club.description ?? "") ||
-      avatarFile !== null ||
-      bannerFile !== null
-    );
-  }, [title, description, avatarFile, bannerFile, club]);
+  const avatarPreview = avatarFile ? URL.createObjectURL(avatarFile) : null;
+  const bannerPreview = bannerFile ? URL.createObjectURL(bannerFile) : null;
 
-  function handleSave(event: FormEvent<HTMLFormElement>) {
+  useEffect(() => {
+    return () => {
+      if (avatarPreview) URL.revokeObjectURL(avatarPreview);
+      if (bannerPreview) URL.revokeObjectURL(bannerPreview);
+    };
+  }, [avatarPreview, bannerPreview]);
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    if (!dirty || isPending) return;
+    if (!title.trim() || isPending) return;
 
     setError("");
-    setStatus("");
 
     startTransition(async () => {
       try {
-        let nextAvatarUrl = savedAvatarUrl;
-        let nextBannerUrl = savedBannerUrl;
+        const tempClubId = crypto.randomUUID();
+
+        let avatarUrl: string | null = null;
+        let bannerUrl: string | null = null;
 
         if (avatarFile) {
-          nextAvatarUrl = await uploadClubMediaFile(club.id, avatarFile, "avatar");
+          avatarUrl = await uploadClubMediaFile(tempClubId, avatarFile, "avatar");
         }
 
         if (bannerFile) {
-          nextBannerUrl = await uploadClubMediaFile(club.id, bannerFile, "banner");
+          bannerUrl = await uploadClubMediaFile(tempClubId, bannerFile, "banner");
         }
 
-        const updatedClub = await updateClubAppearance(club.id, actorRank, {
+        const club = await createClub({
           title: title.trim(),
           description: description.trim(),
-          avatarUrl: normalizeUrl(nextAvatarUrl),
-          bannerUrl: normalizeUrl(nextBannerUrl),
+          avatarUrl,
+          bannerUrl,
         });
 
-        setSavedAvatarUrl(nextAvatarUrl);
-        setSavedBannerUrl(nextBannerUrl);
-        setAvatarFile(null);
-        setBannerFile(null);
-        setStatus("Club appearance updated.");
-
-        if (updatedClub.title_search !== club.title_search) {
-          router.replace(`/social/clubs/${updatedClub.title_search}/settings`);
-        } else {
-          router.refresh();
+        if (!club.title_search) {
+          throw new Error("Club was created, but no slug was returned.");
         }
+
+        router.push(`/social/clubs/${encodeURIComponent(club.title_search)}`);
+router.refresh();
       } catch (err) {
-        setError(
-          err instanceof Error ? err.message : "Failed to update club appearance.",
-        );
+        setError(err instanceof Error ? err.message : "Failed to create club.");
       }
     });
   }
 
   return (
     <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-      <div className="mb-4 flex items-center gap-3">
-        <Settings2 className="h-5 w-5 text-cyan-400" />
-        <div>
-          <h2 className="text-xl font-semibold">Club appearance</h2>
-          <p className="mt-2 text-sm text-slate-400">
-            Update your club title, description, avatar, and banner.
-          </p>
-        </div>
-      </div>
-
-      {status ? (
-        <div className="mb-4 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-200">
-          {status}
-        </div>
-      ) : null}
-
-      {error ? (
-        <div className="mb-4 rounded-2xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
-          {error}
-        </div>
-      ) : null}
-
-      <form onSubmit={handleSave} className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+      <form onSubmit={handleSubmit} className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="grid gap-4">
           <label className="grid gap-2">
             <span className="text-sm font-medium text-slate-100">Club title</span>
@@ -140,6 +100,7 @@ export function ClubAppearance({ club, actorRank }: Props) {
               onChange={(e) => setTitle(e.target.value)}
               className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
               placeholder="Club title"
+              autoComplete="off"
             />
           </label>
 
@@ -164,9 +125,7 @@ export function ClubAppearance({ club, actorRank }: Props) {
                 className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-300 file:mr-4 file:rounded-lg file:border-0 file:bg-slate-800 file:px-3 file:py-2 file:text-sm file:text-slate-100 hover:file:bg-slate-700"
               />
               <span className="text-xs text-slate-400">
-                {avatarFile
-                  ? `Selected: ${avatarFile.name}`
-                  : "Leave blank to keep the current avatar."}
+                {avatarFile ? `Selected: ${avatarFile.name}` : "Optional"}
               </span>
             </label>
 
@@ -179,53 +138,48 @@ export function ClubAppearance({ club, actorRank }: Props) {
                 className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-300 file:mr-4 file:rounded-lg file:border-0 file:bg-slate-800 file:px-3 file:py-2 file:text-sm file:text-slate-100 hover:file:bg-slate-700"
               />
               <span className="text-xs text-slate-400">
-                {bannerFile
-                  ? `Selected: ${bannerFile.name}`
-                  : "Leave blank to keep the current banner."}
+                {bannerFile ? `Selected: ${bannerFile.name}` : "Optional"}
               </span>
             </label>
           </div>
 
-          <div className="flex flex-wrap gap-3">
+          {error ? (
+            <div className="rounded-2xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
+              {error}
+            </div>
+          ) : null}
+
+          <div className="flex items-center gap-3">
             <button
               type="submit"
-              disabled={!dirty || isPending}
-              className="inline-flex items-center gap-2 rounded-2xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+              disabled={isPending || !title.trim()}
+              className="inline-flex items-center gap-2 rounded-2xl bg-cyan-500 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-50"
             >
               {isPending ? (
                 <>
                   <Loader2 className="h-4 w-4 animate-spin" />
-                  Saving...
+                  Creating...
                 </>
               ) : (
-                "Save appearance"
+                <>
+                  <Plus className="h-4 w-4" />
+                  Create Club
+                </>
               )}
             </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                setTitle(club.title);
-                setDescription(club.description ?? "");
-                setAvatarFile(null);
-                setBannerFile(null);
-                setError("");
-                setStatus("");
-              }}
-              disabled={!dirty || isPending}
-              className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-2 text-sm font-medium text-slate-200 transition hover:border-cyan-500 hover:bg-slate-900 disabled:cursor-not-allowed disabled:opacity-60"
-            >
-              Reset
-            </button>
+            <p className="text-sm text-slate-400">
+              Images upload to Supabase Storage before the club is created.
+            </p>
           </div>
         </div>
 
         <div className="overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/70">
           <div className="relative min-h-72 bg-slate-900">
-            {savedBannerUrl ? (
+            {bannerPreview ? (
               <img
-                src={savedBannerUrl}
-                alt={`${club.title} banner`}
+                src={bannerPreview}
+                alt="Banner preview"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             ) : null}
@@ -234,15 +188,15 @@ export function ClubAppearance({ club, actorRank }: Props) {
 
             <div className="absolute bottom-0 left-0 right-0 p-5">
               <div className="flex items-end gap-4 rounded-2xl border border-slate-700 bg-slate-950/75 p-4 backdrop-blur-sm">
-                {savedAvatarUrl ? (
+                {avatarPreview ? (
                   <img
-                    src={savedAvatarUrl}
-                    alt={`${club.title} avatar`}
+                    src={avatarPreview}
+                    alt="Avatar preview"
                     className="h-20 w-20 rounded-2xl border border-slate-700 object-cover"
                   />
                 ) : (
                   <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-dashed border-slate-700 bg-slate-900 text-lg font-semibold text-slate-400">
-                    {club.title.charAt(0).toUpperCase()}
+                    A
                   </div>
                 )}
 
@@ -262,8 +216,7 @@ export function ClubAppearance({ club, actorRank }: Props) {
           </div>
 
           <div className="border-t border-slate-800 p-4 text-sm text-slate-400">
-            Uploaded files go to the <code>club-media</code> bucket, then the saved
-            URLs are written back to the club record.
+            Avatar and banner images upload to the <code>club-media</code> bucket, then the club is created and you are sent to its page.
           </div>
         </div>
       </form>

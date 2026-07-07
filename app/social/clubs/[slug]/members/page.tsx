@@ -1,46 +1,32 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft, Users } from "lucide-react";
 
-import { ClubMembersPanel } from "../../_components/ClubMembersPanel";
+import { MemberActionsMenu } from "./_components/MemberActionsMenu";
+import { formatRank, getRankIndex } from "../../_lib/ranks";
 import {
   getClubBySlug,
   getClubMembers,
   getCurrentMember,
   getProfiles,
 } from "../../_lib/server-queries";
-import { CLUB_RANKS } from "../../_lib/types";
-import type { ClubPageParams, RankedGroup } from "../../_lib/types";
+import type { ClubPageParams } from "../../_lib/types";
 
 type PageProps = {
   params: ClubPageParams;
 };
 
-function groupMembersByRank(
-  members: Awaited<ReturnType<typeof getClubMembers>>,
-  profiles: Awaited<ReturnType<typeof getProfiles>>,
-): RankedGroup[] {
-  const groups = new Map<string, RankedGroup>();
+function toTime(value: string | null | undefined) {
+  return value ? new Date(value).getTime() : 0;
+}
 
-  for (const rank of CLUB_RANKS) {
-    groups.set(rank, {
-      rank,
-      members: [],
-    });
-  }
-
-  for (const member of members) {
-    const group = groups.get(member.rank);
-    if (!group) continue;
-
-    group.members.push({
-      member,
-      profile: profiles.get(member.user_id),
-    });
-  }
-
-  return CLUB_RANKS.flatMap((rank) => {
-    const group = groups.get(rank);
-    return group && group.members.length ? [group] : [];
-  });
+function initials(name: string) {
+  return name
+    .split(" ")
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
 }
 
 export default async function ClubMembersPage({ params }: PageProps) {
@@ -57,40 +43,116 @@ export default async function ClubMembersPage({ params }: PageProps) {
     getCurrentMember(club.id),
   ]);
 
-  const profiles = await getProfiles(members.map((member) => member.user_id));
-  const groups = groupMembersByRank(members, profiles);
-  const base = `/social/clubs/${club.title_search}`;
+  const profiles = await getProfiles(
+    members.map((member) => member.user_id),
+  );
+
+  const sortedMembers = [...members].sort((a, b) => {
+    const rankDelta = getRankIndex(a.rank) - getRankIndex(b.rank);
+
+    if (rankDelta !== 0) {
+      return rankDelta;
+    }
+
+    return toTime(a.created_at) - toTime(b.created_at);
+  });
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-      <ClubMembersPanel
-        groups={groups}
-        base={base}
-      />
+    <div className="grid gap-6">
+      <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-950 px-3 py-1 text-xs text-slate-400">
+              <Users className="h-3.5 w-3.5" />
+              Member Directory
+            </div>
+
+            <h1 className="text-3xl font-semibold">Members</h1>
+
+            <p className="mt-2 text-sm text-slate-400">
+              {members.length} member{members.length === 1 ? "" : "s"} in{" "}
+              <span className="font-medium text-slate-200">
+                {club.title}
+              </span>
+            </p>
+          </div>
+
+          <Link
+            href={`/social/clubs/${club.title_search}`}
+            className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-2 text-sm text-slate-200 transition hover:border-cyan-500 hover:bg-slate-900"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to Club
+          </Link>
+        </div>
+      </section>
 
       <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
-        <h2 className="text-xl font-semibold">Member management</h2>
-        <p className="mt-2 text-sm leading-6 text-slate-400">
-          Use this page to promote, demote, mute, unmute, kick, and transfer leadership.
-        </p>
+        <div className="space-y-3">
+          {sortedMembers.map((member) => {
+            const profile = profiles.get(member.user_id) ?? null;
+            const username = profile?.username ?? member.user_id;
+            const isSelf = currentMember?.id === member.id;
 
-        <div className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-            Leader can manage every role except another leader.
-          </div>
+            return (
+              <div
+                key={member.id}
+                className="flex flex-col gap-4 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 sm:flex-row sm:items-center sm:justify-between"
+              >
+                <div className="flex min-w-0 items-center gap-4">
+                  {profile?.avatar_url ? (
+                    <img
+                      src={profile.avatar_url}
+                      alt={username}
+                      className="h-14 w-14 rounded-2xl border border-slate-700 object-cover"
+                    />
+                  ) : (
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-700 bg-slate-800 text-sm font-bold">
+                      {initials(username)}
+                    </div>
+                  )}
 
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-            Co-Leader can manage staff below leader and handle settings/invites.
-          </div>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <Link
+                        href={
+                          profile?.username
+                            ? `/social/profile/${profile.username.toLowerCase()}`
+                            : "#"
+                        }
+                        className="truncate font-medium text-slate-100 hover:text-cyan-300"
+                      >
+                        {username}
+                      </Link>
 
-          <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-            Current status:{" "}
-            {currentMember ? `you are ${currentMember.rank}.` : "you are not a member."}
-          </div>
-        </div>
+                      {isSelf ? (
+                        <span className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-2 py-0.5 text-[11px] font-medium text-cyan-200">
+                          You
+                        </span>
+                      ) : null}
 
-        <div className="mt-6 rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-4 text-sm text-slate-400">
-          Next we will add the member action controls here.
+                      {member.muted ? (
+                        <span className="rounded-full border border-red-500/30 bg-red-500/10 px-2 py-0.5 text-[11px] font-medium text-red-200">
+                          Muted
+                        </span>
+                      ) : null}
+                    </div>
+
+                    <div className="mt-1 text-sm text-slate-400">
+                      {formatRank(member.rank)}
+                    </div>
+                  </div>
+                </div>
+
+                <MemberActionsMenu
+                  clubId={club.id}
+                  actorRank={currentMember?.rank ?? null}
+                  member={member}
+                  profile={profile}
+                />
+              </div>
+            );
+          })}
         </div>
       </section>
     </div>

@@ -20,7 +20,10 @@ export type ClubAuditAction =
   | "comment_deleted"
   | "invite_sent"
   | "invite_accepted"
-  | "invite_declined";
+  | "invite_declined"
+  | "join_requested"
+  | "join_request_approved"
+  | "join_request_declined";
 
 export type ClubAuditDetails = Record<string, unknown>;
 

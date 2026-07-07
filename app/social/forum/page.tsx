@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
+import { ImagePlus, Loader2, X } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 
 type ForumThread = {
@@ -19,6 +20,7 @@ type ForumPost = {
   thread_id: string;
   author_id: string;
   body: string;
+  image_url: string | null;
   created_at: string;
   updated_at: string | null;
 };
@@ -40,6 +42,24 @@ function formatDate(value: string | null | undefined) {
   }).format(date);
 }
 
+async function uploadForumImage(scope: string, file: File) {
+  const extension = file.name.split(".").pop() || "bin";
+  const path = `forum/${scope}/${crypto.randomUUID()}.${extension}`;
+
+  // Reuse the existing storage bucket already used by club media.
+  const { error } = await supabase.storage.from("club-media").upload(path, file, {
+    upsert: true,
+    contentType: file.type || "application/octet-stream",
+  });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  const { data } = supabase.storage.from("club-media").getPublicUrl(path);
+  return data.publicUrl;
+}
+
 export default function SocialForumPage() {
   const [view, setView] = useState<"list" | "compose" | "thread">("list");
 
@@ -52,7 +72,16 @@ export default function SocialForumPage() {
 
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
+  const [threadImageUrl, setThreadImageUrl] = useState("");
+  const [threadImageName, setThreadImageName] = useState("");
+  const [threadImagePreviewUrl, setThreadImagePreviewUrl] = useState("");
+  const [threadImageUploading, setThreadImageUploading] = useState(false);
+
   const [replyBody, setReplyBody] = useState("");
+  const [replyImageUrl, setReplyImageUrl] = useState("");
+  const [replyImageName, setReplyImageName] = useState("");
+  const [replyImagePreviewUrl, setReplyImagePreviewUrl] = useState("");
+  const [replyImageUploading, setReplyImageUploading] = useState(false);
 
   const [loading, setLoading] = useState(true);
   const [loadingThread, setLoadingThread] = useState(false);
@@ -61,6 +90,9 @@ export default function SocialForumPage() {
   const [message, setMessage] = useState("");
   const [currentUserId, setCurrentUserId] = useState<string | null>(null);
   const [profileNamesById, setProfileNamesById] = useState<Record<string, string>>({});
+
+  const threadFileInputRef = useRef<HTMLInputElement | null>(null);
+  const replyFileInputRef = useRef<HTMLInputElement | null>(null);
 
   const selectedThreadTitle = useMemo(() => {
     return selectedThread?.title ?? "Open a thread";
@@ -126,7 +158,7 @@ export default function SocialForumPage() {
 
     const { data, error, count } = await supabase
       .from("forum_posts")
-      .select("id,thread_id,author_id,body,created_at,updated_at", { count: "exact" })
+      .select("id,thread_id,author_id,body,image_url,created_at,updated_at", { count: "exact" })
       .eq("thread_id", threadId)
       .order("created_at", { ascending: true })
       .range(from, to);
@@ -188,12 +220,76 @@ export default function SocialForumPage() {
     }
   }, [selectedThreadId]);
 
+  useEffect(() => {
+    return () => {
+      if (threadImagePreviewUrl) URL.revokeObjectURL(threadImagePreviewUrl);
+      if (replyImagePreviewUrl) URL.revokeObjectURL(replyImagePreviewUrl);
+    };
+  }, [threadImagePreviewUrl, replyImagePreviewUrl]);
+
+  const clearThreadImage = () => {
+    if (threadImagePreviewUrl) URL.revokeObjectURL(threadImagePreviewUrl);
+    setThreadImageUrl("");
+    setThreadImageName("");
+    setThreadImagePreviewUrl("");
+    if (threadFileInputRef.current) threadFileInputRef.current.value = "";
+  };
+
+  const clearReplyImage = () => {
+    if (replyImagePreviewUrl) URL.revokeObjectURL(replyImagePreviewUrl);
+    setReplyImageUrl("");
+    setReplyImageName("");
+    setReplyImagePreviewUrl("");
+    if (replyFileInputRef.current) replyFileInputRef.current.value = "";
+  };
+
+  const handleThreadImageChange = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    setThreadImageUploading(true);
+    setMessage("");
+
+    try {
+      if (threadImagePreviewUrl) URL.revokeObjectURL(threadImagePreviewUrl);
+      const url = await uploadForumImage("thread-drafts", file);
+      setThreadImageUrl(url);
+      setThreadImageName(file.name);
+      setThreadImagePreviewUrl(URL.createObjectURL(file));
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Failed to upload image.");
+    } finally {
+      setThreadImageUploading(false);
+    }
+  };
+
+  const handleReplyImageChange = async (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    setReplyImageUploading(true);
+    setMessage("");
+
+    try {
+      if (replyImagePreviewUrl) URL.revokeObjectURL(replyImagePreviewUrl);
+      const scope = selectedThreadId ? `reply-${selectedThreadId}` : "reply-drafts";
+      const url = await uploadForumImage(scope, file);
+      setReplyImageUrl(url);
+      setReplyImageName(file.name);
+      setReplyImagePreviewUrl(URL.createObjectURL(file));
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Failed to upload image.");
+    } finally {
+      setReplyImageUploading(false);
+    }
+  };
+
   const createThread = async () => {
     const cleanTitle = title.trim();
     const cleanBody = body.trim();
 
-    if (!cleanTitle || !cleanBody) {
-      setMessage("Title and body are required.");
+    if (!cleanTitle || (!cleanBody && !threadImageUrl)) {
+      setMessage("Title and either body or image are required.");
       return;
     }
 
@@ -227,7 +323,8 @@ export default function SocialForumPage() {
     const { error: postError } = await supabase.from("forum_posts").insert({
       thread_id: threadRow.id,
       author_id: session.user.id,
-      body: cleanBody,
+      body: cleanBody || "",
+      image_url: threadImageUrl || null,
     });
 
     if (postError) {
@@ -238,6 +335,7 @@ export default function SocialForumPage() {
 
     setTitle("");
     setBody("");
+    clearThreadImage();
     await loadThreads();
     setView("thread");
     await loadThreadPage(threadRow.id, 1);
@@ -252,8 +350,8 @@ export default function SocialForumPage() {
     }
 
     const cleanReply = replyBody.trim();
-    if (!cleanReply) {
-      setMessage("Write a reply first.");
+    if (!cleanReply && !replyImageUrl) {
+      setMessage("Write a reply or add an image first.");
       return;
     }
 
@@ -272,7 +370,8 @@ export default function SocialForumPage() {
     const { error } = await supabase.from("forum_posts").insert({
       thread_id: selectedThreadId,
       author_id: session.user.id,
-      body: cleanReply,
+      body: cleanReply || "",
+      image_url: replyImageUrl || null,
     });
 
     if (error) {
@@ -282,6 +381,7 @@ export default function SocialForumPage() {
     }
 
     setReplyBody("");
+    clearReplyImage();
     await refreshSelectedThread();
     setMessage("Reply posted.");
     setReplying(false);
@@ -295,6 +395,17 @@ export default function SocialForumPage() {
 
   const postStart = (threadPage - 1) * POSTS_PER_PAGE + 1;
   const postEnd = Math.min(threadPage * POSTS_PER_PAGE, threadPostCount);
+
+  const renderImageAttachment = (imageUrl: string | null, alt: string) => {
+    if (!imageUrl) return null;
+    return (
+      <img
+        src={imageUrl}
+        alt={alt}
+        className="mt-3 max-h-96 w-full rounded-2xl border border-slate-800 object-cover"
+      />
+    );
+  };
 
   return (
     <div className="space-y-6">
@@ -330,19 +441,70 @@ export default function SocialForumPage() {
               className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
             />
 
-            <textarea
-              value={body}
-              onChange={(e) => setBody(e.target.value)}
-              placeholder="Write the first post..."
-              rows={10}
-              className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
-            />
+            <div className="mt-3 overflow-hidden rounded-2xl border border-slate-700 bg-slate-950">
+              <div className="flex items-center gap-2 border-b border-slate-800 px-3 py-2">
+                <button
+                  type="button"
+                  onClick={() => threadFileInputRef.current?.click()}
+                  disabled={threadImageUploading}
+                  className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-200 transition hover:border-cyan-500 hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+                  title="Add image"
+                >
+                  <ImagePlus className="h-4 w-4" />
+                </button>
+
+                <div className="min-w-0 flex-1 text-xs text-slate-400">
+                  {threadImageUploading
+                    ? "Uploading image..."
+                    : threadImageName
+                      ? `Attached: ${threadImageName}`
+                      : "Add a picture"}
+                </div>
+
+                {threadImageUrl ? (
+                  <button
+                    type="button"
+                    onClick={clearThreadImage}
+                    className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-200"
+                    title="Remove image"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
+                ) : null}
+
+                <input
+                  ref={threadFileInputRef}
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={handleThreadImageChange}
+                />
+              </div>
+
+              {threadImagePreviewUrl ? (
+                <div className="border-b border-slate-800 bg-slate-950/80 p-3">
+                  <img
+                    src={threadImagePreviewUrl}
+                    alt="Selected thread upload"
+                    className="max-h-72 w-full rounded-xl object-cover"
+                  />
+                </div>
+              ) : null}
+
+              <textarea
+                value={body}
+                onChange={(e) => setBody(e.target.value)}
+                placeholder="Write the first post..."
+                rows={10}
+                className="w-full rounded-none border-0 bg-slate-950 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:ring-0"
+              />
+            </div>
 
             <div className="mt-3 flex gap-2">
               <button
                 type="button"
                 onClick={() => void createThread()}
-                disabled={posting}
+                disabled={posting || threadImageUploading}
                 className="rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {posting ? "Posting..." : "Post thread"}
@@ -512,6 +674,9 @@ export default function SocialForumPage() {
                                   </div>
                                   <div className="text-xs text-slate-500">{formatDate(post.created_at)}</div>
                                 </div>
+
+                                {renderImageAttachment(post.image_url, "Post attachment")}
+
                                 <div className="mt-3 whitespace-pre-wrap text-sm leading-6 text-slate-100">
                                   {post.body}
                                 </div>
@@ -541,7 +706,58 @@ export default function SocialForumPage() {
                       </div>
 
                       <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
-                        <div className="text-sm uppercase tracking-wide text-slate-500">Comment</div>
+                        <div className="flex items-center gap-2 border-b border-slate-800 pb-2">
+                          <button
+                            type="button"
+                            onClick={() => replyFileInputRef.current?.click()}
+                            disabled={replyImageUploading}
+                            className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-200 transition hover:border-cyan-500 hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-60"
+                            title="Add image"
+                          >
+                            <ImagePlus className="h-4 w-4" />
+                          </button>
+
+                          <div className="min-w-0 flex-1 text-xs text-slate-400">
+                            {replyImageUploading
+                              ? "Uploading image..."
+                              : replyImageName
+                                ? `Attached: ${replyImageName}`
+                                : "Add a picture"}
+                          </div>
+
+                          {replyImageUrl ? (
+                            <button
+                              type="button"
+                              onClick={clearReplyImage}
+                              className="inline-flex h-8 w-8 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-200"
+                              title="Remove image"
+                            >
+                              <X className="h-4 w-4" />
+                            </button>
+                          ) : null}
+
+                          <input
+                            ref={replyFileInputRef}
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={handleReplyImageChange}
+                          />
+                        </div>
+
+                        {replyImagePreviewUrl ? (
+                          <div className="border-b border-slate-800 bg-slate-950/80 p-3">
+                            <img
+                              src={replyImagePreviewUrl}
+                              alt="Selected reply upload"
+                              className="max-h-72 w-full rounded-xl object-cover"
+                            />
+                          </div>
+                        ) : null}
+
+                        <div className="text-sm uppercase tracking-wide text-slate-500 pt-3">
+                          Comment
+                        </div>
                         <textarea
                           value={replyBody}
                           onChange={(e) => setReplyBody(e.target.value)}
@@ -552,7 +768,7 @@ export default function SocialForumPage() {
                         <button
                           type="button"
                           onClick={() => void replyToThread()}
-                          disabled={replying}
+                          disabled={replying || replyImageUploading}
                           className="mt-3 w-full rounded-2xl bg-slate-100 px-4 py-3 font-medium text-slate-950 transition hover:bg-white disabled:cursor-not-allowed disabled:opacity-60"
                         >
                           {replying ? "Posting..." : "Post comment"}

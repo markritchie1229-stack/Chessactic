@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import Link from "next/link";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { Loader2, Send } from "lucide-react";
 
 import { supabase } from "@/lib/supabase";
@@ -10,6 +11,12 @@ import type { ClubComment } from "../_lib/types";
 type Props = {
   clubId: string;
   comments: ClubComment[];
+};
+
+type ProfileRow = {
+  id: string;
+  username: string | null;
+  avatar_url: string | null;
 };
 
 function formatDate(value: string | null | undefined) {
@@ -33,9 +40,59 @@ export function ClubChat({ clubId, comments }: Props) {
   const [body, setBody] = useState("");
   const [localError, setLocalError] = useState("");
   const [isPending, startTransition] = useTransition();
+  const [profilesById, setProfilesById] = useState<Record<string, ProfileRow>>({});
 
   const canPost = !!member && !member.muted;
   const error = localError || membershipError;
+
+  const authorIds = useMemo(() => {
+    const ids = new Set<string>();
+
+    for (const comment of visibleComments) {
+      if (comment.author_id) {
+        ids.add(comment.author_id);
+      }
+    }
+
+    return Array.from(ids);
+  }, [visibleComments]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadProfiles() {
+      if (authorIds.length === 0) {
+        setProfilesById({});
+        return;
+      }
+
+      const { data, error } = await supabase
+        .from("profiles")
+        .select("id,username,avatar_url")
+        .in("id", authorIds);
+
+      if (cancelled) return;
+
+      if (error) {
+        console.error("Failed to load comment author profiles:", error.message);
+        return;
+      }
+
+      const nextMap: Record<string, ProfileRow> = {};
+
+      for (const row of (data ?? []) as ProfileRow[]) {
+        nextMap[row.id] = row;
+      }
+
+      setProfilesById(nextMap);
+    }
+
+    void loadProfiles();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [authorIds]);
 
   function handleSubmit() {
     const text = body.trim();
@@ -139,25 +196,47 @@ export function ClubChat({ clubId, comments }: Props) {
             No comments yet.
           </div>
         ) : (
-          visibleComments.map((comment) => (
-            <article
-              key={comment.id}
-              className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
-            >
-              <div className="flex items-center justify-between gap-3">
-                <div className="text-sm font-medium text-slate-100">
-                  {comment.author_id ?? "Member"}
-                </div>
-                <div className="text-xs text-slate-500">
-                  {formatDate(comment.created_at)}
-                </div>
-              </div>
+          visibleComments.map((comment) => {
+            const profile = comment.author_id
+              ? profilesById[comment.author_id]
+              : null;
 
-              <p className="mt-2 text-sm leading-6 text-slate-300">
-                {comment.body}
-              </p>
-            </article>
-          ))
+            const displayName =
+              profile?.username?.trim() || comment.author_id || "Member";
+
+            const profileHref = profile?.username
+              ? `/social/profile/${profile.username.toLowerCase()}`
+              : null;
+
+            return (
+              <article
+                key={comment.id}
+                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+              >
+                <div className="flex items-center justify-between gap-3">
+                  <div className="text-sm font-medium text-slate-100">
+                    {profileHref ? (
+                      <Link
+                        href={profileHref}
+                        className="transition hover:text-cyan-400 hover:underline"
+                      >
+                        {displayName}
+                      </Link>
+                    ) : (
+                      displayName
+                    )}
+                  </div>
+                  <div className="text-xs text-slate-500">
+                    {formatDate(comment.created_at)}
+                  </div>
+                </div>
+
+                <p className="mt-2 text-sm leading-6 text-slate-300">
+                  {comment.body}
+                </p>
+              </article>
+            );
+          })
         )}
       </div>
     </section>

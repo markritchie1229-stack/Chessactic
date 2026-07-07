@@ -64,7 +64,11 @@ export function canPromote(actor: ClubRank, target: ClubRank) {
   }
 
   if (actor === "senior_admin") {
-    return target === "admin" || target === "coordinator" || target === "member";
+    return (
+      target === "admin" ||
+      target === "coordinator" ||
+      target === "member"
+    );
   }
 
   return false;
@@ -80,4 +84,16 @@ export function canTransferLeadership(rank: ClubRank) {
 
 export function canDisbandClub(rank: ClubRank) {
   return rank === "leader";
+}
+
+/* NEW */
+
+export function canReviewJoinRequests(rank: ClubRank) {
+  return (
+    rank === "leader" ||
+    rank === "co_leader" ||
+    rank === "senior_admin" ||
+    rank === "admin" ||
+    rank === "coordinator"
+  );
 }

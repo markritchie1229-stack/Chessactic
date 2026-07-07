@@ -15,6 +15,8 @@ export const CLUB_RANKS: ClubRank[] = [
   "member",
 ];
 
+export type ClubJoinPolicy = "open" | "request";
+
 export type Club = {
   id: string;
   title: string;
@@ -22,6 +24,7 @@ export type Club = {
   description: string | null;
   avatar_url: string | null;
   banner_url: string | null;
+  join_policy: ClubJoinPolicy;
   created_by: string | null;
   disbanded_at: string | null;
   created_at: string;
@@ -53,6 +56,7 @@ export type ClubThread = {
   author_id: string | null;
   title: string;
   body: string;
+  image_url: string | null;
   created_at: string | null;
 };
 
@@ -62,6 +66,7 @@ export type ClubComment = {
   thread_id: string | null;
   author_id: string | null;
   body: string;
+  image_url: string | null;
   created_at: string | null;
 };
 

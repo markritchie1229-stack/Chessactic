@@ -2,17 +2,12 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useParams } from "next/navigation";
-import { Loader2, UserPlus } from "lucide-react";
+import { Loader2, Search, Send, UserPlus } from "lucide-react";
 
 import { supabase } from "@/lib/supabase";
 import { canInvite } from "../../_lib/permissions";
 import { useCurrentClubMember } from "../../_lib/useCurrentClubMember";
-import type {
-  Club,
-  ClubMember,
-  ClubRank,
-  Profile,
-} from "../../_lib/types";
+import type { Club, ClubMember, Profile } from "../../_lib/types";
 
 type ParamsShape = {
   slug?: string | string[];
@@ -35,6 +30,7 @@ export default function ClubInvitePage() {
   const [loadingResults, setLoadingResults] = useState(false);
   const [error, setError] = useState("");
   const [status, setStatus] = useState("");
+  const [sendingId, setSendingId] = useState("");
 
   useEffect(() => {
     let mounted = true;
@@ -166,6 +162,7 @@ export default function ClubInvitePage() {
 
     setError("");
     setStatus("");
+    setSendingId(profile.id);
 
     try {
       if (invitedUserIds.has(profile.id)) {
@@ -173,9 +170,21 @@ export default function ClubInvitePage() {
         return;
       }
 
-      setStatus(`Invite ready for ${profile.username ?? profile.id}.`);
+      const { error: inviteError } = await supabase.rpc("send_club_invite", {
+        p_club_id: club.id,
+        p_invitee_id: profile.id,
+        p_message: null,
+      });
+
+      if (inviteError) {
+        throw new Error(inviteError.message);
+      }
+
+      setStatus(`Invite sent to ${profile.username ?? profile.id}.`);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to send invite.");
+    } finally {
+      setSendingId("");
     }
   }
 
@@ -238,12 +247,15 @@ export default function ClubInvitePage() {
           <span className="text-sm font-medium text-slate-100">
             Search users
           </span>
-          <input
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder="Search by username or bio"
-            className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
-          />
+          <div className="relative">
+            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-500" />
+            <input
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              placeholder="Search by username or bio"
+              className="w-full rounded-2xl border border-slate-700 bg-slate-950/80 px-4 py-3 pl-11 text-sm text-slate-100 outline-none placeholder:text-slate-500 focus:border-cyan-500"
+            />
+          </div>
         </label>
 
         {error ? (
@@ -269,30 +281,47 @@ export default function ClubInvitePage() {
               No users found.
             </div>
           ) : (
-            results.map((profile) => (
-              <div
-                key={profile.id}
-                className="flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 sm:flex-row sm:items-center sm:justify-between"
-              >
-                <div className="min-w-0">
-                  <div className="font-medium text-slate-100">
-                    {profile.username ?? profile.id}
-                  </div>
-                  <div className="mt-1 text-sm text-slate-400">
-                    {profile.bio?.trim() || "No bio provided."}
-                  </div>
-                </div>
+            results.map((profile) => {
+              const alreadyMember = invitedUserIds.has(profile.id);
+              const busy = sendingId === profile.id;
 
-                <button
-                  type="button"
-                  onClick={() => void handleInvite(profile)}
-                  disabled={!inviteEnabled}
-                  className="inline-flex items-center justify-center rounded-2xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+              return (
+                <div
+                  key={profile.id}
+                  className="flex flex-col gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 sm:flex-row sm:items-center sm:justify-between"
                 >
-                  Invite
-                </button>
-              </div>
-            ))
+                  <div className="min-w-0">
+                    <div className="font-medium text-slate-100">
+                      {profile.username ?? profile.id}
+                    </div>
+                    <div className="mt-1 text-sm text-slate-400">
+                      {profile.bio?.trim() || "No bio provided."}
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={() => void handleInvite(profile)}
+                    disabled={!inviteEnabled || alreadyMember || busy}
+                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    {busy ? (
+                      <>
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                        Sending...
+                      </>
+                    ) : alreadyMember ? (
+                      "Already a member"
+                    ) : (
+                      <>
+                        <Send className="h-4 w-4" />
+                        Invite
+                      </>
+                    )}
+                  </button>
+                </div>
+              );
+            })
           )}
         </div>
       </section>

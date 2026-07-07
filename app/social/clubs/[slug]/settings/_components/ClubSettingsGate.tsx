@@ -68,7 +68,11 @@ export default function ClubSettingsGate({ club, clubId }: Props) {
   return (
     <div className="space-y-6">
       <ClubAppearance club={club} actorRank={member.rank} />
-      <ClubLeadership club={club} actorRank={member.rank} />
+      <ClubLeadership
+  club={club}
+  actorRank={member.rank}
+  currentMember={member}
+/>
       <ClubDangerZone club={club} actorRank={member.rank} />
       <ClubSettingsInfo club={club} actorRank={member.rank} />
     </div>
