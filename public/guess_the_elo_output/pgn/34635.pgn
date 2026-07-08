@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DwimfPz6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HFRN"]
+[Black "Sult"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:02:16"]
+[WhiteElo "1296"]
+[BlackElo "1274"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+23"]
+[ECO "C20"]
+[Opening "King's Pawn Game: King's Head Opening #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.45] } 2. f3 $2 { [%eval -0.61] } 2...
+Nc6 { [%eval -0.66] } 3. Bb5 { [%eval -0.83] } 3... d5 { [%eval -0.35] } 4. Nc3
+{ [%eval -0.35] } 4... Ne7 { [%eval -0.23] } 5. Nge2 $6 { [%eval -0.85] } 5...
+a6 $2 { [%eval 0.18] } 6. Bd3 $2 { [%eval -1.85] } 6... Qd6 $2
+{ [%eval -0.47] } 7. b3 $6 { [%eval -1.21] } 7... d4 { [%eval -0.88] } 8. Nd5
+$6 { [%eval -1.73] } 8... Nxd5 { [%eval -1.56] } 9. Bc4 $2 { [%eval -4.47] }
+9... Be6 $2 { [%eval -1.68] } 10. O-O $2 { [%eval -4.17] } 10... Nf4
+{ [%eval -4.0] } 11. Nxf4 { [%eval -4.3] } 11... Bxc4 { [%eval -4.25] } 12.
+bxc4 { [%eval -4.21] } 12... exf4 { [%eval -4.25] } 13. a4 $6 { [%eval -5.04] }
+13... Qg6 $2 { [%eval -4.0] } 14. d3 { [%eval -4.12] } 14... Ne5 $2
+{ [%eval -2.51] } 15. Bxf4 { [%eval -2.61] } 15... Bd6 { [%eval -2.58] } 16.
+Qb1 { [%eval -2.75] } 16... O-O $6 { [%eval -1.77] } 17. Qxb7 $6
+{ [%eval -2.43] } 17... f5 $4 { [%eval 2.48] } 18. Qxa8 $4 { [%eval -7.83] }
+18... Rxa8 { [%eval -7.59] } 19. Rab1 $2 { [%eval -10.18] } 19... fxe4
+{ [%eval -9.74] } 20. dxe4 { [%eval -11.26] } 20... Qf6 { [%eval -10.13] } 21.
+Bg3 { [%eval -10.79] } 21... Qg6 $2 { [%eval -7.64] } 22. f4 $2
+{ [%eval -11.85] } 22... Nxc4 { [%eval -11.41] } 23. Rb4 { [%eval -20.34] }
+23... Ne3 { [%eval -16.52] } 24. Re1 { [%eval -31.18] } 24... Nxc2
+{ [%eval -18.12] } 25. f5 { [%eval -19.1] } 25... Qg5 { [%eval -18.16] } 26.
+Rxd4 { [%eval -24.66] } 26... Nxe1 { [%eval -22.08] } 27. Bxe1 $6
+{ [%eval #-10] } 27... Bc5 { [%eval #-9] } 28. Bf2 { [%eval #-2] } 28... Bxd4
+$6 { [%eval #-7] } 29. Bxd4 { [%eval #-7] } 29... Rf8 { [%eval #-57] } 30. Be5
+{ [%eval #-5] } 30... Qc1+ $6 { [%eval #-8] } 31. Kf2 { [%eval #-8] } 31...
+Qc5+ { [%eval #-7] } 0-1

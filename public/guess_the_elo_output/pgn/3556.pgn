@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RSg7IyA1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NMEmin"]
+[Black "Java02rus"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:04:53"]
+[WhiteElo "1557"]
+[BlackElo "1640"]
+[WhiteRatingDiff "+110"]
+[BlackRatingDiff "-11"]
+[ECO "E61"]
+[Opening "King's Indian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... Nf6 { [%eval 0.23] } 2. c4 { [%eval 0.23] } 2... g6
+{ [%eval 0.47] } 3. Nc3 { [%eval 0.33] } 3... Bg7 { [%eval 0.64] } 4. Nf3
+{ [%eval 0.43] } 4... O-O { [%eval 0.7] } 5. g3 $6 { [%eval -0.05] } 5... d6 $6
+{ [%eval 0.49] } 6. Bg2 { [%eval 0.34] } 6... e5 { [%eval 0.43] } 7. O-O
+{ [%eval 0.03] } 7... e4 $2 { [%eval 1.22] } 8. Nd2 { [%eval 0.93] } 8... d5 $6
+{ [%eval 1.92] } 9. cxd5 { [%eval 1.87] } 9... Nxd5 { [%eval 1.84] } 10. Nxd5
+$2 { [%eval 0.68] } 10... Qxd5 { [%eval 0.64] } 11. Nxe4 { [%eval 0.57] } 11...
+Bf5 $4 { [%eval 8.97] } 12. Nf6+ { [%eval 8.89] } 12... Bxf6 { [%eval 8.9] }
+13. Bxd5 { [%eval 8.54] } 13... Rd8 $2 { [%eval 11.75] } 14. Bxb7
+{ [%eval 11.48] } 14... Rxd4 { [%eval 14.1] } 15. Qxd4 { [%eval 10.01] } 15...
+Bxd4 { [%eval 9.74] } 16. Bxa8 { [%eval 9.3] } 16... c6 $6 { [%eval 10.53] }
+17. Bf4 { [%eval 10.22] } 17... Na6 { [%eval 10.55] } 18. Bxc6
+{ [%eval 10.54] } 18... Nb4 { [%eval 10.83] } 19. Ba4 { [%eval 10.56] } 19...
+Bxb2 { [%eval 12.37] } 20. Rad1 { [%eval 10.43] } 20... Kg7 { [%eval 10.5] }
+21. f3 { [%eval 10.33] } 21... a5 { [%eval 11.17] } 22. e4 { [%eval 10.94] }
+22... Be6 { [%eval 10.77] } 23. Rd2 { [%eval 9.86] } 23... Bc1
+{ [%eval 19.09] } 24. Rxc1 { [%eval 18.08] } 1-0

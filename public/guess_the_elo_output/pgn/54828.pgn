@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/slWdPPNk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Levent69"]
+[Black "Mattyice419"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:44:59"]
+[WhiteElo "1342"]
+[BlackElo "1312"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+21"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... e6 { [%eval 0.2] } 2. Bf4 { [%eval 0.18] } 2... c6
+{ [%eval 0.42] } 3. Nc3 { [%eval 0.23] } 3... Na6 { [%eval 0.72] } 4. d5 $2
+{ [%eval -0.99] } 4... c5 $2 { [%eval 1.66] } 5. Nb5 $2 { [%eval 0.2] } 5...
+exd5 { [%eval 0.57] } 6. Nc7+ $4 { [%eval -4.97] } 6... Nxc7 { [%eval -4.83] }
+7. c3 { [%eval -4.79] } 7... d4 { [%eval -4.51] } 8. c4 $6 { [%eval -5.27] }
+8... Na6 $6 { [%eval -4.66] } 9. g3 { [%eval -4.92] } 9... Nb4
+{ [%eval -4.54] } 10. Qb3 $6 { [%eval -5.16] } 10... Qa5 $6 { [%eval -4.25] }
+11. a3 $4 { [%eval -11.71] } 11... Nc2+ { [%eval -11.59] } 12. Kd1
+{ [%eval -11.66] } 12... Nxa1 { [%eval -11.56] } 13. Bd2 { [%eval -15.5] }
+13... Qc7 { [%eval -11.39] } 14. Bh3 { [%eval -24.77] } 14... Qe5
+{ [%eval -10.4] } 15. Nf3 { [%eval -12.21] } 15... Qe4 { [%eval -10.33] } 16.
+Ke1 { [%eval -32.5] } 16... Nxb3 { [%eval -31.64] } 17. Kf1 { [%eval -34.9] }
+17... Nxd2+ { [%eval -33.45] } 18. Kg1 { [%eval -37.1] } 18... Qxe2
+{ [%eval -32.12] } 19. Kg2 $6 { [%eval #-4] } 19... Qxf3+ { [%eval #-3] } 20.
+Kg1 { [%eval #-3] } 20... Ne4 { [%eval #-2] } 0-1

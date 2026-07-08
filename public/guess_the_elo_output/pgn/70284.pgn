@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IzJk9qmj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jlrodrigues"]
+[Black "Raff2301"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:28:34"]
+[WhiteElo "1395"]
+[BlackElo "1290"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+14"]
+[ECO "A22"]
+[Opening "English Opening: King's English Variation, Two Knights Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval 0.02] } 1... e5 { [%eval 0.1] } 2. Nc3 { [%eval 0.01] } 2... Nf6
+{ [%eval 0.08] } 3. d3 { [%eval -0.05] } 3... Nc6 { [%eval 0.0] } 4. Bg5
+{ [%eval -0.21] } 4... Be7 { [%eval 0.06] } 5. Nd5 $2 { [%eval -1.33] } 5...
+Nxd5 { [%eval -1.33] } 6. Bxe7 $2 { [%eval -4.29] } 6... Ndxe7
+{ [%eval -4.22] } 7. Nf3 { [%eval -4.26] } 7... O-O { [%eval -4.08] } 8. Ng5 $6
+{ [%eval -5.04] } 8... h6 { [%eval -4.81] } 9. Ne4 { [%eval -5.05] } 9... d5
+{ [%eval -5.06] } 10. cxd5 { [%eval -4.83] } 10... Nxd5 { [%eval -4.76] } 11.
+g3 $6 { [%eval -5.32] } 11... Bf5 $2 { [%eval -4.0] } 12. Bg2 { [%eval -4.1] }
+12... Bxe4 { [%eval -4.02] } 13. dxe4 { [%eval -4.14] } 13... Ndb4
+{ [%eval -4.16] } 14. Qb3 $4 { [%eval -9.2] } 14... Qd6 $4 { [%eval -4.41] }
+15. Rd1 $2 { [%eval -6.12] } 15... Qc5 $2 { [%eval -4.72] } 16. O-O
+{ [%eval -5.2] } 16... Nd4 { [%eval -5.14] } 17. Qe3 { [%eval -5.09] } 17...
+Ne6 $2 { [%eval -3.77] } 18. Qxc5 { [%eval -3.87] } 18... Nxc5
+{ [%eval -3.86] } 19. a3 { [%eval -3.76] } 19... Nc6 { [%eval -3.68] } 20. b4
+{ [%eval -3.89] } 20... Nb3 { [%eval -3.48] } 21. b5 $2 { [%eval -5.13] } 21...
+Ncd4 { [%eval -5.03] } 22. e3 { [%eval -5.12] } 22... Ne2+ { [%eval -5.04] }
+23. Kh1 { [%eval -4.96] } 23... Rfd8 { [%eval -4.7] } 24. Rb1 $2
+{ [%eval -7.19] } 24... Nd2 { [%eval -7.09] } 0-1

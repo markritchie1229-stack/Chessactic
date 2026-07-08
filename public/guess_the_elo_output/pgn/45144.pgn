@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gxxVvvWD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "davidfernando1000"]
+[Black "ciotor"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:29:38"]
+[WhiteElo "1613"]
+[BlackElo "1309"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.48] } 2. Qh5 $6 { [%eval -0.12] }
+2... Qf6 { [%eval 0.32] } 3. Bc4 { [%eval 0.28] } 3... g6 { [%eval 0.45] } 4.
+Qg4 { [%eval 0.2] } 4... Nh6 $6 { [%eval 0.97] } 5. Qg3 { [%eval 0.83] } 5...
+Bc5 $2 { [%eval 2.02] } 6. d3 $6 { [%eval 1.39] } 6... d5 $6 { [%eval 2.2] } 7.
+Bxd5 $2 { [%eval 1.07] } 7... Ng4 { [%eval 0.97] } 8. f3 $4 { [%eval -2.58] }
+8... Bf2+ { [%eval -2.54] } 9. Qxf2 { [%eval -2.56] } 9... Nxf2
+{ [%eval -2.39] } 10. Kxf2 { [%eval -2.41] } 10... Qb6+ { [%eval -2.51] } 11.
+Kf1 { [%eval -2.6] } 11... Be6 { [%eval -2.36] } 12. Nc3 { [%eval -2.34] }
+12... c6 { [%eval -1.87] } 13. Bxe6 { [%eval -1.91] } 13... fxe6
+{ [%eval -1.95] } 14. Nge2 { [%eval -2.04] } 14... O-O { [%eval -2.1] } 15. h4
+{ [%eval -2.11] } 15... Nd7 { [%eval -1.95] } 16. h5 { [%eval -1.75] } 16...
+Nf6 { [%eval -1.6] } 17. hxg6 { [%eval -1.83] } 17... h5 $6 { [%eval -1.29] }
+18. Bh6 $2 { [%eval -4.09] } 18... Rfd8 $4 { [%eval 0.47] } 19. Nd1
+{ [%eval 0.54] } 19... Ng4 $4 { [%eval 4.08] } 20. fxg4 { [%eval 3.88] } 20...
+hxg4 $6 { [%eval 4.72] } 21. Ng3 { [%eval 4.68] } 21... Rf8+ { [%eval 4.75] }
+22. Bxf8 { [%eval 4.7] } 22... Rxf8+ { [%eval 4.69] } 23. Ke2 { [%eval 4.5] }
+23... Kg7 { [%eval 4.47] } 24. Ne3 { [%eval 4.32] } 24... Qxb2 $4
+{ [%eval 10.56] } 25. Rab1 { [%eval 9.75] } 25... Qd4 { [%eval 28.4] } 26.
+Rxb7+ { [%eval 12.19] } 26... Kg8 $6 { [%eval #7] } 27. Rhh7 { [%eval #6] }
+27... Rf3 { [%eval #5] } 28. Rb8+ { [%eval #4] } 28... Rf8 { [%eval #4] } 29.
+Nh5 { [%eval #3] } 29... Rxb8 { [%eval #2] } 30. Nf6+ { [%eval #1] } 30... Kf8
+{ [%eval #1] } 31. Rf7# 1-0

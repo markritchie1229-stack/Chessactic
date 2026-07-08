@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/01sCRfKX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "helioluciod"]
+[Black "Valentage"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:13:33"]
+[WhiteElo "1925"]
+[BlackElo "1867"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.26] } 2. d4 { [%eval 0.21] } 2... d5
+{ [%eval 0.27] } 3. exd5 { [%eval 0.07] } 3... exd5 { [%eval 0.17] } 4. c4
+{ [%eval 0.14] } 4... Nf6 { [%eval 0.11] } 5. Nc3 { [%eval 0.1] } 5... Nc6
+{ [%eval 0.11] } 6. Bg5 { [%eval -0.17] } 6... Bb4 { [%eval -0.02] } 7. Nf3
+{ [%eval -0.04] } 7... Be6 { [%eval -0.01] } 8. Be2 { [%eval -0.1] } 8... dxc4
+{ [%eval 0.08] } 9. O-O { [%eval 0.08] } 9... Bxc3 { [%eval 0.09] } 10. bxc3
+{ [%eval 0.06] } 10... O-O { [%eval 0.08] } 11. Bxf6 { [%eval -0.38] } 11...
+Qxf6 { [%eval -0.35] } 12. d5 $6 { [%eval -1.08] } 12... Rfd8 { [%eval -0.98] }
+13. Bxc4 { [%eval -0.95] } 13... Na5 { [%eval -0.94] } 14. Bb3 $6
+{ [%eval -1.58] } 14... Nxb3 { [%eval -1.51] } 15. axb3 $6 { [%eval -2.22] }
+15... Bxd5 { [%eval -2.08] } 16. Nd4 $2 { [%eval -3.54] } 16... c5
+{ [%eval -3.45] } 17. Nb5 $2 { [%eval -5.97] } 17... Bxg2 { [%eval -5.84] } 18.
+Qg4 { [%eval -5.76] } 18... Bxf1 { [%eval -5.51] } 19. Kxf1 $2
+{ [%eval -8.36] } 19... a6 { [%eval -8.02] } 20. Na3 $6 { [%eval -8.83] } 20...
+Qxc3 { [%eval -8.56] } 21. Re1 { [%eval -8.55] } 21... Qd3+ $6
+{ [%eval -7.84] } 22. Kg1 { [%eval -8.09] } 22... Rd6 $6 { [%eval -7.49] } 23.
+Nc4 $2 { [%eval -14.3] } 23... Rg6 { [%eval -13.82] } 0-1

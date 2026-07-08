@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lvch1hRX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PR1994"]
+[Black "olin"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:48:18"]
+[WhiteElo "1771"]
+[BlackElo "1726"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B94"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.26] } 2... d6
+{ [%eval 0.37] } 3. d4 { [%eval 0.29] } 3... cxd4 { [%eval 0.35] } 4. Nxd4
+{ [%eval 0.31] } 4... Nf6 { [%eval 0.29] } 5. Nc3 { [%eval 0.33] } 5... a6
+{ [%eval 0.32] } 6. Bg5 { [%eval 0.22] } 6... e5 { [%eval 0.46] } 7. Nf3
+{ [%eval 0.04] } 7... b5 $6 { [%eval 0.94] } 8. Nd5 $6 { [%eval 0.18] } 8...
+Be7 { [%eval 0.2] } 9. Be2 { [%eval -0.12] } 9... Nbd7 { [%eval 0.0] } 10. O-O
+{ [%eval -0.24] } 10... Bb7 { [%eval -0.13] } 11. c4 $2 { [%eval -2.4] } 11...
+h6 $4 { [%eval 0.93] } 12. Bh4 $4 { [%eval -2.56] } 12... b4 $2
+{ [%eval 0.23] } 13. Qa4 $2 { [%eval -2.27] } 13... O-O $2 { [%eval -0.03] }
+14. Qxb4 { [%eval -0.08] } 14... Bxd5 { [%eval 0.04] } 15. exd5
+{ [%eval -0.12] } 15... Nxd5 $4 { [%eval 3.44] } 16. cxd5 { [%eval 3.16] }
+16... Bxh4 { [%eval 3.54] } 17. Qxd6 $4 { [%eval 0.21] } 17... Bf6 $6
+{ [%eval 1.08] } 18. Rac1 $6 { [%eval 0.38] } 18... e4 { [%eval 0.42] } 19. Nd2
+{ [%eval 0.22] } 19... Bg5 { [%eval 0.6] } 20. Rc2 { [%eval 0.43] } 20... Nf6
+{ [%eval 0.37] } 21. Qxd8 { [%eval 0.22] } 21... Raxd8 { [%eval 0.33] } 22.
+Bxa6 $6 { [%eval -0.19] } 22... Rxd5 $2 { [%eval 0.87] } 23. Nb3
+{ [%eval 0.8] } 23... e3 $4 { [%eval 3.99] } 24. f4 { [%eval 3.85] } 24... Ng4
+$2 { [%eval 5.04] } 25. fxg5 { [%eval 4.92] } 25... Rxg5 { [%eval 4.98] } 26.
+Re2 $2 { [%eval 3.93] } 26... f5 $2 { [%eval 5.95] } 27. g3 $6 { [%eval 5.2] }
+27... f4 $2 { [%eval 6.2] } 28. gxf4 { [%eval 5.81] } 28... Rxf4 $6
+{ [%eval 6.58] } 29. Rxf4 { [%eval 6.37] } 29... Nf2+ { [%eval 6.41] } 30. Kf1
+{ [%eval 6.27] } 30... Nh3 { [%eval 5.98] } 31. Rf3 $4 { [%eval #-1] } 31...
+Rg1# 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/8utoVypA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Pranava"]
+[Black "gwendo28"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:03:25"]
+[WhiteElo "1157"]
+[BlackElo "1460"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "D07"]
+[Opening "Queen's Gambit Refused: Chigorin Defense #2"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.13] } 1... d5 { [%eval 0.16] } 2. c4 { [%eval 0.14] } 2... Nc6
+{ [%eval 0.5] } 3. Nc3 { [%eval 0.37] } 3... e6 { [%eval 0.42] } 4. e3
+{ [%eval 0.35] } 4... Bb4 { [%eval 0.45] } 5. Bd2 { [%eval 0.42] } 5... Bxc3
+{ [%eval 0.66] } 6. Bxc3 { [%eval 0.56] } 6... Nf6 { [%eval 0.61] } 7. Bd3
+{ [%eval 0.46] } 7... Ne4 $6 { [%eval 1.33] } 8. Nf3 $2 { [%eval 0.25] } 8...
+Nxc3 { [%eval 0.34] } 9. bxc3 { [%eval 0.29] } 9... O-O { [%eval 0.48] } 10.
+O-O { [%eval 0.2] } 10... Qf6 { [%eval 0.66] } 11. Re1 { [%eval 0.6] } 11... e5
+$2 { [%eval 3.09] } 12. dxe5 $2 { [%eval 0.74] } 12... Nxe5 { [%eval 0.85] }
+13. cxd5 { [%eval 0.68] } 13... Nxd3 $6 { [%eval 1.54] } 14. Qxd3
+{ [%eval 1.37] } 14... Bf5 { [%eval 1.69] } 15. Qd4 { [%eval 1.73] } 15... b6
+{ [%eval 1.85] } 16. Qxf6 { [%eval 1.68] } 16... gxf6 { [%eval 1.87] } 17. e4
+{ [%eval 1.72] } 17... Bg4 { [%eval 2.18] } 18. h3 $6 { [%eval 1.37] } 18...
+Bh5 $2 { [%eval 2.41] } 19. g4 { [%eval 2.21] } 19... Bg6 { [%eval 2.23] } 20.
+Nh4 { [%eval 1.88] } 20... c5 $6 { [%eval 2.72] } 21. dxc6 $2 { [%eval 1.44] }
+21... Rac8 { [%eval 1.67] } 22. f3 { [%eval 1.25] } 22... Rxc6 { [%eval 1.03] }
+23. Rac1 { [%eval 0.93] } 23... Rd6 $6 { [%eval 1.5] } 24. c4 $6
+{ [%eval 0.91] } 24... Rd2 { [%eval 1.11] } 25. Nf5 $2 { [%eval 0.0] } 25...
+Bxf5 { [%eval 0.0] } 26. gxf5 { [%eval 0.0] } 26... Rxa2 { [%eval 0.0] } 27.
+Kf1 { [%eval 0.0] } 27... Ra3 { [%eval 0.13] } 28. Re2 $2 { [%eval -0.89] }
+28... Rxf3+ { [%eval -0.75] } 29. Rf2 $2 { [%eval -1.77] } 29... Rxh3
+{ [%eval -1.66] } 30. Rg2+ { [%eval -1.66] } 30... Kh8 { [%eval -1.72] } 31.
+Rcc2 { [%eval -1.79] } 31... Rg8 { [%eval -1.92] } 32. Rcf2 $6
+{ [%eval -2.69] } 32... Rd3 $6 { [%eval -2.14] } 0-1

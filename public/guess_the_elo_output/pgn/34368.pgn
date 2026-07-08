@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lnT0NuDp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "miguelasdf"]
+[Black "Necromant"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:48:07"]
+[WhiteElo "1515"]
+[BlackElo "1791"]
+[WhiteRatingDiff "-44"]
+[BlackRatingDiff "+4"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "60+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.37] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.27] } 3. g3 { [%eval 0.06] } 3... Nc6 { [%eval 0.09] } 4. Bg2
+{ [%eval 0.1] } 4... Nf6 { [%eval 0.04] } 5. d3 { [%eval 0.08] } 5... Bg4
+{ [%eval 0.19] } 6. O-O { [%eval 0.11] } 6... e6 { [%eval 0.31] } 7. Nc3
+{ [%eval -0.12] } 7... Nd4 { [%eval 0.06] } 8. Be3 { [%eval 0.06] } 8... Nxf3+
+{ [%eval 0.08] } 9. Bxf3 { [%eval 0.06] } 9... Bh3 { [%eval 0.36] } 10. Bg2
+{ [%eval 0.21] } 10... Bxg2 { [%eval 0.15] } 11. Kxg2 { [%eval 0.18] } 11...
+Be7 { [%eval 0.16] } 12. f4 { [%eval 0.2] } 12... O-O { [%eval 0.28] } 13. e5
+$6 { [%eval -0.41] } 13... dxe5 { [%eval -0.39] } 14. fxe5 { [%eval -0.39] }
+14... Nd5 { [%eval -0.37] } 15. Nxd5 { [%eval -0.46] } 15... Qxd5+
+{ [%eval -0.43] } 16. Qf3 { [%eval -0.36] } 16... Qd7 { [%eval 0.07] } 17. g4
+{ [%eval -0.14] } 17... b6 { [%eval -0.04] } 18. g5 { [%eval -0.09] } 18...
+Rad8 { [%eval 0.06] } 19. h4 $6 { [%eval -0.44] } 19... Qb5 $6 { [%eval 0.13] }
+20. b3 { [%eval 0.0] } 20... Rd5 $4 { [%eval 5.43] } 21. Qf4 $4
+{ [%eval -0.37] } 21... Qc6 { [%eval 0.0] } 22. Kg3 $2 { [%eval -1.56] } 22...
+Qc7 $6 { [%eval -0.96] } 23. h5 $4 { [%eval -5.57] } 23... Rxe5
+{ [%eval -5.43] } 24. g6 $4 { [%eval -12.0] } 24... Rxe3+ $2 { [%eval -7.3] }
+25. Kf2 $2 { [%eval #-3] } 25... Qxf4+ { [%eval #-2] } 0-1

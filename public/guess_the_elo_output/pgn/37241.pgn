@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ISGTb50k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ParsIran"]
+[Black "Vesaas"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:06:06"]
+[WhiteElo "1728"]
+[BlackElo "1636"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "C43"]
+[Opening "Petrov: Modern Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.39] } 2. Nf3 { [%eval 0.33] } 2...
+Nf6 { [%eval 0.45] } 3. d4 { [%eval 0.2] } 3... exd4 { [%eval 0.31] } 4. Qxd4
+{ [%eval -0.16] } 4... Nc6 { [%eval -0.15] } 5. Qe3 { [%eval -0.16] } 5... b6
+$2 { [%eval 1.07] } 6. Bd3 $2 { [%eval -0.16] } 6... Bc5 { [%eval -0.06] } 7.
+Qe2 { [%eval -0.42] } 7... d6 { [%eval -0.07] } 8. Be3 { [%eval -0.1] } 8...
+Bg4 { [%eval 0.23] } 9. Bxc5 $6 { [%eval -0.35] } 9... dxc5 { [%eval 0.07] }
+10. Qe3 { [%eval -0.02] } 10... Nd4 { [%eval 0.29] } 11. Nxd4 { [%eval 0.12] }
+11... cxd4 { [%eval 0.32] } 12. Qf4 { [%eval 0.07] } 12... Qd7 { [%eval 0.51] }
+13. e5 { [%eval 0.48] } 13... Nd5 { [%eval 0.88] } 14. Qxd4 { [%eval 0.55] }
+14... O-O { [%eval 0.8] } 15. O-O { [%eval 0.79] } 15... c6 { [%eval 0.99] }
+16. f3 { [%eval 0.91] } 16... Be6 { [%eval 1.02] } 17. Nc3 { [%eval 0.98] }
+17... Qe7 { [%eval 1.31] } 18. Nxd5 { [%eval 1.12] } 18... Bxd5 { [%eval 1.1] }
+19. Be4 $6 { [%eval 0.45] } 19... Rad8 { [%eval 0.61] } 20. Bxd5 $6
+{ [%eval -0.08] } 20... Rxd5 { [%eval -0.14] } 21. Qc3 { [%eval -0.22] } 21...
+Rfd8 { [%eval 0.21] } 22. Qxc6 $6 { [%eval -0.35] } 22... Rd2 $2
+{ [%eval 0.78] } 23. b3 $6 { [%eval -0.07] } 23... Rf2 $4 { [%eval 8.37] } 24.
+Rxf2 $6 { [%eval 7.43] } 24... Qg5 $2 { [%eval 8.81] } 25. Raf1 $2
+{ [%eval 7.72] } 25... Qxe5 { [%eval 7.63] } 26. c4 { [%eval 7.24] } 26... h6
+$6 { [%eval 7.82] } 27. f4 { [%eval 7.62] } 27... Qh5 $2 { [%eval 8.92] } 28.
+f5 { [%eval 8.22] } 28... Rd4 $2 { [%eval 10.65] } 29. Qe8+ { [%eval 10.4] }
+29... Kh7 { [%eval 10.25] } 30. f6 { [%eval 9.76] } 30... g6 $2 { [%eval #2] }
+31. Qxf7+ { [%eval #1] } 31... Kh8 { [%eval #1] } 32. Qg7# 1-0

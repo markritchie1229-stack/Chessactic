@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/VSOYZ2sT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kieno84"]
+[Black "Maelwas"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:15:56"]
+[WhiteElo "1686"]
+[BlackElo "1770"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+14"]
+[ECO "A58"]
+[Opening "Benko Gambit Accepted, Fully Accepted Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... Nf6 { [%eval 0.39] } 2. c4 { [%eval 0.25] } 2... c5
+{ [%eval 0.55] } 3. d5 { [%eval 0.39] } 3... b5 { [%eval 0.41] } 4. cxb5
+{ [%eval 0.27] } 4... a6 { [%eval 0.39] } 5. bxa6 { [%eval 0.25] } 5... Bxa6 $6
+{ [%eval 0.81] } 6. Nc3 { [%eval 0.75] } 6... g6 { [%eval 0.84] } 7. Bg5
+{ [%eval 0.47] } 7... Bg7 { [%eval 0.54] } 8. e4 { [%eval 0.57] } 8... Qa5
+{ [%eval 0.76] } 9. Bxa6 $2 { [%eval -0.86] } 9... Nxa6 $2 { [%eval 0.4] } 10.
+Ne2 $2 { [%eval -1.03] } 10... Nxe4 { [%eval -1.09] } 11. Bd2 { [%eval -1.24] }
+11... Nxd2 { [%eval -1.1] } 12. Qxd2 { [%eval -1.27] } 12... O-O
+{ [%eval -1.26] } 13. O-O { [%eval -1.27] } 13... d6 $6 { [%eval -0.74] } 14.
+a3 { [%eval -1.11] } 14... Rfb8 { [%eval -1.02] } 15. Rab1 { [%eval -1.35] }
+15... Nc7 { [%eval -1.25] } 16. Rfe1 { [%eval -1.57] } 16... Rb3
+{ [%eval -1.23] } 17. Qe3 $2 { [%eval -2.54] } 17... Nxd5 { [%eval -2.35] } 18.
+Qe4 { [%eval -2.29] } 18... Nxc3 { [%eval -2.28] } 19. Nxc3 $2
+{ [%eval -3.78] } 19... e6 { [%eval -3.72] } 20. h3 $6 { [%eval -4.23] } 20...
+Rab8 { [%eval -4.03] } 21. Qe2 $4 { [%eval -9.03] } 21... Bxc3
+{ [%eval -8.78] } 22. bxc3 $2 { [%eval -11.56] } 22... Rxb1 { [%eval -10.95] }
+0-1

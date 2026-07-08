@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/LAEMTFia"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Changali"]
+[Black "PL-Enxadrista"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:22:46"]
+[WhiteElo "1114"]
+[BlackElo "1125"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+72"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.04] } 1... e5 { [%eval -0.17] } 2. Bg2 { [%eval -0.4] } 2...
+Nf6 { [%eval 0.0] } 3. Nf3 { [%eval -0.45] } 3... Nc6 { [%eval -0.06] } 4. e4
+{ [%eval -0.34] } 4... d5 $6 { [%eval 0.26] } 5. exd5 { [%eval 0.17] } 5...
+Nxd5 { [%eval 0.58] } 6. Nc3 { [%eval 0.13] } 6... Nxc3 { [%eval 0.23] } 7.
+dxc3 $6 { [%eval -0.54] } 7... g6 $2 { [%eval 0.87] } 8. Qxd8+ { [%eval 0.88] }
+8... Nxd8 { [%eval 1.25] } 9. Nxe5 { [%eval 1.44] } 9... Bg7 { [%eval 1.56] }
+10. Nf3 { [%eval 1.24] } 10... O-O { [%eval 1.3] } 11. O-O { [%eval 1.09] }
+11... Bg4 { [%eval 1.29] } 12. h3 { [%eval 1.15] } 12... Bxf3 { [%eval 1.53] }
+13. Bxf3 { [%eval 1.38] } 13... Ne6 $6 { [%eval 2.35] } 14. Bg5 $4
+{ [%eval -2.72] } 14... Nxg5 { [%eval -2.69] } 15. Rad1 $4 { [%eval -7.43] }
+15... Nxf3+ { [%eval -7.36] } 16. Kg2 { [%eval -7.29] } 16... Rad8 $4
+{ [%eval -3.11] } 17. Rxd8 $2 { [%eval -4.65] } 17... Rxd8 { [%eval -4.17] }
+18. Kxf3 { [%eval -4.15] } 18... Bf6 $6 { [%eval -3.62] } 19. h4
+{ [%eval -4.02] } 19... h5 { [%eval -3.68] } 20. g4 $2 { [%eval -5.25] } 20...
+Rd2 $6 { [%eval -4.75] } 21. gxh5 { [%eval -4.72] } 21... gxh5 { [%eval -4.5] }
+22. Kg3 $2 { [%eval -6.01] } 22... Rxc2 { [%eval -5.83] } 23. Kf4 $2
+{ [%eval -7.07] } 23... Rxb2 { [%eval -6.88] } 24. Kf5 $6 { [%eval -7.53] }
+24... Kg7 $4 { [%eval -2.93] } 25. f3 $4 { [%eval -7.11] } 25... Rxa2 $4
+{ [%eval -2.39] } 0-1

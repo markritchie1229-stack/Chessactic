@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ICrPLhS0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jacksonSantosJesus"]
+[Black "vimtras"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:25:04"]
+[WhiteElo "1143"]
+[BlackElo "1271"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Franco-Nimzowitsch Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.17] } 1... Nc6 { [%eval 0.3] } 2. e4 { [%eval 0.36] } 2... e6
+{ [%eval 0.54] } 3. Nc3 { [%eval 0.47] } 3... d5 { [%eval 0.68] } 4. Qe2 $2
+{ [%eval -0.61] } 4... d4 { [%eval -0.54] } 5. Nb5 { [%eval -0.62] } 5... e5
+{ [%eval -0.48] } 6. d3 { [%eval -0.77] } 6... Bd7 { [%eval -0.35] } 7. Bg5 $6
+{ [%eval -1.06] } 7... Be7 { [%eval -0.67] } 8. h4 { [%eval -1.15] } 8... f6
+{ [%eval -1.07] } 9. Nxe5 $4 { [%eval -5.4] } 9... Nxe5 { [%eval -5.07] } 10.
+Bf4 { [%eval -5.31] } 10... Bxb5 { [%eval -5.33] } 11. Qd2 $2 { [%eval -6.46] }
+11... Bd6 { [%eval -6.37] } 12. Qa5 { [%eval -6.71] } 12... c6
+{ [%eval -6.68] } 13. Qd2 { [%eval -6.7] } 13... Ne7 { [%eval -6.64] } 14. h5
+{ [%eval -6.72] } 14... h6 { [%eval -6.61] } 15. g4 $4 { [%eval -15.1] } 15...
+Nxg4 $4 { [%eval -6.74] } 16. Bh3 { [%eval -7.06] } 16... Qd7 $4
+{ [%eval -3.29] } 17. Qd1 $4 { [%eval -8.2] } 17... f5 $2 { [%eval -7.1] } 18.
+exf5 $2 { [%eval -9.55] } 18... Bxf4 $2 { [%eval -8.05] } 19. Qxg4
+{ [%eval -8.0] } 19... Nxf5 $4 { [%eval -4.25] } 20. Qxf4 { [%eval -4.17] }
+20... O-O { [%eval -4.02] } 21. Rg1 $4 { [%eval -9.1] } 21... Rae8+ $4
+{ [%eval -4.75] } 22. Kd1 $2 { [%eval -6.03] } 22... Qd6 $2 { [%eval -4.4] }
+23. Bxf5 $4 { [%eval #-8] } 23... Qxf4 { [%eval #-8] } 24. Rg4 { [%eval #-3] }
+24... Qf3+ { [%eval #-2] } 25. Kd2 { [%eval #-2] } 25... Rxf5 $6
+{ [%eval #-7] } 26. Rxd4 { [%eval #-7] } 26... Qxf2+ { [%eval #-6] } 27. Kc3
+{ [%eval #-6] } 27... Rc5+ { [%eval #-5] } 28. Kb4 { [%eval #-4] } 28... Qxd4+
+{ [%eval #-3] } 29. Ka5 { [%eval #-1] } 29... Bxd3# 0-1

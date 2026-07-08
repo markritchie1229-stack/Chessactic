@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/o127T8A7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ilja147"]
+[Black "brexe"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:35:10"]
+[WhiteElo "1252"]
+[BlackElo "1296"]
+[WhiteRatingDiff "+72"]
+[BlackRatingDiff "-12"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "360+6"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... c6 { [%eval 0.51] } 2. Nf3 { [%eval 0.21] } 2... d5
+{ [%eval 0.32] } 3. Ne5 $6 { [%eval -0.5] } 3... dxe4 { [%eval -0.42] } 4. Qe2
+$6 { [%eval -0.93] } 4... Nf6 { [%eval -0.79] } 5. f3 { [%eval -1.06] } 5...
+exf3 { [%eval -1.16] } 6. gxf3 $6 { [%eval -1.66] } 6... Nbd7 { [%eval -1.36] }
+7. Ng4 { [%eval -1.84] } 7... h5 { [%eval -1.56] } 8. Ne5 $6 { [%eval -2.14] }
+8... Nxe5 { [%eval -2.05] } 9. Qxe5 { [%eval -2.06] } 9... Nd7
+{ [%eval -1.59] } 10. Qf4 { [%eval -2.0] } 10... Rh6 $6 { [%eval -1.32] } 11.
+Bc4 $6 { [%eval -1.93] } 11... Nf6 $6 { [%eval -1.33] } 12. O-O $2
+{ [%eval -2.69] } 12... Rg6+ $6 { [%eval -2.11] } 13. Kf2 $2 { [%eval -4.62] }
+13... Bh3 { [%eval -4.25] } 14. Re1 $4 { [%eval -14.38] } 14... Rg2+
+{ [%eval -13.74] } 15. Ke3 { [%eval -13.2] } 15... g6 $6 { [%eval -9.12] } 16.
+Nc3 $6 { [%eval -10.32] } 16... Bh6 $2 { [%eval -8.05] } 17. Qxh6
+{ [%eval -7.86] } 17... Qb6+ { [%eval -7.7] } 18. d4 { [%eval -6.64] } 18... c5
+$4 { [%eval 5.73] } 19. Qh8+ $4 { [%eval 0.0] } 19... Kd7 { [%eval 0.0] } 20.
+Qxa8 { [%eval 0.0] } 20... cxd4+ { [%eval 0.0] } 21. Kd3 { [%eval 0.09] } 21...
+dxc3 { [%eval 1.72] } 22. Re5 $4 { [%eval -1.88] } 22... Bf5+ $2
+{ [%eval 0.75] } 23. Kxc3 $4 { [%eval #-1] } 23... Kd6 $4 { [%eval 12.95] } 24.
+Rb5 { [%eval 12.0] } 24... Qc7 $6 { [%eval #10] } 25. Bf4+ { [%eval #9] } 25...
+e5 { [%eval #9] } 26. Qf8+ { [%eval #9] } 26... Kd7 { [%eval #6] } 27. Qxf7+
+{ [%eval #7] } 27... Kc8 { [%eval #7] } 28. Qe8+ $4 { [%eval -17.0] } 28... Qd8
+$4 { [%eval #3] } 29. Rc5+ { [%eval #2] } 1-0

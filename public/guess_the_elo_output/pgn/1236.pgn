@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mnkeX7iq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patrickduante"]
+[Black "supertrebejo"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:18:29"]
+[WhiteElo "1679"]
+[BlackElo "1718"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+49"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #3"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.3] } 2. e3 { [%eval 0.08] } 2... Nf6
+{ [%eval 0.18] } 3. h3 { [%eval 0.04] } 3... Bf5 { [%eval 0.02] } 4. Bd3
+{ [%eval -0.01] } 4... Bg6 { [%eval 0.23] } 5. Bxg6 { [%eval 0.22] } 5... hxg6
+{ [%eval 0.23] } 6. Nf3 { [%eval 0.26] } 6... e6 { [%eval 0.21] } 7. O-O
+{ [%eval 0.2] } 7... Bd6 { [%eval 0.52] } 8. a3 { [%eval 0.31] } 8... Nbd7
+{ [%eval 0.34] } 9. b4 { [%eval -0.04] } 9... e5 { [%eval 0.2] } 10. dxe5
+{ [%eval 0.06] } 10... Nxe5 { [%eval 0.36] } 11. c3 $2 { [%eval -1.41] } 11...
+Ne4 $6 { [%eval -0.69] } 12. Bb2 $2 { [%eval -3.13] } 12... g5 $2
+{ [%eval -0.26] } 13. Nbd2 $2 { [%eval -1.43] } 13... Nxd2 $6 { [%eval -0.76] }
+14. Nxd2 { [%eval -0.78] } 14... g4 { [%eval -0.71] } 15. f4 $6
+{ [%eval -1.48] } 15... gxh3 { [%eval -1.27] } 16. fxe5 $2 { [%eval -4.13] }
+16... hxg2 { [%eval -3.42] } 17. Rf5 $4 { [%eval -10.42] } 17... Rh1+ $4
+{ [%eval -5.55] } 18. Kxg2 { [%eval -5.68] } 18... Rxd1 { [%eval -5.52] } 19.
+Rxd1 { [%eval -5.68] } 19... Qh4 { [%eval -5.06] } 20. exd6 $2 { [%eval -7.7] }
+20... Qg4+ { [%eval -7.24] } 0-1

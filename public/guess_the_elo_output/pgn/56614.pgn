@@ -1,0 +1,45 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/se3xetNm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Willibald"]
+[Black "Lilleolav"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:30:17"]
+[WhiteElo "1045"]
+[BlackElo "1324"]
+[WhiteRatingDiff "+61"]
+[BlackRatingDiff "-16"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #2"]
+[TimeControl "180+3"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.03] } 1... e5 { [%eval -0.1] } 2. Bb2 { [%eval -0.19] } 2...
+d6 { [%eval 0.16] } 3. c4 { [%eval 0.08] } 3... Bf5 { [%eval 0.12] } 4. d4 $6
+{ [%eval -0.69] } 4... Nc6 { [%eval -0.51] } 5. dxe5 { [%eval -0.81] } 5... Qe7
+$2 { [%eval 1.14] } 6. exd6 { [%eval 1.03] } 6... Qxd6 $6 { [%eval 1.81] } 7.
+Qxd6 { [%eval 1.69] } 7... Bxd6 { [%eval 1.71] } 8. Nd2 $2 { [%eval 0.35] }
+8... Be5 { [%eval 0.72] } 9. Bxe5 { [%eval 0.7] } 9... Nxe5 { [%eval 0.61] }
+10. e4 { [%eval 0.63] } 10... Bg6 { [%eval 0.75] } 11. f3 { [%eval 0.36] }
+11... Ne7 { [%eval 0.68] } 12. f4 { [%eval 0.59] } 12... N5c6 { [%eval 0.68] }
+13. f5 { [%eval 0.38] } 13... Bh5 { [%eval 0.81] } 14. Be2 { [%eval 0.75] }
+14... Bxe2 { [%eval 0.5] } 15. Nxe2 { [%eval 0.8] } 15... Rd8 { [%eval 1.2] }
+16. Nf3 { [%eval 1.18] } 16... h6 { [%eval 1.58] } 17. O-O { [%eval 1.41] }
+17... O-O { [%eval 1.55] } 18. Rfe1 { [%eval 1.12] } 18... a6 { [%eval 1.31] }
+19. Ng3 $6 { [%eval 0.79] } 19... Nd4 { [%eval 1.02] } 20. Nxd4
+{ [%eval 0.99] } 20... Rxd4 { [%eval 1.05] } 21. Rad1 { [%eval 1.02] } 21...
+Rxd1 { [%eval 1.43] } 22. Rxd1 { [%eval 1.34] } 22... Rc8 { [%eval 1.51] } 23.
+Kf2 { [%eval 1.42] } 23... Nc6 { [%eval 1.42] } 24. Kf3 { [%eval 1.38] } 24...
+Rd8 { [%eval 1.75] } 25. Rxd8+ { [%eval 1.75] } 25... Nxd8 { [%eval 1.71] } 26.
+e5 { [%eval 1.67] } 26... Nc6 { [%eval 1.64] } 27. Ke4 { [%eval 1.63] } 27...
+Kf8 { [%eval 1.65] } 28. e6 $6 { [%eval 1.04] } 28... fxe6 { [%eval 1.24] } 29.
+fxe6 { [%eval 1.28] } 29... Ke7 { [%eval 1.45] } 30. Kd5 $2 { [%eval 0.26] }
+30... Nb4+ { [%eval 0.27] } 31. Ke5 { [%eval 0.37] } 31... Nxa2
+{ [%eval 0.43] } 32. Nf5+ { [%eval 0.51] } 32... Ke8 $4 { [%eval 56.08] } 33.
+Nxg7+ { [%eval 55.16] } 33... Ke7 { [%eval 52.73] } 34. Nf5+ { [%eval 24.53] }
+34... Ke8 { [%eval 52.66] } 35. Kf6 { [%eval 19.89] } 35... Nb4 $6
+{ [%eval #7] } 36. Nxh6 $6 { [%eval 10.61] } 36... Nc6 { [%eval 20.31] } 37.
+Nf5 { [%eval 18.04] } 37... Nd8 $6 { [%eval #5] } 38. Ng7+ { [%eval #4] } 38...
+Kf8 { [%eval #4] } 39. e7+ { [%eval #3] } 1-0

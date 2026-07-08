@@ -1,0 +1,44 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/v5SHVdf6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hooboot"]
+[Black "grifff"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:48:57"]
+[WhiteElo "1814"]
+[BlackElo "1894"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C44"]
+[Opening "Scotch Game: Scotch Gambit, Cochrane-Anderssen Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.19] } 2. Nf3 { [%eval 0.25] } 2...
+Nc6 { [%eval 0.34] } 3. Bc4 { [%eval 0.19] } 3... Bc5 { [%eval 0.22] } 4. O-O
+{ [%eval 0.17] } 4... d6 { [%eval 0.1] } 5. c3 { [%eval 0.27] } 5... Bg4
+{ [%eval 0.68] } 6. d4 $6 { [%eval 0.0] } 6... exd4 { [%eval 0.0] } 7. cxd4 $6
+{ [%eval -0.5] } 7... Nxd4 { [%eval -0.5] } 8. Bxf7+ $4 { [%eval -3.55] } 8...
+Kxf7 { [%eval -3.54] } 9. Ng5+ $2 { [%eval -5.71] } 9... Qxg5 { [%eval -5.65] }
+10. Bxg5 $6 { [%eval -6.52] } 10... Bxd1 { [%eval -6.44] } 11. Rxd1
+{ [%eval -6.34] } 11... Nc2 { [%eval -6.22] } 12. Nc3 { [%eval -6.43] } 12...
+Nxa1 { [%eval -6.25] } 13. Rxa1 { [%eval -6.37] } 13... c6 { [%eval -6.27] }
+14. Kh1 $2 { [%eval -7.33] } 14... Nf6 $6 { [%eval -6.61] } 15. h3 $2
+{ [%eval -8.03] } 15... Bxf2 { [%eval -7.87] } 16. Rf1 $6 { [%eval -8.47] }
+16... Bd4 { [%eval -8.33] } 17. Ne2 { [%eval -8.39] } 17... Be5
+{ [%eval -8.27] } 18. Ng1 { [%eval -8.73] } 18... Rhf8 { [%eval -8.68] } 19.
+Nf3 { [%eval -8.58] } 19... Ke6 { [%eval -8.44] } 20. Bh4 $2 { [%eval -9.58] }
+20... Nxe4 { [%eval -9.53] } 21. Re1 { [%eval -9.5] } 21... Nc5 $6
+{ [%eval -8.62] } 22. Ng5+ $6 { [%eval -9.53] } 22... Kd7 { [%eval -9.39] } 23.
+Nf3 { [%eval -9.37] } 23... Nd3 $6 { [%eval -8.79] } 24. Re3 { [%eval -8.87] }
+24... Nf4 { [%eval -8.87] } 25. Bg3 { [%eval -9.2] } 25... Ng6
+{ [%eval -8.98] } 26. Bxe5 { [%eval -9.42] } 26... Nxe5 { [%eval -9.27] } 27.
+Nd4 $6 { [%eval -10.76] } 27... Nc4 { [%eval -9.89] } 28. Rg3
+{ [%eval -10.07] } 28... g6 { [%eval -9.92] } 29. b3 { [%eval -10.36] } 29...
+Ne5 { [%eval -10.14] } 30. Re3 { [%eval -10.76] } 30... Rae8 { [%eval -10.45] }
+31. g4 { [%eval -12.6] } 31... c5 { [%eval -12.59] } 32. Nb5 { [%eval -12.41] }
+32... a6 { [%eval -12.02] } 33. Nc3 { [%eval -11.75] } 33... Nc6
+{ [%eval -11.45] } 34. Rd3 { [%eval -15.14] } 34... Rf2 { [%eval -14.18] } 35.
+Nd5 $6 { [%eval #-1] } 35... Re1# 0-1

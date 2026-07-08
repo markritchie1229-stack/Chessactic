@@ -1,0 +1,33 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/OcplJ2h3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "janhendra"]
+[Black "slavomirmilic"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:48:05"]
+[WhiteElo "1484"]
+[BlackElo "1790"]
+[WhiteRatingDiff "+34"]
+[BlackRatingDiff "-18"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.27] } 2... d6
+{ [%eval 0.32] } 3. Nc3 { [%eval 0.29] } 3... Nf6 { [%eval 0.52] } 4. Bc4
+{ [%eval 0.38] } 4... c6 { [%eval 0.66] } 5. O-O $6 { [%eval 0.05] } 5... Be7
+$6 { [%eval 0.56] } 6. Ng5 $6 { [%eval -0.14] } 6... d5 { [%eval -0.02] } 7.
+exd5 { [%eval -0.41] } 7... cxd5 { [%eval -0.47] } 8. Bb3 { [%eval -0.43] }
+8... O-O { [%eval 0.0] } 9. d3 { [%eval -0.39] } 9... Bd7 $6 { [%eval 0.27] }
+10. Bd2 $6 { [%eval -0.47] } 10... a5 { [%eval 0.0] } 11. a4 { [%eval -0.12] }
+11... Nc6 { [%eval -0.05] } 12. f4 $6 { [%eval -0.96] } 12... Ng4 $2
+{ [%eval 0.85] } 13. h3 $2 { [%eval -0.95] } 13... Qb6+ { [%eval -0.78] } 14.
+Kh1 { [%eval -0.68] } 14... Nf2+ { [%eval -0.51] } 15. Rxf2 { [%eval -0.61] }
+15... Qxf2 { [%eval -0.61] } 16. Nxd5 { [%eval -0.7] } 16... Bxg5
+{ [%eval -0.62] } 17. fxg5 { [%eval -0.76] } 17... Nd4 { [%eval -0.74] } 18.
+Qe1 { [%eval -0.78] } 18... Qf5 $4 { [%eval 7.93] } 19. Bc3 $4
+{ [%eval -1.41] } 19... Nxb3 $4 { [%eval 7.02] } 20. cxb3 $4 { [%eval -1.3] }
+20... Bc6 $4 { [%eval 14.19] } 21. Ne7+ { [%eval 13.18] } 1-0

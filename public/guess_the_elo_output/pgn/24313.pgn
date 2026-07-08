@@ -1,0 +1,49 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/llF9DnAo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "edjord24"]
+[Black "jujugaga"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:50:49"]
+[WhiteElo "1755"]
+[BlackElo "1733"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.38] } 1... d5 { [%eval 0.53] } 2. exd5 { [%eval 0.52] } 2...
+Nf6 { [%eval 0.53] } 3. d4 { [%eval 0.52] } 3... Qxd5 { [%eval 0.66] } 4. Nf3
+{ [%eval 0.4] } 4... Bg4 { [%eval 0.47] } 5. Be2 { [%eval 0.44] } 5... Nc6
+{ [%eval 0.47] } 6. c3 { [%eval 0.29] } 6... O-O-O { [%eval 0.73] } 7. O-O
+{ [%eval 0.37] } 7... e5 { [%eval 0.49] } 8. dxe5 $6 { [%eval -0.27] } 8...
+Bxf3 { [%eval 0.0] } 9. Bxf3 { [%eval -0.03] } 9... Qxd1 { [%eval 0.0] } 10.
+Rxd1 { [%eval -0.13] } 10... Rxd1+ { [%eval 0.02] } 11. Bxd1 { [%eval -0.07] }
+11... Nxe5 { [%eval 0.03] } 12. Be3 { [%eval -0.07] } 12... Nd5
+{ [%eval 0.17] } 13. Bb3 $2 { [%eval -0.89] } 13... Nxe3 { [%eval -0.85] } 14.
+fxe3 { [%eval -0.91] } 14... f6 { [%eval -0.42] } 15. Nd2 { [%eval -0.56] }
+15... Bc5 { [%eval -0.47] } 16. Kf2 { [%eval -0.55] } 16... Rd8
+{ [%eval -0.38] } 17. Ne4 { [%eval -0.67] } 17... Bb6 { [%eval -0.61] } 18. Ke2
+{ [%eval -0.74] } 18... Ng4 $4 { [%eval 3.04] } 19. Rd1 $4 { [%eval -1.29] }
+19... Nxe3 $4 { [%eval 10.12] } 20. Rxd8+ $4 { [%eval -0.61] } 20... Kxd8
+{ [%eval -0.57] } 21. g3 { [%eval -0.72] } 21... Ng4 { [%eval -0.43] } 22. h3
+{ [%eval -0.45] } 22... Ne5 { [%eval -0.43] } 23. c4 $6 { [%eval -1.12] } 23...
+Kd7 $6 { [%eval -0.54] } 24. c5 { [%eval -0.59] } 24... Ba5 { [%eval -0.55] }
+25. a3 { [%eval -0.77] } 25... b6 { [%eval -0.47] } 26. Bg8 { [%eval -0.46] }
+26... bxc5 { [%eval -0.01] } 27. Bxh7 { [%eval -0.47] } 27... Bb6
+{ [%eval -0.61] } 28. Bg8 { [%eval -0.68] } 28... Kc6 { [%eval -0.33] } 29. Nc3
+{ [%eval -0.56] } 29... c4 { [%eval -0.57] } 30. Bd5+ { [%eval -0.79] } 30...
+Kc5 { [%eval -0.73] } 31. Be4 { [%eval -0.96] } 31... Nc6 { [%eval -0.86] } 32.
+Na4+ { [%eval -0.98] } 32... Kb5 { [%eval -0.83] } 33. Bxc6+ $2
+{ [%eval -2.02] } 33... Kxc6 { [%eval -1.93] } 34. Kd2 $6 { [%eval -2.46] }
+34... Kd5 $6 { [%eval -1.7] } 35. Ke2 $2 { [%eval -2.8] } 35... Kd4 $2
+{ [%eval -1.71] } 36. Nc3 { [%eval -1.84] } 36... Ba5 { [%eval -1.85] } 37. Nd1
+{ [%eval -2.0] } 37... c3 { [%eval -1.66] } 38. b3 $4 { [%eval -119.0] } 38...
+c5 $4 { [%eval -2.37] } 39. b4 $4 { [%eval -17.42] } 39... cxb4
+{ [%eval -15.8] } 40. axb4 { [%eval -14.32] } 40... Bxb4 { [%eval -9.68] } 41.
+Ne3 { [%eval -9.17] } 41... a5 { [%eval -7.02] } 42. Kd1 $2 { [%eval #-11] }
+42... Kxe3 { [%eval #-10] } 0-1

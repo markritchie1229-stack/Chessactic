@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PvyUQDZa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ant909"]
+[Black "JariIkonen"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:17:21"]
+[WhiteElo "1925"]
+[BlackElo "1839"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+13"]
+[ECO "C45"]
+[Opening "Scotch Game: Classical Variation"]
+[TimeControl "600+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.11] } 1... e5 { [%eval 0.42] } 2. Nf3 { [%eval 0.35] } 2...
+Nc6 { [%eval 0.39] } 3. d4 { [%eval 0.19] } 3... exd4 { [%eval 0.16] } 4. Nxd4
+{ [%eval 0.1] } 4... Bc5 { [%eval 0.15] } 5. Be3 { [%eval 0.1] } 5... Qf6
+{ [%eval 0.2] } 6. Nxc6 $6 { [%eval -0.59] } 6... Bxe3 { [%eval -0.72] } 7.
+fxe3 { [%eval -0.64] } 7... dxc6 { [%eval -0.61] } 8. Nc3 { [%eval -0.9] } 8...
+Nh6 { [%eval -0.7] } 9. Be2 $6 { [%eval -1.22] } 9... O-O { [%eval -0.99] } 10.
+Bf3 { [%eval -1.36] } 10... Qh4+ { [%eval -1.24] } 11. g3 { [%eval -1.28] }
+11... Qg5 { [%eval -1.22] } 12. Qe2 { [%eval -1.21] } 12... Be6
+{ [%eval -1.02] } 13. O-O-O { [%eval -1.07] } 13... Qa5 { [%eval -1.08] } 14.
+Kb1 { [%eval -1.09] } 14... b5 { [%eval -0.95] } 15. a3 { [%eval -1.09] } 15...
+Rab8 { [%eval -1.06] } 16. Rd4 $2 { [%eval -3.08] } 16... c5 { [%eval -2.92] }
+17. Rdd1 $2 { [%eval -5.28] } 17... b4 { [%eval -4.98] } 18. axb4 $4
+{ [%eval -8.44] } 18... Qxb4 { [%eval -8.18] } 19. Kc1 { [%eval -8.18] } 19...
+Bc4 { [%eval -7.61] } 20. Qf2 $2 { [%eval -9.95] } 20... Qxb2+
+{ [%eval -9.47] } 21. Kd2 { [%eval -9.35] } 21... Rbd8+ { [%eval -8.32] } 22.
+Ke1 $2 { [%eval #-11] } 22... Qxc3+ { [%eval #-10] } 23. Rd2 { [%eval #-10] }
+23... Rb8 { [%eval #-10] } 24. Bd1 { [%eval #-9] } 24... Rfd8 { [%eval #-8] }
+25. h4 { [%eval #-7] } 25... Rd6 { [%eval #-7] } 26. Rh2 { [%eval #-6] } 26...
+Rbd8 $6 { [%eval -121.27] } 27. Rg2 $6 { [%eval #-24] } 27... f6 $6
+{ [%eval -20.14] } 0-1

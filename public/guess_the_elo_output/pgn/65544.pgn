@@ -1,0 +1,35 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/pyAvjVMs"]
+[Site "https://lichess.org/V3ESsuxv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PluLem"]
+[Black "FreedomSama"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:00:01"]
+[WhiteElo "1141"]
+[BlackElo "1205"]
+[WhiteRatingDiff "+26"]
+[BlackRatingDiff "-17"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... d5 $6 { [%eval 0.71] } 2. Nc3 $2 { [%eval -0.31] }
+2... Nf6 $6 { [%eval 0.41] } 3. exd5 { [%eval 0.31] } 3... Nxd5
+{ [%eval 0.37] } 4. Nf3 { [%eval 0.46] } 4... Bg4 { [%eval 0.5] } 5. Bb5+
+{ [%eval 0.2] } 5... c6 { [%eval 0.3] } 6. Ba4 { [%eval -0.19] } 6... b5 $6
+{ [%eval 0.36] } 7. Bb3 { [%eval 0.24] } 7... Nxc3 { [%eval 0.58] } 8. bxc3
+{ [%eval 0.52] } 8... e6 { [%eval 0.38] } 9. O-O { [%eval 0.04] } 9... Bxf3 $2
+{ [%eval 1.28] } 10. Qxf3 { [%eval 1.11] } 10... Na6 $4 { [%eval 5.7] } 11. c4
+$4 { [%eval 1.54] } 11... Nb4 $2 { [%eval 4.43] } 12. Re1 $4 { [%eval 0.53] }
+12... a5 $4 { [%eval 3.62] } 13. cxb5 $2 { [%eval 2.43] } 13... cxb5 $2
+{ [%eval 4.02] } 14. Bxe6 $2 { [%eval 1.07] } 14... Nxc2 $4 { [%eval #1] } 15.
+Bc8+ $4 { [%eval 1.05] } 15... Nxe1 $4 { [%eval #4] } 16. Qxa8 $4
+{ [%eval 1.1] } 16... Bc5 $4 { [%eval 6.45] } 17. Qc6+ { [%eval 6.22] } 17...
+Kf8 { [%eval 6.4] } 18. Qxc5+ { [%eval 6.11] } 18... Qe7 { [%eval 6.18] } 19.
+Ba3 $2 { [%eval 5.1] } 19... Qxc5 $4 { [%eval 12.21] } 20. Bxc5+
+{ [%eval 12.06] } 20... Ke8 { [%eval 12.0] } 21. Rxe1+ { [%eval 11.75] } 21...
+Kd8 { [%eval 11.58] } 22. Bf5 { [%eval 11.29] } 22... g6 $6 { [%eval #1] } 23.
+Bb6# 1-0

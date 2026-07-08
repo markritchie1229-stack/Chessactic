@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PX7rLSCx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "biologer"]
+[Black "ArtyomGrigoryan"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:29:10"]
+[WhiteElo "1524"]
+[BlackElo "1550"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "C23"]
+[Opening "Bishop's Opening: Philidor Counterattack"]
+[TimeControl "540+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.47] } 2. Bc4 { [%eval 0.05] } 2... c6
+{ [%eval 0.41] } 3. Qf3 $6 { [%eval -0.3] } 3... Nf6 { [%eval -0.3] } 4. Nh3 $2
+{ [%eval -1.84] } 4... d5 { [%eval -1.61] } 5. exd5 { [%eval -1.75] } 5... cxd5
+{ [%eval -1.69] } 6. Bb3 { [%eval -1.77] } 6... Nc6 { [%eval -1.74] } 7. c3
+{ [%eval -1.69] } 7... e4 { [%eval -1.7] } 8. Qe2 { [%eval -1.58] } 8... d4 $2
+{ [%eval 0.25] } 9. cxd4 $2 { [%eval -2.26] } 9... Nxd4 { [%eval -1.73] } 10.
+Qc4 { [%eval -2.19] } 10... Be6 $6 { [%eval -1.43] } 11. Qa4+ $4
+{ [%eval -10.14] } 11... b5 { [%eval -9.8] } 12. Qa6 { [%eval -10.11] } 12...
+Bc8 { [%eval -10.09] } 13. Bxf7+ { [%eval -16.27] } 13... Kxf7
+{ [%eval -16.13] } 14. Ng5+ { [%eval -15.87] } 14... Ke8 { [%eval -15.5] } 15.
+Ne6 { [%eval -15.53] } 15... Bxe6 { [%eval -14.99] } 16. O-O { [%eval -18.87] }
+16... Bc8 { [%eval -18.42] } 17. Qxf6 { [%eval -20.12] } 17... Qxf6
+{ [%eval -19.76] } 18. Nc3 { [%eval -19.32] } 18... Qg6 { [%eval -18.51] } 19.
+Re1 { [%eval -27.35] } 19... Bh3 { [%eval -23.91] } 20. g3 $6 { [%eval #-7] }
+20... Nf3+ { [%eval #-6] } 21. Kh1 { [%eval #-6] } 0-1

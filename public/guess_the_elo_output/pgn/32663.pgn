@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Gvtay2jb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "iNTEAM"]
+[Black "uytrewq"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:15:33"]
+[WhiteElo "2116"]
+[BlackElo "1847"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-3"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.39] } 2...
+Nc6 { [%eval 0.33] } 3. Bc4 { [%eval 0.28] } 3... Bc5 { [%eval 0.23] } 4. d3
+{ [%eval 0.17] } 4... d6 { [%eval 0.54] } 5. Nc3 { [%eval 0.12] } 5... Bg4
+{ [%eval 0.52] } 6. h3 { [%eval 0.53] } 6... Bxf3 { [%eval 0.47] } 7. Qxf3
+{ [%eval 0.4] } 7... Qf6 { [%eval 0.41] } 8. Qxf6 { [%eval 0.13] } 8... Nxf6
+{ [%eval 0.25] } 9. Be3 { [%eval 0.08] } 9... Bd4 { [%eval 0.48] } 10. O-O-O
+{ [%eval 0.0] } 10... Bxe3+ { [%eval 0.05] } 11. fxe3 { [%eval 0.04] } 11...
+Ke7 { [%eval 0.35] } 12. Rdf1 { [%eval 0.16] } 12... Na5 { [%eval 0.43] } 13.
+Nd5+ { [%eval 0.2] } 13... Nxd5 { [%eval 0.27] } 14. Bxd5 { [%eval 0.2] } 14...
+f6 { [%eval 0.31] } 15. b4 { [%eval -0.06] } 15... Nc6 { [%eval 0.02] } 16.
+Bxc6 { [%eval -0.41] } 16... bxc6 { [%eval -0.33] } 17. a3 { [%eval -0.45] }
+17... a5 { [%eval -0.5] } 18. Kb2 $6 { [%eval -1.16] } 18... axb4
+{ [%eval -1.09] } 19. axb4 { [%eval -0.95] } 19... Rhb8 { [%eval -1.02] } 20.
+c3 { [%eval -1.43] } 20... c5 { [%eval -1.42] } 21. Kb3 { [%eval -1.43] } 21...
+cxb4 { [%eval -1.17] } 22. cxb4 $6 { [%eval -1.68] } 22... c5 { [%eval -1.6] }
+23. Rb1 $2 { [%eval -3.35] } 23... Rxb4+ { [%eval -3.32] } 24. Kc3
+{ [%eval -3.38] } 24... Ra3+ { [%eval -3.35] } 25. Kc2 { [%eval -3.34] } 25...
+Ra2+ { [%eval -3.16] } 26. Kc3 { [%eval -3.25] } 26... Rxb1 { [%eval -3.12] }
+27. Rxb1 { [%eval -3.15] } 27... Rxg2 { [%eval -3.08] } 28. Kc4
+{ [%eval -3.33] } 28... Rc2+ { [%eval -2.96] } 29. Kd5 { [%eval -2.65] } 29...
+Rd2 $6 { [%eval -2.0] } 30. Rb7+ { [%eval -1.97] } 30... Kf8 $2 { [%eval 0.0] }
+31. Ke6 { [%eval 0.0] } 31... g5 { [%eval 0.0] } 32. Rb3 $4 { [%eval -3.12] }
+32... h5 $2 { [%eval -0.26] } 33. Kxf6 { [%eval -0.31] } 33... g4 $4
+{ [%eval #1] } 34. Rb8# 1-0

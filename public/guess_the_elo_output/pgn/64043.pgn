@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/4T7fPosZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "randomalbumtitle"]
+[Black "Supergrifo78"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:03:27"]
+[WhiteElo "1670"]
+[BlackElo "1783"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-14"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "600+5"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.29] } 2... d6
+{ [%eval 0.38] } 3. h3 { [%eval 0.18] } 3... Nf6 { [%eval 0.28] } 4. Nc3
+{ [%eval 0.2] } 4... Be7 { [%eval 0.22] } 5. Bc4 { [%eval 0.26] } 5... O-O
+{ [%eval 0.33] } 6. O-O { [%eval 0.27] } 6... Be6 { [%eval 0.18] } 7. Bxe6
+{ [%eval 0.3] } 7... fxe6 { [%eval 0.39] } 8. d4 { [%eval 0.18] } 8... exd4
+{ [%eval 0.41] } 9. Nxd4 { [%eval 0.13] } 9... Qd7 { [%eval 0.1] } 10. Bg5
+{ [%eval -0.06] } 10... a6 { [%eval 0.25] } 11. Bxf6 $6 { [%eval -0.25] } 11...
+Bxf6 { [%eval -0.14] } 12. Nf3 { [%eval -0.28] } 12... Bxc3 { [%eval -0.27] }
+13. bxc3 { [%eval -0.22] } 13... e5 $2 { [%eval 1.12] } 14. Rb1 $2
+{ [%eval -0.18] } 14... b6 $4 { [%eval 5.6] } 15. Qd5+ { [%eval 5.52] } 15...
+Kh8 { [%eval 5.57] } 16. Qxa8 { [%eval 5.57] } 16... Qf7 { [%eval 5.91] } 17.
+Qd5 { [%eval 5.62] } 17... Qg6 $2 { [%eval 7.21] } 18. Qd3 $2 { [%eval 5.24] }
+18... Nd7 { [%eval 5.29] } 19. Qxa6 { [%eval 5.15] } 19... Rxf3
+{ [%eval 5.33] } 20. Qc8+ { [%eval 5.18] } 20... Nf8 { [%eval 5.04] } 21. Qxc7
+{ [%eval 4.98] } 21... Kg8 $2 { [%eval 6.27] } 22. Qc4+ { [%eval 6.01] } 22...
+Kh8 $6 { [%eval 6.77] } 23. Kh2 $6 { [%eval 6.14] } 23... Rf4 { [%eval 6.55] }
+24. Rxb6 { [%eval 6.28] } 24... Rxe4 $4 { [%eval 16.22] } 25. Qc8 $4
+{ [%eval 5.31] } 25... Rf4 $6 { [%eval 6.15] } 26. Rb8 { [%eval 5.74] } 26...
+Qh6 $4 { [%eval #2] } 27. Qxf8+ { [%eval #1] } 1-0

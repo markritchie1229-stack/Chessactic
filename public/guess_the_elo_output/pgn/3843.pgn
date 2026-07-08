@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/phJzVtgx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "harimato"]
+[Black "ducky24120"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:37:24"]
+[WhiteElo "1747"]
+[BlackElo "1728"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... Nf6 { [%eval 0.33] } 2. h3 { [%eval 0.08] } 2... e6
+{ [%eval 0.08] } 3. Bf4 { [%eval -0.28] } 3... c5 { [%eval -0.18] } 4. dxc5
+{ [%eval -0.24] } 4... Bxc5 { [%eval -0.31] } 5. e3 { [%eval -0.35] } 5... d5
+{ [%eval -0.3] } 6. c3 { [%eval -0.5] } 6... O-O { [%eval -0.41] } 7. Nf3
+{ [%eval -0.42] } 7... Nc6 { [%eval -0.48] } 8. Nbd2 { [%eval -0.55] } 8... Qb6
+$6 { [%eval 0.13] } 9. b4 { [%eval 0.09] } 9... Be7 { [%eval 0.06] } 10. a4
+{ [%eval -0.02] } 10... a5 { [%eval 0.33] } 11. b5 { [%eval 0.39] } 11... Na7
+{ [%eval 0.79] } 12. Be2 { [%eval 0.63] } 12... Bd7 { [%eval 0.8] } 13. O-O
+{ [%eval 0.92] } 13... Rac8 $6 { [%eval 1.48] } 14. Rc1 { [%eval 1.31] } 14...
+Bd6 $2 { [%eval 2.35] } 15. Bxd6 $2 { [%eval 1.2] } 15... Qxd6 { [%eval 1.37] }
+16. Qb3 { [%eval 0.96] } 16... b6 { [%eval 0.96] } 17. Rc2 { [%eval 0.64] }
+17... Rc7 { [%eval 0.54] } 18. Rfc1 { [%eval 0.5] } 18... Rfc8 { [%eval 0.81] }
+19. c4 { [%eval 0.84] } 19... dxc4 $6 { [%eval 1.7] } 20. Nxc4 { [%eval 1.68] }
+20... Qd5 { [%eval 2.17] } 21. Nfe5 { [%eval 1.74] } 21... Nxb5 $2
+{ [%eval 4.1] } 22. Bf3 $6 { [%eval 3.35] } 22... Ne4 $4 { [%eval 8.25] } 23.
+Nxd7 { [%eval 7.87] } 23... Rxd7 $2 { [%eval 13.09] } 24. Nxb6
+{ [%eval 12.51] } 24... Qxb3 $6 { [%eval #2] } 25. Rxc8+ { [%eval #1] } 25...
+Rd8 { [%eval #1] } 26. Rxd8# 1-0

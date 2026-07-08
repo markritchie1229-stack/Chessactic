@@ -1,0 +1,44 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Njb3rY0d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "allthechesses"]
+[Black "trhoffman777"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:31:32"]
+[WhiteElo "1255"]
+[BlackElo "1327"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+16"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.2] } 1... Nc6 { [%eval 0.67] } 2. e3 { [%eval 0.43] } 2... d5
+{ [%eval 0.36] } 3. Bd3 $6 { [%eval -0.38] } 3... e6 $6 { [%eval 0.33] } 4. e4
+$6 { [%eval -0.66] } 4... Nxd4 { [%eval -0.53] } 5. e5 { [%eval -1.0] } 5...
+Nc6 { [%eval -0.83] } 6. f4 $6 { [%eval -1.36] } 6... Bd7 $6 { [%eval -0.76] }
+7. Nf3 { [%eval -1.04] } 7... Be7 { [%eval -0.62] } 8. Be3 { [%eval -0.83] }
+8... f6 { [%eval -0.91] } 9. O-O { [%eval -0.87] } 9... fxe5 $2
+{ [%eval 0.79] } 10. fxe5 { [%eval 0.18] } 10... Nxe5 $4 { [%eval 11.19] } 11.
+Nxe5 { [%eval 10.83] } 11... Bf6 { [%eval 17.4] } 12. Bd4 $4 { [%eval 3.52] }
+12... b6 $2 { [%eval 5.11] } 13. Qe2 $2 { [%eval 3.4] } 13... c5 $2
+{ [%eval 5.19] } 14. Bc3 { [%eval 5.05] } 14... d4 $2 { [%eval 6.87] } 15. Bd2
+{ [%eval 6.2] } 15... Qc7 $2 { [%eval 7.86] } 16. Bf4 { [%eval 7.38] } 16... g5
+$2 { [%eval 14.79] } 17. Qh5+ { [%eval 14.53] } 17... Kd8 { [%eval 24.78] } 18.
+Ng6 $4 { [%eval 3.91] } 18... gxf4 { [%eval 3.79] } 19. Nxh8 { [%eval 3.35] }
+19... Be8 { [%eval 3.79] } 20. Nf7+ $4 { [%eval 0.68] } 20... Bxf7
+{ [%eval 0.72] } 21. Qxh7 { [%eval 0.73] } 21... Qe7 $2 { [%eval 2.13] } 22.
+Rxf4 { [%eval 2.14] } 22... Kc7 $2 { [%eval 3.17] } 23. Bg6 $2 { [%eval 1.54] }
+23... Bxg6 $6 { [%eval 2.39] } 24. Qxg6 { [%eval 1.83] } 24... Rf8 $6
+{ [%eval 2.79] } 25. Qg3 $4 { [%eval -2.12] } 25... e5 $4 { [%eval 1.59] } 26.
+Re4 { [%eval 1.6] } 26... Nh6 { [%eval 1.67] } 27. Nd2 { [%eval 1.46] } 27...
+Nf5 { [%eval 1.49] } 28. Qf3 $6 { [%eval 0.6] } 28... Ne3 { [%eval 0.93] } 29.
+Nb3 $2 { [%eval -0.63] } 29... Nxc2 { [%eval -0.31] } 30. Rf1 { [%eval -0.5] }
+30... Ne3 { [%eval -0.57] } 31. Re1 $2 { [%eval -3.22] } 31... Nc2 $2
+{ [%eval -0.52] } 32. Rxe5 $6 { [%eval -1.35] } 32... Bxe5 { [%eval -1.27] }
+33. Qd5 $4 { [%eval #-5] } 33... Rf5 $6 { [%eval -11.27] } 34. Rxe5
+{ [%eval -27.21] } 34... Rxe5 { [%eval -25.32] } 35. Qxe5+ { [%eval -31.18] }
+35... Kc6 $4 { [%eval 15.55] } 0-1

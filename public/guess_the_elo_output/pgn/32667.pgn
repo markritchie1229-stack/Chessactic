@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/JLAEDuBd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "malaussene"]
+[Black "ZeyadElsawy"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:15:54"]
+[WhiteElo "1696"]
+[BlackElo "1445"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-4"]
+[ECO "A11"]
+[Opening "English Opening: Caro-Kann Defensive System"]
+[TimeControl "1200+10"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval -0.05] } 1... c6 $6 { [%eval 0.47] } 2. g3 $6 { [%eval -0.04] }
+2... d5 { [%eval 0.07] } 3. b3 { [%eval -0.39] } 3... dxc4 { [%eval -0.09] } 4.
+bxc4 { [%eval -0.13] } 4... b5 $2 { [%eval 1.22] } 5. c5 $2 { [%eval -0.98] }
+5... Na6 $2 { [%eval 0.59] } 6. d4 { [%eval 0.25] } 6... e5 { [%eval 0.18] } 7.
+Bg2 { [%eval 0.32] } 7... Bb7 { [%eval 0.47] } 8. e3 { [%eval 0.55] } 8... exd4
+{ [%eval 0.58] } 9. exd4 { [%eval 0.66] } 9... f5 $2 { [%eval 2.16] } 10. Nf3
+{ [%eval 1.68] } 10... Nf6 $6 { [%eval 2.62] } 11. O-O { [%eval 2.3] } 11... h6
+$2 { [%eval 3.95] } 12. Re1+ { [%eval 3.77] } 12... Be7 { [%eval 3.85] } 13.
+Ne5 { [%eval 3.87] } 13... O-O { [%eval 4.03] } 14. Nxc6 { [%eval 3.95] } 14...
+Bxc6 { [%eval 3.96] } 15. Bxc6 { [%eval 3.68] } 15... Rc8 $6 { [%eval 4.34] }
+16. Bxb5 $2 { [%eval 3.12] } 16... Nb4 $2 { [%eval 4.26] } 17. Qb3+
+{ [%eval 4.38] } 17... Nbd5 { [%eval 4.27] } 18. Nc3 $6 { [%eval 3.67] } 18...
+Rf7 $4 { [%eval 7.33] } 19. Bc4 $6 { [%eval 6.71] } 19... Nxc3 $2
+{ [%eval 9.52] } 20. Bxf7+ { [%eval 9.36] } 20... Kf8 { [%eval 9.21] } 21. Be6
+{ [%eval 8.65] } 21... Rc6 $2 { [%eval 12.68] } 22. Qxc3 { [%eval 12.47] }
+22... Ne4 { [%eval 12.76] } 23. Qc4 { [%eval 12.23] } 23... Bf6
+{ [%eval 13.19] } 24. Bxf5 { [%eval 12.62] } 24... Nxc5 $6 { [%eval #12] } 25.
+d5 $6 { [%eval 15.02] } 1-0

@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/PTbEa3bR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pontecorvo"]
+[Black "Veron7"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:39:52"]
+[WhiteElo "1606"]
+[BlackElo "1688"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "60+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.25] } 2...
+Qf6 $6 { [%eval 1.09] } 3. d3 $6 { [%eval 0.45] } 3... h6 { [%eval 0.47] } 4.
+Be2 { [%eval 0.39] } 4... Bc5 { [%eval 0.37] } 5. O-O { [%eval 0.37] } 5... d6
+{ [%eval 0.52] } 6. c3 { [%eval 0.42] } 6... Ne7 { [%eval 0.56] } 7. a4
+{ [%eval 0.35] } 7... a5 { [%eval 0.45] } 8. Be3 $6 { [%eval -0.08] } 8... Bb6
+$2 { [%eval 1.56] } 9. Bxb6 { [%eval 1.43] } 9... cxb6 { [%eval 1.4] } 10. Nbd2
+{ [%eval 1.35] } 10... O-O { [%eval 1.43] } 11. Nc4 { [%eval 1.37] } 11... Nd7
+{ [%eval 1.65] } 12. h3 $6 { [%eval 1.1] } 12... Ng6 { [%eval 1.43] } 13. Nh2
+$2 { [%eval 0.36] } 13... Rd8 $6 { [%eval 1.09] } 14. Ng4 { [%eval 1.08] }
+14... Qe7 { [%eval 1.23] } 15. Nge3 { [%eval 1.14] } 15... Ndf8 $6
+{ [%eval 1.73] } 16. Nxb6 { [%eval 1.83] } 16... Be6 $6 { [%eval 2.81] } 17.
+Ned5 $6 { [%eval 1.96] } 17... Qg5 { [%eval 2.0] } 18. Kh1 $2 { [%eval 0.76] }
+18... Nh4 $2 { [%eval 2.62] } 19. Bf3 $2 { [%eval 1.21] } 19... Nfg6 $2
+{ [%eval 2.64] } 20. Nc7 $2 { [%eval 1.21] } 20... Rab8 { [%eval 1.41] } 21.
+Nxe6 { [%eval 1.25] } 21... fxe6 { [%eval 1.42] } 22. Bg4 $6 { [%eval 0.8] }
+22... Rf8 $2 { [%eval 3.58] } 23. Bxe6+ { [%eval 3.15] } 23... Kh8
+{ [%eval 3.47] } 24. Nd7 $4 { [%eval #-1] } 24... Qxg2# 0-1

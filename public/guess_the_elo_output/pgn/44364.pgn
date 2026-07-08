@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/g4jjGldC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "h3BestByTest"]
+[Black "MrMj"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:54:26"]
+[WhiteElo "1822"]
+[BlackElo "1757"]
+[WhiteRatingDiff "+60"]
+[BlackRatingDiff "-8"]
+[ECO "A00"]
+[Opening "Clemenz Opening"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. h3 { [%eval 0.07] } 1... e5 { [%eval 0.04] } 2. e4 { [%eval -0.09] } 2...
+Nf6 { [%eval -0.14] } 3. Nc3 { [%eval -0.15] } 3... Bb4 { [%eval -0.11] } 4. a3
+{ [%eval -0.03] } 4... Bxc3 { [%eval -0.06] } 5. dxc3 { [%eval -0.17] } 5...
+O-O { [%eval -0.06] } 6. Bd3 { [%eval -0.2] } 6... d5 { [%eval -0.18] } 7. exd5
+{ [%eval -0.25] } 7... Qxd5 { [%eval -0.26] } 8. f3 { [%eval -0.29] } 8... Nc6
+{ [%eval 0.06] } 9. Ne2 { [%eval 0.0] } 9... Be6 { [%eval 0.04] } 10. Be3
+{ [%eval -0.16] } 10... Rad8 $6 { [%eval 0.51] } 11. O-O $6 { [%eval -0.09] }
+11... Rfe8 { [%eval 0.27] } 12. Qe1 { [%eval 0.0] } 12... e4 { [%eval 0.45] }
+13. fxe4 { [%eval 0.4] } 13... Nxe4 { [%eval 0.5] } 14. Nf4 { [%eval 0.19] }
+14... Qe5 { [%eval 0.29] } 15. Nxe6 { [%eval 0.27] } 15... Rxe6
+{ [%eval 0.33] } 16. Qh4 { [%eval 0.29] } 16... Nf6 { [%eval 0.74] } 17. Rae1
+{ [%eval 0.79] } 17... Qh5 { [%eval 0.87] } 18. Bg5 { [%eval 0.52] } 18... Qxh4
+{ [%eval 0.43] } 19. Bxh4 { [%eval 0.37] } 19... Rdd6 $6 { [%eval 0.89] } 20.
+Bxf6 { [%eval 0.62] } 20... Rxe1 { [%eval 1.05] } 21. Rxe1 { [%eval 1.0] }
+21... gxf6 { [%eval 0.98] } 22. Re8+ { [%eval 0.99] } 22... Kg7
+{ [%eval 0.86] } 23. Rc8 { [%eval 0.91] } 23... Rd7 { [%eval 0.97] } 24. Kf2
+{ [%eval 0.62] } 24... Ne5 { [%eval 0.67] } 25. Ke3 { [%eval 0.52] } 25... b6
+{ [%eval 0.55] } 26. Re8 { [%eval 0.35] } 26... a5 { [%eval 0.63] } 27. Bb5 $6
+{ [%eval -0.31] } 27... Rd6 $6 { [%eval 0.39] } 28. Re7 { [%eval 0.07] } 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/P1NTGSXf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Flyper"]
+[Black "Vijay786"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:22:11"]
+[WhiteElo "1446"]
+[BlackElo "1525"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+16"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.37] } 2... d6
+{ [%eval 0.37] } 3. Bc4 { [%eval 0.33] } 3... Nf6 { [%eval 0.28] } 4. Nc3
+{ [%eval 0.25] } 4... a6 { [%eval 0.66] } 5. Ng5 { [%eval 0.66] } 5... Be6 $2
+{ [%eval 2.14] } 6. Bxe6 { [%eval 1.92] } 6... fxe6 { [%eval 2.09] } 7. Nxe6
+{ [%eval 2.31] } 7... Qe7 $2 { [%eval 3.34] } 8. Qg4 $4 { [%eval -9.04] } 8...
+Nxg4 { [%eval -8.72] } 9. d4 $2 { [%eval -13.97] } 9... Qxe6 { [%eval -13.83] }
+10. Nd5 { [%eval -14.82] } 10... Qf7 { [%eval -14.65] } 11. Be3
+{ [%eval -15.89] } 11... exd4 { [%eval -15.85] } 12. Bxd4 { [%eval -15.72] }
+12... Nc6 { [%eval -15.51] } 13. O-O-O { [%eval -16.17] } 13... Nxd4
+{ [%eval -16.01] } 14. Rxd4 { [%eval -15.9] } 14... c5 { [%eval -15.71] } 15.
+Rd3 { [%eval -17.26] } 15... Ne5 { [%eval -13.86] } 16. Rg3 { [%eval -14.43] }
+16... Be7 { [%eval -14.35] } 17. f4 { [%eval -14.3] } 17... Nc4
+{ [%eval -13.96] } 18. Rf1 { [%eval -14.52] } 18... O-O { [%eval -14.19] } 19.
+Rgf3 { [%eval -16.42] } 19... Bf6 { [%eval -15.9] } 20. e5 { [%eval -19.95] }
+20... Bxe5 { [%eval -19.39] } 21. fxe5 $6 { [%eval #-10] } 21... Qxd5
+{ [%eval -29.82] } 22. Rxf8+ $6 { [%eval #-5] } 22... Rxf8 { [%eval #-4] } 23.
+Rd1 { [%eval #-4] } 23... Qxe5 { [%eval #-3] } 24. g4 { [%eval #-1] } 24...
+Qxb2# 0-1

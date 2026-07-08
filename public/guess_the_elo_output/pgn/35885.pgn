@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LtAA2HzC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ventdunord"]
+[Black "Angel4"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:02:34"]
+[WhiteElo "1726"]
+[BlackElo "1700"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+16"]
+[ECO "C21"]
+[Opening "Danish Gambit"]
+[TimeControl "1200+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.31] } 2. d4 $6 { [%eval -0.21] } 2...
+exd4 { [%eval 0.17] } 3. c3 { [%eval -0.1] } 3... a6 $6 { [%eval 0.45] } 4.
+cxd4 { [%eval 0.18] } 4... d5 { [%eval 0.21] } 5. e5 { [%eval -0.13] } 5... Nc6
+{ [%eval 0.27] } 6. g3 { [%eval -0.12] } 6... Be6 { [%eval 0.05] } 7. Bg2
+{ [%eval 0.12] } 7... Qd7 { [%eval -0.05] } 8. Qb3 $2 { [%eval -1.72] } 8...
+O-O-O $2 { [%eval -0.42] } 9. Nc3 $2 { [%eval -1.85] } 9... Nxd4
+{ [%eval -1.87] } 10. Qd1 { [%eval -2.03] } 10... Nb5 $2 { [%eval -0.97] } 11.
+Nge2 { [%eval -0.86] } 11... Bb4 $6 { [%eval -0.16] } 12. O-O { [%eval -0.44] }
+12... Bg4 { [%eval -0.45] } 13. Nxd5 { [%eval -0.5] } 13... Qe6 $2
+{ [%eval 2.01] } 14. Qb3 $4 { [%eval -2.53] } 14... Bxe2 { [%eval -2.29] } 15.
+Qxb4 $6 { [%eval -3.1] } 15... Bxf1 { [%eval -3.01] } 16. Kxf1
+{ [%eval -3.17] } 16... Rxd5 { [%eval -2.89] } 17. Bxd5 $2 { [%eval -4.29] }
+17... Qxd5 { [%eval -4.39] } 18. Qf8+ { [%eval -4.47] } 18... Qd8 $2
+{ [%eval -3.0] } 19. Qxg7 { [%eval -3.17] } 19... Ne7 { [%eval -3.18] } 20. Bg5
+$4 { [%eval -6.34] } 20... Nf5 $4 { [%eval -2.47] } 21. Bxd8 { [%eval -2.5] }
+21... Nxg7 { [%eval -2.52] } 22. Bf6 { [%eval -2.56] } 22... Rg8
+{ [%eval -2.45] } 23. Rd1 { [%eval -2.91] } 23... Nh5 { [%eval -2.62] } 24. Be7
+{ [%eval -2.6] } 24... Re8 { [%eval -2.55] } 25. Bh4 { [%eval -2.7] } 25... Ng7
+{ [%eval -2.48] } 26. a4 $6 { [%eval -3.09] } 26... Na7 { [%eval -3.08] } 27.
+f4 { [%eval -3.11] } 27... Nf5 { [%eval -3.06] } 28. Bf6 $2 { [%eval -5.88] }
+28... Ne3+ { [%eval -5.76] } 0-1

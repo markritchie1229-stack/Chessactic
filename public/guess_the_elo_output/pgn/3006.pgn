@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/AOp5v8WS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "soul2197"]
+[Black "Trumpov"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:03:51"]
+[WhiteElo "1940"]
+[BlackElo "2106"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+42"]
+[ECO "B76"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack, Panov Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.31] } 2... d6
+{ [%eval 0.25] } 3. d4 { [%eval 0.29] } 3... cxd4 { [%eval 0.41] } 4. Nxd4
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.27] } 5. Nc3 { [%eval 0.23] } 5... g6
+{ [%eval 0.59] } 6. Be3 { [%eval 0.46] } 6... Bg7 { [%eval 0.46] } 7. f3
+{ [%eval 0.5] } 7... O-O { [%eval 0.58] } 8. Qd2 { [%eval 0.64] } 8... Nc6
+{ [%eval 0.77] } 9. g4 { [%eval 0.72] } 9... Bd7 { [%eval 0.82] } 10. h4
+{ [%eval 0.48] } 10... Ne5 $6 { [%eval 1.07] } 11. Be2 { [%eval 0.68] } 11...
+Rc8 $6 { [%eval 1.31] } 12. g5 $2 { [%eval 0.0] } 12... Nh5 { [%eval 0.22] }
+13. f4 $2 { [%eval -1.09] } 13... Nc4 { [%eval -0.72] } 14. Bxc4
+{ [%eval -0.93] } 14... Rxc4 { [%eval -0.96] } 15. b3 $2 { [%eval -2.03] }
+15... Rxc3 { [%eval -1.81] } 16. Qxc3 { [%eval -1.62] } 16... Ng3
+{ [%eval -1.52] } 17. Rg1 $6 { [%eval -2.08] } 17... Nxe4 { [%eval -1.78] } 18.
+Qb4 $6 { [%eval -2.44] } 18... e5 $2 { [%eval -0.5] } 19. Ne2 $2
+{ [%eval -2.82] } 19... exf4 { [%eval -2.6] } 20. Qxe4 $6 { [%eval -3.18] }
+20... fxe3 { [%eval -3.09] } 21. O-O-O { [%eval -3.47] } 21... Qa5
+{ [%eval -3.1] } 22. a4 $6 { [%eval -3.63] } 22... Bf5 $2 { [%eval -2.2] } 23.
+Qd5 $4 { [%eval -16.79] } 23... Rc8 { [%eval -14.29] } 24. c4
+{ [%eval -18.43] } 24... Qb4 { [%eval -15.16] } 25. Qxd6 $6 { [%eval #-2] }
+25... Rxc4+ { [%eval #-1] } 26. bxc4 { [%eval #-1] } 26... Qxc4+ $6
+{ [%eval #-1] } 27. Nc3 { [%eval #-1] } 27... Qxc3# 0-1

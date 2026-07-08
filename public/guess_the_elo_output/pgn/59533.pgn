@@ -1,0 +1,45 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/T6tNx2Ez"]
+[Date "????.??.??"]
+[Round "?"]
+[White "flamemaster51"]
+[Black "Delors"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:57:04"]
+[WhiteElo "1446"]
+[BlackElo "1306"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Central Variation, Greco Variation"]
+[TimeControl "420+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.22] } 2... dxc4
+{ [%eval 0.54] } 3. e4 { [%eval 0.17] } 3... b5 { [%eval 0.64] } 4. Nc3 $6
+{ [%eval -0.02] } 4... Ba6 { [%eval 0.0] } 5. Be3 { [%eval -0.3] } 5... b4 $6
+{ [%eval 0.56] } 6. Nce2 $6 { [%eval 0.0] } 6... b3 $2 { [%eval 2.02] } 7. axb3
+{ [%eval 1.87] } 7... cxb3 { [%eval 1.95] } 8. Ng3 $6 { [%eval 0.99] } 8... e6
+$4 { [%eval 4.42] } 9. Bxa6 { [%eval 4.31] } 9... Nxa6 { [%eval 4.4] } 10. Rxa6
+{ [%eval 4.21] } 10... Bb4+ { [%eval 4.28] } 11. Bd2 $6 { [%eval 3.39] } 11...
+Bxd2+ $2 { [%eval 4.83] } 12. Qxd2 { [%eval 4.81] } 12... Qc8 { [%eval 4.82] }
+13. Ra1 { [%eval 4.47] } 13... Nf6 { [%eval 4.39] } 14. Nf3 { [%eval 4.4] }
+14... O-O { [%eval 4.41] } 15. O-O { [%eval 4.35] } 15... Rd8 { [%eval 4.52] }
+16. Qg5 { [%eval 4.36] } 16... h6 { [%eval 4.35] } 17. Qe3 { [%eval 4.2] }
+17... Ng4 $6 { [%eval 5.19] } 18. Qf4 { [%eval 4.71] } 18... Nf6
+{ [%eval 4.79] } 19. e5 $6 { [%eval 4.22] } 19... Nd5 { [%eval 4.26] } 20. Qg4
+{ [%eval 4.12] } 20... Nc3 $4 { [%eval 8.7] } 21. bxc3 { [%eval 8.4] } 21... b2
+$2 { [%eval 9.91] } 22. Rab1 $2 { [%eval 8.87] } 22... Rb8 $2 { [%eval 10.99] }
+23. Nh5 { [%eval 10.43] } 23... g6 { [%eval 9.87] } 24. Nf6+ { [%eval 9.45] }
+24... Kf8 { [%eval 9.82] } 25. Rfd1 { [%eval 9.46] } 25... Rb3 $6
+{ [%eval 11.14] } 26. Rd2 { [%eval 9.8] } 26... Qb8 { [%eval 12.96] } 27. Ne1
+{ [%eval 9.89] } 27... Qa8 { [%eval 10.35] } 28. Rdxb2 { [%eval 9.73] } 28...
+Rxc3 { [%eval 14.81] } 29. Rb7 { [%eval 12.53] } 29... h5 { [%eval 19.35] } 30.
+Qg5 { [%eval 18.27] } 30... Rc4 { [%eval 21.01] } 31. Qh6+ { [%eval 19.54] }
+31... Ke7 { [%eval 17.19] } 32. Nf3 { [%eval 14.95] } 32... Rh8
+{ [%eval 24.43] } 33. Qg5 { [%eval 18.97] } 33... h4 $6 { [%eval #5] } 34. Nh7+
+$6 { [%eval 14.74] } 34... Kd7 { [%eval 14.02] } 35. Nf6+ { [%eval 12.92] }
+35... Ke7 $6 { [%eval #5] } 36. Nd5+ { [%eval #4] } 36... Kd7 { [%eval #3] }
+37. Qe7+ { [%eval #2] } 37... Kc8 { [%eval #2] } 38. Rxc7+ { [%eval #1] } 38...
+Rxc7 { [%eval #1] } 39. Qxc7# 1-0

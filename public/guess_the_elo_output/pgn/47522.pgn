@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Ps0MhKCn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Reverse_Logo"]
+[Black "gunawan_mn"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:34:53"]
+[WhiteElo "1992"]
+[BlackElo "2014"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B07"]
+[Opening "Pirc Defense: Byrne Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... d6 { [%eval 0.48] } 2. d4 { [%eval 0.43] } 2... Nf6
+{ [%eval 0.43] } 3. Nc3 { [%eval 0.52] } 3... g6 { [%eval 0.52] } 4. Bg5
+{ [%eval 0.42] } 4... Bg7 { [%eval 0.49] } 5. Nf3 { [%eval 0.5] } 5... O-O
+{ [%eval 0.49] } 6. Qd2 { [%eval 0.32] } 6... c5 { [%eval 0.47] } 7. O-O-O
+{ [%eval 0.01] } 7... cxd4 { [%eval 0.04] } 8. Nxd4 { [%eval -0.05] } 8... Nc6
+{ [%eval 0.14] } 9. Nb3 { [%eval 0.04] } 9... a6 { [%eval 0.16] } 10. h4
+{ [%eval 0.06] } 10... Be6 { [%eval 0.28] } 11. Be2 { [%eval 0.07] } 11... b5
+$6 { [%eval 0.85] } 12. h5 { [%eval 0.88] } 12... b4 { [%eval 0.66] } 13. Nd5
+$2 { [%eval -1.51] } 13... Nxe4 { [%eval -1.47] } 14. Qe3 { [%eval -1.5] }
+14... Nxg5 { [%eval -1.18] } 15. Qxg5 { [%eval -1.36] } 15... h6
+{ [%eval -1.31] } 16. Qh4 $2 { [%eval -2.53] } 16... g5 $6 { [%eval -1.88] }
+17. Qe4 { [%eval -1.65] } 17... a5 { [%eval -1.2] } 18. Bd3 { [%eval -1.44] }
+18... Re8 { [%eval -1.78] } 19. f4 $2 { [%eval -4.02] } 19... a4
+{ [%eval -3.47] } 20. fxg5 $2 { [%eval -5.39] } 20... Bxd5 { [%eval -4.93] }
+21. Qh7+ { [%eval -4.94] } 21... Kf8 { [%eval -5.09] } 22. gxh6
+{ [%eval -5.01] } 22... Bf6 { [%eval -4.25] } 23. Qg7+ $4 { [%eval -14.78] }
+23... Bxg7 { [%eval -14.64] } 24. hxg7+ { [%eval -14.27] } 24... Kxg7
+{ [%eval -13.63] } 25. h6+ { [%eval -14.33] } 25... Kh8 { [%eval -13.88] } 26.
+h7 { [%eval -22.06] } 26... axb3 { [%eval -20.8] } 0-1

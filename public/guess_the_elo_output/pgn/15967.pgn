@@ -1,0 +1,35 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/awm8bp3q"]
+[Site "https://lichess.org/SWaLNyFv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "toppicot"]
+[Black "komarnik"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:35:33"]
+[WhiteElo "1700"]
+[BlackElo "1939"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+4"]
+[ECO "D08"]
+[Opening "Queen's Gambit Refused: Albin Countergambit, Normal Line"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.33] } 2. c4 { [%eval 0.2] } 2... e5
+{ [%eval 0.6] } 3. dxe5 { [%eval 0.66] } 3... d4 { [%eval 0.58] } 4. Nf3
+{ [%eval 0.67] } 4... Nc6 { [%eval 0.55] } 5. Bf4 { [%eval 0.15] } 5... Nge7
+{ [%eval 0.18] } 6. Na3 $6 { [%eval -0.81] } 6... Ng6 { [%eval -0.74] } 7. Bg3
+{ [%eval -1.21] } 7... Bb4+ { [%eval -1.2] } 8. Nd2 { [%eval -1.23] } 8...
+Ncxe5 $6 { [%eval -0.32] } 9. Nb5 $2 { [%eval -2.82] } 9... a6 $4
+{ [%eval 0.85] } 10. a3 $4 { [%eval -3.68] } 10... Bxd2+ { [%eval -3.66] } 11.
+Qxd2 { [%eval -3.66] } 11... axb5 { [%eval -3.32] } 12. Qb4 $2
+{ [%eval -5.72] } 12... bxc4 { [%eval -5.74] } 13. O-O-O { [%eval -5.54] }
+13... Qd6 $2 { [%eval -3.12] } 14. Qb5+ $4 { [%eval -8.78] } 14... c6 $2
+{ [%eval -7.15] } 15. Qb6 { [%eval -6.59] } 15... O-O $2 { [%eval -4.93] } 16.
+Rxd4 $4 { [%eval -8.85] } 16... Qe7 { [%eval -8.49] } 17. Re4 $2
+{ [%eval -10.03] } 17... Bf5 { [%eval -8.61] } 18. Re3 $2 { [%eval -19.64] }
+18... Qg5 $2 { [%eval -7.82] } 19. f4 $2 { [%eval -12.05] } 19... Nxf4
+{ [%eval -9.83] } 20. Rxe5 $2 { [%eval #-4] } 20... Nd3+ { [%eval #-3] } 21.
+Kb1 { [%eval #-3] } 21... Nxe5+ $6 { [%eval -18.7] } 22. Ka1 $6 { [%eval #-2] }
+22... Qc1+ { [%eval #-1] } 0-1

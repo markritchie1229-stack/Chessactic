@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/iB9gMh4i"]
+[Date "????.??.??"]
+[Round "?"]
+[White "brian_27"]
+[Black "CokeVoAYCE"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:53:00"]
+[WhiteElo "1712"]
+[BlackElo "1751"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "240+5"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... e5 { [%eval 0.1] } 2. b3 { [%eval -0.25] } 2... Bc5
+{ [%eval 0.01] } 3. Bb2 { [%eval -0.01] } 3... d6 { [%eval 0.07] } 4. g3
+{ [%eval -0.08] } 4... Nf6 { [%eval -0.01] } 5. Bg2 { [%eval -0.1] } 5... c6
+{ [%eval 0.15] } 6. e3 { [%eval 0.07] } 6... Bf5 { [%eval 0.2] } 7. Ne2
+{ [%eval 0.08] } 7... Nbd7 { [%eval 0.22] } 8. O-O { [%eval -0.04] } 8... Bd3
+{ [%eval 0.06] } 9. Re1 { [%eval 0.0] } 9... e4 { [%eval 0.3] } 10. Nbc3
+{ [%eval 0.24] } 10... d5 $2 { [%eval 1.75] } 11. cxd5 { [%eval 1.66] } 11...
+cxd5 { [%eval 1.62] } 12. Nf4 { [%eval 1.76] } 12... Nb6 { [%eval 2.2] } 13. a3
+{ [%eval 1.9] } 13... Bd6 $2 { [%eval 3.18] } 14. Nxd3 { [%eval 3.13] } 14...
+exd3 { [%eval 3.27] } 15. e4 { [%eval 3.24] } 15... O-O $2 { [%eval 4.32] } 16.
+Nxd5 $2 { [%eval 2.11] } 16... Nfxd5 { [%eval 2.18] } 17. exd5 { [%eval 2.16] }
+17... Qg5 { [%eval 2.13] } 18. Re3 { [%eval 2.04] } 18... Nxd5 $4
+{ [%eval 5.29] } 19. Rxd3 { [%eval 5.19] } 19... Nf6 $2 { [%eval 6.37] } 20.
+Rxd6 { [%eval 6.31] } 20... Rfe8 $6 { [%eval 7.02] } 21. Bxf6 { [%eval 6.88] }
+21... gxf6 { [%eval 6.71] } 22. Qf3 $6 { [%eval 6.19] } 22... Kg7 $6
+{ [%eval 6.78] } 23. Qxb7 $4 { [%eval 3.13] } 23... Qe5 { [%eval 3.02] } 24.
+Rd7 $2 { [%eval 1.68] } 24... Qxa1+ { [%eval 1.72] } 25. Bf1 { [%eval 1.63] }
+25... Rf8 { [%eval 1.69] } 26. Kg2 { [%eval 1.57] } 26... Qxa3 $4
+{ [%eval 7.35] } 27. Bc4 { [%eval 3.58] } 27... Rab8 $4 { [%eval #5] } 28.
+Rxf7+ { [%eval #4] } 28... Rxf7 { [%eval #3] } 29. Qxf7+ { [%eval #2] } 29...
+Kh6 { [%eval #2] } 30. Qxf6+ { [%eval #1] } 30... Kh5 { [%eval #1] } 31. Be2#
+1-0

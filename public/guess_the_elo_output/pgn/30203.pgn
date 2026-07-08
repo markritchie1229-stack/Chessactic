@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/yK5BKPIc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Amantea"]
+[Black "testtesttest123"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:33:56"]
+[WhiteElo "1483"]
+[BlackElo "1641"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C46"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.24] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.4] } 3. Bc4 { [%eval 0.23] } 3... Nf6 { [%eval 0.26] } 4. Nc3 $6
+{ [%eval -0.26] } 4... Bb4 $6 { [%eval 0.4] } 5. d3 { [%eval 0.04] } 5... O-O
+{ [%eval 0.08] } 6. a3 { [%eval 0.0] } 6... Ba5 { [%eval 0.47] } 7. O-O
+{ [%eval 0.01] } 7... d6 { [%eval 0.29] } 8. Re1 { [%eval 0.07] } 8... Bg4
+{ [%eval 0.1] } 9. b4 { [%eval 0.08] } 9... Bb6 { [%eval 0.06] } 10. h3
+{ [%eval 0.24] } 10... Bh5 { [%eval 0.15] } 11. Nd5 { [%eval -0.14] } 11...
+Nxd5 { [%eval -0.12] } 12. Bxd5 { [%eval -0.22] } 12... Nd4 { [%eval -0.17] }
+13. g4 { [%eval -0.2] } 13... Nxf3+ { [%eval 0.28] } 14. Qxf3 { [%eval 0.07] }
+14... Bg6 $2 { [%eval 1.26] } 15. Be3 $2 { [%eval -0.04] } 15... c6
+{ [%eval 0.16] } 16. Bxb6 { [%eval 0.03] } 16... Qxb6 { [%eval 0.22] } 17. Bb3
+{ [%eval 0.04] } 17... Kh8 { [%eval 0.14] } 18. c3 { [%eval 0.05] } 18... c5
+{ [%eval 0.46] } 19. c4 $6 { [%eval -0.48] } 19... cxb4 { [%eval -0.35] } 20.
+axb4 { [%eval -0.39] } 20... Qxb4 { [%eval -0.37] } 21. Reb1 { [%eval -0.47] }
+21... Qd2 { [%eval 0.0] } 22. Rd1 { [%eval -0.46] } 22... Qc3 { [%eval -0.23] }
+23. Ba2 { [%eval -0.56] } 23... Rac8 { [%eval -0.45] } 24. h4 { [%eval -0.69] }
+24... f6 { [%eval -0.58] } 25. Qg3 { [%eval -0.89] } 25... Bf7
+{ [%eval -0.77] } 26. h5 { [%eval -0.85] } 26... Qd4 { [%eval -0.73] } 27. Bb3
+{ [%eval -0.99] } 27... a6 { [%eval -0.73] } 28. Ra4 $6 { [%eval -1.5] } 28...
+Qc3 $6 { [%eval -0.61] } 0-1

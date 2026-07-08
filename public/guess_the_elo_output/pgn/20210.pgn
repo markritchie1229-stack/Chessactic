@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qn92ecab"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChemRail"]
+[Black "nastun4ik-91"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:26:19"]
+[WhiteElo "1409"]
+[BlackElo "1512"]
+[WhiteRatingDiff "-54"]
+[BlackRatingDiff "+14"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.38] } 2...
+Nc6 { [%eval 0.43] } 3. Bc4 { [%eval 0.16] } 3... Nf6 { [%eval 0.17] } 4. d3
+{ [%eval 0.24] } 4... d6 { [%eval 0.7] } 5. O-O { [%eval 0.31] } 5... h6
+{ [%eval 0.39] } 6. a4 { [%eval 0.41] } 6... Be7 { [%eval 0.4] } 7. Bd2
+{ [%eval 0.14] } 7... Bg4 { [%eval 0.2] } 8. h3 { [%eval 0.3] } 8... Bh5
+{ [%eval 0.26] } 9. Be3 { [%eval -0.04] } 9... O-O { [%eval 0.09] } 10. Nbd2
+{ [%eval -0.02] } 10... a6 { [%eval 0.22] } 11. Qb1 { [%eval -0.26] } 11... Qd7
+{ [%eval 0.16] } 12. b3 $2 { [%eval -0.87] } 12... d5 { [%eval -0.68] } 13.
+exd5 { [%eval -0.68] } 13... Nxd5 { [%eval -0.73] } 14. d4 $2 { [%eval -2.54] }
+14... f6 $2 { [%eval -0.1] } 15. Ne4 $2 { [%eval -2.02] } 15... Bxf3
+{ [%eval -1.93] } 16. gxf3 { [%eval -1.74] } 16... Kh8 $2 { [%eval -0.64] } 17.
+Kh2 $2 { [%eval -3.17] } 17... f5 $6 { [%eval -2.48] } 18. Ng3 $2
+{ [%eval -5.16] } 18... f4 { [%eval -4.93] } 19. dxe5 $4 { [%eval -10.33] }
+19... fxg3+ { [%eval -10.12] } 20. fxg3 { [%eval -10.08] } 20... Nxe3
+{ [%eval -9.47] } 21. Rf2 $6 { [%eval -14.02] } 21... Nxc4 { [%eval -11.68] }
+22. bxc4 { [%eval -11.48] } 22... Bc5 { [%eval -11.35] } 23. Rf1
+{ [%eval -11.25] } 23... Qd2+ { [%eval -10.99] } 24. Kh1 { [%eval -10.85] }
+24... Nxe5 { [%eval -10.6] } 25. Qxb7 { [%eval -10.45] } 25... Nxf3 $2
+{ [%eval -7.38] } 26. Qd5 $2 { [%eval #-1] } 26... Qh2# 0-1

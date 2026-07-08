@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sYA4EAUv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "maciej-2016"]
+[Black "AndoArm"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:59:35"]
+[WhiteElo "1412"]
+[BlackElo "1295"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+33"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... d5 { [%eval 0.15] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.4] } 3. e3 { [%eval 0.43] } 3... Bg4 { [%eval 0.44] } 4. Be2
+{ [%eval 0.36] } 4... Nf6 { [%eval 0.36] } 5. O-O { [%eval 0.35] } 5... Qd6
+{ [%eval 0.72] } 6. Nc3 { [%eval 0.29] } 6... Ne4 $6 { [%eval 1.15] } 7. Nxe4
+{ [%eval 0.91] } 7... dxe4 { [%eval 1.02] } 8. Nd2 { [%eval 0.95] } 8... Bxe2
+{ [%eval 0.95] } 9. Qxe2 { [%eval 0.82] } 9... f5 { [%eval 0.86] } 10. b3 $6
+{ [%eval 0.31] } 10... O-O-O { [%eval 0.59] } 11. Bb2 { [%eval 0.47] } 11... a6
+{ [%eval 0.69] } 12. Nc4 { [%eval 0.63] } 12... Qh6 { [%eval 0.73] } 13. d5 $2
+{ [%eval -0.78] } 13... Nb4 $4 { [%eval 2.6] } 14. Ba3 $4 { [%eval -0.89] }
+14... e6 $2 { [%eval 0.59] } 15. Bxb4 $2 { [%eval -0.76] } 15... Bxb4
+{ [%eval -0.62] } 16. Ne5 $2 { [%eval -2.19] } 16... Rhf8 $6 { [%eval -1.4] }
+17. dxe6 { [%eval -1.69] } 17... Qxe6 { [%eval -1.6] } 18. f4 { [%eval -1.61] }
+18... exf3 { [%eval -1.68] } 19. Nxf3 { [%eval -1.7] } 19... f4
+{ [%eval -1.26] } 20. Ng5 $2 { [%eval -2.28] } 20... Qe5 $2 { [%eval -0.25] }
+21. Qg4+ { [%eval -0.35] } 21... Kb8 { [%eval -0.17] } 22. Ne6 $6
+{ [%eval -1.01] } 22... h5 { [%eval -0.94] } 23. Qxg7 $4 { [%eval -12.05] }
+23... Qxe6 { [%eval -11.0] } 24. Rxf4 $6 { [%eval #-10] } 24... Rxf4 $6
+{ [%eval -16.97] } 25. exf4 { [%eval -16.81] } 25... Be1 $4 { [%eval -3.39] }
+26. Qg5 $4 { [%eval -6.64] } 26... Qe3+ { [%eval -6.45] } 27. Kh1
+{ [%eval -6.56] } 27... Rc8 $4 { [%eval -2.31] } 28. Qxh5 { [%eval -2.29] }
+28... Qf2 $6 { [%eval -1.66] } 29. Rd1 $4 { [%eval #-1] } 29... Qf1# 0-1

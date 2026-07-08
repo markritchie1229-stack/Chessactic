@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/XpYSCwNc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Belor61"]
+[Black "Bulmaro84"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:50:05"]
+[WhiteElo "1500"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-201"]
+[BlackRatingDiff "+8"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. f4 { [%eval -0.21] } 1... Nc6 { [%eval -0.01] } 2. Nh3 $6 { [%eval -0.79] }
+2... e5 { [%eval -0.7] } 3. f5 $2 { [%eval -2.18] } 3... Qh4+ $2
+{ [%eval -0.97] } 4. g3 { [%eval -1.16] } 4... Qe4 { [%eval -1.1] } 5. Ng5 $4
+{ [%eval -8.37] } 5... Qxf5 $4 { [%eval -1.46] } 6. Nh3 $2 { [%eval -2.52] }
+6... Nd4 $6 { [%eval -1.76] } 7. Nc3 $4 { [%eval -9.75] } 7... Nxc2+
+{ [%eval -9.57] } 8. Qxc2 { [%eval -9.74] } 8... Qxc2 { [%eval -9.61] } 9. Nf4
+{ [%eval -13.72] } 9... exf4 { [%eval -13.73] } 10. Bh3 { [%eval -15.03] }
+10... f3 { [%eval -13.9] } 11. exf3 { [%eval -14.25] } 11... Bb4
+{ [%eval -13.13] } 12. a3 { [%eval -14.45] } 12... Bxc3 { [%eval -13.98] } 13.
+bxc3 { [%eval -13.95] } 13... Nf6 { [%eval -13.63] } 14. Ra2 { [%eval -27.38] }
+14... Qd3 { [%eval -13.6] } 15. f4 { [%eval -22.24] } 15... Qe4+
+{ [%eval -21.7] } 16. Kd1 { [%eval -22.05] } 16... Qxh1+ { [%eval -21.73] } 17.
+Kc2 { [%eval -21.45] } 17... Qxh2 { [%eval -21.12] } 18. Bxd7+
+{ [%eval -31.98] } 18... Bxd7 { [%eval -29.44] } 19. Rb2 $6 { [%eval #-16] }
+19... Qxg3 $6 { [%eval -35.97] } 20. Rxb7 $6 { [%eval #-13] } 20... Qxf4
+{ [%eval #-15] } 21. d3 { [%eval #-13] } 21... Qf2+ { [%eval -124.85] } 22. Bd2
+$6 { [%eval #-7] } 22... Qe2 { [%eval #-10] } 23. Rb5 { [%eval #-6] } 23...
+Bxb5 { [%eval #-5] } 0-1

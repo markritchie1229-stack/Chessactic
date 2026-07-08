@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/C0cMqub6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DerSaxe"]
+[Black "Tallondachille"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:42:33"]
+[WhiteElo "1567"]
+[BlackElo "1414"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+15"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Keres Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.15] } 1... e5 { [%eval 0.09] } 2. Nc3 { [%eval 0.01] } 2... c6
+$6 { [%eval 0.64] } 3. g3 $6 { [%eval -0.15] } 3... d6 { [%eval 0.34] } 4. Bg2
+{ [%eval 0.18] } 4... f5 { [%eval 0.56] } 5. d3 { [%eval 0.21] } 5... Nf6
+{ [%eval 0.25] } 6. Nf3 { [%eval 0.13] } 6... Be7 { [%eval 0.23] } 7. Bg5
+{ [%eval -0.09] } 7... O-O { [%eval -0.09] } 8. Rb1 { [%eval -0.3] } 8... h6
+{ [%eval -0.25] } 9. Bd2 { [%eval -0.32] } 9... Be6 { [%eval -0.33] } 10. O-O
+{ [%eval -0.26] } 10... Nbd7 { [%eval -0.27] } 11. Qb3 { [%eval -0.42] } 11...
+Rb8 { [%eval -0.41] } 12. Qa4 { [%eval -0.74] } 12... Ra8 $6 { [%eval -0.22] }
+13. Qc2 { [%eval -0.43] } 13... Rb8 { [%eval -0.37] } 14. a3 { [%eval -0.4] }
+14... d5 { [%eval -0.22] } 15. cxd5 { [%eval -0.3] } 15... cxd5
+{ [%eval -0.28] } 16. Rfc1 { [%eval -0.26] } 16... Rc8 { [%eval -0.17] } 17.
+Qd1 $6 { [%eval -1.08] } 17... e4 $2 { [%eval 1.16] } 18. dxe4 { [%eval 0.77] }
+18... fxe4 { [%eval 1.02] } 19. Nd4 { [%eval 0.86] } 19... Bf7 { [%eval 1.0] }
+20. Nf5 { [%eval 0.64] } 20... Bg6 $6 { [%eval 1.29] } 21. Nxe7+ $6
+{ [%eval 0.67] } 21... Qxe7 { [%eval 0.67] } 22. Bf4 { [%eval 0.4] } 22... e3
+{ [%eval 0.47] } 23. Bxe3 { [%eval 0.43] } 23... Bxb1 { [%eval 0.58] } 24. Rxb1
+{ [%eval 0.39] } 24... Nb6 { [%eval 0.72] } 25. Nxd5 $6 { [%eval -0.07] } 25...
+Nbxd5 { [%eval 0.0] } 26. Bxd5+ { [%eval -0.2] } 26... Nxd5 { [%eval -0.1] }
+27. Qxd5+ { [%eval -0.07] } 27... Kh8 { [%eval 0.0] } 28. Qf3 $4
+{ [%eval -6.94] } 0-1

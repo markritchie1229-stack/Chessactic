@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WTJuHxPR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Outakoski"]
+[Black "GRS1915105"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:07:24"]
+[WhiteElo "1741"]
+[BlackElo "2027"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+13"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... d5 $6 { [%eval 0.86] } 2. Bc4 $4 { [%eval -3.1] }
+2... Bg4 $4 { [%eval 1.2] } 3. exd5 $4 { [%eval -7.16] } 3... Bxd1
+{ [%eval -7.14] } 4. Kxd1 { [%eval -7.2] } 4... e6 $2 { [%eval -5.1] } 5. dxe6
+{ [%eval -5.31] } 5... fxe6 { [%eval -5.18] } 6. Bxe6 { [%eval -5.62] } 6...
+Qe7 $2 { [%eval -3.98] } 7. Bb3 $2 { [%eval -6.4] } 7... Nc6 $6
+{ [%eval -5.6] } 8. Nf3 { [%eval -5.78] } 8... O-O-O { [%eval -5.79] } 9. Re1
+{ [%eval -6.0] } 9... Qd7 $4 { [%eval 1.63] } 10. Nc3 $4 { [%eval -5.84] }
+10... Nb4 $4 { [%eval 1.97] } 11. Ne5 $4 { [%eval -4.62] } 11... Qd6 $2
+{ [%eval -2.52] } 12. Nc4 $4 { [%eval -6.7] } 12... Qd7 $4 { [%eval -2.14] }
+13. Ne5 $2 { [%eval -4.36] } 13... Qd4 { [%eval -4.43] } 14. Nf3 $2
+{ [%eval -6.91] } 14... Qg4 $4 { [%eval 2.1] } 15. Rg1 $4 { [%eval -7.41] }
+15... Nf6 $2 { [%eval -6.33] } 16. h3 { [%eval -6.31] } 16... Ne4 $4
+{ [%eval 5.88] } 17. hxg4 { [%eval 5.08] } 17... Nxf2+ { [%eval 5.63] } 18. Ke1
+$2 { [%eval 3.92] } 18... Nxg4 { [%eval 3.85] } 19. Kf1 { [%eval 3.93] } 19...
+Nf6 { [%eval 3.97] } 20. d3 { [%eval 3.91] } 20... Nd7 $6 { [%eval 4.45] } 21.
+Ne4 { [%eval 4.18] } 21... Nc5 { [%eval 4.22] } 22. Nxc5 { [%eval 4.2] } 22...
+b6 $4 { [%eval 9.31] } 23. Ne4 $6 { [%eval 8.77] } 23... Bd6 $6 { [%eval 9.3] }
+24. c3 $2 { [%eval 7.7] } 24... Bf4 $2 { [%eval 13.47] } 25. cxb4
+{ [%eval 13.3] } 25... Bxc1 { [%eval 13.52] } 26. Rxc1 { [%eval 13.41] } 26...
+Rxd3 { [%eval 13.93] } 27. Be6+ { [%eval 13.32] } 27... Kb8 { [%eval 14.17] }
+28. Ke2 { [%eval 13.76] } 28... Rdd8 { [%eval 13.37] } 0-1

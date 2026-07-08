@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Qh4giq0P"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Zimar_KG"]
+[Black "leyan"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:05:44"]
+[WhiteElo "1500"]
+[BlackElo "1379"]
+[WhiteRatingDiff "-234"]
+[BlackRatingDiff "+66"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.25] } 2. d3 { [%eval -0.2] } 2... Nf6
+$6 { [%eval 0.33] } 3. Nc3 { [%eval -0.09] } 3... Be7 { [%eval 0.04] } 4. Nf3
+{ [%eval 0.0] } 4... Nc6 { [%eval 0.28] } 5. e5 { [%eval 0.13] } 5... Nd5
+{ [%eval 0.11] } 6. Nxd5 { [%eval 0.12] } 6... exd5 { [%eval 0.25] } 7. d4
+{ [%eval 0.17] } 7... d6 { [%eval 0.19] } 8. exd6 { [%eval -0.05] } 8... Bxd6
+{ [%eval -0.06] } 9. Bb5 { [%eval -0.21] } 9... Bd7 { [%eval 0.02] } 10. Kf1 $6
+{ [%eval -0.69] } 10... Qe7 { [%eval -0.53] } 11. Bg5 { [%eval -0.73] } 11...
+f6 { [%eval -0.67] } 12. Bxc6 { [%eval -1.16] } 12... Bxc6 { [%eval -1.13] }
+13. Be3 { [%eval -1.2] } 13... Bb5+ { [%eval -0.99] } 14. Kg1 { [%eval -1.04] }
+14... b6 { [%eval -0.77] } 15. a4 { [%eval -0.93] } 15... Ba6 { [%eval -0.56] }
+16. a5 { [%eval -0.77] } 16... Bb5 $6 { [%eval -0.18] } 17. axb6
+{ [%eval -0.54] } 17... cxb6 { [%eval -0.51] } 18. Qd2 { [%eval -0.79] } 18...
+h5 { [%eval -0.43] } 19. Bf4 { [%eval -0.37] } 19... g5 $2 { [%eval 2.43] } 20.
+Bxd6 $2 { [%eval 0.33] } 20... Qxd6 { [%eval 0.38] } 21. Qe3+ $2
+{ [%eval -0.64] } 21... Kd7 { [%eval -0.38] } 22. Re1 $2 { [%eval -2.29] }
+22... Rae8 $6 { [%eval -1.52] } 23. Qd2 $6 { [%eval -2.29] } 23... h4
+{ [%eval -2.19] } 24. h3 { [%eval -1.97] } 24... g4 $4 { [%eval 1.76] } 25.
+hxg4 { [%eval 1.79] } 25... Rxe1+ { [%eval 1.69] } 26. Qxe1 { [%eval 1.44] }
+26... Re8 $6 { [%eval 2.38] } 27. Qd2 { [%eval 2.27] } 27... Re2
+{ [%eval 2.22] } 28. Qh6 $6 { [%eval 1.37] } 28... Kc6 { [%eval 1.44] } 29.
+Nxh4 $4 { [%eval #-1] } 29... Re1# 0-1

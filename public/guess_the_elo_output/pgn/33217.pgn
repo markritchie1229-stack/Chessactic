@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/W2LlVYJ5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Trabantt"]
+[Black "rogeriolimasilva"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:46:47"]
+[WhiteElo "1843"]
+[BlackElo "1717"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-11"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted, Fischer Defense"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.34] } 2. f4 $6 { [%eval -0.6] } 2...
+d6 $6 { [%eval 0.17] } 3. Nf3 { [%eval -0.12] } 3... exf4 { [%eval 0.11] } 4.
+d4 $6 { [%eval -0.52] } 4... g5 { [%eval -0.43] } 5. h4 { [%eval -0.61] } 5...
+g4 { [%eval -0.64] } 6. Bxf4 $6 { [%eval -1.51] } 6... gxf3 { [%eval -1.2] } 7.
+Qxf3 { [%eval -1.43] } 7... Nc6 { [%eval -1.4] } 8. d5 $6 { [%eval -2.02] }
+8... Nce7 { [%eval -1.77] } 9. g4 $6 { [%eval -2.28] } 9... Bg7
+{ [%eval -2.25] } 10. c3 $6 { [%eval -2.89] } 10... Nf6 $6 { [%eval -2.31] }
+11. g5 { [%eval -2.29] } 11... Ng4 { [%eval -2.26] } 12. Bh3 { [%eval -2.16] }
+12... Qd7 $6 { [%eval -1.57] } 13. Rg1 $6 { [%eval -2.25] } 13... Qb5
+{ [%eval -2.03] } 14. Qe2 $6 { [%eval -2.57] } 14... Ne5 $4 { [%eval 8.99] }
+15. Qxb5+ { [%eval 8.99] } 15... Bd7 $2 { [%eval 11.23] } 16. Bxd7+
+{ [%eval 11.12] } 16... Nxd7 { [%eval 10.99] } 17. Nd2 $6 { [%eval 9.35] }
+17... O-O-O { [%eval 9.68] } 18. O-O-O $6 { [%eval 8.87] } 18... Kb8
+{ [%eval 9.1] } 19. a4 { [%eval 8.62] } 19... a6 { [%eval 9.11] } 20. Qb4
+{ [%eval 8.98] } 20... Nb6 $6 { [%eval 9.79] } 21. a5 { [%eval 9.63] } 21...
+Be5 { [%eval 16.4] } 22. Bxe5 { [%eval 16.04] } 22... dxe5 { [%eval 18.28] }
+23. axb6 { [%eval 17.6] } 23... cxb6 { [%eval 21.29] } 24. Qxe7
+{ [%eval 20.72] } 24... Rc8 { [%eval 23.06] } 25. Qxe5+ { [%eval 22.64] } 25...
+Ka7 { [%eval 22.5] } 26. Rgf1 { [%eval 21.81] } 1-0

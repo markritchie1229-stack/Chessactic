@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/DOHJuunN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zendrea14"]
+[Black "ibizarey"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:00:21"]
+[WhiteElo "1784"]
+[BlackElo "1545"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-5"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.34] } 2... d6
+{ [%eval 0.37] } 3. Bc4 { [%eval 0.31] } 3... Nc6 { [%eval 0.57] } 4. Nc3
+{ [%eval 0.29] } 4... Qe7 $6 { [%eval 1.07] } 5. h3 { [%eval 0.86] } 5... Be6
+{ [%eval 0.78] } 6. Nd5 { [%eval 0.75] } 6... Qd7 { [%eval 0.84] } 7. d4
+{ [%eval 0.68] } 7... Bxd5 { [%eval 0.97] } 8. Bxd5 { [%eval 0.73] } 8... exd4
+{ [%eval 0.88] } 9. Nxd4 { [%eval 0.66] } 9... Nxd4 { [%eval 0.75] } 10. Qxd4
+{ [%eval 0.63] } 10... Rb8 $2 { [%eval 2.02] } 11. O-O $6 { [%eval 1.39] }
+11... Nf6 { [%eval 1.47] } 12. Re1 $6 { [%eval 0.85] } 12... Be7
+{ [%eval 0.95] } 13. e5 $6 { [%eval 0.31] } 13... Nxd5 $6 { [%eval 1.28] } 14.
+Qxd5 $2 { [%eval 0.23] } 14... O-O { [%eval 0.37] } 15. e6 { [%eval 0.0] }
+15... fxe6 { [%eval 0.04] } 16. Rxe6 { [%eval 0.0] } 16... c6 $4
+{ [%eval 5.41] } 17. Rxe7+ { [%eval 5.22] } 17... cxd5 { [%eval 5.31] } 18.
+Rxd7 { [%eval 5.27] } 18... Rbc8 $6 { [%eval 6.08] } 19. c3 { [%eval 6.03] }
+19... d4 { [%eval 6.06] } 20. cxd4 { [%eval 5.88] } 20... Rc2 { [%eval 6.24] }
+21. Be3 { [%eval 6.08] } 21... Rxb2 $4 { [%eval 9.56] } 22. Rxd6 $4
+{ [%eval 5.83] } 22... h6 $6 { [%eval 6.52] } 23. Rc1 { [%eval 6.2] } 23... Kh7
+$2 { [%eval 7.69] } 24. Rc7 { [%eval 7.5] } 24... Rxa2 $6 { [%eval 8.23] } 25.
+Rxh6+ { [%eval 7.88] } 25... Kg8 { [%eval 7.65] } 26. Rg6 $2 { [%eval 5.64] }
+26... Ra1+ { [%eval 6.03] } 27. Kh2 { [%eval 5.87] } 27... Rf7 { [%eval 5.73] }
+28. Rc8+ { [%eval 5.63] } 28... Kh7 { [%eval 5.96] } 29. Rg4 { [%eval 5.77] }
+29... g6 $4 { [%eval 17.0] } 30. Rh4+ { [%eval 15.33] } 30... Kg7
+{ [%eval 14.24] } 31. d5 { [%eval 12.65] } 31... b5 $6 { [%eval #5] } 32. Bd4+
+{ [%eval #4] } 32... Rf6 { [%eval #4] } 33. Bxa1 $6 { [%eval #7] } 1-0

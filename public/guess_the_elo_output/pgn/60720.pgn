@@ -1,0 +1,35 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/0TYQdhgA"]
+[Site "https://lichess.org/AxNiAbQA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bidi73"]
+[Black "parasto123"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:50:53"]
+[WhiteElo "1660"]
+[BlackElo "1776"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "A40"]
+[Opening "Queen's Pawn"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... c6 { [%eval 0.53] } 2. Nf3 { [%eval 0.31] } 2... d5
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.12] } 3... Bf5 { [%eval 0.09] } 4. Bf4
+{ [%eval 0.04] } 4... e6 { [%eval 0.08] } 5. Ne5 { [%eval -0.08] } 5... Nf6
+{ [%eval 0.09] } 6. e3 { [%eval 0.0] } 6... Nbd7 { [%eval 0.3] } 7. Nxd7
+{ [%eval 0.0] } 7... Qxd7 { [%eval 0.0] } 8. Bd3 { [%eval -0.26] } 8... Bxd3
+{ [%eval -0.11] } 9. Qxd3 { [%eval -0.16] } 9... Bb4 { [%eval 0.0] } 10. a3
+{ [%eval 0.02] } 10... Bxc3+ { [%eval 0.01] } 11. Qxc3 { [%eval -0.06] } 11...
+Ne4 { [%eval 0.11] } 12. Qd3 { [%eval 0.04] } 12... O-O { [%eval 0.1] } 13. f3
+{ [%eval 0.06] } 13... Nf6 { [%eval 0.27] } 14. Be5 { [%eval 0.1] } 14... Qe7
+{ [%eval 0.05] } 15. g4 { [%eval -0.09] } 15... Nd7 { [%eval -0.13] } 16. h4 $6
+{ [%eval -0.84] } 16... Nxe5 { [%eval -0.81] } 17. dxe5 { [%eval -0.9] } 17...
+c5 $2 { [%eval 0.12] } 18. h5 $6 { [%eval -0.54] } 18... h6 $6 { [%eval 0.0] }
+19. f4 { [%eval 0.0] } 19... c4 { [%eval 0.12] } 20. Qc3 { [%eval -0.04] }
+20... a5 { [%eval -0.13] } 21. O-O-O $6 { [%eval -0.81] } 21... b5
+{ [%eval -0.6] } 22. g5 $6 { [%eval -1.12] } 22... b4 { [%eval -1.03] } 23.
+axb4 $4 { [%eval -5.65] } 23... axb4 { [%eval -4.76] } 24. Qd2 $4
+{ [%eval #-1] } 24... Ra1# 0-1

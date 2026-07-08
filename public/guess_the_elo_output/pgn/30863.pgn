@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/53g8suuE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "WindOfHope"]
+[Black "jnco"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:22:38"]
+[WhiteElo "1092"]
+[BlackElo "1050"]
+[WhiteRatingDiff "+55"]
+[BlackRatingDiff "-9"]
+[ECO "B00"]
+[Opening "Duras Gambit"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... f5 $2 { [%eval 1.48] } 2. Nc3 $2 { [%eval 0.4] }
+2... Nf6 { [%eval 0.85] } 3. Nf3 $2 { [%eval -0.81] } 3... e6 $2
+{ [%eval 0.78] } 4. Bd3 $6 { [%eval -0.02] } 4... Bb4 $2 { [%eval 1.24] } 5.
+O-O $2 { [%eval -0.96] } 5... b6 $4 { [%eval 2.13] } 6. a3 $2 { [%eval 0.76] }
+6... Bxc3 $6 { [%eval 1.64] } 7. dxc3 $4 { [%eval -2.48] } 7... c5 $4
+{ [%eval 2.54] } 8. Qd2 $4 { [%eval -3.04] } 8... a6 $4 { [%eval 2.74] } 9. b4
+$4 { [%eval -2.0] } 9... cxb4 $4 { [%eval 2.27] } 10. cxb4 $4 { [%eval -2.22] }
+10... b5 $4 { [%eval 2.9] } 11. c3 $4 { [%eval -2.41] } 11... Nc6 $4
+{ [%eval 2.4] } 12. Bb2 $4 { [%eval -2.71] } 12... O-O $4 { [%eval 1.72] } 13.
+c4 $2 { [%eval -0.13] } 13... fxe4 $6 { [%eval 0.43] } 14. Bxe4 $4
+{ [%eval -2.86] } 14... Nxe4 { [%eval -2.68] } 15. Qd3 { [%eval -2.76] } 15...
+Rf4 { [%eval -2.35] } 16. Qe3 { [%eval -2.72] } 16... e5 $4 { [%eval 0.38] }
+17. cxb5 { [%eval 0.21] } 17... Nd4 $2 { [%eval 2.07] } 18. Bxd4 $6
+{ [%eval 1.56] } 18... exd4 $4 { [%eval 4.59] } 19. Qxd4 $4 { [%eval -1.74] }
+19... Qf6 $4 { [%eval 8.12] } 20. Qc4+ $4 { [%eval -1.67] } 20... Kh8
+{ [%eval -1.56] } 21. Qd5 { [%eval -1.53] } 21... Bb7 $4 { [%eval 2.99] } 22.
+Qxb7 { [%eval 2.77] } 22... Re8 { [%eval 2.46] } 23. Qxd7 { [%eval 2.39] }
+23... Rd8 { [%eval 2.34] } 24. Qc7 { [%eval 1.93] } 24... Nd2 $4
+{ [%eval 6.66] } 25. bxa6 $4 { [%eval 2.13] } 25... Nxf1 $6 { [%eval 3.02] }
+26. a7 $4 { [%eval -0.37] } 26... Qxa1 $4 { [%eval #2] } 27. Qxd8+
+{ [%eval #1] } 27... Rf8 { [%eval #1] } 28. Qxf8# 1-0

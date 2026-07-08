@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/V3GV85hi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jordan2315"]
+[Black "aungzayarlin"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:29:28"]
+[WhiteElo "1824"]
+[BlackElo "1567"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "C44"]
+[Opening "Scotch Game: Relfsson Gambit"]
+[TimeControl "1800+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.24] } 2. Nf3 { [%eval 0.39] } 2... Nc6
+{ [%eval 0.15] } 3. d4 { [%eval 0.0] } 3... exd4 { [%eval 0.15] } 4. Bb5
+{ [%eval -0.3] } 4... a6 { [%eval 0.07] } 5. Bc4 { [%eval -0.24] } 5... d6
+{ [%eval 0.23] } 6. c3 $6 { [%eval -0.33] } 6... Bg4 $6 { [%eval 0.3] } 7. cxd4
+{ [%eval 0.4] } 7... Nf6 { [%eval 0.59] } 8. Bg5 $6 { [%eval -0.34] } 8... Be7
+{ [%eval -0.38] } 9. h3 { [%eval -0.79] } 9... Bxf3 { [%eval -0.86] } 10. gxf3
+$6 { [%eval -1.39] } 10... h6 $2 { [%eval 0.06] } 11. Bxf6 $2 { [%eval -1.71] }
+11... Bxf6 { [%eval -1.63] } 12. Qb3 $2 { [%eval -2.68] } 12... O-O
+{ [%eval -2.74] } 13. Qxb7 $2 { [%eval -4.16] } 13... Nxd4 { [%eval -4.16] }
+14. Na3 $2 { [%eval -6.69] } 14... Rb8 { [%eval -6.58] } 15. Qxa6 $2
+{ [%eval -9.02] } 15... Rxb2 { [%eval -8.68] } 16. Rd1 $2 { [%eval -31.14] }
+16... Nxf3+ { [%eval -28.49] } 17. Kf1 { [%eval -26.72] } 17... Bh4
+{ [%eval -24.38] } 18. Be2 { [%eval -22.96] } 18... Nd2+ { [%eval -9.83] } 19.
+Rxd2 { [%eval -9.58] } 19... Rxd2 { [%eval -9.3] } 20. Nb1 $6
+{ [%eval -15.77] } 20... Qf6 { [%eval -15.18] } 21. Rh2 { [%eval -14.45] }
+21... Rb2 { [%eval -10.81] } 22. Qd3 { [%eval -11.74] } 22... Rfb8 $2
+{ [%eval -8.04] } 23. Nc3 { [%eval -8.0] } 23... Qf4 { [%eval -7.62] } 24. Rg2
+$2 { [%eval -10.77] } 24... Qc1+ { [%eval -10.68] } 25. Nd1 { [%eval -10.59] }
+25... Rd2 { [%eval -10.47] } 26. Qf3 { [%eval -10.34] } 26... Rbb2
+{ [%eval -10.0] } 27. Qg4 { [%eval -11.43] } 27... Rxe2 $4 { [%eval #1] } 28.
+Qxg7# 1-0

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/p6Ea11Qv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "seyed_amirreza"]
+[Black "yellow_pit1"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:11:58"]
+[WhiteElo "1868"]
+[BlackElo "1759"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "E00"]
+[Opening "Kangaroo Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... e6 { [%eval 0.18] } 2. c4 { [%eval 0.26] } 2...
+Bb4+ { [%eval 0.29] } 3. Bd2 { [%eval 0.33] } 3... Nc6 { [%eval 0.46] } 4. e3
+{ [%eval 0.32] } 4... Nf6 { [%eval 0.48] } 5. Nf3 { [%eval 0.27] } 5... Ne4 $6
+{ [%eval 0.8] } 6. Nc3 $6 { [%eval 0.12] } 6... Nxd2 { [%eval 0.37] } 7. Qxd2
+{ [%eval 0.38] } 7... O-O { [%eval 0.39] } 8. Rc1 { [%eval 0.34] } 8... b6
+{ [%eval 0.37] } 9. a3 { [%eval 0.3] } 9... Bxc3 { [%eval 0.37] } 10. Qxc3
+{ [%eval 0.33] } 10... Bb7 { [%eval 0.38] } 11. Bd3 { [%eval 0.17] } 11... d5
+$6 { [%eval 0.83] } 12. O-O { [%eval 0.76] } 12... dxc4 { [%eval 1.09] } 13.
+Bxc4 $6 { [%eval 0.39] } 13... Na5 { [%eval 0.83] } 14. Be2 { [%eval 0.79] }
+14... Rc8 { [%eval 0.81] } 15. Ne5 $2 { [%eval -0.27] } 15... Qg5 $2
+{ [%eval 0.74] } 16. g3 $6 { [%eval 0.0] } 16... f6 $6 { [%eval 0.58] } 17. Nd7
+$2 { [%eval -0.61] } 17... Rfd8 { [%eval -0.28] } 18. Bb5 $4 { [%eval -7.04] }
+18... c6 $4 { [%eval -0.34] } 19. f4 $4 { [%eval -7.35] } 19... Qxb5
+{ [%eval -7.37] } 20. b4 { [%eval -7.4] } 20... Rxd7 $6 { [%eval -6.52] } 21.
+bxa5 { [%eval -6.18] } 21... Qxa5 $2 { [%eval -4.54] } 22. Qb3 $2
+{ [%eval -6.76] } 22... Ba6 $2 { [%eval -4.75] } 23. Qxe6+ { [%eval -4.63] }
+23... Rf7 { [%eval -4.56] } 24. Rfd1 { [%eval -4.49] } 24... c5 $6
+{ [%eval -3.79] } 25. dxc5 { [%eval -3.92] } 25... bxc5 { [%eval -3.67] } 26.
+Rd6 { [%eval -3.72] } 26... Rc7 $4 { [%eval #1] } 27. Rd8# 1-0

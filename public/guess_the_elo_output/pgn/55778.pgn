@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/l0xma3QA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nick-fire"]
+[Black "MAX3D"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:42:32"]
+[WhiteElo "1702"]
+[BlackElo "1652"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+12"]
+[ECO "E61"]
+[Opening "Indian Game: West Indian Defense"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... Nf6 { [%eval 0.2] } 2. c4 { [%eval 0.18] } 2... g6
+{ [%eval 0.41] } 3. e3 { [%eval 0.29] } 3... Bg7 { [%eval 0.25] } 4. Nf3
+{ [%eval 0.32] } 4... O-O { [%eval 0.33] } 5. g3 $6 { [%eval -0.29] } 5... d6
+{ [%eval -0.02] } 6. Bg2 { [%eval 0.0] } 6... c6 { [%eval 0.2] } 7. O-O
+{ [%eval 0.18] } 7... Nbd7 { [%eval 0.12] } 8. e4 $6 { [%eval -0.6] } 8... Qc7
+$6 { [%eval 0.28] } 9. Re1 { [%eval 0.22] } 9... e5 { [%eval 0.25] } 10. Nc3
+{ [%eval 0.0] } 10... exd4 { [%eval 0.0] } 11. Nxd4 { [%eval 0.0] } 11... Ne5
+$6 { [%eval 0.63] } 12. b3 { [%eval 0.43] } 12... Bg4 { [%eval 0.66] } 13. f3
+{ [%eval 0.7] } 13... Be6 { [%eval 1.16] } 14. Nxe6 $6 { [%eval 0.45] } 14...
+fxe6 { [%eval 0.45] } 15. Bb2 $6 { [%eval -0.54] } 15... Rad8 $2
+{ [%eval 0.53] } 16. Ne2 $6 { [%eval -0.14] } 16... Nf7 { [%eval 0.27] } 17.
+Qc2 { [%eval 0.24] } 17... e5 { [%eval 0.53] } 18. Rad1 $6 { [%eval -0.06] }
+18... Ng5 $6 { [%eval 0.52] } 19. Rd2 { [%eval 0.2] } 19... Nh5 { [%eval 0.4] }
+20. Red1 $2 { [%eval -0.83] } 20... Nxf3+ { [%eval -0.84] } 21. Bxf3
+{ [%eval -0.91] } 21... Rxf3 { [%eval -0.91] } 22. Ba3 $6 { [%eval -1.57] }
+22... c5 $2 { [%eval -0.5] } 23. Nc3 $6 { [%eval -1.45] } 23... Bh6 $6
+{ [%eval -0.74] } 24. Nb5 $4 { [%eval -6.66] } 24... Qc8 $4 { [%eval -2.7] }
+25. Rxd6 $4 { [%eval -12.24] } 25... Rxd6 { [%eval -10.77] } 26. Nxd6 $6
+{ [%eval #-11] } 26... Qh3 $4 { [%eval 0.0] } 27. Qe2 $4 { [%eval #-11] } 27...
+Be3+ { [%eval #-10] } 28. Kh1 { [%eval #-1] } 28... Nxg3# 0-1

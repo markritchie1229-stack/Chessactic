@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/59bcVk7k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rizikas"]
+[Black "Ahmed_7777"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:08:35"]
+[WhiteElo "1662"]
+[BlackElo "1357"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-5"]
+[ECO "D00"]
+[Opening "Queen's Pawn Opening: Veresov Attack, Irish Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.28] } 2. Nc3 { [%eval -0.04] } 2...
+c5 { [%eval 0.0] } 3. e3 { [%eval -0.27] } 3... cxd4 { [%eval 0.0] } 4. exd4
+{ [%eval 0.0] } 4... Nc6 { [%eval 0.04] } 5. f4 { [%eval -0.38] } 5... f5
+{ [%eval -0.01] } 6. Nf3 { [%eval -0.11] } 6... Nf6 { [%eval 0.0] } 7. Bd3
+{ [%eval -0.06] } 7... e6 { [%eval -0.06] } 8. Ne2 { [%eval -0.1] } 8... Bb4+
+{ [%eval 0.02] } 9. c3 { [%eval -0.08] } 9... Bd6 { [%eval -0.01] } 10. b3
+{ [%eval -0.08] } 10... O-O { [%eval -0.06] } 11. Bb2 { [%eval -0.08] } 11...
+Bd7 { [%eval -0.07] } 12. Ne5 { [%eval -0.21] } 12... Bxe5 $6 { [%eval 0.3] }
+13. fxe5 { [%eval 0.22] } 13... Ne4 { [%eval 0.34] } 14. Ng3 $6
+{ [%eval -0.43] } 14... Nxg3 $2 { [%eval 0.59] } 15. hxg3 { [%eval 0.61] }
+15... Qg5 { [%eval 0.62] } 16. Qf3 { [%eval 0.58] } 16... Rae8 $6
+{ [%eval 1.47] } 17. Bc1 { [%eval 1.39] } 17... Qe7 { [%eval 1.4] } 18. Bb2
+{ [%eval 1.13] } 18... Qg5 { [%eval 1.35] } 19. Bc1 { [%eval 1.4] } 19... Qe7
+{ [%eval 1.64] } 20. Bd2 { [%eval 1.34] } 20... h6 $6 { [%eval 2.24] } 21.
+O-O-O { [%eval 1.87] } 21... Kh7 $2 { [%eval 3.27] } 22. Bb1 $2
+{ [%eval 1.44] } 22... Rg8 $2 { [%eval 3.32] } 23. Qe3 $2 { [%eval 1.83] }
+23... a6 $4 { [%eval #2] } 24. Rxh6+ { [%eval #1] } 24... gxh6 { [%eval #1] }
+25. Qxh6# 1-0

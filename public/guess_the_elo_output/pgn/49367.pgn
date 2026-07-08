@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lagvsuw7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chess1981"]
+[Black "BURZUM76"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:05:03"]
+[WhiteElo "1594"]
+[BlackElo "1866"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-19"]
+[ECO "B07"]
+[Opening "Pirc Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.42] } 1... d6 { [%eval 0.64] } 2. d4 { [%eval 0.45] } 2... Nf6
+{ [%eval 0.58] } 3. Nd2 { [%eval 0.46] } 3... e5 { [%eval 0.6] } 4. dxe5 $6
+{ [%eval 0.05] } 4... dxe5 { [%eval 0.02] } 5. Bc4 { [%eval 0.0] } 5... Be6 $6
+{ [%eval 0.77] } 6. Bxe6 { [%eval 0.75] } 6... fxe6 { [%eval 0.85] } 7. Ne2 $2
+{ [%eval -0.25] } 7... Bc5 { [%eval -0.22] } 8. O-O { [%eval -0.3] } 8... a6 $6
+{ [%eval 0.34] } 9. Kh1 { [%eval 0.0] } 9... O-O { [%eval 0.14] } 10. f4 $2
+{ [%eval -1.0] } 10... exf4 $6 { [%eval -0.29] } 11. Nxf4 { [%eval -0.17] }
+11... Qe7 { [%eval 0.0] } 12. Qe2 { [%eval 0.02] } 12... Nc6 { [%eval 0.08] }
+13. a3 $6 { [%eval -0.57] } 13... Nd4 { [%eval -0.57] } 14. Qd3 $6
+{ [%eval -1.53] } 14... Rad8 $6 { [%eval -0.64] } 15. Nb3 $2 { [%eval -1.67] }
+15... Ba7 $2 { [%eval -0.42] } 16. Nxd4 { [%eval -0.35] } 16... Bxd4
+{ [%eval -0.33] } 17. Qb3 $2 { [%eval -3.14] } 17... Be5 $4 { [%eval 2.67] }
+18. Qxe6+ $2 { [%eval -0.04] } 18... Kh8 $4 { [%eval 12.77] } 19. Qxe7
+{ [%eval 12.62] } 19... Rfe8 { [%eval 12.47] } 20. Qb4 { [%eval 12.26] } 20...
+Rd4 { [%eval 13.6] } 21. c4 { [%eval 11.27] } 21... Bxf4 { [%eval 13.88] } 22.
+Bxf4 { [%eval 13.25] } 22... Nxe4 { [%eval 17.22] } 23. Bxc7 { [%eval 16.51] }
+23... Nd2 $6 { [%eval #2] } 24. Rf8+ { [%eval #1] } 1-0

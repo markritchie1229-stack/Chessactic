@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dq2faH3c"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Minor-Detail"]
+[Black "zaltukas"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:16:34"]
+[WhiteElo "1516"]
+[BlackElo "1390"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Veresov Attack, Two Knights System"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval -0.1] } 2...
+Nf6 { [%eval -0.09] } 3. Bg5 { [%eval -0.16] } 3... Nbd7 { [%eval -0.07] } 4.
+Nf3 { [%eval -0.04] } 4... b6 { [%eval 0.22] } 5. Ne5 { [%eval 0.02] } 5... Bb7
+{ [%eval 0.12] } 6. Nxd7 { [%eval -0.3] } 6... Qxd7 { [%eval -0.22] } 7. Bxf6
+{ [%eval -0.33] } 7... gxf6 { [%eval -0.21] } 8. e3 { [%eval -0.34] } 8... e5
+{ [%eval -0.04] } 9. Bb5 { [%eval -0.31] } 9... Bc6 $6 { [%eval 0.46] } 10.
+Bxc6 { [%eval 0.22] } 10... Qxc6 { [%eval 0.41] } 11. Qd3 $6 { [%eval -0.22] }
+11... O-O-O $6 { [%eval 0.34] } 12. Nb5 $6 { [%eval -0.33] } 12... Kb7
+{ [%eval -0.19] } 13. b3 $4 { [%eval -3.44] } 13... exd4 $4 { [%eval 0.35] }
+14. Nxd4 { [%eval 0.33] } 14... Bb4+ { [%eval 0.44] } 15. Ke2 { [%eval 0.31] }
+15... Qc5 { [%eval 0.37] } 16. Rac1 { [%eval 0.2] } 16... Rde8 $2
+{ [%eval 2.5] } 17. c4 $2 { [%eval 0.69] } 17... Qa5 $6 { [%eval 1.48] } 18.
+Rc2 { [%eval 1.05] } 18... dxc4 $6 { [%eval 1.67] } 19. Rxc4 { [%eval 1.59] }
+19... Rd8 $2 { [%eval 3.88] } 20. Qe4+ { [%eval 3.83] } 20... Qd5
+{ [%eval 3.68] } 21. Qd3 $4 { [%eval -0.43] } 21... Rhe8 $2 { [%eval 1.87] }
+22. Rxb4 { [%eval 1.54] } 22... a5 $6 { [%eval 2.14] } 23. Rc4 { [%eval 2.05] }
+23... Qxg2 $2 { [%eval 4.23] } 24. Rhc1 { [%eval 4.02] } 24... Qxh2 $4
+{ [%eval 9.25] } 25. Rxc7+ { [%eval 8.72] } 25... Kb8 $2 { [%eval #30] } 26.
+Nc6+ { [%eval 55.18] } 26... Ka8 $6 { [%eval #1] } 27. Nxd8 $6 { [%eval #5] }
+27... Qh5+ { [%eval #5] } 28. Kd2 { [%eval #4] } 28... Qh2 { [%eval #2] } 29.
+Qa6+ { [%eval #1] } 29... Kb8 { [%eval #1] } 30. Qb7# 1-0

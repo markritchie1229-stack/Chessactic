@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zvYyjY62"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gbergs"]
+[Black "iD_Zero"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:53:56"]
+[WhiteElo "1257"]
+[BlackElo "1258"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C25"]
+[Opening "Vienna Game: Zhuravlev Countergambit #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.41] } 2. Nc3 { [%eval 0.12] } 2...
+Bb4 { [%eval 0.46] } 3. a3 { [%eval 0.02] } 3... Bxc3 { [%eval 0.08] } 4. dxc3
+{ [%eval 0.03] } 4... d5 $6 { [%eval 0.93] } 5. Be3 $6 { [%eval 0.03] } 5...
+Nf6 { [%eval 0.11] } 6. Nf3 { [%eval 0.06] } 6... Nc6 { [%eval 0.3] } 7. Qd3 $2
+{ [%eval -0.95] } 7... Nxe4 { [%eval -0.76] } 8. c4 { [%eval -0.81] } 8... Bg4
+$4 { [%eval 4.16] } 9. cxd5 { [%eval 4.14] } 9... Nd6 $6 { [%eval 4.93] } 10.
+dxc6 { [%eval 4.7] } 10... bxc6 $6 { [%eval 5.61] } 11. O-O-O $2
+{ [%eval 3.99] } 11... Bxf3 $2 { [%eval 4.99] } 12. gxf3 { [%eval 4.87] } 12...
+Qf6 { [%eval 5.08] } 13. Rg1 { [%eval 4.88] } 13... Qxf3 $4 { [%eval 10.55] }
+14. Be2 $4 { [%eval 4.85] } 14... Qf6 { [%eval 4.96] } 15. Bg5 { [%eval 4.52] }
+15... Qe6 { [%eval 4.52] } 16. Kb1 $6 { [%eval 3.83] } 16... e4 $2
+{ [%eval 6.27] } 17. Qd4 $2 { [%eval 4.64] } 17... Nb5 $4 { [%eval #2] } 18.
+Qxg7 $6 { [%eval #8] } 18... Rf8 { [%eval #7] } 19. Bxb5 { [%eval #20] } 19...
+cxb5 { [%eval 127.16] } 20. Bh6 { [%eval 27.2] } 20... Ke7 $6 { [%eval #13] }
+21. Bg5+ $6 { [%eval 21.64] } 21... Ke8 { [%eval 18.51] } 22. Qxh7
+{ [%eval 12.8] } 22... Rb8 { [%eval 13.08] } 23. Bh6 { [%eval 12.5] } 23... Qe5
+$6 { [%eval #9] } 24. Bxf8 { [%eval #8] } 24... Kxf8 { [%eval #3] } 25. Rg8+ $6
+{ [%eval #9] } 25... Ke7 { [%eval #9] } 26. Rxb8 { [%eval #8] } 26... c5
+{ [%eval #4] } 27. Rxb5 $6 { [%eval #7] } 27... a6 { [%eval #4] } 28. Rb7+
+{ [%eval #3] } 28... Ke6 { [%eval #1] } 29. Qxf7# 1-0

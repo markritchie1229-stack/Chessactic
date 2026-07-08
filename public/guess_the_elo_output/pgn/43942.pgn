@@ -1,0 +1,39 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/p4HN5gNX"]
+[Site "https://lichess.org/F2UjCkfq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Minkazurene"]
+[Black "Kpop_BEST_CHESS"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:38:17"]
+[WhiteElo "1152"]
+[BlackElo "1108"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+33"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Ross Gambit"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.12] } 1... e5 $6 { [%eval 0.97] } 2. Nc3 $6 { [%eval 0.06] }
+2... Nf6 $6 { [%eval 0.67] } 3. d4 $2 { [%eval -0.58] } 3... exd4
+{ [%eval -0.3] } 4. e4 $4 { [%eval -3.77] } 4... dxc3 { [%eval -3.7] } 5. bxc3
+$6 { [%eval -4.45] } 5... Be7 $6 { [%eval -3.81] } 6. Bd2 $2 { [%eval -5.12] }
+6... O-O $6 { [%eval -4.17] } 7. Rb1 $6 { [%eval -5.06] } 7... Ng4 $2
+{ [%eval -3.85] } 8. Rc1 $6 { [%eval -4.74] } 8... Bc5 { [%eval -4.52] } 9. Rg1
+$4 { [%eval -15.23] } 9... Bxf2+ { [%eval -14.89] } 10. Ke2 { [%eval -14.59] }
+10... Bxg1 { [%eval -11.32] } 11. Ra1 { [%eval -14.59] } 11... c6
+{ [%eval -12.12] } 12. Nd4 { [%eval -17.93] } 12... c5 { [%eval -15.02] } 13.
+Nf5 { [%eval -17.18] } 13... c4 { [%eval -13.11] } 14. Qc1 { [%eval -18.06] }
+14... d6 { [%eval -15.12] } 15. Nh4 { [%eval -33.73] } 15... Qxh4
+{ [%eval -32.19] } 16. Kd1 $6 { [%eval #-7] } 16... Qxh2 $6 { [%eval -23.63] }
+17. Bxc4 $6 { [%eval #-9] } 17... d5 $6 { [%eval -25.85] } 18. Bxd5 $6
+{ [%eval #-6] } 18... Nf2+ { [%eval #-21] } 19. Ke1 { [%eval -39.12] } 19...
+Qh4 { [%eval -21.54] } 20. Qa3 { [%eval -32.2] } 20... Qh5 { [%eval -18.81] }
+21. Qb2 { [%eval -25.34] } 21... Be6 { [%eval -21.4] } 22. Qa3
+{ [%eval -28.77] } 22... Bxd5 { [%eval -25.97] } 23. Kf1 $6 { [%eval #-9] }
+23... Bxa2 $6 { [%eval -17.23] } 24. Qxa2 { [%eval -25.82] } 24... Nh1
+{ [%eval -15.99] } 25. Qb1 { [%eval -69.2] } 25... Bb6 { [%eval -31.41] } 26.
+Ke1 $6 { [%eval #-3] } 26... Ng3 { [%eval #-2] } 27. Qc1 { [%eval #-1] } 27...
+Qh1# 0-1

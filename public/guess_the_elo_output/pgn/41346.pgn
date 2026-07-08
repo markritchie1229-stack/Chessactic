@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BrlbvjRL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pawndestroyer001"]
+[Black "van9992003"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:55:36"]
+[WhiteElo "1876"]
+[BlackElo "1834"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf, Lipnitsky Attack"]
+[TimeControl "120+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.31] } 3. d4 { [%eval 0.17] } 3... cxd4 { [%eval 0.24] } 4. Nxd4
+{ [%eval 0.16] } 4... a6 { [%eval 0.42] } 5. Nc3 { [%eval 0.24] } 5... Nf6
+{ [%eval 0.27] } 6. Bc4 { [%eval 0.14] } 6... b5 { [%eval 0.21] } 7. Bb3
+{ [%eval 0.12] } 7... Qc7 $6 { [%eval 0.78] } 8. O-O $6 { [%eval 0.14] } 8...
+e6 { [%eval 0.3] } 9. f4 { [%eval -0.05] } 9... Be7 { [%eval 0.0] } 10. f5
+{ [%eval -0.02] } 10... e5 { [%eval 0.1] } 11. Nd5 { [%eval -0.2] } 11... Nxd5
+$2 { [%eval 1.36] } 12. Bxd5 { [%eval 1.28] } 12... Bb7 $4 { [%eval 4.87] } 13.
+Ne6 $4 { [%eval -0.84] } 13... fxe6 { [%eval -0.83] } 14. Qh5+ $2
+{ [%eval -2.0] } 14... Kd8 { [%eval -1.87] } 15. fxe6 $6 { [%eval -2.69] }
+15... Bxd5 { [%eval -2.68] } 16. exd5 { [%eval -2.63] } 16... Qc5+
+{ [%eval -2.56] } 17. Kh1 { [%eval -2.5] } 17... Qxd5 { [%eval -2.31] } 18. Bg5
+{ [%eval -2.67] } 18... Nc6 $2 { [%eval -1.19] } 19. Rad1 $2 { [%eval -4.02] }
+19... Qxe6 { [%eval -3.82] } 20. Rxd6+ $4 { [%eval -7.66] } 20... Qxd6
+{ [%eval -7.52] } 21. Rd1 { [%eval -7.45] } 21... Nd4 { [%eval -7.17] } 22. c3
+$6 { [%eval -7.75] } 22... Bxg5 $6 { [%eval -6.98] } 23. Qxg5+
+{ [%eval -6.81] } 23... Qf6 { [%eval -6.59] } 24. Qxf6+ $2 { [%eval -8.45] }
+24... gxf6 { [%eval -8.3] } 25. cxd4 { [%eval -8.08] } 25... Ke7
+{ [%eval -7.67] } 0-1

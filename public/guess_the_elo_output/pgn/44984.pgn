@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/g6f9anj3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hbbs"]
+[Black "Sirius7"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:22:15"]
+[WhiteElo "1382"]
+[BlackElo "1529"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-15"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Steinitz Countergambit"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.19] } 2. Bf4 { [%eval 0.15] } 2... c5
+{ [%eval 0.18] } 3. Nf3 { [%eval 0.06] } 3... Nc6 { [%eval 0.11] } 4. e3
+{ [%eval 0.05] } 4... cxd4 { [%eval 0.14] } 5. exd4 { [%eval 0.14] } 5... Bg4
+{ [%eval 0.16] } 6. c3 { [%eval 0.21] } 6... Bxf3 { [%eval 0.31] } 7. Qxf3
+{ [%eval 0.37] } 7... f6 $6 { [%eval 1.06] } 8. Nd2 $6 { [%eval 0.46] } 8... e5
+{ [%eval 0.78] } 9. dxe5 { [%eval 0.41] } 9... fxe5 { [%eval 0.43] } 10. Bg3
+{ [%eval 0.31] } 10... Nf6 { [%eval 0.44] } 11. O-O-O { [%eval 0.27] } 11...
+Be7 $6 { [%eval 0.93] } 12. Bb5 $6 { [%eval 0.37] } 12... e4 $6
+{ [%eval 1.01] } 13. Nxe4 $2 { [%eval -0.32] } 13... Qa5 $4 { [%eval 7.96] }
+14. Nd6+ $4 { [%eval 1.2] } 14... Bxd6 { [%eval 1.36] } 15. Bxc6+
+{ [%eval 1.17] } 15... bxc6 { [%eval 1.68] } 16. Bxd6 { [%eval 1.57] } 16...
+Qxa2 $2 { [%eval 2.58] } 17. Rhe1+ { [%eval 2.43] } 17... Kf7 $4
+{ [%eval 12.04] } 18. Re7+ { [%eval 11.2] } 18... Kg6 $6 { [%eval #4] } 19.
+Qg3+ { [%eval #3] } 19... Kf5 { [%eval #1] } 20. Qf4+ $6 { [%eval #4] } 20...
+Kg6 { [%eval #4] } 21. Qg3+ { [%eval #3] } 21... Kh5 { [%eval #2] } 22. Qh3+ $6
+{ [%eval #10] } 22... Kg5 { [%eval #1] } 23. Qg3+ $6 { [%eval #4] } 23... Kh5
+{ [%eval #2] } 24. Re5+ { [%eval #1] } 24... Kh6 { [%eval #1] } 25. Qg5# 1-0

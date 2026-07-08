@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/1U6dZErz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zz15"]
+[Black "syahruddinsaleppang"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:29:54"]
+[WhiteElo "1702"]
+[BlackElo "1942"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+6"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.3] } 2. Nc3 { [%eval 0.04] } 2... Nf6
+{ [%eval 0.2] } 3. Nf3 { [%eval 0.09] } 3... Nc6 { [%eval 0.25] } 4. d3 $6
+{ [%eval -0.35] } 4... Be7 { [%eval 0.04] } 5. h4 $6 { [%eval -0.49] } 5... O-O
+{ [%eval -0.4] } 6. h5 { [%eval -0.47] } 6... d5 { [%eval -0.43] } 7. h6
+{ [%eval -0.37] } 7... g6 { [%eval -0.32] } 8. exd5 { [%eval -0.33] } 8... Nxd5
+{ [%eval -0.35] } 9. Nxd5 { [%eval -0.29] } 9... Qxd5 { [%eval -0.25] } 10. c4
+$6 { [%eval -1.18] } 10... Bb4+ { [%eval -0.75] } 11. Bd2 { [%eval -0.77] }
+11... Qa5 { [%eval -0.68] } 12. Bxb4 $6 { [%eval -1.5] } 12... Qxb4+ $6
+{ [%eval -0.87] } 13. Qd2 { [%eval -0.88] } 13... Bf5 { [%eval -0.62] } 14.
+Qxb4 { [%eval -0.64] } 14... Nxb4 { [%eval -0.47] } 15. O-O-O $6
+{ [%eval -0.97] } 15... Nxa2+ { [%eval -1.03] } 16. Kc2 { [%eval -1.07] } 16...
+Nb4+ { [%eval -0.7] } 17. Kb3 $6 { [%eval -1.59] } 17... Nc6 { [%eval -1.7] }
+18. Nh4 $6 { [%eval -2.35] } 18... Be6 $6 { [%eval -1.77] } 19. f3 $2
+{ [%eval -4.22] } 19... b5 $6 { [%eval -3.31] } 20. g4 { [%eval -3.28] } 20...
+Nd4+ { [%eval -2.86] } 21. Kc3 $6 { [%eval -3.77] } 21... b4+ $6
+{ [%eval -2.85] } 22. Kxb4 { [%eval -2.96] } 22... Rfb8+ { [%eval -2.75] } 23.
+Kc5 $4 { [%eval #-2] } 23... Nb3+ $6 { [%eval #-2] } 24. Kc6 { [%eval #-2] }
+24... Rb6+ { [%eval #-1] } 25. Kxc7 { [%eval #-1] } 25... Rc8# 0-1

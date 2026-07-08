@@ -1,0 +1,49 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vThFd7eD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AdrianJL"]
+[Black "jkriklu"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:11:25"]
+[WhiteElo "1502"]
+[BlackElo "1424"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-9"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.33] } 2... f6
+$6 { [%eval 1.32] } 3. Nc3 { [%eval 0.95] } 3... Ne7 { [%eval 1.43] } 4. Bd3 $6
+{ [%eval 0.5] } 4... d6 { [%eval 0.69] } 5. O-O { [%eval 0.58] } 5... f5 $6
+{ [%eval 1.4] } 6. b3 $6 { [%eval 0.7] } 6... fxe4 { [%eval 0.64] } 7. Bxe4
+{ [%eval 0.89] } 7... Bg4 $2 { [%eval 2.6] } 8. Bb2 $2 { [%eval 1.18] } 8...
+Bxf3 $6 { [%eval 1.73] } 9. Qxf3 { [%eval 1.79] } 9... g6 $4 { [%eval 7.31] }
+10. Bxb7 { [%eval 7.4] } 10... Nbc6 $2 { [%eval 11.21] } 11. Bxa8 $4
+{ [%eval 4.58] } 11... Qxa8 { [%eval 4.68] } 12. Nb5 $2 { [%eval 3.1] } 12...
+Qb8 { [%eval 3.45] } 13. a4 { [%eval 3.04] } 13... Bh6 $6 { [%eval 4.0] } 14.
+Rfd1 $2 { [%eval 2.77] } 14... Nb4 $2 { [%eval 5.51] } 15. Bc3 $2
+{ [%eval 3.16] } 15... Nxc2 $4 { [%eval 6.27] } 16. Rac1 $2 { [%eval 4.67] }
+16... a6 { [%eval 4.62] } 17. Nxc7+ { [%eval 4.47] } 17... Qxc7
+{ [%eval 4.41] } 18. Qa8+ $2 { [%eval 2.71] } 18... Qc8 $2 { [%eval 4.4] } 19.
+Qe4 $2 { [%eval 2.73] } 19... Na3 $4 { [%eval 9.6] } 20. Bb2 $4
+{ [%eval 4.44] } 20... Qf5 $4 { [%eval 7.53] } 21. Qa8+ { [%eval 7.83] } 21...
+Kf7 $2 { [%eval 11.07] } 22. Qxh8 { [%eval 10.79] } 22... Bg7 { [%eval 10.79] }
+23. Qxh7 { [%eval 10.06] } 23... Nd5 { [%eval 12.18] } 24. Bxa3
+{ [%eval 11.78] } 24... Nf4 $6 { [%eval #35] } 25. Rc7+ { [%eval 68.5] } 25...
+Kf6 { [%eval 67.48] } 26. Qxg7+ { [%eval 60.39] } 26... Kg5 { [%eval 58.99] }
+27. h4+ { [%eval 58.37] } 27... Kxh4 { [%eval 58.13] } 28. Qh7+
+{ [%eval 29.91] } 28... Kg5 $6 { [%eval #12] } 29. Bxd6 { [%eval #11] } 29...
+Qg4 { [%eval #4] } 30. Be7+ { [%eval #3] } 30... Kf5 { [%eval #3] } 31. Qf7+
+{ [%eval #2] } 31... Ke4 { [%eval #2] } 32. Re1+ $6 { [%eval #4] } 32... Kd3
+{ [%eval #2] } 33. Rc3+ $6 { [%eval #7] } 33... Kxd2 { [%eval #7] } 34. Rc2+
+{ [%eval #6] } 34... Kxc2 { [%eval #6] } 35. Qc4+ { [%eval #5] } 35... Kb2
+{ [%eval #5] } 36. Qc1+ { [%eval #4] } 36... Ka2 { [%eval #1] } 37. Qa1+ $6
+{ [%eval #4] } 37... Kxb3 { [%eval #4] } 38. Rb1+ $6 { [%eval #5] } 38... Kc4
+{ [%eval #5] } 39. Qa2+ $6 { [%eval #5] } 39... Kd4 { [%eval #4] } 40. Rb4+
+{ [%eval #3] } 40... Kd3 { [%eval #3] } 41. Qc4+ { [%eval #2] } 41... Kd2
+{ [%eval #2] } 42. Rb2+ { [%eval #1] } 42... Kd1 { [%eval #1] } 43. Rb1+ $6
+{ [%eval #1] } 43... Kd2 { [%eval #1] } 44. Bb4# 1-0

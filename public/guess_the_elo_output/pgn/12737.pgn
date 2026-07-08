@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/fUAOZqg6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Obanta"]
+[Black "dranocrepus"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:13:25"]
+[WhiteElo "1746"]
+[BlackElo "1820"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... d5 { [%eval 0.53] } 2. Bc4 $4 { [%eval -3.47] }
+2... dxc4 { [%eval -3.32] } 3. Nf3 { [%eval -3.39] } 3... e6 { [%eval -3.04] }
+4. O-O { [%eval -3.35] } 4... b6 { [%eval -3.21] } 5. d3 $6 { [%eval -3.79] }
+5... Bb7 { [%eval -3.43] } 6. Nc3 { [%eval -3.41] } 6... cxd3 { [%eval -3.36] }
+7. cxd3 { [%eval -3.45] } 7... Nf6 { [%eval -3.3] } 8. e5 $6 { [%eval -4.29] }
+8... Nd5 { [%eval -4.25] } 9. Bg5 { [%eval -4.51] } 9... Be7 { [%eval -4.45] }
+10. Bxe7 { [%eval -4.56] } 10... Qxe7 { [%eval -4.27] } 11. Nxd5 $6
+{ [%eval -4.83] } 11... Bxd5 { [%eval -4.68] } 12. d4 { [%eval -5.12] } 12...
+O-O { [%eval -4.91] } 13. Qc2 { [%eval -5.3] } 13... Rc8 $6 { [%eval -4.65] }
+14. h4 $2 { [%eval -5.76] } 14... Nd7 $6 { [%eval -4.97] } 15. Ng5
+{ [%eval -5.28] } 15... g6 $6 { [%eval -4.63] } 16. Ne4 $2 { [%eval -6.02] }
+16... c5 { [%eval -5.56] } 17. Nf6+ $2 { [%eval -7.96] } 17... Nxf6
+{ [%eval -7.74] } 18. exf6 { [%eval -7.83] } 18... Qxf6 { [%eval -7.72] } 19.
+dxc5 { [%eval -7.9] } 19... Qxh4 $6 { [%eval -7.18] } 20. g3 $2 { [%eval #-1] }
+20... Qh1# 0-1

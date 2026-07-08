@@ -1,0 +1,39 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/WJN8mSDG"]
+[Site "https://lichess.org/m11xoNlU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gambits960"]
+[Black "Pre-Move-Only"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "05:36:53"]
+[WhiteElo "1697"]
+[BlackElo "1693"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "A53"]
+[Opening "Old Indian Defense"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... Nf6 { [%eval 0.23] } 2. c4 { [%eval 0.27] } 2... d6
+{ [%eval 0.48] } 3. Nf3 { [%eval 0.46] } 3... g6 { [%eval 0.65] } 4. e3
+{ [%eval 0.39] } 4... Bg7 { [%eval 0.41] } 5. Bd2 { [%eval 0.08] } 5... O-O
+{ [%eval 0.03] } 6. Bc3 { [%eval -0.23] } 6... Bd7 { [%eval 0.12] } 7. Nbd2
+{ [%eval 0.03] } 7... Be6 $6 { [%eval 0.62] } 8. Be2 { [%eval 0.47] } 8... Bg4
+{ [%eval 0.87] } 9. O-O { [%eval 0.66] } 9... Bxf3 { [%eval 0.82] } 10. Bxf3
+{ [%eval 0.85] } 10... Nbd7 $2 { [%eval 2.15] } 11. Ne4 $2 { [%eval 0.28] }
+11... c5 $2 { [%eval 1.37] } 12. Nxf6+ { [%eval 1.32] } 12... Bxf6
+{ [%eval 1.38] } 13. dxc5 $2 { [%eval -0.62] } 13... dxc5 $2 { [%eval 0.38] }
+14. Bxf6 { [%eval 0.04] } 14... exf6 { [%eval 0.47] } 15. Bd5 { [%eval 0.28] }
+15... Ne5 { [%eval 0.44] } 16. Qf3 $4 { [%eval -7.08] } 16... Qd6 $4
+{ [%eval 0.33] } 17. Qe4 { [%eval 0.35] } 17... f5 { [%eval 0.27] } 18. Qc2
+{ [%eval 0.1] } 18... b6 $2 { [%eval 2.05] } 19. f4 $2 { [%eval 0.02] } 19...
+Rad8 $4 { [%eval 3.76] } 20. fxe5 { [%eval 3.65] } 20... Qxe5 { [%eval 3.61] }
+21. Rad1 $2 { [%eval 2.36] } 21... Qxe3+ { [%eval 2.37] } 22. Kh1
+{ [%eval 1.98] } 22... Qe5 $6 { [%eval 2.68] } 23. Rde1 { [%eval 2.62] } 23...
+Qf6 { [%eval 3.01] } 24. g4 { [%eval 2.85] } 24... Rfe8 { [%eval 2.97] } 25.
+Rxe8+ $6 { [%eval 2.46] } 25... Rxe8 { [%eval 2.43] } 26. gxf5 { [%eval 2.43] }
+26... gxf5 $2 { [%eval 3.74] } 27. Rxf5 $2 { [%eval 1.93] } 27... Qd6 $4
+{ [%eval #13] } 28. Qg2+ $4 { [%eval 4.64] } 28... Kf8 $4 { [%eval #1] } 29.
+Rxf7# 1-0

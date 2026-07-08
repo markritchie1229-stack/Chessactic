@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4lPkICvG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "scherenaxt"]
+[Black "saeedpooyandeh"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:00:33"]
+[WhiteElo "1643"]
+[BlackElo "1873"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[ECO "C00"]
+[Opening "French Defense: Pelikan Variation"]
+[TimeControl "300+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.36] } 1... e6 { [%eval 0.23] } 2. f4 { [%eval -0.16] } 2... d5
+{ [%eval -0.18] } 3. Nc3 { [%eval -0.2] } 3... c5 { [%eval -0.05] } 4. d3
+{ [%eval -0.23] } 4... Nc6 { [%eval -0.32] } 5. Nf3 { [%eval -0.22] } 5... Be7
+{ [%eval -0.22] } 6. e5 { [%eval -0.37] } 6... Bh4+ { [%eval 0.06] } 7. Nxh4
+{ [%eval 0.02] } 7... Qxh4+ { [%eval 0.1] } 8. g3 { [%eval 0.03] } 8... Qd8
+{ [%eval 0.11] } 9. Nb5 $2 { [%eval -2.72] } 9... Qa5+ { [%eval -2.66] } 10.
+Nc3 { [%eval -2.63] } 10... d4 { [%eval -2.56] } 11. Bd2 { [%eval -2.72] }
+11... dxc3 { [%eval -2.61] } 12. Bxc3 { [%eval -2.47] } 12... Qb6
+{ [%eval -2.31] } 13. Qg4 $6 { [%eval -2.85] } 13... g6 { [%eval -2.72] } 14.
+Bh3 { [%eval -3.14] } 14... Nd4 { [%eval -3.07] } 15. O-O $2 { [%eval -5.1] }
+15... Nxc2 { [%eval -5.03] } 16. Rac1 { [%eval -4.98] } 16... Ne3
+{ [%eval -4.85] } 17. Qg5 $6 { [%eval -5.52] } 17... Nxf1 { [%eval -5.27] } 18.
+Kxf1 $6 { [%eval -6.1] } 18... Bd7 { [%eval -5.9] } 19. f5 { [%eval -6.08] }
+19... h6 { [%eval -6.0] } 20. Qf4 { [%eval -6.14] } 20... gxf5
+{ [%eval -5.91] } 21. Bxf5 { [%eval -5.85] } 21... exf5 $2 { [%eval -4.58] }
+22. e6 { [%eval -4.51] } 22... Bxe6 { [%eval -4.35] } 23. Bxh8
+{ [%eval -4.44] } 23... Ne7 { [%eval -4.32] } 24. Qxh6 { [%eval -4.35] } 24...
+O-O-O $6 { [%eval -3.57] } 25. Qe3 $4 { [%eval -8.47] } 25... Rxh8
+{ [%eval -8.31] } 26. Rxc5+ $2 { [%eval -10.1] } 26... Nc6 { [%eval -9.47] }
+27. Qe5 $6 { [%eval -15.39] } 27... Rd8 $6 { [%eval -9.45] } 0-1

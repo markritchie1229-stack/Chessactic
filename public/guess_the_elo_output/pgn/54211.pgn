@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/3Czn87wa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "guro2525"]
+[Black "Nicolas2805"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:03:38"]
+[WhiteElo "1555"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+204"]
+[ECO "C58"]
+[Opening "Italian Game: Two Knights Defense, Polerio Defense, Kieseritzky Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.34] } 3. Bc4 { [%eval 0.27] } 3... Nf6 { [%eval 0.34] } 4. Ng5
+{ [%eval 0.12] } 4... d5 { [%eval 0.27] } 5. exd5 { [%eval 0.24] } 5... Na5
+{ [%eval 0.16] } 6. d3 { [%eval 0.05] } 6... h6 { [%eval -0.05] } 7. Nf3
+{ [%eval 0.0] } 7... Nxc4 { [%eval 0.27] } 8. dxc4 { [%eval 0.31] } 8... e4
+{ [%eval 0.52] } 9. Nd4 { [%eval 0.42] } 9... Bc5 { [%eval 0.72] } 10. Be3
+{ [%eval 0.67] } 10... O-O { [%eval 0.63] } 11. O-O $6 { [%eval -0.33] } 11...
+Qd6 $2 { [%eval 1.28] } 12. Nb5 { [%eval 1.28] } 12... Qb6 { [%eval 1.31] } 13.
+Bxc5 { [%eval 1.29] } 13... Qxc5 { [%eval 1.31] } 14. b3 $6 { [%eval 0.55] }
+14... a6 $6 { [%eval 1.24] } 15. N5c3 $2 { [%eval -0.21] } 15... Qd6 $6
+{ [%eval 0.46] } 16. Nd2 $2 { [%eval -0.58] } 16... Re8 $2 { [%eval 0.72] } 17.
+Re1 { [%eval 0.67] } 17... Bf5 { [%eval 1.03] } 18. Re3 $2 { [%eval -0.4] }
+18... c6 $2 { [%eval 0.75] } 19. dxc6 { [%eval 0.64] } 19... Qxc6
+{ [%eval 0.72] } 20. Qe1 { [%eval 0.31] } 20... Rad8 { [%eval 0.72] } 21. Rg3
+$6 { [%eval 0.0] } 21... Rd7 { [%eval 0.39] } 22. Qe3 $2 { [%eval -0.84] }
+22... Kh8 $2 { [%eval 0.33] } 23. Nf1 $6 { [%eval -0.58] } 23... Qd6 $2
+{ [%eval 0.9] } 24. Rd1 { [%eval 0.83] } 24... Qc6 { [%eval 1.2] } 25. Rxd7
+{ [%eval 1.18] } 25... Qxd7 { [%eval 1.46] } 26. Nd2 $2 { [%eval -0.65] } 26...
+Rd8 { [%eval -0.63] } 27. Ndxe4 $4 { [%eval #-3] } 27... Qd1+ { [%eval #-2] }
+28. Nxd1 { [%eval #-2] } 28... Rxd1+ { [%eval #-1] } 29. Qe1 { [%eval #-1] }
+29... Rxe1# 0-1

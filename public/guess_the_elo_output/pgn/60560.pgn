@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZoqT2LNU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stivVentura"]
+[Black "blize"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:43:51"]
+[WhiteElo "1150"]
+[BlackElo "1348"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.44] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.28] } 2... d5
+{ [%eval 0.71] } 3. Nc3 $2 { [%eval -0.37] } 3... d4 { [%eval -0.25] } 4. Nb1
+{ [%eval -0.42] } 4... Nc6 { [%eval 0.07] } 5. Bb5 { [%eval 0.04] } 5... Bd7
+{ [%eval -0.03] } 6. Bxc6 { [%eval 0.0] } 6... Bxc6 { [%eval -0.04] } 7. d3
+{ [%eval -0.03] } 7... Ne7 $2 { [%eval 1.06] } 8. O-O $2 { [%eval -0.02] } 8...
+Ng6 { [%eval -0.06] } 9. Re1 { [%eval -0.37] } 9... Bc5 { [%eval 0.0] } 10.
+Nbd2 { [%eval -0.36] } 10... O-O { [%eval -0.16] } 11. Nb3 { [%eval -0.48] }
+11... Be7 $6 { [%eval 0.12] } 12. Na5 { [%eval 0.0] } 12... Bb4
+{ [%eval 0.35] } 13. Bd2 $6 { [%eval -0.41] } 13... Bxd2 { [%eval 0.07] } 14.
+Qxd2 $6 { [%eval -0.65] } 14... a6 $2 { [%eval 0.74] } 15. Nxb7 $4
+{ [%eval -3.25] } 15... Bxb7 { [%eval -3.22] } 16. c3 { [%eval -3.08] } 16...
+Qf6 $6 { [%eval -2.22] } 17. cxd4 { [%eval -2.29] } 17... exd4
+{ [%eval -2.08] } 18. Qb4 $6 { [%eval -2.7] } 18... Rab8 { [%eval -2.64] } 19.
+Nxd4 $2 { [%eval -4.36] } 19... Nf4 $6 { [%eval -3.5] } 20. Qd2 $4
+{ [%eval -10.74] } 20... Qg5 { [%eval -10.22] } 21. g3 { [%eval -17.19] } 21...
+Nh3+ { [%eval -16.41] } 0-1

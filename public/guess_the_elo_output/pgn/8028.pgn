@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9mx6qe0m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "essam0000"]
+[Black "Kostya_Pereslegin"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:04:08"]
+[WhiteElo "2045"]
+[BlackElo "2112"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Symmetrical Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.35] } 2. Nf3 { [%eval 0.09] } 2...
+Nf6 { [%eval 0.25] } 3. Nbd2 { [%eval -0.01] } 3... c6 { [%eval 0.34] } 4. e3
+{ [%eval 0.05] } 4... Bg4 { [%eval 0.22] } 5. Be2 { [%eval 0.25] } 5... e6
+{ [%eval 0.31] } 6. c3 { [%eval 0.08] } 6... Bd6 { [%eval 0.11] } 7. O-O
+{ [%eval 0.01] } 7... Nbd7 { [%eval 0.12] } 8. h3 { [%eval 0.11] } 8... Bh5
+{ [%eval 0.09] } 9. b3 { [%eval 0.06] } 9... O-O { [%eval 0.12] } 10. a4
+{ [%eval -0.13] } 10... a5 { [%eval 0.1] } 11. Bd3 $6 { [%eval -0.42] } 11...
+e5 { [%eval -0.37] } 12. dxe5 { [%eval -0.45] } 12... Nxe5 { [%eval -0.42] }
+13. Be2 { [%eval -0.47] } 13... Nxf3+ { [%eval -0.37] } 14. Nxf3
+{ [%eval -0.65] } 14... Re8 { [%eval -0.44] } 15. Bb2 { [%eval -0.66] } 15...
+Qe7 { [%eval -0.37] } 16. Nd4 { [%eval -0.75] } 16... Qe5 { [%eval -0.7] } 17.
+g3 { [%eval -0.88] } 17... Bg6 { [%eval -0.99] } 18. Bd3 { [%eval -0.97] }
+18... Ne4 { [%eval -0.94] } 19. Nf3 { [%eval -1.38] } 19... Qh5
+{ [%eval -0.93] } 20. Kg2 { [%eval -0.98] } 20... Bf5 $6 { [%eval -0.04] } 21.
+Ng1 $2 { [%eval -1.93] } 21... Qg6 { [%eval -2.04] } 22. Qd2 $4
+{ [%eval -17.64] } 22... Nxg3 $4 { [%eval -6.63] } 23. fxg3 { [%eval -6.95] }
+23... Qxg3+ { [%eval -6.92] } 24. Kh1 { [%eval -6.86] } 24... Bxd3
+{ [%eval -6.67] } 25. Rf2 $4 { [%eval -27.42] } 25... Be4+ { [%eval -13.1] }
+26. Rg2 $6 { [%eval #-1] } 26... Qh2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XegNbIZv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "iraj-37"]
+[Black "pontypool"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:09:58"]
+[WhiteElo "1831"]
+[BlackElo "2036"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "E30"]
+[Opening "Nimzo-Indian Defense: Leningrad Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.12] } 2. c4 { [%eval 0.27] } 2... e6
+{ [%eval 0.26] } 3. Nc3 { [%eval 0.16] } 3... Bb4 { [%eval 0.14] } 4. Bg5
+{ [%eval -0.1] } 4... c5 { [%eval -0.07] } 5. d5 { [%eval -0.25] } 5... Bxc3+
+{ [%eval -0.2] } 6. bxc3 { [%eval -0.14] } 6... d6 { [%eval -0.08] } 7. dxe6
+{ [%eval -0.4] } 7... fxe6 { [%eval -0.08] } 8. Bxf6 $6 { [%eval -0.6] } 8...
+Qxf6 { [%eval -0.61] } 9. Qd2 { [%eval -0.72] } 9... O-O { [%eval -0.68] } 10.
+Nf3 { [%eval -0.73] } 10... Nc6 { [%eval -0.66] } 11. e3 { [%eval -0.92] }
+11... b6 { [%eval -0.45] } 12. Be2 { [%eval -0.53] } 12... Bb7
+{ [%eval -0.36] } 13. O-O { [%eval -0.41] } 13... Rad8 { [%eval -0.47] } 14.
+Rac1 { [%eval -0.71] } 14... Na5 { [%eval -0.51] } 15. Rfd1 $6
+{ [%eval -1.36] } 15... Ba6 { [%eval -1.08] } 16. Qb2 { [%eval -1.27] } 16...
+Bxc4 { [%eval -1.17] } 17. Bxc4 { [%eval -1.47] } 17... Nxc4 { [%eval -1.39] }
+18. Qb3 { [%eval -1.71] } 18... d5 { [%eval -1.52] } 19. Qa4 $2
+{ [%eval -3.23] } 19... Rf7 $2 { [%eval -1.75] } 20. Qc6 $2 { [%eval -3.64] }
+20... Rdf8 { [%eval -3.43] } 21. a4 { [%eval -3.79] } 21... Ne5
+{ [%eval -3.45] } 22. Nxe5 $4 { [%eval #-4] } 22... Qxf2+ { [%eval #-3] } 23.
+Kh1 { [%eval #-3] } 23... Qf1+ { [%eval #-2] } 24. Rxf1 { [%eval #-2] } 24...
+Rxf1+ { [%eval #-1] } 0-1

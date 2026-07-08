@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/zd2R0IkJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Baskerville1970"]
+[Black "alexbrekke"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:54:36"]
+[WhiteElo "1468"]
+[BlackElo "1473"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e6 { [%eval 0.18] } 2. d4 { [%eval 0.27] } 2... d5
+{ [%eval 0.34] } 3. exd5 { [%eval 0.06] } 3... exd5 { [%eval 0.16] } 4. Nc3
+{ [%eval 0.1] } 4... c6 { [%eval 0.1] } 5. Nf3 { [%eval 0.01] } 5... Bd6
+{ [%eval 0.15] } 6. Bg5 { [%eval -0.1] } 6... f5 $4 { [%eval 8.43] } 7. Bxd8
+{ [%eval 8.24] } 7... Kxd8 { [%eval 8.32] } 8. Bd3 { [%eval 8.14] } 8... Kc7
+{ [%eval 8.37] } 9. O-O { [%eval 8.2] } 9... Be6 $2 { [%eval 12.77] } 10. Ne5
+$2 { [%eval 7.88] } 10... Nd7 { [%eval 7.78] } 11. Qh5 $6 { [%eval 7.04] }
+11... Ngf6 { [%eval 7.03] } 12. Qd1 { [%eval 6.73] } 12... Nxe5 $2
+{ [%eval 8.19] } 13. dxe5 { [%eval 7.86] } 13... Bxe5 { [%eval 7.53] } 14. Qe2
+$2 { [%eval 6.04] } 14... Ne4 $2 { [%eval 7.55] } 15. Bxe4 { [%eval 7.58] }
+15... fxe4 { [%eval 7.35] } 16. f3 { [%eval 6.91] } 16... h5 $2
+{ [%eval 8.54] } 17. fxe4 { [%eval 8.33] } 17... h4 $2 { [%eval 13.9] } 18.
+exd5 { [%eval 13.36] } 18... cxd5 $6 { [%eval #5] } 19. Qxe5+ { [%eval #4] }
+19... Kd7 { [%eval #4] } 20. Rfe1 $6 { [%eval #8] } 20... h3 { [%eval #4] } 21.
+Qxe6+ { [%eval #3] } 21... Kc7 { [%eval #3] } 22. Qe7+ $6 { [%eval #3] } 22...
+Kb6 { [%eval #2] } 23. Re6+ { [%eval #1] } 23... Ka5 { [%eval #1] } 24. Qxb7 $6
+{ [%eval #1] } 24... hxg2 { [%eval #1] } 25. Qb5# 1-0

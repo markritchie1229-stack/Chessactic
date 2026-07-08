@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0gR43mPb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kdio"]
+[Black "PsoyKorolenko"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:28:29"]
+[WhiteElo "1805"]
+[BlackElo "1936"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "C53"]
+[Opening "Italian Game: Classical Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.24] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.43] } 3. Bc4 { [%eval 0.21] } 3... Bc5 { [%eval 0.24] } 4. c3
+{ [%eval 0.12] } 4... Nf6 { [%eval 0.16] } 5. Qe2 { [%eval 0.0] } 5... O-O
+{ [%eval 0.0] } 6. Bb3 { [%eval -0.29] } 6... d5 { [%eval -0.21] } 7. d3
+{ [%eval -0.22] } 7... dxe4 { [%eval -0.24] } 8. dxe4 { [%eval -0.25] } 8... h6
+{ [%eval -0.23] } 9. Nbd2 { [%eval -0.22] } 9... a5 { [%eval -0.15] } 10. h3 $6
+{ [%eval -0.66] } 10... a4 { [%eval -0.6] } 11. Bc2 { [%eval -0.73] } 11... Ne7
+$2 { [%eval 0.7] } 12. g4 $2 { [%eval -1.27] } 12... Ng6 { [%eval -1.0] } 13.
+Nf1 { [%eval -1.38] } 13... c6 { [%eval -0.89] } 14. Ng3 { [%eval -1.0] } 14...
+b5 { [%eval -0.88] } 15. g5 { [%eval -1.0] } 15... hxg5 { [%eval -1.22] } 16.
+Bxg5 { [%eval -1.17] } 16... b4 { [%eval -0.96] } 17. Rd1 $6 { [%eval -1.7] }
+17... Qb6 { [%eval -1.63] } 18. Qf1 $2 { [%eval -4.05] } 18... Ba6
+{ [%eval -3.3] } 19. Qg2 $2 { [%eval -6.12] } 19... Nh7 $2 { [%eval -4.82] }
+20. Nf5 $4 { [%eval -8.19] } 20... Nxg5 { [%eval -7.48] } 21. Nxg5 $2
+{ [%eval -8.74] } 21... Rad8 $4 { [%eval -3.69] } 22. Rxd8 $2 { [%eval -6.41] }
+22... Rxd8 { [%eval -5.95] } 23. h4 $4 { [%eval -22.83] } 23... bxc3
+{ [%eval -19.62] } 24. bxc3 $6 { [%eval #-6] } 24... Qb2 { [%eval #-5] } 25.
+Qg3 { [%eval #-2] } 25... Qc1+ { [%eval #-1] } 26. Bd1 { [%eval #-1] } 26...
+Qxd1# 0-1

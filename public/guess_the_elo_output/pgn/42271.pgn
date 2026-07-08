@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/owCVgyJd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vladislav2709"]
+[Black "timotejbedenik"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:32:41"]
+[WhiteElo "1306"]
+[BlackElo "1261"]
+[WhiteRatingDiff "+23"]
+[BlackRatingDiff "-9"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.25] } 2... d6
+{ [%eval 0.4] } 3. Bc4 { [%eval 0.25] } 3... Qe7 $6 { [%eval 0.91] } 4. Ng5 $4
+{ [%eval -3.06] } 4... Be6 $4 { [%eval 0.8] } 5. Bxe6 $6 { [%eval 0.1] } 5...
+fxe6 { [%eval 0.26] } 6. Nf3 { [%eval 0.02] } 6... Nf6 { [%eval 0.21] } 7. d3
+{ [%eval 0.13] } 7... d5 $6 { [%eval 0.7] } 8. O-O { [%eval 0.43] } 8... dxe4
+{ [%eval 0.79] } 9. dxe4 { [%eval 0.59] } 9... Nbd7 { [%eval 0.8] } 10. Re1
+{ [%eval 0.76] } 10... O-O-O { [%eval 0.86] } 11. Qe2 { [%eval 0.74] } 11...
+Nc5 { [%eval 1.2] } 12. Bg5 { [%eval 0.82] } 12... h6 { [%eval 0.79] } 13. Bxf6
+$6 { [%eval 0.08] } 13... gxf6 { [%eval 0.37] } 14. Nc3 { [%eval 0.41] } 14...
+h5 { [%eval 0.4] } 15. Rad1 { [%eval 0.25] } 15... Rxd1 { [%eval 0.36] } 16.
+Qxd1 { [%eval 0.16] } 16... Bh6 { [%eval 0.38] } 17. Nh4 { [%eval 0.0] } 17...
+Rd8 { [%eval 0.0] } 18. Qxh5 { [%eval 0.0] } 18... Bd2 { [%eval 0.0] } 19. Rd1
+{ [%eval -0.41] } 19... Bxc3 { [%eval -0.42] } 20. Rxd8+ { [%eval -0.51] }
+20... Qxd8 { [%eval -0.27] } 21. bxc3 { [%eval -0.55] } 21... b6
+{ [%eval -0.8] } 22. h3 { [%eval -0.6] } 22... Qd2 $6 { [%eval 0.0] } 23. Ng6
+$6 { [%eval -0.77] } 23... Qxc2 $6 { [%eval 0.0] } 24. Ne7+ { [%eval -0.28] }
+24... Kb7 { [%eval 0.0] } 25. h4 $2 { [%eval -1.18] } 25... Nxe4
+{ [%eval -0.77] } 26. Qe8 $2 { [%eval -3.42] } 26... Qxf2+ { [%eval -3.1] } 27.
+Kh1 { [%eval -2.98] } 27... Ng3+ $2 { [%eval 0.0] } 28. Kh2 { [%eval 0.0] }
+28... Nf1+ { [%eval 0.0] } 29. Kh1 { [%eval 0.0] } 29... Ne3 $4 { [%eval #1] }
+30. Qc8# 1-0

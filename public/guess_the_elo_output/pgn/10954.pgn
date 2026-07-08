@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/RDn9xkXx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "midhununnikrishnan"]
+[Black "rolly9891"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:47:05"]
+[WhiteElo "2247"]
+[BlackElo "2510"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "A90"]
+[Opening "Dutch Defense: Stonewall Variation, Modern Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.09] } 2. Nf3 { [%eval 0.14] } 2... e6
+{ [%eval 0.31] } 3. g3 { [%eval -0.17] } 3... f5 { [%eval 0.27] } 4. Bg2
+{ [%eval 0.27] } 4... Nf6 { [%eval 0.41] } 5. O-O { [%eval 0.35] } 5... c6
+{ [%eval 0.34] } 6. c4 { [%eval 0.33] } 6... Bd6 { [%eval 0.31] } 7. Qc2
+{ [%eval 0.28] } 7... O-O { [%eval 0.25] } 8. Bg5 { [%eval 0.13] } 8... Nbd7
+{ [%eval 0.5] } 9. Nbd2 { [%eval 0.1] } 9... h6 { [%eval 0.15] } 10. Bxf6
+{ [%eval 0.18] } 10... Nxf6 { [%eval 0.19] } 11. Ne5 { [%eval 0.32] } 11... Bd7
+{ [%eval 0.56] } 12. f4 { [%eval 0.19] } 12... Bxe5 { [%eval 0.42] } 13. fxe5
+{ [%eval 0.27] } 13... Ng4 { [%eval 0.43] } 14. Qd3 { [%eval 0.5] } 14... h5
+{ [%eval 0.45] } 15. h3 { [%eval 0.37] } 15... Nh6 { [%eval 0.33] } 16. Bf3 $6
+{ [%eval -0.18] } 16... h4 { [%eval -0.27] } 17. Bh5 $2 { [%eval -2.39] } 17...
+Qg5 { [%eval -2.16] } 18. g4 $6 { [%eval -2.94] } 18... fxg4 { [%eval -2.61] }
+19. hxg4 { [%eval -2.51] } 19... Nxg4 { [%eval -2.72] } 20. Bxg4
+{ [%eval -2.9] } 20... Qxg4+ { [%eval -2.6] } 21. Kh1 { [%eval -2.86] } 21...
+dxc4 { [%eval -2.83] } 22. Nxc4 $6 { [%eval -3.47] } 22... c5 { [%eval -3.35] }
+23. d5 $2 { [%eval -5.34] } 23... exd5 { [%eval -5.09] } 24. Qxd5+ $4
+{ [%eval -8.63] } 24... Kh8 $2 { [%eval -6.14] } 25. Ne3 $4 { [%eval #-21] }
+25... Qh3+ { [%eval -26.29] } 0-1

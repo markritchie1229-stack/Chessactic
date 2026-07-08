@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NZI79g2S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "madal"]
+[Black "KiraJagame"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:36:31"]
+[WhiteElo "1877"]
+[BlackElo "2099"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+12"]
+[ECO "A46"]
+[Opening "Torre Attack #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... Nf6 { [%eval 0.1] } 2. Nf3 { [%eval 0.14] } 2... e6
+{ [%eval 0.12] } 3. Nbd2 { [%eval 0.06] } 3... d5 { [%eval 0.0] } 4. e3
+{ [%eval 0.05] } 4... Be7 { [%eval 0.07] } 5. Bd3 { [%eval 0.07] } 5... c5
+{ [%eval 0.08] } 6. c3 { [%eval 0.03] } 6... Nc6 { [%eval 0.09] } 7. Ne5
+{ [%eval -0.12] } 7... O-O { [%eval -0.08] } 8. f4 { [%eval -0.16] } 8... Qc7
+{ [%eval -0.1] } 9. O-O { [%eval -0.33] } 9... h6 { [%eval 0.08] } 10. g4
+{ [%eval -0.12] } 10... b6 { [%eval 0.14] } 11. h4 { [%eval 0.25] } 11... g6
+{ [%eval 0.22] } 12. g5 { [%eval 0.16] } 12... Nxe5 { [%eval 0.33] } 13. dxe5
+{ [%eval 0.12] } 13... Ne4 { [%eval 0.23] } 14. Nxe4 { [%eval 0.23] } 14...
+dxe4 { [%eval 0.2] } 15. Bxe4 { [%eval 0.35] } 15... Bb7 { [%eval 0.31] } 16.
+Qf3 { [%eval 0.27] } 16... Bxe4 { [%eval 0.25] } 17. Qxe4 { [%eval 0.28] }
+17... hxg5 { [%eval 0.23] } 18. hxg5 { [%eval 0.35] } 18... Kg7
+{ [%eval 0.14] } 19. b4 { [%eval -0.33] } 19... Rad8 { [%eval -0.22] } 20. Qf3
+$2 { [%eval -1.86] } 20... cxb4 { [%eval -1.8] } 21. cxb4 { [%eval -1.85] }
+21... Bxb4 { [%eval -1.68] } 22. Bb2 { [%eval -2.02] } 22... Bc5
+{ [%eval -1.68] } 23. Kg2 { [%eval -1.86] } 23... Rh8 { [%eval -1.87] } 24.
+Rac1 { [%eval -2.18] } 24... Qd7 { [%eval -2.01] } 25. Qe4 $4 { [%eval #-5] }
+25... Qd2+ { [%eval #-4] } 26. Rf2 { [%eval #-4] } 26... Rh2+ { [%eval #-3] }
+27. Kxh2 { [%eval #-3] } 27... Qxf2+ { [%eval #-2] } 28. Kh3 { [%eval #-2] }
+28... Qxb2 $2 { [%eval -8.09] } 0-1

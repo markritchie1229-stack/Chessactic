@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Rv8HXCSo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kapur_skywalker"]
+[Black "TM10"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:52:47"]
+[WhiteElo "1719"]
+[BlackElo "1367"]
+[WhiteRatingDiff "+35"]
+[BlackRatingDiff "-3"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.24] } 2...
+Nc6 { [%eval 0.31] } 3. h4 { [%eval -0.13] } 3... Nf6 { [%eval -0.36] } 4. Ng5
+$2 { [%eval -1.82] } 4... Nxe4 $2 { [%eval 1.03] } 5. Qf3 $4 { [%eval -2.67] }
+5... Nxg5 { [%eval -2.24] } 6. hxg5 { [%eval -2.23] } 6... Qxg5
+{ [%eval -2.28] } 7. Bc4 { [%eval -2.51] } 7... f6 { [%eval -2.13] } 8. O-O $2
+{ [%eval -3.73] } 8... Nd4 { [%eval -3.57] } 9. Qe4 $2 { [%eval -4.68] } 9...
+Bc5 $4 { [%eval -0.7] } 10. d3 $4 { [%eval -4.85] } 10... Nxc2 $4
+{ [%eval 7.02] } 11. Bxg5 { [%eval 7.04] } 11... Nxa1 $2 { [%eval 9.23] } 12.
+Nc3 $2 { [%eval 6.34] } 12... Nc2 $2 { [%eval 9.31] } 13. Qd5 { [%eval 9.03] }
+13... Rf8 $6 { [%eval 11.77] } 14. Qxc5 { [%eval 11.4] } 14... d6
+{ [%eval 17.27] } 15. Qxc7 { [%eval 16.29] } 15... fxg5 $6 { [%eval #2] } 16.
+Qxd6 $6 { [%eval 14.91] } 16... Bg4 $6 { [%eval #6] } 17. Qxe5+ { [%eval #7] }
+17... Kd7 { [%eval #4] } 18. Qd5+ $6 { [%eval 19.95] } 18... Kc7 $6
+{ [%eval #7] } 19. Nb5+ { [%eval #6] } 19... Kc8 { [%eval #3] } 20. Nd6+ $6
+{ [%eval #7] } 20... Kc7 { [%eval #7] } 21. Nb5+ { [%eval #6] } 21... Kc8
+{ [%eval #3] } 22. Qxg5 $6 { [%eval #5] } 22... Be2 { [%eval #2] } 23. Be6+
+{ [%eval #1] } 23... Kb8 { [%eval #1] } 24. Qg3+ $6 { [%eval #1] } 24... Rf4
+{ [%eval #1] } 25. Qxf4# 1-0

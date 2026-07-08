@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dJnevFsC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "anandtal"]
+[Black "EchecsEtSuccess"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:27:09"]
+[WhiteElo "1673"]
+[BlackElo "1822"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "C31"]
+[Opening "King's Gambit, Falkbeer Countergambit, Blackburne Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.26] } 1... e5 { [%eval 0.27] } 2. f4 $6 { [%eval -0.24] } 2...
+d5 { [%eval -0.19] } 3. Nf3 { [%eval -0.27] } 3... Nf6 $6 { [%eval 0.47] } 4.
+exd5 $6 { [%eval -0.14] } 4... e4 { [%eval -0.14] } 5. Ne5 { [%eval -0.15] }
+5... Bc5 { [%eval -0.1] } 6. d4 { [%eval -0.2] } 6... exd3 { [%eval -0.27] } 7.
+Qxd3 { [%eval -0.48] } 7... O-O { [%eval -0.3] } 8. Nc3 { [%eval -0.37] } 8...
+Ng4 { [%eval -0.05] } 9. Ne4 { [%eval 0.0] } 9... Bb6 $6 { [%eval 0.64] } 10.
+h3 $6 { [%eval 0.04] } 10... Nxe5 { [%eval 0.0] } 11. Qc3 $4 { [%eval -5.85] }
+11... Ng6 { [%eval -5.29] } 12. Bd3 $6 { [%eval -5.81] } 12... Nxf4 $4
+{ [%eval -0.25] } 13. Bxf4 { [%eval -0.13] } 13... Qh4+ { [%eval 0.08] } 14. g3
+{ [%eval 0.0] } 14... Qf6 $4 { [%eval 17.09] } 15. Qxf6 $4 { [%eval 4.09] }
+15... gxf6 { [%eval 4.44] } 16. Nxf6+ { [%eval 4.18] } 16... Kg7
+{ [%eval 4.5] } 17. Nxh7 $2 { [%eval 2.74] } 17... Bd4 $2 { [%eval 4.97] } 18.
+Nxf8 { [%eval 4.87] } 18... Kxf8 $2 { [%eval 6.13] } 19. O-O-O { [%eval 6.11] }
+19... Na6 $2 { [%eval 8.17] } 20. Rde1 $2 { [%eval 5.56] } 20... Bg7 $2
+{ [%eval 7.02] } 21. Bxa6 { [%eval 6.87] } 21... bxa6 { [%eval 6.68] } 22. Bxc7
+{ [%eval 6.72] } 22... Bd7 { [%eval 6.87] } 23. d6 $6 { [%eval 5.92] } 23...
+Bb5 { [%eval 6.14] } 24. Rhf1 $2 { [%eval 5.0] } 24... Rc8 $4 { [%eval 9.04] }
+25. Rf5 $2 { [%eval 6.27] } 25... Bd7 { [%eval 6.37] } 26. Rg5 $4
+{ [%eval 1.93] } 26... Be6 $4 { [%eval 10.6] } 0-1

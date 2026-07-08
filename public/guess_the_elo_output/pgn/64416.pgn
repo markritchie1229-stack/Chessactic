@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/iK9Hh0SA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mikehammerhead"]
+[Black "phelipi"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:17:13"]
+[WhiteElo "1598"]
+[BlackElo "1612"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C21"]
+[Opening "Center Game #2"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.44] } 2. d4 { [%eval -0.03] } 2... f6
+$2 { [%eval 1.48] } 3. dxe5 { [%eval 1.44] } 3... fxe5 $4 { [%eval 7.1] } 4.
+Qh5+ { [%eval 6.99] } 4... g6 { [%eval 6.93] } 5. Qxe5+ { [%eval 6.91] } 5...
+Qe7 { [%eval 6.94] } 6. Qxh8 { [%eval 6.93] } 6... Qxe4+ $2 { [%eval 7.97] } 7.
+Ne2 $6 { [%eval 7.35] } 7... Kf7 $2 { [%eval 9.37] } 8. Qxh7+ { [%eval 8.99] }
+8... Bg7 { [%eval 8.97] } 9. Nc3 { [%eval 8.83] } 9... Qxc2 $2
+{ [%eval 15.64] } 10. Qh4 $2 { [%eval 7.22] } 10... Nc6 { [%eval 7.21] } 11.
+Qf4+ { [%eval 6.96] } 11... Nf6 { [%eval 7.14] } 12. Be3 $6 { [%eval 6.27] }
+12... d6 $6 { [%eval 6.82] } 13. Nd4 { [%eval 6.72] } 13... Qxb2
+{ [%eval 7.06] } 14. Rc1 { [%eval 6.95] } 14... Nb4 $4 { [%eval 13.62] } 15.
+Bc4+ { [%eval 13.5] } 15... Kf8 { [%eval 13.5] } 16. O-O { [%eval 13.07] }
+16... Bf5 { [%eval 18.01] } 17. Ne6+ { [%eval 9.87] } 17... Bxe6
+{ [%eval 9.72] } 18. Bxe6 { [%eval 9.68] } 18... Nd3 { [%eval 9.56] } 19. Qg5
+{ [%eval 9.22] } 19... Nxc1 $2 { [%eval #7] } 20. Rxc1 $4 { [%eval 6.73] }
+20... Re8 { [%eval 6.31] } 21. Bb3 $4 { [%eval -1.96] } 21... c6 $4
+{ [%eval 5.62] } 22. h3 { [%eval 5.25] } 22... Re5 $2 { [%eval 7.12] } 23. Qf4
+$2 { [%eval 6.01] } 23... b5 $4 { [%eval 9.97] } 24. Bc5 $4 { [%eval -0.79] }
+24... Re1+ $4 { [%eval #9] } 25. Rxe1 { [%eval #8] } 25... Qxc3 { [%eval #1] }
+26. Qxd6# 1-0

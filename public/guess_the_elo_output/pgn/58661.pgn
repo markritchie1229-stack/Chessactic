@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/yK2EqPYQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Thealbatros"]
+[Black "NewSeed"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:16:31"]
+[WhiteElo "1583"]
+[BlackElo "1635"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "E12"]
+[Opening "Queen's Indian Defense: Kasparov Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... Nf6 { [%eval 0.16] } 2. c4 { [%eval 0.21] } 2... e6
+{ [%eval 0.18] } 3. Nc3 { [%eval 0.3] } 3... b6 { [%eval 0.63] } 4. Nf3 $6
+{ [%eval 0.1] } 4... Bb7 { [%eval 0.16] } 5. Bg5 { [%eval 0.1] } 5... Be7
+{ [%eval 0.1] } 6. e3 { [%eval 0.01] } 6... O-O { [%eval 0.08] } 7. Be2
+{ [%eval 0.0] } 7... h6 { [%eval 0.1] } 8. Bh4 { [%eval 0.01] } 8... Ne4
+{ [%eval 0.01] } 9. Bxe7 { [%eval 0.06] } 9... Qxe7 { [%eval 0.07] } 10. O-O
+{ [%eval -0.12] } 10... Nxc3 { [%eval -0.26] } 11. bxc3 { [%eval -0.24] } 11...
+d6 { [%eval -0.14] } 12. Qc2 { [%eval -0.26] } 12... Nd7 { [%eval -0.37] } 13.
+e4 { [%eval -0.27] } 13... e5 { [%eval -0.27] } 14. d5 { [%eval -0.66] } 14...
+Nc5 { [%eval -0.35] } 15. Rfe1 { [%eval -0.75] } 15... f5 { [%eval -0.75] } 16.
+exf5 { [%eval -0.76] } 16... Bc8 { [%eval -0.79] } 17. Bd3 { [%eval -0.79] }
+17... Nxd3 { [%eval -0.77] } 18. Qxd3 { [%eval -0.78] } 18... Bxf5
+{ [%eval -0.74] } 19. Qd2 { [%eval -0.92] } 19... e4 $2 { [%eval 0.15] } 20.
+Nd4 { [%eval 0.23] } 20... Qg5 $6 { [%eval 0.86] } 21. Nxf5 $4
+{ [%eval -11.03] } 21... Rxf5 $4 { [%eval 0.56] } 22. Qxg5 { [%eval 0.47] }
+22... Rxg5 { [%eval 0.78] } 23. Rxe4 { [%eval 0.6] } 23... Rf8 $6
+{ [%eval 1.11] } 24. Rae1 { [%eval 0.93] } 24... Rgf5 { [%eval 1.2] } 25. f3
+{ [%eval 1.13] } 25... Kh7 { [%eval 1.28] } 26. Re7 { [%eval 1.27] } 26... R8f7
+{ [%eval 1.42] } 27. Rxf7 { [%eval 1.23] } 27... Rxf7 { [%eval 1.11] } 28. Kf2
+{ [%eval 1.05] } 28... Kg6 { [%eval 1.5] } 29. g3 { [%eval 1.45] } 29... Kf6 $2
+{ [%eval 3.43] } 30. Re6+ { [%eval 2.21] } 30... Kf5 $2 { [%eval 3.65] } 31.
+Ke3 $2 { [%eval 1.5] } 31... h5 { [%eval 1.57] } 32. h3 { [%eval 1.42] } 32...
+g5 $4 { [%eval #2] } 33. g4+ { [%eval #1] } 33... hxg4 { [%eval #1] } 34. hxg4#
+1-0

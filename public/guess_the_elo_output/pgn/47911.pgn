@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jGDgiwzH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rewuyd"]
+[Black "Ruff"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:00:44"]
+[WhiteElo "1125"]
+[BlackElo "1157"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-11"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval 0.05] } 1... d5 $6 { [%eval 0.58] } 2. d3 $2 { [%eval -0.58] }
+2... dxc4 { [%eval -0.56] } 3. dxc4 $6 { [%eval -1.18] } 3... Qxd1+
+{ [%eval -0.94] } 4. Kxd1 { [%eval -1.14] } 4... Be6 { [%eval -0.68] } 5. Bd2
+{ [%eval -1.1] } 5... Bxc4 { [%eval -1.0] } 6. Nc3 { [%eval -1.07] } 6... Nc6
+{ [%eval -1.07] } 7. Nf3 { [%eval -1.09] } 7... O-O-O { [%eval -1.09] } 8. e3
+{ [%eval -1.12] } 8... Bxf1 { [%eval -1.14] } 9. Rxf1 { [%eval -1.1] } 9... e5
+{ [%eval -1.2] } 10. e4 { [%eval -1.57] } 10... Nf6 { [%eval -1.56] } 11. Re1
+$6 { [%eval -2.33] } 11... Ng4 { [%eval -2.31] } 12. Re2 { [%eval -2.43] }
+12... h5 $2 { [%eval -1.16] } 13. Nd5 $2 { [%eval -2.24] } 13... f6 $2
+{ [%eval -1.22] } 14. Rc1 $6 { [%eval -1.88] } 14... Rh6 $2 { [%eval 0.95] }
+15. a3 $2 { [%eval -0.62] } 15... Rg6 $2 { [%eval 1.21] } 16. Nh4 $2
+{ [%eval 0.07] } 16... Rg5 $2 { [%eval 1.33] } 17. Bxg5 { [%eval 1.14] } 17...
+fxg5 { [%eval 1.22] } 18. Ng6 $6 { [%eval 0.58] } 18... Bc5 $4 { [%eval 5.89] }
+19. Ke1 $4 { [%eval 1.06] } 19... Bxf2+ $2 { [%eval 2.79] } 20. Rxf2
+{ [%eval 2.66] } 20... Nd4 $4 { [%eval #11] } 21. Rxc7+ { [%eval #10] } 21...
+Kb8 { [%eval 17.94] } 22. Nge7 $4 { [%eval 4.04] } 22... a6 $4
+{ [%eval 13.33] } 23. h3 $4 { [%eval 4.04] } 23... Ne3 $4 { [%eval 9.29] } 24.
+Rc8+ $4 { [%eval 4.22] } 24... Rxc8 { [%eval 4.07] } 25. Nxc8 { [%eval 3.81] }
+25... Kxc8 $4 { [%eval 7.81] } 26. Nxe3 { [%eval 7.5] } 26... g4 $2
+{ [%eval 8.87] } 27. hxg4 { [%eval 8.68] } 27... hxg4 { [%eval 8.61] } 28. Nxg4
+{ [%eval 8.3] } 1-0

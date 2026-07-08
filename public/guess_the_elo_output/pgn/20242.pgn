@@ -1,0 +1,34 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/mvXZvleE"]
+[Site "https://lichess.org/KL90tdNJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "manneredmonkey"]
+[Black "Rama20"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:27:31"]
+[WhiteElo "2174"]
+[BlackElo "2243"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+12"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.03] } 1... e6 { [%eval 0.22] } 2. g3 { [%eval 0.0] } 2... f5
+{ [%eval 0.49] } 3. Nc3 { [%eval 0.36] } 3... c6 { [%eval 0.57] } 4. Bg2
+{ [%eval 0.5] } 4... d5 { [%eval 0.49] } 5. d3 { [%eval 0.03] } 5... Nf6
+{ [%eval 0.06] } 6. Bg5 { [%eval -0.05] } 6... Bb4 { [%eval 0.18] } 7. e3
+{ [%eval 0.05] } 7... h6 { [%eval 0.21] } 8. Bxf6 { [%eval 0.11] } 8... Qxf6
+{ [%eval 0.2] } 9. Rc1 { [%eval -0.12] } 9... O-O { [%eval 0.04] } 10. Ne2 $6
+{ [%eval -0.46] } 10... Nd7 { [%eval -0.15] } 11. O-O $6 { [%eval -0.66] }
+11... Ne5 $6 { [%eval 0.18] } 12. cxd5 { [%eval 0.08] } 12... exd5
+{ [%eval 0.14] } 13. e4 $6 { [%eval -0.49] } 13... fxe4 { [%eval -0.49] } 14.
+dxe4 { [%eval -0.48] } 14... Nf3+ { [%eval -0.13] } 15. Kh1 { [%eval -0.27] }
+15... Bg4 $2 { [%eval 1.29] } 16. Qb3 $2 { [%eval -1.13] } 16... Bxc3
+{ [%eval -1.14] } 17. Nxc3 $2 { [%eval -2.2] } 17... Nd2 { [%eval -2.1] } 18.
+Qxb7 $2 { [%eval -4.09] } 18... Nxf1 { [%eval -4.0] } 19. Rxf1
+{ [%eval -3.99] } 19... d4 $2 { [%eval -2.63] } 20. Na4 { [%eval -2.91] } 20...
+Rab8 $2 { [%eval -1.66] } 21. Qxa7 $2 { [%eval -4.42] } 21... Ra8 $2
+{ [%eval -3.31] } 0-1

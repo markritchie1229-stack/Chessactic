@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cKMyEplx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TEHb"]
+[Black "itaychang8"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:17:19"]
+[WhiteElo "1546"]
+[BlackElo "1262"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-7"]
+[ECO "D21"]
+[Opening "Queen's Gambit Accepted: Rosenthal Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.08] } 1... d5 { [%eval 0.1] } 2. c4 { [%eval 0.1] } 2... e6
+{ [%eval 0.12] } 3. Nf3 { [%eval 0.12] } 3... dxc4 { [%eval 0.3] } 4. e4
+{ [%eval 0.11] } 4... c5 { [%eval 0.42] } 5. d5 { [%eval 0.39] } 5... exd5
+{ [%eval 0.39] } 6. exd5 { [%eval 0.39] } 6... Nf6 { [%eval 0.34] } 7. Bxc4
+{ [%eval 0.41] } 7... Be6 $4 { [%eval 4.53] } 8. dxe6 { [%eval 4.34] } 8...
+Qxd1+ { [%eval 4.51] } 9. Kxd1 { [%eval 4.6] } 9... fxe6 { [%eval 4.58] } 10.
+Bxe6 { [%eval 4.44] } 10... Bd6 $6 { [%eval 5.3] } 11. Re1 { [%eval 5.02] }
+11... Nc6 { [%eval 5.0] } 12. Nc3 $6 { [%eval 4.4] } 12... Nd4 $4
+{ [%eval 8.14] } 13. Nxd4 { [%eval 7.8] } 13... cxd4 { [%eval 7.5] } 14. Nd5 $2
+{ [%eval 4.89] } 14... Rd8 $2 { [%eval 5.95] } 15. Nxf6+ { [%eval 5.7] } 15...
+Ke7 $4 { [%eval 11.66] } 16. Nd5+ { [%eval 11.08] } 16... Kf8 { [%eval 10.75] }
+17. g3 { [%eval 10.03] } 17... Re8 { [%eval 10.66] } 18. f4 { [%eval 10.47] }
+18... Bb4 { [%eval 15.21] } 19. Re4 { [%eval 11.36] } 19... Bc5
+{ [%eval 12.08] } 20. f5 { [%eval 11.57] } 20... g6 $6 { [%eval #1] } 21. g4 $6
+{ [%eval 12.2] } 21... gxf5 $6 { [%eval #1] } 22. gxf5 $6 { [%eval 12.92] }
+22... Kg7 $6 { [%eval #2] } 23. Rg4+ { [%eval #1] } 23... Kf8 { [%eval #1] }
+24. Bh6# 1-0

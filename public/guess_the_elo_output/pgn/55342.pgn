@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/KDmkO8bp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BertAndErnie"]
+[Black "chessbona"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:17:18"]
+[WhiteElo "1982"]
+[BlackElo "1864"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.28] } 1... e6 { [%eval -0.1] } 2. d3 { [%eval -0.18] } 2...
+d5 { [%eval -0.16] } 3. Bg2 { [%eval -0.19] } 3... c5 { [%eval 0.04] } 4. Nd2
+{ [%eval -0.12] } 4... h5 { [%eval 0.22] } 5. h4 { [%eval -0.13] } 5... Be7
+{ [%eval 0.05] } 6. Ngf3 { [%eval 0.06] } 6... Nf6 { [%eval 0.08] } 7. O-O
+{ [%eval 0.06] } 7... Nc6 { [%eval 0.08] } 8. e4 { [%eval 0.02] } 8... dxe4
+{ [%eval 0.18] } 9. dxe4 { [%eval -0.03] } 9... Bd7 $6 { [%eval 0.81] } 10. e5
+{ [%eval 0.55] } 10... Nd5 $6 { [%eval 1.54] } 11. a3 $6 { [%eval 0.83] } 11...
+Qc7 { [%eval 0.97] } 12. c4 { [%eval 0.71] } 12... Nb6 { [%eval 0.85] } 13. Qe2
+{ [%eval 0.9] } 13... O-O-O $6 { [%eval 1.58] } 14. Re1 $6 { [%eval 0.71] }
+14... f6 $6 { [%eval 1.4] } 15. Nf1 $2 { [%eval 0.36] } 15... g5 $2
+{ [%eval 2.84] } 16. exf6 { [%eval 2.8] } 16... Bxf6 { [%eval 2.84] } 17. Nxg5
+$2 { [%eval 0.62] } 17... Bd4 $2 { [%eval 2.72] } 18. Nxe6 { [%eval 2.48] }
+18... Bxe6 { [%eval 2.63] } 19. Qxe6+ { [%eval 2.43] } 19... Kb8 $4
+{ [%eval 8.23] } 20. Bf4 { [%eval 7.64] } 20... Be5 $2 { [%eval 11.61] } 21.
+Rxe5 { [%eval 11.2] } 21... Rhe8 { [%eval 13.85] } 22. Qxe8 { [%eval 13.41] }
+22... Rxe8 { [%eval 23.54] } 23. Rxe8+ { [%eval 27.81] } 23... Nc8
+{ [%eval 24.65] } 24. Rd1 { [%eval 21.22] } 24... Ne5 $6 { [%eval #8] } 25.
+Bxe5 { [%eval #7] } 25... Qxe5 { [%eval #7] } 26. Rxe5 { [%eval #6] } 1-0

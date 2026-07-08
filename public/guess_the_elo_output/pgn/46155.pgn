@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/zUKOdfOK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Samora"]
+[Black "kkrroto"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:18:00"]
+[WhiteElo "1823"]
+[BlackElo "1902"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B44"]
+[Opening "Sicilian Defense: Paulsen Variation, Szen Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e6 { [%eval 0.18] } 2. Nf3 { [%eval 0.14] } 2... c5
+{ [%eval 0.33] } 3. d4 { [%eval 0.18] } 3... cxd4 { [%eval 0.41] } 4. Nxd4
+{ [%eval 0.25] } 4... Nc6 { [%eval 0.41] } 5. Nb5 { [%eval 0.24] } 5... d6
+{ [%eval 0.2] } 6. Nd4 { [%eval -0.09] } 6... Nf6 { [%eval -0.12] } 7. Nc3
+{ [%eval -0.06] } 7... a6 { [%eval 0.04] } 8. Bg5 { [%eval -0.17] } 8... Be7
+{ [%eval -0.14] } 9. Bc4 $6 { [%eval -0.83] } 9... h6 $6 { [%eval -0.25] } 10.
+Bxf6 { [%eval -0.69] } 10... Bxf6 { [%eval -0.69] } 11. Nxc6 { [%eval -0.82] }
+11... bxc6 { [%eval -0.69] } 12. Rb1 { [%eval -0.77] } 12... Qa5
+{ [%eval -0.54] } 13. Qf3 { [%eval -0.69] } 13... d5 { [%eval -0.54] } 14. exd5
+{ [%eval -0.96] } 14... cxd5 { [%eval -0.91] } 15. Bb3 { [%eval -0.95] } 15...
+d4 $2 { [%eval 1.85] } 16. O-O $2 { [%eval -0.47] } 16... dxc3 $2
+{ [%eval 1.8] } 17. bxc3 $4 { [%eval -4.28] } 17... Qxc3 $4 { [%eval 1.8] } 18.
+Qxa8 { [%eval 1.87] } 18... O-O { [%eval 1.94] } 19. Qe4 { [%eval 1.61] } 19...
+e5 $6 { [%eval 2.31] } 20. Rfe1 { [%eval 2.25] } 20... h5 { [%eval 2.46] } 21.
+Re3 { [%eval 2.32] } 21... Qd2 { [%eval 2.43] } 22. c4 $6 { [%eval 1.84] }
+22... a5 $2 { [%eval 3.05] } 23. Rd1 $6 { [%eval 2.22] } 23... Qb2 $2
+{ [%eval 3.43] } 24. Bc2 $2 { [%eval 1.68] } 24... Qxa2 $4 { [%eval #1] } 25.
+Qh7# 1-0

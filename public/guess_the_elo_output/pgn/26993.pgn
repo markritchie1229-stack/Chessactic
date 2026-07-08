@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xK4K0PNG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AndreJr"]
+[Black "Padmasambaba"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:04:37"]
+[WhiteElo "1588"]
+[BlackElo "1599"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+18"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "480+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... d5 { [%eval 0.13] } 2. Bf4 { [%eval 0.03] } 2... f6
+{ [%eval 0.45] } 3. e3 { [%eval 0.41] } 3... e5 $6 { [%eval 1.05] } 4. Bg3 $2
+{ [%eval 0.04] } 4... Bd6 $6 { [%eval 0.61] } 5. c3 $6 { [%eval 0.0] } 5...
+exd4 { [%eval 0.29] } 6. cxd4 { [%eval 0.25] } 6... c5 $2 { [%eval 1.46] } 7.
+Nc3 $6 { [%eval 0.57] } 7... cxd4 { [%eval 0.4] } 8. Nxd5 $2 { [%eval -2.45] }
+8... Bxg3 { [%eval -2.29] } 9. Qa4+ $6 { [%eval -2.93] } 9... Nc6
+{ [%eval -2.91] } 10. Bb5 $4 { [%eval -6.6] } 10... Qxd5 { [%eval -6.46] } 11.
+hxg3 $2 { [%eval -7.56] } 11... Ne7 $4 { [%eval -4.39] } 12. Nf3
+{ [%eval -4.49] } 12... O-O $4 { [%eval 3.43] } 13. Nxd4 $4 { [%eval -4.7] }
+13... Nxd4 $4 { [%eval 1.24] } 14. exd4 $4 { [%eval -5.31] } 14... Qxg2
+{ [%eval -4.83] } 15. Bc4+ $2 { [%eval -7.74] } 15... Kh8 { [%eval -7.53] } 16.
+Rh4 $2 { [%eval -10.0] } 16... Qg1+ { [%eval -9.78] } 17. Bf1 { [%eval -9.69] }
+17... Bf5 { [%eval -9.5] } 18. Qb5 $6 { [%eval -13.74] } 18... Bc2 $2
+{ [%eval -7.68] } 19. Qh5 { [%eval -8.03] } 19... h6 $4 { [%eval 0.54] } 20.
+Rc1 $4 { [%eval -7.65] } 20... Bd3 $4 { [%eval 0.53] } 21. Kd2 $4
+{ [%eval -9.13] } 21... Bxf1 { [%eval -8.9] } 22. Rc7 $2 { [%eval -21.47] }
+22... Qxf2+ { [%eval -19.35] } 23. Kc1 { [%eval -22.91] } 23... Rac8
+{ [%eval -22.04] } 24. Rxc8 $6 { [%eval #-6] } 24... Rxc8+ { [%eval #-5] } 25.
+Kd1 { [%eval #-5] } 25... Qc2+ $6 { [%eval #-6] } 26. Ke1 { [%eval -59.14] }
+26... Qc1+ { [%eval -26.92] } 27. Kf2 $6 { [%eval #-3] } 27... Rc2+ $6
+{ [%eval #-4] } 28. Kf3 { [%eval #-3] } 28... Be2+ $6 { [%eval #-4] } 29. Kg2
+{ [%eval #-1] } 29... Bxh5+ $6 { [%eval #-1] } 30. Kh3 { [%eval #-1] } 30...
+Qh1# 0-1

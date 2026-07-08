@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mQqEk7py"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sumang14"]
+[Black "asafdemarco"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:43:14"]
+[WhiteElo "987"]
+[BlackElo "979"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+18"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e3 { [%eval 0.18] } 1... e5 { [%eval 0.15] } 2. Nf3 { [%eval -0.27] } 2...
+Nc6 { [%eval 0.11] } 3. d4 { [%eval 0.17] } 3... f6 $6 { [%eval 0.9] } 4. Nbd2
+{ [%eval 0.65] } 4... e4 $2 { [%eval 1.65] } 5. Nxe4 { [%eval 1.62] } 5... d5
+{ [%eval 1.54] } 6. Ned2 { [%eval 1.62] } 6... Bg4 { [%eval 2.02] } 7. h3
+{ [%eval 2.02] } 7... Bxf3 $6 { [%eval 2.56] } 8. Qxf3 $6 { [%eval 1.86] } 8...
+Bd6 $2 { [%eval 3.41] } 9. g4 $2 { [%eval 1.77] } 9... Qe7 $6 { [%eval 2.61] }
+10. e4 $4 { [%eval -0.39] } 10... O-O-O $2 { [%eval 1.28] } 11. Bd3 $2
+{ [%eval -0.81] } 11... dxe4 $2 { [%eval 0.25] } 12. Bxe4 $2 { [%eval -0.84] }
+12... Nxd4 { [%eval -0.91] } 13. Kd1 $4 { [%eval -9.96] } 13... Nxf3
+{ [%eval -9.87] } 14. Nxf3 { [%eval -31.26] } 14... Qxe4 { [%eval -30.63] } 15.
+Re1 $6 { [%eval #-5] } 15... Qxf3+ { [%eval #-4] } 16. Kd2 { [%eval #-1] }
+16... Qxf2+ $6 { [%eval #-4] } 17. Re2 { [%eval #-1] } 17... Bf4+ $6
+{ [%eval #-5] } 18. Kc3 { [%eval #-5] } 18... Qxe2 $6 { [%eval #-6] } 19. Bxf4
+{ [%eval #-6] } 19... Qe4 { [%eval #-8] } 20. b4 { [%eval #-7] } 20... Qd4+
+{ [%eval #-8] } 21. Kb3 { [%eval #-9] } 21... b5 { [%eval #-9] } 22. c3
+{ [%eval #-7] } 22... Qc4+ { [%eval #-9] } 23. Kb2 { [%eval #-9] } 23... Rd3
+{ [%eval #-9] } 24. Rc1 { [%eval #-10] } 24... Ne7 $6 { [%eval -65.11] } 25.
+Bh2 $6 { [%eval #-5] } 25... Rd2+ $6 { [%eval #-6] } 26. Rc2 { [%eval #-6] }
+26... Rxh2 { [%eval #-7] } 27. Rxh2 { [%eval #-7] } 27... Nd5 { [%eval #-6] }
+28. Rd2 { [%eval #-4] } 28... Qxc3+ { [%eval #-3] } 0-1

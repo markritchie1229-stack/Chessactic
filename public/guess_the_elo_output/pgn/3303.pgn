@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8pEbrVK8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MrMilner"]
+[Black "ShebaSasha"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:36:34"]
+[WhiteElo "2057"]
+[BlackElo "1801"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "1200+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.09] } 3... d6 { [%eval 0.36] } 4. d4
+{ [%eval 0.31] } 4... Be7 { [%eval 0.5] } 5. dxe5 { [%eval 0.52] } 5... Nxe5
+{ [%eval 0.65] } 6. Nd5 { [%eval 0.21] } 6... Bg4 { [%eval 0.5] } 7. Nxe7 $6
+{ [%eval 0.0] } 7... Qxe7 { [%eval 0.0] } 8. Be2 { [%eval 0.0] } 8... Nf6
+{ [%eval 0.0] } 9. Nd4 { [%eval -0.07] } 9... Bd7 { [%eval 0.09] } 10. f3
+{ [%eval 0.0] } 10... O-O { [%eval 0.0] } 11. Bg5 { [%eval -0.22] } 11... h6
+{ [%eval 0.0] } 12. Bh4 $6 { [%eval -0.71] } 12... g5 $6 { [%eval -0.05] } 13.
+Bg3 { [%eval -0.36] } 13... Ng6 $2 { [%eval 1.09] } 14. h4 $2 { [%eval -0.1] }
+14... c5 $2 { [%eval 1.22] } 15. hxg5 { [%eval 1.08] } 15... hxg5 $2
+{ [%eval 2.47] } 16. Nb3 $6 { [%eval 1.49] } 16... Nf4 $2 { [%eval 2.72] } 17.
+Bxf4 { [%eval 2.46] } 17... gxf4 { [%eval 2.62] } 18. Qd2 { [%eval 2.21] }
+18... Qe5 { [%eval 2.11] } 19. O-O-O $6 { [%eval 1.61] } 19... Kg7 $2
+{ [%eval 3.62] } 20. Qxd6 $2 { [%eval 2.55] } 20... Qxd6 { [%eval 2.83] } 21.
+Rxd6 { [%eval 2.61] } 21... Rac8 $2 { [%eval 4.57] } 22. Bc4 $2
+{ [%eval 2.11] } 22... b5 { [%eval 2.19] } 23. Bd5 { [%eval 2.08] } 23... Nxd5
+{ [%eval 2.29] } 24. Rxd5 { [%eval 2.18] } 24... c4 $6 { [%eval 2.91] } 25. Nd4
+{ [%eval 2.77] } 25... f6 $4 { [%eval #10] } 26. Rxd7+ { [%eval #9] } 1-0

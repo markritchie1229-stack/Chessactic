@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/AAOztuMh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zhbr131013"]
+[Black "horn94"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:40:31"]
+[WhiteElo "1500"]
+[BlackElo "1493"]
+[WhiteRatingDiff "+171"]
+[BlackRatingDiff "-7"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.43] } 3. Bc4 { [%eval 0.19] } 3... d6 { [%eval 0.51] } 4. d4
+{ [%eval 0.27] } 4... Be7 { [%eval 0.7] } 5. dxe5 { [%eval 0.46] } 5... dxe5
+{ [%eval 0.56] } 6. Qxd8+ { [%eval 0.5] } 6... Bxd8 { [%eval 0.46] } 7. Be3
+{ [%eval 0.35] } 7... Nf6 { [%eval 0.45] } 8. Nbd2 { [%eval 0.26] } 8... O-O $6
+{ [%eval 1.11] } 9. O-O-O $6 { [%eval 0.36] } 9... a6 { [%eval 0.78] } 10. a4
+$6 { [%eval 0.0] } 10... b5 $6 { [%eval 0.87] } 11. axb5 { [%eval 0.79] } 11...
+axb5 { [%eval 0.72] } 12. Bxb5 { [%eval 0.18] } 12... Nb4 $6 { [%eval 1.13] }
+13. b3 $6 { [%eval 0.52] } 13... c6 $2 { [%eval 1.77] } 14. Ba4
+{ [%eval 1.63] } 14... Be6 $6 { [%eval 2.44] } 15. Bc5 { [%eval 2.35] } 15...
+Na2+ $2 { [%eval 3.83] } 16. Kb2 { [%eval 3.85] } 16... Rxa4 $2
+{ [%eval 5.44] } 17. bxa4 { [%eval 5.06] } 17... Re8 { [%eval 5.28] } 18. Nb3
+$4 { [%eval 1.45] } 18... Bxb3 $4 { [%eval 4.47] } 19. cxb3 { [%eval 4.25] }
+19... Ba5 $4 { [%eval 7.46] } 20. Kxa2 { [%eval 7.29] } 20... Rb8 $2
+{ [%eval 9.73] } 21. b4 { [%eval 9.54] } 21... Bxb4 { [%eval 10.67] } 22. Bxb4
+{ [%eval 10.35] } 22... Rxb4 $6 { [%eval #2] } 23. Rd8+ { [%eval #1] } 23...
+Ne8 { [%eval #1] } 24. Rxe8# 1-0

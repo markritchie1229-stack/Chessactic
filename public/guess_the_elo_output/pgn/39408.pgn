@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QOgNqcdF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zerosubzero"]
+[Black "idkhowtoplaychessLOL"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:37:33"]
+[WhiteElo "1505"]
+[BlackElo "1456"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-62"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.28] } 2... e6
+{ [%eval 0.27] } 3. a3 { [%eval 0.14] } 3... Nc6 { [%eval 0.47] } 4. Nc3 $6
+{ [%eval -0.06] } 4... Nf6 $6 { [%eval 0.45] } 5. Bg5 { [%eval 0.32] } 5... h6
+{ [%eval 0.58] } 6. Bf4 $6 { [%eval -0.22] } 6... g5 $6 { [%eval 0.7] } 7. Bg3
+{ [%eval 0.41] } 7... Bg7 { [%eval 0.7] } 8. cxd5 $6 { [%eval 0.19] } 8... exd5
+{ [%eval 0.67] } 9. e3 { [%eval 0.62] } 9... O-O { [%eval 0.73] } 10. Bd3
+{ [%eval 0.62] } 10... Nh5 $4 { [%eval 5.12] } 11. Nf3 $4 { [%eval 0.12] }
+11... Nxg3 { [%eval 0.38] } 12. hxg3 { [%eval 0.45] } 12... Bg4 { [%eval 0.6] }
+13. Qc2 { [%eval 0.63] } 13... Bxf3 $6 { [%eval 1.19] } 14. gxf3
+{ [%eval 0.98] } 14... Kh8 $6 { [%eval 1.67] } 15. f4 { [%eval 1.45] } 15...
+gxf4 { [%eval 1.57] } 16. gxf4 { [%eval 1.47] } 16... a6 $6 { [%eval 1.99] }
+17. Rh5 { [%eval 1.52] } 17... Ne7 { [%eval 1.45] } 18. O-O-O { [%eval 1.47] }
+18... b5 { [%eval 1.84] } 19. f5 $6 { [%eval 1.13] } 19... f6 $2
+{ [%eval 3.22] } 20. Ne2 { [%eval 3.08] } 20... Qd6 { [%eval 3.27] } 21. Nf4
+{ [%eval 2.96] } 21... Rac8 $6 { [%eval 3.7] } 22. Ne6 $2 { [%eval 2.69] }
+22... c5 $2 { [%eval 5.58] } 23. dxc5 { [%eval 5.43] } 23... Qe5 $2
+{ [%eval 6.53] } 24. Nxf8 $2 { [%eval 4.25] } 24... Bxf8 { [%eval 4.1] } 25.
+Kb1 { [%eval 4.1] } 25... Qxb2+ $4 { [%eval 17.03] } 26. Qxb2 { [%eval 16.41] }
+1-0

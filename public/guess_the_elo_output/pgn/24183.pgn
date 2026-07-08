@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/P48NZObp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Morphyna"]
+[Black "Grandman2000"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:42:42"]
+[WhiteElo "2064"]
+[BlackElo "2123"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Riemann Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.45] } 1... Nc6 { [%eval 0.54] } 2. d4 { [%eval 0.56] } 2... e5
+{ [%eval 0.76] } 3. dxe5 { [%eval 0.64] } 3... Nxe5 { [%eval 0.64] } 4. f4
+{ [%eval 0.3] } 4... Nc6 { [%eval 0.12] } 5. Nf3 { [%eval 0.04] } 5... Bc5
+{ [%eval 0.23] } 6. Bc4 { [%eval 0.0] } 6... Nf6 { [%eval 0.0] } 7. Nc3
+{ [%eval -0.04] } 7... a6 $2 { [%eval 1.29] } 8. Qe2 $2 { [%eval 0.08] } 8...
+O-O { [%eval 0.16] } 9. a3 $2 { [%eval -0.91] } 9... Re8 { [%eval -0.77] } 10.
+Bd2 { [%eval -0.73] } 10... Nxe4 $2 { [%eval 1.08] } 11. Nxe4 { [%eval 0.9] }
+11... d5 { [%eval 0.97] } 12. O-O-O $4 { [%eval -5.21] } 12... Rxe4
+{ [%eval -5.19] } 13. Qd3 { [%eval -5.21] } 13... Rxc4 { [%eval -5.29] } 14.
+Bc3 { [%eval -5.34] } 14... Be6 $2 { [%eval -4.04] } 15. Ng5 $6
+{ [%eval -4.86] } 15... g6 { [%eval -4.73] } 16. h4 $2 { [%eval -6.29] } 16...
+Bf5 { [%eval -6.1] } 17. Qg3 $2 { [%eval -8.69] } 17... Qd6 { [%eval -8.24] }
+18. h5 $6 { [%eval -8.76] } 18... Bxa3 $6 { [%eval -7.83] } 19. hxg6
+{ [%eval -8.01] } 19... Bxg6 $2 { [%eval -5.95] } 20. Nxh7 $2 { [%eval -8.02] }
+20... d4 { [%eval -8.16] } 21. Qh4 $2 { [%eval -24.04] } 21... Bxb2+
+{ [%eval -21.62] } 22. Bxb2 $6 { [%eval #-6] } 22... Rxc2+ { [%eval #-5] } 23.
+Kb1 { [%eval #-5] } 23... Rxb2+ { [%eval #-4] } 24. Kxb2 { [%eval #-4] } 24...
+Qb4+ { [%eval #-3] } 25. Ka2 { [%eval #-3] } 25... Qc4+ { [%eval #-2] } 26. Kb2
+{ [%eval #-2] } 26... Qc3+ { [%eval #-1] } 27. Ka2 { [%eval #-1] } 27... Nb4#
+0-1

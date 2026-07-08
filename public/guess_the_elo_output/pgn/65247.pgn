@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/l8tuiKKt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kaleidoscope"]
+[Black "Alex_sens"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:48:45"]
+[WhiteElo "1780"]
+[BlackElo "1828"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Grand Prix Attack"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.08] } 1... c5 { [%eval 0.26] } 2. Nc3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.37] } 3. f4 { [%eval 0.0] } 3... e6 { [%eval 0.04] } 4. Bb5
+{ [%eval -0.08] } 4... a6 $6 { [%eval 0.45] } 5. Bxc6 { [%eval 0.43] } 5...
+bxc6 { [%eval 0.47] } 6. Nf3 { [%eval 0.32] } 6... d5 { [%eval 0.39] } 7. e5
+{ [%eval 0.17] } 7... d4 { [%eval 0.64] } 8. Ne4 { [%eval 0.58] } 8... f5
+{ [%eval 0.72] } 9. exf6 { [%eval 0.67] } 9... Nxf6 { [%eval 0.79] } 10. Qe2
+{ [%eval 0.5] } 10... Nxe4 { [%eval 0.45] } 11. Qxe4 { [%eval 0.47] } 11... Qd5
+{ [%eval 0.53] } 12. Qe2 { [%eval 0.13] } 12... Bd6 { [%eval 0.28] } 13. d3
+{ [%eval 0.28] } 13... O-O { [%eval 0.29] } 14. g3 $2 { [%eval -1.71] } 14...
+c4 $2 { [%eval 0.46] } 15. O-O $2 { [%eval -0.69] } 15... cxd3
+{ [%eval -0.61] } 16. Qxd3 { [%eval -0.83] } 16... c5 { [%eval -0.64] } 17. b3
+$6 { [%eval -1.35] } 17... Bb7 { [%eval -1.2] } 18. Bd2 $6 { [%eval -2.17] }
+18... e5 { [%eval -2.13] } 19. Qc4 { [%eval -2.22] } 19... Qxc4
+{ [%eval -2.34] } 20. bxc4 { [%eval -2.31] } 20... e4 { [%eval -2.01] } 21. Ng5
+$6 { [%eval -2.63] } 21... e3 { [%eval -2.45] } 22. Ba5 { [%eval -2.49] } 22...
+Rfe8 { [%eval -2.43] } 23. Rab1 { [%eval -2.6] } 23... e2 $2 { [%eval -0.52] }
+24. Rfe1 { [%eval -0.53] } 24... Bc6 { [%eval -0.45] } 25. Kf2
+{ [%eval -0.43] } 25... h6 { [%eval -0.37] } 26. Nf3 { [%eval -0.54] } 26...
+Re3 { [%eval -0.14] } 27. Ng1 $2 { [%eval -1.18] } 27... Ra3 { [%eval -1.21] }
+28. Bb6 $6 { [%eval -2.08] } 28... Rxa2 { [%eval -1.98] } 29. Rxe2
+{ [%eval -1.97] } 29... Be8 $6 { [%eval -1.26] } 30. Rbe1 $2 { [%eval -3.31] }
+30... Bg6 $4 { [%eval 0.2] } 31. Nf3 $2 { [%eval -1.32] } 31... Rxc2 $6
+{ [%eval -0.75] } 0-1

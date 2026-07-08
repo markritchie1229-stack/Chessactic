@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7i6ifPRV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "coolartemka"]
+[Black "admiral_foo"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:13:26"]
+[WhiteElo "1475"]
+[BlackElo "1434"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+13"]
+[ECO "C44"]
+[Opening "Scotch Game"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.46] } 2. Nf3 { [%eval 0.45] } 2...
+Nc6 { [%eval 0.45] } 3. d4 { [%eval 0.12] } 3... d6 $6 { [%eval 0.77] } 4. dxe5
+{ [%eval 0.61] } 4... Bg4 { [%eval 0.76] } 5. exd6 { [%eval 0.74] } 5... Bxf3
+$6 { [%eval 1.27] } 6. gxf3 $6 { [%eval 0.62] } 6... Bxd6 { [%eval 0.89] } 7.
+Bh3 $2 { [%eval -0.68] } 7... Nf6 $2 { [%eval 0.59] } 8. Bg5 { [%eval 0.29] }
+8... h6 { [%eval 0.2] } 9. Bxf6 $2 { [%eval -0.97] } 9... Qxf6 { [%eval -1.0] }
+10. Nc3 { [%eval -0.95] } 10... Rd8 { [%eval -1.33] } 11. Qe2 $2
+{ [%eval -2.37] } 11... Nd4 { [%eval -2.31] } 12. Qd3 { [%eval -2.43] } 12...
+Nxf3+ { [%eval -2.35] } 13. Ke2 { [%eval -2.7] } 13... Nd4+ { [%eval -2.21] }
+14. Kf1 { [%eval -2.24] } 14... O-O $2 { [%eval -1.16] } 15. Rd1 $6
+{ [%eval -2.01] } 15... Be5 { [%eval -1.89] } 16. f3 $4 { [%eval -5.45] } 16...
+Nxf3 $2 { [%eval -3.12] } 17. Nd5 { [%eval -3.22] } 17... Rxd5
+{ [%eval -2.89] } 18. exd5 { [%eval -2.98] } 18... Ng5+ $2 { [%eval -1.01] }
+19. Ke2 $4 { [%eval -4.29] } 19... Re8 { [%eval -4.05] } 20. Kd2 $4
+{ [%eval #-6] } 20... Bf4+ { [%eval #-5] } 21. Qe3 { [%eval #-5] } 21... Bxe3+
+{ [%eval #-4] } 22. Kd3 { [%eval #-4] } 22... Qd4+ { [%eval #-3] } 23. Ke2
+{ [%eval #-3] } 23... Bd2+ $6 { [%eval #-3] } 24. Kf1 { [%eval #-3] } 24...
+Qf4+ { [%eval #-2] } 25. Kg2 { [%eval #-2] } 25... Qf3+ { [%eval #-1] } 26. Kg1
+{ [%eval #-1] } 26... Nxh3# 0-1

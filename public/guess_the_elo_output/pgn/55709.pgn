@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/NB19eyQP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BamaBeeblebrox"]
+[Black "amitsarupariya"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:38:47"]
+[WhiteElo "1588"]
+[BlackElo "1708"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-14"]
+[ECO "D06"]
+[Opening "Queen's Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... d5 { [%eval 0.18] } 2. c4 { [%eval 0.22] } 2... h6
+$6 { [%eval 0.89] } 3. Nc3 $6 { [%eval 0.26] } 3... Nf6 { [%eval 0.56] } 4. Bf4
+{ [%eval 0.28] } 4... a6 { [%eval 0.42] } 5. e3 { [%eval 0.37] } 5... Bg4 $2
+{ [%eval 1.6] } 6. Be2 $2 { [%eval 0.31] } 6... Bf5 $2 { [%eval 1.68] } 7. Nf3
+$2 { [%eval 0.6] } 7... Be4 $6 { [%eval 1.41] } 8. O-O { [%eval 1.42] } 8...
+Nc6 $2 { [%eval 2.53] } 9. cxd5 $6 { [%eval 1.87] } 9... Bxd5 { [%eval 1.97] }
+10. Nxd5 $6 { [%eval 1.08] } 10... Nxd5 { [%eval 1.2] } 11. Qb3
+{ [%eval 0.94] } 11... g5 $6 { [%eval 1.92] } 12. Bg3 { [%eval 1.6] } 12... Qc8
+$4 { [%eval 5.97] } 13. Qxd5 { [%eval 5.86] } 13... e6 { [%eval 5.83] } 14. Qb3
+{ [%eval 5.75] } 14... Bd6 { [%eval 5.85] } 15. Bxd6 { [%eval 5.41] } 15...
+cxd6 { [%eval 5.44] } 16. Rac1 { [%eval 5.37] } 16... Qd7 { [%eval 5.33] } 17.
+a4 $6 { [%eval 4.82] } 17... Na5 $2 { [%eval 7.66] } 18. Qc3 { [%eval 7.14] }
+18... Qe7 $2 { [%eval 10.02] } 19. Rfd1 $2 { [%eval 8.55] } 19... Nc6 $6
+{ [%eval 9.21] } 20. b4 $4 { [%eval 5.32] } 20... Rc8 $2 { [%eval 8.29] } 21.
+d5 { [%eval 7.99] } 21... Na7 $2 { [%eval 18.25] } 22. Qb2 $4 { [%eval 5.86] }
+22... Rxc1 $4 { [%eval 14.54] } 23. Rxc1 $4 { [%eval 6.54] } 23... Kf8 $4
+{ [%eval #1] } 24. Qxh8# 1-0

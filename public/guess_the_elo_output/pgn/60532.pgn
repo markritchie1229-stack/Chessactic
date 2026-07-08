@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/uiufG8bg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "giannimekk"]
+[Black "berrywhite"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:42:30"]
+[WhiteElo "1876"]
+[BlackElo "1888"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C16"]
+[Opening "French Defense: Winawer Variation, Advance Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.25] } 2. d4 { [%eval 0.17] } 2... d5
+{ [%eval 0.2] } 3. Nc3 { [%eval 0.32] } 3... Bb4 { [%eval 0.27] } 4. e5
+{ [%eval 0.0] } 4... Nc6 $6 { [%eval 0.71] } 5. Nf3 { [%eval 0.6] } 5... f6
+{ [%eval 0.71] } 6. Bb5 { [%eval 0.62] } 6... fxe5 $6 { [%eval 1.5] } 7. Nxe5
+{ [%eval 1.45] } 7... Bd7 $6 { [%eval 1.97] } 8. Nxd7 $2 { [%eval 0.11] } 8...
+Qxd7 { [%eval 0.21] } 9. O-O { [%eval 0.3] } 9... Nf6 { [%eval 0.27] } 10. Re1
+{ [%eval -0.17] } 10... O-O { [%eval -0.04] } 11. Bg5 $6 { [%eval -0.88] }
+11... a6 $6 { [%eval -0.14] } 12. Bxc6 { [%eval -0.15] } 12... bxc6
+{ [%eval -0.03] } 13. Qe2 { [%eval -0.12] } 13... Rae8 { [%eval 0.01] } 14. Qe5
+$2 { [%eval -1.22] } 14... Ng4 { [%eval -1.22] } 15. Qg3 { [%eval -1.2] } 15...
+Nxf2 { [%eval -1.33] } 16. Bf4 { [%eval -1.62] } 16... Bxc3 { [%eval -1.58] }
+17. bxc3 { [%eval -1.6] } 17... Ne4 { [%eval -1.61] } 18. Rxe4
+{ [%eval -2.06] } 18... dxe4 { [%eval -2.11] } 19. Be5 { [%eval -2.39] } 19...
+Rf5 $6 { [%eval -1.83] } 20. h3 { [%eval -1.9] } 20... Ref8 { [%eval -1.43] }
+21. Re1 { [%eval -1.51] } 21... Qf7 { [%eval -1.37] } 22. Rxe4
+{ [%eval -1.45] } 22... g6 $6 { [%eval -0.69] } 23. Kh2 $6 { [%eval -1.37] }
+23... Qe7 $2 { [%eval -0.23] } 24. Rg4 $6 { [%eval -0.77] } 24... R8f7
+{ [%eval -0.6] } 25. c4 $6 { [%eval -1.43] } 25... Qb4 $6 { [%eval -0.92] } 26.
+c5 { [%eval -0.95] } 26... Qd2 $6 { [%eval 0.0] } 27. Qh4 $2 { [%eval -1.16] }
+27... Qf2 $4 { [%eval #3] } 28. Qd8+ $4 { [%eval 1.39] } 28... Rf8
+{ [%eval 1.32] } 29. Qxc7 { [%eval 1.29] } 29... Rf3 $4 { [%eval #1] } 1-0

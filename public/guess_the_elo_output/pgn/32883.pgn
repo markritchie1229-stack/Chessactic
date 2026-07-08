@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/l5GXWUpU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gurli"]
+[Black "Tonuka"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:28:02"]
+[WhiteElo "1737"]
+[BlackElo "1592"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "C21"]
+[Opening "Center Game Accepted"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.4] } 2. d4 { [%eval 0.08] } 2... exd4
+{ [%eval 0.0] } 3. Qd2 $6 { [%eval -0.83] } 3... Nc6 { [%eval -0.91] } 4. Ne2
+{ [%eval -1.38] } 4... Bc5 { [%eval -1.36] } 5. c4 $2 { [%eval -3.81] } 5...
+dxc3 $2 { [%eval -1.27] } 6. Nbxc3 { [%eval -1.32] } 6... Nf6 { [%eval -1.43] }
+7. g3 { [%eval -1.5] } 7... O-O { [%eval -1.04] } 8. Bg2 { [%eval -1.16] } 8...
+d6 { [%eval -1.06] } 9. O-O { [%eval -1.2] } 9... Be6 $6 { [%eval -0.69] } 10.
+a3 $6 { [%eval -1.28] } 10... Bb6 { [%eval -0.89] } 11. b4 { [%eval -1.31] }
+11... Ne5 { [%eval -0.98] } 12. Nd5 $6 { [%eval -1.7] } 12... Bxd5
+{ [%eval -1.3] } 13. exd5 { [%eval -1.36] } 13... Nc4 $6 { [%eval -0.58] } 14.
+Qc3 { [%eval -0.68] } 14... Ne5 { [%eval -0.72] } 15. Bg5 { [%eval -0.89] }
+15... h6 { [%eval -0.67] } 16. Bf4 { [%eval -0.88] } 16... Re8
+{ [%eval -0.89] } 17. Nd4 { [%eval -1.29] } 17... Bxd4 $6 { [%eval -0.33] } 18.
+Qxd4 { [%eval -0.41] } 18... c6 $6 { [%eval 0.48] } 19. dxc6 { [%eval 0.39] }
+19... bxc6 { [%eval 0.83] } 20. Rad1 { [%eval 0.78] } 20... Qc7 $6
+{ [%eval 1.6] } 21. Qxd6 { [%eval 1.65] } 21... Qxd6 { [%eval 1.79] } 22. Rxd6
+{ [%eval 1.81] } 22... Nc4 $6 { [%eval 2.74] } 23. Rxc6 { [%eval 2.63] } 23...
+Nxa3 $2 { [%eval 3.87] } 24. Ra1 { [%eval 3.76] } 24... Nc2 $2 { [%eval 6.46] }
+25. Rxc2 { [%eval 6.35] } 25... Reb8 $2 { [%eval 8.76] } 1-0

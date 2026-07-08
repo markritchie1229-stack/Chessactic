@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WACwgu1R"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Karkamik"]
+[Black "MIKI-ORURO"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:10:44"]
+[WhiteElo "1677"]
+[BlackElo "1682"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+27"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... b6 { [%eval 0.4] } 2. d4 { [%eval 0.5] } 2... Bb7
+{ [%eval 0.31] } 3. Nc3 { [%eval 0.37] } 3... Nf6 { [%eval 0.47] } 4. Bd3
+{ [%eval 0.37] } 4... Nc6 { [%eval 0.7] } 5. Nf3 { [%eval 0.6] } 5... g6 $6
+{ [%eval 1.56] } 6. h3 $2 { [%eval 0.36] } 6... Bg7 $6 { [%eval 1.17] } 7. e5
+{ [%eval 1.25] } 7... Ng8 { [%eval 1.25] } 8. O-O { [%eval 1.18] } 8... Nb4
+{ [%eval 1.42] } 9. a3 $2 { [%eval 0.29] } 9... Nxd3 { [%eval 0.62] } 10. Qxd3
+{ [%eval 0.55] } 10... Nh6 { [%eval 0.7] } 11. Ng5 $6 { [%eval -0.04] } 11...
+O-O { [%eval 0.13] } 12. f4 { [%eval -0.29] } 12... e6 { [%eval -0.22] } 13.
+Nge4 { [%eval -0.28] } 13... d6 { [%eval 0.14] } 14. Nf6+ $2 { [%eval -1.37] }
+14... Bxf6 { [%eval -1.28] } 15. exf6 { [%eval -1.41] } 15... Qxf6
+{ [%eval -1.35] } 16. Ne4 { [%eval -1.6] } 16... Bxe4 { [%eval -1.5] } 17. Qxe4
+{ [%eval -1.56] } 17... Nf5 { [%eval -1.52] } 18. Kh2 $6 { [%eval -2.27] }
+18... d5 $6 { [%eval -1.62] } 19. Qe5 { [%eval -1.67] } 19... Qxe5
+{ [%eval -1.47] } 20. fxe5 $6 { [%eval -2.33] } 20... Nxd4 { [%eval -2.29] }
+21. Bg5 { [%eval -2.27] } 21... c5 { [%eval -2.2] } 22. Bf6 $2
+{ [%eval -3.98] } 22... Nxc2 { [%eval -3.91] } 23. Rac1 { [%eval -3.92] } 23...
+Ne3 { [%eval -3.83] } 24. Rf4 { [%eval -3.9] } 24... a5 { [%eval -3.8] } 25.
+Rc3 { [%eval -4.27] } 25... Nf5 $6 { [%eval -3.74] } 26. g4 { [%eval -3.94] }
+26... Nd4 { [%eval -3.75] } 27. h4 $2 { [%eval -5.81] } 27... Ne2
+{ [%eval -5.66] } 28. Rff3 $6 { [%eval -6.22] } 28... Nxc3 { [%eval -5.84] }
+29. bxc3 { [%eval -6.22] } 29... h6 $6 { [%eval -5.26] } 0-1

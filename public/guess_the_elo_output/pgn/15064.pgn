@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8AYysOSt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mateo32"]
+[Black "DetectiveChess"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:57:42"]
+[WhiteElo "1155"]
+[BlackElo "1318"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+9"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... c5 { [%eval 0.32] } 2. d3 { [%eval -0.12] } 2...
+Nc6 { [%eval -0.03] } 3. Nf3 { [%eval -0.22] } 3... d6 { [%eval 0.12] } 4. h3
+{ [%eval -0.03] } 4... Nf6 { [%eval 0.07] } 5. a3 { [%eval -0.16] } 5... e6
+{ [%eval -0.13] } 6. Bf4 { [%eval -0.2] } 6... e5 { [%eval -0.12] } 7. Bg5
+{ [%eval -0.17] } 7... d5 { [%eval 0.2] } 8. exd5 { [%eval 0.17] } 8... Qxd5
+{ [%eval 0.03] } 9. Nc3 { [%eval 0.17] } 9... Qd8 { [%eval 0.1] } 10. d4 $2
+{ [%eval -1.55] } 10... cxd4 { [%eval -1.41] } 11. Na4 $2 { [%eval -2.51] }
+11... a6 $6 { [%eval -1.75] } 12. Qd3 $2 { [%eval -4.08] } 12... b5
+{ [%eval -3.88] } 13. Nc5 $2 { [%eval -5.3] } 13... Qa5+ $4 { [%eval -1.71] }
+14. Bd2 { [%eval -1.87] } 14... Qd8 { [%eval -1.83] } 15. Be2 $4
+{ [%eval -5.17] } 15... a5 $4 { [%eval 1.27] } 16. O-O $4 { [%eval -2.2] }
+16... Bxc5 { [%eval -2.22] } 17. Qxb5 { [%eval -2.22] } 17... Bd7 $2
+{ [%eval 0.0] } 18. b4 $4 { [%eval -4.97] } 18... axb4 $4 { [%eval 0.0] } 19.
+Qxc5 { [%eval 0.0] } 19... e4 $2 { [%eval 1.45] } 20. Bb5 { [%eval 0.96] }
+20... exf3 $2 { [%eval 2.7] } 21. gxf3 $4 { [%eval -1.79] } 21... Rc8 $4
+{ [%eval 5.03] } 22. axb4 $4 { [%eval -3.64] } 22... Ne7 { [%eval -3.23] } 23.
+Bxd7+ $6 { [%eval -4.11] } 23... Nxd7 $2 { [%eval -2.52] } 24. Qxd4
+{ [%eval -2.69] } 24... O-O { [%eval -2.33] } 25. Qg4 $4 { [%eval -6.13] }
+25... Rc6 $2 { [%eval -3.15] } 26. Bc3 $4 { [%eval -9.11] } 26... Rg6
+{ [%eval -8.73] } 27. Bxg7 $2 { [%eval -11.58] } 27... Rxg7 { [%eval -11.27] }
+28. Qxg7+ { [%eval -12.57] } 28... Kxg7 { [%eval -12.2] } 29. Kh1
+{ [%eval -13.96] } 29... Kh8 { [%eval -13.35] } 30. Rfe1 { [%eval -16.25] }
+30... Nd5 { [%eval -15.36] } 0-1

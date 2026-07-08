@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/odWheTME"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kentos1k"]
+[Black "Prashant4842"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:18:54"]
+[WhiteElo "1537"]
+[BlackElo "1489"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-17"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.28] } 2. Nc3 { [%eval 0.21] } 2... a6
+{ [%eval 0.38] } 3. d3 { [%eval -0.06] } 3... h6 { [%eval 0.25] } 4. Nf3
+{ [%eval 0.01] } 4... Nc6 $6 { [%eval 0.64] } 5. Be2 $6 { [%eval 0.13] } 5...
+d5 { [%eval 0.27] } 6. exd5 { [%eval -0.19] } 6... exd5 { [%eval -0.17] } 7. d4
+{ [%eval -0.25] } 7... Nf6 { [%eval -0.18] } 8. Ne5 { [%eval -0.15] } 8... Nxe5
+$6 { [%eval 0.52] } 9. dxe5 { [%eval 0.44] } 9... Ne4 { [%eval 0.6] } 10. Nxe4
+{ [%eval 0.56] } 10... dxe4 { [%eval 0.54] } 11. Qxd8+ { [%eval 0.51] } 11...
+Kxd8 { [%eval 0.47] } 12. Bc4 { [%eval 0.22] } 12... Bf5 { [%eval 0.6] } 13.
+Bxf7 { [%eval 0.39] } 13... Bc5 { [%eval 0.37] } 14. O-O { [%eval 0.51] } 14...
+Bd4 { [%eval 0.7] } 15. e6 { [%eval 0.69] } 15... g6 $4 { [%eval 6.26] } 16.
+Rd1 { [%eval 6.09] } 16... c5 { [%eval 6.22] } 17. c3 { [%eval 6.01] } 17...
+Ke7 { [%eval 6.18] } 18. cxd4 { [%eval 6.07] } 18... Rad8 { [%eval 6.4] } 19.
+Be3 { [%eval 6.11] } 19... Rh7 $2 { [%eval 7.71] } 20. dxc5 { [%eval 7.35] }
+20... Rxd1+ { [%eval 7.77] } 21. Rxd1 { [%eval 7.39] } 21... h5 $2
+{ [%eval #3] } 22. Rd7+ $6 { [%eval #11] } 22... Kf6 { [%eval 21.47] } 23. Rxb7
+{ [%eval 13.97] } 23... Bxe6 { [%eval 12.93] } 24. Bd4+ { [%eval 11.92] } 24...
+Kf5 $6 { [%eval #14] } 25. Bxe6+ { [%eval #13] } 25... Kxe6 { [%eval #14] } 26.
+Rxh7 { [%eval #18] } 1-0

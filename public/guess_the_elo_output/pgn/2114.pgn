@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/LIFtXUp4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "S8S8TF8"]
+[Black "Chubbyserg"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:32:57"]
+[WhiteElo "1702"]
+[BlackElo "2284"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[ECO "B06"]
+[Opening "Pterodactyl Defense: Central, Benoni Quetzalcoatlus"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.15] } 1... c5 $6 { [%eval 0.67] } 2. d5 { [%eval 0.69] } 2...
+d6 { [%eval 0.7] } 3. c4 { [%eval 0.44] } 3... g6 { [%eval 0.7] } 4. Nc3
+{ [%eval 0.72] } 4... Bg7 { [%eval 0.78] } 5. e4 { [%eval 0.64] } 5... Qa5
+{ [%eval 0.95] } 6. Bd2 { [%eval 0.95] } 6... Nf6 { [%eval 0.93] } 7. Bd3
+{ [%eval 0.94] } 7... Qd8 { [%eval 1.07] } 8. Nge2 { [%eval 0.77] } 8... Ng4
+{ [%eval 1.03] } 9. f4 { [%eval 1.09] } 9... h5 $6 { [%eval 1.71] } 10. h3
+{ [%eval 1.66] } 10... Nh6 { [%eval 1.6] } 11. g3 $6 { [%eval 1.07] } 11... Nd7
+{ [%eval 1.32] } 12. O-O { [%eval 0.89] } 12... Nf6 { [%eval 0.81] } 13. Kg2
+{ [%eval 0.49] } 13... O-O $2 { [%eval 1.82] } 14. Ng1 { [%eval 1.5] } 14... e5
+$6 { [%eval 2.0] } 15. f5 { [%eval 1.66] } 15... Kh7 { [%eval 2.04] } 16. Bxh6
+$2 { [%eval -0.13] } 16... Bxh6 { [%eval -0.2] } 17. Be2 $6 { [%eval -0.72] }
+17... Rg8 $6 { [%eval -0.17] } 18. Nf3 $4 { [%eval -4.25] } 18... Bd7 $4
+{ [%eval -0.52] } 19. fxg6+ { [%eval -0.33] } 19... fxg6 { [%eval -0.33] } 20.
+Nh4 { [%eval -0.19] } 20... Rg7 { [%eval -0.22] } 21. Bxh5 $4 { [%eval -3.99] }
+21... gxh5 $6 { [%eval -3.37] } 22. g4 $4 { [%eval -19.18] } 22... Qe8 $4
+{ [%eval -3.95] } 23. Kh2 $4 { [%eval -9.58] } 23... hxg4 { [%eval -8.8] } 24.
+Nf5 { [%eval -9.27] } 24... gxh3 $4 { [%eval -5.76] } 25. Rg1 $4
+{ [%eval -15.1] } 25... Rxg1 { [%eval -14.08] } 26. Qxg1 { [%eval -12.65] }
+26... Bxf5 $6 { [%eval -9.05] } 27. exf5 { [%eval -8.54] } 27... Qg8 $2
+{ [%eval -5.63] } 28. Qf1 $4 { [%eval -21.35] } 28... Qg7 $4 { [%eval -6.17] }
+29. Qf2 $4 { [%eval #-6] } 29... Rg8 $6 { [%eval -13.97] } 30. Rg1
+{ [%eval -21.05] } 30... Qg2+ $4 { [%eval -5.21] } 0-1

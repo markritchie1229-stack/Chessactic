@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1DjOKIdY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mihailp"]
+[Black "Patient_Killer"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:56:10"]
+[WhiteElo "1576"]
+[BlackElo "1488"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.25] } 2... d6
+{ [%eval 0.28] } 3. d4 { [%eval 0.36] } 3... Bg4 { [%eval 0.7] } 4. Be2
+{ [%eval 0.73] } 4... Bxf3 { [%eval 0.85] } 5. Bxf3 { [%eval 0.68] } 5... exd4
+{ [%eval 0.64] } 6. Qxd4 { [%eval 0.43] } 6... Nc6 { [%eval 0.7] } 7. Qd3
+{ [%eval 0.53] } 7... Ne5 { [%eval 0.75] } 8. Qb5+ { [%eval 0.72] } 8... c6
+{ [%eval 0.79] } 9. Qxb7 { [%eval 0.8] } 9... Nxf3+ $6 { [%eval 1.45] } 10.
+gxf3 { [%eval 1.43] } 10... Ne7 { [%eval 1.45] } 11. Bg5 $6 { [%eval 0.89] }
+11... f6 $6 { [%eval 1.47] } 12. Bf4 $6 { [%eval 0.65] } 12... c5 $2
+{ [%eval 2.62] } 13. Nc3 { [%eval 2.23] } 13... Rb8 { [%eval 2.18] } 14. Qxa7
+{ [%eval 2.22] } 14... Nc6 { [%eval 2.64] } 15. Qa3 $2 { [%eval 0.87] } 15...
+Be7 $2 { [%eval 2.2] } 16. O-O-O { [%eval 2.08] } 16... Nd4 $6 { [%eval 2.67] }
+17. Qa4+ { [%eval 2.22] } 17... Nb5 $4 { [%eval 8.62] } 18. Nxb5
+{ [%eval 8.47] } 18... O-O $2 { [%eval 10.41] } 19. Qc4+ { [%eval 10.05] }
+19... Kh8 { [%eval 10.41] } 20. Nxd6 { [%eval 10.17] } 20... Qb6
+{ [%eval 11.81] } 21. Nf7+ { [%eval 11.0] } 21... Kg8 $6 { [%eval #3] } 22.
+Nh6+ { [%eval #2] } 22... Kh8 { [%eval #2] } 23. Qg8+ { [%eval #1] } 23... Rxg8
+{ [%eval #1] } 24. Nf7# 1-0

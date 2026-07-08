@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ttBtWHwe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wienna"]
+[Black "Xico62"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:35:49"]
+[WhiteElo "2134"]
+[BlackElo "2419"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+5"]
+[ECO "D45"]
+[Opening "Semi-Slav Defense: Accelerated Meran Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.16] } 2... c6
+{ [%eval 0.33] } 3. Nc3 { [%eval 0.16] } 3... e6 { [%eval 0.16] } 4. Nf3
+{ [%eval 0.15] } 4... Nf6 { [%eval 0.24] } 5. e3 { [%eval 0.37] } 5... a6
+{ [%eval 0.39] } 6. Bd3 { [%eval 0.09] } 6... dxc4 { [%eval 0.08] } 7. Bxc4
+{ [%eval -0.06] } 7... c5 { [%eval 0.01] } 8. Bd3 { [%eval -0.04] } 8... b5
+{ [%eval 0.07] } 9. Ne4 { [%eval 0.0] } 9... Nbd7 { [%eval 0.2] } 10. O-O
+{ [%eval -0.2] } 10... c4 { [%eval -0.11] } 11. Bc2 { [%eval -0.24] } 11... Bb7
+{ [%eval -0.16] } 12. Nxf6+ { [%eval -0.2] } 12... Nxf6 { [%eval -0.06] } 13.
+Re1 $6 { [%eval -0.6] } 13... Bb4 { [%eval -0.65] } 14. Bd2 { [%eval -0.55] }
+14... Bxf3 { [%eval -0.6] } 15. gxf3 { [%eval -0.67] } 15... Bxd2
+{ [%eval -0.52] } 16. Qxd2 { [%eval -0.6] } 16... O-O { [%eval -0.67] } 17. e4
+{ [%eval -1.02] } 17... Nh5 { [%eval -1.1] } 18. Kh1 { [%eval -1.31] } 18...
+Qf6 { [%eval -1.21] } 19. Qe3 { [%eval -1.39] } 19... e5 { [%eval -1.35] } 20.
+dxe5 { [%eval -1.59] } 20... Qxe5 { [%eval -1.57] } 21. Rg1 $6
+{ [%eval -2.45] } 21... Qxb2 { [%eval -2.33] } 22. Rac1 { [%eval -2.56] } 22...
+g6 { [%eval -2.39] } 23. e5 $6 { [%eval -2.91] } 23... Rfe8 { [%eval -2.72] }
+24. f4 { [%eval -2.8] } 24... Rad8 { [%eval -2.56] } 25. Rg5 $2
+{ [%eval -3.87] } 25... Nf6 { [%eval -3.29] } 26. h4 $4 { [%eval -8.29] } 26...
+Nd5 { [%eval -7.79] } 27. Qe1 { [%eval -7.9] } 27... Nxf4 { [%eval -7.17] } 28.
+h5 $2 { [%eval -9.07] } 28... Ne2 { [%eval -8.73] } 29. Rg1 $2
+{ [%eval -16.45] } 29... Qxe5 { [%eval -15.07] } 30. hxg6 { [%eval -19.77] }
+30... Qh5+ { [%eval -18.92] } 31. Kg2 { [%eval -18.04] } 31... Nf4+
+{ [%eval -16.39] } 0-1

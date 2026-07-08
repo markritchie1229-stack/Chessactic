@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/LTqxpWKd"]
+[Site "https://lichess.org/7uAGFdgt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ZAFER52"]
+[Black "DmitrijStet"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:53:32"]
+[WhiteElo "1565"]
+[BlackElo "1735"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+11"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d3 { [%eval -0.26] } 1... c6 { [%eval 0.17] } 2. Bg5 { [%eval -0.3] } 2...
+d5 { [%eval -0.18] } 3. e4 { [%eval -0.4] } 3... dxe4 { [%eval -0.39] } 4. Bd2
+$6 { [%eval -0.92] } 4... h6 $6 { [%eval 0.02] } 5. dxe4 { [%eval -0.03] } 5...
+Be6 $6 { [%eval 0.7] } 6. Be2 { [%eval 0.33] } 6... f6 $2 { [%eval 1.45] } 7.
+Nf3 $6 { [%eval 0.77] } 7... Bf7 { [%eval 0.77] } 8. Nc3 { [%eval 0.56] } 8...
+Nd7 { [%eval 0.5] } 9. Bd3 { [%eval 0.32] } 9... Qc7 { [%eval 0.33] } 10. Be3
+{ [%eval 0.0] } 10... O-O-O $6 { [%eval 0.84] } 11. Qe2 { [%eval 0.68] } 11...
+e5 { [%eval 0.89] } 12. a4 { [%eval 0.4] } 12... Bd6 $6 { [%eval 1.38] } 13. b4
+$2 { [%eval -1.42] } 13... a6 $2 { [%eval 0.18] } 14. a5 $6 { [%eval -0.32] }
+14... Kb8 $2 { [%eval 1.22] } 15. Bb6 $2 { [%eval 0.12] } 15... Qc8 $2
+{ [%eval 3.02] } 16. Bxd8 { [%eval 2.5] } 16... Qxd8 { [%eval 2.56] } 17. Nh4
+$4 { [%eval -0.44] } 17... Bxb4 { [%eval -1.06] } 18. Nf5 $4 { [%eval -9.46] }
+18... Bxc3+ { [%eval -9.25] } 19. Kf1 { [%eval -9.14] } 19... Bxa1
+{ [%eval -8.77] } 20. f3 $2 { [%eval -9.99] } 20... Bd4 { [%eval -9.58] } 21.
+g3 { [%eval -10.1] } 21... Ba7 $6 { [%eval -9.12] } 22. Nd6 $6
+{ [%eval -10.24] } 22... Bc5 $4 { [%eval -2.45] } 23. Nc4 $4 { [%eval -10.61] }
+23... Bd6 $4 { [%eval -5.7] } 24. Nb6 $4 { [%eval -11.44] } 24... Nxb6
+{ [%eval -11.29] } 25. axb6 { [%eval -11.19] } 25... Qxb6 { [%eval -11.01] }
+26. Bxa6 { [%eval -14.07] } 26... Bc5 { [%eval -9.85] } 27. Kg2
+{ [%eval -13.98] } 27... bxa6 { [%eval -13.87] } 28. Rd1 { [%eval -13.84] }
+28... Qb5 { [%eval -13.62] } 29. c3 $6 { [%eval #-4] } 29... Kb7 $6
+{ [%eval -11.88] } 0-1

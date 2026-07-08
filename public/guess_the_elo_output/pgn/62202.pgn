@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/CGaXfagp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cerveza"]
+[Black "qualifier"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:52:40"]
+[WhiteElo "1975"]
+[BlackElo "1957"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queen's Gambit Invitation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.2] } 1... e6 { [%eval 0.1] } 2. e3 { [%eval 0.1] } 2... Ne7
+{ [%eval 0.47] } 3. d4 { [%eval 0.45] } 3... Ng6 { [%eval 0.87] } 4. Bd3
+{ [%eval 0.46] } 4... Be7 { [%eval 0.64] } 5. Bxg6 $6 { [%eval -0.02] } 5...
+fxg6 { [%eval 0.44] } 6. h3 { [%eval 0.14] } 6... O-O { [%eval 0.33] } 7. O-O
+{ [%eval 0.24] } 7... b6 { [%eval 0.42] } 8. Ne5 $6 { [%eval -0.24] } 8... d6
+{ [%eval -0.1] } 9. Nd3 { [%eval -0.19] } 9... Bb7 { [%eval 0.14] } 10. Nd2
+{ [%eval 0.03] } 10... Nd7 { [%eval 0.06] } 11. c3 { [%eval -0.12] } 11... Nf6
+{ [%eval 0.0] } 12. Qe2 { [%eval -0.26] } 12... Qd7 { [%eval 0.0] } 13. e4
+{ [%eval -0.47] } 13... Qe8 $6 { [%eval 0.1] } 14. e5 { [%eval -0.08] } 14...
+Nd7 $6 { [%eval 0.53] } 15. exd6 { [%eval 0.33] } 15... Bxd6 { [%eval 0.5] }
+16. Re1 { [%eval 0.6] } 16... Qf7 { [%eval 0.79] } 17. Qxe6 { [%eval 0.66] }
+17... Rae8 { [%eval 0.85] } 18. Qxf7+ { [%eval 0.79] } 18... Kxf7
+{ [%eval 0.91] } 19. Rxe8 { [%eval 0.77] } 19... Rxe8 { [%eval 0.85] } 20. Kf1
+$6 { [%eval -0.05] } 20... Ba6 { [%eval 0.0] } 21. c4 { [%eval 0.0] } 21... Bf4
+$4 { [%eval 4.38] } 22. Nxf4 { [%eval 4.26] } 22... Bxc4+ $4 { [%eval 8.63] }
+23. Nxc4 { [%eval 8.52] } 23... Re4 $2 { [%eval 9.55] } 24. Ne2 $6
+{ [%eval 8.63] } 24... Nf6 $2 { [%eval 10.62] } 25. Ne5+ { [%eval 10.29] }
+25... Ke6 { [%eval 11.17] } 26. f3 { [%eval 10.86] } 26... Kd5
+{ [%eval 14.88] } 27. fxe4+ { [%eval 14.66] } 27... Kxe4 { [%eval 14.8] } 28.
+Bg5 { [%eval 14.47] } 28... Nd5 { [%eval 15.16] } 29. Rd1 { [%eval 14.57] }
+29... h6 $6 { [%eval #1] } 30. Bh4 $6 { [%eval 10.62] } 30... g5
+{ [%eval 15.05] } 31. Bf2 { [%eval 14.73] } 31... c5 $6 { [%eval #2] } 32. Ng3+
+{ [%eval #1] } 32... Kf4 { [%eval #1] } 33. Ng6# 1-0

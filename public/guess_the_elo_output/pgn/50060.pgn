@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/qHIlfSr5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChrisBrah"]
+[Black "JCtaketheWheel"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:17:26"]
+[WhiteElo "1394"]
+[BlackElo "1496"]
+[WhiteRatingDiff "+32"]
+[BlackRatingDiff "-15"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.43] } 2. Nf3 { [%eval 0.44] } 2... Nc6
+{ [%eval 0.4] } 3. Bc4 { [%eval 0.27] } 3... Bc5 { [%eval 0.31] } 4. O-O
+{ [%eval 0.31] } 4... Nf6 { [%eval 0.3] } 5. Re1 { [%eval 0.23] } 5... d6
+{ [%eval 0.37] } 6. b3 $6 { [%eval -0.33] } 6... O-O { [%eval -0.16] } 7. Bb2
+{ [%eval -0.31] } 7... Be6 { [%eval 0.07] } 8. Nc3 { [%eval -0.29] } 8... Bxc4
+{ [%eval -0.04] } 9. bxc4 { [%eval 0.0] } 9... Nd4 { [%eval -0.03] } 10. Nxd4
+{ [%eval 0.0] } 10... exd4 { [%eval 0.35] } 11. Nd5 { [%eval 0.09] } 11... Re8
+{ [%eval 0.1] } 12. d3 { [%eval 0.06] } 12... c6 { [%eval 0.18] } 13. Nxf6+
+{ [%eval 0.06] } 13... Qxf6 { [%eval 0.25] } 14. g3 { [%eval 0.0] } 14... Rad8
+{ [%eval 0.21] } 15. Qd2 { [%eval 0.06] } 15... d5 { [%eval 0.04] } 16. cxd5
+{ [%eval 0.04] } 16... cxd5 { [%eval 0.11] } 17. exd5 { [%eval 0.04] } 17...
+Rxe1+ { [%eval 0.3] } 18. Rxe1 { [%eval 0.35] } 18... Rxd5 $4 { [%eval 7.62] }
+19. a4 $4 { [%eval 0.07] } 19... Qb6 $4 { [%eval 5.16] } 20. Ba1 $4
+{ [%eval -0.1] } 20... Bb4 $2 { [%eval 0.91] } 21. c3 $6 { [%eval 0.14] } 21...
+Bxc3 $4 { [%eval #1] } 22. Bxc3 $4 { [%eval 3.74] } 22... dxc3 $4
+{ [%eval #1] } 23. Qxc3 $4 { [%eval 0.0] } 23... Rd8 { [%eval 0.42] } 24. a5
+{ [%eval 0.0] } 24... Qc6 { [%eval 0.42] } 25. Qe5 $6 { [%eval -0.19] } 25...
+Kf8 $4 { [%eval #3] } 26. Qe4 $4 { [%eval 0.0] } 26... Qb5 $4 { [%eval #3] }
+27. Qxh7 $6 { [%eval 14.07] } 27... Rxd3 $6 { [%eval #1] } 28. Qh8# 1-0

@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/qCdjGk5b"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SMITANT"]
+[Black "deyex"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:58:49"]
+[WhiteElo "1574"]
+[BlackElo "1567"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+30"]
+[ECO "B28"]
+[Opening "Sicilian Defense: O'Kelly Variation, Normal System"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... c5 { [%eval 0.25] } 2. Nf3 { [%eval 0.29] } 2... a6
+{ [%eval 0.41] } 3. d4 { [%eval 0.18] } 3... cxd4 { [%eval 0.24] } 4. Nxd4
+{ [%eval 0.12] } 4... Nf6 { [%eval 0.14] } 5. Nc3 { [%eval 0.03] } 5... e5
+{ [%eval 0.19] } 6. Nf5 $6 { [%eval -0.58] } 6... d5 { [%eval -0.56] } 7. Nxd5
+$2 { [%eval -1.7] } 7... Nxd5 { [%eval -1.64] } 8. Qxd5 { [%eval -1.86] } 8...
+Qxd5 { [%eval -1.61] } 9. exd5 $2 { [%eval -3.01] } 9... Bxf5 { [%eval -3.0] }
+10. c4 { [%eval -3.0] } 10... Bb4+ { [%eval -2.83] } 11. Bd2 { [%eval -2.89] }
+11... Bxd2+ { [%eval -2.84] } 12. Kxd2 { [%eval -2.86] } 12... Nd7
+{ [%eval -2.86] } 13. f3 { [%eval -2.89] } 13... Nc5 $6 { [%eval -2.24] } 14.
+Kc3 $6 { [%eval -2.76] } 14... Rc8 $6 { [%eval -2.17] } 15. b4
+{ [%eval -2.32] } 15... Nd7 { [%eval -2.26] } 16. c5 { [%eval -2.24] } 16...
+Nf6 $6 { [%eval -1.54] } 17. h4 $4 { [%eval -4.86] } 17... Nxd5+
+{ [%eval -4.61] } 18. Kb3 { [%eval -4.71] } 18... Be6 $6 { [%eval -4.03] } 19.
+Ka3 $2 { [%eval -6.38] } 19... Ne3 $2 { [%eval -5.01] } 20. g4 $2
+{ [%eval -7.45] } 20... Nc2+ { [%eval -7.32] } 21. Kb2 $6 { [%eval -8.01] }
+21... Nxa1 { [%eval -7.81] } 22. Kxa1 { [%eval -8.18] } 22... O-O
+{ [%eval -8.03] } 23. Bg2 $6 { [%eval -8.77] } 23... Rfd8 { [%eval -8.57] } 24.
+f4 { [%eval -8.64] } 24... exf4 { [%eval -8.47] } 25. Bxb7 { [%eval -8.35] }
+25... Rb8 { [%eval -8.1] } 26. Bxa6 $2 { [%eval -22.81] } 26... Rxb4
+{ [%eval -18.86] } 27. g5 $6 { [%eval #-3] } 27... Ra4 $6 { [%eval -18.63] }
+28. Bd3 $6 { [%eval #-8] } 28... Rxa2+ { [%eval #-7] } 29. Kb1 { [%eval #-7] }
+29... Rxd3 { [%eval #-6] } 0-1

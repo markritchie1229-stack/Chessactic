@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zyQC5aVF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "salemss"]
+[Black "mauropereira"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:53:38"]
+[WhiteElo "1201"]
+[BlackElo "1284"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "360+9"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.4] } 2. Bc4 { [%eval 0.0] } 2... d6
+{ [%eval 0.29] } 3. Nf3 { [%eval 0.22] } 3... c6 { [%eval 0.63] } 4. d4
+{ [%eval 0.52] } 4... b5 { [%eval 0.88] } 5. Bb3 { [%eval 1.27] } 5... f6 $6
+{ [%eval 2.08] } 6. dxe5 $6 { [%eval 1.35] } 6... fxe5 { [%eval 1.75] } 7. Ng5
+{ [%eval 1.74] } 7... Kd7 $4 { [%eval 5.22] } 8. Nf7 { [%eval 5.15] } 8... Qf6
+$4 { [%eval 8.77] } 9. Nxh8 $2 { [%eval 5.99] } 9... g5 $2 { [%eval 7.63] } 10.
+Qg4+ $6 { [%eval 6.83] } 10... Kc7 { [%eval 6.79] } 11. Qh5 $2 { [%eval 4.73] }
+11... Qxh8 { [%eval 4.77] } 12. Qxg5 $2 { [%eval 1.9] } 12... Be7 $4
+{ [%eval 7.29] } 13. Qxg8 { [%eval 7.23] } 13... Qxg8 { [%eval 7.22] } 14. Bxg8
+{ [%eval 7.12] } 14... Bb7 { [%eval 7.59] } 15. a3 $6 { [%eval 6.7] } 15... Nd7
+$6 { [%eval 7.45] } 16. b4 $4 { [%eval 2.1] } 16... c5 $4 { [%eval 6.71] } 17.
+Bd2 $4 { [%eval 1.75] } 17... c4 $4 { [%eval 7.5] } 18. Nc3 $4 { [%eval 3.54] }
+18... Rxg8 { [%eval 3.65] } 19. O-O { [%eval 3.58] } 19... a6 { [%eval 3.85] }
+20. h3 $6 { [%eval 2.95] } 20... Nf6 { [%eval 2.93] } 21. a4 $2
+{ [%eval 1.47] } 21... Bxe4 $6 { [%eval 2.16] } 22. axb5 $2 { [%eval -0.54] }
+22... Rxg2+ { [%eval -0.26] } 23. Kh1 { [%eval -0.75] } 23... Rxf2+ $4
+{ [%eval 2.25] } 0-1

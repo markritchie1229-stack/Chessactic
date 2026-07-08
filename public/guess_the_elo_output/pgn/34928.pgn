@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0QOPZTVC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "I_will_Dominate"]
+[Black "Kilderis"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:17:06"]
+[WhiteElo "1914"]
+[BlackElo "2045"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted, Bonsch-Osmolovsky Variation"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.11] } 1... e5 { [%eval 0.3] } 2. f4 $6 { [%eval -0.6] } 2...
+exf4 { [%eval -0.27] } 3. Nf3 { [%eval -0.35] } 3... Ne7 { [%eval -0.02] } 4.
+d4 { [%eval 0.13] } 4... d5 { [%eval 0.06] } 5. e5 { [%eval -0.27] } 5... Ng6
+{ [%eval -0.08] } 6. Bd3 $6 { [%eval -0.62] } 6... c5 { [%eval -0.62] } 7. c3
+$6 { [%eval -1.13] } 7... Nc6 $6 { [%eval -0.44] } 8. O-O { [%eval -0.68] }
+8... Be7 { [%eval -0.53] } 9. Bxg6 { [%eval -0.66] } 9... hxg6
+{ [%eval -0.68] } 10. Bxf4 { [%eval -0.81] } 10... g5 { [%eval -0.52] } 11. Bg3
+$6 { [%eval -1.26] } 11... g4 { [%eval -0.79] } 12. Ne1 { [%eval -1.07] } 12...
+cxd4 $6 { [%eval -0.19] } 13. cxd4 { [%eval -0.24] } 13... Qb6
+{ [%eval -0.19] } 14. Nc3 { [%eval -0.31] } 14... Qxb2 $2 { [%eval 0.9] } 15.
+Nxd5 { [%eval 0.85] } 15... Bd8 { [%eval 0.87] } 16. Nc2 { [%eval 0.88] } 16...
+Be6 { [%eval 1.0] } 17. Rb1 { [%eval 0.89] } 17... Qxa2 { [%eval 0.88] } 18.
+Ndb4 $2 { [%eval -0.45] } 18... Qc4 { [%eval 0.0] } 19. d5 { [%eval 0.0] }
+19... Bb6+ { [%eval 0.0] } 20. Kh1 $2 { [%eval -1.08] } 20... O-O-O $2
+{ [%eval 0.29] } 21. Rf4 $2 { [%eval -2.3] } 21... Qc3 $2 { [%eval -0.51] } 22.
+Nxc6 $4 { [%eval #-12] } 22... Qxg3 { [%eval #-13] } 23. Nxa7+ { [%eval #-11] }
+23... Bxa7 { [%eval #-10] } 24. Rc4+ { [%eval #-10] } 24... Kb8 { [%eval #-9] }
+25. Rxb7+ { [%eval #-11] } 25... Kxb7 { [%eval #-13] } 26. Qb1+ { [%eval #-8] }
+26... Bb6 { [%eval #-7] } 0-1

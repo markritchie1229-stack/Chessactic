@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/OHPCmwJ7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MrbOOgieman"]
+[Black "Anthony2015"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:38:12"]
+[WhiteElo "1538"]
+[BlackElo "1242"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-4"]
+[ECO "C68"]
+[Opening "Ruy Lopez: Exchange Variation, Lutikov Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.23] } 2. Nf3 { [%eval 0.19] } 2...
+Nc6 { [%eval 0.2] } 3. Bb5 { [%eval 0.18] } 3... a6 { [%eval 0.39] } 4. Bxc6
+{ [%eval 0.33] } 4... bxc6 { [%eval 0.65] } 5. Nxe5 { [%eval 0.21] } 5... Qe7
+{ [%eval 0.22] } 6. d4 { [%eval 0.12] } 6... d6 { [%eval 0.15] } 7. Nxc6
+{ [%eval 0.04] } 7... Qxe4+ { [%eval 0.11] } 8. Qe2 { [%eval 0.06] } 8... Qxe2+
+{ [%eval 0.08] } 9. Kxe2 { [%eval 0.06] } 9... Bb7 { [%eval -0.07] } 10. d5
+{ [%eval 0.04] } 10... Nf6 { [%eval 0.5] } 11. c4 { [%eval 0.34] } 11... Bxc6
+{ [%eval 0.58] } 12. dxc6 { [%eval 0.56] } 12... Rb8 $6 { [%eval 1.15] } 13.
+Be3 { [%eval 0.79] } 13... g6 { [%eval 1.17] } 14. Kd2 $2 { [%eval 0.0] } 14...
+Bg7 { [%eval 0.0] } 15. Re1 { [%eval 0.0] } 15... Ne4+ { [%eval 0.06] } 16. Kc2
+$6 { [%eval -0.47] } 16... Bxb2 $4 { [%eval 2.66] } 17. Nd2 $4 { [%eval -0.7] }
+17... Bxa1 { [%eval -0.25] } 18. Nxe4 { [%eval -0.16] } 18... Rb2+
+{ [%eval -0.41] } 19. Kd3 { [%eval -0.66] } 19... Rxa2 { [%eval -0.26] } 20. c5
+$2 { [%eval -1.59] } 20... Ra3+ $2 { [%eval -0.45] } 21. Nc3 $4
+{ [%eval -7.45] } 21... Rxc3+ $2 { [%eval -4.93] } 22. Kd2 { [%eval -4.81] }
+22... Ra3 $4 { [%eval -1.54] } 23. cxd6 $4 { [%eval -8.72] } 23... cxd6 $4
+{ [%eval -0.87] } 24. Bc5+ { [%eval -0.97] } 24... Kd8 { [%eval -0.94] } 25.
+Bxa3 { [%eval -0.84] } 25... Bf6 $4 { [%eval 15.22] } 26. Bxd6
+{ [%eval 12.02] } 26... Re8 $6 { [%eval #9] } 27. Rc1 $4 { [%eval -0.38] }
+27... Kc8 $4 { [%eval #4] } 28. Rb1 { [%eval #3] } 28... Re6 { [%eval #1] } 29.
+Rb8# 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HKHoras1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "t_gracchus"]
+[Black "suhendansipahioglu"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:17:21"]
+[WhiteElo "1260"]
+[BlackElo "1302"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-20"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "900+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.4] } 2. Nc3 { [%eval 0.1] } 2... f6
+$6 { [%eval 0.97] } 3. Nf3 { [%eval 0.89] } 3... Bb4 { [%eval 1.29] } 4. a3 $6
+{ [%eval 0.6] } 4... Ba5 $6 { [%eval 1.33] } 5. b4 { [%eval 1.01] } 5... Bb6
+{ [%eval 0.94] } 6. d4 { [%eval 0.89] } 6... c6 $6 { [%eval 1.42] } 7. d5
+{ [%eval 1.02] } 7... cxd5 $6 { [%eval 1.74] } 8. Nxd5 { [%eval 1.98] } 8...
+Ne7 { [%eval 2.37] } 9. Bc4 $6 { [%eval 1.57] } 9... O-O $4 { [%eval 5.69] }
+10. Nxb6+ { [%eval 5.65] } 10... d5 { [%eval 5.51] } 11. Nxd5 { [%eval 5.51] }
+11... Nxd5 { [%eval 5.54] } 12. Bxd5+ { [%eval 5.22] } 12... Kh8
+{ [%eval 5.22] } 13. O-O { [%eval 5.22] } 13... Bg4 $2 { [%eval 7.21] } 14. Be3
+$2 { [%eval 5.44] } 14... a5 $2 { [%eval 7.93] } 15. Bc5 $6 { [%eval 6.94] }
+15... Bxf3 $2 { [%eval 8.12] } 16. Qxf3 { [%eval 7.88] } 16... Re8 $2
+{ [%eval 9.48] } 17. Rad1 $2 { [%eval 6.61] } 17... Na6 $4 { [%eval 9.94] } 18.
+Bxb7 { [%eval 9.75] } 18... Qc7 { [%eval 9.84] } 19. Bxa8 { [%eval 9.63] }
+19... Rxa8 { [%eval 10.38] } 20. Bd6 { [%eval 9.96] } 20... Qxc2
+{ [%eval 12.97] } 21. Rc1 { [%eval 12.79] } 21... Qb2 { [%eval 13.98] } 22.
+Rfd1 { [%eval 10.88] } 22... axb4 { [%eval 12.08] } 23. axb4 { [%eval 11.38] }
+23... Rd8 { [%eval 23.1] } 24. Qf5 { [%eval 10.07] } 24... Rxd6 $6
+{ [%eval #2] } 25. Qc8+ { [%eval #1] } 25... Rd8 { [%eval #1] } 26. Qxd8# 1-0

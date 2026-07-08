@@ -5,13 +5,18 @@ import Link from "next/link";
 import { Chess, type Square } from "chess.js";
 import { ArrowLeft, RotateCcw } from "lucide-react";
 
-import ChessBoard from "./ChessBoard";
+import ChessBoard from "../../components/ChessBoard";
 import HUD from "./HUD";
 import KingHunterIcon from "./KingHunterIcon";
 import { buildKingHunterSession, getTierLabel } from "./PuzzleManager";
 import { formatMovesRemaining } from "./utils";
 import { getBestMove, parseUciMove } from "./StockfishEngine";
 import type { DeckMap, GameStatus, Tier } from "./types";
+import { useTheme } from "@/components/ThemeProvider";
+import {
+  getPageBackground,
+  getPanelBackground,
+} from "@/lib/backgrounds";
 
 const TIERS: Tier[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 25];
 
@@ -27,6 +32,15 @@ function formatThemeLabel(value: string) {
 }
 
 export default function KingHunter() {
+  const { theme } = useTheme();
+  const pageBackground = getPageBackground(theme);
+  const panelBackground = getPanelBackground(theme);
+
+  const shellText = theme.id === "girly" ? "text-slate-900" : "text-slate-100";
+  const mutedText = theme.id === "girly" ? "text-slate-700" : "text-stone-300";
+  const accentText = theme.background.accent;
+  const borderColor = theme.background.border;
+
   const [decks, setDecks] = useState<DeckMap>(() => buildKingHunterSession());
   const [tierIndex, setTierIndex] = useState(0);
   const [puzzleIndex, setPuzzleIndex] = useState(0);
@@ -257,15 +271,24 @@ export default function KingHunter() {
   }
 
   const tierProgressLabel = getTierLabel(currentTier);
-  const sideLabel = currentPuzzle?.side_to_move === "white" ? "White to move" : "Black to move";
+  const sideLabel =
+    currentPuzzle?.side_to_move === "white" ? "White to move" : "Black to move";
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(255,204,112,0.08),_transparent_30%),linear-gradient(180deg,#090807_0%,#050404_100%)] text-slate-100">
+    <main
+      className={`min-h-screen ${shellText}`}
+      style={{ background: pageBackground }}
+    >
       <div className="mx-auto max-w-7xl px-4 py-6 md:px-6 md:py-8">
         <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 rounded-full border border-[#d7ab32]/15 bg-black/20 px-4 py-2 text-sm text-amber-100/70 transition hover:border-[#d7ab32]/35 hover:text-amber-50"
+            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition"
+            style={{
+              borderColor: borderColor,
+              background: panelBackground,
+              color: theme.id === "girly" ? "#831843" : "#f5d7a1",
+            }}
           >
             <ArrowLeft className="h-4 w-4" />
             Back to Chessactic
@@ -275,7 +298,12 @@ export default function KingHunter() {
             <button
               type="button"
               onClick={resetGame}
-              className="inline-flex items-center gap-2 rounded-full border border-[#d7ab32]/20 bg-gradient-to-br from-[#201915] to-[#0d0a09] px-4 py-2 text-sm text-amber-100 transition hover:border-[#d7ab32]/40 hover:text-white"
+              className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition"
+              style={{
+                borderColor,
+                background: panelBackground,
+                color: theme.id === "girly" ? "#831843" : accentText,
+              }}
             >
               <RotateCcw className="h-4 w-4" />
               Reset
@@ -284,7 +312,15 @@ export default function KingHunter() {
             <button
               type="button"
               onClick={startGame}
-              className="inline-flex items-center gap-2 rounded-full border border-[#f6d38a]/30 bg-gradient-to-br from-[#f3d59f] via-[#d7ab32] to-[#a56f1d] px-4 py-2 text-sm font-medium text-[#1a1207] shadow-[0_10px_24px_rgba(215,171,50,0.25)] transition hover:brightness-110"
+              className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium shadow-[0_10px_24px_rgba(215,171,50,0.25)] transition hover:brightness-110"
+              style={{
+                borderColor: theme.background.accent,
+                background:
+                  theme.id === "girly"
+                    ? "linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%)"
+                    : "linear-gradient(135deg, #f3d59f 0%, #d7ab32 55%, #a56f1d 100%)",
+                color: theme.id === "girly" ? "#831843" : "#1a1207",
+              }}
             >
               <KingHunterIcon className="h-4 w-4" />
               Start
@@ -293,71 +329,108 @@ export default function KingHunter() {
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1.08fr)_minmax(320px,0.92fr)]">
-          <section className="rounded-[2rem] border border-[#9b7b40]/25 bg-gradient-to-br from-[#1a1512] via-[#100d0b] to-[#080706] p-5 shadow-[0_24px_80px_rgba(0,0,0,0.45)]">
+          <section
+            className="rounded-[2rem] border p-5 shadow-[0_24px_80px_rgba(0,0,0,0.45)]"
+            style={{
+              borderColor,
+              background: panelBackground,
+              boxShadow:
+                theme.id === "girly"
+                  ? "0 24px 80px rgba(236,72,153,0.08)"
+                  : "0 24px 80px rgba(0,0,0,0.45)",
+            }}
+          >
             <div className="mb-4 flex flex-wrap items-start justify-between gap-4">
               <div>
-                <div className="text-sm uppercase tracking-[0.24em] text-amber-200/50">
+                <div
+                  className="text-sm uppercase tracking-[0.24em]"
+                  style={{ color: theme.background.accent }}
+                >
                   Mini Game
                 </div>
-                <h1 className="mt-2 flex items-center gap-3 text-3xl font-bold text-amber-50">
+                <h1 className="mt-2 flex items-center gap-3 text-3xl font-bold">
                   <KingHunterIcon className="h-8 w-8" />
                   King Hunter
                 </h1>
-                <p className="mt-2 max-w-2xl text-sm leading-6 text-stone-300">
+                <p className={`mt-2 max-w-2xl text-sm leading-6 ${mutedText}`}>
                   Solve three puzzles in each tier from mate in 1 through mate in 10, then
                   finish the final boss mate in 25.
                 </p>
               </div>
 
-              <div className="rounded-[1.5rem] border border-[#d7ab32]/20 bg-black/30 px-4 py-3 text-right">
-                <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
+              <div
+                className="rounded-[1.5rem] border px-4 py-3 text-right"
+                style={{ borderColor, background: theme.id === "girly" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.3)" }}
+              >
+                <div
+                  className="text-[11px] uppercase tracking-[0.28em]"
+                  style={{ color: theme.id === "girly" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
+                >
                   Remaining strikes
                 </div>
-                <div className="mt-1 text-3xl font-semibold text-amber-50">
+                <div className="mt-1 text-3xl font-semibold" style={{ color: theme.id === "girly" ? "#831843" : "#f8fafc" }}>
                   {movesRemaining}
                 </div>
               </div>
             </div>
 
             <div className="mb-4 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
-                <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
-                  Tier
+              {[
+                {
+                  label: "Tier",
+                  value: tierProgressLabel,
+                },
+                {
+                  label: "Puzzle",
+                  value: `${puzzleIndex + 1} / ${puzzleCount}`,
+                },
+                {
+                  label: "Status",
+                  value:
+                    status === "won"
+                      ? "Cleared"
+                      : status === "lost"
+                        ? "Game over"
+                        : status === "playing"
+                          ? "Live"
+                          : "Idle",
+                },
+              ].map((card) => (
+                <div
+                  key={card.label}
+                  className="rounded-[1.35rem] border bg-black/25 p-4"
+                  style={{ borderColor }}
+                >
+                  <div
+                    className="text-[11px] uppercase tracking-[0.28em]"
+                    style={{ color: theme.id === "girly" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
+                  >
+                    {card.label}
+                  </div>
+                  <div className="mt-2 text-xl font-semibold" style={{ color: theme.id === "girly" ? "#831843" : "#f8fafc" }}>
+                    {card.value}
+                  </div>
                 </div>
-                <div className="mt-2 text-xl font-semibold text-amber-50">
-                  {tierProgressLabel}
-                </div>
-              </div>
-
-              <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
-                <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
-                  Puzzle
-                </div>
-                <div className="mt-2 text-xl font-semibold text-amber-50">
-                  {puzzleIndex + 1} / {puzzleCount}
-                </div>
-              </div>
-
-              <div className="rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4">
-                <div className="text-[11px] uppercase tracking-[0.28em] text-amber-200/55">
-                  Status
-                </div>
-                <div className="mt-2 text-xl font-semibold text-amber-50">
-                  {status === "won"
-                    ? "Cleared"
-                    : status === "lost"
-                      ? "Game over"
-                      : status === "playing"
-                        ? "Live"
-                        : "Idle"}
-                </div>
-              </div>
+              ))}
             </div>
 
-            <div className="mb-4 rounded-[1.35rem] border border-[#d7ab32]/20 bg-black/25 p-4 text-sm text-stone-200">
+            <div
+              className="mb-4 rounded-[1.35rem] border p-4 text-sm"
+              style={{ borderColor, background: theme.id === "girly" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.25)", color: theme.id === "girly" ? "#4c1d95" : "#e7e5e4" }}
+            >
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <span>{message}</span>
-                <span className="rounded-full border border-[#d7ab32]/20 bg-gradient-to-br from-[#22160f] to-[#0b0908] px-3 py-1 text-xs uppercase tracking-[0.18em] text-amber-100/80">
+                <span
+                  className="rounded-full border px-3 py-1 text-xs uppercase tracking-[0.18em]"
+                  style={{
+                    borderColor,
+                    background:
+                      theme.id === "girly"
+                        ? "linear-gradient(135deg, rgba(255,255,255,0.8), rgba(255,228,241,0.9))"
+                        : "linear-gradient(135deg, #22160f, #0b0908)",
+                    color: theme.id === "girly" ? "#831843" : "rgba(254,240,138,0.85)",
+                  }}
+                >
                   {sideLabel}
                 </span>
               </div>
@@ -376,7 +449,7 @@ export default function KingHunter() {
 
           <aside className="space-y-6">
             <HUD
-              tierLabel={currentPuzzle?.theme ? formatThemeLabel(currentPuzzle.theme) : getTierLabel(currentTier)}
+              tierLabel={tierLabel}
               puzzleNumber={puzzleIndex + 1}
               puzzleCount={puzzleCount}
               movesRemaining={movesRemaining}
@@ -386,11 +459,17 @@ export default function KingHunter() {
               engineBusy={engineBusy}
             />
 
-            <section className="rounded-[2rem] border border-[#9b7b40]/25 bg-gradient-to-br from-[#15110f] via-[#0f0c0a] to-[#070605] p-5 shadow-[0_24px_80px_rgba(0,0,0,0.4)]">
-              <div className="text-sm uppercase tracking-[0.24em] text-amber-200/50">
+            <section
+              className="rounded-[2rem] border p-5 shadow-[0_24px_80px_rgba(0,0,0,0.4)]"
+              style={{
+                borderColor,
+                background: panelBackground,
+              }}
+            >
+              <div className="text-sm uppercase tracking-[0.24em]" style={{ color: theme.background.accent }}>
                 Notes
               </div>
-              <div className="mt-3 space-y-3 text-sm leading-6 text-stone-300">
+              <div className={`mt-3 space-y-3 text-sm leading-6 ${mutedText}`}>
                 <p>
                   Tiers 1-5 are randomized from your uploaded JSON files each time you start.
                 </p>

@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/EYAjIxpK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dc89"]
+[Black "deltabluesman"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:34:46"]
+[WhiteElo "1271"]
+[BlackElo "1456"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-16"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[TimeControl "240+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.41] } 1... e5 { [%eval 0.36] } 2. Qf3 $6 { [%eval -0.41] }
+2... Nc6 { [%eval -0.18] } 3. Bc4 { [%eval -0.17] } 3... Nf6 { [%eval -0.3] }
+4. Ne2 { [%eval -0.24] } 4... d6 { [%eval 0.0] } 5. a3 { [%eval -0.05] } 5...
+Bg4 { [%eval 0.4] } 6. Qb3 { [%eval 0.34] } 6... d5 $6 { [%eval 1.2] } 7. exd5
+{ [%eval 1.0] } 7... Bxe2 { [%eval 1.25] } 8. Bxe2 $2 { [%eval 0.0] } 8... Nxd5
+$6 { [%eval 0.8] } 9. Qxb7 { [%eval 0.81] } 9... Nd4 { [%eval 0.79] } 10. Bb5+
+{ [%eval 0.69] } 10... Nxb5 { [%eval 1.18] } 11. Qc6+ { [%eval 1.16] } 11...
+Qd7 $2 { [%eval 3.1] } 12. Qxa8+ { [%eval 3.04] } 12... Qd8 { [%eval 3.02] }
+13. Qc6+ { [%eval 2.97] } 13... Qd7 { [%eval 2.95] } 14. Qxd7+ { [%eval 2.87] }
+14... Kxd7 { [%eval 2.91] } 15. Kd1 { [%eval 2.77] } 15... Nf4 { [%eval 2.79] }
+16. g3 { [%eval 2.45] } 16... Nd5 $4 { [%eval 6.05] } 17. c4 { [%eval 5.89] }
+17... Bc5 { [%eval 6.25] } 18. cxb5 { [%eval 6.17] } 18... Bxf2 $2
+{ [%eval 7.37] } 19. Ke2 $2 { [%eval 5.85] } 19... Bd4 { [%eval 5.85] } 20. Nc3
+{ [%eval 5.67] } 20... Nxc3+ $2 { [%eval 7.82] } 21. dxc3 { [%eval 7.56] }
+21... Bb6 $6 { [%eval 8.09] } 22. Be3 $6 { [%eval 7.29] } 22... Re8
+{ [%eval 7.73] } 23. Bxb6 { [%eval 7.31] } 23... axb6 $6 { [%eval 7.98] } 24.
+a4 { [%eval 7.64] } 24... e4 $2 { [%eval 8.66] } 25. a5 { [%eval 8.53] } 25...
+bxa5 { [%eval 8.37] } 26. Rxa5 { [%eval 8.05] } 26... e3 $2 { [%eval 10.88] }
+27. Ra7 $6 { [%eval 9.28] } 27... f5 $6 { [%eval 12.49] } 28. b6
+{ [%eval 11.58] } 28... Rc8 { [%eval 13.67] } 29. b7 { [%eval 10.59] } 29...
+Rb8 { [%eval 10.21] } 30. Rha1 { [%eval 9.74] } 30... f4 { [%eval 12.64] } 31.
+gxf4 { [%eval 11.61] } 31... h5 { [%eval 19.14] } 32. Kxe3 { [%eval 14.05] }
+32... Re8+ { [%eval 21.77] } 1-0

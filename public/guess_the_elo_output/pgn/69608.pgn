@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/JrpNNPKl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yurabolotin"]
+[Black "Lombras"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:54:30"]
+[WhiteElo "1634"]
+[BlackElo "1713"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C36"]
+[Opening "King's Gambit Accepted: Modern Defense #2"]
+[TimeControl "180+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.39] } 2. f4 $6 { [%eval -0.3] } 2...
+d5 { [%eval -0.25] } 3. exd5 { [%eval -0.17] } 3... exf4 { [%eval -0.3] } 4.
+Nf3 { [%eval -0.34] } 4... Qxd5 $6 { [%eval 0.2] } 5. Nc3 { [%eval -0.17] }
+5... Qa5 $6 { [%eval 0.72] } 6. d4 { [%eval 0.71] } 6... Bb4 { [%eval 0.8] } 7.
+Qe2+ $2 { [%eval -0.38] } 7... Be6 { [%eval -0.08] } 8. Bd2 { [%eval -0.33] }
+8... c6 $6 { [%eval 0.36] } 9. Ng5 $4 { [%eval -4.0] } 9... Qxg5
+{ [%eval -3.77] } 10. O-O-O $6 { [%eval -4.52] } 10... Ne7 $6 { [%eval -3.68] }
+11. d5 $2 { [%eval -5.91] } 11... cxd5 $2 { [%eval -4.38] } 12. Qb5+ $2
+{ [%eval -5.63] } 12... Nbc6 { [%eval -5.29] } 13. Qxb7 $2 { [%eval -6.89] }
+13... O-O { [%eval -6.93] } 14. Bb5 $2 { [%eval -9.28] } 14... Rfb8 $6
+{ [%eval -8.51] } 15. Qc7 $2 { [%eval -10.76] } 15... Bxc3 { [%eval -11.01] }
+16. Bxc6 $6 { [%eval #-15] } 16... Bxd2+ $6 { [%eval -11.89] } 17. Rxd2
+{ [%eval -11.53] } 17... Nxc6 $2 { [%eval -7.54] } 18. Qxc6 { [%eval -7.58] }
+18... f3 { [%eval -7.37] } 19. gxf3 { [%eval -7.6] } 19... Rc8 { [%eval -7.1] }
+20. Qb7 $2 { [%eval -13.6] } 20... Bf5 { [%eval -13.14] } 21. c3
+{ [%eval -20.15] } 21... d4 { [%eval -18.18] } 22. Qb5 $6 { [%eval #-9] } 22...
+dxc3 { [%eval #-8] } 23. bxc3 { [%eval #-9] } 23... Rxc3+ { [%eval #-8] } 24.
+Kd1 { [%eval #-8] } 24... Rac8 { [%eval #-8] } 0-1

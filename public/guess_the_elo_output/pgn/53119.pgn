@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/fBsJARbp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "canali9"]
+[Black "socalkid"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:36:53"]
+[WhiteElo "1001"]
+[BlackElo "1022"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.19] } 2. Nc3 { [%eval -0.06] } 2...
+c6 { [%eval 0.29] } 3. Nf3 { [%eval 0.06] } 3... Nd7 { [%eval 0.38] } 4. e4
+{ [%eval 0.33] } 4... Ndf6 $6 { [%eval 1.0] } 5. Bg5 $2 { [%eval -0.86] } 5...
+Nxe4 { [%eval -0.6] } 6. Nxe4 $6 { [%eval -1.19] } 6... dxe4 { [%eval -1.22] }
+7. Ne5 { [%eval -1.21] } 7... f6 { [%eval -0.9] } 8. Nxc6 $2 { [%eval -3.27] }
+8... fxg5 $4 { [%eval 5.79] } 9. Nxd8 { [%eval 5.73] } 9... Kxd8
+{ [%eval 5.74] } 10. d5 { [%eval 5.35] } 10... e6 $4 { [%eval 11.05] } 11.
+dxe6+ { [%eval 10.66] } 11... Ke7 { [%eval 12.19] } 12. Bc4 $2 { [%eval 7.56] }
+12... b5 $2 { [%eval 11.29] } 13. Bxb5 $2 { [%eval 7.68] } 13... Bxe6
+{ [%eval 7.31] } 14. O-O $6 { [%eval 6.6] } 14... Rb8 $6 { [%eval 7.24] } 15.
+c4 { [%eval 6.84] } 15... g4 $4 { [%eval 10.6] } 16. h3 $4 { [%eval 6.12] }
+16... gxh3 $2 { [%eval 8.95] } 17. gxh3 $2 { [%eval 6.69] } 17... Nf6
+{ [%eval 6.52] } 18. f3 { [%eval 6.2] } 18... exf3 $2 { [%eval 8.57] } 19. Rxf3
+$2 { [%eval 7.17] } 19... Bxh3 $2 { [%eval 12.04] } 20. Qd4 { [%eval 11.43] }
+20... Rd8 $6 { [%eval #11] } 21. Raf1 $4 { [%eval -3.55] } 21... Rxd4
+{ [%eval -3.42] } 22. Rxf6 $4 { [%eval -12.45] } 22... Bf5 $4 { [%eval 1.91] }
+23. R1xf5 $4 { [%eval -5.24] } 23... Rd1+ $4 { [%eval 0.0] } 24. Rf1
+{ [%eval 0.0] } 1-0

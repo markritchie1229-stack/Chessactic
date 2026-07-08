@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sa2gILlN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kuusamo"]
+[Black "bilguun1103"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:38:27"]
+[WhiteElo "1085"]
+[BlackElo "1177"]
+[WhiteRatingDiff "+33"]
+[BlackRatingDiff "-45"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.44] } 2. d3 { [%eval 0.0] } 2... Nc6
+{ [%eval -0.09] } 3. Nd2 { [%eval -0.17] } 3... Bb4 { [%eval 0.22] } 4. Nf3
+{ [%eval 0.18] } 4... d6 { [%eval 0.46] } 5. c3 { [%eval 0.44] } 5... Ba5
+{ [%eval 0.64] } 6. b4 { [%eval 0.45] } 6... Bb6 { [%eval 0.31] } 7. a3
+{ [%eval 0.1] } 7... Bg4 { [%eval 0.29] } 8. h3 { [%eval 0.27] } 8... Bh5
+{ [%eval 0.58] } 9. Be2 { [%eval 0.35] } 9... a6 { [%eval 0.52] } 10. Nc4
+{ [%eval 0.5] } 10... Ba7 { [%eval 0.47] } 11. Ng5 { [%eval -0.02] } 11... Qxg5
+$4 { [%eval 7.75] } 12. Bxg5 { [%eval 7.74] } 12... Nd4 $2 { [%eval 11.75] }
+13. Bxh5 { [%eval 11.56] } 13... Nc2+ { [%eval 15.81] } 14. Qxc2
+{ [%eval 15.73] } 14... Rd8 { [%eval 23.54] } 15. Bxd8 { [%eval 17.85] } 15...
+Nf6 { [%eval 26.45] } 16. Bxf6 { [%eval 25.97] } 16... Kd7 $6 { [%eval #9] }
+17. Bxg7 $6 { [%eval 31.45] } 17... Bd4 { [%eval 42.2] } 18. Bxh8
+{ [%eval 40.67] } 18... b5 $6 { [%eval #18] } 19. Nxe5+ { [%eval 44.94] } 19...
+Ke6 $6 { [%eval #4] } 20. Nxf7 $6 { [%eval #7] } 20... Kd7 { [%eval #6] } 21.
+Qe2 { [%eval #7] } 21... Kc6 { [%eval #6] } 22. Nd8+ { [%eval #5] } 22... Kd7
+{ [%eval #3] } 23. Qg4+ { [%eval #2] } 23... Kxd8 { [%eval #2] } 24. Bf6+ $6
+{ [%eval #2] } 24... Bxf6 { [%eval #2] } 25. Qe6 $6 { [%eval #7] } 25... Be7
+{ [%eval #5] } 26. Qf7 $6 { [%eval #6] } 26... Kd7 { [%eval #5] } 27. Qe8+
+{ [%eval #4] } 27... Ke6 { [%eval #4] } 28. Bf7+ $6 { [%eval #5] } 28... Kf6
+{ [%eval #5] } 29. g4 { [%eval #4] } 29... h6 { [%eval #4] } 30. h4 $6
+{ [%eval #4] } 30... c5 { [%eval #3] } 31. g5+ $6 { [%eval #4] } 31... hxg5
+{ [%eval #4] } 32. hxg5+ { [%eval #3] } 32... Kxg5 { [%eval #3] } 33. Rh5+ $6
+{ [%eval #3] } 33... Kf6 { [%eval #2] } 34. Ke2 $6 { [%eval #3] } 34... Kg7
+{ [%eval #2] } 35. Rg1+ $6 { [%eval #2] } 35... Kf6 { [%eval #1] } 36. Rg6# 1-0

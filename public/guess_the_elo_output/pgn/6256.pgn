@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6V53XZWN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jeff-W"]
+[Black "SCHVERER"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:52:16"]
+[WhiteElo "1809"]
+[BlackElo "1780"]
+[WhiteRatingDiff "+32"]
+[BlackRatingDiff "-9"]
+[ECO "A09"]
+[Opening "Reti Opening: Reversed Blumenfeld Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.22] } 1... d5 { [%eval 0.22] } 2. c4 { [%eval 0.02] } 2... d4
+{ [%eval 0.09] } 3. e3 { [%eval -0.02] } 3... c5 { [%eval 0.15] } 4. b4
+{ [%eval 0.13] } 4... Bg4 { [%eval 0.41] } 5. Qa4+ { [%eval 0.1] } 5... Bd7
+{ [%eval 0.46] } 6. Qc2 $6 { [%eval -0.06] } 6... e5 $2 { [%eval 1.02] } 7.
+Nxe5 { [%eval 0.9] } 7... Qf6 $6 { [%eval 1.85] } 8. Nxd7 { [%eval 1.83] } 8...
+Nxd7 { [%eval 1.77] } 9. Bb2 { [%eval 1.68] } 9... Bd6 { [%eval 2.12] } 10. e4
+$2 { [%eval 0.19] } 10... Ne5 $6 { [%eval 0.89] } 11. d3 { [%eval 0.86] } 11...
+Ne7 { [%eval 1.21] } 12. b5 $2 { [%eval -0.29] } 12... O-O $6 { [%eval 0.5] }
+13. Nd2 $6 { [%eval -0.35] } 13... Ng4 $2 { [%eval 0.66] } 14. Nf3
+{ [%eval 0.55] } 14... Bf4 $6 { [%eval 1.12] } 15. g3 $2 { [%eval -1.14] }
+15... Bh6 $4 { [%eval 1.86] } 16. Bg2 { [%eval 1.89] } 16... Ne5
+{ [%eval 2.03] } 17. Nxe5 { [%eval 2.08] } 17... Qxe5 { [%eval 2.06] } 18. f4
+{ [%eval 2.06] } 18... Qc7 { [%eval 2.11] } 19. O-O { [%eval 2.05] } 19... b6
+{ [%eval 2.04] } 20. a4 { [%eval 1.98] } 20... Rad8 { [%eval 2.43] } 21. a5
+{ [%eval 2.47] } 21... bxa5 $6 { [%eval 3.27] } 22. Qa4 { [%eval 3.14] } 22...
+Qb6 { [%eval 3.29] } 23. Qxa5 { [%eval 3.26] } 23... Qxa5 $2 { [%eval 4.92] }
+24. Rxa5 { [%eval 4.56] } 24... Rd7 { [%eval 4.86] } 25. Rfa1 { [%eval 4.65] }
+25... Nc8 { [%eval 4.76] } 26. Ba3 { [%eval 4.46] } 26... g5 $2
+{ [%eval 5.99] } 27. f5 $2 { [%eval 4.14] } 27... Bg7 { [%eval 4.6] } 28. Bxc5
+{ [%eval 4.5] } 28... Rfd8 { [%eval 4.74] } 29. Bxa7 { [%eval 4.33] } 29... Nd6
+$2 { [%eval 6.4] } 30. Bb6 { [%eval 6.29] } 1-0

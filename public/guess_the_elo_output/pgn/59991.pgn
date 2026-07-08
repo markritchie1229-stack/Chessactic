@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Le6Yytxn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zygmunt111"]
+[Black "darko_cancar"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:17:49"]
+[WhiteElo "1620"]
+[BlackElo "1501"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+15"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Grand Prix Attack"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.25] } 2. Nc3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.24] } 3. f4 { [%eval -0.13] } 3... g6 { [%eval -0.07] } 4. Nf3
+{ [%eval -0.1] } 4... Bg7 { [%eval -0.08] } 5. Bb5 { [%eval -0.1] } 5... d6
+{ [%eval 0.0] } 6. O-O { [%eval 0.01] } 6... Bd7 { [%eval 0.11] } 7. Bxc6
+{ [%eval 0.11] } 7... Bxc6 { [%eval 0.12] } 8. d3 { [%eval -0.37] } 8... Nf6
+{ [%eval -0.31] } 9. f5 $6 { [%eval -0.83] } 9... gxf5 { [%eval -0.78] } 10.
+exf5 { [%eval -0.72] } 10... a6 { [%eval -0.4] } 11. Qe1 { [%eval -0.75] }
+11... Qd7 { [%eval -0.7] } 12. Qe3 $6 { [%eval -1.4] } 12... Qxf5
+{ [%eval -1.59] } 13. d4 $2 { [%eval -2.92] } 13... Ng4 { [%eval -2.55] } 14.
+Qe2 $2 { [%eval -4.15] } 14... cxd4 { [%eval -3.9] } 15. Nd1 $2
+{ [%eval -5.3] } 15... Bb5 { [%eval -5.01] } 16. c4 $2 { [%eval -7.3] } 16...
+dxc3 { [%eval -8.95] } 17. Nd4 $2 { [%eval -21.23] } 17... Bxd4+
+{ [%eval -20.29] } 18. Kh1 { [%eval -26.88] } 18... Qh5 { [%eval -25.7] } 19.
+h3 { [%eval -36.6] } 19... Bxe2 { [%eval -32.38] } 20. Re1 $6 { [%eval #-2] }
+20... Qe5 $6 { [%eval #-4] } 21. hxg4 { [%eval #-4] } 21... Rg8 $6
+{ [%eval #-13] } 22. Rxe2 { [%eval #-5] } 22... Qxe2 { [%eval #-4] } 23. Nxc3
+{ [%eval #-2] } 23... Bxc3 $6 { [%eval #-6] } 24. bxc3 { [%eval #-3] } 24...
+Rxg4 { [%eval #-2] } 25. Bh6 { [%eval #-1] } 25... Qxg2# 0-1

@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Yi8Ergjb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kirgis"]
+[Black "rodrigo_ximenes"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:06:56"]
+[WhiteElo "1739"]
+[BlackElo "1810"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e6 { [%eval 0.25] } 2. d3 { [%eval -0.01] } 2... d5
+{ [%eval -0.02] } 3. exd5 { [%eval -0.06] } 3... exd5 { [%eval -0.04] } 4. Nf3
+{ [%eval -0.04] } 4... Nf6 { [%eval 0.03] } 5. g3 { [%eval -0.28] } 5... Bg4
+{ [%eval -0.06] } 6. Bg2 { [%eval -0.11] } 6... Nc6 { [%eval -0.22] } 7. O-O
+{ [%eval -0.31] } 7... Ne5 $4 { [%eval 3.49] } 8. Nbd2 $4 { [%eval 0.28] } 8...
+Be7 { [%eval 0.31] } 9. h3 { [%eval 0.32] } 9... Nxf3+ { [%eval 0.35] } 10.
+Nxf3 { [%eval 0.18] } 10... Be6 { [%eval 0.3] } 11. Re1 { [%eval 0.22] } 11...
+Qd7 $6 { [%eval 1.1] } 12. Ng5 { [%eval 1.06] } 12... O-O-O { [%eval 1.29] }
+13. Nxe6 { [%eval 1.29] } 13... fxe6 { [%eval 1.25] } 14. Qe2 { [%eval 1.14] }
+14... h5 { [%eval 1.43] } 15. Qxe6 { [%eval 1.49] } 15... Qxe6 { [%eval 1.44] }
+16. Rxe6 { [%eval 1.33] } 16... Bd6 { [%eval 1.54] } 17. Bg5 { [%eval 1.54] }
+17... Rhe8 { [%eval 1.65] } 18. Rae1 { [%eval 1.57] } 18... Rxe6
+{ [%eval 1.57] } 19. Rxe6 { [%eval 1.57] } 19... Kd7 { [%eval 1.64] } 20. Re2
+{ [%eval 1.56] } 20... c6 { [%eval 1.7] } 21. c4 { [%eval 1.34] } 21... dxc4
+{ [%eval 1.56] } 22. dxc4 { [%eval 1.47] } 22... Re8 { [%eval 1.51] } 23. Rd2
+$6 { [%eval 0.95] } 23... c5 $2 { [%eval 2.65] } 24. b4 $2 { [%eval 1.41] }
+24... b6 { [%eval 1.6] } 25. b5 $6 { [%eval 0.85] } 25... Ne4 $4
+{ [%eval 4.09] } 26. Bxe4 $4 { [%eval 0.85] } 26... Rxe4 { [%eval 0.89] } 27.
+f3 $2 { [%eval -0.83] } 27... Rxc4 { [%eval -0.9] } 28. Bf4 $6
+{ [%eval -1.84] } 28... Rd4 { [%eval -1.32] } 29. Re2 $6 { [%eval -2.13] }
+29... Bxf4 { [%eval -2.12] } 30. gxf4 { [%eval -2.05] } 30... Rxf4
+{ [%eval -2.08] } 31. Kg2 $6 { [%eval -2.63] } 31... g6 { [%eval -2.35] } 32.
+Re4 $4 { [%eval -53.13] } 32... Rxe4 { [%eval -25.36] } 33. fxe4
+{ [%eval -21.36] } 33... Ke6 { [%eval -11.38] } 0-1

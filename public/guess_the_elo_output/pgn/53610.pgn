@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/kBsCRAg9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vig-86"]
+[Black "Csaborlord"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:17:43"]
+[WhiteElo "927"]
+[BlackElo "1063"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+48"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.41] } 2. Nf3 { [%eval 0.36] } 2... f6
+$2 { [%eval 1.47] } 3. Nc3 { [%eval 1.16] } 3... d6 { [%eval 1.14] } 4. b3
+{ [%eval 0.72] } 4... c6 { [%eval 0.94] } 5. Ba3 $6 { [%eval 0.34] } 5... c5
+{ [%eval 0.7] } 6. Nh4 { [%eval 0.34] } 6... g6 { [%eval 0.53] } 7. Bb5+ $6
+{ [%eval -0.06] } 7... Nd7 { [%eval 0.37] } 8. Nd5 { [%eval 0.09] } 8... g5 $4
+{ [%eval #1] } 9. Nf5 $4 { [%eval 2.26] } 9... Nh6 $4 { [%eval 7.43] } 10.
+Nxd6+ $4 { [%eval -1.15] } 10... Bxd6 { [%eval -1.14] } 11. Qh5+
+{ [%eval -1.15] } 11... Kf8 $4 { [%eval 4.53] } 12. Qxh6+ { [%eval 4.13] }
+12... Kf7 { [%eval 4.3] } 13. Nxf6 $4 { [%eval -1.33] } 13... Nxf6
+{ [%eval -0.91] } 14. O-O-O $2 { [%eval -2.0] } 14... Nxe4 $4 { [%eval 1.73] }
+15. Rde1 $2 { [%eval -0.15] } 15... Nxf2 $4 { [%eval 7.61] } 16. Rhf1 $4
+{ [%eval 3.88] } 16... Ke7 $4 { [%eval #5] } 17. Rxf2 $6 { [%eval #7] } 17...
+Rf8 { [%eval #2] } 18. Rxf8 $6 { [%eval 10.95] } 18... Qxf8 { [%eval 10.89] }
+19. Qxf8+ $4 { [%eval 1.62] } 19... Kxf8 { [%eval 1.75] } 20. Rf1+ $2
+{ [%eval 0.31] } 20... Ke7 { [%eval 0.27] } 21. d4 { [%eval -0.18] } 21... exd4
+{ [%eval -0.14] } 22. Re1+ $6 { [%eval -0.71] } 22... Kf6 { [%eval -0.63] } 23.
+c3 $6 { [%eval -1.41] } 23... Bxh2 $6 { [%eval -0.58] } 24. cxd4
+{ [%eval -0.79] } 24... Bf4+ { [%eval -0.64] } 25. Kb1 $2 { [%eval -2.93] }
+25... Bf5+ { [%eval -3.0] } 26. Kb2 { [%eval -2.93] } 26... cxd4
+{ [%eval -2.89] } 27. Be7+ { [%eval -3.2] } 27... Kf7 $2 { [%eval -1.87] } 28.
+Re5 $4 { [%eval -13.32] } 28... Bxe5 { [%eval -12.72] } 29. Bc4+
+{ [%eval -21.37] } 29... Be6 { [%eval -12.61] } 30. a4 { [%eval -26.79] } 0-1

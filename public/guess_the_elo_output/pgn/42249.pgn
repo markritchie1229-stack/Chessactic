@@ -1,0 +1,38 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/asqnnMph"]
+[Site "https://lichess.org/bkPS02R8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Majorreese"]
+[Black "Skreciol"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:31:46"]
+[WhiteElo "1600"]
+[BlackElo "1324"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+33"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Sicilian Invitation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.12] } 1... c5 { [%eval 0.35] } 2. d3 $6 { [%eval -0.15] }
+2... Nc6 { [%eval -0.02] } 3. Nbd2 { [%eval -0.31] } 3... e5 { [%eval -0.01] }
+4. e4 { [%eval -0.08] } 4... Nf6 { [%eval -0.06] } 5. g3 { [%eval -0.32] } 5...
+d5 { [%eval -0.25] } 6. Bg2 { [%eval -0.27] } 6... Bd6 { [%eval 0.0] } 7. O-O
+{ [%eval -0.41] } 7... Be6 $6 { [%eval 0.22] } 8. Qe2 { [%eval -0.27] } 8...
+O-O { [%eval -0.31] } 9. Ng5 { [%eval -0.66] } 9... h6 $2 { [%eval 0.53] } 10.
+Nxe6 { [%eval 0.36] } 10... fxe6 { [%eval 0.37] } 11. exd5 { [%eval 0.39] }
+11... exd5 { [%eval 0.5] } 12. Re1 $6 { [%eval -0.03] } 12... Qe8
+{ [%eval 0.08] } 13. Nf3 { [%eval -0.27] } 13... e4 $6 { [%eval 0.59] } 14.
+dxe4 { [%eval 0.35] } 14... dxe4 $6 { [%eval 1.05] } 15. Nh4 $6
+{ [%eval 0.19] } 15... Nd4 { [%eval 0.59] } 16. Qc4+ $2 { [%eval -0.74] } 16...
+Rf7 $6 { [%eval -0.09] } 17. c3 { [%eval -0.42] } 17... Nc2 { [%eval -0.07] }
+18. Nf5 $2 { [%eval -1.32] } 18... Nxe1 $2 { [%eval -0.15] } 19. Nxd6
+{ [%eval -0.15] } 19... Qd7 { [%eval -0.07] } 20. Nxf7 { [%eval -0.14] } 20...
+Qxf7 { [%eval 0.0] } 21. Qxc5 $2 { [%eval -2.22] } 21... Nd3 $2
+{ [%eval 0.73] } 22. Qe3 $6 { [%eval 0.07] } 22... Nxc1 $6 { [%eval 0.96] } 23.
+Rxc1 $6 { [%eval 0.45] } 23... Re8 $2 { [%eval 2.14] } 24. Re1 $2
+{ [%eval 0.4] } 24... Ng4 $2 { [%eval 2.41] } 25. Qxa7 { [%eval 2.28] } 25...
+e3 { [%eval 2.34] } 26. Qa5 $4 { [%eval #-3] } 26... exf2+ { [%eval #-2] } 27.
+Kf1 { [%eval #-1] } 27... fxe1=Q# 0-1

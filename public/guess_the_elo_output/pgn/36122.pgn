@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/yCbdIK9m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mirsadnp"]
+[Black "mvillegas18"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:13:53"]
+[WhiteElo "1898"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-21"]
+[BlackRatingDiff "+461"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[TimeControl "60+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.45] } 2. Qf3 $6 { [%eval -0.52] }
+2... Nc6 { [%eval -0.08] } 3. Bc4 { [%eval -0.26] } 3... Nf6 { [%eval -0.21] }
+4. c3 { [%eval -0.66] } 4... Bc5 { [%eval -0.4] } 5. h3 { [%eval -0.54] } 5...
+O-O { [%eval -0.62] } 6. d3 { [%eval -0.33] } 6... d6 { [%eval 0.02] } 7. Bg5
+{ [%eval -0.07] } 7... Be6 { [%eval 0.08] } 8. Bxf6 { [%eval -0.04] } 8... Qxf6
+{ [%eval -0.03] } 9. Qxf6 { [%eval -0.07] } 9... gxf6 { [%eval 0.0] } 10. Bb5
+$6 { [%eval -0.61] } 10... Ne7 { [%eval -0.49] } 11. Nf3 { [%eval -0.56] }
+11... a6 { [%eval -0.37] } 12. Ba4 { [%eval -0.45] } 12... f5 { [%eval -0.46] }
+13. exf5 { [%eval -0.83] } 13... Nxf5 $6 { [%eval -0.2] } 14. O-O
+{ [%eval -0.35] } 14... Kh8 { [%eval -0.11] } 15. Nbd2 { [%eval -0.24] } 15...
+Rg8 { [%eval 0.1] } 16. Ne4 { [%eval -0.15] } 16... Ba7 { [%eval -0.11] } 17.
+Nf6 $2 { [%eval -1.89] } 17... Rg6 { [%eval -1.82] } 18. Ne4 { [%eval -1.91] }
+18... Rag8 { [%eval -1.83] } 19. g4 { [%eval -1.82] } 19... Nh6 $6
+{ [%eval -1.22] } 20. Kh2 $2 { [%eval -3.83] } 20... Bxg4 $4 { [%eval -0.66] }
+21. hxg4 $2 { [%eval -1.69] } 21... Nxg4+ { [%eval -1.71] } 22. Kh3
+{ [%eval -1.32] } 22... Rh6+ { [%eval -1.19] } 23. Nh4 { [%eval -1.16] } 23...
+Nf6 $2 { [%eval 0.14] } 24. Nxf6 { [%eval 0.13] } 24... Rxf6 { [%eval 0.15] }
+25. f3 $6 { [%eval -0.6] } 25... Rf4 $2 { [%eval 1.19] } 26. Bd1 $2
+{ [%eval -1.63] } 26... Rg5 { [%eval -1.63] } 27. Be2 $4 { [%eval -5.85] }
+27... Rh5 { [%eval -5.52] } 28. Kg3 { [%eval -5.61] } 28... Rfxh4
+{ [%eval -5.22] } 0-1

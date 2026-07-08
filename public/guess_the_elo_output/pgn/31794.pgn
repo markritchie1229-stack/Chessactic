@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ZCJIeWcB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ibizarey"]
+[Black "bvb774"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:23:47"]
+[WhiteElo "1531"]
+[BlackElo "1779"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #3"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval 0.11] } 1... e5 { [%eval 0.06] } 2. Bb2 { [%eval 0.02] } 2...
+Nc6 { [%eval 0.07] } 3. g3 $6 { [%eval -0.64] } 3... d5 { [%eval -0.46] } 4.
+Bg2 { [%eval -0.61] } 4... Be6 { [%eval -0.3] } 5. e3 { [%eval -0.23] } 5... f6
+{ [%eval -0.25] } 6. d3 { [%eval -0.63] } 6... Kf7 $6 { [%eval 0.33] } 7. Nd2
+{ [%eval 0.13] } 7... Nge7 { [%eval 0.24] } 8. Ne2 { [%eval 0.31] } 8... g5 $6
+{ [%eval 0.97] } 9. O-O { [%eval 1.02] } 9... h5 { [%eval 1.23] } 10. f3 $4
+{ [%eval -2.32] } 10... Bg7 $2 { [%eval 0.44] } 11. e4 { [%eval 0.0] } 11...
+Rh6 $6 { [%eval 0.56] } 12. exd5 $2 { [%eval -0.68] } 12... Bxd5 $6
+{ [%eval 0.24] } 13. d4 { [%eval -0.25] } 13... Qd6 $4 { [%eval 3.35] } 14.
+dxe5 $2 { [%eval 1.04] } 14... Nxe5 { [%eval 1.13] } 15. Bxe5 $6
+{ [%eval 0.28] } 15... Qxe5 { [%eval 0.36] } 16. f4 { [%eval 0.38] } 16... Qe3+
+{ [%eval 0.27] } 17. Rf2 { [%eval 0.39] } 17... Bxg2 { [%eval 0.33] } 18. Kxg2
+$2 { [%eval -1.86] } 18... Rd8 { [%eval -1.87] } 19. Rf3 $2 { [%eval -4.35] }
+19... Qxd2 { [%eval -4.24] } 20. Qf1 $4 { [%eval -7.5] } 20... Nf5 $4
+{ [%eval -2.06] } 21. fxg5 { [%eval -2.28] } 21... Ne3+ $2 { [%eval -1.17] }
+22. Kh1 $4 { [%eval -17.53] } 22... Nxf1 { [%eval -16.68] } 23. Rfxf1 $6
+{ [%eval #-13] } 23... Qxe2 { [%eval -30.19] } 24. g6+ $6 { [%eval #-12] }
+24... Rxg6 { [%eval #-11] } 0-1

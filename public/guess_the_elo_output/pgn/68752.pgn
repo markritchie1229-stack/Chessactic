@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sjuGMk8E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RaulHuerta"]
+[Black "MMatkun"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:12:53"]
+[WhiteElo "1935"]
+[BlackElo "2013"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+13"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.26] } 2. Bc4 { [%eval -0.15] } 2...
+Nc6 { [%eval 0.0] } 3. c3 { [%eval -0.33] } 3... e6 { [%eval -0.25] } 4. Ne2
+{ [%eval -0.68] } 4... d5 { [%eval -0.44] } 5. exd5 { [%eval -0.49] } 5... exd5
+{ [%eval -0.37] } 6. Bb5 { [%eval -0.41] } 6... Bd6 { [%eval -0.31] } 7. O-O
+{ [%eval -0.36] } 7... Ne7 { [%eval -0.2] } 8. d4 { [%eval -0.17] } 8... Bf5
+{ [%eval 0.05] } 9. Ng3 { [%eval 0.0] } 9... Bg6 { [%eval 0.0] } 10. dxc5
+{ [%eval 0.0] } 10... Bxc5 { [%eval 0.0] } 11. Nd2 { [%eval 0.0] } 11... O-O
+{ [%eval -0.06] } 12. Nb3 { [%eval 0.0] } 12... Bd6 { [%eval 0.11] } 13. Be3
+{ [%eval 0.07] } 13... a6 { [%eval 0.14] } 14. Bd3 { [%eval 0.06] } 14... Ne5
+{ [%eval 0.18] } 15. Bxg6 { [%eval 0.1] } 15... N7xg6 $6 { [%eval 0.81] } 16.
+Qxd5 { [%eval 0.64] } 16... Qc7 { [%eval 0.77] } 17. Qe4 $6 { [%eval 0.16] }
+17... Rae8 { [%eval 0.59] } 18. Qc2 { [%eval 0.14] } 18... f5 $2
+{ [%eval 1.18] } 19. Nxf5 { [%eval 1.15] } 19... Ng4 { [%eval 1.29] } 20. Nxd6
+{ [%eval 0.85] } 20... Qxd6 { [%eval 1.08] } 21. h3 $4 { [%eval #-1] } 21...
+Qh2# 0-1

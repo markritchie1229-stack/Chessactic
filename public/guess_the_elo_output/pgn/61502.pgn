@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sTRocbED"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cnelok"]
+[Black "mami3589"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:24:34"]
+[WhiteElo "1599"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+141"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Symmetrical Variation"]
+[TimeControl "300+7"]
+[Termination "Normal"]
+
+1. g3 $6 { [%eval -0.43] } 1... g6 $6 { [%eval 0.2] } 2. Bg2 { [%eval 0.21] }
+2... Nf6 { [%eval 0.33] } 3. d4 { [%eval 0.12] } 3... Bg7 { [%eval 0.27] } 4.
+c3 { [%eval -0.07] } 4... d5 { [%eval 0.1] } 5. Qb3 { [%eval -0.33] } 5... Nc6
+{ [%eval -0.09] } 6. Nd2 { [%eval -0.32] } 6... Bf5 $2 { [%eval 0.87] } 7. h3
+$6 { [%eval -0.04] } 7... O-O { [%eval 0.42] } 8. Qxb7 { [%eval 0.43] } 8...
+Na5 { [%eval 0.67] } 9. Qb5 { [%eval 0.69] } 9... c6 { [%eval 0.66] } 10. Qa4
+{ [%eval 0.63] } 10... Bd7 { [%eval 0.7] } 11. Qc2 { [%eval 0.54] } 11... Bf5
+{ [%eval 0.71] } 12. Qd1 { [%eval 0.56] } 12... Nb7 { [%eval 0.68] } 13. g4
+{ [%eval 0.55] } 13... Be6 { [%eval 0.68] } 14. Ndf3 { [%eval 0.5] } 14... Na5
+{ [%eval 0.77] } 15. g5 $6 { [%eval 0.06] } 15... Nh5 { [%eval 0.38] } 16. Nh4
+{ [%eval -0.11] } 16... Nc4 { [%eval -0.06] } 17. e4 $6 { [%eval -0.6] } 17...
+dxe4 { [%eval -0.54] } 18. Bxe4 { [%eval -0.74] } 18... Rb8 { [%eval -0.59] }
+19. Qe2 $2 { [%eval -2.18] } 19... Qb6 $2 { [%eval -0.93] } 20. Bf3 $6
+{ [%eval -1.85] } 20... Nxb2 { [%eval -1.91] } 21. Bxh5 { [%eval -2.02] } 21...
+gxh5 { [%eval -1.96] } 22. Qxh5 $4 { [%eval -5.02] } 22... Nd3+
+{ [%eval -4.91] } 23. Kd2 $4 { [%eval -9.43] } 23... Nxf2 { [%eval -8.94] } 24.
+Rh2 $2 { [%eval -10.7] } 24... Ne4+ $2 { [%eval -8.35] } 25. Kd3 $2
+{ [%eval -11.28] } 25... Nd6 $4 { [%eval -6.69] } 26. Rb2 $4 { [%eval -10.12] }
+26... Qa6+ { [%eval -9.64] } 27. Kd2 { [%eval -11.19] } 27... Nc4+
+{ [%eval -10.7] } 28. Kc2 { [%eval -19.99] } 28... Nxb2 { [%eval -18.75] } 29.
+Bxb2 { [%eval -22.19] } 29... Qa4+ { [%eval -16.69] } 30. Kc1
+{ [%eval -17.75] } 30... Qb5 { [%eval -12.06] } 31. Rb1 { [%eval -20.01] }
+31... Bxa2 { [%eval -19.13] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/SLCPo3Kp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "enricoscacchi"]
+[Black "jnco"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:01:26"]
+[WhiteElo "1024"]
+[BlackElo "1050"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "A40"]
+[Opening "Queen's Pawn"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... c6 { [%eval 0.57] } 2. Nf3 { [%eval 0.3] } 2... d5
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.06] } 3... f6 $2 { [%eval 1.35] } 4. e3 $6
+{ [%eval 0.81] } 4... e5 { [%eval 0.9] } 5. dxe5 { [%eval 0.43] } 5... fxe5
+{ [%eval 0.52] } 6. Nxe5 { [%eval 0.47] } 6... Bd6 { [%eval 0.65] } 7. Nf3
+{ [%eval 0.57] } 7... Bg4 $6 { [%eval 1.29] } 8. Be2 { [%eval 0.97] } 8... Nd7
+$6 { [%eval 1.71] } 9. Qd4 $2 { [%eval 0.09] } 9... h5 $2 { [%eval 1.83] } 10.
+O-O $6 { [%eval 1.13] } 10... Ngf6 { [%eval 1.22] } 11. Na4 $2
+{ [%eval -0.22] } 11... b5 { [%eval -0.2] } 12. Nc3 { [%eval -0.16] } 12... Bc5
+$6 { [%eval 0.61] } 13. Qf4 $6 { [%eval 0.0] } 13... O-O { [%eval 0.0] } 14. e4
+$4 { [%eval -5.0] } 14... Nxe4 { [%eval -4.51] } 15. Nxe4 { [%eval -4.73] }
+15... dxe4 $4 { [%eval 0.41] } 16. Qxe4 { [%eval 0.5] } 16... Nf6 $2
+{ [%eval 2.23] } 17. Qxc6 { [%eval 2.04] } 17... Qd5 { [%eval 2.5] } 18. Bxb5
+{ [%eval 2.12] } 18... Qxc6 { [%eval 2.2] } 19. Bxc6 { [%eval 2.14] } 19...
+Rac8 { [%eval 2.16] } 20. Bb5 { [%eval 1.74] } 20... Bf5 $2 { [%eval 3.04] }
+21. c3 { [%eval 2.94] } 21... Rcd8 { [%eval 3.29] } 22. Ne5 { [%eval 2.99] }
+22... Ne4 { [%eval 2.9] } 23. Bc4+ { [%eval 2.58] } 23... Kh8 $6
+{ [%eval 3.12] } 24. Bg5 $4 { [%eval -0.89] } 24... Nxf2 $4 { [%eval 4.42] }
+25. Rxf2 { [%eval 3.99] } 25... Bxf2+ { [%eval 4.22] } 26. Kxf2
+{ [%eval 4.26] } 26... Bd3+ $2 { [%eval 6.65] } 27. Kg1 { [%eval 6.51] } 27...
+Bxc4 { [%eval 6.47] } 28. Nxc4 $2 { [%eval 3.98] } 28... Rd3 $4
+{ [%eval 7.26] } 29. Be7 $4 { [%eval 3.54] } 29... Rf5 { [%eval 3.96] } 30. Nd6
+{ [%eval 3.7] } 30... Rfd5 { [%eval 3.63] } 31. Nf7+ $2 { [%eval 2.22] } 1-0

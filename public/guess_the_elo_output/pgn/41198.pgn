@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/6Bj16zSL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "looc"]
+[Black "elsauce"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:49:40"]
+[WhiteElo "1538"]
+[BlackElo "1714"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.18] } 1... d5 { [%eval -0.18] } 2. e3 { [%eval -0.22] } 2...
+Nc6 { [%eval 0.05] } 3. Nf3 { [%eval -0.03] } 3... Nf6 { [%eval 0.0] } 4. b3
+{ [%eval 0.01] } 4... Bf5 { [%eval 0.3] } 5. Bb2 { [%eval 0.0] } 5... e6
+{ [%eval 0.23] } 6. d3 $6 { [%eval -0.33] } 6... Bb4+ { [%eval -0.14] } 7. c3
+{ [%eval -0.12] } 7... Ba5 { [%eval -0.17] } 8. b4 { [%eval -0.66] } 8... Bb6
+{ [%eval -0.5] } 9. Qe2 { [%eval -0.82] } 9... Ng4 $6 { [%eval -0.32] } 10. d4
+{ [%eval -0.43] } 10... O-O { [%eval 0.04] } 11. h3 { [%eval 0.03] } 11... Nf6
+{ [%eval 0.0] } 12. a4 { [%eval 0.0] } 12... a6 { [%eval 0.3] } 13. a5
+{ [%eval 0.13] } 13... Ba7 { [%eval 0.06] } 14. Ne5 $2 { [%eval -2.33] } 14...
+Nxe5 { [%eval -2.21] } 15. fxe5 { [%eval -2.32] } 15... Ne4 { [%eval -2.18] }
+16. Nd2 $4 { [%eval -6.31] } 16... f6 $4 { [%eval -1.54] } 17. Nxe4
+{ [%eval -1.82] } 17... Bxe4 { [%eval -1.8] } 18. O-O-O $6 { [%eval -2.3] }
+18... fxe5 { [%eval -2.35] } 19. dxe5 $4 { [%eval -6.48] } 19... Qg5
+{ [%eval -6.03] } 20. h4 $2 { [%eval -8.67] } 20... Bxe3+ { [%eval -8.37] } 21.
+Rd2 { [%eval -7.7] } 21... Bxd2+ { [%eval -7.27] } 22. Qxd2 { [%eval -7.13] }
+22... Qxe5 $2 { [%eval -5.32] } 23. c4 $2 { [%eval -7.2] } 23... Qd6 $2
+{ [%eval -5.18] } 24. c5 $2 { [%eval -6.95] } 24... Qe7 $2 { [%eval -4.97] }
+25. Bd3 $2 { [%eval -6.02] } 25... Bxd3 { [%eval -5.86] } 26. Qxd3
+{ [%eval -5.72] } 26... Rf2 $6 { [%eval -5.14] } 27. Qg3 $6 { [%eval -5.67] }
+27... Raf8 { [%eval -5.32] } 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/YJuA9aNk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "matnl"]
+[Black "kmmm"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:52:17"]
+[WhiteElo "1501"]
+[BlackElo "1264"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.0] } 1... e6 { [%eval 0.19] } 2. Nf3 { [%eval 0.03] } 2... g6
+$6 { [%eval 0.69] } 3. d4 { [%eval 0.71] } 3... Bg7 { [%eval 0.68] } 4. c3
+{ [%eval 0.49] } 4... b5 $2 { [%eval 1.62] } 5. Bd3 { [%eval 1.16] } 5... Bb7
+{ [%eval 1.43] } 6. a4 { [%eval 1.03] } 6... c6 $6 { [%eval 1.86] } 7. axb5
+{ [%eval 1.55] } 7... cxb5 { [%eval 1.63] } 8. O-O { [%eval 1.3] } 8... Qc7 $6
+{ [%eval 1.94] } 9. Bxb5 $2 { [%eval 0.92] } 9... Ne7 $2 { [%eval 2.16] } 10.
+Bf4 $4 { [%eval -2.24] } 10... O-O $4 { [%eval 12.37] } 11. Bxc7
+{ [%eval 12.3] } 11... Kh8 { [%eval 14.04] } 12. Bxb8 { [%eval 12.87] } 12...
+Rg8 { [%eval 17.5] } 13. Bd6 { [%eval 17.26] } 13... g5 { [%eval 22.81] } 14.
+Bxe7 { [%eval 21.69] } 14... Rgd8 { [%eval 26.78] } 15. e5 { [%eval 24.43] }
+15... Re8 { [%eval 24.32] } 16. Bxg5 { [%eval 23.96] } 16... h6
+{ [%eval 25.74] } 17. Bf6 { [%eval 24.82] } 17... Bxf6 { [%eval 29.37] } 18.
+exf6 { [%eval 27.56] } 18... Kg8 $6 { [%eval #5] } 19. Qd2 { [%eval #4] } 19...
+Red8 { [%eval #2] } 20. Qxh6 { [%eval #1] } 20... Bc8 { [%eval #1] } 21. Qg7#
+1-0

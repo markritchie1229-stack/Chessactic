@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/teVrohgV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "casablancatop"]
+[Black "skyocean"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:02:33"]
+[WhiteElo "1702"]
+[BlackElo "1848"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+7"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.27] } 2. d4 { [%eval 0.1] } 2... cxd4
+{ [%eval 0.22] } 3. Qxd4 { [%eval 0.18] } 3... Nc6 { [%eval 0.11] } 4. Qc4
+{ [%eval -0.34] } 4... e5 { [%eval -0.01] } 5. Nf3 { [%eval -0.22] } 5... Nf6
+{ [%eval 0.18] } 6. Bg5 { [%eval -0.3] } 6... Be7 { [%eval 0.15] } 7. Nc3
+{ [%eval 0.1] } 7... O-O { [%eval 0.09] } 8. Bxf6 { [%eval 0.14] } 8... Bxf6
+{ [%eval 0.12] } 9. Nd5 { [%eval 0.1] } 9... d6 { [%eval 0.06] } 10. b4 $2
+{ [%eval -1.19] } 10... Be6 { [%eval -0.83] } 11. b5 $6 { [%eval -1.36] } 11...
+Na5 $6 { [%eval -0.62] } 12. Qc7 $4 { [%eval -4.2] } 12... Qxc7 $4
+{ [%eval -0.56] } 13. Nxc7 { [%eval -0.64] } 13... Rac8 { [%eval -0.54] } 14.
+Nxe6 { [%eval -0.63] } 14... fxe6 { [%eval -0.56] } 15. c4 $2 { [%eval -1.71] }
+15... Nxc4 { [%eval -1.6] } 16. a4 { [%eval -1.91] } 16... Na5
+{ [%eval -1.75] } 17. Be2 { [%eval -1.99] } 17... Rc2 { [%eval -1.59] } 18. Bd3
+{ [%eval -1.95] } 18... Rc3 { [%eval -1.92] } 19. Rd1 { [%eval -1.84] } 19...
+b6 { [%eval -1.51] } 20. O-O { [%eval -1.38] } 20... d5 $6 { [%eval -0.72] }
+21. exd5 { [%eval -0.7] } 21... exd5 { [%eval -0.67] } 22. Bf5
+{ [%eval -0.91] } 22... d4 { [%eval -0.78] } 23. Rfe1 { [%eval -0.97] } 23...
+h6 $2 { [%eval 0.18] } 24. Nxe5 { [%eval 0.18] } 24... Bxe5 { [%eval 0.22] }
+25. Rxe5 { [%eval 0.26] } 25... Nc4 { [%eval 0.21] } 26. Rd5 { [%eval 0.19] }
+26... Nb2 { [%eval 0.35] } 27. Be6+ $6 { [%eval -0.5] } 27... Kh8
+{ [%eval -0.49] } 28. Rb1 { [%eval -0.52] } 28... d3 { [%eval -0.46] } 29. Rxb2
+$4 { [%eval #-1] } 29... Rc1# 0-1

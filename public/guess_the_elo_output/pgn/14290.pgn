@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0pzbXvrw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kesikminare"]
+[Black "marein"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:25:24"]
+[WhiteElo "1138"]
+[BlackElo "1480"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+3"]
+[ECO "B07"]
+[Opening "Pirc Defense #4"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... d6 { [%eval 0.6] } 2. d3 { [%eval 0.12] } 2... Nf6
+{ [%eval 0.15] } 3. c4 { [%eval 0.12] } 3... g6 { [%eval 0.11] } 4. Nc3
+{ [%eval 0.08] } 4... Bg7 { [%eval 0.36] } 5. Nf3 { [%eval 0.07] } 5... Bg4
+{ [%eval 0.27] } 6. Be2 { [%eval 0.09] } 6... O-O { [%eval 0.32] } 7. O-O
+{ [%eval 0.15] } 7... c5 { [%eval 0.16] } 8. h3 { [%eval 0.09] } 8... Bxf3
+{ [%eval 0.02] } 9. Bxf3 { [%eval 0.0] } 9... Nc6 { [%eval 0.0] } 10. Nd5
+{ [%eval -0.18] } 10... Nxd5 { [%eval -0.12] } 11. exd5 { [%eval -0.22] } 11...
+Nd4 { [%eval -0.17] } 12. Be3 { [%eval -0.29] } 12... Nxf3+ { [%eval 0.03] }
+13. Qxf3 { [%eval -0.02] } 13... Bxb2 { [%eval 0.29] } 14. Rab1
+{ [%eval 0.19] } 14... Be5 { [%eval 0.38] } 15. Rxb7 { [%eval 0.44] } 15... Qa5
+$6 { [%eval 0.99] } 16. Rfb1 $2 { [%eval -0.22] } 16... e6 $4 { [%eval 3.58] }
+17. dxe6 { [%eval 3.32] } 17... fxe6 { [%eval 3.6] } 18. Rf7 $4 { [%eval 0.0] }
+18... Rxf7 { [%eval 0.0] } 19. Qxa8+ { [%eval 0.0] } 19... Kg7 { [%eval 0.0] }
+20. Rb8 $4 { [%eval #-1] } 20... Qe1# 0-1

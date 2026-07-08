@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uaw6JlOZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TEHb"]
+[Black "KatiouchaZagadka"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:05:03"]
+[WhiteElo "1496"]
+[BlackElo "1850"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+4"]
+[ECO "A56"]
+[Opening "Benoni Defense"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.2] } 2. c4 { [%eval 0.25] } 2... c5
+{ [%eval 0.31] } 3. d5 { [%eval 0.57] } 3... b6 { [%eval 0.94] } 4. Nc3
+{ [%eval 0.87] } 4... g6 { [%eval 0.87] } 5. e4 { [%eval 0.85] } 5... d6
+{ [%eval 0.83] } 6. Nf3 { [%eval 0.85] } 6... Bg7 { [%eval 0.81] } 7. Bd3
+{ [%eval 0.78] } 7... O-O { [%eval 0.91] } 8. Qc2 { [%eval 0.66] } 8... Bb7
+{ [%eval 0.68] } 9. Bf4 { [%eval 0.58] } 9... Nbd7 { [%eval 0.58] } 10. O-O-O
+$6 { [%eval 0.04] } 10... a6 { [%eval 0.07] } 11. h4 { [%eval -0.06] } 11... h5
+{ [%eval 0.0] } 12. Nh2 $6 { [%eval -0.53] } 12... b5 { [%eval -0.43] } 13. f3
+{ [%eval -0.44] } 13... bxc4 { [%eval -0.21] } 14. Bxc4 { [%eval -0.14] } 14...
+Nb6 { [%eval 0.0] } 15. Bd3 { [%eval -0.16] } 15... a5 { [%eval -0.16] } 16. g4
+{ [%eval -0.18] } 16... Ba6 { [%eval -0.33] } 17. Bb5 $2 { [%eval -2.06] }
+17... Bxb5 { [%eval -2.01] } 18. Nxb5 { [%eval -1.91] } 18... Qd7
+{ [%eval -2.08] } 19. Nc3 { [%eval -2.57] } 19... Rfb8 { [%eval -2.21] } 20.
+gxh5 $2 { [%eval -4.75] } 20... Nxh5 { [%eval -5.09] } 21. Be3 $2
+{ [%eval -7.15] } 21... Nc4 { [%eval -6.99] } 22. Rde1 $4 { [%eval -11.51] }
+22... Nxb2 $4 { [%eval -5.0] } 23. Ng4 { [%eval -4.99] } 23... Nc4
+{ [%eval -4.73] } 24. Re2 $4 { [%eval -8.13] } 24... Qb7 $2 { [%eval -5.81] }
+25. Nf2 $4 { [%eval -9.47] } 25... Ng3 { [%eval -9.22] } 0-1

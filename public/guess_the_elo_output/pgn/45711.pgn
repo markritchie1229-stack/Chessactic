@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LmLNr3Fx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marcvto"]
+[Black "pieta"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:56:10"]
+[WhiteElo "1768"]
+[BlackElo "1754"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "A52"]
+[Opening "Budapest Defense: Adler Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... Nf6 { [%eval 0.21] } 2. c4 { [%eval 0.2] } 2... e5
+{ [%eval 0.53] } 3. dxe5 { [%eval 0.43] } 3... Ng4 { [%eval 0.49] } 4. Nf3
+{ [%eval 0.2] } 4... Nc6 { [%eval 0.63] } 5. e3 { [%eval 0.21] } 5... Bb4+
+{ [%eval 0.29] } 6. Bd2 { [%eval 0.19] } 6... Bxd2+ { [%eval 0.2] } 7. Nbxd2
+{ [%eval 0.23] } 7... Ngxe5 { [%eval 0.18] } 8. Be2 { [%eval 0.05] } 8... d6
+{ [%eval 0.0] } 9. O-O { [%eval 0.02] } 9... Be6 { [%eval 0.37] } 10. b3
+{ [%eval 0.22] } 10... Qf6 { [%eval 0.56] } 11. Rc1 { [%eval 0.16] } 11... b6
+$6 { [%eval 0.86] } 12. Ne4 { [%eval 0.85] } 12... Qg6 { [%eval 1.16] } 13. Ng3
+$6 { [%eval 0.43] } 13... Rd8 { [%eval 0.79] } 14. h3 { [%eval 0.39] } 14...
+O-O { [%eval 0.64] } 15. a4 $6 { [%eval -0.11] } 15... a5 { [%eval 0.05] } 16.
+Rc3 { [%eval -0.39] } 16... Nxf3+ { [%eval -0.11] } 17. Bxf3 { [%eval -0.17] }
+17... Ne5 { [%eval 0.0] } 18. Be4 { [%eval 0.0] } 18... Qf6 { [%eval 0.0] } 19.
+Qc2 { [%eval 0.0] } 19... h6 $6 { [%eval 0.6] } 20. Bf5 $6 { [%eval -0.32] }
+20... Bxf5 { [%eval 0.0] } 21. Nxf5 { [%eval -0.11] } 21... Qg6 $4
+{ [%eval 7.15] } 22. Ne7+ { [%eval 7.3] } 1-0

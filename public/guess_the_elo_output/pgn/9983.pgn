@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qdb1s2DG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rigoyaso"]
+[Black "DonJames"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:55:57"]
+[WhiteElo "1301"]
+[BlackElo "1303"]
+[WhiteRatingDiff "+20"]
+[BlackRatingDiff "-12"]
+[ECO "C22"]
+[Opening "Center Game: Paulsen Attack Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.25] } 2. d4 { [%eval -0.12] } 2...
+exd4 { [%eval -0.14] } 3. Qxd4 { [%eval -0.39] } 3... Nc6 { [%eval 0.07] } 4.
+Qe3 { [%eval 0.0] } 4... Nb4 { [%eval 0.16] } 5. Qb3 { [%eval 0.06] } 5... Nf6
+{ [%eval 0.0] } 6. e5 $6 { [%eval -0.56] } 6... Ng4 { [%eval -0.39] } 7. e6 $6
+{ [%eval -1.38] } 7... dxe6 { [%eval -1.36] } 8. f3 { [%eval -1.51] } 8... Ne5
+{ [%eval -1.44] } 9. f4 $6 { [%eval -2.02] } 9... Ng4 { [%eval -1.95] } 10. Nf3
+{ [%eval -2.08] } 10... Ne3 $4 { [%eval 2.84] } 11. f5 $4 { [%eval -8.93] }
+11... Nbxc2+ $4 { [%eval -5.9] } 12. Ke2 $2 { [%eval -6.97] } 12... Nxa1 $2
+{ [%eval -4.09] } 13. Qxe3 { [%eval -4.14] } 13... Nc2 { [%eval -4.11] } 14.
+Qb3 $2 { [%eval -5.14] } 14... Nd4+ { [%eval -5.0] } 15. Nxd4 { [%eval -5.1] }
+15... Qxd4 { [%eval -5.21] } 16. Be3 { [%eval -5.2] } 16... Qg4+
+{ [%eval -4.92] } 17. Ke1 { [%eval -5.07] } 17... exf5 { [%eval -4.59] } 18.
+Qd5 $6 { [%eval -5.39] } 18... Qb4+ { [%eval -5.43] } 19. Bd2 { [%eval -5.56] }
+19... Qxb2 $4 { [%eval -2.03] } 20. Bc4 $4 { [%eval -8.72] } 20... Qxb1+
+{ [%eval -8.53] } 21. Kf2 { [%eval -8.38] } 21... Qxh1 $4 { [%eval #3] } 22.
+Qxf7+ { [%eval #2] } 22... Kd8 { [%eval #2] } 23. Bg5+ { [%eval #1] } 23... Be7
+{ [%eval #1] } 24. Qxe7# 1-0

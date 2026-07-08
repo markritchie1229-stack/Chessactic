@@ -1,0 +1,34 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/kYmO8gSt"]
+[Site "https://lichess.org/VqQuN8Ee"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Klabautermann"]
+[Black "DoctorPablocious"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:19:22"]
+[WhiteElo "1230"]
+[BlackElo "2013"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Sicilian Invitation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 { [%eval 0.17] } 1... c5 { [%eval 0.4] } 2. g3 { [%eval 0.03] } 2... Nf6
+{ [%eval 0.06] } 3. Bg2 { [%eval -0.11] } 3... g6 { [%eval 0.38] } 4. d4
+{ [%eval 0.02] } 4... Bg7 { [%eval 0.19] } 5. dxc5 { [%eval 0.2] } 5... d5 $6
+{ [%eval 1.06] } 6. c6 $2 { [%eval -0.81] } 6... O-O $6 { [%eval 0.02] } 7.
+cxb7 { [%eval 0.0] } 7... Bxb7 { [%eval 0.0] } 8. O-O { [%eval 0.0] } 8... Na6
+{ [%eval 0.29] } 9. Bg5 { [%eval -0.14] } 9... Rc8 { [%eval 0.12] } 10. Bxf6 $6
+{ [%eval -0.41] } 10... Bxf6 { [%eval -0.36] } 11. Qd4 $4 { [%eval -8.68] }
+11... Bxd4 { [%eval -8.53] } 12. Nxd4 { [%eval -8.45] } 12... e5
+{ [%eval -8.35] } 13. Nb5 { [%eval -8.61] } 13... Nc5 $6 { [%eval -7.98] } 14.
+Nxa7 { [%eval -8.15] } 14... Ra8 { [%eval -8.07] } 15. Nb5 { [%eval -8.01] }
+15... Qa5 $2 { [%eval -6.79] } 16. Nd6 $6 { [%eval -7.37] } 16... Ne4 $2
+{ [%eval -6.31] } 17. Nxe4 { [%eval -6.61] } 17... dxe4 { [%eval -6.76] } 18.
+Bxe4 $4 { [%eval -11.29] } 18... Bxe4 { [%eval -11.21] } 19. Nc3
+{ [%eval -11.19] } 19... Bxc2 { [%eval -10.89] } 20. Ne4 { [%eval -16.49] }
+20... Bxe4 { [%eval -16.24] } 21. Rac1 { [%eval -17.52] } 21... Bf5
+{ [%eval -17.02] } 0-1

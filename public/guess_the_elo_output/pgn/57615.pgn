@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/oBjjY6A0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tomtomchess"]
+[Black "herichess"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:22:45"]
+[WhiteElo "1582"]
+[BlackElo "1926"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+4"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.41] } 2. Nc3 { [%eval 0.1] } 2... c6
+$2 { [%eval 1.16] } 3. a3 $6 { [%eval 0.39] } 3... d5 { [%eval 0.36] } 4. Qh5
+$2 { [%eval -0.85] } 4... Qd6 $2 { [%eval 0.35] } 5. exd5 { [%eval 0.24] } 5...
+cxd5 $6 { [%eval 1.03] } 6. Bb5+ $2 { [%eval 0.0] } 6... Nc6 { [%eval 0.0] } 7.
+b4 $2 { [%eval -1.38] } 7... Nf6 { [%eval -1.37] } 8. Qf3 { [%eval -1.56] }
+8... Be7 { [%eval -1.28] } 9. Bb2 $6 { [%eval -2.2] } 9... O-O
+{ [%eval -2.19] } 10. O-O-O $2 { [%eval -4.47] } 10... a5 { [%eval -4.34] } 11.
+Bxc6 { [%eval -4.45] } 11... bxc6 { [%eval -4.28] } 12. b5 { [%eval -4.58] }
+12... Bd7 $6 { [%eval -3.99] } 13. a4 $2 { [%eval -5.35] } 13... d4
+{ [%eval -5.09] } 14. Ne4 { [%eval -5.3] } 14... Nxe4 { [%eval -5.12] } 15.
+Qxe4 { [%eval -4.95] } 15... cxb5 { [%eval -5.0] } 16. Nf3 { [%eval -5.16] }
+16... f6 { [%eval -4.64] } 17. g4 $4 { [%eval -7.97] } 17... Bc6
+{ [%eval -7.62] } 18. Qe2 $2 { [%eval -8.88] } 18... bxa4 { [%eval -8.62] } 19.
+h4 $2 { [%eval -13.93] } 19... a3 { [%eval -13.36] } 20. Ba1 { [%eval -19.63] }
+20... Rab8 { [%eval -18.41] } 21. Qc4+ { [%eval -20.38] } 21... Bd5
+{ [%eval -19.85] } 22. Qa4 $6 { [%eval #-19] } 22... Bxf3 $6 { [%eval -16.62] }
+23. g5 { [%eval -19.67] } 23... Bxh1 { [%eval -18.82] } 24. Rxh1
+{ [%eval -19.63] } 0-1

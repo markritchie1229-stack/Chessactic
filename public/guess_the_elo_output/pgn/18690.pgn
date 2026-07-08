@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WuDIoj3U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jrricotto"]
+[Black "garbarek"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:25:44"]
+[WhiteElo "1536"]
+[BlackElo "1652"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-16"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense"]
+[TimeControl "480+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... c6 { [%eval 0.33] } 2. d4 { [%eval 0.4] } 2... d5
+{ [%eval 0.42] } 3. e5 { [%eval 0.34] } 3... c5 { [%eval 0.18] } 4. c3
+{ [%eval 0.2] } 4... cxd4 { [%eval 0.37] } 5. cxd4 { [%eval 0.3] } 5... Nc6
+{ [%eval 0.36] } 6. Bb5 { [%eval 0.31] } 6... a6 { [%eval 0.46] } 7. Ba4
+{ [%eval 0.01] } 7... b5 { [%eval 0.15] } 8. Bb3 { [%eval 0.06] } 8... Bf5
+{ [%eval 0.08] } 9. Nc3 { [%eval 0.0] } 9... e6 { [%eval 0.0] } 10. Nf3
+{ [%eval 0.0] } 10... h6 { [%eval 0.0] } 11. O-O { [%eval -0.05] } 11... f6 $2
+{ [%eval 2.01] } 12. exf6 $2 { [%eval 0.86] } 12... Nxf6 { [%eval 1.03] } 13.
+Re1 { [%eval 0.65] } 13... Bd6 $6 { [%eval 1.27] } 14. Nh4 { [%eval 1.37] }
+14... Bh7 $2 { [%eval 3.62] } 15. Rxe6+ { [%eval 3.58] } 15... Kf7 $6
+{ [%eval 4.25] } 16. Qe2 $4 { [%eval -0.73] } 16... Re8 $2 { [%eval 1.62] } 17.
+Rxe8 { [%eval 1.5] } 17... Nxe8 $4 { [%eval 6.04] } 18. Bxd5+ { [%eval 5.99] }
+18... Kf8 { [%eval 6.03] } 19. Qf3+ { [%eval 5.94] } 19... Nf6 { [%eval 6.34] }
+20. Bxc6 { [%eval 6.19] } 20... Qe7 $2 { [%eval 8.4] } 21. Bf4 $2
+{ [%eval 6.13] } 21... Rc8 $4 { [%eval 10.89] } 22. Bxd6 $4 { [%eval 6.41] }
+22... Qxd6 { [%eval 6.01] } 23. Bd5 { [%eval 5.95] } 23... Qc7 $4
+{ [%eval 8.95] } 24. h3 $2 { [%eval 7.2] } 24... b4 { [%eval 7.62] } 25. Ne4 $6
+{ [%eval 6.96] } 25... Bxe4 $2 { [%eval 9.71] } 26. Bxe4 { [%eval 9.65] } 26...
+Kg8 { [%eval 9.71] } 27. Bf5 { [%eval 9.41] } 27... Rf8 $6 { [%eval 21.95] }
+28. Be6+ { [%eval 19.74] } 28... Kh8 $6 { [%eval #8] } 29. Ng6+ { [%eval #7] }
+1-0

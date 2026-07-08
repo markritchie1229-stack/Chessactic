@@ -1,0 +1,37 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/FLclpmxk"]
+[Site "https://lichess.org/4Ad4bNNX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NoBanPlease"]
+[Black "TheKingsHead"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:03:07"]
+[WhiteElo "2003"]
+[BlackElo "1673"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-2"]
+[ECO "C44"]
+[Opening "Scotch Game: Scotch Gambit, Dubois Reti Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.36] } 2. d4 $6 { [%eval -0.19] } 2...
+exd4 { [%eval -0.03] } 3. Nf3 { [%eval -0.08] } 3... Nc6 { [%eval 0.14] } 4.
+Bc4 { [%eval 0.02] } 4... Nf6 { [%eval -0.09] } 5. Bg5 $6 { [%eval -0.75] }
+5... Be7 { [%eval -0.72] } 6. Nbd2 { [%eval -0.94] } 6... h6 { [%eval -0.74] }
+7. Bxf6 { [%eval -0.76] } 7... Bxf6 { [%eval -0.8] } 8. Qe2 $6
+{ [%eval -1.35] } 8... Qe7 $6 { [%eval -0.81] } 9. O-O-O { [%eval -0.86] } 9...
+O-O { [%eval -0.68] } 10. Rde1 $6 { [%eval -1.27] } 10... Re8 { [%eval -1.37] }
+11. g4 { [%eval -1.19] } 11... d6 { [%eval -1.21] } 12. g5 $2 { [%eval -2.41] }
+12... Bxg5 $6 { [%eval -1.68] } 13. Nxg5 { [%eval -1.77] } 13... Qxg5 $6
+{ [%eval -1.14] } 14. Reg1 $2 { [%eval -2.4] } 14... Qf4 { [%eval -2.23] } 15.
+f3 { [%eval -2.34] } 15... Be6 { [%eval -2.09] } 16. Bxe6 { [%eval -2.13] }
+16... Rxe6 { [%eval -2.04] } 17. Rg4 { [%eval -2.02] } 17... Qf6
+{ [%eval -1.68] } 18. Rhg1 { [%eval -2.01] } 18... g6 { [%eval -1.93] } 19. h4
+$6 { [%eval -2.66] } 19... h5 { [%eval -2.22] } 20. Rg5 { [%eval -2.24] } 20...
+Kh7 $6 { [%eval -1.45] } 21. f4 $2 { [%eval -2.74] } 21... Qxf4
+{ [%eval -2.54] } 22. Kb1 $2 { [%eval -3.54] } 22... Qxh4 $2 { [%eval -2.5] }
+23. Nf3 { [%eval -2.52] } 23... Qf4 { [%eval -2.1] } 24. Qg2 { [%eval -2.15] }
+24... Qxe4 $4 { [%eval 0.96] } 25. Rxh5+ { [%eval 0.85] } 25... gxh5 $4
+{ [%eval #1] } 26. Qg7# 1-0

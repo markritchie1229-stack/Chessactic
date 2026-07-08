@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/O1p2uoXF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "knighttymez"]
+[Black "Alex008"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:54:04"]
+[WhiteElo "1420"]
+[BlackElo "1394"]
+[WhiteRatingDiff "-40"]
+[BlackRatingDiff "+40"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Tortoise Opening"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.38] } 1... e5 { [%eval 0.46] } 2. Bd3 $6 { [%eval -0.27] }
+2... Qf6 $6 { [%eval 0.56] } 3. b3 $6 { [%eval -0.01] } 3... Bc5
+{ [%eval 0.02] } 4. Qe2 { [%eval -0.44] } 4... Ne7 { [%eval -0.34] } 5. Nc3
+{ [%eval -0.45] } 5... d6 { [%eval -0.42] } 6. Bb2 { [%eval -0.59] } 6... Rf8
+$2 { [%eval 0.47] } 7. Na4 { [%eval 0.01] } 7... Bd7 { [%eval 0.07] } 8. Nxc5
+{ [%eval 0.05] } 8... dxc5 { [%eval 0.18] } 9. Qh5 { [%eval -0.02] } 9... h6 $2
+{ [%eval 2.22] } 10. Bxe5 { [%eval 2.17] } 10... Bg4 $6 { [%eval 2.85] } 11.
+Qxg4 $2 { [%eval 1.16] } 11... Qxe5 { [%eval 1.1] } 12. Rb1 { [%eval 0.97] }
+12... Nbc6 { [%eval 1.04] } 13. Bb5 $6 { [%eval 0.31] } 13... a6 $6
+{ [%eval 1.16] } 14. Bxc6+ { [%eval 1.1] } 14... Nxc6 { [%eval 1.06] } 15. d3
+$2 { [%eval -0.43] } 15... Qc3+ { [%eval -0.22] } 16. Kd1 { [%eval -0.27] }
+16... Nd4 $2 { [%eval 0.82] } 17. Ne2 $4 { [%eval -13.81] } 17... Qxc2+
+{ [%eval -13.7] } 18. Ke1 { [%eval -13.58] } 18... Qxb1+ { [%eval -12.89] } 19.
+Kd2 { [%eval -13.66] } 19... Qxh1 { [%eval -13.55] } 20. Nxd4
+{ [%eval -13.52] } 20... cxd4 { [%eval -13.31] } 0-1

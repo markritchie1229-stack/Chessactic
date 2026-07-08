@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5tUT4YBh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "raimundo-freire"]
+[Black "newtnewt"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:54:35"]
+[WhiteElo "1749"]
+[BlackElo "1616"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "300+6"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.27] } 2. Qh5 $6 { [%eval -0.25] }
+2... Nc6 { [%eval -0.08] } 3. Bc4 { [%eval -0.18] } 3... Qf6 { [%eval 0.0] } 4.
+Nc3 { [%eval -0.11] } 4... g6 $6 { [%eval 0.59] } 5. Qf3 $6 { [%eval -0.16] }
+5... Qxf3 $6 { [%eval 0.7] } 6. Nxf3 { [%eval 0.68] } 6... Bd6 $6
+{ [%eval 1.28] } 7. d3 $6 { [%eval 0.72] } 7... h6 $6 { [%eval 1.35] } 8. h3 $6
+{ [%eval 0.62] } 8... Na5 { [%eval 0.86] } 9. Bb3 { [%eval 0.62] } 9... Nxb3
+{ [%eval 0.86] } 10. axb3 { [%eval 0.94] } 10... f6 { [%eval 1.28] } 11. O-O
+{ [%eval 1.02] } 11... Bc5 $6 { [%eval 1.7] } 12. Nd5 { [%eval 1.58] } 12...
+Bb6 $2 { [%eval 2.75] } 13. b4 $2 { [%eval 1.43] } 13... Ne7 $6
+{ [%eval 2.15] } 14. Nxf6+ { [%eval 2.13] } 14... Kf7 { [%eval 2.18] } 15. Ng4
+{ [%eval 2.06] } 15... d6 { [%eval 2.16] } 16. Nxh6+ { [%eval 2.15] } 16... Kg7
+{ [%eval 2.15] } 17. Ng4 { [%eval 2.14] } 17... Bd7 { [%eval 2.29] } 18. Ne3
+{ [%eval 2.06] } 18... Rh5 { [%eval 2.29] } 19. Nc4 { [%eval 2.21] } 19... Rah8
+{ [%eval 2.52] } 20. Nxb6 { [%eval 2.44] } 20... axb6 { [%eval 2.45] } 21. Ng5
+{ [%eval 2.32] } 21... Kf6 $2 { [%eval 4.78] } 22. f4 { [%eval 4.69] } 22...
+exf4 { [%eval 4.48] } 23. Rxf4+ { [%eval 4.02] } 23... Kg7 $4 { [%eval 14.99] }
+24. Rf7+ { [%eval 13.87] } 24... Kh6 { [%eval 13.32] } 1-0

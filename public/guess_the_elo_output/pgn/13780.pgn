@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/HBb8eNyN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kanito72"]
+[Black "brayanGM"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:02:37"]
+[WhiteElo "1938"]
+[BlackElo "1634"]
+[WhiteRatingDiff "-93"]
+[BlackRatingDiff "+19"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Delayed Alapin Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.26] } 2... e6
+{ [%eval 0.32] } 3. c3 { [%eval 0.29] } 3... d5 { [%eval 0.31] } 4. exd5
+{ [%eval 0.28] } 4... exd5 { [%eval 0.34] } 5. d4 { [%eval 0.32] } 5... Nf6
+{ [%eval 0.22] } 6. Bg5 { [%eval -0.11] } 6... Nc6 { [%eval 0.1] } 7. Bb5
+{ [%eval 0.05] } 7... h6 { [%eval 0.06] } 8. Bh4 { [%eval 0.0] } 8... Be7
+{ [%eval 0.0] } 9. Nbd2 { [%eval -0.27] } 9... O-O { [%eval 0.0] } 10. O-O
+{ [%eval -0.33] } 10... cxd4 { [%eval -0.36] } 11. cxd4 { [%eval -0.23] } 11...
+Qb6 { [%eval -0.17] } 12. a4 $6 { [%eval -0.81] } 12... Nxd4 { [%eval -0.72] }
+13. Nxd4 { [%eval -0.89] } 13... Qxd4 { [%eval -0.74] } 14. Nb3 $4
+{ [%eval -5.54] } 14... Qxh4 { [%eval -5.58] } 15. Re1 $2 { [%eval -8.47] }
+15... Bd6 $2 { [%eval -5.83] } 16. g3 { [%eval -5.87] } 16... Qh3 $6
+{ [%eval -5.21] } 17. Bf1 { [%eval -5.2] } 17... Qg4 { [%eval -5.19] } 18. Qxg4
+{ [%eval -5.64] } 18... Bxg4 { [%eval -5.43] } 19. Nd4 { [%eval -5.69] } 19...
+Rfe8 { [%eval -5.65] } 20. f3 { [%eval -5.9] } 20... Bd7 { [%eval -5.9] } 21.
+f4 $4 { [%eval -10.46] } 21... Bc5 { [%eval -10.31] } 22. Rad1
+{ [%eval -11.27] } 22... Rxe1 { [%eval -10.86] } 0-1

@@ -1,0 +1,32 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FjbjkY7Q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "valera1977"]
+[Black "ReyJulian"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:19:03"]
+[WhiteElo "2039"]
+[BlackElo "2046"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B07"]
+[Opening "Pirc Defense: Byrne Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... d6 { [%eval 0.47] } 2. d4 { [%eval 0.46] } 2... Nf6
+{ [%eval 0.45] } 3. Nc3 { [%eval 0.45] } 3... g6 { [%eval 0.53] } 4. Bg5
+{ [%eval 0.44] } 4... Bg7 { [%eval 0.52] } 5. Qd2 { [%eval 0.47] } 5... h6
+{ [%eval 0.51] } 6. Be3 { [%eval 0.24] } 6... Ng4 { [%eval 0.22] } 7. Bf4
+{ [%eval 0.21] } 7... Nd7 { [%eval 0.63] } 8. f3 { [%eval 0.31] } 8... Ngf6
+{ [%eval 0.72] } 9. Bc4 { [%eval 0.41] } 9... g5 $6 { [%eval 1.0] } 10. Be3
+{ [%eval 1.04] } 10... c6 { [%eval 1.03] } 11. h4 { [%eval 0.83] } 11... b5
+{ [%eval 1.06] } 12. Bd3 { [%eval 0.69] } 12... g4 { [%eval 0.75] } 13. O-O-O
+{ [%eval 0.56] } 13... b4 $6 { [%eval 1.06] } 14. Nce2 { [%eval 0.78] } 14...
+Qa5 { [%eval 0.8] } 15. Kb1 { [%eval 0.54] } 15... c5 { [%eval 0.83] } 16. Bc4
+$2 { [%eval -1.72] } 16... Nb6 { [%eval -1.58] } 17. Bb3 { [%eval -1.75] }
+17... c4 { [%eval -1.56] } 18. a3 $2 { [%eval -2.83] } 18... cxb3
+{ [%eval -2.77] } 19. axb4 $4 { [%eval #-2] } 19... Qa2+ { [%eval #-1] } 20.
+Kc1 { [%eval #-1] } 20... Qa1# 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/bwX2nNXi"]
+[Site "https://lichess.org/cFGbruzm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "truwa"]
+[Black "Lerov"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:06:48"]
+[WhiteElo "1910"]
+[BlackElo "1426"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-2"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.21] } 1... f6 $6 { [%eval 0.51] } 2. e4 { [%eval 0.63] } 2...
+Kf7 $6 { [%eval 1.61] } 3. f3 $6 { [%eval 0.66] } 3... g6 { [%eval 1.07] } 4.
+Ne2 { [%eval 0.97] } 4... Bg7 { [%eval 1.05] } 5. Nbc3 { [%eval 1.15] } 5... e5
+{ [%eval 1.28] } 6. Bd2 $6 { [%eval 0.39] } 6... d6 $6 { [%eval 0.91] } 7. Qc1
+$6 { [%eval 0.17] } 7... Be6 $6 { [%eval 0.82] } 8. Nd1 $6 { [%eval 0.04] }
+8... Ne7 { [%eval 0.29] } 9. Nf2 { [%eval -0.02] } 9... f5 { [%eval 0.45] } 10.
+Ng3 $6 { [%eval -0.18] } 10... f4 $6 { [%eval 0.33] } 11. Ne2 { [%eval 0.15] }
+11... g5 { [%eval 0.56] } 12. g3 { [%eval 0.18] } 12... fxg3 $2
+{ [%eval 1.59] } 13. hxg3 { [%eval 1.69] } 13... h5 $2 { [%eval 2.97] } 14. f4
+$2 { [%eval 1.54] } 14... h4 $2 { [%eval 3.66] } 15. fxe5 $2 { [%eval 1.16] }
+15... Bxe5 $2 { [%eval 2.21] } 16. Bxg5 $2 { [%eval 1.0] } 16... Ng6 $4
+{ [%eval 11.5] } 17. gxh4 $4 { [%eval 2.32] } 17... Qd7 $4 { [%eval 6.15] } 18.
+h5 { [%eval 6.08] } 18... Nf4 $2 { [%eval 8.57] } 19. Nxf4 { [%eval 8.57] }
+19... Bxf4 $2 { [%eval 9.7] } 20. Bxf4 $2 { [%eval 7.76] } 20... Ke7 $2
+{ [%eval 9.81] } 21. Bg5+ { [%eval 9.51] } 21... Kf7 { [%eval 10.37] } 22. Qf4+
+$6 { [%eval 9.02] } 22... Kg7 $2 { [%eval #10] } 23. Qf6+ { [%eval #11] } 23...
+Kh7 { [%eval #1] } 24. Qg6# 1-0

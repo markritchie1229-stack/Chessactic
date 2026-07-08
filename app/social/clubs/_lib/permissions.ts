@@ -86,6 +86,10 @@ export function canDisbandClub(rank: ClubRank) {
   return rank === "leader";
 }
 
+export function canChangeJoinPolicy(rank: ClubRank) {
+  return rank === "leader" || rank === "co_leader";
+}
+
 /* NEW */
 
 export function canReviewJoinRequests(rank: ClubRank) {

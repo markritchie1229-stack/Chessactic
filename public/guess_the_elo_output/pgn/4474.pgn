@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QmN5GT5I"]
+[Date "????.??.??"]
+[Round "?"]
+[White "alixen2016"]
+[Black "yyssff"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "05:52:07"]
+[WhiteElo "1770"]
+[BlackElo "1754"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B06"]
+[Opening "Modern Defense: Standard Line"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... g6 { [%eval 0.61] } 2. d4 { [%eval 0.57] } 2... Bg7
+{ [%eval 0.66] } 3. Nc3 { [%eval 0.68] } 3... e6 { [%eval 0.78] } 4. Be3
+{ [%eval 0.6] } 4... Ne7 { [%eval 0.6] } 5. Nf3 { [%eval 0.52] } 5... O-O
+{ [%eval 0.98] } 6. Qd2 { [%eval 0.54] } 6... b6 { [%eval 0.9] } 7. Bh6
+{ [%eval 0.75] } 7... Bb7 $6 { [%eval 1.35] } 8. Be2 $6 { [%eval 0.62] } 8...
+d5 { [%eval 0.63] } 9. Bxg7 { [%eval 0.36] } 9... Kxg7 { [%eval 0.33] } 10. e5
+{ [%eval 0.3] } 10... Nf5 { [%eval 0.6] } 11. Bd3 $6 { [%eval 0.07] } 11... c5
+$6 { [%eval 0.77] } 12. Bxf5 { [%eval 0.63] } 12... exf5 { [%eval 1.08] } 13.
+Nb5 { [%eval 0.8] } 13... cxd4 { [%eval 1.17] } 14. Nd6 { [%eval 1.03] } 14...
+Qd7 { [%eval 1.17] } 15. Qxd4 { [%eval 1.06] } 15... Kg8 $6 { [%eval 1.57] }
+16. Rd1 { [%eval 1.11] } 16... Nc6 { [%eval 1.22] } 17. Qxd5 { [%eval 1.05] }
+17... Rab8 $6 { [%eval 1.66] } 18. O-O { [%eval 1.47] } 18... Nb4 $2
+{ [%eval 2.57] } 19. Qb3 $6 { [%eval 1.79] } 19... Bxf3 { [%eval 1.89] } 20.
+Qxf3 { [%eval 1.95] } 20... Nxc2 $2 { [%eval 4.06] } 21. Qb3 { [%eval 3.91] }
+21... Qc6 $2 { [%eval 6.7] } 22. Rd2 $2 { [%eval 3.78] } 22... Rbc8 $4
+{ [%eval 7.83] } 23. Nxc8 { [%eval 7.61] } 23... Rxc8 $6 { [%eval 8.11] } 24.
+Rc1 { [%eval 7.86] } 24... Qe4 { [%eval 8.04] } 25. e6 { [%eval 7.82] } 25...
+fxe6 { [%eval 8.29] } 26. Rdxc2 { [%eval 8.02] } 26... Rxc2 $6 { [%eval 8.59] }
+27. Qxc2 { [%eval 8.22] } 27... Qd5 $2 { [%eval 14.06] } 28. Qc8+
+{ [%eval 13.64] } 28... Kf7 { [%eval 19.45] } 29. h4 { [%eval 15.77] } 29...
+Qxa2 $6 { [%eval #2] } 30. Rc7+ { [%eval #1] } 30... Kf6 { [%eval #1] } 31.
+Qh8# 1-0

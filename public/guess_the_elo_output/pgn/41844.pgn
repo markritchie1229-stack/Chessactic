@@ -1,0 +1,37 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/MUHKrcAS"]
+[Site "https://lichess.org/CMT5TwWY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dovg"]
+[Black "pestenstid"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:15:46"]
+[WhiteElo "1548"]
+[BlackElo "2250"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-27"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.21] } 1... c6 { [%eval 0.54] } 2. Nf3 { [%eval 0.39] } 2... d5
+{ [%eval 0.33] } 3. exd5 { [%eval 0.28] } 3... cxd5 { [%eval 0.32] } 4. d4
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.28] } 5. Nc3 { [%eval 0.03] } 5... g6
+{ [%eval 0.31] } 6. Bg5 { [%eval 0.08] } 6... Bg7 { [%eval 0.09] } 7. Qd2
+{ [%eval -0.05] } 7... Nc6 { [%eval 0.19] } 8. Bh6 { [%eval -0.23] } 8... Bxh6
+$6 { [%eval 0.39] } 9. Qxh6 { [%eval 0.25] } 9... Bf5 { [%eval 0.72] } 10. Qd2
+$2 { [%eval -0.52] } 10... Ne4 { [%eval -0.44] } 11. Nxe4 { [%eval -0.53] }
+11... dxe4 { [%eval -0.5] } 12. Ne5 { [%eval -0.62] } 12... Qxd4 $6
+{ [%eval 0.0] } 13. Qxd4 { [%eval -0.1] } 13... Nxd4 { [%eval -0.14] } 14.
+O-O-O { [%eval -0.18] } 14... O-O-O $2 { [%eval 2.43] } 15. Bc4 $4
+{ [%eval -0.69] } 15... Be6 { [%eval -0.76] } 16. Bxe6+ { [%eval -0.77] } 16...
+Nxe6 { [%eval -0.69] } 17. Nxf7 { [%eval -0.75] } 17... Rxd1+ { [%eval -0.71] }
+18. Rxd1 { [%eval -0.84] } 18... Rf8 { [%eval -0.7] } 19. Ne5 { [%eval -0.76] }
+19... Rxf2 { [%eval -0.73] } 20. h3 $2 { [%eval -2.31] } 20... Rxg2
+{ [%eval -2.25] } 21. Nf7 $6 { [%eval -3.02] } 21... Nf4 $2 { [%eval -1.51] }
+22. Ne5 $2 { [%eval -3.62] } 22... Ne2+ $6 { [%eval -2.98] } 23. Kb1
+{ [%eval -3.44] } 23... Nf4 { [%eval -3.25] } 24. Rf1 $6 { [%eval -4.06] }
+24... Ne6 $2 { [%eval -2.86] } 25. Nc4 { [%eval -3.27] } 25... Nd4
+{ [%eval -3.09] } 26. Rf8+ $6 { [%eval -3.96] } 1-0

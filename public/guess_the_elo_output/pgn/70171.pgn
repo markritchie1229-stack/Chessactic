@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/wFrVIbRY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Natiqh"]
+[Black "joffrey3"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:22:47"]
+[WhiteElo "1118"]
+[BlackElo "873"]
+[WhiteRatingDiff "-27"]
+[BlackRatingDiff "+184"]
+[ECO "C41"]
+[Opening "Philidor Defense: Nimzowitsch Variation, Klein Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.13] } 1... e5 { [%eval 0.16] } 2. Nf3 { [%eval 0.25] } 2...
+Nf6 { [%eval 0.45] } 3. Bc4 $6 { [%eval -0.22] } 3... d6 { [%eval 0.25] } 4. d4
+{ [%eval 0.16] } 4... exd4 { [%eval 0.2] } 5. Nxd4 { [%eval 0.0] } 5... c5
+{ [%eval 0.33] } 6. Nc3 $2 { [%eval -2.24] } 6... cxd4 { [%eval -2.17] } 7. e5
+$4 { [%eval -5.25] } 7... dxe5 { [%eval -5.11] } 8. Nb5 $6 { [%eval -6.06] }
+8... a6 { [%eval -6.07] } 9. Nxd4 $2 { [%eval -7.49] } 9... exd4
+{ [%eval -7.38] } 10. Bg5 $6 { [%eval -8.02] } 10... h6 { [%eval -7.53] } 11.
+Bxf6 { [%eval -8.02] } 11... gxf6 $2 { [%eval -6.29] } 12. Qe2+ $2
+{ [%eval -7.45] } 12... Be7 $6 { [%eval -6.61] } 13. O-O $6 { [%eval -7.23] }
+13... Bf5 { [%eval -7.07] } 14. Rfe1 { [%eval -7.34] } 14... Bxc2 $4
+{ [%eval -2.89] } 15. Qh5 $4 { [%eval -8.24] } 15... Nc6 $2 { [%eval -6.04] }
+16. Qxf7+ { [%eval -6.1] } 16... Kd7 { [%eval -6.08] } 17. Qe6+ $2
+{ [%eval -7.87] } 17... Kc7 { [%eval -7.72] } 18. Rac1 { [%eval -7.51] } 18...
+Ne5 $4 { [%eval -3.26] } 19. Rxc2 { [%eval -3.26] } 19... Nxc4 $4
+{ [%eval 1.44] } 20. Rxc4+ { [%eval 1.36] } 20... Kb8 { [%eval 1.27] } 21. Re4
+$4 { [%eval -2.39] } 21... Qc8 $4 { [%eval 7.79] } 22. Rexd4 $4
+{ [%eval -16.13] } 22... Qxc4 $4 { [%eval 4.43] } 0-1

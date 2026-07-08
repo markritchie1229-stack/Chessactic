@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/BEc2Twnm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mcalishter"]
+[Black "Icecold_2015"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:45:35"]
+[WhiteElo "1820"]
+[BlackElo "2132"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+3"]
+[ECO "A00"]
+[Opening "Polish Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.5] } 1... Nf6 { [%eval -0.33] } 2. Bb2 { [%eval -0.43] }
+2... e6 { [%eval -0.34] } 3. a3 { [%eval -0.38] } 3... d5 { [%eval -0.11] } 4.
+e3 { [%eval -0.13] } 4... b6 { [%eval 0.05] } 5. Nf3 { [%eval -0.14] } 5... Bb7
+{ [%eval 0.0] } 6. Be2 { [%eval -0.07] } 6... Be7 { [%eval -0.08] } 7. O-O
+{ [%eval -0.07] } 7... Nbd7 { [%eval -0.08] } 8. d4 { [%eval -0.04] } 8... c5
+{ [%eval -0.1] } 9. c3 { [%eval -0.37] } 9... Rc8 { [%eval 0.0] } 10. Nbd2
+{ [%eval -0.28] } 10... O-O { [%eval 0.0] } 11. Rc1 $6 { [%eval -0.56] } 11...
+Ne4 $6 { [%eval -0.04] } 12. Nxe4 { [%eval -0.01] } 12... dxe4 { [%eval 0.0] }
+13. Nd2 { [%eval -0.08] } 13... f5 { [%eval 0.4] } 14. Qb3 { [%eval 0.43] }
+14... Bd5 { [%eval 0.27] } 15. c4 { [%eval 0.21] } 15... Bb7 { [%eval 0.32] }
+16. dxc5 { [%eval 0.28] } 16... bxc5 { [%eval 0.43] } 17. b5 { [%eval 0.41] }
+17... Bf6 { [%eval 0.48] } 18. Rfd1 { [%eval 0.22] } 18... Qe7 { [%eval 0.64] }
+19. Nf1 { [%eval 0.28] } 19... Bxb2 { [%eval 0.39] } 20. Qxb2 { [%eval 0.34] }
+20... Qf6 $6 { [%eval 0.86] } 21. a4 $4 { [%eval -11.93] } 21... Qxb2
+{ [%eval -11.63] } 0-1

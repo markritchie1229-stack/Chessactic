@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hMJ1y9fs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Balandos2006"]
+[Black "Zogar1"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:57:22"]
+[WhiteElo "1238"]
+[BlackElo "1247"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-13"]
+[ECO "C57"]
+[Opening "Italian Game: Two Knights Defense, Knight Attack, Normal Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.19] } 2. Nf3 { [%eval 0.16] } 2...
+Nc6 { [%eval 0.38] } 3. Bc4 { [%eval 0.4] } 3... Nf6 { [%eval 0.18] } 4. Ng5
+{ [%eval 0.36] } 4... d5 { [%eval 0.31] } 5. Bb3 $2 { [%eval -1.14] } 5... Nxe4
+{ [%eval -1.05] } 6. Nxe4 { [%eval -1.21] } 6... dxe4 { [%eval -1.09] } 7. Qh5
+{ [%eval -1.21] } 7... Qf6 { [%eval -1.06] } 8. Bxf7+ $4 { [%eval -4.54] } 8...
+Ke7 $4 { [%eval 0.24] } 9. Bb3 { [%eval 0.02] } 9... Kd8 $6 { [%eval 0.76] }
+10. d3 { [%eval 0.89] } 10... exd3 $4 { [%eval 7.07] } 11. Bg5 { [%eval 7.06] }
+11... Qxg5 $2 { [%eval 9.29] } 12. Qxg5+ { [%eval 9.15] } 12... Be7
+{ [%eval 9.18] } 13. Qxg7 { [%eval 8.92] } 13... Rf8 $6 { [%eval 9.47] } 14.
+Qxh7 $2 { [%eval 8.02] } 14... e4 $2 { [%eval 9.87] } 15. O-O { [%eval 9.77] }
+15... Rf6 { [%eval 11.54] } 16. Qh8+ { [%eval 10.5] } 16... Kd7
+{ [%eval 13.71] } 17. Nc3 { [%eval 13.16] } 17... d2 { [%eval 17.63] } 18. Nxe4
+{ [%eval 15.74] } 18... Re6 { [%eval 21.37] } 19. Qh3 { [%eval 16.89] } 19...
+Kd8 { [%eval 26.81] } 20. Bxe6 { [%eval 26.48] } 20... Bxe6 { [%eval 26.14] }
+21. Qxe6 { [%eval 25.08] } 21... d1=Q $6 { [%eval #4] } 22. Raxd1+
+{ [%eval #3] } 22... Ke8 { [%eval #2] } 23. Qg8+ $6 { [%eval #3] } 23... Bf8
+{ [%eval #3] } 24. Nf6+ $6 { [%eval #4] } 24... Ke7 { [%eval #4] } 25. Qg6 $6
+{ [%eval #4] } 25... Nb4 { [%eval #1] } 26. Rfe1# 1-0

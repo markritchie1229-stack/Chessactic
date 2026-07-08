@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sedcX0Dm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "forcro"]
+[Black "Knackiteur"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:30:47"]
+[WhiteElo "1660"]
+[BlackElo "1562"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+23"]
+[ECO "C46"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "240+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.22] } 2...
+Nc6 { [%eval 0.22] } 3. Bc4 { [%eval 0.25] } 3... Nf6 { [%eval 0.18] } 4. Nc3
+{ [%eval -0.09] } 4... Nxe4 { [%eval -0.08] } 5. Nxe4 { [%eval -0.03] } 5... d5
+{ [%eval -0.12] } 6. Bxd5 $6 { [%eval -0.74] } 6... Qxd5 { [%eval -0.67] } 7.
+d3 { [%eval -1.0] } 7... Be6 { [%eval -0.57] } 8. O-O { [%eval -0.68] } 8...
+Be7 { [%eval -0.69] } 9. Be3 { [%eval -0.77] } 9... O-O-O { [%eval -0.83] } 10.
+h3 { [%eval -1.0] } 10... h6 { [%eval -0.72] } 11. Qe2 { [%eval -0.82] } 11...
+Kb8 { [%eval -0.5] } 12. Rfd1 { [%eval -0.6] } 12... Bf5 { [%eval -0.54] } 13.
+Nc3 { [%eval -0.59] } 13... Qe6 { [%eval -0.62] } 14. a4 $6 { [%eval -1.45] }
+14... Rhe8 { [%eval -1.37] } 15. Rdb1 { [%eval -1.4] } 15... Bg6
+{ [%eval -1.4] } 16. b4 { [%eval -1.83] } 16... Bxb4 { [%eval -1.66] } 17. Nb5
+$6 { [%eval -2.27] } 17... Qe7 { [%eval -2.14] } 18. c3 { [%eval -2.42] } 18...
+Ba5 { [%eval -2.45] } 19. d4 $6 { [%eval -3.37] } 19... Bxb1 { [%eval -3.24] }
+20. Rxb1 { [%eval -3.33] } 20... a6 { [%eval -3.0] } 21. Nxc7 $4
+{ [%eval -6.33] } 21... Qxc7 { [%eval -6.1] } 22. Nxe5 $6 { [%eval -6.85] }
+22... Nxe5 { [%eval -6.57] } 23. dxe5 { [%eval -7.03] } 23... Rxe5
+{ [%eval -6.91] } 24. Qf3 { [%eval -6.87] } 24... g5 { [%eval -6.67] } 25. Bd4
+$6 { [%eval -7.26] } 25... Re6 { [%eval -7.06] } 26. Qg4 $2 { [%eval -9.24] }
+26... Bxc3 { [%eval -8.95] } 27. Bxc3 { [%eval -9.17] } 27... Qxc3
+{ [%eval -8.94] } 28. Qg3+ $2 { [%eval -10.97] } 28... Qxg3 { [%eval -10.36] }
+29. f3 $6 { [%eval #-3] } 0-1

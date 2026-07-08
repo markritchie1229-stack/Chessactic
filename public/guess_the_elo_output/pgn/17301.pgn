@@ -1,0 +1,33 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/SBc2XC4j"]
+[Site "https://lichess.org/gyK7UHjB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DrunkWhale"]
+[Black "Kropos"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:29:28"]
+[WhiteElo "1547"]
+[BlackElo "1527"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "B41"]
+[Opening "Sicilian Defense: Kan Variation, Maroczy Bind, Reti Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.25] } 2. c4 { [%eval 0.14] } 2... e6
+{ [%eval 0.21] } 3. Nf3 { [%eval 0.2] } 3... a6 { [%eval 0.54] } 4. d4
+{ [%eval 0.34] } 4... cxd4 { [%eval 0.38] } 5. Nxd4 { [%eval 0.16] } 5... b6
+{ [%eval 0.59] } 6. Be2 { [%eval 0.2] } 6... Bb4+ { [%eval 0.65] } 7. Bd2
+{ [%eval 0.83] } 7... a5 $6 { [%eval 1.64] } 8. a3 $6 { [%eval 1.04] } 8...
+Bxd2+ { [%eval 1.11] } 9. Qxd2 { [%eval 1.28] } 9... Nf6 { [%eval 1.5] } 10.
+Qg5 $6 { [%eval 0.83] } 10... O-O { [%eval 1.01] } 11. Bd3 $2 { [%eval -0.29] }
+11... e5 $2 { [%eval 0.88] } 12. Nf5 { [%eval 0.62] } 12... g6 { [%eval 0.63] }
+13. Nh6+ { [%eval 0.29] } 13... Kg7 { [%eval 0.37] } 14. Nf5+ { [%eval 0.33] }
+14... Kh8 { [%eval 0.21] } 15. h4 $4 { [%eval -4.07] } 15... gxf5
+{ [%eval -3.93] } 16. exf5 { [%eval -4.07] } 16... Rg8 { [%eval -3.9] } 17. Qe3
+{ [%eval -3.98] } 17... Bb7 { [%eval -3.91] } 18. f3 $6 { [%eval -4.9] } 18...
+Rxg2 { [%eval -4.5] } 19. Nc3 { [%eval -4.62] } 19... Rxb2 $2 { [%eval -2.41] }
+20. Qg5 { [%eval -2.33] } 20... Nc6 $6 { [%eval -1.36] } 21. Rg1
+{ [%eval -1.45] } 21... Nd4 $4 { [%eval #1] } 22. Qg7# 1-0

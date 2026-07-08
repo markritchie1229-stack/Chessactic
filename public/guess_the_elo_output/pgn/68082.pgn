@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/IHB9bupq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "karanlik"]
+[Black "Imdim"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:41:59"]
+[WhiteElo "1254"]
+[BlackElo "1256"]
+[WhiteRatingDiff "+35"]
+[BlackRatingDiff "-12"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... e6 { [%eval 0.36] } 2. e3 { [%eval 0.09] } 2... d5
+{ [%eval 0.19] } 3. c3 { [%eval -0.02] } 3... c5 { [%eval -0.01] } 4. Bb5+
+{ [%eval -0.08] } 4... Bd7 { [%eval -0.06] } 5. Bxd7+ { [%eval -0.27] } 5...
+Nxd7 { [%eval -0.27] } 6. dxc5 { [%eval -0.74] } 6... Nxc5 { [%eval -0.58] } 7.
+b4 { [%eval -0.72] } 7... Na6 $6 { [%eval -0.2] } 8. Qa4+ { [%eval -0.02] }
+8... Qd7 { [%eval -0.05] } 9. Qxd7+ { [%eval -0.12] } 9... Kxd7
+{ [%eval -0.06] } 10. b5 $6 { [%eval -0.76] } 10... Nc7 { [%eval -0.54] } 11.
+a4 { [%eval -0.47] } 11... a6 { [%eval -0.45] } 12. b6 { [%eval -0.58] } 12...
+Ne8 { [%eval -0.49] } 13. Ba3 $6 { [%eval -1.27] } 13... Bxa3 { [%eval -1.12] }
+14. Nxa3 { [%eval -1.45] } 14... Kc6 $2 { [%eval -0.14] } 15. a5
+{ [%eval -0.17] } 15... h5 { [%eval 0.3] } 16. c4 { [%eval 0.18] } 16... Ngf6
+$6 { [%eval 0.7] } 17. f3 $6 { [%eval 0.0] } 17... g5 { [%eval 0.46] } 18.
+cxd5+ { [%eval 0.48] } 18... Nxd5 { [%eval 0.63] } 19. Rc1+ $6 { [%eval 0.0] }
+19... Kd6 { [%eval 0.0] } 20. Nc4+ { [%eval 0.0] } 20... Ke7 { [%eval 0.0] }
+21. e4 $6 { [%eval -0.7] } 21... Nf4 { [%eval -0.26] } 22. Kf1 $6
+{ [%eval -0.79] } 22... Rc8 { [%eval -0.66] } 23. Ne2 { [%eval -0.72] } 23...
+Nd3 { [%eval -0.7] } 24. Rc3 { [%eval -0.97] } 24... Rd8 $6 { [%eval -0.1] }
+25. Nc1 { [%eval -0.24] } 25... Nf4 { [%eval 0.2] } 26. Kf2 { [%eval 0.1] }
+26... Rd1 $4 { [%eval 10.12] } 27. Rxd1 { [%eval 9.75] } 27... Rg8
+{ [%eval 10.79] } 28. Ne5 { [%eval 10.26] } 28... f6 $6 { [%eval #2] } 29. Rd7+
+{ [%eval #1] } 29... Kf8 { [%eval #1] } 30. Rf7# 1-0

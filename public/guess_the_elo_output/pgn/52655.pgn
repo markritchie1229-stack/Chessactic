@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/sK4NzQ10"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AteBitHavoc"]
+[Black "magic11play"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:55:24"]
+[WhiteElo "1592"]
+[BlackElo "1625"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.33] } 1... e5 { [%eval 0.66] } 2. c3 $6 { [%eval -0.06] } 2...
+exd4 { [%eval 0.1] } 3. cxd4 { [%eval 0.07] } 3... d5 { [%eval 0.1] } 4. Bf4
+{ [%eval 0.04] } 4... Nc6 { [%eval 0.19] } 5. e3 { [%eval 0.19] } 5... Nf6
+{ [%eval 0.3] } 6. Nf3 { [%eval 0.03] } 6... Bd6 { [%eval 0.22] } 7. Bxd6
+{ [%eval 0.16] } 7... Qxd6 { [%eval 0.19] } 8. Bd3 { [%eval -0.12] } 8... O-O
+{ [%eval 0.18] } 9. O-O { [%eval 0.33] } 9... Be6 { [%eval 0.35] } 10. Nc3
+{ [%eval 0.3] } 10... Ne7 { [%eval 0.43] } 11. Re1 { [%eval 0.12] } 11... Bf5
+{ [%eval 0.12] } 12. e4 { [%eval 0.0] } 12... dxe4 { [%eval -0.01] } 13. Nxe4
+{ [%eval -0.03] } 13... Nxe4 { [%eval -0.03] } 14. Bxe4 { [%eval -0.04] } 14...
+Bxe4 { [%eval 0.0] } 15. Rxe4 { [%eval 0.0] } 15... Ng6 { [%eval 0.0] } 16. Rg4
+{ [%eval -0.39] } 16... Rfe8 { [%eval -0.3] } 17. Qd3 { [%eval -0.53] } 17...
+Rad8 { [%eval -0.31] } 18. Rg3 $2 { [%eval -2.72] } 18... c5 $2
+{ [%eval -1.61] } 19. h4 $2 { [%eval -2.62] } 19... cxd4 $2 { [%eval -1.59] }
+20. h5 $4 { [%eval -4.7] } 20... Ne5 $4 { [%eval -1.13] } 21. Nxe5
+{ [%eval -1.6] } 21... Qxe5 $6 { [%eval -0.94] } 22. h6 { [%eval -0.89] } 22...
+g6 { [%eval -0.76] } 23. Rd1 { [%eval -0.91] } 23... f5 $6 { [%eval 0.0] } 24.
+Qb3+ { [%eval 0.0] } 24... Qd5 { [%eval -0.14] } 25. Qxb7 $4 { [%eval -17.08] }
+25... Qxb7 { [%eval -15.37] } 26. Rgd3 { [%eval -17.83] } 26... Qb5
+{ [%eval -14.72] } 27. Rxd4 $6 { [%eval #-7] } 27... Rxd4 { [%eval #-6] } 28.
+Rxd4 { [%eval #-6] } 28... Qxb2 { [%eval #-22] } 29. Rd7 { [%eval #-6] } 29...
+Qc1+ { [%eval #-5] } 30. Kh2 { [%eval #-5] } 30... Qxh6+ { [%eval #-4] } 31.
+Kg1 { [%eval #-1] } 31... Re1# 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cvsp4lh6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stradivari"]
+[Black "batugonullu"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:51:42"]
+[WhiteElo "1127"]
+[BlackElo "1074"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+48"]
+[ECO "B18"]
+[Opening "Caro-Kann Defense: Classical Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.07] } 1... c6 { [%eval 0.32] } 2. e4 { [%eval 0.34] } 2... d5
+{ [%eval 0.6] } 3. Nc3 { [%eval 0.31] } 3... dxe4 { [%eval 0.35] } 4. Nxe4
+{ [%eval 0.34] } 4... Bf5 { [%eval 0.33] } 5. Nc3 { [%eval 0.12] } 5... e6
+{ [%eval 0.11] } 6. Nf3 { [%eval 0.1] } 6... Bd6 { [%eval 0.11] } 7. h3
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.08] } 8. Bg5 { [%eval -0.22] } 8... Nbd7
+{ [%eval -0.25] } 9. Bc4 { [%eval -0.39] } 9... O-O { [%eval -0.34] } 10. Bxf6
+{ [%eval -0.45] } 10... Nxf6 { [%eval -0.35] } 11. O-O { [%eval -0.58] } 11...
+Ne4 $6 { [%eval 0.09] } 12. Nxe4 { [%eval 0.0] } 12... Bxe4 { [%eval 0.13] }
+13. Ne5 $2 { [%eval -0.97] } 13... Bxe5 { [%eval -0.88] } 14. dxe5
+{ [%eval -0.91] } 14... Qxd1 $6 { [%eval -0.2] } 15. Raxd1 { [%eval -0.33] }
+15... Bxc2 { [%eval -0.47] } 16. Rd2 { [%eval -0.74] } 16... Ba4 $6
+{ [%eval -0.09] } 17. b3 { [%eval -0.25] } 17... Bb5 { [%eval -0.24] } 18. Bxb5
+{ [%eval -0.19] } 18... cxb5 { [%eval -0.24] } 19. Rd7 { [%eval -0.3] } 19...
+b6 { [%eval -0.26] } 20. Rd6 $6 { [%eval -0.84] } 20... Rfb8 { [%eval -0.56] }
+21. a4 { [%eval -0.96] } 21... bxa4 { [%eval -0.86] } 22. bxa4
+{ [%eval -0.72] } 22... b5 { [%eval -0.86] } 23. axb5 { [%eval -0.97] } 23...
+Rxb5 { [%eval -0.91] } 24. Ra1 $6 { [%eval -1.52] } 24... a5 { [%eval -1.43] }
+25. Rxa5 $4 { [%eval -7.85] } 25... Rbxa5 { [%eval -7.6] } 26. f4 $6
+{ [%eval -8.47] } 26... Ra1+ { [%eval -8.23] } 27. Kh2 { [%eval -8.32] } 27...
+f6 $2 { [%eval -6.03] } 0-1

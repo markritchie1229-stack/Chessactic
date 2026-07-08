@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/FJmsqWk8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tlcunha"]
+[Black "Yamato_Fuji"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:33:11"]
+[WhiteElo "1859"]
+[BlackElo "1433"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-2"]
+[ECO "A00"]
+[Opening "Mieses Opening: Reversed Rat"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.15] } 1... e5 { [%eval -0.07] } 2. Nf3 { [%eval -0.01] } 2...
+Nc6 { [%eval 0.0] } 3. c4 { [%eval -0.2] } 3... d5 { [%eval 0.04] } 4. cxd5
+{ [%eval -0.05] } 4... Qxd5 { [%eval 0.07] } 5. e4 { [%eval 0.12] } 5... Qc5
+{ [%eval 0.49] } 6. Nc3 { [%eval 0.26] } 6... Be6 { [%eval 0.25] } 7. Ng5
+{ [%eval 0.08] } 7... Nd4 { [%eval 0.29] } 8. Nxe6 { [%eval 0.21] } 8... fxe6
+{ [%eval 0.3] } 9. Bg5 { [%eval 0.07] } 9... Be7 { [%eval 0.07] } 10. Qa4+ $2
+{ [%eval -1.27] } 10... c6 $2 { [%eval -0.18] } 11. Bxe7 { [%eval -0.59] }
+11... Nxe7 { [%eval -0.5] } 12. O-O-O $6 { [%eval -1.42] } 12... O-O-O $6
+{ [%eval -0.46] } 13. f3 { [%eval -0.89] } 13... b5 { [%eval -0.79] } 14. Qa6+
+{ [%eval -0.99] } 14... Kb8 { [%eval -0.8] } 15. Kd2 $2 { [%eval -2.18] } 15...
+Nc8 { [%eval -1.37] } 16. Rc1 $6 { [%eval -2.17] } 16... Nb6 { [%eval -1.92] }
+17. h4 { [%eval -2.1] } 17... Ka8 $2 { [%eval -0.57] } 18. b3 $2
+{ [%eval -1.74] } 18... Rb8 $2 { [%eval -0.48] } 19. Ne2 $2 { [%eval -1.97] }
+19... Qb4+ { [%eval -1.63] } 20. Ke3 $2 { [%eval -2.69] } 20... Nc4+ $2
+{ [%eval -1.38] } 21. bxc4 $2 { [%eval -4.1] } 21... Rb6 { [%eval -3.84] } 22.
+a3 { [%eval -4.27] } 22... Qb2 $4 { [%eval -0.07] } 23. Qa5 { [%eval -1.29] }
+23... Nc2+ $4 { [%eval 3.5] } 24. Kf2 { [%eval 3.37] } 24... Nxa3
+{ [%eval 3.64] } 25. cxb5 { [%eval 3.18] } 25... Nc2 $2 { [%eval 4.29] } 26.
+Qd2 { [%eval 4.37] } 26... Rxb5 $4 { [%eval 9.1] } 27. Rxc2 { [%eval 8.86] }
+27... Qd4+ $2 { [%eval 21.13] } 28. Nxd4 { [%eval 20.03] } 1-0

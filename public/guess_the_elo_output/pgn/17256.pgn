@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fg299Mqb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Stressemann"]
+[Black "sgu00dir"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:27:38"]
+[WhiteElo "1316"]
+[BlackElo "1318"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+73"]
+[ECO "C54"]
+[Opening "Italian Game: Giuoco Piano, Greco's Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.41] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.39] } 3. Bc4 { [%eval 0.22] } 3... Bc5 { [%eval 0.33] } 4. c3
+{ [%eval 0.16] } 4... Nf6 { [%eval 0.23] } 5. d4 { [%eval 0.2] } 5... exd4
+{ [%eval 0.17] } 6. cxd4 { [%eval 0.2] } 6... Bb4+ { [%eval 0.1] } 7. Nc3
+{ [%eval -0.01] } 7... O-O $6 { [%eval 0.69] } 8. Bd2 $2 { [%eval -0.98] } 8...
+Nxe4 { [%eval -0.72] } 9. Nxe4 { [%eval -0.81] } 9... Re8 $4 { [%eval 2.38] }
+10. Ng5 $2 { [%eval 0.01] } 10... d5 $6 { [%eval 0.56] } 11. Bxd5 $4
+{ [%eval -3.75] } 11... Qxd5 { [%eval -3.63] } 12. a3 $2 { [%eval -5.05] }
+12... Bxd2+ { [%eval -4.93] } 13. Qxd2 { [%eval -4.96] } 13... f6 $6
+{ [%eval -3.99] } 14. O-O { [%eval -4.16] } 14... fxg5 { [%eval -3.8] } 15.
+Nxg5 $2 { [%eval -5.14] } 15... Nxd4 { [%eval -5.03] } 16. Rae1
+{ [%eval -4.81] } 16... Rxe1 { [%eval -4.6] } 17. Rxe1 { [%eval -4.7] } 17...
+Bg4 $6 { [%eval -4.13] } 18. f3 $2 { [%eval -5.33] } 18... Bh5 $2
+{ [%eval -4.12] } 19. g4 $4 { [%eval -7.72] } 19... Bg6 { [%eval -7.42] } 20.
+Qf4 $6 { [%eval -8.39] } 20... Rf8 $2 { [%eval -7.31] } 21. Qxc7 $2
+{ [%eval -8.75] } 21... Nxf3+ $2 { [%eval -5.77] } 22. Nxf3 { [%eval -5.77] }
+22... Qxf3 { [%eval -5.45] } 23. Qxb7 $4 { [%eval #-7] } 0-1

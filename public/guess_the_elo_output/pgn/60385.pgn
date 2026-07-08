@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3zDqHNqC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "scottie-ferguson"]
+[Black "Benny16"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:35:53"]
+[WhiteElo "1623"]
+[BlackElo "1420"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-73"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.33] } 2... d5
+$6 { [%eval 0.83] } 3. exd5 { [%eval 0.81] } 3... c6 { [%eval 1.23] } 4. dxc6
+$6 { [%eval 0.71] } 4... bxc6 $2 { [%eval 2.42] } 5. Nxe5 $6 { [%eval 1.79] }
+5... Qd5 $6 { [%eval 2.66] } 6. Qe2 $6 { [%eval 2.13] } 6... Bf5 $2
+{ [%eval 5.08] } 7. d3 $2 { [%eval 2.33] } 7... a5 $2 { [%eval 5.15] } 8. Nf3+
+$2 { [%eval 2.52] } 8... Kd8 $6 { [%eval 3.34] } 9. Qe5 $6 { [%eval 2.47] }
+9... Qxe5+ { [%eval 2.45] } 10. Nxe5 { [%eval 2.45] } 10... Ra6 $4
+{ [%eval 7.26] } 11. Nxf7+ { [%eval 7.17] } 11... Ke7 $6 { [%eval 8.04] } 12.
+Nxh8 { [%eval 7.85] } 12... g5 $6 { [%eval 8.81] } 13. d4 { [%eval 8.67] }
+13... h5 $2 { [%eval 10.94] } 14. Bxa6 { [%eval 10.85] } 14... Nxa6
+{ [%eval 10.47] } 15. O-O $6 { [%eval 9.25] } 15... g4 $6 { [%eval 11.04] } 16.
+Re1+ { [%eval 10.85] } 16... Kd6 { [%eval 13.58] } 17. Bf4+ { [%eval 11.69] }
+17... Kd5 { [%eval 21.39] } 18. Re5+ { [%eval 20.83] } 18... Kc4 $6
+{ [%eval #5] } 19. Rxf5 $6 { [%eval #5] } 19... Bb4 { [%eval #5] } 20. b3+
+{ [%eval #4] } 20... Kxd4 { [%eval #4] } 21. Be3+ $6 { [%eval 21.85] } 21...
+Ke4 { [%eval 21.1] } 22. Rf4+ { [%eval 17.21] } 22... Ke5 { [%eval 18.7] } 23.
+c3 { [%eval 18.21] } 23... Bxc3 { [%eval 26.51] } 24. Nxc3 { [%eval 24.59] }
+24... Nb4 { [%eval 25.67] } 25. Re1 { [%eval 24.27] } 25... Nf6 $6
+{ [%eval #5] } 26. Bd4+ { [%eval #4] } 26... Kd6 { [%eval #4] } 27. Rxf6+
+{ [%eval #3] } 27... Kd7 { [%eval #3] } 28. Rf7+ { [%eval #2] } 28... Kd6
+{ [%eval #2] } 29. Be5+ $6 { [%eval #3] } 29... Kc5 { [%eval #3] } 30. Na4+
+{ [%eval #2] } 30... Kb5 { [%eval #2] } 31. Rb7+ { [%eval #1] } 31... Ka6
+{ [%eval #1] } 32. Nc5# 1-0

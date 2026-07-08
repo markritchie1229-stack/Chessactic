@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/R78Xgh6E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KaruneshS"]
+[Black "KhuongDuy"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:43:58"]
+[WhiteElo "1860"]
+[BlackElo "1801"]
+[WhiteRatingDiff "+70"]
+[BlackRatingDiff "-79"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf, Lipnitsky Attack"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.27] } 2... d6
+{ [%eval 0.23] } 3. d4 { [%eval 0.15] } 3... cxd4 { [%eval 0.25] } 4. Nxd4
+{ [%eval 0.25] } 4... Nf6 { [%eval 0.29] } 5. Nc3 { [%eval 0.13] } 5... a6
+{ [%eval 0.33] } 6. Bc4 { [%eval 0.17] } 6... e6 { [%eval 0.08] } 7. Be3
+{ [%eval 0.09] } 7... Be7 { [%eval 0.18] } 8. O-O { [%eval 0.03] } 8... O-O
+{ [%eval 0.06] } 9. Bb3 { [%eval 0.06] } 9... Bd7 { [%eval 0.35] } 10. g4
+{ [%eval 0.31] } 10... Nc6 { [%eval 0.44] } 11. g5 { [%eval 0.28] } 11... Ne8
+{ [%eval 0.39] } 12. f4 { [%eval 0.26] } 12... e5 { [%eval 0.42] } 13. Nxc6
+{ [%eval 0.4] } 13... bxc6 { [%eval 0.44] } 14. h4 { [%eval 0.41] } 14... exf4
+{ [%eval 0.38] } 15. Rxf4 { [%eval 0.33] } 15... Nc7 { [%eval 0.41] } 16. Qe2
+{ [%eval 0.19] } 16... Ne6 { [%eval 0.59] } 17. Rf3 { [%eval 0.54] } 17... Nxg5
+$2 { [%eval 1.77] } 18. hxg5 { [%eval 1.69] } 18... Bxg5 $6 { [%eval 2.63] }
+19. Raf1 { [%eval 2.51] } 19... Bg4 { [%eval 2.62] } 20. Rxf7 { [%eval 2.39] }
+20... Bxe2 $4 { [%eval #1] } 21. Rxf8# 1-0

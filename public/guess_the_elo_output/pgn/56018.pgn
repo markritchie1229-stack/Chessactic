@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/mpLz5wje"]
+[Date "????.??.??"]
+[Round "?"]
+[White "iiMysticalGrace"]
+[Black "tranfunzel"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:56:08"]
+[WhiteElo "1111"]
+[BlackElo "1334"]
+[WhiteRatingDiff "-38"]
+[BlackRatingDiff "+5"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e3 { [%eval 0.16] } 1... d5 { [%eval 0.19] } 2. c3 { [%eval -0.21] } 2...
+Nc6 { [%eval 0.05] } 3. a3 { [%eval -0.2] } 3... e5 { [%eval -0.23] } 4. g3 $6
+{ [%eval -1.04] } 4... e4 $6 { [%eval -0.47] } 5. c4 $6 { [%eval -1.3] } 5...
+dxc4 { [%eval -1.25] } 6. a4 $2 { [%eval -2.42] } 6... c3 $2 { [%eval -0.87] }
+7. bxc3 { [%eval -1.27] } 7... Bf5 { [%eval -1.2] } 8. c4 $6 { [%eval -1.73] }
+8... Nb4 { [%eval -1.67] } 9. Ra2 $4 { [%eval -6.41] } 9... Nxa2
+{ [%eval -6.35] } 10. Bb2 { [%eval -6.68] } 10... Nb4 { [%eval -6.69] } 11.
+Bxg7 $4 { [%eval -10.25] } 11... Bxg7 { [%eval -10.05] } 12. g4
+{ [%eval -10.57] } 12... Bc3 $4 { [%eval -4.89] } 13. gxf5 $2 { [%eval -5.92] }
+13... Bxd2+ $4 { [%eval -2.8] } 14. Ke2 $4 { [%eval #-1] } 14... Bc3 $4
+{ [%eval -2.55] } 15. Nxc3 $6 { [%eval -3.09] } 15... Nf6 $6 { [%eval -2.39] }
+16. Qxd8+ { [%eval -2.18] } 16... Rxd8 { [%eval -2.17] } 17. c5 $4
+{ [%eval -5.91] } 17... c6 $2 { [%eval -3.79] } 18. f4 $4 { [%eval -7.73] }
+18... Nfd5 $4 { [%eval -1.97] } 19. Nxd5 $2 { [%eval -4.57] } 19... Rxd5
+{ [%eval -4.38] } 20. a5 $2 { [%eval -6.14] } 20... f6 $2 { [%eval -4.46] } 21.
+a6 $2 { [%eval -6.2] } 21... bxa6 $2 { [%eval -4.57] } 22. h4 $4
+{ [%eval -7.62] } 22... Nc2 $4 { [%eval -3.19] } 23. Kf2 $2 { [%eval -5.84] }
+23... Rd3 $4 { [%eval -0.3] } 24. Bxd3 { [%eval -0.3] } 24... exd3
+{ [%eval -0.25] } 25. Kf3 $2 { [%eval -2.26] } 25... Ke7 $2 { [%eval -0.86] }
+0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DlQCSpaK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SamFF"]
+[Black "tsuceara1"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:29:05"]
+[WhiteElo "1809"]
+[BlackElo "1799"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.29] } 2... d6
+{ [%eval 0.33] } 3. d4 { [%eval 0.35] } 3... cxd4 { [%eval 0.25] } 4. Nxd4
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.35] } 5. Nc3 { [%eval 0.4] } 5... a6
+{ [%eval 0.27] } 6. Be3 { [%eval 0.14] } 6... g6 { [%eval 0.56] } 7. f3
+{ [%eval 0.5] } 7... Bg7 { [%eval 0.59] } 8. Qd2 { [%eval 0.7] } 8... e5 $6
+{ [%eval 1.37] } 9. Nb3 { [%eval 1.35] } 9... Nc6 { [%eval 1.42] } 10. g4
+{ [%eval 0.95] } 10... O-O { [%eval 0.91] } 11. h4 { [%eval 0.86] } 11... h5
+{ [%eval 0.88] } 12. gxh5 { [%eval 0.97] } 12... Nxh5 { [%eval 1.06] } 13. Qg2
+$6 { [%eval 0.27] } 13... Nf4 { [%eval 0.65] } 14. Bxf4 $6 { [%eval -0.09] }
+14... exf4 { [%eval -0.26] } 15. O-O-O { [%eval -0.07] } 15... Bh6 $2
+{ [%eval 1.27] } 16. Nd5 { [%eval 1.2] } 16... Be6 { [%eval 1.17] } 17. Bc4
+{ [%eval 0.68] } 17... Bxd5 $6 { [%eval 1.54] } 18. Bxd5 { [%eval 1.31] } 18...
+Rb8 $4 { [%eval #4] } 19. Bxc6 $4 { [%eval 1.48] } 19... bxc6 { [%eval 1.74] }
+20. h5 { [%eval 1.55] } 20... Qf6 $2 { [%eval 3.56] } 21. hxg6 { [%eval 3.22] }
+21... Qxg6 $4 { [%eval 6.64] } 22. Qxg6+ { [%eval 6.44] } 22... fxg6
+{ [%eval 6.58] } 23. Rxh6 { [%eval 6.47] } 23... Kg7 { [%eval 6.42] } 24. Rh4
+{ [%eval 6.26] } 24... g5 $6 { [%eval 7.04] } 25. Rg4 { [%eval 7.06] } 25...
+Kg6 { [%eval 7.12] } 26. Rdg1 { [%eval 6.92] } 1-0

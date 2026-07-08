@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2T0e3ZxE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GhadiAzour1"]
+[Black "azhar_ali"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:51:23"]
+[WhiteElo "1480"]
+[BlackElo "1507"]
+[WhiteRatingDiff "+43"]
+[BlackRatingDiff "-11"]
+[ECO "D31"]
+[Opening "Queen's Gambit Declined: Queen's Knight Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.29] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.26] } 2... e6
+{ [%eval 0.25] } 3. Nc3 { [%eval 0.28] } 3... dxc4 { [%eval 0.45] } 4. e3
+{ [%eval -0.03] } 4... a6 { [%eval -0.01] } 5. Bxc4 { [%eval 0.04] } 5... Nf6
+{ [%eval 0.06] } 6. Nf3 { [%eval 0.03] } 6... Nc6 $6 { [%eval 0.81] } 7. O-O
+{ [%eval 0.82] } 7... Bb4 { [%eval 0.97] } 8. a3 { [%eval 0.79] } 8... Ba5
+{ [%eval 1.2] } 9. e4 $6 { [%eval 0.43] } 9... Bxc3 { [%eval 0.44] } 10. bxc3
+{ [%eval 0.42] } 10... Nxe4 { [%eval 0.53] } 11. Qd3 { [%eval 0.35] } 11... Nf6
+{ [%eval 0.53] } 12. Bg5 { [%eval 0.29] } 12... O-O { [%eval 0.44] } 13. Bb3
+{ [%eval 0.33] } 13... e5 { [%eval 0.55] } 14. Bc2 $6 { [%eval -0.37] } 14...
+e4 { [%eval -0.24] } 15. Bxf6 { [%eval -0.31] } 15... exd3 { [%eval -0.33] }
+16. Bxd8 { [%eval -0.29] } 16... dxc2 { [%eval -0.35] } 17. Bxc7
+{ [%eval -0.35] } 17... Bf5 { [%eval -0.38] } 18. d5 { [%eval -0.39] } 18...
+Ne7 { [%eval -0.37] } 19. Bd6 $6 { [%eval -1.2] } 19... Rfe8 $6
+{ [%eval -0.45] } 20. Bxe7 { [%eval -0.43] } 20... Rxe7 { [%eval -0.28] } 21.
+d6 { [%eval -0.49] } 21... Rd7 { [%eval -0.47] } 22. Nd4 { [%eval -0.42] }
+22... Bg6 { [%eval -0.42] } 23. Rac1 { [%eval -0.5] } 23... Rc8
+{ [%eval -0.52] } 24. Nxc2 { [%eval -0.56] } 24... Rxc3 $6 { [%eval 0.0] } 25.
+Ne3 { [%eval 0.0] } 25... Rxc1 { [%eval 0.0] } 26. Rxc1 { [%eval -0.05] } 26...
+h6 { [%eval 0.1] } 27. Rc8+ { [%eval -0.22] } 27... Kh7 { [%eval -0.18] } 28.
+Nc4 $2 { [%eval -1.19] } 28... Bd3 $2 { [%eval 0.0] } 29. Ne5 { [%eval -0.11] }
+29... Rxd6 { [%eval -0.05] } 30. Nxf7 { [%eval -0.06] } 30... Re6
+{ [%eval 0.0] } 31. h4 { [%eval -0.08] } 31... Bg6 $4 { [%eval #1] } 32. Rh8#
+1-0

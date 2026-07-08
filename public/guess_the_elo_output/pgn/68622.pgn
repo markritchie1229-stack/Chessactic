@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/GGFCUkiR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rcso"]
+[Black "klln"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:06:38"]
+[WhiteElo "2039"]
+[BlackElo "1633"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+21"]
+[ECO "E77"]
+[Opening "King's Indian Defense: Six Pawns Attack"]
+[TimeControl "180+10"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.19] } 2. c4 { [%eval 0.23] } 2... g6
+{ [%eval 0.45] } 3. Nc3 { [%eval 0.51] } 3... Bg7 { [%eval 0.59] } 4. e4
+{ [%eval 0.54] } 4... d6 { [%eval 0.55] } 5. Be3 { [%eval 0.37] } 5... O-O
+{ [%eval 0.39] } 6. h3 { [%eval 0.32] } 6... e5 { [%eval 0.38] } 7. d5
+{ [%eval 0.43] } 7... Na6 { [%eval 0.4] } 8. g4 { [%eval 0.19] } 8... Nc5
+{ [%eval 0.41] } 9. f3 { [%eval 0.25] } 9... Nfd7 { [%eval 0.52] } 10. h4
+{ [%eval 0.17] } 10... c6 $6 { [%eval 1.14] } 11. g5 $6 { [%eval 0.55] } 11...
+a5 $6 { [%eval 1.18] } 12. h5 { [%eval 1.21] } 12... f5 $2 { [%eval 2.72] } 13.
+hxg6 $6 { [%eval 2.15] } 13... hxg6 { [%eval 2.62] } 14. Qc2 $2
+{ [%eval 0.77] } 14... f4 { [%eval 0.85] } 15. Bxc5 $6 { [%eval 0.16] } 15...
+Nxc5 { [%eval 0.24] } 16. Qh2 $6 { [%eval -0.41] } 16... Qxg5 { [%eval -0.19] }
+17. Nh3 $6 { [%eval -0.81] } 17... Qg3+ { [%eval -0.65] } 18. Qxg3
+{ [%eval -0.85] } 18... fxg3 { [%eval -0.41] } 19. Ke2 $2 { [%eval -2.1] }
+19... Bf6 { [%eval -2.29] } 20. Ke3 { [%eval -2.72] } 20... Bh4
+{ [%eval -2.4] } 21. Ne2 $2 { [%eval -3.98] } 21... Kg7 $2 { [%eval -2.76] }
+22. Rg1 $2 { [%eval -4.85] } 22... Bxh3 { [%eval -4.38] } 23. Bxh3
+{ [%eval -4.77] } 23... Bg5+ { [%eval -4.68] } 24. f4 { [%eval -4.3] } 24...
+exf4+ { [%eval -3.91] } 25. Kf3 { [%eval -3.97] } 25... Rae8 { [%eval -3.48] }
+26. Nc3 $2 { [%eval -5.7] } 26... Nd3 { [%eval -5.48] } 27. Be6 $2
+{ [%eval -7.04] } 27... Ne5+ { [%eval -7.04] } 28. Kg2 { [%eval -6.96] } 28...
+Bh4 { [%eval -6.9] } 29. Kh3 $2 { [%eval -9.16] } 29... Rh8 { [%eval -8.68] }
+30. dxc6 $2 { [%eval #-7] } 30... bxc6 $6 { [%eval -10.2] } 31. Bg4 $6
+{ [%eval #-8] } 31... Bf6+ { [%eval #-12] } 0-1

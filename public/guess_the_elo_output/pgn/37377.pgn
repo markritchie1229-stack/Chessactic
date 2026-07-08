@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/J3A3I0XX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hrobotron"]
+[Black "Anti_Fragile"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:12:12"]
+[WhiteElo "1163"]
+[BlackElo "1222"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense #2"]
+[TimeControl "420+7"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c6 { [%eval 0.42] } 2. Nc3 { [%eval 0.45] } 2... e5
+$6 { [%eval 1.13] } 3. Nf3 $6 { [%eval 0.51] } 3... f6 $2 { [%eval 2.0] } 4. d4
+$6 { [%eval 1.08] } 4... exd4 $6 { [%eval 2.0] } 5. Nxd4 { [%eval 1.97] } 5...
+b5 { [%eval 2.16] } 6. Bf4 { [%eval 2.15] } 6... b4 $6 { [%eval 3.03] } 7. Na4
+$6 { [%eval 2.12] } 7... Qa5 { [%eval 2.36] } 8. b3 { [%eval 2.38] } 8... Ne7
+{ [%eval 2.41] } 9. Bc4 $6 { [%eval 1.56] } 9... Ng6 { [%eval 1.75] } 10. Qh5
+$4 { [%eval -10.41] } 10... Qxh5 { [%eval -10.31] } 11. Bc7 { [%eval -11.08] }
+11... Ne5 { [%eval -10.68] } 12. O-O { [%eval -11.75] } 12... Nxc4
+{ [%eval -11.54] } 13. bxc4 { [%eval -11.69] } 13... Na6 { [%eval -10.89] } 14.
+Nb6 { [%eval -16.0] } 14... axb6 { [%eval -15.73] } 15. Nf5 { [%eval -21.34] }
+15... Nxc7 { [%eval -21.1] } 16. Ng3 { [%eval -22.77] } 16... Qc5
+{ [%eval -22.12] } 17. Rae1 { [%eval -23.65] } 17... Qxc4 { [%eval -23.32] }
+18. Re2 { [%eval -23.49] } 18... Qxa2 { [%eval -22.89] } 19. e5
+{ [%eval -23.68] } 19... Ba6 { [%eval -23.53] } 20. c4 { [%eval -23.78] } 20...
+Bxc4 { [%eval -23.2] } 21. Rxa2 { [%eval -22.08] } 21... Bxa2 { [%eval -20.6] }
+22. Re1 { [%eval -21.91] } 22... fxe5 { [%eval -21.24] } 23. Rxe5+
+{ [%eval -27.69] } 23... Be6 { [%eval -24.98] } 24. h3 { [%eval -30.38] } 24...
+b3 { [%eval -27.37] } 25. Re1 $6 { [%eval #-15] } 25... b2 { [%eval -64.22] }
+26. Ne2 $6 { [%eval #-9] } 26... Ra1 { [%eval #-8] } 27. Nc3 { [%eval #-8] }
+27... Rxe1+ { [%eval #-7] } 28. Kh2 { [%eval #-7] } 28... Bd6+ { [%eval #-6] }
+29. g3 { [%eval #-4] } 29... Rf8 $6 { [%eval #-5] } 30. h4 { [%eval #-1] }
+30... Rxf2# 0-1

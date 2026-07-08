@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wB28N8vR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StoneyDreadful"]
+[Black "nailuj"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:11:36"]
+[WhiteElo "1611"]
+[BlackElo "1608"]
+[WhiteRatingDiff "+83"]
+[BlackRatingDiff "-10"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.38] } 2. Nc3 { [%eval 0.15] } 2... f5
+$2 { [%eval 1.37] } 3. d3 $2 { [%eval 0.21] } 3... Nf6 { [%eval 0.7] } 4. Bg5
+$6 { [%eval -0.14] } 4... c6 $6 { [%eval 0.46] } 5. Nf3 { [%eval 0.31] } 5...
+h6 { [%eval 0.47] } 6. Bxf6 { [%eval 0.28] } 6... Qxf6 { [%eval 0.29] } 7. Qd2
+$6 { [%eval -0.37] } 7... b5 $6 { [%eval 0.39] } 8. O-O-O { [%eval 0.02] } 8...
+Bb4 $6 { [%eval 0.81] } 9. a3 $6 { [%eval -0.04] } 9... a5 $2 { [%eval 2.03] }
+10. axb4 { [%eval 1.9] } 10... axb4 { [%eval 1.97] } 11. Nb1 { [%eval 1.94] }
+11... c5 { [%eval 2.42] } 12. exf5 { [%eval 1.91] } 12... d5 $2 { [%eval 3.7] }
+13. Qe3 { [%eval 3.61] } 13... b3 $2 { [%eval 4.67] } 14. Qxe5+ { [%eval 4.3] }
+14... Qxe5 { [%eval 4.27] } 15. Nxe5 { [%eval 4.16] } 15... bxc2
+{ [%eval 4.61] } 16. Kxc2 { [%eval 4.6] } 16... Bxf5 { [%eval 4.46] } 17. g4
+{ [%eval 4.23] } 17... Bh7 { [%eval 4.53] } 18. f4 { [%eval 4.76] } 18... c4 $6
+{ [%eval 5.42] } 19. Bg2 { [%eval 4.98] } 19... O-O $4 { [%eval 10.93] } 20.
+Bxd5+ { [%eval 10.72] } 20... Kh8 { [%eval 10.53] } 21. f5 $4 { [%eval 6.05] }
+1-0

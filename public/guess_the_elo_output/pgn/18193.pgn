@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/G5ModnQm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fyllbo"]
+[Black "profankgs"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:06:11"]
+[WhiteElo "1511"]
+[BlackElo "1504"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+52"]
+[ECO "B07"]
+[Opening "Pirc Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... d6 { [%eval 0.46] } 2. d4 { [%eval 0.51] } 2... Nf6
+{ [%eval 0.5] } 3. Bd3 { [%eval 0.21] } 3... g6 { [%eval 0.5] } 4. c4
+{ [%eval 0.3] } 4... Bg7 { [%eval 0.39] } 5. Nf3 { [%eval 0.24] } 5... O-O
+{ [%eval 0.32] } 6. Nc3 { [%eval 0.39] } 6... c5 { [%eval 0.76] } 7. Ne2 $2
+{ [%eval -0.27] } 7... cxd4 { [%eval -0.3] } 8. Nexd4 { [%eval -0.32] } 8...
+Nc6 { [%eval 0.0] } 9. Be3 $6 { [%eval -0.81] } 9... Re8 $6 { [%eval -0.21] }
+10. O-O { [%eval -0.63] } 10... Ng4 { [%eval -0.52] } 11. Nxc6
+{ [%eval -0.52] } 11... bxc6 { [%eval -0.04] } 12. Bd4 { [%eval -0.1] } 12...
+d5 $6 { [%eval 0.79] } 13. Bxg7 { [%eval 0.81] } 13... Kxg7 { [%eval 0.96] }
+14. cxd5 { [%eval 0.95] } 14... cxd5 { [%eval 1.14] } 15. Ng5 $2
+{ [%eval -0.23] } 15... dxe4 { [%eval 0.06] } 16. Nxe4 { [%eval -0.35] } 16...
+Qb6 { [%eval -0.37] } 17. b3 { [%eval -0.41] } 17... Ne5 { [%eval -0.48] } 18.
+h3 $4 { [%eval -4.53] } 18... Nxd3 $4 { [%eval 0.06] } 19. Qxd3
+{ [%eval 0.03] } 19... Ba6 { [%eval 0.26] } 20. Qc3+ { [%eval 0.2] } 20... f6
+{ [%eval 0.29] } 21. Rfd1 { [%eval -0.04] } 21... Rac8 { [%eval -0.04] } 22.
+Qb2 { [%eval -0.08] } 22... Bb7 { [%eval 0.0] } 23. Nc3 { [%eval -0.2] } 23...
+Qc6 { [%eval 0.08] } 24. Rac1 $4 { [%eval #-1] } 24... Qxg2# 0-1

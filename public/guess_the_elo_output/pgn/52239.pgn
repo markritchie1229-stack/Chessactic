@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/btWc0SnJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "allmax"]
+[Black "shahram53"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:16:24"]
+[WhiteElo "892"]
+[BlackElo "1039"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+10"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.26] } 3. Bc4 { [%eval 0.16] } 3... Bc5 { [%eval 0.26] } 4. O-O
+{ [%eval 0.17] } 4... h6 $6 { [%eval 0.79] } 5. h3 $6 { [%eval 0.26] } 5... Nf6
+{ [%eval 0.26] } 6. d3 { [%eval 0.32] } 6... d6 { [%eval 0.19] } 7. Qe2
+{ [%eval -0.11] } 7... O-O { [%eval -0.04] } 8. Be3 { [%eval -0.18] } 8... Bb6
+{ [%eval 0.11] } 9. Bxb6 { [%eval -0.07] } 9... axb6 { [%eval -0.13] } 10. Nbd2
+{ [%eval -0.44] } 10... Be6 $6 { [%eval 0.16] } 11. Bxe6 { [%eval 0.15] } 11...
+fxe6 { [%eval 0.14] } 12. b3 $6 { [%eval -0.58] } 12... Nb4 { [%eval -0.55] }
+13. Rfc1 $6 { [%eval -1.16] } 13... Rxa2 $6 { [%eval -0.57] } 14. Rxa2
+{ [%eval -0.64] } 14... Nxa2 { [%eval -0.78] } 15. Ra1 { [%eval -0.67] } 15...
+Nc3 { [%eval -0.64] } 16. Qe3 { [%eval -0.92] } 16... d5 $2 { [%eval 0.08] }
+17. Ra7 $6 { [%eval -0.59] } 17... d4 { [%eval -0.57] } 18. Qe1
+{ [%eval -0.61] } 18... Qb8 { [%eval -0.44] } 19. Ra4 $2 { [%eval -2.75] }
+19... b5 $2 { [%eval -0.36] } 20. Ra1 { [%eval -0.59] } 20... Nd7
+{ [%eval -0.31] } 21. Nb1 { [%eval -0.39] } 21... Nxb1 { [%eval -0.37] } 22.
+Qxb1 { [%eval -0.25] } 22... Nc5 $6 { [%eval 0.36] } 23. Qa2 { [%eval 0.0] }
+23... Na6 $2 { [%eval 1.1] } 24. Qa3 $2 { [%eval -0.25] } 24... Nb4 $4
+{ [%eval 6.2] } 25. Qxb4 { [%eval 6.21] } 25... b6 $6 { [%eval 7.14] } 26. Nxe5
+$4 { [%eval 2.41] } 26... c5 { [%eval 2.22] } 27. Nd7 $2 { [%eval 1.06] } 27...
+cxb4 { [%eval 1.02] } 0-1

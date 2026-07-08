@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vKmz8KNf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SamDelConvento"]
+[Black "mosesblitz"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:51:22"]
+[WhiteElo "873"]
+[BlackElo "1204"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+5"]
+[ECO "C31"]
+[Opening "King's Gambit, Falkbeer Countergambit, Hinrichsen Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.41] } 2. d4 { [%eval 0.0] } 2... d5
+$2 { [%eval 1.09] } 3. f4 $2 { [%eval -0.56] } 3... Qh4+ $2 { [%eval 0.85] } 4.
+g3 { [%eval 0.89] } 4... Bb4+ $2 { [%eval 3.39] } 5. c3 { [%eval 3.15] } 5...
+Bg4 $2 { [%eval 6.01] } 6. Nf3 $4 { [%eval 0.41] } 6... Bxf3 $4 { [%eval 5.7] }
+7. Qxf3 $2 { [%eval 4.29] } 7... dxe4 $2 { [%eval 5.55] } 8. Qxe4
+{ [%eval 5.27] } 8... Nf6 $4 { [%eval 10.76] } 9. Qxe5+ { [%eval 10.62] } 9...
+Be7 { [%eval 12.74] } 10. gxh4 { [%eval 12.37] } 10... Ng4 { [%eval 16.84] }
+11. Bb5+ { [%eval 16.68] } 11... c6 { [%eval 16.64] } 12. Rg1 $4
+{ [%eval 2.28] } 12... Nxe5 { [%eval 2.33] } 13. fxe5 { [%eval 2.34] } 13...
+Bxh4+ $6 { [%eval 2.93] } 14. Rg3 $4 { [%eval -1.09] } 14... Bxg3+
+{ [%eval -1.02] } 15. hxg3 { [%eval -1.0] } 15... cxb5 { [%eval -0.92] } 16. c4
+$2 { [%eval -2.83] } 16... bxc4 { [%eval -2.8] } 17. Na3 { [%eval -2.61] }
+17... b5 $2 { [%eval -1.27] } 18. Nxb5 { [%eval -1.25] } 18... Nc6
+{ [%eval -0.97] } 19. d5 $2 { [%eval -2.47] } 19... Nxe5 $2 { [%eval -1.32] }
+20. Bf4 $2 { [%eval -3.77] } 20... O-O-O $2 { [%eval -0.93] } 21. Bxe5
+{ [%eval -0.95] } 21... Rxd5 { [%eval -0.85] } 22. Nxa7+ $2 { [%eval -2.66] }
+22... Kb7 { [%eval -2.29] } 23. Rd1 $4 { [%eval -8.42] } 23... Rxe5+
+{ [%eval -8.33] } 24. Kf1 { [%eval -8.29] } 24... Kxa7 { [%eval -7.99] } 25. b3
+{ [%eval -8.48] } 25... cxb3 { [%eval -8.31] } 26. axb3 { [%eval -8.29] } 26...
+Rb8 { [%eval -8.14] } 27. Rb1 { [%eval -8.54] } 27... f5 { [%eval -8.19] } 28.
+b4 $2 { [%eval -11.04] } 28... g5 { [%eval -9.85] } 0-1

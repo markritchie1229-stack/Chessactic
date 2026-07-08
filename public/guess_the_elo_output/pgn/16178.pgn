@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CPU1Ei1r"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tscass"]
+[Black "Vladkuz45"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:44:02"]
+[WhiteElo "1964"]
+[BlackElo "1877"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Wade Defense"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... d6 { [%eval 0.5] } 2. Nf3 { [%eval 0.35] } 2... Bg4
+{ [%eval 0.68] } 3. d3 { [%eval 0.29] } 3... e6 { [%eval 0.49] } 4. Be2
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.56] } 5. O-O { [%eval 0.28] } 5... d5
+{ [%eval 0.54] } 6. Nbd2 { [%eval 0.26] } 6... dxe4 { [%eval 0.54] } 7. dxe4
+{ [%eval 0.37] } 7... c6 { [%eval 0.78] } 8. c3 { [%eval 0.5] } 8... Be7
+{ [%eval 0.44] } 9. b4 { [%eval 0.0] } 9... Qc7 { [%eval 0.0] } 10. Qc2
+{ [%eval -0.08] } 10... Nbd7 { [%eval 0.05] } 11. Bb2 { [%eval -0.15] } 11...
+O-O { [%eval -0.06] } 12. Rfe1 { [%eval -0.02] } 12... Rad8 { [%eval -0.06] }
+13. a3 { [%eval 0.15] } 13... Rfe8 { [%eval 0.32] } 14. e5 $2 { [%eval -0.89] }
+14... Nd5 $2 { [%eval 0.48] } 15. c4 { [%eval 0.46] } 15... Nf4
+{ [%eval 0.42] } 16. Bf1 { [%eval 0.33] } 16... Ng6 { [%eval 0.43] } 17. Qe4
+{ [%eval 0.16] } 17... Bf5 { [%eval 0.17] } 18. Qe3 { [%eval 0.15] } 18... a5
+$6 { [%eval 0.78] } 19. h3 $6 { [%eval 0.04] } 19... axb4 { [%eval 0.13] } 20.
+g4 { [%eval -0.33] } 20... Bc5 { [%eval -0.34] } 21. Qb3 { [%eval -0.27] }
+21... bxa3 { [%eval 0.22] } 22. Bxa3 { [%eval 0.15] } 22... Bxa3 $6
+{ [%eval 0.94] } 23. Rxa3 { [%eval 0.79] } 23... Nc5 { [%eval 1.0] } 24. Qe3
+{ [%eval 0.95] } 24... Bxg4 $6 { [%eval 1.75] } 25. hxg4 { [%eval 1.59] } 25...
+Na6 $2 { [%eval 2.7] } 26. c5 { [%eval 2.67] } 26... Nb4 { [%eval 2.61] } 27.
+Qb3 { [%eval 2.64] } 27... Nd5 { [%eval 2.68] } 28. Nc4 { [%eval 2.31] } 28...
+Ngf4 $2 { [%eval 3.59] } 29. Nd6 { [%eval 3.43] } 29... Rf8 { [%eval 3.65] }
+1-0

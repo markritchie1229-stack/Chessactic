@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/sbIGp6mU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mausab"]
+[Black "susuemmi66"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:54:28"]
+[WhiteElo "1660"]
+[BlackElo "1638"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B00"]
+[Opening "Duras Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... f5 $2 { [%eval 1.44] } 2. e5 $2 { [%eval 0.36] }
+2... e6 { [%eval 0.53] } 3. d4 { [%eval 0.65] } 3... d6 { [%eval 0.72] } 4.
+exd6 { [%eval 0.5] } 4... cxd6 { [%eval 0.43] } 5. Be3 { [%eval 0.09] } 5...
+Nf6 { [%eval 0.1] } 6. Bd3 { [%eval -0.07] } 6... Nc6 { [%eval 0.02] } 7. Nf3
+{ [%eval -0.42] } 7... d5 $6 { [%eval 0.27] } 8. c3 { [%eval 0.03] } 8... Bd6
+{ [%eval -0.07] } 9. Nbd2 $2 { [%eval -2.32] } 9... O-O $2 { [%eval -0.3] } 10.
+b3 $4 { [%eval -3.44] } 10... f4 { [%eval -3.41] } 11. Bxh7+ $4
+{ [%eval -6.44] } 11... Kxh7 { [%eval -6.14] } 12. Qc2+ $6 { [%eval -6.83] }
+12... g6 $2 { [%eval -5.59] } 13. Bxf4 $2 { [%eval -7.29] } 13... Bxf4
+{ [%eval -6.46] } 14. g3 $2 { [%eval -8.46] } 14... Bxd2+ { [%eval -8.18] } 15.
+Qxd2 $2 { [%eval -9.22] } 15... Ne4 { [%eval -9.09] } 16. Qe3 { [%eval -9.06] }
+16... Qf6 { [%eval -8.99] } 17. h4 $2 { [%eval -13.06] } 17... Qxf3
+{ [%eval -12.83] } 18. Qxf3 { [%eval -13.6] } 18... Rxf3 { [%eval -13.05] } 19.
+h5 { [%eval -13.95] } 19... g5 { [%eval -13.56] } 20. Ke2 { [%eval -17.82] }
+20... Rxc3 { [%eval -16.47] } 21. Rh3 $6 { [%eval #-13] } 21... Nxd4+
+{ [%eval #-12] } 22. Kf1 { [%eval #-12] } 22... Rf3 $6 { [%eval -18.47] } 23.
+Kg2 $6 { [%eval #-7] } 23... g4 $6 { [%eval -19.47] } 24. Rh4 $6
+{ [%eval #-6] } 24... e5 $6 { [%eval -23.18] } 25. Rah1 $6 { [%eval #-2] }
+25... Bf5 $6 { [%eval -20.3] } 26. h6 $6 { [%eval #-2] } 26... Rg8 $6
+{ [%eval -24.3] } 27. Rh5 $6 { [%eval #-2] } 27... Rxf2+ { [%eval #-1] } 28.
+Kg1 { [%eval #-1] } 28... Nf3# 0-1

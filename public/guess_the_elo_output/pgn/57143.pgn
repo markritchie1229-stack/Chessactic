@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/MYJwKgxd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Soltor"]
+[Black "AUV"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:58:35"]
+[WhiteElo "1757"]
+[BlackElo "1858"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-15"]
+[ECO "B80"]
+[Opening "Sicilian Defense: Scheveningen Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.28] } 2. Nf3 { [%eval 0.19] } 2... d6
+{ [%eval 0.29] } 3. d4 { [%eval 0.25] } 3... cxd4 { [%eval 0.33] } 4. Nxd4
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.25] } 5. Nc3 { [%eval 0.3] } 5... e6
+{ [%eval 0.24] } 6. Bd3 { [%eval 0.08] } 6... a6 { [%eval 0.27] } 7. Be3
+{ [%eval 0.1] } 7... Be7 { [%eval 0.09] } 8. O-O { [%eval 0.1] } 8... b5
+{ [%eval 0.28] } 9. a3 { [%eval 0.0] } 9... Bb7 { [%eval 0.0] } 10. f4
+{ [%eval 0.05] } 10... Qc7 { [%eval 0.0] } 11. Kh1 { [%eval -0.01] } 11... Nbd7
+{ [%eval -0.07] } 12. f5 { [%eval -0.41] } 12... e5 { [%eval -0.31] } 13. Nf3
+{ [%eval -0.29] } 13... Nc5 { [%eval -0.31] } 14. Nd5 $2 { [%eval -2.53] }
+14... Nxd5 $2 { [%eval -0.82] } 15. Bxc5 $6 { [%eval -1.54] } 15... dxc5 $6
+{ [%eval -0.56] } 16. exd5 { [%eval -0.62] } 16... Bxd5 $6 { [%eval 0.33] } 17.
+Bxb5+ { [%eval 0.33] } 17... axb5 { [%eval 0.38] } 18. Qxd5 { [%eval 0.33] }
+18... O-O { [%eval 0.27] } 19. Nxe5 { [%eval -0.19] } 19... Rfd8 $4
+{ [%eval 10.87] } 20. Qe4 $4 { [%eval -0.19] } 20... Re8 { [%eval 0.0] } 21.
+Rfe1 $4 { [%eval -3.48] } 21... Bf6 { [%eval -3.26] } 22. Rad1
+{ [%eval -3.37] } 22... Rxe5 $4 { [%eval #4] } 23. Qxa8+ { [%eval #3] } 1-0

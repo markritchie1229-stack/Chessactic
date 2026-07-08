@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gplaIm2k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bookbinder"]
+[Black "nima77"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:45:21"]
+[WhiteElo "1636"]
+[BlackElo "1328"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-10"]
+[ECO "C48"]
+[Opening "Four Knights Game: Spanish Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.38] } 2...
+Nf6 { [%eval 0.45] } 3. Nc3 { [%eval 0.04] } 3... Nc6 { [%eval 0.11] } 4. Bb5
+{ [%eval 0.08] } 4... a6 $6 { [%eval 0.61] } 5. Bc4 $6 { [%eval -0.27] } 5...
+Bd6 { [%eval 0.14] } 6. d3 { [%eval 0.06] } 6... O-O { [%eval 0.06] } 7. Bg5
+{ [%eval 0.03] } 7... h6 { [%eval 0.06] } 8. Bxf6 { [%eval 0.06] } 8... Qxf6
+{ [%eval 0.05] } 9. O-O { [%eval -0.1] } 9... Bc5 { [%eval 0.0] } 10. Nd5
+{ [%eval 0.09] } 10... Qd6 $6 { [%eval 0.75] } 11. c3 { [%eval 0.63] } 11...
+Ne7 $2 { [%eval 2.23] } 12. d4 { [%eval 1.82] } 12... exd4 $6 { [%eval 2.36] }
+13. cxd4 $2 { [%eval 0.92] } 13... Bb6 $2 { [%eval 3.16] } 14. Nxb6 $2
+{ [%eval 0.35] } 14... Qxb6 { [%eval 0.42] } 15. Re1 { [%eval 0.37] } 15... Qg6
+$6 { [%eval 1.35] } 16. e5 $6 { [%eval 0.46] } 16... d5 { [%eval 0.45] } 17.
+exd6 { [%eval 0.33] } 17... cxd6 $4 { [%eval 4.66] } 18. Rxe7 { [%eval 4.52] }
+18... Bh3 { [%eval 4.54] } 19. g3 { [%eval 4.5] } 19... Rac8 { [%eval 4.74] }
+20. Rc1 $6 { [%eval 3.89] } 20... b5 $6 { [%eval 4.58] } 21. Bb3
+{ [%eval 4.56] } 21... Rxc1 { [%eval 4.77] } 22. Qxc1 { [%eval 4.55] } 22...
+Qg4 $2 { [%eval 5.87] } 23. Qd1 $2 { [%eval 4.85] } 23... h5 $2
+{ [%eval 6.48] } 24. Qd3 { [%eval 6.61] } 24... Rc8 $2 { [%eval 8.35] } 25. Bc2
+$2 { [%eval 5.96] } 25... Rc4 $4 { [%eval #1] } 26. Re8# 1-0

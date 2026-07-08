@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gR7uq0Hc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vickbb"]
+[Black "Mountain_Donkey"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:40:29"]
+[WhiteElo "1529"]
+[BlackElo "1363"]
+[WhiteRatingDiff "+48"]
+[BlackRatingDiff "-6"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.4] } 2. d3 { [%eval -0.06] } 2... Nc6
+{ [%eval -0.06] } 3. h3 { [%eval -0.27] } 3... f6 { [%eval 0.22] } 4. f4 $6
+{ [%eval -0.34] } 4... exf4 $6 { [%eval 0.54] } 5. Bxf4 { [%eval 0.46] } 5...
+d6 { [%eval 0.77] } 6. Nc3 { [%eval 0.71] } 6... Ne5 $6 { [%eval 1.3] } 7. Nf3
+{ [%eval 1.23] } 7... Be6 { [%eval 1.4] } 8. d4 { [%eval 1.39] } 8... Nc4 $4
+{ [%eval 4.48] } 9. b3 $2 { [%eval 1.81] } 9... Nb2 $2 { [%eval 4.39] } 10. Qc1
+{ [%eval 4.61] } 10... Bxb3 $4 { [%eval 8.55] } 11. axb3 { [%eval 8.42] } 11...
+Nc4 $2 { [%eval 9.66] } 12. Bxc4 { [%eval 9.25] } 12... c5 $6 { [%eval 14.78] }
+13. Bb5+ { [%eval 13.81] } 13... Ke7 { [%eval 16.12] } 14. Nd5+
+{ [%eval 13.57] } 14... Ke6 { [%eval 16.34] } 15. Bc4 { [%eval 15.52] } 15...
+Qa5+ { [%eval 29.82] } 16. Rxa5 { [%eval 28.65] } 16... b6 $6 { [%eval #6] }
+17. Nxb6+ { [%eval #5] } 17... Ke7 { [%eval #5] } 18. Nd5+ $6 { [%eval 29.75] }
+18... Kf7 $6 { [%eval #8] } 19. Nc7+ { [%eval #8] } 19... Kg6 { [%eval #3] }
+20. Nxa8 $6 { [%eval 34.6] } 20... Be7 $6 { [%eval #3] } 21. g4 $6
+{ [%eval 35.1] } 21... Nh6 $6 { [%eval #1] } 22. Nh4# 1-0

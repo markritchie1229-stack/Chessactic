@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/D4C5pBug"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chessopithecus"]
+[Black "wichy"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:51:59"]
+[WhiteElo "1935"]
+[BlackElo "2041"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e6 { [%eval 0.25] } 2. d4 { [%eval 0.2] } 2... d5
+{ [%eval 0.23] } 3. exd5 { [%eval 0.08] } 3... exd5 { [%eval 0.14] } 4. Bb5+
+{ [%eval 0.0] } 4... c6 { [%eval 0.1] } 5. Bd3 { [%eval 0.01] } 5... Nf6
+{ [%eval 0.09] } 6. Bf4 { [%eval -0.13] } 6... Bd6 { [%eval -0.09] } 7. Qe2+
+{ [%eval -0.12] } 7... Be6 { [%eval -0.11] } 8. Bxd6 { [%eval -0.17] } 8...
+Qxd6 { [%eval -0.07] } 9. Nf3 { [%eval -0.19] } 9... O-O { [%eval -0.14] } 10.
+Ne5 { [%eval -0.42] } 10... c5 { [%eval -0.32] } 11. c3 { [%eval -0.75] } 11...
+Nc6 { [%eval -0.34] } 12. f4 $6 { [%eval -1.31] } 12... cxd4 { [%eval -1.13] }
+13. Nxc6 $6 { [%eval -1.84] } 13... bxc6 { [%eval -1.87] } 14. O-O
+{ [%eval -1.83] } 14... dxc3 { [%eval -1.76] } 15. Nxc3 { [%eval -1.73] } 15...
+Rab8 { [%eval -1.69] } 16. f5 $6 { [%eval -2.44] } 16... Bd7 { [%eval -2.44] }
+17. Rad1 $2 { [%eval -3.98] } 17... Rfe8 { [%eval -3.85] } 18. Qf2
+{ [%eval -3.8] } 18... Ng4 { [%eval -3.82] } 19. Qg3 { [%eval -4.31] } 19...
+Qxg3 { [%eval -4.24] } 20. hxg3 { [%eval -4.28] } 20... Ne3 { [%eval -4.09] }
+0-1

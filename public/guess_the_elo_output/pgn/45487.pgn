@@ -1,0 +1,38 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/GTUaBlc4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yura01061977"]
+[Black "BlunderBob"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:45:18"]
+[WhiteElo "1867"]
+[BlackElo "1830"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "B77"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack, Main Line"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.33] } 3. d4 { [%eval 0.3] } 3... cxd4 { [%eval 0.34] } 4. Nxd4
+{ [%eval 0.29] } 4... Nf6 { [%eval 0.37] } 5. f3 { [%eval 0.02] } 5... g6
+{ [%eval 0.43] } 6. Bc4 { [%eval 0.27] } 6... Bg7 { [%eval 0.21] } 7. Be3
+{ [%eval 0.21] } 7... O-O { [%eval 0.18] } 8. Nc3 { [%eval 0.27] } 8... Nc6
+{ [%eval 0.1] } 9. Qd2 { [%eval 0.1] } 9... Qb6 $6 { [%eval 0.7] } 10. Ne6 $4
+{ [%eval -2.3] } 10... Qxb2 { [%eval -2.3] } 11. Rb1 { [%eval -2.35] } 11...
+Qa3 $4 { [%eval 1.06] } 12. Nxf8 { [%eval 0.88] } 12... Kxf8 { [%eval 0.83] }
+13. Rb3 { [%eval 0.52] } 13... Qa5 { [%eval 0.58] } 14. Nd5 $6
+{ [%eval -0.06] } 14... Qd8 $6 { [%eval 0.9] } 15. Nxf6 { [%eval 0.86] } 15...
+Bxf6 { [%eval 0.94] } 16. Bh6+ $6 { [%eval 0.25] } 16... Kg8 { [%eval 0.31] }
+17. O-O $2 { [%eval -0.96] } 17... Na5 { [%eval -0.85] } 18. Rb4
+{ [%eval -1.09] } 18... Nxc4 $6 { [%eval -0.27] } 19. Rxc4 { [%eval -0.65] }
+19... Be6 { [%eval -0.17] } 20. Rb4 { [%eval -0.36] } 20... Qc7
+{ [%eval -0.23] } 21. Qc1 $4 { [%eval -6.77] } 21... Qc5+ { [%eval -6.59] } 22.
+Kh1 { [%eval -6.73] } 22... Qxb4 { [%eval -6.73] } 23. a3 { [%eval -6.81] }
+23... Qb2 { [%eval -6.83] } 24. Qe3 { [%eval -7.3] } 24... Rc8 $6
+{ [%eval -6.64] } 25. Qxa7 { [%eval -6.58] } 25... Bd4 { [%eval -6.5] } 26. Qa4
+{ [%eval -6.81] } 26... b5 { [%eval -6.5] } 27. Qa5 { [%eval -6.5] } 27... Rxc2
+$4 { [%eval #1] } 28. Qd8# 1-0

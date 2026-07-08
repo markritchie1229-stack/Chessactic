@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9fL62d6S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nonato52"]
+[Black "scare1"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:42:25"]
+[WhiteElo "1500"]
+[BlackElo "1373"]
+[WhiteRatingDiff "-250"]
+[BlackRatingDiff "+9"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.14] } 1... d5 { [%eval -0.13] } 2. Nf3 { [%eval -0.24] } 2...
+Qd6 { [%eval 0.2] } 3. e3 { [%eval 0.15] } 3... Bg4 { [%eval 0.39] } 4. Be2
+{ [%eval 0.36] } 4... Nf6 { [%eval 0.38] } 5. b3 { [%eval 0.1] } 5... Ne4 $6
+{ [%eval 0.83] } 6. Bb2 { [%eval 0.83] } 6... f6 $6 { [%eval 1.37] } 7. Nc3 $2
+{ [%eval 0.28] } 7... Bxf3 $6 { [%eval 1.02] } 8. Bxf3 { [%eval 1.06] } 8...
+Nxc3 { [%eval 1.03] } 9. Bxc3 { [%eval 0.62] } 9... Nc6 { [%eval 0.67] } 10.
+O-O { [%eval 0.19] } 10... O-O-O { [%eval 0.3] } 11. d4 { [%eval 0.28] } 11...
+g5 $6 { [%eval 0.85] } 12. f5 { [%eval 0.48] } 12... Bg7 $6 { [%eval 1.24] }
+13. Qd2 $6 { [%eval 0.26] } 13... h5 { [%eval 0.28] } 14. a3 { [%eval -0.09] }
+14... g4 { [%eval -0.1] } 15. Be2 { [%eval -0.12] } 15... h4 $2 { [%eval 1.7] }
+16. b4 $6 { [%eval 1.2] } 16... g3 $6 { [%eval 1.74] } 17. h3 $2
+{ [%eval 0.47] } 17... Bh6 $2 { [%eval 1.87] } 18. a4 $2 { [%eval 0.46] } 18...
+Rdf8 $6 { [%eval 0.99] } 19. a5 $6 { [%eval 0.0] } 19... a6 $2 { [%eval 1.35] }
+20. b5 { [%eval 1.16] } 20... axb5 { [%eval 1.0] } 21. Bxb5 { [%eval 0.84] }
+21... e6 { [%eval 1.04] } 22. fxe6 $6 { [%eval 0.34] } 22... Qxe6
+{ [%eval 0.54] } 23. Be2 $4 { [%eval -14.95] } 23... f5 $4 { [%eval -0.55] }
+24. e4 $4 { [%eval -12.38] } 24... Bxd2 { [%eval -12.06] } 25. Bxd2
+{ [%eval -11.97] } 25... dxe4 $2 { [%eval -8.91] } 26. Bf4 $2
+{ [%eval -11.79] } 26... Nxd4 { [%eval -11.62] } 0-1

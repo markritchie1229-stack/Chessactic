@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fvnPYY3M"]
+[Date "????.??.??"]
+[Round "?"]
+[White "olegnic"]
+[Black "ccg13"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:00:12"]
+[WhiteElo "1758"]
+[BlackElo "1825"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C57"]
+[Opening "Italian Game: Two Knights Defense, Polerio Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.23] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.22] } 3. Bc4 { [%eval 0.2] } 3... Nf6 { [%eval 0.16] } 4. Ng5
+{ [%eval 0.2] } 4... d5 { [%eval 0.27] } 5. exd5 { [%eval 0.35] } 5... Na5
+{ [%eval 0.29] } 6. Qe2 $2 { [%eval -0.93] } 6... Bd6 $2 { [%eval 0.41] } 7.
+O-O { [%eval 0.16] } 7... O-O { [%eval 0.29] } 8. Nc3 { [%eval 0.37] } 8... h6
+{ [%eval 0.41] } 9. Nf3 { [%eval 0.0] } 9... Bg4 $6 { [%eval 0.53] } 10. h3 $2
+{ [%eval -0.99] } 10... Bxf3 { [%eval -1.05] } 11. gxf3 { [%eval -0.98] } 11...
+Nxc4 { [%eval -0.64] } 12. Qxc4 { [%eval -0.75] } 12... a6 { [%eval -0.65] }
+13. d4 $6 { [%eval -1.17] } 13... exd4 { [%eval -0.88] } 14. Qxd4
+{ [%eval -0.87] } 14... Re8 { [%eval -0.89] } 15. Ne4 $6 { [%eval -1.66] }
+15... Nxe4 { [%eval -1.71] } 16. fxe4 { [%eval -1.75] } 16... Be5 $2
+{ [%eval 0.24] } 17. Qd3 { [%eval 0.23] } 17... Qf6 $6 { [%eval 0.78] } 18. f4
+{ [%eval 0.75] } 18... Bxb2 { [%eval 0.93] } 19. Bxb2 $6 { [%eval 0.37] } 19...
+Qxb2 { [%eval 0.5] } 20. Rab1 { [%eval 0.18] } 20... Qxa2 { [%eval 0.19] } 21.
+Rxb7 { [%eval 0.23] } 21... Rac8 $6 { [%eval 0.97] } 22. d6 $2
+{ [%eval -1.81] } 22... cxd6 { [%eval -1.91] } 23. f5 $2 { [%eval -4.1] } 23...
+Qxc2 $2 { [%eval -2.27] } 24. Qxd6 $2 { [%eval -3.88] } 24... Qxe4
+{ [%eval -3.5] } 25. Qxa6 $4 { [%eval #-7] } 25... Qe3+ { [%eval #-6] } 26. Rf2
+{ [%eval #-6] } 26... Qxh3 $2 { [%eval -7.77] } 27. f6 $2 { [%eval #-5] } 27...
+Qg3+ { [%eval #-4] } 28. Rg2 { [%eval #-3] } 28... Rc1+ { [%eval #-2] } 0-1

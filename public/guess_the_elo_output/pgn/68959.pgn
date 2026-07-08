@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/184U3lFL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rcso"]
+[Black "Gomesf"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:23:02"]
+[WhiteElo "2019"]
+[BlackElo "1745"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+22"]
+[ECO "D53"]
+[Opening "Queen's Gambit Declined: 4.Bg5 Be7"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.19] } 2... e6
+{ [%eval 0.21] } 3. Nc3 { [%eval 0.19] } 3... Nf6 { [%eval 0.26] } 4. Bg5
+{ [%eval 0.07] } 4... Be7 { [%eval 0.14] } 5. f3 $2 { [%eval -0.94] } 5... O-O
+{ [%eval -0.77] } 6. e4 { [%eval -1.08] } 6... c5 { [%eval -0.79] } 7. dxc5 $6
+{ [%eval -1.45] } 7... Bxc5 $6 { [%eval -0.57] } 8. e5 { [%eval -0.85] } 8...
+h6 { [%eval -0.65] } 9. Bxf6 { [%eval -0.85] } 9... gxf6 { [%eval -0.79] } 10.
+exf6 $6 { [%eval -1.43] } 10... Qxf6 { [%eval -1.4] } 11. cxd5
+{ [%eval -1.47] } 11... exd5 { [%eval -1.82] } 12. Nxd5 $2 { [%eval -4.66] }
+12... Qe6+ { [%eval -4.64] } 13. Be2 { [%eval -4.84] } 13... Rd8
+{ [%eval -4.62] } 14. Nf4 $4 { [%eval -8.65] } 14... Rxd1+ { [%eval -8.55] }
+15. Rxd1 { [%eval -8.27] } 15... Qf6 { [%eval -8.08] } 16. Nd5 $6
+{ [%eval -8.95] } 16... Qxb2 { [%eval -8.1] } 17. Nc7 $2 { [%eval -18.16] }
+17... Qc3+ { [%eval -17.85] } 18. Kf1 { [%eval -17.52] } 18... Qe3
+{ [%eval -14.24] } 19. Rd8+ { [%eval -14.03] } 19... Kh7 { [%eval -13.72] } 20.
+Bd3+ { [%eval -17.85] } 20... f5 { [%eval -17.31] } 21. Nh3 { [%eval -16.85] }
+21... Qc1+ { [%eval -15.61] } 22. Ke2 { [%eval -14.94] } 22... Qxh1
+{ [%eval -12.89] } 23. Nf4 { [%eval -24.52] } 23... Bb4 { [%eval -22.22] } 24.
+Bc4 $6 { [%eval #-2] } 24... Qe1+ { [%eval #-1] } 0-1

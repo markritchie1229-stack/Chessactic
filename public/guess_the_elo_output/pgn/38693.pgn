@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/iQkGpv1U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bahabaha"]
+[Black "Vasily_Smyslov"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:08:34"]
+[WhiteElo "1398"]
+[BlackElo "1459"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[ECO "C50"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.37] } 2. Nc3 { [%eval 0.12] } 2...
+Nc6 { [%eval 0.14] } 3. Nf3 { [%eval 0.08] } 3... Nf6 { [%eval 0.08] } 4. Bc4
+{ [%eval 0.0] } 4... Bc5 { [%eval 0.15] } 5. a3 { [%eval -0.06] } 5... O-O
+{ [%eval 0.06] } 6. b4 { [%eval -0.3] } 6... Bb6 { [%eval -0.32] } 7. d3
+{ [%eval -0.27] } 7... d6 { [%eval 0.07] } 8. h4 $2 { [%eval -1.0] } 8... Nd4
+{ [%eval -0.84] } 9. Nxd4 { [%eval -1.24] } 9... Bxd4 { [%eval -1.23] } 10. Nd5
+$4 { [%eval -4.84] } 10... Bxa1 $2 { [%eval -3.2] } 11. Nxf6+ $2
+{ [%eval -5.99] } 11... Qxf6 { [%eval -5.93] } 12. Be3 { [%eval -6.36] } 12...
+Bd4 { [%eval -6.22] } 13. Bxd4 { [%eval -6.32] } 13... exd4 { [%eval -6.19] }
+14. g3 { [%eval -6.46] } 14... Bg4 $4 { [%eval -1.43] } 15. Qxg4
+{ [%eval -1.51] } 15... Rae8 { [%eval -1.42] } 16. f3 { [%eval -1.64] } 16...
+c5 { [%eval -1.2] } 17. bxc5 { [%eval -1.43] } 17... dxc5 { [%eval -1.43] } 18.
+Rf1 $2 { [%eval -2.47] } 18... a6 $6 { [%eval -1.84] } 19. f4 $6
+{ [%eval -2.65] } 19... b5 { [%eval -2.29] } 20. Bd5 { [%eval -2.2] } 20... Qd8
+$6 { [%eval -1.5] } 21. e5 $4 { [%eval -8.21] } 21... h6 $4 { [%eval -1.7] }
+22. Be4 { [%eval -1.68] } 22... a5 { [%eval -1.48] } 23. Qf5 { [%eval -1.85] }
+23... b4 $4 { [%eval #1] } 24. Qh7# 1-0

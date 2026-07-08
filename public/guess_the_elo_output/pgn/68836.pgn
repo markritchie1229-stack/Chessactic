@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/hI7A6Tlk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tiltCHIMP"]
+[Black "huigovno"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:16:52"]
+[WhiteElo "1836"]
+[BlackElo "1815"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-26"]
+[ECO "E50"]
+[Opening "Nimzo-Indian Defense: 4.e3 e8g8, 5.Nf3, without ...d5"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.18] } 2. c4 { [%eval 0.17] } 2... e6
+{ [%eval 0.13] } 3. Nf3 { [%eval 0.18] } 3... Bb4+ { [%eval 0.25] } 4. Nc3
+{ [%eval 0.13] } 4... O-O { [%eval 0.13] } 5. e3 { [%eval 0.09] } 5... b6
+{ [%eval 0.14] } 6. Bd3 { [%eval 0.08] } 6... Bb7 { [%eval 0.06] } 7. O-O
+{ [%eval 0.09] } 7... d5 { [%eval 0.12] } 8. cxd5 { [%eval 0.12] } 8... exd5
+{ [%eval 0.06] } 9. Be2 { [%eval -0.19] } 9... Nbd7 { [%eval -0.16] } 10. a3
+{ [%eval -0.14] } 10... Bxc3 { [%eval 0.12] } 11. bxc3 { [%eval 0.14] } 11...
+c5 { [%eval 0.16] } 12. Qc2 { [%eval 0.0] } 12... Rc8 { [%eval 0.2] } 13. Qb3
+{ [%eval -0.14] } 13... Re8 { [%eval -0.11] } 14. a4 { [%eval -0.13] } 14...
+Ne4 { [%eval 0.0] } 15. Ba3 { [%eval -0.14] } 15... c4 { [%eval -0.04] } 16.
+Qc2 { [%eval -0.41] } 16... Qf6 $6 { [%eval 0.1] } 17. Nd2 { [%eval 0.09] }
+17... Nxd2 { [%eval 0.09] } 18. Qxd2 { [%eval 0.0] } 18... Qe6 { [%eval 0.41] }
+19. Bf3 $6 { [%eval -0.21] } 19... Nf6 { [%eval 0.17] } 20. Rfe1
+{ [%eval -0.14] } 20... Ne4 { [%eval 0.07] } 21. Qc2 { [%eval 0.06] } 21... Ng5
+{ [%eval 0.22] } 22. Be2 { [%eval 0.0] } 22... Rb8 { [%eval 0.46] } 23. h4 $6
+{ [%eval -0.39] } 23... Ne4 { [%eval -0.17] } 24. Bf3 { [%eval -0.21] } 24...
+Nd6 { [%eval 0.12] } 25. Bxd6 { [%eval 0.08] } 25... Qxd6 { [%eval 0.19] } 26.
+e4 { [%eval 0.1] } 26... dxe4 { [%eval 0.07] } 27. Bxe4 { [%eval 0.11] } 27...
+Bxe4 { [%eval 0.08] } 28. Rxe4 { [%eval 0.06] } 28... Rxe4 { [%eval 0.16] } 29.
+Qxe4 { [%eval 0.15] } 29... Re8 $4 { [%eval 128.17] } 30. Qxe8+
+{ [%eval 22.7] } 1-0

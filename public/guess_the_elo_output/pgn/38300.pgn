@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NIfRrJ9o"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hughesg94"]
+[Black "samojan3"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:51:34"]
+[WhiteElo "1441"]
+[BlackElo "1397"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+27"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "1200+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c6 { [%eval 0.58] } 2. Nf3 { [%eval 0.5] } 2... d5
+{ [%eval 0.42] } 3. Qe2 $6 { [%eval -0.31] } 3... d4 $6 { [%eval 0.67] } 4. c3
+{ [%eval 0.57] } 4... c5 { [%eval 0.5] } 5. cxd4 $6 { [%eval -0.06] } 5... cxd4
+{ [%eval 0.08] } 6. Qc4 { [%eval -0.4] } 6... Nc6 { [%eval -0.19] } 7. Bd3 $6
+{ [%eval -0.93] } 7... e5 { [%eval -0.85] } 8. b3 $6 { [%eval -1.35] } 8... Nf6
+{ [%eval -1.36] } 9. Na3 { [%eval -1.52] } 9... Be6 { [%eval -1.21] } 10. Qb5
+$2 { [%eval -3.77] } 10... a6 { [%eval -3.41] } 11. Qxb7 { [%eval -3.56] }
+11... Qc8 $4 { [%eval 1.2] } 12. Qb6 $4 { [%eval -6.88] } 12... Bb4 $4
+{ [%eval -3.2] } 13. O-O $2 { [%eval -5.89] } 13... O-O $2 { [%eval -3.31] }
+14. Bc4 $2 { [%eval -4.77] } 14... Nxe4 $4 { [%eval -0.54] } 15. Nxe5
+{ [%eval -0.5] } 15... Bxc4 $6 { [%eval 0.25] } 16. bxc4 $4 { [%eval -3.68] }
+16... Nxe5 { [%eval -3.65] } 17. Qxb4 { [%eval -2.18] } 17... Qg4 $4
+{ [%eval 1.54] } 18. d3 $4 { [%eval #-5] } 18... Nf3+ { [%eval #-4] } 19. Kh1
+{ [%eval #-4] } 19... Qh4 $4 { [%eval 0.0] } 20. gxf3 { [%eval 0.0] } 20...
+Nxf2+ $2 { [%eval 1.27] } 21. Kg2 { [%eval 1.33] } 21... Qh3+ { [%eval 1.31] }
+22. Kxf2 $4 { [%eval #-17] } 22... Qxh2+ { [%eval #-16] } 23. Ke1
+{ [%eval -17.97] } 23... Qg3+ $4 { [%eval 5.95] } 24. Kd2 $4 { [%eval -1.01] }
+24... Qg2+ { [%eval -0.72] } 25. Ke1 $4 { [%eval #-9] } 25... Rfe8+
+{ [%eval #-8] } 26. Be3 { [%eval #-8] } 26... Rxe3+ { [%eval #-7] } 27. Kd1
+{ [%eval #-7] } 27... Qxf1+ { [%eval #-6] } 28. Kc2 { [%eval #-6] } 28... Qxa1
+{ [%eval #-12] } 29. Nb1 { [%eval #-7] } 29... Qxa2+ { [%eval #-6] } 30. Qb2
+{ [%eval #-6] } 30... Re2+ { [%eval #-5] } 31. Kc1 { [%eval #-2] } 31... Qxb2+
+{ [%eval #-1] } 0-1

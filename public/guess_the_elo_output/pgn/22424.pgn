@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/erPcT5w9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "afarr98"]
+[Black "DmitriyP"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:08:00"]
+[WhiteElo "1372"]
+[BlackElo "1386"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+[TimeControl "900+15"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.47] } 2. g3 $6 { [%eval -0.1] } 2...
+Nf6 { [%eval -0.08] } 3. Bg2 { [%eval -0.07] } 3... d5 { [%eval 0.35] } 4. Nc3
+$2 { [%eval -0.65] } 4... d4 { [%eval -0.7] } 5. Nd5 { [%eval -0.85] } 5... Nc6
+$6 { [%eval -0.11] } 6. Nxf6+ { [%eval -0.52] } 6... Qxf6 { [%eval -0.52] } 7.
+c4 $2 { [%eval -1.69] } 7... Bb4 $2 { [%eval -0.28] } 8. a3 { [%eval -0.37] }
+8... Bc5 { [%eval -0.16] } 9. b4 { [%eval -0.18] } 9... Bd6 { [%eval -0.15] }
+10. d3 { [%eval -0.25] } 10... O-O { [%eval -0.29] } 11. h4 { [%eval -0.39] }
+11... Be7 { [%eval -0.06] } 12. b5 { [%eval -0.35] } 12... Nd8
+{ [%eval -0.37] } 13. Bg5 { [%eval -0.5] } 13... Qe6 { [%eval -0.26] } 14. Bh3
+{ [%eval -0.25] } 14... Qd6 { [%eval -0.11] } 15. c5 $2 { [%eval -1.33] } 15...
+Qxc5 { [%eval -1.02] } 16. Rc1 $2 { [%eval -2.16] } 16... Qxa3 { [%eval -2.0] }
+17. Rxc7 $4 { [%eval -7.4] } 17... Qa5+ { [%eval -7.29] } 18. Rc3 $2
+{ [%eval -9.98] } 18... Qxc3+ $2 { [%eval -8.69] } 19. Bd2 $2 { [%eval -10.5] }
+19... Qxd3 { [%eval -10.41] } 20. Bf1 { [%eval -21.17] } 20... Qxe4+
+{ [%eval -21.01] } 21. Qe2 { [%eval -20.85] } 21... Qxh1 { [%eval -20.41] } 22.
+Qxe5 { [%eval -26.22] } 22... Re8 { [%eval -25.0] } 23. Qxd4 { [%eval -35.7] }
+23... Qxg1 { [%eval -33.35] } 24. Qd3 { [%eval -34.92] } 24... Bc5+
+{ [%eval -31.75] } 25. Be3 $6 { [%eval #-13] } 25... Bb4+ { [%eval #-12] } 26.
+Kd1 { [%eval #-12] } 26... Bg4+ { [%eval #-11] } 27. Kc2 { [%eval #-14] } 27...
+Rc8+ { [%eval #-13] } 28. Kb3 { [%eval #-13] } 28... Rc3+ { [%eval -32.49] }
+29. Qxc3 $6 { [%eval #-8] } 29... Bxc3 { [%eval #-7] } 30. Kxc3 { [%eval #-8] }
+30... Qxf1 { [%eval #-14] } 31. Bxa7 { [%eval #-5] } 0-1

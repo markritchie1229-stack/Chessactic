@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nqUdVeoO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SSF7"]
+[Black "Jesus_1984"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:46:31"]
+[WhiteElo "1945"]
+[BlackElo "1864"]
+[WhiteRatingDiff "+31"]
+[BlackRatingDiff "-9"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... e6 { [%eval 0.21] } 2. e3 { [%eval 0.08] } 2... c5
+{ [%eval 0.14] } 3. dxc5 { [%eval -0.09] } 3... Bxc5 { [%eval -0.1] } 4. a3
+{ [%eval -0.05] } 4... Nf6 { [%eval 0.0] } 5. b4 { [%eval -0.43] } 5... Bb6 $6
+{ [%eval 0.14] } 6. Bb2 { [%eval 0.26] } 6... O-O { [%eval 0.33] } 7. Nf3
+{ [%eval 0.25] } 7... d6 { [%eval 0.34] } 8. Nbd2 { [%eval 0.19] } 8... e5
+{ [%eval 0.14] } 9. c4 { [%eval 0.06] } 9... a6 { [%eval 0.27] } 10. Be2
+{ [%eval 0.28] } 10... Bf5 { [%eval 0.21] } 11. O-O { [%eval 0.18] } 11... Nbd7
+{ [%eval 0.23] } 12. Rc1 { [%eval 0.07] } 12... Rc8 { [%eval 0.21] } 13. Nb3
+{ [%eval 0.0] } 13... e4 $6 { [%eval 0.81] } 14. Nfd4 $6 { [%eval 0.03] } 14...
+Bg6 { [%eval 0.14] } 15. c5 $6 { [%eval -0.45] } 15... dxc5 { [%eval -0.41] }
+16. bxc5 { [%eval -0.47] } 16... Bc7 $2 { [%eval 2.45] } 17. c6
+{ [%eval 2.59] } 17... bxc6 { [%eval 3.01] } 18. Nxc6 { [%eval 2.85] } 18...
+Qe8 { [%eval 2.88] } 19. Bxa6 { [%eval 2.66] } 19... Ra8 { [%eval 2.7] } 20.
+Bb7 { [%eval 2.55] } 20... Ra4 $4 { [%eval 5.98] } 21. Nbd4 $2 { [%eval 3.66] }
+21... Nb6 { [%eval 3.54] } 22. Nb4 $2 { [%eval 1.78] } 22... Be5 $2
+{ [%eval 4.62] } 23. Bc6 { [%eval 4.45] } 23... Qd8 $2 { [%eval 7.18] } 24.
+Bxa4 { [%eval 6.87] } 24... Bxd4 $2 { [%eval 8.46] } 25. Bxd4 { [%eval 8.47] }
+25... Nxa4 { [%eval 8.39] } 26. Qxa4 { [%eval 8.21] } 26... Ng4 $6
+{ [%eval 8.97] } 27. h3 { [%eval 8.87] } 27... Nh6 { [%eval 8.88] } 28. Nc6
+{ [%eval 8.61] } 28... Qg5 $2 { [%eval 14.89] } 29. Bc5 { [%eval 14.16] } 29...
+Rc8 { [%eval 22.8] } 30. Ne7+ { [%eval 20.97] } 30... Kh8 { [%eval 20.19] } 31.
+Nxc8 { [%eval 17.26] } 31... Nf5 $6 { [%eval #1] } 32. Qe8# 1-0

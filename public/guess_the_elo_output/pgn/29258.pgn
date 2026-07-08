@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Uq2fS8iT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Neadekvat"]
+[Black "Dinnerkolya"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:13:35"]
+[WhiteElo "1754"]
+[BlackElo "1799"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.22] } 1... g6 $6 { [%eval 0.33] } 2. Nf3 { [%eval -0.12] }
+2... Bg7 { [%eval 0.28] } 3. d3 { [%eval -0.18] } 3... d6 { [%eval 0.04] } 4.
+e4 { [%eval 0.1] } 4... Nc6 { [%eval 0.46] } 5. c3 $6 { [%eval -0.04] } 5...
+Bg4 $6 { [%eval 0.61] } 6. g3 { [%eval 0.13] } 6... h5 { [%eval 0.45] } 7. Bg2
+$6 { [%eval -0.14] } 7... Qd7 $6 { [%eval 0.38] } 8. O-O $6 { [%eval -0.39] }
+8... Bf6 $6 { [%eval 0.34] } 9. Qe1 { [%eval 0.02] } 9... h4 { [%eval 0.06] }
+10. gxh4 { [%eval -0.16] } 10... Bh3 { [%eval 0.04] } 11. Ng5 { [%eval -0.32] }
+11... Bxg2 { [%eval -0.14] } 12. Kxg2 { [%eval -0.23] } 12... Bxg5
+{ [%eval 0.0] } 13. fxg5 { [%eval 0.0] } 13... Qg4+ { [%eval 0.27] } 14. Kh1 $6
+{ [%eval -0.64] } 14... Rxh4 $2 { [%eval 1.85] } 15. Rg1 $4 { [%eval -1.47] }
+15... Qh3 $6 { [%eval -0.77] } 16. Rg2 $2 { [%eval -1.81] } 16... Qxd3 $2
+{ [%eval 0.0] } 17. Qxh4 { [%eval 0.0] } 17... O-O-O $4 { [%eval 4.59] } 18.
+Qg4+ { [%eval 4.24] } 18... Kb8 { [%eval 4.47] } 19. Na3 { [%eval 4.33] } 19...
+Qd1+ $4 { [%eval 16.65] } 20. Rg1 $4 { [%eval 4.28] } 20... Qd3
+{ [%eval 4.38] } 21. Bf4 $2 { [%eval 3.11] } 21... Ne5 $4 { [%eval 9.51] } 22.
+Bxe5 { [%eval 9.25] } 22... dxe5 $6 { [%eval 14.66] } 23. Rad1
+{ [%eval 13.83] } 1-0

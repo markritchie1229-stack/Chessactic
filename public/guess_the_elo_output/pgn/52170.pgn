@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/McJvXCJk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rowxak"]
+[Black "danolo"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:09:39"]
+[WhiteElo "1668"]
+[BlackElo "1370"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-3"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.12] } 2. d4 { [%eval 0.13] } 2... d5
+{ [%eval 0.27] } 3. exd5 { [%eval 0.14] } 3... exd5 { [%eval 0.14] } 4. c4
+{ [%eval 0.16] } 4... Nf6 { [%eval 0.11] } 5. Nc3 { [%eval 0.16] } 5... Nc6
+{ [%eval 0.22] } 6. Nf3 { [%eval 0.27] } 6... Bf5 { [%eval 0.45] } 7. a3
+{ [%eval 0.16] } 7... Bd6 $6 { [%eval 0.93] } 8. Be2 $6 { [%eval -0.04] } 8...
+O-O $6 { [%eval 0.53] } 9. O-O $6 { [%eval -0.07] } 9... Re8 $6
+{ [%eval 0.84] } 10. Bg5 $6 { [%eval 0.0] } 10... h6 $2 { [%eval 1.03] } 11.
+Bh4 $6 { [%eval 0.1] } 11... g5 { [%eval 0.3] } 12. Bg3 { [%eval 0.05] } 12...
+Ne4 $2 { [%eval 1.2] } 13. Nxd5 { [%eval 1.33] } 13... Nxg3 { [%eval 1.68] }
+14. hxg3 $2 { [%eval 0.4] } 14... Bxg3 $4 { [%eval 4.52] } 15. fxg3
+{ [%eval 4.18] } 15... Bg4 $4 { [%eval 8.56] } 16. Ne5 { [%eval 8.0] } 16...
+Nxe5 $6 { [%eval 8.51] } 17. dxe5 $2 { [%eval 6.9] } 17... Rxe5 $4
+{ [%eval 11.88] } 18. Bxg4 { [%eval 11.29] } 18... c6 { [%eval 17.68] } 19.
+Nf6+ { [%eval 16.83] } 19... Kg7 { [%eval 15.74] } 20. Qxd8 $2 { [%eval 8.45] }
+20... Rxd8 { [%eval 8.39] } 21. Nh5+ { [%eval 8.0] } 21... Kh7 $2
+{ [%eval #8] } 22. Bf5+ $2 { [%eval 8.18] } 22... Kh8 $6 { [%eval 8.84] } 23.
+Rae1 { [%eval 8.53] } 23... Rxe1 { [%eval 8.94] } 24. Rxe1 { [%eval 8.71] }
+24... Rd2 $2 { [%eval #1] } 25. Re8# 1-0

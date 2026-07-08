@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/jWY5IBby"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MICKEYMOUSE_666"]
+[Black "uneven"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:58:33"]
+[WhiteElo "1740"]
+[BlackElo "1681"]
+[WhiteRatingDiff "+46"]
+[BlackRatingDiff "-9"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.3] } 2. Bc4 { [%eval 0.04] } 2... Nc6
+{ [%eval 0.29] } 3. Qf3 $6 { [%eval -0.3] } 3... Nf6 { [%eval -0.28] } 4. d3 $6
+{ [%eval -0.95] } 4... d6 $6 { [%eval -0.33] } 5. Bg5 { [%eval -0.58] } 5...
+Bg4 $6 { [%eval 0.29] } 6. Bxf6 $4 { [%eval -2.87] } 6... Bxf3 { [%eval -3.0] }
+7. Bxd8 { [%eval -2.99] } 7... Bxg2 { [%eval -2.92] } 8. Bh4 { [%eval -3.01] }
+8... Bxh1 { [%eval -2.77] } 9. Ne2 { [%eval -3.18] } 9... Bf3 { [%eval -3.06] }
+10. Nd2 { [%eval -3.26] } 10... Bxe2 { [%eval -3.26] } 11. Kxe2
+{ [%eval -3.22] } 11... Nd4+ { [%eval -3.06] } 12. Kd1 { [%eval -3.25] } 12...
+f6 $6 { [%eval -2.52] } 13. c3 { [%eval -2.56] } 13... Nc6 { [%eval -2.45] }
+14. Bg3 { [%eval -2.64] } 14... O-O-O { [%eval -2.35] } 15. Kc2
+{ [%eval -2.52] } 15... Na5 $6 { [%eval -1.99] } 16. Bd5 { [%eval -2.2] } 16...
+c6 $2 { [%eval 0.78] } 17. Be6+ { [%eval 0.8] } 17... Kc7 { [%eval 0.78] } 18.
+b4 { [%eval 0.78] } 18... d5 $6 { [%eval 1.49] } 19. bxa5 { [%eval 1.39] }
+19... dxe4 $6 { [%eval 1.98] } 20. Nxe4 { [%eval 1.87] } 20... Rd6 $2
+{ [%eval 3.3] } 21. Nxd6 { [%eval 3.23] } 21... Kxd6 $2 { [%eval 4.28] } 22.
+Bb3 $2 { [%eval 3.23] } 22... Be7 $2 { [%eval 4.99] } 23. f4 $6 { [%eval 4.0] }
+23... Rd8 $2 { [%eval 5.27] } 24. fxe5+ { [%eval 5.09] } 24... fxe5
+{ [%eval 5.38] } 25. Rd1 $6 { [%eval 4.51] } 25... Bf6 $6 { [%eval 5.1] } 26.
+d4 { [%eval 4.72] } 26... Kc7 $2 { [%eval 6.46] } 27. dxe5 { [%eval 6.16] }
+27... Rxd1 $4 { [%eval #11] } 28. exf6+ { [%eval #10] } 1-0

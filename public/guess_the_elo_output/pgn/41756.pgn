@@ -1,0 +1,33 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/jMXwN0Wl"]
+[Site "https://lichess.org/mX1VcDoD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LZBrandt"]
+[Black "SAlberto"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:12:21"]
+[WhiteElo "1939"]
+[BlackElo "1726"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c5 { [%eval 0.37] } 2. Nf3 { [%eval 0.36] } 2... d6
+{ [%eval 0.37] } 3. d4 { [%eval 0.37] } 3... cxd4 { [%eval 0.4] } 4. Nxd4
+{ [%eval 0.35] } 4... Nf6 { [%eval 0.32] } 5. Nc3 { [%eval 0.23] } 5... a6
+{ [%eval 0.3] } 6. f3 { [%eval 0.22] } 6... e5 { [%eval 0.31] } 7. Nb3
+{ [%eval 0.25] } 7... Be7 { [%eval 0.19] } 8. Bg5 { [%eval 0.0] } 8... Nc6
+{ [%eval 0.38] } 9. Qd2 { [%eval 0.43] } 9... O-O { [%eval 0.61] } 10. O-O-O
+{ [%eval 0.37] } 10... b5 $6 { [%eval 1.05] } 11. Bxf6 { [%eval 0.93] } 11...
+Bxf6 { [%eval 0.96] } 12. Nd5 $2 { [%eval -1.04] } 12... Bb7 $2
+{ [%eval 1.04] } 13. Nxf6+ { [%eval 0.88] } 13... Qxf6 { [%eval 0.76] } 14.
+Qxd6 { [%eval 0.86] } 14... Qxd6 $6 { [%eval 1.47] } 15. Rxd6 { [%eval 1.36] }
+15... Nd4 $6 { [%eval 2.27] } 16. Nxd4 { [%eval 2.24] } 16... exd4
+{ [%eval 2.33] } 17. Rxd4 { [%eval 2.27] } 17... Rfd8 { [%eval 2.49] } 18.
+Rxd8+ { [%eval 2.39] } 18... Rxd8 { [%eval 2.39] } 19. Be2 { [%eval 2.44] }
+19... g6 $6 { [%eval 3.0] } 20. Rd1 { [%eval 2.86] } 20... Kg7 $4
+{ [%eval 11.66] } 21. Rxd8 { [%eval 11.28] } 1-0

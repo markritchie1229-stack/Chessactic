@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/kYmO8gSt"]
+[Site "https://lichess.org/kPfDFVob"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NgaPeja"]
+[Black "Xeibi"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:59:21"]
+[WhiteElo "1881"]
+[BlackElo "2394"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+2"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.23] } 2. d4 { [%eval 0.21] } 2... d5
+{ [%eval 0.17] } 3. exd5 { [%eval 0.0] } 3... exd5 { [%eval 0.11] } 4. Nf3
+{ [%eval 0.14] } 4... Nf6 { [%eval 0.19] } 5. c4 { [%eval 0.22] } 5... c6
+{ [%eval 0.16] } 6. Qb3 { [%eval -0.14] } 6... Bd6 { [%eval -0.06] } 7. Nc3
+{ [%eval -0.4] } 7... O-O { [%eval -0.27] } 8. Be2 { [%eval -0.41] } 8... Re8
+$6 { [%eval 0.11] } 9. O-O { [%eval 0.12] } 9... Bg4 $2 { [%eval 1.8] } 10. Bg5
+$2 { [%eval 0.35] } 10... h6 { [%eval 0.51] } 11. Bh4 { [%eval 0.28] } 11...
+Nbd7 { [%eval 0.14] } 12. Qxb7 { [%eval 0.18] } 12... Rb8 { [%eval 0.2] } 13.
+Qxc6 { [%eval 0.12] } 13... Rxb2 $2 { [%eval 3.06] } 14. Qxd6 { [%eval 3.11] }
+14... Rbxe2 $6 { [%eval 4.0] } 15. Nxe2 { [%eval 3.81] } 15... Rxe2
+{ [%eval 3.72] } 16. cxd5 $6 { [%eval 3.1] } 16... Bxf3 { [%eval 3.16] } 17.
+gxf3 { [%eval 2.7] } 17... g5 $2 { [%eval 3.84] } 18. Bg3 { [%eval 3.72] }
+18... Re8 $6 { [%eval 4.68] } 19. Be5 $2 { [%eval 2.7] } 19... Nxe5 $2
+{ [%eval 3.71] } 20. Qxd8 $4 { [%eval -2.28] } 20... Rxd8 $4 { [%eval 4.24] }
+21. dxe5 { [%eval 4.4] } 21... Nxd5 { [%eval 4.3] } 22. Rfd1 { [%eval 4.14] }
+22... Kf8 { [%eval 4.15] } 23. Rd4 $6 { [%eval 3.31] } 23... Ke7
+{ [%eval 3.56] } 24. Rad1 { [%eval 3.39] } 24... Ke6 { [%eval 3.22] } 25. Kg2
+$6 { [%eval 2.46] } 25... Rd7 $6 { [%eval 3.43] } 26. Kg3 { [%eval 3.2] } 26...
+h5 $2 { [%eval 5.52] } 27. h3 $2 { [%eval 3.56] } 27... h4+ $2 { [%eval 4.93] }
+28. Kg4 { [%eval 4.87] } 28... Ne3+ $4 { [%eval #38] } 29. fxe3
+{ [%eval 59.0] } 29... Rxd4+ $6 { [%eval #39] } 30. Rxd4 { [%eval 117.22] }
+30... f5+ { [%eval 122.9] } 0-1

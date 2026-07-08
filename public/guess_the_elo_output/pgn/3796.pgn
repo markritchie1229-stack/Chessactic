@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/4393TakU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StudyBreak"]
+[Black "cherries"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:31:55"]
+[WhiteElo "1835"]
+[BlackElo "2122"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+4"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Reversed Alekhine"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 { [%eval 0.22] } 1... e5 $6 { [%eval 0.93] } 2. g3 $2 { [%eval -0.14] }
+2... e4 { [%eval -0.08] } 3. Ng1 { [%eval -0.39] } 3... d5 { [%eval -0.43] } 4.
+f3 $6 { [%eval -1.04] } 4... f5 { [%eval -0.56] } 5. fxe4 { [%eval -0.83] }
+5... fxe4 { [%eval -0.64] } 6. Bg2 { [%eval -1.05] } 6... Nf6 { [%eval -0.91] }
+7. e3 $6 { [%eval -1.6] } 7... Bc5 $6 { [%eval -0.95] } 8. b3 $2
+{ [%eval -2.72] } 8... O-O { [%eval -2.7] } 9. Bb2 { [%eval -3.1] } 9... Nc6
+{ [%eval -2.66] } 10. d4 $4 { [%eval -6.5] } 10... Bd6 $4 { [%eval -2.27] } 11.
+Nd2 $4 { [%eval -6.58] } 11... Ng4 { [%eval -6.16] } 12. h3 $4 { [%eval #-4] }
+12... Nxe3 $6 { [%eval -14.97] } 13. Qe2 $6 { [%eval #-8] } 13... Nxc2+ $2
+{ [%eval -9.61] } 14. Kd1 { [%eval -9.82] } 14... N2xd4 $2 { [%eval -8.8] } 15.
+Qe3 $2 { [%eval -12.21] } 15... Be5 $6 { [%eval -9.35] } 16. Kc1 $6
+{ [%eval -11.74] } 16... Qf6 { [%eval -11.49] } 17. Ne2 { [%eval -18.37] }
+17... Nxe2+ { [%eval -18.02] } 18. Qxe2 { [%eval -18.27] } 18... Bxb2+
+{ [%eval -17.79] } 19. Kc2 { [%eval -31.11] } 19... Bxa1 { [%eval -20.57] } 20.
+Rxa1 $6 { [%eval #-10] } 20... Qxa1 { [%eval -37.26] } 21. g4 $6
+{ [%eval #-1] } 21... Qxa2+ $6 { [%eval #-8] } 22. Kc3 { [%eval #-2] } 22...
+d4+ $6 { [%eval #-3] } 23. Kc4 { [%eval #-3] } 23... Be6+ { [%eval #-2] } 24.
+Kb5 { [%eval #-1] } 24... Qa6+ $6 { [%eval #-1] } 25. Kc5 { [%eval #-1] } 25...
+b6+ $6 { [%eval #-4] } 0-1

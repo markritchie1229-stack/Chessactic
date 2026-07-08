@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/PuYBMqSh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sightf2"]
+[Black "mahmod67890"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:31:59"]
+[WhiteElo "1313"]
+[BlackElo "1400"]
+[WhiteRatingDiff "+36"]
+[BlackRatingDiff "-13"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d6 { [%eval 0.51] } 2. e4 { [%eval 0.46] } 2... e6
+{ [%eval 0.62] } 3. c4 { [%eval 0.54] } 3... a6 { [%eval 0.77] } 4. Nc3
+{ [%eval 0.77] } 4... h6 { [%eval 0.81] } 5. Bd3 { [%eval 0.74] } 5... c6
+{ [%eval 0.86] } 6. Nge2 { [%eval 0.75] } 6... Nd7 { [%eval 0.84] } 7. O-O
+{ [%eval 0.85] } 7... Ngf6 { [%eval 0.85] } 8. h3 { [%eval 0.69] } 8... Be7
+{ [%eval 0.92] } 9. e5 $2 { [%eval -0.69] } 9... dxe5 { [%eval -0.55] } 10.
+dxe5 $2 { [%eval -1.72] } 10... Ng8 $4 { [%eval 1.39] } 11. f4 { [%eval 1.18] }
+11... Bb4 $6 { [%eval 1.76] } 12. a3 { [%eval 1.57] } 12... Bxc3
+{ [%eval 1.87] } 13. Nxc3 { [%eval 1.82] } 13... Nc5 $6 { [%eval 2.44] } 14.
+Bc2 { [%eval 2.38] } 14... Qxd1 { [%eval 2.45] } 15. Rxd1 { [%eval 2.14] }
+15... Bd7 $4 { [%eval 5.49] } 16. b4 { [%eval 5.45] } 16... Nb3 $2
+{ [%eval 6.58] } 17. Bxb3 { [%eval 6.41] } 17... O-O-O $2 { [%eval 8.06] } 18.
+b5 $2 { [%eval 5.41] } 18... axb5 $6 { [%eval 5.91] } 19. cxb5 { [%eval 5.47] }
+19... cxb5 $6 { [%eval 6.24] } 20. Be3 { [%eval 6.07] } 20... Ne7
+{ [%eval 6.35] } 21. Bb6 { [%eval 5.87] } 21... Rde8 $6 { [%eval 6.54] } 22. a4
+{ [%eval 6.42] } 22... bxa4 $4 { [%eval 16.87] } 23. Bxa4 { [%eval 15.47] }
+23... Bxa4 { [%eval 21.83] } 24. Rxa4 { [%eval 19.72] } 24... Kb8
+{ [%eval 17.94] } 25. Rda1 { [%eval 15.22] } 25... Nd5 $6 { [%eval #1] } 26.
+Ra8# 1-0

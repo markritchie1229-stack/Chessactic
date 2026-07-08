@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/raShmLdi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "matnl"]
+[Black "Mistakechess"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:17:37"]
+[WhiteElo "1581"]
+[BlackElo "1597"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.47] } 1... g6 { [%eval 0.66] } 2. d4 { [%eval 0.64] } 2... Bg7
+{ [%eval 0.62] } 3. c3 { [%eval 0.56] } 3... d6 { [%eval 0.52] } 4. f4
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.33] } 5. e5 { [%eval 0.15] } 5... Nd5
+{ [%eval 0.26] } 6. Nf3 { [%eval 0.16] } 6... O-O { [%eval 0.17] } 7. c4 $6
+{ [%eval -0.59] } 7... Nb6 { [%eval -0.43] } 8. Nc3 { [%eval -0.48] } 8... Bg4
+$6 { [%eval 0.32] } 9. h3 { [%eval 0.14] } 9... Bxf3 { [%eval 0.11] } 10. Qxf3
+{ [%eval 0.2] } 10... dxe5 $6 { [%eval 0.73] } 11. Qxb7 $2 { [%eval -1.57] }
+11... exd4 { [%eval -1.43] } 12. Nb5 $2 { [%eval -2.75] } 12... N8d7
+{ [%eval -2.42] } 13. Qxc7 { [%eval -2.44] } 13... Qxc7 $2 { [%eval -1.16] }
+14. Nxc7 { [%eval -1.46] } 14... Rac8 { [%eval -1.47] } 15. Nb5
+{ [%eval -1.41] } 15... Nxc4 { [%eval -0.97] } 16. Nxa7 { [%eval -0.91] } 16...
+Rb8 $4 { [%eval 3.26] } 17. Bxc4 { [%eval 3.28] } 17... Rb7 { [%eval 3.45] }
+18. Nb5 { [%eval 3.42] } 18... Nb6 { [%eval 3.34] } 19. Bd3 { [%eval 3.41] }
+19... Rc8 $6 { [%eval 4.0] } 20. O-O { [%eval 3.8] } 20... e6 $2
+{ [%eval 5.01] } 21. Bd2 $6 { [%eval 4.4] } 21... Nd5 { [%eval 4.47] } 22. Rac1
+{ [%eval 4.31] } 22... Rcb8 { [%eval 4.47] } 23. a4 { [%eval 4.35] } 23... Nb6
+$2 { [%eval 5.41] } 24. Be4 { [%eval 5.27] } 24... Nxa4 $4 { [%eval 8.95] } 25.
+Bxb7 { [%eval 8.73] } 25... Rxb7 $6 { [%eval 9.27] } 26. Rc8+ { [%eval 9.15] }
+26... Bf8 { [%eval 8.91] } 27. Nd6 $2 { [%eval 6.37] } 1-0

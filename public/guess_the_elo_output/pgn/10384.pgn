@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/3rhA6lut"]
+[Date "????.??.??"]
+[Round "?"]
+[White "im133"]
+[Black "guzik87"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:17:31"]
+[WhiteElo "1993"]
+[BlackElo "2022"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... d5 $6 { [%eval 0.75] } 2. e5 $6 { [%eval -0.02] }
+2... Bf5 { [%eval 0.16] } 3. f4 { [%eval -0.17] } 3... e6 { [%eval -0.47] } 4.
+Nf3 { [%eval -0.46] } 4... c5 { [%eval -0.16] } 5. d3 { [%eval -0.58] } 5...
+Nc6 { [%eval -0.53] } 6. g3 { [%eval -0.58] } 6... Qc7 { [%eval -0.3] } 7. Bg2
+{ [%eval -0.51] } 7... O-O-O { [%eval -0.5] } 8. O-O { [%eval -0.43] } 8... f6
+{ [%eval -0.2] } 9. Qe1 { [%eval -0.46] } 9... h6 { [%eval -0.2] } 10. c3 $2
+{ [%eval -1.73] } 10... Nge7 $2 { [%eval -0.46] } 11. d4 { [%eval -0.31] }
+11... Bd3 $6 { [%eval 0.19] } 12. Rf2 { [%eval -0.11] } 12... cxd4
+{ [%eval -0.1] } 13. Nxd4 { [%eval -0.17] } 13... Nxd4 { [%eval -0.05] } 14.
+cxd4 { [%eval -0.12] } 14... Be4 $6 { [%eval 0.73] } 15. Bxe4 $6
+{ [%eval 0.03] } 15... dxe4 { [%eval 0.11] } 16. Nc3 { [%eval 0.32] } 16... f5
+{ [%eval 0.17] } 17. Nb5 $6 { [%eval -0.58] } 17... Qb6 { [%eval -0.64] } 18.
+Nd6+ { [%eval -0.71] } 18... Rxd6 { [%eval -0.75] } 19. exd6 { [%eval -0.81] }
+19... Qxd6 { [%eval -0.61] } 20. Qc3+ { [%eval -1.04] } 20... Kb8
+{ [%eval -0.89] } 21. Rc2 { [%eval -0.93] } 21... Nc6 $6 { [%eval 0.0] } 22.
+Be3 { [%eval 0.0] } 22... Be7 { [%eval 0.0] } 23. Rd1 $2 { [%eval -1.13] }
+23... Bf6 $2 { [%eval 0.0] } 24. Qc5 { [%eval 0.0] } 24... Qc7 $2
+{ [%eval 1.84] } 25. b4 $6 { [%eval 0.91] } 25... Rd8 $4 { [%eval 5.0] } 26. b5
+{ [%eval 4.6] } 1-0

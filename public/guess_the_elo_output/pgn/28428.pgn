@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/olrzjuUr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "shimc"]
+[Black "Daniel002"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:50:57"]
+[WhiteElo "1681"]
+[BlackElo "1640"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.27] } 2... Nc6
+{ [%eval 0.42] } 3. a3 { [%eval -0.03] } 3... Bc5 { [%eval 0.2] } 4. Nc3
+{ [%eval 0.12] } 4... d6 { [%eval 0.17] } 5. h3 { [%eval 0.0] } 5... Nf6
+{ [%eval 0.0] } 6. Bc4 { [%eval 0.0] } 6... O-O { [%eval 0.0] } 7. d3
+{ [%eval 0.0] } 7... h6 { [%eval 0.18] } 8. Bd2 { [%eval -0.07] } 8... Ne7
+{ [%eval 0.09] } 9. Qc1 { [%eval 0.08] } 9... Ng6 { [%eval 0.33] } 10. Bxh6
+{ [%eval 0.51] } 10... gxh6 { [%eval 0.63] } 11. Qxh6 { [%eval 0.7] } 11... Nh7
+$2 { [%eval 3.26] } 12. Qxg6+ { [%eval 3.22] } 12... Kh8 { [%eval 3.34] } 13.
+Qh5 { [%eval 3.09] } 13... Qf6 { [%eval 3.22] } 14. h4 $6 { [%eval 2.36] }
+14... Rg8 $6 { [%eval 3.32] } 15. Ng5 $2 { [%eval 2.06] } 15... Qxf2+
+{ [%eval 1.97] } 16. Kd1 { [%eval 2.15] } 16... Rg7 { [%eval 2.06] } 17. Nxf7+
+{ [%eval 1.95] } 17... Rxf7 { [%eval 2.12] } 18. Bxf7 $4 { [%eval -4.93] }
+18... Bd7 $4 { [%eval 7.72] } 19. Bg6 { [%eval 7.56] } 19... Bg4+
+{ [%eval 7.64] } 20. Qxg4 { [%eval 7.47] } 20... Qf6 $2 { [%eval 11.25] } 21.
+Qh5 { [%eval 10.9] } 21... Qg7 { [%eval 10.98] } 22. Nd5 { [%eval 10.62] }
+22... Rg8 { [%eval 12.14] } 23. Rf1 $4 { [%eval 5.12] } 23... Qxg6
+{ [%eval 5.36] } 24. Qxg6 { [%eval 5.25] } 24... Rxg6 { [%eval 5.18] } 25. Rg1
+$4 { [%eval -2.66] } 25... Bxg1 { [%eval -2.55] } 26. Nxc7 { [%eval -2.62] }
+26... Bb6 { [%eval -2.47] } 27. Nd5 { [%eval -2.31] } 27... Rxg2
+{ [%eval -2.4] } 28. c4 $4 { [%eval -8.84] } 28... Rg1+ { [%eval -8.59] } 0-1

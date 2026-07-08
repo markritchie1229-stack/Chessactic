@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/qDlCmZf6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Inadeguato"]
+[Black "D2_Hacker"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:10:59"]
+[WhiteElo "1779"]
+[BlackElo "1946"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-16"]
+[ECO "A00"]
+[Opening "Saragossa Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. c3 { [%eval -0.08] } 1... d5 { [%eval -0.02] } 2. e4 $6 { [%eval -0.84] }
+2... dxe4 { [%eval -0.69] } 3. f3 { [%eval -1.09] } 3... Nf6 $6
+{ [%eval -0.32] } 4. Bc4 $6 { [%eval -0.97] } 4... Be6 $2 { [%eval 0.27] } 5.
+Bxe6 { [%eval 0.16] } 5... fxe6 { [%eval 0.29] } 6. fxe4 { [%eval 0.22] } 6...
+Nxe4 $2 { [%eval 1.88] } 7. Nf3 $2 { [%eval 0.05] } 7... e5 $4 { [%eval 3.29] }
+8. O-O $4 { [%eval 0.19] } 8... Nc6 $6 { [%eval 0.91] } 9. d4 $6
+{ [%eval -0.02] } 9... exd4 { [%eval 0.0] } 10. cxd4 { [%eval -0.04] } 10...
+Nf6 { [%eval -0.06] } 11. Nc3 { [%eval -0.02] } 11... e6 { [%eval 0.02] } 12.
+Re1 { [%eval -0.16] } 12... Be7 { [%eval -0.07] } 13. Bg5 { [%eval -0.13] }
+13... O-O $6 { [%eval 0.56] } 14. Qb3 $2 { [%eval -0.94] } 14... Kh8 $2
+{ [%eval 0.51] } 15. Bh4 $2 { [%eval -0.93] } 15... Nd5 $2 { [%eval 0.29] } 16.
+Bg3 $2 { [%eval -1.06] } 16... Nxc3 $2 { [%eval 0.6] } 17. bxc3
+{ [%eval 0.55] } 17... Qd5 $6 { [%eval 1.29] } 18. Qc2 $2 { [%eval -0.12] }
+18... Bd6 { [%eval -0.13] } 19. Bxd6 { [%eval -0.24] } 19... Qxd6 $6
+{ [%eval 0.5] } 20. Rad1 $6 { [%eval 0.0] } 20... Rad8 $2 { [%eval 2.16] } 21.
+Rd2 $2 { [%eval 0.0] } 21... Qf4 $6 { [%eval 0.53] } 22. Rf2 { [%eval 0.32] }
+22... e5 { [%eval 0.26] } 23. Ref1 { [%eval 0.27] } 23... exd4 $4
+{ [%eval 7.77] } 24. Nxd4 $4 { [%eval -0.46] } 24... Nxd4 $4 { [%eval 5.79] }
+25. cxd4 $4 { [%eval -2.32] } 25... Qxf2+ $4 { [%eval 6.3] } 26. Rxf2
+{ [%eval 6.14] } 26... Rfe8 $6 { [%eval 6.93] } 27. h3 { [%eval 6.76] } 27...
+Rxd4 { [%eval 6.73] } 28. Qxc7 { [%eval 6.27] } 1-0

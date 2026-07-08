@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/da6yH2GQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MasterNura"]
+[Black "jimmyjimbob"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:31:50"]
+[WhiteElo "1732"]
+[BlackElo "1883"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[ECO "C53"]
+[Opening "Italian Game: Classical Variation, Giuoco Pianissimo"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.38] } 3. Bc4 { [%eval 0.29] } 3... Nf6 { [%eval 0.32] } 4. d3
+{ [%eval 0.25] } 4... Bc5 { [%eval 0.19] } 5. c3 { [%eval 0.19] } 5... d6
+{ [%eval 0.29] } 6. h3 { [%eval 0.2] } 6... h6 { [%eval 0.28] } 7. Bb3
+{ [%eval 0.1] } 7... Be6 { [%eval 0.42] } 8. Bc2 { [%eval -0.05] } 8... Qd7
+{ [%eval 0.31] } 9. Nbd2 { [%eval 0.14] } 9... O-O-O { [%eval 0.54] } 10. a3
+{ [%eval 0.24] } 10... d5 { [%eval 0.12] } 11. Qe2 { [%eval -0.02] } 11... dxe4
+{ [%eval 0.27] } 12. dxe4 { [%eval -0.27] } 12... Nh5 { [%eval 0.25] } 13. Nf1
+$2 { [%eval -0.79] } 13... f5 { [%eval -0.75] } 14. Nxe5 $4 { [%eval -6.16] }
+14... Nxe5 { [%eval -5.31] } 15. Qxh5 $2 { [%eval -6.69] } 15... Nd3+ $4
+{ [%eval -1.09] } 16. Bxd3 { [%eval -1.29] } 16... Qxd3 { [%eval -1.18] } 17.
+Nd2 $2 { [%eval -2.95] } 17... Bc4 $2 { [%eval -0.14] } 18. Nxc4
+{ [%eval -0.18] } 18... Qxc4 { [%eval -0.16] } 19. Qxf5+ $6 { [%eval -1.03] }
+19... Kb8 { [%eval -0.94] } 20. Bf4 $6 { [%eval -1.86] } 20... Rhf8
+{ [%eval -2.02] } 21. Qe5 { [%eval -2.19] } 21... Bd6 { [%eval -2.04] } 22.
+Qxg7 $4 { [%eval #-11] } 22... Rxf4 $4 { [%eval -6.78] } 23. f3 $4
+{ [%eval #-13] } 23... Qd3 { [%eval #-12] } 24. Qd4 { [%eval #-6] } 24... Rxe4+
+{ [%eval #-5] } 25. Qxe4 { [%eval #-1] } 25... Bg3# 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZFOtE25M"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MARKOF"]
+[Black "farid1969"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:22:22"]
+[WhiteElo "1947"]
+[BlackElo "2237"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+3"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.17] } 1... c5 { [%eval -0.16] } 2. e4 { [%eval -0.16] } 2...
+Nc6 { [%eval -0.17] } 3. Be2 { [%eval -0.07] } 3... Nf6 { [%eval -0.04] } 4. f4
+{ [%eval 0.03] } 4... Nd4 { [%eval 0.32] } 5. c3 { [%eval 0.06] } 5... Nxe2
+{ [%eval 0.07] } 6. Qxe2 { [%eval 0.08] } 6... d6 { [%eval 0.04] } 7. f5
+{ [%eval -0.25] } 7... g6 { [%eval -0.23] } 8. fxg6 { [%eval -0.14] } 8... hxg6
+{ [%eval -0.04] } 9. h3 $6 { [%eval -0.77] } 9... Bg7 { [%eval -0.38] } 10. Nf3
+{ [%eval -0.44] } 10... Be6 { [%eval 0.01] } 11. Bg5 $6 { [%eval -0.5] } 11...
+Qa5 { [%eval -0.13] } 12. O-O { [%eval -0.09] } 12... Nd7 { [%eval -0.15] } 13.
+Nbd2 { [%eval -0.16] } 13... Qa6 { [%eval 0.09] } 14. Qf2 $2 { [%eval -1.47] }
+14... Qxd3 { [%eval -1.52] } 15. Rad1 { [%eval -1.85] } 15... Qc2
+{ [%eval -1.72] } 16. Rb1 { [%eval -1.78] } 16... f6 { [%eval -1.7] } 17. Be3
+{ [%eval -1.79] } 17... Bxa2 $2 { [%eval -0.56] } 18. Rbc1 $2 { [%eval -2.48] }
+18... Qxb2 { [%eval -2.27] } 19. Qg3 $6 { [%eval -3.19] } 19... g5 $6
+{ [%eval -2.58] } 20. Nxg5 $2 { [%eval -5.53] } 20... fxg5 { [%eval -5.47] }
+21. Qxg5 $2 { [%eval -7.2] } 21... Bxc3 { [%eval -7.09] } 22. Nf3 $2
+{ [%eval -8.46] } 22... Rg8 { [%eval -8.27] } 23. Qh5+ $2 { [%eval -12.99] }
+23... Bf7 { [%eval -12.66] } 24. Rf2 { [%eval -14.21] } 24... Bxh5
+{ [%eval -14.12] } 25. Rxb2 { [%eval -14.07] } 25... Bxb2 { [%eval -13.78] }
+26. Rb1 { [%eval -14.05] } 26... Bxf3 { [%eval -13.8] } 27. Rxb2
+{ [%eval -13.57] } 27... Bxe4 { [%eval -13.03] } 28. Kf2 $6 { [%eval #-14] }
+28... Rxg2+ { [%eval #-13] } 0-1

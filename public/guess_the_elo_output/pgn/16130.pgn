@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/DOMoGn2V"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SacrificeGaming"]
+[Black "mahmoud_avin_sevin"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:42:09"]
+[WhiteElo "1428"]
+[BlackElo "1540"]
+[WhiteRatingDiff "-42"]
+[BlackRatingDiff "+7"]
+[ECO "B25"]
+[Opening "Sicilian Defense: Closed Variation, Traditional"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.19] } 2. Nc3 { [%eval 0.12] } 2...
+Nc6 { [%eval 0.22] } 3. Nf3 { [%eval 0.22] } 3... e6 { [%eval 0.28] } 4. d4
+{ [%eval 0.19] } 4... Nf6 $2 { [%eval 1.56] } 5. dxc5 $2 { [%eval -0.07] } 5...
+Bxc5 { [%eval 0.02] } 6. Bg5 $2 { [%eval -1.03] } 6... Qb6 { [%eval -0.8] } 7.
+Qd2 { [%eval -1.07] } 7... Ng4 $2 { [%eval 0.76] } 8. O-O-O $6
+{ [%eval -0.05] } 8... Nxf2 $6 { [%eval 0.87] } 9. Be3 $4 { [%eval -14.8] }
+9... Bxe3 { [%eval -14.64] } 10. Qxe3 { [%eval -17.85] } 10... Qxe3+
+{ [%eval -17.71] } 11. Kb1 { [%eval -17.72] } 11... Nxh1 { [%eval -17.57] } 12.
+Re1 { [%eval -17.63] } 12... Qb6 { [%eval -17.38] } 13. Ng5 { [%eval -18.28] }
+13... Nf2 { [%eval -17.98] } 14. Bd3 { [%eval -22.72] } 14... O-O
+{ [%eval -18.81] } 15. e5 { [%eval -22.27] } 15... h6 { [%eval -20.61] } 16.
+Nf3 { [%eval -21.17] } 16... Nxd3 { [%eval -20.98] } 17. cxd3
+{ [%eval -20.72] } 17... Nd4 { [%eval -20.32] } 18. Nxd4 { [%eval -21.56] }
+18... Qxd4 { [%eval -21.12] } 19. Re4 { [%eval -24.39] } 19... Qxd3+
+{ [%eval -23.79] } 20. Kc1 { [%eval -24.13] } 20... a5 { [%eval -23.21] } 21.
+Re1 { [%eval -30.57] } 21... b5 { [%eval -29.45] } 22. Rd1 { [%eval -29.31] }
+22... Qe3+ { [%eval -27.26] } 23. Kb1 { [%eval -30.9] } 23... b4
+{ [%eval -29.4] } 24. Na4 $6 { [%eval #-7] } 24... Ba6 { [%eval #-7] } 25. b3
+{ [%eval #-6] } 25... Bd3+ { [%eval #-5] } 26. Ka1 { [%eval #-5] } 26... Qd4+
+$6 { [%eval #-5] } 27. Nb2 { [%eval #-5] } 27... Qc3 { [%eval #-4] } 28. Rxd3
+{ [%eval #-1] } 28... Qc1# 0-1

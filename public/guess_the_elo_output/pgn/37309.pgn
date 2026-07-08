@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PEbJemUM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gerardo94"]
+[Black "almanu"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:09:07"]
+[WhiteElo "1379"]
+[BlackElo "1270"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "1200+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.1] } 1... e6 { [%eval 0.19] } 2. Nc3 { [%eval 0.21] } 2... d6
+{ [%eval 0.38] } 3. d4 { [%eval 0.4] } 3... Be7 { [%eval 0.46] } 4. Bd3
+{ [%eval 0.35] } 4... Nf6 { [%eval 0.47] } 5. Nf3 { [%eval 0.42] } 5... O-O
+{ [%eval 0.44] } 6. O-O { [%eval 0.47] } 6... h6 { [%eval 0.57] } 7. e5
+{ [%eval 0.39] } 7... dxe5 { [%eval 0.61] } 8. dxe5 { [%eval 0.42] } 8... Nd5
+$6 { [%eval 1.0] } 9. Nxd5 { [%eval 0.54] } 9... exd5 { [%eval 0.68] } 10. Be3
+{ [%eval 0.27] } 10... f6 $6 { [%eval 1.14] } 11. Qe2 $2 { [%eval -0.05] }
+11... fxe5 $6 { [%eval 0.79] } 12. Nxe5 { [%eval 0.89] } 12... Bg5 $2
+{ [%eval 3.1] } 13. Bc5 $2 { [%eval 0.88] } 13... Re8 $2 { [%eval 3.73] } 14.
+Rad1 $4 { [%eval -1.02] } 14... Bf6 $2 { [%eval 1.2] } 15. Bc4 $4
+{ [%eval -2.37] } 15... Rxe5 { [%eval -2.0] } 16. Bxd5+ $4 { [%eval -7.81] }
+16... Be6 $4 { [%eval 9.88] } 17. Bxe6+ { [%eval 9.62] } 17... Rxe6
+{ [%eval 25.85] } 18. Rxd8+ { [%eval 23.43] } 18... Kf7 $6 { [%eval #7] } 19.
+Qh5+ { [%eval #9] } 19... g6 { [%eval #9] } 20. Qxh6 { [%eval #8] } 20... Bxd8
+{ [%eval #1] } 21. Qh7+ $6 { [%eval #14] } 21... Kf6 { [%eval #17] } 22. Bd4+
+{ [%eval 33.04] } 22... Kg5 $6 { [%eval #6] } 23. h4+ { [%eval #7] } 23... Kf5
+{ [%eval #7] } 24. Qf7+ { [%eval #6] } 24... Bf6 { [%eval #6] } 25. g4+
+{ [%eval #5] } 25... Ke4 { [%eval #5] } 26. Qxe6+ { [%eval #4] } 26... Kxd4
+{ [%eval #4] } 27. Qxf6+ $6 { [%eval #6] } 27... Kd5 { [%eval #5] } 28. Rd1+
+{ [%eval #4] } 28... Kc5 { [%eval #4] } 29. Qe5+ $6 { [%eval #5] } 29... Kc6
+{ [%eval #3] } 30. Qd5+ $6 { [%eval #5] } 1-0

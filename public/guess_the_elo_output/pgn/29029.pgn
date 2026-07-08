@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UeDBcICA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tiger-50"]
+[Black "DennisBee"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:52:15"]
+[WhiteElo "1880"]
+[BlackElo "1914"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-14"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense: Tartakower Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c6 { [%eval 0.35] } 2. d4 { [%eval 0.29] } 2... d5
+{ [%eval 0.41] } 3. Nc3 { [%eval 0.26] } 3... dxe4 { [%eval 0.3] } 4. Nxe4
+{ [%eval 0.31] } 4... Nf6 { [%eval 0.31] } 5. Nxf6+ { [%eval 0.25] } 5... exf6
+{ [%eval 0.37] } 6. Nf3 { [%eval 0.2] } 6... Bd6 { [%eval 0.22] } 7. Bd3
+{ [%eval 0.25] } 7... Bg4 { [%eval 0.64] } 8. O-O { [%eval 0.24] } 8... O-O
+{ [%eval 0.25] } 9. h3 { [%eval 0.24] } 9... Bh5 { [%eval 0.27] } 10. Be2
+{ [%eval 0.0] } 10... Nd7 { [%eval -0.06] } 11. b3 { [%eval -0.27] } 11... Re8
+{ [%eval -0.31] } 12. Bb2 { [%eval -0.47] } 12... Nf8 { [%eval -0.4] } 13. c4
+{ [%eval -0.54] } 13... Ne6 { [%eval -0.78] } 14. g3 $4 { [%eval -4.48] } 14...
+Qc7 $4 { [%eval -1.12] } 15. Kg2 { [%eval -1.08] } 15... Rad8 $6
+{ [%eval -0.28] } 16. Qc2 { [%eval -0.35] } 16... Bg6 { [%eval 0.09] } 17. Bd3
+{ [%eval 0.12] } 17... Rd7 { [%eval 0.24] } 18. Rad1 { [%eval 0.27] } 18... Qd8
+{ [%eval 0.47] } 19. Bxg6 { [%eval 0.33] } 19... hxg6 { [%eval 0.42] } 20. d5
+{ [%eval 0.08] } 20... cxd5 { [%eval 0.18] } 21. Rxd5 { [%eval 0.16] } 21...
+Nc5 $2 { [%eval 1.69] } 22. Rfd1 { [%eval 1.55] } 22... b6 { [%eval 1.56] } 23.
+Qc3 $2 { [%eval 0.24] } 23... Ne4 $6 { [%eval 0.75] } 24. Qd4 { [%eval 0.32] }
+24... Qc7 { [%eval 0.67] } 25. Nd2 $6 { [%eval 0.12] } 25... Nxd2 $2
+{ [%eval 2.75] } 26. Rxd2 $2 { [%eval 0.47] } 26... Qc6 { [%eval 0.53] } 27.
+Kh2 { [%eval 0.05] } 27... Red8 $4 { [%eval 3.28] } 28. Ba3 { [%eval 3.18] }
+28... Be5 $4 { [%eval 7.34] } 29. Rxd7 { [%eval 7.28] } 29... Bxd4
+{ [%eval 7.14] } 30. Rxd8+ { [%eval 6.95] } 30... Kh7 { [%eval 6.79] } 31.
+R2xd4 $6 { [%eval 5.93] } 31... Qf3 $4 { [%eval 20.82] } 32. Rh4+
+{ [%eval 16.46] } 1-0

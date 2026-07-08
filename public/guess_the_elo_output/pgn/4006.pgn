@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/e6mRq6pt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MMarzou1"]
+[Black "Chaoticbee"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:56:44"]
+[WhiteElo "1586"]
+[BlackElo "1569"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense #2"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.27] } 1... Nf6 { [%eval 0.21] } 2. c4 { [%eval 0.21] } 2... e6
+{ [%eval 0.31] } 3. Nc3 { [%eval 0.21] } 3... c5 $6 { [%eval 0.89] } 4. Bg5 $6
+{ [%eval -0.06] } 4... cxd4 { [%eval -0.08] } 5. Qxd4 { [%eval -0.14] } 5...
+Be7 { [%eval -0.07] } 6. Bxf6 { [%eval -0.19] } 6... Bxf6 { [%eval -0.1] } 7.
+Qf4 $6 { [%eval -0.66] } 7... Nc6 { [%eval -0.51] } 8. Nb5 $2 { [%eval -1.84] }
+8... e5 $2 { [%eval 0.29] } 9. Nd6+ { [%eval 0.05] } 9... Kf8 { [%eval 0.19] }
+10. Qd2 { [%eval 0.16] } 10... Be7 { [%eval 0.06] } 11. a3 $6 { [%eval -0.52] }
+11... Qc7 $6 { [%eval 0.09] } 12. Nxc8 { [%eval -0.22] } 12... Rxc8
+{ [%eval 0.0] } 13. Nf3 $2 { [%eval -1.43] } 13... Na5 $2 { [%eval -0.43] } 14.
+e4 $2 { [%eval -2.29] } 14... Nxc4 $2 { [%eval -0.62] } 15. Bxc4
+{ [%eval -1.1] } 15... Qxc4 { [%eval -1.11] } 16. Nxe5 $2 { [%eval -2.21] }
+16... Qxe4+ { [%eval -2.12] } 17. Qe3 { [%eval -2.25] } 17... Qxg2
+{ [%eval -2.12] } 18. Kd2 $4 { [%eval -14.52] } 18... Bg5 { [%eval -14.2] } 19.
+Nxd7+ { [%eval -17.72] } 19... Kg8 { [%eval -13.69] } 20. Rhg1 $6
+{ [%eval #-5] } 20... Qxf2+ { [%eval #-4] } 0-1

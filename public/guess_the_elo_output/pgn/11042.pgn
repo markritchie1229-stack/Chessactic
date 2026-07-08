@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/eDwtzqQq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RomanMirex"]
+[Black "bohser"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:51:20"]
+[WhiteElo "1595"]
+[BlackElo "1612"]
+[WhiteRatingDiff "-26"]
+[BlackRatingDiff "+9"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... g6 { [%eval 0.6] } 2. Nf3 { [%eval 0.6] } 2... Bg7
+{ [%eval 0.64] } 3. Nc3 { [%eval 0.25] } 3... Nf6 $6 { [%eval 1.12] } 4. d4 $6
+{ [%eval 0.34] } 4... d6 { [%eval 0.58] } 5. e5 $6 { [%eval -0.08] } 5... dxe5
+{ [%eval 0.06] } 6. dxe5 $6 { [%eval -0.54] } 6... Qxd1+ { [%eval -0.66] } 7.
+Nxd1 { [%eval -0.66] } 7... Nfd7 $6 { [%eval -0.1] } 8. Bf4 { [%eval -0.15] }
+8... e6 { [%eval -0.16] } 9. Bb5 { [%eval -0.36] } 9... c6 $6 { [%eval 0.47] }
+10. Bd3 { [%eval 0.23] } 10... b6 { [%eval 0.54] } 11. O-O { [%eval 0.33] }
+11... Bb7 { [%eval 0.68] } 12. Re1 { [%eval 0.36] } 12... c5 { [%eval 0.38] }
+13. Nc3 { [%eval 0.29] } 13... Bxf3 { [%eval 0.39] } 14. gxf3 { [%eval 0.39] }
+14... Nc6 { [%eval 0.5] } 15. Nb5 $2 { [%eval -0.93] } 15... O-O $6
+{ [%eval 0.0] } 16. Be4 { [%eval 0.2] } 16... Rac8 $6 { [%eval 0.87] } 17. Bxc6
+{ [%eval 0.88] } 17... Rxc6 { [%eval 0.98] } 18. Nxa7 { [%eval 0.82] } 18...
+Rc7 { [%eval 0.81] } 19. Nb5 { [%eval 0.83] } 19... Rcc8 { [%eval 0.95] } 20.
+c4 { [%eval 0.5] } 20... h5 $6 { [%eval 1.09] } 21. Rad1 { [%eval 0.81] } 21...
+Nb8 $6 { [%eval 1.53] } 22. Nd6 { [%eval 1.12] } 22... Rcd8 { [%eval 1.58] }
+23. Nb7 $2 { [%eval 0.22] } 23... Rxd1 { [%eval 0.44] } 24. Rxd1
+{ [%eval 0.39] } 24... Na6 $2 { [%eval 1.79] } 25. Rd6 { [%eval 1.79] } 25...
+Nb4 { [%eval 1.75] } 26. Rxb6 { [%eval 1.35] } 26... Nxa2 $2 { [%eval 3.44] }
+27. Nxc5 { [%eval 3.4] } 27... Rc8 { [%eval 3.18] } 28. Nd7 $2 { [%eval 0.92] }
+28... Rxc4 { [%eval 0.97] } 29. Ra6 $2 { [%eval -0.35] } 29... Nc1 $6
+{ [%eval 0.25] } 30. b4 $4 { [%eval -5.72] } 30... Nd3 $4 { [%eval -0.06] } 0-1

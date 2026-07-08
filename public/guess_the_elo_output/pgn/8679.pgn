@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4XNhPxym"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Andy_Chua"]
+[Black "jafarsoltani"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:43:39"]
+[WhiteElo "1685"]
+[BlackElo "1673"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.07] } 1... e5 { [%eval -0.07] } 2. Bg2 { [%eval -0.27] } 2...
+d5 { [%eval -0.23] } 3. d3 { [%eval -0.27] } 3... c5 { [%eval -0.08] } 4. Nf3
+{ [%eval -0.24] } 4... Nc6 { [%eval -0.22] } 5. O-O { [%eval -0.25] } 5... Bg4
+{ [%eval 0.14] } 6. Bg5 $6 { [%eval -0.47] } 6... f6 { [%eval -0.52] } 7. Bc1
+{ [%eval -0.72] } 7... Qd7 { [%eval -0.63] } 8. Nbd2 { [%eval -0.85] } 8...
+O-O-O $6 { [%eval -0.26] } 9. b3 $6 { [%eval -1.0] } 9... Bd6 $6
+{ [%eval -0.31] } 10. Bb2 { [%eval -0.33] } 10... d4 { [%eval 0.04] } 11. Nc4
+{ [%eval -0.11] } 11... Bc7 { [%eval -0.02] } 12. Ncd2 { [%eval -0.33] } 12...
+Nge7 { [%eval -0.4] } 13. Ne4 { [%eval -0.7] } 13... b6 { [%eval -0.62] } 14.
+Ned2 $6 { [%eval -1.23] } 14... h5 { [%eval -1.02] } 15. Nh4 $2
+{ [%eval -2.62] } 15... Bh3 $6 { [%eval -1.95] } 16. Ne4 { [%eval -2.19] }
+16... Bxg2 $6 { [%eval -1.44] } 17. Kxg2 $6 { [%eval -2.29] } 17... Nf5 $2
+{ [%eval -1.08] } 18. Nxf5 { [%eval -1.18] } 18... Qxf5 { [%eval -0.85] } 19.
+e3 { [%eval -0.83] } 19... h4 { [%eval -0.7] } 20. Qf3 $4 { [%eval #-4] } 20...
+hxg3 $4 { [%eval 11.65] } 21. Qxf5+ { [%eval 11.6] } 1-0

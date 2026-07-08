@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WBkIb8Iz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lebser58"]
+[Black "catzilla"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:42:57"]
+[WhiteElo "1974"]
+[BlackElo "1935"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "B89"]
+[Opening "Sicilian Defense: Velimirovic Attack"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... c5 { [%eval 0.63] } 2. e4 { [%eval 0.14] } 2...
+cxd4 { [%eval 0.25] } 3. Nf3 { [%eval -0.05] } 3... Nc6 { [%eval 0.3] } 4. Nxd4
+{ [%eval 0.19] } 4... d6 { [%eval 0.47] } 5. Bc4 { [%eval 0.22] } 5... Nf6
+{ [%eval 0.16] } 6. Nc3 { [%eval 0.19] } 6... e6 { [%eval 0.17] } 7. Be3
+{ [%eval 0.2] } 7... Be7 { [%eval 0.18] } 8. Qe2 { [%eval 0.08] } 8... a6
+{ [%eval 0.22] } 9. O-O-O { [%eval 0.0] } 9... Qc7 { [%eval 0.13] } 10. Bb3
+{ [%eval 0.0] } 10... Na5 { [%eval 0.12] } 11. Kb1 { [%eval 0.0] } 11... Nxb3
+{ [%eval 0.11] } 12. cxb3 { [%eval 0.09] } 12... O-O { [%eval 0.14] } 13. g4
+{ [%eval 0.11] } 13... b5 { [%eval 0.36] } 14. g5 { [%eval 0.3] } 14... Nd7
+{ [%eval 0.4] } 15. Rhg1 $6 { [%eval -0.51] } 15... Bb7 $6 { [%eval 0.26] } 16.
+Qg4 $6 { [%eval -0.4] } 16... Ne5 { [%eval -0.29] } 17. Qh5 $2
+{ [%eval -1.78] } 17... b4 { [%eval -1.7] } 18. Na4 { [%eval -1.87] } 18...
+Bxe4+ { [%eval -1.5] } 19. Ka1 { [%eval -1.66] } 19... Bg6 $2 { [%eval -0.65] }
+20. Qh3 { [%eval -0.65] } 20... Rac8 { [%eval -0.71] } 21. f4 { [%eval -0.75] }
+21... Nd3 $2 { [%eval 2.24] } 22. f5 { [%eval 1.79] } 22... Bxf5 $6
+{ [%eval 2.6] } 23. Nxf5 { [%eval 2.58] } 23... exf5 $2 { [%eval 3.6] } 24.
+Rxd3 { [%eval 3.5] } 24... Rfe8 $6 { [%eval 4.44] } 25. Rd4 $2 { [%eval 3.14] }
+25... Qc2 $2 { [%eval 4.18] } 26. Rh4 $2 { [%eval 2.35] } 26... f4
+{ [%eval 2.81] } 27. Bxf4 { [%eval 2.47] } 27... Bxg5 $4 { [%eval 6.57] } 28.
+Bxg5 { [%eval 6.43] } 28... Re2 $4 { [%eval #7] } 29. Rb1 $4 { [%eval #-3] }
+29... Qxb1+ { [%eval #-2] } 30. Kxb1 { [%eval #-2] } 30... Re1+ { [%eval #-1] }
+31. Bc1 { [%eval #-1] } 31... Rexc1# 0-1

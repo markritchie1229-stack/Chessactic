@@ -1,0 +1,35 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/76TreOsi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elvispy65"]
+[Black "Trxps"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:20:50"]
+[WhiteElo "1778"]
+[BlackElo "1526"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+21"]
+[ECO "B19"]
+[Opening "Caro-Kann Defense: Classical, Spassky Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c6 { [%eval 0.29] } 2. d4 { [%eval 0.29] } 2... d5
+{ [%eval 0.4] } 3. Nc3 { [%eval 0.27] } 3... dxe4 { [%eval 0.39] } 4. Nxe4
+{ [%eval 0.34] } 4... Bf5 { [%eval 0.31] } 5. Ng3 { [%eval 0.27] } 5... Bg6
+{ [%eval 0.33] } 6. h4 { [%eval 0.23] } 6... h6 { [%eval 0.2] } 7. Nf3
+{ [%eval 0.08] } 7... Nd7 { [%eval 0.16] } 8. h5 { [%eval 0.0] } 8... Bh7
+{ [%eval 0.0] } 9. Bd3 { [%eval 0.0] } 9... Bxd3 { [%eval 0.0] } 10. Qxd3
+{ [%eval 0.0] } 10... e6 { [%eval 0.07] } 11. c3 { [%eval -0.31] } 11... Ngf6
+{ [%eval -0.02] } 12. Bf4 { [%eval -0.07] } 12... Be7 { [%eval -0.03] } 13.
+O-O-O { [%eval -0.17] } 13... Qa5 { [%eval -0.07] } 14. Kb1 { [%eval -0.06] }
+14... O-O { [%eval 0.13] } 15. Ne4 { [%eval -0.07] } 15... Nxe4
+{ [%eval -0.07] } 16. Qxe4 { [%eval -0.17] } 16... Nf6 { [%eval -0.02] } 17.
+Qd3 { [%eval -0.19] } 17... Rfd8 $6 { [%eval 0.47] } 18. Ne5 { [%eval 0.24] }
+18... c5 { [%eval 0.51] } 19. Qf3 $6 { [%eval -0.43] } 19... cxd4
+{ [%eval -0.33] } 20. Qxb7 $4 { [%eval -4.19] } 20... dxc3 $2 { [%eval -2.18] }
+21. Qxe7 $4 { [%eval -5.5] } 21... c2+ { [%eval -5.38] } 22. Kxc2
+{ [%eval -5.31] } 22... Qa4+ { [%eval -4.93] } 23. Kc3 $4 { [%eval #-1] } 23...
+Ne4# 0-1

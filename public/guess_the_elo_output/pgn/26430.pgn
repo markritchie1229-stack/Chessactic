@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/YVSwSCVq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "EduardoDiaz"]
+[Black "Peter_I"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "03:00:45"]
+[WhiteElo "1379"]
+[BlackElo "1129"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.25] } 2... d5
+$6 { [%eval 0.95] } 3. Nxe5 { [%eval 0.73] } 3... f6 $2 { [%eval 3.38] } 4. Nd3
+$4 { [%eval 0.38] } 4... dxe4 { [%eval 0.52] } 5. Nf4 { [%eval 0.54] } 5... Bd6
+$6 { [%eval 1.37] } 6. d3 $6 { [%eval 0.44] } 6... g5 $2 { [%eval 1.66] } 7.
+Nd5 $6 { [%eval 0.81] } 7... c6 { [%eval 1.18] } 8. Ndc3 { [%eval 0.87] } 8...
+Bb4 $2 { [%eval 2.13] } 9. Bd2 $6 { [%eval 1.15] } 9... Ne7 $2 { [%eval 2.2] }
+10. a3 { [%eval 1.84] } 10... Bc5 $2 { [%eval 3.17] } 11. b4 $2
+{ [%eval 0.37] } 11... Bd4 { [%eval 0.41] } 12. Be2 $6 { [%eval -0.19] } 12...
+Bf5 $2 { [%eval 1.05] } 13. O-O $2 { [%eval -0.31] } 13... Nd7 $2
+{ [%eval 0.77] } 14. dxe4 { [%eval 0.86] } 14... Bxc3 $2 { [%eval 2.53] } 15.
+Bxc3 { [%eval 2.04] } 15... Bxe4 { [%eval 1.99] } 16. Qd4 $2 { [%eval 0.35] }
+16... f5 $4 { [%eval 11.22] } 17. Qxh8+ { [%eval 10.79] } 17... Kf7
+{ [%eval 17.33] } 18. Qg7+ { [%eval 10.44] } 18... Ke8 { [%eval 18.16] } 19.
+Bh5+ { [%eval 18.08] } 19... Ng6 { [%eval 17.89] } 20. Qxh7 { [%eval 17.6] }
+20... Qe7 { [%eval 17.3] } 21. Qxg6+ { [%eval 16.91] } 21... Qf7
+{ [%eval 62.18] } 1-0

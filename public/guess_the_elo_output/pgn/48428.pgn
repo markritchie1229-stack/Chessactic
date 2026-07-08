@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ktpjXLVt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Aibiyke"]
+[Black "RoghanJosh"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:39:14"]
+[WhiteElo "1321"]
+[BlackElo "1427"]
+[WhiteRatingDiff "-86"]
+[BlackRatingDiff "+6"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "0+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.18] } 2. Nf3 { [%eval 0.19] } 2... f6
+$2 { [%eval 1.29] } 3. Nc3 { [%eval 0.92] } 3... Nc6 { [%eval 0.92] } 4. Bb5
+{ [%eval 0.67] } 4... d6 { [%eval 0.95] } 5. d3 { [%eval 0.61] } 5... Bd7
+{ [%eval 0.75] } 6. Be3 { [%eval 0.47] } 6... a6 { [%eval 0.73] } 7. Ba4
+{ [%eval 0.46] } 7... b5 $6 { [%eval 1.06] } 8. Bb3 { [%eval 0.9] } 8... b4
+{ [%eval 1.23] } 9. Nd5 { [%eval 1.25] } 9... Nge7 { [%eval 1.15] } 10. Nxe7
+{ [%eval 0.89] } 10... Qxe7 $6 { [%eval 1.43] } 11. O-O $6 { [%eval 0.45] }
+11... Be6 $2 { [%eval 1.81] } 12. Bxe6 $6 { [%eval 0.94] } 12... Qxe6
+{ [%eval 1.12] } 13. c3 { [%eval 0.84] } 13... a5 { [%eval 1.16] } 14. cxb4
+{ [%eval 0.72] } 14... axb4 { [%eval 0.74] } 15. Qc2 { [%eval 0.74] } 15... Qd7
+$6 { [%eval 1.57] } 16. Rac1 $6 { [%eval 0.67] } 16... Ra6 $2 { [%eval 2.75] }
+17. Qb3 $2 { [%eval 0.85] } 17... Be7 $6 { [%eval 1.44] } 18. Rc4 $2
+{ [%eval -0.53] } 18... Na5 { [%eval -0.41] } 19. Rxc7 $4 { [%eval -4.25] }
+19... Qxc7 { [%eval -4.19] } 20. Qa4+ $6 { [%eval -4.89] } 20... Qd7
+{ [%eval -4.72] } 21. Qxd7+ $2 { [%eval -6.62] } 21... Kxd7 { [%eval -6.25] }
+22. a4 $6 { [%eval -7.18] } 22... Rc8 { [%eval -6.8] } 23. Rc1 $2
+{ [%eval -9.4] } 23... Rxc1+ { [%eval -9.33] } 24. Bxc1 { [%eval -9.16] } 24...
+Nb3 { [%eval -8.85] } 25. Be3 $6 { [%eval -9.43] } 25... Rxa4 { [%eval -9.25] }
+26. Nd2 $6 { [%eval -14.41] } 26... Nxd2 { [%eval -13.75] } 27. Bxd2 $6
+{ [%eval #-2] } 27... Ra1+ { [%eval #-1] } 28. Be1 { [%eval #-1] } 28... Rxe1#
+0-1

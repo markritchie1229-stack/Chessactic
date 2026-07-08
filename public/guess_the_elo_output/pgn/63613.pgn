@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/UxA4AOUu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "The_Chess_Doctor"]
+[Black "Panag"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:47:09"]
+[WhiteElo "1962"]
+[BlackElo "1782"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-6"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.09] } 1... d5 { [%eval 0.18] } 2. Nf3 { [%eval 0.06] } 2... e6
+{ [%eval 0.22] } 3. Bf4 { [%eval 0.07] } 3... Bd6 { [%eval 0.22] } 4. Bg3
+{ [%eval -0.02] } 4... f5 { [%eval 0.41] } 5. e3 { [%eval 0.48] } 5... Nf6
+{ [%eval 0.51] } 6. c4 { [%eval 0.5] } 6... c6 { [%eval 0.64] } 7. Nc3
+{ [%eval 0.52] } 7... O-O { [%eval 0.63] } 8. cxd5 { [%eval 0.35] } 8... exd5
+{ [%eval 0.52] } 9. Bd3 { [%eval 0.34] } 9... Ne4 { [%eval 0.59] } 10. Qc2
+{ [%eval 0.11] } 10... Nxg3 $6 { [%eval 0.77] } 11. hxg3 { [%eval 0.6] } 11...
+Be6 $6 { [%eval 1.15] } 12. O-O-O { [%eval 0.93] } 12... Na6 { [%eval 1.03] }
+13. a3 { [%eval 0.93] } 13... Nc7 { [%eval 1.17] } 14. g4 { [%eval 1.14] }
+14... g6 { [%eval 1.1] } 15. gxf5 { [%eval 0.76] } 15... Bxf5 { [%eval 0.87] }
+16. Bxf5 { [%eval 0.7] } 16... Rxf5 { [%eval 0.83] } 17. Nh4 $6
+{ [%eval 0.22] } 17... Rf7 { [%eval 0.27] } 18. e4 { [%eval -0.14] } 18... dxe4
+$6 { [%eval 0.36] } 19. Qxe4 $4 { [%eval -3.8] } 19... Nd5 $2 { [%eval -0.9] }
+20. Rd3 { [%eval -1.14] } 20... Nxc3 { [%eval -0.93] } 21. Rxc3
+{ [%eval -1.0] } 21... Be7 $2 { [%eval 1.81] } 22. Nxg6 { [%eval 1.83] } 22...
+hxg6 $4 { [%eval 9.99] } 23. Qxg6+ { [%eval 9.88] } 23... Rg7 { [%eval 9.75] }
+24. Qe6+ { [%eval 9.55] } 24... Rf7 { [%eval 9.43] } 25. Rg3+ { [%eval 9.17] }
+25... Bg5+ { [%eval 8.95] } 26. f4 { [%eval 8.31] } 26... Qe7 $2 { [%eval #7] }
+27. Rxg5+ { [%eval #6] } 27... Kf8 { [%eval #1] } 28. Rh8# 1-0

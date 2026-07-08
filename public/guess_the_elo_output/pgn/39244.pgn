@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/JQp7CY5E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bregnev"]
+[Black "VD31282"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:31:07"]
+[WhiteElo "1882"]
+[BlackElo "1885"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Gubinsky-Melts Defense"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... d5 { [%eval 0.65] } 2. exd5 { [%eval 0.71] } 2...
+Qxd5 { [%eval 0.68] } 3. Nc3 { [%eval 0.68] } 3... Qd6 { [%eval 0.75] } 4. d3
+$6 { [%eval 0.01] } 4... Nf6 { [%eval 0.11] } 5. Nf3 { [%eval 0.09] } 5... Bg4
+{ [%eval 0.52] } 6. g3 { [%eval 0.2] } 6... e6 { [%eval 0.47] } 7. Bg2
+{ [%eval 0.45] } 7... c6 { [%eval 0.54] } 8. Bf4 { [%eval 0.46] } 8... Qd8
+{ [%eval 0.44] } 9. O-O { [%eval 0.33] } 9... Bd6 { [%eval 0.17] } 10. Qd2
+{ [%eval 0.25] } 10... O-O { [%eval 0.34] } 11. Ne4 { [%eval 0.08] } 11... Nxe4
+{ [%eval 0.12] } 12. dxe4 { [%eval 0.02] } 12... Bxf4 { [%eval 0.17] } 13. Qxf4
+{ [%eval 0.11] } 13... Bxf3 { [%eval 0.1] } 14. Bxf3 { [%eval 0.11] } 14... Qb6
+{ [%eval 0.12] } 15. b3 { [%eval 0.16] } 15... Nd7 { [%eval 0.28] } 16. Bg2
+{ [%eval -0.19] } 16... Nf6 { [%eval 0.06] } 17. e5 { [%eval 0.0] } 17... Nd5
+{ [%eval 0.02] } 18. Bxd5 { [%eval 0.01] } 18... cxd5 { [%eval 0.0] } 19. Rad1
+$6 { [%eval -0.58] } 19... Rfc8 $6 { [%eval 0.27] } 20. Qg5 $2
+{ [%eval -2.02] } 20... Rxc2 { [%eval -1.83] } 21. Rd3 { [%eval -2.25] } 21...
+Rxa2 { [%eval -2.34] } 22. Rf3 { [%eval -2.45] } 22... Rb2 $2 { [%eval 0.0] }
+23. Qe7 { [%eval 0.0] } 23... Rf8 { [%eval 0.0] } 24. Rc1 { [%eval 0.0] } 24...
+Rxb3 $4 { [%eval #4] } 25. Rc8 $6 { [%eval #7] } 25... Rxc8 { [%eval #3] } 26.
+Qxf7+ { [%eval #2] } 26... Kh8 { [%eval #2] } 27. Qf8+ { [%eval #1] } 27...
+Rxf8 { [%eval #1] } 28. Rxf8# 1-0

@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/xDkvlSvp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chickenchicken"]
+[Black "pantythief"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:53:38"]
+[WhiteElo "2024"]
+[BlackElo "1901"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "B43"]
+[Opening "Sicilian Defense: Kan Variation, Knight Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.1] } 1... c5 { [%eval 0.1] } 2. Nf3 { [%eval 0.11] } 2... e6
+{ [%eval 0.3] } 3. Nc3 { [%eval 0.18] } 3... a6 { [%eval 0.38] } 4. d4
+{ [%eval 0.12] } 4... cxd4 { [%eval 0.44] } 5. Nxd4 { [%eval 0.37] } 5... Qc7
+{ [%eval 0.38] } 6. Nf3 { [%eval -0.06] } 6... Nc6 { [%eval -0.04] } 7. Bd3
+{ [%eval 0.01] } 7... h6 { [%eval 0.05] } 8. Be3 { [%eval -0.02] } 8... Nf6
+{ [%eval 0.02] } 9. h3 { [%eval -0.1] } 9... Bb4 { [%eval 0.14] } 10. e5 $6
+{ [%eval -0.72] } 10... Nxe5 { [%eval -0.62] } 11. Nxe5 $2 { [%eval -1.68] }
+11... Qxe5 $2 { [%eval -0.35] } 12. Qd2 $2 { [%eval -2.25] } 12... Qc7 $2
+{ [%eval -0.61] } 13. a3 { [%eval -0.96] } 13... Bd6 { [%eval -0.5] } 14. Bd4
+{ [%eval -0.83] } 14... e5 { [%eval -0.38] } 15. Be3 { [%eval -0.41] } 15...
+Be7 { [%eval -0.19] } 16. Ne4 $6 { [%eval -1.0] } 16... d5 { [%eval -0.95] }
+17. Nxf6+ { [%eval -1.04] } 17... gxf6 { [%eval -0.76] } 18. g4 $2
+{ [%eval -1.82] } 18... Bf8 $6 { [%eval -0.91] } 19. Bf5 $4 { [%eval -4.09] }
+19... Bxf5 { [%eval -4.12] } 20. gxf5 { [%eval -4.1] } 20... d4
+{ [%eval -4.09] } 21. O-O-O { [%eval -3.95] } 21... dxe3 { [%eval -3.87] } 22.
+fxe3 { [%eval -3.87] } 22... h5 { [%eval -3.66] } 23. e4 $4 { [%eval -13.51] }
+23... Bh6 { [%eval -13.02] } 24. Rhf1 { [%eval -15.69] } 24... Rc8
+{ [%eval -15.42] } 25. Kb1 { [%eval -15.45] } 25... Bxd2 { [%eval -15.04] } 26.
+Rxd2 { [%eval -14.72] } 26... Rg8 { [%eval -14.23] } 27. Rff2 $6
+{ [%eval #-6] } 27... Rg3 $6 { [%eval -15.19] } 28. Ka2 $6 { [%eval #-16] }
+28... Re3 $6 { [%eval -14.79] } 29. h4 $6 { [%eval #-15] } 29... Qc4+
+{ [%eval #-19] } 30. b3 { [%eval #-22] } 30... Qc3 { [%eval -17.52] } 31. Kb1
+$6 { [%eval #-3] } 31... Re1+ { [%eval #-2] } 32. Rd1 { [%eval #-2] } 1-0

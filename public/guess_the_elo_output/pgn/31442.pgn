@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/QjTKYXE2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "peterzmode"]
+[Black "Zirozo"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:01:33"]
+[WhiteElo "1591"]
+[BlackElo "1494"]
+[WhiteRatingDiff "+30"]
+[BlackRatingDiff "-53"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.35] } 2. d4 { [%eval 0.31] } 2... d5
+{ [%eval 0.26] } 3. e5 { [%eval 0.03] } 3... Qe7 $6 { [%eval 0.78] } 4. a3
+{ [%eval 0.48] } 4... g6 $6 { [%eval 1.05] } 5. g3 $6 { [%eval 0.45] } 5... Bg7
+{ [%eval 0.51] } 6. Bg2 { [%eval 0.35] } 6... f6 { [%eval 0.25] } 7. c4
+{ [%eval 0.28] } 7... Nc6 { [%eval 0.54] } 8. cxd5 { [%eval 0.26] } 8... exd5
+{ [%eval 0.27] } 9. Bxd5 $2 { [%eval -1.02] } 9... fxe5 { [%eval -0.79] } 10.
+Bxc6+ { [%eval -0.93] } 10... Bd7 $4 { [%eval 4.0] } 11. Bxd7+ { [%eval 3.72] }
+11... Kxd7 $2 { [%eval 5.79] } 12. dxe5+ { [%eval 5.78] } 12... Ke8
+{ [%eval 6.26] } 13. f4 { [%eval 6.1] } 13... g5 $2 { [%eval 7.1] } 14. Nf3
+{ [%eval 6.97] } 14... Nf6 $2 { [%eval 8.0] } 15. O-O { [%eval 7.82] } 15...
+Qc5+ { [%eval 8.24] } 16. Kg2 $6 { [%eval 7.56] } 16... Rd8 $6 { [%eval 8.06] }
+17. Qb3 $6 { [%eval 7.35] } 17... Nd5 $6 { [%eval 8.13] } 18. Nc3 $2
+{ [%eval 6.16] } 18... Ne3+ $4 { [%eval 14.45] } 19. Bxe3 { [%eval 13.66] }
+19... Qxe3 { [%eval 38.28] } 20. Rae1 $2 { [%eval 8.59] } 20... Qd3 $2
+{ [%eval #8] } 21. Nxg5 $6 { [%eval 12.09] } 21... Kf8 $6 { [%eval #1] } 22.
+Qf7# 1-0

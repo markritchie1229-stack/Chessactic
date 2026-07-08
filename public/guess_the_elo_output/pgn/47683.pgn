@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/AarzqsmU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PawnHunter"]
+[Black "Tal_is_amazing"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:44:56"]
+[WhiteElo "1692"]
+[BlackElo "1695"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.32] } 2... d6
+{ [%eval 0.35] } 3. d3 { [%eval 0.05] } 3... Nf6 { [%eval 0.02] } 4. g3
+{ [%eval 0.09] } 4... Nc6 { [%eval 0.09] } 5. Bg2 { [%eval 0.0] } 5... e6
+{ [%eval 0.14] } 6. O-O { [%eval 0.0] } 6... Be7 { [%eval 0.0] } 7. Nbd2
+{ [%eval -0.09] } 7... Rb8 { [%eval 0.13] } 8. c3 { [%eval 0.1] } 8... a6
+{ [%eval 0.27] } 9. Re1 { [%eval 0.22] } 9... b5 { [%eval 0.26] } 10. Nf1
+{ [%eval 0.14] } 10... Qb6 { [%eval 0.41] } 11. h4 { [%eval -0.07] } 11... c4
+$6 { [%eval 0.82] } 12. d4 $6 { [%eval 0.32] } 12... O-O { [%eval 0.37] } 13.
+N1h2 { [%eval 0.01] } 13... Bb7 $6 { [%eval 0.57] } 14. Be3 { [%eval 0.23] }
+14... Qc7 { [%eval 0.54] } 15. Bh3 $2 { [%eval -1.12] } 15... d5 $2
+{ [%eval 1.33] } 16. e5 $2 { [%eval -0.1] } 16... Nd7 $2 { [%eval 1.08] } 17.
+Ng5 $6 { [%eval 0.45] } 17... Nd8 $6 { [%eval 1.18] } 18. Bf4 { [%eval 0.72] }
+18... h6 { [%eval 1.0] } 19. Ngf3 { [%eval 0.96] } 19... b4 { [%eval 0.91] }
+20. Ng4 { [%eval 0.68] } 20... h5 $2 { [%eval 3.36] } 21. Nh6+ $2
+{ [%eval 0.83] } 21... Kh7 $2 { [%eval 2.56] } 22. Qc2+ $2 { [%eval 1.37] }
+22... g6 $6 { [%eval 2.35] } 23. Ng5+ { [%eval 2.08] } 23... Bxg5
+{ [%eval 2.19] } 24. Bxg5 { [%eval 2.0] } 24... f6 { [%eval 2.22] } 25. exf6
+{ [%eval 2.37] } 25... Nxf6 { [%eval 2.98] } 26. Bxe6 $2 { [%eval 1.42] } 26...
+Nxe6 { [%eval 1.78] } 27. Rxe6 { [%eval 1.76] } 27... Ne4 $2 { [%eval 3.14] }
+28. Re1 $2 { [%eval 1.33] } 28... Rxf2 $4 { [%eval 10.54] } 29. Qb1 $4
+{ [%eval #-2] } 29... Qxg3+ { [%eval #-1] } 0-1

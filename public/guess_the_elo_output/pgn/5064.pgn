@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/pxzLYfDJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "juraj42"]
+[Black "flyingbrick"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:00:15"]
+[WhiteElo "1337"]
+[BlackElo "1203"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+73"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.34] } 2... Nc6
+{ [%eval 0.39] } 3. Bc4 { [%eval 0.16] } 3... Nf6 { [%eval 0.18] } 4. d3
+{ [%eval 0.18] } 4... d5 { [%eval 0.45] } 5. exd5 { [%eval 0.36] } 5... Nxd5
+{ [%eval 0.59] } 6. Bxd5 $6 { [%eval -0.28] } 6... Qxd5 { [%eval -0.2] } 7. Nc3
+{ [%eval -0.29] } 7... Qd6 { [%eval -0.41] } 8. Ne4 { [%eval -0.83] } 8... Qd7
+{ [%eval -0.34] } 9. Be3 { [%eval -0.56] } 9... f5 { [%eval -0.57] } 10. Nc3
+{ [%eval -0.51] } 10... Nd4 $4 { [%eval 2.56] } 11. Bxd4 $2 { [%eval 0.47] }
+11... exd4 { [%eval 0.72] } 12. Ne2 $6 { [%eval 0.16] } 12... Bd6
+{ [%eval 0.41] } 13. Nfxd4 { [%eval 0.03] } 13... O-O { [%eval 0.0] } 14. h3
+{ [%eval -0.33] } 14... c5 { [%eval 0.08] } 15. Nb3 $6 { [%eval -0.47] } 15...
+b5 { [%eval -0.02] } 16. c4 { [%eval -0.06] } 16... bxc4 { [%eval 0.0] } 17.
+dxc4 { [%eval 0.0] } 17... Ba6 $2 { [%eval 1.5] } 18. Qc2 $2 { [%eval -0.23] }
+18... Rfe8 { [%eval -0.22] } 19. O-O { [%eval -0.28] } 19... Bb7 $6
+{ [%eval 0.6] } 20. a3 $2 { [%eval -0.84] } 20... Be4 { [%eval -0.72] } 21. Qd2
+{ [%eval -0.96] } 21... Bh2+ $4 { [%eval 2.83] } 0-1

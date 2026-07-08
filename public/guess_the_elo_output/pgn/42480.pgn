@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/i1hY8KKP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "topspin15"]
+[Black "niris1982"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:40:53"]
+[WhiteElo "1288"]
+[BlackElo "1381"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+19"]
+[ECO "C41"]
+[Opening "Philidor Defense: Nimzowitsch Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.27] } 2... d6
+{ [%eval 0.2] } 3. d4 { [%eval 0.26] } 3... Nf6 { [%eval 0.33] } 4. dxe5
+{ [%eval 0.42] } 4... dxe5 $2 { [%eval 1.48] } 5. Qxd8+ { [%eval 1.39] } 5...
+Kxd8 { [%eval 1.31] } 6. Bg5 $6 { [%eval 0.38] } 6... Nc6 { [%eval 0.56] } 7.
+Nc3 { [%eval 0.52] } 7... Be7 { [%eval 0.82] } 8. O-O-O+ { [%eval 0.92] } 8...
+Bd7 { [%eval 1.25] } 9. Nd5 { [%eval 0.82] } 9... Nxd5 $6 { [%eval 1.67] } 10.
+Bxe7+ $4 { [%eval -3.26] } 10... Ndxe7 { [%eval -3.2] } 11. Bc4
+{ [%eval -3.25] } 11... Ke8 { [%eval -2.77] } 12. Rhe1 $6 { [%eval -3.52] }
+12... Be6 { [%eval -3.44] } 13. Bb5 $6 { [%eval -4.08] } 13... a6
+{ [%eval -4.19] } 14. Ba4 { [%eval -4.28] } 14... b5 { [%eval -4.17] } 15. Bb3
+{ [%eval -4.28] } 15... Bxb3 { [%eval -4.21] } 16. axb3 { [%eval -4.24] } 16...
+Rd8 { [%eval -3.86] } 17. h4 { [%eval -4.1] } 17... h5 { [%eval -3.93] } 18.
+Ng5 { [%eval -4.3] } 18... g6 { [%eval -4.07] } 19. g3 { [%eval -4.41] } 19...
+Rxd1+ { [%eval -4.3] } 20. Rxd1 { [%eval -4.29] } 20... Nd4 { [%eval -4.24] }
+21. f4 $6 { [%eval -4.75] } 21... exf4 $4 { [%eval -1.73] } 22. gxf4 $2
+{ [%eval -4.62] } 22... Ne2+ { [%eval -4.41] } 23. Kb1 $2 { [%eval -5.67] }
+23... Nxf4 { [%eval -5.6] } 24. Rf1 { [%eval -6.06] } 24... Ne6
+{ [%eval -5.85] } 25. Rxf7 $4 { [%eval -9.71] } 25... Nxg5 { [%eval -9.45] }
+26. Rxe7+ $6 { [%eval -20.22] } 0-1

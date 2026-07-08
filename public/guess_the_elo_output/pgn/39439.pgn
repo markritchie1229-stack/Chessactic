@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hKVa0oQL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chiparidze"]
+[Black "Khan04"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:38:49"]
+[WhiteElo "1779"]
+[BlackElo "1548"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-5"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Levitsky Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.13] } 2. Bg5 { [%eval -0.12] } 2...
+f6 { [%eval -0.04] } 3. Bh4 { [%eval -0.3] } 3... Nc6 { [%eval -0.18] } 4. e3
+{ [%eval -0.06] } 4... g6 $6 { [%eval 0.46] } 5. c3 $6 { [%eval -0.05] } 5...
+Bf5 { [%eval 0.21] } 6. Bb5 { [%eval 0.05] } 6... Qd6 { [%eval 0.41] } 7. Bg3
+{ [%eval 0.4] } 7... e5 { [%eval 0.38] } 8. Nf3 { [%eval 0.21] } 8... Bg7
+{ [%eval 0.12] } 9. Nbd2 { [%eval 0.05] } 9... Ne7 { [%eval -0.01] } 10. Nh4
+{ [%eval -0.4] } 10... Bd7 { [%eval 0.03] } 11. f4 { [%eval -0.18] } 11... e4
+$2 { [%eval 2.52] } 12. O-O $4 { [%eval -0.98] } 12... Nf5 $6 { [%eval 0.01] }
+13. Nxf5 { [%eval 0.05] } 13... Bxf5 { [%eval 0.0] } 14. c4 { [%eval -0.1] }
+14... O-O-O $6 { [%eval 0.67] } 15. c5 $6 { [%eval -0.1] } 15... Qd7
+{ [%eval 0.37] } 16. Qa4 { [%eval 0.26] } 16... Kb8 { [%eval 0.37] } 17. Bxc6
+{ [%eval 0.0] } 17... Qxc6 { [%eval 0.1] } 18. Qxc6 { [%eval 0.12] } 18... bxc6
+{ [%eval 0.15] } 19. b4 { [%eval 0.18] } 19... h5 { [%eval 0.02] } 20. a4
+{ [%eval -0.03] } 20... h4 { [%eval -0.01] } 21. Bf2 { [%eval -0.18] } 21... g5
+$6 { [%eval 0.33] } 22. Rfb1 $2 { [%eval -0.89] } 22... Bd7 $6
+{ [%eval -0.16] } 23. b5 { [%eval 0.0] } 23... cxb5 $6 { [%eval 0.6] } 24. axb5
+{ [%eval 0.52] } 24... g4 $2 { [%eval 1.74] } 25. Nb3 $2 { [%eval 0.64] } 25...
+Rh7 $4 { [%eval 4.63] } 26. c6 $2 { [%eval 2.58] } 26... Bc8 { [%eval 2.55] }
+27. Ra5 { [%eval 2.22] } 27... g3 { [%eval 2.55] } 28. Be1 { [%eval 2.47] }
+28... gxh2+ { [%eval 2.52] } 29. Kxh2 { [%eval 2.6] } 29... Bf5 $4
+{ [%eval #5] } 30. Rba1 { [%eval #4] } 30... Kc8 { [%eval #2] } 31. Rxa7
+{ [%eval #1] } 1-0

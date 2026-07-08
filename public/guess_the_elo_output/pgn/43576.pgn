@@ -1,0 +1,35 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/062b9wCS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "z65"]
+[Black "arrami01"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:24:17"]
+[WhiteElo "1569"]
+[BlackElo "1833"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+7"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.24] } 1... e6 { [%eval 0.1] } 2. Bb2 { [%eval 0.02] } 2...
+Nf6 { [%eval 0.07] } 3. Nf3 { [%eval 0.0] } 3... g6 { [%eval 0.4] } 4. d3
+{ [%eval -0.02] } 4... Bg7 { [%eval 0.0] } 5. e4 { [%eval -0.32] } 5... d6
+{ [%eval 0.16] } 6. Nbd2 { [%eval -0.14] } 6... O-O { [%eval -0.12] } 7. Nc4
+{ [%eval -0.58] } 7... b5 { [%eval -0.4] } 8. Ne3 { [%eval -0.37] } 8... c5
+{ [%eval -0.39] } 9. h3 { [%eval -0.66] } 9... Qa5+ { [%eval -0.31] } 10. Nd2
+{ [%eval -0.45] } 10... Bb7 { [%eval -0.44] } 11. Ng4 $2 { [%eval -2.03] }
+11... Nbd7 $2 { [%eval -0.57] } 12. Nxf6+ { [%eval -0.61] } 12... Nxf6
+{ [%eval -0.69] } 13. Be2 { [%eval -0.62] } 13... Rac8 { [%eval -0.34] } 14.
+O-O { [%eval -0.32] } 14... Nxe4 $2 { [%eval 0.93] } 15. Bxg7 { [%eval 0.8] }
+15... Nxd2 { [%eval 0.86] } 16. Bxf8 { [%eval 0.55] } 16... Nxf1 $2
+{ [%eval 2.91] } 17. Bxf1 $4 { [%eval -1.2] } 17... Rxf8 { [%eval -1.16] } 18.
+Qg4 $6 { [%eval -1.68] } 18... Qc3 { [%eval -1.74] } 19. Rc1 { [%eval -1.85] }
+19... h5 { [%eval -1.37] } 20. Qd1 { [%eval -1.84] } 20... Qf6 $6
+{ [%eval -1.26] } 21. Be2 $6 { [%eval -1.84] } 21... e5 { [%eval -1.59] } 22.
+g4 $4 { [%eval -5.02] } 22... Qh4 $2 { [%eval -2.43] } 23. Kh2 $4
+{ [%eval #-1] } 23... Qxf2# 0-1

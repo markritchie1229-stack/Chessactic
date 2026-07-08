@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wm98XDyf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "varuj777"]
+[Black "kundenbeleg"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:35:06"]
+[WhiteElo "1421"]
+[BlackElo "1525"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+15"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.39] } 2. d3 { [%eval -0.02] } 2...
+Nc6 { [%eval -0.02] } 3. Be3 { [%eval -0.4] } 3... e6 { [%eval -0.5] } 4. Be2
+{ [%eval -0.43] } 4... Qc7 $6 { [%eval 0.12] } 5. Nc3 { [%eval -0.25] } 5... a6
+{ [%eval 0.0] } 6. Nf3 { [%eval 0.0] } 6... h6 { [%eval 0.12] } 7. O-O
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.04] } 8. h3 { [%eval 0.0] } 8... Bd6
+{ [%eval 0.43] } 9. Qd2 { [%eval -0.06] } 9... O-O $2 { [%eval 1.07] } 10. Bf4
+$4 { [%eval -5.01] } 10... Bxf4 { [%eval -4.99] } 11. Qd1 { [%eval -5.11] }
+11... b6 $6 { [%eval -4.55] } 12. e5 $2 { [%eval -5.57] } 12... Bxe5
+{ [%eval -5.39] } 13. Nxe5 { [%eval -5.6] } 13... Qxe5 { [%eval -5.49] } 14.
+Re1 { [%eval -5.64] } 14... Qd4 { [%eval -5.3] } 15. Bf3 { [%eval -5.39] }
+15... Bb7 { [%eval -5.16] } 16. Ne2 { [%eval -5.47] } 16... Qxb2
+{ [%eval -5.44] } 17. Rb1 { [%eval -5.37] } 17... Qxa2 { [%eval -5.14] } 18.
+Rxb6 $6 { [%eval -5.7] } 18... Rab8 $2 { [%eval -3.34] } 19. Bxc6 $4
+{ [%eval -7.13] } 19... Bxc6 { [%eval -7.08] } 20. Rxb8 { [%eval -7.22] } 20...
+Rxb8 { [%eval -7.02] } 21. Nf4 $2 { [%eval -9.05] } 21... Rb1 $4
+{ [%eval -0.38] } 22. Qe2 $4 { [%eval -10.85] } 22... Rxe1+ { [%eval -10.68] }
+23. Qxe1 { [%eval -10.46] } 23... Qxc2 { [%eval -9.89] } 24. Qa5
+{ [%eval -24.72] } 24... Bb5 { [%eval -10.29] } 25. Qd8+ { [%eval -13.98] }
+25... Kh7 { [%eval -13.43] } 26. Qf8 { [%eval -26.07] } 26... Bxd3 $6
+{ [%eval -9.36] } 27. Qxf7 $2 { [%eval #-12] } 27... Qc1+ { [%eval #-11] } 28.
+Kh2 { [%eval #-11] } 28... Qxf4+ { [%eval #-10] } 29. Kg1 { [%eval #-10] }
+29... Nh5 $6 { [%eval -18.82] } 30. Qf6 $6 { [%eval #-5] } 30... Qxf6
+{ [%eval #-4] } 0-1

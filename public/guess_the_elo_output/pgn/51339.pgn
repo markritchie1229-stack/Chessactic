@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6NOW1VCm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rinconsito2"]
+[Black "Marty06"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:39:06"]
+[WhiteElo "1694"]
+[BlackElo "1693"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.36] } 2... Qf6
+$6 { [%eval 1.04] } 3. Bc4 { [%eval 1.03] } 3... Bc5 { [%eval 0.85] } 4. O-O
+{ [%eval 0.59] } 4... d6 { [%eval 0.75] } 5. d4 { [%eval 0.32] } 5... Bxd4 $2
+{ [%eval 1.51] } 6. Nxd4 $2 { [%eval 0.4] } 6... exd4 { [%eval 0.61] } 7. Re1
+$6 { [%eval -0.33] } 7... c5 $6 { [%eval 0.55] } 8. e5 $6 { [%eval -0.35] }
+8... dxe5 { [%eval -0.41] } 9. f4 { [%eval -0.9] } 9... Nd7 $4 { [%eval 2.81] }
+10. fxe5 { [%eval 2.89] } 10... Qg6 $2 { [%eval 4.84] } 11. e6 { [%eval 4.79] }
+11... fxe6 $2 { [%eval 7.6] } 12. Rxe6+ { [%eval 7.31] } 12... Ne7 $2
+{ [%eval 8.82] } 13. Rxg6 { [%eval 8.6] } 13... Nxg6 { [%eval 8.55] } 14. Qe2+
+{ [%eval 8.0] } 14... Nde5 $2 { [%eval 11.5] } 15. Nd2 $4 { [%eval 6.96] }
+15... Bd7 { [%eval 6.88] } 16. Nf3 { [%eval 6.53] } 16... O-O-O
+{ [%eval 6.83] } 17. Nxe5 { [%eval 6.74] } 17... Nxe5 $4 { [%eval 15.36] } 18.
+Qxe5 { [%eval 14.86] } 18... Rhe8 { [%eval 17.2] } 19. Qxc5+ { [%eval 16.6] }
+19... Bc6 { [%eval 15.96] } 20. Bg5 { [%eval 15.26] } 20... Rd7
+{ [%eval 19.21] } 21. Qxa7 { [%eval 17.91] } 21... h6 $6 { [%eval #12] } 22.
+Qa8+ { [%eval #12] } 22... Kc7 { [%eval #14] } 23. Bf4+ { [%eval 28.78] } 23...
+Rd6 { [%eval 55.22] } 24. Bxd6+ { [%eval 21.82] } 24... Kxd6 { [%eval 23.98] }
+25. Qa3+ { [%eval 21.69] } 25... Kc7 { [%eval 22.28] } 26. Qg3+
+{ [%eval 20.39] } 26... Kb6 { [%eval 20.45] } 27. Qg6 { [%eval 16.54] } 27...
+Re2 $6 { [%eval #10] } 28. Bxe2 { [%eval #9] } 1-0

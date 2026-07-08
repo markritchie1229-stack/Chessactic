@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useTheme } from "@/components/ThemeProvider";
+import { getBoardTheme } from "@/lib/boardTheme";
+import { getPageBackground, getPanelBackground } from "@/lib/backgrounds";
 import { Chess } from "chess.js";
-import { Chessboard } from "react-chessboard";
+import ChessBoard from "../../components/ChessBoard";
 import {
   ArrowRight,
   CheckCircle2,
@@ -199,6 +202,9 @@ export default function SpeedTacticPage() {
   const selectedCategoryLabel = "All categories";
 
   const roundTime = useMemo(() => getRoundTime(roundNumber), [roundNumber]);
+
+  const { theme } = useTheme();
+  const boardTheme = getBoardTheme(theme);
 
   const answerOptions = useMemo(() => {
     if (!currentPuzzle) return [];
@@ -501,7 +507,7 @@ export default function SpeedTacticPage() {
   const timerProgress = Math.max(0, Math.min(100, (timeLeft / roundTime) * 100));
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
+    <main className="min-h-screen text-slate-100" style={{ background: getPageBackground(theme) }}>
       <div className="mx-auto max-w-7xl px-4 py-6 md:py-10">
         <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
@@ -550,7 +556,7 @@ export default function SpeedTacticPage() {
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.85fr)]">
-          <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-2xl shadow-black/20">
+          <section className="rounded-3xl border p-5 shadow-2xl shadow-black/20" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
             <div className="mb-4 flex flex-col gap-4 xl:flex-row xl:items-start xl:justify-between">
               <div className="space-y-2">
                 <div className="text-sm uppercase tracking-wide text-slate-400">Puzzles</div>
@@ -581,26 +587,26 @@ export default function SpeedTacticPage() {
             </div>
 
             <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_280px]">
-              <div className="rounded-3xl border border-slate-800 bg-slate-950/70 p-3">
+              <div className="rounded-3xl border p-3" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
                 {currentPuzzle ? (
-                  <Chessboard
-                    options={{
-                      id: "speed-tactic-board",
-                      position: boardPosition || currentPuzzle.fen,
-                      boardOrientation,
-                      boardStyle: { width: "560px" },
-                      allowDragging: false,
-                    }}
-                  />
+                  <ChessBoard
+  board={currentPuzzle ? new Chess(currentPuzzle.fen) : new Chess()}
+  selectedSquare={null}
+  legalTargets={[]}
+  orientation={boardOrientation}
+  onSquareClick={() => {}}
+  showCoordinates={false}
+/>
+
                 ) : (
-                  <div className="flex aspect-square items-center justify-center rounded-2xl border border-slate-800 bg-slate-950/60 text-slate-400">
+                  <div className="flex aspect-square items-center justify-center rounded-2xl border text-slate-400" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
                     {loading ? "Loading puzzles..." : "No puzzle loaded"}
                   </div>
                 )}
               </div>
 
               <div className="space-y-4">
-                <div className="rounded-3xl border border-slate-800 bg-slate-950/70 p-4">
+                <div className="rounded-3xl border p-4" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
                   <div className="flex items-center justify-between gap-3">
                     <div>
                       <div className="text-sm uppercase tracking-wide text-slate-400">Timer</div>
@@ -618,7 +624,7 @@ export default function SpeedTacticPage() {
                   </div>
                   <div className="mt-2 text-xs text-slate-500">{currentTimeLabel} on this turn</div>
                 </div>
-                <div className="rounded-3xl border border-slate-800 bg-slate-950/70 p-4">
+                <div className="rounded-3xl border p-4" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
                   <div className="text-sm uppercase tracking-wide text-slate-400">Round info</div>
                   <div className="mt-3 space-y-2 text-sm text-slate-300">
                     <div>
@@ -638,7 +644,7 @@ export default function SpeedTacticPage() {
           </section>
 
           <aside className="space-y-4">
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
+            <div className="rounded-3xl border p-5 shadow-lg" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="text-sm uppercase tracking-wide text-slate-400">Current round</div>
@@ -700,7 +706,7 @@ export default function SpeedTacticPage() {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
+            <div className="rounded-3xl border p-5 shadow-lg" style={{ borderColor: theme.background.border, background: getPanelBackground(theme) }}>
               <div className="flex items-center gap-2 text-sm uppercase tracking-wide text-slate-400">
                 <Trophy className="h-4 w-4" />
                 Progress

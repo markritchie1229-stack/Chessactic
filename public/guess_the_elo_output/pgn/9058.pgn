@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/wFEvKRLJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sevel"]
+[Black "shaxmat21"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:05:52"]
+[WhiteElo "1624"]
+[BlackElo "1671"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.04] } 1... Nf6 { [%eval 0.31] } 2. g3 { [%eval -0.03] } 2...
+d5 { [%eval 0.36] } 3. cxd5 { [%eval 0.27] } 3... Nxd5 { [%eval 0.37] } 4. Bg2
+{ [%eval 0.12] } 4... e5 { [%eval 0.25] } 5. d3 { [%eval -0.05] } 5... Bb4+
+{ [%eval 0.1] } 6. Bd2 { [%eval -0.06] } 6... Be6 $2 { [%eval 1.7] } 7. Bxb4
+{ [%eval 1.63] } 7... Nxb4 { [%eval 1.64] } 8. Qa4+ $2 { [%eval 0.08] } 8...
+N4c6 { [%eval 0.15] } 9. Nf3 { [%eval 0.11] } 9... O-O { [%eval 0.14] } 10. O-O
+{ [%eval 0.17] } 10... a6 { [%eval 0.16] } 11. Nc3 { [%eval 0.13] } 11... b5 $2
+{ [%eval 1.85] } 12. Qc2 $2 { [%eval 0.53] } 12... f5 $2 { [%eval 1.76] } 13.
+Nxe5 { [%eval 1.54] } 13... Nb4 $6 { [%eval 2.41] } 14. Qd2 { [%eval 2.41] }
+14... c6 { [%eval 2.36] } 15. a3 { [%eval 2.24] } 15... Nd5 { [%eval 2.27] }
+16. Rac1 { [%eval 2.2] } 16... Qd6 { [%eval 2.27] } 17. d4 { [%eval 2.24] }
+17... f4 $2 { [%eval 3.35] } 18. Nxd5 { [%eval 3.05] } 18... Bxd5
+{ [%eval 3.09] } 19. Bxd5+ { [%eval 3.14] } 19... Qxd5 { [%eval 3.27] } 20.
+gxf4 { [%eval 3.22] } 20... Nd7 { [%eval 3.1] } 21. Rfd1 $6 { [%eval 2.44] }
+21... Rf6 { [%eval 2.61] } 22. Qe3 $4 { [%eval -2.79] } 22... Nxe5
+{ [%eval -2.78] } 23. dxe5 { [%eval -2.68] } 23... Rg6+ { [%eval -2.65] } 24.
+Kf1 $4 { [%eval #-1] } 24... Qh1# 0-1

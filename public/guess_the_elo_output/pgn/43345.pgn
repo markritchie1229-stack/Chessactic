@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jiD5cvdZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mathsajah"]
+[Black "Edarfix"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:15:21"]
+[WhiteElo "2032"]
+[BlackElo "2016"]
+[WhiteRatingDiff "+92"]
+[BlackRatingDiff "-9"]
+[ECO "C03"]
+[Opening "French Defense: Tarrasch Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.17] } 2. d4 { [%eval 0.11] } 2... d5
+{ [%eval 0.19] } 3. Nd2 { [%eval 0.25] } 3... dxe4 { [%eval 0.37] } 4. Nxe4
+{ [%eval 0.45] } 4... c5 { [%eval 0.71] } 5. Nxc5 { [%eval 0.67] } 5... Bxc5
+{ [%eval 0.67] } 6. dxc5 { [%eval 0.66] } 6... Qxd1+ { [%eval 0.68] } 7. Kxd1
+{ [%eval 0.76] } 7... Nf6 { [%eval 0.64] } 8. a3 { [%eval 0.56] } 8... O-O
+{ [%eval 0.64] } 9. Nf3 { [%eval 0.48] } 9... Rd8+ { [%eval 0.5] } 10. Bd3
+{ [%eval 0.29] } 10... Nc6 $6 { [%eval 1.07] } 11. Re1 { [%eval 0.6] } 11...
+Ng4 $6 { [%eval 1.17] } 12. Ke2 { [%eval 1.16] } 12... e5 $6 { [%eval 1.83] }
+13. Kf1 { [%eval 1.68] } 13... Nd4 $6 { [%eval 2.31] } 14. Nxd4
+{ [%eval 2.32] } 14... exd4 { [%eval 2.35] } 15. Bg5 { [%eval 2.2] } 15... f6
+$6 { [%eval 2.95] } 16. Bf4 { [%eval 2.69] } 16... g5 $2 { [%eval 3.83] } 17.
+Bd6 { [%eval 3.75] } 17... b6 { [%eval 4.04] } 18. h3 { [%eval 4.09] } 18...
+bxc5 $2 { [%eval 5.65] } 19. Be7 { [%eval 5.54] } 19... Nh2+ $2
+{ [%eval 6.74] } 20. Kg1 { [%eval 6.37] } 20... Nf3+ { [%eval 6.83] } 21. gxf3
+{ [%eval 6.7] } 21... Rd5 $2 { [%eval 8.81] } 1-0

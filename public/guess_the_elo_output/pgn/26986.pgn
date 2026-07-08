@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ldjGJ1Iy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "crisr17"]
+[Black "theresidentsheep"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:03:56"]
+[WhiteElo "1500"]
+[BlackElo "1764"]
+[WhiteRatingDiff "-81"]
+[BlackRatingDiff "+4"]
+[ECO "B35"]
+[Opening "Sicilian Defense: Dragon Variation, Modern Bc4 Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... c5 { [%eval 0.3] } 2. Nf3 { [%eval 0.31] } 2... d6
+{ [%eval 0.35] } 3. Bc4 { [%eval 0.09] } 3... Nc6 { [%eval 0.2] } 4. d4
+{ [%eval 0.09] } 4... cxd4 { [%eval 0.21] } 5. Nxd4 { [%eval 0.16] } 5... Nf6
+{ [%eval 0.2] } 6. Nc3 { [%eval 0.23] } 6... g6 { [%eval 0.41] } 7. Be3
+{ [%eval -0.01] } 7... Bg7 { [%eval 0.29] } 8. O-O { [%eval 0.0] } 8... O-O
+{ [%eval 0.14] } 9. f3 { [%eval -0.03] } 9... Nd7 { [%eval 0.35] } 10. Kh1
+{ [%eval 0.08] } 10... Nde5 { [%eval 0.35] } 11. Bb3 { [%eval 0.04] } 11... Na5
+{ [%eval 0.09] } 12. f4 { [%eval -0.16] } 12... Nxb3 { [%eval 0.12] } 13. axb3
+{ [%eval 0.2] } 13... Nc6 $6 { [%eval 0.75] } 14. Ncb5 $6 { [%eval 0.07] }
+14... a6 { [%eval 0.08] } 15. Nxc6 { [%eval 0.03] } 15... bxc6 { [%eval 0.04] }
+16. Nd4 $6 { [%eval -0.89] } 16... c5 { [%eval -0.43] } 17. Nc6
+{ [%eval -0.53] } 17... Qc7 { [%eval -0.55] } 18. Na5 { [%eval -0.52] } 18...
+Bxb2 { [%eval -0.54] } 19. Ra2 { [%eval -0.6] } 19... Bc3 { [%eval -0.44] } 20.
+Nc4 { [%eval -0.81] } 20... Be6 { [%eval -0.57] } 21. f5 $6 { [%eval -1.12] }
+21... Bxc4 { [%eval -1.04] } 22. bxc4 { [%eval -1.08] } 22... Bg7
+{ [%eval -0.97] } 23. fxg6 { [%eval -1.45] } 23... fxg6 { [%eval -1.48] } 24.
+Qd5+ { [%eval -1.52] } 24... Kh8 { [%eval -1.53] } 25. Raa1 $2
+{ [%eval -3.43] } 25... Bxa1 { [%eval -3.44] } 26. Rxa1 { [%eval -3.38] } 26...
+a5 { [%eval -3.02] } 27. e5 { [%eval -3.45] } 27... Rab8 $6 { [%eval -2.73] }
+28. Bd2 { [%eval -3.21] } 28... Rf5 $4 { [%eval 0.0] } 29. Bc3 $6
+{ [%eval -0.85] } 29... Rbf8 $4 { [%eval 15.14] } 30. exd6+ { [%eval 13.27] }
+30... e5 { [%eval 12.35] } 31. dxc7 $4 { [%eval #-2] } 31... Rf1+
+{ [%eval #-1] } 32. Rxf1 { [%eval #-1] } 32... Rxf1# 0-1

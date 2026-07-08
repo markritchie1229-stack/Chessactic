@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rkoWajib"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Roman_Baryk"]
+[Black "bedak95"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:52:58"]
+[WhiteElo "1747"]
+[BlackElo "1820"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+12"]
+[ECO "B34"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Variation"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.2] } 2. Nf3 { [%eval 0.22] } 2... Nc6
+{ [%eval 0.47] } 3. d4 { [%eval 0.16] } 3... cxd4 { [%eval 0.2] } 4. Nxd4
+{ [%eval 0.01] } 4... g6 { [%eval 0.28] } 5. Nc3 { [%eval 0.2] } 5... Bg7
+{ [%eval 0.26] } 6. Be3 { [%eval 0.07] } 6... Nf6 { [%eval 0.17] } 7. f3
+{ [%eval -0.05] } 7... d5 $6 { [%eval 0.64] } 8. Nxc6 $2 { [%eval -0.53] } 8...
+bxc6 { [%eval -0.39] } 9. Bd4 { [%eval -0.68] } 9... dxe4 { [%eval -0.77] } 10.
+fxe4 { [%eval -0.95] } 10... Bg4 $6 { [%eval -0.22] } 11. Be2 $6
+{ [%eval -1.16] } 11... Bxe2 { [%eval -1.1] } 12. Kxe2 $6 { [%eval -1.83] }
+12... O-O $2 { [%eval -0.42] } 13. h3 $2 { [%eval -2.74] } 13... Qc7
+{ [%eval -2.38] } 14. Rf1 $2 { [%eval -4.93] } 14... Qg3 $2 { [%eval -2.19] }
+15. Rf2 $2 { [%eval -4.81] } 15... Nh5 $4 { [%eval -1.29] } 16. Qd3 $4
+{ [%eval -4.43] } 16... Nf4+ $2 { [%eval -2.59] } 17. Kf1 $4 { [%eval -13.58] }
+17... Nxd3 { [%eval -13.18] } 18. Rf3 { [%eval -14.35] } 18... Qh2
+{ [%eval -14.07] } 19. Bxg7 { [%eval -17.0] } 19... Kxg7 { [%eval -16.56] } 20.
+Ke2 { [%eval -25.57] } 20... Qxg2+ { [%eval -23.48] } 21. Ke3
+{ [%eval -25.53] } 21... Ne5 { [%eval -23.72] } 0-1

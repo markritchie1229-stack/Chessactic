@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/re7jC564"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gamer583"]
+[Black "aleksei968"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:25:17"]
+[WhiteElo "1500"]
+[BlackElo "1420"]
+[WhiteRatingDiff "+139"]
+[BlackRatingDiff "-7"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.3] } 1... Nc6 { [%eval 0.5] } 2. e3 { [%eval 0.39] } 2... d5
+{ [%eval 0.41] } 3. Bb5 { [%eval 0.3] } 3... Qd6 { [%eval 0.57] } 4. Bxc6+ $6
+{ [%eval -0.3] } 4... Qxc6 { [%eval -0.16] } 5. Nc3 { [%eval -0.11] } 5... e5
+$6 { [%eval 0.68] } 6. dxe5 { [%eval 0.58] } 6... d4 $6 { [%eval 1.18] } 7.
+exd4 $6 { [%eval 0.34] } 7... Qxg2 { [%eval 0.45] } 8. Qf3 { [%eval 0.37] }
+8... Qxf3 { [%eval 0.43] } 9. Nxf3 { [%eval 0.41] } 9... Bg4 { [%eval 0.5] }
+10. Ng5 { [%eval 0.33] } 10... h6 { [%eval 0.43] } 11. Nge4 { [%eval 0.33] }
+11... Bb4 $6 { [%eval 0.89] } 12. Rg1 { [%eval 0.82] } 12... Bxc3+ $6
+{ [%eval 1.4] } 13. bxc3 { [%eval 1.24] } 13... Bf5 { [%eval 1.12] } 14. Rxg7
+$4 { [%eval -1.88] } 14... Bxe4 { [%eval -1.77] } 15. Rb1 { [%eval -2.09] }
+15... Bxc2 $2 { [%eval -0.47] } 16. Rxb7 { [%eval -0.41] } 16... Be4 $2
+{ [%eval 1.97] } 17. Rxc7 { [%eval 1.71] } 17... Bd5 $6 { [%eval 2.33] } 18. a4
+$2 { [%eval 0.28] } 18... Rb8 $2 { [%eval 1.78] } 19. Rxa7 $2 { [%eval 0.31] }
+19... Rb1 $2 { [%eval 1.64] } 20. Kd1 { [%eval 1.16] } 20... Bf3+ $6
+{ [%eval 2.05] } 21. Kc2 { [%eval 1.95] } 21... Be4+ { [%eval 2.02] } 22. Kd1
+$6 { [%eval 1.04] } 22... Bc2+ $4 { [%eval 21.79] } 23. Kxc2 { [%eval 17.96] }
+23... Rb6 { [%eval 23.71] } 24. Ra8+ { [%eval 18.83] } 24... Ke7 $6
+{ [%eval #13] } 1-0

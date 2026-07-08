@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CplxWDCv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "julco"]
+[Black "RobBartom"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:33:17"]
+[WhiteElo "1595"]
+[BlackElo "1752"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-16"]
+[ECO "A45"]
+[Opening "Trompowsky Attack: Classical Defense, Big Center Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... e6 { [%eval 0.22] } 2. e4 { [%eval 0.12] } 2... Nf6
+$6 { [%eval 0.83] } 3. Bg5 $6 { [%eval 0.13] } 3... Be7 { [%eval 0.34] } 4. e5
+{ [%eval 0.34] } 4... Nd5 { [%eval 0.34] } 5. Bxe7 { [%eval 0.27] } 5... Qxe7
+{ [%eval 0.58] } 6. Ne2 $6 { [%eval -0.34] } 6... O-O { [%eval -0.16] } 7. g3
+{ [%eval -0.21] } 7... f6 { [%eval -0.03] } 8. Bg2 { [%eval -0.02] } 8... fxe5
+{ [%eval -0.04] } 9. dxe5 { [%eval -0.13] } 9... c6 $2 { [%eval 0.91] } 10. O-O
+{ [%eval 0.78] } 10... d6 $6 { [%eval 1.75] } 11. Bxd5 $2 { [%eval -0.63] }
+11... cxd5 { [%eval -0.45] } 12. Qd4 $2 { [%eval -1.71] } 12... Nc6
+{ [%eval -1.66] } 13. exd6 $2 { [%eval -2.67] } 13... Qxd6 $2 { [%eval -1.43] }
+14. Qh4 { [%eval -1.74] } 14... Bd7 { [%eval -1.25] } 15. Nd2 { [%eval -1.72] }
+15... Rf7 $6 { [%eval -1.17] } 16. Nb3 $6 { [%eval -1.99] } 16... Raf8
+{ [%eval -1.85] } 17. Nbd4 $2 { [%eval -3.96] } 17... e5 { [%eval -3.68] } 18.
+Nxc6 { [%eval -3.86] } 18... bxc6 $2 { [%eval -2.29] } 19. Nc3
+{ [%eval -2.72] } 19... e4 { [%eval -2.21] } 20. Rad1 $2 { [%eval -4.35] }
+20... Rf6 $4 { [%eval 3.19] } 21. Nxe4 { [%eval 3.14] } 21... dxe4 $6
+{ [%eval 3.8] } 22. Rxd6 { [%eval 3.71] } 22... Rxd6 { [%eval 3.74] } 23. Qe7
+{ [%eval 3.3] } 1-0

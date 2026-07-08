@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/kZlBZCcv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "arcosi"]
+[Black "bermel"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:15:35"]
+[WhiteElo "1741"]
+[BlackElo "1795"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A35"]
+[Opening "English Opening: Symmetrical Variation, Two Knights Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.12] } 1... c5 { [%eval 0.09] } 2. Nc3 { [%eval 0.09] } 2...
+Nc6 { [%eval 0.03] } 3. e4 { [%eval -0.06] } 3... g6 { [%eval -0.05] } 4. d3
+{ [%eval -0.06] } 4... Bg7 { [%eval 0.02] } 5. Nf3 { [%eval -0.12] } 5... d6
+{ [%eval -0.02] } 6. Be2 { [%eval -0.04] } 6... Nf6 { [%eval 0.07] } 7. h3
+{ [%eval 0.02] } 7... Bd7 { [%eval 0.06] } 8. O-O { [%eval 0.12] } 8... a6
+{ [%eval 0.18] } 9. Rb1 { [%eval 0.25] } 9... Qc7 { [%eval 0.41] } 10. Nh2
+{ [%eval 0.0] } 10... h5 { [%eval 0.32] } 11. f4 { [%eval 0.03] } 11... Nh7
+{ [%eval 0.45] } 12. Be3 { [%eval 0.31] } 12... Nd4 { [%eval 0.61] } 13. Nd5 $6
+{ [%eval 0.07] } 13... Nxe2+ $6 { [%eval 0.95] } 14. Qxe2 { [%eval 0.8] } 14...
+Qa5 $2 { [%eval 3.39] } 15. a3 $2 { [%eval 0.6] } 15... e6 { [%eval 0.64] } 16.
+Nc3 { [%eval 0.45] } 16... f5 $6 { [%eval 1.08] } 17. e5 $6 { [%eval 0.16] }
+17... dxe5 { [%eval 0.36] } 18. fxe5 { [%eval 0.03] } 18... Bxe5 $6
+{ [%eval 0.8] } 19. Nf3 { [%eval 0.69] } 19... Bd6 $2 { [%eval 2.0] } 20. Nd5
+{ [%eval 1.54] } 20... O-O { [%eval 1.77] } 21. Nf4 $2 { [%eval 0.08] } 21...
+Rf6 { [%eval 0.27] } 22. Bd2 $6 { [%eval -0.41] } 22... Qc7 { [%eval 0.04] }
+23. Nh4 $2 { [%eval -2.49] } 23... Nf8 $2 { [%eval 0.44] } 24. Nfxg6 $4
+{ [%eval -4.22] } 24... Nxg6 { [%eval -4.12] } 25. Nxg6 $2 { [%eval -5.78] }
+25... Rxg6 { [%eval -5.53] } 26. Qxh5 $2 { [%eval -7.71] } 26... Be8 $2
+{ [%eval -4.9] } 27. Qf3 $4 { [%eval -12.6] } 27... Qg7 $4 { [%eval -6.5] } 28.
+Rf2 { [%eval -6.57] } 28... Bc6 { [%eval -6.35] } 29. Qe2 { [%eval -6.39] }
+29... Bg3 { [%eval -6.21] } 30. Rff1 $4 { [%eval -11.41] } 0-1

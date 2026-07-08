@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0LGOgaHP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AgustinXZXZ"]
+[Black "econdor13"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:49:36"]
+[WhiteElo "1026"]
+[BlackElo "972"]
+[WhiteRatingDiff "+30"]
+[BlackRatingDiff "-36"]
+[ECO "B07"]
+[Opening "Rat Defense: Antal Defense"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... d6 { [%eval 0.5] } 2. d4 { [%eval 0.47] } 2... Nd7
+{ [%eval 0.62] } 3. Nc3 { [%eval 0.63] } 3... g5 $2 { [%eval 2.2] } 4. g3 $2
+{ [%eval 1.19] } 4... Bg7 { [%eval 1.32] } 5. f4 $6 { [%eval 0.47] } 5... h6 $6
+{ [%eval 1.16] } 6. Nf3 { [%eval 1.06] } 6... Ngf6 $6 { [%eval 1.72] } 7. Be3
+{ [%eval 1.33] } 7... O-O { [%eval 1.76] } 8. Qd3 $6 { [%eval 1.19] } 8... a6
+$6 { [%eval 1.96] } 9. O-O-O { [%eval 2.13] } 9... b5 $6 { [%eval 3.06] } 10.
+a3 $2 { [%eval 1.29] } 10... c6 $2 { [%eval 3.0] } 11. b4 $2 { [%eval 0.19] }
+11... e5 $2 { [%eval 2.08] } 12. dxe5 { [%eval 2.0] } 12... dxe5
+{ [%eval 1.95] } 13. Nxe5 { [%eval 1.99] } 13... Re8 $6 { [%eval 2.94] } 14.
+Nxd7 $6 { [%eval 2.01] } 14... Bxd7 { [%eval 2.41] } 15. e5 { [%eval 2.35] }
+15... Ng4 $6 { [%eval 3.3] } 16. Bc5 { [%eval 3.14] } 16... Re6 $4
+{ [%eval 7.39] } 17. Qxd7 { [%eval 6.91] } 17... Qe8 $6 { [%eval 7.5] } 18. Be2
+$6 { [%eval 6.81] } 18... Nf2 $4 { [%eval 11.34] } 19. Bxf2 { [%eval 11.19] }
+19... Rd8 { [%eval 20.19] } 20. Qxd8 { [%eval 19.75] } 20... Qf8
+{ [%eval 21.14] } 21. Qxf8+ { [%eval 19.92] } 21... Kxf8 $6 { [%eval #11] } 22.
+Rd6 $6 { [%eval 20.24] } 22... Rxd6 { [%eval 21.06] } 23. exd6
+{ [%eval 20.38] } 23... Bxc3 { [%eval 20.14] } 24. Rd1 { [%eval 18.53] } 24...
+Ke8 $6 { [%eval #7] } 25. d7+ { [%eval #6] } 1-0

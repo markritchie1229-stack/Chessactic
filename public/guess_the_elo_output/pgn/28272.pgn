@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/3w5dCqVE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "changle20007"]
+[Black "visokos"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:33:27"]
+[WhiteElo "1091"]
+[BlackElo "1257"]
+[WhiteRatingDiff "+83"]
+[BlackRatingDiff "-15"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense: Accelerated Move Order"]
+[TimeControl "30+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.25] } 1... e6 { [%eval 0.27] } 2. c4 { [%eval 0.25] } 2... d5
+{ [%eval 0.25] } 3. Nc3 { [%eval 0.25] } 3... c6 { [%eval 0.32] } 4. e3
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.35] } 5. cxd5 { [%eval -0.06] } 5... cxd5
+{ [%eval 0.08] } 6. Nf3 { [%eval 0.03] } 6... Bb4 { [%eval 0.22] } 7. Bd3
+{ [%eval 0.17] } 7... Nc6 { [%eval 0.34] } 8. Bd2 { [%eval 0.18] } 8... O-O
+{ [%eval 0.25] } 9. a3 { [%eval 0.1] } 9... Bxc3 { [%eval 0.57] } 10. Bxc3
+{ [%eval 0.54] } 10... Ne4 { [%eval 0.63] } 11. Bxe4 $6 { [%eval -0.11] } 11...
+dxe4 { [%eval 0.0] } 12. Nd2 { [%eval -0.1] } 12... f5 { [%eval 0.01] } 13. g4
+$6 { [%eval -0.69] } 13... Qh4 { [%eval -0.42] } 14. gxf5 { [%eval -0.47] }
+14... exf5 $2 { [%eval 0.92] } 15. Qe2 $2 { [%eval -1.22] } 15... f4 $2
+{ [%eval -0.02] } 16. O-O-O { [%eval 0.0] } 16... fxe3 { [%eval 0.44] } 17.
+Qxe3 $6 { [%eval -0.21] } 17... Bg4 $6 { [%eval 0.54] } 18. Rde1
+{ [%eval 0.32] } 18... Rae8 $6 { [%eval 0.87] } 19. Qxe4 $4 { [%eval -5.29] }
+19... Rxe4 { [%eval -5.23] } 20. Nxe4 $4 { [%eval -9.81] } 20... Bf5
+{ [%eval -9.18] } 21. h3 $6 { [%eval -15.58] } 21... Bxe4 { [%eval -14.93] }
+22. f3 { [%eval -17.74] } 22... Bxf3 { [%eval -14.36] } 23. Rhg1
+{ [%eval -14.24] } 23... Qf4+ { [%eval -13.87] } 24. Kb1 { [%eval -13.49] }
+24... Qd6 $4 { [%eval -6.52] } 25. Ka1 $4 { [%eval -13.56] } 25... Nxd4
+{ [%eval -12.48] } 26. Rd1 $6 { [%eval #-12] } 1-0

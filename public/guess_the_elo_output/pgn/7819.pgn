@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CJQ8BEmA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sergiokumic"]
+[Black "macros42"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:50:00"]
+[WhiteElo "1397"]
+[BlackElo "1449"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "E21"]
+[Opening "Nimzo-Indian Defense: Three Knights Variation"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.15] } 1... e6 { [%eval 0.25] } 2. c4 { [%eval 0.15] } 2... Nf6
+{ [%eval 0.18] } 3. Nc3 { [%eval 0.13] } 3... Bb4 { [%eval 0.16] } 4. Nf3
+{ [%eval 0.15] } 4... Bxc3+ { [%eval 0.35] } 5. bxc3 { [%eval 0.35] } 5... d5
+$6 { [%eval 0.88] } 6. e3 $6 { [%eval 0.36] } 6... O-O { [%eval 0.43] } 7. cxd5
+{ [%eval 0.37] } 7... Nxd5 $6 { [%eval 1.16] } 8. Qc2 { [%eval 0.81] } 8... Nd7
+{ [%eval 1.13] } 9. Bd3 { [%eval 1.0] } 9... N7f6 $2 { [%eval 3.14] } 10. O-O
+$2 { [%eval 1.52] } 10... Qd6 $2 { [%eval 3.84] } 11. e4 { [%eval 3.95] } 11...
+c5 { [%eval 4.09] } 12. exd5 { [%eval 3.93] } 12... Qxd5 { [%eval 4.27] } 13.
+Bg5 { [%eval 4.26] } 13... c4 { [%eval 4.35] } 14. Be2 { [%eval 4.18] } 14...
+Ne4 { [%eval 4.22] } 15. Be3 $6 { [%eval 3.65] } 15... b5 { [%eval 3.64] } 16.
+Nd2 { [%eval 3.57] } 16... Bb7 $6 { [%eval 4.36] } 17. Nxe4 $6 { [%eval 3.71] }
+17... Qxe4 { [%eval 3.7] } 18. Qxe4 { [%eval 3.67] } 18... Bxe4
+{ [%eval 3.68] } 19. f3 { [%eval 3.59] } 19... Bg6 { [%eval 3.87] } 20. Rfd1
+{ [%eval 3.67] } 20... Rac8 { [%eval 4.12] } 21. d5 { [%eval 3.93] } 21... exd5
+{ [%eval 4.13] } 22. Rxd5 { [%eval 4.16] } 22... Rfe8 { [%eval 4.1] } 23. Rad1
+$4 { [%eval -0.54] } 23... h6 $4 { [%eval 4.04] } 24. Kf2 { [%eval 4.07] }
+24... a6 { [%eval 3.98] } 25. Rd6 { [%eval 3.83] } 25... Ra8 { [%eval 3.89] }
+26. Bf4 { [%eval 3.83] } 26... Bc2 { [%eval 4.15] } 27. R1d2 { [%eval 4.03] }
+27... Bf5 { [%eval 3.98] } 28. g4 { [%eval 3.91] } 1-0

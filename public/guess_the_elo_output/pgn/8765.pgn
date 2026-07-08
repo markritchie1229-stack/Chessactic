@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/G5ZYDoou"]
+[Date "????.??.??"]
+[Round "?"]
+[White "selectronik"]
+[Black "DJRKHS92"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:48:30"]
+[WhiteElo "1746"]
+[BlackElo "1748"]
+[WhiteRatingDiff "+40"]
+[BlackRatingDiff "-10"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.11] } 1... g6 { [%eval 0.56] } 2. d4 { [%eval 0.57] } 2... Bg7
+{ [%eval 0.66] } 3. Nf3 { [%eval 0.65] } 3... e6 { [%eval 0.8] } 4. Nc3
+{ [%eval 0.66] } 4... d5 { [%eval 0.78] } 5. e5 { [%eval 0.32] } 5... Ne7
+{ [%eval 0.38] } 6. Bg5 { [%eval 0.0] } 6... O-O { [%eval 0.13] } 7. Bb5
+{ [%eval -0.19] } 7... a6 { [%eval 0.1] } 8. Ba4 $6 { [%eval -0.51] } 8... b5
+{ [%eval -0.35] } 9. Bb3 { [%eval -0.36] } 9... c6 $6 { [%eval 0.32] } 10. a4
+{ [%eval 0.0] } 10... Qc7 $2 { [%eval 1.75] } 11. axb5 { [%eval 1.65] } 11...
+cxb5 { [%eval 2.04] } 12. Nxb5 { [%eval 1.98] } 12... axb5 $6 { [%eval 2.81] }
+13. Rxa8 { [%eval 2.67] } 13... Ba6 { [%eval 2.94] } 14. Qa1 { [%eval 2.79] }
+14... Nec6 $2 { [%eval 4.83] } 15. Rxa6 { [%eval 4.75] } 15... Nxa6
+{ [%eval 4.8] } 16. Qxa6 { [%eval 4.7] } 16... Nb4 { [%eval 4.79] } 17. Qd6
+{ [%eval 4.64] } 17... Nxc2+ $6 { [%eval 5.5] } 18. Bxc2 $2 { [%eval 3.87] }
+18... Qxc2 { [%eval 3.96] } 19. O-O { [%eval 3.88] } 19... Rc8 { [%eval 4.06] }
+20. Qb4 { [%eval 3.96] } 20... Qc6 $2 { [%eval 5.09] } 21. h3 $2
+{ [%eval 4.07] } 21... h6 { [%eval 4.39] } 22. Rc1 { [%eval 4.37] } 1-0

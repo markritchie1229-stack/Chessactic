@@ -1,0 +1,36 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/uoKG3Q3I"]
+[Site "https://lichess.org/2KjCooO8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Queensham"]
+[Black "superferox"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:41:55"]
+[WhiteElo "1917"]
+[BlackElo "1821"]
+[WhiteRatingDiff "+49"]
+[BlackRatingDiff "-8"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Advance Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... Nc6 { [%eval 0.28] } 2. d4 { [%eval 0.27] } 2... d5
+{ [%eval 0.29] } 3. e5 { [%eval 0.29] } 3... Bf5 { [%eval 0.36] } 4. Nc3
+{ [%eval 0.22] } 4... e6 { [%eval 0.31] } 5. f4 $6 { [%eval -0.32] } 5... h6 $6
+{ [%eval 0.29] } 6. Nf3 { [%eval 0.09] } 6... a6 { [%eval 0.35] } 7. Be2 $6
+{ [%eval -0.29] } 7... Na5 $6 { [%eval 0.44] } 8. O-O { [%eval 0.41] } 8... c5
+{ [%eval 0.45] } 9. Be3 { [%eval 0.5] } 9... cxd4 $2 { [%eval 1.72] } 10. Nxd4
+{ [%eval 1.98] } 10... Nc6 $2 { [%eval 4.06] } 11. Nxf5 { [%eval 3.93] } 11...
+exf5 { [%eval 3.71] } 12. Qxd5 $2 { [%eval 2.67] } 12... Qxd5 { [%eval 2.98] }
+13. Nxd5 { [%eval 2.97] } 13... O-O-O $6 { [%eval 3.52] } 14. Rad1
+{ [%eval 3.46] } 14... g5 { [%eval 3.89] } 15. Bb6 { [%eval 3.79] } 15... Rd7
+{ [%eval 3.76] } 16. Nf6 $2 { [%eval 2.14] } 16... Nxf6 { [%eval 2.12] } 17.
+exf6 { [%eval 2.04] } 17... gxf4 { [%eval 2.39] } 18. Rxd7 $6 { [%eval 1.8] }
+18... Kxd7 { [%eval 1.77] } 19. Rxf4 { [%eval 1.75] } 19... Bd6 $6
+{ [%eval 2.46] } 20. Rxf5 { [%eval 2.42] } 20... Ke6 $6 { [%eval 3.03] } 21.
+Bg4 { [%eval 2.79] } 21... Ne5 { [%eval 2.91] } 22. Rf4+ $2 { [%eval 1.15] }
+22... Nxg4 { [%eval 1.15] } 23. Rxg4 { [%eval 1.05] } 23... Kxf6
+{ [%eval 1.31] } 24. Bd4+ { [%eval 1.37] } 24... Ke6 $4 { [%eval 8.33] } 25.
+Bxh8 { [%eval 8.2] } 1-0

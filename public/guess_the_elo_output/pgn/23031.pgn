@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/niB3rp9k"]
+[Site "https://lichess.org/4nDWJcZ5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mansav"]
+[Black "delosa"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:37:48"]
+[WhiteElo "1393"]
+[BlackElo "1771"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+2"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maroczy Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d3 { [%eval -0.15] } 1... Nf6 { [%eval -0.06] } 2. e4 { [%eval -0.13] } 2...
+e5 { [%eval -0.06] } 3. Nf3 { [%eval -0.13] } 3... d5 { [%eval 0.18] } 4. Be2
+{ [%eval -0.16] } 4... dxe4 { [%eval 0.07] } 5. dxe4 { [%eval -0.16] } 5...
+Qxd1+ { [%eval -0.2] } 6. Bxd1 { [%eval -0.21] } 6... Nxe4 { [%eval -0.17] } 7.
+O-O $6 { [%eval -1.06] } 7... Nc6 $6 { [%eval -0.55] } 8. c3 { [%eval -1.0] }
+8... f5 { [%eval -0.59] } 9. Re1 { [%eval -0.63] } 9... Bc5 { [%eval -0.56] }
+10. Be3 { [%eval -0.59] } 10... Bxe3 { [%eval -0.41] } 11. fxe3 $6
+{ [%eval -1.15] } 11... O-O $6 { [%eval -0.57] } 12. Bc2 { [%eval -0.95] }
+12... Be6 { [%eval -0.61] } 13. Na3 $6 { [%eval -1.12] } 13... Rad8
+{ [%eval -0.94] } 14. Nb5 { [%eval -1.25] } 14... Rd7 { [%eval -1.08] } 15. a4
+$6 { [%eval -1.73] } 15... a6 { [%eval -1.52] } 16. Na3 { [%eval -1.57] } 16...
+Ne7 $2 { [%eval -0.11] } 17. Nxe5 { [%eval -0.15] } 17... Rd2 { [%eval 0.0] }
+18. Bxe4 { [%eval -0.47] } 18... fxe4 { [%eval -0.74] } 19. Rad1 $2
+{ [%eval -2.33] } 19... Rxb2 { [%eval -2.36] } 20. Nb1 { [%eval -2.22] } 20...
+Nd5 { [%eval -2.03] } 21. c4 { [%eval -2.43] } 21... Rff2 { [%eval -2.4] } 22.
+cxd5 $4 { [%eval #-5] } 22... Rxg2+ { [%eval #-4] } 23. Kh1 { [%eval #-4] }
+23... Rxh2+ { [%eval #-3] } 24. Kg1 { [%eval #-3] } 24... Rbg2+ { [%eval #-2] }
+25. Kf1 { [%eval #-2] } 25... Bh3 { [%eval #-1] } 0-1

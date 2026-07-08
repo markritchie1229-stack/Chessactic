@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/er7tJLPT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hottekohl"]
+[Black "VictorKyza"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:35:46"]
+[WhiteElo "1408"]
+[BlackElo "1423"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+13"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c5 { [%eval 0.49] } 2. d4 { [%eval 0.02] } 2... cxd4
+{ [%eval 0.12] } 3. Qxd4 { [%eval 0.12] } 3... Nc6 { [%eval 0.1] } 4. Qc3 $6
+{ [%eval -0.62] } 4... a6 $6 { [%eval -0.03] } 5. g3 $6 { [%eval -0.93] } 5...
+Qc7 $6 { [%eval -0.06] } 6. Bg2 { [%eval -0.17] } 6... Nf6 { [%eval -0.22] } 7.
+Ne2 { [%eval -0.15] } 7... g6 { [%eval 0.07] } 8. Bg5 { [%eval -0.26] } 8...
+Bg7 { [%eval -0.2] } 9. Bf4 { [%eval -0.51] } 9... d6 { [%eval -0.42] } 10. O-O
+{ [%eval -0.64] } 10... O-O { [%eval -0.4] } 11. Bg5 $4 { [%eval -3.57] } 11...
+Bd7 $4 { [%eval -0.22] } 12. e5 $2 { [%eval -1.67] } 12... dxe5
+{ [%eval -1.43] } 13. Bxc6 $2 { [%eval -2.93] } 13... Bxc6 { [%eval -2.84] }
+14. Na3 $2 { [%eval -4.04] } 14... Rfd8 { [%eval -3.56] } 15. Rad1
+{ [%eval -3.98] } 15... h6 $2 { [%eval -2.47] } 16. Bxf6 { [%eval -2.53] }
+16... Bxf6 { [%eval -2.43] } 17. Nc4 { [%eval -2.29] } 17... Rxd1 $6
+{ [%eval -1.79] } 18. Rxd1 { [%eval -1.85] } 18... Rd8 { [%eval -1.78] } 19.
+Rxd8+ { [%eval -1.7] } 19... Qxd8 { [%eval -1.5] } 20. Nxe5 $4 { [%eval #-2] }
+20... Qd1+ { [%eval #-1] } 0-1

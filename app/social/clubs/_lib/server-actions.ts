@@ -380,6 +380,34 @@ export async function joinClub(clubId: string) {
     return { status: "already_member" as const };
   }
 
+  const { data: pendingInvite, error: inviteError } = await supabase
+    .from("club_invites")
+    .select("id")
+    .eq("club_id", clubId)
+    .eq("invited_user_id", user.id)
+    .eq("status", "pending")
+    .maybeSingle();
+
+  if (inviteError) {
+    throw new Error(inviteError.message);
+  }
+
+  if (pendingInvite) {
+    const { error } = await supabase.rpc("respond_to_club_invite", {
+      p_invite_id: pendingInvite.id,
+      p_action: "accepted",
+    });
+
+    if (error) {
+      throw new Error(error.message);
+    }
+
+    revalidatePath(`/social/clubs/${club.title_search}`);
+    revalidatePath("/social/clubs");
+
+    return { status: "joined" as const };
+  }
+
   if (club.join_policy === "request") {
     const { error } = await supabase.from("club_join_requests").upsert({
       club_id: clubId,

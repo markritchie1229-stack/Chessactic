@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pGlnt3A2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Doern"]
+[Black "lovechees"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:32:52"]
+[WhiteElo "1496"]
+[BlackElo "1440"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.27] } 2. d4 { [%eval -0.01] } 2...
+Nc6 $2 { [%eval 1.32] } 3. dxc5 $2 { [%eval 0.22] } 3... Qa5+ { [%eval 0.64] }
+4. Bd2 { [%eval 0.57] } 4... Qxc5 { [%eval 0.54] } 5. Nc3 { [%eval 0.45] } 5...
+Nf6 { [%eval 0.79] } 6. Nf3 { [%eval 0.66] } 6... d5 $2 { [%eval 1.78] } 7. e5
+$2 { [%eval 0.01] } 7... Ng4 { [%eval 0.12] } 8. Qe2 { [%eval 0.24] } 8... d4
+{ [%eval 0.28] } 9. Ne4 { [%eval 0.0] } 9... Qxc2 { [%eval 0.1] } 10. Rc1
+{ [%eval -0.09] } 10... Qxb2 { [%eval 0.05] } 11. h3 $6 { [%eval -0.91] } 11...
+Nh6 $2 { [%eval 0.29] } 12. g4 $6 { [%eval -0.24] } 12... d3 $2
+{ [%eval 1.11] } 13. Qxd3 { [%eval 1.16] } 13... Nxe5 $2 { [%eval 2.47] } 14.
+Nxe5 { [%eval 2.31] } 14... Qxe5 { [%eval 2.38] } 15. Bxh6 $2 { [%eval -0.04] }
+15... gxh6 { [%eval -0.12] } 16. Bg2 { [%eval -0.53] } 16... f5
+{ [%eval -0.04] } 17. gxf5 $6 { [%eval -0.56] } 17... Bxf5 { [%eval -0.56] }
+18. O-O { [%eval -0.68] } 18... Rd8 { [%eval -0.62] } 19. Qc4 $2
+{ [%eval -2.34] } 19... Rd4 { [%eval -2.35] } 20. Qb3 $2 { [%eval -4.02] }
+20... Bxe4 { [%eval -3.64] } 21. Rc8+ $2 { [%eval -4.87] } 21... Rd8 $4
+{ [%eval -0.61] } 22. Rd1 $4 { [%eval -10.83] } 22... Rxc8 { [%eval -10.32] }
+23. f3 { [%eval -16.11] } 23... Bc2 { [%eval -15.2] } 0-1

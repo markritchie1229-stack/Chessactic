@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Nt10ZAyh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ceyepher"]
+[Black "Pasknich"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:59:45"]
+[WhiteElo "1460"]
+[BlackElo "1382"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+21"]
+[ECO "A10"]
+[Opening "English Opening: Great Snake Variation"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.08] } 1... g6 $6 { [%eval 0.75] } 2. g3 $6 { [%eval 0.09] }
+2... Bg7 { [%eval 0.17] } 3. Nc3 { [%eval 0.05] } 3... Nf6 { [%eval 0.22] } 4.
+Bg2 { [%eval 0.1] } 4... d6 { [%eval 0.5] } 5. Nf3 { [%eval 0.28] } 5... O-O
+{ [%eval 0.5] } 6. O-O { [%eval 0.07] } 6... Nc6 { [%eval 0.43] } 7. a3 $6
+{ [%eval -0.08] } 7... Bg4 { [%eval 0.14] } 8. b4 { [%eval -0.01] } 8... Bxf3
+{ [%eval 0.29] } 9. Bxf3 { [%eval 0.29] } 9... Ne5 $6 { [%eval 0.87] } 10. Bg2
+{ [%eval 0.41] } 10... Nxc4 { [%eval 0.22] } 11. Bxb7 { [%eval 0.31] } 11...
+Rb8 { [%eval 0.27] } 12. Bg2 { [%eval 0.27] } 12... Qd7 { [%eval 0.61] } 13.
+Rb1 { [%eval 0.37] } 13... e5 { [%eval 0.68] } 14. Ne4 $6 { [%eval 0.03] }
+14... Nh5 $6 { [%eval 0.84] } 15. d3 { [%eval 0.75] } 15... f5 $2
+{ [%eval 2.08] } 16. Ng5 $2 { [%eval 0.92] } 16... Nb6 { [%eval 0.9] } 17. a4
+{ [%eval 0.85] } 17... Nxa4 { [%eval 1.13] } 18. Ra1 { [%eval 0.77] } 18... Nc3
+$2 { [%eval 2.55] } 19. Qc2 $2 { [%eval 0.59] } 19... Nb5 $4 { [%eval 3.79] }
+20. Be3 $4 { [%eval 0.21] } 20... e4 { [%eval 0.24] } 21. dxe4 { [%eval 0.0] }
+21... Bxa1 { [%eval 0.0] } 22. Rxa1 { [%eval -0.04] } 22... c6 $2
+{ [%eval 1.81] } 23. Bc1 $2 { [%eval -0.03] } 23... Nd4 $4 { [%eval 4.82] } 24.
+Qd3 $4 { [%eval 0.15] } 24... Rxb4 $2 { [%eval 1.53] } 25. Qc3 $4
+{ [%eval -16.18] } 0-1

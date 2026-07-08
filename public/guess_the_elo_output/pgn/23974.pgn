@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/QZwhd262"]
+[Date "????.??.??"]
+[Round "?"]
+[White "manila123"]
+[Black "clood66"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:30:03"]
+[WhiteElo "1573"]
+[BlackElo "1565"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C00"]
+[Opening "Queen's Pawn Game: Franco-Sicilian Defense"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.42] } 2. d4 { [%eval 0.04] } 2... e6
+$6 { [%eval 0.75] } 3. Nf3 $6 { [%eval 0.06] } 3... Be7 $6 { [%eval 0.72] } 4.
+Nc3 { [%eval 0.64] } 4... a6 { [%eval 1.03] } 5. a3 { [%eval 0.54] } 5... h6 $6
+{ [%eval 1.27] } 6. Bc4 $6 { [%eval 0.33] } 6... cxd4 { [%eval 0.55] } 7. Qxd4
+$6 { [%eval 0.05] } 7... Bf6 $2 { [%eval 1.12] } 8. Qd1 $6 { [%eval 0.19] }
+8... Bxc3+ { [%eval 0.2] } 9. bxc3 { [%eval 0.22] } 9... b5 { [%eval 0.68] }
+10. Bd5 $2 { [%eval -2.0] } 10... exd5 { [%eval -2.05] } 11. Qxd5
+{ [%eval -1.91] } 11... Nc6 { [%eval -2.01] } 12. O-O { [%eval -2.17] } 12...
+Nf6 { [%eval -2.14] } 13. Qd1 $6 { [%eval -2.84] } 13... O-O { [%eval -2.57] }
+14. e5 { [%eval -2.91] } 14... Ng4 $6 { [%eval -2.07] } 15. Re1 $6
+{ [%eval -2.64] } 15... Re8 $6 { [%eval -2.02] } 16. Ng5 $4 { [%eval -5.33] }
+16... Ngxe5 { [%eval -5.25] } 17. Ne4 { [%eval -5.53] } 17... d5
+{ [%eval -5.25] } 18. Nc5 $2 { [%eval -7.65] } 18... Qd6 $2 { [%eval -4.68] }
+19. Be3 $4 { [%eval -9.61] } 19... Ng4 { [%eval -9.36] } 20. Bd4 $2
+{ [%eval #-2] } 20... Qxh2+ { [%eval #-1] } 21. Kf1 { [%eval #-1] } 21... Qh1#
+0-1

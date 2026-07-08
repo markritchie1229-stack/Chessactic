@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vh69rFbF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cranchess"]
+[Black "Diegovich"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:09:39"]
+[WhiteElo "1654"]
+[BlackElo "1688"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e6 { [%eval 0.08] } 2. d4 { [%eval 0.08] } 2... d5
+{ [%eval 0.26] } 3. exd5 { [%eval 0.08] } 3... exd5 { [%eval 0.16] } 4. Nf3
+{ [%eval -0.01] } 4... Bd6 { [%eval 0.1] } 5. Bd3 { [%eval -0.02] } 5... Bg4
+{ [%eval 0.43] } 6. O-O { [%eval 0.35] } 6... Ne7 { [%eval 0.4] } 7. h3
+{ [%eval 0.5] } 7... Bh5 { [%eval 0.55] } 8. Bg5 { [%eval 0.09] } 8... f6
+{ [%eval 0.31] } 9. Bh4 { [%eval -0.1] } 9... O-O { [%eval 0.02] } 10. Re1
+{ [%eval 0.05] } 10... Nd7 { [%eval 0.16] } 11. Qe2 $6 { [%eval -0.41] } 11...
+Bxf3 $2 { [%eval 0.68] } 12. Qxf3 { [%eval 0.53] } 12... c6 { [%eval 0.89] }
+13. Nd2 { [%eval 0.56] } 13... Nb6 $6 { [%eval 1.24] } 14. b3 $6
+{ [%eval 0.51] } 14... Qc7 { [%eval 0.79] } 15. Nf1 { [%eval 0.39] } 15... Rae8
+{ [%eval 0.43] } 16. Bg3 { [%eval 0.47] } 16... Bxg3 { [%eval 0.54] } 17. Nxg3
+{ [%eval 0.48] } 17... c5 $6 { [%eval 1.05] } 18. Qh5 $6 { [%eval 0.07] } 18...
+h6 $2 { [%eval 2.39] } 19. Nf5 { [%eval 2.25] } 19... Nxf5 $2 { [%eval 5.0] }
+20. Qxf5 $2 { [%eval 3.68] } 20... Re7 $4 { [%eval #2] } 21. Qh7+
+{ [%eval #1] } 1-0

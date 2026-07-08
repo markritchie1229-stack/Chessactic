@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/db1XUdsR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Metal__Mercenary"]
+[Black "nork"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:01:57"]
+[WhiteElo "1437"]
+[BlackElo "1312"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "A46"]
+[Opening "Torre Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 { [%eval 0.26] } 1... Nf6 { [%eval 0.28] } 2. d4 { [%eval 0.31] } 2...
+e6 { [%eval 0.18] } 3. Bg5 { [%eval 0.04] } 3... d5 { [%eval 0.05] } 4. h3
+{ [%eval -0.24] } 4... h6 { [%eval 0.0] } 5. Bxf6 { [%eval -0.07] } 5... Qxf6
+{ [%eval -0.04] } 6. Nc3 { [%eval -0.24] } 6... Bb4 { [%eval -0.25] } 7. a3
+{ [%eval -0.28] } 7... Bd6 $6 { [%eval 0.35] } 8. b4 $6 { [%eval -0.52] } 8...
+a6 $6 { [%eval 0.33] } 9. e3 { [%eval 0.0] } 9... Nc6 { [%eval 0.27] } 10. Qe2
+$6 { [%eval -0.3] } 10... Bd7 { [%eval -0.34] } 11. O-O-O $2 { [%eval -2.06] }
+11... O-O-O $2 { [%eval -0.08] } 12. g4 $2 { [%eval -1.24] } 12... g5
+{ [%eval -0.97] } 13. Bg2 { [%eval -1.08] } 13... Na7 { [%eval -0.97] } 14. e4
+{ [%eval -1.2] } 14... dxe4 $6 { [%eval -0.38] } 15. Nxe4 { [%eval -0.28] }
+15... Bf4+ { [%eval -0.41] } 16. Kb1 { [%eval -0.38] } 16... Qe7
+{ [%eval -0.08] } 17. h4 { [%eval -0.56] } 17... f5 $2 { [%eval 1.12] } 18.
+gxf5 $2 { [%eval -0.45] } 18... exf5 { [%eval -0.01] } 19. Nc3
+{ [%eval -0.16] } 19... Qg7 { [%eval 0.0] } 20. hxg5 { [%eval 0.0] } 20... hxg5
+{ [%eval 0.0] } 21. Rxh8 { [%eval -0.06] } 21... Qxh8 { [%eval 0.05] } 22. Qe5
+$4 { [%eval -10.4] } 22... Bxe5 { [%eval -10.18] } 23. Nxe5 { [%eval -10.08] }
+23... f4 $2 { [%eval -8.01] } 24. Nf7 { [%eval -8.48] } 24... Qg7 $2
+{ [%eval -7.18] } 25. Nxd8 { [%eval -6.91] } 25... Kxd8 { [%eval -6.63] } 26.
+Nd5 $2 { [%eval -8.53] } 26... c6 { [%eval -8.2] } 27. Nc3 { [%eval -8.5] }
+27... Nb5 { [%eval -8.11] } 28. Ne4 $2 { [%eval -9.21] } 28... Qg6 $2
+{ [%eval -7.61] } 29. c4 $2 { [%eval -15.69] } 29... Nc7 $2 { [%eval -8.01] }
+30. c5 $2 { [%eval -11.42] } 1-0

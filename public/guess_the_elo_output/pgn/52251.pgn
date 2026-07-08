@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/120XwlcX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vsoloduxa"]
+[Black "Nightro_G"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:17:45"]
+[WhiteElo "2187"]
+[BlackElo "2099"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+14"]
+[ECO "A02"]
+[Opening "Bird Opening: From's Gambit, Lasker Variation"]
+[TimeControl "300+5"]
+[Termination "Time forfeit"]
+
+1. f4 { [%eval -0.25] } 1... e5 { [%eval 0.14] } 2. fxe5 { [%eval 0.17] } 2...
+d6 { [%eval 0.2] } 3. exd6 { [%eval 0.24] } 3... Bxd6 { [%eval 0.27] } 4. Nf3
+{ [%eval 0.3] } 4... g5 { [%eval 0.64] } 5. g3 { [%eval 0.55] } 5... g4
+{ [%eval 0.62] } 6. Nh4 { [%eval 0.58] } 6... Nc6 { [%eval 0.96] } 7. Bg2
+{ [%eval 1.36] } 7... Be7 { [%eval 1.1] } 8. Bxc6+ $6 { [%eval 0.4] } 8... bxc6
+{ [%eval 0.47] } 9. Ng2 { [%eval 0.4] } 9... h5 { [%eval 0.27] } 10. d4
+{ [%eval 0.22] } 10... h4 { [%eval 0.3] } 11. Rf1 { [%eval 0.0] } 11... hxg3
+{ [%eval 0.0] } 12. hxg3 { [%eval 0.0] } 12... Rh2 { [%eval 0.0] } 13. Nf4
+{ [%eval 0.0] } 13... Bf5 { [%eval -0.05] } 14. Be3 { [%eval 0.0] } 14... Nf6
+{ [%eval -0.07] } 15. Bg1 { [%eval -0.47] } 15... Rh1 { [%eval 0.0] } 16. Nc3
+{ [%eval -0.08] } 16... Bb4 { [%eval -0.04] } 17. Nd3 $6 { [%eval -0.66] }
+17... Bxc3+ { [%eval -0.67] } 18. bxc3 { [%eval -0.72] } 18... Qd6
+{ [%eval -0.44] } 19. Nf4 $2 { [%eval -1.8] } 19... Qa3 { [%eval -1.8] } 20.
+Qd2 { [%eval -2.14] } 20... Qb2 $6 { [%eval -1.18] } 21. Rd1 { [%eval -1.18] }
+21... Ne4 { [%eval -1.02] } 22. Qe3 $6 { [%eval -1.79] } 22... O-O-O
+{ [%eval -1.64] } 23. d5 $6 { [%eval -2.37] } 23... Nxc3 { [%eval -2.27] } 24.
+Kf2 $2 { [%eval -3.35] } 24... Nxd1+ { [%eval -3.34] } 25. Rxd1
+{ [%eval -3.26] } 25... Qxc2 $6 { [%eval -2.53] } 26. Rc1 { [%eval -2.47] }
+26... Qxa2 { [%eval -2.04] } 27. dxc6 $2 { [%eval -3.85] } 27... Qa4
+{ [%eval -3.5] } 28. Ng2 $6 { [%eval -4.22] } 28... Rdh8 $2 { [%eval -2.95] }
+29. Nf4 $6 { [%eval -3.92] } 29... Be4 { [%eval -3.66] } 30. Re1 $2
+{ [%eval -5.66] } 30... Qxc6 { [%eval -5.43] } 0-1

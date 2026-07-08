@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QJbSsGDc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Wingmaker"]
+[Black "alex0123"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:44:26"]
+[WhiteElo "1142"]
+[BlackElo "1310"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+11"]
+[ECO "A00"]
+[Opening "Mieses Opening: Reversed Rat"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.17] } 1... e5 { [%eval 0.0] } 2. e3 { [%eval -0.19] } 2...
+Nc6 { [%eval -0.03] } 3. a3 { [%eval -0.1] } 3... d5 { [%eval -0.12] } 4. b4
+{ [%eval -0.14] } 4... a6 { [%eval 0.06] } 5. h3 { [%eval -0.1] } 5... d4
+{ [%eval -0.14] } 6. e4 { [%eval -0.44] } 6... b5 { [%eval -0.22] } 7. Nf3
+{ [%eval -0.1] } 7... Bb7 { [%eval -0.05] } 8. Bg5 { [%eval -0.49] } 8... f6
+{ [%eval -0.32] } 9. Bd2 { [%eval -0.27] } 9... g5 $6 { [%eval 0.46] } 10. g3
+$6 { [%eval -0.12] } 10... Nh6 { [%eval -0.08] } 11. Nh2 { [%eval -0.3] } 11...
+Qe7 { [%eval -0.22] } 12. Be2 { [%eval -0.29] } 12... O-O-O { [%eval 0.0] } 13.
+Ng4 { [%eval -0.41] } 13... f5 { [%eval 0.0] } 14. Nxh6 { [%eval 0.0] } 14...
+Bxh6 { [%eval 0.31] } 15. exf5 $2 { [%eval -0.79] } 15... Rhf8 $2
+{ [%eval 0.6] } 16. g4 $2 { [%eval -0.85] } 16... Qd6 $2 { [%eval 1.5] } 17.
+Qc1 $2 { [%eval -0.19] } 17... Nxb4 $6 { [%eval 0.56] } 18. Bxg5 $4
+{ [%eval -8.37] } 18... Bxg5 { [%eval -8.17] } 19. Qxg5 $6 { [%eval -9.16] }
+19... Bxh1 $4 { [%eval -2.08] } 20. Kd2 $4 { [%eval -8.14] } 20... h6
+{ [%eval -7.76] } 21. Qh4 { [%eval -8.01] } 21... Nd5 { [%eval -7.47] } 22. f3
+$2 { [%eval -11.68] } 22... Nf4 $2 { [%eval -7.02] } 23. Bf1 $2
+{ [%eval -10.08] } 23... Bxf3 { [%eval -9.65] } 24. Qf2 { [%eval -9.83] } 24...
+Bb7 $2 { [%eval -8.25] } 25. Qh4 $2 { [%eval -11.52] } 25... Ng2 $2
+{ [%eval -7.91] } 26. Bxg2 { [%eval -7.8] } 26... Bxg2 { [%eval -7.4] } 27.
+Qxh6 $2 { [%eval #-5] } 0-1

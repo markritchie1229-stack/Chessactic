@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PqLbtGBm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zabik"]
+[Black "Karneros"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:25:51"]
+[WhiteElo "1105"]
+[BlackElo "1081"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+29"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.24] } 2... d6
+{ [%eval 0.35] } 3. d4 { [%eval 0.18] } 3... f6 $2 { [%eval 1.46] } 4. d5 $6
+{ [%eval 0.79] } 4... c6 { [%eval 1.01] } 5. Bc4 { [%eval 0.73] } 5... cxd5 $6
+{ [%eval 1.69] } 6. Bxd5 $6 { [%eval 1.05] } 6... g5 $2 { [%eval 2.36] } 7. h3
+$6 { [%eval 1.6] } 7... Ne7 { [%eval 1.61] } 8. c4 $2 { [%eval 0.57] } 8... f5
+$4 { [%eval 4.24] } 9. Bxg5 $6 { [%eval 3.69] } 9... fxe4 $4 { [%eval 7.26] }
+10. Qa4+ $4 { [%eval 1.44] } 10... Bd7 $6 { [%eval 2.41] } 11. Qc2 $4
+{ [%eval -1.0] } 11... exf3 { [%eval -0.81] } 12. Bxb7 $2 { [%eval -2.99] }
+12... Nbc6 { [%eval -2.75] } 13. Bxa8 $2 { [%eval -4.44] } 13... Qxa8 $2
+{ [%eval -3.24] } 14. O-O $4 { [%eval -11.82] } 14... Rg8 $4 { [%eval -6.5] }
+15. h4 $4 { [%eval -10.24] } 15... Bf5 $4 { [%eval -5.76] } 16. Qd2 $4
+{ [%eval -9.51] } 16... Bxb1 $4 { [%eval -5.67] } 17. Qxd6 $2 { [%eval -6.79] }
+17... Qb7 $2 { [%eval -4.13] } 18. Raxb1 $6 { [%eval -5.12] } 18... Qc8 $2
+{ [%eval -4.06] } 19. a4 $4 { [%eval #-11] } 19... Nf5 $4 { [%eval -4.56] } 20.
+b4 $4 { [%eval -17.7] } 20... Bxd6 { [%eval -16.48] } 0-1

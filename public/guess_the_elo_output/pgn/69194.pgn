@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/aeXcFwL3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stormur"]
+[Black "Nerwal"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:34:07"]
+[WhiteElo "2154"]
+[BlackElo "2295"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-19"]
+[ECO "E10"]
+[Opening "Blumenfeld Countergambit #2"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... Nf6 { [%eval 0.3] } 2. c4 { [%eval 0.14] } 2... e6
+{ [%eval 0.21] } 3. Nf3 { [%eval 0.14] } 3... c5 { [%eval 0.31] } 4. d5
+{ [%eval 0.25] } 4... exd5 $6 { [%eval 0.75] } 5. cxd5 { [%eval 0.74] } 5... d6
+{ [%eval 0.86] } 6. Bf4 { [%eval 0.5] } 6... g6 { [%eval 0.47] } 7. Nc3
+{ [%eval 0.59] } 7... Bg7 { [%eval 0.64] } 8. Qa4+ { [%eval 0.41] } 8... Bd7
+{ [%eval 0.8] } 9. Qb3 { [%eval 0.35] } 9... b5 { [%eval 0.73] } 10. Nxb5
+{ [%eval 0.56] } 10... Qa5+ { [%eval 0.72] } 11. Nc3 { [%eval 0.62] } 11... Ne4
+{ [%eval 0.97] } 12. Bd2 { [%eval 0.77] } 12... Nxc3 { [%eval 1.0] } 13. Bxc3
+{ [%eval 0.9] } 13... Bxc3+ { [%eval 1.05] } 14. Qxc3 { [%eval 1.0] } 14...
+Qxc3+ { [%eval 0.95] } 15. bxc3 { [%eval 1.01] } 15... Bf5 { [%eval 1.39] } 16.
+e3 { [%eval 0.93] } 16... Nd7 { [%eval 1.0] } 17. Bb5 { [%eval 0.71] } 17...
+Rb8 { [%eval 0.93] } 18. a4 { [%eval 1.08] } 18... Ke7 { [%eval 1.13] } 19. Kd2
+$2 { [%eval -0.32] } 19... Rb6 $2 { [%eval 0.98] } 20. e4 { [%eval 0.96] }
+20... Bg4 { [%eval 0.99] } 21. Bxd7 { [%eval 0.79] } 21... Bxd7
+{ [%eval 0.91] } 22. Kc2 { [%eval 0.73] } 22... Rhb8 { [%eval 1.0] } 23. Ra2
+{ [%eval 0.86] } 23... f5 { [%eval 1.0] } 24. e5 { [%eval 0.83] } 24... dxe5 $6
+{ [%eval 1.37] } 25. Nxe5 { [%eval 1.46] } 25... Ra6 $6 { [%eval 1.98] } 26. a5
+{ [%eval 1.63] } 26... Be8 $2 { [%eval 2.91] } 27. Re1 { [%eval 2.77] } 27...
+Kd6 { [%eval 2.83] } 28. c4 { [%eval 2.52] } 28... Rb4 $2 { [%eval 4.08] } 29.
+Kc3 { [%eval 3.78] } 29... g5 $4 { [%eval 9.2] } 30. Nd3 { [%eval 8.81] } 1-0

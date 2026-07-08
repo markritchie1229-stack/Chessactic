@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/83loPuHX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rduarte"]
+[Black "e_boechat"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:28:19"]
+[WhiteElo "1435"]
+[BlackElo "1491"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.08] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.31] } 2... d6
+{ [%eval 0.31] } 3. Nc3 { [%eval 0.29] } 3... Nf6 { [%eval 0.39] } 4. d3
+{ [%eval -0.04] } 4... h6 { [%eval 0.29] } 5. h3 { [%eval 0.0] } 5... Be7
+{ [%eval 0.05] } 6. a3 { [%eval -0.1] } 6... c6 { [%eval 0.26] } 7. g4
+{ [%eval -0.16] } 7... g5 $6 { [%eval 0.48] } 8. h4 $6 { [%eval -0.5] } 8...
+Nxg4 $6 { [%eval 0.42] } 9. hxg5 { [%eval 0.48] } 9... Qb6 { [%eval 0.78] } 10.
+Qe2 { [%eval 0.85] } 10... Nd7 $6 { [%eval 1.48] } 11. Na4 { [%eval 1.37] }
+11... Qa5+ { [%eval 1.13] } 12. b4 $4 { [%eval -2.02] } 12... Qxa4
+{ [%eval -2.53] } 13. Ng1 $6 { [%eval -3.12] } 13... Nf8 { [%eval -3.0] } 14.
+Qd1 { [%eval -3.45] } 14... b5 $2 { [%eval -1.65] } 15. Be2 { [%eval -1.9] }
+15... Nxf2 $2 { [%eval -0.74] } 16. Kxf2 { [%eval -0.74] } 16... Qa6 $6
+{ [%eval 0.19] } 17. Be3 { [%eval 0.15] } 17... d5 { [%eval 0.5] } 18. Nf3
+{ [%eval 0.39] } 18... d4 { [%eval 0.42] } 19. Bd2 { [%eval 0.27] } 19... f5 $4
+{ [%eval 4.79] } 20. Nxe5 { [%eval 4.58] } 20... fxe4 { [%eval 4.43] } 21. Bg4
+$4 { [%eval 0.0] } 21... e3+ { [%eval 0.0] } 22. Kf1 { [%eval 0.0] } 22... exd2
+{ [%eval 0.0] } 23. Bxc8 $2 { [%eval -2.35] } 23... Rxc8 $2 { [%eval 0.0] } 24.
+Qf3 $4 { [%eval -3.13] } 24... Rh7 { [%eval -3.07] } 25. g6 $2 { [%eval -4.2] }
+25... Nxg6 { [%eval -3.6] } 26. Nxg6 $4 { [%eval -7.54] } 26... Rf7
+{ [%eval -7.06] } 0-1

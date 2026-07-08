@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/H9GhCjFU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "US-34"]
+[Black "Ruslan-stalemate"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:56:55"]
+[WhiteElo "1500"]
+[BlackElo "1800"]
+[WhiteRatingDiff "+386"]
+[BlackRatingDiff "-12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #3"]
+[TimeControl "480+3"]
+[Termination "Normal"]
+
+1. b3 { [%eval 0.09] } 1... e5 { [%eval 0.07] } 2. Bb2 { [%eval -0.02] } 2...
+Nc6 { [%eval 0.09] } 3. g3 { [%eval -0.23] } 3... d5 { [%eval -0.3] } 4. Bg2
+{ [%eval -0.37] } 4... Be6 { [%eval -0.17] } 5. d3 { [%eval -0.28] } 5... Bd6
+{ [%eval -0.09] } 6. Nd2 { [%eval -0.1] } 6... Nge7 { [%eval 0.14] } 7. e3
+{ [%eval -0.06] } 7... O-O { [%eval -0.16] } 8. Ne2 { [%eval -0.1] } 8... d4 $6
+{ [%eval 0.67] } 9. exd4 { [%eval 0.56] } 9... exd4 { [%eval 0.62] } 10. O-O
+{ [%eval 0.52] } 10... Be5 { [%eval 0.66] } 11. f4 $6 { [%eval -0.06] } 11...
+Bf6 { [%eval 0.08] } 12. Ne4 { [%eval -0.01] } 12... Bg4 $2 { [%eval 1.47] }
+13. h3 { [%eval 1.37] } 13... Bxe2 { [%eval 1.47] } 14. Qxe2 $2
+{ [%eval 0.17] } 14... Ng6 $2 { [%eval 1.73] } 15. Nxf6+ { [%eval 1.24] } 15...
+Qxf6 { [%eval 1.13] } 16. Bxc6 { [%eval 0.97] } 16... bxc6 { [%eval 1.27] } 17.
+Qe4 { [%eval 1.01] } 17... c5 { [%eval 1.08] } 18. Ba3 $6 { [%eval 0.26] }
+18... Rfe8 { [%eval 0.27] } 19. Qf3 { [%eval 0.4] } 19... Re3 $4
+{ [%eval 8.7] } 20. Qxa8+ { [%eval 8.49] } 20... Nf8 { [%eval 8.27] } 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/sUJjijGf"]
+[Site "https://lichess.org/7R6OO2iw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rushh"]
+[Black "mossyoaktree"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:25:43"]
+[WhiteElo "2286"]
+[BlackElo "2016"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+19"]
+[WhiteTitle "FM"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Krause Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.42] } 2. Nf3 { [%eval 0.31] } 2... c5
+{ [%eval 0.38] } 3. Bf4 { [%eval 0.05] } 3... cxd4 { [%eval 0.2] } 4. Nxd4
+{ [%eval -0.26] } 4... Nc6 $6 { [%eval 0.44] } 5. Nxc6 $6 { [%eval -0.19] }
+5... bxc6 { [%eval -0.06] } 6. e3 { [%eval -0.47] } 6... Nf6 { [%eval -0.12] }
+7. Nd2 { [%eval -0.38] } 7... e6 { [%eval -0.19] } 8. c3 { [%eval -0.35] } 8...
+Bd6 { [%eval -0.23] } 9. Bg3 { [%eval -0.54] } 9... O-O { [%eval -0.42] } 10.
+Bd3 { [%eval -0.72] } 10... e5 { [%eval -0.52] } 11. Qc2 { [%eval -0.57] }
+11... e4 { [%eval -0.62] } 12. Be2 { [%eval -0.68] } 12... Bg4 $2
+{ [%eval 0.47] } 13. Bxg4 $2 { [%eval -0.6] } 13... Nxg4 $6 { [%eval 0.1] } 14.
+c4 $2 { [%eval -1.97] } 14... Bxg3 { [%eval -1.93] } 15. hxg3 { [%eval -2.14] }
+15... Qf6 { [%eval -1.99] } 16. Nb3 { [%eval -1.88] } 16... Ne5 $6
+{ [%eval -0.93] } 17. cxd5 { [%eval -0.83] } 17... Nd3+ { [%eval -0.87] } 18.
+Kf1 { [%eval -1.06] } 18... cxd5 { [%eval -0.92] } 19. Nd4 { [%eval -1.12] }
+19... Rac8 { [%eval -0.91] } 20. Qd2 { [%eval -1.22] } 20... Rc7
+{ [%eval -1.58] } 21. b3 $4 { [%eval -6.51] } 21... Rfc8 { [%eval -5.82] } 22.
+Rd1 $2 { [%eval -7.76] } 22... Rc1 { [%eval -7.15] } 23. Ne2 $2 { [%eval #-1] }
+23... Rxd1+ $6 { [%eval #-1] } 24. Qxd1 { [%eval #-1] } 24... Qxf2# 0-1

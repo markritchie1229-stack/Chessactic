@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/AyL4AVfK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rezadianati"]
+[Black "Kiran01"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:09:44"]
+[WhiteElo "1928"]
+[BlackElo "1916"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: English Variation"]
+[TimeControl "300+5"]
+[Termination "Time forfeit"]
+
+1. b3 { [%eval -0.25] } 1... c5 { [%eval 0.13] } 2. Bb2 { [%eval -0.04] } 2...
+e6 { [%eval 0.11] } 3. e4 { [%eval 0.12] } 3... Nf6 { [%eval 0.28] } 4. e5
+{ [%eval 0.16] } 4... Nd5 { [%eval 0.29] } 5. c4 { [%eval 0.13] } 5... Nb6
+{ [%eval 0.41] } 6. Nf3 { [%eval 0.17] } 6... d5 { [%eval 0.56] } 7. exd6
+{ [%eval 0.55] } 7... Qxd6 { [%eval 0.58] } 8. Be2 { [%eval 0.51] } 8... Nc6
+{ [%eval 0.62] } 9. Nc3 { [%eval 0.16] } 9... a6 { [%eval 0.56] } 10. Ne4 $6
+{ [%eval 0.0] } 10... Qd8 $2 { [%eval 1.16] } 11. O-O { [%eval 1.0] } 11... f5
+{ [%eval 1.13] } 12. Nc3 $2 { [%eval -0.44] } 12... Be7 { [%eval -0.56] } 13.
+a4 { [%eval -0.67] } 13... Bf6 { [%eval -0.58] } 14. a5 { [%eval -0.63] } 14...
+Nd7 { [%eval -0.6] } 15. Re1 { [%eval -0.56] } 15... O-O { [%eval -0.51] } 16.
+Bd3 { [%eval -0.87] } 16... Nb4 $6 { [%eval -0.18] } 17. Bb1 { [%eval -0.27] }
+17... Re8 { [%eval -0.14] } 18. d4 { [%eval -0.24] } 18... cxd4
+{ [%eval -0.09] } 19. Nxd4 { [%eval -0.26] } 19... Nc5 { [%eval -0.26] } 20.
+Na4 { [%eval -0.44] } 20... Nxa4 { [%eval -0.22] } 21. Rxa4 { [%eval -0.29] }
+21... Bxd4 $6 { [%eval 0.61] } 22. Qxd4 { [%eval 0.54] } 22... Qxd4
+{ [%eval 0.67] } 23. Bxd4 { [%eval 0.62] } 23... Nc6 { [%eval 0.68] } 24. Bb6
+{ [%eval 0.49] } 24... e5 { [%eval 0.56] } 25. b4 { [%eval 0.37] } 25... e4
+{ [%eval 0.54] } 26. b5 { [%eval 0.14] } 26... axb5 $2 { [%eval 1.2] } 27. cxb5
+{ [%eval 1.13] } 27... Ne5 { [%eval 1.06] } 28. Ba2+ { [%eval 1.06] } 28... Be6
+{ [%eval 0.95] } 0-1

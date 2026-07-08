@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CoHZWOr9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "aleval"]
+[Black "BigBenisntsobig"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:05:32"]
+[WhiteElo "1618"]
+[BlackElo "1627"]
+[WhiteRatingDiff "+58"]
+[BlackRatingDiff "-10"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.32] } 2. Bf4 { [%eval 0.11] } 2... e6
+{ [%eval 0.23] } 3. Nf3 { [%eval 0.18] } 3... Nc6 { [%eval 0.25] } 4. a3
+{ [%eval 0.18] } 4... h6 { [%eval 0.21] } 5. e3 { [%eval 0.19] } 5... Nf6
+{ [%eval 0.41] } 6. h3 { [%eval 0.08] } 6... Bd6 { [%eval 0.08] } 7. Bxd6
+{ [%eval 0.16] } 7... Qxd6 { [%eval 0.35] } 8. c4 { [%eval 0.14] } 8... O-O
+{ [%eval 0.45] } 9. Nc3 { [%eval 0.37] } 9... dxc4 { [%eval 0.42] } 10. Bxc4
+{ [%eval 0.39] } 10... a6 { [%eval 0.53] } 11. b4 { [%eval 0.32] } 11... b5
+{ [%eval 0.45] } 12. Bd3 { [%eval 0.44] } 12... Bb7 { [%eval 0.56] } 13. Qc2
+{ [%eval 0.14] } 13... Rab8 $6 { [%eval 0.86] } 14. Ne4 $6 { [%eval 0.0] }
+14... Nxe4 { [%eval 0.0] } 15. Bxe4 { [%eval 0.0] } 15... f5 $6
+{ [%eval 0.67] } 16. Bxc6 { [%eval 0.6] } 16... Bxc6 { [%eval 0.62] } 17. Qe2
+$6 { [%eval 0.1] } 17... Be4 $6 { [%eval 0.6] } 18. O-O { [%eval 0.56] } 18...
+g5 $2 { [%eval 1.74] } 19. Nd2 $2 { [%eval 0.7] } 19... h5 $4 { [%eval 3.97] }
+20. Nxe4 { [%eval 3.74] } 20... fxe4 { [%eval 4.04] } 21. Qxh5 { [%eval 3.61] }
+21... Rf7 { [%eval 4.06] } 22. Qxg5+ { [%eval 3.83] } 22... Rg7
+{ [%eval 3.72] } 23. Qe5 $2 { [%eval 2.39] } 23... Qe7 $2 { [%eval 4.68] } 24.
+Rac1 { [%eval 4.44] } 24... Rc8 $2 { [%eval 5.63] } 25. Qxe4 { [%eval 5.17] }
+25... Kh8 $6 { [%eval 5.89] } 26. Rc5 { [%eval 5.64] } 26... Qf7
+{ [%eval 5.72] } 27. Rc6 { [%eval 5.6] } 27... Rcg8 { [%eval 5.73] } 28. g3
+{ [%eval 5.54] } 28... Rh7 { [%eval 5.97] } 29. Qxe6 { [%eval 5.83] } 29... Qg7
+$2 { [%eval 6.94] } 30. Qf6 $2 { [%eval 5.67] } 1-0

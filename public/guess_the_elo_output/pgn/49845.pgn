@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ZZunIYyX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Racer250cc"]
+[Black "SamuelCaplan"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:54:06"]
+[WhiteElo "1663"]
+[BlackElo "1501"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... d5 { [%eval 0.22] } 2. e3 { [%eval 0.14] } 2... e6
+{ [%eval 0.17] } 3. h3 { [%eval 0.14] } 3... Nc6 { [%eval 0.51] } 4. a3
+{ [%eval 0.33] } 4... e5 { [%eval 0.36] } 5. Nc3 { [%eval -0.1] } 5... exd4
+{ [%eval 0.38] } 6. exd4 { [%eval 0.27] } 6... Nf6 { [%eval 0.43] } 7. Be3
+{ [%eval 0.37] } 7... Be7 { [%eval 0.42] } 8. Nf3 { [%eval 0.31] } 8... O-O
+{ [%eval 0.44] } 9. Bd3 { [%eval 0.37] } 9... Ne4 $2 { [%eval 1.64] } 10. O-O
+$2 { [%eval 0.13] } 10... Nxc3 { [%eval 0.14] } 11. bxc3 { [%eval 0.07] } 11...
+f6 $6 { [%eval 0.77] } 12. c4 { [%eval 0.73] } 12... Be6 { [%eval 1.13] } 13.
+c5 $6 { [%eval 0.41] } 13... Qd7 { [%eval 0.55] } 14. c3 { [%eval 0.44] } 14...
+Bf5 { [%eval 0.6] } 15. Bc2 $6 { [%eval -0.17] } 15... Be4 $6 { [%eval 0.5] }
+16. Bxe4 $6 { [%eval -0.1] } 16... dxe4 { [%eval -0.2] } 17. Nd2
+{ [%eval 0.0] } 17... f5 { [%eval -0.13] } 18. f3 $2 { [%eval -1.43] } 18...
+Rfe8 $4 { [%eval 1.74] } 19. fxe4 { [%eval 1.5] } 19... fxe4 { [%eval 1.62] }
+20. Nc4 $2 { [%eval 0.16] } 20... Bf6 { [%eval 0.31] } 21. Qh5
+{ [%eval -0.16] } 21... b6 $6 { [%eval 0.59] } 22. Rf4 $2 { [%eval -0.69] }
+22... Na5 $2 { [%eval 1.25] } 23. Nxa5 { [%eval 1.01] } 23... bxa5
+{ [%eval 1.14] } 24. Raf1 { [%eval 0.81] } 24... Rab8 { [%eval 1.21] } 25. Qg4
+$2 { [%eval -0.41] } 25... Kh8 $4 { [%eval 16.89] } 26. Qxd7 { [%eval 16.31] }
+1-0

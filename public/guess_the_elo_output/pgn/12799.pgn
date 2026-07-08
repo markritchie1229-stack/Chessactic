@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PuOhz7Pc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ckant93"]
+[Black "Totigol"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:16:21"]
+[WhiteElo "974"]
+[BlackElo "1489"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[ECO "A02"]
+[Opening "Bird Opening: From's Gambit, Bahr Gambit"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.08] } 1... e5 { [%eval 0.21] } 2. f4 $6 { [%eval -0.6] }
+2... exf4 { [%eval -0.78] } 3. d4 $6 { [%eval -1.38] } 3... d5 $2
+{ [%eval -0.26] } 4. Bxf4 { [%eval -0.35] } 4... Bb4 { [%eval -0.25] } 5. e3
+{ [%eval -0.05] } 5... Nc6 { [%eval 0.07] } 6. Ne2 { [%eval -0.05] } 6... Nf6
+{ [%eval -0.07] } 7. g3 $6 { [%eval -0.67] } 7... Ne4 $6 { [%eval -0.13] } 8.
+Bg2 { [%eval -0.11] } 8... Bg4 { [%eval -0.25] } 9. O-O $2 { [%eval -1.6] }
+9... Nxc3 $2 { [%eval 0.54] } 10. Nxc3 $4 { [%eval -6.5] } 10... Bxd1
+{ [%eval -6.29] } 11. Nxd5 { [%eval -6.32] } 11... Bxc2 { [%eval -6.17] } 12.
+Nxc7+ { [%eval -6.15] } 12... Kd7 $6 { [%eval -5.62] } 13. Be4 $4
+{ [%eval -13.56] } 13... Bxe4 { [%eval -13.32] } 14. d5 { [%eval -13.98] }
+14... Ne7 { [%eval -13.37] } 15. d6 { [%eval -14.93] } 15... Bxd6
+{ [%eval -14.6] } 16. Bxd6 { [%eval -15.42] } 16... Kxd6 { [%eval -14.91] } 17.
+Rfd1+ { [%eval -17.03] } 17... Nd5 { [%eval -15.59] } 18. Nb5+
+{ [%eval -17.28] } 18... Kc6 { [%eval -16.51] } 19. Rac1+ { [%eval -22.9] }
+19... Kxb5 { [%eval -21.84] } 20. Rxd5+ $6 { [%eval #-8] } 20... Qxd5
+{ [%eval #-10] } 21. Rc5+ { [%eval #-5] } 21... Qxc5 { [%eval #-4] } 0-1

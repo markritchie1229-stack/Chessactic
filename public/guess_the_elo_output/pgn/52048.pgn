@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/us7MeEUk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Professeury"]
+[Black "Petrosjan"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:56:58"]
+[WhiteElo "1834"]
+[BlackElo "1909"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
+[TimeControl "240+5"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.33] } 2. c3 { [%eval 0.22] } 2... Nc6
+{ [%eval 0.29] } 3. d3 { [%eval -0.13] } 3... d6 { [%eval 0.36] } 4. g3 $6
+{ [%eval -0.16] } 4... e5 { [%eval -0.06] } 5. Bg2 { [%eval 0.01] } 5... Nge7
+{ [%eval 0.04] } 6. Ne2 { [%eval -0.07] } 6... f5 $6 { [%eval 0.56] } 7. O-O
+{ [%eval 0.67] } 7... fxe4 { [%eval 0.61] } 8. dxe4 { [%eval 0.62] } 8... Ng6
+{ [%eval 0.73] } 9. h3 $6 { [%eval 0.1] } 9... Be7 { [%eval 0.31] } 10. f4
+{ [%eval 0.08] } 10... exf4 { [%eval 0.02] } 11. Nxf4 { [%eval 0.2] } 11...
+Nxf4 { [%eval 0.14] } 12. Bxf4 $6 { [%eval -0.48] } 12... O-O $6
+{ [%eval 0.2] } 13. Nd2 $6 { [%eval -0.37] } 13... Kh8 { [%eval 0.11] } 14. Qc2
+{ [%eval -0.3] } 14... Be6 { [%eval -0.27] } 15. b3 { [%eval -0.3] } 15... Qb6
+{ [%eval -0.12] } 16. Kh2 { [%eval -0.17] } 16... Ne5 { [%eval 0.0] } 17. Nf3
+{ [%eval -0.2] } 17... Nxf3+ { [%eval 0.0] } 18. Rxf3 { [%eval 0.03] } 18... d5
+{ [%eval 0.43] } 19. Raf1 { [%eval 0.05] } 19... dxe4 $2 { [%eval 1.16] } 20.
+Qxe4 { [%eval 0.83] } 20... Rad8 $2 { [%eval 2.95] } 21. Re3 { [%eval 2.66] }
+21... Rf6 { [%eval 2.79] } 22. Be5 $2 { [%eval 0.45] } 22... Rxf1
+{ [%eval 0.44] } 23. Bxf1 { [%eval 0.53] } 23... Bd5 $4 { [%eval 7.26] } 24.
+Bxg7+ { [%eval 7.05] } 24... Kxg7 { [%eval 6.97] } 25. Qxe7+ { [%eval 6.58] }
+25... Kg8 $4 { [%eval 11.92] } 26. Re5 { [%eval 10.16] } 26... Bf7
+{ [%eval 56.02] } 27. Rg5+ { [%eval 52.28] } 27... Bg6 $6 { [%eval #4] } 28.
+Bc4+ { [%eval #3] } 28... Kh8 { [%eval #2] } 29. h4 $4 { [%eval 2.3] } 1-0

@@ -1,0 +1,33 @@
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/OF8vTKxz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "joao_paulo"]
+[Black "urzahil"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:33:17"]
+[WhiteElo "1337"]
+[BlackElo "1837"]
+[WhiteRatingDiff "+393"]
+[BlackRatingDiff "-17"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "-"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.22] } 1... d5 { [%eval 0.03] } 2. Bg2 { [%eval -0.3] } 2...
+Nf6 { [%eval 0.02] } 3. b3 $6 { [%eval -0.5] } 3... e5 { [%eval -0.35] } 4. Bb2
+{ [%eval -0.52] } 4... Nc6 { [%eval -0.33] } 5. c4 { [%eval -0.63] } 5... d4
+{ [%eval -0.57] } 6. e3 $2 { [%eval -2.39] } 6... d3 $2 { [%eval 0.3] } 7. f4
+$2 { [%eval -0.89] } 7... exf4 { [%eval -0.45] } 8. gxf4 $6 { [%eval -0.95] }
+8... Bg4 { [%eval -0.54] } 9. Bf3 { [%eval -0.47] } 9... Bxf3 { [%eval -0.43] }
+10. Qxf3 { [%eval -0.58] } 10... Be7 $6 { [%eval 0.07] } 11. Nc3
+{ [%eval -0.35] } 11... O-O $6 { [%eval 0.34] } 12. Qh3 $6 { [%eval -0.34] }
+12... Re8 $6 { [%eval 0.49] } 13. Nf3 { [%eval 0.14] } 13... Bc5 $6
+{ [%eval 0.78] } 14. Ng5 { [%eval 0.48] } 14... h6 { [%eval 0.5] } 15. Nf3
+{ [%eval 0.33] } 15... Bxe3 $6 { [%eval 1.26] } 16. dxe3 { [%eval 0.61] } 16...
+Rxe3+ $6 { [%eval 1.38] } 17. Kd2 { [%eval 1.15] } 17... Re2+ $4
+{ [%eval 4.66] } 18. Nxe2 { [%eval 4.44] } 18... Ne4+ { [%eval 4.7] } 19. Ke3
+{ [%eval 4.2] } 19... Nb4 $2 { [%eval 6.87] } 20. Qg4 $2 { [%eval 5.4] } 20...
+Qe7 $4 { [%eval #1] } 21. Qxg7# 1-0

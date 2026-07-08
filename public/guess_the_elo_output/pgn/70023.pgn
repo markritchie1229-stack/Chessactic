@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dXIE7m5g"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KEPLEE"]
+[Black "lynch_076"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:15:14"]
+[WhiteElo "1276"]
+[BlackElo "1270"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+15"]
+[ECO "C20"]
+[Opening "English Opening: The Whale"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.37] } 2. c4 $6 { [%eval -0.19] } 2...
+Nf6 { [%eval -0.19] } 3. Nc3 { [%eval -0.18] } 3... Bc5 { [%eval -0.18] } 4. h3
+{ [%eval -0.21] } 4... d6 { [%eval -0.15] } 5. Nf3 { [%eval -0.18] } 5... Nc6
+{ [%eval -0.15] } 6. d3 { [%eval -0.25] } 6... O-O { [%eval -0.24] } 7. Be3
+{ [%eval -0.33] } 7... Bxe3 { [%eval -0.01] } 8. fxe3 { [%eval -0.32] } 8... a6
+{ [%eval -0.25] } 9. Ng5 $6 { [%eval -0.8] } 9... b5 { [%eval -0.79] } 10. c5
+$2 { [%eval -1.85] } 10... b4 { [%eval -1.95] } 11. Nd5 $2 { [%eval -3.34] }
+11... Nxd5 { [%eval -3.33] } 12. exd5 { [%eval -3.26] } 12... Qxg5
+{ [%eval -3.08] } 13. dxc6 { [%eval -3.25] } 13... Qxe3+ { [%eval -3.12] } 14.
+Be2 { [%eval -3.48] } 14... Qxc5 { [%eval -3.45] } 15. Bf3 { [%eval -3.76] }
+15... d5 $6 { [%eval -2.97] } 16. Rc1 $2 { [%eval -3.97] } 16... Qe3+
+{ [%eval -3.77] } 17. Qe2 $4 { [%eval -11.06] } 17... Qxc1+ { [%eval -10.71] }
+18. Kf2 { [%eval -14.29] } 18... Qxh1 { [%eval -13.83] } 19. Bxd5
+{ [%eval -16.06] } 19... Be6 { [%eval -15.6] } 20. Qxe5 { [%eval -33.12] }
+20... Bxd5 { [%eval -32.43] } 21. Qxd5 { [%eval -32.12] } 21... Rad8
+{ [%eval -27.2] } 22. Qa5 $6 { [%eval #-7] } 22... Rxd3 { [%eval #-7] } 23.
+Qxa6 { [%eval #-6] } 23... Rd2+ { [%eval #-6] } 24. Kg3 { [%eval #-4] } 24...
+Qxg2+ { [%eval #-3] } 25. Kh4 { [%eval #-2] } 25... Qf2+ $6 { [%eval #-3] } 26.
+Kg4 { [%eval #-3] } 26... f5+ $6 { [%eval #-3] } 27. Kg5 { [%eval #-3] } 27...
+h6+ { [%eval #-2] } 28. Kh5 { [%eval #-2] } 28... Qf3+ { [%eval #-1] } 29. Kh4
+{ [%eval #-1] } 29... Rd4# 0-1

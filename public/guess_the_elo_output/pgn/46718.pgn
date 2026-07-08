@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nTsZ3fyY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Andriy_Kobrij"]
+[Black "queen_iryna"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:47:03"]
+[WhiteElo "1905"]
+[BlackElo "1886"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+17"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted, Bonsch-Osmolovsky Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.42] } 2. f4 $6 { [%eval -0.27] } 2...
+exf4 { [%eval -0.18] } 3. Nf3 { [%eval -0.14] } 3... Ne7 { [%eval 0.0] } 4. d4
+{ [%eval -0.04] } 4... d5 { [%eval 0.0] } 5. e5 { [%eval -0.33] } 5... Ng6
+{ [%eval -0.18] } 6. Bd3 $6 { [%eval -0.7] } 6... Be7 { [%eval -0.53] } 7. Bxg6
+{ [%eval -0.6] } 7... hxg6 { [%eval -0.56] } 8. Bxf4 { [%eval -0.59] } 8... Nc6
+{ [%eval -0.62] } 9. Nbd2 $2 { [%eval -2.73] } 9... Bg4 $2 { [%eval -0.79] }
+10. c3 { [%eval -0.87] } 10... Qd7 { [%eval -0.73] } 11. h3 { [%eval -1.18] }
+11... Bh4+ $2 { [%eval -0.05] } 12. g3 $2 { [%eval -1.92] } 12... Be7
+{ [%eval -1.86] } 13. Qe2 { [%eval -1.78] } 13... Rxh3 $6 { [%eval -1.21] } 14.
+Rxh3 { [%eval -1.45] } 14... Bxh3 { [%eval -1.41] } 15. O-O-O { [%eval -1.45] }
+15... Bg4 { [%eval -1.41] } 16. Rh1 { [%eval -1.75] } 16... O-O-O
+{ [%eval -1.69] } 17. Qb5 $6 { [%eval -2.39] } 17... g5 { [%eval -1.93] } 18.
+Be3 { [%eval -1.91] } 18... Qf5 { [%eval -1.65] } 19. Qb3 $2 { [%eval -4.48] }
+19... Bxf3 { [%eval -4.37] } 20. Rf1 { [%eval -4.51] } 20... g4
+{ [%eval -4.33] } 21. c4 $4 { [%eval -8.37] } 21... dxc4 { [%eval -8.09] } 22.
+Nxc4 $2 { [%eval -30.56] } 22... Nxd4 { [%eval -24.8] } 23. Bxd4
+{ [%eval -29.7] } 23... Rxd4 { [%eval -22.51] } 24. Na5 $6 { [%eval #-2] }
+24... Qd3 $2 { [%eval -9.79] } 25. Qxb7+ $2 { [%eval #-3] } 25... Bxb7
+{ [%eval #-2] } 0-1

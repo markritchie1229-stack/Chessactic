@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/EvwZs6f4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Warian"]
+[Black "RustamGF"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:09:47"]
+[WhiteElo "1818"]
+[BlackElo "1539"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+18"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.19] } 1... b6 $6 { [%eval 0.5] } 2. Bg2 { [%eval 0.31] } 2...
+Nc6 { [%eval 0.56] } 3. Nf3 { [%eval 0.48] } 3... Bb7 { [%eval 0.41] } 4. O-O
+{ [%eval 0.39] } 4... d5 { [%eval 0.72] } 5. d4 { [%eval 0.63] } 5... e6
+{ [%eval 0.73] } 6. e3 { [%eval 0.27] } 6... Nf6 { [%eval 0.22] } 7. Nc3
+{ [%eval 0.0] } 7... Be7 { [%eval 0.0] } 8. Bd2 { [%eval -0.26] } 8... O-O
+{ [%eval -0.23] } 9. Qe2 { [%eval -0.43] } 9... Rc8 { [%eval -0.28] } 10. Rfe1
+{ [%eval -0.63] } 10... Nb8 { [%eval -0.3] } 11. Rad1 $2 { [%eval -2.89] }
+11... Nbd7 $2 { [%eval -0.19] } 12. a4 { [%eval -0.66] } 12... c5
+{ [%eval -0.5] } 13. b3 { [%eval -0.8] } 13... cxd4 { [%eval -0.82] } 14. Nxd4
+{ [%eval -0.86] } 14... Nc5 { [%eval -0.42] } 15. Ncb5 { [%eval -0.87] } 15...
+a6 { [%eval -0.92] } 16. Nc3 { [%eval -0.99] } 16... Nce4 $6 { [%eval -0.14] }
+17. Nxe4 { [%eval -0.31] } 17... Nxe4 { [%eval -0.02] } 18. Bxe4
+{ [%eval -0.13] } 18... dxe4 { [%eval -0.12] } 19. c3 { [%eval -0.57] } 19...
+Qe8 $6 { [%eval 0.0] } 20. b4 $2 { [%eval -1.35] } 20... f5 { [%eval -1.15] }
+21. a5 $2 { [%eval -2.24] } 21... b5 $2 { [%eval -0.68] } 22. Rc1 $2
+{ [%eval -2.23] } 22... Qh5 $4 { [%eval 9.5] } 23. Red1 $4 { [%eval -1.69] }
+23... Qh6 $2 { [%eval -0.45] } 24. Kg2 $2 { [%eval -3.0] } 24... g5 $2
+{ [%eval -0.53] } 25. Rh1 $2 { [%eval -3.03] } 25... f4 $6 { [%eval -2.11] }
+26. exf4 $4 { [%eval -6.81] } 26... e3+ { [%eval -6.44] } 27. f3
+{ [%eval -6.35] } 27... exd2 $2 { [%eval -5.34] } 28. Qxd2 { [%eval -5.4] }
+28... gxf4 { [%eval -5.01] } 29. gxf4 $4 { [%eval -11.11] } 29... Kh8 $4
+{ [%eval -6.88] } 30. Kf2 $4 { [%eval -11.93] } 30... Qh5 $2 { [%eval -7.18] }
+0-1

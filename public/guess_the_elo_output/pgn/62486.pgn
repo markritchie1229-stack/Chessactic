@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rOSC8q6p"]
+[Date "????.??.??"]
+[Round "?"]
+[White "boojumburrito"]
+[Black "Mustang_70"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:04:17"]
+[WhiteElo "1044"]
+[BlackElo "1065"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+23"]
+[ECO "C41"]
+[Opening "Philidor Defense: Nimzowitsch Variation #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... d6 { [%eval 0.45] } 2. e4 { [%eval 0.53] } 2... e5
+{ [%eval 0.62] } 3. Nf3 { [%eval 0.18] } 3... Nf6 { [%eval 0.31] } 4. b4 $2
+{ [%eval -0.77] } 4... g6 $2 { [%eval 0.3] } 5. Bb5+ $6 { [%eval -0.37] } 5...
+Bd7 { [%eval -0.37] } 6. c4 { [%eval -0.72] } 6... Bxb5 { [%eval -0.33] } 7.
+cxb5 { [%eval -0.25] } 7... Bg7 { [%eval 0.16] } 8. O-O { [%eval -0.22] } 8...
+O-O { [%eval 0.21] } 9. Re1 $6 { [%eval -0.64] } 9... c5 $6 { [%eval 0.18] }
+10. bxc5 { [%eval 0.17] } 10... dxc5 { [%eval 0.17] } 11. dxc5
+{ [%eval -0.31] } 11... Re8 $2 { [%eval 1.18] } 12. Bb2 $2 { [%eval 0.16] }
+12... a5 $2 { [%eval 2.31] } 13. Bxe5 $2 { [%eval 0.87] } 13... Qc8 $2
+{ [%eval 2.83] } 14. Qc2 $6 { [%eval 2.21] } 14... Rd8 $6 { [%eval 2.74] } 15.
+Rd1 $2 { [%eval 0.0] } 15... Rxd1+ { [%eval 0.0] } 16. Qxd1 { [%eval 0.22] }
+16... Qxc5 $6 { [%eval 1.11] } 17. Na3 $2 { [%eval -0.63] } 17... b6 $4
+{ [%eval 4.37] } 18. Qc1 $4 { [%eval 0.29] } 18... Nbd7 { [%eval 0.23] } 19.
+Qc2 $4 { [%eval -3.43] } 19... Qxa3 { [%eval -3.35] } 20. Rd1 $2
+{ [%eval -4.95] } 20... Nxe5 { [%eval -4.9] } 21. Nxe5 { [%eval -4.74] } 21...
+Bf8 $2 { [%eval -1.92] } 22. Rd7 $4 { [%eval -10.42] } 22... Qc5 $4
+{ [%eval -5.12] } 23. Rc7 $4 { [%eval -11.25] } 23... Qxe5 { [%eval -10.84] }
+24. Rxf7 $6 { [%eval #-2] } 24... Kxf7 $6 { [%eval -16.88] } 25. a4 $6
+{ [%eval #-2] } 25... Bd6 $6 { [%eval -16.85] } 26. Qe2 $6 { [%eval #-2] }
+26... Qxh2+ { [%eval #-1] } 27. Kf1 { [%eval #-1] } 27... Qh1# 0-1

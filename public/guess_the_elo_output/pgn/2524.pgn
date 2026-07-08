@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9QHid2S4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FranciscoZavala1004"]
+[Black "SecondAmendment"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:12:10"]
+[WhiteElo "1364"]
+[BlackElo "1318"]
+[WhiteRatingDiff "+62"]
+[BlackRatingDiff "-9"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.31] } 2. c4 { [%eval 0.22] } 2... e6
+{ [%eval 0.2] } 3. e3 { [%eval 0.16] } 3... dxc4 { [%eval 0.32] } 4. Bxc4
+{ [%eval 0.37] } 4... Bd7 { [%eval 0.62] } 5. Nc3 { [%eval 0.62] } 5... Nc6
+{ [%eval 0.98] } 6. Nf3 { [%eval 0.95] } 6... Nf6 { [%eval 0.91] } 7. Ne5
+{ [%eval 0.66] } 7... Nxe5 { [%eval 0.66] } 8. dxe5 { [%eval 0.66] } 8... b5 $6
+{ [%eval 1.35] } 9. Bb3 $6 { [%eval 0.39] } 9... Nd5 $6 { [%eval 1.29] } 10.
+Nxd5 { [%eval 1.16] } 10... exd5 { [%eval 1.17] } 11. Bxd5 { [%eval 0.97] }
+11... c6 { [%eval 1.02] } 12. Bf3 { [%eval 0.93] } 12... Qb6 { [%eval 0.9] }
+13. O-O { [%eval 0.88] } 13... Qc7 { [%eval 1.32] } 14. Qd4 { [%eval 1.0] }
+14... c5 $6 { [%eval 1.7] } 15. Qe4 $6 { [%eval 0.96] } 15... Rd8
+{ [%eval 0.94] } 16. Rd1 { [%eval 0.84] } 16... Be7 { [%eval 0.71] } 17. Qb7
+{ [%eval 0.76] } 17... Qxe5 $6 { [%eval 1.27] } 18. Rxd7 { [%eval 1.12] } 18...
+Rxd7 { [%eval 1.15] } 19. Qc8+ $2 { [%eval -0.68] } 19... Bd8 $2
+{ [%eval 1.01] } 20. Bc6 { [%eval 1.07] } 20... O-O $4 { [%eval 4.63] } 21.
+Bxd7 $2 { [%eval 1.92] } 21... Qd6 $2 { [%eval 4.83] } 22. Bxb5
+{ [%eval 4.67] } 22... Bc7 { [%eval 4.62] } 23. Qh3 { [%eval 4.66] } 23... Rd8
+{ [%eval 4.86] } 24. f4 $6 { [%eval 4.3] } 24... Qd1+ { [%eval 4.22] } 25. Kf2
+{ [%eval 4.12] } 25... Qc2+ { [%eval 4.19] } 26. Kf3 $4 { [%eval 0.57] } 26...
+Re8 $4 { [%eval 11.64] } 27. Bxe8 { [%eval 11.28] } 27... h6 { [%eval 16.48] }
+28. Qc8 { [%eval 12.26] } 28... Ba5 $6 { [%eval #7] } 29. Ba4+ { [%eval #6] }
+29... Kh7 { [%eval #6] } 30. Bxc2+ { [%eval #5] } 1-0

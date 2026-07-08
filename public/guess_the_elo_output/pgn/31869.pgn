@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jskq7L5V"]
+[Date "????.??.??"]
+[Round "?"]
+[White "googleBOSS"]
+[Black "jujuleboss"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:28:33"]
+[WhiteElo "1257"]
+[BlackElo "1293"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+107"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.29] } 1... e6 { [%eval 0.19] } 2. Bf4 { [%eval 0.15] } 2... d6
+{ [%eval 0.37] } 3. Nf3 { [%eval 0.39] } 3... e5 $2 { [%eval 1.4] } 4. dxe5
+{ [%eval 1.29] } 4... dxe5 $6 { [%eval 1.84] } 5. Nxe5 $2 { [%eval 0.8] } 5...
+Bb4+ { [%eval 1.25] } 6. c3 { [%eval 1.0] } 6... Bd6 { [%eval 1.31] } 7. e3
+{ [%eval 1.22] } 7... Bd7 $2 { [%eval 2.95] } 8. Nxd7 $2 { [%eval 1.54] } 8...
+Qxd7 { [%eval 1.6] } 9. Bxd6 { [%eval 1.48] } 9... Qxd6 { [%eval 1.71] } 10.
+Qd4 { [%eval 1.52] } 10... Qxd4 { [%eval 1.57] } 11. exd4 { [%eval 1.38] }
+11... Nf6 { [%eval 1.39] } 12. Bb5+ { [%eval 1.31] } 12... Nc6 { [%eval 1.65] }
+13. Bxc6+ { [%eval 1.34] } 13... bxc6 { [%eval 1.39] } 14. O-O { [%eval 1.21] }
+14... O-O { [%eval 1.35] } 15. Nd2 { [%eval 1.4] } 15... Rab8 { [%eval 1.58] }
+16. b3 { [%eval 1.32] } 16... Rbe8 { [%eval 1.47] } 17. Rae1 { [%eval 1.05] }
+17... Rxe1 $6 { [%eval 1.64] } 18. Rxe1 { [%eval 1.59] } 18... a5
+{ [%eval 1.72] } 19. Re7 $6 { [%eval 1.02] } 19... Nd5 { [%eval 0.97] } 20. Rd7
+{ [%eval 1.01] } 20... Nxc3 { [%eval 1.08] } 21. Rxc7 { [%eval 0.99] } 21...
+Nxa2 { [%eval 1.02] } 22. Rxc6 { [%eval 0.94] } 22... Nb4 { [%eval 1.06] } 23.
+Nc4 $4 { [%eval -6.56] } 23... Nxc6 { [%eval -6.38] } 24. b4 $4
+{ [%eval -9.68] } 0-1

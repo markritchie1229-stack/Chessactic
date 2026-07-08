@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dud0OvGm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LedZeppelin11"]
+[Black "bulat_zhanaev"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:54:52"]
+[WhiteElo "1618"]
+[BlackElo "1542"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "D44"]
+[Opening "Queen's Gambit Declined: Vienna Variation, Quiet Variation"]
+[TimeControl "900+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.1] } 2... dxc4
+{ [%eval 0.27] } 3. e3 { [%eval 0.34] } 3... Nf6 { [%eval 0.39] } 4. Nc3
+{ [%eval 0.05] } 4... e6 { [%eval 0.12] } 5. Nf3 { [%eval 0.1] } 5... c5
+{ [%eval 0.09] } 6. Bxc4 { [%eval 0.3] } 6... a6 { [%eval 0.33] } 7. O-O
+{ [%eval 0.15] } 7... b5 { [%eval 0.2] } 8. Bb3 { [%eval 0.19] } 8... Bb7
+{ [%eval 0.22] } 9. dxc5 { [%eval -0.2] } 9... Qxd1 { [%eval 0.0] } 10. Rxd1
+{ [%eval 0.0] } 10... Bxc5 { [%eval 0.0] } 11. Ne5 { [%eval 0.0] } 11... Nc6
+{ [%eval 0.06] } 12. Nxc6 { [%eval -0.02] } 12... Bxc6 { [%eval 0.1] } 13. Bc2
+{ [%eval -0.17] } 13... O-O { [%eval -0.14] } 14. e4 $6 { [%eval -0.99] } 14...
+b4 { [%eval -0.95] } 15. e5 $4 { [%eval -4.07] } 15... Nd5 $4 { [%eval -0.26] }
+16. Nxd5 { [%eval -0.56] } 16... Bxd5 { [%eval -0.41] } 17. Bb3
+{ [%eval -0.69] } 17... Bc6 $6 { [%eval -0.16] } 18. Bf4 { [%eval -0.14] }
+18... a5 $2 { [%eval 2.16] } 19. Rac1 $2 { [%eval 0.21] } 19... a4
+{ [%eval 0.22] } 20. Bxa4 { [%eval -0.1] } 20... Bxa4 { [%eval -0.14] } 21. b3
+{ [%eval -0.15] } 21... Bxb3 { [%eval 0.0] } 22. axb3 { [%eval 0.0] } 22...
+Rac8 { [%eval 0.14] } 23. h4 { [%eval 0.0] } 23... Rc6 $4 { [%eval 3.74] } 24.
+Kh2 $4 { [%eval 0.0] } 24... Rfc8 { [%eval 0.0] } 25. f3 { [%eval 0.07] } 25...
+h6 { [%eval 0.0] } 26. Kh3 { [%eval -0.08] } 26... Kh7 $6 { [%eval 0.51] } 27.
+Rd7 { [%eval 0.52] } 27... Kg6 { [%eval 0.78] } 28. g4 { [%eval 0.79] } 28...
+h5 $6 { [%eval 1.71] } 29. gxh5+ { [%eval 1.47] } 29... Kf5 $4 { [%eval #1] }
+30. Rxf7# 1-0

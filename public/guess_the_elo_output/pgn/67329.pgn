@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LMVNDwBW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChessNPress"]
+[Black "Amag007"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:09:48"]
+[WhiteElo "1798"]
+[BlackElo "1821"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B80"]
+[Opening "Sicilian Defense: Scheveningen Variation, English Attack"]
+[TimeControl "1800+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.31] } 2. Nf3 { [%eval 0.19] } 2... d6
+{ [%eval 0.19] } 3. d4 { [%eval 0.26] } 3... cxd4 { [%eval 0.21] } 4. Nxd4
+{ [%eval 0.21] } 4... Nf6 { [%eval 0.25] } 5. Nc3 { [%eval 0.27] } 5... a6
+{ [%eval 0.32] } 6. Be3 { [%eval 0.04] } 6... e6 { [%eval 0.33] } 7. Qd2
+{ [%eval 0.1] } 7... Be7 { [%eval 0.39] } 8. Bc4 $6 { [%eval -0.25] } 8... b5
+{ [%eval -0.06] } 9. Bb3 { [%eval 0.02] } 9... Bd7 { [%eval 0.0] } 10. a4 $6
+{ [%eval -0.71] } 10... b4 { [%eval -0.64] } 11. Na2 { [%eval -0.75] } 11... a5
+$6 { [%eval -0.16] } 12. f3 { [%eval -0.18] } 12... O-O { [%eval 0.06] } 13. c3
+{ [%eval -0.02] } 13... bxc3 { [%eval 0.06] } 14. Nxc3 { [%eval 0.16] } 14...
+Nc6 { [%eval 0.22] } 15. Ndb5 { [%eval 0.21] } 15... Qb8 { [%eval 0.3] } 16. e5
+$2 { [%eval -1.75] } 16... Nxe5 { [%eval -1.39] } 17. Bf4 { [%eval -1.52] }
+17... Bxb5 { [%eval -1.13] } 18. Nxb5 { [%eval -1.08] } 18... Rd8
+{ [%eval -0.91] } 19. O-O { [%eval -1.0] } 19... d5 { [%eval -0.55] } 20. Qd4
+$2 { [%eval -1.62] } 20... Bc5 $4 { [%eval 1.56] } 21. Qxc5 { [%eval 1.36] }
+21... Nxf3+ $4 { [%eval 6.93] } 22. Rxf3 { [%eval 6.73] } 22... Ne4
+{ [%eval 6.89] } 23. Qd4 { [%eval 6.44] } 1-0

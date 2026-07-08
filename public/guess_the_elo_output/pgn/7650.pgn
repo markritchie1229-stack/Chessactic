@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WN519De5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "persianreza"]
+[Black "maderovsky"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:38:42"]
+[WhiteElo "1678"]
+[BlackElo "1789"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "B51"]
+[Opening "Sicilian Defense: Canal-Sokolsky Attack"]
+[TimeControl "1800+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.26] } 2. Nf3 { [%eval 0.3] } 2... d6
+{ [%eval 0.28] } 3. Bb5+ { [%eval 0.31] } 3... Nc6 { [%eval 0.39] } 4. O-O
+{ [%eval 0.29] } 4... Bd7 { [%eval 0.27] } 5. Nc3 { [%eval 0.22] } 5... e6
+{ [%eval 0.33] } 6. d3 { [%eval -0.01] } 6... Nf6 { [%eval 0.0] } 7. Bxc6
+{ [%eval 0.0] } 7... Bxc6 { [%eval 0.0] } 8. Bg5 { [%eval -0.13] } 8... Be7
+{ [%eval -0.06] } 9. Qe2 { [%eval -0.22] } 9... Qc7 { [%eval -0.02] } 10. a3
+{ [%eval -0.33] } 10... b6 { [%eval 0.08] } 11. Rad1 { [%eval -0.18] } 11...
+O-O { [%eval -0.17] } 12. d4 { [%eval -0.17] } 12... Rfe8 { [%eval -0.11] } 13.
+d5 $6 { [%eval -0.75] } 13... exd5 { [%eval -0.66] } 14. Nxd5 { [%eval -0.87] }
+14... Bxd5 $6 { [%eval -0.2] } 15. exd5 { [%eval -0.28] } 15... Bd8
+{ [%eval -0.02] } 16. Qb5 { [%eval -0.08] } 16... Nd7 $6 { [%eval 0.52] } 17.
+Rfe1 $6 { [%eval -0.09] } 17... Bxg5 { [%eval -0.1] } 18. Nxg5
+{ [%eval -0.14] } 18... h6 { [%eval 0.26] } 19. Nf3 { [%eval -0.11] } 19... Kf8
+{ [%eval 0.0] } 20. Qd3 { [%eval 0.0] } 20... Nf6 { [%eval 0.0] } 21. Qf5
+{ [%eval -0.43] } 21... Kg8 { [%eval 0.0] } 22. c4 { [%eval 0.0] } 22... Rad8
+{ [%eval 0.0] } 23. Kf1 { [%eval -0.06] } 23... Qd7 { [%eval 0.07] } 24. Qxd7
+{ [%eval 0.04] } 24... Nxd7 { [%eval 0.03] } 25. g3 { [%eval 0.0] } 25... Nf6
+{ [%eval 0.1] } 26. Nh4 { [%eval 0.03] } 26... Ng4 { [%eval 0.49] } 27. Kg2 $6
+{ [%eval -0.04] } 27... Ne5 { [%eval 0.07] } 28. b3 { [%eval 0.11] } 28... g6
+{ [%eval 0.14] } 29. f4 { [%eval -0.16] } 29... Ng4 { [%eval 0.0] } 30. Kf3 $2
+{ [%eval -1.39] } 30... Nxh2+ { [%eval -1.31] } 31. Kg2 { [%eval -1.23] } 31...
+Ng4 { [%eval -1.24] } 32. Rd3 $4 { [%eval -10.81] } 32... Rxe1
+{ [%eval -10.43] } 0-1

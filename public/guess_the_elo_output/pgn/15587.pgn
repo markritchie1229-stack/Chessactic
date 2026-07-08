@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/PVJOOfsN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Manente"]
+[Black "chavesdias"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:19:46"]
+[WhiteElo "1372"]
+[BlackElo "1456"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.24] } 2. Nf3 { [%eval 0.26] } 2... d6
+{ [%eval 0.35] } 3. Bc4 { [%eval 0.28] } 3... e6 { [%eval 0.2] } 4. d4
+{ [%eval 0.28] } 4... Nc6 $6 { [%eval 0.81] } 5. d5 { [%eval 0.65] } 5... exd5
+{ [%eval 0.78] } 6. Bxd5 { [%eval 0.35] } 6... Nf6 { [%eval 0.39] } 7. Nc3
+{ [%eval 0.31] } 7... Nxd5 { [%eval 0.38] } 8. Nxd5 { [%eval 0.35] } 8... Be7
+{ [%eval 0.35] } 9. O-O { [%eval 0.38] } 9... O-O { [%eval 0.3] } 10. b3
+{ [%eval 0.26] } 10... Nb4 { [%eval 0.35] } 11. Bb2 { [%eval 0.31] } 11... Nxd5
+{ [%eval 0.34] } 12. exd5 $6 { [%eval -0.22] } 12... Bf6 { [%eval -0.15] } 13.
+Rb1 { [%eval -0.5] } 13... Bxb2 { [%eval -0.44] } 14. Rxb2 { [%eval -0.47] }
+14... Qf6 { [%eval -0.44] } 15. c3 { [%eval -0.92] } 15... Qxc3
+{ [%eval -0.92] } 16. Re2 { [%eval -0.95] } 16... Qf6 { [%eval -0.89] } 17.
+Rfe1 { [%eval -0.86] } 17... Bg4 { [%eval -0.66] } 18. Qd3 { [%eval -0.7] }
+18... Rad8 { [%eval -0.7] } 19. Re3 { [%eval -0.92] } 19... Bf5 $6
+{ [%eval -0.34] } 20. Qe2 { [%eval -0.79] } 20... Bg6 { [%eval -0.51] } 21. Nd2
+$6 { [%eval -1.14] } 21... Bc2 $2 { [%eval 0.0] } 22. Qf3 $6 { [%eval -0.83] }
+22... Qxf3 { [%eval -0.57] } 23. Nxf3 { [%eval -0.79] } 23... Bg6
+{ [%eval -0.51] } 24. Ng5 { [%eval -0.83] } 24... f6 $2 { [%eval 0.92] } 25. f4
+$4 { [%eval -5.35] } 25... fxg5 { [%eval -5.31] } 26. f5 $2 { [%eval -6.91] }
+26... Rxf5 { [%eval -6.75] } 27. Re6 $6 { [%eval -7.51] } 27... Rdf8 $2
+{ [%eval -6.06] } 28. h3 $2 { [%eval -7.65] } 28... Rf4 $2 { [%eval -5.54] }
+29. Kh2 $2 { [%eval -6.65] } 29... Bf5 $6 { [%eval -6.02] } 30. Rxd6 $2
+{ [%eval -7.33] } 30... h5 { [%eval -7.05] } 31. Re7 { [%eval -7.11] } 31...
+Bxh3 $4 { [%eval -1.4] } 0-1

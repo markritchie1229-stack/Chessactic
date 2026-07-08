@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/692HWKrb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yahim"]
+[Black "maunok"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:07:18"]
+[WhiteElo "2113"]
+[BlackElo "2058"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-8"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e6 { [%eval 0.18] } 2. Nf3 { [%eval 0.1] } 2... d5
+{ [%eval 0.14] } 3. d3 { [%eval -0.27] } 3... dxe4 { [%eval -0.23] } 4. dxe4
+{ [%eval -0.35] } 4... Qxd1+ { [%eval -0.11] } 5. Kxd1 { [%eval -0.09] } 5...
+Nf6 { [%eval -0.1] } 6. Bd3 { [%eval -0.1] } 6... Nbd7 { [%eval 0.08] } 7. Be3
+$6 { [%eval -0.52] } 7... Nc5 { [%eval -0.14] } 8. Bxc5 { [%eval -0.27] } 8...
+Bxc5 { [%eval -0.28] } 9. Ke2 { [%eval -0.45] } 9... a6 { [%eval -0.26] } 10.
+Nbd2 { [%eval -0.2] } 10... b5 $6 { [%eval 0.33] } 11. a4 { [%eval 0.31] }
+11... b4 { [%eval 0.29] } 12. Nb3 { [%eval 0.12] } 12... Be7 { [%eval 0.42] }
+13. h3 { [%eval 0.0] } 13... O-O { [%eval 0.17] } 14. e5 { [%eval 0.12] } 14...
+Nd5 { [%eval 0.08] } 15. g3 { [%eval 0.07] } 15... a5 { [%eval 0.0] } 16. Rad1
+$6 { [%eval -0.6] } 16... c5 { [%eval -0.3] } 17. Bb5 { [%eval -0.51] } 17...
+Bb7 { [%eval -0.61] } 18. Nbd2 { [%eval -0.64] } 18... Nb6 { [%eval -0.24] }
+19. Nc4 { [%eval -0.22] } 19... Nxc4 { [%eval -0.16] } 20. Bxc4
+{ [%eval -0.24] } 20... Rfd8 { [%eval -0.03] } 21. b3 { [%eval -0.07] } 21...
+f6 $6 { [%eval 0.71] } 22. Bxe6+ { [%eval 0.64] } 22... Kf8 { [%eval 0.66] }
+23. Rhe1 { [%eval 0.53] } 23... Rxd1 { [%eval 0.72] } 24. Rxd1 { [%eval 0.6] }
+24... Bxf3+ { [%eval 0.98] } 25. Kxf3 { [%eval 1.0] } 25... fxe5
+{ [%eval 1.32] } 26. Rd7 { [%eval 1.33] } 26... Ra6 { [%eval 1.25] } 27. Bc4
+{ [%eval 1.22] } 27... Rf6+ { [%eval 1.17] } 28. Ke2 { [%eval 0.96] } 28... Rd6
+$2 { [%eval 2.0] } 29. Ra7 { [%eval 1.87] } 29... e4 $6 { [%eval 2.41] } 30.
+Rxa5 { [%eval 2.33] } 30... Bg5 $6 { [%eval 2.91] } 31. Rxc5 { [%eval 2.81] }
+31... Rd2+ $4 { [%eval 6.39] } 32. Ke1 { [%eval 6.18] } 32... Rxc2 $2
+{ [%eval 7.84] } 33. Rxg5 { [%eval 7.61] } 1-0

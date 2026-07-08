@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5ZOsHLfX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Dillerfax"]
+[Black "b_mor"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:34:59"]
+[WhiteElo "1225"]
+[BlackElo "1237"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+15"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... c6 { [%eval 0.41] } 2. d4 { [%eval 0.37] } 2... d5
+{ [%eval 0.4] } 3. e5 { [%eval 0.32] } 3... Bf5 { [%eval 0.36] } 4. f3 $6
+{ [%eval -0.39] } 4... Na6 $6 { [%eval 0.45] } 5. g4 { [%eval -0.02] } 5... Bg6
+{ [%eval 0.07] } 6. Bxa6 { [%eval 0.1] } 6... bxa6 { [%eval 0.25] } 7. f4 $6
+{ [%eval -0.39] } 7... e6 { [%eval -0.23] } 8. f5 $2 { [%eval -1.78] } 8...
+exf5 { [%eval -1.58] } 9. gxf5 $6 { [%eval -2.49] } 9... Bxf5 $2
+{ [%eval -1.0] } 10. Nf3 { [%eval -1.45] } 10... Be4 $2 { [%eval -0.45] } 11.
+Nc3 { [%eval -0.63] } 11... Qa5 $6 { [%eval 0.09] } 12. Bd2 { [%eval -0.12] }
+12... Bb4 $6 { [%eval 0.43] } 13. a3 { [%eval -0.06] } 13... Bxc3
+{ [%eval 0.05] } 14. bxc3 $2 { [%eval -1.25] } 14... Bxf3 $2 { [%eval 0.06] }
+15. Qxf3 { [%eval -0.22] } 15... Qb5 $2 { [%eval 2.08] } 16. c4 $2
+{ [%eval 0.81] } 16... Qb2 $4 { [%eval 3.99] } 17. O-O { [%eval 3.77] } 17...
+Qxc2 $4 { [%eval #3] } 18. cxd5 $4 { [%eval 4.19] } 18... Qxd2 $4
+{ [%eval #5] } 19. d6 $4 { [%eval -2.41] } 19... Qxd4+ { [%eval -2.38] } 20.
+Rf2 { [%eval -3.0] } 20... Qxa1+ $4 { [%eval 0.0] } 21. Rf1 $4
+{ [%eval -11.62] } 21... Qd4+ { [%eval -11.47] } 22. Kg2 { [%eval -11.87] }
+22... Qc4 { [%eval -11.63] } 23. Rd1 { [%eval -12.07] } 23... Rd8
+{ [%eval -11.65] } 24. d7+ { [%eval -14.76] } 24... Rxd7 { [%eval -14.62] } 25.
+Rxd7 { [%eval -14.6] } 25... Kxd7 { [%eval -14.34] } 26. Qd1+
+{ [%eval -26.34] } 26... Kc7 { [%eval -13.86] } 27. Qd6+ { [%eval -13.46] }
+27... Kb6 { [%eval -12.31] } 28. Qd8+ { [%eval -13.92] } 28... Kb5
+{ [%eval -13.56] } 29. Qb8+ { [%eval -13.92] } 29... Ka4 { [%eval -12.74] } 30.
+Qxa7 { [%eval -15.45] } 30... Kxa3 { [%eval -12.35] } 31. Qxf7 $6
+{ [%eval #-7] } 0-1

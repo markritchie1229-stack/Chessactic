@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9f5S0Its"]
+[Date "????.??.??"]
+[Round "?"]
+[White "goulin"]
+[Black "teo_bishkek"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:28:32"]
+[WhiteElo "1710"]
+[BlackElo "1714"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D05"]
+[Opening "Colle System"]
+[TimeControl "540+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... d5 { [%eval 0.34] } 2. Nf3 { [%eval 0.14] } 2...
+Nf6 { [%eval 0.2] } 3. e3 { [%eval 0.06] } 3... e6 { [%eval 0.16] } 4. c4
+{ [%eval 0.09] } 4... Bb4+ { [%eval 0.2] } 5. Nbd2 { [%eval 0.17] } 5... c6
+{ [%eval 0.51] } 6. cxd5 $6 { [%eval -0.19] } 6... exd5 { [%eval -0.07] } 7.
+Bd3 { [%eval -0.23] } 7... Ne4 $6 { [%eval 0.27] } 8. O-O { [%eval 0.18] } 8...
+Nxd2 { [%eval 0.65] } 9. Bxd2 { [%eval 0.68] } 9... Bxd2 { [%eval 0.62] } 10.
+Qxd2 { [%eval 0.56] } 10... O-O { [%eval 0.64] } 11. e4 $6 { [%eval -0.06] }
+11... Bg4 { [%eval 0.1] } 12. Ne5 { [%eval 0.08] } 12... Be6 { [%eval 0.13] }
+13. f4 { [%eval -0.23] } 13... f6 { [%eval -0.12] } 14. Nf3 { [%eval -0.27] }
+14... dxe4 { [%eval 0.0] } 15. Bxe4 { [%eval -0.08] } 15... f5 { [%eval 0.0] }
+16. Bc2 { [%eval 0.0] } 16... Nd7 { [%eval 0.08] } 17. b3 { [%eval 0.0] } 17...
+Nf6 { [%eval 0.0] } 18. Ne5 { [%eval 0.0] } 18... Ne4 { [%eval 0.33] } 19. Bxe4
+{ [%eval 0.18] } 19... fxe4 { [%eval 0.27] } 20. Rae1 { [%eval 0.11] } 20...
+Bd5 { [%eval 0.13] } 21. f5 { [%eval 0.0] } 21... h6 $6 { [%eval 0.93] } 22.
+Qe3 $6 { [%eval 0.39] } 22... Qc8 $6 { [%eval 1.11] } 23. Qh3 { [%eval 0.89] }
+23... Kh7 { [%eval 1.08] } 24. Qh5 { [%eval 0.74] } 24... Qe8 { [%eval 0.73] }
+25. Qg6+ $6 { [%eval 0.12] } 25... Qxg6 { [%eval 0.2] } 26. Nxg6
+{ [%eval 0.07] } 26... Rf6 { [%eval 0.17] } 27. g4 { [%eval 0.05] } 27... Re8
+$6 { [%eval 0.6] } 28. h4 { [%eval 0.26] } 28... e3 { [%eval 0.55] } 29. g5 $6
+{ [%eval -0.06] } 29... hxg5 { [%eval -0.06] } 30. hxg5 { [%eval -0.11] } 30...
+Rf7 $2 { [%eval 1.91] } 31. Rf4 $2 { [%eval 0.1] } 31... a6 $4 { [%eval #2] }
+32. Rh4+ { [%eval #1] } 1-0

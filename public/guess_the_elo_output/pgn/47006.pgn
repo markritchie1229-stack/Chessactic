@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/iEI8KDYR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ritlob"]
+[Black "stiwiee"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:03:37"]
+[WhiteElo "1305"]
+[BlackElo "1335"]
+[WhiteRatingDiff "-37"]
+[BlackRatingDiff "+17"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.14] } 2. c4 { [%eval 0.13] } 2... d5
+{ [%eval 0.35] } 3. Nc3 { [%eval 0.22] } 3... dxc4 { [%eval 0.18] } 4. e4
+{ [%eval -0.19] } 4... Bg4 $2 { [%eval 0.82] } 5. f3 { [%eval 0.74] } 5... Bh5
+$6 { [%eval 1.39] } 6. Bxc4 { [%eval 1.35] } 6... Nc6 { [%eval 1.47] } 7. Nge2
+{ [%eval 1.37] } 7... e5 { [%eval 1.46] } 8. O-O $2 { [%eval 0.26] } 8... exd4
+{ [%eval 0.61] } 9. Nb5 $2 { [%eval -0.74] } 9... Bc5 { [%eval -0.69] } 10. Bf4
+$2 { [%eval -2.05] } 10... d3+ { [%eval -2.08] } 11. Be3 $4 { [%eval -7.04] }
+11... dxe2 $4 { [%eval -3.02] } 12. Qxe2 { [%eval -3.0] } 12... Bxe3+
+{ [%eval -2.93] } 13. Qxe3 { [%eval -3.02] } 13... O-O { [%eval -2.99] } 14.
+Rad1 { [%eval -3.04] } 14... Nd7 $6 { [%eval -2.39] } 15. Rd2 { [%eval -2.46] }
+15... a6 { [%eval -2.28] } 16. Rfd1 $6 { [%eval -2.98] } 16... axb5
+{ [%eval -2.79] } 17. Rxd7 { [%eval -3.17] } 17... Qf6 { [%eval -2.84] } 18.
+Bxb5 $6 { [%eval -3.37] } 18... Ne5 $6 { [%eval -2.68] } 19. Rxc7
+{ [%eval -2.6] } 19... Rad8 $6 { [%eval -1.63] } 20. Rxd8 { [%eval -1.67] }
+20... Rxd8 { [%eval -1.15] } 21. Rxb7 $2 { [%eval -4.12] } 21... Rd1+
+{ [%eval -3.95] } 22. Kf2 $4 { [%eval #-2] } 22... Qh4+ { [%eval #-1] } 23. g3
+{ [%eval #-1] } 23... Qxh2# 0-1

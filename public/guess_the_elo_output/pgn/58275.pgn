@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/yGBjX1Nq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HCThorp"]
+[Black "GreenPeace2016"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:56:31"]
+[WhiteElo "1491"]
+[BlackElo "1490"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+18"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Main Line"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... d5 { [%eval 0.62] } 2. exd5 { [%eval 0.54] } 2...
+Qxd5 { [%eval 0.65] } 3. Nc3 { [%eval 0.59] } 3... Qa5 { [%eval 0.58] } 4. Nf3
+{ [%eval 0.68] } 4... e6 { [%eval 0.91] } 5. d4 { [%eval 0.73] } 5... Bb4
+{ [%eval 1.0] } 6. Bd2 { [%eval 0.98] } 6... Nf6 { [%eval 1.03] } 7. a3
+{ [%eval 0.88] } 7... Bd6 $2 { [%eval 1.98] } 8. Ne4 $6 { [%eval 1.19] } 8...
+Qf5 { [%eval 1.51] } 9. Ng3 { [%eval 1.18] } 9... Qd5 { [%eval 1.43] } 10. b3
+$6 { [%eval 0.77] } 10... O-O { [%eval 0.99] } 11. Bc4 { [%eval 0.58] } 11...
+Qc6 { [%eval 0.7] } 12. O-O { [%eval 0.57] } 12... b5 { [%eval 0.63] } 13. Bd3
+{ [%eval 0.56] } 13... Bxg3 $6 { [%eval 1.14] } 14. fxg3 { [%eval 1.14] } 14...
+Bd7 $2 { [%eval 2.97] } 15. Qe2 { [%eval 2.78] } 15... Ng4 $4 { [%eval 5.98] }
+16. Ne5 $4 { [%eval 1.83] } 16... Nxe5 { [%eval 2.09] } 17. dxe5
+{ [%eval 1.96] } 17... Qc5+ { [%eval 2.41] } 18. Be3 $2 { [%eval 1.16] } 18...
+Qxe5 { [%eval 1.02] } 19. Qf3 $6 { [%eval 0.13] } 19... Bc6 { [%eval 0.22] }
+20. Qf2 { [%eval 0.0] } 20... Nd7 { [%eval 0.12] } 21. Rfe1 { [%eval -0.09] }
+21... Qc3 $2 { [%eval 1.62] } 22. Rad1 $2 { [%eval 0.0] } 22... Ne5 $6
+{ [%eval 0.59] } 23. Bd4 { [%eval 0.55] } 23... Ng4 $4 { [%eval 6.88] } 24. Qe2
+$4 { [%eval -11.33] } 24... Qxd4+ { [%eval -11.19] } 25. Kf1 $6 { [%eval #-1] }
+25... Nxh2# 0-1

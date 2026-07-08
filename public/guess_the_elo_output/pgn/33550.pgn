@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/j3GTVamY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Thealbatros"]
+[Black "Nicolord"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:05:36"]
+[WhiteElo "1646"]
+[BlackElo "1657"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A40"]
+[Opening "Englund Gambit Complex Declined"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... e5 $6 { [%eval 0.89] } 2. d5 $2 { [%eval -0.29] }
+2... Nf6 { [%eval -0.23] } 3. c4 { [%eval -0.03] } 3... Bc5 { [%eval -0.08] }
+4. Nc3 { [%eval -0.1] } 4... d6 { [%eval 0.15] } 5. Nf3 { [%eval -0.16] } 5...
+e4 { [%eval 0.11] } 6. Nd2 $2 { [%eval -1.06] } 6... O-O $2 { [%eval 0.93] } 7.
+e3 $6 { [%eval 0.03] } 7... Bf5 { [%eval 0.14] } 8. h3 { [%eval -0.06] } 8...
+Bg6 { [%eval 0.1] } 9. f3 $2 { [%eval -1.98] } 9... h5 $2 { [%eval -0.43] } 10.
+Be2 $6 { [%eval -1.3] } 10... exf3 { [%eval -0.97] } 11. Nxf3 { [%eval -0.97] }
+11... Qe7 { [%eval -0.92] } 12. Qd2 { [%eval -1.18] } 12... Ne4
+{ [%eval -1.08] } 13. Nxe4 { [%eval -1.17] } 13... Bxe4 $6 { [%eval -0.58] }
+14. O-O { [%eval -0.75] } 14... f5 $2 { [%eval 0.34] } 15. Qc3 $6
+{ [%eval -0.41] } 15... Nd7 { [%eval -0.5] } 16. b4 { [%eval -0.47] } 16...
+Bxf3 { [%eval -0.13] } 17. Bxf3 { [%eval -0.26] } 17... Ne5 $4 { [%eval 4.11] }
+18. b5 $4 { [%eval -1.91] } 18... a6 $6 { [%eval -1.06] } 19. bxa6
+{ [%eval -1.12] } 19... Rxa6 { [%eval -1.06] } 20. Kh2 { [%eval -1.06] } 20...
+Ng6 $6 { [%eval -0.1] } 21. e4 $4 { [%eval -3.1] } 21... fxe4 { [%eval -2.52] }
+22. Be2 $2 { [%eval -3.94] } 22... Qe5+ $2 { [%eval -1.29] } 23. Kh1 $4
+{ [%eval #-8] } 23... Qxc3 $6 { [%eval -23.39] } 0-1

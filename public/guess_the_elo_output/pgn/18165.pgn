@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9yvZC2T0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "David_Shevyakov"]
+[Black "Birger47"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:05:05"]
+[WhiteElo "1174"]
+[BlackElo "1072"]
+[WhiteRatingDiff "+29"]
+[BlackRatingDiff "-9"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.43] } 2. Nc3 { [%eval 0.07] } 2...
+Nc6 { [%eval 0.08] } 3. Nf3 { [%eval 0.06] } 3... Nf6 { [%eval 0.18] } 4. d3
+{ [%eval -0.19] } 4... d6 { [%eval 0.17] } 5. d4 { [%eval 0.16] } 5... Bg4
+{ [%eval 0.14] } 6. h3 $6 { [%eval -0.79] } 6... Be6 $4 { [%eval 3.18] } 7.
+dxe5 $4 { [%eval 0.0] } 7... dxe5 { [%eval 0.06] } 8. Qxd8+ { [%eval 0.1] }
+8... Rxd8 { [%eval 0.06] } 9. b3 $4 { [%eval -3.6] } 9... Bb4 { [%eval -3.58] }
+10. Bd2 { [%eval -3.56] } 10... O-O $4 { [%eval -0.18] } 11. Bb5 $4
+{ [%eval -3.32] } 11... Rd6 $4 { [%eval -0.02] } 12. Bxc6 $2 { [%eval -1.52] }
+12... bxc6 $2 { [%eval 0.1] } 13. a3 $2 { [%eval -1.12] } 13... Nxe4 $4
+{ [%eval 3.5] } 14. axb4 $6 { [%eval 2.78] } 14... Nxd2 $2 { [%eval 4.02] } 15.
+Nxd2 { [%eval 4.0] } 15... Bf5 { [%eval 4.2] } 16. g4 $2 { [%eval 2.39] } 16...
+Bxc2 { [%eval 2.14] } 17. Rxa7 $2 { [%eval 0.0] } 17... Rd3 $2 { [%eval 2.64] }
+18. Ke2 $4 { [%eval -1.54] } 18... Rfd8 $4 { [%eval 2.87] } 19. Kf1 $4
+{ [%eval -2.36] } 19... Rxd2 $6 { [%eval -1.76] } 20. Ke1 $4 { [%eval -6.35] }
+20... R8d3 $4 { [%eval -0.62] } 21. Ra8+ $6 { [%eval -1.48] } 21... Rd8
+{ [%eval -1.42] } 22. Rxd8+ $6 { [%eval -2.12] } 22... Rxd8 { [%eval -2.04] }
+23. Ke2 { [%eval -2.05] } 23... Bxb3 { [%eval -2.04] } 24. Ra1
+{ [%eval -1.96] } 24... Bc4+ { [%eval -1.86] } 25. Ke3 $2 { [%eval -3.73] }
+25... Rd3+ { [%eval -3.73] } 26. Ke4 { [%eval -3.64] } 26... Rxc3 $4
+{ [%eval #1] } 27. Ra8# 1-0

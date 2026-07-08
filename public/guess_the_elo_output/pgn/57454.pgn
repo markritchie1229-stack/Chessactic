@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UxuTnkZu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "matanwerbner"]
+[Black "roki48"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:14:50"]
+[WhiteElo "1781"]
+[BlackElo "1749"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+21"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... e6 { [%eval 0.37] } 2. c4 { [%eval 0.27] } 2... d5
+{ [%eval 0.33] } 3. cxd5 { [%eval 0.0] } 3... exd5 { [%eval 0.03] } 4. Nc3
+{ [%eval 0.0] } 4... c6 { [%eval 0.16] } 5. Bf4 { [%eval 0.1] } 5... Bd6
+{ [%eval 0.14] } 6. Bg3 { [%eval 0.0] } 6... Bxg3 { [%eval 0.0] } 7. hxg3
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.02] } 8. Nf3 { [%eval -0.06] } 8... Bf5
+{ [%eval -0.06] } 9. e3 { [%eval -0.08] } 9... Qa5 { [%eval 0.36] } 10. Qb3
+{ [%eval 0.17] } 10... Nbd7 { [%eval 0.06] } 11. Be2 { [%eval -0.04] } 11...
+Ne4 { [%eval 0.0] } 12. O-O { [%eval -0.04] } 12... Qc7 { [%eval 0.35] } 13.
+Nxe4 { [%eval 0.11] } 13... Bxe4 { [%eval 0.1] } 14. Ng5 { [%eval -0.06] }
+14... Bg6 { [%eval -0.05] } 15. Bg4 { [%eval -0.29] } 15... O-O
+{ [%eval -0.21] } 16. f4 $6 { [%eval -1.03] } 16... h6 { [%eval -0.77] } 17.
+Nf3 { [%eval -1.12] } 17... Be4 $6 { [%eval -0.48] } 18. Kf2 $6
+{ [%eval -1.2] } 18... Nf6 { [%eval -1.07] } 19. Bh3 { [%eval -0.97] } 19...
+Bxf3 $6 { [%eval 0.0] } 20. gxf3 { [%eval 0.0] } 20... Rfe8 { [%eval 0.0] } 21.
+Rae1 { [%eval 0.0] } 21... b6 { [%eval 0.0] } 22. Qd3 { [%eval -0.24] } 22...
+c5 { [%eval -0.17] } 23. e4 { [%eval -0.26] } 23... cxd4 $6 { [%eval 0.53] }
+24. Qxd4 $2 { [%eval -1.42] } 24... dxe4 { [%eval -1.67] } 25. fxe4 $6
+{ [%eval -2.34] } 25... Red8 $2 { [%eval -0.38] } 26. Qe3 { [%eval -0.45] }
+26... Qc2+ { [%eval -0.46] } 27. Re2 { [%eval -0.43] } 27... Qc4
+{ [%eval 0.0] } 28. Bg2 $4 { [%eval -10.71] } 28... Rd3 $4 { [%eval -6.6] } 29.
+Qc1 $4 { [%eval -12.43] } 29... Qd4+ { [%eval -8.29] } 30. Re3 $2
+{ [%eval -19.01] } 30... Ng4+ { [%eval -14.25] } 0-1

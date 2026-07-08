@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4WNOFZkf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Houlberg"]
+[Black "KoKaBol"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:13:56"]
+[WhiteElo "1809"]
+[BlackElo "1905"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-13"]
+[ECO "A00"]
+[Opening "Polish Opening: Czech Defense"]
+[TimeControl "180+3"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.55] } 1... e5 { [%eval -0.5] } 2. Bb2 { [%eval -0.48] }
+2... d6 { [%eval -0.25] } 3. e3 { [%eval -0.32] } 3... Nd7 { [%eval -0.01] } 4.
+Nf3 { [%eval -0.2] } 4... f5 { [%eval 0.28] } 5. Be2 { [%eval 0.32] } 5... Ngf6
+{ [%eval 0.32] } 6. c4 { [%eval 0.19] } 6... Be7 { [%eval 0.25] } 7. d3
+{ [%eval 0.17] } 7... O-O { [%eval 0.25] } 8. O-O { [%eval 0.14] } 8... Kh8
+{ [%eval 0.31] } 9. b5 { [%eval 0.12] } 9... Rg8 $6 { [%eval 0.89] } 10. a4
+{ [%eval 0.59] } 10... g5 { [%eval 0.66] } 11. d4 { [%eval 0.58] } 11... e4
+{ [%eval 0.63] } 12. Nxg5 $2 { [%eval -1.9] } 12... Rxg5 { [%eval -1.84] } 13.
+d5 $6 { [%eval -2.36] } 13... Ne5 { [%eval -2.22] } 14. f4 $6 { [%eval -3.15] }
+14... exf3 { [%eval -3.23] } 15. Rxf3 $6 { [%eval -4.19] } 15... Nxf3+
+{ [%eval -4.26] } 16. Bxf3 { [%eval -4.33] } 16... Kg8 { [%eval -3.96] } 17. h4
+$2 { [%eval -5.16] } 17... Rg3 $6 { [%eval -4.29] } 18. Qe1 $2
+{ [%eval -5.42] } 18... Rg6 { [%eval -5.41] } 19. h5 { [%eval -5.38] } 19...
+Rg5 { [%eval -5.23] } 20. e4 $2 { [%eval -6.58] } 20... Nxe4 { [%eval -6.23] }
+21. Bxe4 $6 { [%eval -6.79] } 21... fxe4 { [%eval -6.47] } 22. Qxe4 $2
+{ [%eval -7.98] } 22... Bf5 $6 { [%eval -7.38] } 23. Qf4 $2 { [%eval -9.27] }
+23... Bf6 { [%eval -8.87] } 24. Ra2 { [%eval -8.74] } 24... Bxb2
+{ [%eval -8.32] } 25. Rxb2 { [%eval -8.3] } 25... Qf6 { [%eval -8.05] } 26. Rf2
+{ [%eval -7.71] } 26... Rf8 $6 { [%eval -7.06] } 27. Nd2 { [%eval -7.06] }
+27... Qa1+ { [%eval -6.86] } 28. Rf1 { [%eval -7.22] } 28... Qe5 $4
+{ [%eval 5.42] } 29. Qxg5+ { [%eval 5.4] } 29... Kh8 { [%eval 5.4] } 30. h6
+{ [%eval 5.22] } 30... Qd4+ $4 { [%eval 8.33] } 31. Kh1 { [%eval 7.93] } 31...
+Qf6 $2 { [%eval 8.99] } 32. Rxf5 { [%eval 8.09] } 1-0

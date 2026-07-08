@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sDGRvsWd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bubin"]
+[Black "Puria05"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:43:08"]
+[WhiteElo "1284"]
+[BlackElo "1289"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... Nc6 { [%eval 0.37] } 2. Qh5 $2 { [%eval -0.76] }
+2... Nh6 $6 { [%eval 0.18] } 3. Bc4 { [%eval 0.07] } 3... e5 { [%eval 0.35] }
+4. Qxf7+ $4 { [%eval -10.6] } 4... Nxf7 { [%eval -10.64] } 5. Nf3
+{ [%eval -11.34] } 5... d6 { [%eval -9.87] } 6. d4 { [%eval -11.59] } 6... Nxd4
+{ [%eval -11.3] } 7. Nxd4 { [%eval -11.32] } 7... exd4 { [%eval -11.2] } 8. h4
+{ [%eval -12.35] } 8... Bd7 { [%eval -11.91] } 9. Rh3 { [%eval -18.62] } 9...
+Bxh3 { [%eval -18.28] } 10. gxh3 { [%eval -18.23] } 10... Qe7
+{ [%eval -16.28] } 11. Bb5+ { [%eval -17.67] } 11... c6 { [%eval -17.12] } 12.
+Bc4 { [%eval -21.37] } 12... O-O-O { [%eval -17.37] } 13. Na3
+{ [%eval -23.36] } 13... Ne5 { [%eval -17.72] } 14. Be2 { [%eval -21.76] }
+14... Qxh4 { [%eval -21.19] } 15. Nc4 { [%eval -22.1] } 15... Nxc4
+{ [%eval -21.56] } 16. Bxc4 { [%eval -24.16] } 16... Qxh3 { [%eval -19.16] }
+17. c3 { [%eval -22.71] } 17... d5 { [%eval -21.95] } 18. cxd4
+{ [%eval -32.96] } 18... dxc4 { [%eval -30.75] } 19. d5 $6 { [%eval #-7] }
+19... Qg4 $6 { [%eval -32.39] } 20. Be3 { [%eval -33.36] } 20... Qxe4
+{ [%eval -28.76] } 21. dxc6 $6 { [%eval #-12] } 21... Qxc6 { [%eval #-19] } 22.
+Bxa7 { [%eval #-4] } 22... Qh1+ $6 { [%eval #-6] } 0-1

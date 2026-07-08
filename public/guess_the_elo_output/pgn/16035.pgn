@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/yG9iVX7W"]
+[Date "????.??.??"]
+[Round "?"]
+[White "evergreen2017"]
+[Black "Rivler"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:38:18"]
+[WhiteElo "1450"]
+[BlackElo "1535"]
+[WhiteRatingDiff "+94"]
+[BlackRatingDiff "-11"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Advance Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... Nc6 { [%eval 0.34] } 2. d4 { [%eval 0.26] } 2... d5
+{ [%eval 0.36] } 3. e5 { [%eval 0.2] } 3... Bf5 { [%eval 0.25] } 4. Bd3 $6
+{ [%eval -0.68] } 4... Bg6 $2 { [%eval 0.54] } 5. Bxg6 { [%eval 0.38] } 5...
+hxg6 { [%eval 0.45] } 6. c3 { [%eval 0.26] } 6... f6 { [%eval 0.67] } 7. f4
+{ [%eval 0.46] } 7... Qd7 { [%eval 0.5] } 8. Qe2 { [%eval 0.28] } 8... fxe5 $6
+{ [%eval 1.12] } 9. fxe5 { [%eval 1.01] } 9... O-O-O { [%eval 1.5] } 10. Nf3 $6
+{ [%eval 0.56] } 10... e6 { [%eval 0.69] } 11. O-O { [%eval 0.54] } 11... Nge7
+$6 { [%eval 1.13] } 12. Ng5 { [%eval 0.75] } 12... Nf5 { [%eval 0.99] } 13. Nd2
+{ [%eval 0.94] } 13... Be7 $2 { [%eval 2.15] } 14. Ndf3 $2 { [%eval 0.93] }
+14... Rdf8 { [%eval 0.93] } 15. Be3 { [%eval 0.5] } 15... Rh5 $6
+{ [%eval 1.04] } 16. g4 $6 { [%eval 0.22] } 16... Nxe3 { [%eval 0.39] } 17.
+Qxe3 { [%eval 0.18] } 17... Bxg5 $6 { [%eval 1.1] } 18. Nxg5 { [%eval 1.2] }
+18... Rhh8 { [%eval 1.15] } 19. Rf2 { [%eval 0.99] } 19... Qe7 { [%eval 1.16] }
+20. Raf1 { [%eval 1.1] } 20... Na5 $2 { [%eval 2.8] } 21. b3 $6
+{ [%eval 1.93] } 21... c5 $6 { [%eval 2.87] } 22. Rf7 { [%eval 2.79] } 22...
+Rxf7 { [%eval 3.06] } 23. Rxf7 { [%eval 3.07] } 23... cxd4 { [%eval 2.81] } 24.
+Qxd4 $4 { [%eval -4.59] } 24... Qxg5 { [%eval -4.36] } 25. Qc5+ $6
+{ [%eval -5.25] } 25... Kb8 $4 { [%eval #4] } 26. Qc7+ $4 { [%eval -3.37] }
+26... Ka8 { [%eval -3.02] } 27. Rf2 $4 { [%eval -6.16] } 27... Qc1+ $6
+{ [%eval -5.33] } 28. Kg2 { [%eval -5.27] } 28... Nc6 { [%eval -4.84] } 29. Qf7
+$2 { [%eval -6.03] } 1-0

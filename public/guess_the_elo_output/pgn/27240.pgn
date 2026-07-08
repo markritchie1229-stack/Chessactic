@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nAfNRNr3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Callthemoves"]
+[Black "Dikaaaa"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:32:48"]
+[WhiteElo "1655"]
+[BlackElo "1584"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+18"]
+[ECO "C10"]
+[Opening "French Defense: Paulsen Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.2] } 2. e4 $6 { [%eval -0.45] } 2...
+e6 $6 { [%eval 0.12] } 3. Nc3 { [%eval 0.11] } 3... Nc6 { [%eval 0.54] } 4. Bb5
+{ [%eval 0.47] } 4... Bd7 { [%eval 0.81] } 5. exd5 { [%eval 0.88] } 5... exd5
+{ [%eval 0.96] } 6. Nxd5 { [%eval 0.95] } 6... Nf6 $6 { [%eval 1.6] } 7. Qe2+
+{ [%eval 1.43] } 7... Be7 { [%eval 1.59] } 8. Nxf6+ { [%eval 1.58] } 8... gxf6
+{ [%eval 1.63] } 9. Be3 { [%eval 1.52] } 9... a6 { [%eval 1.46] } 10. Ba4
+{ [%eval 1.35] } 10... Nxd4 { [%eval 1.41] } 11. Bxd7+ $2 { [%eval 0.4] } 11...
+Qxd7 { [%eval 0.52] } 12. O-O-O $4 { [%eval -7.28] } 12... Qa4 $4
+{ [%eval 3.62] } 13. Rxd4 { [%eval 3.53] } 13... Qxa2 { [%eval 3.52] } 14. Nf3
+$4 { [%eval -1.14] } 14... Qa1+ { [%eval -0.96] } 15. Kd2 { [%eval -1.08] }
+15... Qxh1 { [%eval -1.2] } 16. Rg4 $4 { [%eval -4.34] } 16... O-O-O+
+{ [%eval -4.31] } 17. Kc3 $2 { [%eval -5.47] } 17... Qa1 { [%eval -5.15] } 18.
+Qc4 $6 { [%eval -5.66] } 18... f5 { [%eval -4.87] } 19. Bb6 $2
+{ [%eval -6.44] } 19... Bf6+ { [%eval -6.29] } 20. Kb3 $4 { [%eval -26.76] }
+20... Qxb2+ { [%eval -24.43] } 21. Ka4 { [%eval -22.41] } 21... Qxb6
+{ [%eval -20.31] } 0-1

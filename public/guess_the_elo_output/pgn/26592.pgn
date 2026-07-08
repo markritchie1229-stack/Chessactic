@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/FCaMLxFW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jpgalvao18"]
+[Black "w1zj1n"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "03:18:53"]
+[WhiteElo "1240"]
+[BlackElo "1293"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+44"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... e5 { [%eval 0.23] } 2. Nf3 { [%eval 0.14] } 2...
+Nc6 { [%eval 0.33] } 3. Bc4 { [%eval 0.15] } 3... d6 { [%eval 0.44] } 4. Bxf7+
+$2 { [%eval -2.38] } 4... Kxf7 { [%eval -2.25] } 5. c3 { [%eval -2.44] } 5...
+Bg4 $6 { [%eval -1.87] } 6. O-O { [%eval -2.12] } 6... Nf6 { [%eval -2.08] } 7.
+Qe2 $6 { [%eval -2.75] } 7... d5 $6 { [%eval -2.16] } 8. h3 $2 { [%eval -4.2] }
+8... Bxf3 { [%eval -4.35] } 9. Qxf3 { [%eval -4.31] } 9... dxe4
+{ [%eval -4.19] } 10. Qe3 { [%eval -4.4] } 10... Nh5 $2 { [%eval -2.96] } 11.
+g3 $2 { [%eval -4.31] } 11... Be7 $6 { [%eval -3.54] } 12. b4 $6
+{ [%eval -4.4] } 12... Rf8 $6 { [%eval -3.89] } 13. Na3 $6 { [%eval -4.43] }
+13... Kg8 { [%eval -4.13] } 14. Qxe4 { [%eval -4.12] } 14... Qd7
+{ [%eval -4.16] } 15. Re1 $6 { [%eval -5.05] } 15... Rae8 $2 { [%eval -4.05] }
+16. d4 $4 { [%eval -7.54] } 16... exd4 $2 { [%eval -6.18] } 17. Nb5 $4
+{ [%eval -13.81] } 17... dxc3 $4 { [%eval -5.76] } 18. Nxc3 $2 { [%eval -8.5] }
+18... Bxb4 { [%eval -8.57] } 19. Qc4+ { [%eval -8.25] } 19... Kh8
+{ [%eval -8.09] } 20. Bd2 $2 { [%eval -15.72] } 20... Qxd2 { [%eval -15.31] }
+21. Rab1 $6 { [%eval #-2] } 21... Qxf2+ { [%eval #-1] } 22. Kh1 { [%eval #-1] }
+22... Nxg3# 0-1

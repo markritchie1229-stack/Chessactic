@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/JlYnfoTA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DragonRU1"]
+[Black "bulkong"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:40:37"]
+[WhiteElo "2288"]
+[BlackElo "2381"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C63"]
+[Opening "Ruy Lopez: Schliemann Defense, Schoenemann Attack"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.18] } 2...
+Nc6 { [%eval 0.22] } 3. Bb5 { [%eval 0.22] } 3... f5 { [%eval 0.5] } 4. d4
+{ [%eval 0.03] } 4... fxe4 { [%eval 0.19] } 5. Nxe5 { [%eval -0.12] } 5... Nxe5
+{ [%eval 0.1] } 6. dxe5 { [%eval 0.02] } 6... c6 { [%eval 0.21] } 7. Bc4 $2
+{ [%eval -0.87] } 7... Qa5+ { [%eval -0.79] } 8. Nc3 { [%eval -0.88] } 8...
+Qxe5 { [%eval -0.85] } 9. O-O $6 { [%eval -1.66] } 9... d5 { [%eval -1.58] }
+10. Bb3 { [%eval -1.72] } 10... Bd6 { [%eval -1.54] } 11. g3 { [%eval -1.63] }
+11... Nf6 { [%eval -1.24] } 12. f3 $2 { [%eval -2.41] } 12... Bh3
+{ [%eval -2.33] } 13. Re1 $2 { [%eval -3.53] } 13... O-O-O { [%eval -3.27] }
+14. fxe4 $4 { [%eval -8.51] } 14... dxe4 $4 { [%eval -4.38] } 15. Qe2
+{ [%eval -4.37] } 15... Bc5+ { [%eval -4.04] } 16. Be3 { [%eval -4.02] } 16...
+Bg4 $2 { [%eval -2.64] } 17. Qf2 { [%eval -2.52] } 17... Bxe3 { [%eval -2.4] }
+18. Qxe3 $6 { [%eval -2.96] } 18... Rhe8 { [%eval -2.95] } 19. a4 $2
+{ [%eval -4.85] } 19... Kb8 $2 { [%eval -2.11] } 20. a5 $2 { [%eval -4.16] }
+20... Qd4 $2 { [%eval -2.08] } 21. Ra4 $2 { [%eval -3.78] } 21... Qxe3+
+{ [%eval -3.52] } 22. Rxe3 { [%eval -3.56] } 22... Bf3 { [%eval -3.43] } 23. a6
+$2 { [%eval -5.42] } 23... Ng4 $4 { [%eval 0.0] } 24. Re1 $4 { [%eval -5.56] }
+24... Rd2 { [%eval -5.18] } 0-1

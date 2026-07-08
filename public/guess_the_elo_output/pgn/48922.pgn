@@ -1,0 +1,66 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NKGWyD95"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheKingsHead"]
+[Black "Lisyonok-7x"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:21:45"]
+[WhiteElo "1949"]
+[BlackElo "1951"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.18] } 2. c4 { [%eval 0.25] } 2... e6
+{ [%eval 0.26] } 3. Nf3 { [%eval 0.21] } 3... Nf6 { [%eval 0.26] } 4. g3
+{ [%eval 0.02] } 4... g6 { [%eval 0.38] } 5. Bg2 { [%eval 0.43] } 5... Bg7
+{ [%eval 0.43] } 6. O-O { [%eval 0.35] } 6... O-O { [%eval 0.28] } 7. cxd5
+{ [%eval -0.08] } 7... exd5 { [%eval 0.0] } 8. Nc3 { [%eval -0.01] } 8... c6
+{ [%eval 0.01] } 9. Bg5 { [%eval -0.18] } 9... Bg4 $6 { [%eval 0.36] } 10. Qd2
+{ [%eval 0.23] } 10... Re8 { [%eval 0.29] } 11. Ne5 { [%eval 0.15] } 11... Be6
+{ [%eval 0.25] } 12. Bh6 { [%eval 0.0] } 12... Bh8 { [%eval 0.49] } 13. Bg5
+{ [%eval 0.0] } 13... Nbd7 { [%eval 0.08] } 14. Rad1 { [%eval 0.0] } 14... Qc7
+{ [%eval 0.22] } 15. Nxd7 { [%eval 0.11] } 15... Qxd7 { [%eval 0.42] } 16. Rfe1
+{ [%eval 0.02] } 16... Bh3 { [%eval 0.08] } 17. Bh1 { [%eval -0.27] } 17... Bg7
+{ [%eval -0.06] } 18. Qf4 { [%eval -0.42] } 18... Bf5 $2 { [%eval 2.24] } 19.
+Bxf6 { [%eval 2.17] } 19... Bxf6 { [%eval 2.07] } 20. g4 { [%eval 2.04] } 20...
+Be4 $6 { [%eval 2.89] } 21. Bxe4 { [%eval 2.79] } 21... dxe4 { [%eval 2.88] }
+22. Qxf6 { [%eval 2.8] } 22... Qxg4+ { [%eval 2.89] } 23. Kh1 { [%eval 2.8] }
+23... Re6 { [%eval 2.74] } 24. Nxe4 $4 { [%eval -1.01] } 24... Qxe4+
+{ [%eval -0.91] } 25. Qf3 { [%eval -1.01] } 25... Qxf3+ { [%eval -0.9] } 26.
+exf3 { [%eval -1.03] } 26... Rd6 $6 { [%eval -0.52] } 27. Re7 { [%eval -0.52] }
+27... b5 { [%eval -0.52] } 28. Rc7 { [%eval -0.75] } 28... a5 { [%eval -0.68] }
+29. Kg2 { [%eval -0.59] } 29... Rad8 { [%eval -0.33] } 30. f4 $6
+{ [%eval -1.2] } 30... R8d7 $6 { [%eval -0.33] } 31. Rxd7 { [%eval -0.34] }
+31... Rxd7 { [%eval -0.27] } 32. f5 { [%eval -0.66] } 32... Kg7
+{ [%eval -0.26] } 33. fxg6 { [%eval -0.27] } 33... hxg6 { [%eval -0.24] } 34.
+Kf3 { [%eval -0.33] } 34... f5 { [%eval 0.0] } 35. h4 { [%eval -0.41] } 35...
+Kf6 { [%eval 0.0] } 36. Kf4 $6 { [%eval -0.65] } 36... Rh7 $6 { [%eval -0.02] }
+37. Rh1 { [%eval -0.45] } 37... Rh5 { [%eval -0.04] } 38. Ke3 { [%eval -0.45] }
+38... Ke6 { [%eval -0.53] } 39. Rg1 { [%eval -0.6] } 39... Kf6 $6
+{ [%eval 0.0] } 40. Rc1 { [%eval 0.0] } 40... Rxh4 { [%eval 0.0] } 41. Rxc6+
+{ [%eval 0.0] } 41... Kg5 $6 { [%eval 0.75] } 42. f4+ { [%eval 0.72] } 42...
+Rxf4 $4 { [%eval #30] } 43. Rxg6+ { [%eval #31] } 43... Kxg6 { [%eval #29] }
+44. Kxf4 { [%eval #28] } 44... Kf6 { [%eval #28] } 45. d5 { [%eval #27] } 45...
+Ke7 { [%eval #26] } 46. Kxf5 { [%eval #25] } 46... Kd6 { [%eval #25] } 47. Ke4
+{ [%eval #25] } 47... Ke7 { [%eval #24] } 48. Ke5 { [%eval #25] } 48... Kd7
+{ [%eval #25] } 49. d6 { [%eval #28] } 49... Kd8 { [%eval #14] } 50. Ke6
+{ [%eval #16] } 50... Ke8 { [%eval #11] } 51. d7+ { [%eval #10] } 51... Kd8
+{ [%eval #15] } 52. Kd6 { [%eval #22] } 52... b4 { [%eval #22] } 53. b3
+{ [%eval #21] } 53... a4 { [%eval #22] } 54. Kc5 { [%eval #23] } 54... axb3
+{ [%eval #22] } 55. axb3 { [%eval #21] } 55... Kxd7 { [%eval #21] } 56. Kxb4
+{ [%eval #20] } 56... Kc7 { [%eval #20] } 57. Kc5 { [%eval #19] } 57... Kb7
+{ [%eval #19] } 58. Kb5 { [%eval #18] } 58... Ka7 { [%eval #18] } 59. Kc6
+{ [%eval #17] } 59... Kb8 { [%eval #16] } 60. Kb6 { [%eval #17] } 60... Ka8
+{ [%eval #15] } 61. b4 { [%eval #14] } 61... Kb8 { [%eval #16] } 62. b5
+{ [%eval #16] } 62... Ka8 { [%eval #11] } 63. Kc7 { [%eval #10] } 63... Ka7
+{ [%eval #10] } 64. b6+ { [%eval #9] } 64... Ka6 { [%eval #10] } 65. b7
+{ [%eval #9] } 65... Ka5 { [%eval #4] } 66. b8=Q { [%eval #3] } 66... Ka4
+{ [%eval #3] } 67. Kc6 $6 { [%eval #3] } 67... Ka3 { [%eval #3] } 68. Kc5 $6
+{ [%eval #3] } 68... Ka2 { [%eval #3] } 69. Kc4 { [%eval #2] } 69... Ka1
+{ [%eval #2] } 70. Kc3 { [%eval #1] } 70... Ka2 { [%eval #1] } 71. Qb2# 1-0

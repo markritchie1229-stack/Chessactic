@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/TFQYtgjq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ahmed_Samy"]
+[Black "Omegahorus"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:21:26"]
+[WhiteElo "1735"]
+[BlackElo "1860"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+33"]
+[ECO "A40"]
+[Opening "Modern Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... g6 $6 { [%eval 0.71] } 2. Bf4 $6 { [%eval 0.18] }
+2... Bg7 { [%eval 0.32] } 3. e3 { [%eval 0.13] } 3... d6 { [%eval 0.2] } 4. Nf3
+{ [%eval 0.17] } 4... Nf6 { [%eval 0.25] } 5. Nbd2 { [%eval 0.0] } 5... Nh5
+{ [%eval 0.01] } 6. Bg3 { [%eval -0.36] } 6... Nxg3 { [%eval -0.35] } 7. hxg3
+{ [%eval -0.35] } 7... Nd7 { [%eval -0.3] } 8. c3 { [%eval -0.37] } 8... e5
+{ [%eval -0.12] } 9. Nc4 $6 { [%eval -0.91] } 9... b5 $6 { [%eval -0.4] } 10.
+Na5 { [%eval -0.51] } 10... a6 $6 { [%eval 0.32] } 11. a4 { [%eval 0.21] }
+11... e4 $6 { [%eval 0.98] } 12. Nd2 { [%eval 0.79] } 12... bxa4
+{ [%eval 1.16] } 13. Qxa4 { [%eval 1.15] } 13... O-O { [%eval 1.03] } 14. Nxe4
+{ [%eval 1.03] } 14... Nb6 { [%eval 1.14] } 15. Qc2 { [%eval 1.03] } 15... Bd7
+{ [%eval 1.28] } 16. b4 { [%eval 1.35] } 16... f5 { [%eval 1.52] } 17. Nd2
+{ [%eval 1.46] } 17... d5 { [%eval 1.72] } 18. Nf3 { [%eval 1.31] } 18... Bf6
+{ [%eval 1.33] } 19. c4 { [%eval 1.49] } 19... Qe7 { [%eval 1.7] } 20. Rb1 $6
+{ [%eval 1.14] } 20... Ba4 { [%eval 1.31] } 21. Qc3 { [%eval 1.22] } 21... Rab8
+$6 { [%eval 1.75] } 22. cxd5 $6 { [%eval 1.1] } 22... Nxd5 { [%eval 1.17] } 23.
+Bc4 { [%eval 1.14] } 23... c6 { [%eval 1.06] } 24. O-O { [%eval 1.0] } 24...
+Kh8 { [%eval 1.08] } 25. Bb3 $4 { [%eval -9.9] } 25... Nxc3 { [%eval -9.46] }
+0-1

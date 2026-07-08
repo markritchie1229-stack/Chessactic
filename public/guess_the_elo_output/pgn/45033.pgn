@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/F6MzYHfW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pgrn"]
+[Black "Nanowi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:24:28"]
+[WhiteElo "1735"]
+[BlackElo "1874"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+34"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.09] } 1... d5 { [%eval 0.11] } 2. c4 { [%eval 0.16] } 2... Nf6
+{ [%eval 0.24] } 3. Nc3 { [%eval 0.31] } 3... b6 { [%eval 0.56] } 4. cxd5
+{ [%eval 0.44] } 4... Nxd5 { [%eval 0.49] } 5. e4 { [%eval 0.44] } 5... Nxc3
+{ [%eval 0.57] } 6. bxc3 { [%eval 0.52] } 6... Bb7 { [%eval 0.62] } 7. Bd3
+{ [%eval 0.47] } 7... Nd7 { [%eval 0.73] } 8. Ne2 { [%eval 0.43] } 8... e5
+{ [%eval 0.91] } 9. d5 $2 { [%eval -0.17] } 9... Nc5 { [%eval 0.0] } 10. Bc2
+{ [%eval 0.0] } 10... c6 { [%eval 0.0] } 11. c4 { [%eval -0.07] } 11... Qd7
+{ [%eval 0.0] } 12. O-O { [%eval 0.0] } 12... Ba6 { [%eval 0.0] } 13. Bb3
+{ [%eval -0.39] } 13... Nxe4 $6 { [%eval 0.15] } 14. Qc2 $2 { [%eval -0.88] }
+14... Nc5 { [%eval -0.82] } 15. Rd1 { [%eval -0.87] } 15... Be7 $6
+{ [%eval -0.25] } 16. Nc3 { [%eval -0.38] } 16... O-O { [%eval -0.44] } 17. Ne4
+$6 { [%eval -1.24] } 17... Nxb3 $2 { [%eval 0.07] } 18. axb3 { [%eval 0.06] }
+18... Bb7 { [%eval 0.31] } 19. d6 { [%eval 0.34] } 19... Bd8 { [%eval 0.34] }
+20. b4 $6 { [%eval -0.17] } 20... f5 { [%eval -0.09] } 21. Ng3 $2
+{ [%eval -1.46] } 21... Bh4 $2 { [%eval 0.41] } 22. Ne2 $2 { [%eval -1.06] }
+22... Rfd8 $2 { [%eval 0.66] } 23. c5 { [%eval 0.58] } 23... Bf6
+{ [%eval 0.79] } 24. Bb2 { [%eval 0.55] } 24... Ba6 $4 { [%eval 5.22] } 25. Ng3
+$4 { [%eval 1.58] } 25... f4 $6 { [%eval 2.38] } 26. Ne4 $2 { [%eval 0.57] }
+26... Bb5 { [%eval 0.74] } 27. Nxf6+ $6 { [%eval 0.0] } 27... gxf6
+{ [%eval 0.0] } 28. Qe4 { [%eval -0.17] } 28... Kh8 { [%eval -0.32] } 29. Ra3
+{ [%eval -0.39] } 29... Rg8 { [%eval -0.27] } 30. Rh3 $4 { [%eval -6.26] }
+30... Qxh3 { [%eval -6.0] } 0-1

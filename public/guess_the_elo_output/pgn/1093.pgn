@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MBFuiT1E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jardsonfb"]
+[Black "neilson"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:08:02"]
+[WhiteElo "2018"]
+[BlackElo "1730"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+20"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.07] } 1... e6 { [%eval 0.12] } 2. d4 { [%eval 0.05] } 2... d5
+{ [%eval 0.2] } 3. exd5 { [%eval 0.07] } 3... Qxd5 $6 { [%eval 0.64] } 4. Nf3
+{ [%eval 0.53] } 4... Nc6 { [%eval 0.92] } 5. Bd3 { [%eval 0.92] } 5... Nf6
+{ [%eval 0.94] } 6. O-O { [%eval 0.8] } 6... Be7 { [%eval 0.85] } 7. h3
+{ [%eval 0.76] } 7... O-O { [%eval 0.65] } 8. Nc3 { [%eval 0.52] } 8... Qd8
+{ [%eval 0.44] } 9. Re1 { [%eval 0.31] } 9... h6 { [%eval 0.56] } 10. Be3
+{ [%eval 0.23] } 10... Kh8 $6 { [%eval 1.2] } 11. Qd2 { [%eval 1.0] } 11... Nh7
+{ [%eval 1.36] } 12. Bxh6 $2 { [%eval -0.45] } 12... gxh6 { [%eval -0.41] } 13.
+Qxh6 { [%eval -0.45] } 13... f5 { [%eval -0.21] } 14. Ne5 $2 { [%eval -1.55] }
+14... Nxe5 { [%eval -1.56] } 15. dxe5 { [%eval -1.49] } 15... Bg5
+{ [%eval -1.46] } 16. Qh5 { [%eval -1.31] } 16... Qe8 { [%eval -1.14] } 17. Qf3
+$6 { [%eval -1.77] } 17... Qg6 { [%eval -1.66] } 18. Nb5 { [%eval -1.76] }
+18... Rf7 { [%eval -1.52] } 19. Rad1 { [%eval -1.75] } 19... a6
+{ [%eval -1.49] } 20. Nd4 { [%eval -1.67] } 20... Bd7 { [%eval -1.25] } 21. Be2
+$6 { [%eval -2.06] } 21... Rg8 { [%eval -1.7] } 22. c4 $2 { [%eval -3.79] }
+22... Rfg7 $2 { [%eval -2.36] } 23. g3 $2 { [%eval -3.64] } 23... Be7 $2
+{ [%eval -2.28] } 24. Bd3 $4 { [%eval -5.81] } 24... Bc5 $2 { [%eval -4.13] }
+25. Bc2 $2 { [%eval -6.58] } 25... Bxd4 $2 { [%eval -3.98] } 26. Rxd4
+{ [%eval -3.88] } 26... Bc6 { [%eval -3.9] } 27. Qf4 $2 { [%eval -5.15] } 27...
+Ng5 { [%eval -4.71] } 28. Kh2 $4 { [%eval -11.87] } 28... Nf3+
+{ [%eval -10.45] } 29. Kg2 { [%eval -20.4] } 29... Nxe1+ { [%eval -19.78] } 30.
+Kf1 { [%eval -20.5] } 30... Nxc2 { [%eval -19.35] } 31. Rd2 { [%eval -24.44] }
+31... Be4 { [%eval -14.76] } 0-1

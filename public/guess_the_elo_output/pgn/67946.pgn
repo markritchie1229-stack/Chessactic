@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/18CktUyf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rafiswcc"]
+[Black "alexr22"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:36:06"]
+[WhiteElo "1513"]
+[BlackElo "1545"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-14"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.35] } 3. Nc3 { [%eval 0.17] } 3... f6 $6 { [%eval 1.0] } 4. a3
+{ [%eval 0.94] } 4... Nge7 { [%eval 1.15] } 5. h3 $2 { [%eval -0.08] } 5... Ng6
+$2 { [%eval 1.26] } 6. d4 { [%eval 0.9] } 6... d6 { [%eval 1.39] } 7. d5
+{ [%eval 1.21] } 7... Nce7 { [%eval 1.19] } 8. Bd3 { [%eval 1.12] } 8... c6
+{ [%eval 1.26] } 9. dxc6 { [%eval 0.79] } 9... Nxc6 $2 { [%eval 1.8] } 10. Nh2
+$2 { [%eval 0.66] } 10... Be7 $6 { [%eval 1.21] } 11. Be2 $6 { [%eval 0.27] }
+11... Be6 { [%eval 0.54] } 12. Bh5 { [%eval 0.24] } 12... Bf7 { [%eval 0.68] }
+13. Bxg6 $6 { [%eval -0.17] } 13... Bxg6 { [%eval -0.24] } 14. Nd5 $2
+{ [%eval -1.55] } 14... Bxe4 { [%eval -1.18] } 15. Nxe7 { [%eval -1.61] } 15...
+Qxe7 { [%eval -1.52] } 16. O-O { [%eval -1.6] } 16... f5 $4 { [%eval 1.41] }
+17. Nf3 $2 { [%eval -1.27] } 17... Qg5 $4 { [%eval 14.73] } 18. Bxg5
+{ [%eval 10.82] } 18... Bxf3 { [%eval 13.27] } 19. Qxf3 { [%eval 13.24] } 19...
+Nd4 { [%eval 15.28] } 20. Qd3 { [%eval 13.3] } 20... O-O { [%eval 13.37] } 21.
+c3 { [%eval 13.1] } 21... Nc6 { [%eval 13.57] } 22. Qxd6 { [%eval 13.28] }
+22... Rad8 { [%eval 18.64] } 23. Qc7 { [%eval 14.11] } 23... Rc8
+{ [%eval 15.85] } 24. Qxb7 { [%eval 15.46] } 24... h6 { [%eval 16.26] } 25. Be3
+{ [%eval 15.66] } 25... f4 { [%eval 16.97] } 26. Bd2 { [%eval 13.79] } 26...
+Rb8 { [%eval 18.0] } 27. Qxc6 { [%eval 17.79] } 27... Rxb2 { [%eval 19.93] }
+28. Qe6+ { [%eval 19.69] } 28... Kh8 { [%eval 19.47] } 29. Rfd1
+{ [%eval 18.79] } 29... Rc2 $6 { [%eval #13] } 30. Qxe5 { [%eval 29.07] } 30...
+Rb2 $6 { [%eval #11] } 31. c4 { [%eval 29.03] } 31... Rb6 $6 { [%eval #10] }
+32. Bc3 { [%eval #9] } 32... Rc6 { [%eval #1] } 33. Qxg7# 1-0

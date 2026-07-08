@@ -1,0 +1,43 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/7Ti7de7P"]
+[Date "????.??.??"]
+[Round "?"]
+[White "trit77"]
+[Black "CHCHJON"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:46:43"]
+[WhiteElo "1578"]
+[BlackElo "1683"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "A00"]
+[Opening "Creepy Crawly Formation: Classical Defense"]
+[TimeControl "1800+0"]
+[Termination "Normal"]
+
+1. h3 { [%eval 0.04] } 1... e5 { [%eval 0.08] } 2. a3 { [%eval -0.2] } 2... d5
+{ [%eval -0.19] } 3. b4 $6 { [%eval -0.75] } 3... Nf6 { [%eval -0.54] } 4. Bb2
+{ [%eval -0.58] } 4... Bd6 { [%eval -0.58] } 5. e3 { [%eval -0.69] } 5... c5 $6
+{ [%eval 0.08] } 6. Nf3 { [%eval -0.34] } 6... cxb4 $6 { [%eval 0.38] } 7. Bxe5
+{ [%eval 0.21] } 7... bxa3 { [%eval 0.45] } 8. Bxd6 { [%eval 0.52] } 8... Qxd6
+{ [%eval 0.6] } 9. Rxa3 { [%eval 0.2] } 9... O-O { [%eval 0.16] } 10. c4
+{ [%eval -0.27] } 10... dxc4 { [%eval 0.12] } 11. Bxc4 { [%eval -0.12] } 11...
+Be6 { [%eval 0.33] } 12. Bxe6 { [%eval 0.16] } 12... Qxe6 { [%eval 0.28] } 13.
+O-O { [%eval -0.01] } 13... Nc6 { [%eval 0.24] } 14. Ng5 $6 { [%eval -0.41] }
+14... Qd6 { [%eval 0.0] } 15. Qb3 { [%eval -0.07] } 15... h6 { [%eval 0.0] }
+16. Nf3 { [%eval 0.0] } 16... Rab8 { [%eval 0.08] } 17. d4 { [%eval -0.18] }
+17... a6 { [%eval 0.3] } 18. Nbd2 { [%eval 0.26] } 18... Rfd8 { [%eval 0.31] }
+19. Nc4 { [%eval 0.46] } 19... Qd5 { [%eval 0.48] } 20. Nce5 { [%eval 0.12] }
+20... Qxb3 { [%eval 0.31] } 21. Rxb3 { [%eval 0.33] } 21... Nxe5
+{ [%eval 0.37] } 22. Nxe5 { [%eval 0.32] } 22... Ne4 { [%eval 0.27] } 23. Rc1
+{ [%eval 0.0] } 23... f6 { [%eval 0.0] } 24. Ng4 $2 { [%eval -1.11] } 24... Nd2
+$2 { [%eval -0.06] } 25. Rb2 { [%eval -0.07] } 25... Ne4 { [%eval -0.08] } 26.
+f3 { [%eval -0.1] } 26... Nd6 { [%eval -0.05] } 27. d5 { [%eval -0.43] } 27...
+Rdc8 { [%eval -0.09] } 28. Rxc8+ { [%eval -0.36] } 28... Rxc8 { [%eval -0.17] }
+29. e4 $6 { [%eval -0.93] } 29... b5 { [%eval -1.07] } 30. Ra2
+{ [%eval -1.04] } 30... Ra8 { [%eval -0.96] } 31. Kh2 $6 { [%eval -1.6] } 31...
+a5 { [%eval -1.47] } 32. Ne3 { [%eval -1.39] } 32... b4 { [%eval -1.38] } 33.
+Ra4 { [%eval -1.45] } 33... b3 { [%eval -1.25] } 34. Nc4 $4 { [%eval -16.13] }
+34... Nxc4 { [%eval -15.79] } 35. Rxc4 { [%eval -15.47] } 35... b2
+{ [%eval -14.29] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NBhFqTsZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sweager"]
+[Black "lolik90"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:17:08"]
+[WhiteElo "1331"]
+[BlackElo "1377"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.42] } 2. Qh5 $6 { [%eval -0.1] } 2...
+Nc6 { [%eval -0.08] } 3. Bc4 { [%eval -0.18] } 3... g6 { [%eval -0.13] } 4. Qf3
+{ [%eval -0.37] } 4... Nf6 { [%eval -0.29] } 5. d3 $6 { [%eval -0.88] } 5... d5
+{ [%eval -0.45] } 6. exd5 { [%eval -0.76] } 6... Nxd5 $4 { [%eval 3.86] } 7.
+Bxd5 { [%eval 3.72] } 7... Be6 $6 { [%eval 4.47] } 8. Bxc6+ { [%eval 4.31] }
+8... bxc6 { [%eval 4.44] } 9. Qxc6+ { [%eval 4.44] } 9... Bd7 { [%eval 4.46] }
+10. Qd5 { [%eval 4.15] } 10... Bd6 { [%eval 4.6] } 11. Nc3 { [%eval 4.56] }
+11... O-O { [%eval 4.52] } 12. Bh6 { [%eval 4.46] } 12... Be6 { [%eval 4.34] }
+13. Qc6 { [%eval 4.4] } 13... Bd7 { [%eval 4.33] } 14. Qb7 { [%eval 3.94] }
+14... Re8 { [%eval 3.98] } 15. Nf3 { [%eval 3.91] } 15... Rb8 { [%eval 3.83] }
+16. Qxa7 { [%eval 3.58] } 16... Rxb2 { [%eval 3.84] } 17. Bg5 $6
+{ [%eval 3.23] } 17... Be7 $6 { [%eval 4.04] } 18. Bc1 $2 { [%eval 1.5] } 18...
+Rxc2 { [%eval 1.43] } 19. Nd5 $2 { [%eval -0.76] } 19... Qa8 $4
+{ [%eval 6.06] } 20. Nxe7+ { [%eval 5.91] } 20... Kf8 { [%eval 6.01] } 21. Qe3
+$2 { [%eval 3.95] } 21... Rxe7 { [%eval 3.95] } 22. d4 $4 { [%eval -3.46] }
+22... exd4 { [%eval -3.14] } 23. Qxe7+ { [%eval -3.16] } 23... Kxe7
+{ [%eval -2.93] } 24. Ba3+ $4 { [%eval -9.78] } 24... Qxa3 { [%eval -9.41] }
+25. Nxd4 $2 { [%eval #-2] } 25... Rc1+ $6 { [%eval -16.82] } 26. Ke2 $6
+{ [%eval #-6] } 26... Qb2+ { [%eval #-5] } 27. Kf3 { [%eval #-5] } 27... Rxa1
+$6 { [%eval -29.66] } 28. Rxa1 { [%eval -27.25] } 28... Qxa1 { [%eval -17.44] }
+29. Nc6+ $6 { [%eval #-8] } 29... Bxc6+ { [%eval #-7] } 30. Kf4 { [%eval #-5] }
+30... Qxa2 $6 { [%eval #-8] } 0-1

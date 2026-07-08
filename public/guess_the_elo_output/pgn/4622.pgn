@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Y9jeZoHX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ayzberg"]
+[Black "Alex1104"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:10:09"]
+[WhiteElo "1700"]
+[BlackElo "1879"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+34"]
+[ECO "D02"]
+[Opening "Queen's Gambit Refused: Baltic Defense, Pseudo-Slav"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.02] } 1... c6 { [%eval 0.37] } 2. Nc3 { [%eval 0.37] } 2...
+d5 { [%eval 0.3] } 3. d4 { [%eval 0.34] } 3... Bf5 { [%eval 0.66] } 4. Nf3 $6
+{ [%eval 0.16] } 4... e6 { [%eval 0.25] } 5. Bf4 { [%eval 0.19] } 5... Nf6
+{ [%eval 0.38] } 6. e3 { [%eval 0.29] } 6... Be7 { [%eval 0.39] } 7. c5
+{ [%eval 0.08] } 7... O-O { [%eval 0.16] } 8. Bd3 { [%eval -0.14] } 8... Bxd3
+{ [%eval -0.06] } 9. Qxd3 { [%eval -0.25] } 9... b6 { [%eval -0.27] } 10. b4
+{ [%eval -0.76] } 10... bxc5 $2 { [%eval 0.53] } 11. bxc5 { [%eval 0.41] }
+11... Nbd7 { [%eval 0.41] } 12. O-O { [%eval 0.59] } 12... h6 { [%eval 0.68] }
+13. Rab1 { [%eval 0.65] } 13... Qa5 $6 { [%eval 1.33] } 14. Rb7 $2
+{ [%eval 0.11] } 14... Bd8 $2 { [%eval 2.36] } 15. Rfb1 { [%eval 2.55] } 15...
+Rc8 { [%eval 2.67] } 16. Bd6 { [%eval 2.39] } 16... Re8 { [%eval 2.45] } 17.
+Qc2 $2 { [%eval 1.14] } 17... Bc7 { [%eval 1.29] } 18. Ne5 $6 { [%eval 0.73] }
+18... Bxd6 { [%eval 1.16] } 19. cxd6 { [%eval 1.07] } 19... Nxe5 $2
+{ [%eval 4.01] } 20. dxe5 { [%eval 3.77] } 20... Ne4 $4 { [%eval 7.5] } 21.
+Nxe4 { [%eval 7.52] } 21... dxe4 { [%eval 7.4] } 22. Qxe4 $4 { [%eval 3.18] }
+22... Red8 { [%eval 3.11] } 23. Qxc6 $4 { [%eval -12.44] } 23... Rxc6
+{ [%eval -12.05] } 24. Re7 { [%eval -14.11] } 24... Qxe5 { [%eval -13.91] } 25.
+f4 $6 { [%eval #-4] } 25... Qxd6 $6 { [%eval -25.07] } 26. Rbb7 $6
+{ [%eval #-4] } 26... Rf8 $6 { [%eval -24.09] } 27. Rxf7 $6 { [%eval #-7] }
+27... Rxf7 { [%eval #-6] } 28. Rxf7 { [%eval #-4] } 28... Kxf7 $6
+{ [%eval #-5] } 0-1

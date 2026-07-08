@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/H9D1MvZA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "varano"]
+[Black "juankar56"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:45:46"]
+[WhiteElo "1395"]
+[BlackElo "1631"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+23"]
+[ECO "D00"]
+[Opening "Queen's Pawn Opening: Veresov Attack, Irish Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.18] } 2. Nc3 { [%eval -0.03] } 2...
+c5 { [%eval 0.26] } 3. b3 $6 { [%eval -0.52] } 3... cxd4 { [%eval -0.08] } 4.
+Qxd4 { [%eval -0.14] } 4... Nc6 { [%eval 0.32] } 5. Qd1 $2 { [%eval -1.27] }
+5... Nf6 { [%eval -1.1] } 6. e3 { [%eval -1.08] } 6... e5 { [%eval -1.08] } 7.
+Bb5 { [%eval -1.38] } 7... Bd7 $2 { [%eval -0.15] } 8. Bxc6 $2
+{ [%eval -1.35] } 8... bxc6 { [%eval -0.92] } 9. Nge2 { [%eval -0.94] } 9...
+Bb4 { [%eval -0.9] } 10. Bd2 { [%eval -1.02] } 10... O-O { [%eval -0.97] } 11.
+a3 { [%eval -1.29] } 11... Ba5 { [%eval -0.94] } 12. O-O { [%eval -0.88] }
+12... Re8 { [%eval -0.93] } 13. b4 { [%eval -1.26] } 13... Bb6
+{ [%eval -1.04] } 14. f4 $2 { [%eval -3.2] } 14... e4 $2 { [%eval -0.58] } 15.
+f5 $2 { [%eval -1.74] } 15... Qc8 $6 { [%eval -0.78] } 16. Ng3 $6
+{ [%eval -1.42] } 16... Bc7 { [%eval -1.33] } 17. Nh5 { [%eval -1.45] } 17...
+Be5 { [%eval -1.46] } 18. Ra2 { [%eval -1.88] } 18... Bxf5 { [%eval -1.69] }
+19. Ne2 $4 { [%eval -5.77] } 19... Bg4 $4 { [%eval -1.71] } 20. Nhf4 $2
+{ [%eval -4.05] } 20... Qf5 $2 { [%eval -1.65] } 21. Qe1 { [%eval -1.88] }
+21... g5 $2 { [%eval 0.0] } 22. Ng3 $2 { [%eval -1.2] } 22... Qd7
+{ [%eval -1.21] } 23. Nfe2 { [%eval -1.29] } 23... Bxe2 { [%eval -1.16] } 24.
+Nxe2 { [%eval -1.29] } 24... Ng4 $6 { [%eval -0.6] } 25. g3 $2
+{ [%eval -3.27] } 25... f5 $2 { [%eval -1.41] } 26. Bc3 $2 { [%eval -3.64] }
+26... Nxe3 { [%eval -3.57] } 27. Bxe5 { [%eval -3.62] } 27... Nxf1 $2
+{ [%eval -1.78] } 28. Qxf1 $4 { [%eval -5.43] } 28... Rxe5 { [%eval -5.18] }
+29. Qh3 $6 { [%eval -6.09] } 29... Rf8 { [%eval -5.56] } 30. Qh5 $2
+{ [%eval -7.8] } 30... Qf7 $4 { [%eval -3.43] } 31. c3 $4 { [%eval -22.65] }
+31... Qxh5 { [%eval -21.75] } 0-1

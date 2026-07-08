@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/yF58s6uV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Norbert2000"]
+[Black "Reasons"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:36:33"]
+[WhiteElo "1801"]
+[BlackElo "1850"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "A00"]
+[Opening "Van Geet Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.05] } 1... c5 { [%eval 0.38] } 2. Nf3 $6 { [%eval -0.15] }
+2... d5 { [%eval -0.04] } 3. Ng1 $6 { [%eval -0.88] } 3... e6 { [%eval -0.6] }
+4. Nb1 { [%eval -1.06] } 4... Nf6 { [%eval -1.03] } 5. d3 { [%eval -1.13] }
+5... Be7 { [%eval -1.04] } 6. Nd2 { [%eval -1.08] } 6... Nc6 { [%eval -0.98] }
+7. Nb3 $6 { [%eval -1.8] } 7... O-O { [%eval -1.57] } 8. Nd2 { [%eval -1.64] }
+8... a6 { [%eval -1.36] } 9. Nb1 $6 { [%eval -2.14] } 9... b5 { [%eval -1.9] }
+10. Nh3 { [%eval -2.37] } 10... Bb7 { [%eval -1.89] } 11. Nf4 $6
+{ [%eval -2.47] } 11... Bd6 { [%eval -2.06] } 12. Nh3 { [%eval -2.41] } 12...
+Qd7 $6 { [%eval -1.84] } 13. Ng1 $6 { [%eval -2.52] } 13... Qc7
+{ [%eval -2.35] } 14. e3 { [%eval -2.46] } 14... Rfe8 { [%eval -2.17] } 15. Ne2
+{ [%eval -2.18] } 15... Rac8 { [%eval -1.93] } 16. Bd2 { [%eval -2.37] } 16...
+Rcd8 { [%eval -1.94] } 17. Nbc3 $2 { [%eval -3.01] } 17... e5 $6
+{ [%eval -2.17] } 18. Qc1 $6 { [%eval -2.69] } 18... d4 { [%eval -2.68] } 19.
+Nb1 $4 { [%eval -6.2] } 19... dxe3 $2 { [%eval -4.74] } 20. fxe3 $2
+{ [%eval -7.59] } 20... Nd5 $4 { [%eval -2.52] } 21. e4 { [%eval -2.56] } 21...
+Nf6 { [%eval -2.25] } 22. Ng3 { [%eval -2.53] } 22... Nd4 { [%eval -2.33] } 23.
+Nf5 $4 { [%eval -6.31] } 23... Nxf5 { [%eval -6.18] } 24. exf5 $4
+{ [%eval -10.57] } 24... Qd7 $4 { [%eval -6.98] } 25. Be2 { [%eval -6.85] }
+25... Qxf5 { [%eval -6.31] } 26. Nc3 $2 { [%eval -7.72] } 26... Qe6 $4
+{ [%eval -3.4] } 27. Rf1 $4 { [%eval -7.61] } 27... e4 { [%eval -7.17] } 28. h3
+$2 { [%eval -12.47] } 28... exd3 { [%eval -12.2] } 29. cxd3 { [%eval -11.84] }
+29... b4 { [%eval -11.0] } 30. Na4 $6 { [%eval #-1] } 30... Qxe2# 0-1

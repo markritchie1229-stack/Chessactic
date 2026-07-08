@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fpJaclah"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dovg"]
+[Black "Ivanesco"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:40:19"]
+[WhiteElo "1564"]
+[BlackElo "1482"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "C45"]
+[Opening "Scotch Game: Malaniuk Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.25] } 2...
+Nc6 { [%eval 0.25] } 3. d4 { [%eval -0.01] } 3... exd4 { [%eval 0.0] } 4. Nxd4
+{ [%eval 0.0] } 4... Bb4+ { [%eval 0.33] } 5. c3 { [%eval 0.24] } 5... Bc5
+{ [%eval 0.32] } 6. Nxc6 { [%eval 0.22] } 6... bxc6 { [%eval 0.25] } 7. Qe2
+{ [%eval -0.1] } 7... Nf6 { [%eval 0.01] } 8. Be3 { [%eval -0.36] } 8... Bb6
+{ [%eval -0.34] } 9. e5 { [%eval -0.54] } 9... Nd5 { [%eval -0.38] } 10. Bxb6
+{ [%eval -0.54] } 10... cxb6 $6 { [%eval 0.01] } 11. c4 { [%eval 0.12] } 11...
+Nc7 { [%eval 0.03] } 12. Nc3 { [%eval 0.0] } 12... O-O { [%eval 0.02] } 13. Qh5
+$6 { [%eval -0.53] } 13... g6 { [%eval -0.46] } 14. Qg4 { [%eval -0.81] } 14...
+d5 { [%eval -0.43] } 15. Bd3 $4 { [%eval -12.87] } 15... Bxg4
+{ [%eval -12.66] } 16. O-O { [%eval -12.6] } 16... d4 { [%eval -11.91] } 17.
+Ne4 { [%eval -11.82] } 17... Ne6 { [%eval -11.02] } 18. Nf6+ { [%eval -11.14] }
+18... Kg7 { [%eval -10.98] } 19. Nxg4 { [%eval -10.55] } 19... c5 $2
+{ [%eval -7.51] } 20. f4 { [%eval -7.55] } 20... f5 $6 { [%eval -6.63] } 21.
+exf6+ { [%eval -6.64] } 21... Rxf6 { [%eval -6.41] } 22. Ne5 $4
+{ [%eval -10.8] } 22... Rxf4 { [%eval -10.26] } 23. Rfe1 { [%eval -10.5] }
+23... Qg5 { [%eval -10.2] } 24. Nd7 { [%eval -14.08] } 24... Rg4
+{ [%eval -13.27] } 25. g3 { [%eval -21.53] } 25... Rxg3+ { [%eval -20.97] } 26.
+hxg3 { [%eval -20.32] } 26... Qxg3+ { [%eval -19.72] } 27. Kh1
+{ [%eval -19.14] } 27... Nf4 { [%eval -13.86] } 28. Re7+ { [%eval -20.33] }
+28... Kh6 { [%eval -19.35] } 29. Nf6 $6 { [%eval #-1] } 29... Qg2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RVK8PxtE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Denisiuskash"]
+[Black "ducky24120"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:36:59"]
+[WhiteElo "1458"]
+[BlackElo "1733"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+3"]
+[ECO "C70"]
+[Opening "Ruy Lopez"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.29] } 3. Bb5 { [%eval 0.22] } 3... a6 { [%eval 0.3] } 4. Bc4
+{ [%eval 0.06] } 4... Nf6 { [%eval 0.1] } 5. Ng5 $6 { [%eval -0.51] } 5... d5
+{ [%eval -0.51] } 6. exd5 { [%eval -0.58] } 6... Na5 { [%eval -0.46] } 7. d3
+{ [%eval -0.45] } 7... b5 { [%eval -0.45] } 8. Bb3 { [%eval -0.54] } 8... Nxb3
+{ [%eval -0.42] } 9. axb3 { [%eval -0.39] } 9... Nxd5 { [%eval -0.21] } 10. Bd2
+{ [%eval -0.67] } 10... Be7 { [%eval -0.49] } 11. Ne4 $6 { [%eval -1.18] }
+11... O-O { [%eval -1.29] } 12. O-O { [%eval -1.16] } 12... f5
+{ [%eval -1.25] } 13. Nec3 { [%eval -1.18] } 13... Bb7 { [%eval -1.25] } 14.
+Nxd5 { [%eval -1.57] } 14... Bxd5 $6 { [%eval -0.91] } 15. c4 { [%eval -1.18] }
+15... Bc6 { [%eval -0.91] } 16. Nc3 { [%eval -1.33] } 16... Qxd3
+{ [%eval -1.12] } 17. Re1 { [%eval -1.38] } 17... Bd6 { [%eval -1.13] } 18. Re3
+$6 { [%eval -1.79] } 18... Qd4 { [%eval -1.84] } 19. cxb5 $2 { [%eval -3.36] }
+19... axb5 { [%eval -3.17] } 20. Rxa8 { [%eval -3.26] } 20... Rxa8
+{ [%eval -3.22] } 21. h3 $2 { [%eval -4.95] } 21... b4 { [%eval -4.1] } 22. Bc1
+$4 { [%eval -9.86] } 22... bxc3 $4 { [%eval -6.56] } 23. Qxd4 $4
+{ [%eval -14.49] } 23... exd4 { [%eval -12.89] } 24. Rd3 $6 { [%eval #-8] }
+24... Ra1 { [%eval #-7] } 25. Rd1 { [%eval #-7] } 0-1

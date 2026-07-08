@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Cwm2w7LJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Loozerre"]
+[Black "hitman3999"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:57:24"]
+[WhiteElo "1112"]
+[BlackElo "1173"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+26"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+[TimeControl "1800+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.42] } 1... e5 { [%eval 0.28] } 2. Qe2 $6 { [%eval -0.55] }
+2... Nc6 { [%eval -0.38] } 3. Nf3 { [%eval -0.45] } 3... f6 $6 { [%eval 0.22] }
+4. Qc4 { [%eval 0.0] } 4... Nge7 { [%eval 0.46] } 5. Bd3 $2 { [%eval -0.6] }
+5... d5 { [%eval -0.69] } 6. Qb5 $6 { [%eval -1.64] } 6... dxe4 $6
+{ [%eval -0.77] } 7. Bxe4 { [%eval -0.99] } 7... Rb8 $2 { [%eval 0.03] } 8. O-O
+{ [%eval 0.05] } 8... g5 $6 { [%eval 0.69] } 9. g3 $2 { [%eval -0.69] } 9... a6
+{ [%eval -0.31] } 10. Qc5 $6 { [%eval -1.24] } 10... g4 { [%eval -1.24] } 11.
+Nh4 { [%eval -1.33] } 11... Ng6 $2 { [%eval -0.05] } 12. Qd5 $2
+{ [%eval -1.89] } 12... Nd4 { [%eval -1.42] } 13. c3 $2 { [%eval -3.96] } 13...
+Nc2 $4 { [%eval 3.96] } 14. Qxd8+ { [%eval 3.79] } 14... Kxd8 { [%eval 3.82] }
+15. Bxc2 { [%eval 3.78] } 15... c5 { [%eval 4.14] } 16. b4 $2 { [%eval 3.02] }
+16... b5 $2 { [%eval 4.13] } 17. Bf5 $4 { [%eval -0.26] } 17... Rg8 $4
+{ [%eval 3.12] } 18. f4 $2 { [%eval 1.46] } 18... cxb4 $2 { [%eval 2.69] } 19.
+cxb4 $2 { [%eval 1.47] } 19... exf4 $2 { [%eval 2.55] } 20. gxf4 $4
+{ [%eval -1.71] } 20... Bxb4 $2 { [%eval 0.85] } 21. Ba3 $4 { [%eval -2.34] }
+21... Be7 $4 { [%eval 1.99] } 22. Rc1 $4 { [%eval -1.87] } 22... Nxh4
+{ [%eval -1.98] } 23. Bxe7+ { [%eval -2.39] } 23... Kxe7 { [%eval -2.35] } 24.
+Rc7+ $6 { [%eval -3.33] } 24... Kd8 $6 { [%eval -2.61] } 25. Be4 $4
+{ [%eval -9.28] } 25... Kxc7 { [%eval -9.06] } 26. Bd5 $6 { [%eval -11.11] }
+26... Re8 $6 { [%eval -9.2] } 27. Bc6 $6 { [%eval -16.64] } 27... Kxc6
+{ [%eval -15.85] } 28. h3 $6 { [%eval #-7] } 28... Re1+ $6 { [%eval -30.45] }
+0-1

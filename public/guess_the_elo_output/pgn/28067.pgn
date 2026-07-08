@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/YC5GxX4t"]
+[Date "????.??.??"]
+[Round "?"]
+[White "EdMor"]
+[Black "Mendel81"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:10:03"]
+[WhiteElo "1539"]
+[BlackElo "1544"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "1080+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.51] } 2. Nf3 { [%eval 0.35] } 2...
+Nf6 { [%eval 0.39] } 3. Nc3 { [%eval 0.1] } 3... d5 $6 { [%eval 0.71] } 4. exd5
+{ [%eval 0.66] } 4... Nxd5 { [%eval 0.91] } 5. Nxd5 $6 { [%eval 0.0] } 5...
+Qxd5 { [%eval 0.09] } 6. d3 { [%eval -0.31] } 6... Bg4 { [%eval 0.0] } 7. h3
+{ [%eval 0.0] } 7... Bxf3 { [%eval -0.07] } 8. Qxf3 { [%eval -0.04] } 8... Qxf3
+{ [%eval 0.0] } 9. gxf3 { [%eval 0.01] } 9... Bd6 { [%eval 0.02] } 10. Bg2
+{ [%eval -0.06] } 10... Nd7 { [%eval 0.15] } 11. f4 { [%eval 0.03] } 11...
+O-O-O { [%eval 0.25] } 12. Be3 $2 { [%eval -0.79] } 12... Bc5 $2
+{ [%eval 0.71] } 13. fxe5 $6 { [%eval 0.08] } 13... Bxe3 { [%eval 0.05] } 14.
+fxe3 { [%eval 0.05] } 14... Nxe5 { [%eval 0.12] } 15. O-O-O { [%eval 0.11] }
+15... Rhe8 { [%eval 0.15] } 16. Be4 { [%eval -0.1] } 16... g6 { [%eval -0.05] }
+17. h4 $2 { [%eval -1.22] } 17... f5 { [%eval -1.32] } 18. Bg2
+{ [%eval -1.41] } 18... Ng4 { [%eval -1.36] } 19. h5 $2 { [%eval -2.56] } 19...
+Nxe3 { [%eval -2.53] } 20. Rdg1 { [%eval -2.7] } 20... g5 { [%eval -2.68] } 21.
+Kd2 $6 { [%eval -3.2] } 21... Nc4+ $6 { [%eval -2.41] } 22. Kc1
+{ [%eval -2.62] } 22... Ne5 $2 { [%eval -1.45] } 23. Kd2 $2 { [%eval -2.51] }
+23... g4 $6 { [%eval -1.63] } 24. Rf1 $2 { [%eval -3.05] } 24... Rf8 $2
+{ [%eval -0.91] } 25. h6 $2 { [%eval -3.25] } 25... f4 $6 { [%eval -2.66] } 26.
+Re1 { [%eval -2.94] } 26... Rde8 { [%eval -2.79] } 27. Be4 $6 { [%eval -3.3] }
+27... f3 { [%eval -3.17] } 28. Ref1 $6 { [%eval -4.09] } 28... g3 $6
+{ [%eval -3.46] } 29. Rh3 $4 { [%eval -11.27] } 29... g2 { [%eval -8.62] } 30.
+Rg1 $2 { [%eval -12.66] } 30... f2 { [%eval -12.49] } 0-1

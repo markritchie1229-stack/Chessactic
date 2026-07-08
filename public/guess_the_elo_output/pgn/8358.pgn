@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dy9TSPdv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RSV-42"]
+[Black "javilin"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:24:41"]
+[WhiteElo "1351"]
+[BlackElo "1340"]
+[WhiteRatingDiff "+115"]
+[BlackRatingDiff "-8"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Cozio Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.25] } 3. Bb5 { [%eval 0.25] } 3... Nge7 { [%eval 0.69] } 4. c3
+{ [%eval 0.51] } 4... a6 { [%eval 0.63] } 5. Ba4 { [%eval 0.6] } 5... b5
+{ [%eval 0.8] } 6. Bb3 { [%eval 0.73] } 6... d5 { [%eval 1.15] } 7. exd5 $6
+{ [%eval 0.47] } 7... Nxd5 { [%eval 0.76] } 8. d4 { [%eval 0.45] } 8... e4
+{ [%eval 0.81] } 9. Ne5 $6 { [%eval 0.3] } 9... Nxe5 { [%eval 0.6] } 10. dxe5
+{ [%eval 0.52] } 10... Nb6 $4 { [%eval 9.72] } 11. Qxd8+ $4 { [%eval 1.47] }
+11... Kxd8 { [%eval 1.47] } 12. Bg5+ $6 { [%eval 0.7] } 12... Be7
+{ [%eval 0.61] } 13. Bxe7+ $6 { [%eval 0.08] } 13... Kxe7 { [%eval 0.15] } 14.
+Nd2 { [%eval 0.13] } 14... Rd8 { [%eval 0.41] } 15. Nxe4 { [%eval 0.21] } 15...
+Kf8 $6 { [%eval 0.76] } 16. O-O { [%eval 0.68] } 16... Kg8 $6 { [%eval 1.33] }
+17. h3 { [%eval 1.04] } 17... Bf5 { [%eval 1.14] } 18. Ng5 { [%eval 0.96] }
+18... Bg6 { [%eval 1.41] } 19. e6 { [%eval 1.41] } 19... fxe6 $2
+{ [%eval 3.62] } 20. Nxe6 { [%eval 3.52] } 20... Rdc8 $2 { [%eval 4.93] } 21.
+Nxc7+ { [%eval 4.85] } 21... Kf8 { [%eval 4.92] } 22. Nxa8 { [%eval 4.88] }
+22... Rxa8 { [%eval 4.89] } 23. Rad1 { [%eval 4.79] } 23... Ke8 $6
+{ [%eval 5.57] } 24. Rfe1+ { [%eval 5.47] } 24... Kf8 { [%eval 5.41] } 25. Rd6
+$6 { [%eval 4.89] } 25... Nc8 $4 { [%eval #2] } 26. Rd8+ { [%eval #1] } 26...
+Be8 { [%eval #1] } 27. Rexe8# 1-0

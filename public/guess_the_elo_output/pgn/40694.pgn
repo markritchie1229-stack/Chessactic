@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/OJdbfq0q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "abcdxyzt"]
+[Black "Dolana"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:29:03"]
+[WhiteElo "1967"]
+[BlackElo "2001"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense: Noteboom Variation"]
+[TimeControl "60+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.23] } 1... e6 { [%eval 0.2] } 2. Nf3 { [%eval 0.16] } 2... d5
+{ [%eval 0.25] } 3. c4 { [%eval 0.18] } 3... c6 { [%eval 0.29] } 4. Nc3
+{ [%eval 0.16] } 4... dxc4 { [%eval 0.59] } 5. e4 { [%eval 0.13] } 5... b5
+{ [%eval 0.0] } 6. Bg5 { [%eval -0.2] } 6... Qb6 { [%eval 0.11] } 7. a3
+{ [%eval -0.2] } 7... h6 { [%eval 0.08] } 8. Bf4 $6 { [%eval -0.59] } 8... Nf6
+{ [%eval -0.56] } 9. Be2 { [%eval -0.59] } 9... Nbd7 { [%eval -0.35] } 10. O-O
+{ [%eval -0.45] } 10... Be7 { [%eval 0.02] } 11. Ne5 $6 { [%eval -0.88] } 11...
+O-O { [%eval -0.83] } 12. g4 $6 { [%eval -1.66] } 12... Bb7 { [%eval -1.5] }
+13. Nxd7 { [%eval -1.6] } 13... Nxd7 { [%eval -1.69] } 14. Be3
+{ [%eval -1.95] } 14... a6 { [%eval -1.68] } 15. f4 { [%eval -1.75] } 15... c5
+{ [%eval -1.47] } 16. g5 $2 { [%eval -3.09] } 16... cxd4 $6 { [%eval -2.3] }
+17. Bxd4 { [%eval -2.21] } 17... Bc5 { [%eval -2.1] } 18. Bxc5
+{ [%eval -2.12] } 18... Qxc5+ { [%eval -2.12] } 19. Kg2 $6 { [%eval -2.75] }
+19... Rad8 { [%eval -2.73] } 20. gxh6 { [%eval -2.66] } 20... Nf6
+{ [%eval -2.51] } 21. Qe1 { [%eval -2.68] } 21... Nxe4 { [%eval -2.1] } 22.
+Nxe4 $6 { [%eval -3.08] } 22... Bxe4+ { [%eval -3.0] } 23. Bf3 { [%eval -3.1] }
+23... Bg6 $6 { [%eval -2.15] } 24. Qg3 $2 { [%eval -3.18] } 24... gxh6
+{ [%eval -2.94] } 25. Be4 $2 { [%eval -4.6] } 25... Rd2+ { [%eval -4.5] } 26.
+Kh1 { [%eval -4.33] } 26... Kg7 $2 { [%eval -2.71] } 27. Bxg6 $2
+{ [%eval -4.06] } 27... fxg6 { [%eval -3.6] } 28. Rf3 $2 { [%eval -5.51] }
+28... Qd4 $6 { [%eval -4.83] } 29. Rg1 { [%eval -5.29] } 29... Rf6
+{ [%eval -5.08] } 0-1

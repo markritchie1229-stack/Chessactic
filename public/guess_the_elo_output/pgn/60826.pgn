@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cJG7H7Qc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "maksperm"]
+[Black "MMM68"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:55:29"]
+[WhiteElo "996"]
+[BlackElo "1113"]
+[WhiteRatingDiff "-52"]
+[BlackRatingDiff "+12"]
+[ECO "C45"]
+[Opening "Scotch Game #3"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.23] } 2. Nf3 { [%eval 0.44] } 2...
+Nc6 { [%eval 0.29] } 3. d4 { [%eval 0.03] } 3... exd4 { [%eval 0.15] } 4. c4 $2
+{ [%eval -1.25] } 4... dxc3 $2 { [%eval -0.25] } 5. bxc3 $6 { [%eval -0.92] }
+5... d6 { [%eval -0.72] } 6. Bc4 { [%eval -0.82] } 6... Bg4 $6 { [%eval 0.0] }
+7. Bxf7+ $2 { [%eval -2.34] } 7... Kxf7 { [%eval -2.14] } 8. O-O $6
+{ [%eval -2.81] } 8... Nf6 { [%eval -2.67] } 9. Bf4 $6 { [%eval -3.31] } 9...
+Nxe4 $4 { [%eval -0.26] } 10. Bxd6 $4 { [%eval -7.89] } 10... Bxd6 $4
+{ [%eval -3.93] } 11. Nbd2 $4 { [%eval -13.39] } 11... Nxd2 { [%eval -13.17] }
+12. Qxd2 { [%eval -13.16] } 12... Bxf3 { [%eval -12.9] } 13. Qc2
+{ [%eval -23.12] } 13... Bh5 $2 { [%eval -8.28] } 14. a3 $2 { [%eval -12.86] }
+14... Qf6 { [%eval -12.55] } 15. c4 { [%eval -18.77] } 15... Rhe8
+{ [%eval -14.45] } 16. a4 { [%eval -20.68] } 16... Nb4 { [%eval -15.28] } 17.
+Qb3 { [%eval -15.11] } 17... Re4 { [%eval -10.02] } 18. Rae1 { [%eval -17.71] }
+18... Rae8 { [%eval -11.66] } 19. Rxe4 { [%eval -11.43] } 19... Rxe4
+{ [%eval -10.96] } 20. Qxb4 $6 { [%eval #-7] } 20... Bxb4 { [%eval #-6] } 21.
+f3 { [%eval #-5] } 21... Re1 $6 { [%eval #-5] } 22. Rxe1 { [%eval #-5] } 22...
+Bxe1 { [%eval #-4] } 23. g4 { [%eval #-4] } 23... Qd4+ $6 { [%eval #-4] } 24.
+Kf1 { [%eval #-1] } 24... Qf2# 0-1

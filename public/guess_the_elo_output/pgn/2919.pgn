@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EYKZeoEc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Trumpov"]
+[Black "soul2197"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:53:56"]
+[WhiteElo "2037"]
+[BlackElo "1947"]
+[WhiteRatingDiff "+69"]
+[BlackRatingDiff "-7"]
+[ECO "A45"]
+[Opening "Trompowsky Attack"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... Nf6 { [%eval 0.18] } 2. Bg5 { [%eval 0.07] } 2...
+d5 { [%eval 0.0] } 3. e3 { [%eval 0.02] } 3... h6 { [%eval 0.26] } 4. Bxf6
+{ [%eval 0.24] } 4... exf6 { [%eval 0.28] } 5. g3 { [%eval -0.13] } 5... c5 $6
+{ [%eval 0.38] } 6. dxc5 { [%eval 0.08] } 6... Bxc5 { [%eval 0.04] } 7. Bg2
+{ [%eval -0.27] } 7... Be6 $6 { [%eval 0.58] } 8. Ne2 { [%eval 0.5] } 8... O-O
+{ [%eval 0.59] } 9. O-O { [%eval 0.53] } 9... Nc6 { [%eval 0.68] } 10. Nf4 $6
+{ [%eval 0.01] } 10... Ne7 $6 { [%eval 0.86] } 11. Nc3 { [%eval 0.73] } 11...
+d4 $6 { [%eval 1.31] } 12. exd4 { [%eval 0.93] } 12... Bxd4 { [%eval 1.1] } 13.
+Nxe6 { [%eval 1.12] } 13... fxe6 { [%eval 0.89] } 14. Qe2 { [%eval 0.86] }
+14... e5 $6 { [%eval 1.39] } 15. Rad1 { [%eval 1.16] } 15... Qb6
+{ [%eval 1.07] } 16. Nd5 { [%eval 0.98] } 16... Nxd5 { [%eval 0.99] } 17. Bxd5+
+{ [%eval 0.91] } 17... Kh8 { [%eval 0.88] } 18. c3 { [%eval 0.98] } 18... Bc5
+{ [%eval 1.0] } 19. a4 $6 { [%eval 0.28] } 19... Rad8 { [%eval 0.68] } 20. a5
+{ [%eval 0.69] } 20... Qc7 { [%eval 0.66] } 21. b4 $6 { [%eval 0.16] } 21...
+Be7 { [%eval 0.1] } 22. Qe3 { [%eval 0.23] } 22... a6 $6 { [%eval 0.85] } 23.
+Qb6 $6 { [%eval 0.16] } 23... Qxb6 { [%eval 0.37] } 24. axb6 { [%eval 0.41] }
+24... f5 $2 { [%eval 1.72] } 25. Bxb7 { [%eval 1.46] } 25... Rb8 $2
+{ [%eval 3.32] } 26. Rd7 { [%eval 3.42] } 26... Bf6 $2 { [%eval 5.02] } 27. c4
+{ [%eval 4.77] } 27... Rfd8 $6 { [%eval 5.73] } 28. Rfd1 { [%eval 5.54] } 28...
+Rxd7 { [%eval 5.42] } 29. Rxd7 { [%eval 5.17] } 29... e4 $2 { [%eval 6.91] }
+30. c5 { [%eval 6.32] } 30... Bc3 $4 { [%eval 16.96] } 31. c6 { [%eval 15.77] }
+31... Bxb4 $6 { [%eval #15] } 32. c7 { [%eval 28.93] } 32... Rxb7 $6
+{ [%eval #6] } 33. c8=Q+ { [%eval #5] } 1-0

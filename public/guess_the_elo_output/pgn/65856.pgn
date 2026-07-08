@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/O1zrEMq6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "satranc10"]
+[Black "DenisFeo"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:11:44"]
+[WhiteElo "1233"]
+[BlackElo "1333"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+26"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "720+0"]
+[Termination "Time forfeit"]
+
+1. e3 { [%eval 0.18] } 1... d5 { [%eval 0.18] } 2. Qf3 $6 { [%eval -0.61] }
+2... e6 { [%eval -0.41] } 3. Bb5+ $6 { [%eval -0.92] } 3... Bd7
+{ [%eval -0.52] } 4. Bf1 { [%eval -0.87] } 4... g6 { [%eval -0.41] } 5. Qe2
+{ [%eval -0.74] } 5... Bg7 { [%eval -0.59] } 6. Qd3 $6 { [%eval -1.23] } 6...
+Nf6 { [%eval -1.17] } 7. Qc3 { [%eval -1.39] } 7... a6 { [%eval -0.98] } 8. Qb3
+{ [%eval -1.38] } 8... O-O { [%eval -0.92] } 9. Qxb7 { [%eval -1.0] } 9... Bc6
+{ [%eval -0.66] } 10. Qb4 { [%eval -0.63] } 10... Nbd7 { [%eval -0.67] } 11. b3
+$2 { [%eval -2.97] } 11... Rb8 $2 { [%eval -0.72] } 12. Qd4 $4
+{ [%eval -6.27] } 12... Ne4 { [%eval -6.23] } 13. Qd3 $2 { [%eval -7.44] }
+13... Bb5 $2 { [%eval -6.0] } 14. c4 { [%eval -5.97] } 14... Bxc4
+{ [%eval -5.94] } 15. bxc4 { [%eval -5.93] } 15... Bxa1 $2 { [%eval -3.31] }
+16. cxd5 { [%eval -3.35] } 16... Ndc5 $2 { [%eval -2.33] } 17. Qc4 $4
+{ [%eval -9.78] } 17... Qxd5 $4 { [%eval -4.48] } 18. Qc2 $2 { [%eval -5.85] }
+18... Bg7 $4 { [%eval -2.71] } 19. Na3 $6 { [%eval -3.5] } 19... Rb7 $2
+{ [%eval -2.04] } 20. Bc4 { [%eval -2.29] } 20... Qf5 { [%eval -2.43] } 21. Nh3
+{ [%eval -2.87] } 21... Rfb8 $2 { [%eval -1.22] } 22. f3 $4 { [%eval -4.31] }
+22... Rb2 { [%eval -4.06] } 23. Bxb2 { [%eval -4.12] } 23... Rxb2
+{ [%eval -4.01] } 24. Qxb2 $4 { [%eval -7.11] } 24... Bxb2 { [%eval -6.56] }
+0-1

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Dmgku2Ou"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lolchezz"]
+[Black "pawnwedgie"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:27:12"]
+[WhiteElo "1817"]
+[BlackElo "1968"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-40"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.47] } 1... Nf6 { [%eval 0.7] } 2. Qf3 $2 { [%eval -0.71] }
+2... d6 $6 { [%eval 0.07] } 3. d4 { [%eval -0.12] } 3... Bg4 $6
+{ [%eval 0.79] } 4. Qe3 $6 { [%eval -0.01] } 4... g6 $6 { [%eval 0.77] } 5. f3
+{ [%eval 0.28] } 5... Bd7 { [%eval 0.32] } 6. Nc3 { [%eval 0.26] } 6... Bg7
+{ [%eval 0.36] } 7. Nge2 { [%eval 0.1] } 7... Na6 { [%eval 0.59] } 8. Nf4
+{ [%eval 0.17] } 8... c5 { [%eval 0.09] } 9. Bxa6 { [%eval 0.1] } 9... bxa6 $2
+{ [%eval 1.27] } 10. dxc5 { [%eval 1.25] } 10... dxc5 { [%eval 1.2] } 11. Qxc5
+{ [%eval 1.14] } 11... Rc8 { [%eval 1.63] } 12. Qxa7 { [%eval 1.58] } 12... O-O
+{ [%eval 1.7] } 13. Qxa6 $2 { [%eval 0.6] } 13... g5 $2 { [%eval 2.09] } 14.
+Nfd5 $2 { [%eval 0.28] } 14... Nxd5 { [%eval 0.38] } 15. Nxd5 { [%eval 0.52] }
+15... Bc6 $4 { [%eval 6.53] } 16. Ne3 $4 { [%eval 1.2] } 16... Bd4 $2
+{ [%eval 2.33] } 17. O-O { [%eval 2.11] } 17... Qc7 { [%eval 2.41] } 18. c3
+{ [%eval 2.41] } 18... Ra8 { [%eval 2.67] } 19. Qd3 { [%eval 2.58] } 19... Qb6
+$4 { [%eval 6.71] } 20. Kh1 $4 { [%eval 2.35] } 20... Bf6 { [%eval 2.74] } 21.
+Nc4 $6 { [%eval 2.11] } 21... Qc7 { [%eval 2.19] } 22. e5 $2 { [%eval 0.86] }
+22... Rfd8 $2 { [%eval 2.02] } 23. Qf5 { [%eval 1.63] } 23... Bg7 $6
+{ [%eval 2.27] } 24. Bxg5 { [%eval 2.0] } 24... e6 $4 { [%eval 5.91] } 25. Qg4
+{ [%eval 5.77] } 25... Rd5 $4 { [%eval 21.85] } 26. Bf6 { [%eval 21.27] } 26...
+Kf8 { [%eval 20.65] } 27. Qxg7+ { [%eval 19.54] } 27... Ke8 { [%eval 19.03] }
+28. Nd6+ { [%eval 16.66] } 28... Kd7 $6 { [%eval #1] } 29. Qxf7# 1-0

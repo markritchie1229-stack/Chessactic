@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/4WO5nexj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mohr"]
+[Black "dudenkov"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:17:00"]
+[WhiteElo "1724"]
+[BlackElo "1648"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+145"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... c6 { [%eval 0.43] } 2. Nf3 { [%eval 0.39] } 2... d5
+{ [%eval 0.63] } 3. e5 { [%eval 0.43] } 3... Bf5 { [%eval 0.35] } 4. d4
+{ [%eval 0.25] } 4... e6 { [%eval 0.37] } 5. Bd3 { [%eval 0.08] } 5... Bxd3
+{ [%eval 0.06] } 6. Qxd3 { [%eval 0.08] } 6... Nd7 { [%eval 0.06] } 7. O-O
+{ [%eval 0.1] } 7... c5 { [%eval 0.5] } 8. c3 { [%eval 0.14] } 8... Rc8
+{ [%eval 0.1] } 9. Be3 { [%eval 0.02] } 9... cxd4 { [%eval 0.13] } 10. cxd4
+{ [%eval 0.13] } 10... Ne7 { [%eval 0.16] } 11. Bg5 { [%eval 0.07] } 11... Qb6
+{ [%eval 0.11] } 12. b3 { [%eval 0.0] } 12... Nc6 { [%eval 0.1] } 13. Nbd2 $6
+{ [%eval -0.6] } 13... Ba3 { [%eval -0.56] } 14. Be3 { [%eval -0.54] } 14...
+Nb4 { [%eval -0.56] } 15. Qe2 { [%eval -0.7] } 15... O-O { [%eval -0.62] } 16.
+Nh4 $6 { [%eval -1.38] } 16... Bb2 { [%eval -1.41] } 17. Rab1 $2
+{ [%eval -2.45] } 17... Bxd4 { [%eval -2.25] } 18. Bxd4 { [%eval -2.36] } 18...
+Qxd4 { [%eval -2.23] } 19. Nhf3 { [%eval -2.5] } 19... Qd3 { [%eval -2.42] }
+20. Qxd3 { [%eval -2.68] } 20... Nxd3 { [%eval -2.53] } 21. Rfd1
+{ [%eval -2.96] } 21... N3xe5 $6 { [%eval -2.45] } 22. Nxe5 { [%eval -2.88] }
+22... Nxe5 { [%eval -2.97] } 23. f4 { [%eval -2.97] } 23... Nd3
+{ [%eval -2.79] } 24. Nf3 $2 { [%eval -3.81] } 24... Nxf4 { [%eval -3.75] } 25.
+Ne5 $2 { [%eval -6.5] } 25... Rc2 $2 { [%eval -4.18] } 26. g3 $6
+{ [%eval -5.07] } 26... Nh3+ { [%eval -5.0] } 27. Kh1 $4 { [%eval -8.18] }
+27... Nf2+ { [%eval -7.96] } 0-1

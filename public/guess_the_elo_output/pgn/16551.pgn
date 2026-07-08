@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0qcMYbZX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lichesssamsung"]
+[Black "ChinnyTheWhiteKnight"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:59:09"]
+[WhiteElo "1312"]
+[BlackElo "1771"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+2"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.24] } 2. f3 $6 { [%eval -0.42] } 2...
+e6 { [%eval -0.44] } 3. h4 { [%eval -0.77] } 3... Nf6 { [%eval -0.78] } 4. Be3
+{ [%eval -0.96] } 4... Nc6 { [%eval -0.79] } 5. Bf2 { [%eval -0.78] } 5... Be7
+$6 { [%eval -0.26] } 6. g4 $6 { [%eval -0.76] } 6... h6 { [%eval -0.36] } 7. h5
+$6 { [%eval -1.16] } 7... O-O { [%eval -1.17] } 8. e3 { [%eval -1.1] } 8... e5
+{ [%eval -1.0] } 9. dxe5 $6 { [%eval -1.6] } 9... Nxe5 { [%eval -1.52] } 10.
+Bh4 $2 { [%eval -3.64] } 10... Qd6 $2 { [%eval -1.1] } 11. g5 $2
+{ [%eval -2.43] } 11... hxg5 { [%eval -2.16] } 12. Bxg5 { [%eval -2.31] } 12...
+Nh7 $2 { [%eval -0.72] } 13. Bf4 $6 { [%eval -1.63] } 13... Qb6 $2
+{ [%eval 0.16] } 14. b3 $2 { [%eval -2.48] } 14... Bf6 $6 { [%eval -1.64] } 15.
+c3 { [%eval -1.97] } 15... Bf5 { [%eval -1.89] } 16. Nd2 $2 { [%eval -4.16] }
+16... Rfd8 $2 { [%eval -2.65] } 17. Bg3 $4 { [%eval -7.84] } 17... Qxe3+
+{ [%eval -7.16] } 18. Ne2 $2 { [%eval #-1] } 18... Nxf3+ $6 { [%eval -11.3] }
+19. Nxf3 { [%eval -10.8] } 19... Qxf3 { [%eval -10.06] } 20. Rg1
+{ [%eval -12.93] } 20... Re8 { [%eval -12.23] } 21. Rg2 { [%eval -25.71] }
+21... Bh3 { [%eval -19.25] } 22. Rf2 $6 { [%eval #-3] } 22... Qxg3 $6
+{ [%eval -18.54] } 23. Bxh3 { [%eval -17.7] } 23... Qxh3 { [%eval -16.08] } 24.
+Qxd5 $6 { [%eval #-12] } 24... Bxc3+ { [%eval #-11] } 25. Kd1 { [%eval #-11] }
+25... Rad8 { [%eval #-10] } 26. Nxc3 { [%eval #-10] } 26... Qxc3
+{ [%eval #-9] } 27. Rc1 { [%eval #-1] } 27... Rxd5+ $6 { [%eval #-1] } 0-1

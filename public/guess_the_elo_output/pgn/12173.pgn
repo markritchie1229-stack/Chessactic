@@ -1,0 +1,35 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/3W6AnwNl"]
+[Site "https://lichess.org/9IMojiQX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ugulmezoglu"]
+[Black "ariariannnn"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:46:35"]
+[WhiteElo "1714"]
+[BlackElo "1627"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+31"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Urusov Gambit, Keidansky Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.46] } 2. Bc4 { [%eval 0.03] } 2... Nf6
+{ [%eval 0.04] } 3. d4 { [%eval -0.29] } 3... exd4 { [%eval 0.03] } 4. Nf3 $6
+{ [%eval -0.72] } 4... Nxe4 { [%eval -0.29] } 5. Qxd4 { [%eval -0.55] } 5...
+Nf6 { [%eval -0.58] } 6. O-O { [%eval -0.95] } 6... Be7 $6 { [%eval -0.43] } 7.
+Qd3 $6 { [%eval -0.94] } 7... O-O { [%eval -0.75] } 8. Re1 $6 { [%eval -1.43] }
+8... Nc6 $2 { [%eval -0.1] } 9. Qe3 $2 { [%eval -1.81] } 9... Re8
+{ [%eval -1.54] } 10. Ng5 $4 { [%eval -5.33] } 10... d5 { [%eval -5.2] } 11.
+Bb5 $2 { [%eval -6.79] } 11... Bb4 { [%eval -6.77] } 12. Qxe8+ { [%eval -6.8] }
+12... Nxe8 { [%eval -6.82] } 13. c3 { [%eval -6.74] } 13... Bc5
+{ [%eval -6.48] } 14. b4 $6 { [%eval -7.06] } 14... Bb6 { [%eval -6.64] } 15.
+Bd3 $6 { [%eval -7.19] } 15... Nd6 { [%eval -7.22] } 16. Bxh7+ $6
+{ [%eval -7.77] } 16... Kh8 { [%eval -7.58] } 17. Bf4 { [%eval -7.95] } 17...
+f6 { [%eval -7.59] } 18. Ne6 $2 { [%eval -11.05] } 18... Bxe6
+{ [%eval -10.62] } 19. b5 { [%eval -12.89] } 19... Kxh7 { [%eval -11.0] } 20.
+bxc6 { [%eval -11.15] } 20... bxc6 { [%eval -11.0] } 21. Rxe6
+{ [%eval -11.39] } 21... Qd7 { [%eval -11.17] } 22. Re2 { [%eval -17.71] }
+22... Re8 { [%eval -9.87] } 23. Rd2 $2 { [%eval #-1] } 23... Re1# 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/VwfP30ZN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bobbio"]
+[Black "BOBBY--FISCHER"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:13:06"]
+[WhiteElo "1561"]
+[BlackElo "1585"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense #2"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.15] } 1... d5 { [%eval 0.19] } 2. c4 { [%eval 0.12] } 2... e6
+{ [%eval 0.29] } 3. g3 { [%eval -0.03] } 3... dxc4 { [%eval -0.04] } 4. Bg2
+{ [%eval -0.09] } 4... Bd7 { [%eval 0.23] } 5. Ne5 { [%eval 0.13] } 5... Bb5 $2
+{ [%eval 1.37] } 6. a4 $2 { [%eval -0.36] } 6... Ba6 { [%eval -0.18] } 7. Nxc4
+$2 { [%eval -1.85] } 7... Bxc4 { [%eval -1.79] } 8. Bxb7 { [%eval -1.88] } 8...
+Bd5 { [%eval -1.71] } 9. Bxa8 { [%eval -1.78] } 9... Bxa8 { [%eval -1.48] } 10.
+f3 { [%eval -1.77] } 10... Bb4 { [%eval -1.55] } 11. Qb3 $6 { [%eval -2.08] }
+11... c5 { [%eval -2.1] } 12. Nc3 { [%eval -2.38] } 12... Nf6 { [%eval -2.32] }
+13. d3 { [%eval -2.36] } 13... O-O { [%eval -2.25] } 14. Bg5 $6
+{ [%eval -2.98] } 14... a5 $6 { [%eval -2.28] } 15. O-O { [%eval -2.19] } 15...
+Qd4+ { [%eval -1.86] } 16. Kg2 { [%eval -2.12] } 16... Nd5 { [%eval -1.97] }
+17. Rac1 $6 { [%eval -2.54] } 17... f6 $6 { [%eval -1.85] } 18. Bd2
+{ [%eval -2.15] } 18... Ne3+ { [%eval -2.13] } 19. Bxe3 { [%eval -2.1] } 19...
+Qxe3 { [%eval -1.8] } 20. Rce1 $6 { [%eval -2.6] } 20... Nc6 { [%eval -2.66] }
+21. f4 $4 { [%eval -19.12] } 21... Nd4+ { [%eval -18.24] } 0-1

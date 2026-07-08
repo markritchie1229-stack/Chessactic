@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mYHSS2EI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mathouzalaime"]
+[Black "hahanov"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:07:12"]
+[WhiteElo "1436"]
+[BlackElo "1382"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation, Barmen Defense"]
+[TimeControl "900+15"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... c5 { [%eval 0.35] } 2. c3 { [%eval 0.23] } 2... d5
+{ [%eval 0.27] } 3. exd5 { [%eval 0.24] } 3... Qxd5 { [%eval 0.27] } 4. d4
+{ [%eval 0.24] } 4... e6 { [%eval 0.36] } 5. Nf3 { [%eval 0.17] } 5... Qe4+ $6
+{ [%eval 0.97] } 6. Be2 { [%eval 0.95] } 6... Bd6 $2 { [%eval 2.07] } 7. O-O $6
+{ [%eval 1.12] } 7... Ne7 { [%eval 1.48] } 8. Nbd2 { [%eval 1.29] } 8... cxd4
+$4 { [%eval 12.69] } 9. Nxe4 { [%eval 12.55] } 9... Bc7 { [%eval 12.54] } 10.
+Bb5+ { [%eval 12.04] } 10... Bd7 { [%eval 13.93] } 11. Bxd7+ { [%eval 13.69] }
+11... Nxd7 { [%eval 13.72] } 12. Nxd4 { [%eval 13.73] } 12... e5
+{ [%eval 17.45] } 13. Nf3 { [%eval 13.26] } 13... Rd8 { [%eval 15.29] } 14. Qb3
+{ [%eval 14.47] } 14... O-O { [%eval 16.37] } 15. Nfg5 { [%eval 12.89] } 15...
+h6 { [%eval 12.93] } 16. Nf3 { [%eval 12.81] } 16... b6 { [%eval 13.33] } 17.
+Be3 { [%eval 13.1] } 17... Nb8 { [%eval 13.5] } 18. Rad1 { [%eval 13.28] }
+18... Rc8 { [%eval 13.23] } 19. Qb4 { [%eval 12.6] } 19... Nbc6
+{ [%eval 12.47] } 20. Qb3 { [%eval 12.34] } 20... Rcd8 { [%eval 14.37] } 21.
+Rxd8 { [%eval 13.88] } 21... Rxd8 { [%eval 14.43] } 22. Rd1 { [%eval 13.98] }
+22... Rf8 { [%eval 15.09] } 23. Rd7 { [%eval 15.07] } 23... Bb8
+{ [%eval 15.05] } 24. Nd6 { [%eval 14.68] } 24... Bxd6 { [%eval 14.88] } 25.
+Rxd6 { [%eval 14.54] } 25... e4 { [%eval 15.19] } 26. Nd4 { [%eval 15.0] }
+26... Ne5 { [%eval 14.67] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/zay8O14J"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dina123"]
+[Black "zluria"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:03:29"]
+[WhiteElo "1870"]
+[BlackElo "1961"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C58"]
+[Opening "Italian Game: Two Knights Defense, Polerio Defense, Bogoljubov Variation"]
+[TimeControl "240+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.35] } 2...
+Nc6 { [%eval 0.54] } 3. Bc4 { [%eval 0.28] } 3... Nf6 { [%eval 0.22] } 4. Ng5
+{ [%eval 0.0] } 4... d5 { [%eval 0.35] } 5. exd5 { [%eval 0.35] } 5... Na5
+{ [%eval 0.32] } 6. Bb5+ { [%eval 0.25] } 6... c6 { [%eval 0.35] } 7. dxc6
+{ [%eval 0.26] } 7... bxc6 { [%eval 0.36] } 8. Qf3 { [%eval 0.08] } 8... Nd7 $4
+{ [%eval #1] } 9. Bxc6 $4 { [%eval 3.32] } 9... Nxc6 $4 { [%eval #1] } 10. Qxc6
+$4 { [%eval 0.0] } 10... Rb8 { [%eval -0.07] } 11. d3 { [%eval 0.0] } 11... Bb7
+$6 { [%eval 0.64] } 12. Qc4 { [%eval 0.5] } 12... Qf6 { [%eval 0.6] } 13. O-O
+{ [%eval 0.45] } 13... Bc5 { [%eval 0.92] } 14. Ne4 { [%eval 0.88] } 14... Bxe4
+$6 { [%eval 1.68] } 15. Qxe4 { [%eval 1.67] } 15... O-O { [%eval 1.64] } 16.
+Nc3 { [%eval 1.31] } 16... Qe6 { [%eval 1.51] } 17. Qd5 { [%eval 1.41] } 17...
+Qe7 { [%eval 1.6] } 18. b3 $2 { [%eval 0.33] } 18... Nf6 { [%eval 0.8] } 19.
+Qf3 { [%eval 0.62] } 19... Bd4 { [%eval 0.66] } 20. Bb2 { [%eval 0.61] } 20...
+Rfc8 { [%eval 0.84] } 21. Nd5 { [%eval 0.69] } 21... Nxd5 { [%eval 0.77] } 22.
+Bxd4 { [%eval 0.77] } 22... exd4 { [%eval 1.0] } 23. Qxd5 { [%eval 0.91] }
+23... Rxc2 { [%eval 0.96] } 24. Qxd4 { [%eval 0.92] } 24... Rd8
+{ [%eval 0.99] } 25. Qa4 { [%eval 0.84] } 25... Rxd3 $6 { [%eval 1.72] } 26.
+Rfe1 $6 { [%eval 0.88] } 26... Re2 { [%eval 0.99] } 27. Rxe2 { [%eval 0.93] }
+27... Qxe2 { [%eval 1.02] } 28. Qxa7 $4 { [%eval #-2] } 28... Rd1+
+{ [%eval #-1] } 29. Rxd1 { [%eval #-1] } 29... Qxd1# 0-1

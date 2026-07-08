@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3lZ7vy3z"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sirena55"]
+[Black "j3nza"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:42:27"]
+[WhiteElo "1357"]
+[BlackElo "1408"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-13"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Franco-Nimzowitsch Variation"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.16] } 2. Nf3 { [%eval 0.0] } 2... Nc6
+$6 { [%eval 0.63] } 3. Nc3 { [%eval 0.31] } 3... Nf6 { [%eval 0.38] } 4. Bc4 $6
+{ [%eval -0.27] } 4... Bc5 $6 { [%eval 0.31] } 5. O-O { [%eval 0.12] } 5... O-O
+$6 { [%eval 0.74] } 6. d4 { [%eval 0.78] } 6... Bb4 { [%eval 1.1] } 7. Bd2 $2
+{ [%eval -0.74] } 7... Na5 $2 { [%eval 1.58] } 8. e5 $2 { [%eval -1.02] } 8...
+Nxc4 { [%eval -0.89] } 9. Na4 $2 { [%eval -3.82] } 9... Bxd2 { [%eval -3.72] }
+10. Nxd2 { [%eval -3.68] } 10... Nxd2 { [%eval -3.81] } 11. Qxd2
+{ [%eval -3.83] } 11... Nd5 { [%eval -3.72] } 12. Rfe1 { [%eval -3.83] } 12...
+c6 $6 { [%eval -3.25] } 13. c4 { [%eval -3.56] } 13... Nb6 { [%eval -3.51] }
+14. Qc2 { [%eval -3.94] } 14... d5 { [%eval -3.63] } 15. c5 { [%eval -3.56] }
+15... Nxa4 { [%eval -3.5] } 16. Qxa4 { [%eval -3.49] } 16... Qh4
+{ [%eval -3.42] } 17. Qc2 $2 { [%eval -4.68] } 17... Qxd4 { [%eval -4.6] } 18.
+Rad1 { [%eval -4.62] } 18... Qh4 { [%eval -4.54] } 19. Re3 { [%eval -4.59] }
+19... f6 { [%eval -4.11] } 20. Rh3 { [%eval -4.07] } 20... Qg5 $2
+{ [%eval -2.88] } 21. Rdd3 $4 { [%eval -6.3] } 21... fxe5 { [%eval -6.08] } 22.
+Rdg3 $6 { [%eval -6.94] } 22... Qe7 $4 { [%eval #6] } 23. Qxh7+ { [%eval #5] }
+23... Kf7 { [%eval #5] } 24. Rxg7+ $6 { [%eval #5] } 24... Ke8 { [%eval #5] }
+25. Rxe7+ { [%eval #4] } 25... Kd8 { [%eval #4] } 26. Qg7 { [%eval #3] } 26...
+Re8 { [%eval #2] } 27. Rh8 $6 { [%eval #5] } 27... Bd7 { [%eval #2] } 28. Rxd7+
+{ [%eval #1] } 28... Kc8 { [%eval #1] } 29. Rxe8# 1-0

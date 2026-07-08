@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/v31GzI4R"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stefanmilani"]
+[Black "pascal1963"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:01:30"]
+[WhiteElo "1780"]
+[BlackElo "1975"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.02] } 1... c5 { [%eval 0.09] } 2. Nc3 { [%eval -0.14] } 2...
+e6 { [%eval -0.07] } 3. Nf3 { [%eval -0.19] } 3... a6 { [%eval -0.04] } 4. Bd3
+{ [%eval -0.53] } 4... Qc7 { [%eval -0.31] } 5. O-O { [%eval -0.52] } 5... b5
+{ [%eval -0.16] } 6. e4 { [%eval -0.24] } 6... Bb7 { [%eval -0.33] } 7. Ne2 $2
+{ [%eval -2.45] } 7... d6 $2 { [%eval -0.17] } 8. c4 { [%eval -0.37] } 8... b4
+{ [%eval 0.05] } 9. a3 { [%eval 0.04] } 9... a5 { [%eval 0.35] } 10. axb4 $6
+{ [%eval -0.26] } 10... axb4 { [%eval 0.04] } 11. Rxa8 { [%eval 0.06] } 11...
+Bxa8 { [%eval 0.15] } 12. b3 { [%eval -0.31] } 12... Nf6 { [%eval -0.35] } 13.
+Bb2 { [%eval -0.37] } 13... Be7 { [%eval -0.37] } 14. e5 { [%eval -0.72] }
+14... dxe5 { [%eval -0.61] } 15. Bxe5 $6 { [%eval -1.17] } 15... Qb6 $6
+{ [%eval -0.4] } 16. Bxb8 $6 { [%eval -1.13] } 16... Qxb8 { [%eval -1.16] } 17.
+Ng3 { [%eval -1.29] } 17... O-O $6 { [%eval -0.77] } 18. Qc2 $2
+{ [%eval -1.84] } 18... Rd8 $6 { [%eval -1.1] } 19. Re1 $2 { [%eval -2.16] }
+19... Bxf3 { [%eval -2.04] } 20. gxf3 { [%eval -2.02] } 20... g6
+{ [%eval -1.85] } 21. Ne4 $6 { [%eval -2.45] } 21... Nxe4 { [%eval -2.22] } 22.
+Bxe4 { [%eval -2.58] } 22... Bf6 { [%eval -2.23] } 23. h4 $6 { [%eval -3.21] }
+23... Bd4 { [%eval -2.98] } 24. d3 $2 { [%eval -4.31] } 24... Qf4 $2
+{ [%eval -3.05] } 25. Kg2 { [%eval -3.31] } 25... Qxh4 { [%eval -2.89] } 26.
+Rh1 $6 { [%eval -3.61] } 26... Qg5+ { [%eval -3.36] } 27. Kf1 { [%eval -3.32] }
+27... Qf6 $6 { [%eval -2.5] } 28. f4 $6 { [%eval -3.47] } 28... Ra8 $4
+{ [%eval 2.29] } 29. Bxa8 { [%eval 2.24] } 29... Qxf4 { [%eval 2.2] } 30. Bg2
+{ [%eval 1.85] } 30... Bc3 { [%eval 2.27] } 31. Qe2 $4 { [%eval #-2] } 31...
+Qc1+ { [%eval #-1] } 0-1

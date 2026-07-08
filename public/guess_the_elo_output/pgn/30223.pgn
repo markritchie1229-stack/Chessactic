@@ -1,0 +1,32 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/PAzS1qRC"]
+[Site "https://lichess.org/ME7AYMOn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Potkonjak"]
+[Black "denis_01"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:35:37"]
+[WhiteElo "1733"]
+[BlackElo "1679"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.34] } 2. Bc4 { [%eval -0.1] } 2... e6
+{ [%eval -0.12] } 3. Nc3 { [%eval -0.06] } 3... a6 { [%eval -0.08] } 4. d3
+{ [%eval -0.14] } 4... b5 { [%eval -0.08] } 5. Bb3 { [%eval -0.2] } 5... Nc6
+{ [%eval -0.12] } 6. a3 { [%eval -0.22] } 6... Bb7 { [%eval -0.23] } 7. Nge2
+{ [%eval -0.42] } 7... Nf6 { [%eval -0.43] } 8. O-O { [%eval -0.42] } 8... Be7
+{ [%eval -0.44] } 9. Ng3 { [%eval -0.45] } 9... d6 { [%eval -0.41] } 10. Ba2
+{ [%eval -0.45] } 10... O-O { [%eval -0.38] } 11. f4 { [%eval -0.54] } 11...
+Nd7 $6 { [%eval 0.44] } 12. f5 { [%eval 0.37] } 12... Bf6 $6 { [%eval 1.09] }
+13. fxe6 { [%eval 1.14] } 13... fxe6 { [%eval 1.16] } 14. Bxe6+
+{ [%eval 1.12] } 14... Kh8 { [%eval 1.18] } 15. Nh5 $6 { [%eval 0.5] } 15...
+Re8 $2 { [%eval 1.71] } 16. Bxd7 $6 { [%eval 0.94] } 16... Qxd7 $2
+{ [%eval 3.37] } 17. Nxf6 { [%eval 3.21] } 17... gxf6 { [%eval 3.19] } 18. Rxf6
+$6 { [%eval 2.58] } 18... Rg8 { [%eval 2.64] } 19. Qh5 { [%eval 2.39] } 19...
+Qg7 { [%eval 2.31] } 20. Rf7 $4 { [%eval #-1] } 20... Qxg2# 0-1

@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Ax77eW8K"]
+[Date "????.??.??"]
+[Round "?"]
+[White "snokerpoker"]
+[Black "RozicFan"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:19:15"]
+[WhiteElo "1286"]
+[BlackElo "1270"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+125"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.46] } 2...
+Nc6 { [%eval 0.25] } 3. Bc4 { [%eval 0.21] } 3... Nf6 { [%eval 0.17] } 4. O-O
+{ [%eval -0.18] } 4... Be7 { [%eval 0.14] } 5. c3 $6 { [%eval -0.5] } 5... O-O
+$6 { [%eval 0.13] } 6. d4 { [%eval 0.27] } 6... d6 { [%eval 0.3] } 7. Ng5 $2
+{ [%eval -0.87] } 7... exd4 { [%eval -0.42] } 8. cxd4 { [%eval -0.48] } 8... d5
+$6 { [%eval 0.16] } 9. exd5 { [%eval 0.07] } 9... Nxd5 $6 { [%eval 0.67] } 10.
+Qh5 $2 { [%eval -0.34] } 10... Bxg5 { [%eval -0.27] } 11. Bxg5
+{ [%eval -0.23] } 11... Nf6 { [%eval -0.11] } 12. Bxf6 { [%eval -0.22] } 12...
+Qxf6 { [%eval -0.1] } 13. Nd2 $2 { [%eval -1.34] } 13... Re8 $2
+{ [%eval -0.15] } 14. Rae1 { [%eval -0.29] } 14... Bf5 { [%eval -0.25] } 15.
+Be2 $2 { [%eval -1.72] } 15... Nxd4 { [%eval -1.56] } 16. Bb5 $4
+{ [%eval -6.0] } 16... Nxb5 { [%eval -5.79] } 17. Rxe8+ $6 { [%eval -6.47] }
+17... Rxe8 { [%eval -6.56] } 18. Nc4 $2 { [%eval -7.93] } 18... Bd3
+{ [%eval -7.78] } 19. Qd5 $2 { [%eval -12.04] } 19... Bxf1 { [%eval -11.5] }
+20. Qd7 { [%eval -18.6] } 20... Qc6 $2 { [%eval -8.87] } 21. Ne5 $2
+{ [%eval #-1] } 21... Qxg2# 0-1

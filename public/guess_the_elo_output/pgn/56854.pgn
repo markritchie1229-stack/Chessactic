@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/xIQgC6LQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "continigl02"]
+[Black "waheed"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:43:12"]
+[WhiteElo "1331"]
+[BlackElo "1382"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.27] } 1... d5 { [%eval -0.19] } 2. d4 { [%eval -0.35] } 2...
+Nf6 { [%eval -0.23] } 3. e3 { [%eval -0.3] } 3... Bg4 { [%eval -0.31] } 4. Nf3
+{ [%eval -0.31] } 4... e6 { [%eval -0.36] } 5. Bd3 { [%eval -0.51] } 5... c5
+{ [%eval -0.47] } 6. c3 { [%eval -0.57] } 6... Nc6 { [%eval -0.45] } 7. O-O
+{ [%eval -0.44] } 7... Bd6 { [%eval -0.52] } 8. h3 { [%eval -0.47] } 8... Bh5
+{ [%eval -0.46] } 9. g4 { [%eval -0.83] } 9... Nxg4 $2 { [%eval 0.72] } 10.
+hxg4 { [%eval 0.66] } 10... Bxg4 { [%eval 0.76] } 11. Qe2 { [%eval 0.65] }
+11... cxd4 { [%eval 0.86] } 12. exd4 { [%eval 0.86] } 12... O-O
+{ [%eval 1.08] } 13. Qg2 { [%eval 0.82] } 13... f5 { [%eval 0.81] } 14. Ne5
+{ [%eval 0.81] } 14... Nxe5 { [%eval 1.25] } 15. fxe5 { [%eval 1.38] } 15...
+Be7 { [%eval 1.38] } 16. Bf4 $6 { [%eval 0.52] } 16... Bg5 $6 { [%eval 1.29] }
+17. Bxg5 $6 { [%eval 0.56] } 17... Qxg5 { [%eval 0.6] } 18. Na3 $4
+{ [%eval -2.99] } 18... Rac8 $4 { [%eval 1.13] } 19. Nb5 $4 { [%eval -2.64] }
+19... a6 $2 { [%eval -0.8] } 20. Nd6 $6 { [%eval -1.39] } 20... Rc6 $2
+{ [%eval 1.41] } 21. Nxb7 $2 { [%eval -1.35] } 21... Rb6 $2 { [%eval 1.62] }
+22. Nc5 { [%eval 1.65] } 22... Rfb8 $2 { [%eval 3.29] } 23. Nd7 $4
+{ [%eval 0.0] } 23... Rxb2 $2 { [%eval 1.31] } 24. Nxb8 $4 { [%eval -54.02] }
+24... Rxg2+ { [%eval -53.85] } 25. Kxg2 { [%eval -49.04] } 25... Be2+
+{ [%eval -17.26] } 26. Kf2 { [%eval -24.85] } 26... Bxd3 { [%eval -13.76] } 27.
+Rg1 $6 { [%eval #-7] } 27... Qd2+ { [%eval #-6] } 28. Kg3 { [%eval #-5] } 28...
+Qe3+ $6 { [%eval -15.16] } 29. Kg2 $6 { [%eval #-7] } 29... Be4+
+{ [%eval #-6] } 0-1

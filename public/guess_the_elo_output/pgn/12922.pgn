@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Uo5zKeKN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vladnel"]
+[Black "Kloeft"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:22:06"]
+[WhiteElo "1338"]
+[BlackElo "1412"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C68"]
+[Opening "Ruy Lopez: Exchange Variation, Keres Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.25] } 3. Bb5 { [%eval 0.24] } 3... a6 { [%eval 0.3] } 4. Bxc6
+{ [%eval 0.22] } 4... dxc6 { [%eval 0.3] } 5. Nc3 { [%eval 0.09] } 5... Bd6
+{ [%eval 0.17] } 6. O-O { [%eval 0.0] } 6... Bg4 { [%eval -0.03] } 7. d4
+{ [%eval -0.03] } 7... Bxf3 { [%eval 0.0] } 8. Qxf3 { [%eval 0.0] } 8... Nf6
+{ [%eval 0.33] } 9. dxe5 { [%eval 0.23] } 9... Bxe5 { [%eval 0.26] } 10. Rd1
+{ [%eval 0.12] } 10... Qe7 { [%eval 0.07] } 11. Bg5 { [%eval -0.41] } 11... O-O
+{ [%eval -0.34] } 12. Rd3 { [%eval -0.35] } 12... Rfe8 { [%eval -0.44] } 13.
+Rad1 { [%eval -0.75] } 13... Bxc3 { [%eval -0.79] } 14. Rxc3 { [%eval -0.81] }
+14... Rad8 $2 { [%eval 0.28] } 15. h3 $6 { [%eval -0.64] } 15... Rxd1+
+{ [%eval -0.51] } 16. Qxd1 { [%eval -0.55] } 16... Qxe4 { [%eval -0.58] } 17.
+Bxf6 { [%eval -0.56] } 17... gxf6 $4 { [%eval 6.37] } 18. Kh2 $4
+{ [%eval -0.56] } 18... Qe5+ { [%eval -0.54] } 19. Kh1 { [%eval -0.72] } 19...
+Qe1+ { [%eval -0.74] } 20. Qxe1 { [%eval -0.7] } 20... Rxe1+ { [%eval -0.61] }
+21. Kh2 { [%eval -0.66] } 21... Re2 { [%eval -0.6] } 22. Rf3 $2
+{ [%eval -2.6] } 22... Rxc2 { [%eval -2.61] } 23. Rd3 $2 { [%eval -3.63] }
+23... Rxb2 { [%eval -3.43] } 24. Rd8+ $2 { [%eval -4.76] } 24... Kg7
+{ [%eval -4.51] } 25. Rc8 $2 { [%eval -6.51] } 25... Rxa2 { [%eval -6.15] } 26.
+Rxc7 { [%eval -5.7] } 26... Rb2 { [%eval -5.21] } 27. Rxb7 $4 { [%eval #-12] }
+27... Rxb7 { [%eval #-16] } 0-1

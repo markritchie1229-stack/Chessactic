@@ -1,0 +1,44 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/OVRMXNpg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jacob_green"]
+[Black "Davvero"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:05:59"]
+[WhiteElo "1509"]
+[BlackElo "1580"]
+[WhiteRatingDiff "+71"]
+[BlackRatingDiff "-12"]
+[ECO "C41"]
+[Opening "Philidor Defense: Hanham Variation"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.24] } 2. Nf3 { [%eval 0.26] } 2... d6
+{ [%eval 0.21] } 3. d4 { [%eval 0.26] } 3... Nd7 { [%eval 0.68] } 4. d5 $6
+{ [%eval 0.0] } 4... Ngf6 { [%eval -0.03] } 5. c4 $2 { [%eval -1.1] } 5... Nxe4
+{ [%eval -1.04] } 6. Bd3 { [%eval -1.06] } 6... Nef6 { [%eval -0.71] } 7. Bg5
+$6 { [%eval -1.4] } 7... h6 { [%eval -1.25] } 8. Bxf6 { [%eval -0.93] } 8...
+Nxf6 { [%eval -0.95] } 9. c5 $6 { [%eval -1.6] } 9... e4 $6 { [%eval -1.1] }
+10. Bb5+ $2 { [%eval -2.33] } 10... Bd7 { [%eval -2.27] } 11. Bxd7+
+{ [%eval -2.29] } 11... Qxd7 { [%eval -2.07] } 12. Nd4 $2 { [%eval -3.08] }
+12... Be7 $2 { [%eval -0.35] } 13. cxd6 $2 { [%eval -2.11] } 13... Bxd6
+{ [%eval -2.14] } 14. Nc3 { [%eval -1.91] } 14... O-O { [%eval -1.92] } 15. O-O
+{ [%eval -1.93] } 15... c5 $6 { [%eval -1.16] } 16. dxc6 { [%eval -1.13] }
+16... bxc6 { [%eval -1.09] } 17. Qa4 { [%eval -1.07] } 17... Rac8
+{ [%eval -0.79] } 18. Rfe1 { [%eval -1.13] } 18... Be5 { [%eval -0.66] } 19.
+Rad1 { [%eval -0.74] } 19... Bxd4 $6 { [%eval -0.03] } 20. Rxd4
+{ [%eval 0.13] } 20... Qc7 { [%eval 0.0] } 21. Nxe4 { [%eval 0.14] } 21... Ng4
+{ [%eval 0.41] } 22. Nd6 { [%eval 0.16] } 22... Rcd8 { [%eval 0.2] } 23. Rxg4
+{ [%eval 0.11] } 23... Rxd6 { [%eval 0.15] } 24. Qf4 { [%eval 0.07] } 24... Kh7
+{ [%eval 0.23] } 25. Qf5+ { [%eval 0.0] } 25... g6 { [%eval -0.01] } 26. Rxg6
+$4 { [%eval -5.09] } 26... Rxg6 { [%eval -4.94] } 27. h4 { [%eval -5.1] } 27...
+Qa5 $4 { [%eval 9.63] } 28. Qxa5 { [%eval 9.3] } 28... Rg4 $6 { [%eval 55.77] }
+29. g3 { [%eval 9.58] } 29... Rd8 { [%eval 63.09] } 30. Qxa7 { [%eval 10.32] }
+30... Rd2 $6 { [%eval #6] } 31. Qxf7+ { [%eval #5] } 31... Rg7 { [%eval #5] }
+32. Qf5+ { [%eval #4] } 32... Kh8 { [%eval #4] } 33. Re8+ { [%eval #3] } 33...
+Rg8 { [%eval #3] } 34. Qf6+ { [%eval #2] } 34... Kh7 { [%eval #2] } 35. Qf7+ $6
+{ [%eval #4] } 35... Rg7 { [%eval #4] } 36. Qf5+ { [%eval #3] } 36... Rg6
+{ [%eval #3] } 37. Re7+ { [%eval #2] } 1-0

@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/elN1F15K"]
+[Date "????.??.??"]
+[Round "?"]
+[White "uprockcity"]
+[Black "paizwskaki"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:43:18"]
+[WhiteElo "1756"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+349"]
+[ECO "C00"]
+[Opening "Queen's Pawn Game: Franco-Sicilian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.2] } 2. d4 { [%eval 0.07] } 2... c5
+$6 { [%eval 0.67] } 3. dxc5 $6 { [%eval 0.01] } 3... Bxc5 { [%eval 0.01] } 4.
+Nc3 { [%eval -0.01] } 4... a6 { [%eval 0.07] } 5. Bd2 { [%eval -0.21] } 5... b5
+{ [%eval -0.05] } 6. Nf3 { [%eval -0.15] } 6... Nf6 { [%eval 0.28] } 7. a3 $2
+{ [%eval -1.6] } 7... Bb7 $2 { [%eval -0.13] } 8. Bd3 { [%eval -0.13] } 8...
+Qb6 $6 { [%eval 0.44] } 9. O-O { [%eval 0.45] } 9... Ng4 { [%eval 0.63] } 10.
+Qe1 $6 { [%eval 0.05] } 10... h5 $6 { [%eval 0.85] } 11. h3 $6 { [%eval 0.26] }
+11... Qc7 { [%eval 0.29] } 12. e5 $6 { [%eval -0.58] } 12... Nh6 $2
+{ [%eval 1.5] } 13. Be4 $6 { [%eval 0.91] } 13... Nc6 { [%eval 0.97] } 14. Bxc6
+$2 { [%eval -0.4] } 14... Bxc6 $6 { [%eval 0.12] } 15. Ne4 { [%eval 0.02] }
+15... Be7 $6 { [%eval 0.59] } 16. Nfg5 $2 { [%eval -1.29] } 16... Nf5
+{ [%eval -0.93] } 17. Bc3 { [%eval -0.83] } 17... Qd8 { [%eval -0.41] } 18. Rd1
+$2 { [%eval -1.48] } 18... Bxg5 { [%eval -1.2] } 19. Nxg5 $2 { [%eval -4.17] }
+19... Qxg5 { [%eval -4.14] } 20. Bb4 $4 { [%eval #-1] } 20... Qxg2# 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/TPxJOzHD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Zach03"]
+[Black "sspol"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:00:51"]
+[WhiteElo "1682"]
+[BlackElo "1843"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.07] } 1... d5 { [%eval 0.18] } 2. c4 { [%eval 0.06] } 2...
+dxc4 { [%eval 0.37] } 3. e3 { [%eval 0.32] } 3... c6 { [%eval 0.7] } 4. Bxc4
+{ [%eval 0.67] } 4... Bf5 $6 { [%eval 1.57] } 5. Nf3 $6 { [%eval 0.82] } 5...
+e6 { [%eval 0.73] } 6. O-O { [%eval 0.59] } 6... Nf6 { [%eval 0.72] } 7. Nc3
+{ [%eval 0.68] } 7... Be7 { [%eval 0.61] } 8. Qb3 { [%eval 0.21] } 8... Qc7
+{ [%eval 0.41] } 9. Bd2 { [%eval 0.0] } 9... O-O { [%eval 0.01] } 10. Rac1
+{ [%eval 0.0] } 10... Ne4 { [%eval 0.13] } 11. Nxe4 { [%eval 0.15] } 11... Bxe4
+{ [%eval 0.14] } 12. Be2 { [%eval -0.03] } 12... Nd7 { [%eval 0.03] } 13. Rc3
+{ [%eval -0.27] } 13... Nf6 { [%eval -0.09] } 14. Rfc1 { [%eval -0.56] } 14...
+Ng4 { [%eval -0.15] } 15. g3 { [%eval -0.3] } 15... Qa5 $6 { [%eval 0.24] } 16.
+Rxc6 $2 { [%eval -2.72] } 16... Qh5 { [%eval -2.41] } 17. R6c5 $6
+{ [%eval -3.23] } 17... Bxc5 $6 { [%eval -2.24] } 18. Rxc5 { [%eval -2.42] }
+18... Qh6 $2 { [%eval -0.5] } 19. Rg5 $4 { [%eval -4.64] } 19... Bxf3
+{ [%eval -4.47] } 20. e4 $4 { [%eval #-2] } 20... Qxh2+ { [%eval #-1] } 21. Kf1
+{ [%eval #-1] } 21... Qxf2# 0-1

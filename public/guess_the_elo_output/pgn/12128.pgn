@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BpbeB9kS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LeoFroes"]
+[Black "MentallyYours"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:44:36"]
+[WhiteElo "1690"]
+[BlackElo "1680"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+15"]
+[ECO "A56"]
+[Opening "Benoni Defense"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... Nf6 { [%eval 0.21] } 2. c4 { [%eval 0.14] } 2... c5
+$6 { [%eval 0.72] } 3. e3 $6 { [%eval 0.06] } 3... cxd4 { [%eval 0.1] } 4. exd4
+{ [%eval 0.13] } 4... g6 { [%eval 0.31] } 5. Nc3 { [%eval 0.12] } 5... Bg7
+{ [%eval 0.17] } 6. Bg5 { [%eval -0.08] } 6... O-O { [%eval -0.05] } 7. Qd2
+{ [%eval -0.12] } 7... d6 { [%eval 0.19] } 8. Nf3 { [%eval 0.16] } 8... Nc6
+{ [%eval 0.5] } 9. d5 { [%eval 0.48] } 9... Nb4 { [%eval 0.58] } 10. a3
+{ [%eval 0.18] } 10... Na6 { [%eval 0.31] } 11. Be2 $6 { [%eval -0.58] } 11...
+Nc5 { [%eval -0.4] } 12. Bd1 $6 { [%eval -1.35] } 12... Bf5 $6
+{ [%eval -0.52] } 13. O-O $6 { [%eval -1.04] } 13... Nce4 { [%eval -0.79] } 14.
+Nxe4 $6 { [%eval -1.3] } 14... Nxe4 { [%eval -1.47] } 15. Qc1 { [%eval -1.67] }
+15... Qc7 $2 { [%eval -0.01] } 16. Rb1 $4 { [%eval -3.84] } 16... Nxg5
+{ [%eval -3.72] } 17. Nxg5 { [%eval -3.79] } 17... Bxb1 { [%eval -3.66] } 18.
+Qxb1 { [%eval -3.78] } 18... Qxc4 { [%eval -3.67] } 19. Bf3 { [%eval -3.71] }
+19... Rac8 { [%eval -3.44] } 20. Ne4 $6 { [%eval -4.06] } 20... Qc2 $6
+{ [%eval -3.5] } 21. Qxc2 $6 { [%eval -4.16] } 21... Rxc2 { [%eval -4.08] } 22.
+Rb1 $6 { [%eval -4.76] } 22... Rxb2 { [%eval -4.68] } 23. Rxb2
+{ [%eval -5.02] } 23... Bxb2 { [%eval -4.85] } 24. a4 { [%eval -5.28] } 24...
+Rc8 { [%eval -5.18] } 25. h3 $6 { [%eval -6.0] } 25... Be5 $6 { [%eval -5.28] }
+26. Be2 $4 { [%eval -8.33] } 26... Rc1+ { [%eval -8.25] } 27. Bf1
+{ [%eval -8.17] } 27... Bh2+ { [%eval -8.08] } 28. Kxh2 { [%eval -7.91] } 28...
+Rxf1 { [%eval -7.82] } 29. Kg3 { [%eval -8.02] } 29... Ra1 { [%eval -7.7] } 30.
+Nc3 $2 { [%eval -13.04] } 30... Ra3 { [%eval -12.11] } 31. Kh2
+{ [%eval -13.38] } 31... Rxc3 { [%eval -12.37] } 0-1

@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/vGKSsdMZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "niff"]
+[Black "tarantola"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:35:42"]
+[WhiteElo "1378"]
+[BlackElo "1403"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+48"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.43] } 1... e5 { [%eval 0.45] } 2. d4 { [%eval 0.04] } 2... Nc6
+$6 { [%eval 0.69] } 3. d5 { [%eval 0.79] } 3... Nb4 { [%eval 0.89] } 4. a3
+{ [%eval 0.78] } 4... Na6 { [%eval 0.88] } 5. Bxa6 { [%eval 0.95] } 5... bxa6
+{ [%eval 0.94] } 6. Nf3 { [%eval 0.76] } 6... Qf6 { [%eval 1.2] } 7. Bg5
+{ [%eval 0.82] } 7... Qg6 { [%eval 0.84] } 8. Qd2 $2 { [%eval -1.42] } 8...
+Qxe4+ $2 { [%eval -0.4] } 9. Qe3 { [%eval -0.89] } 9... Qxe3+ { [%eval -0.93] }
+10. fxe3 { [%eval -1.04] } 10... f6 { [%eval -0.86] } 11. Nxe5 $4
+{ [%eval -3.87] } 11... fxg5 { [%eval -3.78] } 12. O-O { [%eval -4.12] } 12...
+Bd6 $2 { [%eval -1.95] } 13. Nf7 { [%eval -1.72] } 13... Nf6 { [%eval -1.79] }
+14. Nxh8 { [%eval -2.14] } 14... Ng4 $2 { [%eval -0.08] } 15. h3 $6
+{ [%eval -0.87] } 15... Bh2+ $2 { [%eval 1.08] } 16. Kh1 { [%eval 1.13] } 16...
+Be5 $2 { [%eval 2.31] } 17. hxg4 { [%eval 2.2] } 17... Bxb2 { [%eval 2.25] }
+18. Ra2 { [%eval 1.79] } 18... d6 $4 { [%eval 9.82] } 19. Nd2 $4
+{ [%eval 3.9] } 19... Bc3 $2 { [%eval 6.43] } 20. Nc4 $4 { [%eval 1.35] } 20...
+Bd2 $4 { [%eval 9.43] } 21. c3 $4 { [%eval 4.14] } 21... Bxg4 $4
+{ [%eval 10.82] } 22. Rxd2 { [%eval 10.62] } 22... O-O-O { [%eval 10.57] } 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/XfmJ64LV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KirillShavsha"]
+[Black "abolfazl215"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:14:17"]
+[WhiteElo "1395"]
+[BlackElo "1513"]
+[WhiteRatingDiff "-43"]
+[BlackRatingDiff "+7"]
+[ECO "C45"]
+[Opening "Scotch Game: Schmidt Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.32] } 3. d4 { [%eval 0.0] } 3... exd4 { [%eval 0.01] } 4. Nxd4
+{ [%eval 0.0] } 4... Nf6 { [%eval 0.28] } 5. Nxc6 { [%eval 0.0] } 5... bxc6
+{ [%eval 0.14] } 6. Nc3 { [%eval 0.0] } 6... Bb4 { [%eval 0.0] } 7. Bd2
+{ [%eval -0.29] } 7... O-O { [%eval -0.11] } 8. Bc4 $6 { [%eval -0.79] } 8...
+Bxc3 { [%eval -0.68] } 9. Bxc3 { [%eval -0.68] } 9... Nxe4 { [%eval -0.63] }
+10. Qg4 $4 { [%eval -4.61] } 10... Nxc3 { [%eval -4.59] } 11. bxc3 $6
+{ [%eval -5.58] } 11... d5 { [%eval -5.41] } 12. Qd4 { [%eval -5.56] } 12...
+Re8+ { [%eval -5.4] } 13. Kd1 $2 { [%eval -6.71] } 13... Re4 { [%eval -6.7] }
+14. Qd3 { [%eval -6.77] } 14... Rxc4 { [%eval -6.73] } 15. Re1 { [%eval -6.7] }
+15... Be6 { [%eval -6.74] } 16. Re2 $2 { [%eval -7.81] } 16... Qd6 $6
+{ [%eval -7.15] } 17. Qd2 $2 { [%eval -8.26] } 17... Qxh2 { [%eval -8.18] } 18.
+Qe1 $2 { [%eval -10.04] } 18... Qxg2 { [%eval -9.79] } 19. a3
+{ [%eval -17.79] } 19... Bg4 { [%eval -16.65] } 20. Kc1 { [%eval -29.0] } 20...
+Bxe2 { [%eval -25.42] } 21. Qxe2 $6 { [%eval #-10] } 21... Re4 { [%eval #-9] }
+22. Qd3 { [%eval #-5] } 22... Rb8 { [%eval #-4] } 23. Kd2 { [%eval #-3] } 23...
+Qxf2+ { [%eval #-2] } 24. Kd1 { [%eval #-1] } 24... Re1# 0-1

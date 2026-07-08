@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/DTa7mmS0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JaqFrost"]
+[Black "Saoquim"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:01:14"]
+[WhiteElo "1537"]
+[BlackElo "1575"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+21"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... c6 { [%eval 0.37] } 2. Nf3 { [%eval 0.33] } 2... d5
+{ [%eval 0.23] } 3. e5 { [%eval 0.25] } 3... Bf5 { [%eval 0.29] } 4. d4
+{ [%eval 0.22] } 4... e6 { [%eval 0.34] } 5. Nc3 { [%eval 0.06] } 5... c5
+{ [%eval 0.39] } 6. Ne2 $6 { [%eval -0.41] } 6... cxd4 $6 { [%eval 0.2] } 7.
+Nexd4 { [%eval 0.06] } 7... Bg6 { [%eval 0.12] } 8. Bb5+ { [%eval 0.17] } 8...
+Nd7 { [%eval 0.18] } 9. Bg5 { [%eval -0.09] } 9... Be7 { [%eval -0.06] } 10.
+O-O { [%eval -0.14] } 10... a6 { [%eval 0.0] } 11. Bxe7 { [%eval 0.0] } 11...
+Nxe7 { [%eval -0.07] } 12. Bxd7+ { [%eval 0.0] } 12... Qxd7 { [%eval 0.0] } 13.
+Nh4 { [%eval 0.0] } 13... Rc8 { [%eval 0.0] } 14. c3 { [%eval -0.06] } 14...
+Qc7 { [%eval 0.06] } 15. f4 { [%eval -0.07] } 15... Be4 { [%eval 0.0] } 16. Qg4
+{ [%eval -0.27] } 16... g6 { [%eval 0.0] } 17. Ndf3 $6 { [%eval -0.52] } 17...
+Qb6+ { [%eval -0.59] } 18. Kh1 $2 { [%eval -3.11] } 18... Qxb2
+{ [%eval -3.07] } 19. Ng5 { [%eval -3.26] } 19... Nf5 $2 { [%eval -2.19] } 20.
+Nxf5 $2 { [%eval -3.35] } 20... gxf5 { [%eval -2.95] } 21. Qh5 $4
+{ [%eval #-1] } 21... Qxg2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/2LJjYiA9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DszwimerChester"]
+[Black "Denzelclarke"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:01:14"]
+[WhiteElo "1389"]
+[BlackElo "1426"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.33] } 2. Nc3 { [%eval 0.08] } 2...
+Nc6 { [%eval 0.08] } 3. Nf3 { [%eval 0.06] } 3... Bc5 { [%eval 0.38] } 4. d4 $6
+{ [%eval -0.43] } 4... d6 $4 { [%eval 4.31] } 5. dxe5 $4 { [%eval 0.43] } 5...
+dxe5 { [%eval 0.77] } 6. Qxd8+ { [%eval 0.62] } 6... Nxd8 $6 { [%eval 1.3] } 7.
+Bb5+ $2 { [%eval 0.23] } 7... Bd7 $2 { [%eval 1.55] } 8. Bxd7+ { [%eval 1.46] }
+8... Kxd7 { [%eval 1.5] } 9. Be3 $2 { [%eval 0.18] } 9... Bxe3 { [%eval 0.25] }
+10. fxe3 { [%eval 0.22] } 10... Nc6 { [%eval 0.68] } 11. O-O-O+
+{ [%eval 0.52] } 11... Ke7 $2 { [%eval 1.65] } 12. Nd5+ { [%eval 1.77] } 12...
+Ke6 $4 { [%eval 6.5] } 13. Nxc7+ { [%eval 6.41] } 13... Ke7 { [%eval 6.44] }
+14. Nxa8 { [%eval 6.44] } 14... Nf6 { [%eval 6.41] } 15. Nc7 { [%eval 6.28] }
+15... Rc8 $2 { [%eval 8.43] } 16. Nd5+ { [%eval 8.43] } 16... Nxd5
+{ [%eval 8.5] } 17. exd5 { [%eval 8.3] } 17... Nb4 { [%eval 8.68] } 18. Rd2 $2
+{ [%eval 7.33] } 18... Kf8 $2 { [%eval 8.78] } 19. a3 { [%eval 8.56] } 19...
+Na6 { [%eval 8.51] } 20. Nxe5 { [%eval 8.27] } 20... Nc5 { [%eval 8.61] } 21.
+e4 $2 { [%eval 6.79] } 21... Nxe4 $2 { [%eval 8.72] } 22. Re2 { [%eval 8.53] }
+22... Nc5 $2 { [%eval 9.57] } 23. Nd7+ $4 { [%eval 4.62] } 23... Kg8 $4
+{ [%eval 18.07] } 24. Nxc5 { [%eval 16.3] } 24... Rxc5 $6 { [%eval #1] } 25.
+Re8# 1-0

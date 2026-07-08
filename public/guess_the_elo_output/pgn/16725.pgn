@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ww2b4X7C"]
+[Date "????.??.??"]
+[Round "?"]
+[White "recchi51"]
+[Black "dukas225"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:06:19"]
+[WhiteElo "1592"]
+[BlackElo "1622"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "D03"]
+[Opening "Queen's Pawn Game: Torre Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.17] } 2. Nf3 { [%eval 0.14] } 2...
+Nf6 { [%eval 0.31] } 3. Bg5 { [%eval 0.04] } 3... e6 { [%eval 0.07] } 4. e3
+{ [%eval -0.02] } 4... Be7 { [%eval 0.18] } 5. Nbd2 { [%eval -0.09] } 5... Nc6
+{ [%eval 0.33] } 6. c4 { [%eval 0.37] } 6... Bd7 { [%eval 0.58] } 7. a3
+{ [%eval 0.42] } 7... h6 { [%eval 0.43] } 8. Bh4 { [%eval 0.43] } 8... g5 $6
+{ [%eval 0.96] } 9. Bg3 { [%eval 0.91] } 9... g4 { [%eval 1.02] } 10. Ng1
+{ [%eval 0.91] } 10... Ne4 $2 { [%eval 2.44] } 11. Qxg4 $2 { [%eval -0.25] }
+11... Nxd2 { [%eval -0.37] } 12. Kxd2 { [%eval -0.65] } 12... e5 $2
+{ [%eval 0.47] } 13. Qg7 $4 { [%eval -3.41] } 13... Rf8 $4 { [%eval 0.77] } 14.
+dxe5 $2 { [%eval -0.37] } 14... Be6 $2 { [%eval 1.38] } 15. Kc2 $4
+{ [%eval -1.85] } 15... dxc4 $6 { [%eval -0.86] } 16. Rd1 { [%eval -0.95] }
+16... Qc8 { [%eval 0.0] } 17. Nf3 $6 { [%eval -0.6] } 17... c3 $2
+{ [%eval 2.11] } 18. Kxc3 { [%eval 2.18] } 18... Na5 $2 { [%eval 3.47] } 19.
+Bd3 $4 { [%eval 0.0] } 19... Nb3 $2 { [%eval 2.99] } 20. Bc2 { [%eval 3.04] }
+20... Nc5 { [%eval 2.91] } 21. Rd2 $2 { [%eval 1.56] } 21... a5 $6
+{ [%eval 2.17] } 22. Rhd1 $6 { [%eval 1.6] } 22... b5 $6 { [%eval 2.26] } 23.
+Bd3 $4 { [%eval -4.95] } 23... b4+ { [%eval -3.96] } 24. axb4 $4
+{ [%eval -15.33] } 24... Na4+ $4 { [%eval 2.28] } 25. Kc2 { [%eval 1.78] }
+25... axb4 { [%eval 1.97] } 26. b3 $4 { [%eval -4.8] } 26... Nb6 $4
+{ [%eval 3.33] } 27. Qxh6 $2 { [%eval 1.88] } 27... Nd5 $2 { [%eval 3.25] } 28.
+Be2 $4 { [%eval 0.0] } 28... Nc3 { [%eval 0.0] } 29. Kb2 $4 { [%eval -12.34] }
+29... Nxe2 { [%eval -11.58] } 30. Rxe2 $6 { [%eval #-9] } 30... Qa6
+{ [%eval #-9] } 31. Ree1 { [%eval #-4] } 31... Qa2+ $6 { [%eval #-5] } 0-1

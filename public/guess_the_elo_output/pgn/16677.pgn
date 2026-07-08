@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/VnFXkb3T"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MaybachMike"]
+[Black "super3"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:04:27"]
+[WhiteElo "1582"]
+[BlackElo "1604"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Old Indian Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.26] } 1... d5 { [%eval 0.27] } 2. d3 { [%eval -0.13] } 2...
+e5 $6 { [%eval 0.56] } 3. g3 $6 { [%eval -0.21] } 3... e4 $2 { [%eval 1.0] } 4.
+dxe4 { [%eval 0.93] } 4... dxe4 { [%eval 1.28] } 5. Qxd8+ { [%eval 1.26] } 5...
+Kxd8 { [%eval 1.29] } 6. Ng5 { [%eval 1.22] } 6... Nh6 $6 { [%eval 1.97] } 7.
+Bg2 $6 { [%eval 1.46] } 7... f6 { [%eval 1.9] } 8. Nxe4 { [%eval 1.85] } 8...
+Bf5 { [%eval 2.33] } 9. Bxh6 { [%eval 2.04] } 9... gxh6 { [%eval 2.18] } 10.
+Nxf6 { [%eval 2.14] } 10... Bg7 { [%eval 2.52] } 11. Ne4 $4 { [%eval -1.72] }
+11... Bxb2 { [%eval -1.56] } 12. O-O $2 { [%eval -2.96] } 12... Bxa1
+{ [%eval -2.88] } 13. Nbd2 { [%eval -3.11] } 13... Bg7 { [%eval -2.92] } 14.
+Rd1 $2 { [%eval -4.77] } 14... Nc6 $2 { [%eval -3.33] } 15. Nc5
+{ [%eval -3.82] } 15... Ke7 { [%eval -3.68] } 16. Nxb7 { [%eval -3.97] } 16...
+Rab8 $2 { [%eval -1.62] } 17. Nc5 $4 { [%eval -5.08] } 17... Rb2 $2
+{ [%eval -2.25] } 18. Bxc6 { [%eval -2.67] } 18... Rxc2 { [%eval -2.51] } 19.
+Bg2 $4 { [%eval -6.13] } 19... Rxc5 { [%eval -6.01] } 20. e4 { [%eval -6.5] }
+20... Bg4 { [%eval -6.23] } 21. f3 $2 { [%eval -7.76] } 21... Bd7 $2
+{ [%eval -6.34] } 22. Nb3 { [%eval -6.52] } 22... Rc2 { [%eval -6.81] } 23. Rb1
+$4 { [%eval -10.38] } 23... Rb8 { [%eval -9.97] } 24. Re1 { [%eval -12.28] }
+24... a5 $2 { [%eval -8.55] } 25. Nxa5 $2 { [%eval #-8] } 25... Rbb2
+{ [%eval #-7] } 26. Bf1 { [%eval #-3] } 26... Bb5 $2 { [%eval -8.98] } 27. Bxb5
+$2 { [%eval #-4] } 27... Rg2+ $6 { [%eval #-4] } 28. Kf1 { [%eval #-1] } 28...
+Rbf2# 0-1

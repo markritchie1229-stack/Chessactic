@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/FoKAOolZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Christian91"]
+[Black "avesinairan"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:57:57"]
+[WhiteElo "2188"]
+[BlackElo "2174"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+19"]
+[ECO "C42"]
+[Opening "Petrov's Defense #2"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.36] } 2. Nf3 { [%eval 0.41] } 2... Nf6
+{ [%eval 0.42] } 3. Nxe5 { [%eval 0.39] } 3... d5 $6 { [%eval 1.04] } 4. exd5
+{ [%eval 1.0] } 4... Qxd5 { [%eval 0.89] } 5. d4 { [%eval 0.64] } 5... Bd6
+{ [%eval 1.1] } 6. Nf3 { [%eval 0.72] } 6... O-O { [%eval 0.61] } 7. Be2
+{ [%eval 0.62] } 7... Bg4 { [%eval 0.96] } 8. O-O $6 { [%eval 0.0] } 8... Qh5
+$6 { [%eval 0.95] } 9. g3 $2 { [%eval -0.95] } 9... Re8 { [%eval -0.97] } 10.
+Nbd2 $2 { [%eval -2.02] } 10... Nc6 $2 { [%eval -0.96] } 11. c4 $4
+{ [%eval -7.78] } 11... Rxe2 { [%eval -7.38] } 12. Qxe2 { [%eval -7.74] } 12...
+Nxd4 { [%eval -7.35] } 13. Qe3 $2 { [%eval -10.5] } 13... Nxf3+
+{ [%eval -10.49] } 14. Nxf3 { [%eval -9.64] } 14... Bxf3 { [%eval -9.11] } 15.
+Re1 { [%eval -9.04] } 15... Re8 { [%eval -9.0] } 16. Qxe8+ { [%eval -8.93] }
+16... Nxe8 { [%eval -8.84] } 17. Rxe8+ { [%eval -8.7] } 17... Bf8
+{ [%eval -8.38] } 18. Re3 $6 { [%eval -9.25] } 18... h6 $2 { [%eval -6.91] }
+19. Bd2 { [%eval -7.25] } 19... Bc5 { [%eval -7.04] } 20. Re8+ $2
+{ [%eval #-9] } 20... Kh7 { [%eval -11.79] } 21. Be3 $6 { [%eval #-3] } 21...
+Qh3 { [%eval #-2] } 0-1

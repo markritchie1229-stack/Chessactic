@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/D1vSvUW9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rahman01"]
+[Black "adinacknakalf"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:24:41"]
+[WhiteElo "1500"]
+[BlackElo "1694"]
+[WhiteRatingDiff "+299"]
+[BlackRatingDiff "-10"]
+[ECO "A28"]
+[Opening "English Opening: King's English Variation, Four Knights Variation, Quiet Line #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.01] } 1... e5 { [%eval 0.15] } 2. Nc3 { [%eval 0.2] } 2... Nf6
+{ [%eval 0.17] } 3. Nf3 { [%eval 0.14] } 3... Nc6 { [%eval 0.1] } 4. e3
+{ [%eval 0.04] } 4... Bc5 $6 { [%eval 0.56] } 5. d4 { [%eval 0.45] } 5... exd4
+{ [%eval 0.47] } 6. exd4 { [%eval 0.44] } 6... Qe7+ $6 { [%eval 1.13] } 7. Be2
+{ [%eval 1.01] } 7... Bb4 { [%eval 1.01] } 8. Bg5 { [%eval 0.54] } 8... Bxc3+
+{ [%eval 0.6] } 9. bxc3 { [%eval 0.59] } 9... h6 { [%eval 0.81] } 10. Bf4
+{ [%eval 0.35] } 10... d6 { [%eval 0.45] } 11. Rb1 { [%eval 0.03] } 11... O-O
+{ [%eval 0.28] } 12. O-O { [%eval 0.14] } 12... Re8 { [%eval 0.12] } 13. Bd3
+{ [%eval 0.18] } 13... Qd7 $6 { [%eval 0.79] } 14. Re1 { [%eval 0.34] } 14...
+Rxe1+ { [%eval 0.47] } 15. Nxe1 { [%eval 0.33] } 15... d5 { [%eval 0.81] } 16.
+Qb3 $2 { [%eval -0.61] } 16... dxc4 $6 { [%eval 0.35] } 17. Qxc4
+{ [%eval 0.3] } 17... Qg4 $6 { [%eval 0.99] } 18. Bxc7 { [%eval 1.0] } 18...
+Be6 { [%eval 1.11] } 19. Qb5 { [%eval 0.69] } 19... Bd5 $6 { [%eval 1.33] } 20.
+Qxb7 $6 { [%eval 0.45] } 20... Nxd4 $4 { [%eval #4] } 21. Qxa8+ { [%eval #3] }
+21... Bxa8 { [%eval #3] } 22. Rb8+ { [%eval #2] } 1-0

@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RSi0W4UC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NitinGupta"]
+[Black "FunesElMemorioso"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:00:04"]
+[WhiteElo "1780"]
+[BlackElo "1779"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-16"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c5 { [%eval 0.3] } 2. Nf3 { [%eval 0.26] } 2... d6
+{ [%eval 0.29] } 3. Bc4 { [%eval 0.3] } 3... Nf6 { [%eval 0.3] } 4. Ng5 $6
+{ [%eval -0.4] } 4... e6 { [%eval -0.37] } 5. d3 { [%eval -0.36] } 5... h6
+{ [%eval -0.28] } 6. Nf3 { [%eval -0.31] } 6... Nc6 { [%eval -0.36] } 7. O-O
+{ [%eval -0.32] } 7... Be7 { [%eval -0.27] } 8. Bb5 { [%eval -0.31] } 8... O-O
+{ [%eval 0.16] } 9. Bxc6 { [%eval 0.1] } 9... bxc6 { [%eval 0.16] } 10. e5
+{ [%eval 0.19] } 10... Nd5 { [%eval 0.16] } 11. c4 { [%eval 0.05] } 11... Nb6
+{ [%eval 0.04] } 12. Re1 { [%eval -0.09] } 12... d5 { [%eval -0.05] } 13. g3 $6
+{ [%eval -0.82] } 13... Qc7 $6 { [%eval -0.17] } 14. b3 { [%eval -0.35] } 14...
+Ba6 $6 { [%eval 0.16] } 15. Nh4 { [%eval -0.11] } 15... Bxh4 { [%eval -0.03] }
+16. gxh4 { [%eval -0.27] } 16... Rad8 { [%eval 0.03] } 17. Qg4 { [%eval 0.06] }
+17... Kh7 { [%eval 0.2] } 18. h5 { [%eval 0.04] } 18... Qe7 { [%eval 0.23] }
+19. f4 { [%eval 0.29] } 19... Nd7 { [%eval 0.32] } 20. f5 $2 { [%eval -0.95] }
+20... exf5 { [%eval -0.9] } 21. Qxf5+ { [%eval -0.87] } 21... g6 $6
+{ [%eval -0.14] } 22. hxg6+ $2 { [%eval -1.31] } 22... fxg6 { [%eval -1.11] }
+23. Qh3 { [%eval -1.04] } 23... g5 $2 { [%eval 0.3] } 24. Nc3 $2
+{ [%eval -1.7] } 24... Qf7 $2 { [%eval 0.0] } 25. Bxg5 { [%eval 0.01] } 25...
+Qf2+ $4 { [%eval 9.26] } 26. Kh1 { [%eval 9.2] } 26... Qf3+ { [%eval 9.16] }
+27. Qxf3 { [%eval 8.91] } 27... Rxf3 { [%eval 8.76] } 28. Bxd8 { [%eval 8.27] }
+28... Rxd3 $2 { [%eval 13.48] } 29. e6 { [%eval 12.34] } 29... Ne5 $6
+{ [%eval #8] } 30. e7 { [%eval #7] } 1-0

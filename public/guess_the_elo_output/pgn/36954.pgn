@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fARpxgGu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "luizmg"]
+[Black "mcetin"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:52:27"]
+[WhiteElo "1227"]
+[BlackElo "1485"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+4"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.43] } 2. Nf3 { [%eval 0.33] } 2...
+Nc6 { [%eval 0.44] } 3. d3 $6 { [%eval -0.06] } 3... Nf6 { [%eval -0.03] } 4.
+Nc3 { [%eval -0.21] } 4... Bb4 { [%eval -0.09] } 5. Bd2 { [%eval -0.05] } 5...
+d6 { [%eval 0.1] } 6. Be2 { [%eval -0.06] } 6... O-O { [%eval 0.04] } 7. Nb5
+{ [%eval -0.45] } 7... Bxd2+ { [%eval -0.43] } 8. Qxd2 { [%eval -0.61] } 8...
+a6 { [%eval -0.35] } 9. Nc3 { [%eval -0.41] } 9... b5 { [%eval -0.34] } 10. b4
+$6 { [%eval -1.06] } 10... Bd7 $6 { [%eval -0.37] } 11. a4 $6 { [%eval -1.02] }
+11... bxa4 { [%eval -0.7] } 12. Nxa4 { [%eval -0.75] } 12... a5 $6
+{ [%eval 0.0] } 13. c3 $2 { [%eval -1.44] } 13... axb4 { [%eval -1.25] } 14.
+cxb4 $2 { [%eval -2.79] } 14... Nd4 { [%eval -2.78] } 15. Nxd4
+{ [%eval -2.79] } 15... exd4 { [%eval -2.55] } 16. Bd1 { [%eval -2.8] } 16...
+Qe8 { [%eval -2.55] } 17. O-O $2 { [%eval -3.85] } 17... Bxa4 { [%eval -3.66] }
+18. Bxa4 { [%eval -3.85] } 18... Rxa4 { [%eval -3.85] } 19. Rfc1 $6
+{ [%eval -4.39] } 19... Rxa1 { [%eval -4.23] } 20. Rxa1 { [%eval -4.43] } 20...
+d5 { [%eval -4.13] } 21. e5 $6 { [%eval -5.0] } 21... Qxe5 { [%eval -5.25] }
+22. h3 { [%eval -5.39] } 22... h6 { [%eval -5.18] } 23. b5 { [%eval -5.54] }
+23... Re8 { [%eval -5.32] } 24. Rc1 $2 { [%eval -6.81] } 24... Re7 $2
+{ [%eval -5.1] } 25. Qb2 $2 { [%eval -7.11] } 25... Nd7 $2 { [%eval -4.96] }
+26. Rxc7 $4 { [%eval -19.37] } 26... Qxc7 { [%eval -17.42] } 27. Qxd4 $6
+{ [%eval #-1] } 27... Re1# 0-1

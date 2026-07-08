@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1am3EE4X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "danik839"]
+[Black "Cagnirat"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:52:36"]
+[WhiteElo "1500"]
+[BlackElo "1514"]
+[WhiteRatingDiff "+182"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+15"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.17] } 1... b6 { [%eval 0.31] } 2. a3 { [%eval 0.04] } 2... Bb7
+{ [%eval 0.06] } 3. b4 { [%eval -0.05] } 3... Nf6 { [%eval 0.03] } 4. Nf3
+{ [%eval 0.0] } 4... e6 { [%eval 0.12] } 5. c4 { [%eval 0.03] } 5... d6
+{ [%eval 0.22] } 6. d3 { [%eval 0.03] } 6... Be7 { [%eval 0.05] } 7. Be2
+{ [%eval -0.01] } 7... Nc6 { [%eval 0.39] } 8. O-O { [%eval 0.39] } 8... d5
+{ [%eval 0.52] } 9. Nbd2 { [%eval 0.31] } 9... d4 $2 { [%eval 1.48] } 10. Bb2
+$2 { [%eval -0.62] } 10... e5 $2 { [%eval 1.63] } 11. b5 { [%eval 1.56] } 11...
+Na5 { [%eval 1.79] } 12. Nxe5 { [%eval 1.56] } 12... O-O $2 { [%eval 2.56] }
+13. Nef3 $2 { [%eval -0.06] } 13... c6 $2 { [%eval 2.74] } 14. Nxd4
+{ [%eval 2.5] } 14... cxb5 { [%eval 2.58] } 15. Nxb5 { [%eval 2.52] } 15... Qd7
+{ [%eval 2.5] } 16. Ne4 $2 { [%eval 1.13] } 16... Nxe4 { [%eval 1.19] } 17.
+dxe4 { [%eval 1.15] } 17... Qc6 { [%eval 1.48] } 18. f3 { [%eval 1.48] } 18...
+Nxc4 $2 { [%eval 3.43] } 19. Nd4 { [%eval 3.1] } 19... Nxe3 $4 { [%eval 8.31] }
+20. Nxc6 { [%eval 8.13] } 20... Nxd1 $2 { [%eval 10.33] } 21. Nxe7+
+{ [%eval 10.06] } 21... Kh8 { [%eval 9.9] } 22. Raxd1 { [%eval 9.73] } 22...
+Rfe8 { [%eval 12.06] } 23. Nf5 { [%eval 11.71] } 23... f6 { [%eval 15.52] } 24.
+Rd7 { [%eval 14.15] } 1-0

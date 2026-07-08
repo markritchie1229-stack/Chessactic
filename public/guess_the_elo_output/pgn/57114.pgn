@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2KSjZQg0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wjadro1"]
+[Black "scacchi2"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:56:52"]
+[WhiteElo "1656"]
+[BlackElo "1614"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.35] } 2. Bc4 { [%eval 0.06] } 2... d6
+{ [%eval 0.32] } 3. a3 { [%eval 0.15] } 3... Nf6 { [%eval 0.16] } 4. d3
+{ [%eval 0.15] } 4... Be7 { [%eval 0.16] } 5. h3 { [%eval 0.12] } 5... O-O
+{ [%eval 0.09] } 6. Bg5 { [%eval -0.25] } 6... Nc6 { [%eval 0.1] } 7. Nd2
+{ [%eval -0.19] } 7... a6 { [%eval -0.25] } 8. Ngf3 { [%eval -0.17] } 8... b5
+{ [%eval -0.1] } 9. Bxf6 { [%eval -0.33] } 9... bxc4 { [%eval 0.16] } 10. Bxe7
+{ [%eval 0.28] } 10... Qxe7 { [%eval 0.51] } 11. Nxc4 { [%eval 0.45] } 11...
+Be6 { [%eval 0.51] } 12. O-O { [%eval 0.58] } 12... Bxc4 { [%eval 0.79] } 13.
+dxc4 { [%eval 0.77] } 13... Rab8 { [%eval 0.79] } 14. b3 { [%eval 0.87] } 14...
+f5 $4 { [%eval 5.22] } 15. exf5 $4 { [%eval 1.36] } 15... Rxf5 $4
+{ [%eval 5.69] } 16. Qd5+ { [%eval 5.54] } 16... Kh8 { [%eval 5.79] } 17. Qxc6
+{ [%eval 5.7] } 17... Rg8 { [%eval 6.05] } 18. Qxa6 $2 { [%eval 4.72] } 18...
+e4 $2 { [%eval 6.76] } 19. Nd4 { [%eval 6.68] } 19... Rf7 $6 { [%eval 7.41] }
+20. Ne2 $6 { [%eval 6.64] } 20... Rgf8 $6 { [%eval 7.2] } 21. Qc6
+{ [%eval 6.99] } 21... Qg5 $6 { [%eval 7.91] } 22. Qxe4 { [%eval 7.91] } 22...
+Re7 { [%eval 7.98] } 23. Qd3 { [%eval 7.72] } 23... Qh5 $6 { [%eval 8.35] } 24.
+Ng3 { [%eval 8.22] } 24... Qc5 { [%eval 8.16] } 1-0

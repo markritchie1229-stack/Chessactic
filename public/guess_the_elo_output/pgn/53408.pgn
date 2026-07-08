@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/cg05nU4X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "staraciotti"]
+[Black "brulebois"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:00:12"]
+[WhiteElo "1701"]
+[BlackElo "1498"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+16"]
+[ECO "A28"]
+[Opening "English Opening: King's English Variation, Four Knights Variation, Flexible Line"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.14] } 1... e5 { [%eval 0.12] } 2. Nc3 { [%eval 0.04] } 2...
+Nf6 { [%eval 0.05] } 3. Nf3 { [%eval -0.02] } 3... Nc6 { [%eval 0.06] } 4. d3
+{ [%eval -0.17] } 4... d5 { [%eval -0.09] } 5. cxd5 { [%eval -0.12] } 5... Nxd5
+{ [%eval -0.03] } 6. Bd2 { [%eval -0.27] } 6... a6 { [%eval -0.12] } 7. e3
+{ [%eval -0.23] } 7... Be7 { [%eval -0.28] } 8. Be2 { [%eval -0.2] } 8... O-O
+{ [%eval -0.25] } 9. O-O { [%eval -0.14] } 9... f5 { [%eval 0.06] } 10. e4
+{ [%eval -0.21] } 10... Nf4 { [%eval 0.16] } 11. Bxf4 { [%eval 0.0] } 11...
+exf4 { [%eval 0.08] } 12. Nd5 { [%eval 0.0] } 12... fxe4 { [%eval 0.0] } 13.
+dxe4 { [%eval 0.0] } 13... Bd6 { [%eval 0.0] } 14. Bc4 { [%eval -0.46] } 14...
+Kh8 { [%eval -0.45] } 15. a3 { [%eval -0.59] } 15... Ne5 { [%eval -0.28] } 16.
+Bb3 $2 { [%eval -2.04] } 16... Nxf3+ $2 { [%eval -0.45] } 17. Qxf3
+{ [%eval -0.62] } 17... Qg5 { [%eval -0.52] } 18. Rad1 $2 { [%eval -2.89] }
+18... Bg4 { [%eval -2.66] } 19. Qd3 { [%eval -2.75] } 19... Bxd1
+{ [%eval -2.57] } 20. Rxd1 { [%eval -2.51] } 20... f3 { [%eval -2.46] } 21. g3
+{ [%eval -2.3] } 21... Qh6 $6 { [%eval -1.61] } 22. Ne3 { [%eval -1.64] } 22...
+Rad8 { [%eval -1.33] } 23. Qc4 $2 { [%eval -2.47] } 23... b5 { [%eval -2.01] }
+24. Qc6 { [%eval -2.35] } 24... Qh3 { [%eval -2.07] } 25. Rd5 $4
+{ [%eval -5.79] } 25... Rf6 { [%eval -5.44] } 26. e5 $4 { [%eval #-4] } 26...
+Rh6 { [%eval #-3] } 27. exd6 { [%eval #-2] } 27... Qxh2+ { [%eval #-1] } 28.
+Kf1 { [%eval #-1] } 28... Qh1# 0-1

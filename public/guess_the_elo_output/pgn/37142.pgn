@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uNbmmyR2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chungaster"]
+[Black "alice115"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:01:24"]
+[WhiteElo "1533"]
+[BlackElo "1474"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation, Open"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.14] } 1... c5 { [%eval 0.19] } 2. Nf3 { [%eval 0.12] } 2... e6
+{ [%eval 0.2] } 3. d4 { [%eval 0.12] } 3... cxd4 { [%eval 0.05] } 4. Qxd4
+{ [%eval 0.19] } 4... Nc6 { [%eval 0.18] } 5. Qe3 { [%eval 0.02] } 5... d5 $6
+{ [%eval 0.64] } 6. Bb5 $6 { [%eval -0.18] } 6... dxe4 { [%eval 0.09] } 7.
+Bxc6+ { [%eval -0.16] } 7... bxc6 { [%eval -0.05] } 8. Qxe4 { [%eval -0.04] }
+8... Qa5+ { [%eval 0.06] } 9. Bd2 { [%eval 0.0] } 9... Qb6 { [%eval 0.0] } 10.
+Nc3 { [%eval 0.0] } 10... Nf6 { [%eval -0.13] } 11. Qe5 { [%eval -0.27] } 11...
+Be7 { [%eval 0.0] } 12. O-O { [%eval -0.14] } 12... O-O { [%eval 0.0] } 13. Bg5
+$6 { [%eval -0.55] } 13... c5 { [%eval -0.48] } 14. Be3 $6 { [%eval -1.32] }
+14... Bd6 { [%eval -1.01] } 15. Qg5 { [%eval -1.28] } 15... h6
+{ [%eval -0.93] } 16. Qh4 { [%eval -0.92] } 16... Bb7 $2 { [%eval 0.19] } 17.
+Rad1 $2 { [%eval -0.9] } 17... Bxf3 { [%eval -0.67] } 18. gxf3 { [%eval -0.9] }
+18... g5 $4 { [%eval 5.68] } 19. Qh3 $4 { [%eval -0.04] } 19... g4 $4
+{ [%eval 4.56] } 20. Qxh6 $2 { [%eval 3.42] } 20... Be7 $2 { [%eval 6.33] } 21.
+Qg5+ { [%eval 6.13] } 21... Kh7 $2 { [%eval 7.31] } 22. Ne4 { [%eval 6.97] }
+22... Nxe4 { [%eval 7.3] } 23. Qh5+ { [%eval 6.94] } 23... Kg7 { [%eval 5.49] }
+24. Qh6+ $4 { [%eval 1.22] } 24... Kg8 { [%eval 1.22] } 25. Bf4 $4
+{ [%eval -1.82] } 25... Bg5 $4 { [%eval 4.75] } 26. Qxg5+ $4 { [%eval -8.81] }
+26... Nxg5 { [%eval -8.66] } 27. Bxg5 { [%eval -8.66] } 27... Kg7 $6
+{ [%eval -7.92] } 28. Bf6+ $2 { [%eval -13.42] } 28... Kxf6 { [%eval -12.89] }
+0-1

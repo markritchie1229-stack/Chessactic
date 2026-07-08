@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Tp3Rr6DD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "borokshonov"]
+[Black "meilhak"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:36:09"]
+[WhiteElo "1873"]
+[BlackElo "2244"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+3"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense: Accelerated Move Order"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.28] } 2. c4 { [%eval 0.2] } 2... c6
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.27] } 3... e6 { [%eval 0.33] } 4. Bf4
+{ [%eval -0.09] } 4... Nf6 { [%eval 0.26] } 5. e3 { [%eval 0.32] } 5... Bd6
+{ [%eval 0.29] } 6. Bg5 { [%eval 0.16] } 6... Nbd7 { [%eval 0.1] } 7. c5
+{ [%eval -0.31] } 7... Bc7 { [%eval -0.29] } 8. b4 { [%eval -0.29] } 8... e5
+{ [%eval -0.29] } 9. Nf3 { [%eval -0.26] } 9... O-O { [%eval -0.21] } 10. h3 $6
+{ [%eval -1.01] } 10... Re8 { [%eval -0.82] } 11. Be2 { [%eval -0.81] } 11...
+h6 { [%eval -0.86] } 12. Bxf6 { [%eval -0.91] } 12... Qxf6 { [%eval -0.83] }
+13. dxe5 { [%eval -1.2] } 13... Nxe5 { [%eval -1.2] } 14. Nd4 { [%eval -1.22] }
+14... a6 { [%eval -1.03] } 15. a4 { [%eval -1.36] } 15... Bd7 $6
+{ [%eval -0.8] } 16. a5 { [%eval -1.12] } 16... Qg6 { [%eval -0.71] } 17. g3
+{ [%eval -0.93] } 17... Rad8 $6 { [%eval -0.43] } 18. Qd2 $6 { [%eval -1.33] }
+18... Nc4 { [%eval -1.03] } 19. Bxc4 { [%eval -1.32] } 19... dxc4
+{ [%eval -1.33] } 20. Nce2 { [%eval -1.52] } 20... Qe4 $2 { [%eval -0.25] } 21.
+O-O-O { [%eval -0.04] } 21... Bf5 { [%eval -0.16] } 22. Nc3 $6
+{ [%eval -0.71] } 22... Qd3 $2 { [%eval 1.29] } 23. g4 $2 { [%eval -0.76] }
+23... Bh7 { [%eval -0.51] } 24. h4 $4 { [%eval -5.29] } 24... Rxd4
+{ [%eval -5.09] } 25. exd4 $4 { [%eval #-6] } 25... Bf4 { [%eval #-5] } 0-1

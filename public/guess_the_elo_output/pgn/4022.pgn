@@ -1,0 +1,33 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/6Zjv8wOT"]
+[Site "https://lichess.org/0DovXWzD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vova351"]
+[Black "MarysolRamirez"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:58:46"]
+[WhiteElo "2019"]
+[BlackElo "1745"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+20"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.23] } 2. Nc3 { [%eval 0.08] } 2... Nc6
+{ [%eval 0.19] } 3. d3 { [%eval -0.05] } 3... Nf6 { [%eval 0.09] } 4. g3
+{ [%eval -0.17] } 4... d5 { [%eval -0.31] } 5. Bg2 { [%eval -0.34] } 5... d4
+{ [%eval -0.22] } 6. Nce2 { [%eval -0.16] } 6... Ne7 { [%eval 0.16] } 7. f4
+{ [%eval 0.25] } 7... Ng6 { [%eval 0.45] } 8. f5 { [%eval 0.21] } 8... Ne7
+{ [%eval 0.16] } 9. h3 { [%eval 0.0] } 9... Bd7 { [%eval 0.25] } 10. g4
+{ [%eval 0.04] } 10... h6 { [%eval 0.15] } 11. Ng3 { [%eval -0.07] } 11... c6
+$6 { [%eval 0.74] } 12. Nf3 { [%eval 0.53] } 12... Qb6 { [%eval 0.92] } 13. Qe2
+{ [%eval 0.84] } 13... Nc8 { [%eval 0.67] } 14. g5 $6 { [%eval 0.0] } 14...
+hxg5 { [%eval 0.0] } 15. Nxg5 { [%eval -0.46] } 15... Nd6 { [%eval 0.0] } 16.
+b3 $6 { [%eval -0.59] } 16... Qb4+ $6 { [%eval 0.0] } 17. Bd2 { [%eval 0.28] }
+17... Qc5 { [%eval 0.34] } 18. O-O-O $2 { [%eval -2.24] } 18... Qa3+ $2
+{ [%eval -1.02] } 19. Kb1 { [%eval -0.99] } 19... Nb5 { [%eval -0.93] } 20.
+Rdf1 $4 { [%eval #-3] } 20... Nc3+ { [%eval #-2] } 21. Bxc3 { [%eval #-2] }
+21... dxc3 { [%eval #-1] } 22. Qe3 { [%eval #-1] } 22... Qb2# 0-1

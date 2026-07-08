@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vm6U5bcx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "reza_indramayu"]
+[Black "marronei1744"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:21:08"]
+[WhiteElo "1805"]
+[BlackElo "2000"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+8"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit: Ryder Gambit"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.18] } 2. Nc3 { [%eval -0.03] } 2...
+d5 { [%eval -0.01] } 3. e4 { [%eval -0.5] } 3... dxe4 { [%eval -0.45] } 4. f3
+{ [%eval -0.47] } 4... exf3 { [%eval -0.41] } 5. Qxf3 $6 { [%eval -1.0] } 5...
+e6 { [%eval -0.53] } 6. Be3 { [%eval -0.68] } 6... Be7 { [%eval -0.53] } 7.
+O-O-O { [%eval -0.64] } 7... Nc6 { [%eval -0.67] } 8. Bb5 { [%eval -0.85] }
+8... Bd7 $6 { [%eval -0.02] } 9. d5 { [%eval -0.52] } 9... exd5
+{ [%eval -0.27] } 10. Nxd5 { [%eval -0.14] } 10... Nxd5 { [%eval 0.0] } 11.
+Rxd5 $2 { [%eval -1.14] } 11... Bd6 { [%eval -1.13] } 12. Nh3 { [%eval -1.12] }
+12... Qf6 $6 { [%eval -0.58] } 13. Qe4+ { [%eval -0.59] } 13... Be6 $4
+{ [%eval 3.41] } 14. Bxc6+ { [%eval 3.46] } 14... bxc6 { [%eval 3.58] } 15.
+Rxd6 { [%eval 3.53] } 15... cxd6 $2 { [%eval 4.77] } 16. Qxc6+ $6
+{ [%eval 3.98] } 16... Ke7 $4 { [%eval 9.94] } 17. Bg5 $2 { [%eval 8.11] }
+17... Qxg5+ $2 { [%eval 10.7] } 18. Nxg5 { [%eval 10.1] } 18... Rac8
+{ [%eval 14.11] } 19. Qb7+ { [%eval 13.56] } 19... Kf8 $6 { [%eval #6] } 20.
+Re1 { [%eval #6] } 20... g6 { [%eval #5] } 21. Nxe6+ { [%eval #4] } 21... fxe6
+{ [%eval #4] } 22. Rxe6 $6 { [%eval #4] } 22... Rd8 { [%eval #2] } 23. Qe7+ $6
+{ [%eval #2] } 23... Kg8 { [%eval #2] } 24. Qxd8+ $6 { [%eval #3] } 24... Kg7
+{ [%eval #3] } 25. Re7+ $6 { [%eval #5] } 25... Kh6 { [%eval #5] } 26. Qxh8
+{ [%eval #4] } 26... Kg5 { [%eval #4] } 27. h4+ $6 { [%eval #4] } 27... Kg4
+{ [%eval #4] } 28. Qxh7 $6 { [%eval #5] } 28... Kg3 { [%eval #5] } 29. Qxg6+
+{ [%eval #4] } 29... Kf4 { [%eval #1] } 30. Rf7+ $6 { [%eval #3] } 30... Ke5
+{ [%eval #3] } 31. Qe6+ $6 { [%eval #11] } 31... Kxe6 { [%eval #19] } 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/693ZIMVe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Duckies"]
+[Black "idemirtas1981"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:45:15"]
+[WhiteElo "1725"]
+[BlackElo "1778"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.21] } 2. c4 { [%eval 0.16] } 2...
+dxc4 { [%eval 0.4] } 3. Nc3 { [%eval 0.09] } 3... e6 { [%eval 0.42] } 4. e3
+{ [%eval 0.22] } 4... Bb4 { [%eval 0.54] } 5. Bxc4 { [%eval 0.53] } 5... Nf6
+{ [%eval 0.55] } 6. a3 { [%eval 0.54] } 6... Ba5 $6 { [%eval 1.05] } 7. b4
+{ [%eval 1.08] } 7... Bb6 { [%eval 1.08] } 8. Nf3 { [%eval 1.04] } 8... a5
+{ [%eval 0.99] } 9. Bb2 { [%eval 1.13] } 9... axb4 { [%eval 1.18] } 10. axb4
+{ [%eval 1.09] } 10... Rxa1 { [%eval 1.22] } 11. Qxa1 { [%eval 1.09] } 11...
+Nc6 { [%eval 1.11] } 12. Ba3 { [%eval 1.15] } 12... O-O { [%eval 1.23] } 13. b5
+{ [%eval 0.97] } 13... Na5 $6 { [%eval 1.85] } 14. Bxf8 { [%eval 1.87] } 14...
+Nxc4 { [%eval 1.81] } 15. Bb4 { [%eval 1.87] } 15... Nd5 $6 { [%eval 2.48] }
+16. Qa2 $2 { [%eval 0.94] } 16... Nxb4 $2 { [%eval 2.46] } 17. Qxc4
+{ [%eval 2.36] } 17... Ba5 { [%eval 2.41] } 18. O-O { [%eval 2.48] } 18... b6
+$6 { [%eval 3.31] } 19. Na4 $6 { [%eval 2.5] } 19... Bb7 { [%eval 2.71] } 20.
+Rc1 { [%eval 2.66] } 20... Bxf3 $2 { [%eval 4.39] } 21. gxf3 $4
+{ [%eval 1.09] } 21... Nd5 { [%eval 1.15] } 22. e4 $2 { [%eval 0.0] } 22... Nf4
+$2 { [%eval 1.13] } 23. Qxc7 $4 { [%eval #-2] } 23... Qg5+ { [%eval #-1] } 24.
+Kh1 { [%eval #-1] } 24... Qg2# 0-1

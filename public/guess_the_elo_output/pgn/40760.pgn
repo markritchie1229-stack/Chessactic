@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/y8EEOizg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TTusov"]
+[Black "Helene9400"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:31:46"]
+[WhiteElo "1394"]
+[BlackElo "1259"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.29] } 2... Nc6
+{ [%eval 0.43] } 3. Bc4 { [%eval 0.2] } 3... Bc5 { [%eval 0.2] } 4. Ng5 $4
+{ [%eval -4.15] } 4... d5 $2 { [%eval -1.21] } 5. exd5 $6 { [%eval -2.17] }
+5... Na5 $4 { [%eval 0.84] } 6. Qf3 $2 { [%eval -2.1] } 6... Qxg5
+{ [%eval -2.12] } 7. Bb5+ { [%eval -2.3] } 7... Bd7 $2 { [%eval -0.5] } 8.
+Bxd7+ { [%eval -0.97] } 8... Kxd7 { [%eval -0.72] } 9. Qxf7+ $2
+{ [%eval -2.0] } 9... Ne7 { [%eval -1.87] } 10. O-O $6 { [%eval -2.41] } 10...
+Raf8 $4 { [%eval 0.73] } 11. Qe6+ { [%eval 0.48] } 11... Kd8 $2
+{ [%eval 1.62] } 12. d4 { [%eval 1.64] } 12... Bxd4 $4 { [%eval 15.95] } 13.
+Bxg5 { [%eval 15.75] } 13... Re8 { [%eval 15.68] } 14. d6 { [%eval 15.3] }
+14... cxd6 { [%eval 14.47] } 15. Qxd6+ { [%eval 13.49] } 15... Kc8
+{ [%eval 13.39] } 16. Bxe7 { [%eval 13.22] } 16... Nc6 { [%eval 13.21] } 17.
+Bg5 { [%eval 13.13] } 17... Bxb2 { [%eval 13.94] } 18. Nd2 { [%eval 12.45] }
+18... Bxa1 { [%eval 12.28] } 19. Rxa1 { [%eval 12.05] } 19... e4
+{ [%eval 14.84] } 20. Re1 { [%eval 14.22] } 20... Re5 { [%eval 15.31] } 21. Bf4
+{ [%eval 12.04] } 21... Re7 { [%eval 13.86] } 22. Rxe4 { [%eval 13.31] } 22...
+Rxe4 $6 { [%eval #1] } 23. Qc7# 1-0

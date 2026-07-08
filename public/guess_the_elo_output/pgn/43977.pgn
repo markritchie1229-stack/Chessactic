@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8yUUv4Q1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bottor"]
+[Black "OlegArt"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:39:41"]
+[WhiteElo "1596"]
+[BlackElo "1609"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C20"]
+[Opening "English Opening: The Whale"]
+[TimeControl "1200+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.43] } 2. c4 $6 { [%eval -0.23] } 2...
+Nf6 { [%eval -0.23] } 3. d3 { [%eval -0.28] } 3... Bc5 { [%eval -0.25] } 4. h3
+{ [%eval -0.31] } 4... Bd4 $6 { [%eval 0.29] } 5. Ne2 { [%eval -0.18] } 5... c5
+$6 { [%eval 0.61] } 6. Nxd4 { [%eval 0.52] } 6... cxd4 { [%eval 0.6] } 7. Bg5
+{ [%eval 0.27] } 7... h6 { [%eval 0.32] } 8. Bxf6 $6 { [%eval -0.3] } 8... Qxf6
+{ [%eval -0.32] } 9. Qf3 $6 { [%eval -0.85] } 9... Qxf3 { [%eval -0.74] } 10.
+gxf3 { [%eval -0.77] } 10... O-O $6 { [%eval -0.23] } 11. h4 { [%eval -0.53] }
+11... h5 $6 { [%eval 0.21] } 12. Rg1 $6 { [%eval -0.29] } 12... f5 $6
+{ [%eval 0.53] } 13. Rg5 { [%eval 0.28] } 13... fxe4 { [%eval 0.58] } 14. fxe4
+$6 { [%eval 0.07] } 14... Rf4 $6 { [%eval 0.9] } 15. Rxe5 { [%eval 0.9] } 15...
+Kf7 $6 { [%eval 1.7] } 16. Rxh5 { [%eval 1.85] } 16... Nc6 { [%eval 2.01] } 17.
+Rh8 $2 { [%eval 0.0] } 17... Nb4 $2 { [%eval 2.04] } 18. Na3 { [%eval 1.91] }
+18... Rf3 $2 { [%eval 4.44] } 19. Rd8 $2 { [%eval 1.84] } 19... Nxd3+ $2
+{ [%eval 4.22] } 20. Bxd3 { [%eval 3.98] } 20... Rxd3 { [%eval 3.98] } 21. Nb5
+{ [%eval 3.82] } 21... Rh3 $6 { [%eval 4.62] } 22. Rh8 $4 { [%eval -1.45] }
+22... d3 $4 { [%eval 5.6] } 23. Kd2 { [%eval 5.42] } 23... a6 $2
+{ [%eval 8.19] } 24. Nd6+ { [%eval 7.83] } 24... Ke6 { [%eval 7.68] } 25. Nxb7
+$4 { [%eval -3.33] } 25... Bxb7 { [%eval -3.0] } 0-1

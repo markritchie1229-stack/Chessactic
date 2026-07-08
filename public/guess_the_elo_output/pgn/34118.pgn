@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/80PX2bF1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "withthelightsout"]
+[Black "Elda64"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:35:24"]
+[WhiteElo "2114"]
+[BlackElo "2629"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+1"]
+[BlackTitle "IM"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.14] } 1... e6 { [%eval 0.31] } 2. Nc3 { [%eval 0.11] } 2... d5
+{ [%eval 0.12] } 3. exd5 { [%eval 0.02] } 3... exd5 { [%eval 0.09] } 4. d4
+{ [%eval 0.1] } 4... Nf6 { [%eval 0.08] } 5. Be2 { [%eval -0.19] } 5... Be7
+{ [%eval 0.08] } 6. Nf3 { [%eval 0.01] } 6... O-O { [%eval 0.07] } 7. Bg5
+{ [%eval -0.17] } 7... c6 { [%eval -0.15] } 8. Bh4 { [%eval -0.43] } 8... Re8
+{ [%eval -0.34] } 9. Bg3 { [%eval -0.59] } 9... Ne4 { [%eval -0.25] } 10. O-O
+{ [%eval -0.62] } 10... Nxc3 $6 { [%eval -0.08] } 11. bxc3 { [%eval -0.08] }
+11... Nd7 { [%eval 0.05] } 12. Ne5 { [%eval -0.38] } 12... Nf6
+{ [%eval -0.21] } 13. Bf3 { [%eval -0.47] } 13... Ne4 { [%eval -0.49] } 14.
+Bxe4 { [%eval -0.47] } 14... dxe4 { [%eval -0.33] } 15. Re1 { [%eval -0.62] }
+15... Bf5 { [%eval -0.32] } 16. f3 { [%eval -0.41] } 16... exf3
+{ [%eval -0.41] } 17. Qxf3 { [%eval -0.39] } 17... Be6 { [%eval -0.34] } 18.
+Rf1 $6 { [%eval -0.95] } 18... Bf6 { [%eval -0.6] } 19. Bf4 { [%eval -0.96] }
+19... Bd5 { [%eval -0.68] } 20. Qg3 { [%eval -0.72] } 20... Qa5 $2
+{ [%eval 0.32] } 21. Rae1 $6 { [%eval -0.27] } 21... Qxa2 $2 { [%eval 0.84] }
+22. Nd7 $6 { [%eval 0.0] } 22... Re6 $4 { [%eval 5.28] } 23. Rxe6
+{ [%eval 4.93] } 23... Bxe6 $4 { [%eval #11] } 24. Nxf6+ { [%eval #10] } 24...
+Kh8 { [%eval #10] } 25. Nxh7 $4 { [%eval 1.45] } 25... Kxh7 { [%eval 1.57] }
+26. Qh4+ $2 { [%eval -0.6] } 26... Kg8 { [%eval -0.57] } 27. Be5
+{ [%eval -0.96] } 27... Qxc2 { [%eval -0.89] } 28. Qg5 { [%eval -0.96] } 28...
+Qg6 { [%eval -0.97] } 29. Qe7 $2 { [%eval -2.79] } 29... Bd5 { [%eval -2.55] }
+30. Rf2 $2 { [%eval -4.51] } 30... Qb1+ $2 { [%eval -2.5] } 0-1

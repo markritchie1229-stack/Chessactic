@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Fbnu4l0U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fgur"]
+[Black "martinjobe"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:54:54"]
+[WhiteElo "1264"]
+[BlackElo "1284"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+37"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.3] } 2. d4 { [%eval 0.0] } 2... Nc6
+$6 { [%eval 0.61] } 3. d5 { [%eval 0.55] } 3... Nd4 $2 { [%eval 3.08] } 4. Be3
+$2 { [%eval 1.16] } 4... Nf6 $6 { [%eval 2.08] } 5. Bxd4 $2 { [%eval 0.77] }
+5... exd4 { [%eval 1.0] } 6. Qxd4 { [%eval 0.89] } 6... d6 $6 { [%eval 1.54] }
+7. f3 $6 { [%eval 0.75] } 7... c5 { [%eval 0.97] } 8. Qa4+ { [%eval 0.54] }
+8... Bd7 { [%eval 0.8] } 9. Qc4 { [%eval 0.31] } 9... Qe7 { [%eval 0.61] } 10.
+Nd2 { [%eval 0.13] } 10... Nxd5 $4 { [%eval 3.26] } 11. Qxd5 { [%eval 3.23] }
+11... Bc6 { [%eval 3.38] } 12. Qc4 { [%eval 2.96] } 12... O-O-O { [%eval 3.2] }
+13. Nb3 $2 { [%eval 1.48] } 13... b6 $2 { [%eval 3.08] } 14. Qa6+
+{ [%eval 2.6] } 14... Kb8 { [%eval 2.74] } 15. O-O-O { [%eval 2.85] } 15... g6
+{ [%eval 3.22] } 16. g3 $2 { [%eval 1.57] } 16... f5 $6 { [%eval 2.43] } 17.
+exf5 { [%eval 2.29] } 17... Qe3+ $6 { [%eval 3.02] } 18. Nd2 { [%eval 3.06] }
+18... Bb7 { [%eval 3.46] } 19. Qd3 { [%eval 3.37] } 19... Qe5 { [%eval 3.6] }
+20. fxg6 { [%eval 3.46] } 20... hxg6 { [%eval 3.6] } 21. Qxg6 { [%eval 3.42] }
+21... Bg7 { [%eval 3.43] } 22. Ne2 $4 { [%eval #-1] } 22... Qxb2# 0-1

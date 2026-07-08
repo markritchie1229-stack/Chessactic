@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/y8wAXNWP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "prince20"]
+[Black "el_gomosek2000"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:22:26"]
+[WhiteElo "1585"]
+[BlackElo "1685"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "A30"]
+[Opening "English Opening: Symmetrical Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... c5 { [%eval 0.06] } 2. e3 { [%eval 0.16] } 2... e5
+{ [%eval 0.15] } 3. h4 { [%eval -0.27] } 3... d6 $6 { [%eval 0.26] } 4. Nc3
+{ [%eval -0.08] } 4... Bf5 { [%eval 0.12] } 5. g4 { [%eval -0.22] } 5... Be6
+{ [%eval -0.18] } 6. Bd3 $6 { [%eval -0.68] } 6... Qd7 { [%eval -0.62] } 7. g5
+{ [%eval -0.7] } 7... f5 { [%eval -0.67] } 8. Nge2 { [%eval -1.12] } 8... Ne7
+{ [%eval -1.15] } 9. Ng3 { [%eval -1.31] } 9... Nbc6 { [%eval -1.19] } 10. Nd5
+$6 { [%eval -1.88] } 10... Bxd5 $2 { [%eval -0.85] } 11. cxd5 { [%eval -0.88] }
+11... Nb4 { [%eval -0.83] } 12. Bxf5 $4 { [%eval -4.13] } 12... Nxf5
+{ [%eval -3.96] } 13. a3 $4 { [%eval -8.79] } 13... Nd3+ { [%eval -8.89] } 14.
+Ke2 { [%eval -8.8] } 14... Nxc1+ $4 { [%eval -3.56] } 15. Rxc1 { [%eval -3.6] }
+15... Nxg3+ { [%eval -3.63] } 16. fxg3 { [%eval -3.69] } 16... O-O-O
+{ [%eval -3.41] } 17. Ke1 $6 { [%eval -4.0] } 17... Kb8 { [%eval -3.72] } 18.
+a4 $6 { [%eval -4.3] } 18... Be7 { [%eval -4.27] } 19. a5 $6 { [%eval -4.79] }
+19... a6 { [%eval -4.63] } 20. Rb1 $2 { [%eval -5.63] } 20... h6
+{ [%eval -5.47] } 21. b4 $6 { [%eval -6.02] } 21... cxb4 $2 { [%eval -4.95] }
+22. Rxb4 { [%eval -4.99] } 22... Rc8 { [%eval -5.04] } 23. Rb1 $2
+{ [%eval -6.56] } 23... hxg5 { [%eval -6.33] } 24. hxg5 $4 { [%eval #-7] }
+24... Rxh1+ { [%eval #-6] } 0-1

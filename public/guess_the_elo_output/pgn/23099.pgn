@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BPcC4Jb2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "supercoolyellow"]
+[Black "chessdady59"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:41:10"]
+[WhiteElo "1548"]
+[BlackElo "1633"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-13"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense: Accelerated Move Order"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.2] } 2... e6
+{ [%eval 0.25] } 3. Nc3 { [%eval 0.12] } 3... c6 { [%eval 0.36] } 4. Nf3
+{ [%eval 0.3] } 4... h6 { [%eval 0.54] } 5. Bf4 { [%eval 0.16] } 5... Nf6
+{ [%eval 0.48] } 6. e3 { [%eval 0.52] } 6... Nbd7 { [%eval 0.42] } 7. h3
+{ [%eval 0.39] } 7... b6 { [%eval 0.58] } 8. a3 { [%eval 0.34] } 8... a5
+{ [%eval 0.75] } 9. Bd3 { [%eval 0.53] } 9... Ba6 { [%eval 0.51] } 10. O-O $6
+{ [%eval -0.25] } 10... dxc4 { [%eval -0.29] } 11. Be2 { [%eval -0.62] } 11...
+b5 { [%eval -0.34] } 12. Re1 { [%eval -0.71] } 12... a4 $6 { [%eval -0.03] }
+13. e4 { [%eval -0.25] } 13... Bb7 { [%eval -0.06] } 14. Qd2 { [%eval -0.35] }
+14... Be7 { [%eval -0.27] } 15. Rad1 { [%eval -0.44] } 15... b4 $2
+{ [%eval 0.56] } 16. axb4 { [%eval 0.4] } 16... Bxb4 { [%eval 0.77] } 17. Qe3
+$2 { [%eval -0.42] } 17... Bxc3 $2 { [%eval 1.03] } 18. bxc3 { [%eval 0.87] }
+18... O-O { [%eval 0.93] } 19. Bxc4 { [%eval 1.2] } 19... a3 $6
+{ [%eval 1.73] } 20. Ra1 $6 { [%eval 0.79] } 20... Nb6 $6 { [%eval 1.5] } 21.
+Ba2 { [%eval 1.33] } 21... Nh5 $2 { [%eval 3.03] } 22. Bxh6 { [%eval 2.61] }
+22... gxh6 $2 { [%eval 4.29] } 23. Qxh6 { [%eval 4.02] } 23... Ng7 $4
+{ [%eval 9.22] } 24. Ng5 { [%eval 8.94] } 24... f6 $2 { [%eval #1] } 25. Qh7#
+1-0

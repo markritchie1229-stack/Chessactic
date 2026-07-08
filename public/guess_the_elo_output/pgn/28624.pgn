@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/j2fJ4F4V"]
+[Date "????.??.??"]
+[Round "?"]
+[White "krioish2"]
+[Black "Di1etant"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:12:14"]
+[WhiteElo "1132"]
+[BlackElo "1212"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+25"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.29] } 2. Nc3 { [%eval 0.0] } 2... Nf6
+{ [%eval 0.1] } 3. Nf3 { [%eval 0.07] } 3... Bb4 { [%eval 0.05] } 4. Nxe5
+{ [%eval 0.2] } 4... Nxe4 $2 { [%eval 2.23] } 5. Nxe4 $6 { [%eval 1.56] } 5...
+Qe7 { [%eval 1.81] } 6. f4 { [%eval 1.39] } 6... d6 { [%eval 1.6] } 7. c3
+{ [%eval 1.39] } 7... Ba5 $2 { [%eval 3.95] } 8. Qa4+ { [%eval 3.77] } 8... c6
+$2 { [%eval 5.09] } 9. Qxa5 { [%eval 5.16] } 9... b6 $6 { [%eval 6.08] } 10.
+Qa3 { [%eval 5.95] } 10... dxe5 { [%eval 5.8] } 11. fxe5 $2 { [%eval 4.57] }
+11... Qxe5 { [%eval 4.48] } 12. Bd3 $2 { [%eval 2.88] } 12... Nd7 $2
+{ [%eval 5.41] } 13. O-O { [%eval 5.26] } 13... Nc5 { [%eval 5.21] } 14. Nxc5
+{ [%eval 5.19] } 14... bxc5 { [%eval 5.65] } 15. Qa4 { [%eval 5.22] } 15... Bd7
+{ [%eval 5.51] } 16. Bf5 { [%eval 5.28] } 16... g6 $4 { [%eval 11.65] } 17.
+Bxd7+ { [%eval 11.39] } 17... Kxd7 { [%eval 11.32] } 18. d4 { [%eval 10.06] }
+18... Qd5 { [%eval 11.31] } 19. c4 { [%eval 10.74] } 19... Qe4
+{ [%eval 16.64] } 20. d5 { [%eval 15.22] } 20... Qd4+ { [%eval 16.47] } 21. Rf2
+{ [%eval 11.69] } 21... Qd1+ $6 { [%eval #8] } 22. Rf1 $4 { [%eval -6.02] }
+22... Qxa4 { [%eval -5.83] } 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/ioEiLcPU"]
+[Site "https://lichess.org/5jnA397D"]
+[Date "????.??.??"]
+[Round "?"]
+[White "amirthr"]
+[Black "braxton"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:01:39"]
+[WhiteElo "1665"]
+[BlackElo "1670"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C45"]
+[Opening "Scotch Game: Schmidt Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.45] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.46] } 3. d4 { [%eval 0.06] } 3... exd4 { [%eval 0.22] } 4. Nxd4
+{ [%eval 0.0] } 4... Nf6 { [%eval 0.0] } 5. Nxc6 { [%eval 0.11] } 5... dxc6
+{ [%eval 0.23] } 6. Qxd8+ { [%eval 0.16] } 6... Kxd8 { [%eval 0.3] } 7. Bg5
+{ [%eval 0.05] } 7... Be7 { [%eval 0.35] } 8. Bxf6 $6 { [%eval -0.18] } 8...
+Bxf6 { [%eval -0.15] } 9. c3 { [%eval -0.17] } 9... Re8 { [%eval -0.1] } 10. f3
+{ [%eval -0.2] } 10... Be6 { [%eval 0.07] } 11. Nd2 { [%eval -0.01] } 11... Ke7
+{ [%eval 0.16] } 12. Nc4 $6 { [%eval -0.44] } 12... b6 { [%eval -0.16] } 13. f4
+{ [%eval -0.6] } 13... g6 { [%eval -0.13] } 14. e5 { [%eval -0.53] } 14... Bg7
+{ [%eval -0.42] } 15. O-O-O { [%eval -0.4] } 15... Bg4 { [%eval -0.03] } 16.
+Rd2 { [%eval -0.05] } 16... Rad8 { [%eval 0.0] } 17. Ne3 { [%eval 0.04] } 17...
+Be6 { [%eval 0.0] } 18. Bc4 { [%eval 0.0] } 18... Bc8 { [%eval 0.07] } 19. Rhd1
+{ [%eval -0.07] } 19... f6 { [%eval 0.04] } 20. Rxd8 { [%eval 0.08] } 20...
+Rxd8 { [%eval 0.07] } 21. Rxd8 { [%eval 0.05] } 21... Kxd8 { [%eval 0.09] } 22.
+exf6 { [%eval 0.03] } 22... Bxf6 { [%eval 0.03] } 23. Bg8 { [%eval 0.0] } 23...
+h6 { [%eval 0.06] } 24. Bh7 { [%eval -0.04] } 24... g5 { [%eval -0.08] } 25. f5
+{ [%eval -0.16] } 25... Ke7 { [%eval 0.0] } 26. Ng4 { [%eval -0.45] } 26... h5
+{ [%eval -0.52] } 27. Ne3 $6 { [%eval -1.35] } 27... Kd6 $2 { [%eval -0.16] }
+28. Bg6 { [%eval -0.16] } 28... h4 { [%eval -0.15] } 29. g3 { [%eval -0.12] }
+29... Ke5 $4 { [%eval 4.74] } 30. Ng4+ { [%eval 4.33] } 30... Ke4 $2
+{ [%eval 6.27] } 31. Nxf6+ { [%eval 6.04] } 1-0

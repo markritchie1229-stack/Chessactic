@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/MVWFXoCc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elikaj"]
+[Black "jaap12"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:30:42"]
+[WhiteElo "1252"]
+[BlackElo "1287"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+28"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... c5 { [%eval 0.29] } 2. Bc4 { [%eval 0.0] } 2... d6
+{ [%eval 0.27] } 3. Qf3 { [%eval -0.19] } 3... Nf6 { [%eval -0.17] } 4. Ne2
+{ [%eval -0.21] } 4... Nc6 { [%eval -0.06] } 5. c3 $2 { [%eval -1.24] } 5...
+Ne5 { [%eval -1.26] } 6. Qe3 $4 { [%eval -4.56] } 6... Nxc4 { [%eval -4.46] }
+7. Qd3 $6 { [%eval -5.01] } 7... Ne5 { [%eval -4.85] } 8. Qb5+ $4
+{ [%eval -9.29] } 8... Bd7 { [%eval -9.36] } 9. Qxb7 { [%eval -9.34] } 9... Rb8
+{ [%eval -9.23] } 10. Qxa7 $6 { [%eval -10.79] } 10... Ra8 { [%eval -10.47] }
+11. Qb7 { [%eval -10.66] } 11... Rb8 { [%eval -10.3] } 12. Qa6
+{ [%eval -10.63] } 12... Ra8 { [%eval -10.46] } 13. Qb7 { [%eval -10.49] }
+13... Bc6 { [%eval -10.38] } 14. Qb3 { [%eval -10.58] } 14... Nd3+
+{ [%eval -10.43] } 15. Kf1 { [%eval -10.41] } 15... Nxe4 { [%eval -9.93] } 16.
+Qc4 { [%eval -11.68] } 16... Nexf2 { [%eval -11.37] } 17. Rg1
+{ [%eval -21.12] } 17... e5 { [%eval -20.28] } 18. b4 { [%eval -23.85] } 18...
+d5 { [%eval -23.14] } 19. Qb3 { [%eval -37.02] } 19... Qf6 { [%eval -24.17] }
+20. Nf4 $6 { [%eval #-5] } 20... Qxf4 { [%eval #-4] } 0-1

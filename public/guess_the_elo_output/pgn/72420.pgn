@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/y23tB8RF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Spencer0690"]
+[Black "Edwin21E"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:40:04"]
+[WhiteElo "1096"]
+[BlackElo "1216"]
+[WhiteRatingDiff "-31"]
+[BlackRatingDiff "+20"]
+[ECO "A00"]
+[Opening "Kadas Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. h4 { [%eval -0.29] } 1... e5 { [%eval -0.31] } 2. Nf3 { [%eval -0.65] } 2...
+Nc6 { [%eval -0.31] } 3. Nc3 { [%eval -0.68] } 3... Nf6 { [%eval -0.24] } 4. g3
+$6 { [%eval -0.92] } 4... e4 { [%eval -0.81] } 5. d4 $2 { [%eval -2.5] } 5...
+exf3 { [%eval -2.6] } 6. Bh3 $6 { [%eval -3.24] } 6... Bd6 $6 { [%eval -2.46] }
+7. exf3 { [%eval -2.69] } 7... O-O { [%eval -2.64] } 8. Nb5 $6
+{ [%eval -3.45] } 8... Bb4+ { [%eval -3.38] } 9. Kf1 { [%eval -3.43] } 9... a6
+{ [%eval -3.37] } 10. g4 $4 { [%eval -6.7] } 10... axb5 { [%eval -6.49] } 11.
+b3 $4 { [%eval -9.74] } 11... Ba5 $2 { [%eval -7.62] } 12. Ba3 $2
+{ [%eval -10.45] } 12... b4 $2 { [%eval -8.39] } 13. Qe2 $2 { [%eval -13.94] }
+13... bxa3 { [%eval -13.72] } 14. Rb1 { [%eval -15.06] } 14... Nd5
+{ [%eval -14.11] } 15. Qd1 { [%eval -18.74] } 15... Nc3 { [%eval -18.28] } 16.
+Qd3 { [%eval -19.93] } 16... Nxb1 { [%eval -19.35] } 17. Qxh7+
+{ [%eval -33.63] } 17... Kxh7 { [%eval -32.97] } 18. g5 { [%eval -34.91] }
+18... Nd2+ { [%eval -34.66] } 19. Kg2 { [%eval -34.69] } 19... Nxd4
+{ [%eval -33.74] } 20. Rd1 { [%eval -38.13] } 20... N2xf3 { [%eval -36.47] }
+21. Rxd4 { [%eval -40.31] } 21... Nxd4 { [%eval -38.83] } 22. Bxd7 $6
+{ [%eval #-5] } 22... Qxd7 { [%eval #-4] } 0-1

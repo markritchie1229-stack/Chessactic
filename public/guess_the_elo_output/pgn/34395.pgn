@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/OEBQMFDB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TeodoraOgnjenDunja"]
+[Black "mckyam"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:49:28"]
+[WhiteElo "1646"]
+[BlackElo "1627"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Indian Defense"]
+[TimeControl "180+3"]
+[Termination "Normal"]
+
+1. g3 { [%eval 0.03] } 1... Nf6 { [%eval 0.1] } 2. Bg2 { [%eval 0.02] } 2... d5
+{ [%eval 0.03] } 3. b3 { [%eval -0.43] } 3... e5 { [%eval -0.38] } 4. Bb2
+{ [%eval -0.41] } 4... Bd6 { [%eval -0.38] } 5. e3 { [%eval -0.45] } 5... O-O
+{ [%eval -0.41] } 6. Ne2 { [%eval -0.5] } 6... Nc6 { [%eval -0.18] } 7. O-O
+{ [%eval -0.21] } 7... Be6 { [%eval 0.0] } 8. Nbc3 { [%eval -0.37] } 8... a6
+{ [%eval 0.03] } 9. d3 { [%eval -0.39] } 9... Qd7 { [%eval -0.26] } 10. e4
+{ [%eval -0.33] } 10... d4 { [%eval 0.0] } 11. Nb1 $6 { [%eval -0.54] } 11...
+Bh3 { [%eval -0.64] } 12. Kh1 { [%eval -0.65] } 12... Bxg2+ { [%eval -0.56] }
+13. Kxg2 { [%eval -0.65] } 13... Ng4 $6 { [%eval 0.0] } 14. Rh1 $4
+{ [%eval -3.53] } 14... Qe6 $2 { [%eval -0.61] } 15. Nd2 { [%eval -0.73] }
+15... Qg6 $6 { [%eval -0.23] } 16. Nf3 $2 { [%eval -1.89] } 16... f5
+{ [%eval -1.85] } 17. Nh4 { [%eval -1.7] } 17... Qf7 $2 { [%eval -0.13] } 18.
+Ng1 $2 { [%eval -2.71] } 18... h5 $2 { [%eval 0.14] } 19. Nxf5 $6
+{ [%eval -0.7] } 19... Ne7 { [%eval -0.77] } 20. Nxe7+ { [%eval -0.46] } 20...
+Bxe7 { [%eval -0.22] } 21. f3 $4 { [%eval -9.97] } 21... Ne3+ { [%eval -9.83] }
+22. Kf2 { [%eval -9.74] } 22... Nxd1+ { [%eval -9.56] } 23. Rxd1
+{ [%eval -9.21] } 23... Bg5 $2 { [%eval -8.13] } 24. h4 $2 { [%eval -11.44] }
+24... Be3+ { [%eval -11.07] } 25. Ke2 { [%eval -13.75] } 25... Qg6
+{ [%eval -13.37] } 26. Rf1 { [%eval -16.76] } 26... Qxg3 { [%eval -14.94] } 27.
+Rh3 $6 { [%eval #-3] } 27... Qg2+ { [%eval #-2] } 28. Rf2 { [%eval #-2] } 28...
+Qxf2+ { [%eval #-1] } 29. Kd1 { [%eval #-1] } 29... Qd2# 0-1

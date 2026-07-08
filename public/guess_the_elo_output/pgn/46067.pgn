@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Mm7MB7R6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lehkost"]
+[Black "Rentenhertie"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:13:39"]
+[WhiteElo "1057"]
+[BlackElo "1060"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-14"]
+[ECO "C60"]
+[Opening "Ruy Lopez"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.12] } 2... Nc6
+{ [%eval 0.15] } 3. Bb5 { [%eval 0.14] } 3... h6 $6 { [%eval 0.73] } 4. O-O
+{ [%eval 0.73] } 4... Nf6 { [%eval 0.71] } 5. Bxc6 { [%eval 0.29] } 5... dxc6
+{ [%eval 0.26] } 6. Nxe5 { [%eval 0.41] } 6... Bd6 { [%eval 0.37] } 7. d4
+{ [%eval 0.12] } 7... Bxe5 { [%eval 0.28] } 8. dxe5 { [%eval 0.14] } 8... Nxe4
+{ [%eval 0.3] } 9. Qxd8+ { [%eval 0.21] } 9... Kxd8 { [%eval 0.3] } 10. Rd1+
+{ [%eval 0.13] } 10... Ke7 { [%eval 0.12] } 11. f3 { [%eval 0.13] } 11... Nc5
+{ [%eval 0.25] } 12. Be3 { [%eval 0.37] } 12... b6 { [%eval 0.19] } 13. Nc3
+{ [%eval 0.15] } 13... Bf5 { [%eval 0.18] } 14. Rac1 { [%eval 0.02] } 14...
+Rad8 { [%eval 0.07] } 15. Rxd8 { [%eval 0.0] } 15... Rxd8 { [%eval 0.07] } 16.
+Ne4 $2 { [%eval -1.9] } 16... Nxe4 $6 { [%eval -1.36] } 17. fxe4
+{ [%eval -1.37] } 17... Bxe4 { [%eval -1.41] } 18. Bf4 { [%eval -1.74] } 18...
+g5 { [%eval -1.5] } 19. Bg3 $6 { [%eval -2.05] } 19... f5 $2 { [%eval -0.44] }
+20. exf6+ { [%eval -0.47] } 20... Kxf6 { [%eval -0.46] } 21. Rf1+
+{ [%eval -0.4] } 21... Kg6 { [%eval -0.41] } 22. c4 { [%eval -0.83] } 22... c5
+$6 { [%eval -0.1] } 23. b3 $6 { [%eval -0.81] } 23... a5 $6 { [%eval 0.0] } 24.
+a4 $6 { [%eval -0.62] } 24... c6 { [%eval -0.36] } 25. h3 $6 { [%eval -0.87] }
+25... Rd3 { [%eval -0.88] } 26. Re1 $4 { [%eval -4.07] } 26... Rxg3
+{ [%eval -3.86] } 27. Rxe4 { [%eval -3.89] } 27... Rxb3 $2 { [%eval -2.18] }
+28. Kh2 $2 { [%eval -4.63] } 1-0

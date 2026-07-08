@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NBkTGsHC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ut21"]
+[Black "garg2807"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "05:46:30"]
+[WhiteElo "1674"]
+[BlackElo "1566"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+26"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.38] } 1... e5 { [%eval 0.39] } 2. Nc3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.25] } 3. Bb5 { [%eval 0.04] } 3... Nf6 { [%eval 0.13] } 4. d3
+{ [%eval -0.11] } 4... Bb4 { [%eval 0.06] } 5. Bxc6 { [%eval 0.06] } 5... dxc6
+{ [%eval 0.15] } 6. Bd2 { [%eval 0.0] } 6... O-O { [%eval 0.02] } 7. h3
+{ [%eval 0.05] } 7... Be6 { [%eval 0.12] } 8. g4 { [%eval -0.22] } 8... c5
+{ [%eval -0.18] } 9. a3 { [%eval -0.2] } 9... Ba5 { [%eval -0.16] } 10. g5
+{ [%eval -0.46] } 10... Nd7 { [%eval -0.43] } 11. h4 { [%eval -0.59] } 11... c4
+$6 { [%eval 0.0] } 12. h5 $2 { [%eval -1.57] } 12... cxd3 { [%eval -1.6] } 13.
+cxd3 $2 { [%eval -3.21] } 13... Nc5 { [%eval -2.75] } 14. b4 $2
+{ [%eval -5.68] } 14... Nxd3+ { [%eval -5.32] } 15. Ke2 $6 { [%eval -6.27] }
+15... Nb2 $4 { [%eval -3.1] } 16. Qc2 { [%eval -2.95] } 16... Bc4+
+{ [%eval -2.86] } 17. Kf3 { [%eval -2.85] } 17... Nd3 $4 { [%eval 0.43] } 18.
+bxa5 { [%eval 0.41] } 18... f6 { [%eval 0.66] } 19. Nh3 $2 { [%eval -2.19] }
+19... fxg5+ { [%eval -2.58] } 20. Kg2 { [%eval -2.51] } 20... Nf4+ $4
+{ [%eval 0.52] } 21. Nxf4 { [%eval 0.51] } 21... gxf4 { [%eval 0.76] } 22. f3
+$4 { [%eval #-2] } 22... Qg5+ { [%eval #-1] } 23. Kf2 { [%eval #-1] } 23...
+Qg3# 0-1

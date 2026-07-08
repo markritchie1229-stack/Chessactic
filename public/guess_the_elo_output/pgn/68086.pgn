@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zdG7xnR6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DieHard5"]
+[Black "fernandojara_31"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:42:09"]
+[WhiteElo "1556"]
+[BlackElo "1519"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+42"]
+[ECO "A45"]
+[Opening "Indian Game: Tartakower Attack"]
+[TimeControl "300+6"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... Nf6 { [%eval 0.22] } 2. g3 { [%eval -0.1] } 2... c6
+{ [%eval 0.26] } 3. Bg2 { [%eval 0.18] } 3... e5 $2 { [%eval 1.27] } 4. d5 $2
+{ [%eval -0.77] } 4... Nxd5 { [%eval -0.73] } 5. Bxd5 { [%eval -0.76] } 5...
+Qa5+ $6 { [%eval -0.09] } 6. Nc3 { [%eval -0.09] } 6... cxd5 { [%eval -0.08] }
+7. a3 $4 { [%eval -4.02] } 7... d4 { [%eval -3.73] } 8. b4 { [%eval -4.09] }
+8... Qb6 $4 { [%eval -0.93] } 9. Nd5 { [%eval -0.86] } 9... Qc6
+{ [%eval -0.92] } 10. c4 $2 { [%eval -2.04] } 10... Qxc4 $6 { [%eval -1.41] }
+11. e4 { [%eval -1.66] } 11... d3 $2 { [%eval -0.45] } 12. Nf3 $4
+{ [%eval -4.06] } 12... Qxe4+ { [%eval -3.91] } 13. Ne3 { [%eval -3.95] } 13...
+d5 $2 { [%eval -2.2] } 14. O-O { [%eval -2.15] } 14... Bg4 $2 { [%eval 0.05] }
+15. Qa4+ $2 { [%eval -2.39] } 15... Nc6 $2 { [%eval 0.29] } 16. Nd2 $2
+{ [%eval -1.77] } 16... Qg6 { [%eval -1.32] } 17. Nxd5 $2 { [%eval -2.48] }
+17... Bd6 { [%eval -2.12] } 18. Qb5 $6 { [%eval -3.06] } 18... O-O
+{ [%eval -2.93] } 19. Qxb7 $6 { [%eval -3.62] } 19... Nd4 { [%eval -3.43] } 20.
+Nc4 $4 { [%eval -10.64] } 20... Bh3 $4 { [%eval -4.83] } 21. Rd1 $4
+{ [%eval #-3] } 21... Qe4 $4 { [%eval 6.46] } 22. Be3 $4 { [%eval #-1] } 22...
+Qg2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/H9bRMaQi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "proga"]
+[Black "trsqua"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:07:09"]
+[WhiteElo "1201"]
+[BlackElo "1209"]
+[WhiteRatingDiff "-100"]
+[BlackRatingDiff "+9"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.16] } 2...
+Nc6 { [%eval 0.34] } 3. Nc3 { [%eval 0.08] } 3... Bc5 $6 { [%eval 0.6] } 4. d3
+$6 { [%eval -0.04] } 4... Nf6 { [%eval 0.06] } 5. a3 { [%eval -0.14] } 5... d6
+{ [%eval 0.12] } 6. b4 { [%eval -0.05] } 6... Bb6 { [%eval -0.04] } 7. b5 $2
+{ [%eval -1.72] } 7... Ne7 $2 { [%eval -0.48] } 8. d4 $6 { [%eval -1.37] } 8...
+Ng4 $2 { [%eval 0.0] } 9. dxe5 $4 { [%eval -4.28] } 9... Nxf2 { [%eval -3.98] }
+10. Qd2 $2 { [%eval -5.4] } 10... Nxh1 { [%eval -5.39] } 11. Ng5 $6
+{ [%eval -6.29] } 11... O-O { [%eval -6.24] } 12. exd6 { [%eval -6.65] } 12...
+cxd6 { [%eval -6.37] } 13. g3 $2 { [%eval -7.7] } 13... Bf2+ { [%eval -7.31] }
+14. Ke2 $2 { [%eval -11.6] } 14... Bg4+ { [%eval -11.1] } 15. Kd3
+{ [%eval -13.16] } 15... h6 { [%eval -9.66] } 16. Bg2 { [%eval -10.62] } 16...
+hxg5 { [%eval -10.1] } 17. Bxh1 { [%eval -15.67] } 17... Bg1 $2
+{ [%eval -8.47] } 18. Nd5 $2 { [%eval -14.96] } 18... Nxd5 { [%eval -13.63] }
+19. exd5 { [%eval -16.85] } 19... Bf5+ { [%eval -16.1] } 20. Kc4 $6
+{ [%eval #-13] } 20... Rc8+ { [%eval #-12] } 21. Kb3 { [%eval #-12] } 21... Qb6
+$6 { [%eval -12.98] } 22. Qxg5 $6 { [%eval #-3] } 22... Bxc2+ $6
+{ [%eval #-6] } 23. Ka2 { [%eval #-6] } 23... Qd4 { [%eval #-12] } 24. Bb2
+{ [%eval #-1] } 24... Qc4# 0-1

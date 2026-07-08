@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/6pPIGBkx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LosingHappens"]
+[Black "AaronAvelar"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:51:25"]
+[WhiteElo "1959"]
+[BlackElo "1700"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+18"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.02] } 1... d5 { [%eval 0.03] } 2. Bg2 { [%eval -0.35] } 2...
+Nf6 { [%eval 0.0] } 3. b3 $6 { [%eval -0.51] } 3... c5 { [%eval -0.31] } 4. Bb2
+{ [%eval -0.35] } 4... Nbd7 { [%eval 0.14] } 5. d3 { [%eval -0.16] } 5... g6 $6
+{ [%eval 0.36] } 6. Nd2 { [%eval 0.2] } 6... Bg7 $2 { [%eval 1.32] } 7. e3 $2
+{ [%eval -0.03] } 7... O-O { [%eval 0.03] } 8. Qe2 { [%eval -0.19] } 8... b6
+{ [%eval 0.3] } 9. h4 $6 { [%eval -0.51] } 9... Bb7 { [%eval -0.2] } 10. g4
+{ [%eval -0.58] } 10... h5 { [%eval -0.54] } 11. gxh5 { [%eval -0.94] } 11...
+Nxh5 { [%eval -0.84] } 12. Bxg7 { [%eval -0.89] } 12... Kxg7 { [%eval -0.75] }
+13. Bf3 { [%eval -0.79] } 13... Ndf6 { [%eval -0.62] } 14. Bxh5
+{ [%eval -0.73] } 14... Nxh5 { [%eval -0.73] } 15. Ngf3 { [%eval -0.83] } 15...
+d4 $6 { [%eval -0.14] } 16. e4 $2 { [%eval -1.21] } 16... f5 $2
+{ [%eval 0.16] } 17. exf5 $2 { [%eval -0.88] } 17... Rxf5 { [%eval -0.68] } 18.
+Ng5 $2 { [%eval -2.71] } 18... Bxh1 $4 { [%eval 1.53] } 19. Ne6+
+{ [%eval 1.52] } 19... Kf6 $6 { [%eval 2.27] } 20. Nxd8 { [%eval 1.82] } 20...
+Re5 $2 { [%eval 3.26] } 21. Qxe5+ $4 { [%eval -0.43] } 21... Kxe5
+{ [%eval -0.3] } 22. Nc6+ $4 { [%eval -5.45] } 22... Bxc6 { [%eval -5.26] } 23.
+Nf3+ $4 { [%eval -10.68] } 23... Kf6 $4 { [%eval -5.98] } 0-1

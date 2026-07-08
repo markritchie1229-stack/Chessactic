@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/50O6JQ3r"]
+[Date "????.??.??"]
+[Round "?"]
+[White "otenko_sol"]
+[Black "Amel86"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:28:00"]
+[WhiteElo "1515"]
+[BlackElo "1410"]
+[WhiteRatingDiff "+39"]
+[BlackRatingDiff "-8"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.26] } 2. Nf3 { [%eval 0.29] } 2... e6
+{ [%eval 0.23] } 3. Bg5 { [%eval 0.0] } 3... f6 { [%eval 0.37] } 4. Bh4
+{ [%eval 0.04] } 4... Na6 $6 { [%eval 0.8] } 5. Nc3 $6 { [%eval 0.05] } 5...
+Bb4 { [%eval 0.06] } 6. e3 { [%eval 0.22] } 6... Bxc3+ { [%eval 0.5] } 7. bxc3
+{ [%eval 0.31] } 7... g5 $6 { [%eval 0.92] } 8. Bg3 { [%eval 0.82] } 8... h5
+{ [%eval 0.97] } 9. h3 { [%eval 0.9] } 9... Ne7 { [%eval 1.04] } 10. Bb5+
+{ [%eval 0.78] } 10... c6 { [%eval 0.65] } 11. Ba4 $2 { [%eval -1.09] } 11...
+Nf5 { [%eval -0.64] } 12. O-O { [%eval -0.63] } 12... h4 $2 { [%eval 0.96] }
+13. Bh2 { [%eval 0.76] } 13... b5 { [%eval 1.24] } 14. Bb3 { [%eval 1.12] }
+14... b4 $2 { [%eval 2.41] } 15. cxb4 { [%eval 2.38] } 15... Nxb4
+{ [%eval 2.33] } 16. c3 { [%eval 2.29] } 16... Nxe3 $4 { [%eval 6.59] } 17.
+fxe3 { [%eval 6.28] } 17... Nxa2 $2 { [%eval 7.57] } 18. Rxa2 { [%eval 7.46] }
+18... Ba6 $2 { [%eval 12.27] } 19. Rff2 $2 { [%eval 7.87] } 19... Rb8 $2
+{ [%eval 12.56] } 20. Bc2 { [%eval 10.95] } 20... Bc4 { [%eval 16.12] } 21.
+Rxa7 { [%eval 11.41] } 21... Bb3 $6 { [%eval #8] } 22. Bxb3 $6
+{ [%eval 13.05] } 22... Rxb3 $6 { [%eval #7] } 23. Qxb3 { [%eval #6] } 23...
+O-O { [%eval #4] } 24. Qb7 { [%eval #3] } 24... Rf7 { [%eval #2] } 25. Qxf7+
+{ [%eval #1] } 1-0

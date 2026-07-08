@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/kBV8gBmU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Shamkovich"]
+[Black "starksimilarity"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:42:50"]
+[WhiteElo "1942"]
+[BlackElo "1646"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-4"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.21] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.16] } 3. Bb5 { [%eval 0.17] } 3... e6 { [%eval 0.25] } 4. O-O
+{ [%eval 0.24] } 4... Qb6 { [%eval 0.4] } 5. Nc3 { [%eval 0.41] } 5... Nd4
+{ [%eval 0.43] } 6. Bc4 { [%eval 0.28] } 6... Qc6 $6 { [%eval 0.9] } 7. Ne5 $6
+{ [%eval 0.29] } 7... Qd6 { [%eval 0.75] } 8. f4 { [%eval 0.66] } 8... a6
+{ [%eval 0.75] } 9. a4 { [%eval 0.72] } 9... Nc6 $6 { [%eval 1.35] } 10. d3
+{ [%eval 1.23] } 10... Nxe5 $6 { [%eval 1.76] } 11. fxe5 { [%eval 1.64] } 11...
+Qxe5 { [%eval 1.77] } 12. Bf4 { [%eval 1.54] } 12... Qd4+ { [%eval 1.81] } 13.
+Kh1 { [%eval 1.48] } 13... Bd6 $4 { [%eval 6.11] } 14. Bxd6 $4 { [%eval 1.0] }
+14... Qxd6 { [%eval 1.03] } 15. Qg4 $2 { [%eval -0.26] } 15... g6 $2
+{ [%eval 1.07] } 16. Rae1 { [%eval 1.35] } 16... Qf8 { [%eval 1.73] } 17. e5
+{ [%eval 1.33] } 17... Nh6 $2 { [%eval 2.68] } 18. Qg5 { [%eval 2.54] } 18...
+Qg7 { [%eval 2.68] } 19. Ne4 $2 { [%eval 1.62] } 19... Nf5 $4 { [%eval 7.04] }
+20. g4 $4 { [%eval 3.9] } 20... Nd4 $4 { [%eval #2] } 21. Nd6+ { [%eval #1] }
+21... Kf8 { [%eval #1] } 22. Qd8# 1-0

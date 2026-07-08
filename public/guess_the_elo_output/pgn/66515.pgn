@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lOViUKuG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chesschamp123"]
+[Black "StuartThailand"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:36:52"]
+[WhiteElo "1334"]
+[BlackElo "1802"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+2"]
+[ECO "A40"]
+[Opening "Modern Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.1] } 1... g6 $6 { [%eval 0.63] } 2. c4 { [%eval 0.39] } 2...
+Bg7 { [%eval 0.53] } 3. d5 { [%eval 0.13] } 3... e6 { [%eval 0.27] } 4. Nc3
+{ [%eval 0.23] } 4... Ne7 { [%eval 0.34] } 5. Nf3 { [%eval 0.14] } 5... O-O
+{ [%eval 0.54] } 6. e4 { [%eval 0.07] } 6... d6 { [%eval 0.16] } 7. Bg5
+{ [%eval -0.04] } 7... f6 { [%eval 0.04] } 8. Bh4 { [%eval -0.18] } 8... exd5
+{ [%eval -0.18] } 9. cxd5 { [%eval -0.23] } 9... c5 $6 { [%eval 0.62] } 10. Qc2
+$6 { [%eval -0.1] } 10... Bd7 $6 { [%eval 0.71] } 11. O-O-O $6 { [%eval 0.13] }
+11... b5 $6 { [%eval 0.92] } 12. Bxb5 { [%eval 0.83] } 12... Bxb5
+{ [%eval 0.97] } 13. Nxb5 { [%eval 0.91] } 13... a6 { [%eval 1.3] } 14. Nc3
+{ [%eval 1.16] } 14... Nd7 { [%eval 1.24] } 15. Rhe1 { [%eval 0.81] } 15... Ne5
+{ [%eval 1.13] } 16. Nxe5 { [%eval 1.11] } 16... dxe5 $2 { [%eval 2.3] } 17. f4
+$6 { [%eval 1.69] } 17... Qc7 $4 { [%eval 5.2] } 18. fxe5 $2 { [%eval 3.52] }
+18... Qxe5 { [%eval 3.42] } 19. Bg3 { [%eval 3.52] } 19... Qg5+ $6
+{ [%eval 4.41] } 20. Kb1 { [%eval 4.16] } 20... f5 { [%eval 4.4] } 21. d6
+{ [%eval 4.25] } 21... Nc6 { [%eval 4.12] } 22. d7 $2 { [%eval 1.59] } 22...
+Rad8 $2 { [%eval 4.23] } 23. Bc7 { [%eval 3.85] } 23... Qe7 $4 { [%eval 7.55] }
+24. Bxd8 $6 { [%eval 6.75] } 24... Nxd8 $2 { [%eval 8.23] } 25. exf5
+{ [%eval 7.87] } 25... Nc6 $2 { [%eval 24.23] } 0-1

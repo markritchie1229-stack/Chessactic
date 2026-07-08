@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Yos3IrZd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hcypt"]
+[Black "Fartspace"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:02:59"]
+[WhiteElo "1555"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+204"]
+[ECO "C41"]
+[Opening "Philidor Defense: Philidor Countergambit, Zukertort Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... d6 { [%eval 0.6] } 2. Nf3 { [%eval 0.25] } 2... e5
+{ [%eval 0.35] } 3. Nc3 { [%eval 0.39] } 3... f5 $6 { [%eval 1.25] } 4. d4
+{ [%eval 1.14] } 4... Nc6 $6 { [%eval 1.89] } 5. h3 $2 { [%eval -0.01] } 5...
+Nf6 $6 { [%eval 0.85] } 6. Bg5 { [%eval 0.43] } 6... Be7 { [%eval 0.68] } 7.
+Bd3 $2 { [%eval -0.63] } 7... h6 $2 { [%eval 0.88] } 8. Bxf6 { [%eval 0.7] }
+8... Bxf6 { [%eval 0.62] } 9. exf5 { [%eval 0.6] } 9... Bxf5 $4
+{ [%eval 4.43] } 10. Bxf5 { [%eval 4.44] } 10... exd4 { [%eval 4.79] } 11. Nd5
+{ [%eval 4.45] } 11... O-O { [%eval 4.29] } 12. Nxf6+ $2 { [%eval 2.16] } 12...
+Rxf6 $6 { [%eval 3.0] } 13. Bd3 { [%eval 3.03] } 13... Re6+ { [%eval 2.99] }
+14. Be2 { [%eval 2.68] } 14... Qf6 $2 { [%eval 3.81] } 15. O-O { [%eval 3.54] }
+15... Rae8 $2 { [%eval 6.12] } 16. Bc4 { [%eval 5.94] } 16... Ne5
+{ [%eval 6.32] } 17. Bxe6+ { [%eval 6.22] } 17... Rxe6 { [%eval 6.24] } 18.
+Nxe5 $6 { [%eval 5.62] } 18... Rxe5 $6 { [%eval 6.51] } 19. Qxd4
+{ [%eval 6.39] } 19... c5 $6 { [%eval 7.08] } 20. Qd3 { [%eval 6.96] } 20...
+Rg5 $6 { [%eval 7.88] } 21. Qf3 $4 { [%eval -7.13] } 21... Qxb2 $4
+{ [%eval 7.29] } 22. Rab1 { [%eval 6.93] } 22... Qxc2 { [%eval 7.15] } 23. Qxb7
+$6 { [%eval 6.6] } 23... Qf5 $4 { [%eval 9.78] } 24. Rbd1 $2 { [%eval 6.88] }
+24... Qxh3 $2 { [%eval 8.37] } 25. Qf3 $4 { [%eval #-3] } 25... Qxf3
+{ [%eval #-2] } 26. Rxd6 { [%eval #-1] } 26... Qxg2# 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/rVP4P2gf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Davejb55"]
+[Black "Dartagnan56"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:42:41"]
+[WhiteElo "1627"]
+[BlackElo "1631"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... c6 { [%eval 0.4] } 2. d4 { [%eval 0.45] } 2... d6
+{ [%eval 0.73] } 3. Nf3 { [%eval 0.77] } 3... Nd7 { [%eval 0.62] } 4. Bd3
+{ [%eval 0.66] } 4... Qc7 { [%eval 0.64] } 5. O-O { [%eval 0.56] } 5... e5
+{ [%eval 0.56] } 6. dxe5 { [%eval 0.29] } 6... dxe5 { [%eval 0.15] } 7. b3
+{ [%eval 0.08] } 7... Be7 { [%eval 0.46] } 8. Bb2 { [%eval 0.17] } 8... Ngf6 $6
+{ [%eval 0.82] } 9. Nbd2 { [%eval 0.86] } 9... O-O { [%eval 0.77] } 10. Nc4
+{ [%eval 0.79] } 10... Bd6 { [%eval 0.9] } 11. Qe2 { [%eval 0.77] } 11... Re8
+{ [%eval 0.89] } 12. Rfd1 $6 { [%eval 0.06] } 12... Bf8 { [%eval 0.25] } 13.
+Rd2 $6 { [%eval -0.33] } 13... b5 { [%eval -0.29] } 14. Ne3 { [%eval -0.46] }
+14... a6 { [%eval -0.2] } 15. Rad1 { [%eval -0.43] } 15... Bb7 { [%eval 0.0] }
+16. c4 { [%eval 0.07] } 16... Nc5 { [%eval 0.25] } 17. cxb5 $6
+{ [%eval -0.37] } 17... axb5 { [%eval 0.07] } 18. Bxe5 $2 { [%eval -1.95] }
+18... Rxe5 { [%eval -2.06] } 19. Nxe5 { [%eval -2.05] } 19... Qxe5
+{ [%eval -1.93] } 20. Bb1 { [%eval -2.2] } 20... Ne6 { [%eval -2.09] } 21. f3
+$2 { [%eval -3.19] } 21... Nf4 $2 { [%eval -1.96] } 22. Qf1 $2
+{ [%eval -2.96] } 22... Bb4 $2 { [%eval -1.85] } 23. Rd8+ { [%eval -1.81] }
+23... Ne8 $6 { [%eval -0.94] } 24. Rxa8 { [%eval -1.06] } 24... Bxa8
+{ [%eval -1.04] } 25. Rd8 { [%eval -1.52] } 25... Bb7 { [%eval -1.39] } 26. Ng4
+{ [%eval -1.7] } 26... Qc5+ $6 { [%eval -1.1] } 27. Kh1 { [%eval -1.14] } 27...
+h6 $4 { [%eval 8.99] } 28. Rxe8+ { [%eval 8.53] } 28... Kh7 { [%eval 8.28] }
+29. e5+ { [%eval 7.64] } 29... g6 $2 { [%eval #2] } 30. Nf6+ { [%eval #1] }
+30... Kg7 { [%eval #1] } 31. Rg8# 1-0

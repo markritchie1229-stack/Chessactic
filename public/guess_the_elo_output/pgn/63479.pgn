@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/hrXkeXKr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Damscientist"]
+[Black "selnica"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:42:13"]
+[WhiteElo "1826"]
+[BlackElo "1812"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.3] } 1... d5 { [%eval 0.58] } 2. exd5 { [%eval 0.58] } 2...
+Qxd5 { [%eval 0.68] } 3. d4 { [%eval 0.36] } 3... c6 $6 { [%eval 0.87] } 4. c4
+{ [%eval 0.6] } 4... Qd6 { [%eval 0.87] } 5. Nc3 { [%eval 0.62] } 5... Nf6
+{ [%eval 0.87] } 6. Nf3 { [%eval 0.83] } 6... Bg4 { [%eval 0.83] } 7. Be2
+{ [%eval 0.77] } 7... e6 { [%eval 0.77] } 8. h3 { [%eval 0.82] } 8... Bxf3
+{ [%eval 0.83] } 9. Bxf3 { [%eval 0.74] } 9... Be7 { [%eval 0.77] } 10. O-O
+{ [%eval 0.83] } 10... O-O { [%eval 0.83] } 11. Re1 { [%eval 0.69] } 11... Rd8
+{ [%eval 0.78] } 12. Be3 { [%eval 0.8] } 12... Nbd7 { [%eval 0.83] } 13. Qc2
+{ [%eval 0.68] } 13... Nf8 { [%eval 0.83] } 14. Rad1 { [%eval 0.97] } 14... b6
+$6 { [%eval 1.73] } 15. Qa4 { [%eval 1.39] } 15... Rdc8 { [%eval 1.5] } 16. d5
+{ [%eval 1.56] } 16... exd5 $2 { [%eval 2.6] } 17. cxd5 { [%eval 2.78] } 17...
+Nxd5 { [%eval 2.86] } 18. Nxd5 { [%eval 2.67] } 18... cxd5 { [%eval 2.76] } 19.
+Bf4 $2 { [%eval 0.14] } 19... Qb4 { [%eval 0.28] } 20. Qa6 { [%eval 0.0] }
+20... Ne6 $6 { [%eval 0.92] } 21. Bh2 $6 { [%eval 0.14] } 21... Re8 $6
+{ [%eval 1.01] } 22. Bxd5 { [%eval 0.87] } 22... Rad8 { [%eval 0.91] } 23. Bc6
+$2 { [%eval -0.2] } 23... Rxd1 { [%eval -0.29] } 24. Rxd1 { [%eval -0.33] }
+24... Rd8 { [%eval -0.26] } 25. Rxd8+ { [%eval -0.18] } 25... Bxd8
+{ [%eval 0.0] } 0-1

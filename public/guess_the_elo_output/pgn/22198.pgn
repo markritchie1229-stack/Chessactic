@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1TOeeBup"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TimAstier"]
+[Black "TrumpTower"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:56:51"]
+[WhiteElo "2020"]
+[BlackElo "1895"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+48"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.23] } 3. Bc4 { [%eval 0.13] } 3... Nf6 { [%eval 0.13] } 4. d3
+{ [%eval 0.08] } 4... h6 { [%eval 0.11] } 5. a3 { [%eval 0.07] } 5... a5
+{ [%eval 0.28] } 6. O-O { [%eval 0.08] } 6... Bc5 { [%eval 0.13] } 7. Re1
+{ [%eval 0.06] } 7... O-O { [%eval 0.1] } 8. c3 { [%eval 0.1] } 8... d6
+{ [%eval 0.0] } 9. d4 { [%eval -0.19] } 9... exd4 { [%eval 0.11] } 10. cxd4
+{ [%eval 0.14] } 10... Bb6 { [%eval 0.2] } 11. h3 { [%eval 0.06] } 11... d5
+{ [%eval 0.1] } 12. exd5 { [%eval 0.1] } 12... Nxd5 { [%eval 0.21] } 13. Nc3
+{ [%eval 0.23] } 13... Nxc3 $6 { [%eval 0.96] } 14. bxc3 { [%eval 0.86] } 14...
+Qd6 $6 { [%eval 1.41] } 15. a4 { [%eval 1.29] } 15... Qg6 { [%eval 1.51] } 16.
+Nh4 { [%eval 1.33] } 16... Qf6 { [%eval 1.31] } 17. Re4 { [%eval 1.09] } 17...
+Bd7 $2 { [%eval 3.11] } 18. Ba3 $2 { [%eval 0.45] } 18... Rfe8 { [%eval 0.47] }
+19. Rxe8+ { [%eval 0.39] } 19... Rxe8 { [%eval 0.47] } 20. Nf3 { [%eval 0.36] }
+20... Qg6 { [%eval 0.41] } 21. Bd3 { [%eval 0.47] } 21... Qf6 { [%eval 0.43] }
+22. Ra2 { [%eval 0.33] } 22... Ne7 { [%eval 0.28] } 23. Ne5 { [%eval 0.25] }
+23... Be6 { [%eval 0.26] } 24. Re2 { [%eval 0.0] } 24... Nd5 { [%eval 0.0] }
+25. Ng4 { [%eval 0.0] } 25... Qg5 { [%eval 0.08] } 26. Bc1 $2 { [%eval -1.79] }
+26... Qh4 $2 { [%eval 0.37] } 27. Re4 $4 { [%eval -3.35] } 27... Nxc3
+{ [%eval -3.25] } 28. Qf3 $2 { [%eval -6.11] } 28... Nxe4 { [%eval -5.78] } 29.
+Qxe4 $2 { [%eval -7.61] } 29... f5 { [%eval -7.45] } 30. Nxh6+
+{ [%eval -7.77] } 30... Qxh6 { [%eval -7.43] } 0-1

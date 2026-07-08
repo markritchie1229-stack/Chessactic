@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/bwpgYVu1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fg8pro"]
+[Black "rat1234"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:08:05"]
+[WhiteElo "1465"]
+[BlackElo "1374"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+13"]
+[ECO "C41"]
+[Opening "Philidor Defense: Lopez Countergambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.31] } 2... d6
+{ [%eval 0.3] } 3. Bc4 { [%eval 0.28] } 3... f5 $6 { [%eval 1.1] } 4. d3
+{ [%eval 0.66] } 4... Nf6 { [%eval 1.09] } 5. Nc3 { [%eval 0.85] } 5... Bd7 $2
+{ [%eval 2.27] } 6. Nd5 $2 { [%eval 0.41] } 6... Nxd5 { [%eval 0.62] } 7. Bxd5
+{ [%eval 0.51] } 7... c6 { [%eval 0.73] } 8. Bb3 { [%eval 0.67] } 8... Na6 $6
+{ [%eval 1.53] } 9. Bg5 $2 { [%eval 0.04] } 9... Be7 { [%eval -0.14] } 10. Bxe7
+{ [%eval -0.19] } 10... Qxe7 { [%eval -0.15] } 11. O-O { [%eval -0.43] } 11...
+O-O-O { [%eval -0.11] } 12. Qd2 { [%eval -0.31] } 12... b5 $2 { [%eval 1.71] }
+13. Qa5 { [%eval 1.42] } 13... f4 $4 { [%eval 5.81] } 14. Qxa6+
+{ [%eval 5.68] } 14... Kb8 { [%eval 5.6] } 15. c4 $6 { [%eval 4.68] } 15... Bg4
+$2 { [%eval 6.37] } 16. cxb5 { [%eval 6.01] } 16... Rc8 $6 { [%eval 7.0] } 17.
+Nd2 { [%eval 6.55] } 17... f3 { [%eval 6.81] } 18. g3 $6 { [%eval 6.27] } 18...
+Bh3 $2 { [%eval 7.73] } 19. Rfc1 { [%eval 7.71] } 19... Qg5 $2
+{ [%eval 11.03] } 20. Nxf3 $6 { [%eval 9.37] } 20... Qg4 $6 { [%eval 12.16] }
+21. bxc6 { [%eval 9.52] } 21... Rxc6 $2 { [%eval #12] } 22. Bd5 $4
+{ [%eval #-5] } 22... Qxf3 { [%eval #-4] } 23. Qb5+ { [%eval #-4] } 23... Kc7
+$4 { [%eval #13] } 24. Qxc6+ { [%eval #12] } 24... Kd8 { [%eval #14] } 25. Qc7+
+{ [%eval #16] } 25... Ke8 { [%eval #17] } 26. Qxd6 $4 { [%eval #-1] } 26...
+Qg2# 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IicpR77P"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kaptankap"]
+[Black "naichik"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:37:45"]
+[WhiteElo "1584"]
+[BlackElo "1680"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... c5 { [%eval 0.44] } 2. f4 { [%eval 0.01] } 2... Nc6
+{ [%eval 0.03] } 3. Nf3 { [%eval -0.01] } 3... d5 { [%eval 0.29] } 4. e5 $6
+{ [%eval -0.45] } 4... Bg4 { [%eval -0.2] } 5. Be2 { [%eval -0.45] } 5... e6
+{ [%eval -0.36] } 6. d3 { [%eval -0.45] } 6... Nd4 $4 { [%eval 3.39] } 7. Nxd4
+{ [%eval 3.17] } 7... Bxe2 $6 { [%eval 3.68] } 8. Nxe2 { [%eval 3.58] } 8...
+Qh4+ { [%eval 3.74] } 9. g3 { [%eval 3.64] } 9... Qh3 { [%eval 3.65] } 10. Nd2
+{ [%eval 3.74] } 10... Nh6 { [%eval 3.99] } 11. Nf3 { [%eval 3.7] } 11... Nf5
+{ [%eval 3.87] } 12. Ng5 $6 { [%eval 3.13] } 12... Qg2 { [%eval 3.17] } 13. Rg1
+{ [%eval 2.98] } 13... Qxh2 { [%eval 3.12] } 14. Bd2 $2 { [%eval 2.03] } 14...
+h6 $2 { [%eval 3.35] } 15. Nf3 { [%eval 2.78] } 15... Qh5 $2 { [%eval 5.57] }
+16. Kf2 $2 { [%eval 2.89] } 16... c4 $4 { [%eval 7.61] } 17. g4
+{ [%eval 7.35] } 17... Bc5+ $2 { [%eval 11.5] } 18. d4 { [%eval 11.35] } 18...
+Bxd4+ { [%eval 14.52] } 19. Nexd4 { [%eval 14.23] } 19... Qh3 { [%eval 15.56] }
+20. gxf5 { [%eval 14.83] } 20... exf5 { [%eval 15.62] } 21. Rg3
+{ [%eval 14.96] } 21... Qh5 { [%eval 14.4] } 22. Qg1 { [%eval 13.83] } 1-0

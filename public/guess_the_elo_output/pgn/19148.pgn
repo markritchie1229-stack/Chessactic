@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rHBqrfsB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bregnev"]
+[Black "s_sokol"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:43:54"]
+[WhiteElo "1903"]
+[BlackElo "2036"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-18"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Milner-Barry Gambit"]
+[TimeControl "1200+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e6 { [%eval 0.14] } 2. d4 { [%eval 0.1] } 2... d5
+{ [%eval 0.16] } 3. e5 { [%eval 0.07] } 3... c5 { [%eval 0.0] } 4. c3
+{ [%eval 0.0] } 4... Nc6 { [%eval 0.0] } 5. Nf3 { [%eval 0.0] } 5... Qb6
+{ [%eval 0.0] } 6. Bd3 { [%eval -0.16] } 6... Bd7 { [%eval 0.32] } 7. Bc2 $6
+{ [%eval -0.27] } 7... cxd4 { [%eval -0.14] } 8. cxd4 { [%eval -0.27] } 8...
+Bb4+ $6 { [%eval 0.7] } 9. Nc3 { [%eval 0.75] } 9... Nge7 { [%eval 0.92] } 10.
+a3 $6 { [%eval 0.24] } 10... Bxc3+ { [%eval 0.32] } 11. bxc3 { [%eval 0.3] }
+11... Rc8 { [%eval 0.38] } 12. O-O { [%eval 0.33] } 12... Na5 { [%eval 0.27] }
+13. Bd2 { [%eval 0.13] } 13... Nc4 { [%eval 0.2] } 14. Be3 $6 { [%eval -0.58] }
+14... Nxe3 { [%eval -0.35] } 15. fxe3 { [%eval -0.39] } 15... Rxc3
+{ [%eval -0.42] } 16. Ng5 { [%eval -0.32] } 16... Nf5 { [%eval -0.35] } 17.
+Bxf5 { [%eval -0.47] } 17... exf5 { [%eval -0.6] } 18. Qh5 $6 { [%eval -1.1] }
+18... g6 $2 { [%eval 1.66] } 19. Qh6 { [%eval 1.57] } 19... f6 $2
+{ [%eval 4.37] } 20. Qg7 { [%eval 4.15] } 20... Rf8 $6 { [%eval 4.98] } 21.
+Nxh7 { [%eval 4.72] } 21... Rf7 { [%eval 5.06] } 22. Qg8+ { [%eval 4.73] }
+22... Ke7 { [%eval 4.83] } 23. exf6+ $6 { [%eval 3.9] } 23... Ke6 $4
+{ [%eval 15.66] } 24. Nf8+ $4 { [%eval 6.12] } 24... Kxf6 { [%eval 5.6] } 25.
+Rab1 $4 { [%eval 2.41] } 25... Qd6 { [%eval 2.26] } 26. Qxg6+ $2
+{ [%eval 0.55] } 26... Ke7 { [%eval 0.64] } 27. Qxd6+ { [%eval 0.64] } 27...
+Kxd6 { [%eval 0.83] } 28. Nxd7 { [%eval 0.69] } 28... Kxd7 $2 { [%eval 3.22] }
+29. Rxb7+ { [%eval 3.22] } 29... Rc7 { [%eval 3.15] } 30. Rxc7+
+{ [%eval 3.06] } 30... Kxc7 { [%eval 3.0] } 31. g4 { [%eval 2.72] } 31... Rh7
+$4 { [%eval 5.74] } 32. Rxf5 { [%eval 5.28] } 1-0

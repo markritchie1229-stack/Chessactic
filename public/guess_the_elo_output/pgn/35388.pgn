@@ -1,0 +1,34 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/V08KBBvn"]
+[Site "https://lichess.org/2QWurWiU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mikimaster"]
+[Black "Aiarbek"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:39:05"]
+[WhiteElo "1780"]
+[BlackElo "1840"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C00"]
+[Opening "French Defense: Steiner Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e6 { [%eval 0.27] } 2. c4 { [%eval -0.08] } 2... d5
+{ [%eval 0.04] } 3. exd5 { [%eval 0.02] } 3... exd5 { [%eval 0.08] } 4. cxd5
+{ [%eval -0.01] } 4... Nf6 { [%eval 0.02] } 5. Bb5+ { [%eval 0.04] } 5... Bd7
+{ [%eval 0.18] } 6. Bc4 { [%eval 0.1] } 6... c6 { [%eval 0.29] } 7. Nc3
+{ [%eval 0.0] } 7... cxd5 { [%eval 0.04] } 8. Bxd5 { [%eval -0.15] } 8... Nxd5
+{ [%eval -0.04] } 9. Nxd5 { [%eval -0.1] } 9... Nc6 { [%eval 0.06] } 10. Qe2+
+{ [%eval -0.2] } 10... Be6 { [%eval -0.03] } 11. Nf4 { [%eval -0.11] } 11...
+Nd4 { [%eval -0.14] } 12. Qd1 $2 { [%eval -1.67] } 12... Rc8 { [%eval -1.64] }
+13. Nxe6 { [%eval -2.0] } 13... fxe6 { [%eval -0.96] } 14. Rb1 $4
+{ [%eval -6.39] } 14... Qd5 { [%eval -6.12] } 15. Nf3 $4 { [%eval -13.82] }
+15... Qe4+ { [%eval -13.67] } 16. Kf1 { [%eval -13.74] } 16... Qd3+
+{ [%eval -13.69] } 17. Ke1 { [%eval -13.68] } 17... Nc2+ { [%eval -13.66] } 18.
+Qxc2 { [%eval -13.62] } 18... Qxc2 { [%eval -13.52] } 19. Ra1
+{ [%eval -13.47] } 19... Qxc1+ { [%eval -13.38] } 20. Rxc1 { [%eval -13.36] }
+20... Rxc1+ { [%eval -13.25] } 21. Ke2 { [%eval -13.21] } 21... Rxh1
+{ [%eval -12.89] } 0-1

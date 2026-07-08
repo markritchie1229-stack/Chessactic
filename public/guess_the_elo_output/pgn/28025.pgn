@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/uDnTsEKz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Desilfredi"]
+[Black "Lubeskey"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:05:23"]
+[WhiteElo "1450"]
+[BlackElo "1237"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "D07"]
+[Opening "Queen's Gambit Refused: Chigorin Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.26] } 2... Nc6
+{ [%eval 0.4] } 3. e3 { [%eval 0.2] } 3... dxc4 { [%eval 0.57] } 4. Bxc4
+{ [%eval 0.44] } 4... e5 { [%eval 0.38] } 5. d5 { [%eval -0.01] } 5... Nb4 $6
+{ [%eval 0.98] } 6. Qa4+ $2 { [%eval -0.54] } 6... Qd7 { [%eval -0.16] } 7.
+Qxb4 $4 { [%eval -8.18] } 7... Bxb4+ { [%eval -7.92] } 8. Nc3 $6
+{ [%eval -8.61] } 8... Bxc3+ $6 { [%eval -8.0] } 9. bxc3 { [%eval -8.28] } 9...
+Qa4 { [%eval -7.83] } 10. Bb3 { [%eval -8.01] } 10... Qa5 $6 { [%eval -7.39] }
+11. Bd2 { [%eval -7.33] } 11... Nf6 { [%eval -7.25] } 12. Nf3 { [%eval -7.71] }
+12... Nxd5 { [%eval -7.68] } 13. c4 { [%eval -7.7] } 13... Qc5 $4
+{ [%eval -3.47] } 14. cxd5 { [%eval -3.53] } 14... O-O { [%eval -3.59] } 15.
+O-O { [%eval -3.35] } 15... Bf5 { [%eval -3.32] } 16. Rac1 { [%eval -3.5] }
+16... e4 $4 { [%eval 6.19] } 17. Rxc5 { [%eval 6.01] } 17... exf3
+{ [%eval 5.73] } 18. gxf3 { [%eval 5.5] } 18... Bd3 $6 { [%eval 6.01] } 19.
+Rfc1 { [%eval 5.95] } 19... f5 $4 { [%eval 11.81] } 20. Rxc7 $6
+{ [%eval 9.45] } 20... Rad8 $6 { [%eval 24.03] } 21. Rxb7 { [%eval 10.99] }
+21... h6 $6 { [%eval #17] } 22. Rcc7 { [%eval 56.79] } 22... f4 $6
+{ [%eval #7] } 23. Rxg7+ { [%eval #6] } 23... Kh8 { [%eval #6] } 24. Rh7+
+{ [%eval #5] } 24... Kg8 { [%eval #1] } 25. d6+ $6 { [%eval #4] } 25... Rf7
+{ [%eval #4] } 26. Rbxf7 { [%eval #3] } 26... Bxh7 { [%eval #3] } 27. Rd7+ $6
+{ [%eval #7] } 27... Kf8 { [%eval #7] } 28. Rxd8+ { [%eval #7] } 28... Kg7
+{ [%eval #7] } 29. exf4 { [%eval #6] } 29... Bf5 { [%eval #5] } 30. Bc3+
+{ [%eval #4] } 30... Kg6 { [%eval #4] } 31. Rg8+ { [%eval #3] } 31... Kh5
+{ [%eval #3] } 32. Bf7+ { [%eval #2] } 32... Kh4 { [%eval #2] } 33. Bf6+
+{ [%eval #1] } 33... Kh3 { [%eval #1] } 34. Rg3# 1-0

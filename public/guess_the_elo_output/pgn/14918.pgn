@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/BFF1WBYs"]
+[Site "https://lichess.org/CHrI5svs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "german11"]
+[Black "massashi"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:51:23"]
+[WhiteElo "1280"]
+[BlackElo "1691"]
+[WhiteRatingDiff "+52"]
+[BlackRatingDiff "-21"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Paulsen Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e6 { [%eval 0.23] } 2. Nf3 { [%eval 0.08] } 2... d5
+{ [%eval 0.07] } 3. e5 { [%eval 0.0] } 3... c5 { [%eval 0.0] } 4. c3
+{ [%eval 0.0] } 4... Nc6 { [%eval 0.0] } 5. d4 { [%eval 0.0] } 5... Qb6
+{ [%eval 0.0] } 6. b3 $6 { [%eval -0.53] } 6... Nge7 $6 { [%eval 0.27] } 7. a4
+$6 { [%eval -0.66] } 7... cxd4 { [%eval -0.58] } 8. Bb5 $6 { [%eval -1.14] }
+8... dxc3 { [%eval -1.05] } 9. Nxc3 { [%eval -1.16] } 9... a6 { [%eval -1.01] }
+10. Bxc6+ { [%eval -1.01] } 10... bxc6 { [%eval -1.23] } 11. Nd4 $2
+{ [%eval -2.23] } 11... c5 { [%eval -2.14] } 12. a5 $6 { [%eval -3.01] } 12...
+Qc7 $6 { [%eval -2.13] } 13. Nf3 { [%eval -2.27] } 13... Ng6 { [%eval -1.88] }
+14. Na4 $6 { [%eval -2.78] } 14... Nxe5 $6 { [%eval -2.11] } 15. Nxe5 $2
+{ [%eval -4.48] } 15... Qxe5+ { [%eval -4.17] } 16. Be3 { [%eval -3.94] } 16...
+Rb8 $6 { [%eval -3.09] } 17. Nxc5 $4 { [%eval -7.08] } 17... d4 $4
+{ [%eval -0.4] } 18. Nd3 $4 { [%eval -5.62] } 18... Qf6 $4 { [%eval -1.79] }
+19. Bd2 $6 { [%eval -2.35] } 19... Bd6 { [%eval -1.89] } 20. O-O
+{ [%eval -1.74] } 20... O-O { [%eval -1.94] } 21. f4 { [%eval -2.08] } 21... e5
+$4 { [%eval 2.85] } 22. fxe5 { [%eval 2.59] } 22... Qe6 $2 { [%eval 3.9] } 23.
+exd6 { [%eval 3.75] } 23... Qxd6 $2 { [%eval 6.63] } 24. Nf4 $4
+{ [%eval 2.27] } 24... Bb7 { [%eval 2.48] } 25. Qg4 { [%eval 2.25] } 25... g6
+$6 { [%eval 2.91] } 26. Nh5 { [%eval 2.54] } 26... Kh8 $4 { [%eval 10.38] } 27.
+Nf6 { [%eval 9.87] } 27... h5 { [%eval 17.08] } 28. Qh4 $2 { [%eval 8.88] }
+28... Rbd8 $2 { [%eval 24.92] } 29. Qg5 { [%eval 14.5] } 29... d3 $6
+{ [%eval #1] } 30. Qh6# 1-0

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0vy1M2iz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kayeye"]
+[Black "sport2008"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:25:25"]
+[WhiteElo "1583"]
+[BlackElo "1878"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.29] } 2... d6
+{ [%eval 0.27] } 3. Bb5+ { [%eval -0.09] } 3... Bd7 { [%eval 0.22] } 4. Bc4
+{ [%eval 0.15] } 4... h6 { [%eval 0.43] } 5. O-O { [%eval 0.24] } 5... a5
+{ [%eval 0.49] } 6. d4 { [%eval 0.5] } 6... b5 { [%eval 0.87] } 7. Bd3
+{ [%eval 0.91] } 7... Nc6 $6 { [%eval 1.51] } 8. d5 $2 { [%eval 0.35] } 8...
+Na7 $6 { [%eval 0.97] } 9. h3 { [%eval 0.59] } 9... c6 { [%eval 0.78] } 10. c4
+{ [%eval 0.66] } 10... cxd5 { [%eval 1.05] } 11. cxd5 { [%eval 1.08] } 11... b4
+$2 { [%eval 2.1] } 12. a3 { [%eval 2.12] } 12... Qb6 { [%eval 2.54] } 13. Be3
+{ [%eval 2.42] } 13... Qb7 { [%eval 2.5] } 14. Qe2 { [%eval 2.04] } 14... Bb5
+$2 { [%eval 4.08] } 15. Bxa7 $2 { [%eval 1.62] } 15... Bxd3 { [%eval 1.97] }
+16. Qxd3 { [%eval 1.5] } 16... Rxa7 { [%eval 1.4] } 17. Rc1 { [%eval 1.38] }
+17... Nf6 $2 { [%eval 2.46] } 18. axb4 { [%eval 2.58] } 18... Qxb4 $6
+{ [%eval 3.21] } 19. Rc8+ { [%eval 2.97] } 19... Kd7 $6 { [%eval 3.48] } 20.
+Qc2 { [%eval 3.19] } 20... Nxe4 $4 { [%eval 20.95] } 21. Ra4 $4
+{ [%eval 4.46] } 21... Qb7 { [%eval 4.85] } 22. Rxe4 $4 { [%eval -0.37] } 22...
+Qxc8 { [%eval -0.34] } 23. Nxe5+ $4 { [%eval -5.0] } 23... dxe5
+{ [%eval -4.97] } 24. Qa4+ { [%eval -5.15] } 24... Kd8 { [%eval -4.75] } 25.
+Rxe5 $4 { [%eval -11.27] } 25... Bd6 $4 { [%eval -5.5] } 26. Re3 $4
+{ [%eval #-3] } 0-1

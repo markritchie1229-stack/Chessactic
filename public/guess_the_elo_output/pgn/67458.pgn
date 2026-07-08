@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8d4zXBs0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "oper_80"]
+[Black "azajndi"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:15:16"]
+[WhiteElo "1482"]
+[BlackElo "1434"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "C55"]
+[Opening "Italian Game: Anti-Fried Liver Defense"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.1] } 1... e5 { [%eval 0.17] } 2. Nf3 { [%eval 0.18] } 2... Nc6
+{ [%eval 0.18] } 3. Bc4 { [%eval 0.18] } 3... h6 $6 { [%eval 0.7] } 4. d4
+{ [%eval 0.6] } 4... Bd6 $6 { [%eval 1.44] } 5. d5 $2 { [%eval 0.38] } 5... Na5
+{ [%eval 0.78] } 6. Bd2 $4 { [%eval -3.45] } 6... Nxc4 { [%eval -3.37] } 7. b3
+$6 { [%eval -4.09] } 7... Nxd2 { [%eval -3.94] } 8. Nbxd2 { [%eval -4.08] }
+8... c6 $6 { [%eval -3.57] } 9. c4 $6 { [%eval -4.09] } 9... c5
+{ [%eval -3.66] } 10. O-O { [%eval -3.58] } 10... Nf6 { [%eval -3.62] } 11. a3
+{ [%eval -3.68] } 11... Bc7 { [%eval -3.56] } 12. b4 { [%eval -3.54] } 12...
+cxb4 { [%eval -3.16] } 13. axb4 { [%eval -3.19] } 13... d6 { [%eval -3.09] }
+14. c5 { [%eval -3.1] } 14... dxc5 $6 { [%eval -2.11] } 15. bxc5
+{ [%eval -2.1] } 15... O-O { [%eval -1.98] } 16. Qa4 { [%eval -2.34] } 16...
+Bg4 $6 { [%eval -1.76] } 17. d6 { [%eval -1.68] } 17... Bb8 $6 { [%eval -1.0] }
+18. Nxe5 { [%eval -1.21] } 18... Be6 { [%eval -1.17] } 19. Rad1 $2
+{ [%eval -2.5] } 19... Nd7 { [%eval -2.0] } 20. Ndf3 $2 { [%eval -4.81] } 20...
+Nxc5 { [%eval -4.6] } 21. Qb5 $6 { [%eval -5.56] } 21... Nxe4 $4
+{ [%eval -1.34] } 22. Qxb7 { [%eval -1.34] } 22... Bxd6 { [%eval -1.25] } 23.
+Qxe4 { [%eval -1.19] } 23... Qc7 { [%eval -0.88] } 24. Ng6 $2 { [%eval -1.98] }
+24... fxg6 $4 { [%eval 2.92] } 25. Qxe6+ { [%eval 2.85] } 25... Kh8
+{ [%eval 3.01] } 26. Rxd6 { [%eval 3.0] } 26... Rae8 $2 { [%eval 4.44] } 27.
+Qxg6 { [%eval 4.37] } 27... Re7 { [%eval 4.57] } 28. h3 { [%eval 4.49] } 28...
+Qc3 $6 { [%eval 5.2] } 29. Rfd1 { [%eval 5.13] } 29... Rf6 $4 { [%eval #3] }
+30. Rd8+ { [%eval #2] } 1-0

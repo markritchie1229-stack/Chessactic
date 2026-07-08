@@ -1,0 +1,44 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/acTjr3u7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "E_Onegin"]
+[Black "kudagila"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:01:19"]
+[WhiteElo "1940"]
+[BlackElo "1897"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Boehnke Gambit"]
+[TimeControl "300+8"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... d5 { [%eval 0.5] } 2. exd5 { [%eval 0.59] } 2... e6
+{ [%eval 0.89] } 3. dxe6 { [%eval 0.74] } 3... Bxe6 { [%eval 0.89] } 4. Nc3
+{ [%eval 0.84] } 4... c6 { [%eval 1.0] } 5. Nf3 { [%eval 0.96] } 5... Qc7
+{ [%eval 1.43] } 6. d4 { [%eval 1.23] } 6... Nf6 { [%eval 1.18] } 7. Bd3
+{ [%eval 0.97] } 7... Nbd7 { [%eval 1.07] } 8. Be3 { [%eval 0.95] } 8... Nb6
+{ [%eval 1.08] } 9. O-O { [%eval 1.06] } 9... h6 { [%eval 1.37] } 10. b3
+{ [%eval 1.11] } 10... Bd6 { [%eval 1.18] } 11. h3 { [%eval 1.16] } 11... g5
+{ [%eval 1.23] } 12. Ne4 { [%eval 1.12] } 12... Nxe4 { [%eval 1.12] } 13. Bxe4
+{ [%eval 1.12] } 13... g4 { [%eval 1.6] } 14. hxg4 { [%eval 1.42] } 14... Bxg4
+{ [%eval 1.48] } 15. c4 $6 { [%eval 0.85] } 15... O-O-O $6 { [%eval 1.36] } 16.
+Qe2 $2 { [%eval 0.14] } 16... Be7 $2 { [%eval 1.18] } 17. d5 $6
+{ [%eval 0.52] } 17... f5 { [%eval 0.75] } 18. Bd3 { [%eval 0.58] } 18... Kb8
+{ [%eval 0.96] } 19. Rfd1 $6 { [%eval 0.34] } 19... Rdg8 $2 { [%eval 2.56] }
+20. Bc2 $2 { [%eval 0.16] } 20... Bg5 $2 { [%eval 1.94] } 21. d6 $6
+{ [%eval 1.42] } 21... Qd7 { [%eval 1.78] } 22. c5 $2 { [%eval 0.6] } 22... Nd5
+$6 { [%eval 1.27] } 23. Bd4 $2 { [%eval -0.87] } 23... Rh7 $2 { [%eval 1.5] }
+24. Re1 { [%eval 1.37] } 24... a6 $6 { [%eval 1.99] } 25. Ne5 { [%eval 1.7] }
+25... Bxe2 { [%eval 1.65] } 26. Nxd7+ { [%eval 1.72] } 26... Rxd7
+{ [%eval 1.72] } 27. Rxe2 { [%eval 1.66] } 27... f4 $2 { [%eval 2.91] } 28.
+Rae1 { [%eval 2.88] } 28... Ka7 $6 { [%eval 3.56] } 29. Bf5 { [%eval 3.59] }
+29... Rf7 $4 { [%eval 8.52] } 30. Bg4 $4 { [%eval 2.88] } 30... Rh7 $4
+{ [%eval 7.57] } 31. Bf5 $6 { [%eval 6.72] } 31... Rf7 $2 { [%eval 8.29] } 32.
+Be6 { [%eval 8.05] } 32... Rff8 $6 { [%eval 8.57] } 33. Bxg8 { [%eval 8.35] }
+33... Rxg8 { [%eval 8.27] } 34. Re8 { [%eval 7.95] } 34... Rg6 $2
+{ [%eval 11.78] } 35. d7 { [%eval 11.12] } 35... f3 { [%eval 15.62] } 36. g3
+{ [%eval 13.62] } 1-0

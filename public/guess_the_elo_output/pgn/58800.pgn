@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pNPcLkmo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wibi"]
+[Black "jatiwangi"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:23:06"]
+[WhiteElo "2136"]
+[BlackElo "2032"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+21"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted, Fischer Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... e5 { [%eval 0.32] } 2. f4 $6 { [%eval -0.52] } 2...
+exf4 { [%eval -0.31] } 3. Nf3 { [%eval -0.63] } 3... d6 $6 { [%eval -0.06] } 4.
+d4 { [%eval -0.29] } 4... g5 { [%eval -0.22] } 5. h4 { [%eval -0.36] } 5... g4
+{ [%eval -0.36] } 6. Ng1 { [%eval -0.57] } 6... f3 { [%eval -0.16] } 7. gxf3
+{ [%eval -0.23] } 7... Be7 { [%eval -0.35] } 8. fxg4 $6 { [%eval -1.2] } 8...
+Bxh4+ { [%eval -0.77] } 9. Kd2 { [%eval -0.9] } 9... Nf6 { [%eval -1.04] } 10.
+Kd3 $2 { [%eval -2.52] } 10... Bxg4 $2 { [%eval -1.5] } 11. Be2
+{ [%eval -2.07] } 11... Qe7 $2 { [%eval 0.66] } 12. Nc3 $2 { [%eval -2.16] }
+12... Nxe4 { [%eval -2.08] } 13. Nxe4 { [%eval -2.23] } 13... Bf5
+{ [%eval -2.23] } 14. Bf3 $2 { [%eval -4.3] } 14... d5 { [%eval -4.3] } 15. Qe2
+{ [%eval -4.37] } 15... c5 { [%eval -3.76] } 16. c3 $2 { [%eval -5.15] } 16...
+Nc6 { [%eval -5.14] } 17. Bf4 $2 { [%eval -6.43] } 17... O-O-O $4
+{ [%eval -2.04] } 18. Kd2 $2 { [%eval -3.46] } 18... dxe4 { [%eval -3.54] } 19.
+Bg4 { [%eval -3.45] } 19... Bd7 { [%eval -3.13] } 20. Bxd7+ $6 { [%eval -3.7] }
+20... Rxd7 { [%eval -3.39] } 21. Qg4 $2 { [%eval -5.33] } 21... Bf6 $2
+{ [%eval -2.97] } 22. Ne2 $2 { [%eval -5.19] } 22... cxd4 { [%eval -4.63] } 23.
+Rad1 $6 { [%eval -5.42] } 23... dxc3+ { [%eval -5.23] } 24. Kc1
+{ [%eval -5.06] } 24... cxb2+ { [%eval -5.21] } 25. Kb1 { [%eval -5.21] } 25...
+Ne5 { [%eval -4.98] } 26. Qh3 $4 { [%eval -8.23] } 26... Nc4 { [%eval -8.04] }
+27. Rd5 $2 { [%eval -55.09] } 27... Na3+ { [%eval -25.79] } 0-1

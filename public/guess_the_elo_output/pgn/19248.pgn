@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/joVkP9oe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rerecursing"]
+[Black "HektorWektor"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:47:56"]
+[WhiteElo "1354"]
+[BlackElo "1235"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+16"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "45+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.36] } 2. Nf3 { [%eval 0.4] } 2... Qf6
+$6 { [%eval 1.26] } 3. Bc4 { [%eval 0.78] } 3... Bc5 { [%eval 1.01] } 4. O-O
+{ [%eval 0.97] } 4... d6 { [%eval 0.8] } 5. d3 { [%eval 0.72] } 5... Qg6
+{ [%eval 0.81] } 6. Ng5 { [%eval 0.64] } 6... h6 $4 { [%eval 5.79] } 7. Nxf7 $4
+{ [%eval 1.35] } 7... Rh7 { [%eval 1.41] } 8. Qf3 $2 { [%eval -1.18] } 8... Be6
+{ [%eval -1.09] } 9. Nxd6+ { [%eval -1.15] } 9... Bxd6 { [%eval -1.22] } 10.
+Bxe6 { [%eval -1.15] } 10... Qxe6 { [%eval -1.13] } 11. Qh5+ { [%eval -1.38] }
+11... Qf7 { [%eval -1.14] } 12. Qg4 { [%eval -1.58] } 12... h5 $4
+{ [%eval 6.2] } 13. Qh4 $4 { [%eval -1.75] } 13... g5 $6 { [%eval -0.85] } 14.
+Qxg5 $6 { [%eval -1.5] } 14... Be7 $2 { [%eval 1.22] } 15. Qxe5
+{ [%eval 1.53] } 15... Nc6 { [%eval 1.98] } 16. Qc3 $4 { [%eval -1.09] } 16...
+Bf6 $6 { [%eval -0.35] } 17. Qc5 { [%eval -0.83] } 17... O-O-O
+{ [%eval -0.58] } 18. Bf4 $4 { [%eval -4.88] } 18... Bd4 $6 { [%eval -4.12] }
+19. Qb5 $4 { [%eval -7.7] } 19... Qxf4 { [%eval -7.45] } 20. g3 $2
+{ [%eval -8.47] } 20... Qf7 $4 { [%eval -4.75] } 0-1

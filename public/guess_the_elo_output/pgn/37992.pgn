@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/7s7oWElu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gont"]
+[Black "Gin56"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:38:29"]
+[WhiteElo "1524"]
+[BlackElo "1528"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[TimeControl "60+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.31] } 2. Nc3 { [%eval 0.07] } 2...
+Nc6 { [%eval 0.18] } 3. Nf3 { [%eval 0.11] } 3... Nf6 { [%eval 0.07] } 4. d3
+{ [%eval -0.21] } 4... Bc5 { [%eval 0.04] } 5. Bg5 { [%eval -0.01] } 5... d6
+{ [%eval 0.39] } 6. Nd5 { [%eval 0.32] } 6... Bg4 $6 { [%eval 0.89] } 7. Be2
+{ [%eval 0.93] } 7... h6 { [%eval 1.02] } 8. Bh4 $2 { [%eval -0.37] } 8... Bxf3
+$2 { [%eval 1.21] } 9. Bxf3 $2 { [%eval 0.1] } 9... g5 { [%eval 0.17] } 10.
+Nxf6+ { [%eval 0.13] } 10... Qxf6 { [%eval 0.08] } 11. Bg3 { [%eval -0.03] }
+11... Nd4 { [%eval 0.07] } 12. Bg4 { [%eval -0.26] } 12... h5 { [%eval -0.27] }
+13. Bf5 $4 { [%eval -3.63] } 13... h4 $2 { [%eval -2.54] } 14. O-O $4
+{ [%eval -6.25] } 14... hxg3 { [%eval -6.3] } 15. fxg3 $4 { [%eval #-2] } 15...
+Nxc2+ $4 { [%eval -5.2] } 16. Kh1 { [%eval -5.15] } 16... Nxa1 { [%eval -5.0] }
+17. Bd7+ $4 { [%eval -11.54] } 17... Kxd7 { [%eval -11.15] } 18. Rxf6 $6
+{ [%eval #-4] } 18... Rxh2+ { [%eval #-3] } 19. Kxh2 { [%eval #-3] } 19... Rh8+
+{ [%eval #-2] } 20. Rh6 { [%eval #-2] } 20... Rxh6+ { [%eval #-1] } 21. Qh5
+{ [%eval #-1] } 21... Rxh5# 0-1

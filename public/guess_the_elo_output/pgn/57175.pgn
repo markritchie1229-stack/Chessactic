@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cLsA5tpa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vg13"]
+[Black "lucascracc"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:00:10"]
+[WhiteElo "1439"]
+[BlackElo "1326"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-80"]
+[ECO "A08"]
+[Opening "King's Indian Attack"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.25] } 1... Nf6 { [%eval 0.05] } 2. Nf3 { [%eval 0.09] } 2...
+d5 { [%eval 0.08] } 3. Bg2 { [%eval -0.12] } 3... Nc6 { [%eval 0.2] } 4. O-O
+{ [%eval 0.06] } 4... g6 { [%eval 0.37] } 5. d4 { [%eval 0.36] } 5... Bg7
+{ [%eval 0.37] } 6. e3 { [%eval 0.07] } 6... O-O { [%eval 0.26] } 7. Bd2
+{ [%eval -0.23] } 7... e6 { [%eval 0.09] } 8. Na3 { [%eval -0.23] } 8... b6
+{ [%eval -0.22] } 9. c4 { [%eval -0.31] } 9... Bb7 { [%eval -0.1] } 10. cxd5
+{ [%eval -0.25] } 10... exd5 { [%eval -0.15] } 11. Nc2 $6 { [%eval -0.68] }
+11... Qd7 $6 { [%eval -0.16] } 12. Ne5 { [%eval -0.52] } 12... Qe6
+{ [%eval -0.11] } 13. Nxc6 { [%eval -0.1] } 13... Qxc6 { [%eval -0.19] } 14.
+Ne1 { [%eval -0.29] } 14... Rad8 { [%eval 0.06] } 15. Nf3 { [%eval -0.31] }
+15... Rfe8 { [%eval -0.2] } 16. Ne5 { [%eval -0.21] } 16... Qe6
+{ [%eval -0.16] } 17. Rc1 { [%eval -0.29] } 17... Qd6 { [%eval -0.1] } 18. b3
+{ [%eval -0.37] } 18... Qe6 $2 { [%eval 1.72] } 19. a4 $2 { [%eval -0.24] }
+19... Qd7 $4 { [%eval 8.89] } 20. Bb4 $4 { [%eval 1.45] } 20... Qe6 $2
+{ [%eval 2.98] } 21. Bf3 $4 { [%eval -0.58] } 21... Qd6 $4 { [%eval 8.13] } 22.
+Bxd6 { [%eval 8.05] } 22... cxd6 { [%eval 7.99] } 23. Ng4 $6 { [%eval 7.39] }
+23... g5 $2 { [%eval 10.76] } 24. Be2 $2 { [%eval 8.7] } 1-0

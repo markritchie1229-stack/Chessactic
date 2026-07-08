@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/aaM01NND"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AG256"]
+[Black "Arizumi"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:51:25"]
+[WhiteElo "1799"]
+[BlackElo "1808"]
+[WhiteRatingDiff "+104"]
+[BlackRatingDiff "-9"]
+[ECO "A45"]
+[Opening "Trompowsky Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.18] } 2. Bg5 { [%eval 0.04] } 2...
+Ne4 { [%eval 0.13] } 3. Bf4 { [%eval 0.07] } 3... e6 { [%eval 0.45] } 4. f3
+{ [%eval 0.01] } 4... Nf6 { [%eval 0.08] } 5. e4 { [%eval 0.07] } 5... d5
+{ [%eval 0.17] } 6. e5 { [%eval -0.02] } 6... Nfd7 { [%eval 0.05] } 7. c3
+{ [%eval -0.03] } 7... c5 { [%eval -0.07] } 8. Be3 { [%eval 0.0] } 8... Qc7
+{ [%eval 0.16] } 9. f4 { [%eval 0.19] } 9... Be7 { [%eval 0.27] } 10. Bd3
+{ [%eval 0.25] } 10... cxd4 { [%eval 0.56] } 11. cxd4 { [%eval 0.52] } 11...
+Nc6 { [%eval 0.53] } 12. Nd2 $6 { [%eval 0.0] } 12... O-O { [%eval 0.39] } 13.
+Rc1 { [%eval 0.0] } 13... Qb6 { [%eval 0.0] } 14. Nb3 { [%eval -0.02] } 14...
+f6 { [%eval 0.0] } 15. Nf3 $6 { [%eval -0.8] } 15... Bb4+ $2 { [%eval 0.92] }
+16. Bd2 $6 { [%eval 0.25] } 16... Bxd2+ $6 { [%eval 0.75] } 17. Qxd2
+{ [%eval 0.68] } 17... Qb4 { [%eval 1.04] } 18. O-O { [%eval 0.55] } 18... Qxd2
+{ [%eval 0.64] } 19. Nbxd2 { [%eval 0.56] } 19... Nb4 { [%eval 0.77] } 20. Bb1
+{ [%eval 0.85] } 20... fxe5 { [%eval 0.83] } 21. fxe5 { [%eval 0.64] } 21...
+Rf4 { [%eval 0.91] } 22. a3 { [%eval 0.75] } 22... Nc6 { [%eval 0.91] } 23. Nb3
+{ [%eval 0.57] } 23... Nb6 $2 { [%eval 2.01] } 24. Bd3 $2 { [%eval 0.85] }
+24... a6 $2 { [%eval 2.18] } 25. g3 { [%eval 2.16] } 25... Rf7 $2
+{ [%eval 4.39] } 26. Ng5 $2 { [%eval 2.04] } 26... Rxf1+ { [%eval 2.51] } 27.
+Rxf1 { [%eval 1.76] } 27... h6 $4 { [%eval #2] } 28. Bh7+ { [%eval #1] } 28...
+Kh8 { [%eval #1] } 29. Rf8# 1-0

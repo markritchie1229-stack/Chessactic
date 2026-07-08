@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/c4h0E6KH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kosts"]
+[Black "daimos56"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:44:24"]
+[WhiteElo "1197"]
+[BlackElo "1152"]
+[WhiteRatingDiff "+30"]
+[BlackRatingDiff "-56"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.38] } 1... d6 { [%eval 0.58] } 2. Nf3 { [%eval 0.35] } 2... e5
+{ [%eval 0.36] } 3. d4 { [%eval 0.32] } 3... f6 $2 { [%eval 1.44] } 4. dxe5 $6
+{ [%eval 0.48] } 4... dxe5 { [%eval 0.52] } 5. Qxd8+ { [%eval 0.53] } 5... Kxd8
+{ [%eval 0.62] } 6. Bd3 { [%eval 0.4] } 6... Nc6 { [%eval 0.52] } 7. O-O
+{ [%eval 0.44] } 7... Nh6 { [%eval 0.78] } 8. Rd1 { [%eval 0.64] } 8... Ng4 $6
+{ [%eval 1.15] } 9. h3 { [%eval 1.22] } 9... Nh6 { [%eval 1.21] } 10. Bxh6
+{ [%eval 1.02] } 10... gxh6 { [%eval 1.0] } 11. Nc3 { [%eval 0.98] } 11... a5
+{ [%eval 1.41] } 12. Nd5 { [%eval 1.06] } 12... Be6 $6 { [%eval 1.58] } 13.
+Nxf6 { [%eval 1.55] } 13... Nb4 $6 { [%eval 2.14] } 14. Bc4+ { [%eval 1.98] }
+14... Bd5 $4 { [%eval 7.2] } 15. Bxd5 { [%eval 7.01] } 15... Nxd5 $6
+{ [%eval 7.51] } 16. exd5 $2 { [%eval 6.38] } 16... Bg7 $6 { [%eval 6.92] } 17.
+Nh5 { [%eval 6.78] } 17... c6 $4 { [%eval 13.16] } 18. Nxg7 { [%eval 12.79] }
+18... cxd5 { [%eval 13.12] } 19. Nxe5 { [%eval 12.55] } 19... Rg8
+{ [%eval 21.48] } 20. Rxd5+ { [%eval 19.04] } 20... Kc8 $6 { [%eval #6] } 21.
+Ne6 $6 { [%eval 15.12] } 21... Rg6 $6 { [%eval #1] } 22. Rd8# 1-0

@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uzFYzFGs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nettleson"]
+[Black "Kilipp"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:45:17"]
+[WhiteElo "1684"]
+[BlackElo "1629"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+12"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.24] } 1... g6 { [%eval 0.31] } 2. d4 { [%eval 0.26] } 2... Bg7
+{ [%eval 0.34] } 3. c3 { [%eval 0.0] } 3... b6 { [%eval 0.14] } 4. Bd3
+{ [%eval 0.14] } 4... Bb7 { [%eval 0.2] } 5. Ne2 $2 { [%eval -0.97] } 5... e6
+$2 { [%eval 0.39] } 6. O-O { [%eval 0.11] } 6... Qg5 $6 { [%eval 0.7] } 7. f3
+{ [%eval 0.5] } 7... h5 $6 { [%eval 1.01] } 8. e4 { [%eval 0.96] } 8... Qe7
+{ [%eval 1.11] } 9. Be3 { [%eval 0.99] } 9... h4 { [%eval 0.98] } 10. Bf2 $6
+{ [%eval 0.37] } 10... h3 { [%eval 0.59] } 11. g3 { [%eval 0.62] } 11... c5
+{ [%eval 0.67] } 12. dxc5 { [%eval 0.7] } 12... bxc5 { [%eval 0.39] } 13. Bc4
+{ [%eval 0.28] } 13... Nc6 { [%eval 0.31] } 14. Nd2 { [%eval 0.21] } 14... Nf6
+{ [%eval 0.25] } 15. f4 $6 { [%eval -0.45] } 15... Nh5 $2 { [%eval 0.92] } 16.
+g4 $6 { [%eval 0.35] } 16... Nf6 { [%eval 0.34] } 17. e5 $2 { [%eval -0.85] }
+17... Nd5 $4 { [%eval 2.45] } 18. Bg3 $4 { [%eval -1.35] } 18... Ne3
+{ [%eval -1.28] } 19. Qe1 $2 { [%eval -2.4] } 19... Nxf1 { [%eval -2.01] } 20.
+Qxf1 { [%eval -1.96] } 20... f6 $2 { [%eval -0.96] } 21. Qf2 $2
+{ [%eval -2.85] } 21... fxe5 { [%eval -3.02] } 22. fxe5 $2 { [%eval -4.82] }
+22... O-O-O $2 { [%eval -2.32] } 23. Qe3 { [%eval -2.29] } 23... Bxe5 $2
+{ [%eval 0.4] } 24. Bxe5 { [%eval 0.18] } 24... Nxe5 { [%eval 0.38] } 25. Qxe5
+{ [%eval 0.18] } 25... Rhf8 $2 { [%eval 1.52] } 26. Nf4 { [%eval 1.52] } 26...
+Rxf4 $2 { [%eval 3.76] } 27. Qxf4 { [%eval 3.61] } 27... Rf8 { [%eval 3.95] }
+28. Qe5 { [%eval 3.71] } 28... Qf7 $4 { [%eval 12.54] } 29. Ne4 $4
+{ [%eval 0.65] } 29... Qf3 { [%eval 0.91] } 30. Nd6+ { [%eval 0.63] } 30... Kd8
+{ [%eval 0.86] } 31. Nxb7+ { [%eval 0.74] } 31... Ke8 $4 { [%eval 5.22] } 32.
+Nd6+ $2 { [%eval 3.5] } 32... Ke7 { [%eval 3.5] } 33. Re1 $4 { [%eval #-1] }
+33... Qg2# 0-1

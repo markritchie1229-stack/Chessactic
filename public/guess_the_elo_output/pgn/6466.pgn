@@ -1,0 +1,44 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/aeRf5Yif"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ilduca"]
+[Black "derkenar"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:10:27"]
+[WhiteElo "1088"]
+[BlackElo "978"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+32"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.42] } 2. Qh5 $6 { [%eval -0.12] }
+2... Nf6 { [%eval 0.08] } 3. Qxe5+ { [%eval 0.14] } 3... Qe7 $6
+{ [%eval 0.97] } 4. Qxc7 $6 { [%eval 0.16] } 4... Nxe4 $4 { [%eval 5.56] } 5.
+Qxc8+ { [%eval 5.52] } 5... Qd8 { [%eval 5.72] } 6. Qxb7 $2 { [%eval 4.64] }
+6... Nc6 { [%eval 4.61] } 7. Nh3 $6 { [%eval 3.96] } 7... Rb8 $6
+{ [%eval 4.71] } 8. Qa6 { [%eval 4.41] } 8... Rb6 { [%eval 4.58] } 9. Qa4 $6
+{ [%eval 3.65] } 9... Rb4 { [%eval 3.66] } 10. Qa3 { [%eval 3.37] } 10... Qa5
+$4 { [%eval 6.4] } 11. c3 $2 { [%eval 4.65] } 11... Qxa3 $2 { [%eval 6.21] }
+12. Nxa3 { [%eval 6.12] } 12... Bd6 $4 { [%eval 10.39] } 13. cxb4
+{ [%eval 10.39] } 13... Nxb4 { [%eval 10.36] } 14. f3 { [%eval 10.34] } 14...
+Nc2+ { [%eval 15.08] } 15. Nxc2 { [%eval 14.92] } 15... Nf6 { [%eval 15.22] }
+16. Bc4 { [%eval 15.1] } 16... O-O { [%eval 15.05] } 17. f4 { [%eval 14.35] }
+17... Rc8 { [%eval 14.45] } 18. Bb3 { [%eval 14.32] } 18... a5
+{ [%eval 14.83] } 19. d3 { [%eval 14.69] } 19... Bc5 { [%eval 14.82] } 20. f5
+{ [%eval 14.29] } 20... g6 { [%eval 16.15] } 21. Bh6 { [%eval 14.85] } 21...
+gxf5 { [%eval 16.05] } 22. O-O-O { [%eval 15.34] } 22... Be3+ { [%eval 20.38] }
+23. Kb1 { [%eval 10.18] } 23... Bxh6 { [%eval 9.92] } 24. Rhe1 { [%eval 9.74] }
+24... f4 { [%eval 10.37] } 25. Nd4 { [%eval 10.1] } 25... Nd5 { [%eval 14.67] }
+26. Bxd5 { [%eval 14.3] } 26... Rc5 { [%eval 20.59] } 27. Re8+
+{ [%eval 19.27] } 27... Kg7 { [%eval 19.9] } 28. Nf5+ { [%eval 19.35] } 28...
+Kg6 { [%eval 19.0] } 29. Nxh6 { [%eval 18.32] } 29... Kxh6 { [%eval 17.71] }
+30. Be4 { [%eval 16.81] } 30... Rg5 $6 { [%eval #18] } 31. Nxg5 { [%eval #17] }
+31... Kxg5 { [%eval #17] } 32. Rg8+ { [%eval #18] } 32... Kf6 { [%eval #28] }
+33. Rf1 { [%eval 59.45] } 33... Ke7 $6 { [%eval #15] } 34. Rxf4 { [%eval #14] }
+34... f6 { [%eval #14] } 35. Bd5 { [%eval #17] } 35... Kd6 { [%eval #11] } 36.
+Rxf6+ { [%eval #25] } 36... Kc5 { [%eval #7] } 0-1

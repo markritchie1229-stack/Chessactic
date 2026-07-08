@@ -1,0 +1,38 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/bkX453Al"]
+[Date "????.??.??"]
+[Round "?"]
+[White "donateIIo"]
+[Black "Mtal04"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:50:18"]
+[WhiteElo "1599"]
+[BlackElo "1864"]
+[WhiteRatingDiff "+109"]
+[BlackRatingDiff "-17"]
+[WhiteTitle "GM"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, Adams Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.31] } 2. Nf3 { [%eval 0.3] } 2... d6
+{ [%eval 0.29] } 3. d4 { [%eval 0.29] } 3... cxd4 { [%eval 0.35] } 4. Nxd4
+{ [%eval 0.24] } 4... Nf6 { [%eval 0.3] } 5. Nc3 { [%eval 0.25] } 5... a6
+{ [%eval 0.35] } 6. h3 { [%eval 0.15] } 6... e5 { [%eval 0.22] } 7. Nde2
+{ [%eval 0.2] } 7... Be7 { [%eval 0.33] } 8. Bg5 $6 { [%eval -0.18] } 8... Be6
+{ [%eval -0.02] } 9. Ng3 { [%eval -0.16] } 9... h6 { [%eval -0.02] } 10. Bxf6
+{ [%eval -0.1] } 10... Bxf6 { [%eval -0.07] } 11. Qf3 $6 { [%eval -0.6] } 11...
+Qb6 $2 { [%eval 0.43] } 12. O-O-O { [%eval 0.47] } 12... Nc6 { [%eval 0.48] }
+13. Nf5 { [%eval 0.17] } 13... Be7 $2 { [%eval 1.89] } 14. Kb1 $2
+{ [%eval 0.78] } 14... Bxf5 $6 { [%eval 1.28] } 15. Qxf5 $6 { [%eval 0.49] }
+15... O-O { [%eval 0.73] } 16. Nd5 { [%eval 0.61] } 16... Qd8 { [%eval 0.77] }
+17. c3 { [%eval 0.32] } 17... g6 $6 { [%eval 1.13] } 18. Qf3 { [%eval 1.06] }
+18... b5 { [%eval 1.14] } 19. h4 { [%eval 0.99] } 19... h5 $2 { [%eval 2.49] }
+20. g4 { [%eval 2.95] } 20... hxg4 { [%eval 2.53] } 21. Qxg4 { [%eval 2.65] }
+21... Bf6 $2 { [%eval 3.8] } 22. h5 { [%eval 3.68] } 22... Kg7 $2
+{ [%eval 5.69] } 23. hxg6 { [%eval 5.29] } 23... fxg6 { [%eval 5.22] } 24. Be2
+{ [%eval 4.9] } 24... Rh8 $2 { [%eval 7.54] } 25. Rdg1 $2 { [%eval 5.22] }
+25... Rxh1 $4 { [%eval #6] } 26. Qxg6+ { [%eval #5] } 26... Kf8 { [%eval #1] }
+27. Qg8# 1-0

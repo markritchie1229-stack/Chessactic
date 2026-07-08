@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Y5I0oyfk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ptrkk"]
+[Black "andrey46"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:53:30"]
+[WhiteElo "1772"]
+[BlackElo "1707"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+13"]
+[ECO "E76"]
+[Opening "King's Indian Defense: Four Pawns Attack, Dynamic Attack"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... Nf6 { [%eval 0.18] } 2. c4 { [%eval 0.14] } 2... g6
+{ [%eval 0.48] } 3. Nc3 { [%eval 0.42] } 3... Bg7 { [%eval 0.66] } 4. e4
+{ [%eval 0.69] } 4... O-O { [%eval 0.69] } 5. f4 { [%eval 0.25] } 5... d6
+{ [%eval 0.06] } 6. Nf3 { [%eval 0.0] } 6... c5 { [%eval 0.19] } 7. d5
+{ [%eval -0.01] } 7... e6 { [%eval 0.1] } 8. Bd3 { [%eval -0.07] } 8... exd5
+{ [%eval -0.06] } 9. cxd5 { [%eval -0.01] } 9... Re8 { [%eval 0.13] } 10. O-O
+{ [%eval 0.2] } 10... Na6 { [%eval 0.28] } 11. a3 $6 { [%eval -0.31] } 11... c4
+{ [%eval 0.0] } 12. Bc2 { [%eval -0.12] } 12... Nc5 { [%eval 0.2] } 13. Re1 $2
+{ [%eval -1.0] } 13... Qb6 $2 { [%eval 0.69] } 14. Kh1 $2 { [%eval -2.12] }
+14... Ng4 { [%eval -2.1] } 15. Qe2 $4 { [%eval -5.16] } 15... Nd3 $2
+{ [%eval -3.2] } 16. Bxd3 { [%eval -3.15] } 16... cxd3 { [%eval -3.23] } 17.
+Qf1 { [%eval -3.2] } 17... Nf2+ { [%eval -2.89] } 18. Kg1 { [%eval -3.17] }
+18... Nd1+ { [%eval -3.06] } 19. Kh1 { [%eval -3.02] } 19... Nf2+
+{ [%eval -2.88] } 20. Kg1 { [%eval -2.81] } 20... Nd1+ $2 { [%eval -1.76] } 21.
+Kh1 { [%eval -1.74] } 21... Nxb2 $2 { [%eval -0.62] } 22. Rb1 { [%eval -0.75] }
+22... Bxc3 { [%eval -0.62] } 23. Bd2 $4 { [%eval -5.06] } 23... Bxd2
+{ [%eval -4.93] } 24. Nxd2 { [%eval -4.6] } 24... Qd4 { [%eval -4.37] } 25. Nf3
+$6 { [%eval -5.07] } 25... Qc3 { [%eval -4.77] } 26. Rec1 $6 { [%eval -5.68] }
+26... Qxa3 { [%eval -5.58] } 27. Qf2 { [%eval -5.54] } 27... Na4
+{ [%eval -4.86] } 28. Qd4 $6 { [%eval -5.66] } 28... Bd7 { [%eval -5.06] } 29.
+Rc3 $4 { [%eval -16.17] } 0-1

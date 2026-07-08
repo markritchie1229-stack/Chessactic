@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EJ2D3Awx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "roddik2018"]
+[Black "markagabi48"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:03:38"]
+[WhiteElo "1613"]
+[BlackElo "1591"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+11"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... c5 { [%eval 0.28] } 2. Qh5 $6 { [%eval -0.31] }
+2... e6 { [%eval -0.27] } 3. Nc3 { [%eval -0.55] } 3... Nf6 { [%eval -0.52] }
+4. Qf3 $6 { [%eval -1.04] } 4... Nc6 { [%eval -0.86] } 5. Bb5 $6
+{ [%eval -1.75] } 5... Ne5 $2 { [%eval -0.29] } 6. Qe2 $6 { [%eval -1.09] }
+6... a6 { [%eval -1.06] } 7. Bd3 { [%eval -1.08] } 7... b5 { [%eval -1.01] } 8.
+a4 $2 { [%eval -3.08] } 8... c4 { [%eval -2.94] } 9. axb5 { [%eval -3.04] }
+9... cxd3 { [%eval -3.05] } 10. cxd3 { [%eval -3.23] } 10... Bb7
+{ [%eval -2.76] } 11. bxa6 $2 { [%eval -4.74] } 11... Bxa6 $6 { [%eval -4.04] }
+12. b4 $4 { [%eval -12.1] } 12... Bxd3 { [%eval -11.27] } 13. Rxa8
+{ [%eval -11.08] } 13... Qxa8 { [%eval -10.62] } 14. Qd1 { [%eval -12.46] }
+14... Bxb4 $2 { [%eval -8.78] } 15. Bb2 $2 { [%eval -16.66] } 15... O-O
+{ [%eval -10.19] } 16. Nf3 { [%eval -20.94] } 16... Bxc3 { [%eval -19.35] } 17.
+Bxc3 $6 { [%eval #-2] } 17... Qxe4+ { [%eval #-1] } 18. Qe2 { [%eval #-1] }
+18... Bxe2 $6 { [%eval #-3] } 19. Bxe5 { [%eval #-2] } 19... Bxf3+
+{ [%eval #-1] } 20. Kf1 { [%eval #-1] } 20... Bxg2+ $6 { [%eval #-2] } 21. Kg1
+{ [%eval #-2] } 21... Bxh1 $6 { [%eval #-3] } 22. Kf1 { [%eval #-3] } 22...
+Qxe5 $6 { [%eval #-4] } 23. h4 { [%eval #-3] } 23... Bf3 { [%eval #-2] } 24. d4
+{ [%eval #-2] } 24... Qxd4 $6 { [%eval #-2] } 25. h5 { [%eval #-1] } 25... Qd1#
+0-1

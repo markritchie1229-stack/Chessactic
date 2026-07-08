@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/jkfgEQ27"]
+[Date "????.??.??"]
+[Round "?"]
+[White "maurovanegas"]
+[Black "AntiChamp"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:08:21"]
+[WhiteElo "1519"]
+[BlackElo "1368"]
+[WhiteRatingDiff "+42"]
+[BlackRatingDiff "-76"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval 0.04] } 2... Nf6
+{ [%eval 0.0] } 3. Bf4 { [%eval -0.04] } 3... Nc6 $6 { [%eval 0.46] } 4. Nb5
+{ [%eval 0.57] } 4... e5 { [%eval 0.44] } 5. dxe5 { [%eval 0.35] } 5... Ng4 $6
+{ [%eval 1.22] } 6. e6 { [%eval 1.33] } 6... Nge5 { [%eval 1.79] } 7. exf7+
+{ [%eval 1.55] } 7... Kxf7 { [%eval 1.56] } 8. e4 { [%eval 1.98] } 8... dxe4 $2
+{ [%eval 4.57] } 9. Qxd8 { [%eval 4.32] } 9... Nxd8 $2 { [%eval 5.37] } 10.
+Bxe5 { [%eval 5.18] } 10... Ke6 $2 { [%eval 7.66] } 11. Nxc7+ $2
+{ [%eval 4.68] } 11... Kd7 $4 { [%eval 12.31] } 12. Nxa8 { [%eval 11.35] }
+12... b6 { [%eval 13.52] } 13. O-O-O+ { [%eval 13.22] } 13... Ke7
+{ [%eval 13.42] } 14. Nc7 { [%eval 13.3] } 14... Nc6 { [%eval 13.92] } 15. Bd6+
+{ [%eval 13.81] } 15... Kf6 { [%eval 15.04] } 16. Bxf8 { [%eval 14.85] } 16...
+Rxf8 { [%eval 14.95] } 17. Rd6+ { [%eval 14.71] } 17... Ke5 { [%eval 14.67] }
+18. Rxc6 { [%eval 14.24] } 18... Bb7 { [%eval 18.23] } 19. Re6+
+{ [%eval 17.59] } 19... Kd4 $6 { [%eval #2] } 20. c3+ { [%eval #1] } 20... Kc5
+{ [%eval #1] } 21. Rxe4 $6 { [%eval 16.7] } 21... Bxe4 { [%eval 16.68] } 22.
+Ne6+ { [%eval 16.61] } 22... Kd6 { [%eval 16.56] } 23. Nxf8 { [%eval 16.27] }
+23... h5 { [%eval 16.6] } 1-0

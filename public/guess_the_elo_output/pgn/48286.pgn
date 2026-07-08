@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/l5wnJdaR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chris2carter"]
+[Black "Sulf451"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:28:04"]
+[WhiteElo "1366"]
+[BlackElo "1026"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-5"]
+[ECO "A84"]
+[Opening "Dutch Defense: Classical Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... f5 { [%eval 0.48] } 2. c4 { [%eval 0.35] } 2... e6
+{ [%eval 0.38] } 3. e3 { [%eval 0.37] } 3... d5 { [%eval 0.61] } 4. cxd5
+{ [%eval 0.25] } 4... exd5 { [%eval 0.1] } 5. Nc3 { [%eval 0.08] } 5... Nf6
+{ [%eval 0.15] } 6. Nf3 { [%eval 0.31] } 6... c5 $6 { [%eval 0.82] } 7. dxc5
+{ [%eval 0.58] } 7... Bxc5 { [%eval 0.75] } 8. Nd4 $6 { [%eval 0.2] } 8... Nc6
+{ [%eval 0.27] } 9. Nxc6 { [%eval -0.22] } 9... bxc6 { [%eval -0.3] } 10. Qa4
+{ [%eval -0.64] } 10... Bb7 $6 { [%eval 0.15] } 11. Ba6 { [%eval 0.01] } 11...
+Ne4 $4 { [%eval 6.25] } 12. Bxb7 { [%eval 6.37] } 12... Rb8 $6 { [%eval 7.21] }
+13. Qxc6+ $2 { [%eval 5.81] } 13... Ke7 $4 { [%eval 9.55] } 14. Nxd5+ $4
+{ [%eval 6.41] } 14... Kf7 { [%eval 6.39] } 15. Ba6 { [%eval 6.05] } 15... Rb6
+$4 { [%eval 9.58] } 16. Qxb6 $4 { [%eval 0.5] } 16... axb6 { [%eval 0.67] } 17.
+Bc4 { [%eval 0.54] } 17... Ke8 $6 { [%eval 1.33] } 18. b3 $2 { [%eval 0.23] }
+18... Nf6 $2 { [%eval 2.62] } 19. Nc3 $2 { [%eval -0.1] } 19... Qe7 $2
+{ [%eval 1.67] } 20. O-O { [%eval 1.67] } 20... Ne4 $6 { [%eval 2.35] } 21.
+Nxe4 { [%eval 2.12] } 21... Qxe4 { [%eval 2.26] } 22. Bb2 { [%eval 1.93] }
+22... g6 $4 { [%eval 8.87] } 23. Rad1 $4 { [%eval 3.87] } 23... Kf8 $4
+{ [%eval 11.26] } 24. Bxh8 $6 { [%eval 9.31] } 24... Ke8 $6 { [%eval 13.11] }
+25. Rd2 $6 { [%eval 9.22] } 25... Qxg2+ $2 { [%eval #10] } 26. Kxg2
+{ [%eval #9] } 26... f4 { [%eval #6] } 27. exf4 { [%eval #5] } 27... h5
+{ [%eval #4] } 28. Rfd1 $6 { [%eval #5] } 28... Bd4 { [%eval #3] } 29. Rxd4
+{ [%eval #2] } 29... b5 { [%eval #2] } 30. Rd8+ { [%eval #1] } 1-0

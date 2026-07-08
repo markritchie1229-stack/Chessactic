@@ -1,0 +1,38 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/0FLfha24"]
+[Site "https://lichess.org/HCiiaYOW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mironov55"]
+[Black "Bollybill"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:03:45"]
+[WhiteElo "2003"]
+[BlackElo "1956"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+14"]
+[ECO "B06"]
+[Opening "Modern Defense: Three Pawns Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... g6 { [%eval 0.66] } 2. d4 { [%eval 0.6] } 2... Bg7
+{ [%eval 0.64] } 3. f4 { [%eval 0.35] } 3... d6 { [%eval 0.53] } 4. Nf3
+{ [%eval 0.33] } 4... b6 { [%eval 0.64] } 5. c3 { [%eval 0.38] } 5... Bb7
+{ [%eval 0.55] } 6. Bd3 { [%eval 0.51] } 6... c5 { [%eval 0.68] } 7. d5
+{ [%eval 0.56] } 7... a6 { [%eval 0.74] } 8. a4 { [%eval 0.54] } 8... Nf6
+{ [%eval 0.65] } 9. h4 $6 { [%eval -0.14] } 9... h5 $6 { [%eval 0.41] } 10. Qc2
+{ [%eval 0.21] } 10... Qd7 { [%eval 0.54] } 11. Be3 $6 { [%eval -0.18] } 11...
+b5 $6 { [%eval 0.39] } 12. axb5 { [%eval 0.19] } 12... axb5 { [%eval 0.18] }
+13. Rxa8 { [%eval 0.11] } 13... Bxa8 { [%eval 0.28] } 14. Na3 { [%eval 0.25] }
+14... c4 { [%eval 0.5] } 15. Be2 { [%eval 0.37] } 15... Na6 { [%eval 0.44] }
+16. Nd4 { [%eval -0.03] } 16... Nc7 { [%eval 0.3] } 17. b3 $2 { [%eval -1.0] }
+17... Nxe4 $6 { [%eval -0.01] } 18. Qxe4 { [%eval -0.48] } 18... Bxd5
+{ [%eval -0.22] } 19. Qb1 { [%eval -0.38] } 19... Bxg2 $2 { [%eval 0.98] } 20.
+Rg1 $2 { [%eval -1.19] } 20... Qh3 { [%eval -1.01] } 21. bxc4 $4
+{ [%eval -4.56] } 21... Qxe3 { [%eval -4.56] } 22. Rxg2 { [%eval -4.56] } 22...
+Qxc3+ { [%eval -4.25] } 23. Kf1 { [%eval -4.61] } 23... Bxd4 { [%eval -4.14] }
+24. Nxb5 $2 { [%eval -6.64] } 24... Nxb5 { [%eval -6.32] } 25. Qxb5+ $4
+{ [%eval -9.77] } 25... Kf8 { [%eval -9.35] } 26. Qb1 $6 { [%eval -10.25] }
+26... Qe3 $4 { [%eval -4.43] } 27. f5 $4 { [%eval #-14] } 27... Qf4+
+{ [%eval #-14] } 28. Ke1 { [%eval #-2] } 28... Bc3+ { [%eval #-1] } 0-1

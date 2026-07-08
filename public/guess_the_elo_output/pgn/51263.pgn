@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/MPCnYq1O"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tomsk1000"]
+[Black "PinkyWinky"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:30:37"]
+[WhiteElo "1627"]
+[BlackElo "1701"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.21] } 1... c5 { [%eval 0.4] } 2. Bc4 { [%eval -0.01] } 2... e6
+{ [%eval -0.05] } 3. Nc3 { [%eval -0.04] } 3... a6 { [%eval 0.02] } 4. a4
+{ [%eval -0.26] } 4... b5 $2 { [%eval 1.22] } 5. axb5 { [%eval 1.16] } 5... d5
+$2 { [%eval 2.96] } 6. exd5 { [%eval 2.87] } 6... exd5 { [%eval 3.12] } 7. Nxd5
+{ [%eval 2.95] } 7... Nf6 $2 { [%eval 4.38] } 8. Qe2+ { [%eval 4.24] } 8... Be7
+{ [%eval 4.18] } 9. Nxe7 $2 { [%eval 2.91] } 9... Qxe7 { [%eval 2.95] } 10.
+Qxe7+ { [%eval 2.71] } 10... Kxe7 { [%eval 2.77] } 11. bxa6 $6 { [%eval 1.99] }
+11... Bxa6 $6 { [%eval 2.63] } 12. Bxa6 $6 { [%eval 1.96] } 12... Rxa6
+{ [%eval 2.15] } 13. Rxa6 { [%eval 2.04] } 13... Nxa6 { [%eval 2.05] } 14. Nf3
+{ [%eval 2.05] } 14... Nb4 { [%eval 2.14] } 15. O-O $2 { [%eval 0.21] } 15...
+Nxc2 { [%eval 0.35] } 16. d3 { [%eval 0.18] } 16... Rd8 { [%eval 0.37] } 17.
+Bg5 { [%eval 0.0] } 17... Rxd3 { [%eval 0.0] } 18. Rc1 { [%eval -0.1] } 18...
+h6 { [%eval 0.0] } 19. Bxf6+ { [%eval -0.15] } 19... Kxf6 { [%eval -0.1] } 20.
+h3 { [%eval -0.41] } 20... Nd4 { [%eval -0.52] } 21. Rxc5 { [%eval -0.68] }
+21... Nxf3+ { [%eval -0.64] } 22. gxf3 { [%eval -0.73] } 22... Rxf3
+{ [%eval -0.58] } 23. b4 $6 { [%eval -1.1] } 23... Rb3 { [%eval -0.77] } 24. b5
+{ [%eval -1.06] } 24... Rxh3 { [%eval -1.02] } 25. Kg2 { [%eval -1.29] } 25...
+Rb3 { [%eval -1.26] } 26. Rc6+ { [%eval -1.17] } 26... Ke7 { [%eval -1.1] } 27.
+b6 { [%eval -1.19] } 27... Kd7 { [%eval -1.04] } 28. Rc7+ { [%eval -0.96] }
+28... Kd6 $6 { [%eval 0.0] } 29. Rxf7 { [%eval 0.0] } 29... Rxb6
+{ [%eval 0.0] } 30. Rxg7 { [%eval 0.0] } 30... Ke5 { [%eval 0.0] } 31. Rg3
+{ [%eval 0.0] } 31... Rf6 { [%eval 0.0] } 32. f3 { [%eval 0.0] } 32... h5
+{ [%eval 0.0] } 0-1

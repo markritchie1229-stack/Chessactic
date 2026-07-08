@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/TCWy35hr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rubikschess"]
+[Black "AgricolaSuperbus"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:36:59"]
+[WhiteElo "1534"]
+[BlackElo "1574"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+64"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... Nf6 { [%eval 0.17] } 2. Nc3 { [%eval -0.13] } 2...
+d5 { [%eval -0.06] } 3. g3 { [%eval -0.35] } 3... Bf5 { [%eval -0.35] } 4. Bg2
+{ [%eval -0.37] } 4... e6 { [%eval -0.33] } 5. e3 { [%eval -0.56] } 5... Be7
+{ [%eval -0.4] } 6. Nge2 { [%eval -0.41] } 6... O-O { [%eval -0.36] } 7. O-O
+{ [%eval -0.37] } 7... c5 { [%eval -0.27] } 8. dxc5 { [%eval -0.32] } 8... Na6
+$6 { [%eval 0.32] } 9. Nd4 { [%eval 0.18] } 9... Bg6 { [%eval 0.28] } 10. c6
+{ [%eval 0.19] } 10... bxc6 { [%eval 0.6] } 11. Nxc6 { [%eval 0.62] } 11... Qc7
+{ [%eval 0.54] } 12. Nxe7+ { [%eval 0.59] } 12... Qxe7 { [%eval 0.61] } 13. Ne2
+$6 { [%eval 0.0] } 13... Nb4 { [%eval 0.0] } 14. Nd4 { [%eval -0.09] } 14... e5
+{ [%eval 0.2] } 15. c3 { [%eval -0.07] } 15... exd4 { [%eval 0.07] } 16. cxb4
+{ [%eval 0.07] } 16... d3 { [%eval 0.28] } 17. Bd2 { [%eval 0.14] } 17... Ne4
+{ [%eval 0.29] } 18. a3 $6 { [%eval -0.28] } 18... Rfc8 { [%eval 0.12] } 19.
+Rc1 { [%eval 0.06] } 19... Nxd2 $6 { [%eval 0.78] } 20. Qxd2 { [%eval 0.57] }
+20... Rc2 { [%eval 0.75] } 21. Rxc2 { [%eval 0.77] } 21... dxc2
+{ [%eval 0.45] } 22. Qxd5 $4 { [%eval -2.63] } 22... Rd8 { [%eval -2.42] } 23.
+Qc5 $4 { [%eval -15.42] } 23... Qxc5 { [%eval -14.97] } 24. bxc5
+{ [%eval -14.77] } 24... Rd1 { [%eval -14.6] } 25. c6 { [%eval -14.51] } 25...
+Rxf1+ { [%eval -14.27] } 26. Bxf1 { [%eval -14.13] } 26... c1=Q
+{ [%eval -13.97] } 27. c7 { [%eval -13.75] } 27... Qxc7 { [%eval -13.25] } 0-1

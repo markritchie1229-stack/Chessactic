@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/C83QLhL8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "afif05"]
+[Black "re2a"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:50:57"]
+[WhiteElo "1849"]
+[BlackElo "1707"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-7"]
+[ECO "D93"]
+[Opening "Gruenfeld Defense: Three Knights Variation, Hungarian Variation"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... Nf6 { [%eval 0.32] } 2. c4 { [%eval 0.16] } 2... g6
+{ [%eval 0.43] } 3. Bf4 { [%eval 0.16] } 3... d5 { [%eval 0.35] } 4. e3
+{ [%eval 0.31] } 4... Bg7 { [%eval 0.3] } 5. Nf3 { [%eval 0.14] } 5... O-O
+{ [%eval 0.11] } 6. Nc3 { [%eval 0.16] } 6... dxc4 { [%eval 0.48] } 7. Bxc4
+{ [%eval 0.43] } 7... c5 { [%eval 0.45] } 8. O-O { [%eval 0.38] } 8... cxd4
+{ [%eval 0.45] } 9. Nxd4 { [%eval 0.44] } 9... Qb6 { [%eval 0.64] } 10. Bb3
+{ [%eval 0.27] } 10... a6 { [%eval 0.57] } 11. Qc2 { [%eval 0.17] } 11... Nc6
+$6 { [%eval 1.14] } 12. Rfd1 $2 { [%eval 0.11] } 12... Nxd4 { [%eval 0.25] }
+13. exd4 { [%eval 0.34] } 13... Bf5 { [%eval 0.45] } 14. Qe2 { [%eval 0.09] }
+14... Rfe8 { [%eval 0.58] } 15. Be5 $6 { [%eval 0.02] } 15... Bg4
+{ [%eval 0.5] } 16. f3 $6 { [%eval -0.07] } 16... Bf5 $6 { [%eval 0.58] } 17.
+Kh1 { [%eval 0.29] } 17... Rad8 $6 { [%eval 0.79] } 18. Rac1 { [%eval 0.31] }
+18... Nh5 $2 { [%eval 3.24] } 19. Nd5 $6 { [%eval 2.42] } 19... Qb5
+{ [%eval 2.8] } 20. Qxb5 { [%eval 2.74] } 20... axb5 { [%eval 2.85] } 21. Nc7
+{ [%eval 2.52] } 21... Rf8 $2 { [%eval 3.7] } 22. g4 { [%eval 3.65] } 22...
+Bxe5 { [%eval 3.82] } 23. dxe5 { [%eval 3.69] } 23... Bxg4 { [%eval 3.95] } 24.
+fxg4 { [%eval 3.93] } 24... Nf4 { [%eval 3.89] } 25. e6 { [%eval 3.89] } 25...
+Nd3 $4 { [%eval 8.54] } 26. exf7+ { [%eval 8.36] } 26... Kh8 { [%eval 8.32] }
+27. Rc2 { [%eval 7.94] } 27... Nf2+ $2 { [%eval 18.5] } 28. Rxf2
+{ [%eval 16.3] } 28... Rxd1+ $6 { [%eval #8] } 29. Bxd1 { [%eval #7] } 1-0

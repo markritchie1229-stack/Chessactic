@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hmBkdKmp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "euan11"]
+[Black "vahid_radaei"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:29:36"]
+[WhiteElo "1500"]
+[BlackElo "1598"]
+[WhiteRatingDiff "-133"]
+[BlackRatingDiff "+6"]
+[ECO "C20"]
+[Opening "King's Pawn Game: King's Head Opening #2"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... e5 { [%eval 0.4] } 2. f3 $2 { [%eval -0.62] } 2...
+Nc6 { [%eval -0.6] } 3. Nc3 { [%eval -0.72] } 3... Nf6 { [%eval -0.52] } 4.
+Nge2 { [%eval -0.83] } 4... d5 { [%eval -0.68] } 5. b3 $2 { [%eval -1.71] }
+5... d4 $6 { [%eval -1.1] } 6. Nd5 $6 { [%eval -1.89] } 6... Nxd5
+{ [%eval -1.87] } 7. exd5 { [%eval -1.95] } 7... Qxd5 { [%eval -1.88] } 8. Bb2
+{ [%eval -2.02] } 8... Bc5 { [%eval -1.55] } 9. d3 $2 { [%eval -2.72] } 9...
+Bf5 { [%eval -2.52] } 10. f4 $6 { [%eval -3.43] } 10... O-O-O { [%eval -3.35] }
+11. Ng3 { [%eval -3.43] } 11... exf4 { [%eval -3.38] } 12. Nxf5
+{ [%eval -3.24] } 12... Qxf5 { [%eval -3.14] } 13. g4 $4 { [%eval -12.44] }
+13... Qe6+ $4 { [%eval -4.74] } 14. Be2 $2 { [%eval -7.0] } 14... Bb4+ $2
+{ [%eval -4.09] } 15. Kf1 $6 { [%eval -4.78] } 15... Rde8 { [%eval -4.47] } 16.
+Bf3 { [%eval -4.29] } 16... Ne5 $2 { [%eval -2.95] } 17. Kf2 $2
+{ [%eval -4.77] } 17... Nxf3 { [%eval -4.52] } 18. Kxf3 $4 { [%eval -10.31] }
+18... Qe3+ $4 { [%eval -5.97] } 19. Kg2 { [%eval -5.02] } 19... f3+ $6
+{ [%eval -4.15] } 20. Qxf3 { [%eval -3.99] } 20... Qxf3+ $2 { [%eval -1.39] }
+21. Kxf3 { [%eval -1.51] } 21... Re3+ { [%eval -1.18] } 22. Kf4 $4
+{ [%eval #-6] } 22... Bd6+ { [%eval #-5] } 23. Kg5 { [%eval #-4] } 23... f6+ $6
+{ [%eval #-7] } 24. Kh4 { [%eval #-2] } 24... g6 $6 { [%eval -10.14] } 25. Bxd4
+$6 { [%eval #-2] } 25... g5+ { [%eval #-1] } 26. Kh5 { [%eval #-1] } 26... Rh3#
+0-1

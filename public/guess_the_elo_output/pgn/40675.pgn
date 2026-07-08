@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/qSBjAqSd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RussianMachine"]
+[Black "chesstake"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:28:12"]
+[WhiteElo "1112"]
+[BlackElo "1259"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-15"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined, Reversed French"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... e5 $6 { [%eval 0.67] } 2. e3 $6 { [%eval 0.11] }
+2... exd4 { [%eval 0.16] } 3. exd4 { [%eval 0.27] } 3... c5 $6 { [%eval 0.87] }
+4. f4 $2 { [%eval -0.57] } 4... Qf6 $2 { [%eval 0.84] } 5. c3 $6
+{ [%eval 0.0] } 5... Nc6 $2 { [%eval 1.12] } 6. dxc5 $2 { [%eval -1.19] } 6...
+Bxc5 { [%eval -0.82] } 7. Qe2+ $6 { [%eval -1.41] } 7... Nce7 $2
+{ [%eval 0.13] } 8. g4 $2 { [%eval -1.11] } 8... Qh4+ { [%eval -1.17] } 9. Qf2
+$4 { [%eval -23.64] } 9... Qf6 $4 { [%eval 3.23] } 10. Qxc5 { [%eval 3.14] }
+10... d6 { [%eval 3.48] } 11. Qb5+ { [%eval 3.16] } 11... Bd7 $6
+{ [%eval 3.73] } 12. Qxb7 { [%eval 3.64] } 12... Rd8 { [%eval 3.85] } 13. Qxa7
+$2 { [%eval 1.4] } 13... Nd5 $2 { [%eval 4.32] } 14. Be3 $4 { [%eval 0.51] }
+14... Nxf4 $4 { [%eval 4.43] } 15. Bxf4 $6 { [%eval 3.56] } 15... Qxf4
+{ [%eval 3.48] } 16. Qf2 $4 { [%eval -4.0] } 16... Qe4+ $4 { [%eval 4.25] } 17.
+Qe2 { [%eval 4.03] } 17... Qxe2+ { [%eval 4.38] } 18. Kxe2 $2 { [%eval 3.37] }
+18... Kf8 $6 { [%eval 3.93] } 19. Bh3 $6 { [%eval 3.36] } 19... Re8+ $6
+{ [%eval 3.86] } 20. Kf2 { [%eval 3.6] } 20... g6 $6 { [%eval 4.37] } 21. g5
+{ [%eval 4.11] } 21... f5 { [%eval 4.59] } 22. c4 $2 { [%eval 2.8] } 22... Ne7
+$2 { [%eval 4.56] } 23. b4 $2 { [%eval 3.41] } 23... d5 $6 { [%eval 4.39] } 24.
+b5 { [%eval 4.35] } 24... dxc4 { [%eval 4.71] } 25. Nc3 { [%eval 4.47] } 25...
+Nc8 $2 { [%eval 5.81] } 26. Re1 $2 { [%eval 4.77] } 26... Rxe1 { [%eval 4.82] }
+27. Kxe1 { [%eval 4.67] } 27... Nb6 $6 { [%eval 5.32] } 28. Nf3 $2
+{ [%eval 4.26] } 28... Be6 $6 { [%eval 5.03] } 29. Nd4 { [%eval 5.0] } 1-0

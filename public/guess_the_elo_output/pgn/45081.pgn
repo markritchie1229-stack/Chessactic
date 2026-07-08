@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ORZ8nOmw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jahuba"]
+[Black "zapzerapp"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:26:35"]
+[WhiteElo "1297"]
+[BlackElo "2209"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[ECO "C44"]
+[Opening "Scotch Game"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.17] } 2...
+Nc6 { [%eval 0.22] } 3. d4 { [%eval 0.11] } 3... Bc5 $4 { [%eval 3.92] } 4.
+dxc5 { [%eval 3.86] } 4... Nf6 { [%eval 4.28] } 5. Bg5 { [%eval 4.03] } 5... h6
+{ [%eval 4.1] } 6. Bxf6 { [%eval 3.96] } 6... Qxf6 { [%eval 4.0] } 7. Nc3
+{ [%eval 3.92] } 7... b6 $6 { [%eval 4.54] } 8. Qe2 $6 { [%eval 3.68] } 8...
+bxc5 { [%eval 3.82] } 9. Qd3 $2 { [%eval 2.8] } 9... d6 $4 { [%eval 6.91] } 10.
+Be2 $4 { [%eval 2.65] } 10... Bg4 $4 { [%eval 6.81] } 11. O-O $4
+{ [%eval 2.93] } 11... O-O { [%eval 2.98] } 12. h3 { [%eval 2.79] } 12... Nb4
+{ [%eval 3.1] } 13. Qc4 $6 { [%eval 2.4] } 13... Bxf3 $6 { [%eval 3.2] } 14.
+Bxf3 { [%eval 3.19] } 14... Nxc2 $4 { [%eval 6.91] } 15. Rac1 $4
+{ [%eval 1.83] } 15... Nd4 { [%eval 1.88] } 16. Ne2 $2 { [%eval 0.7] } 16...
+Nxf3+ { [%eval 0.96] } 17. gxf3 { [%eval 1.02] } 17... Qxf3 { [%eval 1.14] }
+18. Ng3 { [%eval 1.12] } 18... Rab8 { [%eval 1.08] } 19. Rc3 { [%eval 1.16] }
+19... Qf4 { [%eval 1.08] } 20. Qd5 $2 { [%eval 0.0] } 20... Rxb2
+{ [%eval 0.0] } 21. Rf3 $4 { [%eval -8.49] } 21... Qg5 $4 { [%eval 0.08] } 22.
+Qd3 { [%eval 0.0] } 22... Qe7 $2 { [%eval 1.93] } 23. Ra1 $2 { [%eval -0.25] }
+23... Rfb8 $2 { [%eval 0.79] } 24. Re3 $2 { [%eval -0.72] } 24... g6
+{ [%eval -0.58] } 25. Kg2 { [%eval -0.87] } 25... Qf6 { [%eval -0.59] } 26. h4
+$4 { [%eval #-9] } 26... h5 $4 { [%eval -2.1] } 27. Ne2 { [%eval -2.12] } 27...
+Qe6 $6 { [%eval -1.37] } 28. Nc3 { [%eval -1.81] } 28... Qg4+ $6
+{ [%eval -1.12] } 0-1

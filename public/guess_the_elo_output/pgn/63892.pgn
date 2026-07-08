@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/iUGK8jLC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Miaksikanka"]
+[Black "EddyWilde"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:57:46"]
+[WhiteElo "1757"]
+[BlackElo "1790"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "D32"]
+[Opening "Queen's Gambit Declined: Tarrasch Defense: 4.cxd5 exd5"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.27] } 2. c4 { [%eval 0.18] } 2... e6
+{ [%eval 0.27] } 3. Nc3 { [%eval 0.27] } 3... c5 { [%eval 0.5] } 4. cxd5
+{ [%eval 0.44] } 4... exd5 { [%eval 0.44] } 5. dxc5 { [%eval 0.09] } 5... d4
+{ [%eval 0.2] } 6. Ne4 { [%eval 0.1] } 6... Bf5 { [%eval 0.43] } 7. Qa4+ $6
+{ [%eval -0.29] } 7... Nc6 { [%eval -0.15] } 8. Ng3 { [%eval -0.13] } 8... Bg6
+{ [%eval -0.07] } 9. Qb5 { [%eval -0.22] } 9... Rb8 { [%eval 0.14] } 10. Bf4 $6
+{ [%eval -0.85] } 10... Qa5+ $4 { [%eval 5.32] } 11. Qxa5 { [%eval 5.22] }
+11... Nxa5 { [%eval 5.23] } 12. Bxb8 { [%eval 5.35] } 12... Nc4 $2
+{ [%eval 7.97] } 13. b4 $6 { [%eval 7.26] } 13... Na3 { [%eval 7.15] } 14. Rd1
+$2 { [%eval 5.43] } 14... Nc2+ { [%eval 5.43] } 15. Kd2 { [%eval 5.43] } 15...
+Nxb4 { [%eval 5.43] } 16. e4 { [%eval 5.07] } 16... Bxc5 { [%eval 5.54] } 17.
+Bb5+ { [%eval 5.2] } 17... Nc6 { [%eval 5.62] } 18. Bxc6+ { [%eval 5.47] }
+18... bxc6 { [%eval 5.5] } 19. N1e2 { [%eval 5.27] } 19... Nf6 { [%eval 5.28] }
+20. e5 $4 { [%eval 0.0] } 20... Ne4+ $4 { [%eval 5.35] } 21. Nxe4
+{ [%eval 5.22] } 21... Bxe4 { [%eval 5.26] } 22. f3 $4 { [%eval 0.72] } 22...
+Bg6 $4 { [%eval 6.06] } 23. Bd6 { [%eval 5.74] } 23... Bxd6 $2 { [%eval 7.03] }
+24. exd6 { [%eval 6.8] } 24... O-O $2 { [%eval 8.34] } 25. Nxd4
+{ [%eval 8.22] } 25... Rd8 { [%eval 7.91] } 26. Rhe1 { [%eval 7.58] } 26... h6
+$2 { [%eval 8.73] } 27. Kc3 { [%eval 8.61] } 27... Rxd6 { [%eval 8.57] } 28.
+Nb3 { [%eval 8.28] } 28... Rf6 { [%eval 8.32] } 29. Rd7 $6 { [%eval 7.55] }
+29... a6 { [%eval 7.52] } 30. Nc5 { [%eval 7.05] } 30... Bf5 $2
+{ [%eval 8.73] } 31. Ra7 { [%eval 8.47] } 31... Kh7 { [%eval 8.75] } 32. Ree7
+$6 { [%eval 8.09] } 1-0

@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/PjE83bTM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ribadela"]
+[Black "toppicot"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:13:00"]
+[WhiteElo "1575"]
+[BlackElo "1398"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "D06"]
+[Opening "Queen's Gambit"]
+[TimeControl "30+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.11] } 1... d5 { [%eval 0.18] } 2. c4 { [%eval 0.11] } 2... Bg4
+$2 { [%eval 1.16] } 3. Nc3 $6 { [%eval 0.64] } 3... e6 { [%eval 0.9] } 4. Bf4
+{ [%eval 0.41] } 4... Bb4 { [%eval 0.5] } 5. f3 { [%eval 0.23] } 5... Bxc3+ $6
+{ [%eval 1.04] } 6. bxc3 { [%eval 0.96] } 6... Bf5 { [%eval 1.08] } 7. e3 $6
+{ [%eval 0.56] } 7... h6 { [%eval 0.95] } 8. Bd3 { [%eval 0.54] } 8... Bh7 $2
+{ [%eval 2.01] } 9. Bxh7 { [%eval 1.86] } 9... Rxh7 { [%eval 2.16] } 10. Qd3 $6
+{ [%eval 1.37] } 10... Nf6 { [%eval 1.75] } 11. Be5 $6 { [%eval 0.85] } 11...
+Rh8 $6 { [%eval 1.5] } 12. e4 $6 { [%eval 0.59] } 12... dxe4 { [%eval 0.93] }
+13. fxe4 { [%eval 0.96] } 13... Nbd7 { [%eval 1.08] } 14. Nf3 { [%eval 0.97] }
+14... Qe7 $6 { [%eval 1.51] } 15. Bxc7 $2 { [%eval 0.17] } 15... Rc8 $2
+{ [%eval 2.43] } 16. Ba5 { [%eval 2.33] } 16... b6 $2 { [%eval 3.93] } 17. Bb4
+{ [%eval 3.56] } 17... Qd8 { [%eval 3.45] } 18. O-O { [%eval 3.44] } 18... e5
+$2 { [%eval 4.75] } 19. d5 $2 { [%eval 1.96] } 19... Nc5 $2 { [%eval 4.86] }
+20. Bxc5 { [%eval 4.7] } 20... bxc5 $2 { [%eval 6.85] } 21. Nxe5
+{ [%eval 6.48] } 21... Qc7 $4 { [%eval 11.1] } 22. Nc6 $4 { [%eval 6.87] } 1-0

@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/x3wlNG0j"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zenhunter"]
+[Black "monab"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:02:28"]
+[WhiteElo "1552"]
+[BlackElo "1480"]
+[WhiteRatingDiff "-21"]
+[BlackRatingDiff "+16"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.16] } 2... Nf6
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.05] } 3... dxc4 { [%eval 0.13] } 4. e4
+{ [%eval -0.15] } 4... e5 { [%eval -0.01] } 5. d5 $6 { [%eval -0.74] } 5... Bd7
+$2 { [%eval 0.42] } 6. Bxc4 { [%eval 0.31] } 6... Bb4 { [%eval 0.28] } 7. Ne2
+$6 { [%eval -0.64] } 7... Nxe4 { [%eval -0.62] } 8. Qb3 { [%eval -0.71] } 8...
+Qe7 $2 { [%eval 0.58] } 9. O-O { [%eval 0.04] } 9... Bxc3 { [%eval 0.31] } 10.
+bxc3 $6 { [%eval -0.23] } 10... Nc5 { [%eval -0.1] } 11. Qb4 { [%eval -0.24] }
+11... a5 { [%eval -0.3] } 12. Qa3 $6 { [%eval -0.97] } 12... b5
+{ [%eval -0.67] } 13. Be3 { [%eval -1.1] } 13... Nba6 { [%eval -0.77] } 14.
+Bxc5 $2 { [%eval -1.81] } 14... Nxc5 { [%eval -1.81] } 15. Bb3
+{ [%eval -1.69] } 15... O-O { [%eval -1.68] } 16. Bc2 { [%eval -1.69] } 16...
+a4 { [%eval -1.23] } 17. Be4 $6 { [%eval -2.1] } 17... f5 { [%eval -1.63] } 18.
+d6 { [%eval -1.65] } 18... cxd6 { [%eval -1.48] } 19. Bxa8 { [%eval -1.47] }
+19... Rxa8 { [%eval -1.36] } 20. Rad1 $6 { [%eval -1.86] } 20... f4
+{ [%eval -1.77] } 21. Rfe1 { [%eval -1.85] } 21... Rd8 $2 { [%eval 0.0] } 22.
+Rc1 $4 { [%eval -3.17] } 22... Qg5 $6 { [%eval -2.56] } 0-1

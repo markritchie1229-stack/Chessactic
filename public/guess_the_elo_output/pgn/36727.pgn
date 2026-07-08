@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0uduzgar"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kavinsyj"]
+[Black "map_chess"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:42:12"]
+[WhiteElo "1497"]
+[BlackElo "1668"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+70"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Stonewall Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.23] } 2. e3 { [%eval 0.1] } 2... Nf6
+{ [%eval 0.12] } 3. Bd3 { [%eval 0.1] } 3... h6 { [%eval 0.07] } 4. Nd2
+{ [%eval 0.07] } 4... Nc6 { [%eval 0.1] } 5. c3 $6 { [%eval -0.51] } 5... e6 $2
+{ [%eval 0.58] } 6. f4 $6 { [%eval -0.08] } 6... b5 $2 { [%eval 0.97] } 7. Ngf3
+$6 { [%eval 0.41] } 7... b4 $6 { [%eval 0.98] } 8. O-O { [%eval 0.8] } 8...
+bxc3 { [%eval 0.91] } 9. bxc3 { [%eval 0.88] } 9... Be7 { [%eval 1.01] } 10.
+Ne5 { [%eval 0.9] } 10... Nxe5 { [%eval 1.21] } 11. fxe5 { [%eval 1.16] } 11...
+Nd7 { [%eval 1.02] } 12. e4 { [%eval 0.98] } 12... O-O { [%eval 1.33] } 13. Qg4
+$6 { [%eval 0.77] } 13... Bg5 { [%eval 0.89] } 14. exd5 { [%eval 0.7] } 14...
+exd5 { [%eval 0.83] } 15. c4 $4 { [%eval -3.14] } 15... Nf6 $4 { [%eval 0.08] }
+16. exf6 $4 { [%eval -9.33] } 16... Bxg4 { [%eval -9.19] } 17. fxg7
+{ [%eval -9.22] } 17... Re8 { [%eval -8.83] } 18. Nf3 $2 { [%eval -12.05] }
+18... Bxc1 { [%eval -9.52] } 19. Raxc1 { [%eval -9.59] } 19... Bxf3
+{ [%eval -9.43] } 20. Rxf3 { [%eval -9.28] } 20... Qg5 $6 { [%eval -8.75] } 21.
+Rcf1 { [%eval -8.91] } 21... Re7 $6 { [%eval -8.22] } 22. cxd5 $6
+{ [%eval -8.73] } 22... Qxd5 { [%eval -8.26] } 23. Rg3 $2 { [%eval -10.81] }
+23... Qxd4+ { [%eval -9.95] } 0-1

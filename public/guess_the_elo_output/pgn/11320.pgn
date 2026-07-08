@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/3bmT0sph"]
+[Date "????.??.??"]
+[Round "?"]
+[White "axiles64"]
+[Black "dainiusk"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:06:04"]
+[WhiteElo "2114"]
+[BlackElo "2083"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "A42"]
+[Opening "Modern Defense: Averbakh System, Kotov Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... g6 { [%eval 0.64] } 2. d4 { [%eval 0.65] } 2... Bg7
+{ [%eval 0.66] } 3. c4 { [%eval 0.4] } 3... d6 { [%eval 0.58] } 4. Nc3
+{ [%eval 0.45] } 4... Nc6 { [%eval 0.63] } 5. Nf3 { [%eval 0.21] } 5... e5
+{ [%eval 0.29] } 6. d5 { [%eval 0.22] } 6... Nce7 { [%eval 0.67] } 7. Be2
+{ [%eval 0.45] } 7... Bd7 { [%eval 0.84] } 8. O-O { [%eval 0.48] } 8... b6
+{ [%eval 0.82] } 9. Ne1 { [%eval 0.45] } 9... h6 { [%eval 0.87] } 10. f4
+{ [%eval 0.58] } 10... exf4 { [%eval 0.64] } 11. Bxf4 { [%eval 0.69] } 11... f5
+$6 { [%eval 1.48] } 12. exf5 { [%eval 1.26] } 12... Nxf5 { [%eval 0.95] } 13.
+Bd3 $6 { [%eval 0.24] } 13... Nge7 $2 { [%eval 1.71] } 14. g4 { [%eval 1.63] }
+14... Nh4 $6 { [%eval 2.35] } 15. Qc2 $4 { [%eval -0.82] } 15... O-O $2
+{ [%eval 0.42] } 16. Bg3 $6 { [%eval -0.25] } 16... g5 { [%eval -0.37] } 17.
+Rxf8+ { [%eval -0.77] } 17... Qxf8 { [%eval -0.7] } 18. Bxh4 { [%eval -0.91] }
+18... gxh4 { [%eval -0.88] } 19. h3 $2 { [%eval -2.54] } 19... Qf4
+{ [%eval -2.45] } 20. Ng2 { [%eval -2.54] } 20... Qg3 $2 { [%eval -1.38] } 21.
+Qe2 $4 { [%eval #-7] } 21... Re8 $4 { [%eval -1.25] } 22. Qe4 $4
+{ [%eval -10.79] } 22... Nc8 $4 { [%eval 10.72] } 23. Qh7+ { [%eval 10.5] }
+23... Kf8 { [%eval 10.64] } 24. Rf1+ { [%eval 10.11] } 24... Ke7
+{ [%eval 10.21] } 25. Qxg7+ { [%eval 9.92] } 25... Kd8 { [%eval 9.83] } 26.
+Qf6+ $2 { [%eval 7.6] } 26... Ne7 $2 { [%eval 9.77] } 27. Bg6 { [%eval 9.32] }
+27... Rg8 $6 { [%eval 10.54] } 28. Ne4 $4 { [%eval 6.58] } 28... h5 $4
+{ [%eval 24.18] } 29. Nxg3 { [%eval 22.22] } 1-0

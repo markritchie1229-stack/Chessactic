@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/1VLbrqUS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nkivin"]
+[Black "Divyapudhuraja"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:15:03"]
+[WhiteElo "1819"]
+[BlackElo "1807"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "C25"]
+[Opening "Vienna Game: Vienna Gambit"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.3] } 2. Nc3 { [%eval 0.19] } 2... Nc6
+{ [%eval 0.18] } 3. f4 $6 { [%eval -0.32] } 3... d6 $6 { [%eval 0.31] } 4. Nf3
+{ [%eval 0.23] } 4... Bg4 { [%eval 0.43] } 5. Bb5 { [%eval 0.48] } 5... Bxf3
+{ [%eval 0.81] } 6. Qxf3 { [%eval 0.78] } 6... Nf6 { [%eval 0.82] } 7. d3
+{ [%eval 0.74] } 7... Be7 { [%eval 0.85] } 8. O-O { [%eval 0.66] } 8... a6 $6
+{ [%eval 1.33] } 9. Bxc6+ { [%eval 1.2] } 9... bxc6 { [%eval 1.37] } 10. fxe5
+{ [%eval 1.28] } 10... dxe5 { [%eval 1.17] } 11. Be3 { [%eval 0.86] } 11... h6
+$6 { [%eval 1.58] } 12. Ne2 $6 { [%eval 1.04] } 12... O-O { [%eval 1.04] } 13.
+Ng3 { [%eval 1.02] } 13... Qd7 $2 { [%eval 2.6] } 14. Nf5 { [%eval 2.59] }
+14... Kh7 { [%eval 2.61] } 15. Nxe7 $6 { [%eval 1.83] } 15... Qxe7
+{ [%eval 1.81] } 16. Qf5+ { [%eval 1.81] } 16... Kg8 { [%eval 1.86] } 17. Bxh6
+{ [%eval 1.76] } 17... gxh6 $2 { [%eval 3.13] } 18. Qxf6 { [%eval 3.21] } 18...
+Qxf6 { [%eval 3.18] } 19. Rxf6 { [%eval 3.06] } 19... Rab8 { [%eval 3.43] } 20.
+b3 { [%eval 3.29] } 20... Rb6 { [%eval 3.33] } 21. Rxh6 { [%eval 3.22] } 21...
+Kg7 { [%eval 3.71] } 22. Rh5 { [%eval 3.43] } 22... f6 { [%eval 3.68] } 23. Rf1
+{ [%eval 3.47] } 23... c5 { [%eval 3.63] } 24. Rhf5 { [%eval 3.16] } 24... a5
+{ [%eval 3.65] } 25. g4 { [%eval 3.59] } 25... Rg8 { [%eval 3.72] } 26. g5
+{ [%eval 3.74] } 26... fxg5 $6 { [%eval 4.31] } 27. Rxg5+ { [%eval 4.17] }
+27... Rg6 { [%eval 4.08] } 28. Rxg6+ { [%eval 3.73] } 28... Kxg6
+{ [%eval 3.72] } 29. Rf5 { [%eval 3.44] } 29... Re8 $6 { [%eval 4.16] } 30. h4
+{ [%eval 4.01] } 30... Re6 $6 { [%eval 4.93] } 31. h5+ { [%eval 4.88] } 31...
+Kh6 { [%eval 4.86] } 32. Kf2 { [%eval 4.71] } 32... c6 { [%eval 5.01] } 33. Ke2
+{ [%eval 4.93] } 33... Kg7 $6 { [%eval 5.53] } 34. Kd2 { [%eval 5.16] } 34...
+Kh6 $2 { [%eval 6.77] } 35. Kc3 { [%eval 6.41] } 1-0

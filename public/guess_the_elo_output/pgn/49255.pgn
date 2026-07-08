@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8AS8QL8D"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sacrificechesss"]
+[Black "marlon2083"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:53:33"]
+[WhiteElo "1500"]
+[BlackElo "1716"]
+[WhiteRatingDiff "+316"]
+[BlackRatingDiff "-11"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.37] } 2. f4 { [%eval -0.07] } 2... d6
+{ [%eval 0.18] } 3. Nf3 { [%eval 0.21] } 3... Bg4 { [%eval 0.53] } 4. Be2
+{ [%eval 0.36] } 4... Nc6 { [%eval 0.41] } 5. O-O { [%eval 0.37] } 5... g6
+{ [%eval 0.51] } 6. c3 { [%eval 0.35] } 6... Bg7 { [%eval 0.32] } 7. d3
+{ [%eval 0.45] } 7... b5 { [%eval 0.86] } 8. h3 { [%eval 0.54] } 8... Bd7
+{ [%eval 0.49] } 9. a3 { [%eval 0.41] } 9... a5 { [%eval 0.71] } 10. d4
+{ [%eval 0.77] } 10... cxd4 { [%eval 0.94] } 11. cxd4 { [%eval 0.91] } 11...
+Qb6 { [%eval 1.0] } 12. Be3 { [%eval 0.89] } 12... Na7 $6 { [%eval 1.6] } 13.
+Qd3 $6 { [%eval 1.1] } 13... Nf6 { [%eval 1.18] } 14. d5 { [%eval 1.22] } 14...
+Qb7 { [%eval 1.22] } 15. Nc3 $6 { [%eval 0.67] } 15... O-O { [%eval 0.76] } 16.
+e5 { [%eval 0.54] } 16... dxe5 { [%eval 0.97] } 17. fxe5 { [%eval 0.98] } 17...
+Ne8 $6 { [%eval 1.51] } 18. Ng5 $2 { [%eval 0.47] } 18... e6 $4
+{ [%eval 5.14] } 19. dxe6 $2 { [%eval 2.64] } 19... Bxe6 { [%eval 2.71] } 20.
+Nxe6 { [%eval 2.66] } 20... fxe6 { [%eval 2.64] } 21. Rxf8+ { [%eval 2.62] }
+21... Bxf8 { [%eval 2.53] } 22. Bf3 { [%eval 2.56] } 22... Qb8 $4
+{ [%eval 8.63] } 23. Bxa8 { [%eval 8.54] } 23... Qxa8 { [%eval 8.47] } 24. Qd7
+{ [%eval 7.8] } 24... Ng7 $6 { [%eval 8.37] } 25. Qxa7 $6 { [%eval 7.68] }
+25... Qc6 $2 { [%eval 11.56] } 26. Rf1 { [%eval 11.33] } 26... Nf5
+{ [%eval 11.02] } 27. g4 { [%eval 10.57] } 27... Nxe3 $6 { [%eval #2] } 28.
+Qf7+ { [%eval #1] } 28... Kh8 { [%eval #1] } 29. Qxf8# 1-0

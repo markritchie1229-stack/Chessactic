@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ONy1kbuo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Dima_iiiii"]
+[Black "handsome"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:35:22"]
+[WhiteElo "1470"]
+[BlackElo "1601"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+7"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.37] } 2. Qh5 { [%eval -0.12] } 2...
+d6 { [%eval 0.0] } 3. Bc4 { [%eval -0.04] } 3... g6 { [%eval -0.06] } 4. Qf3
+{ [%eval -0.39] } 4... Nf6 { [%eval -0.24] } 5. Nc3 { [%eval -0.35] } 5... Bg4
+{ [%eval 0.0] } 6. Qd3 $6 { [%eval -0.51] } 6... Nc6 { [%eval -0.24] } 7. h3 $2
+{ [%eval -2.12] } 7... Be6 $2 { [%eval -0.4] } 8. Bxe6 { [%eval -0.31] } 8...
+fxe6 { [%eval -0.32] } 9. Qe2 { [%eval -0.36] } 9... Nd4 { [%eval -0.34] } 10.
+d3 $4 { [%eval -7.22] } 10... Nxc2+ $4 { [%eval 3.03] } 11. Kd1 $4
+{ [%eval -3.7] } 11... Nxa1 { [%eval -3.29] } 12. Nf3 $6 { [%eval -4.11] }
+12... g5 $2 { [%eval -2.21] } 13. b3 $2 { [%eval -3.41] } 13... Qd7 $6
+{ [%eval -2.51] } 14. Bb2 $2 { [%eval -3.94] } 14... Nxb3 { [%eval -3.88] } 15.
+axb3 { [%eval -3.82] } 15... Qc6 $6 { [%eval -2.92] } 16. Kd2 $6
+{ [%eval -3.73] } 16... Qb6 { [%eval -3.47] } 17. Nxg5 { [%eval -3.77] } 17...
+Qxb3 $6 { [%eval -2.98] } 18. Qh5+ $4 { [%eval -19.0] } 18... Kd7 $4
+{ [%eval -6.01] } 19. Qf7+ { [%eval -6.01] } 19... Kc6 $4 { [%eval 1.58] } 20.
+Rb1 $4 { [%eval -1.82] } 20... Bh6 { [%eval -1.57] } 21. h4 $4 { [%eval -8.5] }
+21... Bxg5+ $2 { [%eval -6.56] } 22. hxg5 { [%eval -6.7] } 22... Rhf8
+{ [%eval -6.53] } 23. Qxe6 $4 { [%eval -14.29] } 23... Ng4 $4 { [%eval 13.29] }
+24. Qd5+ $4 { [%eval 0.0] } 24... Kd7 $4 { [%eval 12.18] } 25. Qxb3
+{ [%eval 11.83] } 25... Rxf2+ { [%eval 11.64] } 26. Ke1 $2 { [%eval 7.18] }
+26... Rxg2 $2 { [%eval #11] } 27. Nd5 $2 { [%eval 7.91] } 27... Rg1+
+{ [%eval 7.79] } 28. Kd2 { [%eval 7.37] } 28... Rxb1 { [%eval 6.92] } 29. Kc3
+$6 { [%eval 6.0] } 29... Rc1+ $4 { [%eval 16.41] } 30. Kb4 $4 { [%eval 4.02] }
+30... Rf8 $4 { [%eval 8.73] } 0-1

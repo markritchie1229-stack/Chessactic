@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/EIVpetbr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Joslinmeister"]
+[Black "deuTscha"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:00:42"]
+[WhiteElo "1591"]
+[BlackElo "1667"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "A65"]
+[Opening "Benoni Defense: King's Pawn Line"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... c5 { [%eval 0.5] } 2. c4 $6 { [%eval -0.11] } 2...
+e6 $6 { [%eval 0.62] } 3. d5 { [%eval 0.56] } 3... exd5 { [%eval 0.77] } 4.
+cxd5 { [%eval 0.71] } 4... Nf6 { [%eval 0.78] } 5. e4 $2 { [%eval -0.24] } 5...
+d6 $2 { [%eval 0.83] } 6. Nc3 { [%eval 0.93] } 6... a6 { [%eval 0.97] } 7. Be2
+$6 { [%eval 0.41] } 7... b5 { [%eval 0.44] } 8. Nf3 $6 { [%eval -0.1] } 8... b4
+{ [%eval -0.11] } 9. Nb1 { [%eval -0.08] } 9... Nxe4 { [%eval -0.22] } 10. Nbd2
+{ [%eval -0.47] } 10... Nf6 { [%eval -0.52] } 11. O-O { [%eval -0.82] } 11...
+Nxd5 $6 { [%eval -0.08] } 12. Nc4 $6 { [%eval -0.89] } 12... Bb7 $4
+{ [%eval 2.85] } 13. Bf4 $4 { [%eval -4.93] } 13... Nxf4 { [%eval -4.82] } 14.
+Qd2 $2 { [%eval -5.85] } 14... Nxe2+ { [%eval -5.65] } 15. Qxe2+
+{ [%eval -5.65] } 15... Qe7 $4 { [%eval -0.63] } 16. Qc2 $4 { [%eval -5.13] }
+16... Bxf3 $4 { [%eval 0.27] } 17. Rfe1 { [%eval 0.49] } 17... Qxe1+ $4
+{ [%eval 4.02] } 18. Rxe1+ { [%eval 3.89] } 18... Be7 $6 { [%eval 4.65] } 19.
+gxf3 { [%eval 4.52] } 19... Nc6 $6 { [%eval 5.51] } 20. Qe4 { [%eval 5.31] }
+20... O-O-O $4 { [%eval #4] } 21. Qxc6+ { [%eval #3] } 21... Kb8 { [%eval #3] }
+22. Rxe7 { [%eval #2] } 22... Rc8 { [%eval #1] } 23. Qb7# 1-0

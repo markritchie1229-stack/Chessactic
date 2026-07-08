@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/N7b8AyTI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ListonoszPat"]
+[Black "mojtabamobham"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:43:25"]
+[WhiteElo "1240"]
+[BlackElo "1090"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+39"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[TimeControl "300+4"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.25] } 1... d5 { [%eval 0.1] } 2. c4 { [%eval 0.12] } 2... dxc4
+{ [%eval 0.34] } 3. e3 { [%eval 0.4] } 3... b5 { [%eval 0.66] } 4. b3 $6
+{ [%eval 0.15] } 4... Be6 $6 { [%eval 0.75] } 5. d5 $2 { [%eval -0.82] } 5...
+Bxd5 { [%eval -0.48] } 6. Nc3 { [%eval -0.97] } 6... c6 { [%eval -0.59] } 7. e4
+{ [%eval -0.58] } 7... Be6 { [%eval -0.38] } 8. Qxd8+ { [%eval -0.36] } 8...
+Kxd8 { [%eval -0.1] } 9. bxc4 { [%eval -0.24] } 9... bxc4 $6 { [%eval 0.45] }
+10. Ba3 $6 { [%eval -0.22] } 10... g6 { [%eval 0.06] } 11. O-O-O+ $6
+{ [%eval -0.74] } 11... Ke8 { [%eval -0.66] } 12. Na4 { [%eval -1.09] } 12...
+Bg7 $2 { [%eval 0.0] } 13. Nc5 { [%eval -0.1] } 13... Bg4 { [%eval 0.08] } 14.
+Rd7 $4 { [%eval -7.2] } 14... Nxd7 { [%eval -6.95] } 15. Nxd7 { [%eval -7.28] }
+15... Kxd7 { [%eval -7.05] } 16. f3 $6 { [%eval -7.83] } 16... Bh5 $4
+{ [%eval -4.31] } 17. g4 { [%eval -4.36] } 17... Bxg4 { [%eval -4.37] } 18.
+fxg4 { [%eval -4.3] } 18... Nf6 { [%eval -4.1] } 19. Bxc4 $6 { [%eval -4.69] }
+19... Nxe4 { [%eval -4.22] } 20. Bc5 $4 { [%eval -9.37] } 20... Nxc5
+{ [%eval -9.15] } 0-1

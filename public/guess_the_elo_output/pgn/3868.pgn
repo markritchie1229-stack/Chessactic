@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MhT0HpLo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "axiomofchoice"]
+[Black "mis3u"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:40:26"]
+[WhiteElo "2102"]
+[BlackElo "1997"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "E73"]
+[Opening "King's Indian Defense: Normal Variation, Standard Development"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.2] } 2. c4 { [%eval 0.18] } 2... g6
+{ [%eval 0.41] } 3. Nc3 { [%eval 0.4] } 3... Bg7 { [%eval 0.62] } 4. e4
+{ [%eval 0.5] } 4... d6 { [%eval 0.56] } 5. Be2 { [%eval 0.56] } 5... O-O
+{ [%eval 0.62] } 6. g4 { [%eval 0.14] } 6... c5 { [%eval -0.14] } 7. d5
+{ [%eval -0.12] } 7... Na6 $6 { [%eval 0.41] } 8. g5 { [%eval 0.27] } 8... Nd7
+{ [%eval 0.54] } 9. h4 { [%eval 0.41] } 9... Ne5 $6 { [%eval 1.12] } 10. f4
+{ [%eval 1.0] } 10... Nd7 { [%eval 1.01] } 11. h5 { [%eval 1.24] } 11... Nb6
+{ [%eval 1.09] } 12. hxg6 { [%eval 0.63] } 12... fxg6 { [%eval 0.66] } 13. Qd3
+{ [%eval 0.44] } 13... Nb4 { [%eval 0.48] } 14. Qg3 $2 { [%eval -1.81] } 14...
+Nc2+ { [%eval -1.56] } 15. Kd1 { [%eval -1.79] } 15... Nxa1 { [%eval -1.26] }
+16. Qh4 $6 { [%eval -1.8] } 16... h5 $6 { [%eval -0.95] } 17. gxh6
+{ [%eval -1.44] } 17... Bd4 $2 { [%eval 0.0] } 18. Nf3 { [%eval -0.15] } 18...
+Bf6 $2 { [%eval 1.28] } 19. Qg3 { [%eval 0.95] } 19... Kh7 { [%eval 0.74] } 20.
+e5 { [%eval 0.6] } 20... Bf5 $6 { [%eval 1.22] } 21. exf6 { [%eval 1.08] }
+21... exf6 { [%eval 1.27] } 22. Nh4 { [%eval 1.2] } 22... Qd7 $4
+{ [%eval 6.16] } 23. Nxf5 { [%eval 5.39] } 23... gxf5 $2 { [%eval 6.51] } 24.
+Bd3 { [%eval 5.99] } 24... Rg8 $2 { [%eval 7.89] } 25. Qh3 { [%eval 7.35] }
+25... Qe7 { [%eval 6.39] } 26. Qxf5+ { [%eval 5.55] } 26... Kh8
+{ [%eval 5.97] } 27. b3 { [%eval 5.12] } 1-0

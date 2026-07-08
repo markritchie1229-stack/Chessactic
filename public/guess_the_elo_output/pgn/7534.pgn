@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/qDbL5KDI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "toleq"]
+[Black "David_Anavi"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:31:03"]
+[WhiteElo "1829"]
+[BlackElo "1864"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-12"]
+[ECO "C51"]
+[Opening "Italian Game: Jerome Gambit"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.35] } 2...
+Nc6 { [%eval 0.46] } 3. Bc4 { [%eval 0.21] } 3... Bc5 { [%eval 0.21] } 4. Bxf7+
+$2 { [%eval -1.88] } 4... Kxf7 { [%eval -1.81] } 5. Nxe5+ { [%eval -1.9] } 5...
+Nxe5 { [%eval -1.89] } 6. Qh5+ { [%eval -1.91] } 6... Ng6 $6 { [%eval -0.94] }
+7. Qd5+ { [%eval -1.06] } 7... Ke8 { [%eval -1.07] } 8. Qxc5 { [%eval -1.03] }
+8... d6 { [%eval -0.77] } 9. Qe3 { [%eval -0.97] } 9... Nf6 { [%eval -0.73] }
+10. h3 $6 { [%eval -1.48] } 10... Qe7 $6 { [%eval -0.51] } 11. d3
+{ [%eval -0.64] } 11... Bd7 { [%eval -0.77] } 12. Nc3 { [%eval -0.86] } 12...
+Ne5 { [%eval -0.44] } 13. O-O { [%eval -0.36] } 13... Rf8 $6 { [%eval 0.38] }
+14. f4 { [%eval 0.08] } 14... Ng6 { [%eval 0.39] } 15. f5 { [%eval 0.04] }
+15... Ne5 { [%eval 0.02] } 16. Bd2 $6 { [%eval -0.61] } 16... Kd8
+{ [%eval -0.24] } 17. Rae1 { [%eval -0.51] } 17... g6 $6 { [%eval 0.11] } 18.
+Qd4 $2 { [%eval -1.01] } 18... gxf5 { [%eval -0.93] } 19. exf5
+{ [%eval -1.02] } 19... Rg8 { [%eval -0.81] } 20. Kh1 $2 { [%eval -1.88] }
+20... Qg7 { [%eval -1.85] } 21. Rf2 { [%eval -1.81] } 21... Bxf5 $4
+{ [%eval 4.7] } 22. Rxe5 { [%eval 4.74] } 22... Bxh3 $4 { [%eval 10.03] } 23.
+Rg5 { [%eval 9.68] } 23... Qh6 { [%eval 34.26] } 24. Rxg8+ { [%eval 28.64] }
+24... Nxg8 { [%eval 30.17] } 25. Bxh6 { [%eval 23.05] } 1-0

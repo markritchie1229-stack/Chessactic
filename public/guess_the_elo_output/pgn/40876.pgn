@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/494ix8kR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Marselly"]
+[Black "Zirugi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:36:31"]
+[WhiteElo "1852"]
+[BlackElo "1821"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+18"]
+[ECO "C40"]
+[Opening "Elephant Gambit: Paulsen Countergambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.43] } 2... d5
+{ [%eval 0.75] } 3. exd5 { [%eval 0.78] } 3... e4 { [%eval 0.85] } 4. Ne5 $6
+{ [%eval 0.15] } 4... Qxd5 { [%eval 0.26] } 5. d4 { [%eval 0.27] } 5... exd3
+{ [%eval 0.3] } 6. Nxd3 { [%eval 0.25] } 6... Nf6 { [%eval 0.28] } 7. Nc3
+{ [%eval 0.2] } 7... Qe6+ { [%eval 0.39] } 8. Be2 { [%eval 0.42] } 8... Nc6
+{ [%eval 0.5] } 9. O-O { [%eval 0.28] } 9... Bd6 { [%eval 0.6] } 10. Bf3
+{ [%eval 0.39] } 10... O-O { [%eval 0.46] } 11. Bxc6 { [%eval 0.07] } 11...
+bxc6 { [%eval 0.0] } 12. Nf4 $6 { [%eval -0.65] } 12... Qf5 { [%eval -0.65] }
+13. Nfe2 $6 { [%eval -1.63] } 13... c5 $2 { [%eval -0.36] } 14. Ng3
+{ [%eval -0.44] } 14... Bxg3 $6 { [%eval 0.11] } 15. fxg3 { [%eval 0.09] }
+15... Qg6 { [%eval 0.19] } 16. Bf4 { [%eval 0.0] } 16... Ba6 { [%eval 0.02] }
+17. Re1 { [%eval -0.04] } 17... Rac8 { [%eval 0.24] } 18. Qf3 { [%eval 0.07] }
+18... Qxc2 { [%eval 0.0] } 19. Be5 { [%eval 0.04] } 19... Nd7 { [%eval 0.07] }
+20. Nd5 $2 { [%eval -0.94] } 20... Nxe5 { [%eval -0.81] } 21. Rxe5
+{ [%eval -0.87] } 21... Qxb2 { [%eval -0.75] } 22. Rae1 { [%eval -0.91] } 22...
+Bb7 { [%eval -0.48] } 23. Ne7+ { [%eval -0.52] } 23... Kh8 { [%eval -0.41] }
+24. Qh5 $4 { [%eval #-1] } 24... Qxg2# 0-1

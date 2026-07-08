@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fAI00PFu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Je_t_aime"]
+[Black "SugarCoatedPills"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:59:16"]
+[WhiteElo "1500"]
+[BlackElo "1940"]
+[WhiteRatingDiff "+497"]
+[BlackRatingDiff "-16"]
+[ECO "B57"]
+[Opening "Sicilian Defense: Sozin, not Scheveningen"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.28] } 2. Nf3 { [%eval 0.25] } 2... d6
+{ [%eval 0.28] } 3. d4 { [%eval 0.23] } 3... cxd4 { [%eval 0.24] } 4. Nxd4
+{ [%eval 0.22] } 4... Nc6 { [%eval 0.26] } 5. Nc3 { [%eval 0.16] } 5... Nf6
+{ [%eval 0.4] } 6. Bc4 { [%eval 0.22] } 6... Ne5 { [%eval 0.61] } 7. Bb3
+{ [%eval 0.65] } 7... Bd7 { [%eval 0.99] } 8. h3 { [%eval 0.68] } 8... g6
+{ [%eval 0.93] } 9. f4 { [%eval 0.71] } 9... Nc6 { [%eval 0.79] } 10. Be3
+{ [%eval 0.69] } 10... Bg7 { [%eval 0.63] } 11. O-O { [%eval 0.44] } 11... Qc7
+{ [%eval 0.76] } 12. Qd2 { [%eval 0.34] } 12... h6 $6 { [%eval 0.95] } 13. Rad1
+{ [%eval 0.97] } 13... Nh5 $2 { [%eval 2.16] } 14. g4 $2 { [%eval 1.06] } 14...
+Nf6 $2 { [%eval 2.23] } 15. f5 $2 { [%eval 0.67] } 15... gxf5 $2
+{ [%eval 1.89] } 16. Nxf5 { [%eval 1.85] } 16... Bxf5 { [%eval 1.73] } 17. Rxf5
+{ [%eval 1.41] } 17... O-O-O $2 { [%eval 3.56] } 18. Bxf7 $2 { [%eval 1.53] }
+18... Ne5 $4 { [%eval 8.14] } 19. Be6+ { [%eval 7.85] } 19... Kb8 $2
+{ [%eval 11.12] } 20. Bxa7+ { [%eval 10.57] } 20... Ka8 { [%eval 11.92] } 21.
+Bf2 $4 { [%eval 5.94] } 21... Nh7 $4 { [%eval 21.5] } 22. Nb5 { [%eval 20.52] }
+22... Qc6 $6 { [%eval #5] } 23. Qa5+ { [%eval #4] } 23... Qa6 { [%eval #4] }
+24. Nc7+ { [%eval #3] } 1-0

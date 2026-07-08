@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/GUxdWcdT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Belmontreal"]
+[Black "panicen"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:47:20"]
+[WhiteElo "1035"]
+[BlackElo "1096"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+59"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. b3 { [%eval -0.24] } 1... g6 $6 { [%eval 0.31] } 2. d4 { [%eval 0.06] } 2...
+d5 { [%eval 0.21] } 3. h4 $6 { [%eval -0.42] } 3... Nc6 { [%eval -0.06] } 4. f4
+$2 { [%eval -1.29] } 4... Nxd4 $4 { [%eval 1.93] } 5. Qxd4 { [%eval 1.94] }
+5... Nf6 { [%eval 1.94] } 6. Nh3 $2 { [%eval 0.39] } 6... Ne4 $4
+{ [%eval 7.27] } 7. Qxh8 { [%eval 7.31] } 7... Ng3 { [%eval 7.43] } 8. Rg1 $6
+{ [%eval 6.7] } 8... h5 $2 { [%eval 8.89] } 9. Ng5 { [%eval 8.82] } 9... c6 $2
+{ [%eval 10.68] } 10. Qh7 $2 { [%eval 8.92] } 10... Be6 $2 { [%eval 12.84] }
+11. Nxe6 { [%eval 12.4] } 11... fxe6 { [%eval 13.79] } 12. Qxg6+
+{ [%eval 13.58] } 12... Kd7 { [%eval 13.72] } 13. Qxg3 { [%eval 13.52] } 13...
+Bg7 { [%eval 18.26] } 14. c3 { [%eval 13.19] } 14... Bf6 { [%eval 13.88] } 15.
+Be3 { [%eval 12.29] } 15... Qa5 { [%eval 12.86] } 16. Bd2 { [%eval 12.64] }
+16... d4 { [%eval 15.2] } 17. c4 { [%eval 13.24] } 17... Qc5 { [%eval 13.39] }
+18. e4 { [%eval 11.87] } 18... d3 { [%eval 13.83] } 19. Qxd3+ { [%eval 12.66] }
+19... Bd4 { [%eval 20.93] } 20. Be3 { [%eval 17.35] } 20... e5
+{ [%eval 18.69] } 21. f5 { [%eval 15.13] } 21... Rd8 { [%eval 15.29] } 22. g3
+{ [%eval 15.14] } 22... Kc7 { [%eval 15.15] } 23. a3 $4 { [%eval 2.95] } 23...
+Bxa1 $4 { [%eval 18.32] } 24. Qe2 $6 { [%eval 9.09] } 24... Qa5+ $6
+{ [%eval 9.99] } 25. Bd2 $2 { [%eval 8.51] } 25... Qc5 $2 { [%eval 9.57] } 26.
+b4 $4 { [%eval 2.5] } 26... Qxg1 { [%eval 2.39] } 27. b5 $4 { [%eval -4.73] }
+27... c5 $4 { [%eval 3.79] } 28. Ba5+ $4 { [%eval -2.79] } 28... b6
+{ [%eval -2.58] } 29. Bc3 $4 { [%eval #-8] } 29... Qxg3+ { [%eval #-9] } 30.
+Qf2 { [%eval #-9] } 30... Bxc3+ { [%eval #-8] } 31. Ke2 { [%eval #-1] } 31...
+Qh3 $4 { [%eval 14.46] } 32. Bxh3 { [%eval 13.46] } 32... Bd4 { [%eval 12.56] }
+0-1

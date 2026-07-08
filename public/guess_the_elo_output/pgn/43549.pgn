@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Xah1WduF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chesss1999"]
+[Black "Daniel1989"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:23:10"]
+[WhiteElo "1638"]
+[BlackElo "1560"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.3] } 2. Bc4 { [%eval -0.02] } 2... d6
+{ [%eval 0.22] } 3. Nf3 { [%eval 0.16] } 3... Nf6 { [%eval 0.25] } 4. Nc3
+{ [%eval 0.14] } 4... g6 { [%eval 0.33] } 5. d3 { [%eval 0.08] } 5... Bg7
+{ [%eval 0.12] } 6. O-O { [%eval 0.08] } 6... O-O { [%eval 0.07] } 7. Re1
+{ [%eval 0.12] } 7... Nc6 { [%eval 0.05] } 8. Be3 $6 { [%eval -0.48] } 8... Bg4
+{ [%eval -0.26] } 9. Qd2 $6 { [%eval -1.02] } 9... Bxf3 { [%eval -0.88] } 10.
+gxf3 { [%eval -0.98] } 10... Qd7 { [%eval -0.89] } 11. Kg2 { [%eval -0.97] }
+11... Ne5 { [%eval -0.48] } 12. Bb5 { [%eval -0.32] } 12... Qc7
+{ [%eval -0.27] } 13. Bh6 { [%eval -0.73] } 13... a6 { [%eval -0.46] } 14. Bxg7
+{ [%eval -0.54] } 14... Kxg7 { [%eval -0.48] } 15. Ba4 { [%eval -0.54] } 15...
+b5 { [%eval -0.63] } 16. Bb3 { [%eval -0.62] } 16... c4 { [%eval -0.21] } 17.
+dxc4 { [%eval -0.31] } 17... Nxc4 { [%eval -0.21] } 18. Bxc4 { [%eval -0.2] }
+18... Qxc4 { [%eval -0.08] } 19. b3 { [%eval -0.19] } 19... Qc5
+{ [%eval 0.15] } 20. Re3 $2 { [%eval -0.89] } 20... Qg5+ { [%eval -0.7] } 21.
+Kh1 { [%eval -0.79] } 21... Qh5 { [%eval -0.46] } 22. Nd5 { [%eval -0.54] }
+22... Nxd5 { [%eval -0.62] } 23. Qxd5 { [%eval -0.95] } 23... Rac8 $6
+{ [%eval -0.28] } 24. Qxh5 { [%eval -0.28] } 24... gxh5 { [%eval -0.21] } 25.
+c3 { [%eval -0.32] } 25... e6 { [%eval 0.0] } 26. Rd1 { [%eval 0.0] } 26...
+Rcd8 { [%eval 0.35] } 27. Red3 { [%eval 0.15] } 27... Kh6 $6 { [%eval 0.75] }
+28. Rxd6 { [%eval 0.56] } 28... Rg8 $4 { [%eval 8.95] } 1-0

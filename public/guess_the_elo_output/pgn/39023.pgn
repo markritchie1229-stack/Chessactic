@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Jp9p5P4T"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TESLACOIL"]
+[Black "Adft-rt"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:22:04"]
+[WhiteElo "1995"]
+[BlackElo "2008"]
+[WhiteRatingDiff "-31"]
+[BlackRatingDiff "+10"]
+[ECO "C36"]
+[Opening "King's Gambit Accepted: Modern Defense #2"]
+[TimeControl "60+5"]
+[Termination "Normal"]
+
+1. f4 $6 { [%eval -0.38] } 1... e5 $6 { [%eval 0.44] } 2. e4 $6
+{ [%eval -0.29] } 2... d5 { [%eval -0.29] } 3. exd5 { [%eval -0.27] } 3... exf4
+{ [%eval -0.16] } 4. Nf3 { [%eval -0.33] } 4... Qxd5 $6 { [%eval 0.26] } 5. d4
+{ [%eval 0.03] } 5... Nc6 { [%eval 0.43] } 6. Be2 $6 { [%eval -0.26] } 6... Nf6
+{ [%eval 0.18] } 7. Bxf4 { [%eval 0.07] } 7... Bf5 { [%eval 0.42] } 8. c4 $6
+{ [%eval -0.16] } 8... Bb4+ $6 { [%eval 0.54] } 9. Nc3 { [%eval 0.53] } 9...
+Qa5 { [%eval 0.76] } 10. Bd2 $6 { [%eval 0.12] } 10... O-O-O $6
+{ [%eval 0.87] } 11. d5 $6 { [%eval 0.0] } 11... Ne7 $6 { [%eval 0.63] } 12. a3
+{ [%eval 0.75] } 12... Bxc3 { [%eval 0.9] } 13. Bxc3 { [%eval 0.69] } 13... Qc5
+$6 { [%eval 1.66] } 14. Bd4 { [%eval 1.45] } 14... Qd6 { [%eval 1.56] } 15. O-O
+{ [%eval 1.13] } 15... Rhe8 { [%eval 1.36] } 16. b4 { [%eval 1.15] } 16... Ng4
+$6 { [%eval 1.66] } 17. h3 { [%eval 1.79] } 17... Nf6 { [%eval 2.2] } 18. Be5
+{ [%eval 2.08] } 18... Qd7 { [%eval 2.05] } 19. Bh2 { [%eval 1.97] } 19... Ne4
+$2 { [%eval 3.05] } 20. Ne5 $6 { [%eval 2.35] } 20... Qd6 $2 { [%eval 4.34] }
+21. Nxf7 $6 { [%eval 3.79] } 21... Qg6 $2 { [%eval 5.08] } 22. Nxd8
+{ [%eval 4.7] } 22... Kxd8 $4 { [%eval 7.73] } 23. Bf3 $2 { [%eval 6.05] }
+23... Nc3 $2 { [%eval 8.05] } 24. Qd2 { [%eval 7.55] } 24... Ne4 $6
+{ [%eval 8.54] } 25. Bxe4 $2 { [%eval 6.31] } 25... Bxe4 { [%eval 5.95] } 26.
+Qf4 $4 { [%eval #-1] } 26... Qxg2# 0-1

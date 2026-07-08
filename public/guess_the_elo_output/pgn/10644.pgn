@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/HmkihVHJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Prescinato"]
+[Black "Zeitnotcafe"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:31:15"]
+[WhiteElo "1879"]
+[BlackElo "1899"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-12"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.14] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.24] } 3. d4 { [%eval 0.34] } 3... cxd4 { [%eval 0.37] } 4. Nxd4
+{ [%eval 0.35] } 4... Nf6 { [%eval 0.23] } 5. Nc3 { [%eval 0.28] } 5... a6
+{ [%eval 0.28] } 6. Bd3 { [%eval 0.22] } 6... e6 { [%eval 0.29] } 7. Be3
+{ [%eval 0.15] } 7... Be7 { [%eval 0.17] } 8. Qd2 { [%eval -0.13] } 8... Qc7
+{ [%eval 0.3] } 9. O-O-O { [%eval 0.01] } 9... Bd7 { [%eval 0.48] } 10. f3
+{ [%eval 0.52] } 10... Nc6 { [%eval 0.53] } 11. h4 { [%eval 0.2] } 11... Ne5
+{ [%eval 0.41] } 12. h5 { [%eval 0.0] } 12... Rc8 $6 { [%eval 0.71] } 13. g4
+{ [%eval 0.41] } 13... Nc4 $2 { [%eval 1.67] } 14. Bxc4 { [%eval 1.54] } 14...
+Qxc4 { [%eval 1.39] } 15. g5 { [%eval 1.33] } 15... Ng8 { [%eval 1.5] } 16. g6
+$6 { [%eval 0.66] } 16... hxg6 { [%eval 0.67] } 17. hxg6 { [%eval 0.58] } 17...
+Rxh1 { [%eval 0.66] } 18. gxf7+ { [%eval 0.61] } 18... Kxf7 { [%eval 0.69] }
+19. Rxh1 { [%eval 0.4] } 19... Nf6 { [%eval 0.88] } 20. Rg1 { [%eval 0.87] }
+20... b5 { [%eval 0.95] } 21. Qg2 { [%eval 0.74] } 21... Bf8 $6
+{ [%eval 1.49] } 22. Qg6+ { [%eval 1.08] } 22... Ke7 { [%eval 1.25] } 23. a3
+{ [%eval 1.29] } 23... b4 { [%eval 1.42] } 24. axb4 { [%eval 1.2] } 24... Qxb4
+{ [%eval 1.43] } 25. Nf5+ $2 { [%eval -0.54] } 25... Kd8 $4 { [%eval 5.26] }
+26. Nxg7 $2 { [%eval 2.45] } 26... Be7 $2 { [%eval 5.17] } 27. Bg5
+{ [%eval 4.66] } 27... Qd4 $4 { [%eval 9.0] } 28. Rd1 { [%eval 8.7] } 28... Qe5
+$2 { [%eval 9.85] } 29. f4 { [%eval 9.56] } 29... Rxc3 { [%eval 21.41] } 30.
+fxe5 { [%eval 19.75] } 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/z9cZI7TD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "saint-marc"]
+[Black "nigurat"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:40:05"]
+[WhiteElo "1881"]
+[BlackElo "1966"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Nimzowitsch System"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e6 { [%eval 0.33] } 2. Nf3 { [%eval 0.12] } 2... d5
+{ [%eval 0.2] } 3. e5 { [%eval 0.09] } 3... c5 { [%eval 0.1] } 4. d4
+{ [%eval -0.15] } 4... cxd4 { [%eval -0.25] } 5. Nxd4 { [%eval -0.41] } 5...
+Nc6 { [%eval 0.01] } 6. Nf3 { [%eval -0.36] } 6... Bc5 { [%eval -0.41] } 7. Bb5
+{ [%eval -0.45] } 7... Bd7 { [%eval -0.41] } 8. Bg5 $6 { [%eval -1.08] } 8...
+Qb6 { [%eval -1.07] } 9. Bxc6 $2 { [%eval -2.59] } 9... Bxf2+ { [%eval -2.51] }
+10. Ke2 $6 { [%eval -3.2] } 10... Bxc6 { [%eval -3.2] } 11. Nc3
+{ [%eval -3.65] } 11... Ne7 $2 { [%eval -1.95] } 12. Rf1 $2 { [%eval -3.08] }
+12... Bc5 { [%eval -2.86] } 13. Bh4 $4 { [%eval -7.13] } 13... Ng6
+{ [%eval -6.87] } 14. Bf2 $2 { [%eval -8.14] } 14... Qa6+ $4 { [%eval -2.06] }
+15. Kd2 $4 { [%eval -5.44] } 15... Bb4 $4 { [%eval -1.87] } 16. Bd4
+{ [%eval -2.0] } 16... O-O { [%eval -1.97] } 17. a3 { [%eval -1.91] } 17... Ba5
+{ [%eval -2.01] } 18. b4 $6 { [%eval -2.95] } 18... Bb6 { [%eval -2.99] } 19.
+Kc1 { [%eval -3.22] } 19... Rfc8 { [%eval -3.14] } 20. Kb2 { [%eval -3.19] }
+20... Qc4 $2 { [%eval -1.79] } 21. Bxb6 { [%eval -2.06] } 21... axb6
+{ [%eval -1.9] } 22. Ng5 $4 { [%eval -6.72] } 22... Be8 $4 { [%eval -3.1] } 23.
+Ne2 $2 { [%eval -6.07] } 23... Nxe5 $6 { [%eval -5.31] } 24. Qd4 $4
+{ [%eval #-1] } 24... Qxc2# 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QZxzAjl3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marsam"]
+[Black "Goveta"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:59:01"]
+[WhiteElo "1629"]
+[BlackElo "1662"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Marshall Counterattack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.37] } 2. d4 { [%eval 0.12] } 2... e6
+$6 { [%eval 0.7] } 3. Nf3 $6 { [%eval 0.0] } 3... d5 $6 { [%eval 0.5] } 4. exd5
+{ [%eval 0.44] } 4... exd5 { [%eval 0.58] } 5. Bb5+ { [%eval 0.62] } 5... Nc6
+{ [%eval 0.78] } 6. Qd2 $6 { [%eval -0.18] } 6... Bd6 { [%eval 0.18] } 7. O-O
+{ [%eval -0.13] } 7... Ne7 { [%eval 0.19] } 8. Qg5 $6 { [%eval -0.38] } 8...
+O-O { [%eval -0.43] } 9. Bd3 $6 { [%eval -1.27] } 9... f6 { [%eval -0.84] } 10.
+Qh5 { [%eval -1.07] } 10... g6 { [%eval -1.06] } 11. Qh6 { [%eval -1.12] }
+11... Rf7 $6 { [%eval -0.54] } 12. Nh4 $2 { [%eval -2.33] } 12... Bf5 $2
+{ [%eval 0.33] } 13. Nxf5 { [%eval 0.28] } 13... Nxf5 { [%eval 0.38] } 14. Bxf5
+{ [%eval 0.42] } 14... gxf5 { [%eval 0.47] } 15. Nc3 $2 { [%eval -0.97] } 15...
+Nxd4 { [%eval -1.04] } 16. Be3 $6 { [%eval -1.8] } 16... Ne6 $6
+{ [%eval -0.81] } 17. Kh1 $2 { [%eval -3.29] } 17... d4 { [%eval -3.24] } 18.
+Rad1 $2 { [%eval -4.27] } 18... dxe3 $2 { [%eval -3.02] } 19. fxe3
+{ [%eval -3.16] } 19... Qc7 $4 { [%eval 0.79] } 20. Rxf5 $4 { [%eval -2.5] }
+20... Nf8 $4 { [%eval 2.07] } 21. Nd5 $2 { [%eval -0.14] } 21... Ng6 $4
+{ [%eval 5.68] } 22. Nxc7 { [%eval 5.67] } 22... Bxc7 { [%eval 5.66] } 23. Rh5
+$6 { [%eval 4.77] } 23... Re8 $6 { [%eval 5.46] } 24. Re1 $4 { [%eval -1.87] }
+24... b6 $4 { [%eval 4.89] } 25. Rd5 { [%eval 4.64] } 25... Bf4
+{ [%eval 4.91] } 26. Qh3 { [%eval 4.83] } 26... Rxe3 $4 { [%eval 10.21] } 27.
+Rxe3 { [%eval 10.07] } 27... Bxe3 { [%eval 9.99] } 28. Qxe3 { [%eval 9.8] }
+28... Kg7 { [%eval 9.85] } 0-1

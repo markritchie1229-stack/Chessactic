@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dEujmePi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Parsonio"]
+[Black "SuperDonk"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:02:05"]
+[WhiteElo "1433"]
+[BlackElo "1473"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Open #3"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.47] } 2. Nf3 { [%eval 0.23] } 2... Nc6
+{ [%eval 0.41] } 3. d4 { [%eval 0.03] } 3... cxd4 { [%eval 0.23] } 4. Nxd4
+{ [%eval 0.03] } 4... Nxd4 $6 { [%eval 0.75] } 5. Qxd4 { [%eval 0.61] } 5...
+Nf6 $6 { [%eval 1.12] } 6. Nc3 { [%eval 0.7] } 6... e6 $6 { [%eval 1.22] } 7.
+a3 $6 { [%eval 0.58] } 7... b6 $6 { [%eval 1.37] } 8. Qd1 $2 { [%eval 0.2] }
+8... Bb7 { [%eval 0.23] } 9. Bd3 { [%eval 0.2] } 9... Rc8 { [%eval 0.45] } 10.
+h3 $6 { [%eval -0.37] } 10... Qc7 $6 { [%eval 0.25] } 11. O-O { [%eval 0.3] }
+11... d5 $6 { [%eval 1.15] } 12. exd5 { [%eval 1.07] } 12... Nxd5
+{ [%eval 1.66] } 13. Nxd5 $2 { [%eval 0.0] } 13... Bxd5 { [%eval 0.21] } 14.
+Re1 { [%eval 0.08] } 14... Bc5 $6 { [%eval 0.66] } 15. Bb5+ { [%eval 0.52] }
+15... Ke7 $4 { [%eval 4.99] } 16. Qxd5 { [%eval 4.85] } 16... Bd6 $6
+{ [%eval 5.47] } 17. Qd1 { [%eval 5.0] } 17... Bh2+ { [%eval 5.27] } 18. Kh1
+{ [%eval 4.96] } 18... Bd6 $6 { [%eval 5.74] } 19. Bd3 $6 { [%eval 4.93] }
+19... Qc5 { [%eval 5.33] } 20. Kg1 { [%eval 5.02] } 20... Qe5 $4
+{ [%eval 10.83] } 21. Rxe5 { [%eval 10.79] } 21... Bxe5 { [%eval 10.75] } 22.
+c3 { [%eval 10.54] } 22... Rhd8 { [%eval 10.73] } 23. Qc2 { [%eval 10.1] }
+23... g6 { [%eval 11.17] } 24. Bg5+ { [%eval 10.87] } 24... f6
+{ [%eval 11.55] } 25. Be3 { [%eval 11.08] } 25... f5 { [%eval 12.73] } 26. Bg5+
+{ [%eval 12.66] } 26... Bf6 { [%eval 12.55] } 27. Bxf6+ { [%eval 12.29] } 27...
+Kxf6 { [%eval 12.06] } 28. Re1 { [%eval 11.75] } 28... Rd5 { [%eval 14.75] }
+29. f4 { [%eval 12.37] } 29... Rcd8 { [%eval 18.33] } 30. Bc4 { [%eval 17.23] }
+30... Rd2 { [%eval 18.39] } 31. Qb3 { [%eval 14.68] } 31... R2d6
+{ [%eval 21.6] } 0-1

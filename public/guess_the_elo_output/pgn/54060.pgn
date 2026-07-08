@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vSptVqqW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "turk44"]
+[Black "Isegos"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:52:22"]
+[WhiteElo "1490"]
+[BlackElo "1512"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+12"]
+[ECO "C00"]
+[Opening "French Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... e6 { [%eval 0.22] } 2. Qf3 { [%eval -0.27] } 2...
+c5 { [%eval -0.29] } 3. d3 { [%eval -0.53] } 3... Nc6 { [%eval -0.45] } 4. h4
+{ [%eval -0.66] } 4... d5 { [%eval -0.72] } 5. g3 { [%eval -0.91] } 5... Be7
+{ [%eval -0.68] } 6. Bh3 { [%eval -0.95] } 6... Nf6 { [%eval -1.04] } 7. Nc3
+{ [%eval -1.2] } 7... d4 { [%eval -1.14] } 8. Nb5 $4 { [%eval -4.28] } 8...
+Qa5+ { [%eval -4.16] } 9. Bd2 { [%eval -4.29] } 9... Qxb5 { [%eval -4.32] } 10.
+Bf1 $2 { [%eval -5.85] } 10... Qxb2 { [%eval -5.77] } 11. Rd1 $2
+{ [%eval -7.43] } 11... e5 { [%eval -7.46] } 12. Ne2 $2 { [%eval -9.72] } 12...
+Bg4 { [%eval -9.58] } 13. Qg2 { [%eval -9.51] } 13... c4 { [%eval -9.18] } 14.
+dxc4 $6 { [%eval -12.1] } 14... Nb4 { [%eval -12.07] } 15. Rc1
+{ [%eval -12.06] } 15... Nxc2+ { [%eval -11.73] } 16. Kd1 { [%eval -21.31] }
+16... d3 { [%eval -20.38] } 17. Qg1 $6 { [%eval #-5] } 17... Ne3+
+{ [%eval #-4] } 18. fxe3 { [%eval #-3] } 18... Nxe4 { [%eval #-2] } 19. Bc3
+{ [%eval #-2] } 19... Bxe2+ { [%eval #-1] } 20. Bxe2 { [%eval #-1] } 20...
+Qxe2# 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Wax2o0ox"]
+[Date "????.??.??"]
+[Round "?"]
+[White "santyyy"]
+[Black "Qurbanali56"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:34:50"]
+[WhiteElo "1028"]
+[BlackElo "1228"]
+[WhiteRatingDiff "+31"]
+[BlackRatingDiff "-17"]
+[ECO "C21"]
+[Opening "Center Game #2"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.41] } 2. d4 $6 { [%eval -0.22] } 2...
+Bd6 $2 { [%eval 0.93] } 3. Bc4 $6 { [%eval 0.34] } 3... Qf6 $6 { [%eval 1.23] }
+4. Nf3 { [%eval 0.87] } 4... h6 $6 { [%eval 1.43] } 5. Nc3 { [%eval 1.52] }
+5... c6 $6 { [%eval 2.5] } 6. Qd2 $2 { [%eval 0.52] } 6... exd4
+{ [%eval 0.74] } 7. Qxd4 { [%eval 0.37] } 7... Qxd4 { [%eval 0.52] } 8. Nxd4
+{ [%eval 0.41] } 8... Nf6 { [%eval 0.47] } 9. b3 $6 { [%eval -0.33] } 9... b6
+$6 { [%eval 0.35] } 10. Be3 $6 { [%eval -0.23] } 10... Bb4 { [%eval -0.16] }
+11. Bd2 { [%eval -0.25] } 11... O-O { [%eval 0.0] } 12. O-O-O { [%eval -0.38] }
+12... Bxc3 { [%eval -0.38] } 13. Bxc3 { [%eval -0.39] } 13... Nxe4
+{ [%eval -0.29] } 14. Ne2 $2 { [%eval -2.47] } 14... Nxf2 { [%eval -2.37] } 15.
+Rhe1 $2 { [%eval -3.98] } 15... Nxd1 { [%eval -3.77] } 16. Rxd1
+{ [%eval -3.99] } 16... d5 { [%eval -3.96] } 17. Bd3 { [%eval -3.93] } 17...
+Bg4 { [%eval -3.93] } 18. Re1 { [%eval -3.87] } 18... Bxe2 { [%eval -3.82] }
+19. Rxe2 { [%eval -3.84] } 19... Nd7 { [%eval -3.63] } 20. g4 $6
+{ [%eval -4.49] } 20... Nc5 { [%eval -4.4] } 21. Re3 { [%eval -4.86] } 21...
+Nxd3+ { [%eval -4.7] } 22. Rxd3 { [%eval -5.0] } 22... Rfe8 { [%eval -4.92] }
+23. a4 { [%eval -5.1] } 23... Re2 { [%eval -4.93] } 24. h4 $6 { [%eval -5.63] }
+24... Rae8 { [%eval -5.64] } 25. Kb2 $6 { [%eval -6.61] } 25... Rg2
+{ [%eval -6.37] } 26. g5 { [%eval -6.58] } 26... h5 { [%eval -6.47] } 27. Rxd5
+$4 { [%eval -13.47] } 27... g6 $4 { [%eval -4.0] } 28. Rd7 { [%eval -3.82] }
+28... Ra8 { [%eval -3.72] } 29. Rd3 { [%eval -3.92] } 29... Re8
+{ [%eval -3.84] } 30. b4 $6 { [%eval -4.7] } 30... Ree2 $4 { [%eval #3] } 31.
+Rd8+ { [%eval #2] } 31... Kh7 { [%eval #1] } 32. Rh8# 1-0

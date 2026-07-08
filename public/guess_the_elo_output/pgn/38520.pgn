@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/h3BoqLxi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Dmytro-Sytro"]
+[Black "Ondras"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:01:04"]
+[WhiteElo "1599"]
+[BlackElo "2000"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+2"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "0+2"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.31] } 1... d5 { [%eval 0.22] } 2. c4 { [%eval 0.33] } 2... e6
+{ [%eval 0.37] } 3. cxd5 { [%eval 0.05] } 3... exd5 { [%eval 0.09] } 4. Nc3
+{ [%eval 0.0] } 4... c6 { [%eval 0.04] } 5. Bf4 { [%eval 0.08] } 5... Nf6
+{ [%eval 0.16] } 6. e3 { [%eval 0.02] } 6... Be7 { [%eval 0.47] } 7. Bd3
+{ [%eval 0.53] } 7... Bg4 { [%eval 0.37] } 8. Nge2 { [%eval 0.31] } 8... Bh5
+{ [%eval 0.59] } 9. O-O { [%eval 0.42] } 9... Bg6 { [%eval 0.53] } 10. Bg5
+{ [%eval 0.14] } 10... Nbd7 { [%eval 0.18] } 11. a3 { [%eval 0.17] } 11... a6
+{ [%eval 0.2] } 12. b4 { [%eval -0.06] } 12... O-O { [%eval 0.0] } 13. Na4
+{ [%eval -0.03] } 13... Bxd3 { [%eval 0.0] } 14. Qxd3 { [%eval -0.03] } 14...
+Ne4 { [%eval -0.03] } 15. Bxe7 { [%eval -0.03] } 15... Qxe7 { [%eval -0.08] }
+16. Nc5 { [%eval -0.13] } 16... Nb6 { [%eval 0.08] } 17. Rac1 { [%eval -0.26] }
+17... Nxc5 $6 { [%eval 0.47] } 18. bxc5 { [%eval 0.58] } 18... Nc4
+{ [%eval 0.5] } 19. Rb1 { [%eval 0.02] } 19... f5 { [%eval 0.17] } 20. Rb3
+{ [%eval 0.0] } 20... Rad8 { [%eval 0.0] } 21. Rfb1 { [%eval 0.02] } 21... Rd7
+{ [%eval 0.23] } 22. Qc3 $6 { [%eval -0.3] } 22... g6 { [%eval 0.15] } 23. Qb4
+$6 { [%eval -0.66] } 23... Rf7 $6 { [%eval -0.04] } 0-1

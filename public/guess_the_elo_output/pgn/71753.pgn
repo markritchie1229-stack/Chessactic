@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/1vzAn5aG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "morgo"]
+[Black "noname27"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:53:09"]
+[WhiteElo "1110"]
+[BlackElo "1314"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-17"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... d5 { [%eval 0.77] } 2. Nc3 $2 { [%eval -0.23] }
+2... d4 { [%eval -0.22] } 3. Nce2 { [%eval -0.19] } 3... Bg4 $6
+{ [%eval 0.72] } 4. f3 $6 { [%eval 0.04] } 4... Be6 { [%eval 0.17] } 5. d3
+{ [%eval 0.12] } 5... Nc6 { [%eval 0.48] } 6. c3 { [%eval 0.34] } 6... dxc3
+{ [%eval 0.54] } 7. Nxc3 { [%eval 0.47] } 7... g6 { [%eval 0.59] } 8. Bf4 $6
+{ [%eval 0.06] } 8... Bg7 { [%eval 0.11] } 9. Nge2 { [%eval 0.0] } 9... Bxc3+
+$2 { [%eval 1.4] } 10. bxc3 { [%eval 1.16] } 10... Bc8 $6 { [%eval 1.93] } 11.
+Nd4 $2 { [%eval 0.54] } 11... e5 $2 { [%eval 2.73] } 12. Nxc6 { [%eval 2.69] }
+12... bxc6 { [%eval 2.77] } 13. Bxe5 { [%eval 2.66] } 13... f6 { [%eval 2.77] }
+14. Bd4 { [%eval 2.75] } 14... Ba6 $6 { [%eval 3.56] } 15. Be2 { [%eval 3.26] }
+15... Ne7 { [%eval 3.51] } 16. Bxf6 { [%eval 3.61] } 16... O-O { [%eval 3.51] }
+17. Bd4 { [%eval 3.54] } 17... Qd6 { [%eval 3.59] } 18. e5 $2 { [%eval 2.23] }
+18... Qd5 { [%eval 2.68] } 19. O-O { [%eval 2.28] } 19... Nf5 { [%eval 2.46] }
+20. Qd2 $2 { [%eval 0.64] } 20... Nxd4 { [%eval 0.7] } 21. cxd4
+{ [%eval 0.56] } 21... Qxd4+ { [%eval 0.81] } 22. Kh1 { [%eval 0.55] } 22...
+Rab8 $6 { [%eval 1.11] } 23. Qc1 $6 { [%eval 0.54] } 23... Rb2 { [%eval 0.94] }
+24. Qd1 $2 { [%eval -0.39] } 24... Rxe2 $2 { [%eval 2.51] } 25. Qxe2
+{ [%eval 2.5] } 25... Bxd3 { [%eval 2.54] } 26. Qd2 { [%eval 2.29] } 26... Rd8
+$6 { [%eval 3.18] } 27. Rad1 $6 { [%eval 2.33] } 27... Qxe5 $2 { [%eval 3.72] }
+28. Rfe1 { [%eval 3.43] } 28... Qf5 $4 { [%eval 6.93] } 29. Qe3 $4
+{ [%eval 3.55] } 29... Kg7 $4 { [%eval #16] } 30. Qe7+ { [%eval 25.41] } 30...
+Qf7 $6 { [%eval #10] } 31. Qxd8 { [%eval 24.88] } 31... Bc2 $6 { [%eval #6] }
+32. Rd7 { [%eval #5] } 1-0

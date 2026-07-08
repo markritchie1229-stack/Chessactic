@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/e8wfC2sw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TOMBALABOMBA"]
+[Black "pinchilon"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:21:41"]
+[WhiteElo "1607"]
+[BlackElo "1561"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.41] } 2... d6
+{ [%eval 0.37] } 3. Bb5+ { [%eval 0.19] } 3... c6 { [%eval 0.25] } 4. Ba4
+{ [%eval 0.04] } 4... b5 { [%eval 0.23] } 5. Bb3 { [%eval 0.29] } 5... c5 $4
+{ [%eval 3.91] } 6. c3 $4 { [%eval 0.37] } 6... c4 { [%eval 0.55] } 7. Bc2
+{ [%eval 0.6] } 7... Bg4 { [%eval 0.95] } 8. h3 { [%eval 0.85] } 8... Bh5
+{ [%eval 0.9] } 9. O-O { [%eval 0.8] } 9... Qf6 $6 { [%eval 1.62] } 10. d3
+{ [%eval 1.43] } 10... Bxf3 { [%eval 1.54] } 11. Qxf3 { [%eval 1.45] } 11...
+Qxf3 { [%eval 1.59] } 12. gxf3 { [%eval 1.33] } 12... Nf6 $6 { [%eval 1.85] }
+13. d4 $2 { [%eval 0.72] } 13... Nbd7 { [%eval 0.98] } 14. Bg5 $6
+{ [%eval 0.3] } 14... Be7 { [%eval 0.35] } 15. Nd2 { [%eval 0.0] } 15... O-O
+{ [%eval 0.2] } 16. Rad1 $6 { [%eval -0.44] } 16... exd4 { [%eval -0.43] } 17.
+cxd4 { [%eval -0.38] } 17... Rfe8 { [%eval -0.02] } 18. Rfe1 { [%eval -0.32] }
+18... Nh5 { [%eval 0.04] } 19. Bxe7 $6 { [%eval -0.71] } 19... Rxe7
+{ [%eval -0.66] } 20. Nf1 { [%eval -0.59] } 20... Nf4 { [%eval -0.55] } 21. e5
+$2 { [%eval -1.6] } 21... Nxh3+ $6 { [%eval -1.06] } 22. Kh2 { [%eval -1.12] }
+22... Nxf2 { [%eval -0.82] } 23. Re2 $4 { [%eval -6.25] } 23... Nxd1
+{ [%eval -6.06] } 24. Bxd1 { [%eval -6.11] } 24... dxe5 { [%eval -6.04] } 25.
+dxe5 $2 { [%eval -7.27] } 25... Rxe5 $6 { [%eval -6.56] } 26. f4 $2
+{ [%eval -8.75] } 26... Rxe2+ { [%eval -8.64] } 27. Bxe2 { [%eval -8.55] }
+27... Re8 { [%eval -8.17] } 28. Bg4 $2 { [%eval -9.97] } 28... Re7 $2
+{ [%eval -7.95] } 29. Ne3 $2 { [%eval -12.33] } 29... Nf6 { [%eval -11.52] }
+30. Bh3 { [%eval -23.49] } 30... Rxe3 { [%eval -19.02] } 0-1

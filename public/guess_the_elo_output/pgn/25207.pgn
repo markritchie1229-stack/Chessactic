@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sMmzZ8Ij"]
+[Date "????.??.??"]
+[Round "?"]
+[White "IsaacBCE"]
+[Black "GodSaveMyKwin"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:01:33"]
+[WhiteElo "1594"]
+[BlackElo "1581"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B54"]
+[Opening "Sicilian Defense #2"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.3] } 3. d4 { [%eval 0.27] } 3... cxd4 { [%eval 0.19] } 4. Nxd4
+{ [%eval 0.32] } 4... a6 { [%eval 0.36] } 5. Nc3 { [%eval 0.21] } 5... e5
+{ [%eval 0.41] } 6. Nf3 { [%eval 0.24] } 6... Bg4 { [%eval 0.71] } 7. h3
+{ [%eval 0.5] } 7... Bh5 $6 { [%eval 1.12] } 8. g4 { [%eval 1.01] } 8... Bg6
+{ [%eval 1.1] } 9. Be2 $6 { [%eval 0.12] } 9... Nf6 { [%eval 0.3] } 10. Bg5
+{ [%eval 0.3] } 10... Be7 { [%eval 0.45] } 11. Nh4 { [%eval 0.34] } 11... Nxe4
+{ [%eval 0.32] } 12. Bxe7 { [%eval 0.33] } 12... Qxe7 $2 { [%eval 3.23] } 13.
+Nxg6 { [%eval 3.27] } 13... hxg6 { [%eval 3.68] } 14. Nxe4 { [%eval 3.69] }
+14... f5 $2 { [%eval 6.29] } 15. Nxd6+ { [%eval 6.09] } 15... Kf8
+{ [%eval 5.86] } 16. gxf5 $2 { [%eval 3.87] } 16... gxf5 $2 { [%eval 6.8] } 17.
+Nxf5 { [%eval 6.57] } 17... Qb4+ $4 { [%eval 15.02] } 18. c3 { [%eval 13.86] }
+18... Qxb2 $6 { [%eval #5] } 19. Qd6+ $6 { [%eval #8] } 19... Kg8
+{ [%eval #8] } 20. Bc4+ $6 { [%eval 29.73] } 20... Kh7 { [%eval 27.85] } 21.
+O-O { [%eval 24.84] } 21... Qxc3 $6 { [%eval #4] } 22. Bd3 $6 { [%eval 14.48] }
+22... Nc6 $6 { [%eval #4] } 23. Ne7+ { [%eval #3] } 23... g6 { [%eval #1] } 24.
+Qxg6# 1-0

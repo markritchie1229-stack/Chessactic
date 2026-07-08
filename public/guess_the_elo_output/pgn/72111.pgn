@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CPbQ6Itg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MrDindows"]
+[Black "Civibin"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:17:43"]
+[WhiteElo "1335"]
+[BlackElo "1427"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "180+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... d5 $6 { [%eval 0.74] } 2. exd5 { [%eval 0.61] } 2...
+Bf5 { [%eval 0.93] } 3. Nc3 { [%eval 0.79] } 3... e6 { [%eval 1.22] } 4. d4 $6
+{ [%eval 0.38] } 4... exd5 { [%eval 0.43] } 5. Bd3 { [%eval 0.54] } 5... Qe7+
+{ [%eval 0.66] } 6. Nge2 { [%eval 0.59] } 6... Bg4 $2 { [%eval 2.2] } 7. O-O $2
+{ [%eval 1.14] } 7... Nc6 $6 { [%eval 1.97] } 8. h3 $2 { [%eval 0.87] } 8...
+Bxe2 $6 { [%eval 1.45] } 9. Bxe2 $6 { [%eval 0.85] } 9... O-O-O
+{ [%eval 0.98] } 10. Bg5 $4 { [%eval -3.68] } 10... Nf6 $4 { [%eval 1.21] } 11.
+Bg4+ { [%eval 1.17] } 11... Kb8 { [%eval 1.2] } 12. Qf3 $2 { [%eval -0.89] }
+12... Nxd4 { [%eval -0.5] } 13. Bxf6 $4 { [%eval -7.95] } 13... Nxf3+
+{ [%eval -7.75] } 14. Bxf3 { [%eval -7.98] } 14... Qxf6 { [%eval -7.89] } 15.
+Nxd5 { [%eval -7.67] } 15... Qxb2 { [%eval -7.6] } 16. Rad1 $2
+{ [%eval -8.85] } 16... Qxc2 $4 { [%eval -3.98] } 17. Nf6 $4 { [%eval -10.45] }
+17... Rxd1 { [%eval -10.28] } 18. Rxd1 { [%eval -10.27] } 18... Be7
+{ [%eval -9.89] } 19. Nd7+ { [%eval -11.14] } 19... Kc8 { [%eval -11.01] } 20.
+Ne5 { [%eval -10.92] } 20... Rd8 { [%eval -10.64] } 21. Bg4+ { [%eval -15.69] }
+21... Kb8 { [%eval -10.7] } 22. Nd7+ { [%eval -11.54] } 22... Ka8
+{ [%eval -11.16] } 23. Nc5 $6 { [%eval #-8] } 23... Kb8 $6 { [%eval -10.47] }
+24. Nd7+ { [%eval -10.96] } 24... Ka8 { [%eval -10.41] } 25. Ne5 $6
+{ [%eval #-10] } 25... Rxd1+ { [%eval #-9] } 26. Bxd1 { [%eval #-9] } 26...
+Qxd1+ { [%eval #-9] } 27. Kh2 { [%eval #-9] } 27... Bd6 { [%eval #-8] } 0-1

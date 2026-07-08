@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/aFCU3yfG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mbrig123"]
+[Black "loscigarros"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:34:00"]
+[WhiteElo "1509"]
+[BlackElo "1472"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maroczy Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d3 { [%eval -0.14] } 1... Nf6 { [%eval -0.14] } 2. e4 { [%eval -0.24] } 2...
+g6 $6 { [%eval 0.28] } 3. Bg5 { [%eval -0.06] } 3... Bg7 { [%eval 0.01] } 4.
+Nc3 { [%eval -0.12] } 4... O-O { [%eval 0.02] } 5. Be2 { [%eval -0.35] } 5...
+d6 { [%eval 0.06] } 6. Nf3 { [%eval 0.0] } 6... Nbd7 { [%eval 0.01] } 7. h4
+{ [%eval -0.13] } 7... Re8 { [%eval -0.03] } 8. Nd2 { [%eval -0.38] } 8... e5
+{ [%eval -0.13] } 9. Bxf6 $6 { [%eval -0.89] } 9... Nxf6 { [%eval -0.72] } 10.
+Nd5 { [%eval -1.19] } 10... Nxd5 { [%eval -1.1] } 11. exd5 { [%eval -1.15] }
+11... Bd7 { [%eval -0.83] } 12. h5 { [%eval -0.99] } 12... c6 { [%eval -0.87] }
+13. hxg6 { [%eval -1.01] } 13... fxg6 $6 { [%eval -0.45] } 14. dxc6
+{ [%eval -0.84] } 14... Bxc6 { [%eval -0.84] } 15. Bf3 $2 { [%eval -2.12] }
+15... Qd7 $2 { [%eval -0.39] } 16. Bxc6 { [%eval -0.51] } 16... Qxc6
+{ [%eval -0.2] } 17. Nb3 $4 { [%eval -4.74] } 17... Rad8 $4 { [%eval -0.64] }
+18. c3 $2 { [%eval -3.44] } 18... b6 $4 { [%eval -0.35] } 19. Qd2 $2
+{ [%eval -1.99] } 19... d5 $2 { [%eval -0.6] } 20. O-O-O $6 { [%eval -1.2] }
+20... d4 { [%eval -1.06] } 21. c4 { [%eval -1.24] } 21... b5 $6
+{ [%eval -0.5] } 22. f4 $2 { [%eval -1.71] } 22... bxc4 { [%eval -1.67] } 23.
+dxc4 $2 { [%eval -4.17] } 23... Qxc4+ { [%eval -4.06] } 24. Kb1
+{ [%eval -3.82] } 24... e4 { [%eval -3.82] } 25. Rc1 { [%eval -3.45] } 25...
+Qd5 { [%eval -3.06] } 26. f5 $2 { [%eval -5.57] } 26... d3 { [%eval -5.43] }
+27. Rc3 $4 { [%eval -10.86] } 27... Bxc3 { [%eval -9.88] } 28. Qxc3
+{ [%eval -9.66] } 28... Qxf5 { [%eval -8.48] } 29. Nd4 $2 { [%eval -14.38] }
+29... Qd5 { [%eval -13.29] } 0-1

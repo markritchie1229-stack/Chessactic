@@ -1,0 +1,33 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/3cWeBgE3"]
+[Site "https://lichess.org/eEgwphJS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vadim06"]
+[Black "xodun"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:15:39"]
+[WhiteElo "2079"]
+[BlackElo "1951"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+15"]
+[ECO "C00"]
+[Opening "French Defense: Steiner Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e6 { [%eval 0.14] } 2. c4 { [%eval -0.16] } 2... d6
+$6 { [%eval 0.57] } 3. d4 { [%eval 0.45] } 3... c6 { [%eval 0.75] } 4. d5 $6
+{ [%eval 0.22] } 4... g6 { [%eval 0.41] } 5. Nc3 { [%eval 0.2] } 5... e5 $6
+{ [%eval 0.79] } 6. Nf3 { [%eval 0.78] } 6... c5 { [%eval 1.2] } 7. Be2
+{ [%eval 1.11] } 7... Nd7 { [%eval 1.19] } 8. O-O { [%eval 1.25] } 8... Be7
+{ [%eval 1.35] } 9. Be3 { [%eval 1.33] } 9... Ngf6 { [%eval 1.37] } 10. Nd2
+{ [%eval 1.25] } 10... O-O { [%eval 1.2] } 11. f3 $6 { [%eval 0.45] } 11... h5
+$6 { [%eval 1.09] } 12. Rb1 { [%eval 0.71] } 12... Nh7 { [%eval 0.81] } 13. a3
+{ [%eval 0.73] } 13... Bg5 { [%eval 0.62] } 14. b4 $4 { [%eval -4.38] } 14...
+Bxe3+ { [%eval -4.18] } 15. Kh1 { [%eval -4.22] } 15... Bd4 $6
+{ [%eval -3.39] } 16. Nb5 { [%eval -3.29] } 16... Be3 $6 { [%eval -2.5] } 17.
+Re1 $2 { [%eval -3.65] } 17... Bf4 $2 { [%eval -2.56] } 18. Bf1 $2
+{ [%eval -4.18] } 18... a6 $6 { [%eval -3.62] } 19. Nc3 $2 { [%eval -5.85] }
+19... Bxd2 $2 { [%eval -3.13] } 20. Ne2 $4 { [%eval -9.26] } 20... Bxe1
+{ [%eval -9.12] } 0-1

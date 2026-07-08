@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ia1RzRDY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hugoguarda"]
+[Black "Intherain"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:01:40"]
+[WhiteElo "2112"]
+[BlackElo "2051"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Normal Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... Nf6 { [%eval 0.68] } 2. e5 { [%eval 0.68] } 2...
+Nd5 { [%eval 0.76] } 3. Qf3 $6 { [%eval 0.04] } 3... e6 { [%eval 0.04] } 4. d4
+{ [%eval -0.21] } 4... d6 { [%eval -0.14] } 5. Bf4 $6 { [%eval -0.72] } 5...
+dxe5 { [%eval -0.33] } 6. dxe5 { [%eval -0.22] } 6... c6 { [%eval 0.02] } 7.
+Nd2 { [%eval -0.09] } 7... Qa5 { [%eval 0.36] } 8. a3 { [%eval 0.14] } 8...
+Nxf4 { [%eval 0.29] } 9. Qxf4 { [%eval 0.22] } 9... Nd7 { [%eval 0.16] } 10.
+O-O-O $2 { [%eval -0.91] } 10... Qxe5 { [%eval -0.91] } 11. Qxe5
+{ [%eval -0.89] } 11... Nxe5 { [%eval -0.66] } 12. Ngf3 $6 { [%eval -1.35] }
+12... Nxf3 { [%eval -1.12] } 13. Nxf3 { [%eval -1.19] } 13... Bd7
+{ [%eval -0.8] } 14. Bd3 { [%eval -1.2] } 14... f6 { [%eval -1.19] } 15. Rhe1
+{ [%eval -1.24] } 15... O-O-O { [%eval -1.22] } 16. Bc4 { [%eval -1.45] } 16...
+e5 { [%eval -1.44] } 17. Kb1 { [%eval -1.69] } 17... Kc7 { [%eval -1.63] } 18.
+Bb3 { [%eval -1.95] } 18... Bc5 { [%eval -1.87] } 19. Nd2 $2 { [%eval -4.17] }
+19... Bxf2 { [%eval -3.73] } 20. Re2 $2 { [%eval -4.75] } 20... Bc5 $2
+{ [%eval -2.94] } 21. h3 { [%eval -3.05] } 21... Bf5 { [%eval -2.8] } 0-1

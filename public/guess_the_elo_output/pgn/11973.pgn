@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ZZ4hd1Lc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "llwittgenstein"]
+[Black "Petrop"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:37:18"]
+[WhiteElo "1966"]
+[BlackElo "1868"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "E76"]
+[Opening "King's Indian Defense: Four Pawns Attack, Dynamic Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... Nf6 { [%eval 0.24] } 2. c4 { [%eval 0.14] } 2... g6
+{ [%eval 0.4] } 3. Nc3 { [%eval 0.37] } 3... Bg7 { [%eval 0.5] } 4. e4
+{ [%eval 0.54] } 4... d6 { [%eval 0.58] } 5. f4 { [%eval 0.1] } 5... O-O
+{ [%eval 0.25] } 6. Nf3 { [%eval 0.05] } 6... c5 { [%eval 0.18] } 7. d5
+{ [%eval 0.04] } 7... b5 $6 { [%eval 0.62] } 8. cxb5 { [%eval 0.47] } 8... a6
+{ [%eval 0.58] } 9. bxa6 { [%eval 0.09] } 9... Qa5 { [%eval 0.5] } 10. Bd2
+{ [%eval 0.14] } 10... Bxa6 { [%eval 0.32] } 11. Bxa6 { [%eval -0.1] } 11...
+Nxa6 $6 { [%eval 0.45] } 12. O-O { [%eval 0.29] } 12... Qb6 { [%eval 0.58] }
+13. Qc1 $2 { [%eval -0.74] } 13... Ng4 $2 { [%eval 0.55] } 14. Kh1 $2
+{ [%eval -0.93] } 14... c4 $2 { [%eval 0.66] } 15. Qe1 $2 { [%eval -0.51] }
+15... Nc5 { [%eval -0.52] } 16. h3 $2 { [%eval -2.46] } 16... Nd3
+{ [%eval -2.56] } 17. Qg3 $6 { [%eval -3.27] } 17... Ndf2+ { [%eval -3.13] }
+18. Rxf2 { [%eval -3.08] } 18... Nxf2+ { [%eval -3.16] } 19. Kh2
+{ [%eval -3.21] } 19... Bxc3 { [%eval -3.24] } 20. Bxc3 { [%eval -3.13] } 20...
+Nxe4 { [%eval -2.76] } 21. Bd4 $2 { [%eval -4.7] } 21... Qxd4 { [%eval -4.61] }
+22. Nxd4 { [%eval -4.61] } 22... Nxg3 { [%eval -4.56] } 23. Kxg3
+{ [%eval -4.36] } 23... Rfb8 { [%eval -4.01] } 24. f5 $2 { [%eval -5.01] }
+24... Rxb2 { [%eval -4.83] } 25. fxg6 $2 { [%eval -6.61] } 25... hxg6 $2
+{ [%eval -5.5] } 26. a4 { [%eval -5.27] } 26... c3 { [%eval -4.92] } 27. a5 $2
+{ [%eval -6.06] } 27... c2 { [%eval -6.0] } 28. Rc1 { [%eval -5.87] } 28...
+Rxa5 { [%eval -5.64] } 29. Nxc2 $4 { [%eval -10.07] } 29... Rc5
+{ [%eval -9.52] } 0-1

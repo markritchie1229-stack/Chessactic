@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LyfBbnuE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Draco96"]
+[Black "WR6"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:32:28"]
+[WhiteElo "1337"]
+[BlackElo "1134"]
+[WhiteRatingDiff "+26"]
+[BlackRatingDiff "-6"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nc6 { [%eval 0.56] } 2. d5 { [%eval 0.44] } 2...
+Na5 { [%eval 0.85] } 3. b4 { [%eval 0.54] } 3... Nc4 { [%eval 0.78] } 4. e4
+{ [%eval 0.64] } 4... e5 $2 { [%eval 2.8] } 5. Bxc4 { [%eval 2.87] } 5... Bxb4+
+{ [%eval 2.91] } 6. Bd2 { [%eval 2.81] } 6... Bxd2+ { [%eval 2.83] } 7. Qxd2
+{ [%eval 2.81] } 7... Nf6 { [%eval 2.86] } 8. Nf3 { [%eval 2.79] } 8... Nxe4
+{ [%eval 3.0] } 9. Qe3 { [%eval 2.91] } 9... Nf6 { [%eval 3.19] } 10. Qxe5+
+{ [%eval 3.07] } 10... Qe7 { [%eval 3.11] } 11. Qxe7+ { [%eval 3.17] } 11...
+Kxe7 { [%eval 3.2] } 12. O-O { [%eval 3.08] } 12... a6 { [%eval 3.2] } 13. Re1+
+{ [%eval 3.2] } 13... Kf8 { [%eval 3.28] } 14. Nc3 { [%eval 3.32] } 14... g6 $2
+{ [%eval 4.87] } 15. Rad1 $2 { [%eval 2.88] } 15... b5 { [%eval 3.27] } 16. Bb3
+{ [%eval 3.24] } 16... b4 $2 { [%eval 4.64] } 17. Ne4 { [%eval 4.6] } 17...
+Nxe4 { [%eval 4.5] } 18. Rxe4 { [%eval 4.45] } 18... a5 { [%eval 4.56] } 19.
+Rde1 { [%eval 4.5] } 19... c6 $2 { [%eval 6.84] } 20. dxc6 $2 { [%eval 5.81] }
+20... dxc6 { [%eval 5.59] } 21. Re7 $2 { [%eval 4.39] } 21... Bb7 $4
+{ [%eval #4] } 22. Rxb7 $6 { [%eval 16.5] } 22... c5 $6 { [%eval #5] } 23.
+Rxf7+ { [%eval #4] } 23... Kg8 { [%eval #4] } 24. Ra7+ $6 { [%eval #5] } 24...
+Kf8 { [%eval #5] } 25. Rxa8+ $6 { [%eval #5] } 25... Kg7 { [%eval #5] } 26.
+Re7+ { [%eval #4] } 26... Kf6 { [%eval #1] } 27. Rxh8 $6 { [%eval #27] } 27...
+Kxe7 { [%eval 127.82] } 28. Rxh7+ { [%eval 61.42] } 28... Kf6 $6 { [%eval #1] }
+29. Rf7# 1-0

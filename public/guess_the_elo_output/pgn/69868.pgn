@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GoguGvKJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nodulus"]
+[Black "topins"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:07:28"]
+[WhiteElo "1744"]
+[BlackElo "1684"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.19] } 2... Nc6
+{ [%eval 0.17] } 3. Nc3 { [%eval 0.14] } 3... Nf6 { [%eval 0.1] } 4. Be2
+{ [%eval 0.14] } 4... Be7 { [%eval 0.25] } 5. O-O { [%eval 0.27] } 5... d6
+{ [%eval 0.32] } 6. d4 { [%eval 0.45] } 6... O-O { [%eval 0.48] } 7. dxe5
+{ [%eval 0.0] } 7... dxe5 { [%eval 0.05] } 8. Bd2 { [%eval -0.03] } 8... Nd4 $2
+{ [%eval 1.04] } 9. Nxe5 { [%eval 1.01] } 9... Nxe2+ { [%eval 1.11] } 10. Qxe2
+{ [%eval 1.16] } 10... Bd6 { [%eval 1.19] } 11. Nf3 { [%eval 0.81] } 11... Bg4
+{ [%eval 0.79] } 12. Qe3 { [%eval 0.41] } 12... Re8 { [%eval 0.35] } 13. Rfe1
+{ [%eval 0.38] } 13... Bh5 { [%eval 0.4] } 14. Qg5 { [%eval 0.0] } 14... Bg6 $2
+{ [%eval 2.16] } 15. e5 { [%eval 1.92] } 15... Bxe5 $2 { [%eval 3.2] } 16. Nxe5
+$6 { [%eval 2.58] } 16... Qxd2 $4 { [%eval 12.74] } 17. Nxg6 $4 { [%eval #-2] }
+17... hxg6 $4 { [%eval 13.5] } 18. Qxd2 { [%eval 12.89] } 18... Rxe1+
+{ [%eval 14.61] } 19. Rxe1 { [%eval 14.25] } 19... Re8 $6 { [%eval #9] } 20.
+Rxe8+ { [%eval #8] } 20... Nxe8 { [%eval #8] } 21. Qd8 { [%eval #7] } 21... Kf8
+{ [%eval #7] } 22. Qb8 $6 { [%eval 16.56] } 22... Ke7 { [%eval 16.69] } 23.
+Qxb7 { [%eval 16.21] } 23... Nd6 { [%eval 29.03] } 24. Qxc7+ { [%eval 27.13] }
+24... Ke6 { [%eval 23.31] } 25. Qxa7 { [%eval 20.29] } 25... Nc4 $6
+{ [%eval #11] } 26. Qa6+ { [%eval #18] } 26... Kf5 { [%eval #6] } 27. Qxc4
+{ [%eval #5] } 27... Kg5 { [%eval #4] } 28. a4 $6 { [%eval #5] } 1-0

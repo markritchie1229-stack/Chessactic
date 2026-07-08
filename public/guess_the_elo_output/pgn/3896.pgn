@@ -1,0 +1,38 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/bGu4rcqW"]
+[Site "https://lichess.org/jUJCcpZv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TempoTrainerBot"]
+[Black "JusticeDrugs"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:43:49"]
+[WhiteElo "1952"]
+[BlackElo "2231"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+6"]
+[ECO "B80"]
+[Opening "Sicilian Defense: Scheveningen Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.32] } 2. Nc3 { [%eval 0.32] } 2... e6
+{ [%eval 0.3] } 3. Nf3 { [%eval 0.26] } 3... d6 { [%eval 0.34] } 4. d4
+{ [%eval 0.41] } 4... cxd4 { [%eval 0.43] } 5. Nxd4 { [%eval 0.42] } 5... Nf6
+{ [%eval 0.46] } 6. Bg5 { [%eval 0.08] } 6... Be7 { [%eval 0.16] } 7. f4
+{ [%eval 0.0] } 7... h6 { [%eval 0.2] } 8. Bh4 { [%eval 0.08] } 8... Nxe4
+{ [%eval 0.56] } 9. Bxe7 { [%eval 0.45] } 9... Nxc3 { [%eval 0.38] } 10. Bxd8
+{ [%eval 0.3] } 10... Nxd1 { [%eval 0.39] } 11. Bh4 $6 { [%eval -0.18] } 11...
+Ne3 { [%eval -0.11] } 12. Ke2 { [%eval -0.45] } 12... Nxf1 { [%eval -0.27] }
+13. Rhxf1 $6 { [%eval -0.9] } 13... a6 { [%eval -0.7] } 14. f5
+{ [%eval -1.16] } 14... e5 { [%eval -0.98] } 15. Nb3 { [%eval -1.04] } 15...
+Nc6 { [%eval -0.93] } 16. f6 $6 { [%eval -1.7] } 16... g5 { [%eval -1.57] } 17.
+Bf2 { [%eval -1.75] } 17... Be6 { [%eval -1.66] } 18. Rad1 $2 { [%eval -3.48] }
+18... Bc4+ { [%eval -3.19] } 19. Ke3 $6 { [%eval -3.79] } 19... Bxf1
+{ [%eval -3.75] } 20. Rxf1 { [%eval -3.62] } 20... O-O-O { [%eval -3.5] } 21.
+Rd1 { [%eval -3.87] } 21... d5 { [%eval -3.72] } 22. Nc5 $6 { [%eval -4.39] }
+22... Nd4 $6 { [%eval -3.55] } 23. c3 { [%eval -3.47] } 23... Nf5+
+{ [%eval -3.59] } 24. Kf3 { [%eval -4.02] } 24... Rd6 { [%eval -3.83] } 25. Na4
+{ [%eval -4.18] } 25... Rxf6 $2 { [%eval -2.23] } 26. Ke2 $2 { [%eval -4.35] }
+26... d4 { [%eval -4.28] } 27. g4 { [%eval -4.68] } 27... Ne3 { [%eval -4.68] }
+28. cxd4 $4 { [%eval -10.67] } 28... Nxd1 { [%eval -10.1] } 0-1

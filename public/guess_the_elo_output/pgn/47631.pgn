@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/v26CLdo7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BURZUM76"]
+[Black "Goveta"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:41:38"]
+[WhiteElo "1790"]
+[BlackElo "1739"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+11"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.2] } 1... d5 { [%eval -0.02] } 2. Bb2 { [%eval 0.06] } 2...
+Nd7 { [%eval 0.12] } 3. e3 { [%eval -0.08] } 3... e5 { [%eval -0.07] } 4. Nf3
+{ [%eval -0.27] } 4... f6 $6 { [%eval 0.72] } 5. d4 $6 { [%eval 0.15] } 5...
+Bd6 $6 { [%eval 0.79] } 6. dxe5 { [%eval 0.44] } 6... fxe5 $6 { [%eval 0.96] }
+7. c4 { [%eval 0.49] } 7... c6 $6 { [%eval 1.14] } 8. cxd5 { [%eval 1.05] }
+8... cxd5 { [%eval 1.04] } 9. Qxd5 { [%eval 1.05] } 9... Bc7 $2
+{ [%eval 2.62] } 10. Bb5 $6 { [%eval 2.05] } 10... Ne7 { [%eval 2.39] } 11. Qe6
+$6 { [%eval 1.88] } 11... a6 { [%eval 1.87] } 12. Qxe5 $4 { [%eval -6.28] }
+12... Bxe5 { [%eval -5.96] } 13. Nxe5 $4 { [%eval -9.79] } 13... axb5
+{ [%eval -9.67] } 14. Nd2 { [%eval -13.1] } 14... Nxe5 { [%eval -12.95] } 15.
+Bxe5 { [%eval -12.93] } 15... O-O { [%eval -12.71] } 16. O-O { [%eval -12.77] }
+16... b6 $6 { [%eval -9.37] } 17. Rfd1 { [%eval -9.47] } 17... Qe8
+{ [%eval -9.08] } 18. Nf3 $6 { [%eval -11.79] } 18... Bb7 { [%eval -11.04] }
+19. Bd6 { [%eval -13.37] } 19... Bxf3 { [%eval -13.1] } 20. gxf3
+{ [%eval -12.82] } 20... Rxf3 { [%eval -12.44] } 21. Kg2 { [%eval -17.47] }
+21... Rf6 { [%eval -16.42] } 22. Be5 { [%eval -18.63] } 22... Rg6+
+{ [%eval -17.56] } 23. Bg3 { [%eval -18.52] } 23... Qc6+ { [%eval -17.22] } 24.
+Rd5 $6 { [%eval #-8] } 24... Qxd5+ { [%eval #-8] } 25. e4 { [%eval #-7] } 25...
+Qxe4+ { [%eval #-6] } 26. f3 { [%eval #-5] } 26... Qe2+ { [%eval #-4] } 27. Kh3
+{ [%eval #-2] } 27... Nf5 $6 { [%eval #-3] } 0-1

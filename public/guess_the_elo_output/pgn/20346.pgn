@@ -1,0 +1,36 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/SBc2XC4j"]
+[Site "https://lichess.org/CLII8KN0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MateRascal"]
+[Black "RobertT74"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:31:43"]
+[WhiteElo "1599"]
+[BlackElo "2233"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[ECO "B73"]
+[Opening "Sicilian Defense: Dragon Variation, Classical Variation #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.21] } 2... d6
+{ [%eval 0.26] } 3. d4 { [%eval 0.27] } 3... cxd4 { [%eval 0.31] } 4. Nxd4
+{ [%eval 0.34] } 4... Nf6 { [%eval 0.35] } 5. Nc3 { [%eval 0.34] } 5... g6
+{ [%eval 0.43] } 6. Be2 { [%eval 0.25] } 6... Bg7 { [%eval 0.2] } 7. Be3
+{ [%eval 0.17] } 7... Nc6 { [%eval 0.33] } 8. Nxc6 { [%eval 0.08] } 8... bxc6
+{ [%eval -0.03] } 9. Qd2 { [%eval -0.07] } 9... Ng4 { [%eval -0.07] } 10. Bxg4
+{ [%eval -0.06] } 10... Bxg4 { [%eval 0.16] } 11. Bh6 { [%eval -0.08] } 11...
+Bxh6 { [%eval 0.16] } 12. Qxh6 { [%eval 0.04] } 12... Qb6 { [%eval 0.07] } 13.
+b3 { [%eval -0.1] } 13... Qd4 { [%eval -0.17] } 14. Qd2 { [%eval -0.04] } 14...
+Qf6 $6 { [%eval 0.52] } 15. f3 { [%eval 0.4] } 15... Be6 { [%eval 0.49] } 16.
+O-O { [%eval 0.38] } 16... O-O { [%eval 0.54] } 17. f4 { [%eval 0.68] } 17...
+Bd7 { [%eval 0.75] } 18. e5 { [%eval 0.45] } 18... Qe6 $6 { [%eval 0.95] } 19.
+exd6 { [%eval 0.74] } 19... exd6 { [%eval 1.09] } 20. Rae1 { [%eval 1.07] }
+20... Qf6 $6 { [%eval 1.86] } 21. Ne4 { [%eval 1.79] } 21... Qd8
+{ [%eval 2.23] } 22. Nxd6 $6 { [%eval 1.68] } 22... c5 $6 { [%eval 2.3] } 23.
+f5 $2 { [%eval 1.06] } 23... Bxf5 { [%eval 1.21] } 24. Nxf5 $4
+{ [%eval -10.15] } 24... Qxd2 { [%eval -10.0] } 25. Nh6+ { [%eval -14.0] }
+25... Qxh6 { [%eval -13.6] } 0-1

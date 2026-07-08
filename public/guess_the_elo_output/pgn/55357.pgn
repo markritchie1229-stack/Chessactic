@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/ekminimH"]
+[Site "https://lichess.org/5gQld54I"]
+[Date "????.??.??"]
+[Round "?"]
+[White "han88"]
+[Black "iamnotanengine"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:18:08"]
+[WhiteElo "1542"]
+[BlackElo "1801"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+4"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.34] } 1... Nf6 { [%eval 0.18] } 2. Nc3 { [%eval -0.1] } 2...
+c6 $6 { [%eval 0.53] } 3. Bg5 { [%eval 0.09] } 3... d5 { [%eval 0.15] } 4. Bxf6
+{ [%eval -0.19] } 4... exf6 { [%eval -0.16] } 5. e3 { [%eval -0.14] } 5... Bd6
+{ [%eval -0.18] } 6. Nf3 { [%eval -0.24] } 6... Bf5 { [%eval 0.02] } 7. Bd3
+{ [%eval 0.07] } 7... Nd7 $4 { [%eval 3.78] } 8. Bxf5 { [%eval 3.72] } 8... O-O
+{ [%eval 3.75] } 9. Bd3 { [%eval 3.53] } 9... Re8 { [%eval 3.62] } 10. Qd2
+{ [%eval 3.56] } 10... Qe7 { [%eval 3.59] } 11. h3 { [%eval 3.47] } 11... Nb6
+{ [%eval 3.71] } 12. O-O-O { [%eval 3.47] } 12... c5 $6 { [%eval 4.18] } 13.
+Rhe1 $2 { [%eval 2.54] } 13... Rac8 $2 { [%eval 4.09] } 14. Bxh7+ $2
+{ [%eval 1.12] } 14... Kxh7 { [%eval 1.16] } 15. a3 { [%eval 1.01] } 15... Kg8
+{ [%eval 1.24] } 16. Nh4 $6 { [%eval 0.26] } 16... cxd4 { [%eval 0.67] } 17.
+exd4 { [%eval 0.45] } 17... Qc7 $6 { [%eval 1.24] } 18. Rxe8+ { [%eval 0.94] }
+18... Rxe8 { [%eval 1.01] } 19. a4 $4 { [%eval -8.11] } 19... Bf4
+{ [%eval -8.19] } 20. Qxf4 $2 { [%eval -13.91] } 20... Qxf4+ { [%eval -13.47] }
+21. Kb1 { [%eval -13.29] } 21... Nc4 $2 { [%eval -7.83] } 22. Nxd5 $2
+{ [%eval -13.37] } 22... Qd6 { [%eval -9.94] } 23. Nxf6+ { [%eval -16.01] }
+23... Qxf6 { [%eval -14.9] } 24. b3 { [%eval -16.18] } 24... Qb6
+{ [%eval -14.05] } 25. Kc1 { [%eval -15.35] } 25... Nd6 { [%eval -12.73] } 26.
+Nf3 { [%eval -12.34] } 26... Re2 { [%eval -10.81] } 27. Nd2 { [%eval -17.04] }
+27... Qc6 { [%eval -16.15] } 28. f3 { [%eval -17.14] } 28... Nf5
+{ [%eval -14.95] } 29. g4 $6 { [%eval #-6] } 29... Ne3 { [%eval #-7] } 30. Rg1
+{ [%eval #-1] } 30... Qxc2# 0-1

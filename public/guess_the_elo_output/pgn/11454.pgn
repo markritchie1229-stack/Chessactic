@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7UOujQn1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Khomich"]
+[Black "harrus"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:12:40"]
+[WhiteElo "1963"]
+[BlackElo "1984"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "120+2"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.04] } 1... e6 { [%eval 0.23] } 2. g3 { [%eval 0.02] } 2...
+Nf6 { [%eval 0.12] } 3. Bg2 { [%eval 0.08] } 3... d5 { [%eval 0.09] } 4. b3
+{ [%eval -0.21] } 4... b6 { [%eval 0.19] } 5. Bb2 { [%eval 0.1] } 5... Bb7
+{ [%eval 0.13] } 6. e3 { [%eval 0.0] } 6... c5 { [%eval 0.03] } 7. cxd5
+{ [%eval 0.08] } 7... exd5 { [%eval 0.56] } 8. d4 $6 { [%eval -0.14] } 8...
+Nbd7 { [%eval 0.34] } 9. Nf3 { [%eval 0.09] } 9... Ne4 $6 { [%eval 0.6] } 10.
+Nbd2 $6 { [%eval 0.07] } 10... Ndf6 $6 { [%eval 0.58] } 11. Nxe4
+{ [%eval 0.39] } 11... Nxe4 $6 { [%eval 0.91] } 12. Ne5 $6 { [%eval 0.25] }
+12... Bd6 $6 { [%eval 1.09] } 13. Bxe4 $6 { [%eval 0.56] } 13... dxe4
+{ [%eval 0.85] } 14. Qh5 $6 { [%eval -0.14] } 14... O-O { [%eval -0.16] } 15.
+dxc5 { [%eval -0.22] } 15... bxc5 $6 { [%eval 0.4] } 16. Rd1 $6
+{ [%eval -0.14] } 16... Qa5+ { [%eval -0.14] } 17. Kf1 { [%eval -0.27] } 17...
+Ba6+ $6 { [%eval 0.52] } 18. Kg2 { [%eval 0.27] } 18... Bxe5 { [%eval 0.62] }
+19. Qxe5 { [%eval 0.5] } 19... f6 { [%eval 0.39] } 20. Qe6+ { [%eval 0.57] }
+20... Kh8 { [%eval 0.63] } 21. Rd7 $2 { [%eval -0.67] } 21... Qb6 $2
+{ [%eval 2.09] } 22. Rd6 { [%eval 2.02] } 22... Rae8 $4 { [%eval 6.19] } 23.
+Rxb6 { [%eval 6.0] } 1-0

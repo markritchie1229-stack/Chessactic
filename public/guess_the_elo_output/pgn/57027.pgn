@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/fqtl7MCG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pekva1738"]
+[Black "fratazio"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:52:17"]
+[WhiteElo "1867"]
+[BlackElo "1750"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+14"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.04] } 1... e6 { [%eval 0.03] } 2. d4 { [%eval 0.05] } 2... d5
+{ [%eval 0.26] } 3. e5 { [%eval 0.06] } 3... Bd7 { [%eval 0.08] } 4. Nf3
+{ [%eval 0.0] } 4... c5 { [%eval 0.04] } 5. c3 { [%eval 0.08] } 5... Nc6
+{ [%eval 0.17] } 6. Be2 { [%eval 0.02] } 6... Be7 { [%eval 0.28] } 7. O-O
+{ [%eval 0.18] } 7... Qc7 { [%eval 0.56] } 8. Be3 { [%eval 0.42] } 8... O-O-O
+$6 { [%eval 1.03] } 9. b4 { [%eval 0.83] } 9... cxb4 { [%eval 1.04] } 10. cxb4
+{ [%eval 0.76] } 10... Nxb4 $6 { [%eval 1.33] } 11. a3 $2 { [%eval -0.7] }
+11... Nc6 $2 { [%eval 1.08] } 12. Nbd2 $6 { [%eval 0.24] } 12... Kb8
+{ [%eval 0.48] } 13. Rc1 { [%eval 0.0] } 13... Nh6 { [%eval -0.01] } 14. Qb3 $6
+{ [%eval -0.85] } 14... Nf5 { [%eval -0.75] } 15. Rc2 { [%eval -1.02] } 15...
+g5 { [%eval -0.83] } 16. Rfc1 $2 { [%eval -1.91] } 16... Qa5 $2
+{ [%eval -0.72] } 17. Bb5 $2 { [%eval -1.79] } 17... g4 { [%eval -1.34] } 18.
+Ne1 $4 { [%eval -8.91] } 18... Nfxd4 $2 { [%eval -6.31] } 19. Bxd4 $2
+{ [%eval -9.05] } 19... Nxd4 { [%eval -8.62] } 20. Qb1 $2 { [%eval -9.73] }
+20... Nxc2 { [%eval -9.45] } 21. Bxd7 { [%eval -9.91] } 21... Nxe1 $4
+{ [%eval -6.9] } 22. Rxe1 $4 { [%eval -10.05] } 22... Qxd2 $2 { [%eval -7.61] }
+23. Bb5 { [%eval -7.98] } 23... Qa5 { [%eval -7.58] } 0-1

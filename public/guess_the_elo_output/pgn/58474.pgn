@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/dGN5Gbu3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fezaozgunermis"]
+[Black "Gauridas"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:07:08"]
+[WhiteElo "1339"]
+[BlackElo "1417"]
+[WhiteRatingDiff "+94"]
+[BlackRatingDiff "-13"]
+[ECO "C79"]
+[Opening "Ruy Lopez: Central Countergambit"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.21] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.24] } 3. Bb5 { [%eval 0.32] } 3... a6 { [%eval 0.29] } 4. Ba4
+{ [%eval 0.19] } 4... Nf6 { [%eval 0.25] } 5. O-O { [%eval 0.18] } 5... d5 $2
+{ [%eval 1.55] } 6. exd5 { [%eval 1.67] } 6... Qxd5 { [%eval 1.87] } 7. Nc3
+{ [%eval 1.42] } 7... Qd7 $2 { [%eval 4.02] } 8. Nxe5 { [%eval 3.9] } 8... Qd6
+{ [%eval 4.13] } 9. Re1 $2 { [%eval 2.12] } 9... b5 $4 { [%eval 7.79] } 10.
+Nxf7+ $4 { [%eval 0.0] } 10... Kxf7 { [%eval 0.28] } 11. Bb3+ { [%eval -0.03] }
+11... Kg6 { [%eval 0.0] } 12. d3 $2 { [%eval -1.15] } 12... Nd4
+{ [%eval -0.97] } 13. Ne4 { [%eval -1.34] } 13... Nxe4 { [%eval -1.31] } 14.
+Rxe4 { [%eval -1.34] } 14... Nxb3 { [%eval -1.3] } 15. axb3 { [%eval -1.31] }
+15... Bf5 $2 { [%eval 1.5] } 16. Bf4 $2 { [%eval -1.46] } 16... Qf6 $6
+{ [%eval -0.6] } 17. Be5 { [%eval -0.56] } 17... Qg5 $4 { [%eval 3.62] } 18. h4
+{ [%eval 3.41] } 18... Qxh4 $4 { [%eval 16.58] } 19. Rxh4 { [%eval 15.64] }
+19... Re8 $6 { [%eval #1] } 20. Bxc7 $6 { [%eval 15.81] } 20... Bc5 $6
+{ [%eval #10] } 21. Qf3 $6 { [%eval 16.14] } 21... Re7 $6 { [%eval #8] } 22.
+Qh5+ { [%eval #9] } 22... Kf6 { [%eval #10] } 23. Bf4 $6 { [%eval 15.98] }
+23... g5 $6 { [%eval #7] } 24. Bxg5+ { [%eval #9] } 24... Ke5 { [%eval #6] }
+25. Bxe7 { [%eval #6] } 25... Rg8 { [%eval #4] } 26. Re1+ { [%eval #3] } 26...
+Kd5 { [%eval #2] } 27. Qxf5+ $6 { [%eval #5] } 27... Kc6 { [%eval #5] } 28.
+Qxc5+ { [%eval #4] } 28... Kd7 { [%eval #3] } 29. Qd6+ $6 { [%eval #3] } 29...
+Kc8 { [%eval #3] } 30. Qe6+ $6 { [%eval #4] } 30... Kb7 { [%eval #4] } 31. Rxh7
+{ [%eval #3] } 31... Rxg2+ { [%eval #3] } 32. Kxg2 { [%eval #2] } 32... a5
+{ [%eval #2] } 33. Bc5+ { [%eval #1] } 33... Kb8 { [%eval #1] } 34. Qe8# 1-0

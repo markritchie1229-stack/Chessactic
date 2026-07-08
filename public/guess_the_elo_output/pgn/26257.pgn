@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/3LMP9Egl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PedroMouraERM"]
+[Black "avocadointhebox"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:41:36"]
+[WhiteElo "1872"]
+[BlackElo "2006"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+14"]
+[ECO "A17"]
+[Opening "English Opening: Anglo-Indian Defense, Hedgehog System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.01] } 1... e6 { [%eval 0.3] } 2. Nc3 { [%eval 0.14] } 2...
+Nf6 { [%eval 0.45] } 3. g3 $6 { [%eval -0.09] } 3... d5 { [%eval -0.07] } 4.
+cxd5 { [%eval -0.16] } 4... exd5 { [%eval -0.04] } 5. d4 { [%eval -0.15] } 5...
+Bd6 { [%eval -0.06] } 6. Bg2 { [%eval -0.14] } 6... c6 { [%eval -0.13] } 7. e3
+{ [%eval -0.26] } 7... O-O { [%eval -0.25] } 8. Nge2 { [%eval -0.36] } 8... Re8
+{ [%eval -0.33] } 9. O-O { [%eval -0.41] } 9... Bf5 { [%eval -0.41] } 10. a3
+{ [%eval -0.45] } 10... Nbd7 { [%eval -0.53] } 11. h3 { [%eval -0.72] } 11...
+b5 $6 { [%eval -0.18] } 12. Kh2 $6 { [%eval -0.81] } 12... h5 { [%eval -0.67] }
+13. Nf4 { [%eval -0.68] } 13... h4 { [%eval -0.21] } 14. Nh5 $2
+{ [%eval -1.72] } 14... Bg6 { [%eval -1.27] } 15. Nxf6+ { [%eval -1.64] } 15...
+Qxf6 { [%eval -1.22] } 16. Qg4 { [%eval -1.63] } 16... Nb6 $6 { [%eval -1.07] }
+17. b3 $6 { [%eval -2.04] } 17... a5 { [%eval -1.87] } 18. Bb2
+{ [%eval -2.34] } 18... a4 { [%eval -2.26] } 19. bxa4 { [%eval -2.7] } 19...
+Nxa4 { [%eval -2.37] } 20. Nxa4 { [%eval -2.39] } 20... Rxa4 { [%eval -2.18] }
+21. Rac1 $2 { [%eval -3.45] } 21... Rc4 $6 { [%eval -2.5] } 22. Rxc4 $6
+{ [%eval -3.33] } 22... bxc4 { [%eval -3.17] } 23. Qd7 $4 { [%eval -7.04] }
+23... Rd8 $2 { [%eval -5.51] } 24. Qb7 $4 { [%eval -10.63] } 24... Rb8
+{ [%eval -9.78] } 25. Qd7 { [%eval -11.07] } 25... Rxb2 { [%eval -9.77] } 26.
+a4 $2 { [%eval #-9] } 26... Rxf2 { [%eval #-10] } 27. Rxf2 { [%eval #-6] }
+27... hxg3+ { [%eval #-5] } 0-1

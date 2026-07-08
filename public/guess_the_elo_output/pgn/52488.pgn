@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Eq7kWlov"]
+[Date "????.??.??"]
+[Round "?"]
+[White "musahayri"]
+[Black "zafran181"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:40:13"]
+[WhiteElo "1500"]
+[BlackElo "1258"]
+[WhiteRatingDiff "+86"]
+[BlackRatingDiff "-5"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "360+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... b6 { [%eval 0.54] } 2. d4 { [%eval 0.4] } 2... Bb7
+{ [%eval 0.54] } 3. Bd3 { [%eval 0.53] } 3... g6 { [%eval 0.92] } 4. Ne2
+{ [%eval 0.5] } 4... Bg7 { [%eval 0.43] } 5. c3 { [%eval 0.36] } 5... e6
+{ [%eval 0.73] } 6. O-O { [%eval 0.43] } 6... d6 { [%eval 0.54] } 7. f4
+{ [%eval 0.34] } 7... Nd7 { [%eval 0.48] } 8. Be3 $6 { [%eval -0.08] } 8... a5
+{ [%eval 0.39] } 9. a4 { [%eval 0.14] } 9... f6 $2 { [%eval 1.25] } 10. Nd2 $6
+{ [%eval 0.64] } 10... Ne7 $6 { [%eval 1.37] } 11. f5 { [%eval 1.14] } 11...
+exf5 { [%eval 1.35] } 12. exf5 { [%eval 1.08] } 12... gxf5 $6 { [%eval 2.06] }
+13. Bxf5 $2 { [%eval 0.11] } 13... Nxf5 { [%eval 0.26] } 14. Rxf5
+{ [%eval 0.29] } 14... Qe7 { [%eval 0.31] } 15. Bf2 { [%eval 0.02] } 15...
+O-O-O { [%eval 0.23] } 16. Nf3 { [%eval 0.07] } 16... Rhg8 { [%eval 0.36] } 17.
+Kf1 $6 { [%eval -0.29] } 17... Ba6 { [%eval -0.2] } 18. Qc2 { [%eval -0.17] }
+18... Qe6 { [%eval 0.0] } 19. g4 $2 { [%eval -2.09] } 19... Bf8 $2
+{ [%eval -0.8] } 20. Re1 $2 { [%eval -1.97] } 20... Rxg4 { [%eval -1.54] } 21.
+Bg3 $2 { [%eval -4.51] } 21... Qc4 $2 { [%eval -1.61] } 22. Kf2
+{ [%eval -1.59] } 22... Bh6 { [%eval -1.56] } 23. b3 { [%eval -1.93] } 23...
+Qc6 $2 { [%eval -0.31] } 24. c4 { [%eval -0.29] } 24... Re8 { [%eval 0.0] } 25.
+Rh5 { [%eval -0.45] } 25... Be3+ { [%eval 0.0] } 26. Kg2 { [%eval -0.52] }
+26... Bb7 $4 { [%eval 2.85] } 27. d5 { [%eval 2.74] } 27... Qc5
+{ [%eval 2.78] } 28. Qf5 { [%eval 2.35] } 28... Rg7 $2 { [%eval 3.37] } 29.
+Rxh7 $2 { [%eval 1.8] } 29... Rxh7 { [%eval 1.73] } 30. Qxh7 { [%eval 1.86] }
+30... Qb4 $2 { [%eval 3.5] } 31. Ned4 { [%eval 3.07] } 31... Bxd4 $4
+{ [%eval #1] } 32. Rxe8# 1-0

@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/wJ5f8Qaf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "styltme"]
+[Black "martize"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:57:54"]
+[WhiteElo "2010"]
+[BlackElo "1579"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-2"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "30+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.46] } 2. Bc4 { [%eval 0.18] } 2... d6
+{ [%eval 0.41] } 3. Qh5 { [%eval 0.02] } 3... Qe7 { [%eval 0.14] } 4. Nf3
+{ [%eval -0.2] } 4... Be6 { [%eval 0.15] } 5. Bxe6 { [%eval 0.08] } 5... Qxe6
+{ [%eval 0.04] } 6. d3 { [%eval -0.06] } 6... Nf6 { [%eval -0.15] } 7. Qg5
+{ [%eval -0.13] } 7... h6 { [%eval -0.12] } 8. Qe3 { [%eval -0.26] } 8... Ng4
+$6 { [%eval 0.24] } 9. Qe2 { [%eval 0.12] } 9... g5 $6 { [%eval 0.89] } 10. h3
+$6 { [%eval 0.33] } 10... Nf6 { [%eval 0.28] } 11. g4 $6 { [%eval -0.3] } 11...
+Nc6 { [%eval -0.15] } 12. Nc3 { [%eval -0.53] } 12... Nd4 $2 { [%eval 1.32] }
+13. Nxd4 { [%eval 1.11] } 13... exd4 { [%eval 1.28] } 14. Nd1 $2
+{ [%eval -0.37] } 14... c5 { [%eval -0.04] } 15. b3 $6 { [%eval -0.7] } 15...
+Qe5 $6 { [%eval 0.11] } 16. Nb2 { [%eval 0.13] } 16... Be7 { [%eval 0.06] } 17.
+Nc4 { [%eval 0.0] } 17... Qe6 { [%eval 0.04] } 18. Bd2 { [%eval -0.25] } 18...
+Qd7 $6 { [%eval 0.4] } 19. O-O-O { [%eval 0.26] } 19... b5 { [%eval 0.23] } 20.
+Nb2 { [%eval 0.33] } 20... Qc7 { [%eval 0.56] } 21. f4 { [%eval 0.29] } 21...
+gxf4 { [%eval 0.33] } 22. Bxf4 { [%eval 0.37] } 22... Ng8 $6 { [%eval 1.01] }
+23. Qh2 { [%eval 0.73] } 23... Bg5 { [%eval 0.63] } 24. Rhf1 { [%eval 0.57] }
+24... Bxf4+ $6 { [%eval 1.13] } 25. Qxf4 { [%eval 1.15] } 25... f6
+{ [%eval 1.36] } 26. Qf5 { [%eval 1.0] } 26... Kf7 $2 { [%eval 2.16] } 27. h4
+$6 { [%eval 1.26] } 27... Re8 { [%eval 1.24] } 28. g5 { [%eval 1.27] } 28...
+hxg5 { [%eval 1.67] } 29. hxg5 { [%eval 1.64] } 29... Rh5 $4 { [%eval 8.74] }
+30. g6+ { [%eval 8.32] } 30... Kg7 $2 { [%eval 9.61] } 31. Qxh5 { [%eval 9.0] }
+31... Re5 $2 { [%eval #9] } 32. Qh7+ { [%eval #8] } 1-0

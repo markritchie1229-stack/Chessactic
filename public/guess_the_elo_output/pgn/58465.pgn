@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cDPTzDdh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "checkeroni"]
+[Black "Catmax"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:06:44"]
+[WhiteElo "953"]
+[BlackElo "1080"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-67"]
+[ECO "C40"]
+[Opening "Latvian Gambit"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.37] } 2... f5
+$6 { [%eval 1.13] } 3. Nxe5 { [%eval 1.22] } 3... d6 $2 { [%eval 2.44] } 4. Nc4
+$2 { [%eval 0.61] } 4... fxe4 { [%eval 0.53] } 5. d3 { [%eval 0.69] } 5... Be6
+{ [%eval 1.11] } 6. b3 $2 { [%eval -0.54] } 6... d5 { [%eval -0.57] } 7. Ne5
+{ [%eval -0.84] } 7... Qf6 { [%eval -0.58] } 8. d4 { [%eval -0.82] } 8... Bb4+
+{ [%eval -0.61] } 9. c3 { [%eval -0.65] } 9... Ba5 $6 { [%eval -0.1] } 10. b4
+{ [%eval -0.41] } 10... Bb6 { [%eval -0.35] } 11. Na3 { [%eval -0.44] } 11...
+c5 $4 { [%eval 3.06] } 12. Nb5 $4 { [%eval -0.89] } 12... cxd4
+{ [%eval -0.65] } 13. cxd4 { [%eval -0.89] } 13... Qxe5 $4 { [%eval 8.51] } 14.
+dxe5 { [%eval 8.22] } 14... a5 $2 { [%eval 12.47] } 15. Qh5+ { [%eval 10.85] }
+15... Kd7 { [%eval 10.72] } 16. Nd6 { [%eval 10.14] } 16... Nf6
+{ [%eval 14.37] } 17. exf6 { [%eval 13.43] } 17... gxf6 { [%eval 15.22] } 18.
+Bf4 { [%eval 14.9] } 18... axb4 { [%eval 22.92] } 19. Bb5+ { [%eval 18.31] }
+19... Kc7 $6 { [%eval #8] } 20. Rc1+ $6 { [%eval 24.98] } 20... Bc5 $6
+{ [%eval #9] } 21. Rxc5+ { [%eval #8] } 1-0

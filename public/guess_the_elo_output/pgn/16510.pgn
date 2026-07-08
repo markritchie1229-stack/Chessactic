@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/OfwKPVOV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sys_argv"]
+[Black "Max003"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:57:29"]
+[WhiteElo "1408"]
+[BlackElo "1409"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer, Lemberger Countergambit"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.11] } 1... e5 { [%eval 0.39] } 2. Nc3 { [%eval 0.08] } 2...
+Nf6 { [%eval 0.22] } 3. d4 $6 { [%eval -0.48] } 3... d5 $2 { [%eval 0.88] } 4.
+Bb5+ $6 { [%eval -0.08] } 4... Bd7 $6 { [%eval 0.57] } 5. exd5 { [%eval 0.47] }
+5... Bxb5 { [%eval 0.92] } 6. Nxb5 { [%eval 0.79] } 6... Bb4+ { [%eval 0.87] }
+7. c3 { [%eval 0.97] } 7... Bd6 { [%eval 0.92] } 8. Bg5 { [%eval 0.83] } 8...
+a6 { [%eval 0.95] } 9. Nxd6+ { [%eval 1.18] } 9... Qxd6 { [%eval 1.29] } 10.
+Nf3 { [%eval 1.25] } 10... e4 { [%eval 1.27] } 11. Ne5 $6 { [%eval 0.45] }
+11... Nbd7 { [%eval 0.85] } 12. O-O $6 { [%eval 0.31] } 12... O-O-O $4
+{ [%eval 3.41] } 13. Nc4 $4 { [%eval -0.14] } 13... Qxd5 { [%eval -0.07] } 14.
+b3 $4 { [%eval -3.99] } 14... Qxg5 { [%eval -3.97] } 15. a4 { [%eval -4.18] }
+15... c6 $4 { [%eval -1.06] } 16. b4 $2 { [%eval -3.33] } 16... Kb8
+{ [%eval -3.1] } 17. Nd6 $4 { [%eval -6.75] } 17... Qg6 $4 { [%eval -3.67] }
+18. b5 $2 { [%eval -5.2] } 18... Nb6 $6 { [%eval -4.33] } 19. c4 $2
+{ [%eval -5.69] } 19... Rxd6 { [%eval -5.6] } 20. c5 { [%eval -5.14] } 20...
+Rd5 $2 { [%eval -3.93] } 21. cxb6 $2 { [%eval -5.02] } 21... Nh5
+{ [%eval -4.62] } 22. bxa6 { [%eval -4.67] } 22... bxa6 $6 { [%eval -4.08] }
+23. Qe2 $4 { [%eval #-14] } 23... Kb7 $4 { [%eval -4.0] } 24. a5 $4
+{ [%eval -29.03] } 24... Nf4 { [%eval -23.42] } 0-1

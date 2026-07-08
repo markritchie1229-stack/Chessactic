@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8rBZF17s"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kavih"]
+[Black "ngncfc"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:29:51"]
+[WhiteElo "2028"]
+[BlackElo "1931"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-15"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... Nf6 { [%eval 0.2] } 2. c4 { [%eval 0.29] } 2... d5
+{ [%eval 0.3] } 3. cxd5 { [%eval 0.09] } 3... Nxd5 $6 { [%eval 0.87] } 4. Nf3
+{ [%eval 0.77] } 4... Nc6 $6 { [%eval 1.29] } 5. e4 { [%eval 1.22] } 5... Nf6
+{ [%eval 1.33] } 6. Nc3 { [%eval 1.35] } 6... e5 { [%eval 1.57] } 7. d5
+{ [%eval 1.66] } 7... Nb8 { [%eval 1.81] } 8. Bg5 $2 { [%eval 0.72] } 8... Bd6
+{ [%eval 0.76] } 9. Bd3 { [%eval 0.55] } 9... O-O { [%eval 0.57] } 10. O-O
+{ [%eval 0.61] } 10... c6 { [%eval 0.83] } 11. Rc1 { [%eval 0.67] } 11... h6
+{ [%eval 0.72] } 12. Bh4 { [%eval 0.72] } 12... Bg4 { [%eval 0.81] } 13. h3
+{ [%eval 0.8] } 13... Bxf3 $6 { [%eval 1.43] } 14. Qxf3 { [%eval 1.34] } 14...
+Re8 $6 { [%eval 1.93] } 15. Rfd1 { [%eval 1.73] } 15... g5 { [%eval 1.79] } 16.
+Bg3 { [%eval 1.75] } 16... cxd5 { [%eval 2.02] } 17. exd5 { [%eval 1.79] }
+17... Nbd7 { [%eval 1.97] } 18. Ne4 $2 { [%eval 0.29] } 18... Nxd5 $4
+{ [%eval 9.61] } 19. Nxd6 { [%eval 9.2] } 19... Nf4 $6 { [%eval 10.68] } 20.
+Nxe8 { [%eval 10.36] } 20... Qxe8 { [%eval 9.92] } 21. Bxf4 { [%eval 9.7] }
+21... exf4 { [%eval 9.28] } 22. Bb5 $2 { [%eval 8.16] } 1-0

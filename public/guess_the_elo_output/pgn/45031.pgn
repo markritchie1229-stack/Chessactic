@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/chbGMIJK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tomatow"]
+[Black "lahcene"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:24:23"]
+[WhiteElo "1663"]
+[BlackElo "1596"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-9"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Anti-Torre"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... d5 { [%eval 0.19] } 2. Nf3 { [%eval 0.08] } 2... Bg4
+{ [%eval 0.44] } 3. Nbd2 { [%eval 0.32] } 3... e6 { [%eval 0.37] } 4. g3
+{ [%eval -0.03] } 4... Bb4 $6 { [%eval 0.59] } 5. c3 { [%eval 0.5] } 5... Bd6
+{ [%eval 0.52] } 6. Bg2 { [%eval 0.27] } 6... Bxf3 $6 { [%eval 0.81] } 7. Nxf3
+{ [%eval 0.54] } 7... f6 $2 { [%eval 1.79] } 8. Nh4 $6 { [%eval 1.05] } 8...
+Ne7 { [%eval 1.42] } 9. O-O { [%eval 0.99] } 9... g5 { [%eval 1.11] } 10. Nf3
+{ [%eval 1.21] } 10... h5 $6 { [%eval 1.72] } 11. h4 $6 { [%eval 1.12] } 11...
+g4 { [%eval 1.08] } 12. Nd2 { [%eval 0.81] } 12... Nf5 $2 { [%eval 2.26] } 13.
+e4 { [%eval 2.41] } 13... dxe4 $6 { [%eval 2.97] } 14. Nxe4 $6 { [%eval 2.44] }
+14... c6 $2 { [%eval 3.71] } 15. Re1 $6 { [%eval 2.75] } 15... Qc7 $4
+{ [%eval 8.29] } 16. Nxf6+ $2 { [%eval 6.42] } 16... Ke7 $2 { [%eval 8.79] }
+17. Nxh5 $2 { [%eval 6.27] } 17... Rg8 $4 { [%eval 10.32] } 18. Bg5+
+{ [%eval 10.08] } 18... Kf7 { [%eval 13.39] } 19. Nf4 $4 { [%eval 6.17] } 19...
+Re8 $4 { [%eval 10.42] } 20. Qxg4 { [%eval 10.22] } 20... Nd7 { [%eval 16.79] }
+21. Qh5+ { [%eval 15.29] } 21... Kf8 { [%eval 22.39] } 22. Nxe6+
+{ [%eval 21.45] } 22... Rxe6 { [%eval 20.39] } 23. Rxe6 { [%eval 18.58] } 23...
+Be7 $6 { [%eval #8] } 24. Bxe7+ { [%eval #7] } 24... Nxe7 { [%eval #7] } 25.
+Qh8+ { [%eval #13] } 25... Ng8 { [%eval #11] } 26. Rg6 { [%eval #10] } 1-0

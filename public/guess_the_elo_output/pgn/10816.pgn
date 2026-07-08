@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/OWK0yKsm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zugzii"]
+[Black "fadari"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:40:04"]
+[WhiteElo "2170"]
+[BlackElo "2025"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+16"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #4"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.02] } 1... e5 { [%eval 0.04] } 2. Bb2 { [%eval 0.0] } 2...
+Nc6 { [%eval 0.03] } 3. e3 { [%eval -0.12] } 3... Nf6 { [%eval 0.01] } 4. Ne2
+$6 { [%eval -0.65] } 4... b6 $6 { [%eval 0.15] } 5. f4 { [%eval -0.03] } 5...
+Bd6 { [%eval 0.07] } 6. fxe5 { [%eval -0.29] } 6... Bxe5 { [%eval -0.16] } 7.
+d4 $6 { [%eval -0.75] } 7... Bd6 { [%eval -0.9] } 8. Nd2 { [%eval -0.97] } 8...
+Qe7 { [%eval -1.08] } 9. c4 $4 { [%eval -5.0] } 9... Qxe3 { [%eval -4.88] } 10.
+Qc2 $4 { [%eval -8.28] } 10... Ng4 $4 { [%eval -0.99] } 11. O-O-O $4
+{ [%eval -4.22] } 11... Nf2 { [%eval -3.7] } 12. Re1 $4 { [%eval -12.0] } 12...
+Nxh1 $4 { [%eval -4.29] } 13. Kb1 $2 { [%eval -6.87] } 13... O-O
+{ [%eval -6.75] } 14. Nf3 $4 { [%eval -10.21] } 14... Re8 $4 { [%eval -2.91] }
+15. Ng3 $4 { [%eval -13.18] } 15... Qxe1+ { [%eval -13.12] } 16. Nxe1
+{ [%eval -13.05] } 16... Rxe1+ { [%eval -12.79] } 17. Bc1 { [%eval -14.07] }
+17... Nxg3 { [%eval -13.91] } 18. hxg3 { [%eval -14.18] } 18... Bxg3 $2
+{ [%eval -7.32] } 19. a3 $2 { [%eval -11.7] } 19... Bf4 { [%eval -11.58] } 20.
+Ka2 { [%eval -11.73] } 20... Rxc1 { [%eval -11.48] } 21. Qe4 { [%eval -11.55] }
+21... Bd6 { [%eval -10.77] } 22. Qe8+ { [%eval -11.37] } 22... Bf8
+{ [%eval -10.96] } 23. Be2 { [%eval -16.08] } 23... Bb7 { [%eval -14.04] } 24.
+Kb2 $6 { [%eval #-9] } 24... Rxe8 { [%eval #-10] } 0-1

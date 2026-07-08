@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZHzfXBQ0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Pavelgod"]
+[Black "ahmedsakr"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:29:10"]
+[WhiteElo "1271"]
+[BlackElo "1570"]
+[WhiteRatingDiff "-28"]
+[BlackRatingDiff "+11"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... e6 { [%eval 0.14] } 2. e3 { [%eval 0.12] } 2... g6
+{ [%eval 0.35] } 3. c4 { [%eval 0.4] } 3... Bg7 { [%eval 0.39] } 4. Be2
+{ [%eval 0.33] } 4... Nf6 { [%eval 0.35] } 5. Nf3 { [%eval 0.23] } 5... O-O
+{ [%eval 0.37] } 6. O-O { [%eval 0.25] } 6... d5 { [%eval 0.44] } 7. b3
+{ [%eval 0.1] } 7... dxc4 { [%eval 0.37] } 8. bxc4 { [%eval 0.45] } 8... Nc6
+{ [%eval 0.63] } 9. Ba3 { [%eval 0.62] } 9... Re8 { [%eval 0.61] } 10. d5 $2
+{ [%eval -1.51] } 10... exd5 $6 { [%eval -0.89] } 11. cxd5 $2 { [%eval -3.41] }
+11... Nxd5 { [%eval -3.36] } 12. e4 $2 { [%eval -5.83] } 12... Bxa1 $2
+{ [%eval -2.87] } 13. exd5 { [%eval -2.92] } 13... Ne5 $6 { [%eval -2.37] } 14.
+Bb5 $2 { [%eval -3.38] } 14... Nxf3+ $2 { [%eval -2.36] } 15. Qxf3
+{ [%eval -2.14] } 15... Re5 $2 { [%eval -0.99] } 16. Nc3 { [%eval -1.41] }
+16... Bxc3 $6 { [%eval -0.77] } 17. Qxc3 { [%eval -0.81] } 17... Rxd5
+{ [%eval -0.77] } 18. g3 $4 { [%eval -6.91] } 18... Bh3 $4 { [%eval -3.68] }
+19. Rb1 $4 { [%eval #-10] } 19... Rd1+ { [%eval -21.8] } 20. Rxd1 $6
+{ [%eval #-3] } 20... Qxd1+ { [%eval #-2] } 21. Bf1 { [%eval #-1] } 21... Qxf1#
+0-1

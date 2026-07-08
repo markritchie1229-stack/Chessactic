@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jSxQ5ucR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sup3rher0"]
+[Black "Raghavendra1516"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:47:30"]
+[WhiteElo "1587"]
+[BlackElo "1605"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+40"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... d5 { [%eval 0.18] } 2. e3 { [%eval 0.09] } 2... h6
+{ [%eval 0.15] } 3. Nf3 { [%eval 0.11] } 3... Nf6 { [%eval 0.15] } 4. Nc3
+{ [%eval -0.12] } 4... Bg4 { [%eval 0.04] } 5. Be2 { [%eval -0.07] } 5... Nc6
+{ [%eval 0.37] } 6. O-O { [%eval 0.12] } 6... e6 { [%eval 0.14] } 7. Ne5
+{ [%eval 0.02] } 7... Bxe2 { [%eval 0.08] } 8. Qxe2 { [%eval -0.02] } 8... Nxe5
+{ [%eval -0.02] } 9. dxe5 { [%eval -0.03] } 9... Nd7 { [%eval 0.09] } 10. f4
+{ [%eval -0.25] } 10... Bb4 { [%eval 0.03] } 11. Bd2 { [%eval -0.16] } 11...
+Bxc3 { [%eval 0.21] } 12. Bxc3 { [%eval 0.16] } 12... Nc5 $6 { [%eval 0.91] }
+13. Qb5+ { [%eval 1.02] } 13... Nd7 { [%eval 1.18] } 14. Qa4 $2 { [%eval 0.0] }
+14... O-O { [%eval 0.03] } 15. e4 $2 { [%eval -1.0] } 15... dxe4 $2
+{ [%eval 0.38] } 16. Qxe4 { [%eval 0.36] } 16... Nc5 { [%eval 0.36] } 17. Qc4
+{ [%eval 0.35] } 17... b6 { [%eval 0.43] } 18. a4 { [%eval 0.18] } 18... a5
+{ [%eval 0.21] } 19. b4 { [%eval 0.0] } 19... axb4 $6 { [%eval 0.71] } 20. Bxb4
+{ [%eval 0.59] } 20... Qe7 { [%eval 0.68] } 21. a5 { [%eval 0.87] } 21... Rfd8
+{ [%eval 1.1] } 22. axb6 $2 { [%eval -0.26] } 22... cxb6 { [%eval -0.08] } 23.
+Rxa8 { [%eval -0.09] } 23... Rxa8 { [%eval 0.0] } 24. Qb5 { [%eval -0.13] }
+24... Qd8 { [%eval 0.0] } 25. Bxc5 { [%eval 0.0] } 25... bxc5 { [%eval 0.0] }
+26. Qxc5 { [%eval 0.0] } 26... Rc8 { [%eval 0.0] } 27. Qf2 { [%eval -0.04] }
+27... Rc7 { [%eval 0.06] } 28. Ra1 { [%eval 0.0] } 28... Qc8 { [%eval 0.0] }
+29. g3 { [%eval -0.24] } 29... Rxc2 { [%eval -0.24] } 30. Qe3 $4
+{ [%eval -54.83] } 30... Qc6 $4 { [%eval -6.4] } 31. Kf1 $4 { [%eval #-3] }
+31... Qg2+ { [%eval #-2] } 32. Ke1 { [%eval #-2] } 32... Qh1+ { [%eval #-1] }
+33. Qg1 { [%eval #-1] } 33... Qxg1# 0-1

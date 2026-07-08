@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/dVpHFD5C"]
+[Date "????.??.??"]
+[Round "?"]
+[White "propoleus"]
+[Black "levantinhpat"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:55:07"]
+[WhiteElo "1410"]
+[BlackElo "1316"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Saduleto Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.08] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.12] } 2...
+dxc4 { [%eval 0.49] } 3. e4 { [%eval 0.1] } 3... e6 { [%eval 0.54] } 4. Bxc4
+{ [%eval 0.37] } 4... Be7 { [%eval 0.83] } 5. Nc3 { [%eval 0.59] } 5... b6
+{ [%eval 0.91] } 6. Nf3 { [%eval 0.81] } 6... Bb7 { [%eval 1.2] } 7. Be3 $6
+{ [%eval 0.66] } 7... Bb4 $2 { [%eval 3.59] } 8. Bd3 $2 { [%eval 0.79] } 8...
+Ne7 { [%eval 1.25] } 9. O-O { [%eval 0.96] } 9... Qd7 $2 { [%eval 2.95] } 10.
+a3 $2 { [%eval 1.04] } 10... Bxc3 { [%eval 1.08] } 11. bxc3 { [%eval 0.99] }
+11... O-O { [%eval 1.07] } 12. Bc2 { [%eval 0.73] } 12... c6 $6
+{ [%eval 1.27] } 13. Qd3 { [%eval 0.96] } 13... Qc7 { [%eval 1.43] } 14. e5
+{ [%eval 1.0] } 14... Ng6 $6 { [%eval 1.82] } 15. Nh4 $2 { [%eval 0.31] } 15...
+Nd7 { [%eval 0.68] } 16. Nxg6 { [%eval 0.72] } 16... fxg6 { [%eval 1.0] } 17.
+h4 { [%eval 0.94] } 17... Rad8 $6 { [%eval 1.58] } 18. h5 $6 { [%eval 1.01] }
+18... Kf7 $4 { [%eval 4.54] } 19. hxg6+ { [%eval 3.95] } 19... hxg6 $4
+{ [%eval 21.85] } 20. Qxg6+ { [%eval 21.17] } 20... Ke7 { [%eval 20.19] } 21.
+Qxg7+ { [%eval 11.99] } 21... Rf7 { [%eval 11.79] } 22. Bg5+ { [%eval 11.56] }
+22... Ke8 { [%eval 11.16] } 23. Bg6 { [%eval 10.66] } 23... Nxe5
+{ [%eval 30.0] } 24. dxe5 { [%eval 26.41] } 24... Rd7 $6 { [%eval #1] } 25.
+Qg8# 1-0

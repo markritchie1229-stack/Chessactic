@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/xF1bHq42"]
+[Date "????.??.??"]
+[Round "?"]
+[White "klabukov"]
+[Black "Bulldogfan1998"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:19:50"]
+[WhiteElo "1488"]
+[BlackElo "1777"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+48"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.35] } 2... d6
+{ [%eval 0.3] } 3. Bc4 { [%eval 0.16] } 3... e6 { [%eval 0.17] } 4. O-O
+{ [%eval 0.11] } 4... Be7 { [%eval 0.12] } 5. Nc3 { [%eval 0.12] } 5... Nf6
+{ [%eval 0.05] } 6. d4 { [%eval 0.14] } 6... cxd4 { [%eval 0.21] } 7. Qxd4
+{ [%eval 0.14] } 7... a6 { [%eval 0.05] } 8. Na4 $2 { [%eval -1.62] } 8... Nc6
+$6 { [%eval -0.64] } 9. Qb6 { [%eval -0.62] } 9... O-O { [%eval -0.16] } 10.
+Re1 { [%eval -0.5] } 10... Nd7 { [%eval -0.35] } 11. Qxd8 { [%eval -0.49] }
+11... Rxd8 { [%eval -0.37] } 12. Nc3 { [%eval -0.45] } 12... b5
+{ [%eval -0.64] } 13. Bd3 { [%eval -0.66] } 13... Bb7 { [%eval -0.64] } 14. a3
+{ [%eval -0.65] } 14... Nde5 { [%eval -0.55] } 15. Nxe5 { [%eval -0.57] } 15...
+Nxe5 { [%eval -0.51] } 16. Bf4 { [%eval -0.58] } 16... Nxd3 { [%eval -0.59] }
+17. cxd3 { [%eval -0.58] } 17... e5 $6 { [%eval -0.08] } 18. Be3
+{ [%eval 0.0] } 18... d5 { [%eval 0.0] } 19. exd5 { [%eval -0.04] } 19... Bxd5
+{ [%eval 0.12] } 20. Nxd5 { [%eval -0.27] } 20... Rxd5 { [%eval -0.2] } 21. d4
+{ [%eval -0.2] } 21... Rad8 { [%eval 0.0] } 22. dxe5 { [%eval 0.0] } 22... Rxe5
+{ [%eval 0.0] } 23. Rad1 { [%eval 0.0] } 23... h6 { [%eval 0.0] } 24. h3
+{ [%eval -0.02] } 24... Bf6 { [%eval 0.05] } 25. Bc5 $4 { [%eval -5.6] } 25...
+Rxd1 { [%eval -5.44] } 26. Rxd1 { [%eval -5.25] } 26... Rxc5 { [%eval -5.0] }
+27. b4 $2 { [%eval -6.41] } 27... Rc3 { [%eval -6.3] } 28. a4 $4
+{ [%eval -10.27] } 28... bxa4 { [%eval -9.2] } 29. Ra1 $6 { [%eval -11.0] }
+29... a3 { [%eval -10.32] } 30. Kf1 { [%eval -19.6] } 30... Rb3
+{ [%eval -17.53] } 31. Ke2 $6 { [%eval #-8] } 31... Bxa1 { [%eval #-7] } 0-1

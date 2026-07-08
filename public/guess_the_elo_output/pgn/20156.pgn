@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/MzHz3X6Q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chillillo"]
+[Black "urania2016"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:24:12"]
+[WhiteElo "1594"]
+[BlackElo "1525"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "B02"]
+[Opening "Alekhine Defense: John Tracy Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... Nf6 { [%eval 0.71] } 2. Nf3 $2 { [%eval -0.51] }
+2... Nxe4 { [%eval -0.6] } 3. d4 { [%eval -0.58] } 3... d5 { [%eval -0.61] } 4.
+Qe2 $6 { [%eval -1.2] } 4... e6 { [%eval -1.2] } 5. Nc3 { [%eval -1.44] } 5...
+Nxc3 { [%eval -1.47] } 6. bxc3 { [%eval -1.35] } 6... Be7 { [%eval -1.31] } 7.
+Bb2 { [%eval -1.52] } 7... O-O { [%eval -1.42] } 8. O-O-O $6 { [%eval -2.3] }
+8... Bd7 { [%eval -1.83] } 9. h4 { [%eval -1.77] } 9... c5 $6 { [%eval -1.19] }
+10. dxc5 { [%eval -1.41] } 10... Bxc5 $6 { [%eval -0.89] } 11. g4 $6
+{ [%eval -1.77] } 11... Qa5 { [%eval -1.37] } 12. a3 $2 { [%eval -3.64] } 12...
+Nc6 $2 { [%eval -2.54] } 13. h5 $6 { [%eval -3.43] } 13... Bxa3
+{ [%eval -3.23] } 14. Bxa3 $2 { [%eval -4.5] } 14... Qxa3+ { [%eval -4.7] } 15.
+Kd2 { [%eval -4.3] } 15... b5 $2 { [%eval -2.84] } 16. h6 { [%eval -3.02] }
+16... g6 { [%eval -2.99] } 17. Nd4 $6 { [%eval -3.73] } 17... b4 $2
+{ [%eval -2.72] } 18. Nxc6 $2 { [%eval -4.56] } 18... Bxc6 $2 { [%eval -2.35] }
+19. cxb4 $2 { [%eval -3.48] } 19... Qxb4+ { [%eval -3.27] } 20. Kc1 $2
+{ [%eval -5.26] } 20... a5 $4 { [%eval -2.17] } 21. Qe5 { [%eval -2.29] } 21...
+a4 $4 { [%eval #1] } 22. Qg7# 1-0

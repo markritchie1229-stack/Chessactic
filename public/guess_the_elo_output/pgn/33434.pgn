@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CQ5cTRAA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RafaelGonzalez"]
+[Black "heybat"]
+[Result "1/2-1/2"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:59:09"]
+[WhiteElo "2132"]
+[BlackElo "2153"]
+[WhiteRatingDiff "+1"]
+[BlackRatingDiff "-1"]
+[ECO "A41"]
+[Opening "Queen's Pawn Game: Anglo-Slav Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... c6 { [%eval 0.58] } 2. c4 { [%eval 0.3] } 2... d6
+{ [%eval 0.64] } 3. e3 { [%eval 0.44] } 3... Nd7 { [%eval 0.5] } 4. Nf3
+{ [%eval 0.54] } 4... h6 { [%eval 0.73] } 5. g3 { [%eval 0.35] } 5... g5
+{ [%eval 0.58] } 6. Bg2 { [%eval 0.37] } 6... Bg7 { [%eval 0.5] } 7. Nc3
+{ [%eval 0.54] } 7... Ngf6 { [%eval 0.68] } 8. Qc2 { [%eval 0.64] } 8... Qc7
+{ [%eval 0.77] } 9. h3 $6 { [%eval 0.14] } 9... e5 $6 { [%eval 0.69] } 10. e4
+{ [%eval 0.45] } 10... Nb6 $6 { [%eval 1.01] } 11. b3 { [%eval 0.98] } 11...
+Nfd7 { [%eval 1.17] } 12. Be3 { [%eval 1.1] } 12... c5 $2 { [%eval 2.13] } 13.
+Nb5 { [%eval 2.04] } 13... Qb8 { [%eval 2.07] } 14. dxe5 { [%eval 2.22] } 14...
+dxe5 { [%eval 2.59] } 15. Rd1 { [%eval 2.31] } 15... O-O $6 { [%eval 2.81] }
+16. O-O { [%eval 2.87] } 16... a6 { [%eval 3.18] } 17. Nd6 { [%eval 2.85] }
+17... Rd8 $6 { [%eval 3.7] } 18. Nf5 { [%eval 3.66] } 18... Bf8 $2
+{ [%eval 5.93] } 19. Qc1 $2 { [%eval 4.61] } 19... Re8 $2 { [%eval 7.53] } 20.
+Bxg5 { [%eval 7.37] } 20... hxg5 $2 { [%eval #7] } 21. Qxg5+ { [%eval #6] }
+21... Kh8 { [%eval #6] } 22. Qh5+ { [%eval #5] } 22... Kg8 { [%eval #5] } 23.
+Qg5+ $6 { [%eval #6] } 23... Kh8 { [%eval #6] } 24. Qh5+ { [%eval #5] } 24...
+Kg8 { [%eval #5] } 25. Qg5+ $4 { [%eval 0.0] } 1/2-1/2

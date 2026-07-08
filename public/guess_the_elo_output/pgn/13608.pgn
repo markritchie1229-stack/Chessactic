@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Yw0WCIsC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "a2pawn"]
+[Black "berb"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:54:09"]
+[WhiteElo "1615"]
+[BlackElo "1759"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-16"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Accepted, Kan Formation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... c5 { [%eval 0.33] } 2. d4 { [%eval -0.04] } 2...
+cxd4 { [%eval 0.14] } 3. c3 { [%eval -0.2] } 3... dxc3 { [%eval -0.16] } 4.
+Nxc3 { [%eval -0.14] } 4... e6 { [%eval -0.2] } 5. Nf3 { [%eval -0.2] } 5... a6
+{ [%eval -0.02] } 6. Bc4 { [%eval -0.25] } 6... Bc5 { [%eval -0.04] } 7. O-O
+{ [%eval -0.01] } 7... Ne7 { [%eval 0.2] } 8. Bg5 { [%eval -0.24] } 8... O-O
+{ [%eval 0.2] } 9. Qe2 $6 { [%eval -0.41] } 9... Nbc6 { [%eval -0.36] } 10.
+Rfd1 { [%eval -0.42] } 10... Qc7 { [%eval -0.11] } 11. Rac1 { [%eval -0.11] }
+11... Ng6 { [%eval -0.06] } 12. e5 $6 { [%eval -0.69] } 12... b5 $2
+{ [%eval 0.37] } 13. Bb3 { [%eval -0.1] } 13... Na5 $4 { [%eval 3.26] } 14. Ne4
+{ [%eval 3.02] } 14... Nxe5 $4 { [%eval 9.05] } 15. Nxe5 $4 { [%eval 3.35] }
+15... Qxe5 { [%eval 3.36] } 16. Rxc5 { [%eval 3.17] } 16... d5 { [%eval 2.93] }
+17. Be7 $2 { [%eval 0.93] } 17... Nxb3 $2 { [%eval 2.66] } 18. axb3 $2
+{ [%eval -0.18] } 18... Qxe4 $4 { [%eval 4.63] } 19. Qxe4 { [%eval 4.44] }
+19... dxe4 { [%eval 4.31] } 20. Bxf8 { [%eval 4.04] } 20... Kxf8 $2
+{ [%eval 6.64] } 21. Rd8+ { [%eval 6.45] } 21... Ke7 { [%eval 6.32] } 22. Rdxc8
+{ [%eval 5.97] } 22... Ra7 $2 { [%eval 7.38] } 23. R8c7+ { [%eval 7.3] } 23...
+Rxc7 { [%eval 7.2] } 24. Rxc7+ { [%eval 7.11] } 24... Kf6 { [%eval 7.1] } 25.
+Ra7 { [%eval 6.46] } 25... Kg6 $2 { [%eval 8.31] } 26. Rxa6 { [%eval 7.85] }
+26... h5 $2 { [%eval 9.43] } 27. Rb6 { [%eval 9.05] } 27... Kf5 $6
+{ [%eval 18.16] } 28. Rxb5+ { [%eval 16.03] } 28... Kf4 { [%eval 19.43] } 29.
+Rc5 { [%eval 18.08] } 29... f5 { [%eval 121.58] } 30. b4 { [%eval 23.59] }
+30... g5 $6 { [%eval #12] } 31. b5 { [%eval #11] } 31... g4 { [%eval #10] } 32.
+b6 { [%eval #9] } 32... h4 { [%eval #8] } 33. b7 { [%eval #7] } 33... g3
+{ [%eval #6] } 34. b8=Q+ { [%eval #5] } 1-0

@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8cQ1Y3Km"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Pups37"]
+[Black "alchess2525"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:53:02"]
+[WhiteElo "1491"]
+[BlackElo "1676"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+33"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.02] } 1... e5 { [%eval 0.0] } 2. Bb2 { [%eval -0.19] } 2...
+Nc6 { [%eval -0.17] } 3. c4 { [%eval -0.22] } 3... Bd6 { [%eval 0.1] } 4. e4
+{ [%eval -0.35] } 4... Qf6 $6 { [%eval 0.23] } 5. Nf3 { [%eval 0.31] } 5...
+Nge7 { [%eval 0.2] } 6. Be2 { [%eval 0.23] } 6... Ng6 { [%eval 0.47] } 7. O-O
+{ [%eval 0.41] } 7... O-O { [%eval 0.3] } 8. Nc3 { [%eval 0.43] } 8... Nf4
+{ [%eval 0.6] } 9. Nd5 { [%eval 0.5] } 9... Qg6 $2 { [%eval 1.56] } 10. g3 $2
+{ [%eval 0.53] } 10... Nh3+ $6 { [%eval 1.46] } 11. Kg2 { [%eval 1.3] } 11...
+Qe6 $2 { [%eval 3.16] } 12. Nh4 { [%eval 2.89] } 12... Ng5 { [%eval 3.14] } 13.
+Bg4 { [%eval 3.08] } 13... Qe8 { [%eval 3.12] } 14. Nf5 { [%eval 3.14] } 14...
+Nxe4 $6 { [%eval 4.02] } 15. f4 $6 { [%eval 3.37] } 15... f6 $6
+{ [%eval 4.16] } 16. d3 $6 { [%eval 3.29] } 16... Nc5 { [%eval 2.98] } 17. Nxd6
+{ [%eval 2.73] } 17... cxd6 { [%eval 2.72] } 18. Nc7 { [%eval 2.8] } 18... Qg6
+$2 { [%eval 4.75] } 19. Nxa8 { [%eval 4.36] } 19... Nxd3 $6 { [%eval 4.89] }
+20. f5 { [%eval 4.66] } 20... Qg5 $6 { [%eval 5.43] } 21. Ba3 { [%eval 5.33] }
+21... Ndb4 $4 { [%eval 10.62] } 22. Nc7 $4 { [%eval 6.06] } 22... b6 $4
+{ [%eval 11.18] } 23. h4 $4 { [%eval 5.85] } 23... Qe3 { [%eval 5.75] } 24.
+Qxd6 { [%eval 5.72] } 24... Bb7 $6 { [%eval 6.3] } 25. Kh2 { [%eval 6.04] }
+25... h5 $2 { [%eval 7.97] } 26. Bxh5 { [%eval 7.56] } 26... Nd4 $2
+{ [%eval 17.42] } 27. Qxd7 $4 { [%eval #-5] } 27... Qd2+ { [%eval #-4] } 28.
+Kg1 { [%eval #-1] } 28... Qg2# 0-1

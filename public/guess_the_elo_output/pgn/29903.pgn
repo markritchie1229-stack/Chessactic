@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vftMVAMa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sukis"]
+[Black "BloodAsp"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:08:41"]
+[WhiteElo "1531"]
+[BlackElo "1449"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+13"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.28] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.25] } 2... Nf6
+{ [%eval 0.2] } 3. Nf3 { [%eval 0.24] } 3... e6 { [%eval 0.22] } 4. e3
+{ [%eval 0.08] } 4... Nc6 { [%eval 0.32] } 5. cxd5 { [%eval 0.09] } 5... Nxd5
+$6 { [%eval 0.78] } 6. e4 { [%eval 0.77] } 6... Nf6 { [%eval 1.12] } 7. Nc3
+{ [%eval 1.03] } 7... Bb4 { [%eval 1.29] } 8. Bd3 { [%eval 1.07] } 8... O-O
+{ [%eval 1.05] } 9. O-O $6 { [%eval 0.29] } 9... Nxd4 { [%eval 0.34] } 10. e5
+{ [%eval 0.3] } 10... Ng4 $2 { [%eval 2.82] } 11. Bxh7+ { [%eval 2.75] } 11...
+Kxh7 { [%eval 2.63] } 12. Ng5+ { [%eval 2.2] } 12... Qxg5 $4 { [%eval 6.78] }
+13. Ne4 $4 { [%eval -4.99] } 13... Qxe5 { [%eval -4.91] } 14. Qxg4
+{ [%eval -5.1] } 14... b6 $6 { [%eval -4.31] } 15. Ng5+ { [%eval -4.59] } 15...
+Kg8 { [%eval -4.24] } 16. Qh5 $2 { [%eval -6.1] } 16... f6 $4 { [%eval #1] }
+17. Qf7+ $4 { [%eval -25.57] } 17... Rxf7 { [%eval -24.1] } 18. Nxf7
+{ [%eval -31.96] } 18... Kxf7 { [%eval -24.34] } 19. g3 $6 { [%eval #-5] }
+19... Qd5 $6 { [%eval #-6] } 20. Bf4 { [%eval #-1] } 20... Ne2# 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/iB51gSyr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bhoom"]
+[Black "Dannm5"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:20:02"]
+[WhiteElo "1852"]
+[BlackElo "1532"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-4"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.26] } 1... d5 { [%eval -0.27] } 2. Bg2 { [%eval -0.46] } 2...
+d4 $6 { [%eval 0.31] } 3. Nh3 $6 { [%eval -0.29] } 3... c6 { [%eval 0.09] } 4.
+O-O { [%eval 0.02] } 4... Bxh3 $6 { [%eval 0.61] } 5. Bxh3 { [%eval 0.56] }
+5... Nf6 { [%eval 0.66] } 6. d3 { [%eval 0.5] } 6... Qd5 $6 { [%eval 1.15] } 7.
+Bg2 { [%eval 0.83] } 7... Qf5 $6 { [%eval 1.48] } 8. e4 $6 { [%eval 0.76] }
+8... Qe5 $6 { [%eval 1.66] } 9. f4 { [%eval 1.47] } 9... Qe6 { [%eval 1.88] }
+10. e5 { [%eval 1.54] } 10... Nd5 { [%eval 1.64] } 11. c3 { [%eval 1.65] }
+11... g6 { [%eval 1.6] } 12. cxd4 { [%eval 1.69] } 12... Nd7 $2
+{ [%eval 2.89] } 13. Nd2 $2 { [%eval -0.1] } 13... h5 $2 { [%eval 1.88] } 14.
+Ne4 { [%eval 1.92] } 14... h4 $4 { [%eval 8.79] } 15. Be3 $4 { [%eval -2.79] }
+15... hxg3 $4 { [%eval 0.28] } 16. Bf2 $4 { [%eval -3.71] } 16... gxh2+ $2
+{ [%eval -0.72] } 17. Kh1 { [%eval -0.83] } 17... Nxf4 $2 { [%eval 0.35] } 18.
+d5 $2 { [%eval -1.91] } 18... cxd5 { [%eval -1.76] } 19. Nc3 $2
+{ [%eval -4.41] } 19... Nxg2 { [%eval -4.13] } 20. Kxg2 { [%eval -4.45] } 20...
+Qh3+ $2 { [%eval -2.74] } 21. Kh1 { [%eval -2.88] } 21... Qf5 $4
+{ [%eval 0.47] } 22. Bg3 $2 { [%eval -0.95] } 22... Qxe5 $4 { [%eval 8.22] }
+23. Qf3 $4 { [%eval -2.12] } 23... Qe4 $4 { [%eval 15.12] } 24. Qxe4 $4
+{ [%eval -2.79] } 24... dxe4 { [%eval -2.66] } 25. dxe4 { [%eval -2.89] } 25...
+Nf6 $6 { [%eval -1.95] } 26. Rad1 $2 { [%eval -3.1] } 26... Ng4 $4
+{ [%eval 0.0] } 27. Rd8+ $4 { [%eval -11.27] } 27... Kxd8 $2 { [%eval -8.48] }
+28. Rd1+ $2 { [%eval -10.59] } 1-0

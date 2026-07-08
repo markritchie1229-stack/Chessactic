@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BbkN4zev"]
+[Date "????.??.??"]
+[Round "?"]
+[White "morphychess7"]
+[Black "ionay"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:21:52"]
+[WhiteElo "1651"]
+[BlackElo "1414"]
+[WhiteRatingDiff "+56"]
+[BlackRatingDiff "-4"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... b6 { [%eval 0.5] } 2. d4 { [%eval 0.46] } 2... Bb7
+{ [%eval 0.48] } 3. d5 $6 { [%eval -0.02] } 3... d6 $6 { [%eval 0.73] } 4. c4
+{ [%eval 0.5] } 4... Nd7 { [%eval 0.6] } 5. Nc3 { [%eval 0.46] } 5... g6
+{ [%eval 0.54] } 6. f4 { [%eval 0.16] } 6... Bg7 { [%eval 0.2] } 7. Nf3
+{ [%eval 0.2] } 7... Ndf6 $6 { [%eval 1.14] } 8. Bd3 { [%eval 0.81] } 8... Qd7
+$6 { [%eval 1.63] } 9. O-O { [%eval 1.83] } 9... O-O-O { [%eval 2.14] } 10. Re1
+{ [%eval 1.8] } 10... Kb8 { [%eval 1.81] } 11. e5 { [%eval 1.65] } 11... dxe5
+{ [%eval 2.11] } 12. fxe5 { [%eval 1.63] } 12... Ng4 $2 { [%eval 2.64] } 13. h3
+{ [%eval 2.28] } 13... N4h6 { [%eval 2.5] } 14. Bg5 { [%eval 2.16] } 14... Re8
+$2 { [%eval 4.33] } 15. e6 $2 { [%eval 1.81] } 15... fxe6 { [%eval 1.94] } 16.
+Rxe6 { [%eval 1.8] } 16... Bf6 $2 { [%eval 2.9] } 17. Qd2 $6 { [%eval 1.97] }
+17... Bxc3 $2 { [%eval 3.68] } 18. Qxc3 { [%eval 3.37] } 18... Nf6 $4
+{ [%eval 7.12] } 19. Bxh6 { [%eval 6.96] } 19... Nh5 $6 { [%eval 7.54] } 20.
+Rae1 { [%eval 7.25] } 20... Qa4 $2 { [%eval 10.4] } 21. Rxe7 { [%eval 10.2] }
+21... Rxe7 { [%eval 16.72] } 22. Qxh8+ { [%eval 16.08] } 1-0

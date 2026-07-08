@@ -1,0 +1,46 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/A05NhT6m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "laparola"]
+[Black "fastmove6"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:31:12"]
+[WhiteElo "1433"]
+[BlackElo "1466"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-10"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d3 { [%eval -0.13] } 1... d5 { [%eval -0.11] } 2. e3 { [%eval -0.27] } 2...
+e6 { [%eval -0.2] } 3. Nf3 { [%eval -0.16] } 3... c5 { [%eval -0.13] } 4. c4
+{ [%eval -0.11] } 4... b6 { [%eval 0.02] } 5. cxd5 { [%eval 0.02] } 5... Qxd5
+{ [%eval 0.33] } 6. Nc3 { [%eval 0.29] } 6... Qd8 { [%eval 0.32] } 7. e4
+{ [%eval 0.08] } 7... Nf6 { [%eval 0.04] } 8. Bg5 { [%eval -0.16] } 8... Be7
+{ [%eval 0.04] } 9. e5 { [%eval -0.38] } 9... Nd5 { [%eval -0.29] } 10. Bxe7
+{ [%eval -0.29] } 10... Nxe7 { [%eval -0.01] } 11. d4 { [%eval -0.06] } 11...
+cxd4 { [%eval 0.14] } 12. Qxd4 { [%eval -0.06] } 12... Nbc6 { [%eval 0.39] }
+13. Qxd8+ { [%eval 0.29] } 13... Kxd8 { [%eval 0.72] } 14. Bb5 { [%eval 0.56] }
+14... Bd7 { [%eval 0.48] } 15. Bxc6 { [%eval 0.14] } 15... Bxc6
+{ [%eval 0.15] } 16. O-O $2 { [%eval -1.02] } 16... Ke8 $2 { [%eval 0.2] } 17.
+Rfe1 $6 { [%eval -0.35] } 17... Nd5 $2 { [%eval 0.68] } 18. Nxd5 $6
+{ [%eval 0.0] } 18... Bxd5 { [%eval -0.01] } 19. b3 { [%eval -0.18] } 19... b5
+{ [%eval 0.27] } 20. Rad1 { [%eval -0.07] } 20... a6 { [%eval 0.1] } 21. Nd4
+{ [%eval -0.03] } 21... Rc8 { [%eval 0.13] } 22. Nf3 { [%eval -0.3] } 22... Ke7
+{ [%eval -0.36] } 23. h3 { [%eval -0.68] } 23... Rhd8 { [%eval -0.66] } 24. g4
+$4 { [%eval -5.41] } 24... Kf8 $4 { [%eval -0.84] } 25. h4 $4 { [%eval -5.36] }
+25... h6 $4 { [%eval -0.94] } 26. g5 $4 { [%eval -4.95] } 26... hxg5 $4
+{ [%eval -1.24] } 27. Nxg5 { [%eval -1.21] } 27... g6 $6 { [%eval -0.48] } 28.
+Nh7+ { [%eval -0.6] } 28... Kg7 { [%eval -0.64] } 29. Nf6 { [%eval -0.66] }
+29... Rc2 { [%eval -0.66] } 30. a4 { [%eval -0.9] } 30... bxa4 { [%eval -0.9] }
+31. bxa4 { [%eval -0.74] } 31... Ra2 $6 { [%eval -0.09] } 32. Nxd5 $6
+{ [%eval -0.62] } 32... exd5 $6 { [%eval -0.1] } 33. Rd4 { [%eval -0.04] }
+33... Rc2 { [%eval 0.0] } 34. Kg2 { [%eval -0.02] } 34... Rc4 { [%eval -0.03] }
+35. Red1 { [%eval -0.16] } 35... Rxd4 { [%eval 0.0] } 36. Rxd4 { [%eval 0.0] }
+36... Kf8 { [%eval 0.0] } 37. f3 { [%eval -0.44] } 37... Ke7 { [%eval -0.25] }
+38. Kg3 { [%eval -0.63] } 38... Ke6 { [%eval -0.55] } 39. Kg4 $2
+{ [%eval -2.29] } 1-0

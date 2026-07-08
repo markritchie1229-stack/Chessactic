@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sRIABHFk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Internista"]
+[Black "collot"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:44:58"]
+[WhiteElo "2020"]
+[BlackElo "2021"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+10"]
+[ECO "D15"]
+[Opening "Slav Defense: Chameleon Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.18] } 2... c6
+{ [%eval 0.3] } 3. Nf3 { [%eval 0.15] } 3... Nf6 { [%eval 0.3] } 4. Nc3
+{ [%eval 0.12] } 4... a6 { [%eval 0.37] } 5. a4 { [%eval 0.03] } 5... e6
+{ [%eval 0.09] } 6. Bg5 { [%eval 0.1] } 6... Nbd7 { [%eval 0.21] } 7. e3
+{ [%eval 0.19] } 7... Be7 { [%eval 0.2] } 8. Bd3 { [%eval 0.22] } 8... Qc7
+{ [%eval 0.62] } 9. O-O { [%eval 0.58] } 9... e5 $2 { [%eval 1.62] } 10. dxe5
+$6 { [%eval 0.77] } 10... Nxe5 { [%eval 0.83] } 11. Nxe5 { [%eval 0.85] } 11...
+Qxe5 { [%eval 0.91] } 12. Bf4 { [%eval 0.77] } 12... Qe6 { [%eval 0.85] } 13.
+cxd5 $6 { [%eval 0.18] } 13... Nxd5 { [%eval 0.33] } 14. Nxd5 { [%eval 0.06] }
+14... cxd5 $6 { [%eval 0.96] } 15. Rc1 $6 { [%eval 0.23] } 15... Bd7
+{ [%eval 0.21] } 16. e4 { [%eval -0.06] } 16... Bc6 { [%eval 0.29] } 17. e5
+{ [%eval 0.34] } 17... O-O { [%eval 0.23] } 18. Qh5 { [%eval 0.0] } 18... g6
+{ [%eval 0.0] } 19. Qd1 { [%eval 0.0] } 19... Rfd8 { [%eval 0.0] } 20. Bg3
+{ [%eval -0.12] } 20... Rac8 { [%eval 0.06] } 21. Be2 $6 { [%eval -0.77] }
+21... h5 $6 { [%eval 0.05] } 22. f4 $6 { [%eval -0.85] } 22... Qd7 $6
+{ [%eval 0.0] } 23. b3 $6 { [%eval -0.61] } 23... d4 { [%eval -0.33] } 24. f5
+$2 { [%eval -1.88] } 24... d3 { [%eval -2.02] } 25. e6 $2 { [%eval -4.36] }
+25... dxe2 { [%eval -4.19] } 26. exf7+ { [%eval -4.37] } 26... Kf8
+{ [%eval -4.17] } 27. Qxe2 { [%eval -4.05] } 27... Qd4+ $6 { [%eval -3.24] }
+28. Kh1 $6 { [%eval -4.17] } 28... Be4 $2 { [%eval -2.01] } 29. Rcd1 $2
+{ [%eval -4.33] } 29... Bd3 $2 { [%eval -3.28] } 30. Qd2 $2 { [%eval -5.21] }
+30... Bxf1 { [%eval -4.97] } 31. Qh6+ $2 { [%eval -7.66] } 31... Qg7
+{ [%eval -7.44] } 32. Rxd8+ $2 { [%eval -12.25] } 32... Rxd8 { [%eval -11.88] }
+0-1

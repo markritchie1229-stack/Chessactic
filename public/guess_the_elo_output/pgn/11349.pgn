@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/K1Wz8uLA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Oudeis"]
+[Black "Noitrino"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:07:35"]
+[WhiteElo "1683"]
+[BlackElo "1703"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "C11"]
+[Opening "French Defense: Steinitz Variation #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e6 { [%eval 0.07] } 2. d4 { [%eval 0.05] } 2... d5
+{ [%eval 0.14] } 3. Nc3 { [%eval 0.0] } 3... Nf6 { [%eval 0.17] } 4. e5
+{ [%eval 0.0] } 4... Nfd7 { [%eval 0.0] } 5. f4 { [%eval 0.0] } 5... c5
+{ [%eval 0.05] } 6. Nf3 { [%eval 0.07] } 6... Nb6 { [%eval 0.36] } 7. Bb5+
+{ [%eval 0.05] } 7... Nc6 { [%eval 0.2] } 8. O-O { [%eval 0.15] } 8... Bd7
+{ [%eval 0.32] } 9. Be2 { [%eval -0.08] } 9... a6 { [%eval 0.15] } 10. Kh1
+{ [%eval -0.18] } 10... cxd4 { [%eval -0.21] } 11. Nxd4 { [%eval -0.16] } 11...
+Bc5 { [%eval 0.27] } 12. Nxc6 { [%eval -0.22] } 12... Bxc6 { [%eval -0.2] } 13.
+f5 $6 { [%eval -0.85] } 13... d4 { [%eval -0.87] } 14. fxe6 { [%eval -1.14] }
+14... O-O $2 { [%eval 0.25] } 15. Nb1 $2 { [%eval -1.06] } 15... Bxg2+ $4
+{ [%eval 2.06] } 16. Kxg2 { [%eval 1.82] } 16... Qd5+ { [%eval 2.03] } 17. Bf3
+{ [%eval 1.96] } 17... Qxe6 { [%eval 1.88] } 18. Bf4 $6 { [%eval 1.18] } 18...
+Nd5 $2 { [%eval 2.45] } 19. Bg3 $4 { [%eval -5.31] } 19... Ne3+
+{ [%eval -4.92] } 20. Kg1 $4 { [%eval -9.19] } 20... Nxd1 { [%eval -8.92] } 21.
+Rxd1 { [%eval -9.41] } 21... d3+ { [%eval -9.12] } 0-1

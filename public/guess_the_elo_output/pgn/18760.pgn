@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/RWCOCjL5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sheno777"]
+[Black "Secjacek"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:28:34"]
+[WhiteElo "1949"]
+[BlackElo "2085"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.45] } 2. Nf3 { [%eval 0.28] } 2...
+Nf6 { [%eval 0.45] } 3. Bc4 $6 { [%eval -0.12] } 3... Nxe4 { [%eval -0.05] } 4.
+Nxe5 { [%eval -0.45] } 4... d5 { [%eval -0.64] } 5. Bb3 { [%eval -0.74] } 5...
+Bc5 $6 { [%eval 0.15] } 6. d4 { [%eval 0.09] } 6... Bd6 $6 { [%eval 1.08] } 7.
+O-O $6 { [%eval 0.29] } 7... c6 { [%eval 0.67] } 8. f4 $6 { [%eval 0.0] } 8...
+O-O { [%eval 0.05] } 9. c3 { [%eval -0.25] } 9... f5 $6 { [%eval 0.41] } 10.
+Be3 { [%eval 0.06] } 10... Nd7 { [%eval 0.06] } 11. Nd2 { [%eval 0.05] } 11...
+Ndf6 { [%eval 0.07] } 12. Ndf3 { [%eval 0.0] } 12... Bd7 { [%eval 0.02] } 13.
+Qe1 { [%eval 0.0] } 13... Re8 { [%eval 0.0] } 14. Qh4 { [%eval 0.0] } 14... Ng4
+{ [%eval 0.0] } 15. Rfe1 { [%eval -0.19] } 15... Bxe5 $6 { [%eval 0.5] } 16.
+Nxe5 $4 { [%eval -13.07] } 16... Qxh4 { [%eval -12.68] } 17. Nxd7 $6
+{ [%eval #-2] } 17... Qxh2+ { [%eval #-1] } 18. Kf1 { [%eval #-1] } 18... Nxe3+
+$6 { [%eval #-4] } 19. Rxe3 { [%eval #-4] } 19... Qh1+ { [%eval #-3] } 20. Ke2
+{ [%eval #-3] } 20... Qxa1 $6 { [%eval #-6] } 21. Kf3 { [%eval #-1] } 21...
+Qxb2 $6 { [%eval #-7] } 22. Re2 { [%eval #-6] } 22... Qxc3+ { [%eval #-5] } 23.
+Re3 { [%eval #-5] } 23... Nd2+ { [%eval #-4] } 24. Ke2 { [%eval #-4] } 24...
+Qxe3+ $6 { [%eval #-5] } 25. Kd1 { [%eval #-5] } 25... Nxb3 { [%eval #-4] } 26.
+axb3 { [%eval #-3] } 26... Qxd4+ $6 { [%eval #-3] } 27. Kc1 { [%eval #-3] }
+27... Re1+ { [%eval #-2] } 28. Kc2 { [%eval #-2] } 28... Re2+ { [%eval #-1] }
+29. Kc1 { [%eval #-1] } 29... Qd2+ $6 { [%eval #-1] } 30. Kb1 { [%eval #-1] }
+30... Qb2# 0-1

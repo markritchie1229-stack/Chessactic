@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/B3WXFX8A"]
+[Date "????.??.??"]
+[Round "?"]
+[White "oper_80"]
+[Black "Haytafevri"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:02:23"]
+[WhiteElo "1664"]
+[BlackElo "1491"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-7"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.36] } 2. e3 { [%eval 0.13] } 2... Nc6
+{ [%eval 0.32] } 3. c4 { [%eval 0.45] } 3... dxc4 { [%eval 0.51] } 4. Bxc4
+{ [%eval 0.54] } 4... Nf6 { [%eval 0.72] } 5. Nf3 { [%eval 0.75] } 5... Bg4
+{ [%eval 1.06] } 6. O-O $6 { [%eval 0.55] } 6... e6 { [%eval 0.43] } 7. h3
+{ [%eval 0.43] } 7... Bh5 { [%eval 0.58] } 8. Nc3 { [%eval 0.49] } 8... Bd6
+{ [%eval 0.49] } 9. Be2 { [%eval 0.32] } 9... O-O { [%eval 0.42] } 10. a3
+{ [%eval 0.35] } 10... a5 { [%eval 0.61] } 11. e4 $2 { [%eval -0.81] } 11... b6
+$4 { [%eval 3.19] } 12. e5 { [%eval 3.25] } 12... Be7 $6 { [%eval 3.85] } 13.
+exf6 { [%eval 3.65] } 13... Bxf6 { [%eval 3.41] } 14. d5 { [%eval 3.1] } 14...
+exd5 $6 { [%eval 3.71] } 15. Nxd5 { [%eval 3.52] } 15... Kh8 $6
+{ [%eval 4.09] } 16. Nf4 { [%eval 3.6] } 16... Bxf3 { [%eval 4.06] } 17. Bxf3
+{ [%eval 3.63] } 17... Qe7 $4 { [%eval 7.54] } 18. Bxc6 { [%eval 7.37] } 18...
+Be5 $2 { [%eval 10.77] } 19. Bxa8 { [%eval 10.66] } 19... Rxa8
+{ [%eval 10.61] } 20. Re1 { [%eval 10.41] } 20... Qf6 { [%eval 14.75] } 21. Qd5
+{ [%eval 14.52] } 21... Re8 { [%eval 14.79] } 22. Bd2 { [%eval 11.56] } 22...
+h6 { [%eval 14.87] } 23. Bc3 { [%eval 14.82] } 23... Qxf4 { [%eval 14.82] } 24.
+Bxe5 { [%eval 14.6] } 24... Rxe5 { [%eval 14.56] } 25. Rxe5 { [%eval 13.79] }
+25... f6 $6 { [%eval #8] } 26. Re8+ { [%eval #7] } 26... Kh7 { [%eval #9] } 27.
+Qd3+ { [%eval #10] } 27... f5 { [%eval #10] } 28. Rae1 { [%eval #9] } 28... h5
+{ [%eval #7] } 29. g3 { [%eval #7] } 29... Qg5 { [%eval #7] } 30. R1e5
+{ [%eval #7] } 30... h4 { [%eval #7] } 31. Rxf5 { [%eval #6] } 31... Qc1+
+{ [%eval #6] } 32. Kg2 { [%eval #5] } 32... hxg3 { [%eval #1] } 33. Rh5# 1-0

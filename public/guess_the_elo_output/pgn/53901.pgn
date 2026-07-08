@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/cllMrxWL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "EugenRom-1980"]
+[Black "mamurik"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:40:42"]
+[WhiteElo "1748"]
+[BlackElo "1898"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "E76"]
+[Opening "King's Indian Defense: Four Pawns Attack"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval -0.08] } 1... Nf6 { [%eval 0.4] } 2. d4 { [%eval 0.13] } 2... g6
+{ [%eval 0.41] } 3. Nc3 { [%eval 0.6] } 3... Bg7 { [%eval 0.63] } 4. e4
+{ [%eval 0.6] } 4... d6 { [%eval 0.63] } 5. f4 { [%eval 0.34] } 5... O-O
+{ [%eval 0.31] } 6. Nf3 { [%eval 0.21] } 6... c5 { [%eval 0.17] } 7. Bd3 $6
+{ [%eval -0.66] } 7... a6 $2 { [%eval 0.95] } 8. O-O $2 { [%eval -1.03] } 8...
+Nc6 $2 { [%eval 0.8] } 9. a3 $2 { [%eval -1.01] } 9... Ne8 $2 { [%eval 0.43] }
+10. d5 { [%eval 0.23] } 10... Nd4 { [%eval 0.22] } 11. Nxd4 { [%eval 0.3] }
+11... cxd4 { [%eval 0.22] } 12. Ne2 { [%eval 0.25] } 12... e5 { [%eval 0.51] }
+13. f5 { [%eval 0.04] } 13... Nf6 { [%eval 0.41] } 14. fxg6 { [%eval -0.07] }
+14... fxg6 { [%eval 0.0] } 15. Ng3 { [%eval -0.18] } 15... Ng4
+{ [%eval -0.16] } 16. h3 { [%eval -0.2] } 16... Qh4 { [%eval -0.21] } 17. Rxf8+
+{ [%eval -0.2] } 17... Bxf8 { [%eval -0.24] } 18. Qf3 { [%eval -0.25] } 18...
+Nf6 { [%eval -0.24] } 19. Bd2 { [%eval -0.18] } 19... Bg7 { [%eval 0.27] } 20.
+Rf1 { [%eval 0.18] } 20... Bd7 $6 { [%eval 0.99] } 21. Bb4 { [%eval 1.09] }
+21... Rd8 { [%eval 1.08] } 22. Bxd6 { [%eval 1.0] } 22... Bg4 { [%eval 0.98] }
+23. hxg4 { [%eval 0.6] } 23... Nxg4 $2 { [%eval 3.02] } 24. Qf7+
+{ [%eval 2.97] } 24... Kh8 { [%eval 2.95] } 0-1

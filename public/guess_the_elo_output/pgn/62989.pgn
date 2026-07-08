@@ -1,0 +1,42 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/kYmO8gSt"]
+[Site "https://lichess.org/YHxw30xh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "blindchess32"]
+[Black "eltarol"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:23:50"]
+[WhiteElo "2198"]
+[BlackElo "2179"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed Variation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.33] } 2. Nc3 { [%eval 0.29] } 2... d6
+{ [%eval 0.26] } 3. f4 { [%eval 0.19] } 3... Nc6 { [%eval 0.14] } 4. Nf3
+{ [%eval 0.1] } 4... g6 { [%eval 0.08] } 5. Bb5 { [%eval 0.13] } 5... Bg7
+{ [%eval 0.25] } 6. Bxc6+ { [%eval 0.29] } 6... bxc6 { [%eval 0.26] } 7. d4 $2
+{ [%eval -1.14] } 7... cxd4 { [%eval -1.06] } 8. Nxd4 { [%eval -1.17] } 8... c5
+$6 { [%eval -0.54] } 9. Nb3 { [%eval -0.78] } 9... Ba6 { [%eval -0.82] } 10.
+Be3 { [%eval -0.9] } 10... Nf6 $6 { [%eval -0.28] } 11. Qd2 $6
+{ [%eval -1.14] } 11... Ng4 $6 { [%eval -0.56] } 12. O-O-O { [%eval -0.98] }
+12... Nxe3 { [%eval -0.49] } 13. Qxe3 { [%eval -0.73] } 13... Qb6 $6
+{ [%eval 0.0] } 14. Nd5 { [%eval 0.0] } 14... Qb7 { [%eval 0.0] } 15. e5
+{ [%eval -0.07] } 15... O-O { [%eval 0.0] } 16. h4 { [%eval 0.0] } 16... c4 $6
+{ [%eval 0.98] } 17. Na5 { [%eval 0.63] } 17... Qb5 $4 { [%eval 4.59] } 18.
+Nxe7+ { [%eval 4.03] } 18... Kh8 { [%eval 4.12] } 19. Qc3 $4 { [%eval 0.0] }
+19... dxe5 { [%eval 0.0] } 20. Rd5 $6 { [%eval -0.79] } 20... Qb6
+{ [%eval -0.37] } 21. Nxg6+ $4 { [%eval -4.19] } 21... fxg6 { [%eval -4.0] }
+22. h5 $4 { [%eval -9.8] } 22... exf4 { [%eval -9.59] } 23. Qa3
+{ [%eval -9.71] } 23... Rad8 { [%eval -9.66] } 24. Rxd8 { [%eval -9.6] } 24...
+Rxd8 { [%eval -9.41] } 25. hxg6 { [%eval -9.27] } 25... h6 { [%eval -8.83] }
+26. Qh3 $2 { [%eval #-1] } 26... Qxa5 $6 { [%eval -10.9] } 27. Kb1
+{ [%eval -14.41] } 27... Qxa2+ $4 { [%eval 10.04] } 28. Kxa2 { [%eval 9.49] }
+28... c3 $2 { [%eval #11] } 29. Kb1 $2 { [%eval 8.93] } 29... Bc4
+{ [%eval 8.82] } 30. Qh5 $2 { [%eval 7.74] } 30... Bd3 $2 { [%eval 15.91] } 31.
+cxd3 { [%eval 12.44] } 31... c2+ { [%eval 11.93] } 32. Kxc2 { [%eval 10.83] }
+1-0

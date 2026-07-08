@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/RF2RW3Xy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Obrizzo"]
+[Black "hunterstheorem"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:56:00"]
+[WhiteElo "1337"]
+[BlackElo "1271"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+14"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation, Retreat Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... c5 { [%eval 0.28] } 2. Nf3 { [%eval 0.28] } 2...
+Nc6 { [%eval 0.33] } 3. d4 { [%eval 0.0] } 3... cxd4 { [%eval 0.04] } 4. Nxd4
+{ [%eval 0.02] } 4... e5 { [%eval 0.03] } 5. Nf3 { [%eval 0.05] } 5... Nf6
+{ [%eval 0.08] } 6. Nc3 { [%eval -0.22] } 6... Bc5 { [%eval 0.02] } 7. Bc4
+{ [%eval -0.03] } 7... O-O { [%eval 0.07] } 8. O-O { [%eval -0.03] } 8... d6
+{ [%eval 0.12] } 9. Be3 $6 { [%eval -0.38] } 9... Bxe3 { [%eval -0.36] } 10.
+fxe3 { [%eval -0.41] } 10... Ng4 $6 { [%eval 0.09] } 11. Qd3 { [%eval 0.0] }
+11... a6 $6 { [%eval 0.89] } 12. a3 $6 { [%eval -0.07] } 12... b5
+{ [%eval 0.35] } 13. Bd5 { [%eval 0.28] } 13... Bb7 { [%eval 0.34] } 14. b4 $6
+{ [%eval -0.33] } 14... Qg5 $4 { [%eval 14.27] } 15. h3 $4 { [%eval -1.01] }
+15... Qxe3+ { [%eval -1.09] } 16. Qxe3 { [%eval -1.07] } 16... Nxe3
+{ [%eval -0.9] } 17. Rfc1 $2 { [%eval -2.12] } 17... Rfe8 $2 { [%eval -0.78] }
+18. Kf2 { [%eval -1.03] } 18... Nc4 $6 { [%eval -0.19] } 19. Bxc4
+{ [%eval -0.28] } 19... bxc4 { [%eval 0.07] } 20. Nd5 $6 { [%eval -0.85] }
+20... Nd4 $2 { [%eval 0.61] } 21. Nc7 { [%eval 0.65] } 21... Bxe4
+{ [%eval 0.58] } 22. Nxd4 { [%eval 0.47] } 22... exd4 { [%eval 0.54] } 23. Nxa8
+{ [%eval 0.29] } 23... Rxa8 { [%eval 0.35] } 24. Re1 $2 { [%eval -1.71] } 24...
+Bxc2 { [%eval -1.9] } 25. Re7 { [%eval -2.37] } 25... d3 { [%eval -2.24] } 26.
+Rae1 $2 { [%eval -4.87] } 26... h6 { [%eval -4.79] } 27. Ke3 { [%eval -4.79] }
+27... a5 $4 { [%eval -0.25] } 28. bxa5 $4 { [%eval -4.67] } 28... Rxa5 $2
+{ [%eval -2.62] } 29. Rc1 $4 { [%eval -5.83] } 29... Re5+ $4 { [%eval 0.0] }
+30. Kd2 $4 { [%eval -24.19] } 30... Rxe7 { [%eval -18.11] } 0-1

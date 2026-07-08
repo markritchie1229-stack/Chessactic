@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/npinr6V8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "angel18"]
+[Black "SaloVentura"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:39:28"]
+[WhiteElo "1426"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-216"]
+[ECO "B07"]
+[Opening "Pirc Defense: Byrne Variation"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.27] } 1... d6 { [%eval 0.47] } 2. d4 { [%eval 0.47] } 2... Nf6
+{ [%eval 0.43] } 3. Nc3 { [%eval 0.43] } 3... g6 { [%eval 0.64] } 4. Bg5
+{ [%eval 0.41] } 4... Bg7 { [%eval 0.43] } 5. Bxf6 $6 { [%eval -0.25] } 5...
+exf6 { [%eval -0.22] } 6. Nf3 { [%eval -0.39] } 6... O-O { [%eval -0.31] } 7.
+Qd2 { [%eval -0.28] } 7... Na6 { [%eval 0.0] } 8. Bxa6 { [%eval 0.06] } 8...
+bxa6 { [%eval 0.04] } 9. O-O-O { [%eval -0.07] } 9... Bd7 { [%eval 0.14] } 10.
+h3 { [%eval 0.0] } 10... f5 { [%eval 0.0] } 11. e5 { [%eval -0.35] } 11... Re8
+{ [%eval -0.36] } 12. Rhe1 { [%eval -0.4] } 12... Bc6 { [%eval -0.27] } 13. d5
+{ [%eval -0.34] } 13... Bb7 { [%eval -0.31] } 14. e6 { [%eval -0.33] } 14...
+fxe6 { [%eval -0.22] } 15. dxe6 $6 { [%eval -0.88] } 15... Qf6
+{ [%eval -0.76] } 16. Qd4 $6 { [%eval -1.43] } 16... c5 $2 { [%eval 0.97] } 17.
+Qxd6 { [%eval 0.78] } 17... Rad8 $6 { [%eval 1.6] } 18. Qxc5 { [%eval 1.48] }
+18... Bd5 $4 { [%eval 7.71] } 19. Rxd5 { [%eval 7.48] } 19... Rxd5 $2
+{ [%eval 9.15] } 20. Qxd5 { [%eval 8.69] } 20... Rd8 $2 { [%eval 16.4] } 21.
+Qe5 $2 { [%eval 8.12] } 1-0

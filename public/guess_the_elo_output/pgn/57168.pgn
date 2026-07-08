@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vAHE9CF8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PedroRXY"]
+[Black "votypka"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:00:01"]
+[WhiteElo "1734"]
+[BlackElo "1706"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-10"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "720+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.02] } 1... e5 { [%eval 0.04] } 2. d3 { [%eval -0.12] } 2...
+Nf6 { [%eval -0.02] } 3. Nc3 { [%eval -0.07] } 3... Bb4 { [%eval 0.01] } 4. Bd2
+{ [%eval -0.08] } 4... O-O { [%eval 0.06] } 5. Nf3 { [%eval 0.1] } 5... d5 $6
+{ [%eval 0.61] } 6. cxd5 { [%eval 0.58] } 6... Nxd5 { [%eval 0.57] } 7. Nxd5 $6
+{ [%eval -0.16] } 7... Qxd5 $4 { [%eval 3.56] } 8. Bxb4 { [%eval 3.54] } 8...
+c5 { [%eval 3.6] } 9. Bc3 { [%eval 3.46] } 9... Qxd3 $4 { [%eval 15.72] } 10.
+exd3 { [%eval 14.03] } 10... e4 { [%eval 18.88] } 11. dxe4 { [%eval 18.0] }
+11... Nc6 { [%eval 18.7] } 12. Be2 { [%eval 16.57] } 12... Bg4
+{ [%eval 16.65] } 13. O-O { [%eval 16.55] } 13... Rad8 { [%eval 16.54] } 14.
+Qc2 { [%eval 15.85] } 14... Nd4 { [%eval 17.34] } 15. Bxd4 { [%eval 17.08] }
+15... f5 { [%eval 25.99] } 16. exf5 { [%eval 20.68] } 16... Bxf5
+{ [%eval 30.74] } 17. Qc4+ { [%eval 28.33] } 17... Rf7 { [%eval 30.51] } 18.
+Bc3 { [%eval 26.24] } 18... Be6 $6 { [%eval #6] } 19. Qxe6 { [%eval #5] } 19...
+Re8 { [%eval #3] } 20. Qxe8+ { [%eval #2] } 20... Rf8 { [%eval #2] } 21. Bc4+
+{ [%eval #1] } 21... Kh8 { [%eval #1] } 22. Qxf8# 1-0

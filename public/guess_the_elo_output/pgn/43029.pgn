@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/44cFEMp6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "willej"]
+[Black "HustleRussell"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:03:01"]
+[WhiteElo "1683"]
+[BlackElo "1704"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+112"]
+[ECO "C68"]
+[Opening "Ruy Lopez: Exchange, Alekhine Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.32] } 3. Bb5 { [%eval 0.25] } 3... a6 { [%eval 0.34] } 4. Bxc6
+{ [%eval 0.28] } 4... dxc6 { [%eval 0.22] } 5. d4 { [%eval -0.11] } 5... exd4
+{ [%eval 0.0] } 6. Qxd4 { [%eval -0.14] } 6... Qxd4 { [%eval 0.0] } 7. Nxd4
+{ [%eval -0.12] } 7... Bd7 { [%eval 0.0] } 8. Bf4 { [%eval -0.23] } 8... O-O-O
+{ [%eval -0.18] } 9. O-O { [%eval -0.4] } 9... Nf6 { [%eval -0.16] } 10. e5 $6
+{ [%eval -1.08] } 10... Nd5 { [%eval -1.06] } 11. Bd2 { [%eval -1.21] } 11...
+Bc5 { [%eval -1.14] } 12. c3 { [%eval -1.16] } 12... Rhe8 { [%eval -0.98] } 13.
+f4 $6 { [%eval -1.95] } 13... f6 { [%eval -1.83] } 14. e6 $2 { [%eval -3.21] }
+14... Bxe6 { [%eval -2.87] } 15. Kh1 $6 { [%eval -3.41] } 15... Bf7
+{ [%eval -3.32] } 16. b4 $2 { [%eval -4.93] } 16... Nxb4 { [%eval -4.7] } 17.
+cxb4 { [%eval -5.29] } 17... Bxd4 { [%eval -4.6] } 18. Bc3 $2 { [%eval -7.24] }
+18... Ba7 { [%eval -6.81] } 19. Na3 $2 { [%eval -9.51] } 19... Rd3
+{ [%eval -9.22] } 20. Bb2 $6 { [%eval -13.85] } 20... Re2 { [%eval -12.98] }
+21. g3 $6 { [%eval #-2] } 21... Bd5+ { [%eval #-1] } 0-1

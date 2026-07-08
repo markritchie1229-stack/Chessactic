@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/MFn1Zw2w"]
+[Date "????.??.??"]
+[Round "?"]
+[White "moreno13"]
+[Black "ariel_the_lion"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:59:09"]
+[WhiteElo "1851"]
+[BlackElo "1774"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "C41"]
+[Opening "Philidor Defense: Exchange Variation #2"]
+[TimeControl "720+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.35] } 2... d6
+{ [%eval 0.31] } 3. d4 { [%eval 0.25] } 3... exd4 { [%eval 0.32] } 4. Nxd4
+{ [%eval 0.25] } 4... c6 { [%eval 0.67] } 5. Bd3 { [%eval 0.51] } 5... Nf6
+{ [%eval 0.54] } 6. O-O { [%eval 0.53] } 6... Be7 { [%eval 0.7] } 7. f4
+{ [%eval 0.31] } 7... O-O { [%eval 0.5] } 8. c3 { [%eval 0.33] } 8... a6
+{ [%eval 0.61] } 9. h3 { [%eval 0.43] } 9... c5 { [%eval 0.41] } 10. Nf3
+{ [%eval 0.21] } 10... Nc6 { [%eval 0.28] } 11. Nbd2 { [%eval 0.2] } 11... b5
+{ [%eval 0.35] } 12. e5 $2 { [%eval -0.79] } 12... Nd5 $2 { [%eval 0.51] } 13.
+Ne4 { [%eval 0.16] } 13... dxe5 { [%eval 0.13] } 14. Nxe5 $6 { [%eval -0.38] }
+14... Nxe5 { [%eval 0.0] } 15. fxe5 { [%eval -0.08] } 15... c4
+{ [%eval -0.13] } 16. Bc2 { [%eval -0.1] } 16... Be6 $2 { [%eval 0.94] } 17.
+Qe2 $6 { [%eval 0.24] } 17... Qb6+ { [%eval 0.53] } 18. Kh1 { [%eval 0.41] }
+18... Rad8 $2 { [%eval 2.32] } 19. Ng5 $2 { [%eval 0.41] } 19... Bxg5 $2
+{ [%eval 1.79] } 20. Bxg5 { [%eval 1.62] } 20... f6 $2 { [%eval 3.97] } 21.
+exf6 $2 { [%eval 1.57] } 21... Nxf6 { [%eval 1.8] } 22. Rad1 $2
+{ [%eval 0.31] } 22... Rxd1 { [%eval 0.32] } 23. Qxd1 { [%eval 0.34] } 23... h6
+{ [%eval 0.44] } 24. Bxf6 { [%eval 0.01] } 24... Rxf6 { [%eval 0.0] } 25. Rxf6
+{ [%eval 0.08] } 25... gxf6 { [%eval 0.08] } 26. Qf3 { [%eval 0.0] } 26... Bf7
+{ [%eval 0.0] } 27. Qf5 { [%eval 0.0] } 27... Kf8 { [%eval 0.0] } 28. Be4
+{ [%eval 0.0] } 28... Qe3 { [%eval 0.0] } 29. Bf3 { [%eval 0.0] } 29... Qe1+
+{ [%eval 0.16] } 30. Kh2 { [%eval 0.13] } 30... Qd2 $6 { [%eval 0.86] } 31.
+Qxf6 { [%eval 1.09] } 31... Qxb2 $4 { [%eval #14] } 32. Bd5 { [%eval #13] } 1-0

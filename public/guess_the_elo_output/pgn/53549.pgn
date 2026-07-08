@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LZgLruyY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gbergs"]
+[Black "victormanic"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:12:37"]
+[WhiteElo "1243"]
+[BlackElo "1251"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... Nf6 { [%eval 0.64] } 2. Nc3 $6 { [%eval 0.07] }
+2... Nc6 $6 { [%eval 0.7] } 3. Nf3 $6 { [%eval 0.12] } 3... d5 { [%eval 0.45] }
+4. e5 { [%eval 0.15] } 4... Ng4 $2 { [%eval 1.22] } 5. Bb5 $6 { [%eval 0.72] }
+5... e6 { [%eval 0.95] } 6. O-O $6 { [%eval 0.45] } 6... Bd7 { [%eval 0.93] }
+7. d4 { [%eval 0.93] } 7... a6 { [%eval 0.95] } 8. Bxc6 { [%eval 0.9] } 8...
+bxc6 $6 { [%eval 1.64] } 9. Bg5 $6 { [%eval 1.13] } 9... f6 { [%eval 0.91] }
+10. Bh4 { [%eval 0.7] } 10... g5 { [%eval 0.71] } 11. h3 { [%eval 0.51] } 11...
+gxh4 { [%eval 0.48] } 12. exf6 $4 { [%eval -2.73] } 12... Qxf6 $2
+{ [%eval -0.37] } 13. hxg4 { [%eval -0.53] } 13... Rg8 $6 { [%eval 0.0] } 14.
+g5 { [%eval 0.0] } 14... Rxg5 $2 { [%eval 1.31] } 15. Nxg5 { [%eval 1.16] }
+15... Qxg5 { [%eval 1.31] } 16. Qf3 $6 { [%eval 0.57] } 16... e5 $6
+{ [%eval 1.28] } 17. dxe5 { [%eval 1.2] } 17... Bg4 { [%eval 1.3] } 18. Qf6 $2
+{ [%eval 0.26] } 18... Qg7 $4 { [%eval 10.65] } 19. Rae1 $4 { [%eval 0.52] }
+19... Be7 $4 { [%eval 19.9] } 20. Qxc6+ { [%eval 13.04] } 20... Kf7
+{ [%eval 12.43] } 21. Qxa8 { [%eval 10.82] } 21... Bh3 { [%eval 18.18] } 22.
+e6+ { [%eval 15.53] } 22... Kf6 { [%eval 28.77] } 23. Qxd5 { [%eval 16.49] }
+23... c6 { [%eval 22.29] } 24. Qxc6 { [%eval 19.91] } 24... Bxe6 $6
+{ [%eval #7] } 25. Rxe6+ { [%eval #6] } 25... Kf7 { [%eval #6] } 26. Nd5
+{ [%eval #7] } 26... h3 { [%eval #4] } 27. Rxe7+ { [%eval #3] } 1-0

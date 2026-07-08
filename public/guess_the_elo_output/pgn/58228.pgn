@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FJQKP5su"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sahmatci"]
+[Black "aj1926"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:54:05"]
+[WhiteElo "2033"]
+[BlackElo "1799"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Krause Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.26] } 2. Nf3 { [%eval 0.17] } 2... c5
+{ [%eval 0.26] } 3. c4 { [%eval 0.34] } 3... Nc6 $6 { [%eval 1.25] } 4. Nc3 $6
+{ [%eval 0.34] } 4... e6 { [%eval 0.33] } 5. e3 { [%eval 0.06] } 5... dxc4
+{ [%eval 0.31] } 6. Bxc4 { [%eval 0.29] } 6... cxd4 { [%eval 0.29] } 7. exd4
+{ [%eval 0.26] } 7... Nf6 { [%eval 0.38] } 8. O-O { [%eval 0.45] } 8... Bd6
+{ [%eval 0.29] } 9. Bg5 { [%eval 0.27] } 9... O-O { [%eval 0.29] } 10. h3
+{ [%eval -0.11] } 10... Be7 { [%eval 0.1] } 11. Rc1 { [%eval 0.0] } 11... h6
+{ [%eval 0.12] } 12. Bh4 { [%eval 0.01] } 12... Bd7 { [%eval 0.29] } 13. a3
+{ [%eval 0.1] } 13... Na5 $6 { [%eval 0.72] } 14. Ba2 { [%eval 0.68] } 14...
+Nd5 { [%eval 0.75] } 15. Bxe7 { [%eval 0.73] } 15... Nxe7 { [%eval 0.83] } 16.
+Qd3 { [%eval 0.78] } 16... a6 { [%eval 1.24] } 17. b4 $6 { [%eval 0.51] } 17...
+Nac6 { [%eval 0.62] } 18. Bb1 { [%eval 0.57] } 18... f5 $6 { [%eval 1.29] } 19.
+g4 $2 { [%eval -0.26] } 19... Nd5 $6 { [%eval 0.66] } 20. Nxd5 { [%eval 0.56] }
+20... exd5 { [%eval 0.79] } 21. Ne5 $6 { [%eval -0.19] } 21... Nxe5
+{ [%eval -0.07] } 22. dxe5 { [%eval -0.44] } 22... Be6 $6 { [%eval 0.34] } 23.
+f4 { [%eval 0.32] } 23... Qb6+ { [%eval 0.67] } 24. Kg2 { [%eval 0.51] } 24...
+Rac8 { [%eval 0.98] } 25. Rfd1 { [%eval 0.51] } 25... Qc6 $4 { [%eval 9.08] }
+26. Rxc6 { [%eval 8.89] } 26... Rxc6 { [%eval 8.81] } 27. gxf5 { [%eval 8.44] }
+27... Bxf5 $2 { [%eval 10.1] } 28. Qxd5+ { [%eval 9.68] } 28... Be6
+{ [%eval 9.66] } 29. Qd4 { [%eval 9.26] } 29... Rfc8 $6 { [%eval 10.59] } 30.
+f5 { [%eval 9.68] } 30... Bd5+ $2 { [%eval #11] } 31. Qxd5+ { [%eval #12] }
+31... Kh8 { [%eval #8] } 32. f6 { [%eval #7] } 32... g6 { [%eval #6] } 33. Qe4
+{ [%eval #6] } 33... g5 { [%eval #1] } 34. Qh7# 1-0

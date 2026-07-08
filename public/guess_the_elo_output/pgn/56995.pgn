@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/DHVripbP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RenatoVM"]
+[Black "horstschalusenbach"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:50:37"]
+[WhiteElo "985"]
+[BlackElo "1176"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+10"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.17] } 1... e5 { [%eval -0.11] } 2. h4 $6 { [%eval -0.81] }
+2... Nf6 { [%eval -0.6] } 3. Nc3 { [%eval -0.89] } 3... Nc6 { [%eval -0.61] }
+4. a4 $6 { [%eval -1.33] } 4... a6 { [%eval -0.87] } 5. a5 $6 { [%eval -1.68] }
+5... Bb4 $6 { [%eval -0.95] } 6. Ra4 $2 { [%eval -1.95] } 6... Bxa5
+{ [%eval -1.8] } 7. Rxa5 $6 { [%eval -2.54] } 7... Nxa5 { [%eval -2.43] } 8. b4
+$2 { [%eval -3.44] } 8... Nc4 $6 { [%eval -2.52] } 9. d3 { [%eval -2.66] } 9...
+Nd6 { [%eval -2.33] } 10. Ne4 $2 { [%eval -3.84] } 10... Ndxe4
+{ [%eval -3.75] } 11. dxe4 { [%eval -4.0] } 11... O-O { [%eval -3.57] } 12. f3
+{ [%eval -4.03] } 12... d6 { [%eval -3.56] } 13. g4 { [%eval -3.36] } 13... Re8
+{ [%eval -2.97] } 14. g5 { [%eval -3.25] } 14... Nh5 { [%eval -3.34] } 15. Qd5
+$2 { [%eval -4.37] } 15... Be6 $6 { [%eval -3.79] } 16. Qxb7 $4
+{ [%eval -7.24] } 16... Qb8 $2 { [%eval -4.71] } 17. Qxb8 { [%eval -4.63] }
+17... Raxb8 $6 { [%eval -3.64] } 18. Bh3 $6 { [%eval -4.18] } 18... Bxh3
+{ [%eval -4.29] } 19. Nxh3 { [%eval -4.33] } 19... Rxb4 { [%eval -4.18] } 20.
+Ba3 $4 { [%eval -12.0] } 20... Rb1+ { [%eval -11.76] } 21. Kf2
+{ [%eval -14.39] } 21... Rxh1 { [%eval -14.1] } 22. c4 { [%eval -19.1] } 22...
+Rxh3 { [%eval -18.13] } 23. c5 { [%eval -20.08] } 23... dxc5 { [%eval -18.39] }
+24. Bxc5 { [%eval -18.65] } 24... Rxh4 { [%eval -17.78] } 0-1

@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/y1dLauzY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "junijpal"]
+[Black "birbant"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:18:08"]
+[WhiteElo "1278"]
+[BlackElo "1609"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+3"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.22] } 2. c4 { [%eval 0.18] } 2...
+dxc4 { [%eval 0.42] } 3. Nc3 { [%eval 0.02] } 3... e6 { [%eval 0.41] } 4. e4
+{ [%eval 0.3] } 4... Nf6 { [%eval 0.35] } 5. Bxc4 { [%eval 0.47] } 5... a6
+{ [%eval 0.68] } 6. e5 { [%eval 0.6] } 6... Nfd7 { [%eval 0.91] } 7. Nge2 $6
+{ [%eval 0.37] } 7... b5 $6 { [%eval 1.0] } 8. Bb3 { [%eval 0.52] } 8... Bb7 $6
+{ [%eval 1.17] } 9. O-O { [%eval 1.17] } 9... c5 { [%eval 1.11] } 10. Bc2 $2
+{ [%eval -0.06] } 10... c4 $2 { [%eval 1.24] } 11. Ne4 $6 { [%eval 0.64] }
+11... Nb6 { [%eval 0.78] } 12. Be3 { [%eval 0.54] } 12... Be7 { [%eval 0.82] }
+13. Nd6+ $2 { [%eval -1.08] } 13... Bxd6 { [%eval -0.84] } 14. exd6
+{ [%eval -0.89] } 14... Qxd6 { [%eval -0.95] } 15. Nf4 { [%eval -1.1] } 15...
+O-O { [%eval -1.16] } 16. Ne2 { [%eval -1.51] } 16... Nd5 { [%eval -1.54] } 17.
+Be4 $4 { [%eval -4.65] } 17... Nxe3 { [%eval -4.44] } 18. fxe3 $2
+{ [%eval -5.85] } 18... Bxe4 { [%eval -5.79] } 19. Nf4 { [%eval -6.27] } 19...
+Bb7 $6 { [%eval -5.74] } 20. Re1 { [%eval -6.07] } 20... Nd7 { [%eval -5.93] }
+21. g3 $2 { [%eval -7.28] } 21... Nb6 $6 { [%eval -6.56] } 22. e4 $2
+{ [%eval -7.86] } 22... Rad8 { [%eval -7.64] } 23. e5 $2 { [%eval -10.38] }
+23... Qxd4+ $2 { [%eval -7.72] } 24. Qxd4 { [%eval -7.65] } 24... Rxd4
+{ [%eval -7.63] } 25. Red1 $2 { [%eval -9.52] } 25... Rfd8 { [%eval -9.4] } 26.
+Rxd4 { [%eval -9.3] } 26... Rxd4 { [%eval -8.95] } 0-1

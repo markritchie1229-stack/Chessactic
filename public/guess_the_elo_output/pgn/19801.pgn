@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/uP2gcVsZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lachon"]
+[Black "Anna2012"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:10:10"]
+[WhiteElo "1202"]
+[BlackElo "1393"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+42"]
+[ECO "D15"]
+[Opening "Slav Defense: Three Knights Variation"]
+[TimeControl "300+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.26] } 2... c6
+{ [%eval 0.32] } 3. Nc3 { [%eval 0.24] } 3... Nf6 { [%eval 0.25] } 4. Nf3
+{ [%eval 0.07] } 4... Bf5 { [%eval 0.46] } 5. h3 { [%eval 0.04] } 5... e6
+{ [%eval 0.02] } 6. g4 { [%eval 0.01] } 6... Be4 { [%eval 0.16] } 7. Nxe4
+{ [%eval -0.07] } 7... Nxe4 { [%eval 0.04] } 8. e3 { [%eval -0.41] } 8... Bb4+
+{ [%eval 0.0] } 9. Bd2 { [%eval -0.12] } 9... Nxd2 { [%eval -0.1] } 10. Nxd2
+{ [%eval -0.07] } 10... Nd7 { [%eval -0.01] } 11. a3 { [%eval 0.02] } 11... Ba5
+{ [%eval 0.06] } 12. b4 { [%eval -0.15] } 12... Bc7 { [%eval -0.07] } 13. c5
+{ [%eval -0.54] } 13... O-O { [%eval -0.47] } 14. Bg2 { [%eval -0.44] } 14...
+Re8 { [%eval -0.39] } 15. Qc2 { [%eval -0.57] } 15... Nf6 $6 { [%eval 0.0] }
+16. Nf3 { [%eval -0.31] } 16... Ne4 { [%eval -0.25] } 17. Ne5 { [%eval -0.71] }
+17... Qh4 $2 { [%eval 0.56] } 18. O-O-O $4 { [%eval -3.06] } 18... Nxf2
+{ [%eval -3.04] } 19. Nd7 $4 { [%eval -6.35] } 19... Red8 { [%eval -6.12] } 20.
+Ne5 { [%eval -6.27] } 20... Nxh1 $2 { [%eval -4.56] } 21. Bxh1 $2
+{ [%eval -6.55] } 21... Qxh3 $2 { [%eval -4.43] } 22. Bg2 $4 { [%eval -7.7] }
+22... Qxe3+ { [%eval -7.41] } 23. Rd2 $2 { [%eval -8.55] } 23... Qxa3+ $6
+{ [%eval -7.7] } 24. Kd1 $2 { [%eval -9.6] } 24... Qxb4 $2 { [%eval -7.63] }
+25. Rf2 $2 { [%eval -10.64] } 25... Qxd4+ { [%eval -10.35] } 26. Kc1
+{ [%eval -14.37] } 26... Qxe5 { [%eval -12.34] } 27. Bxd5 $6 { [%eval #-11] }
+27... Rxd5 { [%eval #-11] } 28. Rh2 { [%eval #-7] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/eT74FxRO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "semisolid"]
+[Black "pikatunti"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:21:26"]
+[WhiteElo "1813"]
+[BlackElo "1771"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-17"]
+[ECO "B07"]
+[Opening "Rat Defense: Balogh Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d6 { [%eval 0.5] } 2. e4 { [%eval 0.5] } 2... f5
+{ [%eval 0.98] } 3. e5 $2 { [%eval -0.03] } 3... dxe5 { [%eval 0.0] } 4. dxe5
+{ [%eval -0.09] } 4... Qxd1+ { [%eval -0.1] } 5. Kxd1 { [%eval -0.26] } 5... e6
+{ [%eval -0.08] } 6. Nf3 { [%eval -0.4] } 6... c5 $2 { [%eval 0.65] } 7. Nc3
+{ [%eval 0.24] } 7... Nc6 { [%eval 0.63] } 8. Bg5 $6 { [%eval -0.09] } 8... Be7
+$6 { [%eval 0.74] } 9. h4 $6 { [%eval -0.07] } 9... h6 $6 { [%eval 0.7] } 10.
+Be3 { [%eval 0.58] } 10... Bd7 { [%eval 0.55] } 11. Bc4 { [%eval 0.5] } 11...
+O-O-O { [%eval 0.49] } 12. Ke2 { [%eval 0.59] } 12... Kc7 $6 { [%eval 1.52] }
+13. Rad1 $6 { [%eval 0.9] } 13... a6 { [%eval 1.11] } 14. a4 { [%eval 0.86] }
+14... Bc8 { [%eval 1.13] } 15. g3 { [%eval 0.86] } 15... Rxd1 { [%eval 0.89] }
+16. Rxd1 { [%eval 0.7] } 16... Bd8 $2 { [%eval 2.33] } 17. Ne1 $2
+{ [%eval 0.54] } 17... b6 { [%eval 0.48] } 18. Nd3 { [%eval 0.45] } 18... Nge7
+$6 { [%eval 1.12] } 19. Nf4 { [%eval 1.26] } 19... Nd4+ { [%eval 1.23] } 20.
+Bxd4 { [%eval 1.16] } 20... cxd4 { [%eval 1.12] } 21. Rxd4 { [%eval 1.04] }
+21... Nc6 { [%eval 1.21] } 22. Rd6 $2 { [%eval -0.83] } 22... g5 $2
+{ [%eval 1.65] } 23. Nxe6+ { [%eval 1.56] } 23... Bxe6 { [%eval 1.32] } 24.
+Bxe6 { [%eval 1.22] } 24... gxh4 $2 { [%eval 3.12] } 25. Bxf5 $2
+{ [%eval 1.5] } 25... hxg3 $2 { [%eval 2.89] } 26. fxg3 $2 { [%eval 1.52] }
+26... Nxe5 { [%eval 1.56] } 27. Rg6 $4 { [%eval -1.72] } 27... h5 $4
+{ [%eval 1.47] } 28. Re6 { [%eval 1.45] } 28... Nc6 $6 { [%eval 2.12] } 29.
+Nd5+ { [%eval 2.02] } 29... Kd7 $4 { [%eval 10.93] } 30. Rh6+ { [%eval 10.6] }
+30... Ke8 { [%eval 10.34] } 31. Rxh8+ { [%eval 9.75] } 1-0

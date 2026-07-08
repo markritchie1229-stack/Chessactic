@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/j5EkXzkH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HAK_genius"]
+[Black "Sebastianarun"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:17:21"]
+[WhiteElo "1292"]
+[BlackElo "1247"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+43"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Reversed Sicilian"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.02] } 1... e5 { [%eval 0.06] } 2. Nc3 { [%eval -0.04] } 2...
+Bc5 $6 { [%eval 0.47] } 3. e3 { [%eval 0.46] } 3... d6 { [%eval 0.55] } 4. Be2
+{ [%eval 0.37] } 4... Nf6 { [%eval 0.38] } 5. Nf3 { [%eval 0.27] } 5... Ng4 $6
+{ [%eval 1.15] } 6. d4 { [%eval 1.08] } 6... exd4 { [%eval 1.27] } 7. Nxd4 $6
+{ [%eval 0.65] } 7... Ne5 { [%eval 0.73] } 8. O-O { [%eval 0.6] } 8... Qg5 $4
+{ [%eval 3.62] } 9. f4 { [%eval 3.22] } 9... Qg6 $2 { [%eval 4.72] } 10. fxe5
+{ [%eval 4.66] } 10... Bh3 $2 { [%eval 6.55] } 11. Bf3 { [%eval 6.53] } 11...
+O-O { [%eval 6.39] } 12. Bxb7 { [%eval 6.0] } 12... c6 $4 { [%eval 9.37] } 13.
+Rf2 $2 { [%eval 6.44] } 13... dxe5 { [%eval 6.87] } 14. Bxa8 { [%eval 6.74] }
+14... exd4 { [%eval 6.81] } 15. exd4 { [%eval 6.54] } 15... Rd8 $6
+{ [%eval 7.1] } 16. d5 $4 { [%eval #-1] } 16... Bxf2+ $2 { [%eval -9.05] } 17.
+Kxf2 { [%eval -8.84] } 17... Qxg2+ { [%eval -8.63] } 18. Ke1 { [%eval -8.54] }
+18... Re8+ { [%eval -7.83] } 19. Ne2 $2 { [%eval -17.81] } 19... Bg4
+{ [%eval -15.86] } 20. Bf4 $6 { [%eval #-2] } 20... Rxe2+ { [%eval #-1] } 21.
+Qxe2 { [%eval #-1] } 21... Qxe2# 0-1

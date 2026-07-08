@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/SRrk8gVl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Quantumbear"]
+[Black "djscrib"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:47:16"]
+[WhiteElo "1084"]
+[BlackElo "1287"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+7"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.34] } 2. d4 { [%eval 0.12] } 2...
+cxd4 { [%eval 0.16] } 3. Qxd4 { [%eval 0.13] } 3... Nc6 { [%eval 0.13] } 4. Qd1
+{ [%eval -0.11] } 4... e5 { [%eval 0.11] } 5. Nc3 { [%eval 0.07] } 5... Bb4
+{ [%eval 0.0] } 6. Bd2 { [%eval -0.07] } 6... Nf6 { [%eval -0.03] } 7. a3 $6
+{ [%eval -1.0] } 7... Bxc3 { [%eval -0.88] } 8. Bxc3 { [%eval -1.0] } 8... Nxe4
+{ [%eval -1.0] } 9. Qg4 { [%eval -0.94] } 9... Nxc3 { [%eval -0.77] } 10. bxc3
+$2 { [%eval -2.77] } 10... O-O { [%eval -2.5] } 11. Bd3 $6 { [%eval -3.49] }
+11... d6 $2 { [%eval -2.29] } 12. Qh4 $4 { [%eval -15.14] } 12... Qxh4
+{ [%eval -14.56] } 13. Nf3 { [%eval -15.55] } 13... Qf6 { [%eval -14.08] } 14.
+h4 { [%eval -18.79] } 14... Bg4 { [%eval -14.1] } 15. Nh2 { [%eval -15.07] }
+15... Bf5 { [%eval -14.19] } 16. g4 { [%eval -18.5] } 16... Bxd3
+{ [%eval -17.8] } 17. cxd3 { [%eval -17.65] } 17... Qxh4 { [%eval -17.16] } 18.
+Kf1 { [%eval -18.39] } 18... Qf6 { [%eval -16.21] } 19. Rb1 { [%eval -16.68] }
+19... e4 { [%eval -16.55] } 20. dxe4 { [%eval -16.47] } 20... Qxc3
+{ [%eval -16.07] } 21. Rxb7 { [%eval -25.02] } 21... Qxa3 { [%eval -16.93] }
+22. Rd7 $6 { [%eval #-10] } 22... Rfb8 $6 { [%eval -24.06] } 23. Kg2
+{ [%eval -22.99] } 23... Rd8 { [%eval -16.85] } 24. Rc7 { [%eval -17.82] }
+24... Nd4 { [%eval -17.56] } 25. Rd1 { [%eval -17.51] } 25... Nc2
+{ [%eval -11.52] } 26. Rxd6 $6 { [%eval #-8] } 26... Rxd6 $6 { [%eval -24.79] }
+0-1

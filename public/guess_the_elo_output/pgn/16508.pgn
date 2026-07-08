@@ -1,0 +1,43 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RPlQK6wv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tensplyr"]
+[Black "Richard_Stone"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:57:23"]
+[WhiteElo "1637"]
+[BlackElo "1747"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-17"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "420+2"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.26] } 2. c4 { [%eval 0.21] } 2... e6
+{ [%eval 0.35] } 3. cxd5 { [%eval 0.01] } 3... exd5 { [%eval 0.18] } 4. e3
+{ [%eval -0.18] } 4... Bb4+ { [%eval 0.06] } 5. Bd2 { [%eval -0.1] } 5... Bxd2+
+{ [%eval 0.32] } 6. Nxd2 { [%eval 0.28] } 6... Nf6 { [%eval 0.36] } 7. Ngf3
+{ [%eval 0.28] } 7... O-O { [%eval 0.3] } 8. Bd3 { [%eval 0.3] } 8... h6
+{ [%eval 0.4] } 9. a3 { [%eval 0.2] } 9... Bg4 { [%eval 0.29] } 10. O-O
+{ [%eval 0.27] } 10... Nbd7 { [%eval 0.28] } 11. Qc2 { [%eval 0.27] } 11... b6
+$6 { [%eval 1.22] } 12. Rac1 $2 { [%eval 0.2] } 12... c5 { [%eval 0.29] } 13.
+dxc5 { [%eval 0.02] } 13... bxc5 { [%eval 0.03] } 14. Qb1 { [%eval -0.26] }
+14... c4 { [%eval -0.16] } 15. Be2 { [%eval -0.64] } 15... Re8 $6
+{ [%eval 0.19] } 16. Rfe1 $6 { [%eval -0.66] } 16... Rc8 { [%eval -0.35] } 17.
+Nd4 { [%eval -0.34] } 17... Bxe2 { [%eval -0.26] } 18. Nxe2 $6 { [%eval -1.0] }
+18... Nc5 { [%eval -0.98] } 19. Nd4 $2 { [%eval -2.12] } 19... Nd3
+{ [%eval -2.02] } 20. N2f3 { [%eval -2.19] } 20... Qb6 { [%eval -1.82] } 21.
+Red1 $6 { [%eval -2.46] } 21... Nxc1 { [%eval -2.41] } 22. Rxc1
+{ [%eval -2.38] } 22... Rb8 { [%eval -2.34] } 23. Rc2 { [%eval -2.48] } 23...
+Rec8 { [%eval -2.04] } 24. Ne5 $2 { [%eval -3.06] } 24... c3 $2
+{ [%eval -1.54] } 25. b4 { [%eval -1.44] } 25... Qa6 { [%eval -1.27] } 26. Nec6
+$4 { [%eval -5.28] } 26... Rb7 $4 { [%eval -0.12] } 27. Rxc3 { [%eval -0.07] }
+27... Rbc7 { [%eval 0.18] } 28. b5 { [%eval 0.04] } 28... Qa4 { [%eval 0.08] }
+29. h3 { [%eval 0.06] } 29... Ne4 $2 { [%eval 1.11] } 30. Ne7+ { [%eval 1.05] }
+30... Rxe7 $2 { [%eval 3.51] } 31. Rxc8+ { [%eval 3.39] } 31... Kh7
+{ [%eval 3.25] } 32. f3 { [%eval 3.43] } 32... Qxa3 { [%eval 3.14] } 33. fxe4
+$4 { [%eval -0.72] } 33... dxe4 $4 { [%eval 4.33] } 34. Qc1 { [%eval 4.21] }
+34... Qd3 $4 { [%eval 11.9] } 35. Rc3 { [%eval 11.33] } 1-0

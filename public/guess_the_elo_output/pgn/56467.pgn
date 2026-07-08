@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/haPYGZc3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kano77"]
+[Black "Suli_Diamond"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:21:45"]
+[WhiteElo "1772"]
+[BlackElo "1920"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-34"]
+[ECO "A40"]
+[Opening "Polish Defense: Spassky Gambit Accepted"]
+[TimeControl "900+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... b5 $6 { [%eval 0.93] } 2. e4 { [%eval 0.91] } 2...
+Bb7 { [%eval 1.0] } 3. Bxb5 { [%eval 0.62] } 3... Bxe4 { [%eval 0.68] } 4. Nf3
+{ [%eval 0.67] } 4... a6 { [%eval 1.04] } 5. Bd3 $6 { [%eval 0.54] } 5... d5 $6
+{ [%eval 1.08] } 6. Bxe4 { [%eval 1.05] } 6... dxe4 { [%eval 1.11] } 7. Ne5
+{ [%eval 1.12] } 7... Nf6 { [%eval 1.12] } 8. Nc3 { [%eval 1.18] } 8... e6
+{ [%eval 1.23] } 9. Bg5 { [%eval 1.05] } 9... Bb4 { [%eval 1.09] } 10. O-O
+{ [%eval 0.98] } 10... h6 { [%eval 1.1] } 11. Bh4 { [%eval 1.11] } 11... g5
+{ [%eval 1.54] } 12. Bg3 { [%eval 1.44] } 12... h5 $2 { [%eval 3.19] } 13. h4
+$2 { [%eval 1.7] } 13... gxh4 $6 { [%eval 2.55] } 14. Bxh4 { [%eval 2.28] }
+14... Bxc3 $2 { [%eval 3.34] } 15. bxc3 { [%eval 3.0] } 15... Nbd7
+{ [%eval 2.95] } 16. Nxd7 { [%eval 2.56] } 16... Kxd7 { [%eval 3.16] } 17. Qe2
+$6 { [%eval 2.29] } 17... Rh6 { [%eval 2.21] } 18. Bxf6 $2 { [%eval 0.36] }
+18... Qxf6 { [%eval 0.61] } 19. Qxe4 { [%eval 0.14] } 19... Rg8 { [%eval 0.0] }
+20. f4 { [%eval 0.0] } 20... Rhg6 { [%eval 0.0] } 21. Rf2 { [%eval 0.0] } 21...
+h4 { [%eval 0.0] } 22. d5 { [%eval 0.0] } 22... h3 { [%eval 0.0] } 23. dxe6+
+{ [%eval 0.0] } 23... fxe6 $4 { [%eval 6.16] } 24. Rd1+ $4 { [%eval 2.11] }
+24... Ke7 { [%eval 2.99] } 25. Qb4+ { [%eval 2.42] } 25... Kf7 { [%eval 2.5] }
+26. Rd7+ { [%eval 2.3] } 26... Ke8 { [%eval 4.27] } 27. Rdd2 $4 { [%eval 0.0] }
+27... Rxg2+ { [%eval 0.0] } 28. Rxg2 { [%eval 0.0] } 28... h2+ $4
+{ [%eval #25] } 29. Kh1 { [%eval #24] } 29... Rxg2 { [%eval #24] } 30. Qb8+
+{ [%eval #23] } 30... Kf7 { [%eval #23] } 31. Qxc7+ { [%eval #24] } 31... Ke8
+{ [%eval #22] } 32. Rxg2 { [%eval #23] } 32... Qf7 { [%eval #21] } 33. Qxf7+
+{ [%eval 120.74] } 1-0

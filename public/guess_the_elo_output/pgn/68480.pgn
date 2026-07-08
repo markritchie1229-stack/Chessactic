@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/j3zFQdSt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ASzilagyi"]
+[Black "nerowolf"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:59:46"]
+[WhiteElo "1720"]
+[BlackElo "1837"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-14"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined: Modern Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.15] } 2... Nf6
+{ [%eval 0.4] } 3. Nc3 { [%eval 0.16] } 3... e6 { [%eval 0.25] } 4. Bg5
+{ [%eval 0.13] } 4... h6 $6 { [%eval 0.88] } 5. Bxf6 { [%eval 0.83] } 5... Qxf6
+{ [%eval 1.09] } 6. Nf3 $6 { [%eval 0.23] } 6... dxc4 { [%eval 0.27] } 7. e3
+{ [%eval 0.33] } 7... Bb4 { [%eval 0.54] } 8. Qa4+ { [%eval 0.43] } 8... Nc6
+{ [%eval 0.48] } 9. Bxc4 { [%eval 0.6] } 9... Bxc3+ { [%eval 0.56] } 10. bxc3
+{ [%eval 0.46] } 10... Bd7 { [%eval 0.59] } 11. Qc2 { [%eval 0.52] } 11... O-O
+{ [%eval 0.56] } 12. O-O { [%eval 0.59] } 12... a6 { [%eval 0.89] } 13. Rab1
+{ [%eval 0.63] } 13... b5 { [%eval 0.7] } 14. Bd3 { [%eval 0.74] } 14... Ne7 $6
+{ [%eval 1.35] } 15. c4 { [%eval 1.23] } 15... c6 { [%eval 1.47] } 16. cxb5 $6
+{ [%eval 0.91] } 16... cxb5 { [%eval 0.8] } 17. Ne5 { [%eval 0.81] } 17... Be8
+{ [%eval 1.18] } 18. Bh7+ { [%eval 1.07] } 18... Kh8 { [%eval 1.24] } 19. Be4
+{ [%eval 1.08] } 19... Ra7 $2 { [%eval 3.63] } 20. Nc6 $4 { [%eval -3.91] }
+20... Nxc6 $2 { [%eval -2.8] } 21. Bxc6 $2 { [%eval -4.32] } 21... Bxc6 $4
+{ [%eval 0.16] } 22. Qxc6 { [%eval 0.11] } 22... Raa8 { [%eval 0.23] } 23. Rbc1
+{ [%eval 0.13] } 23... Rfc8 $2 { [%eval 1.79] } 24. Qe4 $2 { [%eval 0.08] }
+24... Rxc1 $4 { [%eval 9.01] } 25. Qxa8+ { [%eval 8.72] } 1-0

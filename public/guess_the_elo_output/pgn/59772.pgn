@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/rEya2kNf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "angelhr"]
+[Black "Totalitarizm"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:08:09"]
+[WhiteElo "1399"]
+[BlackElo "1573"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.37] } 2. d4 { [%eval 0.12] } 2...
+cxd4 { [%eval 0.0] } 3. Qxd4 { [%eval 0.04] } 3... Nc6 { [%eval 0.12] } 4. Qe3
+{ [%eval 0.0] } 4... a6 { [%eval 0.11] } 5. Nc3 { [%eval 0.11] } 5... e6
+{ [%eval 0.14] } 6. Nf3 { [%eval -0.01] } 6... Qc7 { [%eval 0.21] } 7. b3
+{ [%eval -0.1] } 7... e5 $2 { [%eval 1.13] } 8. Bb2 $6 { [%eval 0.56] } 8... d6
+{ [%eval 1.05] } 9. Nd5 { [%eval 1.09] } 9... Qd7 $4 { [%eval 5.04] } 10. b4 $4
+{ [%eval 1.01] } 10... Nge7 $2 { [%eval 3.47] } 11. Nxe7 $4 { [%eval -0.05] }
+11... Bxe7 { [%eval -0.04] } 12. Nd2 $6 { [%eval -0.91] } 12... Nxb4
+{ [%eval -0.98] } 13. Bd3 { [%eval -1.16] } 13... Nxd3+ { [%eval -0.93] } 14.
+Qxd3 $6 { [%eval -1.55] } 14... O-O { [%eval -1.51] } 15. g3 $6
+{ [%eval -2.04] } 15... Qg4 $6 { [%eval -1.38] } 16. f3 $6 { [%eval -2.03] }
+16... Qh3 { [%eval -1.8] } 17. O-O-O { [%eval -1.85] } 17... b5
+{ [%eval -1.54] } 18. f4 { [%eval -2.0] } 18... exf4 { [%eval -1.78] } 19. gxf4
+{ [%eval -1.91] } 19... Qd7 $4 { [%eval 4.2] } 20. Qd5 $4 { [%eval 0.45] }
+20... Bb7 { [%eval 0.7] } 21. Qh5 $2 { [%eval -1.25] } 21... Qd8 $2
+{ [%eval -0.15] } 22. Rdg1 $2 { [%eval -1.62] } 22... Bf6 { [%eval -1.49] } 23.
+Bxf6 $2 { [%eval -2.75] } 23... Qxf6 { [%eval -2.67] } 24. e5 $2
+{ [%eval -5.15] } 24... dxe5 { [%eval -5.14] } 25. fxe5 { [%eval -5.09] } 25...
+Qe6 { [%eval -5.08] } 26. Nf3 $2 { [%eval -7.1] } 26... g6 $4 { [%eval -1.04] }
+27. Rg3 $4 { [%eval -11.88] } 27... Bxf3 $4 { [%eval -2.9] } 28. Rhg1 $4
+{ [%eval -23.75] } 28... Bxh5 { [%eval -21.53] } 29. Re3 $6 { [%eval #-9] }
+29... Qxa2 { [%eval #-9] } 30. Rge1 { [%eval #-6] } 30... Rad8 { [%eval #-6] }
+31. e6 { [%eval #-1] } 31... Qa1# 0-1

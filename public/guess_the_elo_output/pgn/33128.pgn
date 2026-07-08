@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xbnkwrHu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Geronimo1"]
+[Black "dalejos"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:41:41"]
+[WhiteElo "1343"]
+[BlackElo "1327"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.31] } 2. Qh5 $6 { [%eval -0.22] } 2...
+Nc6 { [%eval -0.12] } 3. Bb5 $2 { [%eval -1.31] } 3... d6 $2 { [%eval -0.18] }
+4. Bxc6+ { [%eval -0.25] } 4... bxc6 { [%eval -0.26] } 5. d3 { [%eval -0.24] }
+5... Nf6 { [%eval -0.28] } 6. Qe2 { [%eval -0.33] } 6... Be7 { [%eval -0.25] }
+7. Nc3 { [%eval -0.27] } 7... O-O { [%eval -0.27] } 8. a3 { [%eval -0.34] }
+8... c5 { [%eval -0.29] } 9. Bg5 { [%eval -0.51] } 9... Bb7 { [%eval -0.28] }
+10. Bxf6 { [%eval -0.37] } 10... Bxf6 { [%eval -0.37] } 11. Nf3
+{ [%eval -0.35] } 11... Bc8 { [%eval -0.11] } 12. O-O-O { [%eval -0.57] } 12...
+Be6 { [%eval -0.47] } 13. Kb1 { [%eval -0.69] } 13... Qe7 { [%eval -0.36] } 14.
+h3 { [%eval -0.77] } 14... a5 { [%eval -0.28] } 15. g4 { [%eval -0.41] } 15...
+Bg5 { [%eval -0.12] } 16. Nxg5 { [%eval -0.06] } 16... Qxg5 { [%eval -0.04] }
+17. Rhg1 { [%eval -0.09] } 17... f6 { [%eval 0.0] } 18. f3 { [%eval 0.0] }
+18... Qf4 { [%eval 0.13] } 19. Nb5 { [%eval 0.14] } 19... Rac8 { [%eval 0.22] }
+20. Na7 $2 { [%eval -0.82] } 20... Rb8 { [%eval -0.71] } 21. Nc6
+{ [%eval -0.9] } 21... Rbc8 $2 { [%eval 2.05] } 22. Ne7+ { [%eval 1.93] } 1-0

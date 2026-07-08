@@ -1,0 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XuJRjTgu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Zacek"]
+[Black "Pokutny"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:53:11"]
+[WhiteElo "1777"]
+[BlackElo "1831"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A00"]
+[Opening "Polish Opening: Wolferts Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. b4 $6 { [%eval -0.52] } 1... c5 $6 { [%eval 0.08] } 2. Bb2 { [%eval -0.36] }
+2... e5 { [%eval 0.06] } 3. bxc5 { [%eval 0.0] } 3... f6 $6 { [%eval 0.78] } 4.
+e4 $6 { [%eval 0.07] } 4... Bxc5 { [%eval 0.42] } 5. Bc4 $6 { [%eval -0.18] }
+5... Ne7 $6 { [%eval 0.39] } 6. f4 $2 { [%eval -2.31] } 6... d6 $2
+{ [%eval 0.01] } 7. fxe5 { [%eval -0.39] } 7... dxe5 { [%eval -0.36] } 8. Nf3
+{ [%eval -0.75] } 8... Ng6 { [%eval -0.33] } 9. Nc3 { [%eval -0.54] } 9... Nc6
+{ [%eval -0.52] } 10. Nd5 { [%eval -0.64] } 10... a6 { [%eval -0.23] } 11. a4
+{ [%eval -0.33] } 11... Nce7 $6 { [%eval 0.47] } 12. Ba3 $2 { [%eval -0.81] }
+12... Bxa3 { [%eval -0.68] } 13. Rxa3 { [%eval -0.85] } 13... Nxd5
+{ [%eval -0.68] } 14. Bxd5 { [%eval -0.75] } 14... Qe7 $6 { [%eval 0.22] } 15.
+Rb3 { [%eval -0.1] } 15... Be6 $2 { [%eval 1.81] } 16. Bxe6 $2 { [%eval -0.1] }
+16... Qxe6 { [%eval -0.18] } 17. O-O { [%eval -0.14] } 17... O-O
+{ [%eval 0.0] } 18. d4 { [%eval -0.39] } 18... b6 { [%eval 0.0] } 19. d5
+{ [%eval 0.0] } 19... Qd6 { [%eval 0.0] } 20. Qe2 { [%eval -0.2] } 20... Rfc8
+{ [%eval 0.0] } 21. Qf2 { [%eval -0.4] } 21... Rab8 { [%eval 0.0] } 22. c3 $6
+{ [%eval -0.58] } 22... b5 { [%eval -0.43] } 23. axb5 { [%eval -0.84] } 23...
+Rxb5 { [%eval -0.67] } 24. Rfb1 $6 { [%eval -1.22] } 24... Rxb3 $2
+{ [%eval 0.0] } 25. Rxb3 { [%eval -0.39] } 25... h5 $6 { [%eval 0.26] } 26. h3
+{ [%eval 0.26] } 26... Nf4 { [%eval 0.49] } 27. Qf1 $6 { [%eval -0.36] } 27...
+Qc5+ { [%eval 0.0] } 28. Kh1 $2 { [%eval -1.15] } 28... a5 { [%eval -1.05] }
+29. c4 $2 { [%eval -2.07] } 29... g6 $4 { [%eval 1.23] } 30. Nd2 $2
+{ [%eval -1.03] } 30... Kg7 $2 { [%eval 0.64] } 31. Ra3 $4 { [%eval -9.66] }
+31... g5 $4 { [%eval -0.71] } 32. Qa1 $4 { [%eval -7.1] } 32... a4 $4
+{ [%eval -1.54] } 33. Rxa4 $4 { [%eval -4.74] } 33... Nd3 $4 { [%eval 1.41] }
+0-1

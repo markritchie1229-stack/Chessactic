@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lQAyMpnr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GIL8ERT"]
+[Black "tzakiman"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:53:05"]
+[WhiteElo "1682"]
+[BlackElo "1743"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.29] } 3. Bc4 { [%eval 0.17] } 3... e6 { [%eval 0.25] } 4. c3
+{ [%eval -0.08] } 4... Nf6 { [%eval 0.01] } 5. d4 $6 { [%eval -0.66] } 5...
+cxd4 $6 { [%eval -0.1] } 6. cxd4 { [%eval -0.58] } 6... Be7 $2 { [%eval 0.58] }
+7. d5 $2 { [%eval -0.75] } 7... e5 $2 { [%eval 0.58] } 8. Ng5 $2
+{ [%eval -1.13] } 8... O-O $2 { [%eval 0.11] } 9. h4 $6 { [%eval -0.75] } 9...
+h6 { [%eval -0.66] } 10. Nf3 $2 { [%eval -1.87] } 10... Bg4 $2
+{ [%eval -0.68] } 11. Nc3 { [%eval -0.8] } 11... Nbd7 { [%eval -0.87] } 12. Qd3
+{ [%eval -1.31] } 12... Nc5 { [%eval -0.95] } 13. Qe3 { [%eval -0.91] } 13...
+Bxf3 $6 { [%eval -0.08] } 14. Qxf3 { [%eval -0.08] } 14... Qa5 { [%eval 0.25] }
+15. g4 $2 { [%eval -1.55] } 15... Ncxe4 $6 { [%eval -0.79] } 16. Bd2 $2
+{ [%eval -2.53] } 16... Nxd2 { [%eval -2.23] } 17. Kxd2 { [%eval -2.16] } 17...
+e4 { [%eval -2.28] } 18. Qe3 $2 { [%eval -4.93] } 18... Nxg4 $6
+{ [%eval -4.1] } 19. Qxe4 { [%eval -4.12] } 19... Nxf2 { [%eval -3.87] } 20.
+Qf4 $2 { [%eval -6.29] } 20... Nxh1 { [%eval -6.23] } 21. Rxh1
+{ [%eval -6.23] } 21... Bf6 { [%eval -5.89] } 22. Rg1 $2 { [%eval -7.94] }
+22... Bxc3+ $4 { [%eval -4.53] } 23. bxc3 { [%eval -4.53] } 23... Qxa2+ $4
+{ [%eval 15.02] } 24. Bxa2 { [%eval 12.22] } 24... a6 $6 { [%eval #7] } 25.
+Qxh6 { [%eval #6] } 25... Rae8 { [%eval #1] } 26. Qxg7# 1-0

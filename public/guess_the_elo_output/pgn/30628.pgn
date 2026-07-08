@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/tfYw4TLX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MBE123"]
+[Black "RazorChess"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:06:42"]
+[WhiteElo "1596"]
+[BlackElo "1545"]
+[WhiteRatingDiff "+29"]
+[BlackRatingDiff "-9"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.32] } 2. Bc4 { [%eval 0.09] } 2...
+Nc6 { [%eval 0.38] } 3. Qf3 $6 { [%eval -0.22] } 3... Nf6 { [%eval -0.31] } 4.
+c3 { [%eval -0.79] } 4... Bc5 { [%eval -0.4] } 5. d3 { [%eval -0.42] } 5... a6
+{ [%eval -0.14] } 6. Bg5 { [%eval -0.22] } 6... Be7 { [%eval -0.27] } 7. Bxf6
+{ [%eval -0.39] } 7... Bxf6 { [%eval -0.39] } 8. a3 { [%eval -0.5] } 8... b5
+{ [%eval -0.35] } 9. Bd5 { [%eval -0.44] } 9... Rb8 { [%eval -0.43] } 10. Bxc6
+{ [%eval -0.48] } 10... dxc6 { [%eval -0.47] } 11. Ne2 { [%eval -0.52] } 11...
+O-O { [%eval -0.5] } 12. h4 { [%eval -0.98] } 12... Bxh4 $2 { [%eval 0.97] }
+13. Qh5 { [%eval 0.39] } 13... Qg5 $2 { [%eval 3.14] } 14. Qxh4
+{ [%eval 3.02] } 14... Qxh4 { [%eval 3.04] } 15. Rxh4 { [%eval 3.01] } 15... f5
+$6 { [%eval 3.91] } 16. Nd2 { [%eval 3.79] } 16... fxe4 { [%eval 4.25] } 17.
+Nxe4 { [%eval 3.77] } 17... a5 { [%eval 4.05] } 18. f3 { [%eval 3.68] } 18...
+b4 $2 { [%eval 5.12] } 19. axb4 { [%eval 5.01] } 19... axb4 { [%eval 5.04] }
+20. c4 $6 { [%eval 4.26] } 20... Be6 $2 { [%eval 5.26] } 21. Ra7 $6
+{ [%eval 4.68] } 21... Rbc8 { [%eval 5.11] } 22. Rb7 { [%eval 4.74] } 22...
+Rfd8 { [%eval 4.82] } 23. Nc1 { [%eval 4.78] } 23... Bf5 { [%eval 4.79] } 24.
+Rxb4 { [%eval 4.56] } 24... Bxe4 $6 { [%eval 5.4] } 25. Rxe4 { [%eval 5.22] }
+25... Ra8 $6 { [%eval 6.08] } 26. Rxe5 { [%eval 5.89] } 26... Ra1
+{ [%eval 6.36] } 27. Kd2 { [%eval 6.25] } 27... Rd4 $4 { [%eval 12.66] } 28.
+Re7 $2 { [%eval 7.65] } 28... Rh4 $2 { [%eval #1] } 29. Rb8# 1-0

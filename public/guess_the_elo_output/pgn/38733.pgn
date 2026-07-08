@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NgJmD39e"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TigrisKhan"]
+[Black "this-is-russia"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:10:11"]
+[WhiteElo "1458"]
+[BlackElo "1437"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+33"]
+[ECO "C44"]
+[Opening "Ponziani Opening"]
+[TimeControl "420+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.39] } 3. c3 $6 { [%eval -0.16] } 3... d5 { [%eval 0.16] } 4.
+exd5 { [%eval -0.14] } 4... Qxd5 { [%eval -0.19] } 5. d4 { [%eval -0.33] } 5...
+Bg4 { [%eval 0.04] } 6. dxe5 $6 { [%eval -0.56] } 6... Qxd1+ { [%eval -0.56] }
+7. Kxd1 { [%eval -0.57] } 7... O-O-O+ { [%eval -0.41] } 8. Nd2
+{ [%eval -0.32] } 8... Nxe5 { [%eval -0.47] } 9. Ke1 { [%eval -0.6] } 9... Nf6
+$2 { [%eval 1.8] } 10. h3 $2 { [%eval -0.54] } 10... Bxf3 { [%eval -0.4] } 11.
+Nxf3 { [%eval -0.5] } 11... Nxf3+ { [%eval -0.44] } 12. gxf3 { [%eval -0.58] }
+12... Bc5 { [%eval -0.6] } 13. Bd2 $2 { [%eval -1.84] } 13... Rhe8+ $6
+{ [%eval -1.1] } 14. Kd1 { [%eval -1.14] } 14... Bxf2 { [%eval -0.99] } 15. Kc2
+{ [%eval -1.14] } 15... h5 { [%eval -0.91] } 16. h4 { [%eval -1.02] } 16... Nd5
+{ [%eval -0.97] } 17. Bh3+ { [%eval -1.1] } 17... Kb8 { [%eval -1.02] } 18.
+Rhf1 $4 { [%eval -6.14] } 18... Bxh4 $4 { [%eval -2.29] } 19. Rad1
+{ [%eval -2.31] } 19... Re2 { [%eval -2.14] } 20. Kb1 { [%eval -2.35] } 20...
+Nb6 { [%eval -2.1] } 21. Bf4 { [%eval -2.39] } 21... Rxd1+ { [%eval -1.96] }
+22. Rxd1 { [%eval -2.18] } 22... a5 { [%eval -1.81] } 23. Rd8+ $4
+{ [%eval -10.15] } 0-1

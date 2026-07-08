@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pd46IgRj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tnan123"]
+[Black "dim_s"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "05:55:56"]
+[WhiteElo "1527"]
+[BlackElo "1553"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Two Knights Attack"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... c6 { [%eval 0.42] } 2. Nc3 { [%eval 0.33] } 2... d5
+{ [%eval 0.32] } 3. Nf3 { [%eval 0.39] } 3... dxe4 { [%eval 0.39] } 4. Nxe4
+{ [%eval 0.51] } 4... Bf5 { [%eval 0.53] } 5. Ng3 { [%eval 0.6] } 5... Bg4
+{ [%eval 0.58] } 6. h3 { [%eval 0.47] } 6... Bxf3 { [%eval 0.52] } 7. Qxf3
+{ [%eval 0.51] } 7... Nf6 { [%eval 0.48] } 8. Bd3 { [%eval 0.24] } 8... e6
+{ [%eval 0.42] } 9. O-O { [%eval 0.31] } 9... Be7 { [%eval 0.33] } 10. c3
+{ [%eval 0.45] } 10... O-O { [%eval 0.64] } 11. Bc2 { [%eval 0.65] } 11... Qd5
+{ [%eval 0.63] } 12. Ne4 { [%eval 0.51] } 12... Nbd7 { [%eval 0.63] } 13. d4
+{ [%eval 0.64] } 13... c5 { [%eval 0.83] } 14. Bg5 { [%eval 0.47] } 14... h6
+{ [%eval 0.57] } 15. Bxf6 { [%eval 0.22] } 15... Nxf6 { [%eval 0.32] } 16. Rad1
+{ [%eval 0.05] } 16... cxd4 { [%eval 0.16] } 17. Rxd4 { [%eval 0.1] } 17...
+Qxa2 { [%eval 0.56] } 18. Qd3 $2 { [%eval -0.51] } 18... g6 { [%eval -0.41] }
+19. Qe3 $2 { [%eval -1.41] } 19... Qxb2 { [%eval -1.27] } 20. Nxf6+ $2
+{ [%eval -2.27] } 20... Bxf6 { [%eval -2.19] } 21. Rd2 { [%eval -2.22] } 21...
+Bxc3 { [%eval -1.76] } 22. Re2 { [%eval -1.64] } 22... Bd4 { [%eval -1.73] }
+23. Qxh6 { [%eval -1.77] } 23... Bg7 { [%eval -1.77] } 24. Qe3
+{ [%eval -1.73] } 24... Qf6 { [%eval -1.72] } 25. Be4 { [%eval -1.58] } 25...
+Qe7 $6 { [%eval -1.05] } 26. Rd1 $6 { [%eval -1.84] } 26... a6 $6
+{ [%eval -1.19] } 27. Qb6 { [%eval -1.65] } 27... Rab8 { [%eval -1.18] } 28.
+Red2 { [%eval -1.07] } 1-0

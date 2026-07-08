@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EZmle5te"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kriostasys"]
+[Black "Vascojr93"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:04:07"]
+[WhiteElo "1554"]
+[BlackElo "1211"]
+[WhiteRatingDiff "-28"]
+[BlackRatingDiff "+20"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... g6 { [%eval 0.64] } 2. d4 { [%eval 0.66] } 2... Bg7
+{ [%eval 0.67] } 3. Nf3 { [%eval 0.61] } 3... a6 { [%eval 0.77] } 4. Nc3
+{ [%eval 0.63] } 4... c6 { [%eval 0.87] } 5. Be3 { [%eval 0.72] } 5... Nf6
+{ [%eval 0.73] } 6. Bd3 { [%eval 0.5] } 6... d6 { [%eval 0.52] } 7. Qd2
+{ [%eval 0.51] } 7... Qb6 { [%eval 0.92] } 8. b3 $6 { [%eval 0.41] } 8... Bg4
+$6 { [%eval 0.93] } 9. d5 $2 { [%eval -0.15] } 9... Qc7 { [%eval -0.12] } 10.
+Nd4 { [%eval -0.16] } 10... c5 { [%eval -0.06] } 11. Nde2 { [%eval -0.11] }
+11... O-O $6 { [%eval 0.45] } 12. f3 { [%eval 0.43] } 12... Bh5 $6
+{ [%eval 1.14] } 13. g4 $6 { [%eval 0.48] } 13... Bxg4 { [%eval 0.6] } 14. fxg4
+{ [%eval 0.56] } 14... Nxg4 { [%eval 0.61] } 15. h3 $2 { [%eval -1.16] } 15...
+Ne5 $2 { [%eval 0.76] } 16. Bh6 $4 { [%eval -7.64] } 16... Bxh6 $4
+{ [%eval -0.31] } 17. Qxh6 { [%eval -0.52] } 17... Nf3+ $2 { [%eval 1.45] } 18.
+Kd1 $6 { [%eval 0.81] } 18... c4 $6 { [%eval 1.64] } 19. Bxc4 { [%eval 1.65] }
+19... Qc5 $6 { [%eval 2.55] } 20. Qf4 $2 { [%eval 1.44] } 20... Ne5
+{ [%eval 1.46] } 21. Rh2 $6 { [%eval 0.81] } 21... Nbd7 { [%eval 0.44] } 22.
+Qf2 { [%eval 0.19] } 22... Qa3 $6 { [%eval 0.98] } 23. h4 $2 { [%eval -1.42] }
+23... Nf6 $2 { [%eval 0.38] } 24. Rg2 { [%eval 0.0] } 24... Nfg4 $6
+{ [%eval 0.55] } 25. Qf1 $4 { [%eval -7.29] } 0-1

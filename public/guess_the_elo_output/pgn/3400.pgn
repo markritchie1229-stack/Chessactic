@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/IBj89FMg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NetScorpion"]
+[Black "EOblomoff"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:47:11"]
+[WhiteElo "1755"]
+[BlackElo "1572"]
+[WhiteRatingDiff "+36"]
+[BlackRatingDiff "-5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... d5 { [%eval 0.5] } 2. exd5 { [%eval 0.43] } 2...
+Qxd5 { [%eval 0.54] } 3. Nc3 { [%eval 0.58] } 3... Qe6+ { [%eval 0.89] } 4. Be2
+{ [%eval 0.81] } 4... Qg6 { [%eval 0.75] } 5. Bf3 { [%eval 0.47] } 5... Bf5 $4
+{ [%eval 5.03] } 6. d3 $4 { [%eval 0.0] } 6... c6 $6 { [%eval 0.94] } 7. Nge2
+{ [%eval 0.64] } 7... Nd7 { [%eval 0.68] } 8. Ng3 { [%eval 0.43] } 8... O-O-O
+{ [%eval 0.92] } 9. Nxf5 { [%eval 0.53] } 9... Qxf5 { [%eval 0.67] } 10. O-O
+{ [%eval 0.58] } 10... h5 { [%eval 0.73] } 11. Re1 { [%eval 0.26] } 11... Ngf6
+{ [%eval 0.64] } 12. Be3 { [%eval 0.2] } 12... Kb8 { [%eval 0.47] } 13. a4
+{ [%eval 0.41] } 13... g5 $2 { [%eval 1.55] } 14. Ne4 $2 { [%eval -0.2] } 14...
+g4 { [%eval -0.21] } 15. Ng3 { [%eval -0.41] } 15... Qg6 { [%eval -0.4] } 16.
+Be4 { [%eval -0.57] } 16... Qg7 $2 { [%eval 1.72] } 17. Nf5 { [%eval 1.77] }
+17... Qg8 { [%eval 1.61] } 18. Bf4+ $2 { [%eval -0.13] } 18... Ka8
+{ [%eval -0.08] } 19. a5 { [%eval -0.14] } 19... a6 { [%eval -0.06] } 20. b4 $2
+{ [%eval -1.44] } 20... Nxe4 $2 { [%eval 0.14] } 21. dxe4 { [%eval 0.07] }
+21... e5 $2 { [%eval 1.07] } 22. Bg3 $2 { [%eval -1.29] } 22... Qg5 $4
+{ [%eval 6.6] } 23. Bh4 { [%eval 6.49] } 23... Qf4 $4 { [%eval 12.31] } 24.
+Bxd8 { [%eval 11.42] } 24... Bxb4 { [%eval 26.75] } 25. Re2 $4 { [%eval 3.42] }
+25... Rxd8 { [%eval 3.59] } 26. Nd6 $4 { [%eval -3.81] } 26... Kb8 $4
+{ [%eval 5.31] } 27. Rb1 { [%eval 4.95] } 27... Bxa5 $4 { [%eval 11.7] } 28.
+Rxb7+ $2 { [%eval 8.62] } 28... Ka8 { [%eval 8.44] } 29. Rb1 $4 { [%eval 0.0] }
+29... h4 $4 { [%eval 13.19] } 30. Qd3 { [%eval 11.19] } 30... Ka7 $6
+{ [%eval #2] } 31. Rb7+ { [%eval #1] } 1-0

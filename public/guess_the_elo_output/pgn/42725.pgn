@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/SluQWE36"]
+[Date "????.??.??"]
+[Round "?"]
+[White "patrickduante"]
+[Black "Noiko"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:50:41"]
+[WhiteElo "1635"]
+[BlackElo "1661"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.15] } 2. e3 { [%eval 0.08] } 2... Nc6
+{ [%eval 0.37] } 3. h3 { [%eval 0.05] } 3... Bf5 { [%eval 0.33] } 4. a3
+{ [%eval 0.18] } 4... Nf6 { [%eval 0.18] } 5. Nf3 { [%eval 0.18] } 5... a6
+{ [%eval 0.12] } 6. Bd3 { [%eval 0.19] } 6... Qd7 { [%eval 0.18] } 7. O-O
+{ [%eval -0.12] } 7... g6 $6 { [%eval 0.52] } 8. Bxf5 $6 { [%eval -0.45] } 8...
+Qxf5 { [%eval 0.0] } 9. Nbd2 { [%eval -0.02] } 9... e5 { [%eval 0.0] } 10. dxe5
+{ [%eval 0.0] } 10... Nxe5 { [%eval 0.0] } 11. b4 { [%eval 0.0] } 11... Bg7
+{ [%eval 0.0] } 12. Bb2 { [%eval 0.0] } 12... Nxf3+ { [%eval 0.0] } 13. Nxf3
+{ [%eval -0.06] } 13... O-O { [%eval -0.11] } 14. Rc1 { [%eval -0.11] } 14...
+c6 { [%eval 0.0] } 15. c4 { [%eval 0.07] } 15... Rad8 { [%eval 0.05] } 16. cxd5
+{ [%eval -0.16] } 16... Nxd5 { [%eval 0.1] } 17. Bxg7 { [%eval 0.05] } 17...
+Kxg7 { [%eval 0.0] } 18. Qb3 { [%eval 0.0] } 18... h6 { [%eval 0.15] } 19. Nd4
+{ [%eval 0.0] } 19... Qf6 { [%eval 0.19] } 20. f4 $2 { [%eval -1.44] } 20...
+Rfe8 { [%eval -1.02] } 21. Rce1 { [%eval -1.45] } 21... Nxe3 { [%eval -1.37] }
+22. Rxe3 { [%eval -1.36] } 22... Qxd4 { [%eval -1.5] } 23. Re1
+{ [%eval -1.57] } 23... Rxe3 { [%eval -1.16] } 24. Rxe3 $6 { [%eval -2.12] }
+24... Qxf4 { [%eval -2.04] } 25. Rf3 { [%eval -2.36] } 25... Qd4+
+{ [%eval -2.33] } 26. Kh1 { [%eval -2.32] } 26... Qd5 { [%eval -2.07] } 27.
+Qc3+ { [%eval -2.2] } 27... Kh7 { [%eval -1.85] } 28. Qf6 { [%eval -2.06] }
+28... Qd4 $2 { [%eval 0.0] } 29. Qxf7+ $6 { [%eval -0.52] } 29... Qg7
+{ [%eval -0.37] } 30. Qc4 { [%eval -0.68] } 30... Qe5 $2 { [%eval 0.64] } 31.
+Rf7+ { [%eval 0.74] } 31... Kh8 { [%eval 0.18] } 32. Rxb7 $4 { [%eval #-2] }
+32... Rd1+ { [%eval #-1] } 0-1

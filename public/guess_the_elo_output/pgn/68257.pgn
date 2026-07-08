@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/be4rHUc4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheIceManV"]
+[Black "YamaReiji"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:49:39"]
+[WhiteElo "1628"]
+[BlackElo "1463"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "A41"]
+[Opening "Queen's Pawn"]
+[TimeControl "540+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... d6 { [%eval 0.51] } 2. e3 { [%eval 0.39] } 2... f6
+$6 { [%eval 0.98] } 3. f4 $6 { [%eval 0.41] } 3... g6 { [%eval 0.66] } 4. Bd3
+{ [%eval 0.46] } 4... Bg7 { [%eval 0.51] } 5. Nf3 { [%eval 0.39] } 5... c6
+{ [%eval 0.83] } 6. c3 { [%eval 0.68] } 6... Qc7 { [%eval 0.96] } 7. O-O
+{ [%eval 0.84] } 7... Nh6 { [%eval 0.88] } 8. Nbd2 { [%eval 0.68] } 8... O-O
+{ [%eval 0.77] } 9. e4 { [%eval 0.82] } 9... Be6 { [%eval 0.99] } 10. e5 $2
+{ [%eval -0.1] } 10... dxe5 { [%eval -0.16] } 11. fxe5 { [%eval 0.0] } 11...
+Bf7 $2 { [%eval 1.18] } 12. Ne4 $6 { [%eval 0.62] } 12... Ng4 $2
+{ [%eval 2.77] } 13. Nh4 $6 { [%eval 1.84] } 13... fxe5 $4 { [%eval 4.95] } 14.
+Qxg4 { [%eval 5.09] } 14... exd4 $2 { [%eval 6.96] } 15. cxd4 $4
+{ [%eval 2.99] } 15... Bxd4+ $2 { [%eval 5.33] } 16. Kh1 { [%eval 4.87] } 16...
+Bd5 $4 { [%eval 8.58] } 17. Bf4 $4 { [%eval 5.48] } 17... Be5 $4
+{ [%eval 21.89] } 18. Bxe5 { [%eval 12.06] } 18... Qxe5 { [%eval 12.1] } 19.
+Rxf8+ { [%eval 11.17] } 19... Kxf8 { [%eval 10.27] } 20. Rf1+ { [%eval 9.76] }
+20... Ke8 $2 { [%eval #1] } 21. Qc8# 1-0

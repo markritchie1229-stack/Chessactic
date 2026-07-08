@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/o6JhK3vg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rahimftd"]
+[Black "ekim28"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:50:41"]
+[WhiteElo "1656"]
+[BlackElo "1598"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "C62"]
+[Opening "Ruy Lopez: Steinitz Defense"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.32] } 2... Nc6
+{ [%eval 0.39] } 3. Bb5 { [%eval 0.36] } 3... d6 { [%eval 0.47] } 4. O-O
+{ [%eval 0.41] } 4... Bg4 { [%eval 0.56] } 5. Nc3 { [%eval 0.44] } 5... a6
+{ [%eval 0.5] } 6. Ba4 $2 { [%eval -0.56] } 6... b5 { [%eval -0.45] } 7. Bb3
+{ [%eval -0.53] } 7... Nf6 $6 { [%eval 0.08] } 8. d3 { [%eval -0.27] } 8... Nd4
+{ [%eval -0.24] } 9. Bg5 { [%eval -0.61] } 9... Be7 { [%eval -0.59] } 10. Bxf6
+$6 { [%eval -1.19] } 10... Bxf6 { [%eval -1.1] } 11. Bd5 $2 { [%eval -3.16] }
+11... c6 { [%eval -3.08] } 12. Bb3 { [%eval -3.29] } 12... O-O $6
+{ [%eval -2.32] } 13. h3 { [%eval -2.36] } 13... Bh5 $2 { [%eval -0.5] } 14. g4
+{ [%eval -0.56] } 14... Bg6 $6 { [%eval 0.33] } 15. Rb1 $2 { [%eval -1.21] }
+15... a5 { [%eval -1.36] } 16. a3 { [%eval -1.29] } 16... a4 { [%eval -1.29] }
+17. Ba2 { [%eval -1.29] } 17... h5 $2 { [%eval 0.0] } 18. Nxd4
+{ [%eval -0.22] } 18... exd4 { [%eval -0.11] } 19. Ne2 { [%eval -0.14] } 19...
+hxg4 { [%eval 0.0] } 20. hxg4 { [%eval -0.13] } 20... Bh4 $2 { [%eval 1.02] }
+21. Nxd4 { [%eval 0.8] } 21... Rc8 { [%eval 1.1] } 22. f4 { [%eval 0.61] }
+22... Kh8 $2 { [%eval 3.43] } 23. Nf3 $6 { [%eval 2.46] } 23... f6 $4
+{ [%eval 7.77] } 24. Nxh4 { [%eval 7.83] } 24... Bh7 { [%eval 7.72] } 25. Kg2
+{ [%eval 7.09] } 25... f5 $2 { [%eval #7] } 26. Rh1 $6 { [%eval 12.14] } 26...
+fxg4 $6 { [%eval #1] } 27. Ng6# 1-0

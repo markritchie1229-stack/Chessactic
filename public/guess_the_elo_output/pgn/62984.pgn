@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lbEMKxGU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "t5b5"]
+[Black "Amanuense69"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:23:36"]
+[WhiteElo "1495"]
+[BlackElo "1796"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+4"]
+[ECO "A43"]
+[Opening "Franco-Benoni Defense"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.14] } 2. d4 { [%eval 0.18] } 2... c5
+{ [%eval 0.58] } 3. d5 { [%eval 0.63] } 3... Qc7 { [%eval 0.9] } 4. Nc3
+{ [%eval 1.01] } 4... a6 { [%eval 0.93] } 5. Nf3 { [%eval 0.77] } 5... h6 $6
+{ [%eval 1.75] } 6. Be2 $6 { [%eval 0.81] } 6... Be7 $2 { [%eval 2.44] } 7.
+dxe6 $2 { [%eval 0.17] } 7... dxe6 { [%eval 0.32] } 8. O-O $6 { [%eval -0.31] }
+8... Nd7 $6 { [%eval 0.19] } 9. a3 $6 { [%eval -0.42] } 9... b6 $6
+{ [%eval 0.1] } 10. Bd2 $6 { [%eval -0.47] } 10... Bb7 { [%eval -0.49] } 11. b4
+$6 { [%eval -1.14] } 11... O-O-O $6 { [%eval -0.62] } 12. b5 { [%eval -0.98] }
+12... a5 { [%eval -0.91] } 13. a4 { [%eval -1.15] } 13... Ngf6
+{ [%eval -1.01] } 14. Bd3 $6 { [%eval -1.93] } 14... Rdg8 $6 { [%eval -1.02] }
+15. Re1 $6 { [%eval -1.85] } 15... g5 { [%eval -1.7] } 16. Na2 $2
+{ [%eval -4.63] } 16... g4 { [%eval -4.16] } 17. e5 $4 { [%eval -8.75] } 17...
+gxf3 { [%eval -8.59] } 18. g3 { [%eval -8.45] } 18... Nxe5 { [%eval -7.67] }
+19. Bf4 { [%eval -8.15] } 19... Bd6 { [%eval -7.99] } 20. c4 $2
+{ [%eval -11.99] } 20... h5 { [%eval -10.35] } 21. Nc3 { [%eval -12.14] } 21...
+h4 { [%eval -10.26] } 22. Ne4 { [%eval -12.08] } 22... Nxe4 { [%eval -10.75] }
+23. Bxe4 { [%eval -10.67] } 23... hxg3 { [%eval -10.39] } 24. Bxb7+
+{ [%eval -10.2] } 24... Kxb7 $4 { [%eval -6.59] } 25. Bxg3 $4
+{ [%eval -11.25] } 25... Ka7 { [%eval -10.5] } 0-1

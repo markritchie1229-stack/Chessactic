@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9l2rcc6Q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MrPhilosophe"]
+[Black "Sergej1956"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:01:48"]
+[WhiteElo "1929"]
+[BlackElo "1992"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B27"]
+[Opening "Sicilian Defense: Hyperaccelerated Dragon"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.3] } 2. Nf3 { [%eval 0.27] } 2... g6
+{ [%eval 0.73] } 3. Bc4 $6 { [%eval 0.23] } 3... Bg7 { [%eval 0.18] } 4. O-O
+{ [%eval 0.26] } 4... Nc6 { [%eval 0.21] } 5. c3 { [%eval 0.3] } 5... d6
+{ [%eval 0.5] } 6. d4 { [%eval 0.46] } 6... cxd4 { [%eval 0.75] } 7. cxd4
+{ [%eval 0.6] } 7... Nf6 { [%eval 0.57] } 8. d5 { [%eval 0.54] } 8... Nb8
+{ [%eval 0.7] } 9. Nc3 { [%eval 0.75] } 9... a6 { [%eval 0.74] } 10. Qa4+ $6
+{ [%eval 0.17] } 10... Bd7 $6 { [%eval 0.86] } 11. Qb3 { [%eval 0.87] } 11...
+b5 { [%eval 1.04] } 12. Bd3 { [%eval 0.56] } 12... O-O { [%eval 0.85] } 13. a4
+{ [%eval 0.84] } 13... Bg4 $6 { [%eval 1.5] } 14. axb5 { [%eval 1.37] } 14...
+Bxf3 { [%eval 1.47] } 15. gxf3 { [%eval 1.51] } 15... Nbd7 { [%eval 1.5] } 16.
+bxa6 { [%eval 1.31] } 16... Nc5 { [%eval 1.4] } 17. Qc2 { [%eval 1.22] } 17...
+Qc8 { [%eval 1.26] } 18. Bb5 $6 { [%eval 0.7] } 18... Qh3 { [%eval 1.12] } 19.
+a7 $6 { [%eval 0.21] } 19... Qxf3 $2 { [%eval 2.81] } 20. Bc6 $2
+{ [%eval 0.0] } 20... Nfxe4 $4 { [%eval 3.0] } 21. Bxa8 $4 { [%eval 0.0] }
+21... Rxa8 $2 { [%eval 2.93] } 22. Qe2 { [%eval 2.85] } 22... Qf5
+{ [%eval 2.6] } 23. Nb5 $6 { [%eval 1.75] } 23... Nb3 { [%eval 1.71] } 24. Nc7
+$4 { [%eval -9.43] } 24... Nd4 { [%eval -7.35] } 25. Qd1 $2 { [%eval -9.39] }
+25... Nf3+ { [%eval -8.2] } 26. Kh1 $2 { [%eval #-5] } 26... Qh3
+{ [%eval #-4] } 27. Qxf3 { [%eval #-1] } 27... Qxf3+ $6 { [%eval #-9] } 28. Kg1
+{ [%eval #-9] } 28... Rxa7 $4 { [%eval -6.28] } 29. Rxa7 { [%eval -5.64] }
+29... Be5 $4 { [%eval 0.0] } 30. Ra8+ { [%eval 0.0] } 30... Kg7 { [%eval 0.0] }
+31. Ne8+ { [%eval 0.0] } 31... Kf8 $4 { [%eval #2] } 32. Bh6+ { [%eval #1] }
+32... Bg7 { [%eval #1] } 33. Nf6# 1-0

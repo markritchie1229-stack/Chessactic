@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ItbdYpKc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "demir01"]
+[Black "makshot911"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:17:18"]
+[WhiteElo "1635"]
+[BlackElo "1655"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+70"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.47] } 2. Nf3 { [%eval 0.39] } 2...
+Nc6 { [%eval 0.39] } 3. Nc3 { [%eval 0.13] } 3... Bc5 { [%eval 0.39] } 4. Bb5
+{ [%eval 0.0] } 4... Nd4 { [%eval 0.16] } 5. Nxd4 { [%eval -0.2] } 5... exd4 $6
+{ [%eval 0.7] } 6. Na4 $6 { [%eval -0.15] } 6... Qe7 $6 { [%eval 0.69] } 7. d3
+$2 { [%eval -1.59] } 7... a6 $2 { [%eval 0.43] } 8. Bc4 $2 { [%eval -1.5] }
+8... Bb4+ $2 { [%eval 0.78] } 9. c3 { [%eval 0.74] } 9... dxc3 { [%eval 0.64] }
+10. Nxc3 { [%eval 0.7] } 10... c6 { [%eval 0.78] } 11. O-O { [%eval 0.7] }
+11... Nf6 $2 { [%eval 1.74] } 12. Ne2 $2 { [%eval 0.18] } 12... O-O
+{ [%eval 0.19] } 13. a3 { [%eval 0.14] } 13... Bc5 { [%eval 0.38] } 14. b4
+{ [%eval -0.07] } 14... Bb6 { [%eval -0.02] } 15. Bb2 { [%eval -0.17] } 15...
+d6 { [%eval 0.08] } 16. Ng3 $6 { [%eval -0.45] } 16... Be6 { [%eval -0.06] }
+17. Bxe6 { [%eval 0.0] } 17... fxe6 { [%eval 0.06] } 18. Re1 $4
+{ [%eval -3.16] } 18... Rad8 $2 { [%eval -0.31] } 19. Qb3 $2 { [%eval -1.83] }
+19... Kh8 $2 { [%eval 0.02] } 20. Kh1 $4 { [%eval -3.04] } 20... e5 $4
+{ [%eval 0.0] } 21. Re2 $2 { [%eval -2.15] } 21... d5 $2 { [%eval 0.0] } 22.
+exd5 $2 { [%eval -1.39] } 22... Rxd5 $2 { [%eval 0.06] } 23. Rae1 $2
+{ [%eval -2.87] } 23... Ng4 { [%eval -2.7] } 24. h3 $2 { [%eval -4.81] } 24...
+Nxf2+ { [%eval -4.61] } 25. Kh2 { [%eval -4.67] } 25... Rxd3 { [%eval -4.51] }
+26. Qc2 $4 { [%eval -10.21] } 26... Qg5 $2 { [%eval -7.72] } 27. Rxe5 $2
+{ [%eval #-4] } 27... Qxg3+ { [%eval #-3] } 28. Kg1 { [%eval #-3] } 28... Nxh3+
+$6 { [%eval #-4] } 29. Kh1 { [%eval #-4] } 29... Nf2+ $6 { [%eval #-6] } 30.
+Kg1 { [%eval #-3] } 30... Ng4+ { [%eval #-2] } 31. Kh1 { [%eval #-1] } 31...
+Qh2# 0-1

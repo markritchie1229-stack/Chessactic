@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/VpWT85qX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kpfhu"]
+[Black "cheeserob"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:40:35"]
+[WhiteElo "1316"]
+[BlackElo "1572"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e6 { [%eval 0.24] } 2. d4 { [%eval 0.12] } 2... d5
+{ [%eval 0.16] } 3. exd5 { [%eval 0.09] } 3... exd5 { [%eval 0.21] } 4. c4
+{ [%eval -0.03] } 4... dxc4 { [%eval 0.45] } 5. Bxc4 { [%eval 0.44] } 5... Bb4+
+{ [%eval 0.62] } 6. Bd2 $6 { [%eval 0.08] } 6... Bxd2+ { [%eval 0.22] } 7. Qxd2
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.29] } 8. Qe3+ { [%eval 0.21] } 8... Qe7
+{ [%eval 0.21] } 9. Qxe7+ { [%eval 0.0] } 9... Kxe7 { [%eval -0.03] } 10. Ne2
+{ [%eval -0.03] } 10... Re8 { [%eval 0.01] } 11. O-O { [%eval -0.31] } 11...
+Kf8 { [%eval -0.28] } 12. Nbc3 { [%eval -0.22] } 12... Bg4 { [%eval 0.17] } 13.
+Rae1 { [%eval 0.0] } 13... Nc6 { [%eval 0.0] } 14. Nb5 $6 { [%eval -0.83] }
+14... Rac8 { [%eval -0.66] } 15. d5 $2 { [%eval -1.97] } 15... Na5 $2
+{ [%eval -0.85] } 16. Bd3 { [%eval -0.8] } 16... a6 $6 { [%eval -0.05] } 17.
+Nbc3 { [%eval -0.06] } 17... Rcd8 { [%eval -0.01] } 18. f3 $6 { [%eval -0.58] }
+18... Bh5 $2 { [%eval 1.36] } 19. g4 $2 { [%eval -0.45] } 19... Bg6
+{ [%eval -0.5] } 20. Bxg6 { [%eval -0.46] } 20... hxg6 { [%eval -0.47] } 21.
+Rd1 $6 { [%eval -1.12] } 21... Nc4 { [%eval -1.07] } 22. b3 $2
+{ [%eval -2.84] } 22... Ne3 { [%eval -2.78] } 23. g5 $2 { [%eval -4.56] } 23...
+Nd7 $2 { [%eval -2.29] } 24. d6 $6 { [%eval -2.79] } 24... cxd6
+{ [%eval -2.79] } 25. Rxd6 $6 { [%eval -3.54] } 25... Nxf1 { [%eval -3.4] } 26.
+Kxf1 { [%eval -3.45] } 26... Ne5 { [%eval -3.22] } 27. Rb6 $6 { [%eval -4.09] }
+27... Nxf3 { [%eval -3.97] } 28. Kg2 $2 { [%eval -5.25] } 28... Nxg5
+{ [%eval -5.18] } 29. Rxb7 { [%eval -5.25] } 29... Rxe2+ $4 { [%eval -1.72] }
+0-1

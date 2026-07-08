@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/4YsftPQG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "alexsimiliare"]
+[Black "cancri_4"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:50:07"]
+[WhiteElo "1607"]
+[BlackElo "1654"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.39] } 2. Bc4 { [%eval 0.02] } 2... d6
+{ [%eval 0.26] } 3. c3 { [%eval 0.13] } 3... Qe7 $6 { [%eval 0.87] } 4. d4 $6
+{ [%eval 0.22] } 4... Bd7 $6 { [%eval 0.87] } 5. Qf3 $6 { [%eval 0.31] } 5...
+b5 { [%eval 0.54] } 6. Bb3 { [%eval 0.65] } 6... Be6 { [%eval 1.0] } 7. d5
+{ [%eval 0.73] } 7... Bd7 { [%eval 0.81] } 8. Ne2 { [%eval 0.66] } 8... f6 $6
+{ [%eval 1.63] } 9. O-O { [%eval 1.52] } 9... c6 $6 { [%eval 2.33] } 10. h3 $6
+{ [%eval 1.77] } 10... Qf7 $6 { [%eval 2.56] } 11. Rd1 $6 { [%eval 1.93] }
+11... Ne7 $2 { [%eval 4.0] } 12. c4 $4 { [%eval 0.87] } 12... Ng6 $4
+{ [%eval 5.62] } 13. cxb5 $4 { [%eval 0.99] } 13... c5 $6 { [%eval 1.75] } 14.
+Bc4 { [%eval 1.98] } 14... Nh4 $6 { [%eval 2.63] } 15. Qg3 $6 { [%eval 2.08] }
+15... g5 { [%eval 2.37] } 16. Kh1 $6 { [%eval 1.76] } 16... h5 { [%eval 2.25] }
+17. Ng1 $6 { [%eval 1.64] } 17... Ng6 { [%eval 1.73] } 18. Qh2 { [%eval 1.35] }
+18... g4 { [%eval 1.13] } 19. h4 { [%eval 0.82] } 19... Be7 { [%eval 1.04] }
+20. g3 { [%eval 0.97] } 20... f5 { [%eval 1.08] } 21. Qg2 $2 { [%eval 0.0] }
+21... f4 { [%eval 0.43] } 22. Nc3 { [%eval 0.28] } 22... f3 { [%eval 0.34] }
+23. Qf1 { [%eval 0.08] } 23... Bf6 { [%eval 0.13] } 24. Qd3 $2
+{ [%eval -1.27] } 24... Qe7 { [%eval -0.72] } 25. a4 $2 { [%eval -2.87] } 25...
+Bxh4 { [%eval -2.67] } 26. gxh4 $4 { [%eval #-3] } 26... Qxh4+ { [%eval #-2] }
+27. Nh3 { [%eval #-2] } 27... Qxh3+ { [%eval #-1] } 28. Kg1 { [%eval #-1] }
+28... Qg2# 0-1

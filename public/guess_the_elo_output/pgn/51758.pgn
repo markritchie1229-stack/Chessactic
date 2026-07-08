@@ -1,0 +1,39 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/a6R7j7oI"]
+[Site "https://lichess.org/5AuH7NEN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dannnnn"]
+[Black "jrgoetz111"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:25:45"]
+[WhiteElo "1638"]
+[BlackElo "1840"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "A43"]
+[Opening "Benoni Defense: Benoni-Indian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.17] } 2. d5 $6 { [%eval -0.41] }
+2... c5 $2 { [%eval 0.65] } 3. dxc6 $2 { [%eval -0.67] } 3... bxc6
+{ [%eval -0.3] } 4. Nc3 $6 { [%eval -0.8] } 4... d5 { [%eval -0.34] } 5. Bg5 $6
+{ [%eval -0.86] } 5... e5 { [%eval -0.89] } 6. e4 { [%eval -1.14] } 6... d4
+{ [%eval -1.05] } 7. Na4 { [%eval -1.39] } 7... Qa5+ { [%eval -1.61] } 8. c3
+{ [%eval -1.74] } 8... dxc3 $6 { [%eval -0.93] } 9. Nxc3 { [%eval -0.99] } 9...
+Bb4 $2 { [%eval 0.02] } 10. Bc4 $4 { [%eval -4.57] } 10... Nxe4 $2
+{ [%eval -3.0] } 11. Qd8+ $2 { [%eval -5.18] } 11... Qxd8 { [%eval -5.14] } 12.
+Bxd8 { [%eval -5.14] } 12... Kxd8 { [%eval -4.97] } 13. Bxf7 $4
+{ [%eval -8.39] } 13... Nxc3 { [%eval -8.17] } 14. bxc3 $2 { [%eval -11.63] }
+14... Bxc3+ { [%eval -11.55] } 15. Ke2 { [%eval -11.36] } 15... Bxa1
+{ [%eval -11.25] } 16. Nf3 { [%eval -11.56] } 16... Rf8 { [%eval -10.47] } 17.
+Bb3 { [%eval -12.15] } 17... Ba6+ { [%eval -11.72] } 18. Ke3 { [%eval -12.47] }
+18... Bd4+ { [%eval -12.43] } 19. Nxd4 { [%eval -12.41] } 19... exd4+
+{ [%eval -12.31] } 20. Kxd4 { [%eval -12.25] } 20... Rxf2 { [%eval -12.04] }
+21. g3 { [%eval -13.06] } 21... Nd7 { [%eval -12.81] } 22. Rd1
+{ [%eval -14.05] } 22... Kc7 { [%eval -13.55] } 23. h4 { [%eval -19.46] } 23...
+Rd8 { [%eval -13.09] } 24. Ke4 $6 { [%eval #-5] } 24... Nf6+ $6 { [%eval #-7] }
+25. Ke3 { [%eval #-7] } 25... Re2+ { [%eval #-8] } 26. Kf3 { [%eval #-7] }
+26... Rxd1 $6 { [%eval -53.43] } 27. Bxd1 { [%eval -52.85] } 27... Rxa2
+{ [%eval -50.84] } 0-1

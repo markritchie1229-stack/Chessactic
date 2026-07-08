@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1CQFzvqg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Potrilloloco"]
+[Black "ALALM7778888556"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:54:43"]
+[WhiteElo "1850"]
+[BlackElo "1860"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+13"]
+[ECO "A22"]
+[Opening "English Opening: Carls-Bremen System"]
+[TimeControl "480+1"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval 0.08] } 1... Nf6 { [%eval 0.22] } 2. Nc3 { [%eval 0.1] } 2... e5
+{ [%eval 0.25] } 3. g3 { [%eval -0.04] } 3... Nc6 { [%eval 0.01] } 4. Bg2
+{ [%eval 0.03] } 4... Bc5 { [%eval 0.17] } 5. d3 { [%eval 0.08] } 5... O-O
+{ [%eval 0.11] } 6. e4 { [%eval -0.35] } 6... h6 { [%eval -0.13] } 7. Nge2
+{ [%eval -0.13] } 7... d6 { [%eval -0.15] } 8. O-O { [%eval -0.2] } 8... a5
+{ [%eval -0.13] } 9. Nd5 { [%eval -0.33] } 9... Bg4 { [%eval -0.31] } 10. h3
+{ [%eval -0.51] } 10... Bxe2 { [%eval -0.4] } 11. Qxe2 { [%eval -0.46] } 11...
+Nd4 { [%eval -0.28] } 12. Qd1 { [%eval -0.55] } 12... Nxd5 { [%eval -0.46] }
+13. cxd5 { [%eval -0.46] } 13... c6 { [%eval -0.34] } 14. dxc6
+{ [%eval -0.42] } 14... bxc6 { [%eval -0.29] } 15. b3 { [%eval -0.71] } 15...
+a4 { [%eval -0.72] } 16. b4 { [%eval -1.06] } 16... Bxb4 { [%eval -0.92] } 17.
+Bb2 { [%eval -1.14] } 17... Nb5 { [%eval -1.1] } 18. d4 $2 { [%eval -3.08] }
+18... Bc3 { [%eval -2.87] } 19. Bxc3 { [%eval -3.29] } 19... Nxc3
+{ [%eval -3.29] } 20. Qd3 { [%eval -3.55] } 20... exd4 { [%eval -3.54] } 21.
+Qxd4 $4 { [%eval -14.15] } 21... Ne2+ { [%eval -13.95] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/T5rvlBsL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "adib_djogja"]
+[Black "sandrojbr"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:44:03"]
+[WhiteElo "1556"]
+[BlackElo "1496"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... e5 $6 { [%eval 0.65] } 2. dxe5 { [%eval 0.63] }
+2... d5 { [%eval 1.02] } 3. e4 { [%eval 0.9] } 3... Nc6 $6 { [%eval 1.77] } 4.
+exd5 { [%eval 1.6] } 4... Nxe5 { [%eval 1.67] } 5. Nc3 $6 { [%eval 0.81] } 5...
+Bd6 { [%eval 0.78] } 6. Bg5 $4 { [%eval -3.15] } 6... Bg4 $4 { [%eval 1.32] }
+7. Nf3 $2 { [%eval -1.6] } 7... f6 $2 { [%eval 0.79] } 8. Bh4 $2
+{ [%eval -1.71] } 8... Bxf3 $2 { [%eval 0.45] } 9. gxf3 { [%eval 0.5] } 9...
+Qe7 { [%eval 0.39] } 10. Qe2 $4 { [%eval -4.04] } 10... O-O-O $4
+{ [%eval 1.05] } 11. O-O-O { [%eval 1.0] } 11... Bb4 $6 { [%eval 1.51] } 12. f4
+$2 { [%eval 0.0] } 12... Bxc3 { [%eval 0.0] } 13. fxe5 { [%eval 0.0] } 13...
+Bxe5 { [%eval 0.39] } 14. f4 $2 { [%eval -0.72] } 14... g5 $2 { [%eval 1.72] }
+15. fxg5 $2 { [%eval 0.0] } 15... fxg5 { [%eval 0.0] } 16. Qg4+
+{ [%eval -0.04] } 16... Kb8 { [%eval 0.0] } 17. Bxg5 { [%eval -0.02] } 17...
+Bf6 $6 { [%eval 0.78] } 18. Bxf6 $6 { [%eval 0.26] } 18... Nxf6
+{ [%eval 0.24] } 19. Bc4 $4 { [%eval -14.08] } 19... Nxg4 { [%eval -13.68] }
+20. Rhe1 { [%eval -14.82] } 20... Qc5 { [%eval -14.67] } 21. Bb3
+{ [%eval -15.49] } 21... Nf2 { [%eval -15.2] } 22. Rd2 { [%eval -18.71] } 22...
+Ng4 { [%eval -12.18] } 23. Kb1 { [%eval -12.7] } 23... Rhe8 { [%eval -12.42] }
+24. Red1 { [%eval -14.89] } 24... Ne3 { [%eval -12.76] } 25. Re1
+{ [%eval -15.29] } 25... Nxd5 { [%eval -14.48] } 26. Red1 $6 { [%eval #-14] }
+26... c6 $6 { [%eval -12.77] } 27. c4 { [%eval -13.02] } 1-0

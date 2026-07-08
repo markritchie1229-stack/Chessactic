@@ -1,0 +1,37 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/aV8lDgDg"]
+[Site "https://lichess.org/fnd9gwNa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ElSalmon2000"]
+[Black "Destroyer100"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:53:12"]
+[WhiteElo "1613"]
+[BlackElo "1613"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... c6 { [%eval 0.65] } 2. d4 { [%eval 0.32] } 2... d5
+{ [%eval 0.48] } 3. e5 { [%eval 0.28] } 3... Bf5 { [%eval 0.49] } 4. c4
+{ [%eval 0.2] } 4... e6 { [%eval 0.24] } 5. Nc3 { [%eval 0.19] } 5... h6
+{ [%eval 0.33] } 6. Qb3 { [%eval 0.12] } 6... b6 { [%eval 0.6] } 7. Nf3
+{ [%eval 0.36] } 7... c5 $2 { [%eval 2.7] } 8. dxc5 $2 { [%eval 1.61] } 8...
+bxc5 $2 { [%eval 2.94] } 9. Qb7 $2 { [%eval 1.91] } 9... Nd7 { [%eval 1.87] }
+10. cxd5 { [%eval 1.74] } 10... exd5 $2 { [%eval 3.39] } 11. Nxd5
+{ [%eval 2.95] } 11... Rc8 { [%eval 3.13] } 12. Qxa7 $2 { [%eval 1.83] } 12...
+Be6 $2 { [%eval 3.06] } 13. Nc3 $2 { [%eval 1.83] } 13... Be7 $2
+{ [%eval 3.29] } 14. Bb5 { [%eval 3.04] } 14... Bg4 $2 { [%eval 4.56] } 15. O-O
+{ [%eval 4.52] } 15... Bxf3 $2 { [%eval 7.33] } 16. gxf3 { [%eval 7.08] } 16...
+f6 $2 { [%eval 11.18] } 17. Re1 $2 { [%eval 7.06] } 17... fxe5 $6
+{ [%eval 7.69] } 18. Rxe5 $6 { [%eval 6.86] } 18... Nf6 $6 { [%eval 7.62] } 19.
+Nd5 { [%eval 7.25] } 19... O-O $2 { [%eval 9.29] } 20. Nxe7+ { [%eval 9.06] }
+20... Kh8 { [%eval 8.97] } 21. Nxc8 $4 { [%eval 1.68] } 21... Qxc8 $4
+{ [%eval 10.89] } 22. Bxd7 { [%eval 10.18] } 22... Nxd7 { [%eval 11.75] } 23.
+Re7 { [%eval 11.1] } 23... Nf6 { [%eval 14.31] } 24. Rxg7 { [%eval 13.16] }
+24... Rg8 { [%eval 22.18] } 25. Bxh6 { [%eval 13.61] } 25... Rxg7+ $6
+{ [%eval #1] } 26. Qxg7# 1-0

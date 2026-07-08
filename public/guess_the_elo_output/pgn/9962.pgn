@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cIdmszUP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "michele31795"]
+[Black "CDABANCR"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:54:45"]
+[WhiteElo "1640"]
+[BlackElo "1692"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "E91"]
+[Opening "King's Indian Defense: Orthodox Variation"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.11] } 2. c4 { [%eval 0.17] } 2... g6
+{ [%eval 0.54] } 3. Nc3 { [%eval 0.42] } 3... Bg7 { [%eval 0.5] } 4. e4
+{ [%eval 0.5] } 4... d6 { [%eval 0.57] } 5. Nf3 { [%eval 0.56] } 5... O-O
+{ [%eval 0.68] } 6. Be2 { [%eval 0.59] } 6... c5 { [%eval 0.62] } 7. d5
+{ [%eval 0.61] } 7... Qa5 { [%eval 1.02] } 8. O-O { [%eval 0.96] } 8... Re8
+{ [%eval 0.99] } 9. Bd2 { [%eval 0.83] } 9... Qb6 { [%eval 1.0] } 10. Rb1
+{ [%eval 0.81] } 10... e6 { [%eval 0.84] } 11. h3 $6 { [%eval 0.14] } 11...
+exd5 { [%eval 0.13] } 12. exd5 { [%eval 0.15] } 12... Bf5 { [%eval 0.27] } 13.
+Na4 $6 { [%eval -0.23] } 13... Qa6 { [%eval -0.32] } 14. Rc1 { [%eval -0.33] }
+14... Nxd5 { [%eval -0.41] } 15. Re1 { [%eval -0.48] } 15... Nb6
+{ [%eval -0.05] } 16. Nxb6 $6 { [%eval -0.77] } 16... Qxb6 { [%eval -0.72] }
+17. b3 { [%eval -1.21] } 17... Bb2 $6 { [%eval -0.54] } 18. Bd3
+{ [%eval -0.5] } 18... Rxe1+ { [%eval -0.21] } 19. Qxe1 { [%eval -0.06] } 19...
+Bxd3 $2 { [%eval 2.54] } 20. Qe8+ { [%eval 2.91] } 20... Kg7 { [%eval 2.32] }
+21. Ng5 $2 { [%eval 0.0] } 21... Qc7 { [%eval 0.0] } 22. Re1 $4
+{ [%eval -3.02] } 22... Bf6 $4 { [%eval 3.5] } 23. Bc3 $4 { [%eval 0.43] }
+23... Qd7 $4 { [%eval 4.99] } 24. Bxf6+ { [%eval 4.99] } 24... Kxf6
+{ [%eval 4.91] } 25. Nxh7+ { [%eval 4.75] } 25... Kf5 $4 { [%eval #2] } 26. g4+
+{ [%eval #1] } 26... Kf4 { [%eval #1] } 27. Qe3# 1-0

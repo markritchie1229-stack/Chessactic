@@ -1,0 +1,33 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/7odNpfyR"]
+[Site "https://lichess.org/cGXKspRq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PancratV"]
+[Black "skevis"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:21:20"]
+[WhiteElo "1855"]
+[BlackElo "1764"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e6 { [%eval 0.33] } 2. Nf3 { [%eval 0.2] } 2... d5
+{ [%eval 0.13] } 3. e5 { [%eval 0.08] } 3... c5 { [%eval 0.1] } 4. c3
+{ [%eval 0.03] } 4... Nc6 { [%eval 0.06] } 5. d4 { [%eval 0.14] } 5... Bd7
+{ [%eval 0.2] } 6. a3 { [%eval -0.04] } 6... Qb6 { [%eval 0.18] } 7. b4
+{ [%eval 0.13] } 7... cxd4 { [%eval 0.26] } 8. cxd4 { [%eval 0.24] } 8... Nge7
+$6 { [%eval 0.83] } 9. Bb2 $6 { [%eval 0.02] } 9... Ng6 $6 { [%eval 0.63] } 10.
+Nbd2 { [%eval 0.29] } 10... Be7 { [%eval 0.7] } 11. Nb3 $2 { [%eval -0.43] }
+11... O-O $2 { [%eval 0.94] } 12. Bd3 $2 { [%eval -0.65] } 12... a6 $2
+{ [%eval 0.53] } 13. O-O { [%eval 0.2] } 13... Rac8 { [%eval 0.68] } 14. Rc1
+{ [%eval 0.23] } 14... Na7 { [%eval 0.27] } 15. Bb1 { [%eval -0.06] } 15... Rc2
+$4 { [%eval 5.74] } 16. Rxc2 { [%eval 5.56] } 16... Nb5 { [%eval 5.97] } 17.
+Rc5 { [%eval 5.61] } 17... Bxc5 { [%eval 5.81] } 18. dxc5 { [%eval 5.38] }
+18... Qc6 $6 { [%eval 6.31] } 19. Qd3 $6 { [%eval 5.65] } 19... f5 $6
+{ [%eval 6.64] } 20. exf6 { [%eval 6.05] } 20... gxf6 { [%eval 6.08] } 21. h4
+{ [%eval 5.85] } 21... Nf4 $4 { [%eval #1] } 22. Qxh7# 1-0

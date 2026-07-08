@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Qo1LBGEa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Paladin_7"]
+[Black "Lexpat"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:42:44"]
+[WhiteElo "1941"]
+[BlackElo "1782"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "D32"]
+[Opening "Queen's Gambit Declined: Tarrasch Defense: 4.cxd5 exd5"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.23] } 2. c4 { [%eval 0.34] } 2... e6
+{ [%eval 0.31] } 3. Nc3 { [%eval 0.27] } 3... c5 { [%eval 0.25] } 4. cxd5
+{ [%eval 0.29] } 4... exd5 { [%eval 0.41] } 5. dxc5 { [%eval 0.1] } 5... Bxc5
+{ [%eval 0.46] } 6. Qxd5 { [%eval 0.42] } 6... Bxf2+ $4 { [%eval 4.35] } 7.
+Kxf2 { [%eval 4.33] } 7... Qf6+ { [%eval 4.28] } 8. Ke1 $6 { [%eval 3.57] }
+8... Ne7 { [%eval 3.71] } 9. Qd1 $6 { [%eval 2.76] } 9... O-O { [%eval 2.72] }
+10. Nf3 { [%eval 2.66] } 10... Bg4 $2 { [%eval 3.69] } 11. Bg5 { [%eval 3.43] }
+11... Qc6 $4 { [%eval 6.9] } 12. Bxe7 { [%eval 6.75] } 12... Re8
+{ [%eval 6.71] } 13. Bh4 { [%eval 6.78] } 13... Nd7 { [%eval 7.04] } 14. Bf2 $6
+{ [%eval 6.25] } 14... Rad8 { [%eval 6.28] } 15. Qc2 { [%eval 6.05] } 15... g6
+$2 { [%eval 7.27] } 16. h3 $6 { [%eval 6.41] } 16... Bxf3 { [%eval 6.79] } 17.
+gxf3 { [%eval 6.61] } 17... Qxf3 { [%eval 6.98] } 18. Rg1 { [%eval 6.58] }
+18... Qc6 $6 { [%eval 7.51] } 19. Bg2 { [%eval 7.24] } 19... Qe6
+{ [%eval 7.73] } 20. Kd1 $2 { [%eval 5.48] } 20... Nc5+ $2 { [%eval 6.54] } 21.
+Kc1 { [%eval 6.43] } 21... Rc8 { [%eval 6.79] } 22. Bxc5 { [%eval 6.31] } 22...
+Rxc5 { [%eval 6.45] } 23. Kb1 { [%eval 6.23] } 23... b5 { [%eval 6.46] } 24.
+Qd3 { [%eval 6.16] } 24... b4 { [%eval 6.2] } 25. Ne4 { [%eval 6.06] } 25...
+Re5 { [%eval 5.95] } 26. Nf2 $2 { [%eval 2.97] } 26... Rxe2 { [%eval 3.2] } 27.
+Ng4 $4 { [%eval 0.0] } 27... Qe7 $4 { [%eval 6.46] } 28. a3 $2 { [%eval 4.49] }
+28... Rd8 $2 { [%eval 7.06] } 29. Qxe2 $4 { [%eval -9.2] } 29... Qxe2
+{ [%eval -7.06] } 30. Ka2 $2 { [%eval #-4] } 30... Qc2 $4 { [%eval -2.0] } 31.
+Rac1 { [%eval -2.0] } 31... b3+ $2 { [%eval 0.0] } 32. Ka1 { [%eval 0.0] } 1-0

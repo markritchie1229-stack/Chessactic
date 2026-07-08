@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/BpDZ1CKK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Luben"]
+[Black "CRLegend"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:57:56"]
+[WhiteElo "1087"]
+[BlackElo "1183"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C26"]
+[Opening "Vienna Game: Falkbeer Variation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.28] } 2. Nc3 { [%eval 0.08] } 2...
+Nf6 { [%eval 0.16] } 3. d4 $6 { [%eval -0.36] } 3... Bd6 $6 { [%eval 0.27] } 4.
+Nd5 { [%eval 0.09] } 4... Nxd5 { [%eval 0.05] } 5. exd5 { [%eval 0.05] } 5...
+O-O { [%eval 0.09] } 6. dxe5 { [%eval 0.0] } 6... Bxe5 { [%eval 0.05] } 7. Nf3
+{ [%eval 0.03] } 7... Re8 { [%eval 0.1] } 8. Bg5 $4 { [%eval #-1] } 8... Bf6+
+$4 { [%eval -1.52] } 9. Be2 $2 { [%eval -3.95] } 9... Bxg5 { [%eval -3.89] }
+10. Nxg5 { [%eval -4.33] } 10... Qxg5 { [%eval -4.23] } 11. O-O
+{ [%eval -4.31] } 11... c6 $6 { [%eval -3.48] } 12. f4 { [%eval -3.79] } 12...
+Qf6 { [%eval -3.57] } 13. d6 $6 { [%eval -4.14] } 13... Re6 $6
+{ [%eval -3.53] } 14. Bc4 { [%eval -3.67] } 14... Rxd6 { [%eval -3.6] } 15.
+Bxf7+ $4 { [%eval -6.91] } 15... Kxf7 { [%eval -6.83] } 16. Qxd6 $4
+{ [%eval -14.76] } 16... Qxd6 { [%eval -14.54] } 17. Rad1 { [%eval -15.78] }
+17... Qc5+ { [%eval -15.57] } 18. Kh1 { [%eval -15.62] } 18... d5
+{ [%eval -15.28] } 19. h4 { [%eval -17.27] } 19... Bg4 { [%eval -17.06] } 20.
+b4 { [%eval -17.33] } 20... Qxb4 { [%eval -16.91] } 21. Rd3 { [%eval -17.82] }
+21... Be2 { [%eval -17.38] } 0-1

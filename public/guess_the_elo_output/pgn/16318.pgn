@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bqKxwfJP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ILYAUKRAINE"]
+[Black "SF1234"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:49:43"]
+[WhiteElo "1278"]
+[BlackElo "1445"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+49"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Reversed Mexican Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.12] } 1... d5 { [%eval -0.04] } 2. Nf3 { [%eval -0.05] }
+2... Nf6 { [%eval -0.05] } 3. d4 { [%eval -0.14] } 3... Bf5 { [%eval 0.01] } 4.
+Bg5 { [%eval -0.14] } 4... e6 { [%eval 0.06] } 5. Bxf6 { [%eval -0.18] } 5...
+Qxf6 { [%eval -0.04] } 6. h3 { [%eval -0.18] } 6... Bd6 { [%eval 0.05] } 7. Qd2
+$6 { [%eval -0.52] } 7... c6 { [%eval -0.36] } 8. Qe3 $2 { [%eval -1.51] } 8...
+Nd7 $6 { [%eval -0.88] } 9. g4 $2 { [%eval -2.11] } 9... Bg6 $6
+{ [%eval -1.42] } 10. h4 { [%eval -1.62] } 10... h6 { [%eval -1.29] } 11. h5 $2
+{ [%eval -3.9] } 11... Bh7 $2 { [%eval -1.6] } 12. Rg1 $2 { [%eval -3.98] }
+12... Bxc2 $2 { [%eval -2.25] } 13. Rc1 $4 { [%eval -5.92] } 13... Bf4
+{ [%eval -5.99] } 14. Qxf4 { [%eval -5.92] } 14... Qxf4 { [%eval -5.62] } 15.
+Rxc2 { [%eval -5.85] } 15... e5 { [%eval -5.61] } 16. Nxe5 { [%eval -5.8] }
+16... Qxd4 $2 { [%eval -4.7] } 17. Nxd7 { [%eval -4.75] } 17... Kxd7
+{ [%eval -4.69] } 18. e3 { [%eval -4.99] } 18... Rhe8 { [%eval -4.86] } 19. Be2
+{ [%eval -4.86] } 19... Qe5 { [%eval -4.63] } 20. f4 $4 { [%eval -11.52] }
+20... Qxe3 { [%eval -11.02] } 21. Na4 $6 { [%eval #-5] } 21... Qxg1+
+{ [%eval #-4] } 22. Kd2 { [%eval #-4] } 22... Qd4+ $6 { [%eval -22.88] } 23.
+Bd3 { [%eval -22.6] } 23... Qxa4 { [%eval -20.91] } 0-1

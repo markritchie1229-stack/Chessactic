@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/zdgWsFsy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MarcosRomam"]
+[Black "vitorius"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:36:09"]
+[WhiteElo "1656"]
+[BlackElo "1584"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+31"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Open"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.25] } 2. Nf3 { [%eval 0.33] } 2...
+Nc6 { [%eval 0.5] } 3. d4 { [%eval 0.27] } 3... d6 $6 { [%eval 1.23] } 4. dxc5
+$6 { [%eval 0.73] } 4... dxc5 { [%eval 1.18] } 5. Qxd8+ { [%eval 1.39] } 5...
+Nxd8 { [%eval 1.29] } 6. Bc4 { [%eval 0.86] } 6... Be6 { [%eval 1.09] } 7. Bb5+
+{ [%eval 1.11] } 7... Nc6 { [%eval 1.12] } 8. Bxc6+ { [%eval 1.1] } 8... bxc6
+{ [%eval 1.16] } 9. O-O { [%eval 0.72] } 9... g6 { [%eval 0.81] } 10. Re1
+{ [%eval 0.64] } 10... Bg7 { [%eval 0.77] } 11. Ng5 { [%eval 0.63] } 11... Bc4
+$6 { [%eval 1.37] } 12. b3 $4 { [%eval -1.68] } 12... Ba6 $2 { [%eval 1.0] }
+13. c3 $6 { [%eval 0.41] } 13... Nf6 { [%eval 0.43] } 14. e5 { [%eval 0.32] }
+14... Nd5 { [%eval 0.38] } 15. c4 { [%eval 0.0] } 15... Nb4 { [%eval 0.0] } 16.
+Na3 { [%eval -0.37] } 16... O-O { [%eval 0.0] } 17. Bb2 $6 { [%eval -0.83] }
+17... f6 $2 { [%eval 1.4] } 18. exf6 $2 { [%eval 0.3] } 18... exf6
+{ [%eval 0.39] } 19. Ne6 { [%eval 0.27] } 19... Rfe8 $6 { [%eval 0.86] } 20.
+Nc7 $6 { [%eval -0.12] } 20... Rxe1+ { [%eval -0.05] } 21. Rxe1
+{ [%eval -0.05] } 21... Rd8 { [%eval -0.04] } 22. Nxa6 { [%eval -0.36] } 22...
+Nxa6 { [%eval -0.17] } 23. Re7 $4 { [%eval #-2] } 23... Rd1+ { [%eval #-1] }
+24. Re1 { [%eval #-1] } 24... Rxe1# 0-1

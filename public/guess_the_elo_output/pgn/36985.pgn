@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rBwhOcx1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mikki_Znam"]
+[Black "joel_2607"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:53:57"]
+[WhiteElo "1400"]
+[BlackElo "1368"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.42] } 2. Nc3 { [%eval 0.11] } 2... f5
+$6 { [%eval 0.92] } 3. exf5 { [%eval 1.28] } 3... Bc5 { [%eval 1.54] } 4. Nf3
+$6 { [%eval 0.8] } 4... d6 $6 { [%eval 1.39] } 5. d3 $6 { [%eval 0.42] } 5...
+Bxf5 { [%eval 0.33] } 6. g3 $6 { [%eval -0.31] } 6... Bg4 $6 { [%eval 0.25] }
+7. Qd2 $4 { [%eval -5.29] } 7... Bxf3 { [%eval -5.14] } 8. Rg1
+{ [%eval -5.32] } 8... Nc6 { [%eval -5.26] } 9. Be2 $6 { [%eval -5.88] } 9...
+Nd4 { [%eval -5.8] } 10. b3 $4 { [%eval -12.52] } 10... Qf6 $4
+{ [%eval -6.77] } 11. Kd1 $4 { [%eval -11.04] } 11... Bxe2+ { [%eval -10.87] }
+12. Nxe2 { [%eval -10.44] } 12... Nxe2 $4 { [%eval -5.31] } 13. Qxe2
+{ [%eval -5.22] } 13... Ne7 { [%eval -5.38] } 14. Rf1 { [%eval -5.21] } 14...
+O-O { [%eval -5.33] } 15. f4 $2 { [%eval -8.27] } 15... Nd5 { [%eval -8.06] }
+16. Bd2 $2 { [%eval -11.8] } 16... exf4 { [%eval -10.39] } 17. Bxf4 $6
+{ [%eval #-8] } 17... Nc3+ $6 { [%eval -32.59] } 18. Kd2 { [%eval -29.36] }
+18... Nxe2 { [%eval -24.95] } 19. Kxe2 $6 { [%eval #-8] } 19... Qe6+ $6
+{ [%eval -17.68] } 20. Kd1 $6 { [%eval #-8] } 20... Qg4+ $6 { [%eval -19.16] }
+21. Kc1 { [%eval -19.85] } 21... Be3+ { [%eval -18.68] } 22. Bxe3 $6
+{ [%eval #-11] } 22... Rxf1+ { [%eval -109.97] } 23. Kb2 { [%eval -28.49] }
+23... Rxa1 { [%eval -26.7] } 24. Kxa1 $6 { [%eval #-9] } 24... Qe2
+{ [%eval #-8] } 25. Bd4 { [%eval #-4] } 25... Qxc2 { [%eval #-3] } 26. Bb2
+{ [%eval #-2] } 26... Rf8 $6 { [%eval #-2] } 27. d4 { [%eval #-2] } 27... Rf1+
+{ [%eval #-1] } 28. Bc1 { [%eval #-1] } 28... Qxc1# 0-1

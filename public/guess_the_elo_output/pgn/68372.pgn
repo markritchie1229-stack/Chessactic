@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/PqZfNGUK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Raulramonramiro"]
+[Black "nikitasamochin"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:54:37"]
+[WhiteElo "896"]
+[BlackElo "1253"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+7"]
+[ECO "C46"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.36] } 2... Nf6
+{ [%eval 0.47] } 3. Bc4 $6 { [%eval -0.15] } 3... Nc6 { [%eval 0.28] } 4. Nc3
+{ [%eval 0.04] } 4... h6 { [%eval 0.27] } 5. a3 { [%eval -0.01] } 5... g6 $6
+{ [%eval 0.77] } 6. b4 $6 { [%eval 0.22] } 6... a6 { [%eval 0.34] } 7. d3
+{ [%eval 0.35] } 7... b5 { [%eval 0.5] } 8. Bb3 { [%eval 0.42] } 8... Rb8
+{ [%eval 0.68] } 9. d4 { [%eval 0.48] } 9... exd4 { [%eval 0.46] } 10. Nxd4
+{ [%eval 0.44] } 10... Nxd4 { [%eval 0.43] } 11. Qxd4 { [%eval 0.36] } 11...
+Bb7 $6 { [%eval 1.04] } 12. Bf4 $6 { [%eval 0.25] } 12... Bg7 { [%eval 0.34] }
+13. e5 $6 { [%eval -0.24] } 13... Ng4 $2 { [%eval 0.85] } 14. Nd5 $2
+{ [%eval -0.66] } 14... Bxd5 $2 { [%eval 0.92] } 15. Qxd5 { [%eval 0.76] }
+15... O-O { [%eval 0.78] } 16. c4 $2 { [%eval -0.72] } 16... d6 $6
+{ [%eval -0.04] } 17. cxb5 $2 { [%eval -1.94] } 17... Rxb5 $2 { [%eval -0.45] }
+18. Qc6 $2 { [%eval -3.14] } 18... Nxe5 $2 { [%eval -1.72] } 19. Qxa6 $4
+{ [%eval -5.16] } 19... Rb8 $4 { [%eval -0.39] } 20. a4 $4 { [%eval -5.17] }
+20... Nf3+ $2 { [%eval -3.09] } 21. gxf3 { [%eval -3.04] } 21... Bxa1 $2
+{ [%eval -1.47] } 22. Qe2 $4 { [%eval -6.47] } 22... Rxb4 { [%eval -6.2] } 23.
+Bxf7+ $4 { [%eval -10.61] } 23... Rxf7 { [%eval -10.25] } 24. Rg1
+{ [%eval -52.95] } 24... Rb1+ { [%eval -29.27] } 25. Kd2 { [%eval -28.83] }
+25... Rxg1 { [%eval -23.62] } 0-1

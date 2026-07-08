@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/KsdWMOXD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DHNL"]
+[Black "Bhuvan02"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:30:11"]
+[WhiteElo "1462"]
+[BlackElo "1256"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.1] } 1... a6 { [%eval 0.16] } 2. c4 { [%eval 0.16] } 2... b5
+{ [%eval 0.5] } 3. d4 { [%eval 0.37] } 3... c5 { [%eval 0.65] } 4. dxc5
+{ [%eval 0.38] } 4... e6 { [%eval 0.42] } 5. b4 { [%eval 0.46] } 5... bxc4 $6
+{ [%eval 1.04] } 6. Bxc4 $2 { [%eval 0.04] } 6... Bb7 { [%eval 0.12] } 7. Nf3
+{ [%eval 0.11] } 7... g5 $2 { [%eval 2.47] } 8. O-O $6 { [%eval 1.75] } 8... g4
+{ [%eval 2.24] } 9. Ne5 { [%eval 2.06] } 9... Bg7 { [%eval 2.1] } 10. Bb2
+{ [%eval 2.16] } 10... Qc7 { [%eval 1.97] } 11. Qd4 $4 { [%eval -1.96] } 11...
+Bxe5 $4 { [%eval 2.95] } 12. Qxe5 { [%eval 2.95] } 12... Qxe5 { [%eval 2.85] }
+13. Bxe5 { [%eval 2.81] } 13... f6 { [%eval 2.83] } 14. Bd6 $6 { [%eval 2.22] }
+14... Nc6 { [%eval 2.14] } 15. a3 { [%eval 2.1] } 15... a5 $6 { [%eval 2.97] }
+16. Nc3 { [%eval 3.03] } 16... axb4 $6 { [%eval 3.67] } 17. axb4
+{ [%eval 3.11] } 17... Rxa1 { [%eval 3.31] } 18. Rxa1 { [%eval 3.24] } 18...
+Nxb4 $2 { [%eval 5.2] } 19. Ra7 $4 { [%eval 2.08] } 19... Bc6 { [%eval 2.05] }
+20. Bb5 $6 { [%eval 1.12] } 20... Bxb5 $6 { [%eval 1.71] } 21. Ra8+
+{ [%eval 1.56] } 21... Kf7 { [%eval 1.52] } 22. Nxb5 { [%eval 1.5] } 22... Nd3
+$2 { [%eval 3.39] } 23. Rf8+ $6 { [%eval 2.67] } 23... Kg7 $6 { [%eval 3.53] }
+24. Nc7 $6 { [%eval 2.83] } 24... Nh6 $4 { [%eval 9.47] } 25. Ne8+
+{ [%eval 9.28] } 25... Kg6 { [%eval 9.08] } 26. Rxh8 { [%eval 8.85] } 26... Kf7
+$2 { [%eval 13.64] } 1-0

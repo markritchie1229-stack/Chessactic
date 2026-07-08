@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cktHGxs6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SarSamMel"]
+[Black "rossoneri"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:18:07"]
+[WhiteElo "1671"]
+[BlackElo "1370"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-3"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "0+4"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... e5 $6 { [%eval 0.89] } 2. c4 $2 { [%eval -0.11] }
+2... exd4 { [%eval -0.02] } 3. Qxd4 { [%eval -0.22] } 3... Nf6
+{ [%eval -0.12] } 4. Qd1 { [%eval -0.44] } 4... Nc6 { [%eval -0.16] } 5. a3
+{ [%eval -0.41] } 5... Bc5 $6 { [%eval 0.11] } 6. Nc3 { [%eval 0.0] } 6... a6
+{ [%eval 0.16] } 7. b4 { [%eval -0.33] } 7... Ba7 $6 { [%eval 0.32] } 8. Nf3
+{ [%eval 0.27] } 8... d6 { [%eval 0.25] } 9. e3 { [%eval 0.18] } 9... Bg4
+{ [%eval 0.35] } 10. Be2 { [%eval 0.38] } 10... Qe7 { [%eval 0.34] } 11. O-O
+{ [%eval 0.47] } 11... O-O-O $6 { [%eval 1.14] } 12. Bb2 { [%eval 0.76] } 12...
+Bxf3 { [%eval 1.12] } 13. Bxf3 { [%eval 1.15] } 13... h6 $2 { [%eval 2.24] }
+14. Bxc6 { [%eval 2.24] } 14... bxc6 { [%eval 2.36] } 15. Qa4 { [%eval 2.15] }
+15... Kb7 { [%eval 2.18] } 16. b5 { [%eval 2.14] } 16... cxb5 $6
+{ [%eval 2.71] } 17. cxb5 { [%eval 2.83] } 17... Qd7 $2 { [%eval 4.04] } 18.
+Qxa6+ { [%eval 3.7] } 18... Kb8 $2 { [%eval 5.0] } 19. Rab1 $2 { [%eval 3.18] }
+19... Ne8 $4 { [%eval 6.92] } 20. Ne2 $2 { [%eval 4.75] } 20... Rc8 $4
+{ [%eval #9] } 21. Nd4 { [%eval #8] } 21... Ka8 { [%eval #4] } 22. Nc6
+{ [%eval #3] } 22... Qxc6 { [%eval #3] } 23. bxc6 $6 { [%eval #3] } 23... Rb8
+{ [%eval #3] } 24. Bd4 { [%eval #2] } 24... Nf6 { [%eval #1] } 25. Qxa7# 1-0

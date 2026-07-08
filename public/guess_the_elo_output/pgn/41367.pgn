@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/kw1hgjI9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "floydian94"]
+[Black "vahram"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:56:25"]
+[WhiteElo "2082"]
+[BlackElo "1933"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "900+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... b6 { [%eval 0.6] } 2. Bc4 { [%eval 0.17] } 2... Bb7
+{ [%eval 0.13] } 3. Nc3 { [%eval 0.17] } 3... e6 { [%eval 0.0] } 4. Qe2
+{ [%eval -0.07] } 4... Bb4 { [%eval 0.3] } 5. d3 $6 { [%eval -0.25] } 5...
+Bxc3+ { [%eval -0.03] } 6. bxc3 { [%eval -0.06] } 6... Nc6 { [%eval 0.17] } 7.
+a4 { [%eval -0.23] } 7... Qf6 { [%eval 0.08] } 8. Bd2 { [%eval 0.0] } 8... Na5
+{ [%eval 0.0] } 9. Ba2 { [%eval 0.0] } 9... Ne7 { [%eval 0.0] } 10. Nf3
+{ [%eval 0.0] } 10... h6 { [%eval 0.11] } 11. O-O { [%eval 0.03] } 11... g5 $6
+{ [%eval 0.8] } 12. Nd4 { [%eval 0.67] } 12... a6 $6 { [%eval 1.39] } 13. f4
+{ [%eval 1.66] } 13... Qg6 $6 { [%eval 2.23] } 14. f5 { [%eval 2.19] } 14...
+Qh7 { [%eval 2.25] } 15. fxe6 { [%eval 2.22] } 15... fxe6 { [%eval 2.14] } 16.
+c4 { [%eval 1.79] } 16... Nac6 { [%eval 2.27] } 17. Nxc6 { [%eval 2.18] } 17...
+Nxc6 { [%eval 2.47] } 18. Bc3 $6 { [%eval 1.72] } 18... Rg8 { [%eval 2.02] }
+19. d4 { [%eval 1.79] } 19... Qe7 $2 { [%eval 4.24] } 20. Qh5+ { [%eval 4.07] }
+20... Kd8 { [%eval 4.21] } 21. Rf7 { [%eval 3.35] } 21... Qa3 $2
+{ [%eval 4.69] } 22. Bb3 { [%eval 4.57] } 22... Qd6 { [%eval 4.53] } 23. e5
+{ [%eval 4.09] } 23... Nxe5 { [%eval 3.99] } 24. dxe5 { [%eval 3.72] } 24...
+Qc6 $2 { [%eval 5.08] } 25. Qf3 $2 { [%eval 3.2] } 25... Qc5+ $6
+{ [%eval 3.89] } 26. Qf2 { [%eval 3.75] } 26... Qc6 $4 { [%eval #2] } 27. Rf8+
+{ [%eval #1] } 1-0

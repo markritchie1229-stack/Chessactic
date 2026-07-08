@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/hDnrbHC1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "garabito"]
+[Black "libertinus"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:37:25"]
+[WhiteElo "1646"]
+[BlackElo "1652"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "A45"]
+[Opening "Trompowsky Attack"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.21] } 1... Nf6 { [%eval 0.15] } 2. Bg5 { [%eval 0.04] } 2...
+d6 { [%eval 0.3] } 3. Bxf6 { [%eval 0.26] } 3... gxf6 { [%eval 0.4] } 4. Nc3
+{ [%eval 0.41] } 4... Bg7 { [%eval 0.62] } 5. e3 { [%eval 0.61] } 5... Nc6
+{ [%eval 0.49] } 6. Nge2 { [%eval 0.44] } 6... Bf5 $6 { [%eval 1.02] } 7. g3 $6
+{ [%eval 0.26] } 7... Qd7 $6 { [%eval 1.12] } 8. Bg2 $6 { [%eval 0.25] } 8...
+O-O-O { [%eval 0.73] } 9. Qd2 $6 { [%eval 0.14] } 9... Nb4 $6 { [%eval 0.69] }
+10. e4 { [%eval 0.77] } 10... Bg6 { [%eval 0.91] } 11. f4 $6 { [%eval 0.12] }
+11... h5 $6 { [%eval 0.88] } 12. a3 { [%eval 0.88] } 12... Nc6 $6
+{ [%eval 1.85] } 13. O-O-O $2 { [%eval 0.05] } 13... e6 { [%eval 0.23] } 14.
+Bh3 { [%eval -0.18] } 14... Kb8 { [%eval -0.07] } 15. f5 { [%eval -0.1] } 15...
+Bh7 $2 { [%eval 1.43] } 16. Nf4 { [%eval 1.0] } 16... e5 $2 { [%eval 2.01] }
+17. Nxh5 { [%eval 1.95] } 17... Rdg8 { [%eval 2.36] } 18. Nxg7 { [%eval 2.38] }
+18... Rxg7 { [%eval 2.31] } 19. Qh6 { [%eval 2.13] } 19... Rgg8
+{ [%eval 2.18] } 20. Qxf6 { [%eval 1.91] } 20... Nxd4 { [%eval 1.93] } 21. Bf1
+{ [%eval 1.75] } 21... a6 { [%eval 2.06] } 22. Bc4 { [%eval 1.73] } 22... Rf8
+{ [%eval 1.79] } 23. Ne2 $2 { [%eval 0.73] } 23... Nxe2+ $2 { [%eval 2.84] }
+24. Bxe2 { [%eval 2.77] } 24... Qc6 { [%eval 3.05] } 25. Rd5 $6
+{ [%eval 2.43] } 25... Qe8 $6 { [%eval 3.14] } 26. h4 { [%eval 2.69] } 26...
+Rfg8 $6 { [%eval 3.4] } 27. g4 { [%eval 3.4] } 27... Qf8 { [%eval 3.4] } 28. g5
+{ [%eval 3.4] } 28... Rg7 $2 { [%eval 4.85] } 29. h5 { [%eval 4.33] } 29... Bg8
+$4 { [%eval 8.96] } 30. h6 { [%eval 8.72] } 30... Rgh7 { [%eval 8.71] } 31. g6
+{ [%eval 8.38] } 31... Rxh6 { [%eval 8.09] } 32. Rxh6 $4 { [%eval -0.45] }
+32... Rxh6 $4 { [%eval 2.78] } 0-1

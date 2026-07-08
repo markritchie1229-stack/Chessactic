@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/vota3i0H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LaFa"]
+[Black "ARCHAVATAR72"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:02:23"]
+[WhiteElo "1759"]
+[BlackElo "1616"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "B02"]
+[Opening "Alekhine Defense: John Tracy Gambit"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.42] } 1... Nf6 { [%eval 0.62] } 2. Nf3 $2 { [%eval -0.6] }
+2... d5 $2 { [%eval 0.75] } 3. Nc3 $2 { [%eval -0.89] } 3... dxe4
+{ [%eval -0.73] } 4. Ne5 { [%eval -1.1] } 4... Bf5 $6 { [%eval -0.57] } 5. d4
+{ [%eval -0.81] } 5... Nd5 $4 { [%eval 2.54] } 6. Bc4 $2 { [%eval -0.18] } 6...
+Nxc3 $4 { [%eval #1] } 7. bxc3 $4 { [%eval 0.99] } 7... Qd6 $4 { [%eval 4.67] }
+8. Nxf7 { [%eval 4.38] } 8... Qf6 $2 { [%eval 6.52] } 9. Nxh8 { [%eval 6.45] }
+9... e6 $2 { [%eval 7.64] } 10. h4 $6 { [%eval 6.97] } 10... c5 $4
+{ [%eval 14.99] } 11. Bg5 { [%eval 14.47] } 11... Qg6 { [%eval 20.43] } 12. g4
+{ [%eval 17.58] } 12... Bxg4 { [%eval 18.31] } 13. Qxg4 { [%eval 13.58] } 13...
+Qxg5 { [%eval 30.42] } 14. hxg5 { [%eval 28.16] } 14... Be7 $6 { [%eval #7] }
+15. Qxe6 { [%eval #12] } 15... Nc6 { [%eval #6] } 16. Qf7+ $6 { [%eval 27.34] }
+16... Kd7 { [%eval 23.33] } 17. Qxg7 { [%eval 22.38] } 17... Re8
+{ [%eval 29.17] } 18. dxc5 { [%eval 27.36] } 18... Kc7 { [%eval 26.53] } 19.
+O-O-O { [%eval 24.44] } 19... Nb4 $6 { [%eval #4] } 20. cxb4 $6 { [%eval #6] }
+20... b5 { [%eval #5] } 21. Bxb5 { [%eval #4] } 1-0

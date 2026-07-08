@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/gD3n6Zwb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "A-Alves"]
+[Black "rodrigo_ximenes"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:16:24"]
+[WhiteElo "1572"]
+[BlackElo "1760"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Nimzowitsch System"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.24] } 1... e6 { [%eval 0.29] } 2. d4 { [%eval 0.15] } 2... d5
+{ [%eval 0.14] } 3. e5 { [%eval 0.1] } 3... c5 { [%eval 0.11] } 4. Nf3
+{ [%eval -0.27] } 4... Nc6 { [%eval 0.07] } 5. c4 $6 { [%eval -0.7] } 5... cxd4
+{ [%eval -0.66] } 6. Nxd4 { [%eval -0.73] } 6... Nxe5 { [%eval -0.45] } 7. cxd5
+{ [%eval -0.48] } 7... Qxd5 { [%eval -0.26] } 8. Bb5+ { [%eval -0.66] } 8...
+Bd7 { [%eval -0.61] } 9. Bxd7+ $6 { [%eval -1.53] } 9... Qxd7 { [%eval -1.53] }
+10. O-O $2 { [%eval -4.02] } 10... Rd8 { [%eval -3.91] } 11. Be3
+{ [%eval -4.2] } 11... Nc6 { [%eval -4.05] } 12. Nc3 { [%eval -4.19] } 12...
+Bb4 $4 { [%eval -0.33] } 13. Ncb5 { [%eval -0.72] } 13... Nge7
+{ [%eval -0.27] } 14. a3 { [%eval -0.67] } 14... Bc5 $2 { [%eval 0.69] } 15. b4
+$4 { [%eval -5.2] } 15... Bxd4 { [%eval -5.04] } 16. Nxd4 { [%eval -5.12] }
+16... Nxd4 { [%eval -5.03] } 17. Bxd4 { [%eval -5.05] } 17... Qxd4
+{ [%eval -5.07] } 18. Qa4+ { [%eval -5.05] } 18... Nc6 { [%eval -4.93] } 19.
+Rad1 { [%eval -5.05] } 19... Qb6 { [%eval -4.97] } 20. Rxd8+ { [%eval -5.05] }
+20... Qxd8 { [%eval -4.87] } 21. Rd1 { [%eval -5.05] } 21... Qb6
+{ [%eval -5.1] } 22. b5 { [%eval -5.08] } 22... Ne5 { [%eval -4.96] } 23. Qf4
+{ [%eval -5.28] } 23... Qc7 $6 { [%eval -4.5] } 24. a4 $6 { [%eval -5.1] }
+24... O-O { [%eval -4.96] } 0-1

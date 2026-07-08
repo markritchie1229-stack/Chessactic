@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vRN8KlVt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kaidokuuppa"]
+[Black "seventhh"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:52:57"]
+[WhiteElo "1702"]
+[BlackElo "1722"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+49"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation, Barmen Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.35] } 2. c3 { [%eval 0.26] } 2... d5
+{ [%eval 0.26] } 3. exd5 { [%eval 0.22] } 3... Qxd5 { [%eval 0.31] } 4. d4
+{ [%eval 0.17] } 4... Nf6 { [%eval 0.13] } 5. Be3 { [%eval 0.0] } 5... cxd4
+{ [%eval 0.16] } 6. cxd4 { [%eval 0.05] } 6... e6 { [%eval 0.31] } 7. Nc3
+{ [%eval 0.29] } 7... Bb4 { [%eval 0.35] } 8. Ne2 { [%eval 0.07] } 8... O-O
+{ [%eval 0.07] } 9. Nf4 $6 { [%eval -0.48] } 9... Qa5 { [%eval -0.49] } 10. Qb3
+{ [%eval -0.55] } 10... Ne4 $6 { [%eval 0.0] } 11. Ne2 $6 { [%eval -0.54] }
+11... Nc6 { [%eval -0.39] } 12. g3 $2 { [%eval -1.73] } 12... e5
+{ [%eval -1.5] } 13. dxe5 { [%eval -1.97] } 13... Nxe5 $6 { [%eval -1.3] } 14.
+Bg2 { [%eval -1.37] } 14... Nd3+ $6 { [%eval -0.83] } 15. Kf1 { [%eval -0.72] }
+15... Nexf2 $6 { [%eval 0.23] } 16. Bxf2 { [%eval 0.19] } 16... Bg4
+{ [%eval 0.14] } 17. Ne4 $2 { [%eval -2.79] } 17... Nxf2 $2 { [%eval 0.0] } 18.
+Kxf2 $2 { [%eval -1.39] } 18... Rfe8 $2 { [%eval 0.71] } 19. a3 $2
+{ [%eval -2.15] } 19... Bc5+ { [%eval -2.27] } 20. Kf1 { [%eval -2.44] } 20...
+Bxe2+ $2 { [%eval -0.64] } 21. Kxe2 { [%eval -0.66] } 21... Kh8 $6
+{ [%eval 0.16] } 22. Qxf7 $4 { [%eval -9.1] } 22... Qb5+ { [%eval -8.35] } 23.
+Kd1 $2 { [%eval #-10] } 23... Qxb2 $6 { [%eval -10.69] } 24. Rc1 $6
+{ [%eval #-4] } 24... Rad8+ { [%eval #-3] } 25. Ke1 { [%eval #-3] } 25... Qxc1+
+{ [%eval #-2] } 26. Ke2 { [%eval #-2] } 26... Qd2+ $6 { [%eval #-6] } 27. Kf3
+{ [%eval #-6] } 27... Qe3+ { [%eval #-13] } 28. Kg4 { [%eval #-13] } 28...
+Rxe4+ { [%eval #-13] } 29. Bxe4 { [%eval #-13] } 29... Qxe4+ { [%eval #-14] }
+30. Kh3 { [%eval #-12] } 30... Qxh1 { [%eval #-12] } 0-1

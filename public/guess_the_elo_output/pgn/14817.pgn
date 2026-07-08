@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jNr4vgTC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RGrimez"]
+[Black "garbarek"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:47:12"]
+[WhiteElo "1328"]
+[BlackElo "1649"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+3"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "180+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.21] } 2. Be3 $6 { [%eval -0.29] }
+2... Nc6 { [%eval -0.06] } 3. Nc3 { [%eval -0.41] } 3... Bf5 { [%eval -0.2] }
+4. Nf3 { [%eval -0.21] } 4... Nb4 { [%eval 0.12] } 5. Rc1 { [%eval 0.01] } 5...
+e6 { [%eval 0.09] } 6. Ne5 { [%eval -0.23] } 6... Bd6 { [%eval -0.13] } 7. Bf4
+{ [%eval -0.45] } 7... Nf6 { [%eval 0.0] } 8. f3 { [%eval -0.47] } 8... c6 $2
+{ [%eval 0.79] } 9. g3 $2 { [%eval -0.22] } 9... O-O { [%eval -0.1] } 10. a3
+{ [%eval -0.29] } 10... Na6 { [%eval 0.02] } 11. g4 { [%eval 0.0] } 11... Bg6
+{ [%eval 0.0] } 12. Nxg6 $6 { [%eval -0.74] } 12... hxg6 $6 { [%eval -0.17] }
+13. Bxd6 { [%eval -0.15] } 13... Qxd6 { [%eval -0.21] } 14. e3
+{ [%eval -0.06] } 14... Nh7 { [%eval 0.27] } 15. f4 { [%eval 0.0] } 15... g5
+{ [%eval -0.07] } 16. fxg5 { [%eval -0.5] } 16... Nxg5 { [%eval -0.44] } 17. h3
+$4 { [%eval -5.32] } 17... Qg3+ { [%eval -5.18] } 18. Kd2 { [%eval -5.18] }
+18... Nf3+ $2 { [%eval -2.89] } 19. Kd3 { [%eval -2.86] } 19... c5
+{ [%eval -2.53] } 20. Be2 $4 { [%eval #-1] } 20... c4# 0-1

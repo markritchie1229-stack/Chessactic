@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/INyKrvm7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nLilac"]
+[Black "pgabriel"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:56:03"]
+[WhiteElo "1468"]
+[BlackElo "1497"]
+[WhiteRatingDiff "-32"]
+[BlackRatingDiff "+9"]
+[ECO "C44"]
+[Opening "Ponziani Opening: Jaenisch Counterattack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.27] } 2...
+Nc6 { [%eval 0.29] } 3. c3 { [%eval -0.15] } 3... Nf6 { [%eval 0.11] } 4. d4
+{ [%eval -0.02] } 4... exd4 { [%eval 0.12] } 5. cxd4 $6 { [%eval -0.6] } 5...
+Nxe4 { [%eval -0.5] } 6. d5 { [%eval -0.91] } 6... Bb4+ { [%eval -0.5] } 7.
+Nbd2 { [%eval -0.44] } 7... Nxd2 { [%eval -0.18] } 8. Bxd2 { [%eval -0.22] }
+8... Bxd2+ { [%eval -0.07] } 9. Qxd2 { [%eval -0.44] } 9... Ne7
+{ [%eval -0.3] } 10. Qg5 { [%eval -0.77] } 10... O-O { [%eval -0.72] } 11. Bd3
+{ [%eval -0.89] } 11... d6 { [%eval -0.79] } 12. O-O { [%eval -0.85] } 12... b6
+$6 { [%eval 0.0] } 13. Qh4 $6 { [%eval -0.54] } 13... Ng6 { [%eval -0.45] } 14.
+Bxg6 { [%eval -0.94] } 14... Qxh4 { [%eval -0.93] } 15. Bxf7+ { [%eval -1.0] }
+15... Rxf7 { [%eval -0.85] } 16. Nxh4 { [%eval -1.07] } 16... Rf4 $2
+{ [%eval 0.0] } 17. Nf3 $6 { [%eval -0.93] } 17... Bb7 { [%eval -0.92] } 18.
+Rad1 { [%eval -1.06] } 18... Rf5 { [%eval -1.0] } 19. Rfe1 { [%eval -1.37] }
+19... Rxd5 { [%eval -1.33] } 20. Rxd5 { [%eval -1.32] } 20... Bxd5
+{ [%eval -1.21] } 21. Re7 { [%eval -1.55] } 21... Bxf3 $6 { [%eval -0.73] } 22.
+gxf3 { [%eval -0.72] } 22... c5 { [%eval -0.51] } 23. f4 $6 { [%eval -1.09] }
+23... g6 { [%eval -0.68] } 24. h4 { [%eval -1.1] } 24... d5 { [%eval -1.02] }
+25. Kg2 { [%eval -1.39] } 25... d4 { [%eval -1.36] } 26. Kf3 { [%eval -1.64] }
+0-1

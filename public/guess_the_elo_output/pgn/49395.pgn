@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Nuq2DUSc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChessYouth"]
+[Black "quentinG"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:07:57"]
+[WhiteElo "1292"]
+[BlackElo "1306"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B06"]
+[Opening "Modern Defense"]
+[TimeControl "2400+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... g6 { [%eval 0.61] } 2. d4 { [%eval 0.62] } 2... c6
+{ [%eval 0.81] } 3. Nc3 { [%eval 0.6] } 3... Bg7 { [%eval 0.61] } 4. Nf3
+{ [%eval 0.44] } 4... d5 { [%eval 0.6] } 5. e5 { [%eval 0.33] } 5... f6
+{ [%eval 0.47] } 6. exf6 { [%eval 0.47] } 6... exf6 { [%eval 0.61] } 7. Qe2+ $6
+{ [%eval 0.04] } 7... Ne7 { [%eval 0.02] } 8. b3 { [%eval -0.16] } 8... O-O
+{ [%eval -0.2] } 9. Qd3 { [%eval -0.34] } 9... Na6 { [%eval -0.15] } 10. Ba3 $6
+{ [%eval -0.67] } 10... Re8 { [%eval -0.45] } 11. Be2 { [%eval -0.57] } 11...
+Nf5 { [%eval -0.52] } 12. O-O { [%eval -0.53] } 12... b5 { [%eval -0.37] } 13.
+Bc1 { [%eval -0.71] } 13... Nc7 { [%eval -0.72] } 14. b4 $2 { [%eval -1.91] }
+14... a5 { [%eval -2.02] } 15. bxa5 $2 { [%eval -4.0] } 15... b4
+{ [%eval -3.96] } 16. Na4 $2 { [%eval -6.57] } 16... Ba6 { [%eval -6.45] } 17.
+Qb3 { [%eval -6.43] } 17... Bxe2 { [%eval -6.23] } 18. Re1 $2 { [%eval -7.89] }
+18... Bxf3 { [%eval -7.68] } 19. Rxe8+ $6 { [%eval -8.67] } 19... Nxe8 $2
+{ [%eval -7.56] } 20. Qxf3 $2 { [%eval -9.39] } 20... Qxa5 { [%eval -9.05] }
+21. Nc5 $6 { [%eval -12.17] } 21... Nxd4 { [%eval -11.93] } 22. Qe3
+{ [%eval -12.62] } 22... Qxc5 { [%eval -12.41] } 23. Bb2 { [%eval -12.51] }
+23... f5 { [%eval -12.11] } 24. Rd1 { [%eval -17.27] } 24... Qxc2
+{ [%eval -16.49] } 25. Rd2 $6 { [%eval #-4] } 25... Qb1+ { [%eval #-3] } 26.
+Bc1 { [%eval #-3] } 26... Qxc1+ { [%eval #-2] } 27. Rd1 { [%eval #-2] } 27...
+Qxd1+ { [%eval #-1] } 28. Qe1 { [%eval #-1] } 28... Qxe1# 0-1

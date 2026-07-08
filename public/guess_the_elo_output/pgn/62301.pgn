@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/SmgBpG8d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "badBoyOnnet"]
+[Black "KUBA226"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:56:34"]
+[WhiteElo "1423"]
+[BlackElo "1585"]
+[WhiteRatingDiff "+23"]
+[BlackRatingDiff "-14"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #3"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.21] } 2. e3 { [%eval 0.21] } 2... Nf6
+{ [%eval 0.2] } 3. c4 { [%eval 0.09] } 3... e6 { [%eval 0.17] } 4. c5 $6
+{ [%eval -0.52] } 4... b6 { [%eval -0.58] } 5. b4 $6 { [%eval -1.1] } 5... bxc5
+$2 { [%eval 0.32] } 6. bxc5 { [%eval 0.3] } 6... c6 { [%eval 0.27] } 7. Nf3
+{ [%eval 0.29] } 7... Ne4 { [%eval 0.72] } 8. Nbd2 { [%eval 0.53] } 8... Qa5
+{ [%eval 0.66] } 9. Bd3 $2 { [%eval -0.8] } 9... Nxd2 $2 { [%eval 1.22] } 10.
+Bxd2 { [%eval 1.21] } 10... Qd8 $6 { [%eval 1.93] } 11. O-O { [%eval 1.52] }
+11... a5 { [%eval 1.71] } 12. Qc2 { [%eval 1.45] } 12... h6 $6 { [%eval 2.4] }
+13. a4 $2 { [%eval 1.18] } 13... Be7 { [%eval 1.27] } 14. Rfb1 { [%eval 1.16] }
+14... Ba6 $6 { [%eval 1.89] } 15. Rb2 $6 { [%eval 1.12] } 15... Bxd3
+{ [%eval 1.22] } 16. Qxd3 { [%eval 0.93] } 16... O-O { [%eval 1.1] } 17. Rab1
+{ [%eval 0.97] } 17... Na6 $6 { [%eval 1.69] } 18. Ne5 { [%eval 1.87] } 18...
+Qc8 { [%eval 1.79] } 19. Bxa5 $6 { [%eval 0.83] } 19... Nxc5 { [%eval 0.85] }
+20. dxc5 { [%eval 0.7] } 20... Rxa5 { [%eval 0.78] } 21. Rb8 $2
+{ [%eval -0.53] } 21... Qxb8 { [%eval -0.44] } 22. Rxb8 { [%eval -0.41] } 22...
+Rxb8 { [%eval -0.33] } 23. Nxc6 { [%eval -0.3] } 23... Rb1+ $4
+{ [%eval 16.67] } 24. Qxb1 { [%eval 15.76] } 24... Rxa4 { [%eval 20.09] } 25.
+Nxe7+ { [%eval 16.57] } 1-0

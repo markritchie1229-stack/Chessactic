@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IbG7xKgR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ivan_Bispo"]
+[Black "KloppForTheKop"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:56:34"]
+[WhiteElo "1500"]
+[BlackElo "1602"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Reversed Sicilian"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.01] } 1... e5 { [%eval 0.03] } 2. Nc3 { [%eval 0.03] } 2... c6
+$6 { [%eval 0.75] } 3. d4 $6 { [%eval 0.22] } 3... d6 { [%eval 0.68] } 4. Nf3
+{ [%eval 0.6] } 4... f6 $6 { [%eval 1.17] } 5. g3 { [%eval 0.97] } 5... g5
+{ [%eval 1.04] } 6. Bg2 { [%eval 0.89] } 6... g4 { [%eval 1.26] } 7. Nh4
+{ [%eval 1.41] } 7... b5 $2 { [%eval 3.91] } 8. Qd3 $2 { [%eval 1.86] } 8...
+Nd7 $4 { [%eval 5.41] } 9. Be3 $2 { [%eval 2.7] } 9... Bh6 $2 { [%eval 5.37] }
+10. Bxh6 $6 { [%eval 4.65] } 10... Nxh6 { [%eval 4.47] } 11. Rd1 $2
+{ [%eval 2.82] } 11... e4 $4 { [%eval 6.1] } 12. Qxe4+ { [%eval 5.87] } 12...
+Qe7 $2 { [%eval 8.75] } 13. Qxc6 { [%eval 8.6] } 13... Rb8 { [%eval 8.62] } 14.
+Nd5 { [%eval 8.25] } 14... Qd8 $6 { [%eval 8.98] } 15. Qxd6 $2 { [%eval 7.95] }
+15... Rb6 $2 { [%eval 19.25] } 16. Qf4 $2 { [%eval 8.94] } 16... bxc4 $2
+{ [%eval 11.38] } 17. Qxh6 { [%eval 10.92] } 17... Rd6 { [%eval 11.36] } 18.
+O-O { [%eval 11.16] } 18... Rxd5 { [%eval 12.41] } 19. Bxd5 { [%eval 12.0] }
+19... Qc7 { [%eval 18.76] } 20. Nf5 { [%eval 15.47] } 20... c3 $6
+{ [%eval #9] } 21. Qh5+ $6 { [%eval 15.23] } 21... Kf8 $6 { [%eval #1] } 22.
+Qf7# 1-0

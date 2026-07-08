@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/nqXmFh2U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "newpusher"]
+[Black "ahmedfaroukhameed"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:00:51"]
+[WhiteElo "2021"]
+[BlackElo "2002"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "D32"]
+[Opening "Tarrasch Defense: Symmetrical Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.15] } 1... d5 { [%eval 0.22] } 2. c4 { [%eval 0.11] } 2... e6
+{ [%eval 0.15] } 3. e3 { [%eval 0.14] } 3... c5 { [%eval 0.21] } 4. d4
+{ [%eval 0.1] } 4... Nc6 { [%eval 0.1] } 5. Nc3 { [%eval 0.08] } 5... Nf6
+{ [%eval 0.06] } 6. Bd3 { [%eval -0.06] } 6... a6 { [%eval 0.21] } 7. a4
+{ [%eval -0.15] } 7... Be7 { [%eval -0.16] } 8. O-O { [%eval -0.18] } 8... O-O
+{ [%eval -0.1] } 9. cxd5 { [%eval -0.24] } 9... exd5 { [%eval -0.14] } 10. Re1
+{ [%eval -0.6] } 10... Re8 { [%eval -0.3] } 11. Bd2 { [%eval -0.61] } 11... h6
+{ [%eval -0.29] } 12. Rb1 $6 { [%eval -0.86] } 12... Be6 $6 { [%eval -0.36] }
+13. Na2 $6 { [%eval -0.91] } 13... Rc8 { [%eval -0.83] } 14. dxc5
+{ [%eval -0.77] } 14... Bxc5 { [%eval -0.59] } 15. b4 { [%eval -0.98] } 15...
+Ba7 $6 { [%eval -0.41] } 16. b5 { [%eval -0.6] } 16... axb5 { [%eval -0.43] }
+17. axb5 { [%eval -0.55] } 17... Ne7 { [%eval -0.32] } 18. Ne5 $6
+{ [%eval -0.91] } 18... Qd6 $6 { [%eval -0.25] } 19. Bc3 $4 { [%eval -3.33] }
+19... Rxc3 $2 { [%eval -1.87] } 20. Nxc3 $2 { [%eval -2.88] } 20... Qxe5
+{ [%eval -2.64] } 21. b6 $4 { [%eval -6.58] } 21... Bb8 { [%eval -6.46] } 22.
+Ne2 $4 { [%eval -15.99] } 22... Qxh2+ { [%eval -15.66] } 23. Kf1
+{ [%eval -15.55] } 23... Qh1+ { [%eval -15.15] } 24. Ng1 { [%eval -14.92] }
+24... Bh2 { [%eval -14.4] } 25. Ke2 { [%eval -16.66] } 25... Bg4+
+{ [%eval -15.61] } 26. Nf3 { [%eval -20.67] } 26... Qxg2 { [%eval -20.23] } 27.
+Kd2 { [%eval -19.61] } 27... Bxf3 { [%eval -18.27] } 28. Qb3 $6
+{ [%eval #-12] } 28... Qxf2+ { [%eval #-12] } 29. Be2 { [%eval #-13] } 29...
+Nf5 { [%eval #-15] } 0-1

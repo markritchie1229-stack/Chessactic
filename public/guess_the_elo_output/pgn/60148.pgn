@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/x13w2n9Y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pikatunti"]
+[Black "piskowien"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:24:55"]
+[WhiteElo "1754"]
+[BlackElo "1831"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+8"]
+[ECO "C26"]
+[Opening "Vienna Game: Stanley Variation, Reversed Spanish"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.41] } 1... e5 { [%eval 0.46] } 2. Nc3 { [%eval 0.15] } 2...
+Nf6 { [%eval 0.13] } 3. Bc4 { [%eval 0.02] } 3... Bb4 { [%eval 0.21] } 4. d3
+{ [%eval -0.18] } 4... O-O { [%eval 0.01] } 5. Nf3 { [%eval -0.01] } 5... d6
+{ [%eval 0.01] } 6. Bd2 { [%eval -0.07] } 6... Bc5 { [%eval 0.0] } 7. O-O
+{ [%eval -0.14] } 7... Ng4 $6 { [%eval 0.84] } 8. h3 { [%eval 0.52] } 8... Nxf2
+$2 { [%eval 1.54] } 9. Rxf2 { [%eval 1.5] } 9... Bxf2+ { [%eval 1.56] } 10.
+Kxf2 { [%eval 1.45] } 10... Kh8 { [%eval 1.64] } 11. a3 { [%eval 1.52] } 11...
+f5 $2 { [%eval 2.72] } 12. Nd5 $2 { [%eval 1.13] } 12... fxe4 { [%eval 1.2] }
+13. dxe4 { [%eval 0.97] } 13... c6 { [%eval 1.12] } 14. Ne3 { [%eval 0.68] }
+14... Qf6 $6 { [%eval 1.28] } 15. Kg1 { [%eval 1.23] } 15... Qg6 $2
+{ [%eval 2.96] } 16. Bd3 $2 { [%eval 1.16] } 16... Bxh3 { [%eval 1.15] } 17.
+Qe2 $6 { [%eval 0.42] } 17... Bd7 $6 { [%eval 1.26] } 18. Rf1 { [%eval 1.04] }
+18... Na6 { [%eval 1.03] } 19. Nf5 { [%eval 0.73] } 19... Nc5 { [%eval 0.63] }
+20. N5h4 $6 { [%eval -0.2] } 20... Qf7 $6 { [%eval 0.46] } 21. Nxe5 $2
+{ [%eval -2.38] } 21... Qxf1+ { [%eval -2.36] } 22. Qxf1 { [%eval -2.29] }
+22... Rxf1+ { [%eval -2.28] } 23. Bxf1 $6 { [%eval -3.12] } 23... dxe5
+{ [%eval -2.95] } 0-1

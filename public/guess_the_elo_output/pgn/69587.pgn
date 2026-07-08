@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/cjq5CpiO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KnightStand"]
+[Black "oficer82"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:53:26"]
+[WhiteElo "1170"]
+[BlackElo "1425"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+47"]
+[ECO "C20"]
+[Opening "King's Pawn Game: King's Head Opening #2"]
+[TimeControl "180+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.39] } 2. f3 $2 { [%eval -0.71] } 2...
+Nc6 { [%eval -0.62] } 3. d3 { [%eval -0.96] } 3... b6 $6 { [%eval -0.39] } 4.
+Nc3 { [%eval -0.44] } 4... Bb7 { [%eval -0.15] } 5. Nge2 { [%eval -0.45] } 5...
+Nf6 { [%eval -0.27] } 6. Ng3 { [%eval -0.45] } 6... g6 { [%eval -0.3] } 7. Be2
+{ [%eval -0.68] } 7... Bg7 { [%eval -0.37] } 8. O-O { [%eval -0.68] } 8... O-O
+{ [%eval -0.5] } 9. f4 { [%eval -0.62] } 9... h5 $2 { [%eval 0.73] } 10. fxe5
+{ [%eval 0.86] } 10... Ng4 { [%eval 1.07] } 11. Bxg4 { [%eval 0.66] } 11...
+hxg4 { [%eval 0.81] } 12. Qxg4 { [%eval 0.89] } 12... Nxe5 { [%eval 0.69] } 13.
+Qe2 { [%eval 0.48] } 13... f5 $2 { [%eval 2.32] } 14. Nd5 $4 { [%eval -0.69] }
+14... fxe4 $6 { [%eval 0.2] } 15. Qxe4 { [%eval 0.16] } 15... c6
+{ [%eval 0.17] } 16. Rxf8+ { [%eval 0.07] } 16... Bxf8 $2 { [%eval 1.7] } 17.
+Nf4 { [%eval 1.62] } 17... Bc5+ $2 { [%eval 3.47] } 18. Kh1 $2 { [%eval 1.09] }
+18... Qg5 $2 { [%eval 3.72] } 19. Ne6 $2 { [%eval 1.25] } 19... Qf6 $2
+{ [%eval 2.72] } 20. Nc7 $2 { [%eval -0.21] } 20... Rc8 { [%eval 0.0] } 21. Bh6
+{ [%eval 0.0] } 21... Rxc7 { [%eval 0.0] } 22. d4 { [%eval 0.0] } 22... d5
+{ [%eval 0.2] } 23. Qe3 $4 { [%eval -4.02] } 23... Ng4 { [%eval -3.97] } 24.
+Qd3 $4 { [%eval -23.24] } 24... Nf2+ { [%eval -21.57] } 0-1

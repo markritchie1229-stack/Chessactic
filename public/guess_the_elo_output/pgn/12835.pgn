@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Vo38Cwsa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gaby42"]
+[Black "DanilButakov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:17:52"]
+[WhiteElo "1559"]
+[BlackElo "1578"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-15"]
+[ECO "A00"]
+[Opening "Van Geet Opening"]
+[TimeControl "1800+15"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval 0.0] } 1... e6 { [%eval 0.31] } 2. Nf3 { [%eval 0.04] } 2... d6
+{ [%eval 0.45] } 3. d4 { [%eval 0.46] } 3... c6 { [%eval 0.62] } 4. e4
+{ [%eval 0.52] } 4... b5 { [%eval 0.84] } 5. a4 $6 { [%eval 0.23] } 5... b4
+{ [%eval 0.45] } 6. Na2 { [%eval 0.39] } 6... Qa5 $6 { [%eval 1.04] } 7. c3
+{ [%eval 0.77] } 7... d5 { [%eval 0.99] } 8. cxb4 { [%eval 0.97] } 8... Bxb4+
+{ [%eval 1.02] } 9. Bd2 $2 { [%eval 0.0] } 9... Bxd2+ { [%eval 0.0] } 10. Qxd2
+{ [%eval -0.02] } 10... Qxa4 { [%eval 0.21] } 11. exd5 { [%eval 0.22] } 11...
+exd5 $6 { [%eval 1.07] } 12. Bd3 { [%eval 1.22] } 12... Ba6 $2 { [%eval 2.42] }
+13. O-O { [%eval 2.09] } 13... f6 $4 { [%eval 9.85] } 14. Nb4 { [%eval 9.61] }
+14... Qb3 { [%eval 11.33] } 15. Ra3 { [%eval 10.95] } 15... Bxd3
+{ [%eval 11.47] } 16. Rxb3 { [%eval 10.96] } 16... Bxf1 { [%eval 11.09] } 17.
+Kxf1 { [%eval 10.24] } 17... Ne7 { [%eval 10.24] } 18. Re3 $2 { [%eval 7.24] }
+18... Nd7 $2 { [%eval 12.91] } 19. Qe2 { [%eval 12.34] } 19... O-O
+{ [%eval 16.64] } 20. Rxe7 { [%eval 15.62] } 20... Rab8 { [%eval 19.79] } 21.
+Nxc6 { [%eval 18.61] } 21... Rb6 $6 { [%eval #8] } 22. Rxd7 { [%eval #8] }
+22... Rxc6 { [%eval #5] } 23. Rxa7 $6 { [%eval 12.74] } 23... g5 $6
+{ [%eval #5] } 24. Qe7 { [%eval #4] } 24... Rf7 { [%eval #2] } 25. Qxf7+
+{ [%eval #1] } 25... Kh8 { [%eval #1] } 26. Qxh7# 1-0

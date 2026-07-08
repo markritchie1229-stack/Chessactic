@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/iLMhDyJ5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "taiou"]
+[Black "Sandrello"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:57:36"]
+[WhiteElo "1848"]
+[BlackElo "1876"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "E06"]
+[Opening "Catalan Opening: Closed Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... e6 { [%eval 0.24] } 2. c4 { [%eval 0.26] } 2... d5
+{ [%eval 0.32] } 3. Nf3 { [%eval 0.13] } 3... Nf6 { [%eval 0.22] } 4. g3
+{ [%eval 0.09] } 4... Be7 { [%eval 0.09] } 5. Bg2 { [%eval 0.08] } 5... c6
+{ [%eval 0.19] } 6. O-O { [%eval 0.15] } 6... O-O { [%eval 0.22] } 7. Nc3
+{ [%eval 0.19] } 7... Nbd7 { [%eval 0.18] } 8. b3 { [%eval 0.15] } 8... Re8
+{ [%eval 0.27] } 9. Bb2 { [%eval 0.25] } 9... a6 { [%eval 0.35] } 10. a4
+{ [%eval 0.18] } 10... Rb8 { [%eval 0.22] } 11. Qc2 { [%eval 0.2] } 11... a5
+{ [%eval 0.58] } 12. e4 { [%eval 0.63] } 12... dxe4 { [%eval 0.58] } 13. Nxe4
+{ [%eval 0.5] } 13... Nxe4 { [%eval 0.55] } 14. Qxe4 { [%eval 0.5] } 14... Nf6
+$6 { [%eval 1.04] } 15. Qc2 { [%eval 0.57] } 15... Qc7 { [%eval 0.87] } 16.
+Rac1 { [%eval 0.52] } 16... c5 $6 { [%eval 1.23] } 17. Rfd1 { [%eval 0.99] }
+17... cxd4 { [%eval 1.0] } 18. Nxd4 { [%eval 0.85] } 18... Bd7 { [%eval 0.81] }
+19. Bc3 { [%eval 0.53] } 19... Red8 { [%eval 0.78] } 20. Rd2 { [%eval 0.51] }
+20... Ne8 { [%eval 0.9] } 21. Rcd1 { [%eval 0.83] } 21... Bg5 { [%eval 1.06] }
+22. f4 $6 { [%eval 0.53] } 22... Bf6 { [%eval 0.58] } 23. Kh1 { [%eval 0.52] }
+23... Nd6 $6 { [%eval 1.15] } 24. Nb5 { [%eval 0.95] } 24... Nxb5 $2
+{ [%eval 2.57] } 25. Bxf6 { [%eval 2.39] } 25... gxf6 { [%eval 2.48] } 26. cxb5
+$2 { [%eval 0.11] } 26... Be8 $4 { [%eval 20.38] } 27. Qxc7 { [%eval 19.45] }
+1-0

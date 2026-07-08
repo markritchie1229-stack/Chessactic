@@ -1,0 +1,35 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/kYmO8gSt"]
+[Site "https://lichess.org/S7BlAPy9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TripleBassist"]
+[Black "NeoM"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:27:59"]
+[WhiteElo "1263"]
+[BlackElo "1641"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+2"]
+[ECO "A00"]
+[Opening "Nimzo-Larsen Attack: Graz Attack"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.27] } 1... d5 { [%eval 0.08] } 2. Ba3 $6 { [%eval -0.46] }
+2... Nc6 { [%eval -0.22] } 3. Nc3 { [%eval -0.53] } 3... e5 { [%eval -0.6] } 4.
+Nxd5 $4 { [%eval -3.79] } 4... Bxa3 { [%eval -3.85] } 5. Nxc7+ $4
+{ [%eval -6.87] } 5... Qxc7 { [%eval -6.85] } 6. b4 $2 { [%eval -7.93] } 6...
+Bxb4 { [%eval -7.97] } 7. c3 { [%eval -7.78] } 7... Bc5 { [%eval -7.52] } 8. c4
+$2 { [%eval -9.25] } 8... Bd4 $6 { [%eval -8.31] } 9. e3 $2 { [%eval -9.85] }
+9... Bxa1 { [%eval -9.72] } 10. d3 { [%eval -17.54] } 10... Bc3+
+{ [%eval -15.93] } 11. Qd2 { [%eval -28.56] } 11... Bxd2+ { [%eval -28.14] }
+12. Kxd2 { [%eval -27.71] } 12... Nf6 { [%eval -26.56] } 13. g3
+{ [%eval -32.75] } 13... O-O { [%eval -27.19] } 14. Bh3 { [%eval -30.2] } 14...
+Bxh3 { [%eval -29.67] } 15. Nxh3 { [%eval -29.22] } 15... e4 { [%eval -28.02] }
+16. Ng5 { [%eval -35.19] } 16... exd3 { [%eval -29.93] } 17. Kxd3 $6
+{ [%eval #-6] } 17... Ne5+ { [%eval #-5] } 18. Ke2 { [%eval #-4] } 18... Qxc4+
+{ [%eval #-3] } 19. Ke1 { [%eval #-3] } 19... Qc1+ $6 { [%eval #-4] } 20. Ke2
+{ [%eval #-4] } 20... Qxh1 $6 { [%eval #-4] } 21. f3 { [%eval #-3] } 21...
+Qxh2+ $6 { [%eval #-3] } 22. Kf1 { [%eval #-2] } 22... Rac8 { [%eval #-1] } 23.
+f4 { [%eval #-1] } 23... Rc1# 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tqWpPSnu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "knopflerforpresident"]
+[Black "praxb4-mps"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:01:24"]
+[WhiteElo "1120"]
+[BlackElo "1140"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+68"]
+[ECO "C46"]
+[Opening "Four Knights Game"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.13] } 2...
+Nc6 { [%eval 0.2] } 3. Nc3 { [%eval 0.11] } 3... Nf6 { [%eval 0.12] } 4. d3
+{ [%eval -0.25] } 4... Bc5 { [%eval 0.0] } 5. Be2 { [%eval 0.02] } 5... d6
+{ [%eval 0.01] } 6. O-O { [%eval -0.14] } 6... O-O { [%eval 0.11] } 7. Ng5 $6
+{ [%eval -0.49] } 7... Qe7 { [%eval -0.15] } 8. Qd2 { [%eval -0.51] } 8... Be6
+$6 { [%eval 0.13] } 9. Kh1 $6 { [%eval -0.55] } 9... a6 { [%eval -0.16] } 10.
+f4 { [%eval -0.5] } 10... exf4 { [%eval -0.35] } 11. Rxf4 { [%eval -0.79] }
+11... Bd4 $6 { [%eval -0.02] } 12. Qe1 $6 { [%eval -0.66] } 12... d5 $6
+{ [%eval 0.29] } 13. Rxf6 $2 { [%eval -2.14] } 13... Bxf6 { [%eval -2.04] } 14.
+Qh4 $2 { [%eval -4.6] } 14... Bxg5 $2 { [%eval -1.97] } 15. Bxg5
+{ [%eval -1.97] } 15... f6 { [%eval -2.01] } 16. Bh5 $4 { [%eval -7.78] } 16...
+fxg5 { [%eval -7.47] } 17. Qg3 { [%eval -7.47] } 17... Rac8 $4
+{ [%eval -3.98] } 18. exd5 { [%eval -4.0] } 18... Bxd5 $2 { [%eval -2.4] } 19.
+h3 $4 { [%eval -6.54] } 19... Bf7 { [%eval -6.33] } 20. Rf1 $4
+{ [%eval -11.19] } 20... Bxh5 { [%eval -10.98] } 21. Nd5 { [%eval -19.35] }
+21... Qe5 { [%eval -11.63] } 22. Qxe5 { [%eval -16.17] } 22... Nxe5
+{ [%eval -9.99] } 23. Ne7+ { [%eval -9.77] } 23... Kh8 { [%eval -9.43] } 24.
+Nxc8 $6 { [%eval -15.93] } 24... Rxf1+ { [%eval -15.39] } 25. Kh2
+{ [%eval -14.86] } 25... g4 { [%eval -12.77] } 26. hxg4 { [%eval -14.77] }
+26... Nxg4+ { [%eval -14.29] } 27. Kg3 { [%eval -14.24] } 27... Ne3
+{ [%eval -13.67] } 28. Kh4 { [%eval -14.16] } 28... Rh1+ { [%eval -13.83] } 29.
+Kg5 { [%eval -14.89] } 29... h6+ { [%eval -14.77] } 30. Kf4 { [%eval -14.56] }
+30... Nxg2+ { [%eval -14.18] } 0-1

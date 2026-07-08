@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/yNPMC0ch"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Saltstraumen"]
+[Black "IziGo"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:29:21"]
+[WhiteElo "1637"]
+[BlackElo "1639"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-10"]
+[ECO "A40"]
+[Opening "English Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... b6 { [%eval 0.55] } 2. e4 { [%eval 0.39] } 2... Bb7
+{ [%eval 0.5] } 3. d5 $6 { [%eval -0.08] } 3... g6 $6 { [%eval 0.53] } 4. c3 $6
+{ [%eval -0.03] } 4... Bg7 { [%eval 0.16] } 5. Nf3 { [%eval -0.1] } 5... c6
+{ [%eval -0.04] } 6. c4 { [%eval -0.1] } 6... cxd5 { [%eval 0.13] } 7. exd5
+{ [%eval 0.0] } 7... b5 $6 { [%eval 0.67] } 8. cxb5 { [%eval 0.41] } 8... Qa5+
+$6 { [%eval 1.14] } 9. Bd2 { [%eval 1.07] } 9... Qb6 { [%eval 1.4] } 10. Nc3
+{ [%eval 1.25] } 10... Nf6 { [%eval 1.54] } 11. Be3 { [%eval 1.44] } 11... Qa5
+{ [%eval 1.57] } 12. Bc4 { [%eval 1.65] } 12... Ne4 $6 { [%eval 2.27] } 13. O-O
+{ [%eval 1.89] } 13... Bxc3 $2 { [%eval 3.75] } 14. bxc3 { [%eval 3.41] } 14...
+Nxc3 $2 { [%eval 6.25] } 15. Qb3 { [%eval 5.79] } 15... Ne4 { [%eval 5.38] }
+16. Bd4 $2 { [%eval 4.37] } 16... f6 $4 { [%eval 7.9] } 17. Rfe1
+{ [%eval 6.87] } 17... f5 $4 { [%eval 10.4] } 18. Ne5 $4 { [%eval 5.68] } 18...
+Nf6 $4 { [%eval 13.07] } 19. Bc5 $6 { [%eval 9.02] } 19... d6 $6
+{ [%eval 10.02] } 20. Bxd6 { [%eval 6.85] } 20... Kf8 $4 { [%eval 19.36] } 21.
+Bb4 { [%eval 11.41] } 21... Qc7 { [%eval 11.21] } 22. Rac1 { [%eval 10.84] }
+22... Nbd7 { [%eval 21.74] } 23. Nc6 $6 { [%eval 9.39] } 23... Ng4 $6
+{ [%eval 17.58] } 24. Bxe7+ { [%eval 16.39] } 24... Kg8 { [%eval 27.5] } 25.
+d6+ { [%eval 24.5] } 1-0

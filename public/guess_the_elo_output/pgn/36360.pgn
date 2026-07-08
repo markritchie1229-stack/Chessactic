@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/e1qLdlAp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bosonogiy"]
+[Black "MaryTr"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:24:58"]
+[WhiteElo "1579"]
+[BlackElo "1348"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-6"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.36] } 2... d6
+{ [%eval 0.4] } 3. h3 { [%eval 0.2] } 3... Be7 { [%eval 0.27] } 4. Bb5+
+{ [%eval -0.1] } 4... Bd7 { [%eval 0.29] } 5. Bxd7+ { [%eval 0.2] } 5... Qxd7
+{ [%eval 0.26] } 6. O-O { [%eval 0.2] } 6... Nf6 { [%eval 0.39] } 7. Nc3
+{ [%eval 0.35] } 7... O-O { [%eval 0.39] } 8. d4 { [%eval 0.35] } 8... exd4
+{ [%eval 0.47] } 9. Nxd4 { [%eval 0.51] } 9... d5 $6 { [%eval 1.12] } 10. exd5
+$6 { [%eval 0.46] } 10... Nxd5 { [%eval 0.44] } 11. Nxd5 { [%eval 0.14] } 11...
+Qxd5 { [%eval 0.2] } 12. Re1 { [%eval 0.08] } 12... Re8 { [%eval 0.27] } 13.
+Bf4 { [%eval 0.04] } 13... c5 $2 { [%eval 1.47] } 14. Nf3 $2 { [%eval 0.39] }
+14... Qxd1 { [%eval 0.45] } 15. Raxd1 { [%eval 0.38] } 15... Nc6
+{ [%eval 0.51] } 16. Rd7 { [%eval 0.48] } 16... Rad8 $2 { [%eval 1.75] } 17.
+Rxb7 { [%eval 1.64] } 17... Bf6 { [%eval 2.07] } 18. Rxe8+ { [%eval 2.06] }
+18... Rxe8 { [%eval 2.04] } 19. b3 { [%eval 1.67] } 19... Re2 $2
+{ [%eval 2.73] } 20. Rc7 { [%eval 2.6] } 20... Nd4 $4 { [%eval #3] } 21. Rc8+
+{ [%eval #2] } 1-0

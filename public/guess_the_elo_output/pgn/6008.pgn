@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/q8M5VHwN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Maratus"]
+[Black "KrizKhalifa"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:32:00"]
+[WhiteElo "1392"]
+[BlackElo "1318"]
+[WhiteRatingDiff "+23"]
+[BlackRatingDiff "-8"]
+[ECO "A03"]
+[Opening "Bird Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.19] } 1... Nf6 { [%eval -0.24] } 2. Nc3 { [%eval -0.45] }
+2... d5 { [%eval -0.41] } 3. d4 { [%eval -0.39] } 3... c5 { [%eval -0.37] } 4.
+Nf3 { [%eval -0.47] } 4... cxd4 { [%eval -0.52] } 5. Nxd4 { [%eval -0.56] }
+5... e6 { [%eval -0.58] } 6. e3 { [%eval -0.61] } 6... Bc5 { [%eval -0.5] } 7.
+Bd3 { [%eval -0.51] } 7... Bxd4 $6 { [%eval 0.1] } 8. exd4 { [%eval 0.03] }
+8... O-O { [%eval 0.03] } 9. O-O { [%eval 0.0] } 9... Nc6 { [%eval 0.03] } 10.
+Ne2 { [%eval -0.29] } 10... Qb6 { [%eval 0.1] } 11. c3 { [%eval 0.01] } 11...
+a6 { [%eval 0.26] } 12. Ng3 { [%eval 0.13] } 12... Nxd4 $4 { [%eval 4.03] } 13.
+cxd4 $2 { [%eval 2.49] } 13... Qxd4+ { [%eval 2.91] } 14. Kh1 { [%eval 2.49] }
+14... e5 $6 { [%eval 3.11] } 15. fxe5 { [%eval 3.11] } 15... Qxe5
+{ [%eval 3.44] } 16. Bf4 { [%eval 3.64] } 16... Qxb2 { [%eval 3.24] } 17. Bg5
+$6 { [%eval 2.62] } 17... Bg4 $4 { [%eval 6.2] } 18. Qe1 $4 { [%eval 2.18] }
+18... Rfe8 { [%eval 2.5] } 19. Qa5 $6 { [%eval 1.55] } 19... b6 $2
+{ [%eval 3.47] } 20. Qd2 $2 { [%eval 1.1] } 20... Qd4 $4 { [%eval 13.47] } 21.
+Bxh7+ { [%eval 12.52] } 21... Kxh7 { [%eval 18.34] } 22. Qxd4 { [%eval 15.91] }
+22... Be2 { [%eval 21.26] } 23. Nxe2 { [%eval 20.19] } 23... Rxe2 $6
+{ [%eval #13] } 24. Bxf6 { [%eval 29.92] } 24... gxf6 $6 { [%eval #9] } 25.
+Qh4+ $6 { [%eval 48.78] } 25... Kg6 $6 { [%eval #4] } 26. Rxf6+ $6
+{ [%eval #5] } 26... Kg7 { [%eval #5] } 27. Qh6+ $6 { [%eval #6] } 1-0

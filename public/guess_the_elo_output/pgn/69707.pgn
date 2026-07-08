@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/HwQwuAXD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bahiachess"]
+[Black "marstons"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:59:38"]
+[WhiteElo "2022"]
+[BlackElo "2063"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... d5 { [%eval 0.67] } 2. exd5 { [%eval 0.65] } 2...
+Qxd5 { [%eval 0.75] } 3. d4 $6 { [%eval 0.16] } 3... c6 $6 { [%eval 0.92] } 4.
+Nf3 { [%eval 0.98] } 4... Bg4 { [%eval 0.97] } 5. c3 $6 { [%eval 0.24] } 5...
+Bxf3 { [%eval 0.24] } 6. Qxf3 { [%eval 0.14] } 6... Qxf3 { [%eval 0.22] } 7.
+gxf3 { [%eval 0.22] } 7... Nf6 { [%eval 0.18] } 8. Rg1 { [%eval 0.06] } 8... e6
+{ [%eval 0.25] } 9. Bg5 { [%eval -0.1] } 9... Nbd7 { [%eval 0.08] } 10. Nd2
+{ [%eval -0.12] } 10... Bd6 { [%eval -0.03] } 11. h3 { [%eval -0.07] } 11... h6
+{ [%eval 0.11] } 12. Bh4 { [%eval -0.24] } 12... O-O-O $2 { [%eval 0.77] } 13.
+Ne4 $6 { [%eval -0.07] } 13... Be7 $6 { [%eval 0.85] } 14. Rxg7
+{ [%eval 0.81] } 14... Rdf8 { [%eval 0.87] } 15. Nxf6 { [%eval 0.75] } 15...
+Nxf6 { [%eval 0.74] } 16. Bd3 { [%eval 0.73] } 16... Kd7 { [%eval 0.81] } 17.
+Bxf6 { [%eval 0.55] } 17... Bxf6 { [%eval 0.52] } 18. Rg1 { [%eval 0.44] }
+18... Bh4 { [%eval 0.79] } 19. Ke2 { [%eval 0.66] } 19... f6 $2 { [%eval 1.7] }
+20. Rg7+ { [%eval 1.73] } 20... Kc8 { [%eval 1.78] } 21. Rag1 { [%eval 1.32] }
+21... f5 { [%eval 1.81] } 22. Bc4 { [%eval 1.79] } 22... Re8 $6
+{ [%eval 2.41] } 23. f4 { [%eval 2.4] } 23... a5 { [%eval 2.62] } 24. a3
+{ [%eval 2.41] } 24... b5 { [%eval 2.34] } 25. Ba2 { [%eval 2.36] } 25... Bd8
+{ [%eval 2.62] } 26. R1g6 { [%eval 2.37] } 26... Bc7 $2 { [%eval 3.8] } 27. Kf3
+{ [%eval 3.74] } 27... c5 $2 { [%eval 4.82] } 28. Rxe6 $6 { [%eval 4.16] }
+28... cxd4 $4 { [%eval #10] } 29. Rc6 { [%eval #10] } 1-0

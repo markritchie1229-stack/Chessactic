@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Axk5Z7mi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rheuven"]
+[Black "hesh41"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:03:14"]
+[WhiteElo "1625"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+15"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation, Nimzowitsch-Flohr Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.19] } 1... e5 $6 { [%eval 0.98] } 2. c4 $2 { [%eval -0.12] }
+2... e4 { [%eval -0.02] } 3. Nd4 { [%eval -0.03] } 3... c5 { [%eval 0.37] } 4.
+Nb3 { [%eval 0.33] } 4... b6 { [%eval 0.52] } 5. d4 { [%eval 0.45] } 5... exd3
+{ [%eval 0.48] } 6. exd3 { [%eval 0.46] } 6... Bb7 { [%eval 0.5] } 7. f3 $2
+{ [%eval -0.5] } 7... Nf6 { [%eval -0.45] } 8. Bg5 { [%eval -0.58] } 8... Be7
+{ [%eval -0.56] } 9. Nc3 { [%eval -0.89] } 9... O-O { [%eval -0.68] } 10. Qd2
+$6 { [%eval -1.39] } 10... a5 { [%eval -1.34] } 11. a4 { [%eval -1.55] } 11...
+Nc6 { [%eval -1.11] } 12. Kd1 $2 { [%eval -2.22] } 12... Nd4 $6
+{ [%eval -1.47] } 13. Nxd4 { [%eval -1.55] } 13... cxd4 { [%eval -1.31] } 14.
+Nb5 { [%eval -1.48] } 14... Ba6 $6 { [%eval -0.69] } 15. Kc2 { [%eval -1.1] }
+15... Bxb5 { [%eval -1.1] } 16. axb5 { [%eval -1.11] } 16... Nd5 $6
+{ [%eval -0.59] } 17. g3 $4 { [%eval -5.97] } 17... Nb4+ $2 { [%eval -4.85] }
+18. Kb3 $4 { [%eval -8.06] } 18... a4+ $4 { [%eval -1.82] } 19. Rxa4
+{ [%eval -1.73] } 19... Rxa4 { [%eval -1.29] } 20. Kxa4 $4 { [%eval #-2] }
+20... Qa8+ { [%eval #-1] } 21. Kb3 { [%eval #-1] } 21... Qa2# 0-1

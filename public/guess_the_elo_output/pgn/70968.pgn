@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/erwsC7Fn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tiglatpilesar"]
+[Black "ThrekMate"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:06:18"]
+[WhiteElo "1837"]
+[BlackElo "1835"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B53"]
+[Opening "Sicilian Defense: Modern Variations, Tartakower"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.26] } 2. Nf3 { [%eval 0.33] } 2... d6
+{ [%eval 0.32] } 3. d4 { [%eval 0.23] } 3... cxd4 { [%eval 0.35] } 4. c3 $6
+{ [%eval -0.29] } 4... Nf6 { [%eval -0.11] } 5. e5 { [%eval -0.36] } 5... dxe5
+{ [%eval -0.3] } 6. Nxe5 { [%eval -0.25] } 6... e6 { [%eval -0.15] } 7. cxd4
+{ [%eval -0.29] } 7... Bb4+ { [%eval -0.03] } 8. Nc3 { [%eval -0.1] } 8... O-O
+{ [%eval 0.02] } 9. Bg5 { [%eval -0.34] } 9... h6 { [%eval -0.13] } 10. Bxf6
+{ [%eval -0.3] } 10... Qxf6 { [%eval -0.29] } 11. a3 { [%eval -0.47] } 11...
+Ba5 { [%eval -0.46] } 12. Bc4 $6 { [%eval -1.12] } 12... Nc6 { [%eval -0.98] }
+13. O-O { [%eval -1.2] } 13... Bxc3 { [%eval -1.11] } 14. bxc3
+{ [%eval -1.29] } 14... Nxe5 { [%eval -1.31] } 15. dxe5 { [%eval -1.22] } 15...
+Qxe5 { [%eval -1.28] } 16. Qb3 { [%eval -1.37] } 16... Rb8 { [%eval -1.06] }
+17. Rfe1 { [%eval -1.26] } 17... Qc5 { [%eval -1.05] } 18. a4 { [%eval -1.2] }
+18... b6 { [%eval -1.18] } 19. Re3 { [%eval -1.17] } 19... Bb7 { [%eval -1.2] }
+20. Rae1 $6 { [%eval -1.87] } 20... Rbc8 { [%eval -1.74] } 21. Re5 $4
+{ [%eval -6.3] } 21... Qxc4 { [%eval -6.12] } 0-1

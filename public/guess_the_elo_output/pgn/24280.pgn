@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GNfLTWeh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Caravela16"]
+[Black "maestro1996"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:48:39"]
+[WhiteElo "1486"]
+[BlackElo "1515"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Declined, Dubois Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.43] } 2. d4 { [%eval 0.1] } 2... cxd4
+{ [%eval 0.18] } 3. c3 { [%eval -0.12] } 3... d3 $6 { [%eval 0.7] } 4. c4
+{ [%eval 0.31] } 4... Nc6 { [%eval 0.41] } 5. Nc3 { [%eval 0.38] } 5... d6
+{ [%eval 0.54] } 6. Bxd3 { [%eval 0.47] } 6... Nf6 { [%eval 0.54] } 7. Nf3
+{ [%eval 0.21] } 7... e6 { [%eval 0.56] } 8. O-O { [%eval 0.37] } 8... h6
+{ [%eval 0.68] } 9. a3 { [%eval 0.45] } 9... Be7 { [%eval 0.42] } 10. Qc2
+{ [%eval 0.46] } 10... a5 { [%eval 0.84] } 11. Rd1 { [%eval 0.64] } 11... O-O
+{ [%eval 0.66] } 12. e5 { [%eval 0.33] } 12... Nxe5 { [%eval 0.72] } 13. Nxe5
+{ [%eval 0.68] } 13... dxe5 { [%eval 0.76] } 14. Bh7+ { [%eval 0.77] } 14...
+Kh8 $4 { [%eval 5.24] } 15. Rxd8 { [%eval 5.12] } 15... Rxd8 { [%eval 5.16] }
+16. Be4 { [%eval 5.13] } 16... Nxe4 { [%eval 5.09] } 17. Nxe4 $6
+{ [%eval 4.42] } 17... b6 $2 { [%eval 5.49] } 18. Be3 { [%eval 5.35] } 18...
+Bb7 { [%eval 5.69] } 19. Bxb6 { [%eval 5.67] } 19... Rd4 $2 { [%eval 8.66] }
+20. Bxd4 { [%eval 8.61] } 20... exd4 { [%eval 8.59] } 21. Qd3 { [%eval 8.36] }
+21... Rd8 { [%eval 8.42] } 22. f3 { [%eval 8.15] } 22... f5 $6 { [%eval 9.0] }
+23. Ng3 { [%eval 8.58] } 23... Bc5 $2 { [%eval 9.89] } 24. Re1 { [%eval 9.78] }
+24... Rd6 { [%eval 12.86] } 25. Kf2 { [%eval 10.81] } 25... Bc6
+{ [%eval 13.49] } 26. b4 { [%eval 13.35] } 26... axb4 { [%eval 13.17] } 27.
+axb4 { [%eval 12.81] } 27... Bxb4 { [%eval 12.74] } 28. Rb1 { [%eval 12.08] }
+28... Bc5 $6 { [%eval #25] } 29. Rb8+ { [%eval 59.52] } 29... Kh7
+{ [%eval 56.45] } 30. Nxf5 { [%eval 47.78] } 30... exf5 { [%eval 25.21] } 31.
+Qxf5+ { [%eval 16.85] } 31... g6 $6 { [%eval #1] } 32. Qxc5 $6 { [%eval #5] }
+32... Rf6 { [%eval #2] } 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/L0MJtsz4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sepehr2008"]
+[Black "TinyKey"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:19:06"]
+[WhiteElo "1813"]
+[BlackElo "1811"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Kiel Variation"]
+[TimeControl "1800+20"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... d5 { [%eval 0.74] } 2. exd5 { [%eval 0.62] } 2...
+Nf6 { [%eval 0.68] } 3. d4 { [%eval 0.62] } 3... Nxd5 { [%eval 0.7] } 4. c4
+{ [%eval 0.6] } 4... Nb4 $6 { [%eval 1.27] } 5. Qa4+ { [%eval 1.12] } 5... N8c6
+{ [%eval 1.21] } 6. d5 $2 { [%eval -0.73] } 6... b5 { [%eval -0.65] } 7. cxb5
+$6 { [%eval -1.28] } 7... Bf5 { [%eval -0.95] } 8. Na3 $6 { [%eval -1.85] }
+8... Qxd5 { [%eval -1.95] } 9. bxc6 $2 { [%eval -3.0] } 9... Qe4+
+{ [%eval -2.6] } 10. Kd2 $4 { [%eval #-9] } 10... Rd8+ { [%eval #-8] } 11. Kc3
+{ [%eval #-8] } 11... Qe1+ { [%eval #-9] } 12. Kb3 { [%eval #-9] } 12... Qd1+
+{ [%eval #-8] } 13. Kxb4 { [%eval #-8] } 13... e6+ $4 { [%eval -4.75] } 14. Ka5
+{ [%eval -3.62] } 14... Rd5+ $4 { [%eval 1.33] } 15. Nb5 $4 { [%eval -3.99] }
+15... Qxf1 { [%eval -3.87] } 16. Bf4 $4 { [%eval -12.47] } 16... Qxa1
+{ [%eval -11.93] } 17. Bxc7 $6 { [%eval #-12] } 17... Qxb2 $6
+{ [%eval -21.25] } 18. Bb8 $6 { [%eval #-4] } 18... Bd3 $6 { [%eval #-4] } 19.
+c7 { [%eval #-4] } 19... Rxb5+ $6 { [%eval #-4] } 20. Ka6 { [%eval #-4] } 20...
+Qc3 { [%eval #-3] } 21. Qxb5+ { [%eval #-3] } 21... Bxb5+ { [%eval #-2] } 22.
+Kxb5 { [%eval #-2] } 22... Qc5+ { [%eval #-1] } 23. Ka6 { [%eval #-1] } 23...
+Qb6# 0-1

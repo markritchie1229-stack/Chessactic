@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/bp5CPUOO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sc2pal"]
+[Black "UncleUncle"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:23:49"]
+[WhiteElo "1497"]
+[BlackElo "1234"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-41"]
+[ECO "C77"]
+[Opening "Ruy Lopez: Morphy Defense, Tarrasch Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.25] } 2...
+Nc6 { [%eval 0.43] } 3. Bb5 { [%eval 0.27] } 3... a6 { [%eval 0.27] } 4. Ba4
+{ [%eval 0.29] } 4... Nf6 { [%eval 0.29] } 5. Nc3 { [%eval -0.02] } 5... b5
+{ [%eval 0.18] } 6. Bb3 { [%eval 0.12] } 6... Bb7 { [%eval 0.26] } 7. O-O
+{ [%eval 0.18] } 7... b4 $2 { [%eval 1.43] } 8. Nd5 $6 { [%eval 0.44] } 8...
+Nxe4 $6 { [%eval 0.95] } 9. d3 $6 { [%eval -0.01] } 9... Nc5 { [%eval 0.04] }
+10. Re1 { [%eval 0.0] } 10... Nxb3 { [%eval 0.25] } 11. axb3 $6
+{ [%eval -0.42] } 11... Bd6 $6 { [%eval 0.12] } 12. d4 { [%eval 0.14] } 12...
+f6 { [%eval 0.41] } 13. Bf4 $2 { [%eval -0.63] } 13... O-O { [%eval -0.59] }
+14. dxe5 { [%eval -0.61] } 14... fxe5 { [%eval -0.24] } 15. Bxe5 $2
+{ [%eval -3.04] } 15... Nxe5 { [%eval -3.04] } 16. Nxe5 { [%eval -2.98] } 16...
+Qh4 $2 { [%eval -0.48] } 17. Nf3 $2 { [%eval -2.0] } 17... Qh5 $6
+{ [%eval -1.05] } 18. Nxc7 $4 { [%eval -4.71] } 18... Bxc7 { [%eval -4.57] }
+19. Qxd7 { [%eval -4.21] } 19... Qf7 $2 { [%eval -1.93] } 20. Re7
+{ [%eval -1.9] } 20... Qf4 $4 { [%eval #3] } 21. Rxg7+ { [%eval #2] } 21... Kh8
+{ [%eval #2] } 22. Rxh7+ { [%eval #1] } 22... Kg8 { [%eval #1] } 23. Qg7# 1-0

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DfugTvJ3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "segundo_tol"]
+[Black "Firacrates"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:34:13"]
+[WhiteElo "1310"]
+[BlackElo "1268"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+20"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[TimeControl "900+15"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.46] } 2. Bc4 $6 { [%eval -0.06] }
+2... Nf6 { [%eval -0.01] } 3. Nh3 $2 { [%eval -1.39] } 3... Nxe4
+{ [%eval -1.29] } 4. Qf3 $2 { [%eval -2.42] } 4... Nd6 $2 { [%eval -1.02] } 5.
+Ng5 $4 { [%eval -5.06] } 5... f6 $2 { [%eval -3.38] } 6. Ne4 $2
+{ [%eval -5.56] } 6... Nxc4 { [%eval -5.45] } 7. Nbc3 { [%eval -5.46] } 7...
+Nc6 $6 { [%eval -4.81] } 8. d3 $2 { [%eval -5.88] } 8... Nb6 { [%eval -5.56] }
+9. O-O { [%eval -5.98] } 9... d5 { [%eval -5.62] } 10. Ng3 { [%eval -5.95] }
+10... d4 { [%eval -5.55] } 11. Nce4 { [%eval -5.7] } 11... Be6
+{ [%eval -5.58] } 12. Ng5 $2 { [%eval -8.34] } 12... Bd5 $2 { [%eval -5.63] }
+13. N3e4 $2 { [%eval -8.39] } 13... fxg5 { [%eval -8.43] } 14. Bxg5
+{ [%eval -8.64] } 14... Be7 $6 { [%eval -7.9] } 15. Qf5 $2 { [%eval -11.82] }
+15... g6 $2 { [%eval -8.38] } 16. Qxe5 $2 { [%eval -18.3] } 16... Nxe5
+{ [%eval -17.89] } 17. Bxe7 { [%eval -19.4] } 17... Qxe7 { [%eval -19.18] } 18.
+Nc3 { [%eval -37.35] } 18... O-O-O { [%eval -21.39] } 19. Nb5 $6
+{ [%eval #-7] } 19... Nc6 $6 { [%eval -20.55] } 20. Rfe1 { [%eval -23.25] }
+20... Qb4 { [%eval -22.33] } 21. Nc3 { [%eval -31.69] } 21... Qxb2
+{ [%eval -23.51] } 22. Nxd5 { [%eval -23.84] } 22... Nxd5 { [%eval -23.33] }
+23. Rab1 { [%eval -25.96] } 23... Qxc2 { [%eval -25.18] } 24. Rb5
+{ [%eval -30.15] } 24... Qd2 { [%eval -26.47] } 0-1

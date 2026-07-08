@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/GoEgYT8S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Thinkin"]
+[Black "Sazed"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:31:42"]
+[WhiteElo "1616"]
+[BlackElo "1581"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+57"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.28] } 2. Nf3 { [%eval 0.06] } 2... d5
+{ [%eval 0.16] } 3. exd5 { [%eval 0.11] } 3... exd5 { [%eval 0.14] } 4. d4
+{ [%eval 0.03] } 4... Bd6 { [%eval 0.12] } 5. Bb5+ { [%eval 0.03] } 5... c6
+{ [%eval 0.02] } 6. Ba4 { [%eval -0.29] } 6... Nf6 { [%eval -0.35] } 7. Nc3
+{ [%eval -0.72] } 7... O-O { [%eval -0.72] } 8. a3 $6 { [%eval -1.55] } 8...
+Re8+ { [%eval -1.43] } 9. Be3 { [%eval -1.37] } 9... Ng4 { [%eval -1.3] } 10.
+Qd2 { [%eval -1.36] } 10... Nxe3 { [%eval -1.38] } 11. fxe3 { [%eval -1.47] }
+11... Nd7 { [%eval -1.36] } 12. O-O { [%eval -1.42] } 12... Nf6
+{ [%eval -1.56] } 13. Rae1 { [%eval -1.97] } 13... Qc7 { [%eval -1.54] } 14. g3
+$6 { [%eval -2.25] } 14... Qe7 $2 { [%eval -0.77] } 15. Qg2 { [%eval -1.19] }
+15... Bg4 { [%eval -1.1] } 16. Ne5 $2 { [%eval -2.78] } 16... Bxe5
+{ [%eval -2.7] } 17. dxe5 { [%eval -2.71] } 17... Qxe5 { [%eval -2.39] } 18.
+Rf4 $6 { [%eval -3.11] } 18... Qe6 $6 { [%eval -2.42] } 19. Ref1 $2
+{ [%eval -5.25] } 19... Bh3 { [%eval -5.28] } 20. Qf2 $6 { [%eval -5.86] }
+20... Bxf1 { [%eval -5.75] } 21. Qxf1 { [%eval -6.08] } 21... Qxe3+
+{ [%eval -5.93] } 22. Kh1 $2 { [%eval -6.97] } 22... Qe1 $2 { [%eval -5.97] }
+23. Kg2 { [%eval -5.97] } 23... Qxf1+ { [%eval -5.63] } 24. Rxf1
+{ [%eval -5.92] } 24... Re6 { [%eval -5.66] } 25. Nd1 { [%eval -6.09] } 25...
+Rae8 { [%eval -5.91] } 26. Rf2 $6 { [%eval -6.41] } 26... Re2 { [%eval -5.92] }
+27. Bb3 { [%eval -6.18] } 27... Rxf2+ $2 { [%eval -4.91] } 28. Kxf2 $2
+{ [%eval -6.96] } 28... Ne4+ { [%eval -6.68] } 29. Kf3 $2 { [%eval -8.81] }
+29... Nd2+ { [%eval -8.54] } 30. Kg2 $2 { [%eval -11.13] } 30... Nxb3 $2
+{ [%eval -8.29] } 31. cxb3 { [%eval -8.16] } 31... Re2+ { [%eval -7.68] } 32.
+Kg1 $2 { [%eval -19.35] } 32... Re1+ { [%eval -14.36] } 0-1

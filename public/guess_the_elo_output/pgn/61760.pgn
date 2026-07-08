@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZCjBK5RK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ahmedali8811"]
+[Black "red313"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:34:51"]
+[WhiteElo "1640"]
+[BlackElo "1418"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "A40"]
+[Opening "Englund Gambit Complex: Felbecker Gambit"]
+[TimeControl "540+9"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... e5 $6 { [%eval 0.92] } 2. dxe5 { [%eval 0.89] }
+2... Bc5 { [%eval 1.2] } 3. Nf3 { [%eval 1.03] } 3... Nc6 { [%eval 1.18] } 4.
+Bf4 { [%eval 1.13] } 4... d6 { [%eval 1.39] } 5. exd6 { [%eval 0.95] } 5...
+cxd6 { [%eval 1.27] } 6. a3 $6 { [%eval 0.61] } 6... Nf6 { [%eval 1.09] } 7. h3
+$2 { [%eval -0.62] } 7... Ne4 $6 { [%eval 0.36] } 8. e3 { [%eval 0.1] } 8... g5
+$6 { [%eval 0.89] } 9. Bh2 { [%eval 0.86] } 9... g4 $6 { [%eval 1.84] } 10.
+hxg4 { [%eval 1.84] } 10... Bxg4 { [%eval 1.91] } 11. Bd3 $6 { [%eval 1.08] }
+11... d5 { [%eval 1.17] } 12. Nbd2 { [%eval 1.03] } 12... Nxd2 $6
+{ [%eval 1.85] } 13. Qxd2 { [%eval 1.38] } 13... d4 $2 { [%eval 3.08] } 14.
+O-O-O { [%eval 3.19] } 14... O-O $4 { [%eval 11.69] } 15. Bg3 $2
+{ [%eval 7.26] } 15... Re8 $2 { [%eval 10.46] } 16. Bxh7+ { [%eval 9.75] }
+16... Kg7 { [%eval 11.02] } 17. Bd3 $4 { [%eval 4.41] } 17... dxe3
+{ [%eval 4.52] } 18. fxe3 $4 { [%eval -3.25] } 18... Bxe3 { [%eval -3.24] } 19.
+Rh7+ { [%eval -3.24] } 19... Kg8 { [%eval -3.18] } 20. Qxe3 $6
+{ [%eval -3.94] } 20... Rxe3 { [%eval -3.65] } 21. Bh4 $2 { [%eval -5.96] }
+21... Qe8 $4 { [%eval #2] } 22. Bf6 { [%eval #1] } 22... Bxf3 { [%eval #1] }
+23. Rh8# 1-0

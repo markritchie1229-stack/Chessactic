@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/n8B5dyXw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mariannette"]
+[Black "vivanco24"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:31:05"]
+[WhiteElo "1040"]
+[BlackElo "1091"]
+[WhiteRatingDiff "-38"]
+[BlackRatingDiff "+9"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. f4 { [%eval -0.25] } 1... c5 { [%eval -0.02] } 2. d3 { [%eval -0.13] } 2...
+d6 { [%eval 0.07] } 3. c4 { [%eval -0.15] } 3... g6 { [%eval -0.16] } 4. g4 $2
+{ [%eval -1.58] } 4... Bg7 $2 { [%eval -0.4] } 5. g5 { [%eval -0.71] } 5... Nd7
+$6 { [%eval 0.0] } 6. Bh3 $6 { [%eval -0.55] } 6... f5 $6 { [%eval 0.26] } 7.
+Qa4 { [%eval -0.05] } 7... e6 { [%eval 0.1] } 8. Nf3 { [%eval -0.24] } 8... Ne7
+{ [%eval -0.14] } 9. Nh4 $6 { [%eval -0.99] } 9... O-O { [%eval -0.89] } 10. e4
+$2 { [%eval -3.11] } 10... e5 { [%eval -2.72] } 11. exf5 $6 { [%eval -3.26] }
+11... Nxf5 $6 { [%eval -2.66] } 12. d4 $4 { [%eval -10.28] } 12... Nxh4
+{ [%eval -9.62] } 13. dxe5 { [%eval -13.06] } 13... dxe5 { [%eval -10.7] } 14.
+fxe5 { [%eval -25.09] } 14... Nxe5 { [%eval -23.92] } 15. Be6+ $6
+{ [%eval #-6] } 15... Bxe6 { [%eval #-5] } 16. Qe8 { [%eval #-2] } 16... Qxe8
+$6 { [%eval #-6] } 17. Nc3 { [%eval #-5] } 17... Qe7 $6 { [%eval #-9] } 18. Ne4
+{ [%eval #-6] } 18... Nf5 $6 { [%eval -29.02] } 19. Nxc5 $6 { [%eval #-6] }
+19... Qxg5 $6 { [%eval -15.4] } 20. Nxe6 $6 { [%eval #-6] } 20... Rfd8 $2
+{ [%eval -7.79] } 0-1

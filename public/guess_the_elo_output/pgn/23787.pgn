@@ -1,0 +1,43 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nEtecLA2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mj24861793"]
+[Black "zerothought"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:18:48"]
+[WhiteElo "1633"]
+[BlackElo "1728"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+20"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Morphy Defense, Caro Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.16] } 2...
+Nc6 { [%eval 0.28] } 3. Bb5 { [%eval 0.22] } 3... a6 { [%eval 0.42] } 4. Ba4
+{ [%eval 0.18] } 4... b5 { [%eval 0.2] } 5. Bb3 { [%eval 0.27] } 5... Be7
+{ [%eval 0.65] } 6. O-O { [%eval 0.35] } 6... Nf6 { [%eval 0.38] } 7. Nc3
+{ [%eval 0.16] } 7... O-O { [%eval 0.26] } 8. d4 $6 { [%eval -0.39] } 8... exd4
+{ [%eval -0.39] } 9. Nxd4 $2 { [%eval -2.17] } 9... Na5 $4 { [%eval 1.08] } 10.
+e5 { [%eval 0.64] } 10... Nxb3 { [%eval 1.05] } 11. axb3 { [%eval 0.91] } 11...
+Ne8 { [%eval 1.16] } 12. f4 $6 { [%eval 0.64] } 12... d6 $2 { [%eval 1.85] }
+13. Nc6 { [%eval 1.68] } 13... Qd7 { [%eval 1.91] } 14. Nd5 $6 { [%eval 0.93] }
+14... Bd8 { [%eval 0.93] } 15. Qf3 $6 { [%eval 0.07] } 15... Bb7
+{ [%eval 0.39] } 16. Nxd8 $6 { [%eval -0.31] } 16... Rxd8 { [%eval -0.33] } 17.
+Nf6+ $6 { [%eval -0.91] } 17... Nxf6 { [%eval -0.83] } 18. Qxb7
+{ [%eval -0.98] } 18... dxe5 { [%eval -0.89] } 19. Qxa6 $4 { [%eval -6.08] }
+19... Ne4 $4 { [%eval -0.54] } 20. Be3 { [%eval -0.83] } 20... exf4
+{ [%eval -0.62] } 21. Rxf4 { [%eval -0.8] } 21... f5 { [%eval -0.64] } 22. Raf1
+$4 { [%eval -4.75] } 22... Rf6 $4 { [%eval -0.63] } 23. Qb7 { [%eval -0.7] }
+23... Rdf8 { [%eval -0.21] } 24. Bb6 $4 { [%eval -5.14] } 24... Rxb6 $4
+{ [%eval -0.24] } 25. Qa7 $4 { [%eval -9.18] } 25... Rd6 $4 { [%eval -6.16] }
+26. Qa3 $2 { [%eval -8.76] } 26... c5 $2 { [%eval -7.01] } 27. b4
+{ [%eval -7.02] } 27... c4 { [%eval -6.88] } 28. Qh3 $4 { [%eval -10.69] }
+28... Rh6 $4 { [%eval -6.5] } 29. Qf3 $2 { [%eval -7.79] } 29... Rhf6 $6
+{ [%eval -6.96] } 30. Qe2 { [%eval -7.45] } 30... Qd4+ { [%eval -7.33] } 31.
+Kh1 { [%eval -7.21] } 31... Qxb2 { [%eval -6.95] } 32. Qd2 $4
+{ [%eval -26.05] } 32... Nxd2 { [%eval -23.79] } 33. Rxf5 $6 { [%eval #-5] }
+33... Rxf5 { [%eval #-4] } 0-1

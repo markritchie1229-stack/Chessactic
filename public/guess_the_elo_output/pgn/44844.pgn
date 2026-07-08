@@ -1,0 +1,40 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/AIo6X0LN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "CasparOuf"]
+[Black "WarShoe"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:15:53"]
+[WhiteElo "1579"]
+[BlackElo "2285"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+1"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.21] } 2. Nf3 { [%eval 0.21] } 2...
+Nc6 { [%eval 0.21] } 3. Bc4 { [%eval 0.16] } 3... Bc5 { [%eval 0.21] } 4. d3
+{ [%eval 0.16] } 4... d6 { [%eval 0.2] } 5. Nc3 { [%eval 0.03] } 5... f5 $2
+{ [%eval 1.35] } 6. exf5 { [%eval 0.88] } 6... Bxf5 { [%eval 1.18] } 7. O-O $2
+{ [%eval 0.17] } 7... Qd7 { [%eval 0.46] } 8. Nd5 { [%eval 0.17] } 8... O-O-O
+{ [%eval 0.48] } 9. Bd2 { [%eval 0.28] } 9... Nf6 { [%eval 0.41] } 10. a3 $6
+{ [%eval -0.24] } 10... Nxd5 { [%eval -0.01] } 11. Bxd5 { [%eval 0.01] } 11...
+Bg4 { [%eval 0.42] } 12. Qe1 $6 { [%eval -0.33] } 12... Ne7 $6 { [%eval 0.54] }
+13. Qe4 $2 { [%eval -1.5] } 13... c6 { [%eval -1.08] } 14. Bb3
+{ [%eval -1.21] } 14... d5 { [%eval -1.22] } 15. Qe2 $6 { [%eval -2.18] } 15...
+e4 $2 { [%eval -1.18] } 16. Ne5 $4 { [%eval -5.2] } 16... Bxe2
+{ [%eval -5.01] } 17. Nxd7 { [%eval -5.15] } 17... Rxd7 { [%eval -4.94] } 18.
+Rfe1 { [%eval -5.27] } 18... exd3 { [%eval -5.31] } 19. cxd3 { [%eval -5.26] }
+19... Bxd3 { [%eval -5.04] } 20. Rad1 $6 { [%eval -5.86] } 20... Bg6 $6
+{ [%eval -5.18] } 21. Bg5 $6 { [%eval -5.72] } 21... Rf8 { [%eval -5.66] } 22.
+Rxe7 $4 { [%eval -8.81] } 22... Bxe7 { [%eval -8.66] } 23. Be3 { [%eval -8.5] }
+23... d4 $2 { [%eval -6.93] } 24. Bxd4 $2 { [%eval -9.85] } 24... Bf7
+{ [%eval -9.69] } 25. Bc2 { [%eval -9.23] } 25... c5 $4 { [%eval -5.47] } 26.
+Bf5 $4 { [%eval -9.19] } 26... cxd4 { [%eval -8.97] } 27. Rxd4
+{ [%eval -9.04] } 27... Rd8 { [%eval -8.84] } 28. Bxd7+ $2 { [%eval -11.18] }
+28... Rxd7 { [%eval -10.77] } 29. Rxd7 { [%eval -10.49] } 29... Kxd7
+{ [%eval -9.97] } 0-1

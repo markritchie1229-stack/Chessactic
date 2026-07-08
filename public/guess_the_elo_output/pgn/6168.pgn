@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/HpYHThyL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "batailley33"]
+[Black "kari12"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:45:04"]
+[WhiteElo "1851"]
+[BlackElo "1674"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+185"]
+[ECO "B51"]
+[Opening "Sicilian Defense: Canal-Sokolsky Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.21] } 2. Nf3 { [%eval 0.26] } 2... d6
+{ [%eval 0.29] } 3. Bb5+ { [%eval 0.19] } 3... Nd7 { [%eval 0.33] } 4. e5
+{ [%eval -0.06] } 4... a6 { [%eval 0.1] } 5. Ba4 $2 { [%eval -2.52] } 5... b5
+{ [%eval -2.59] } 6. Bb3 { [%eval -2.59] } 6... c4 { [%eval -2.48] } 7. Bxc4
+{ [%eval -2.52] } 7... bxc4 { [%eval -2.4] } 8. exd6 { [%eval -2.41] } 8...
+exd6 { [%eval -2.38] } 9. O-O { [%eval -2.45] } 9... Be7 { [%eval -2.43] } 10.
+Re1 { [%eval -2.47] } 10... Ngf6 { [%eval -2.42] } 11. Qe2 { [%eval -2.65] }
+11... Bb7 { [%eval -2.53] } 12. Nc3 { [%eval -2.95] } 12... Bxf3
+{ [%eval -2.91] } 13. Qxf3 { [%eval -2.88] } 13... O-O { [%eval -2.68] } 14. b3
+{ [%eval -2.85] } 14... cxb3 $6 { [%eval -2.17] } 15. cxb3 $6 { [%eval -3.01] }
+15... Re8 { [%eval -2.86] } 16. Bb2 { [%eval -3.0] } 16... Ne5
+{ [%eval -3.01] } 17. Qf4 $2 { [%eval -5.14] } 17... Bf8 $2 { [%eval -2.81] }
+18. Qg3 $2 { [%eval -4.13] } 18... Qa5 $2 { [%eval -2.93] } 19. f4 $6
+{ [%eval -3.87] } 19... Ng6 { [%eval -3.62] } 20. Na4 { [%eval -3.56] } 20...
+Qxd2 $2 { [%eval -2.29] } 21. Bxf6 { [%eval -2.31] } 21... gxf6
+{ [%eval -2.2] } 22. h4 $2 { [%eval -5.01] } 22... Qxf4 { [%eval -4.52] } 23.
+Qc3 $4 { [%eval -8.39] } 23... Qxh4 { [%eval -7.99] } 24. Rf1 $6
+{ [%eval -8.53] } 24... Bh6 $2 { [%eval -6.75] } 25. Rxf6 $4 { [%eval #-13] }
+25... Be3+ { [%eval -27.95] } 26. Kf1 $6 { [%eval #-9] } 26... Bd4
+{ [%eval #-8] } 0-1

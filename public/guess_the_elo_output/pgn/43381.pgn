@@ -1,0 +1,33 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/LTqxpWKd"]
+[Site "https://lichess.org/aiCynQd3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kshinkle"]
+[Black "Lomoferoz"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:16:47"]
+[WhiteElo "1470"]
+[BlackElo "1380"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.13] } 1... e6 { [%eval 0.16] } 2. c4 { [%eval 0.14] } 2... Qf6
+$6 { [%eval 1.02] } 3. Nc3 { [%eval 0.82] } 3... Bb4 { [%eval 1.12] } 4. a3 $6
+{ [%eval 0.43] } 4... Bd6 $2 { [%eval 1.74] } 5. Nf3 { [%eval 1.63] } 5... Nh6
+$6 { [%eval 2.48] } 6. Bg5 { [%eval 2.28] } 6... Qf5 $2 { [%eval 3.32] } 7.
+Bxh6 $2 { [%eval 1.71] } 7... gxh6 { [%eval 1.81] } 8. e3 { [%eval 1.71] } 8...
+Nc6 { [%eval 1.97] } 9. Bd3 { [%eval 1.9] } 9... Qg6 $4 { [%eval 9.44] } 10.
+Bxg6 { [%eval 9.27] } 10... fxg6 { [%eval 9.39] } 11. Nd2 $6 { [%eval 8.64] }
+11... Rg8 $2 { [%eval 10.91] } 12. Qf3 $6 { [%eval 9.1] } 12... e5 $6
+{ [%eval 11.33] } 13. dxe5 $6 { [%eval 9.15] } 13... Bxe5 { [%eval 9.28] } 14.
+Nd5 $6 { [%eval 8.49] } 14... Bxb2 $2 { [%eval 11.67] } 15. Rb1
+{ [%eval 11.13] } 15... Bc3 { [%eval 15.04] } 16. Qe4+ { [%eval 13.08] } 16...
+Ne5 { [%eval 15.49] } 17. Rb3 { [%eval 15.1] } 17... d6 { [%eval 15.45] } 18.
+Rxc3 { [%eval 15.0] } 18... Be6 { [%eval 20.24] } 19. Nf3 { [%eval 14.29] }
+19... O-O-O { [%eval 16.41] } 20. Qf4 { [%eval 11.31] } 20... Rdf8
+{ [%eval 12.3] } 21. Nxe5 $6 { [%eval 9.19] } 1-0

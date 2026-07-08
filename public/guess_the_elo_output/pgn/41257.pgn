@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ELxXUFCe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "xodus_fr"]
+[Black "losermcd"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:51:58"]
+[WhiteElo "1704"]
+[BlackElo "1793"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C46"]
+[Opening "Three Knights Opening: Winawer Defense"]
+[TimeControl "420+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.32] } 3. Nc3 { [%eval 0.1] } 3... f5 $6 { [%eval 1.02] } 4. exf5
+{ [%eval 1.0] } 4... Nf6 { [%eval 1.16] } 5. Bc4 $6 { [%eval 0.36] } 5... d5
+{ [%eval 0.34] } 6. Bb5 { [%eval 0.04] } 6... Bd6 { [%eval 0.31] } 7. d4
+{ [%eval 0.42] } 7... e4 $6 { [%eval 1.31] } 8. Ne5 { [%eval 1.34] } 8... Bd7
+{ [%eval 1.56] } 9. Nxd7 $2 { [%eval 0.18] } 9... Qxd7 { [%eval 0.25] } 10. Bg5
+{ [%eval -0.12] } 10... O-O $6 { [%eval 0.59] } 11. Bxc6 $6 { [%eval -0.08] }
+11... bxc6 { [%eval 0.0] } 12. O-O $6 { [%eval -0.75] } 12... Qxf5
+{ [%eval -0.85] } 13. Bxf6 $2 { [%eval -2.52] } 13... Rxf6 { [%eval -2.27] }
+14. Ne2 $4 { [%eval #-10] } 14... Raf8 $4 { [%eval -1.85] } 15. Ng3
+{ [%eval -1.83] } 15... Qg6 $6 { [%eval -1.06] } 16. Qh5 { [%eval -1.04] }
+16... Qf7 $6 { [%eval -0.5] } 17. Qxf7+ { [%eval -0.43] } 17... R8xf7
+{ [%eval -0.27] } 18. Nh5 { [%eval -0.7] } 18... Rh6 { [%eval -0.75] } 19. Ng3
+{ [%eval -0.74] } 19... Rf3 $4 { [%eval 5.68] } 20. Rac1 $4 { [%eval -0.35] }
+20... Rf4 { [%eval -0.08] } 21. c4 { [%eval -0.11] } 21... Rfh4
+{ [%eval 0.13] } 22. Nf5 $2 { [%eval -0.97] } 22... Bxh2+ { [%eval -0.92] } 23.
+Kh1 { [%eval -1.14] } 23... Bf4+ { [%eval -0.98] } 24. Kg1 $4 { [%eval #-1] }
+24... Rh1# 0-1

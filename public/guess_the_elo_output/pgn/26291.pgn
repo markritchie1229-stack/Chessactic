@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/pb4YcIej"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Metal__Mercenary"]
+[Black "nageshgp"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:45:15"]
+[WhiteElo "1517"]
+[BlackElo "1651"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.16] } 1... d5 { [%eval 0.15] } 2. d4 { [%eval 0.09] } 2...
+Nc6 { [%eval 0.42] } 3. h3 { [%eval 0.18] } 3... Bf5 { [%eval 0.16] } 4. c3
+{ [%eval -0.12] } 4... e5 $6 { [%eval 0.71] } 5. a3 $2 { [%eval -0.42] } 5...
+e4 { [%eval -0.71] } 6. Ne5 { [%eval -0.89] } 6... Nxe5 { [%eval -1.05] } 7.
+Bg5 $4 { [%eval -7.31] } 7... Qxg5 { [%eval -7.1] } 8. dxe5 { [%eval -7.28] }
+8... Be6 $2 { [%eval -5.66] } 9. Nd2 $2 { [%eval -6.73] } 9... Qxe5 $2
+{ [%eval -5.72] } 10. e3 { [%eval -5.85] } 10... Nf6 { [%eval -5.68] } 11. f4
+$6 { [%eval -6.64] } 11... Qd6 $6 { [%eval -5.95] } 12. Bb5+ { [%eval -6.3] }
+12... c6 { [%eval -6.23] } 13. Be2 { [%eval -6.58] } 13... O-O-O $6
+{ [%eval -6.08] } 14. Bg4 $6 { [%eval -6.74] } 14... Bxg4 { [%eval -6.39] } 15.
+hxg4 { [%eval -6.45] } 15... Be7 { [%eval -6.04] } 16. g5 { [%eval -6.1] }
+16... Nd7 { [%eval -5.95] } 17. Qg4 { [%eval -6.25] } 17... c5 $6
+{ [%eval -5.26] } 18. O-O-O { [%eval -5.39] } 18... Kb8 $2 { [%eval -4.28] }
+19. c4 $6 { [%eval -4.81] } 19... d4 { [%eval -4.41] } 20. Nxe4
+{ [%eval -4.67] } 20... Qb6 $6 { [%eval -3.86] } 21. exd4 { [%eval -4.32] }
+21... cxd4 { [%eval -4.09] } 22. Rhe1 { [%eval -4.21] } 22... Nc5
+{ [%eval -4.11] } 23. Nxc5 { [%eval -4.09] } 23... Bxc5 { [%eval -3.93] } 24.
+b3 $4 { [%eval -29.82] } 24... Bxa3+ { [%eval -24.65] } 25. Kc2
+{ [%eval -19.86] } 25... Bc5 $4 { [%eval -6.95] } 26. Re5 $4 { [%eval -15.06] }
+26... Qb4 $4 { [%eval -6.48] } 27. Rde1 $4 { [%eval #-4] } 27... Qc3+ $6
+{ [%eval #-10] } 28. Kb1 { [%eval #-10] } 28... Ba3 $6 { [%eval -24.34] } 29.
+Ka2 $6 { [%eval #-1] } 29... Qb2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/P6xNdAYv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Geogr"]
+[Black "Timo1heus"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:34:20"]
+[WhiteElo "1302"]
+[BlackElo "1323"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.17] } 1... e5 { [%eval 0.0] } 2. Bg2 { [%eval -0.3] } 2...
+Nc6 { [%eval 0.0] } 3. e4 { [%eval -0.02] } 3... d6 { [%eval 0.32] } 4. Nf3
+{ [%eval 0.0] } 4... Nf6 { [%eval 0.2] } 5. d3 { [%eval 0.03] } 5... Ng4
+{ [%eval 0.44] } 6. O-O { [%eval 0.36] } 6... Nd4 $6 { [%eval 1.05] } 7. Nxd4
+{ [%eval 1.08] } 7... Nxh2 $2 { [%eval 3.29] } 8. Kxh2 { [%eval 3.2] } 8...
+exd4 { [%eval 3.22] } 9. e5 { [%eval 2.77] } 9... dxe5 { [%eval 2.67] } 10. Re1
+$6 { [%eval 2.03] } 10... f6 $6 { [%eval 2.69] } 11. c3 $6 { [%eval 1.71] }
+11... Be6 $2 { [%eval 2.95] } 12. cxd4 { [%eval 2.94] } 12... Qxd4
+{ [%eval 2.71] } 13. Bxb7 $2 { [%eval 1.28] } 13... Qxf2+ { [%eval 1.47] } 14.
+Kh1 $2 { [%eval -0.23] } 14... Bh3 $4 { [%eval 5.55] } 15. Rg1 $4
+{ [%eval 1.75] } 15... Bg2+ $4 { [%eval 13.11] } 16. Rxg2 { [%eval 12.91] }
+16... Qf5 { [%eval 13.14] } 17. Bxa8 { [%eval 13.08] } 17... Bc5
+{ [%eval 12.91] } 18. Qa4+ $2 { [%eval 8.72] } 18... Ke7 { [%eval 8.77] } 19.
+Be4 $4 { [%eval #-2] } 19... Qh3+ { [%eval #-1] } 20. Rh2 { [%eval #-1] } 20...
+Qxg3 $4 { [%eval 12.82] } 21. d4 $4 { [%eval 0.85] } 21... exd4 $4
+{ [%eval 11.19] } 22. b4 $4 { [%eval 0.37] } 22... Bd6 $4 { [%eval 8.42] } 23.
+Re2 { [%eval 8.27] } 23... Qh3+ $2 { [%eval 9.49] } 24. Rh2 $4 { [%eval #-1] }
+24... Qxh2# 0-1

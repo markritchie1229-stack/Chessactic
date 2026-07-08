@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/XrSsp4Ml"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HannibalsTea"]
+[Black "Tabularasa2016"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:53:14"]
+[WhiteElo "1863"]
+[BlackElo "1786"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "A84"]
+[Opening "Dutch Defense: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... f5 { [%eval 0.37] } 2. c4 { [%eval 0.35] } 2... Nf6
+{ [%eval 0.31] } 3. Nf3 { [%eval 0.3] } 3... e6 { [%eval 0.38] } 4. Nc3
+{ [%eval 0.28] } 4... Bb4 { [%eval 0.19] } 5. Bg5 { [%eval 0.0] } 5... O-O
+{ [%eval 0.08] } 6. Qc2 { [%eval -0.04] } 6... Qe8 { [%eval 0.28] } 7. e3
+{ [%eval -0.14] } 7... Ne4 { [%eval 0.19] } 8. Bf4 { [%eval 0.0] } 8... d6
+{ [%eval 0.0] } 9. Bd3 { [%eval 0.0] } 9... Qg6 { [%eval 0.45] } 10. O-O
+{ [%eval 0.03] } 10... Bxc3 { [%eval 0.19] } 11. bxc3 { [%eval 0.14] } 11... b6
+{ [%eval 0.52] } 12. Bxe4 { [%eval 0.34] } 12... fxe4 { [%eval 0.37] } 13. Nh4
+{ [%eval 0.35] } 13... Qg4 { [%eval 0.48] } 14. Qxe4 { [%eval 0.4] } 14... d5
+{ [%eval 0.39] } 15. Qe5 $2 { [%eval -1.09] } 15... Qxh4 { [%eval -1.06] } 16.
+Qxc7 $6 { [%eval -1.65] } 16... Na6 $2 { [%eval 0.24] } 17. Qc6
+{ [%eval 0.93] } 17... Rxf4 $4 { [%eval 5.37] } 18. exf4 { [%eval 5.49] } 18...
+Nc7 { [%eval 5.39] } 19. Qxc7 { [%eval 5.31] } 19... Qg4 $4 { [%eval 10.48] }
+20. Qc6 { [%eval 9.95] } 20... Rb8 $2 { [%eval #1] } 21. Qe8# 1-0

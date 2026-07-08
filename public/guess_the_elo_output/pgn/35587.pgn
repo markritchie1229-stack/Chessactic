@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8yjYY31C"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BloodyRUSH"]
+[Black "datiko2017"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:48:29"]
+[WhiteElo "1335"]
+[BlackElo "1576"]
+[WhiteRatingDiff "+47"]
+[BlackRatingDiff "-17"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.13] } 1... e5 { [%eval 0.17] } 2. g3 { [%eval -0.29] } 2... d5
+{ [%eval -0.22] } 3. Qh5 $6 { [%eval -1.16] } 3... Nc6 { [%eval -1.14] } 4. Bb5
+{ [%eval -1.48] } 4... Qf6 $6 { [%eval -0.55] } 5. Qf3 { [%eval -1.02] } 5...
+Bd7 { [%eval -0.66] } 6. b3 $6 { [%eval -1.37] } 6... Qxf3 $6 { [%eval -0.41] }
+7. Nxf3 { [%eval -0.4] } 7... f6 { [%eval -0.42] } 8. Bb2 { [%eval -0.44] }
+8... Nb8 $6 { [%eval 0.25] } 9. Bxd7+ { [%eval 0.02] } 9... Nxd7
+{ [%eval 0.08] } 10. Nc3 { [%eval -0.26] } 10... c6 { [%eval -0.29] } 11. b4 $2
+{ [%eval -1.45] } 11... b5 $2 { [%eval -0.34] } 12. a4 { [%eval -0.49] } 12...
+Bxb4 { [%eval 0.0] } 13. axb5 { [%eval 0.0] } 13... Bxc3 { [%eval 0.0] } 14.
+Bxc3 { [%eval 0.0] } 14... cxb5 { [%eval 0.0] } 15. Ra6 $2 { [%eval -1.21] }
+15... Ne7 { [%eval -1.16] } 16. O-O { [%eval -1.47] } 16... O-O $2
+{ [%eval -0.1] } 17. Rfa1 { [%eval -0.12] } 17... e4 $2 { [%eval 1.14] } 18.
+Nd4 { [%eval 0.95] } 18... Rfb8 $4 { [%eval 4.17] } 19. Rxa7 { [%eval 3.83] }
+19... Rxa7 { [%eval 4.05] } 20. Rxa7 { [%eval 3.92] } 20... Rd8 $2
+{ [%eval 5.0] } 21. Ba5 $2 { [%eval 2.06] } 21... Nc6 $4 { [%eval 10.49] } 22.
+Nxc6 { [%eval 10.31] } 1-0

@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MNGLXr71"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mustermark"]
+[Black "nachito79"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:47:44"]
+[WhiteElo "1407"]
+[BlackElo "1721"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+8"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e5 { [%eval 0.14] } 2. Nf3 { [%eval 0.3] } 2... Nf6
+{ [%eval 0.51] } 3. Nc3 { [%eval 0.13] } 3... d6 { [%eval 0.36] } 4. Bb5+
+{ [%eval 0.18] } 4... c6 { [%eval 0.08] } 5. Ba4 { [%eval -0.09] } 5... Na6
+{ [%eval 0.02] } 6. O-O { [%eval 0.03] } 6... Bg4 { [%eval 0.13] } 7. a3
+{ [%eval -0.24] } 7... Nc5 { [%eval -0.13] } 8. b4 $6 { [%eval -0.78] } 8...
+Nxa4 { [%eval -0.8] } 9. Nxa4 { [%eval -0.83] } 9... Nxe4 { [%eval -0.77] } 10.
+d3 $6 { [%eval -1.4] } 10... Nf6 { [%eval -1.42] } 11. h3 { [%eval -1.31] }
+11... Be6 { [%eval -0.93] } 12. Bb2 { [%eval -1.05] } 12... h6 $6
+{ [%eval -0.39] } 13. Qd2 $2 { [%eval -1.47] } 13... Be7 { [%eval -1.27] } 14.
+d4 $6 { [%eval -2.16] } 14... e4 { [%eval -2.18] } 15. Nh2 { [%eval -2.22] }
+15... d5 { [%eval -2.05] } 16. Nc5 { [%eval -2.33] } 16... Bc8
+{ [%eval -2.24] } 17. Rfe1 { [%eval -2.33] } 17... b6 { [%eval -2.25] } 18. Nb3
+{ [%eval -2.48] } 18... O-O { [%eval -2.25] } 19. f3 $6 { [%eval -2.98] } 19...
+Bf5 { [%eval -2.64] } 20. fxe4 { [%eval -2.91] } 20... Nxe4 { [%eval -2.75] }
+21. Qe3 { [%eval -3.2] } 21... Bg5 { [%eval -3.02] } 0-1

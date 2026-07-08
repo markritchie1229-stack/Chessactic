@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/rDQMnev5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jags"]
+[Black "Kramfran"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:41:31"]
+[WhiteElo "1871"]
+[BlackElo "1778"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "C07"]
+[Opening "French Defense: Tarrasch Variation, Chistyakov Defense"]
+[TimeControl "0+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.08] } 1... e6 { [%eval 0.12] } 2. d4 { [%eval 0.3] } 2... d5
+{ [%eval 0.15] } 3. Nd2 { [%eval 0.2] } 3... c5 { [%eval 0.15] } 4. exd5
+{ [%eval 0.15] } 4... Qxd5 { [%eval 0.18] } 5. dxc5 { [%eval -0.04] } 5... Nf6
+{ [%eval 0.03] } 6. Ngf3 { [%eval 0.14] } 6... Bxc5 { [%eval -0.01] } 7. Bc4
+{ [%eval 0.03] } 7... Qd6 { [%eval 0.26] } 8. O-O { [%eval 0.25] } 8... O-O
+{ [%eval 0.25] } 9. c3 { [%eval 0.15] } 9... a6 { [%eval 0.26] } 10. Qe2
+{ [%eval 0.29] } 10... b5 { [%eval 0.38] } 11. Bb3 { [%eval -0.07] } 11... Bb7
+{ [%eval -0.09] } 12. Rd1 { [%eval -0.51] } 12... Qb6 { [%eval -0.07] } 13. Nf1
+{ [%eval -0.23] } 13... Nbd7 { [%eval -0.16] } 14. Be3 { [%eval -0.25] } 14...
+Rad8 { [%eval -0.11] } 15. Bxc5 { [%eval -0.31] } 15... Nxc5 { [%eval -0.25] }
+16. Bc2 { [%eval -0.55] } 16... Rxd1 $6 { [%eval -0.05] } 17. Rxd1
+{ [%eval -0.08] } 17... Rd8 { [%eval -0.09] } 18. Ne3 { [%eval -0.19] } 18...
+Be4 { [%eval 0.0] } 19. Bxe4 { [%eval -0.07] } 19... Nfxe4 { [%eval 0.0] } 20.
+Nd4 { [%eval -0.22] } 20... e5 $6 { [%eval 0.5] } 21. Ndf5 { [%eval 0.1] }
+21... Rxd1+ { [%eval 0.52] } 22. Qxd1 { [%eval 0.29] } 22... g6 $6
+{ [%eval 1.03] } 23. Nd6 $4 { [%eval -4.41] } 23... Qxd6 { [%eval -4.43] } 24.
+Qc2 $6 { [%eval -5.31] } 24... f5 { [%eval -5.26] } 25. f3 { [%eval -5.43] }
+25... Nf6 { [%eval -5.28] } 26. b4 { [%eval -5.59] } 26... Qd3
+{ [%eval -5.25] } 27. Qf2 $2 { [%eval -7.06] } 27... Na4 { [%eval -6.72] } 0-1

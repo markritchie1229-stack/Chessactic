@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/CDsqLToR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "doubleknight"]
+[Black "Sebas65"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:34:19"]
+[WhiteElo "1832"]
+[BlackElo "1795"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c6 { [%eval 0.5] } 2. Nf3 { [%eval 0.44] } 2... d5
+{ [%eval 0.48] } 3. exd5 { [%eval 0.25] } 3... cxd5 { [%eval 0.36] } 4. d4
+{ [%eval 0.29] } 4... Bg4 { [%eval 0.39] } 5. Be2 { [%eval 0.17] } 5... e6
+{ [%eval 0.2] } 6. c3 { [%eval 0.02] } 6... Nf6 { [%eval 0.1] } 7. Nbd2
+{ [%eval 0.0] } 7... Bd6 { [%eval 0.0] } 8. h3 { [%eval 0.0] } 8... Bh5
+{ [%eval 0.0] } 9. Ne5 { [%eval 0.0] } 9... Bxe2 { [%eval -0.03] } 10. Qxe2
+{ [%eval -0.12] } 10... Nbd7 { [%eval 0.05] } 11. f4 { [%eval -0.25] } 11... h6
+{ [%eval 0.0] } 12. O-O { [%eval -0.04] } 12... a6 { [%eval 0.16] } 13. b3
+{ [%eval 0.08] } 13... b5 { [%eval 0.46] } 14. Ndf3 $6 { [%eval -0.22] } 14...
+Rc8 { [%eval 0.12] } 15. Bd2 $6 { [%eval -0.58] } 15... Ne4 { [%eval -0.6] }
+16. Be1 { [%eval -0.85] } 16... Nxc3 { [%eval -0.82] } 17. Bxc3
+{ [%eval -0.83] } 17... Rxc3 { [%eval -0.7] } 18. f5 { [%eval -0.79] } 18...
+O-O { [%eval -0.83] } 19. Nxd7 { [%eval -1.25] } 19... Qxd7 { [%eval -1.23] }
+20. f6 { [%eval -1.54] } 20... g6 $2 { [%eval 0.69] } 21. Qd2 { [%eval 0.5] }
+21... Rcc8 $4 { [%eval #3] } 22. Qxh6 { [%eval #2] } 1-0

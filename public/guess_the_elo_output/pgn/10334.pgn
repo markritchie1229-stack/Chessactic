@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0EooILpB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stevefillion"]
+[Black "sergioalhaurin130"]
+[Result "1/2-1/2"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:14:58"]
+[WhiteElo "2173"]
+[BlackElo "2127"]
+[WhiteRatingDiff "-1"]
+[BlackRatingDiff "+1"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... c5 { [%eval 0.32] } 2. c3 { [%eval 0.22] } 2... d5
+{ [%eval 0.3] } 3. d3 $6 { [%eval -0.24] } 3... dxe4 { [%eval 0.12] } 4. dxe4
+{ [%eval 0.16] } 4... Qxd1+ { [%eval 0.05] } 5. Kxd1 { [%eval 0.13] } 5... Nc6
+{ [%eval 0.15] } 6. Be3 { [%eval 0.16] } 6... b6 { [%eval 0.25] } 7. Kc2
+{ [%eval 0.24] } 7... Bb7 { [%eval 0.41] } 8. Nd2 { [%eval 0.35] } 8... Nf6
+{ [%eval 0.46] } 9. f3 { [%eval 0.23] } 9... g6 { [%eval 0.58] } 10. Nh3
+{ [%eval 0.54] } 10... Bg7 { [%eval 0.54] } 11. Be2 { [%eval 0.25] } 11... O-O
+{ [%eval 0.34] } 12. Nf2 { [%eval 0.15] } 12... Rfd8 { [%eval 0.33] } 13. Rhd1
+{ [%eval 0.34] } 13... Rac8 { [%eval 0.46] } 14. a4 $2 { [%eval -0.6] } 14...
+Ne5 $2 { [%eval 0.79] } 15. f4 { [%eval 0.6] } 15... Ned7 { [%eval 0.83] } 16.
+g4 { [%eval 0.77] } 16... e5 { [%eval 1.26] } 17. f5 { [%eval 1.36] } 17... h6
+{ [%eval 1.47] } 18. h4 { [%eval 1.31] } 18... c4 $2 { [%eval 2.94] } 19. g5
+{ [%eval 2.95] } 19... hxg5 { [%eval 3.24] } 20. hxg5 { [%eval 3.25] } 20...
+Ne8 { [%eval 3.15] } 21. f6 { [%eval 3.16] } 21... Bf8 { [%eval 2.73] } 22.
+Nxc4 { [%eval 2.73] } 22... Nc5 { [%eval 2.77] } 23. Nxe5 { [%eval 2.8] } 23...
+Nxe4 { [%eval 2.93] } 24. Bc4 $2 { [%eval 1.65] } 24... N8d6 { [%eval 1.89] }
+25. Bd5 $6 { [%eval 1.15] } 25... Bxd5 { [%eval 0.89] } 26. Rxd5
+{ [%eval 0.86] } 26... Nxf2 $6 { [%eval 1.79] } 27. Bxf2 { [%eval 1.9] } 27...
+Ne4 { [%eval 1.81] } 28. Rxd8 { [%eval 1.83] } 28... Rxd8 { [%eval 1.76] } 29.
+Be3 { [%eval 1.61] } 29... Bc5 $6 { [%eval 2.37] } 30. Re1 $2 { [%eval 0.54] }
+30... Bxe3 { [%eval 0.48] } 31. Rxe3 { [%eval 0.4] } 31... Nxg5
+{ [%eval 0.44] } 32. Nc6 { [%eval 0.64] } 32... Rd7 $6 { [%eval 1.37] } 33.
+Ne7+ $2 { [%eval 0.15] } 1/2-1/2

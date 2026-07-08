@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8CVsUfKS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "miminko2104"]
+[Black "saqib_amature"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:33:35"]
+[WhiteElo "1529"]
+[BlackElo "1382"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+15"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.24] } 1... d5 { [%eval -0.23] } 2. d4 { [%eval -0.43] } 2...
+e6 { [%eval -0.37] } 3. e3 { [%eval -0.37] } 3... f5 { [%eval 0.07] } 4. Nf3
+{ [%eval 0.02] } 4... Nf6 { [%eval 0.04] } 5. Be2 { [%eval 0.08] } 5... Nc6
+{ [%eval 0.25] } 6. b3 { [%eval 0.16] } 6... Bb4+ { [%eval 0.25] } 7. Bd2
+{ [%eval 0.22] } 7... Bxd2+ { [%eval 0.31] } 8. Qxd2 { [%eval 0.06] } 8... O-O
+{ [%eval 0.16] } 9. Nc3 { [%eval 0.14] } 9... a5 { [%eval 0.19] } 10. O-O
+{ [%eval -0.01] } 10... Bd7 { [%eval 0.16] } 11. Ne5 { [%eval 0.15] } 11...
+Nxe5 { [%eval 0.42] } 12. fxe5 { [%eval 0.27] } 12... Ne4 { [%eval 0.31] } 13.
+Rf3 $4 { [%eval -12.52] } 13... Nxd2 { [%eval -12.23] } 14. Rb1
+{ [%eval -15.07] } 14... Nxf3+ { [%eval -14.73] } 15. Kh1 { [%eval -21.71] }
+15... Nd2 { [%eval -21.02] } 16. Bf3 { [%eval -27.39] } 16... Nxb1
+{ [%eval -26.48] } 17. Be2 { [%eval -36.79] } 17... Nxc3 { [%eval -34.34] } 18.
+h3 $6 { [%eval #-6] } 18... Nxe2 { [%eval #-5] } 19. g3 { [%eval #-5] } 19...
+Qg5 $6 { [%eval #-5] } 20. c3 { [%eval #-2] } 20... Qxg3 { [%eval #-1] } 21. a3
+{ [%eval #-1] } 21... Qg1# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MGAiK6z2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JVILAPOTI"]
+[Black "LevBell"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:27:03"]
+[WhiteElo "1787"]
+[BlackElo "1821"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "A53"]
+[Opening "Old Indian Defense"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.2] } 1... d6 { [%eval 0.59] } 2. c4 { [%eval 0.33] } 2... Nf6
+{ [%eval 0.56] } 3. Nc3 { [%eval 0.47] } 3... Bg4 $6 { [%eval 1.03] } 4. f3 $6
+{ [%eval 0.5] } 4... Bh5 $6 { [%eval 1.01] } 5. e4 { [%eval 0.99] } 5... Nbd7
+{ [%eval 1.44] } 6. Nh3 { [%eval 1.0] } 6... e5 { [%eval 0.93] } 7. d5
+{ [%eval 0.54] } 7... Be7 { [%eval 0.59] } 8. Be2 { [%eval 0.4] } 8... O-O
+{ [%eval 0.47] } 9. O-O { [%eval 0.46] } 9... c6 { [%eval 0.54] } 10. f4 $6
+{ [%eval 0.0] } 10... Bxe2 { [%eval 0.02] } 11. Qxe2 { [%eval -0.03] } 11...
+cxd5 { [%eval 0.08] } 12. exd5 { [%eval -0.18] } 12... Rc8 { [%eval -0.12] }
+13. b3 { [%eval -0.22] } 13... a6 { [%eval -0.29] } 14. Bd2 { [%eval -0.22] }
+14... Ne8 $6 { [%eval 0.4] } 15. Ne4 { [%eval -0.02] } 15... f6 $2
+{ [%eval 1.02] } 16. Rf3 $2 { [%eval -0.2] } 16... h6 $2 { [%eval 2.45] } 17.
+Raf1 $2 { [%eval 0.05] } 17... f5 { [%eval -0.21] } 18. Ng3 { [%eval -0.36] }
+18... e4 { [%eval -0.27] } 19. Re3 { [%eval -0.31] } 19... Qb6 $4
+{ [%eval 2.87] } 20. Qh5 { [%eval 2.66] } 20... Bf6 { [%eval 2.54] } 21. Nxf5
+{ [%eval 2.41] } 21... Kh7 $4 { [%eval 7.08] } 22. Ng5+ { [%eval 6.53] } 22...
+Kg8 $4 { [%eval #3] } 23. Ne6 $2 { [%eval 7.56] } 23... Rf7 $2 { [%eval 14.1] }
+24. Qg6 { [%eval 13.08] } 24... Nf8 $6 { [%eval #6] } 25. Nxh6+ { [%eval #5] }
+1-0

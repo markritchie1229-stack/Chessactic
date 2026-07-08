@@ -1,0 +1,40 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/5PWQJnPr"]
+[Site "https://lichess.org/YwAEyvE4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "eop"]
+[Black "Tamonten"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:26:35"]
+[WhiteElo "1548"]
+[BlackElo "1628"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... c6 { [%eval 0.44] } 2. Nf3 { [%eval 0.31] } 2... d5
+{ [%eval 0.53] } 3. e5 { [%eval 0.11] } 3... c5 { [%eval 0.15] } 4. c3
+{ [%eval 0.13] } 4... Nc6 { [%eval 0.3] } 5. d4 { [%eval 0.19] } 5... Bg4
+{ [%eval 0.32] } 6. Be2 { [%eval 0.13] } 6... Bxf3 { [%eval 0.2] } 7. Bxf3
+{ [%eval 0.16] } 7... e6 { [%eval 0.09] } 8. a3 $6 { [%eval -0.73] } 8... Qb6
+{ [%eval -0.61] } 9. b4 { [%eval -1.06] } 9... cxd4 { [%eval -1.08] } 10. cxd4
+{ [%eval -1.44] } 10... Qxd4 { [%eval -1.37] } 11. Qxd4 { [%eval -1.39] } 11...
+Nxd4 { [%eval -1.41] } 12. Bd1 { [%eval -1.43] } 12... a5 $6 { [%eval -0.89] }
+13. bxa5 $6 { [%eval -1.45] } 13... Ne7 { [%eval -1.37] } 14. Be3
+{ [%eval -1.43] } 14... Nec6 { [%eval -1.32] } 15. Bf4 $6 { [%eval -2.1] }
+15... Rxa5 { [%eval -2.08] } 16. h3 { [%eval -2.32] } 16... Bb4+
+{ [%eval -2.19] } 17. Nd2 $6 { [%eval -2.72] } 17... Bc3 { [%eval -2.65] } 18.
+Ra2 $4 { [%eval -7.03] } 18... Nb4 { [%eval -6.72] } 19. axb4 { [%eval -6.83] }
+19... Rxa2 { [%eval -6.58] } 20. O-O $2 { [%eval -9.45] } 20... Bxd2
+{ [%eval -9.24] } 21. Bxd2 { [%eval -9.52] } 21... Rxd2 { [%eval -9.33] } 22.
+Ba4+ $6 { [%eval -10.11] } 22... b5 { [%eval -9.79] } 23. Rc1
+{ [%eval -16.74] } 23... Kd7 { [%eval -12.09] } 24. Bd1 { [%eval -12.04] }
+24... Ra8 { [%eval -11.8] } 25. Bg4 { [%eval -11.77] } 25... Raa2
+{ [%eval -11.56] } 26. Rc5 { [%eval -12.44] } 26... Rxf2 $2 { [%eval -7.64] }
+27. Rxd5+ { [%eval -7.58] } 27... Ke7 { [%eval -7.3] } 28. Rc5 $2
+{ [%eval #-10] } 28... Rfc2 $6 { [%eval -10.89] } 29. Rc7+ { [%eval -123.24] }
+29... Rxc7 { [%eval -53.47] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/2ubFN3Z7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "funfarfun"]
+[Black "mohammadtaghi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:24:53"]
+[WhiteElo "1604"]
+[BlackElo "1836"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Blackburne-Kloosterboer Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... d5 { [%eval 0.6] } 2. exd5 { [%eval 0.74] } 2... c6
+{ [%eval 0.82] } 3. Nf3 $6 { [%eval 0.18] } 3... cxd5 { [%eval 0.32] } 4. Be2
+{ [%eval 0.07] } 4... Nf6 { [%eval 0.1] } 5. d4 { [%eval 0.05] } 5... Nc6
+{ [%eval 0.0] } 6. O-O { [%eval 0.0] } 6... Bf5 { [%eval 0.0] } 7. Re1
+{ [%eval -0.06] } 7... e6 { [%eval -0.04] } 8. c4 { [%eval -0.14] } 8... Be7
+{ [%eval -0.17] } 9. Nc3 { [%eval -0.28] } 9... O-O { [%eval -0.11] } 10. Bf4
+{ [%eval -0.55] } 10... a6 $6 { [%eval 0.08] } 11. cxd5 $6 { [%eval -0.52] }
+11... Nxd5 { [%eval -0.43] } 12. Nxd5 { [%eval -0.69] } 12... Qxd5
+{ [%eval -0.54] } 13. Rc1 $6 { [%eval -1.15] } 13... Bf6 $6 { [%eval -0.31] }
+14. Bc4 { [%eval -0.49] } 14... Qd7 { [%eval -0.14] } 15. Ne5 { [%eval -0.39] }
+15... Bxe5 { [%eval 0.09] } 16. dxe5 { [%eval 0.04] } 16... Rfd8
+{ [%eval 0.09] } 17. Qf3 { [%eval -0.14] } 17... Nd4 { [%eval -0.14] } 18. Qg3
+{ [%eval -0.13] } 18... b5 { [%eval 0.08] } 19. Bf1 { [%eval 0.0] } 19... Rac8
+{ [%eval 0.16] } 20. Rxc8 { [%eval 0.17] } 20... Qxc8 { [%eval 0.5] } 21. Bh6
+{ [%eval 0.06] } 21... g6 $2 { [%eval 2.14] } 22. Bg5 $2 { [%eval 1.05] } 22...
+Rd5 { [%eval 1.18] } 23. Bf6 { [%eval 0.86] } 23... Qf8 $6 { [%eval 1.47] } 24.
+Qh4 $6 { [%eval 0.71] } 24... Nc6 { [%eval 0.91] } 25. a3 $6 { [%eval 0.14] }
+25... a5 $2 { [%eval 1.14] } 26. b4 $2 { [%eval 0.0] } 26... axb4
+{ [%eval 0.0] } 27. axb4 { [%eval 0.0] } 27... Nd8 $4 { [%eval 3.72] } 28. g3
+$2 { [%eval 0.78] } 28... Nb7 $2 { [%eval 3.22] } 0-1

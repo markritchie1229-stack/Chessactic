@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uJ6mpxR3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "johnniewalkerblack"]
+[Black "EddieZaletas"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:32:33"]
+[WhiteElo "1871"]
+[BlackElo "1544"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-3"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... e6 { [%eval 0.32] } 2. Nc3 { [%eval 0.05] } 2... c5
+{ [%eval 0.31] } 3. d3 { [%eval -0.14] } 3... Nc6 { [%eval -0.11] } 4. f4
+{ [%eval -0.09] } 4... d5 { [%eval -0.06] } 5. Nf3 { [%eval -0.22] } 5... dxe4
+{ [%eval 0.14] } 6. Nxe4 { [%eval -0.21] } 6... Nf6 { [%eval 0.19] } 7. Nxf6+
+{ [%eval 0.04] } 7... Qxf6 { [%eval 0.16] } 8. g3 { [%eval 0.2] } 8... h6
+{ [%eval 0.25] } 9. Bg2 { [%eval 0.35] } 9... Bd6 { [%eval 0.36] } 10. O-O
+{ [%eval 0.27] } 10... Bd7 { [%eval 0.4] } 11. a4 { [%eval 0.31] } 11... O-O
+{ [%eval 0.29] } 12. Be3 { [%eval -0.14] } 12... b6 { [%eval 0.27] } 13. Qe2 $2
+{ [%eval -0.75] } 13... Rfe8 $2 { [%eval 0.36] } 14. Bd2 $6 { [%eval -0.19] }
+14... Rac8 { [%eval -0.12] } 15. Ne5 $6 { [%eval -0.64] } 15... Bxe5
+{ [%eval -0.6] } 16. fxe5 { [%eval -0.62] } 16... Qxe5 { [%eval -0.59] } 17.
+Qxe5 { [%eval -0.67] } 17... Nxe5 { [%eval -0.66] } 18. Rae1 { [%eval -0.84] }
+18... Ng6 { [%eval -0.65] } 19. Bxh6 $4 { [%eval -3.88] } 19... gxh6
+{ [%eval -3.91] } 20. Be4 $6 { [%eval -4.71] } 20... Bc6 $6 { [%eval -3.89] }
+21. Bxg6 { [%eval -3.9] } 21... fxg6 { [%eval -3.84] } 22. Rf6
+{ [%eval -4.13] } 22... Kg7 { [%eval -4.03] } 23. Ref1 { [%eval -4.21] } 23...
+Bd5 $2 { [%eval -2.29] } 24. Rf7+ { [%eval -2.38] } 24... Kg8 { [%eval -2.13] }
+25. Rxa7 $6 { [%eval -2.84] } 1-0

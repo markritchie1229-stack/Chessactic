@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/r53IObxs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "juliancruz25GM"]
+[Black "anatoly65"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:05:30"]
+[WhiteElo "1363"]
+[BlackElo "1344"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-10"]
+[ECO "A41"]
+[Opening "Queen's Pawn Game: Anglo-Slav Opening"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... c6 { [%eval 0.4] } 2. c4 { [%eval 0.37] } 2... d6
+{ [%eval 0.6] } 3. Nc3 { [%eval 0.54] } 3... Nd7 { [%eval 0.78] } 4. e3
+{ [%eval 0.65] } 4... h6 { [%eval 0.71] } 5. Nf3 { [%eval 0.71] } 5... g5
+{ [%eval 0.86] } 6. Qc2 { [%eval 0.89] } 6... Bg7 { [%eval 0.91] } 7. Bd3
+{ [%eval 0.76] } 7... g4 { [%eval 0.79] } 8. Nd2 { [%eval 0.7] } 8... Qb6
+{ [%eval 1.1] } 9. O-O { [%eval 0.84] } 9... h5 { [%eval 0.8] } 10. a3
+{ [%eval 0.69] } 10... h4 { [%eval 0.75] } 11. b4 { [%eval 0.72] } 11... h3
+{ [%eval 0.93] } 12. g3 { [%eval 0.88] } 12... c5 { [%eval 1.31] } 13. Bf5 $2
+{ [%eval -0.1] } 13... Qc6 $2 { [%eval 1.46] } 14. Nce4 $2 { [%eval -0.68] }
+14... e6 $2 { [%eval 1.62] } 15. Bxg4 { [%eval 1.49] } 15... d5 $2
+{ [%eval 2.83] } 16. b5 $2 { [%eval 1.56] } 16... Qc7 { [%eval 1.64] } 17. Nxc5
+$2 { [%eval 0.16] } 17... Nxc5 { [%eval 0.3] } 18. dxc5 $2 { [%eval -1.67] }
+18... Qxc5 $4 { [%eval 2.33] } 19. Rb1 { [%eval 1.89] } 19... dxc4 $2
+{ [%eval 3.46] } 20. Nxc4 { [%eval 3.38] } 20... Qd5 $2 { [%eval 6.14] } 21. f3
+$2 { [%eval 3.57] } 21... Nf6 $4 { [%eval 7.93] } 22. Rd1 { [%eval 7.57] }
+22... Qc5 $2 { [%eval 10.4] } 23. Bb2 $4 { [%eval 2.58] } 23... Nxg4 $4
+{ [%eval 10.12] } 24. fxg4 $4 { [%eval 2.0] } 24... Bxb2 $4 { [%eval 6.54] }
+25. Qxb2 $4 { [%eval 1.51] } 25... Qxc4 $4 { [%eval #2] } 26. Qxh8+
+{ [%eval #1] } 26... Ke7 { [%eval #1] } 27. Qd8# 1-0

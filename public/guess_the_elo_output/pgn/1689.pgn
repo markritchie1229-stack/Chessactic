@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pMZcTeZt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "putraf"]
+[Black "CarrascoCapixaba"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:54:18"]
+[WhiteElo "2115"]
+[BlackElo "2066"]
+[WhiteRatingDiff "+20"]
+[BlackRatingDiff "-9"]
+[ECO "A47"]
+[Opening "Queen's Indian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.29] } 2. Nf3 { [%eval 0.18] } 2...
+b6 { [%eval 0.25] } 3. g3 { [%eval 0.12] } 3... Bb7 { [%eval 0.12] } 4. Bg2
+{ [%eval 0.2] } 4... e6 { [%eval 0.16] } 5. O-O { [%eval 0.16] } 5... Be7
+{ [%eval 0.15] } 6. Re1 { [%eval 0.0] } 6... O-O { [%eval 0.17] } 7. Nbd2
+{ [%eval 0.0] } 7... d6 { [%eval 0.19] } 8. e4 { [%eval 0.3] } 8... Nbd7
+{ [%eval 0.54] } 9. c4 { [%eval 0.45] } 9... c6 { [%eval 0.43] } 10. Qe2
+{ [%eval 0.33] } 10... e5 { [%eval 0.33] } 11. b3 { [%eval 0.3] } 11... a5
+{ [%eval 0.4] } 12. Bb2 { [%eval 0.36] } 12... a4 { [%eval 0.71] } 13. dxe5
+{ [%eval 0.65] } 13... dxe5 { [%eval 0.64] } 14. Nxe5 { [%eval 0.57] } 14...
+axb3 $6 { [%eval 1.17] } 15. axb3 { [%eval 1.2] } 15... c5 $2 { [%eval 2.4] }
+16. f4 { [%eval 2.04] } 16... Re8 $6 { [%eval 2.54] } 17. Ndf3 $2
+{ [%eval 1.23] } 17... Nxe5 { [%eval 1.38] } 18. fxe5 $6 { [%eval 0.55] } 18...
+Nd7 { [%eval 0.68] } 19. Rad1 { [%eval 0.62] } 19... Qc7 { [%eval 0.75] } 20.
+Bh3 { [%eval 0.75] } 20... Bc6 $2 { [%eval 2.81] } 21. e6 { [%eval 2.69] }
+21... fxe6 { [%eval 2.6] } 22. Bxe6+ { [%eval 2.71] } 22... Kh8
+{ [%eval 2.58] } 23. Bxd7 $2 { [%eval 1.54] } 23... Bxd7 { [%eval 1.58] } 24.
+Ne5 $6 { [%eval 0.99] } 24... Be6 { [%eval 1.1] } 25. Qh5 { [%eval 1.0] } 25...
+Bf6 { [%eval 0.97] } 26. Rf1 { [%eval 0.91] } 26... Kg8 $4 { [%eval 5.68] } 27.
+Rd7 $4 { [%eval 1.52] } 27... Bxd7 $4 { [%eval 13.58] } 28. Qf7+
+{ [%eval 13.14] } 28... Kh8 { [%eval 12.08] } 29. Rxf6 { [%eval 10.14] } 29...
+gxf6 $6 { [%eval #2] } 30. Ng6+ { [%eval #1] } 30... hxg6 { [%eval #1] } 31.
+Bxf6# 1-0

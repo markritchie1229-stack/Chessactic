@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Zd60gnrX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "alecmee"]
+[Black "the210tone"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:59:08"]
+[WhiteElo "1364"]
+[BlackElo "1384"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.3] } 1... d5 { [%eval 0.74] } 2. d4 $2 { [%eval -0.4] } 2...
+c6 $6 { [%eval 0.37] } 3. e5 { [%eval 0.33] } 3... e6 { [%eval 0.39] } 4. Nf3
+{ [%eval 0.39] } 4... f6 $6 { [%eval 0.93] } 5. Bd3 { [%eval 0.83] } 5... fxe5
+{ [%eval 1.15] } 6. Nxe5 { [%eval 0.96] } 6... Bd6 $4 { [%eval 25.76] } 7. O-O
+$4 { [%eval 1.0] } 7... Bxe5 $6 { [%eval 1.87] } 8. dxe5 { [%eval 1.39] } 8...
+Ne7 { [%eval 1.43] } 9. Bf4 $6 { [%eval 0.55] } 9... Nd7 $6 { [%eval 1.29] }
+10. Nc3 $2 { [%eval 0.13] } 10... Nf5 $2 { [%eval 1.27] } 11. Bxf5
+{ [%eval 1.08] } 11... exf5 { [%eval 1.04] } 12. Ne2 $6 { [%eval 0.2] } 12...
+O-O { [%eval 0.16] } 13. Ng3 { [%eval -0.32] } 13... Nc5 { [%eval -0.28] } 14.
+b4 { [%eval -0.74] } 14... Ne4 $6 { [%eval 0.21] } 15. Nxe4 $6
+{ [%eval -0.35] } 15... fxe4 { [%eval -0.38] } 16. h3 $4 { [%eval -5.57] }
+16... Rxf4 { [%eval -5.62] } 17. a4 $2 { [%eval -7.01] } 17... Bxh3
+{ [%eval -6.68] } 18. gxh3 $4 { [%eval -10.51] } 18... Qg5+ { [%eval -10.22] }
+19. Kh1 { [%eval -10.18] } 19... Rh4 $4 { [%eval -3.6] } 20. Qf3 $4
+{ [%eval #-2] } 20... Rf8 $4 { [%eval -3.62] } 21. Qe3 $4 { [%eval #-8] } 21...
+Rff4 $4 { [%eval -5.93] } 22. Kh2 $4 { [%eval -10.14] } 22... Rfg4 $4
+{ [%eval -2.66] } 23. Rg1 $2 { [%eval -3.96] } 23... Rxg1 $6 { [%eval -3.14] }
+24. Qxg5 $4 { [%eval -10.76] } 24... Rxg5 { [%eval -10.51] } 25. f3 $6
+{ [%eval #-7] } 25... exf3 { [%eval #-6] } 26. c3 { [%eval #-2] } 26... f2 $6
+{ [%eval -13.51] } 27. Rf1 { [%eval -13.16] } 27... Rf5 { [%eval -11.37] } 28.
+Rxf2 $6 { [%eval #-7] } 28... Rxf2+ { [%eval #-6] } 0-1

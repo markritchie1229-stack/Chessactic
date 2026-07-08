@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dyNIx8kf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vvojnovski"]
+[Black "msazdova"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:35:14"]
+[WhiteElo "1440"]
+[BlackElo "1116"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+20"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "600+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.3] } 1... d5 { [%eval 0.37] } 2. e3 { [%eval 0.11] } 2... e6
+{ [%eval 0.15] } 3. b3 { [%eval 0.01] } 3... Nc6 { [%eval 0.36] } 4. Bb2
+{ [%eval 0.28] } 4... f5 { [%eval 0.65] } 5. Nc3 { [%eval 0.25] } 5... Bd7
+{ [%eval 0.47] } 6. a3 { [%eval 0.34] } 6... Bd6 { [%eval 0.39] } 7. Bb5
+{ [%eval 0.03] } 7... a6 { [%eval 0.03] } 8. Bxc6 { [%eval 0.0] } 8... Bxc6
+{ [%eval -0.01] } 9. Nf3 { [%eval 0.0] } 9... Qd7 { [%eval 0.26] } 10. O-O
+{ [%eval 0.14] } 10... Nf6 { [%eval 0.22] } 11. h3 { [%eval -0.13] } 11... Ne4
+{ [%eval 0.05] } 12. Nxe4 { [%eval -0.12] } 12... dxe4 { [%eval -0.03] } 13.
+Ng5 $2 { [%eval -1.13] } 13... O-O-O { [%eval -0.79] } 14. h4 $2
+{ [%eval -2.02] } 14... h6 { [%eval -1.91] } 15. Nh3 { [%eval -1.83] } 15...
+Rhg8 { [%eval -1.54] } 16. a4 $2 { [%eval -2.75] } 16... g5 { [%eval -2.48] }
+17. hxg5 $2 { [%eval -4.05] } 17... hxg5 { [%eval -3.59] } 18. f3 $4
+{ [%eval -9.49] } 18... exf3 { [%eval -8.05] } 19. gxf3 $2 { [%eval -10.31] }
+19... f4 $2 { [%eval -7.31] } 20. exf4 $2 { [%eval -9.27] } 20... gxf4+ $6
+{ [%eval -8.63] } 21. Kh1 $2 { [%eval #-5] } 21... Rg3 $6 { [%eval #-9] } 22.
+Kh2 { [%eval #-2] } 22... e5 $6 { [%eval #-2] } 23. Ng5 { [%eval #-2] } 23...
+Rh8+ { [%eval #-1] } 24. Nh7 { [%eval #-1] } 24... Rxh7# 0-1

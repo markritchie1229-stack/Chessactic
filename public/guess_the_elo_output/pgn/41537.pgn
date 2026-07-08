@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/IGUr9nAQ"]
+[Site "https://lichess.org/TWX018WA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "asaalahm"]
+[Black "Chesscoach"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:03:35"]
+[WhiteElo "1095"]
+[BlackElo "1874"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[ECO "A00"]
+[Opening "Ware Opening"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. a4 { [%eval -0.22] } 1... d5 { [%eval -0.14] } 2. b4 $6 { [%eval -0.95] }
+2... c5 $2 { [%eval 0.36] } 3. Nc3 $2 { [%eval -1.8] } 3... d4 $6
+{ [%eval -0.83] } 4. Ne4 { [%eval -0.74] } 4... cxb4 { [%eval -0.45] } 5. Rb1
+$6 { [%eval -1.31] } 5... Nc6 { [%eval -1.09] } 6. c4 $2 { [%eval -2.22] } 6...
+e5 { [%eval -2.09] } 7. g4 $2 { [%eval -3.18] } 7... Bxg4 { [%eval -3.02] } 8.
+e3 $4 { [%eval -13.41] } 8... Bxd1 { [%eval -12.78] } 9. Kxd1
+{ [%eval -12.84] } 9... dxe3 { [%eval -12.06] } 10. fxe3 { [%eval -11.62] }
+10... f5 { [%eval -11.51] } 11. Nh3 { [%eval -15.56] } 11... fxe4
+{ [%eval -15.26] } 12. Ng5 { [%eval -19.61] } 12... Nf6 { [%eval -14.63] } 13.
+Nxe4 { [%eval -23.07] } 13... Nxe4 { [%eval -22.24] } 14. d3 { [%eval -27.35] }
+14... Nc3+ { [%eval -26.17] } 15. Ke1 $6 { [%eval #-3] } 15... Nxb1 $6
+{ [%eval -27.54] } 16. Ba3 $6 { [%eval #-6] } 16... bxa3 $6 { [%eval -44.68] }
+17. e4 $6 { [%eval #-4] } 17... a2 $6 { [%eval #-6] } 18. Rg1 { [%eval #-5] }
+18... a1=Q $6 { [%eval #-5] } 19. h4 { [%eval #-3] } 19... Nc3+ $6
+{ [%eval #-4] } 20. Kf2 { [%eval #-4] } 20... Qxh4+ { [%eval #-3] } 21. Ke3
+{ [%eval #-1] } 21... Qc1+ $6 { [%eval #-2] } 22. Kf3 { [%eval #-2] } 22...
+Qhf4+ $6 { [%eval #-3] } 23. Kg2 { [%eval #-3] } 23... Qcd2+ { [%eval #-2] }
+24. Kh3 { [%eval #-1] } 24... Qdh2# 0-1

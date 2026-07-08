@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PONUUHwc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rinauld"]
+[Black "Synprime"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:59:16"]
+[WhiteElo "1135"]
+[BlackElo "1189"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+18"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.15] } 1... d5 { [%eval 0.57] } 2. b3 $2 { [%eval -0.71] } 2...
+e6 $6 { [%eval 0.02] } 3. Nc3 $6 { [%eval -0.64] } 3... Bb4 $6 { [%eval 0.12] }
+4. Nb5 $6 { [%eval -0.83] } 4... Nc6 $6 { [%eval -0.28] } 5. e3
+{ [%eval -0.28] } 5... a6 { [%eval -0.28] } 6. Nd4 $6 { [%eval -1.2] } 6... e5
+$2 { [%eval 0.72] } 7. Nxc6 { [%eval 0.48] } 7... bxc6 { [%eval 0.7] } 8. Bb2
+{ [%eval 0.45] } 8... Nf6 $6 { [%eval 1.19] } 9. Bxe5 { [%eval 1.14] } 9... Ne4
+{ [%eval 1.02] } 10. Bd3 $2 { [%eval -0.86] } 10... Qg5 { [%eval -0.47] } 11.
+Nf3 { [%eval -0.72] } 11... Qf5 $4 { [%eval 2.3] } 12. Bxg7 $2 { [%eval 0.95] }
+12... Rg8 { [%eval 0.93] } 13. Bc3 $6 { [%eval 0.31] } 13... Nxc3 $2
+{ [%eval 1.55] } 14. dxc3 $2 { [%eval 0.0] } 14... Bxc3+ { [%eval 0.0] } 15.
+Kf1 { [%eval 0.0] } 15... Qe6 $2 { [%eval 2.18] } 16. Rc1 { [%eval 2.22] }
+16... Bb2 { [%eval 2.29] } 17. Rc2 { [%eval 2.18] } 17... Ba3 { [%eval 2.52] }
+18. Bxh7 $2 { [%eval 1.15] } 18... Rg7 $2 { [%eval 2.65] } 19. Bd3
+{ [%eval 2.46] } 19... Qg4 { [%eval 2.3] } 20. h3 $6 { [%eval 1.32] } 20...
+Qxg2+ { [%eval 1.57] } 21. Ke2 { [%eval 1.43] } 21... Bxh3 $4 { [%eval 6.16] }
+22. Nh4 $4 { [%eval -18.16] } 22... Qg4+ $4 { [%eval -1.23] } 23. f3 $4
+{ [%eval -5.81] } 23... Qxh4 { [%eval -5.79] } 24. Rxh3 $2 { [%eval -7.45] }
+24... Qxh3 { [%eval -6.82] } 25. e4 $4 { [%eval #-4] } 25... Qg2+ $6
+{ [%eval #-5] } 26. Ke3 { [%eval #-2] } 26... Qg5+ $6 { [%eval #-7] } 27. Kd4
+{ [%eval #-2] } 27... c5+ { [%eval #-1] } 28. Kc3 { [%eval #-1] } 28... d4# 0-1

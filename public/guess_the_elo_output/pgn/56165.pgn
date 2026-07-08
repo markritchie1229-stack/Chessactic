@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/DeaQtIDT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Transgear"]
+[Black "xnoufnouf"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:04:34"]
+[WhiteElo "1352"]
+[BlackElo "1399"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... g6 { [%eval 0.57] } 2. d4 { [%eval 0.59] } 2... Bg7
+{ [%eval 0.6] } 3. Nf3 { [%eval 0.61] } 3... Nc6 { [%eval 0.67] } 4. c3
+{ [%eval 0.67] } 4... e6 { [%eval 0.79] } 5. Bd3 { [%eval 0.69] } 5... d6
+{ [%eval 0.79] } 6. O-O { [%eval 0.78] } 6... Bd7 { [%eval 0.83] } 7. Qc2
+{ [%eval 0.54] } 7... Nf6 { [%eval 0.68] } 8. a3 { [%eval 0.68] } 8... Qe7
+{ [%eval 0.91] } 9. Bg5 { [%eval 0.79] } 9... h6 { [%eval 0.81] } 10. Bd2
+{ [%eval 0.52] } 10... g5 { [%eval 0.91] } 11. b3 $6 { [%eval 0.23] } 11... g4
+{ [%eval 0.41] } 12. Ne1 { [%eval 0.22] } 12... h5 { [%eval 0.15] } 13. f3
+{ [%eval -0.22] } 13... gxf3 $6 { [%eval 0.31] } 14. Nxf3 { [%eval 0.32] }
+14... h4 { [%eval 0.37] } 15. Bg5 { [%eval 0.37] } 15... h3 { [%eval 0.43] }
+16. g3 { [%eval 0.29] } 16... Bh6 $6 { [%eval 1.19] } 17. Qd2 $2
+{ [%eval 0.11] } 17... Bxg5 { [%eval 0.14] } 18. Qxg5 { [%eval 0.0] } 18...
+O-O-O $2 { [%eval 1.53] } 19. Nbd2 $2 { [%eval -0.65] } 19... Rdg8
+{ [%eval -0.62] } 20. Qf4 { [%eval -0.8] } 20... e5 $6 { [%eval 0.0] } 21. dxe5
+$2 { [%eval -1.39] } 21... dxe5 { [%eval -1.31] } 22. Qe3 { [%eval -1.27] }
+22... Ng4 { [%eval -1.29] } 23. Qe1 { [%eval -1.72] } 23... f5 $2
+{ [%eval -0.16] } 24. Nc4 $4 { [%eval -3.7] } 24... f4 { [%eval -4.19] } 0-1

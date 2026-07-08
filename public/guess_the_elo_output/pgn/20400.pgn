@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4WmWHFkX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Momme"]
+[Black "ff14"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:33:51"]
+[WhiteElo "1111"]
+[BlackElo "965"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+17"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Morphy Defense, Alapin's Defense Deferred"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.22] } 2...
+Nc6 { [%eval 0.23] } 3. Bb5 { [%eval 0.37] } 3... a6 { [%eval 0.37] } 4. Ba4
+{ [%eval 0.22] } 4... Bb4 $6 { [%eval 0.87] } 5. c3 { [%eval 0.87] } 5... Bc5
+{ [%eval 1.12] } 6. Bxc6 $6 { [%eval 0.42] } 6... bxc6 $6 { [%eval 1.22] } 7.
+d4 $6 { [%eval 0.43] } 7... Ba7 $6 { [%eval 1.18] } 8. Nxe5 { [%eval 1.22] }
+8... d6 $2 { [%eval 2.22] } 9. Nf3 $2 { [%eval 1.16] } 9... Nf6
+{ [%eval 1.14] } 10. Nbd2 { [%eval 0.99] } 10... c5 { [%eval 0.99] } 11. d5
+{ [%eval 1.05] } 11... O-O { [%eval 1.0] } 12. O-O { [%eval 1.04] } 12... Bg4
+{ [%eval 1.12] } 13. h3 { [%eval 1.01] } 13... Bxf3 $6 { [%eval 1.52] } 14.
+Nxf3 $2 { [%eval 0.46] } 14... Nxe4 { [%eval 0.6] } 15. Re1 { [%eval 0.4] }
+15... Re8 { [%eval 0.54] } 16. c4 { [%eval 0.45] } 16... Qd7 $6
+{ [%eval 1.09] } 17. Qc2 { [%eval 1.08] } 17... f5 { [%eval 1.18] } 18. g4 $2
+{ [%eval -0.45] } 18... c6 $2 { [%eval 1.49] } 19. gxf5 $2 { [%eval -0.39] }
+19... Qxf5 $2 { [%eval 1.35] } 20. Nd2 $4 { [%eval #-2] } 20... Qxf2+
+{ [%eval #-1] } 21. Kh1 { [%eval #-1] } 21... Ng3# 0-1

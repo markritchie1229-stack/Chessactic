@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/lr0xsjgA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "donders"]
+[Black "joaovictor2504"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:45:20"]
+[WhiteElo "1650"]
+[BlackElo "1586"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+20"]
+[ECO "A49"]
+[Opening "Indian Game: King's Indian Variation, Fianchetto Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... Nf6 { [%eval 0.2] } 2. g3 { [%eval -0.07] } 2... g6
+{ [%eval 0.24] } 3. Bg2 { [%eval 0.12] } 3... Bg7 { [%eval 0.31] } 4. d4
+{ [%eval 0.14] } 4... O-O { [%eval 0.34] } 5. e4 { [%eval 0.28] } 5... d6
+{ [%eval 0.34] } 6. Be3 $2 { [%eval -0.79] } 6... e5 $6 { [%eval 0.14] } 7. d5
+{ [%eval 0.06] } 7... Nbd7 { [%eval 0.33] } 8. Ne2 { [%eval 0.06] } 8... a5
+{ [%eval 0.18] } 9. Nbc3 { [%eval 0.16] } 9... Nc5 { [%eval 0.41] } 10. O-O
+{ [%eval 0.29] } 10... Nh5 { [%eval 0.46] } 11. Rb1 { [%eval 0.22] } 11... f5
+{ [%eval 0.39] } 12. f4 $2 { [%eval -0.72] } 12... exf4 { [%eval -0.63] } 13.
+Nxf4 { [%eval -0.81] } 13... Nxf4 { [%eval -0.77] } 14. Bxf4 { [%eval -0.78] }
+14... fxe4 { [%eval -0.73] } 15. Nxe4 $6 { [%eval -1.34] } 15... Nxe4 $6
+{ [%eval -0.72] } 16. Bxe4 { [%eval -1.03] } 16... Bf5 $2 { [%eval 0.0] } 17.
+Qd3 { [%eval -0.34] } 17... Qf6 { [%eval 0.0] } 18. b3 $4 { [%eval -4.77] }
+18... Rae8 $4 { [%eval 0.0] } 19. Bxf5 { [%eval 0.0] } 19... Qxf5
+{ [%eval 0.13] } 20. Qd2 { [%eval -0.31] } 20... Qe4 { [%eval -0.26] } 21. Rbe1
+$4 { [%eval -11.47] } 21... Bd4+ { [%eval -11.32] } 22. Be3 { [%eval -11.21] }
+22... Bxe3+ { [%eval -11.05] } 23. Qxe3 { [%eval -10.97] } 23... Qxe3+
+{ [%eval -10.59] } 24. Rxe3 { [%eval -10.2] } 24... Rxe3 { [%eval -9.72] } 25.
+Rxf8+ { [%eval -12.66] } 25... Kxf8 { [%eval -11.75] } 26. Kf2
+{ [%eval -12.48] } 26... Rc3 { [%eval -11.44] } 0-1

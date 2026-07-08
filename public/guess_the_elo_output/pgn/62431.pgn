@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0aF6I8lj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sottolapanca"]
+[Black "wichy"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:02:02"]
+[WhiteElo "1959"]
+[BlackElo "2025"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... e6 { [%eval 0.25] } 2. Nf3 { [%eval 0.13] } 2... d5
+{ [%eval 0.16] } 3. g3 { [%eval -0.1] } 3... Nf6 { [%eval 0.01] } 4. Bg2
+{ [%eval 0.03] } 4... Bd6 { [%eval 0.16] } 5. O-O { [%eval 0.08] } 5... Ne4 $6
+{ [%eval 0.6] } 6. c4 { [%eval 0.46] } 6... c6 { [%eval 0.61] } 7. Nc3
+{ [%eval 0.47] } 7... f5 { [%eval 0.54] } 8. cxd5 { [%eval 0.1] } 8... exd5
+{ [%eval 0.2] } 9. Qb3 { [%eval 0.07] } 9... O-O { [%eval 0.23] } 10. Nd2
+{ [%eval 0.0] } 10... Kh8 { [%eval 0.2] } 11. Ndxe4 { [%eval -0.18] } 11...
+fxe4 { [%eval -0.1] } 12. e3 $6 { [%eval -0.62] } 12... Nd7 { [%eval -0.44] }
+13. Ne2 { [%eval -0.91] } 13... Nf6 { [%eval -0.8] } 14. Nf4 $6
+{ [%eval -1.66] } 14... Rb8 { [%eval -1.4] } 15. Bd2 { [%eval -1.25] } 15...
+Bg4 $6 { [%eval -0.64] } 16. h3 { [%eval -0.72] } 16... Bf3 $2 { [%eval 0.7] }
+17. Bb4 $2 { [%eval -0.5] } 17... g5 $2 { [%eval 1.66] } 18. Bxd6 $4
+{ [%eval -2.45] } 18... Qxd6 { [%eval -2.29] } 19. Bxf3 { [%eval -2.43] } 19...
+exf3 $2 { [%eval -1.13] } 20. Nd3 { [%eval -0.97] } 20... Qe6 { [%eval -0.75] }
+21. Kh2 $4 { [%eval -69.79] } 21... Ng4+ { [%eval -29.63] } 22. Kg1
+{ [%eval -25.75] } 22... Qh6 { [%eval -20.42] } 23. hxg4 $6 { [%eval #-13] }
+23... Qh3 { [%eval #-12] } 24. Ne1 { [%eval #-12] } 24... Rf6 { [%eval #-11] }
+25. e4 { [%eval #-2] } 25... Rh6 { [%eval #-1] } 0-1

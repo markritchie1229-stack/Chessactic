@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fY2eSf89"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hurts"]
+[Black "Dima64"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:53:23"]
+[WhiteElo "1656"]
+[BlackElo "1929"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-22"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Symmetrical Variation, Pseudo-Catalan"]
+[TimeControl "600+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... d5 { [%eval 0.18] } 2. Nf3 { [%eval 0.07] } 2...
+Nf6 { [%eval 0.19] } 3. g3 { [%eval -0.06] } 3... b6 { [%eval 0.22] } 4. Bg2
+{ [%eval 0.16] } 4... Bb7 { [%eval 0.16] } 5. O-O { [%eval 0.18] } 5... Nbd7
+{ [%eval 0.07] } 6. Nc3 { [%eval 0.06] } 6... e6 { [%eval 0.07] } 7. Bf4
+{ [%eval 0.03] } 7... Bd6 { [%eval 0.07] } 8. Bxd6 { [%eval 0.04] } 8... cxd6
+{ [%eval 0.13] } 9. Nb5 { [%eval 0.0] } 9... Qe7 $2 { [%eval 2.08] } 10. Re1 $2
+{ [%eval -0.13] } 10... O-O { [%eval -0.07] } 11. c3 { [%eval -0.26] } 11... a6
+{ [%eval -0.22] } 12. Na3 { [%eval -0.16] } 12... b5 { [%eval -0.18] } 13. b4
+$6 { [%eval -0.94] } 13... Rac8 { [%eval -0.94] } 14. Qd3 { [%eval -1.09] }
+14... Rc7 { [%eval -0.94] } 15. Rac1 { [%eval -1.15] } 15... Rfc8
+{ [%eval -1.02] } 16. Nh4 { [%eval -1.18] } 16... Ne4 { [%eval -1.14] } 17.
+Bxe4 $6 { [%eval -1.8] } 17... dxe4 { [%eval -1.72] } 18. Qe3 { [%eval -2.04] }
+18... d5 $6 { [%eval -1.33] } 19. f3 { [%eval -1.66] } 19... exf3 $2
+{ [%eval -0.59] } 20. exf3 { [%eval -0.66] } 20... a5 $2 { [%eval 2.04] } 21.
+Nxb5 { [%eval 1.87] } 21... Rc4 { [%eval 2.27] } 22. a3 $4 { [%eval -0.79] }
+22... axb4 $2 { [%eval 1.25] } 23. axb4 $6 { [%eval 0.37] } 23... Ra8 $2
+{ [%eval 2.91] } 24. Ra1 $2 { [%eval 0.37] } 24... Qd8 $6 { [%eval 1.32] } 25.
+Qf4 $2 { [%eval -1.0] } 25... Bc6 $4 { [%eval 3.22] } 26. Nd6 { [%eval 3.14] }
+26... Rxc3 $4 { [%eval #11] } 27. Qxf7+ { [%eval #10] } 27... Kh8
+{ [%eval #10] } 28. Rxa8 { [%eval #9] } 28... Qxa8 { [%eval #3] } 29. Ne8
+{ [%eval #2] } 29... Nf6 { [%eval #1] } 30. Qxg7# 1-0

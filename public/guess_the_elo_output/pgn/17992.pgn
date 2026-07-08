@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7xDrGlM5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "linto"]
+[Black "Fintan"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:57:44"]
+[WhiteElo "1816"]
+[BlackElo "1848"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Svenonius Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e6 { [%eval 0.24] } 2. d4 { [%eval 0.16] } 2... d5
+{ [%eval 0.29] } 3. exd5 { [%eval 0.05] } 3... exd5 { [%eval 0.16] } 4. Nc3
+{ [%eval 0.08] } 4... Nf6 { [%eval 0.14] } 5. Bg5 { [%eval 0.0] } 5... Be7
+{ [%eval 0.02] } 6. Qf3 { [%eval -0.43] } 6... O-O { [%eval -0.39] } 7. Bxf6
+{ [%eval -0.62] } 7... Bxf6 { [%eval -0.56] } 8. Nge2 { [%eval -0.85] } 8...
+Be6 { [%eval -0.42] } 9. O-O-O { [%eval -0.42] } 9... Nc6 { [%eval -0.18] } 10.
+g3 { [%eval -0.45] } 10... Bg4 $4 { [%eval 3.97] } 11. Qd3 $4 { [%eval -1.87] }
+11... Be6 $2 { [%eval -0.14] } 12. f4 { [%eval -0.46] } 12... Nb4
+{ [%eval -0.39] } 13. Qb5 $2 { [%eval -2.05] } 13... a5 { [%eval -2.14] } 14.
+a3 $2 { [%eval -4.72] } 14... c6 $2 { [%eval -1.98] } 15. Qxb7 $2
+{ [%eval -4.61] } 15... Rb8 $2 { [%eval -1.98] } 16. Qa7 { [%eval -1.59] }
+16... Nxc2 $6 { [%eval -0.87] } 17. Kxc2 { [%eval -0.83] } 17... Bf5+
+{ [%eval -0.15] } 18. Kc1 { [%eval -0.58] } 18... Qd6 $6 { [%eval 0.21] } 19.
+Rd2 { [%eval 0.45] } 19... Rfe8 { [%eval 0.81] } 20. h3 $6 { [%eval 0.08] }
+20... Re3 $2 { [%eval 1.7] } 21. g4 { [%eval 1.76] } 21... Be4 $6
+{ [%eval 2.66] } 22. Nxe4 { [%eval 2.1] } 22... Rxe4 $6 { [%eval 2.68] } 23.
+Bg2 { [%eval 2.46] } 23... Rxe2 $2 { [%eval 5.45] } 24. Rxe2 { [%eval 5.33] }
+24... Qxf4+ { [%eval 5.33] } 25. Kb1 { [%eval 5.08] } 25... Bxd4 $2
+{ [%eval 6.08] } 26. Rhe1 $2 { [%eval 4.72] } 26... g6 $6 { [%eval 5.36] } 27.
+Qxb8+ { [%eval 5.24] } 1-0

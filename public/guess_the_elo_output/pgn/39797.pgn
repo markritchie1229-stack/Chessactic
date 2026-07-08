@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9gNFmUi5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PadreAlessandro"]
+[Black "millerz"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:53:00"]
+[WhiteElo "1927"]
+[BlackElo "1802"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "A00"]
+[Opening "Polish Opening: Bugayev Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.47] } 1... e5 { [%eval -0.31] } 2. a3 { [%eval -0.48] }
+2... Nf6 { [%eval -0.14] } 3. Bb2 { [%eval -0.23] } 3... d6 { [%eval -0.17] }
+4. c4 { [%eval -0.18] } 4... Be7 { [%eval -0.14] } 5. e3 { [%eval -0.15] } 5...
+Bf5 { [%eval 0.06] } 6. Nf3 { [%eval 0.01] } 6... O-O { [%eval 0.12] } 7. d4
+{ [%eval 0.0] } 7... exd4 { [%eval 0.08] } 8. exd4 { [%eval -0.28] } 8... c5 $6
+{ [%eval 0.39] } 9. bxc5 $6 { [%eval -0.27] } 9... dxc5 { [%eval -0.45] } 10.
+d5 { [%eval -0.66] } 10... Bd6 $6 { [%eval 0.13] } 11. Bd3 $6 { [%eval -0.79] }
+11... Re8+ $6 { [%eval -0.28] } 12. Be2 { [%eval -0.35] } 12... Be4 $6
+{ [%eval 0.29] } 13. O-O { [%eval 0.19] } 13... Qd7 $6 { [%eval 1.08] } 14.
+Nbd2 { [%eval 0.68] } 14... Bg6 { [%eval 0.75] } 15. Nh4 { [%eval 0.43] } 15...
+Ne4 $6 { [%eval 1.17] } 16. Nxg6 { [%eval 0.74] } 16... hxg6 { [%eval 0.9] }
+17. Bd3 { [%eval 0.72] } 17... Nxd2 { [%eval 0.7] } 18. Qxd2 { [%eval 0.73] }
+18... a6 $2 { [%eval 1.85] } 19. Rfe1 { [%eval 1.37] } 19... b5 $6
+{ [%eval 1.99] } 20. Qc3 { [%eval 1.76] } 20... f6 $4 { [%eval 7.08] } 21. Bxg6
+{ [%eval 5.88] } 21... Rxe1+ $4 { [%eval 10.75] } 22. Rxe1 { [%eval 9.57] }
+22... Be5 { [%eval 11.99] } 23. Qf3 { [%eval 7.55] } 23... Qd6 $2
+{ [%eval #6] } 24. Bxe5 { [%eval #5] } 24... fxe5 { [%eval #3] } 25. Qf7+
+{ [%eval #2] } 25... Kh8 { [%eval #2] } 26. Qe8+ { [%eval #1] } 1-0

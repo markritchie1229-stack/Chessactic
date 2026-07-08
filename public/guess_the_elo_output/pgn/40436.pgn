@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WCHAidmR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Philstr"]
+[Black "podnimaya_znamya"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:18:42"]
+[WhiteElo "1637"]
+[BlackElo "1732"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+10"]
+[ECO "C54"]
+[Opening "Italian Game: Classical Variation, Greco Gambit, Anderssen Variation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.28] } 2... Nc6
+{ [%eval 0.32] } 3. Bc4 { [%eval 0.16] } 3... Bc5 { [%eval 0.16] } 4. c3
+{ [%eval 0.21] } 4... Nf6 { [%eval 0.2] } 5. d4 { [%eval 0.0] } 5... exd4
+{ [%eval 0.07] } 6. e5 { [%eval 0.04] } 6... Ne4 { [%eval 0.46] } 7. cxd4
+{ [%eval 0.12] } 7... d5 { [%eval 0.1] } 8. Bb5 { [%eval 0.16] } 8... Bb4+
+{ [%eval 0.18] } 9. Bd2 { [%eval 0.14] } 9... Nxd2 { [%eval 0.2] } 10. Nbxd2
+{ [%eval 0.21] } 10... Bg4 { [%eval 0.44] } 11. Qb3 { [%eval 0.49] } 11... Bxf3
+$6 { [%eval 1.13] } 12. Qxf3 $2 { [%eval 0.09] } 12... O-O { [%eval 0.18] } 13.
+a3 $4 { [%eval -4.1] } 13... Nxd4 { [%eval -4.05] } 14. Qd3 { [%eval -4.1] }
+14... Bxd2+ { [%eval -4.06] } 15. Kxd2 $6 { [%eval -4.68] } 15... Qg5+
+{ [%eval -4.68] } 16. Kc3 { [%eval -4.98] } 16... Nxb5+ $2 { [%eval -3.1] } 17.
+Qxb5 { [%eval -3.04] } 17... Qxe5+ { [%eval -2.92] } 18. Kb3 { [%eval -2.83] }
+18... c6 { [%eval -2.71] } 19. Qb4 { [%eval -3.06] } 19... c5 $2
+{ [%eval -1.54] } 20. Qxc5 { [%eval -1.53] } 20... Rac8 { [%eval -1.41] } 21.
+Qxa7 $4 { [%eval -5.85] } 21... Qf4 $4 { [%eval -1.87] } 22. f3 $4
+{ [%eval #-1] } 22... Qc4# 0-1

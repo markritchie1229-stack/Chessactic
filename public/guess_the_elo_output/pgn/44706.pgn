@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/PggVnR7U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "terrible_ivan"]
+[Black "professor_ag"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:09:28"]
+[WhiteElo "1257"]
+[BlackElo "1369"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.31] } 1... d5 { [%eval 0.25] } 2. Bf4 { [%eval 0.04] } 2... c6
+{ [%eval 0.21] } 3. e3 { [%eval 0.22] } 3... h6 { [%eval 0.65] } 4. Nf3
+{ [%eval 0.3] } 4... g5 { [%eval 0.62] } 5. Nxg5 $2 { [%eval -2.01] } 5... hxg5
+{ [%eval -1.93] } 6. Bxg5 { [%eval -2.0] } 6... f6 { [%eval -1.54] } 7. Bf4
+{ [%eval -1.6] } 7... Bh6 { [%eval -1.2] } 8. Bxh6 { [%eval -1.64] } 8... Rxh6
+{ [%eval -1.41] } 9. Bd3 { [%eval -1.89] } 9... Qd6 { [%eval -1.6] } 10. Nd2 $6
+{ [%eval -2.25] } 10... Rxh2 { [%eval -2.18] } 11. Rxh2 { [%eval -2.18] } 11...
+Qxh2 { [%eval -2.04] } 12. Qe2 $6 { [%eval -2.7] } 12... Qxg2 { [%eval -2.84] }
+13. O-O-O { [%eval -2.93] } 13... Qg5 $6 { [%eval -1.98] } 14. Nf3
+{ [%eval -2.2] } 14... Qh5 $6 { [%eval -1.52] } 15. Rg1 { [%eval -1.7] } 15...
+Bg4 { [%eval -1.4] } 16. Rh1 $4 { [%eval -13.92] } 16... Qxh1+
+{ [%eval -13.76] } 17. Kd2 { [%eval -14.59] } 17... Bxf3 { [%eval -14.29] } 18.
+Bg6+ { [%eval -15.46] } 18... Kd8 { [%eval -15.37] } 19. Qd3 { [%eval -15.59] }
+19... Qd1+ { [%eval -15.22] } 20. Kc3 { [%eval -15.12] } 20... Qxd3+
+{ [%eval -14.82] } 21. Kxd3 { [%eval -15.28] } 21... Nd7 { [%eval -14.91] } 22.
+a3 { [%eval -16.14] } 22... c5 { [%eval -14.8] } 23. dxc5 { [%eval -18.9] }
+23... Nxc5+ { [%eval -15.73] } 24. Kd4 { [%eval -16.52] } 24... Ne6+
+{ [%eval -16.16] } 25. Kc3 { [%eval -16.99] } 25... Rc8+ { [%eval -16.59] } 26.
+Kd2 { [%eval -17.08] } 26... Be4 { [%eval -16.5] } 27. c3 { [%eval -20.7] }
+27... Bxg6 { [%eval -20.04] } 0-1

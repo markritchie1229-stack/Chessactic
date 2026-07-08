@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/TYgVN2aD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ELVISCHESS79"]
+[Black "Bujica"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:38:26"]
+[WhiteElo "1779"]
+[BlackElo "1645"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation, Retreat Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... c5 $6 { [%eval 0.66] } 2. Nf3 $6 { [%eval -0.1] }
+2... cxd4 { [%eval 0.12] } 3. Nxd4 { [%eval -0.01] } 3... Nc6 { [%eval 0.16] }
+4. Nc3 { [%eval 0.09] } 4... Nf6 { [%eval 0.14] } 5. e4 { [%eval 0.1] } 5... e5
+{ [%eval 0.23] } 6. Nf3 { [%eval -0.09] } 6... Bb4 { [%eval -0.04] } 7. Bd3 $6
+{ [%eval -0.54] } 7... d6 $6 { [%eval 0.03] } 8. Bg5 $6 { [%eval -0.6] } 8...
+Bg4 { [%eval -0.31] } 9. O-O { [%eval -0.44] } 9... Bxc3 { [%eval -0.44] } 10.
+bxc3 { [%eval -0.49] } 10... h6 { [%eval -0.41] } 11. Be3 { [%eval -0.55] }
+11... O-O { [%eval -0.58] } 12. h3 { [%eval -0.68] } 12... Bh5
+{ [%eval -0.61] } 13. Rb1 { [%eval -0.73] } 13... b6 { [%eval -0.72] } 14. Bb5
+$6 { [%eval -1.25] } 14... Ne7 { [%eval -0.77] } 15. g4 $2 { [%eval -1.86] }
+15... Bg6 { [%eval -1.89] } 16. Nh4 { [%eval -2.1] } 16... Bxe4
+{ [%eval -1.96] } 17. f3 { [%eval -2.06] } 17... Bh7 { [%eval -2.03] } 18. g5
+$2 { [%eval -3.76] } 18... hxg5 $2 { [%eval -2.02] } 19. Bxg5 { [%eval -2.16] }
+19... Ng6 $6 { [%eval -1.22] } 20. Qe1 $2 { [%eval -2.47] } 20... Qe7 $2
+{ [%eval -0.76] } 21. Bd3 $6 { [%eval -1.3] } 21... Qe6 { [%eval -0.83] } 22.
+Bf5 { [%eval -0.81] } 22... Qd5 $6 { [%eval -0.12] } 23. Rd1 $2
+{ [%eval -1.62] } 23... Qc5+ { [%eval -1.59] } 24. Kh2 { [%eval -1.87] } 24...
+Nxh4 { [%eval -1.71] } 25. Bxh7+ { [%eval -1.82] } 25... Nxh7 { [%eval -1.62] }
+26. Bxh4 { [%eval -1.92] } 26... Qxc3 $4 { [%eval 11.07] } 27. Qxc3
+{ [%eval 10.53] } 27... Rad8 { [%eval 16.46] } 1-0

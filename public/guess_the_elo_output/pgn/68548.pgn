@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vYxg1jSI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fernandojara_31"]
+[Black "x8magic"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:03:04"]
+[WhiteElo "1593"]
+[BlackElo "1343"]
+[WhiteRatingDiff "-51"]
+[BlackRatingDiff "+26"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "300+6"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.27] } 2. c4 { [%eval 0.25] } 2... Nf6
+{ [%eval 0.38] } 3. Nc3 { [%eval 0.14] } 3... c6 { [%eval 0.37] } 4. e3
+{ [%eval 0.22] } 4... dxc4 { [%eval 0.71] } 5. Bxc4 { [%eval 0.64] } 5... g6
+{ [%eval 0.88] } 6. Nf3 { [%eval 0.85] } 6... Nbd7 { [%eval 1.33] } 7. Qb3
+{ [%eval 0.97] } 7... e6 { [%eval 1.01] } 8. e4 $6 { [%eval 0.14] } 8... Be7 $2
+{ [%eval 1.18] } 9. Bg5 $2 { [%eval 0.18] } 9... O-O $6 { [%eval 0.83] } 10. e5
+{ [%eval 0.72] } 10... Nd5 { [%eval 0.66] } 11. Bxe7 { [%eval 0.56] } 11...
+Qxe7 { [%eval 0.71] } 12. Bxd5 $6 { [%eval 0.14] } 12... cxd5 { [%eval 0.46] }
+13. Nb5 { [%eval 0.43] } 13... Nb6 { [%eval 0.61] } 14. Rc1 $6
+{ [%eval -0.15] } 14... Nc4 { [%eval -0.04] } 15. Nd6 $6 { [%eval -0.72] }
+15... b6 $6 { [%eval -0.11] } 16. Nxc4 { [%eval -0.28] } 16... dxc4
+{ [%eval -0.1] } 17. Rxc4 { [%eval -0.48] } 17... Bb7 { [%eval -0.43] } 18. Qc3
+{ [%eval -0.82] } 18... Rac8 { [%eval -0.73] } 19. b3 { [%eval -1.17] } 19...
+b5 $2 { [%eval -0.09] } 20. Rxc8 { [%eval -0.37] } 20... Rxc8 { [%eval -0.37] }
+21. Qd3 $4 { [%eval -7.28] } 21... Bxf3 $4 { [%eval -4.26] } 22. Qxf3 $4
+{ [%eval -8.69] } 22... Qb4+ { [%eval -8.4] } 23. Ke2 { [%eval -8.14] } 23...
+Qa3 $4 { [%eval -0.31] } 24. Qb7 $4 { [%eval -64.56] } 24... Qxa2+
+{ [%eval -56.81] } 25. Kf3 { [%eval -51.15] } 25... Qxb3+ $4 { [%eval -3.88] }
+26. Kg4 { [%eval -3.54] } 26... h5+ $6 { [%eval -2.62] } 27. Kg5
+{ [%eval -2.8] } 27... Rf8 $6 { [%eval -2.2] } 28. Qxa7 $4 { [%eval -7.06] }
+28... Qd3 $2 { [%eval -5.87] } 29. Qc5 $4 { [%eval #-2] } 29... Qf5+
+{ [%eval #-1] } 30. Kh4 { [%eval #-1] } 30... Qg4# 0-1

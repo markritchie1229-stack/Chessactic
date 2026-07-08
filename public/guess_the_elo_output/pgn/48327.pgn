@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/iXWrOhn1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nordorc"]
+[Black "Laberintos"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:31:27"]
+[WhiteElo "1509"]
+[BlackElo "1813"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf, Lipnitsky Attack"]
+[TimeControl "540+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.28] } 2. Nf3 { [%eval 0.25] } 2... d6
+{ [%eval 0.29] } 3. d4 { [%eval 0.18] } 3... cxd4 { [%eval 0.29] } 4. Nxd4
+{ [%eval 0.23] } 4... Nf6 { [%eval 0.35] } 5. Nc3 { [%eval 0.21] } 5... a6
+{ [%eval 0.19] } 6. Bc4 { [%eval 0.04] } 6... e6 { [%eval 0.12] } 7. Bb3
+{ [%eval -0.07] } 7... Be7 { [%eval 0.22] } 8. O-O { [%eval 0.12] } 8... Bd7
+{ [%eval 0.36] } 9. Nf3 { [%eval 0.0] } 9... Nc6 { [%eval 0.05] } 10. Qe2
+{ [%eval -0.03] } 10... Qc7 { [%eval 0.05] } 11. e5 $2 { [%eval -1.09] } 11...
+dxe5 { [%eval -1.06] } 12. Nxe5 $2 { [%eval -3.91] } 12... Nxe5
+{ [%eval -3.93] } 13. Bf4 { [%eval -3.91] } 13... Bd6 { [%eval -3.88] } 14.
+Rfe1 $6 { [%eval -4.68] } 14... Ke7 $4 { [%eval -0.24] } 15. Bxe5
+{ [%eval -0.24] } 15... Bxe5 { [%eval -0.22] } 16. Qxe5 { [%eval -0.19] } 16...
+Qxe5 { [%eval -0.2] } 17. Rxe5 { [%eval -0.2] } 17... Bc6 { [%eval -0.16] } 18.
+Rae1 { [%eval -0.4] } 18... Rad8 { [%eval -0.39] } 19. Bxe6 $2
+{ [%eval -1.93] } 19... fxe6 { [%eval -1.95] } 20. Rxe6+ { [%eval -1.96] }
+20... Kf7 { [%eval -1.88] } 21. Re7+ { [%eval -1.92] } 21... Kg6
+{ [%eval -1.87] } 22. Ne2 $6 { [%eval -2.58] } 22... Kg5 $2 { [%eval -1.07] }
+23. Rxg7+ { [%eval -1.36] } 23... Kh6 { [%eval -1.35] } 24. Rf7
+{ [%eval -1.35] } 24... Nh5 { [%eval -1.09] } 25. Ng3 $6 { [%eval -1.66] }
+25... Nxg3 { [%eval -1.6] } 26. Re6+ { [%eval -0.95] } 26... Kg5
+{ [%eval -0.85] } 27. Re5+ $4 { [%eval -6.46] } 27... Kg6 { [%eval -6.33] } 28.
+Rf3 $4 { [%eval #-2] } 28... Bxf3 $2 { [%eval -9.34] } 0-1

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/k4rMlFRU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "madgid"]
+[Black "Blini4kin"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:23:19"]
+[WhiteElo "1373"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+17"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.43] } 1... c6 { [%eval 0.35] } 2. d4 { [%eval 0.22] } 2... d5
+{ [%eval 0.32] } 3. e5 { [%eval 0.18] } 3... Bf5 { [%eval 0.27] } 4. Nf3
+{ [%eval 0.26] } 4... e6 { [%eval 0.23] } 5. Be2 { [%eval 0.18] } 5... c5
+{ [%eval 0.25] } 6. c3 { [%eval 0.21] } 6... Nc6 { [%eval 0.35] } 7. O-O
+{ [%eval 0.28] } 7... g6 { [%eval 0.66] } 8. Bg5 { [%eval 0.44] } 8... Be7
+{ [%eval 0.75] } 9. Bxe7 { [%eval 0.67] } 9... Qxe7 { [%eval 0.67] } 10. g3 $6
+{ [%eval -0.04] } 10... Bg4 { [%eval 0.21] } 11. Nbd2 { [%eval 0.21] } 11... c4
+$6 { [%eval 0.88] } 12. h3 $2 { [%eval -0.42] } 12... Bxf3 $2 { [%eval 0.95] }
+13. Nxf3 { [%eval 1.01] } 13... Nh6 { [%eval 1.0] } 14. Nh4 { [%eval 0.53] }
+14... O-O { [%eval 0.45] } 15. Nf3 { [%eval 0.16] } 15... b5 { [%eval 0.42] }
+16. Qd2 { [%eval 0.34] } 16... Nf5 { [%eval 0.25] } 17. g4 { [%eval -0.14] }
+17... Ng7 $6 { [%eval 0.6] } 18. Qh6 $6 { [%eval 0.0] } 18... f6
+{ [%eval 0.0] } 19. g5 $4 { [%eval -4.16] } 19... f5 $4 { [%eval -0.6] } 20.
+Nh4 $6 { [%eval -1.33] } 20... b4 { [%eval -1.17] } 21. Nf3 $2
+{ [%eval -2.75] } 21... bxc3 { [%eval -2.66] } 22. bxc3 { [%eval -2.6] } 22...
+Rab8 { [%eval -2.46] } 23. Kg2 $2 { [%eval -4.41] } 23... Rb2 { [%eval -4.25] }
+24. Bd1 { [%eval -4.31] } 24... a5 $2 { [%eval -2.21] } 25. Rh1 $4
+{ [%eval -5.52] } 25... Nd8 $2 { [%eval -3.39] } 26. h4 $4 { [%eval -9.17] }
+26... Nh5 $2 { [%eval -7.5] } 0-1

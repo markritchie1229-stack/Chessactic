@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9S99xOUA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bareley"]
+[Black "CruciformDachshund"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:11:25"]
+[WhiteElo "1615"]
+[BlackElo "1569"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-11"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.45] } 2. f4 { [%eval -0.01] } 2... e6
+{ [%eval -0.01] } 3. Nf3 { [%eval 0.02] } 3... Nc6 { [%eval 0.0] } 4. Bb5
+{ [%eval 0.09] } 4... a6 { [%eval 0.52] } 5. Bxc6 { [%eval 0.5] } 5... bxc6
+{ [%eval 0.59] } 6. O-O { [%eval 0.65] } 6... d6 { [%eval 0.69] } 7. c4
+{ [%eval 0.52] } 7... Nf6 { [%eval 0.47] } 8. d3 { [%eval 0.5] } 8... Be7
+{ [%eval 0.62] } 9. Nc3 { [%eval 0.49] } 9... O-O { [%eval 0.58] } 10. Be3
+{ [%eval 0.59] } 10... Rb8 { [%eval 0.58] } 11. b3 { [%eval 0.66] } 11... d5
+{ [%eval 0.84] } 12. exd5 $2 { [%eval -0.35] } 12... cxd5 { [%eval -0.4] } 13.
+cxd5 { [%eval -0.21] } 13... exd5 { [%eval -0.37] } 14. Ne5 $2
+{ [%eval -2.95] } 14... Bb7 $2 { [%eval -0.4] } 15. d4 { [%eval -0.41] } 15...
+Ne4 $2 { [%eval 0.79] } 16. Nxe4 { [%eval 0.77] } 16... dxe4 $6
+{ [%eval 1.31] } 17. dxc5 { [%eval 1.23] } 17... Qc7 $6 { [%eval 1.83] } 18. b4
+$6 { [%eval 0.93] } 18... Rfd8 { [%eval 1.02] } 19. Qh5 $2 { [%eval 0.0] }
+19... Bf6 $6 { [%eval 0.85] } 20. a3 { [%eval 0.47] } 20... Rd5 { [%eval 0.7] }
+21. Rad1 { [%eval 0.75] } 21... Bxe5 { [%eval 1.03] } 22. Rxd5 { [%eval 1.01] }
+22... Bxd5 { [%eval 1.03] } 23. fxe5 { [%eval 0.79] } 23... Qxe5 $4
+{ [%eval 33.21] } 24. Qxe5 { [%eval 25.94] } 1-0

@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9dlMpyrL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "browntown69"]
+[Black "Dogukanlu"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:40:40"]
+[WhiteElo "1146"]
+[BlackElo "970"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-26"]
+[ECO "B07"]
+[Opening "Pirc Defense #5"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... d6 { [%eval 0.5] } 2. d4 { [%eval 0.47] } 2... h5
+$6 { [%eval 1.28] } 3. Nf3 { [%eval 1.18] } 3... Bg4 { [%eval 1.25] } 4. h3
+{ [%eval 1.1] } 4... Be6 $6 { [%eval 1.78] } 5. a3 { [%eval 1.6] } 5... c5
+{ [%eval 1.95] } 6. d5 { [%eval 1.53] } 6... Qa5+ $4 { [%eval 5.96] } 7. b4 $6
+{ [%eval 5.1] } 7... Qa4 $2 { [%eval 7.02] } 8. Nc3 $2 { [%eval 5.54] } 8...
+Qd7 { [%eval 5.63] } 9. Bb5 { [%eval 5.42] } 9... Nc6 { [%eval 5.53] } 10. dxc6
+$2 { [%eval 4.37] } 10... bxc6 { [%eval 4.51] } 11. Ba4 { [%eval 4.5] } 11...
+Nf6 $2 { [%eval 5.63] } 12. Ng5 $2 { [%eval 4.47] } 12... g6 $2
+{ [%eval 5.65] } 13. Bf4 $2 { [%eval 4.05] } 13... Bh6 $2 { [%eval 5.33] } 14.
+g3 $2 { [%eval 3.67] } 14... Rb8 $6 { [%eval 4.38] } 15. Nd5 $4
+{ [%eval 1.36] } 15... Bxd5 { [%eval 1.7] } 16. exd5 { [%eval 1.38] } 16...
+Rxb4 $4 { [%eval 11.02] } 17. Bxc6 { [%eval 10.75] } 17... Rb1
+{ [%eval 19.71] } 18. Qxb1 { [%eval 19.57] } 18... O-O { [%eval 19.56] } 19.
+Bxd7 { [%eval 19.35] } 19... Nxd7 { [%eval 19.25] } 20. Qb7 { [%eval 18.72] }
+20... Nf6 { [%eval 20.31] } 21. Qxe7 { [%eval 14.55] } 21... Ne8
+{ [%eval 28.68] } 22. h4 { [%eval 20.96] } 22... c4 { [%eval 30.78] } 23. Rb1
+{ [%eval 26.21] } 23... Kg7 $6 { [%eval #6] } 24. Rb8 { [%eval #6] } 24... Bxg5
+{ [%eval #6] } 25. Bxg5 { [%eval #5] } 25... a6 { [%eval #4] } 26. Rxe8 $6
+{ [%eval #4] } 26... Rxe8 { [%eval #4] } 27. Qxe8 { [%eval #3] } 27... c3
+{ [%eval #3] } 28. g4 $6 { [%eval #3] } 28... a5 { [%eval #3] } 29. gxh5 $6
+{ [%eval #4] } 29... f6 { [%eval #3] } 30. Qe7+ { [%eval #2] } 30... Kg8
+{ [%eval #2] } 31. Qxf6 $6 { [%eval #2] } 31... a4 { [%eval #2] } 32. Bh6
+{ [%eval #1] } 32... Kh7 { [%eval #1] } 33. Qg7# 1-0

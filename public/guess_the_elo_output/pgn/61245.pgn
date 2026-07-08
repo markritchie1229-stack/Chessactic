@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/T7wn6P41"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dc89"]
+[Black "antichessgames"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:14:05"]
+[WhiteElo "1305"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+99"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[TimeControl "120+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.4] } 2. Qf3 $6 { [%eval -0.31] } 2...
+Nf6 { [%eval -0.35] } 3. Bc4 { [%eval -0.34] } 3... Nc6 { [%eval -0.29] } 4.
+Ne2 { [%eval -0.3] } 4... Nd4 $6 { [%eval 0.66] } 5. Nxd4 { [%eval 0.63] } 5...
+exd4 { [%eval 0.81] } 6. O-O { [%eval 0.76] } 6... Qe7 $6 { [%eval 1.4] } 7.
+Re1 $2 { [%eval -0.2] } 7... b5 $2 { [%eval 1.22] } 8. Bxb5 { [%eval 1.28] }
+8... Bb7 { [%eval 1.45] } 9. d3 $2 { [%eval -1.06] } 9... O-O-O $4
+{ [%eval 2.11] } 10. Bg5 $2 { [%eval 0.85] } 10... Qb4 { [%eval 0.28] } 11.
+Bxf6 $4 { [%eval #-1] } 11... Qxb5 $4 { [%eval 4.2] } 12. Bxd8 { [%eval 3.95] }
+12... Kxd8 { [%eval 4.03] } 13. Na3 { [%eval 4.02] } 13... Qa5 { [%eval 4.27] }
+14. Rac1 { [%eval 3.84] } 14... Bxa3 { [%eval 4.12] } 15. bxa3 { [%eval 3.63] }
+15... f5 $2 { [%eval 4.87] } 16. exf5 $4 { [%eval -8.22] } 16... Bxf3
+{ [%eval -8.06] } 17. gxf3 { [%eval -7.85] } 17... Qxf5 { [%eval -7.42] } 18.
+c3 $2 { [%eval -8.92] } 18... Re8 { [%eval -8.65] } 19. cxd4 $2
+{ [%eval -10.29] } 19... Rxe1+ { [%eval -9.71] } 20. Rxe1 { [%eval -8.87] }
+20... Qg5+ $2 { [%eval -7.49] } 21. Kf1 { [%eval -7.4] } 21... Qd2
+{ [%eval -6.98] } 22. d5 $4 { [%eval -10.02] } 22... Qxd3+ { [%eval -9.39] }
+23. Kg2 $6 { [%eval -10.64] } 23... Qg6+ $2 { [%eval -8.33] } 24. Kf1
+{ [%eval -8.26] } 24... h5 $2 { [%eval -7.16] } 25. f4 $2 { [%eval -8.23] }
+25... h4 { [%eval -7.83] } 26. Re5 $6 { [%eval -8.54] } 26... d6
+{ [%eval -8.31] } 27. f5 $6 { [%eval -9.07] } 27... Qf6 $6 { [%eval -8.3] } 28.
+Re6 $2 { [%eval -9.43] } 28... Qxf5 { [%eval -8.97] } 29. Kg2 $2
+{ [%eval -53.77] } 29... h3+ { [%eval -19.69] } 30. Kg3 { [%eval -19.73] }
+30... Kd7 $2 { [%eval -8.32] } 0-1

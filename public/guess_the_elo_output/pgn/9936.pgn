@@ -1,0 +1,44 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/je2inIbG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "baytut"]
+[Black "MaitreBrattak"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:53:23"]
+[WhiteElo "1691"]
+[BlackElo "1476"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-5"]
+[ECO "C79"]
+[Opening "Ruy Lopez: Central Countergambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.19] } 2... Nc6
+{ [%eval 0.29] } 3. Bb5 { [%eval 0.2] } 3... a6 { [%eval 0.43] } 4. Ba4
+{ [%eval 0.2] } 4... Nf6 { [%eval 0.25] } 5. O-O { [%eval 0.21] } 5... d5 $2
+{ [%eval 2.15] } 6. exd5 { [%eval 1.7] } 6... Nxd5 { [%eval 2.0] } 7. Nxe5
+{ [%eval 1.72] } 7... Bd7 $6 { [%eval 2.43] } 8. Re1 $6 { [%eval 1.46] } 8...
+Nxe5 { [%eval 1.58] } 9. Rxe5+ { [%eval 1.69] } 9... Be7 $2 { [%eval 4.23] }
+10. Rxd5 { [%eval 4.21] } 10... O-O $4 { [%eval 9.74] } 11. Rxd7
+{ [%eval 9.54] } 11... Qe8 { [%eval 9.49] } 12. c3 $2 { [%eval 7.27] } 12... b5
+{ [%eval 7.25] } 13. Bxb5 $2 { [%eval 5.0] } 13... axb5 { [%eval 5.06] } 14.
+Rxc7 { [%eval 4.99] } 14... Bd6 { [%eval 5.04] } 15. Rb7 { [%eval 4.96] } 15...
+Qe6 $2 { [%eval 6.54] } 16. d4 { [%eval 6.31] } 16... Rfe8 $6 { [%eval 6.81] }
+17. Bd2 { [%eval 6.32] } 17... Qd5 $6 { [%eval 6.85] } 18. Qf3 { [%eval 6.7] }
+18... Qe6 $6 { [%eval 7.26] } 19. Be3 { [%eval 7.14] } 19... Bf4 $2
+{ [%eval 11.66] } 20. Qxf4 { [%eval 11.39] } 20... Rac8 { [%eval 13.03] } 21.
+Nd2 { [%eval 12.6] } 21... b4 { [%eval 13.36] } 22. Rxb4 { [%eval 13.06] }
+22... h6 { [%eval 13.31] } 23. Rb5 { [%eval 12.99] } 23... g5 { [%eval 14.05] }
+24. Qe5 { [%eval 13.75] } 24... Qg6 { [%eval 13.91] } 25. Qg3 { [%eval 13.22] }
+25... Qc2 { [%eval 16.34] } 26. Rb7 { [%eval 13.56] } 26... f6
+{ [%eval 17.43] } 27. Qf3 { [%eval 16.75] } 27... Re6 $6 { [%eval #18] } 28.
+Qd5 $6 { [%eval 25.14] } 28... Re8 { [%eval 23.1] } 29. Nc4 { [%eval 16.76] }
+29... Kh8 { [%eval 21.48] } 30. Rc1 $4 { [%eval #-2] } 30... Qe2 $4
+{ [%eval 55.45] } 31. Rb6 { [%eval 10.48] } 31... Rxb6 { [%eval 10.29] } 32.
+Nxb6 { [%eval 9.65] } 32... h5 { [%eval 15.59] } 33. Nd7 { [%eval 14.39] }
+33... Rg8 $6 { [%eval #9] } 34. Nxf6 { [%eval #8] } 34... Rg7 { [%eval #2] }
+35. Bxg5 $6 { [%eval #5] } 35... Qxb2 { [%eval #2] } 36. Qd8+ { [%eval #1] }
+36... Rg8 { [%eval #1] } 37. Qxg8# 1-0

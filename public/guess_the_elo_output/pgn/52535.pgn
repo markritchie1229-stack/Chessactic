@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Qtrevrky"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ckjdj"]
+[Black "SakanyanEmil"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:44:23"]
+[WhiteElo "1680"]
+[BlackElo "1676"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A00"]
+[Opening "Polish Opening: Symmetrical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.59] } 1... b5 $6 { [%eval 0.19] } 2. a3 { [%eval -0.04] }
+2... a6 { [%eval 0.15] } 3. Bb2 { [%eval -0.07] } 3... Bb7 { [%eval 0.16] } 4.
+Nf3 { [%eval 0.21] } 4... Nf6 { [%eval 0.21] } 5. e3 { [%eval 0.16] } 5... g6
+{ [%eval 0.59] } 6. c4 { [%eval 0.4] } 6... Bg7 $6 { [%eval 1.21] } 7. cxb5
+{ [%eval 1.2] } 7... axb5 { [%eval 1.25] } 8. Bxb5 { [%eval 1.09] } 8... c6
+{ [%eval 1.22] } 9. Be2 { [%eval 1.15] } 9... O-O { [%eval 1.25] } 10. Qc2
+{ [%eval 1.06] } 10... d6 { [%eval 1.12] } 11. Nc3 { [%eval 0.97] } 11... e6
+{ [%eval 1.26] } 12. Ne4 { [%eval 0.94] } 12... Nxe4 { [%eval 1.18] } 13. Bxg7
+{ [%eval 0.95] } 13... Kxg7 { [%eval 1.01] } 14. Qxe4 { [%eval 0.88] } 14... c5
+$4 { [%eval 4.93] } 15. bxc5 $4 { [%eval -10.73] } 15... Bxe4
+{ [%eval -10.81] } 16. O-O { [%eval -10.91] } 16... Bxf3 { [%eval -10.54] } 17.
+Bxf3 { [%eval -10.43] } 17... d5 { [%eval -9.94] } 18. Rfc1 { [%eval -10.37] }
+18... Nc6 { [%eval -10.24] } 19. d4 { [%eval -11.08] } 19... Ra5
+{ [%eval -10.46] } 20. a4 { [%eval -10.64] } 20... Qc7 { [%eval -10.52] } 21.
+Be2 { [%eval -10.58] } 21... Rfa8 { [%eval -10.37] } 22. Bb5 { [%eval -10.37] }
+22... Na7 { [%eval -10.13] } 23. Rcb1 { [%eval -15.51] } 23... Nxb5
+{ [%eval -14.98] } 24. Rxb5 { [%eval -19.13] } 24... Rxb5 { [%eval -18.23] }
+25. a5 $6 { [%eval #-10] } 25... Rbxa5 { [%eval #-9] } 26. Rxa5 { [%eval #-7] }
+26... Rxa5 { [%eval #-7] } 27. g3 { [%eval #-7] } 27... Rxc5 $6
+{ [%eval -53.97] } 28. Kg2 $6 { [%eval #-7] } 28... Rc4 { [%eval #-7] } 29. Kf3
+{ [%eval #-6] } 29... Qb6 { [%eval #-6] } 30. Kf4 { [%eval #-5] } 30... Rxd4+
+$6 { [%eval #-5] } 31. Ke5 { [%eval #-1] } 31... Re4# 0-1

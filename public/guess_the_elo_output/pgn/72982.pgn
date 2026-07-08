@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fjNGre21"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Walt995"]
+[Black "Guirox"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:26:16"]
+[WhiteElo "1216"]
+[BlackElo "1419"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+6"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.33] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval -0.02] } 2...
+Nc6 { [%eval 0.4] } 3. Nf3 { [%eval 0.0] } 3... Bg4 { [%eval 0.05] } 4. Bf4
+{ [%eval 0.04] } 4... Bxf3 { [%eval 0.11] } 5. Nb5 $2 { [%eval -2.26] } 5...
+Bxe2 $2 { [%eval -0.29] } 6. Bxe2 { [%eval -0.34] } 6... e5 $2 { [%eval 1.1] }
+7. dxe5 { [%eval 0.85] } 7... Bc5 $2 { [%eval 1.86] } 8. e6 { [%eval 1.52] }
+8... Bd6 $4 { [%eval 7.68] } 9. exf7+ { [%eval 7.31] } 9... Kxf7
+{ [%eval 7.41] } 10. Bh5+ $4 { [%eval 2.01] } 10... g6 { [%eval 2.22] } 11.
+Bxd6 $2 { [%eval 0.89] } 11... cxd6 { [%eval 1.05] } 12. Qf3+ $2
+{ [%eval -1.32] } 12... Nf6 { [%eval -1.33] } 13. Bg4 $2 { [%eval -4.16] }
+13... Qa5+ { [%eval -4.04] } 14. Nc3 { [%eval -4.01] } 14... d4 $6
+{ [%eval -3.27] } 15. O-O $6 { [%eval -3.79] } 15... dxc3 { [%eval -3.67] } 16.
+b3 { [%eval -4.13] } 16... Ne5 $4 { [%eval 2.41] } 17. Qxb7+ { [%eval 2.36] }
+17... Kf8 $2 { [%eval 4.43] } 18. Qxa8+ { [%eval 4.35] } 18... Kg7
+{ [%eval 4.43] } 19. Qb7+ { [%eval 4.38] } 19... Kh6 { [%eval 4.3] } 20. Be2
+{ [%eval 4.1] } 20... Re8 { [%eval 4.52] } 21. Rad1 { [%eval 4.38] } 21... Qc5
+$2 { [%eval 5.5] } 22. Bb5 $2 { [%eval 3.88] } 22... Re6 $2 { [%eval 5.95] }
+23. Rfe1 $4 { [%eval 0.52] } 23... Nfg4 { [%eval 0.46] } 24. Bd7 $4
+{ [%eval #-6] } 24... Qxf2+ { [%eval #-5] } 25. Kh1 { [%eval #-5] } 25... Qh4
+{ [%eval #-4] } 26. h3 { [%eval #-4] } 26... Nf2+ $6 { [%eval #-16] } 27. Kg1
+{ [%eval #-16] } 27... Nxd1 $4 { [%eval -4.12] } 28. Rxd1 { [%eval -4.12] }
+28... Rf6 { [%eval -3.63] } 29. Qc8 $4 { [%eval -15.95] } 29... Qf2+ $4
+{ [%eval -4.77] } 30. Kh2 $4 { [%eval #-9] } 30... Nf3+ { [%eval #-8] } 31. Kh1
+{ [%eval #-8] } 31... Ne1 $2 { [%eval -7.85] } 32. Rxd6 $2 { [%eval #-1] }
+32... Qxg2# 0-1

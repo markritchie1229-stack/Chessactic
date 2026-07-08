@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dVoR18Fp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "keselek_sendal"]
+[Black "ahirnya_surya76"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:33:52"]
+[WhiteElo "1955"]
+[BlackElo "2168"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+42"]
+[ECO "B35"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... c5 { [%eval 0.21] } 2. Nf3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.36] } 3. Bc4 { [%eval -0.02] } 3... g6 { [%eval 0.27] } 4. d4
+{ [%eval 0.21] } 4... cxd4 { [%eval 0.25] } 5. Nxd4 { [%eval 0.18] } 5... Bg7
+{ [%eval 0.37] } 6. Be3 { [%eval 0.03] } 6... Nf6 { [%eval 0.2] } 7. Nc3
+{ [%eval 0.12] } 7... e6 { [%eval 0.58] } 8. Qd2 { [%eval 0.22] } 8... O-O
+{ [%eval 0.55] } 9. Nxc6 { [%eval 0.22] } 9... bxc6 { [%eval 0.26] } 10. O-O-O
+$6 { [%eval -0.39] } 10... d5 { [%eval -0.37] } 11. exd5 { [%eval -0.5] } 11...
+cxd5 { [%eval -0.43] } 12. Bb3 { [%eval -0.48] } 12... Bd7 { [%eval -0.5] } 13.
+Bg5 { [%eval -0.89] } 13... a5 { [%eval -0.77] } 14. a3 $2 { [%eval -2.0] }
+14... a4 { [%eval -2.12] } 15. Ba2 { [%eval -2.57] } 15... Qb6 $6
+{ [%eval -1.79] } 16. Be3 $2 { [%eval -3.69] } 16... Qb7 { [%eval -3.56] } 17.
+Bc5 $4 { [%eval -7.94] } 17... Ne4 { [%eval -7.47] } 18. Qe3 $6
+{ [%eval -8.46] } 18... Nxc5 { [%eval -8.01] } 19. Qxc5 $2 { [%eval -10.08] }
+19... Rfb8 $2 { [%eval -7.07] } 20. Qb4 $2 { [%eval -11.71] } 20... Qc7
+{ [%eval -11.02] } 21. Nxd5 { [%eval -17.38] } 21... exd5 { [%eval -16.47] }
+22. Bxd5 { [%eval -27.35] } 22... Rxb4 { [%eval -18.06] } 23. axb4
+{ [%eval -17.09] } 23... Rb8 { [%eval -16.04] } 24. Rhe1 { [%eval -18.18] }
+24... Rxb4 { [%eval -16.87] } 25. Re7 $6 { [%eval #-8] } 25... Qf4+ $6
+{ [%eval -24.08] } 26. Re3 $6 { [%eval #-10] } 26... Bxb2+ { [%eval #-9] } 27.
+Kd2 { [%eval #-2] } 27... Qxf2+ { [%eval #-1] } 28. Kd3 { [%eval #-1] } 28...
+Rd4# 0-1

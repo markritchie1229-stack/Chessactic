@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fp3gTZ1K"]
+[Date "????.??.??"]
+[Round "?"]
+[White "juanjito1975"]
+[Black "miketron"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:28:49"]
+[WhiteElo "1242"]
+[BlackElo "1378"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C44"]
+[Opening "Ponziani Opening: Jaenisch Counterattack"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.19] } 2...
+Nc6 { [%eval 0.36] } 3. c3 { [%eval 0.07] } 3... Nf6 { [%eval 0.06] } 4. d4
+{ [%eval -0.15] } 4... exd4 { [%eval 0.21] } 5. cxd4 $6 { [%eval -0.66] } 5...
+Nxe4 { [%eval -0.51] } 6. d5 { [%eval -1.0] } 6... Bc5 { [%eval -0.94] } 7. Be3
+{ [%eval -0.88] } 7... Bb4+ $6 { [%eval -0.14] } 8. Nfd2 { [%eval -0.5] } 8...
+Bxd2+ $6 { [%eval 0.16] } 9. Bxd2 $6 { [%eval -0.65] } 9... Nxd2
+{ [%eval -0.38] } 10. Nxd2 { [%eval -0.79] } 10... Nd4 { [%eval -0.84] } 11.
+Bd3 { [%eval -1.04] } 11... Qe7+ { [%eval -1.14] } 12. Ne4 $6 { [%eval -1.71] }
+12... f5 { [%eval -1.41] } 13. Qa4 $2 { [%eval -4.21] } 13... fxe4
+{ [%eval -4.04] } 14. Be2 $4 { [%eval -7.25] } 14... Nxe2 { [%eval -7.14] } 15.
+Kxe2 { [%eval -7.23] } 15... Qe5 $6 { [%eval -6.46] } 16. Rad1
+{ [%eval -6.52] } 16... Qxb2+ { [%eval -6.39] } 17. Rd2 { [%eval -6.26] } 17...
+Qe5 { [%eval -6.14] } 18. g3 $2 { [%eval -7.88] } 18... Qh5+ $6
+{ [%eval -7.01] } 19. Kf1 $6 { [%eval -7.66] } 19... Qf3 { [%eval -7.27] } 20.
+Kg1 $2 { [%eval -8.35] } 20... O-O $2 { [%eval -6.71] } 21. Qc4 $4
+{ [%eval -17.56] } 21... Kh8 $4 { [%eval -6.39] } 22. Qxc7 $4
+{ [%eval -20.14] } 22... e3 { [%eval -18.08] } 23. Rd1 $6 { [%eval #-1] } 23...
+Qxf2# 0-1

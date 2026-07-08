@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ncm8AiAD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "miki16"]
+[Black "GorPL"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:44:38"]
+[WhiteElo "1806"]
+[BlackElo "1844"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Symmetrical Variation"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. b3 $6 { [%eval -0.36] } 1... b6 $6 { [%eval 0.17] } 2. Bb2 { [%eval 0.17] }
+2... Bb7 { [%eval 0.15] } 3. d3 { [%eval -0.04] } 3... e6 { [%eval 0.22] } 4.
+e4 { [%eval 0.15] } 4... c5 { [%eval 0.19] } 5. Be2 { [%eval -0.13] } 5... Nc6
+{ [%eval -0.27] } 6. Bf3 { [%eval -0.17] } 6... Nge7 { [%eval -0.13] } 7. Ne2
+{ [%eval -0.14] } 7... Ng6 { [%eval 0.04] } 8. Nd2 { [%eval -0.08] } 8... d6
+{ [%eval 0.18] } 9. O-O { [%eval 0.19] } 9... Nce5 { [%eval 0.24] } 10. Bxe5 $2
+{ [%eval -0.83] } 10... Nxe5 { [%eval -0.81] } 11. Ng3 { [%eval -0.88] } 11...
+g6 { [%eval -1.05] } 12. Nc4 { [%eval -1.16] } 12... Nxf3+ { [%eval -1.13] }
+13. Qxf3 { [%eval -1.22] } 13... Bg7 { [%eval -1.05] } 14. Rab1
+{ [%eval -1.23] } 14... O-O { [%eval -1.02] } 15. Qe2 { [%eval -1.36] } 15...
+d5 { [%eval -1.04] } 16. Nd2 { [%eval -1.06] } 16... dxe4 { [%eval -0.81] } 17.
+Ndxe4 $6 { [%eval -1.54] } 17... f5 { [%eval -1.33] } 18. Ng5 $4
+{ [%eval -5.27] } 18... Qxg5 { [%eval -5.09] } 19. Qxe6+ { [%eval -5.01] }
+19... Kh8 $6 { [%eval -4.29] } 20. Qd7 { [%eval -4.39] } 20... Rab8
+{ [%eval -4.18] } 21. Rfe1 $6 { [%eval -4.72] } 21... f4 { [%eval -4.71] } 22.
+Re7 $4 { [%eval -17.38] } 22... Qf6 $4 { [%eval -4.14] } 23. Ne4
+{ [%eval -4.16] } 23... Bxe4 { [%eval -4.23] } 24. dxe4 { [%eval -3.88] } 24...
+a5 $4 { [%eval 0.0] } 25. e5 { [%eval 0.0] } 25... Rbd8 $4 { [%eval 10.43] }
+26. exf6 { [%eval 9.83] } 26... Rxd7 $2 { [%eval #9] } 27. fxg7+ { [%eval #8] }
+27... Kg8 { [%eval #8] } 28. gxf8=Q+ { [%eval #7] } 1-0

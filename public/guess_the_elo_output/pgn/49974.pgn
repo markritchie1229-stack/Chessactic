@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/U08a1dXR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Petrosov"]
+[Black "AlternateSaiyans"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:08:22"]
+[WhiteElo "1336"]
+[BlackElo "1366"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+32"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.25] } 3. Bb5 { [%eval 0.17] } 3... Nf6 { [%eval 0.22] } 4. Bxc6
+{ [%eval 0.1] } 4... dxc6 { [%eval 0.25] } 5. Nxe5 $2 { [%eval -0.75] } 5...
+Qd4 { [%eval -0.56] } 6. f4 $2 { [%eval -1.82] } 6... Qxe4+ { [%eval -1.64] }
+7. Qe2 { [%eval -1.97] } 7... Qxe2+ $6 { [%eval -1.12] } 8. Kxe2
+{ [%eval -1.13] } 8... Bf5 { [%eval -0.66] } 9. Kf2 $2 { [%eval -1.77] } 9...
+Bxc2 { [%eval -1.75] } 10. Re1 $6 { [%eval -2.37] } 10... Be7 $6
+{ [%eval -1.71] } 11. Nc3 { [%eval -1.48] } 11... Nd5 { [%eval -1.38] } 12.
+Nxd5 { [%eval -1.5] } 12... cxd5 { [%eval -1.35] } 13. d4 $6 { [%eval -1.87] }
+13... Be4 { [%eval -1.59] } 14. Bd2 { [%eval -1.82] } 14... c5 $6
+{ [%eval -0.89] } 15. dxc5 { [%eval -0.91] } 15... Bxc5+ { [%eval -0.87] } 16.
+Be3 { [%eval -0.8] } 16... Bxe3+ { [%eval -0.87] } 17. Kxe3 { [%eval -0.87] }
+17... Ke7 { [%eval -0.84] } 18. Rad1 { [%eval -0.89] } 18... f6
+{ [%eval -0.98] } 19. Ng4 { [%eval -0.89] } 19... Rac8 { [%eval -0.7] } 20.
+Rxd5 $4 { [%eval -7.58] } 20... Bxd5 { [%eval -7.46] } 21. Kd4+
+{ [%eval -7.78] } 21... Kd6 { [%eval -7.56] } 22. Ne3 { [%eval -7.49] } 22...
+Bxa2 { [%eval -7.45] } 23. Nc4+ $2 { [%eval -13.95] } 23... Bxc4
+{ [%eval -12.64] } 24. Re6+ $6 { [%eval #-13] } 24... Kxe6 { [%eval -59.6] }
+0-1

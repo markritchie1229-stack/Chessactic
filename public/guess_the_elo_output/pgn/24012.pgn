@@ -1,0 +1,37 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/XXRrPVSJ"]
+[Site "https://lichess.org/wzi2JyEI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "epithetos"]
+[Black "jbrand1"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:32:18"]
+[WhiteElo "1910"]
+[BlackElo "1620"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Marshall Defense"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... Nf6 { [%eval 0.27] } 2. c4 { [%eval 0.25] } 2... d5
+{ [%eval 0.37] } 3. Nf3 { [%eval 0.33] } 3... c5 { [%eval 0.52] } 4. g3 $6
+{ [%eval -0.11] } 4... e6 { [%eval 0.14] } 5. dxc5 { [%eval -0.08] } 5... Bxc5
+{ [%eval 0.0] } 6. cxd5 { [%eval 0.0] } 6... exd5 { [%eval 0.0] } 7. e3
+{ [%eval -0.13] } 7... Nc6 { [%eval -0.1] } 8. Nc3 $6 { [%eval -0.72] } 8...
+Qa5 $6 { [%eval 0.15] } 9. Bg2 { [%eval 0.0] } 9... Bb4 { [%eval 0.26] } 10.
+Qc2 { [%eval -0.12] } 10... Bxc3+ { [%eval 0.16] } 11. bxc3 $6
+{ [%eval -0.47] } 11... O-O $6 { [%eval 0.08] } 12. O-O { [%eval -0.08] } 12...
+Re8 { [%eval 0.32] } 13. a4 { [%eval -0.02] } 13... Qc7 { [%eval -0.03] } 14.
+Bd2 { [%eval -0.47] } 14... Ng4 $2 { [%eval 1.05] } 15. h3 $6 { [%eval 0.2] }
+15... Nge5 { [%eval 0.34] } 16. Nxe5 { [%eval -0.13] } 16... Qxe5
+{ [%eval 0.17] } 17. Rfc1 $6 { [%eval -0.39] } 17... Qf6 $6 { [%eval 0.27] }
+18. c4 { [%eval 0.12] } 18... dxc4 { [%eval 0.52] } 19. Qxc4 { [%eval 0.65] }
+19... Ne5 { [%eval 1.02] } 20. Qf1 $2 { [%eval -0.52] } 20... Nf3+ $6
+{ [%eval 0.0] } 21. Bxf3 { [%eval 0.0] } 21... Qxf3 { [%eval 0.1] } 22. Bc3
+{ [%eval 0.04] } 22... Bxh3 $4 { [%eval 4.11] } 23. Qxh3 { [%eval 4.13] } 23...
+Qe2 $6 { [%eval 4.64] } 24. Re1 $6 { [%eval 3.81] } 24... Qd3 { [%eval 4.19] }
+25. Rac1 { [%eval 3.84] } 25... Red8 { [%eval 4.02] } 26. Qg4 { [%eval 3.88] }
+26... Qc4 $4 { [%eval #1] } 27. Qxg7# 1-0

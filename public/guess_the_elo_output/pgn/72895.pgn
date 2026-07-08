@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/eDbAr7bq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "javier_garcia"]
+[Black "abinesh_chan"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:19:01"]
+[WhiteElo "1621"]
+[BlackElo "1767"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.25] } 2... Qf6
+$6 { [%eval 1.16] } 3. Bd3 $6 { [%eval 0.29] } 3... h6 $6 { [%eval 0.87] } 4.
+O-O { [%eval 0.45] } 4... Bc5 { [%eval 0.38] } 5. c3 { [%eval 0.38] } 5... d6
+{ [%eval 0.39] } 6. h3 { [%eval 0.1] } 6... c6 $6 { [%eval 0.7] } 7. Nh2 $6
+{ [%eval -0.25] } 7... h5 $6 { [%eval 0.45] } 8. Bc2 { [%eval 0.24] } 8... Ne7
+{ [%eval 0.53] } 9. d4 { [%eval 0.45] } 9... Bb6 $6 { [%eval 1.07] } 10. Nf3
+{ [%eval 0.6] } 10... Ng6 $2 { [%eval 1.71] } 11. Bg5 { [%eval 1.62] } 11...
+Qe6 { [%eval 1.63] } 12. d5 { [%eval 1.32] } 12... Qd7 { [%eval 1.49] } 13. c4
+$6 { [%eval 0.81] } 13... f6 { [%eval 1.06] } 14. Bh4 $4 { [%eval -3.71] }
+14... Ne7 $4 { [%eval 0.22] } 15. Nc3 $6 { [%eval -0.31] } 15... g5
+{ [%eval -0.29] } 16. Bg3 $6 { [%eval -0.87] } 16... g4 $2 { [%eval 0.37] } 17.
+Nh4 $2 { [%eval -0.78] } 17... gxh3 { [%eval -0.68] } 18. Qf3 { [%eval -0.73] }
+18... Kf7 $6 { [%eval 0.0] } 19. Rad1 $6 { [%eval -0.56] } 19... Rg8 $2
+{ [%eval 1.35] } 20. Qxh5+ { [%eval 1.1] } 20... Ng6 $2 { [%eval 3.1] } 21.
+Qh7+ $4 { [%eval -1.09] } 21... Rg7 { [%eval -1.12] } 22. Qh5 { [%eval -1.16] }
+22... hxg2 { [%eval -0.56] } 23. Kxg2 $4 { [%eval -6.01] } 23... Qg4 $4
+{ [%eval -0.25] } 24. Qxg4 { [%eval -0.44] } 24... Bxg4 { [%eval -0.24] } 25.
+Rd3 $2 { [%eval -2.62] } 25... Ba5 $4 { [%eval 0.79] } 26. Nf5 $4
+{ [%eval -2.66] } 26... Bxf5 { [%eval -2.46] } 27. exf5 { [%eval -2.53] } 27...
+Nf4+ { [%eval -2.32] } 0-1

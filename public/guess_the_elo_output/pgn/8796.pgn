@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/dbP4eTRT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rouhani"]
+[Black "ahmed0adel"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:50:20"]
+[WhiteElo "1629"]
+[BlackElo "1548"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-8"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Austrian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.31] } 2. c4 { [%eval 0.18] } 2... c5
+{ [%eval 0.66] } 3. dxc5 { [%eval 0.19] } 3... Nc6 $4 { [%eval 3.39] } 4. cxd5
+{ [%eval 3.21] } 4... Ne5 { [%eval 3.37] } 5. e4 { [%eval 3.4] } 5... e6
+{ [%eval 3.7] } 6. d6 $2 { [%eval 2.37] } 6... b6 $2 { [%eval 3.89] } 7. Be3 $2
+{ [%eval 2.7] } 7... Nf6 $2 { [%eval 3.86] } 8. Nf3 { [%eval 3.61] } 8... Neg4
+$2 { [%eval 6.46] } 9. Bg5 $4 { [%eval 3.33] } 9... g6 $4 { [%eval 8.58] } 10.
+Nc3 $2 { [%eval 6.36] } 10... Bg7 $2 { [%eval 7.66] } 11. h3 $2 { [%eval 6.5] }
+11... Nh6 $4 { [%eval 10.22] } 12. e5 { [%eval 9.91] } 12... bxc5
+{ [%eval 9.98] } 13. exf6 { [%eval 9.9] } 13... Bxf6 { [%eval 9.83] } 14. Bxf6
+$2 { [%eval 7.98] } 14... Qxf6 { [%eval 7.87] } 15. Bb5+ { [%eval 7.45] } 15...
+Bd7 $2 { [%eval 12.06] } 16. Bxd7+ { [%eval 11.64] } 16... Kxd7
+{ [%eval 13.25] } 17. O-O { [%eval 9.85] } 17... Nf5 { [%eval 22.33] } 18. Ne4
+{ [%eval 21.56] } 18... Qxb2 $6 { [%eval #5] } 19. Nxc5+ $6 { [%eval 10.28] }
+19... Kd8 $6 { [%eval #4] } 20. Rb1 $6 { [%eval 13.21] } 20... Qxa2
+{ [%eval 14.37] } 21. Nb7+ { [%eval 13.58] } 21... Kd7 { [%eval 19.35] } 22.
+Ne5+ { [%eval 15.52] } 22... Kc8 $6 { [%eval #3] } 23. d7+ $6 { [%eval #3] }
+23... Kb8 { [%eval #2] } 24. Nd6+ $6 { [%eval #4] } 24... Kc7 { [%eval #2] }
+25. Rc1+ $6 { [%eval #5] } 25... Kd8 { [%eval #4] } 26. Ndxf7+ $6
+{ [%eval #14] } 26... Ke7 { [%eval 43.5] } 27. Nxh8 { [%eval 31.8] } 27... Rxh8
+$6 { [%eval #9] } 28. Rc8 { [%eval #8] } 1-0

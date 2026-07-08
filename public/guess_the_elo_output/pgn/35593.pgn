@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TVp5v0GH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "clem56"]
+[Black "umututku"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:48:42"]
+[WhiteElo "1835"]
+[BlackElo "1782"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... c5 { [%eval 0.34] } 2. Nc3 { [%eval 0.26] } 2... d6
+{ [%eval 0.4] } 3. f4 { [%eval 0.23] } 3... Nf6 { [%eval 0.27] } 4. Bb5+
+{ [%eval 0.16] } 4... Bd7 { [%eval 0.06] } 5. Bxd7+ { [%eval 0.04] } 5... Qxd7
+{ [%eval 0.16] } 6. Nf3 { [%eval -0.06] } 6... Nc6 { [%eval 0.05] } 7. O-O
+{ [%eval 0.04] } 7... g6 { [%eval 0.07] } 8. Qe1 { [%eval -0.02] } 8... Bg7
+{ [%eval 0.04] } 9. d3 { [%eval 0.0] } 9... d5 { [%eval 0.33] } 10. e5
+{ [%eval 0.13] } 10... Ng8 { [%eval 0.34] } 11. Qf2 { [%eval 0.22] } 11... b6
+{ [%eval 0.25] } 12. Ng5 $6 { [%eval -0.54] } 12... h6 $6 { [%eval 0.18] } 13.
+e6 $2 { [%eval -0.89] } 13... fxe6 { [%eval -0.84] } 14. Nf3 { [%eval -0.79] }
+14... Nf6 $6 { [%eval -0.16] } 15. Qg3 { [%eval -0.44] } 15... Kf7 $2
+{ [%eval 1.81] } 16. Bd2 $2 { [%eval 0.47] } 16... Nh5 { [%eval 0.44] } 17. Qh4
+$6 { [%eval -0.55] } 17... Bf6 { [%eval -0.4] } 18. Qf2 { [%eval -0.61] } 18...
+Rhf8 $6 { [%eval 0.04] } 19. Rae1 $6 { [%eval -0.5] } 19... Kg7 $2
+{ [%eval 0.75] } 20. Ne2 $2 { [%eval -0.5] } 20... e5 $2 { [%eval 0.71] } 21.
+fxe5 { [%eval 0.76] } 21... Nxe5 { [%eval 0.96] } 22. g4 $4 { [%eval -2.42] }
+22... Nxg4 $6 { [%eval -1.78] } 23. Qg2 { [%eval -1.77] } 23... Ne5
+{ [%eval -1.72] } 24. Kh1 { [%eval -1.75] } 24... Nxf3 { [%eval -1.78] } 25.
+Rxf3 { [%eval -1.81] } 25... Be5 { [%eval -1.44] } 26. Rg1 { [%eval -1.8] }
+26... Rxf3 $4 { [%eval #2] } 27. Qxg6+ { [%eval #1] } 27... Kh8 { [%eval #1] }
+28. Qxh6# 1-0

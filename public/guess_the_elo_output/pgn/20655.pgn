@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uyxRmuAI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LucianDML"]
+[Black "fg8pro"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:44:00"]
+[WhiteElo "1625"]
+[BlackElo "1538"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+14"]
+[ECO "C44"]
+[Opening "Scotch Game: Scotch Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... Nc6 { [%eval 0.27] } 2. Nf3 { [%eval 0.24] } 2...
+e5 { [%eval 0.25] } 3. d4 { [%eval 0.18] } 3... exd4 { [%eval 0.27] } 4. Bc4
+{ [%eval -0.06] } 4... d6 { [%eval 0.37] } 5. Nxd4 { [%eval 0.32] } 5... Nxd4
+{ [%eval 0.55] } 6. Qxd4 { [%eval 0.56] } 6... Nf6 { [%eval 0.39] } 7. e5 $6
+{ [%eval -0.53] } 7... dxe5 $6 { [%eval 0.02] } 8. Qxe5+ { [%eval -0.01] } 8...
+Be7 { [%eval -0.03] } 9. O-O { [%eval 0.03] } 9... O-O { [%eval 0.12] } 10. Re1
+$6 { [%eval -0.87] } 10... Re8 $6 { [%eval 0.03] } 11. Nc3 $4 { [%eval -4.79] }
+11... Bd6 { [%eval -4.75] } 12. Bxf7+ $4 { [%eval -8.38] } 12... Kxf7
+{ [%eval -8.2] } 13. Qxe8+ { [%eval -8.2] } 13... Nxe8 { [%eval -7.89] } 14.
+Be3 $2 { [%eval -9.44] } 14... Nf6 $6 { [%eval -8.74] } 15. Rad1
+{ [%eval -9.15] } 15... Bd7 $6 { [%eval -8.31] } 16. f3 $6 { [%eval -8.91] }
+16... Qe7 $6 { [%eval -8.33] } 17. Bg5 { [%eval -8.63] } 17... Be6
+{ [%eval -8.32] } 18. Nd5 $2 { [%eval -9.54] } 18... Qd8 $6 { [%eval -8.67] }
+19. Nxf6 $6 { [%eval -9.35] } 19... gxf6 { [%eval -9.2] } 20. Be3
+{ [%eval -9.37] } 20... Qe7 $6 { [%eval -8.79] } 21. Bd4 $2 { [%eval -10.25] }
+21... Rd8 { [%eval -10.08] } 22. c3 { [%eval -10.15] } 22... c5
+{ [%eval -10.0] } 23. Bf2 { [%eval -9.98] } 23... Be5 { [%eval -9.57] } 24.
+Rxd8 { [%eval -10.81] } 24... Qxd8 { [%eval -10.55] } 25. Bxc5
+{ [%eval -11.64] } 25... Qd2 { [%eval -10.83] } 26. Bf2 { [%eval -11.74] }
+26... Bc7 { [%eval -11.24] } 27. a3 { [%eval -13.41] } 27... Bb6
+{ [%eval -12.43] } 28. Bxb6 $6 { [%eval #-1] } 28... Qxe1# 0-1

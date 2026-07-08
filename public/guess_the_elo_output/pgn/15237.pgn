@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/gneXNONu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ohpleaseuh"]
+[Black "dogen86"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:05:05"]
+[WhiteElo "2015"]
+[BlackElo "2046"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-11"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.28] } 1... d5 { [%eval 0.31] } 2. Bf4 { [%eval 0.11] } 2... e6
+{ [%eval 0.18] } 3. Nf3 { [%eval 0.11] } 3... c5 { [%eval 0.25] } 4. dxc5
+{ [%eval -0.12] } 4... Bxc5 { [%eval -0.16] } 5. a3 { [%eval -0.05] } 5... Nf6
+{ [%eval -0.05] } 6. e3 { [%eval 0.0] } 6... a5 $6 { [%eval 0.55] } 7. Bxb8 $6
+{ [%eval -0.28] } 7... Rxb8 { [%eval -0.18] } 8. c4 { [%eval -0.3] } 8... O-O
+{ [%eval -0.25] } 9. cxd5 { [%eval -0.35] } 9... exd5 { [%eval -0.13] } 10. Nc3
+{ [%eval -0.21] } 10... b6 { [%eval 0.0] } 11. Bd3 { [%eval 0.0] } 11... h6
+{ [%eval 0.08] } 12. O-O { [%eval 0.05] } 12... Bg4 { [%eval 0.21] } 13. h3
+{ [%eval 0.12] } 13... Be6 { [%eval 0.36] } 14. Na4 { [%eval 0.0] } 14... Bd6
+{ [%eval 0.24] } 15. Rc1 { [%eval 0.0] } 15... Qe7 { [%eval 0.38] } 16. Ba6 $6
+{ [%eval -0.39] } 16... b5 { [%eval -0.25] } 17. Nc3 { [%eval -0.48] } 17... b4
+{ [%eval -0.31] } 18. axb4 { [%eval -0.54] } 18... Rxb4 { [%eval -0.44] } 19.
+Qe2 { [%eval -0.76] } 19... Rfb8 { [%eval -0.64] } 20. Nb5 $6 { [%eval -1.26] }
+20... Bc5 $6 { [%eval -0.58] } 21. Ne5 $2 { [%eval -1.73] } 21... Rb6
+{ [%eval -1.69] } 22. Nc7 $2 { [%eval -3.87] } 22... Qxc7 { [%eval -3.5] } 23.
+Nd3 { [%eval -3.54] } 23... Nd7 $2 { [%eval -2.39] } 24. Nxb4 { [%eval -2.88] }
+24... axb4 $6 { [%eval -2.35] } 25. Bd3 { [%eval -2.3] } 25... Qb7
+{ [%eval -2.08] } 26. Rfd1 { [%eval -2.22] } 26... Be7 { [%eval -2.26] } 27. b3
+$6 { [%eval -3.02] } 27... Nc5 { [%eval -3.04] } 28. Bc2 { [%eval -3.37] }
+28... Ne4 { [%eval -3.31] } 29. f3 $6 { [%eval -4.08] } 29... Nc3
+{ [%eval -4.11] } 30. Qd3 { [%eval -3.9] } 30... Nxd1 $4 { [%eval #2] } 31.
+Qh7+ { [%eval #1] } 1-0

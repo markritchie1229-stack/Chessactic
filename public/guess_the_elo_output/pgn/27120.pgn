@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/gmtqzITA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "aosjimzaw"]
+[Black "MartinFoxDale"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:19:02"]
+[WhiteElo "1242"]
+[BlackElo "1321"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+9"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Stonewall Attack"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.16] } 2. e3 { [%eval 0.08] } 2... Nf6
+{ [%eval 0.07] } 3. Bd3 { [%eval 0.0] } 3... Bg4 { [%eval 0.22] } 4. Nd2 $4
+{ [%eval -7.89] } 4... Bxd1 { [%eval -7.83] } 5. Ngf3 $2 { [%eval -10.42] }
+5... e6 $2 { [%eval -7.41] } 6. c3 $2 { [%eval -10.71] } 6... Bxf3
+{ [%eval -10.68] } 7. e4 { [%eval -16.96] } 7... Bxg2 { [%eval -16.78] } 8.
+exd5 { [%eval -21.43] } 8... Bxh1 { [%eval -21.19] } 9. Ne4 { [%eval -27.7] }
+9... Bxe4 { [%eval -27.31] } 10. Bf1 { [%eval -29.27] } 10... Qxd5
+{ [%eval -28.68] } 11. Bh3 { [%eval -33.46] } 11... Bg2 { [%eval -32.3] } 12.
+Bf4 { [%eval -43.66] } 12... Bxh3 { [%eval -41.1] } 13. O-O-O
+{ [%eval -39.58] } 13... Qf3 { [%eval -37.45] } 14. Re1 $6 { [%eval #-8] }
+14... Qxf2 $6 { [%eval -37.35] } 15. a4 $6 { [%eval #-4] } 15... Qxe1+
+{ [%eval #-3] } 16. Kc2 { [%eval #-3] } 16... Bf5+ { [%eval #-2] } 17. Kb3
+{ [%eval #-2] } 17... Qd1+ { [%eval #-1] } 18. Kc4 { [%eval #-1] } 18... Qd3+
+$6 { [%eval #-2] } 19. Kb3 { [%eval #-2] } 19... Qc2+ { [%eval #-1] } 20. Kc4
+{ [%eval #-1] } 20... Bd3# 0-1

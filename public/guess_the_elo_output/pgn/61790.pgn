@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0nX1vh1q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "YACOXX"]
+[Black "Kuba13"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:36:04"]
+[WhiteElo "1261"]
+[BlackElo "1472"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+38"]
+[ECO "B00"]
+[Opening "Caro-Kann Defense: Hillbilly Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... c6 { [%eval 0.59] } 2. Bc4 $6 { [%eval -0.15] }
+2... d5 { [%eval -0.14] } 3. exd5 { [%eval -0.15] } 3... cxd5 { [%eval -0.36] }
+4. Bb3 { [%eval -0.44] } 4... Bf5 { [%eval -0.34] } 5. Qf3 { [%eval -0.77] }
+5... e6 { [%eval -0.75] } 6. d3 { [%eval -0.73] } 6... h6 { [%eval -0.75] } 7.
+Nc3 { [%eval -0.75] } 7... Nf6 { [%eval -0.62] } 8. Bf4 { [%eval -0.9] } 8...
+Nc6 { [%eval -0.87] } 9. Nge2 { [%eval -0.98] } 9... Bb4 { [%eval -0.6] } 10.
+O-O $6 { [%eval -1.46] } 10... Qd7 $2 { [%eval -0.25] } 11. Nb5
+{ [%eval -0.68] } 11... O-O-O $2 { [%eval 1.73] } 12. Nbd4 $2 { [%eval -0.28] }
+12... a6 $2 { [%eval 1.13] } 13. Nxf5 $6 { [%eval 0.62] } 13... exf5
+{ [%eval 0.66] } 14. a3 $6 { [%eval -0.06] } 14... Bd6 $2 { [%eval 1.04] } 15.
+Bxd6 { [%eval 1.08] } 15... Qxd6 { [%eval 1.05] } 16. c3 $2 { [%eval 0.0] }
+16... Ne5 $2 { [%eval 1.45] } 17. Qg3 $2 { [%eval 0.0] } 17... Nh5
+{ [%eval 0.31] } 18. Qh3 { [%eval -0.07] } 18... Nf4 $4 { [%eval 5.83] } 19.
+Nxf4 { [%eval 5.83] } 19... Nc6 $2 { [%eval 6.88] } 20. Qf3 $2 { [%eval 4.76] }
+20... Kb8 $2 { [%eval 6.04] } 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/OqqCcWiF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "moco36"]
+[Black "JMM1"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:41:24"]
+[WhiteElo "1178"]
+[BlackElo "1384"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-17"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "90+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.38] } 2. d3 { [%eval 0.0] } 2... Nc6
+{ [%eval -0.03] } 3. Nc3 { [%eval -0.08] } 3... d6 { [%eval 0.18] } 4. a3
+{ [%eval 0.03] } 4... f5 { [%eval -0.05] } 5. Nf3 { [%eval -0.11] } 5... f4 $2
+{ [%eval 1.02] } 6. Bd2 $6 { [%eval 0.21] } 6... Be6 $6 { [%eval 0.83] } 7. Be2
+{ [%eval 0.41] } 7... h6 $6 { [%eval 1.1] } 8. O-O $2 { [%eval -0.21] } 8... g5
+{ [%eval -0.19] } 9. h3 { [%eval -0.02] } 9... Qd7 { [%eval 0.28] } 10. Re1 $6
+{ [%eval -0.42] } 10... O-O-O { [%eval -0.61] } 11. Nd5 { [%eval -0.35] } 11...
+Bg7 $6 { [%eval 0.52] } 12. Bb4 $2 { [%eval -0.5] } 12... Nf6 $6
+{ [%eval 0.07] } 13. d4 $2 { [%eval -1.39] } 13... Nxd5 { [%eval -0.93] } 14.
+exd5 { [%eval -1.1] } 14... Bxd5 { [%eval -1.05] } 15. c4 { [%eval -1.09] }
+15... Nxb4 $4 { [%eval 2.12] } 16. axb4 { [%eval 2.18] } 16... Bxf3 $4
+{ [%eval 5.56] } 17. Bxf3 $2 { [%eval 3.39] } 17... Kb8 { [%eval 3.18] } 18.
+dxe5 $2 { [%eval 0.57] } 18... Bxe5 { [%eval 0.58] } 19. Qb3 { [%eval 0.41] }
+19... h5 $2 { [%eval 2.74] } 20. b5 $2 { [%eval -0.1] } 20... b6 $4
+{ [%eval 10.09] } 21. Qd3 $4 { [%eval 2.91] } 21... g4 $4 { [%eval 9.83] } 22.
+Qe4 $4 { [%eval -1.06] } 22... c6 $2 { [%eval 0.48] } 23. Be2 $2
+{ [%eval -1.27] } 23... gxh3 $2 { [%eval 0.35] } 24. bxc6 { [%eval 0.22] }
+24... Qc7 { [%eval 0.46] } 25. Bf3 { [%eval 0.34] } 1-0

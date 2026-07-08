@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Nm66tXdJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sanya-Sh"]
+[Black "Pirs07"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:13:37"]
+[WhiteElo "1708"]
+[BlackElo "1886"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+6"]
+[ECO "A38"]
+[Opening "English Opening: Symmetrical Variation, Duchamp Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.07] } 1... c5 { [%eval 0.15] } 2. d3 { [%eval -0.16] } 2... g6
+{ [%eval 0.0] } 3. Nf3 { [%eval 0.0] } 3... Bg7 { [%eval 0.02] } 4. g3
+{ [%eval -0.05] } 4... Nc6 { [%eval 0.0] } 5. Bg2 { [%eval -0.09] } 5... Nf6
+{ [%eval 0.06] } 6. O-O { [%eval 0.03] } 6... O-O { [%eval 0.02] } 7. Nc3
+{ [%eval 0.08] } 7... a6 { [%eval 0.19] } 8. Bd2 { [%eval -0.12] } 8... e6
+{ [%eval 0.25] } 9. Rb1 { [%eval 0.15] } 9... Rb8 { [%eval 0.2] } 10. a3
+{ [%eval 0.19] } 10... b5 { [%eval 0.11] } 11. cxb5 { [%eval 0.05] } 11... axb5
+{ [%eval 0.12] } 12. Be3 { [%eval -0.27] } 12... d6 { [%eval 0.02] } 13. Nd2 $6
+{ [%eval -0.81] } 13... Bd7 { [%eval -0.64] } 14. Nce4 { [%eval -0.7] } 14...
+Nxe4 { [%eval -0.3] } 15. Nxe4 { [%eval -0.28] } 15... Qe7 { [%eval -0.29] }
+16. Qc2 $6 { [%eval -0.98] } 16... Nd4 { [%eval -0.72] } 17. Bxd4
+{ [%eval -0.75] } 17... Bxd4 { [%eval -0.76] } 18. e3 { [%eval -0.8] } 18...
+Bg7 { [%eval -0.72] } 19. Rfd1 { [%eval -1.0] } 19... Rfc8 { [%eval -0.95] }
+20. Qe2 { [%eval -1.06] } 20... b4 { [%eval -1.05] } 21. axb4 { [%eval -1.11] }
+21... Rxb4 { [%eval -1.1] } 22. Nc3 { [%eval -1.16] } 22... Rcb8
+{ [%eval -1.16] } 23. Rdc1 { [%eval -1.19] } 23... Rb3 { [%eval -1.23] } 24.
+Qc2 { [%eval -1.16] } 24... Qd8 { [%eval -1.15] } 25. Rd1 { [%eval -1.48] }
+25... Qb6 { [%eval -1.08] } 26. Rd2 $4 { [%eval -6.33] } 26... Bxc3
+{ [%eval -6.03] } 0-1

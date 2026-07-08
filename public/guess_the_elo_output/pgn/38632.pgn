@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CIQlIgDo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rainyday2305"]
+[Black "Druglord21"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:06:03"]
+[WhiteElo "1374"]
+[BlackElo "1290"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-15"]
+[ECO "D32"]
+[Opening "Tarrasch Defense: Symmetrical Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.29] } 1... Nf6 { [%eval 0.27] } 2. c4 { [%eval 0.2] } 2... e6
+{ [%eval 0.22] } 3. Nc3 { [%eval 0.22] } 3... d5 { [%eval 0.35] } 4. e3
+{ [%eval 0.15] } 4... c5 { [%eval 0.14] } 5. Nf3 { [%eval 0.1] } 5... Nc6
+{ [%eval 0.15] } 6. Bd3 { [%eval 0.0] } 6... Bd6 { [%eval 0.36] } 7. O-O
+{ [%eval -0.04] } 7... Bd7 $6 { [%eval 0.67] } 8. Be2 $6 { [%eval 0.0] } 8...
+Qe7 $2 { [%eval 1.02] } 9. dxc5 { [%eval 0.96] } 9... Bxc5 { [%eval 1.0] } 10.
+cxd5 { [%eval 1.01] } 10... Nxd5 { [%eval 1.01] } 11. Nxd5 { [%eval 0.95] }
+11... exd5 { [%eval 1.05] } 12. Qxd5 { [%eval 0.96] } 12... Bd6
+{ [%eval 1.37] } 13. Rd1 { [%eval 1.36] } 13... Be6 $4 { [%eval 5.62] } 14.
+Qxd6 { [%eval 5.57] } 14... Qxd6 { [%eval 5.57] } 15. Rxd6 { [%eval 5.5] }
+15... O-O { [%eval 5.51] } 16. b3 { [%eval 5.5] } 16... Rac8 { [%eval 5.75] }
+17. Ba3 { [%eval 5.7] } 17... Rfe8 { [%eval 5.77] } 18. Rad1 { [%eval 5.87] }
+18... g6 $2 { [%eval 6.93] } 19. h3 $6 { [%eval 5.95] } 19... Bf5 $2
+{ [%eval 7.08] } 20. Bd3 $2 { [%eval 5.96] } 20... Be6 $6 { [%eval 6.53] } 21.
+Ng5 { [%eval 6.35] } 21... Ne5 $2 { [%eval 7.71] } 22. Nxe6 $2 { [%eval 6.69] }
+22... Rxe6 $6 { [%eval 7.42] } 23. Rxe6 { [%eval 7.24] } 23... fxe6
+{ [%eval 7.01] } 24. f4 $2 { [%eval 5.59] } 24... Nf7 $2 { [%eval 7.9] } 25.
+Kf2 $2 { [%eval 6.36] } 25... Kg7 $6 { [%eval 7.2] } 26. Kf3 { [%eval 6.83] }
+26... Kf6 { [%eval 7.3] } 27. g4 { [%eval 6.54] } 27... g5 $4 { [%eval 10.06] }
+28. Bxh7 { [%eval 9.44] } 28... Kg7 $6 { [%eval 10.49] } 29. Be4
+{ [%eval 10.06] } 29... Rc3 { [%eval 19.81] } 30. Bb2 { [%eval 18.37] } 30...
+Ne5+ { [%eval 15.16] } 31. Kg2 { [%eval 14.28] } 31... Rc5 { [%eval 124.75] }
+32. Rd7+ { [%eval 22.14] } 32... Kh6 $6 { [%eval #1] } 33. Rh7# 1-0

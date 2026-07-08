@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/DYpvrbfZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fakekit"]
+[Black "Artem_Sokolov"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:08:04"]
+[WhiteElo "1425"]
+[BlackElo "1261"]
+[WhiteRatingDiff "+26"]
+[BlackRatingDiff "-6"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... b6 { [%eval 0.45] } 2. d4 { [%eval 0.37] } 2... Bb7
+{ [%eval 0.4] } 3. Nc3 { [%eval 0.41] } 3... d6 { [%eval 0.7] } 4. d5
+{ [%eval 0.56] } 4... Nd7 { [%eval 0.64] } 5. Bb5 { [%eval 0.2] } 5... a6
+{ [%eval 0.2] } 6. Bxd7+ { [%eval -0.03] } 6... Qxd7 { [%eval -0.03] } 7. Nf3
+{ [%eval -0.14] } 7... e5 { [%eval -0.09] } 8. dxe6 { [%eval -0.13] } 8... Qxe6
+{ [%eval 0.18] } 9. O-O { [%eval 0.24] } 9... Bxe4 $4 { [%eval 5.09] } 10. Re1
+$2 { [%eval 2.69] } 10... Nf6 $2 { [%eval 5.08] } 11. Nd4 $6 { [%eval 4.14] }
+11... Qe5 { [%eval 4.2] } 12. Nxe4 $2 { [%eval 2.95] } 12... Nxe4
+{ [%eval 3.62] } 13. f3 $2 { [%eval 2.34] } 13... O-O-O $2 { [%eval 3.6] } 14.
+Rxe4 { [%eval 3.63] } 14... Qc5 $2 { [%eval 4.77] } 15. Be3 $2 { [%eval 3.55] }
+15... Qd5 $2 { [%eval 6.15] } 16. c3 $2 { [%eval 3.89] } 16... g6 $2
+{ [%eval 5.04] } 17. Nb3 $2 { [%eval 2.98] } 17... Qxd1+ { [%eval 3.04] } 18.
+Rxd1 { [%eval 3.03] } 18... Bg7 { [%eval 3.04] } 19. Bd4 { [%eval 3.01] } 19...
+Bxd4+ { [%eval 3.08] } 20. Nxd4 { [%eval 3.07] } 20... Rhe8 { [%eval 3.14] }
+21. Nc6 { [%eval 2.69] } 1-0

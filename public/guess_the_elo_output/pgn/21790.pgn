@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/xK9kx0xe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Wail-Libya"]
+[Black "apavlov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:35:59"]
+[WhiteElo "1366"]
+[BlackElo "1237"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.17] } 2. e3 { [%eval 0.11] } 2... e5
+$6 { [%eval 0.77] } 3. a3 $6 { [%eval -0.05] } 3... exd4 { [%eval 0.08] } 4.
+exd4 { [%eval 0.04] } 4... Ne7 { [%eval 0.31] } 5. Bd3 { [%eval 0.32] } 5... g6
+{ [%eval 0.33] } 6. h3 { [%eval 0.04] } 6... Bg7 { [%eval 0.1] } 7. Nf3
+{ [%eval 0.0] } 7... Nbc6 { [%eval 0.27] } 8. c3 { [%eval 0.16] } 8... O-O
+{ [%eval 0.22] } 9. O-O { [%eval 0.18] } 9... a6 { [%eval 0.43] } 10. Nbd2
+{ [%eval 0.35] } 10... b5 $6 { [%eval 1.13] } 11. Nb3 { [%eval 1.11] } 11...
+Bf5 { [%eval 1.09] } 12. Be2 { [%eval 0.71] } 12... a5 $2 { [%eval 1.94] } 13.
+Nc5 $6 { [%eval 1.15] } 13... Ra7 $2 { [%eval 2.18] } 14. Bxb5 { [%eval 2.16] }
+14... Qb8 { [%eval 2.64] } 15. Bxc6 $2 { [%eval 1.64] } 15... Nxc6
+{ [%eval 1.66] } 16. Bf4 { [%eval 1.29] } 16... Qxb2 { [%eval 1.18] } 17. Na4
+$6 { [%eval 0.41] } 17... Qb5 { [%eval 0.58] } 18. Nc5 { [%eval 0.39] } 18...
+Bd3 $4 { [%eval 4.92] } 19. Nxd3 { [%eval 4.93] } 19... f5 $2 { [%eval 7.16] }
+20. Nc5 { [%eval 7.09] } 20... Re8 $2 { [%eval 8.33] } 21. Nd7 $4
+{ [%eval 4.25] } 21... Rd8 $4 { [%eval 9.01] } 22. Rb1 { [%eval 8.79] } 22...
+Qc4 $2 { [%eval 10.87] } 23. Nc5 $2 { [%eval 7.25] } 23... Qxc3 $2
+{ [%eval 9.27] } 24. Ne6 { [%eval 8.86] } 24... Qxa3 { [%eval 9.25] } 25. Nxd8
+{ [%eval 8.85] } 25... Nxd8 { [%eval 8.72] } 26. Ng5 $2 { [%eval 6.8] } 26...
+Bh6 $4 { [%eval 12.51] } 27. Ra1 $4 { [%eval 6.19] } 27... Qe7 { [%eval 6.37] }
+28. h4 $2 { [%eval 5.31] } 28... Ne6 $4 { [%eval 10.43] } 29. Qb3 $2
+{ [%eval 7.29] } 29... Nxg5 $6 { [%eval 8.05] } 30. Qxd5+ $2 { [%eval 6.59] }
+30... Kf8 $4 { [%eval 14.61] } 31. hxg5 { [%eval 13.75] } 1-0

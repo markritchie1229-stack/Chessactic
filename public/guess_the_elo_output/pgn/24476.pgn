@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/fc1z91Zt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Traymond"]
+[Black "akiaki100"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:02:10"]
+[WhiteElo "1755"]
+[BlackElo "1745"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e6 { [%eval 0.26] } 2. Nf3 { [%eval 0.0] } 2... d5
+{ [%eval 0.14] } 3. exd5 { [%eval 0.13] } 3... exd5 { [%eval 0.12] } 4. d4
+{ [%eval 0.12] } 4... Be6 { [%eval 0.28] } 5. Qe2 { [%eval 0.0] } 5... Bd6
+{ [%eval 0.01] } 6. Nc3 { [%eval -0.08] } 6... Nc6 $2 { [%eval 0.97] } 7. Bg5
+$2 { [%eval -0.13] } 7... Nge7 { [%eval -0.16] } 8. Bxe7 { [%eval -0.47] } 8...
+Qxe7 { [%eval -0.4] } 9. g3 { [%eval -0.53] } 9... O-O-O { [%eval -0.46] } 10.
+Bg2 { [%eval -0.5] } 10... h5 { [%eval -0.23] } 11. Ng1 $2 { [%eval -3.04] }
+11... Bb4 $2 { [%eval -1.25] } 12. Bh3 $2 { [%eval -3.16] } 12... Nxd4
+{ [%eval -3.07] } 13. Bxe6+ { [%eval -2.74] } 13... fxe6 { [%eval -2.41] } 14.
+Qd3 { [%eval -2.47] } 14... e5 { [%eval -2.35] } 15. f4 $4 { [%eval -5.84] }
+15... exf4+ { [%eval -5.32] } 16. Kd2 { [%eval -5.7] } 16... Bxc3+ $2
+{ [%eval -3.96] } 17. bxc3 { [%eval -4.12] } 17... Nc6 { [%eval -3.99] } 18.
+Rb1 $4 { [%eval -7.78] } 18... d4 $2 { [%eval -5.14] } 19. gxf4 $4
+{ [%eval #-11] } 19... dxc3+ { [%eval #-11] } 20. Kxc3 { [%eval #-11] } 20...
+Rxd3+ { [%eval #-10] } 21. cxd3 { [%eval #-10] } 21... Qc5+ { [%eval -26.58] }
+22. Kd2 { [%eval -23.57] } 22... Nd4 { [%eval -21.14] } 23. Ne2 $6
+{ [%eval #-8] } 23... Qc2+ { [%eval #-7] } 24. Ke3 { [%eval #-7] } 24... Nxe2
+{ [%eval #-7] } 25. Rbc1 { [%eval #-6] } 25... Nxc1 { [%eval #-5] } 26. Rf1
+{ [%eval #-4] } 26... Qxd3+ $6 { [%eval #-5] } 27. Kf2 { [%eval #-5] } 27...
+Qe2+ $6 { [%eval #-5] } 28. Kg1 { [%eval #-5] } 28... Nd3 { [%eval #-4] } 29.
+Rf2 { [%eval #-2] } 29... Qxf2+ { [%eval #-1] } 30. Kh1 { [%eval #-1] } 30...
+Ne1 $6 { [%eval #-1] } 31. h4 { [%eval #-1] } 31... Qg2# 0-1

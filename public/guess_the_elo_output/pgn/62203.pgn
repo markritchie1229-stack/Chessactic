@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ErOFoArq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vova500500"]
+[Black "caramba"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:52:39"]
+[WhiteElo "1599"]
+[BlackElo "1758"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-15"]
+[ECO "C42"]
+[Opening "Russian Game: Damiano Variation, Kholmov Gambit"]
+[TimeControl "1800+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.41] } 2. Nf3 { [%eval 0.32] } 2... Nf6
+{ [%eval 0.49] } 3. Nxe5 { [%eval 0.5] } 3... Nxe4 { [%eval 0.67] } 4. Qe2
+{ [%eval 0.76] } 4... Qe7 { [%eval 0.79] } 5. Qxe4 { [%eval 0.72] } 5... Qxe5
+$4 { [%eval 12.7] } 6. Qxe5+ { [%eval 12.37] } 6... Be7 { [%eval 14.84] } 7.
+Qxg7 { [%eval 14.22] } 7... d6 { [%eval 20.78] } 8. Qxh8+ { [%eval 20.62] }
+8... Kd7 { [%eval 28.77] } 9. g3 { [%eval 27.76] } 9... c6 { [%eval 34.0] } 10.
+Bh3+ { [%eval 32.65] } 10... Kc7 { [%eval 34.12] } 11. Qxc8+ { [%eval 33.09] }
+11... Kb6 { [%eval 32.43] } 12. d3 { [%eval 30.85] } 12... a6 $6
+{ [%eval #14] } 13. Nc3 { [%eval 39.29] } 13... h6 $6 { [%eval #6] } 14. Be3+
+{ [%eval #5] } 14... c5 { [%eval #5] } 15. Nd5+ $6 { [%eval #7] } 15... Kb5
+{ [%eval #2] } 16. Nxe7 $6 { [%eval #3] } 16... b6 { [%eval #2] } 17. Qb7 $6
+{ [%eval #3] } 17... a5 { [%eval #2] } 18. Qxa8 $6 { [%eval #2] } 18... h5
+{ [%eval #2] } 19. Qxb8 $6 { [%eval #3] } 19... h4 { [%eval #2] } 20. gxh4 $6
+{ [%eval #3] } 20... f5 { [%eval #2] } 21. a4+ { [%eval #1] } 21... Kb4
+{ [%eval #1] } 22. Bd2# 1-0

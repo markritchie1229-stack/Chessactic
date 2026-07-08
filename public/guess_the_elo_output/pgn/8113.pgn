@@ -1,0 +1,44 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FcLPmwTa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mostafa_R"]
+[Black "jon011"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:09:42"]
+[WhiteElo "2010"]
+[BlackElo "2063"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B06"]
+[Opening "Modern Defense: Three Pawns Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... g6 { [%eval 0.58] } 2. d4 { [%eval 0.64] } 2... Bg7
+{ [%eval 0.79] } 3. f4 $6 { [%eval 0.17] } 3... c5 { [%eval 0.48] } 4. c3 $6
+{ [%eval -0.13] } 4... cxd4 { [%eval -0.17] } 5. cxd4 { [%eval -0.23] } 5...
+Nc6 $6 { [%eval 0.41] } 6. d5 { [%eval 0.52] } 6... Nb8 { [%eval 0.84] } 7. Nf3
+{ [%eval 0.58] } 7... d6 { [%eval 0.66] } 8. Nc3 { [%eval 0.63] } 8... Nh6
+{ [%eval 1.05] } 9. Be2 { [%eval 0.58] } 9... O-O { [%eval 0.72] } 10. O-O
+{ [%eval 0.32] } 10... a6 $6 { [%eval 1.18] } 11. Be3 { [%eval 0.89] } 11... b5
+$2 { [%eval 1.91] } 12. a3 $2 { [%eval 0.7] } 12... Nd7 $6 { [%eval 1.57] } 13.
+Bd4 $6 { [%eval 0.81] } 13... Nf6 $6 { [%eval 1.37] } 14. e5 $2
+{ [%eval -0.06] } 14... dxe5 { [%eval 0.0] } 15. fxe5 $2 { [%eval -1.14] }
+15... Nxd5 { [%eval -0.96] } 16. Nxd5 { [%eval -1.03] } 16... Qxd5
+{ [%eval -1.05] } 17. Ng5 $6 { [%eval -1.99] } 17... Bb7 $2 { [%eval -0.87] }
+18. Bf3 { [%eval -0.88] } 18... Qd7 { [%eval -0.92] } 19. e6 $4
+{ [%eval -6.13] } 19... Bxd4+ $6 { [%eval -5.43] } 20. Kh1 { [%eval -5.41] }
+20... Bxf3 $4 { [%eval -2.16] } 21. Rxf3 $4 { [%eval -5.84] } 21... fxe6
+{ [%eval -5.8] } 22. Rd3 $2 { [%eval -6.95] } 22... e5 { [%eval -6.64] } 23.
+Nf3 $2 { [%eval -7.66] } 23... Nf5 $2 { [%eval -5.54] } 24. Nxe5 $6
+{ [%eval -6.19] } 24... Qe6 $6 { [%eval -5.45] } 25. Ng4 $2 { [%eval -7.77] }
+25... Bb6 $2 { [%eval -6.02] } 26. Qf3 $4 { [%eval -9.16] } 26... Nd4 $4
+{ [%eval -5.71] } 27. Qh3 { [%eval -5.95] } 27... Ne2 $4 { [%eval 13.44] } 28.
+Nh6+ { [%eval 12.8] } 28... Kg7 { [%eval 14.1] } 29. Qxe6 { [%eval 13.17] }
+29... Nf4 { [%eval 12.28] } 30. Qe5+ $2 { [%eval 7.03] } 30... Kxh6
+{ [%eval 6.91] } 31. Rg3 $2 { [%eval 4.83] } 31... Rf6 { [%eval 5.22] } 32.
+Qxe7 { [%eval 4.83] } 32... Raf8 { [%eval 4.84] } 33. Rf1 { [%eval 4.7] } 33...
+Nxg2 $4 { [%eval #6] } 34. Rxf6 { [%eval #5] } 34... Nf4 { [%eval #3] } 35.
+Rxf8 $6 { [%eval #5] } 35... Ne2 { [%eval #1] } 36. Rh3# 1-0

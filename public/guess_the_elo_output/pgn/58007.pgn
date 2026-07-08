@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ui8yQEQT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fOOrgeSS"]
+[Black "Nskyy1936"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:43:01"]
+[WhiteElo "1300"]
+[BlackElo "1453"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.41] } 2. Nf3 { [%eval 0.35] } 2... d6
+{ [%eval 0.37] } 3. Nc3 { [%eval 0.33] } 3... Bg4 { [%eval 0.67] } 4. Be2
+{ [%eval 0.33] } 4... Bxf3 { [%eval 0.68] } 5. Bxf3 { [%eval 0.5] } 5... f6 $2
+{ [%eval 1.53] } 6. g3 $6 { [%eval 0.93] } 6... Nc6 { [%eval 1.07] } 7. h4
+{ [%eval 0.83] } 7... Nd4 { [%eval 1.02] } 8. Ne2 $4 { [%eval -3.97] } 8...
+Nxf3+ { [%eval -4.09] } 9. Kf1 { [%eval -4.07] } 9... Nd4 $2 { [%eval -2.09] }
+10. Nc3 $2 { [%eval -3.87] } 10... Ne7 { [%eval -3.84] } 11. d3
+{ [%eval -3.97] } 11... d5 { [%eval -3.93] } 12. exd5 $6 { [%eval -4.58] }
+12... Nxd5 { [%eval -4.56] } 13. f4 $2 { [%eval -5.77] } 13... Nxc3
+{ [%eval -5.75] } 14. bxc3 { [%eval -5.68] } 14... Nf5 $2 { [%eval -3.35] } 15.
+fxe5 $4 { [%eval -6.75] } 15... Nxg3+ { [%eval -6.63] } 16. Kg1 $6
+{ [%eval -7.22] } 16... Nxh1 { [%eval -7.06] } 17. Kxh1 $2 { [%eval -8.86] }
+17... Qd5+ { [%eval -8.68] } 18. Kg1 { [%eval -8.64] } 18... Qxe5
+{ [%eval -8.36] } 19. Bb2 $2 { [%eval -10.67] } 19... Qg3+ { [%eval -10.46] }
+20. Kf1 { [%eval -10.4] } 20... Bc5 $4 { [%eval -6.03] } 21. Ke2 $4
+{ [%eval #-1] } 21... Qf2# 0-1

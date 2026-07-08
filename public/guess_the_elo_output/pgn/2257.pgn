@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jEAZEnop"]
+[Date "????.??.??"]
+[Round "?"]
+[White "denbagus18"]
+[Black "tuckfloody"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:45:29"]
+[WhiteElo "1302"]
+[BlackElo "1228"]
+[WhiteRatingDiff "+95"]
+[BlackRatingDiff "-7"]
+[ECO "B14"]
+[Opening "Caro-Kann Defense: Panov Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c6 { [%eval 0.46] } 2. d4 { [%eval 0.44] } 2... d5
+{ [%eval 0.56] } 3. exd5 { [%eval 0.27] } 3... cxd5 { [%eval 0.5] } 4. c4
+{ [%eval 0.14] } 4... Nf6 { [%eval 0.22] } 5. Nc3 { [%eval 0.2] } 5... e6
+{ [%eval 0.19] } 6. cxd5 { [%eval 0.05] } 6... Nxd5 { [%eval 0.27] } 7. Nxd5 $6
+{ [%eval -0.3] } 7... Qxd5 { [%eval -0.29] } 8. Ne2 { [%eval -0.35] } 8... Qa5+
+{ [%eval 0.06] } 9. Bd2 { [%eval 0.03] } 9... Bb4 { [%eval 0.12] } 10. a3
+{ [%eval -0.18] } 10... Bxd2+ { [%eval -0.1] } 11. Qxd2 { [%eval -0.09] } 11...
+Qxd2+ { [%eval -0.17] } 12. Kxd2 { [%eval -0.18] } 12... O-O { [%eval -0.16] }
+13. b3 { [%eval -0.52] } 13... Nc6 { [%eval -0.22] } 14. f4 { [%eval -0.58] }
+14... f6 { [%eval -0.36] } 15. g3 { [%eval -0.35] } 15... e5 { [%eval -0.19] }
+16. d5 { [%eval -0.61] } 16... Na5 { [%eval -0.47] } 17. Kc3 { [%eval -0.66] }
+17... b5 $6 { [%eval 0.21] } 18. Kb4 $2 { [%eval -0.83] } 18... Nb7
+{ [%eval -0.74] } 19. fxe5 $2 { [%eval -1.77] } 19... a5+ $6 { [%eval -1.12] }
+20. Kxb5 $6 { [%eval -1.75] } 20... Bd7+ $2 { [%eval 0.0] } 21. Kb6
+{ [%eval 0.0] } 21... Rab8 { [%eval 0.0] } 22. e6 { [%eval 0.0] } 22... Nd8+ $2
+{ [%eval 1.91] } 23. Kxa5 $4 { [%eval #-4] } 23... Nb7+ $4 { [%eval 0.0] } 24.
+Kb6 $4 { [%eval -3.43] } 24... Be8 $4 { [%eval 7.0] } 25. Nd4 { [%eval 6.63] }
+25... Nd6+ $2 { [%eval 9.34] } 26. Kc7 { [%eval 8.85] } 26... Rb7+ $2
+{ [%eval 11.06] } 27. Kxd6 { [%eval 10.59] } 27... Rb6+ { [%eval 18.68] } 28.
+Kc7 { [%eval 17.75] } 28... Ra6 { [%eval 27.07] } 29. Bxa6 { [%eval 24.63] }
+29... Bg6 { [%eval 28.18] } 1-0

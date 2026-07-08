@@ -1,0 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QomiiAVa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fOOrgeSS"]
+[Black "torodan"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:47:25"]
+[WhiteElo "1318"]
+[BlackElo "1279"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. b3 { [%eval -0.15] } 1... e5 { [%eval -0.08] } 2. a3 { [%eval -0.36] } 2...
+d5 { [%eval -0.26] } 3. Bb2 { [%eval -0.48] } 3... d4 { [%eval -0.02] } 4. c3
+{ [%eval -0.19] } 4... dxc3 { [%eval 0.13] } 5. Bxc3 { [%eval -0.04] } 5... Nc6
+{ [%eval -0.24] } 6. g3 { [%eval -0.43] } 6... Bd6 { [%eval -0.04] } 7. Bg2
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.1] } 8. Bxc6+ $6 { [%eval -0.55] } 8...
+bxc6 { [%eval -0.29] } 9. d4 $6 { [%eval -1.19] } 9... exd4 { [%eval -1.12] }
+10. Bxd4 { [%eval -1.26] } 10... c5 { [%eval -1.12] } 11. Bb2 { [%eval -1.29] }
+11... O-O { [%eval -1.12] } 12. Bxf6 $2 { [%eval -2.27] } 12... Qxf6
+{ [%eval -2.3] } 13. f4 $4 { [%eval -8.86] } 13... Qxa1 { [%eval -8.3] } 14.
+Qc2 $2 { [%eval -10.43] } 14... Qd4 $2 { [%eval -7.58] } 15. Qc3 $2
+{ [%eval -15.43] } 15... Qd5 $2 { [%eval -7.88] } 16. Nf3 { [%eval -7.56] }
+16... Bg4 { [%eval -7.56] } 17. O-O $2 { [%eval -8.79] } 17... Rae8 $2
+{ [%eval -7.44] } 18. Nbd2 $2 { [%eval -10.62] } 18... Rxe2 { [%eval -10.02] }
+19. Re1 { [%eval -20.32] } 19... Rxe1+ { [%eval -18.47] } 20. Nxe1
+{ [%eval -17.91] } 20... Bh3 { [%eval -10.17] } 21. Kf2 { [%eval -16.16] }
+21... Qh1 { [%eval -14.83] } 22. Ke3 $6 { [%eval #-5] } 22... Qxh2 $6
+{ [%eval -15.83] } 23. Ke4 $6 { [%eval #-6] } 23... Re8+ { [%eval #-9] } 24.
+Kd5 { [%eval #-6] } 24... Rxe1 { [%eval #-12] } 25. Kc6 { [%eval #-6] } 25...
+Re2 $6 { [%eval -24.67] } 26. Qa5 $6 { [%eval #-6] } 26... Rxd2 $6
+{ [%eval -57.56] } 27. Qxa7 $6 { [%eval #-6] } 27... Qg2+ { [%eval #-6] } 28.
+Kb5 { [%eval #-9] } 28... h6 { [%eval #-8] } 29. Qb8+ { [%eval #-8] } 29... Kh7
+{ [%eval #-8] } 30. Qa7 { [%eval #-5] } 30... Qd5 { [%eval #-4] } 31. Qb8
+{ [%eval #-4] } 31... c4+ $6 { [%eval #-4] } 32. Ka6 { [%eval #-4] } 32... cxb3
+$6 { [%eval #-5] } 33. Ka7 { [%eval #-4] } 33... b2 $6 { [%eval #-4] } 34. Ka6
+{ [%eval #-3] } 1-0

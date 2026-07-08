@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fCjF3KxY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nexus1963"]
+[Black "NCB"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:23:45"]
+[WhiteElo "1123"]
+[BlackElo "1394"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+6"]
+[ECO "A00"]
+[Opening "Van Geet Opening: Reversed Nimzowitsch"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.02] } 1... e5 { [%eval 0.18] } 2. e3 { [%eval -0.25] } 2...
+Nc6 { [%eval 0.04] } 3. d3 { [%eval -0.37] } 3... Nf6 { [%eval -0.39] } 4. a3
+{ [%eval -0.56] } 4... d5 { [%eval -0.45] } 5. Bd2 { [%eval -0.6] } 5... Bd6
+{ [%eval -0.59] } 6. Qc1 { [%eval -0.94] } 6... Be6 { [%eval -0.82] } 7. Nge2
+{ [%eval -1.04] } 7... O-O { [%eval -0.9] } 8. g3 { [%eval -1.06] } 8... e4 $6
+{ [%eval -0.43] } 9. d4 $6 { [%eval -1.15] } 9... a6 { [%eval -0.91] } 10. Bg2
+{ [%eval -0.81] } 10... b5 { [%eval -0.5] } 11. O-O { [%eval -0.55] } 11... h6
+$6 { [%eval -0.01] } 12. f4 $2 { [%eval -1.16] } 12... exf3 $6
+{ [%eval -0.19] } 13. Bxf3 { [%eval -0.2] } 13... Bg4 { [%eval 0.0] } 14. e4 $2
+{ [%eval -1.58] } 14... Bxf3 { [%eval -1.4] } 15. e5 $2 { [%eval -3.19] } 15...
+Bxe2 { [%eval -2.91] } 16. Bxh6 $4 { [%eval -7.09] } 16... Bxf1
+{ [%eval -6.69] } 17. exf6 $4 { [%eval -11.06] } 17... Qxf6 { [%eval -10.86] }
+18. Nxd5 { [%eval -13.87] } 18... Qxh6 { [%eval -10.03] } 19. Qxf1
+{ [%eval -14.06] } 19... Nxd4 { [%eval -13.52] } 20. Rd1 { [%eval -14.12] }
+20... Nxc2 { [%eval -11.7] } 21. h4 { [%eval -16.03] } 21... Qh5
+{ [%eval -14.69] } 22. Qf3 $6 { [%eval #-7] } 22... Qxf3 { [%eval #-8] } 0-1

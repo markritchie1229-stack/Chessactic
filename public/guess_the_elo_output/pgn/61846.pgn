@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/b5rPIwqQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Onditmerciqui"]
+[Black "Cleilson99"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:38:11"]
+[WhiteElo "1492"]
+[BlackElo "1503"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+33"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "480+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... e6 { [%eval 0.3] } 2. e3 { [%eval 0.17] } 2... d5
+{ [%eval 0.15] } 3. b3 { [%eval 0.01] } 3... Nc6 { [%eval 0.39] } 4. Bb5
+{ [%eval 0.27] } 4... Nf6 { [%eval 0.35] } 5. Bxc6+ $6 { [%eval -0.16] } 5...
+bxc6 { [%eval -0.29] } 6. Nf3 { [%eval -0.32] } 6... Ba6 { [%eval -0.19] } 7.
+Nbd2 { [%eval -0.28] } 7... Bd6 { [%eval 0.16] } 8. c4 { [%eval 0.13] } 8...
+Ne4 { [%eval 0.38] } 9. O-O { [%eval 0.24] } 9... Nxd2 { [%eval 0.36] } 10.
+Nxd2 { [%eval 0.38] } 10... Qf6 { [%eval 0.43] } 11. Re1 { [%eval 0.23] } 11...
+Qh6 $6 { [%eval 0.79] } 12. g3 $6 { [%eval 0.27] } 12... dxc4 $2
+{ [%eval 1.45] } 13. Nxc4 $6 { [%eval 0.64] } 13... Bxc4 { [%eval 1.04] } 14.
+bxc4 { [%eval 1.04] } 14... O-O { [%eval 1.17] } 15. Qf3 $6 { [%eval 0.61] }
+15... c5 { [%eval 0.57] } 16. Bb2 { [%eval 0.35] } 16... cxd4 { [%eval 0.66] }
+17. Bxd4 { [%eval 0.63] } 17... e5 { [%eval 0.6] } 18. Bc3 { [%eval 0.3] }
+18... f6 $6 { [%eval 1.21] } 19. Kg2 $6 { [%eval 0.33] } 19... Qg6
+{ [%eval 0.47] } 20. a3 { [%eval 0.27] } 20... e4 { [%eval 0.21] } 21. Qd1
+{ [%eval 0.26] } 21... f5 $6 { [%eval 0.84] } 22. Qd4 { [%eval 0.35] } 22...
+Rad8 { [%eval 0.78] } 23. Qxa7 { [%eval 0.7] } 23... f4 { [%eval 0.97] } 24.
+exf4 { [%eval 0.77] } 24... Bxf4 { [%eval 0.61] } 25. Re2 $6 { [%eval -0.2] }
+25... Bd6 $2 { [%eval 1.17] } 26. Rae1 { [%eval 0.9] } 26... Rfe8
+{ [%eval 1.28] } 27. Bb4 { [%eval 0.91] } 27... Ra8 $2 { [%eval 2.0] } 28. Qb7
+{ [%eval 1.93] } 28... Rab8 { [%eval 2.02] } 29. Qc6 $6 { [%eval 1.29] } 29...
+Bxb4 { [%eval 1.11] } 30. axb4 $4 { [%eval -14.41] } 30... Qxc6
+{ [%eval -13.67] } 0-1

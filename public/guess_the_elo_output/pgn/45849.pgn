@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/YfrGqxYP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GKWilde"]
+[Black "JeanClaudeDestroyLee"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:02:52"]
+[WhiteElo "1107"]
+[BlackElo "1363"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+4"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation"]
+[TimeControl "3600+180"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.39] } 2. Nc3 { [%eval 0.09] } 2...
+Nf6 { [%eval 0.07] } 3. Nf3 { [%eval 0.06] } 3... Nc6 { [%eval 0.12] } 4. d4
+{ [%eval -0.05] } 4... d6 $6 { [%eval 0.47] } 5. dxe5 { [%eval 0.43] } 5...
+dxe5 { [%eval 0.64] } 6. Bd3 $6 { [%eval 0.0] } 6... Bb4 { [%eval 0.0] } 7. O-O
+{ [%eval -0.06] } 7... Bxc3 { [%eval 0.1] } 8. bxc3 { [%eval -0.06] } 8... Bg4
+$6 { [%eval 0.62] } 9. h3 { [%eval 0.3] } 9... Bh5 { [%eval 0.58] } 10. c4 $6
+{ [%eval -0.28] } 10... Nd4 $6 { [%eval 0.34] } 11. g4 { [%eval 0.4] } 11...
+Nxf3+ { [%eval 0.5] } 12. Qxf3 { [%eval 0.19] } 12... Bg6 { [%eval 0.47] } 13.
+c5 { [%eval 0.07] } 13... O-O { [%eval 0.13] } 14. Qg3 $6 { [%eval -0.68] }
+14... Qe7 $6 { [%eval -0.18] } 15. f4 $2 { [%eval -1.23] } 15... exf4
+{ [%eval -1.27] } 16. Qxf4 { [%eval -1.58] } 16... Qxc5+ { [%eval -1.45] } 17.
+Kg2 $6 { [%eval -2.33] } 17... Rae8 { [%eval -2.35] } 18. g5 $2
+{ [%eval -3.76] } 18... Nxe4 $2 { [%eval -2.58] } 19. Re1 $2 { [%eval -4.07] }
+19... Nc3 $2 { [%eval -2.77] } 20. Rxe8 $4 { [%eval -6.71] } 20... Rxe8
+{ [%eval -6.5] } 21. Bxg6 $4 { [%eval -12.3] } 21... hxg6 { [%eval -11.43] }
+22. Bd2 { [%eval -17.87] } 22... Qc6+ { [%eval -15.29] } 23. Kh2
+{ [%eval -56.81] } 23... Re2+ { [%eval -22.57] } 24. Kg1 $6 { [%eval #-1] }
+24... Qg2# 0-1

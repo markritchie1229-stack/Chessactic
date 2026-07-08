@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LQqiSQGu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GingerPR"]
+[Black "farzinj"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:12:37"]
+[WhiteElo "1500"]
+[BlackElo "1535"]
+[WhiteRatingDiff "+193"]
+[BlackRatingDiff "-8"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.17] } 1... d5 { [%eval -0.16] } 2. Nf3 { [%eval -0.22] } 2...
+Bg4 { [%eval -0.02] } 3. e3 { [%eval 0.01] } 3... Nc6 { [%eval 0.0] } 4. Be2
+{ [%eval 0.04] } 4... Bf5 { [%eval 0.16] } 5. d3 { [%eval 0.02] } 5... Nf6
+{ [%eval 0.0] } 6. O-O { [%eval 0.0] } 6... Qd7 $6 { [%eval 0.59] } 7. Ne5
+{ [%eval 0.39] } 7... Nxe5 { [%eval 0.54] } 8. fxe5 { [%eval 0.68] } 8... Ng4
+$2 { [%eval 1.75] } 9. h3 $2 { [%eval -0.8] } 9... Nxe5 { [%eval -0.62] } 10.
+d4 { [%eval -0.63] } 10... Nc6 { [%eval -0.58] } 11. Nc3 $6 { [%eval -1.13] }
+11... a6 { [%eval -0.7] } 12. Qe1 $6 { [%eval -1.58] } 12... O-O-O $4
+{ [%eval 2.51] } 13. Qf2 $4 { [%eval -1.4] } 13... Bxc2 $2 { [%eval -0.28] }
+14. Bg4 $2 { [%eval -1.41] } 14... e6 $4 { [%eval 1.77] } 15. Qxc2
+{ [%eval 1.63] } 15... f5 $6 { [%eval 2.52] } 16. Be2 $6 { [%eval 2.02] } 16...
+g5 { [%eval 1.92] } 17. Bd2 $6 { [%eval 0.95] } 17... h5 $2 { [%eval 2.14] }
+18. Qa4 { [%eval 1.65] } 18... b5 $4 { [%eval 11.5] } 19. Qxa6+
+{ [%eval 11.3] } 19... Kb8 { [%eval 11.14] } 20. Bxb5 $2 { [%eval 8.15] } 20...
+Nb4 { [%eval 8.03] } 21. Qa4 { [%eval 7.85] } 1-0

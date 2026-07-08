@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GrilF2Jc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nazgul9"]
+[Black "NikopolKing"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:37:30"]
+[WhiteElo "951"]
+[BlackElo "859"]
+[WhiteRatingDiff "-54"]
+[BlackRatingDiff "+27"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.24] } 3. Nc3 { [%eval 0.13] } 3... f6 $6 { [%eval 1.0] } 4. Bb5
+{ [%eval 0.66] } 4... a6 { [%eval 0.79] } 5. Bxc6 $6 { [%eval 0.0] } 5... dxc6
+{ [%eval 0.0] } 6. d4 { [%eval 0.0] } 6... c5 $6 { [%eval 0.95] } 7. dxe5
+{ [%eval 0.8] } 7... fxe5 $2 { [%eval 2.04] } 8. Qxd8+ { [%eval 1.94] } 8...
+Kxd8 { [%eval 1.96] } 9. Nxe5 { [%eval 1.87] } 9... Nf6 $4 { [%eval 5.6] } 10.
+Bg5 $4 { [%eval 1.79] } 10... Bd6 $4 { [%eval 5.54] } 11. Bxf6+ $2
+{ [%eval 3.07] } 11... gxf6 { [%eval 3.16] } 12. Nf7+ { [%eval 3.16] } 12...
+Ke8 { [%eval 3.46] } 13. Nxh8 { [%eval 3.39] } 13... f5 $2 { [%eval 5.78] } 14.
+exf5 { [%eval 5.53] } 14... Bxf5 { [%eval 5.61] } 15. Nd5 $2 { [%eval 3.56] }
+15... Kd8 $4 { [%eval 9.42] } 16. b4 $4 { [%eval 5.03] } 16... cxb4 $2
+{ [%eval 7.39] } 17. a3 $4 { [%eval 2.66] } 17... bxa3 $4 { [%eval 5.99] } 18.
+h4 $4 { [%eval 0.76] } 18... Kd7 $4 { [%eval 4.37] } 19. g3 $4
+{ [%eval -0.24] } 19... Rxh8 { [%eval -0.12] } 20. f3 $2 { [%eval -1.51] }
+20... Bxc2 { [%eval -1.49] } 21. Rxa3 $4 { [%eval -5.93] } 21... Re8+ $4
+{ [%eval 0.0] } 22. Kd2 { [%eval 0.0] } 22... Bg6 { [%eval 0.27] } 23. Nf6+
+{ [%eval 0.0] } 23... Ke7 { [%eval 0.03] } 24. Nxe8 { [%eval 0.0] } 24... Kxe8
+$2 { [%eval 2.51] } 25. Re3+ { [%eval 2.25] } 25... Kd7 $6 { [%eval 3.02] } 26.
+g4 $2 { [%eval 1.96] } 26... Kc8 $4 { [%eval 5.25] } 27. h5 { [%eval 5.06] }
+27... Bf7 { [%eval 4.83] } 28. g5 $6 { [%eval 3.92] } 28... Bc5 $2
+{ [%eval 5.93] } 29. g6 $2 { [%eval 4.93] } 29... Bxe3+ { [%eval 4.64] } 30.
+Kxe3 { [%eval 4.1] } 30... Be8 $4 { [%eval #10] } 31. gxh7 { [%eval #11] }
+31... Bxh5 { [%eval #6] } 32. h8=Q+ { [%eval #5] } 32... Kd7 { [%eval #5] } 0-1

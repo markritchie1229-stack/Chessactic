@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/MXTRYTeO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Axeval"]
+[Black "MJars"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:29:59"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+162"]
+[BlackRatingDiff "-163"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "900+15"]
+[Termination "Time forfeit"]
+
+1. e3 { [%eval 0.18] } 1... f6 $6 { [%eval 1.11] } 2. b3 $6 { [%eval 0.54] }
+2... d6 { [%eval 0.85] } 3. Bb2 { [%eval 0.61] } 3... Be6 { [%eval 0.98] } 4.
+Bc4 { [%eval 0.57] } 4... Kf7 $2 { [%eval 2.01] } 5. Nf3 $2 { [%eval 0.99] }
+5... Nd7 $2 { [%eval 2.4] } 6. O-O $2 { [%eval 0.98] } 6... Nh6 $6
+{ [%eval 1.89] } 7. d4 $6 { [%eval 0.92] } 7... Rc8 $2 { [%eval 2.29] } 8. d5
+{ [%eval 2.02] } 8... Nc5 $4 { [%eval 5.83] } 9. dxe6+ { [%eval 5.77] } 9...
+Nxe6 $4 { [%eval 9.85] } 10. Nd4 { [%eval 9.28] } 10... Qd7 $6
+{ [%eval 13.42] } 11. Nxe6 { [%eval 9.78] } 11... Ke8 { [%eval 9.95] } 12. Nd4
+$6 { [%eval 8.99] } 12... Rd8 $2 { [%eval 15.94] } 13. Qh5+ $2 { [%eval 8.52] }
+13... g6 { [%eval 8.4] } 14. Qb5 $6 { [%eval 7.42] } 14... c6 { [%eval 7.53] }
+15. Qa5 { [%eval 7.41] } 15... Qg4 $2 { [%eval 14.21] } 16. f3 $6
+{ [%eval 9.31] } 16... Qh4 $6 { [%eval 12.5] } 17. Ne6 { [%eval 11.69] } 17...
+Nf5 $6 { [%eval #2] } 18. Nxd8 $6 { [%eval 13.6] } 18... Nxe3 $6 { [%eval #6] }
+19. Nd2 $6 { [%eval 14.72] } 19... Nxf1 $6 { [%eval #8] } 20. Nxf1 $6
+{ [%eval 18.45] } 20... Qf4 $6 { [%eval #5] } 21. Nd2 $6 { [%eval 12.19] }
+21... Qxd2 { [%eval 25.11] } 22. Nxb7 $2 { [%eval 7.64] } 22... Qxc2 $2
+{ [%eval #1] } 23. Rb1 $4 { [%eval -2.28] } 23... Qxb1+ { [%eval -1.81] } 24.
+Kf2 $2 { [%eval -3.1] } 24... Qxb2+ { [%eval -2.98] } 25. Qd2 $4
+{ [%eval -20.0] } 25... Qxd2+ { [%eval -18.84] } 26. Kf1 { [%eval -26.18] }
+26... Qd3+ $4 { [%eval -4.16] } 27. Bxd3 { [%eval -4.03] } 1-0

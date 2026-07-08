@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/9NVEmRcI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PoorVishy"]
+[Black "valigetta"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:00:06"]
+[WhiteElo "2037"]
+[BlackElo "1798"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+132"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... e6 { [%eval 0.3] } 2. Nf3 { [%eval 0.27] } 2... f5
+{ [%eval 0.44] } 3. Bf4 { [%eval 0.48] } 3... Nf6 { [%eval 0.47] } 4. e3
+{ [%eval 0.3] } 4... d5 { [%eval 0.61] } 5. Ne5 { [%eval 0.26] } 5... c6
+{ [%eval 0.43] } 6. Bd3 { [%eval 0.41] } 6... Be7 { [%eval 0.49] } 7. f3 $6
+{ [%eval -0.3] } 7... O-O { [%eval -0.14] } 8. Nd2 { [%eval -0.36] } 8... Nbd7
+$6 { [%eval 0.18] } 9. h3 $6 { [%eval -0.69] } 9... Nxe5 { [%eval -0.65] } 10.
+dxe5 $6 { [%eval -1.6] } 10... Nh5 { [%eval -1.79] } 11. Bh2 { [%eval -2.16] }
+11... Bh4+ { [%eval -2.13] } 12. Ke2 { [%eval -2.18] } 12... Ng3+ $2
+{ [%eval -0.93] } 13. Bxg3 { [%eval -0.93] } 13... Bxg3 { [%eval -0.91] } 14.
+Nf1 $2 { [%eval -2.85] } 14... Bxe5 { [%eval -2.81] } 15. g4 $2
+{ [%eval -4.06] } 15... Bxb2 { [%eval -3.7] } 16. Rb1 { [%eval -3.7] } 16...
+Be5 { [%eval -3.68] } 17. f4 { [%eval -3.97] } 17... Bd6 $6 { [%eval -3.33] }
+18. Qe1 $6 { [%eval -3.91] } 18... e5 { [%eval -3.81] } 19. Qg3 $4
+{ [%eval -7.11] } 19... exf4 $2 { [%eval -5.4] } 20. exf4 { [%eval -5.5] }
+20... Qe7+ { [%eval -5.27] } 21. Kd2 $2 { [%eval -7.44] } 21... fxg4
+{ [%eval -7.33] } 22. hxg4 $2 { [%eval -15.06] } 22... Bxf4+ { [%eval -14.85] }
+23. Qxf4 { [%eval -14.67] } 23... Rxf4 { [%eval -14.39] } 24. Bxh7+
+{ [%eval -13.93] } 24... Kf8 { [%eval -13.45] } 25. Ne3 { [%eval -21.64] }
+25... Rf2+ { [%eval -19.91] } 26. Kd3 $6 { [%eval #-13] } 26... b6
+{ [%eval -19.39] } 27. Bg6 $6 { [%eval #-7] } 27... Ba6+ { [%eval #-6] } 28. c4
+{ [%eval #-4] } 28... Bxc4+ $6 { [%eval #-5] } 29. Nxc4 { [%eval #-5] } 29...
+dxc4+ $6 { [%eval #-5] } 30. Kc3 { [%eval #-4] } 30... Qf6+ $6 { [%eval #-6] }
+0-1

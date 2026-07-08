@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/zKeb3sCj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "math21"]
+[Black "punkvador"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:42:01"]
+[WhiteElo "1651"]
+[BlackElo "1755"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Loewenthal Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.22] } 2. Nf3 { [%eval 0.24] } 2...
+Nc6 { [%eval 0.5] } 3. d4 { [%eval 0.08] } 3... cxd4 { [%eval 0.05] } 4. Nxd4
+{ [%eval 0.03] } 4... e5 { [%eval 0.13] } 5. Nxc6 { [%eval 0.0] } 5... bxc6
+{ [%eval 0.02] } 6. Be3 $6 { [%eval -0.59] } 6... Nf6 { [%eval -0.44] } 7. Nc3
+{ [%eval -0.51] } 7... Be7 { [%eval -0.04] } 8. Bc4 { [%eval -0.04] } 8... O-O
+{ [%eval -0.06] } 9. Bg5 { [%eval -0.52] } 9... d6 { [%eval -0.1] } 10. Bxf6
+{ [%eval -0.3] } 10... Bxf6 { [%eval -0.22] } 11. O-O { [%eval -0.3] } 11...
+Bb7 { [%eval -0.04] } 12. Qd2 { [%eval -0.2] } 12... Qc7 { [%eval -0.06] } 13.
+Rad1 { [%eval -0.29] } 13... Rad8 { [%eval -0.32] } 14. Qe3 { [%eval -0.32] }
+14... Ba8 { [%eval 0.0] } 15. Bb3 { [%eval -0.18] } 15... c5 $2
+{ [%eval 0.89] } 16. Nd5 { [%eval 0.58] } 16... Qa5 $4 { [%eval 3.95] } 17. Rd2
+$4 { [%eval 0.54] } 17... Bxd5 { [%eval 0.6] } 18. exd5 $6 { [%eval -0.13] }
+18... Qb6 { [%eval -0.13] } 19. Rd3 { [%eval -0.2] } 19... a5 { [%eval -0.04] }
+20. Qg3 $6 { [%eval -0.69] } 20... Kh8 $6 { [%eval -0.15] } 21. Rf3
+{ [%eval -0.25] } 21... Be7 { [%eval -0.26] } 22. Qg4 { [%eval -0.2] } 22... f5
+$2 { [%eval 0.87] } 23. Rf4 $4 { [%eval -10.79] } 23... fxg4 { [%eval -10.54] }
+24. Rxg4 { [%eval -15.56] } 24... Bf6 $6 { [%eval -9.04] } 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RF3MtypI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mariovmiles"]
+[Black "xxnga"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:04:31"]
+[WhiteElo "1059"]
+[BlackElo "1108"]
+[WhiteRatingDiff "+45"]
+[BlackRatingDiff "-61"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.17] } 1... Nh6 $6 { [%eval 0.72] } 2. Nf3 { [%eval 0.72] }
+2... g5 { [%eval 1.2] } 3. Nxg5 { [%eval 1.29] } 3... Rg8 { [%eval 1.76] } 4.
+Nf3 { [%eval 1.46] } 4... Ng4 { [%eval 1.89] } 5. g3 { [%eval 1.61] } 5... Ne5
+$4 { [%eval 5.05] } 6. Bg2 $4 { [%eval 1.63] } 6... c6 $4 { [%eval 5.02] } 7.
+O-O $4 { [%eval 1.61] } 7... Bh6 $4 { [%eval 5.74] } 8. d3 $4 { [%eval 1.64] }
+8... Na6 $4 { [%eval 5.9] } 9. Qe2 $4 { [%eval 1.64] } 9... Bf8 $4
+{ [%eval 5.52] } 10. Nxe5 { [%eval 5.56] } 10... Nc5 $6 { [%eval 6.25] } 11.
+Nc3 $6 { [%eval 5.71] } 11... Ne6 { [%eval 6.19] } 12. Ng4 $6 { [%eval 5.48] }
+12... f5 $2 { [%eval 7.91] } 13. Nh6 $4 { [%eval 2.56] } 13... Bxh6
+{ [%eval 2.51] } 14. Qh5+ { [%eval 2.37] } 14... Kf8 $4 { [%eval 6.9] } 15.
+Qxh6+ { [%eval 6.55] } 15... Ke8 $2 { [%eval 8.55] } 16. Qxh7 { [%eval 8.47] }
+16... Rg7 { [%eval 8.38] } 17. Qh8+ $6 { [%eval 7.64] } 17... Rg8 $2
+{ [%eval 17.52] } 18. Qxg8+ { [%eval 17.24] } 18... Nf8 { [%eval 17.18] } 19.
+Bh3 { [%eval 13.25] } 19... Qc7 { [%eval 19.47] } 20. Kg2 { [%eval 13.67] }
+20... e5 { [%eval 19.08] } 21. Bxf5 { [%eval 18.44] } 21... d6 { [%eval 40.0] }
+22. Ne4 { [%eval 16.37] } 22... Bxf5 { [%eval 26.56] } 23. Nf6+
+{ [%eval 26.01] } 23... Ke7 { [%eval 25.76] } 24. Qg7+ { [%eval 24.85] } 24...
+Ke6 { [%eval 24.5] } 25. Qxc7 { [%eval 23.71] } 25... Nd7 { [%eval 68.3] } 26.
+Qxd7+ { [%eval 35.92] } 26... Kxf6 { [%eval 33.31] } 27. Qxb7 { [%eval 21.2] }
+27... Kg5 $6 { [%eval #5] } 28. f4+ $6 { [%eval 72.74] } 28... exf4 $6
+{ [%eval #5] } 29. Rxf4 $6 { [%eval #5] } 29... Kh5 { [%eval #3] } 30. Rxf5+
+{ [%eval #2] } 30... Kg4 { [%eval #2] } 31. Qf7 { [%eval #1] } 31... Rf8
+{ [%eval #1] } 32. Qg6# 1-0

@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LldGwKFr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stockfish-15"]
+[Black "indikatorWhite"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:08:44"]
+[WhiteElo "1524"]
+[BlackElo "1565"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+28"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c6 { [%eval 0.44] } 2. Nf3 { [%eval 0.33] } 2... d5
+{ [%eval 0.46] } 3. exd5 { [%eval 0.37] } 3... cxd5 { [%eval 0.26] } 4. Qe2 $6
+{ [%eval -0.25] } 4... Nf6 { [%eval -0.15] } 5. Nc3 { [%eval -0.41] } 5... Bg4
+$6 { [%eval 0.44] } 6. Qb5+ { [%eval 0.46] } 6... Qd7 $6 { [%eval 1.07] } 7.
+Ne5 { [%eval 1.02] } 7... Qxb5 { [%eval 1.15] } 8. Bxb5+ $2 { [%eval 0.14] }
+8... Nbd7 $2 { [%eval 1.33] } 9. Bxd7+ $2 { [%eval 0.02] } 9... Nxd7 $4
+{ [%eval 3.39] } 10. Nxg4 { [%eval 3.29] } 10... d4 $6 { [%eval 4.22] } 11. Nd5
+$2 { [%eval 2.18] } 11... Rc8 { [%eval 2.12] } 12. c3 $2 { [%eval 0.56] } 12...
+e6 { [%eval 0.8] } 13. Nf4 { [%eval 0.54] } 13... e5 { [%eval 0.85] } 14. Nd3
+{ [%eval 0.62] } 14... e4 { [%eval 0.5] } 15. Nde5 { [%eval 0.53] } 15... dxc3
+$2 { [%eval 2.97] } 16. Nxd7 { [%eval 3.02] } 16... Kxd7 $2 { [%eval 4.09] }
+17. dxc3 { [%eval 3.97] } 17... f5 { [%eval 3.97] } 18. Ne5+ $2
+{ [%eval 2.54] } 18... Ke6 { [%eval 2.6] } 19. f4 { [%eval 2.43] } 19... g5
+{ [%eval 2.27] } 20. O-O $6 { [%eval 1.56] } 20... gxf4 { [%eval 1.48] } 21.
+Bxf4 { [%eval 1.48] } 21... Bd6 { [%eval 1.36] } 22. Nf7 $2 { [%eval 0.16] }
+22... Bc5+ { [%eval 0.28] } 23. Be3 $4 { [%eval -3.05] } 23... Bxe3+
+{ [%eval -2.87] } 0-1

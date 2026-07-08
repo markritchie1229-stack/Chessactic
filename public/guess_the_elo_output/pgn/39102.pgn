@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/pBcXf4dq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jfc1811"]
+[Black "Gabrieltheputzer"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:25:14"]
+[WhiteElo "2060"]
+[BlackElo "1860"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "A21"]
+[Opening "English Opening: King's English Variation, Troger Defense"]
+[TimeControl "1200+15"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.06] } 1... e5 { [%eval 0.05] } 2. Nc3 { [%eval 0.0] } 2... Nc6
+{ [%eval 0.12] } 3. g3 { [%eval 0.01] } 3... d6 { [%eval 0.36] } 4. Bg2
+{ [%eval 0.27] } 4... Be6 { [%eval 0.35] } 5. b3 { [%eval 0.28] } 5... Nge7
+{ [%eval 0.35] } 6. Nf3 { [%eval 0.35] } 6... g6 { [%eval 0.26] } 7. e3
+{ [%eval 0.2] } 7... Bg7 { [%eval 0.19] } 8. O-O { [%eval 0.1] } 8... O-O
+{ [%eval 0.15] } 9. d4 { [%eval -0.28] } 9... exd4 { [%eval -0.05] } 10. exd4
+{ [%eval -0.4] } 10... Bg4 { [%eval -0.32] } 11. Ne2 { [%eval -0.39] } 11...
+Nf5 { [%eval -0.34] } 12. Bb2 { [%eval -0.43] } 12... Qf6 $6 { [%eval 0.2] }
+13. h3 $6 { [%eval -0.55] } 13... Bxf3 { [%eval -0.39] } 14. Bxf3
+{ [%eval -0.49] } 14... Nfxd4 $6 { [%eval 0.07] } 15. Nxd4 { [%eval 0.05] }
+15... Nxd4 { [%eval 0.08] } 16. Bxb7 { [%eval 0.11] } 16... Rab8
+{ [%eval 0.1] } 17. Bg2 { [%eval -0.27] } 17... Nf3+ { [%eval -0.19] } 18. Qxf3
+{ [%eval -0.36] } 18... Qxb2 { [%eval -0.24] } 19. Rfb1 $2 { [%eval -2.09] }
+19... Qxa1 $2 { [%eval 0.31] } 20. Rxa1 { [%eval 0.22] } 20... Bxa1
+{ [%eval 0.27] } 21. Qd1 { [%eval 0.0] } 21... Bc3 { [%eval 0.02] } 22. Bd5
+{ [%eval -0.1] } 22... Rfe8 $2 { [%eval 1.45] } 23. Qf3 { [%eval 1.43] } 23...
+Re1+ { [%eval 1.47] } 24. Kg2 { [%eval 1.68] } 24... Bd4 { [%eval 1.54] } 25.
+Qxf7+ { [%eval 1.67] } 25... Kh8 { [%eval 1.19] } 26. Qxc7 { [%eval 1.24] }
+26... Rf8 { [%eval 1.14] } 27. Bf3 { [%eval 0.96] } 27... Bc5 $6
+{ [%eval 1.79] } 28. Qa5 { [%eval 1.55] } 28... Rb1 $4 { [%eval #7] } 29. Qc3+
+{ [%eval #6] } 1-0

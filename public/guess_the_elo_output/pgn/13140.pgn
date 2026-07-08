@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cL9RkmW1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Fukurou_no_Sakebi"]
+[Black "Holith"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:32:27"]
+[WhiteElo "1352"]
+[BlackElo "1367"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+51"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.32] } 2. Nc3 { [%eval -0.15] } 2...
+Nf6 { [%eval -0.04] } 3. Bf4 { [%eval -0.05] } 3... Nc6 $6 { [%eval 0.69] } 4.
+Nb5 { [%eval 0.56] } 4... e5 { [%eval 0.59] } 5. dxe5 { [%eval 0.41] } 5... Ne4
+$2 { [%eval 2.0] } 6. e6 $2 { [%eval 0.81] } 6... Bd6 $2 { [%eval 2.43] } 7.
+exf7+ { [%eval 2.38] } 7... Kxf7 $4 { [%eval 6.18] } 8. Nxd6+ $4
+{ [%eval 2.04] } 8... cxd6 $4 { [%eval 6.03] } 9. Qxd5+ { [%eval 5.92] } 9...
+Be6 { [%eval 5.83] } 10. Qxe4 { [%eval 5.93] } 10... Re8 { [%eval 6.33] } 11.
+Qxh7 $6 { [%eval 5.61] } 11... Rc8 $2 { [%eval 7.4] } 12. O-O-O $4
+{ [%eval 2.5] } 12... Bxa2 $4 { [%eval 10.21] } 13. Rxd6 { [%eval 9.86] } 13...
+Qa5 { [%eval 11.18] } 14. Qg6+ $4 { [%eval 3.89] } 14... Kg8 { [%eval 4.22] }
+15. Bh6 $2 { [%eval 2.28] } 15... Re7 { [%eval 2.41] } 16. Bd2 $6
+{ [%eval 1.58] } 16... Qb6 $4 { [%eval 8.29] } 17. Nf3 { [%eval 8.18] } 17...
+Rd8 $2 { [%eval 11.1] } 18. Rxd8+ { [%eval 10.8] } 18... Nxd8 { [%eval 11.39] }
+19. Qd3 $2 { [%eval 8.62] } 19... Nf7 $2 { [%eval 10.63] } 20. Ng5 $2
+{ [%eval 7.71] } 20... Nxg5 { [%eval 7.75] } 21. Bxg5 { [%eval 7.58] } 21...
+Re8 $2 { [%eval 9.11] } 22. Qa3 $2 { [%eval 6.63] } 22... Qxf2 $4
+{ [%eval 11.25] } 23. Qxa2+ { [%eval 10.99] } 23... Kh8 { [%eval 11.1] } 24. g3
+$4 { [%eval #-1] } 24... Qe1# 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fWfSkNkK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "simplyTheBeast"]
+[Black "KHB7HA"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:52:12"]
+[WhiteElo "2058"]
+[BlackElo "2123"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "B03"]
+[Opening "Alekhine Defense"]
+[TimeControl "180+2"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.39] } 1... Nf6 { [%eval 0.58] } 2. e5 { [%eval 0.44] } 2...
+Nd5 { [%eval 0.63] } 3. d4 { [%eval 0.62] } 3... d6 { [%eval 0.79] } 4. f4 $2
+{ [%eval -0.45] } 4... g6 $2 { [%eval 0.78] } 5. c3 $6 { [%eval -0.01] } 5...
+Bg7 { [%eval 0.04] } 6. Nf3 { [%eval -0.2] } 6... O-O { [%eval -0.11] } 7. Bd3
+{ [%eval -0.24] } 7... dxe5 { [%eval -0.2] } 8. fxe5 { [%eval -0.22] } 8... c5
+{ [%eval 0.0] } 9. c4 $2 { [%eval -1.27] } 9... Nb4 { [%eval -1.32] } 10. d5
+{ [%eval -1.32] } 10... Bg4 $6 { [%eval -0.35] } 11. Bf4 $6 { [%eval -1.33] }
+11... Nxd3+ $6 { [%eval -0.45] } 12. Qxd3 { [%eval -0.48] } 12... Bf5 $6
+{ [%eval 0.31] } 13. Qe2 { [%eval -0.09] } 13... Bxb1 $6 { [%eval 0.76] } 14.
+Rxb1 { [%eval 0.65] } 14... Qa5+ { [%eval 0.69] } 15. Bd2 { [%eval 0.52] }
+15... Qxa2 { [%eval 1.0] } 16. O-O { [%eval 1.0] } 16... Qb3 { [%eval 1.37] }
+17. Bc3 { [%eval 1.27] } 17... Na6 { [%eval 1.35] } 18. Nd2 { [%eval 1.2] }
+18... Qb6 { [%eval 1.22] } 19. Ne4 { [%eval 1.17] } 19... Nb4 { [%eval 1.45] }
+20. Rf3 $2 { [%eval 0.0] } 20... Rac8 $2 { [%eval 1.81] } 21. Rbf1
+{ [%eval 1.34] } 21... Qd8 $2 { [%eval 3.31] } 22. Ng5 { [%eval 2.72] } 22...
+Na2 $6 { [%eval 3.54] } 23. Rxf7 $2 { [%eval 2.28] } 23... Rxf7
+{ [%eval 1.91] } 24. Nxf7 { [%eval 1.78] } 24... Nxc3 { [%eval 1.56] } 25. bxc3
+{ [%eval 1.48] } 25... Qa5 $4 { [%eval 9.24] } 26. d6 $4 { [%eval 4.72] } 26...
+exd6 $2 { [%eval 7.64] } 27. exd6 { [%eval 6.2] } 27... Bxc3 $4 { [%eval #9] }
+28. d7 { [%eval #12] } 28... Bd4+ { [%eval #9] } 29. Kh1 { [%eval #8] } 29...
+Rf8 { [%eval #8] } 30. Nh6+ { [%eval #9] } 30... Kg7 { [%eval #10] } 31. Rxf8
+$4 { [%eval 0.64] } 1-0

@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9J6zXlVa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Greybeard23"]
+[Black "ZemlinArtem"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:22:39"]
+[WhiteElo "1647"]
+[BlackElo "1507"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "A06"]
+[Opening "Nimzowitsch-Larsen Attack"]
+[TimeControl "1500+20"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.17] } 1... d5 { [%eval 0.21] } 2. b3 { [%eval 0.03] } 2... d4
+$6 { [%eval 0.83] } 3. Bb2 { [%eval 0.81] } 3... Nc6 { [%eval 0.85] } 4. c3
+{ [%eval 0.41] } 4... e5 { [%eval 0.48] } 5. cxd4 { [%eval 0.41] } 5... exd4
+{ [%eval 0.39] } 6. g3 { [%eval 0.15] } 6... Nf6 { [%eval 0.2] } 7. Bg2
+{ [%eval 0.14] } 7... Bf5 { [%eval 0.3] } 8. d3 { [%eval 0.2] } 8... Bb4+
+{ [%eval 0.29] } 9. Nbd2 { [%eval 0.16] } 9... O-O { [%eval 0.47] } 10. a3 $6
+{ [%eval -0.14] } 10... Bd6 $2 { [%eval 1.09] } 11. b4 { [%eval 1.12] } 11...
+Be7 { [%eval 1.56] } 12. Nb3 { [%eval 1.48] } 12... Qd5 $6 { [%eval 1.99] } 13.
+Nbxd4 $2 { [%eval 0.91] } 13... a5 $4 { [%eval 4.8] } 14. e4 $2
+{ [%eval 2.94] } 14... Bxe4 { [%eval 3.16] } 15. dxe4 { [%eval 2.77] } 15...
+Nxe4 $2 { [%eval 4.26] } 16. O-O { [%eval 4.09] } 16... Rad8 $2
+{ [%eval 5.12] } 17. Qc2 $2 { [%eval 3.76] } 17... axb4 { [%eval 3.76] } 18.
+Nxc6 { [%eval 3.53] } 18... bxc6 $2 { [%eval 5.04] } 19. axb4 { [%eval 5.0] }
+19... Bxb4 $2 { [%eval 7.2] } 20. Nd4 $2 { [%eval 5.57] } 20... c5 $4
+{ [%eval 9.2] } 21. Bxe4 { [%eval 9.03] } 21... Qh5 { [%eval 8.77] } 22. Nf5
+{ [%eval 8.4] } 22... Rd2 $2 { [%eval 10.28] } 23. Ne7+ $2 { [%eval 8.08] }
+23... Kh8 { [%eval 8.35] } 24. Qb3 { [%eval 7.93] } 24... Re8 $2
+{ [%eval 13.71] } 25. Bc6 $2 { [%eval 8.66] } 25... Rb8 $6 { [%eval 9.51] } 26.
+Bc3 { [%eval 8.78] } 26... Rd3 $2 { [%eval 11.81] } 27. Nd5 $2 { [%eval 8.48] }
+27... Qg6 $2 { [%eval 9.5] } 28. Nxb4 $6 { [%eval 8.87] } 28... cxb4
+{ [%eval 8.93] } 29. Qxb4 { [%eval 8.74] } 29... Rxb4 $2 { [%eval #3] } 30.
+Ra8+ { [%eval #2] } 1-0

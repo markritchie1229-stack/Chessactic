@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fPGVqCcI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kasparovkelsen"]
+[Black "adorno66"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:25:40"]
+[WhiteElo "1847"]
+[BlackElo "1655"]
+[WhiteRatingDiff "-26"]
+[BlackRatingDiff "+54"]
+[ECO "C00"]
+[Opening "French Defense: La Bourdonnais Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e6 { [%eval 0.28] } 2. f4 { [%eval -0.2] } 2... d5
+{ [%eval -0.18] } 3. e5 { [%eval -0.39] } 3... Bc5 $6 { [%eval 0.18] } 4. Nf3
+{ [%eval -0.04] } 4... Ne7 $6 { [%eval 0.64] } 5. d4 { [%eval 0.63] } 5... Bb6
+{ [%eval 0.7] } 6. Be2 $6 { [%eval -0.01] } 6... c5 { [%eval -0.08] } 7. c3
+{ [%eval -0.12] } 7... Nbc6 { [%eval -0.13] } 8. O-O $6 { [%eval -0.93] } 8...
+cxd4 { [%eval -0.95] } 9. cxd4 { [%eval -0.97] } 9... O-O $6 { [%eval 0.0] }
+10. Be3 { [%eval -0.07] } 10... f6 { [%eval -0.14] } 11. Qb3 $2
+{ [%eval -1.68] } 11... fxe5 { [%eval -1.29] } 12. fxe5 $6 { [%eval -1.79] }
+12... Nf5 { [%eval -1.61] } 13. Rd1 { [%eval -1.61] } 13... Nxe3 $6
+{ [%eval -0.74] } 14. Qxe3 { [%eval -0.72] } 14... Bd7 { [%eval -0.5] } 15. Nc3
+{ [%eval -0.51] } 15... Nb4 { [%eval -0.1] } 16. Rac1 { [%eval -0.1] } 16...
+Nc6 { [%eval 0.0] } 17. Nb5 { [%eval -0.06] } 17... a6 { [%eval 0.0] } 18. Nd6
+{ [%eval 0.0] } 18... Rb8 { [%eval 0.0] } 19. Qb3 { [%eval 0.0] } 19... Rxf3
+{ [%eval 0.0] } 20. Qxb6 $4 { [%eval -12.44] } 20... Qxb6 { [%eval -11.51] }
+0-1

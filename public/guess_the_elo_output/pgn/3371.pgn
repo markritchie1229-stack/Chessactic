@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/YO2Ke2pC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BluebearChess"]
+[Black "pinch-bar"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:44:04"]
+[WhiteElo "1622"]
+[BlackElo "1436"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "D44"]
+[Opening "Queen's Gambit Declined: Vienna Variation, Quiet Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.22] } 2. c4 { [%eval 0.16] } 2... e6
+{ [%eval 0.19] } 3. Nc3 { [%eval 0.16] } 3... dxc4 { [%eval 0.43] } 4. Nf3
+{ [%eval 0.18] } 4... Nf6 { [%eval 0.24] } 5. e3 { [%eval 0.03] } 5... Bb4 $6
+{ [%eval 0.55] } 6. Bxc4 { [%eval 0.31] } 6... Bxc3+ $6 { [%eval 1.08] } 7.
+bxc3 { [%eval 1.05] } 7... O-O { [%eval 1.1] } 8. Ba3 { [%eval 0.88] } 8... b6
+$6 { [%eval 1.77] } 9. Bxf8 { [%eval 1.75] } 9... Qxf8 { [%eval 1.7] } 10. O-O
+{ [%eval 1.65] } 10... Qd6 { [%eval 1.95] } 11. Ne5 { [%eval 1.87] } 11... c5
+$4 { [%eval 6.31] } 12. Qf3 { [%eval 6.24] } 12... Nd5 $4 { [%eval #3] } 13.
+Rad1 $4 { [%eval 4.75] } 13... f6 { [%eval 4.74] } 14. Ng4 { [%eval 4.31] }
+14... Bb7 $2 { [%eval 5.76] } 15. e4 { [%eval 5.57] } 15... Ne7 $4
+{ [%eval 12.6] } 16. Rfe1 $4 { [%eval 6.71] } 16... Ng6 $6 { [%eval 7.21] } 17.
+Nxf6+ { [%eval 7.02] } 17... gxf6 $2 { [%eval 14.45] } 18. Qxf6
+{ [%eval 13.78] } 18... Nd7 { [%eval 21.76] } 19. Bxe6+ { [%eval 21.25] } 19...
+Qxe6 { [%eval 20.59] } 20. Qxe6+ { [%eval 19.69] } 20... Kg7 { [%eval 23.51] }
+21. Qxd7+ { [%eval 22.37] } 21... Kh6 $6 { [%eval #8] } 22. Qxb7 $6
+{ [%eval 25.06] } 22... Rf8 { [%eval 26.58] } 23. d5 { [%eval 24.85] } 23...
+Ne5 { [%eval 29.88] } 24. Qxa7 { [%eval 27.77] } 24... Rf7 { [%eval 34.31] }
+25. Qxb6+ { [%eval 30.34] } 25... Rf6 $6 { [%eval #5] } 26. Qxf6+
+{ [%eval #4] } 1-0

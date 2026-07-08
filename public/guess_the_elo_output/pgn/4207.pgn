@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/rz9jra3N"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Monsterok"]
+[Black "JoeShmoe523"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "05:20:41"]
+[WhiteElo "1844"]
+[BlackElo "2139"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+6"]
+[ECO "C38"]
+[Opening "King's Gambit Accepted, Traditional Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.25] } 2. f4 $6 { [%eval -0.47] } 2...
+exf4 { [%eval -0.27] } 3. Nf3 { [%eval -0.75] } 3... g5 { [%eval -0.66] } 4.
+Bc4 { [%eval -0.83] } 4... Bg7 { [%eval -0.47] } 5. d4 { [%eval -0.55] } 5...
+d6 { [%eval -0.17] } 6. O-O $6 { [%eval -0.79] } 6... Nc6 { [%eval -0.68] } 7.
+c3 { [%eval -0.6] } 7... h6 { [%eval -0.36] } 8. Re1 $6 { [%eval -1.2] } 8...
+Qe7 $6 { [%eval -0.31] } 9. e5 $6 { [%eval -0.89] } 9... dxe5 { [%eval -0.25] }
+10. dxe5 $4 { [%eval -4.43] } 10... Qc5+ { [%eval -4.52] } 11. Kh1
+{ [%eval -4.5] } 11... Qxc4 { [%eval -4.52] } 12. Na3 { [%eval -4.93] } 12...
+Qc5 { [%eval -4.45] } 13. Nc2 $2 { [%eval -6.12] } 13... Bf5 { [%eval -5.87] }
+14. Ncd4 { [%eval -6.12] } 14... O-O-O { [%eval -5.83] } 15. Qa4 $6
+{ [%eval -6.61] } 15... Bd7 { [%eval -6.36] } 16. Qb3 $2 { [%eval -7.52] }
+16... Nxe5 { [%eval -7.45] } 17. Nxe5 { [%eval -7.43] } 17... Bxe5
+{ [%eval -7.31] } 18. Qxf7 { [%eval -7.16] } 18... Bxd4 $2 { [%eval -5.94] }
+19. cxd4 { [%eval -6.71] } 19... Qxd4 { [%eval -6.85] } 20. a4 $4
+{ [%eval -10.1] } 20... Bxa4 $2 { [%eval -7.76] } 0-1

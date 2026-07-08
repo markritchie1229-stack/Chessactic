@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/aa4L1cES"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lolom"]
+[Black "louco22"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:39:08"]
+[WhiteElo "1208"]
+[BlackElo "1578"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+3"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... Nf6 { [%eval 0.26] } 2. e3 { [%eval 0.09] } 2... g6
+{ [%eval 0.32] } 3. Nf3 { [%eval 0.36] } 3... Bg7 { [%eval 0.35] } 4. Bd3
+{ [%eval 0.06] } 4... O-O { [%eval 0.2] } 5. e4 { [%eval 0.09] } 5... c6
+{ [%eval 0.33] } 6. O-O { [%eval 0.38] } 6... Re8 { [%eval 0.56] } 7. c3
+{ [%eval 0.42] } 7... d5 { [%eval 0.64] } 8. Re1 $2 { [%eval -0.62] } 8... dxe4
+{ [%eval -0.58] } 9. Bxe4 { [%eval -0.47] } 9... Nxe4 { [%eval -0.52] } 10.
+Rxe4 { [%eval -0.59] } 10... Bf5 { [%eval -0.21] } 11. Rf4 $2 { [%eval -1.93] }
+11... Nd7 { [%eval -1.58] } 12. Nh4 { [%eval -1.91] } 12... Be6
+{ [%eval -1.57] } 13. g3 $2 { [%eval -3.18] } 13... Nf6 $2 { [%eval -1.73] }
+14. b4 $2 { [%eval -3.56] } 14... Nh5 $2 { [%eval -1.77] } 15. Nd2 $2
+{ [%eval -4.48] } 15... Nxf4 { [%eval -4.29] } 16. gxf4 { [%eval -3.99] } 16...
+Bd5 { [%eval -3.99] } 17. c4 $2 { [%eval -6.48] } 17... Be6 $2
+{ [%eval -4.27] } 18. Rb1 $6 { [%eval -5.18] } 18... Qxd4 { [%eval -5.08] } 19.
+b5 $6 { [%eval -5.89] } 19... Rad8 { [%eval -5.87] } 20. Rb2 $2
+{ [%eval -8.06] } 20... c5 $2 { [%eval -6.45] } 21. Nhf3 $2 { [%eval -9.41] }
+21... Qxf4 { [%eval -9.06] } 22. b6 $6 { [%eval -16.37] } 22... a6 $6
+{ [%eval -9.15] } 23. Nb3 $2 { [%eval #-3] } 23... Rxd1+ { [%eval #-2] } 0-1

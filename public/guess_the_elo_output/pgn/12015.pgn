@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/IDQCrPQj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MrZboub"]
+[Black "GrinkoL"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:39:15"]
+[WhiteElo "1369"]
+[BlackElo "1424"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+15"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.35] } 2...
+Nf6 { [%eval 0.43] } 3. Nc3 { [%eval 0.19] } 3... Bb4 { [%eval 0.19] } 4. d3
+{ [%eval -0.11] } 4... Bxc3+ { [%eval 0.06] } 5. bxc3 { [%eval 0.04] } 5... Nc6
+{ [%eval 0.21] } 6. d4 { [%eval -0.16] } 6... d6 { [%eval 0.16] } 7. Ng5 $2
+{ [%eval -0.87] } 7... exd4 { [%eval -0.52] } 8. cxd4 { [%eval -0.81] } 8... h6
+{ [%eval -0.82] } 9. Nf3 { [%eval -0.94] } 9... Nxe4 { [%eval -0.84] } 10. Bd3
+{ [%eval -1.04] } 10... Bf5 { [%eval -0.64] } 11. d5 { [%eval -0.68] } 11...
+Qe7 $2 { [%eval 1.6] } 12. O-O { [%eval 1.55] } 12... Nb4 $6 { [%eval 2.46] }
+13. Re1 $6 { [%eval 1.81] } 13... Nxd3 $2 { [%eval 3.44] } 14. cxd3
+{ [%eval 3.33] } 14... Qf6 $6 { [%eval 4.2] } 15. Rb1 { [%eval 4.12] } 15...
+O-O-O $2 { [%eval 5.9] } 16. dxe4 { [%eval 5.6] } 16... Bg4 $2 { [%eval 7.1] }
+17. Qb3 { [%eval 6.48] } 17... b6 { [%eval 6.83] } 18. e5 $2 { [%eval 5.12] }
+18... dxe5 $6 { [%eval 5.95] } 19. Nxe5 { [%eval 5.69] } 19... Rhe8 $6
+{ [%eval 6.4] } 20. Nxg4 $4 { [%eval #-1] } 20... Rxe1# 0-1

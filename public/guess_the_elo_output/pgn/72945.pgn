@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/JNS1xQZL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Aleksandr_Tril"]
+[Black "hamr"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:23:13"]
+[WhiteElo "1874"]
+[BlackElo "1886"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+12"]
+[ECO "C64"]
+[Opening "Ruy Lopez: Classical Variation"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.21] } 2. Nf3 { [%eval 0.18] } 2...
+Nc6 { [%eval 0.2] } 3. Bb5 { [%eval 0.27] } 3... Bc5 { [%eval 0.55] } 4. Bxc6
+{ [%eval 0.12] } 4... dxc6 { [%eval 0.16] } 5. Nxe5 $6 { [%eval -0.75] } 5...
+Qd4 { [%eval -0.79] } 6. Nd3 { [%eval -0.74] } 6... Qxe4+ { [%eval -0.81] } 7.
+Qe2 { [%eval -0.99] } 7... Qxe2+ { [%eval -0.85] } 8. Kxe2 { [%eval -1.11] }
+8... Bb6 $6 { [%eval -0.56] } 9. Re1 { [%eval -0.56] } 9... Be6
+{ [%eval -0.08] } 10. Nf4 { [%eval -0.06] } 10... O-O-O $6 { [%eval 0.54] } 11.
+Nxe6 { [%eval 0.38] } 11... fxe6 { [%eval 0.54] } 12. Kf1 { [%eval 0.17] }
+12... Rf8 { [%eval 0.28] } 13. f3 { [%eval 0.43] } 13... Nf6 { [%eval 0.53] }
+14. Rxe6 $6 { [%eval 0.0] } 14... Ng4 { [%eval 0.07] } 15. h3 { [%eval -0.05] }
+15... Nh2+ { [%eval -0.02] } 16. Ke2 { [%eval -0.18] } 16... Re8 $6
+{ [%eval 0.77] } 17. Rxe8+ $2 { [%eval -0.63] } 17... Rxe8+ { [%eval -0.7] }
+18. Kd1 $6 { [%eval -1.58] } 18... Bf2 { [%eval -1.51] } 19. c3
+{ [%eval -1.69] } 19... Re1+ { [%eval -1.72] } 20. Kc2 { [%eval -1.53] } 20...
+Rg1 { [%eval -1.6] } 21. g4 $6 { [%eval -2.23] } 21... Nxf3 { [%eval -2.09] }
+22. Na3 { [%eval -2.29] } 22... Ne1+ { [%eval -2.11] } 23. Kb3 $2
+{ [%eval -3.81] } 23... Nd3 $2 { [%eval -2.16] } 24. Nc4 $2 { [%eval -4.94] }
+24... Nxc1+ { [%eval -4.85] } 0-1

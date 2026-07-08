@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/AA8hDghT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "alexr22"]
+[Black "kimasteralg"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:46:47"]
+[WhiteElo "1597"]
+[BlackElo "1344"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Kloosterboer Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.25] } 1... d5 $6 { [%eval 0.82] } 2. exd5 { [%eval 0.7] } 2...
+c6 { [%eval 0.85] } 3. dxc6 { [%eval 0.73] } 3... e5 $6 { [%eval 1.68] } 4.
+cxb7 { [%eval 1.64] } 4... Bxb7 { [%eval 1.6] } 5. Nc3 { [%eval 1.25] } 5...
+Bc5 { [%eval 1.22] } 6. Bb5+ { [%eval 1.01] } 6... Nc6 $6 { [%eval 1.53] } 7.
+Qf3 $6 { [%eval 0.71] } 7... Qb6 $2 { [%eval 1.9] } 8. Bc4 $2 { [%eval 0.12] }
+8... Nf6 { [%eval 0.0] } 9. d3 $2 { [%eval -1.54] } 9... Nb4 { [%eval -2.22] }
+10. Bb3 $4 { [%eval -7.26] } 10... Bxf3 { [%eval -7.31] } 11. Nxf3
+{ [%eval -6.97] } 11... Bxf2+ { [%eval -7.08] } 12. Kf1 { [%eval -7.15] } 12...
+Ng4 { [%eval -7.03] } 13. Ne4 $2 { [%eval -8.86] } 13... Ne3+ $2
+{ [%eval -6.02] } 14. Kxf2 $2 { [%eval -7.81] } 14... Nexc2+ { [%eval -7.7] }
+15. Ke2 { [%eval -7.41] } 15... Nxa1 $2 { [%eval -5.08] } 16. Nxe5 $4
+{ [%eval -14.41] } 16... Qe6 $4 { [%eval 2.49] } 17. Bxe6 { [%eval 2.21] }
+17... fxe6 { [%eval 2.37] } 18. Rf1 $2 { [%eval 1.2] } 18... O-O-O $2
+{ [%eval 2.88] } 19. Bd2 $2 { [%eval 1.42] } 19... Nac2 { [%eval 1.54] } 20.
+Bxb4 { [%eval 1.4] } 20... Nxb4 { [%eval 1.31] } 21. Rc1+ { [%eval 0.91] }
+21... Kb8 { [%eval 1.17] } 22. Nc6+ $2 { [%eval -1.0] } 22... Nxc6
+{ [%eval -1.02] } 23. Rxc6 { [%eval -0.87] } 23... Rc8 { [%eval -0.81] } 24.
+Rxe6 $2 { [%eval -1.96] } 24... Rhe8 $2 { [%eval -0.51] } 25. Rxe8
+{ [%eval -0.54] } 25... Rxe8 { [%eval -0.56] } 26. b4 { [%eval -0.59] } 26...
+g6 { [%eval -0.2] } 27. Ke3 { [%eval -0.41] } 27... Kb7 { [%eval -0.1] } 28.
+Kd4 { [%eval -0.2] } 28... Kb6 { [%eval -0.25] } 29. Kc4 { [%eval -0.43] }
+29... a5 { [%eval -0.29] } 30. d4 $4 { [%eval -5.78] } 1-0

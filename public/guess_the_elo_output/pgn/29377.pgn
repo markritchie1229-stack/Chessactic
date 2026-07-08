@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/RRxQIpn8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "garik7777"]
+[Black "Aeggis"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:24:05"]
+[WhiteElo "1408"]
+[BlackElo "1405"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A43"]
+[Opening "Benoni Defense: Benoni Gambit Accepted"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.33] } 1... c5 { [%eval 0.58] } 2. dxc5 $6 { [%eval 0.06] }
+2... e6 { [%eval 0.15] } 3. e3 { [%eval 0.06] } 3... Bxc5 { [%eval 0.13] } 4.
+Bd3 { [%eval -0.06] } 4... d5 { [%eval -0.09] } 5. Qe2 { [%eval -0.09] } 5...
+a6 { [%eval -0.16] } 6. Bd2 { [%eval -0.39] } 6... Nf6 { [%eval -0.25] } 7. a3
+$6 { [%eval -0.95] } 7... O-O { [%eval -0.6] } 8. Nc3 $6 { [%eval -1.14] } 8...
+b5 $6 { [%eval -0.45] } 9. Na2 $2 { [%eval -1.69] } 9... Bb7 { [%eval -1.31] }
+10. f3 $6 { [%eval -2.2] } 10... Nc6 $6 { [%eval -1.53] } 11. g4 $6
+{ [%eval -2.23] } 11... d4 $6 { [%eval -1.46] } 12. exd4 $2 { [%eval -2.83] }
+12... Nxd4 { [%eval -2.79] } 13. Qf1 $2 { [%eval -3.99] } 13... Qd5 $6
+{ [%eval -3.14] } 14. Nc3 { [%eval -3.16] } 14... Qd6 $6 { [%eval -2.33] } 15.
+O-O-O { [%eval -2.52] } 15... Bxa3 { [%eval -2.36] } 16. bxa3 $2
+{ [%eval -3.66] } 16... Qxa3+ { [%eval -3.2] } 17. Kb1 { [%eval -3.17] } 17...
+Nd5 $2 { [%eval -0.58] } 18. Nge2 $2 { [%eval -3.42] } 18... Qb4+
+{ [%eval -3.34] } 19. Kc1 $6 { [%eval -3.94] } 19... Qa3+ $2 { [%eval -2.67] }
+20. Kb1 { [%eval -2.49] } 20... b4 $2 { [%eval -1.37] } 21. Nxd5 $4
+{ [%eval -5.93] } 21... Bxd5 { [%eval -5.43] } 22. Nxd4 $4 { [%eval #-2] }
+22... Qa2+ { [%eval #-1] } 23. Kc1 { [%eval #-1] } 23... Qa3+ $6
+{ [%eval #-2] } 24. Kb1 { [%eval #-2] } 24... Ba2+ $6 { [%eval #-3] } 25. Ka1
+{ [%eval #-3] } 25... b3 $4 { [%eval 1.35] } 26. Nxb3 $4 { [%eval #-3] } 26...
+Bxb3+ { [%eval #-2] } 27. Kb1 { [%eval #-2] } 27... Ba2+ $6 { [%eval #-3] } 28.
+Ka1 { [%eval #-3] } 28... Bd5+ { [%eval #-2] } 29. Kb1 { [%eval #-2] } 29...
+Rab8+ $6 { [%eval #-2] } 30. Bb5 { [%eval #-2] } 30... Rxb5+ $6 { [%eval #-4] }
+31. Qxb5 { [%eval #-4] } 31... axb5 $6 { [%eval #-5] } 0-1

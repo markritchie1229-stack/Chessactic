@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7xUCYOAI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gondolin"]
+[Black "CUCOLOTTO"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:31:48"]
+[WhiteElo "1935"]
+[BlackElo "2057"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... c5 { [%eval 0.2] } 2. Nf3 { [%eval 0.21] } 2... Nc6
+{ [%eval 0.23] } 3. Bb5 { [%eval 0.33] } 3... Nd4 { [%eval 0.48] } 4. Nxd4
+{ [%eval 0.46] } 4... cxd4 { [%eval 0.52] } 5. c3 { [%eval 0.42] } 5... a6
+{ [%eval 0.48] } 6. Bc4 { [%eval 0.2] } 6... dxc3 $6 { [%eval 0.74] } 7. Nxc3
+{ [%eval 0.79] } 7... e6 { [%eval 0.84] } 8. Qf3 $6 { [%eval 0.16] } 8... b5
+{ [%eval 0.36] } 9. e5 $6 { [%eval -0.62] } 9... Rb8 { [%eval -0.48] } 10. Bd3
+{ [%eval -0.65] } 10... Bb7 $6 { [%eval -0.14] } 11. Be4 { [%eval -0.16] }
+11... Bxe4 { [%eval -0.2] } 12. Nxe4 { [%eval -0.23] } 12... f5
+{ [%eval -0.1] } 13. Ng3 { [%eval -0.36] } 13... Bc5 { [%eval -0.36] } 14. d3
+{ [%eval -0.75] } 14... Qb6 { [%eval -0.55] } 15. O-O { [%eval -0.72] } 15...
+Ne7 { [%eval -0.54] } 16. Qh5+ $6 { [%eval -1.39] } 16... Ng6 { [%eval -1.33] }
+17. Re1 $4 { [%eval -7.48] } 17... Bxf2+ { [%eval -6.97] } 18. Kf1
+{ [%eval -7.34] } 18... Bxe1 { [%eval -7.03] } 19. Kxe1 { [%eval -7.26] } 19...
+Qg1+ { [%eval -7.0] } 20. Kd2 $2 { [%eval -8.38] } 20... Qxg2+ $2
+{ [%eval -6.85] } 21. Ne2 $4 { [%eval -15.45] } 21... O-O { [%eval -14.62] }
+22. b3 { [%eval -21.37] } 22... Nf4 { [%eval -20.53] } 23. Bb2
+{ [%eval -22.63] } 23... Nxh5 { [%eval -22.21] } 0-1

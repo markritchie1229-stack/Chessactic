@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/MPV0EYo8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vanik_imk"]
+[Black "GrugoriyVushna"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:26:02"]
+[WhiteElo "1278"]
+[BlackElo "1272"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-28"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Marshall Counterattack"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e6 { [%eval 0.02] } 2. Nf3 { [%eval 0.07] } 2... d5
+{ [%eval 0.15] } 3. d4 $6 { [%eval -0.73] } 3... c5 $2 { [%eval 0.75] } 4. exd5
+{ [%eval 0.64] } 4... exd5 { [%eval 0.68] } 5. dxc5 $6 { [%eval -0.02] } 5...
+Bxc5 { [%eval 0.0] } 6. Bb5+ { [%eval -0.2] } 6... Bd7 $6 { [%eval 0.42] } 7.
+Bxd7+ { [%eval 0.2] } 7... Qxd7 { [%eval 0.24] } 8. O-O { [%eval 0.06] } 8...
+Ne7 { [%eval 0.27] } 9. Ne5 { [%eval 0.18] } 9... Qd6 { [%eval 0.37] } 10. Re1
+{ [%eval 0.19] } 10... O-O { [%eval 0.25] } 11. Nc3 { [%eval 0.22] } 11... a6
+{ [%eval 0.47] } 12. Nf3 { [%eval 0.03] } 12... Nbc6 { [%eval -0.1] } 13. Be3
+$2 { [%eval -1.76] } 13... Bb6 $4 { [%eval 4.59] } 14. Bxb6 { [%eval 4.64] }
+14... Nb4 $6 { [%eval 5.35] } 15. Be3 $6 { [%eval 4.83] } 15... Nbc6
+{ [%eval 5.02] } 16. Bd4 { [%eval 4.55] } 16... Rad8 { [%eval 4.69] } 17. Ne5
+{ [%eval 4.21] } 17... Nxe5 { [%eval 4.49] } 18. Bxe5 { [%eval 4.51] } 18...
+Qh6 $2 { [%eval 6.29] } 19. Bg3 $2 { [%eval 4.06] } 19... Qc6 $4
+{ [%eval 9.04] } 20. Rxe7 { [%eval 8.76] } 20... Kh8 $6 { [%eval 9.55] } 21. h3
+{ [%eval 9.33] } 21... b5 { [%eval 9.66] } 22. Qg4 { [%eval 9.25] } 22... b4 $6
+{ [%eval 10.36] } 23. Be5 { [%eval 10.1] } 23... f6 $6 { [%eval #1] } 24. Qxg7#
+1-0

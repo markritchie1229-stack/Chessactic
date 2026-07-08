@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/uaU4z1r9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ALEXDYSHEL"]
+[Black "MillenniumBug"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:00:20"]
+[WhiteElo "1682"]
+[BlackElo "1617"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-9"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "240+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e6 { [%eval 0.26] } 2. d3 { [%eval -0.06] } 2... d5
+{ [%eval -0.06] } 3. exd5 { [%eval -0.08] } 3... exd5 { [%eval -0.17] } 4. Qf3
+$6 { [%eval -0.94] } 4... Nf6 { [%eval -0.76] } 5. Bg5 { [%eval -0.77] } 5...
+Bg4 $2 { [%eval 1.74] } 6. Qe3+ $2 { [%eval -0.59] } 6... Be7 $6
+{ [%eval 0.02] } 7. Bxf6 { [%eval 0.0] } 7... gxf6 { [%eval -0.04] } 8. Be2
+{ [%eval 0.07] } 8... f5 { [%eval 0.44] } 9. Nc3 { [%eval 0.4] } 9... O-O $6
+{ [%eval 1.06] } 10. Nb5 $2 { [%eval -0.5] } 10... Re8 { [%eval -0.54] } 11.
+Qg3 $6 { [%eval -1.06] } 11... Kh8 $2 { [%eval 0.24] } 12. O-O-O $6
+{ [%eval -0.38] } 12... Rg8 $2 { [%eval 0.97] } 13. Qe5+ { [%eval 0.79] } 13...
+Bf6 { [%eval 0.81] } 14. Qxc7 { [%eval 0.43] } 14... a6 $6 { [%eval 1.42] } 15.
+Qxd8 { [%eval 1.26] } 15... Rxd8 { [%eval 1.33] } 16. Bxg4 $2 { [%eval 0.14] }
+16... fxg4 $2 { [%eval 1.76] } 17. Nc3 { [%eval 1.79] } 17... b5
+{ [%eval 2.08] } 18. h3 { [%eval 1.95] } 18... Rg8 $6 { [%eval 2.85] } 19. hxg4
+$6 { [%eval 2.25] } 19... Rxg4 { [%eval 2.24] } 20. g3 { [%eval 2.1] } 20...
+Nc6 $6 { [%eval 2.79] } 21. Nxd5 { [%eval 2.93] } 21... Nb4 $4
+{ [%eval 10.09] } 22. Nxf6 { [%eval 9.82] } 22... Nxa2+ { [%eval 13.82] } 23.
+Kb1 { [%eval 13.32] } 23... Ra4 $6 { [%eval #1] } 24. b3 $4 { [%eval 5.99] }
+24... Ra3 $4 { [%eval #1] } 25. Kb2 $6 { [%eval 12.79] } 25... Ra5 $6
+{ [%eval #1] } 26. Ra1 $2 { [%eval 9.95] } 1-0

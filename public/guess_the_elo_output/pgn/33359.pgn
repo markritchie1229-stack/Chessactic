@@ -1,0 +1,46 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/VeMUmZeq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Daxtrader"]
+[Black "contry"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:54:34"]
+[WhiteElo "1240"]
+[BlackElo "1236"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+106"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.26] } 2. Nd2 { [%eval 0.02] } 2... e6
+{ [%eval 0.16] } 3. e3 { [%eval -0.13] } 3... c6 { [%eval 0.29] } 4. Ne2
+{ [%eval -0.14] } 4... f5 $6 { [%eval 0.41] } 5. b3 { [%eval 0.42] } 5... Nf6
+{ [%eval 0.44] } 6. Ba3 $4 { [%eval -4.16] } 6... Bxa3 { [%eval -4.02] } 7. b4
+$2 { [%eval -5.42] } 7... Bxb4 { [%eval -5.43] } 8. c3 { [%eval -5.44] } 8...
+Ba5 { [%eval -5.2] } 9. Qa4 { [%eval -5.55] } 9... b5 $6 { [%eval -4.8] } 10.
+Qb3 $6 { [%eval -5.41] } 10... Nbd7 { [%eval -5.14] } 11. a4 { [%eval -5.57] }
+11... bxa4 $4 { [%eval -2.4] } 12. Qxa4 { [%eval -2.25] } 12... Qc7 $2
+{ [%eval -0.18] } 13. Nb3 $4 { [%eval -4.55] } 13... Bb6 { [%eval -4.42] } 14.
+Nc5 $2 { [%eval -6.64] } 14... Nxc5 { [%eval -6.47] } 15. dxc5
+{ [%eval -6.54] } 15... Bxc5 { [%eval -6.49] } 16. Nd4 { [%eval -6.73] } 16...
+Bxd4 $2 { [%eval -5.67] } 17. cxd4 { [%eval -5.57] } 17... O-O
+{ [%eval -5.55] } 18. Be2 { [%eval -5.77] } 18... Bd7 { [%eval -5.44] } 19. O-O
+$6 { [%eval -6.24] } 19... Rfb8 $6 { [%eval -5.37] } 20. Ra2 $2
+{ [%eval -6.53] } 20... c5 { [%eval -6.39] } 21. Qc2 $6 { [%eval -6.95] } 21...
+c4 { [%eval -6.72] } 22. Rb1 $6 { [%eval -7.5] } 22... Rxb1+ { [%eval -7.25] }
+23. Qxb1 { [%eval -7.23] } 23... Rb8 { [%eval -7.03] } 24. Rb2 $2
+{ [%eval -9.83] } 24... Rxb2 { [%eval -9.62] } 25. Qxb2 { [%eval -9.46] } 25...
+Qb6 { [%eval -8.7] } 26. Qc3 $2 { [%eval -9.87] } 26... h6 { [%eval -9.04] }
+27. g3 $6 { [%eval -19.74] } 27... Kh7 { [%eval -9.62] } 28. Kg2
+{ [%eval -10.91] } 28... a5 { [%eval -10.05] } 29. h4 { [%eval -12.79] } 29...
+Ne4 { [%eval -11.75] } 30. Qa3 { [%eval -15.79] } 30... Qb4 { [%eval -14.66] }
+31. Qxb4 { [%eval -20.93] } 31... axb4 { [%eval -18.89] } 32. Bd1
+{ [%eval -21.63] } 32... b3 { [%eval -20.85] } 33. Bxb3 $6 { [%eval #-9] }
+33... cxb3 { [%eval #-9] } 34. Kf1 { [%eval #-6] } 34... b2 { [%eval #-5] } 35.
+Kg2 { [%eval #-5] } 35... b1=Q { [%eval #-4] } 36. Kf3 { [%eval #-3] } 36...
+Qc2 { [%eval #-2] } 37. Kg2 { [%eval #-2] } 37... Qxf2+ { [%eval #-1] } 38. Kh3
+{ [%eval #-1] } 38... Qxg3# 0-1

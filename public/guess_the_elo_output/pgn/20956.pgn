@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PrsOF66F"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Erfgbrez"]
+[Black "sur1976"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:55:55"]
+[WhiteElo "1618"]
+[BlackElo "1633"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+15"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.22] } 2... f6
+$2 { [%eval 1.39] } 3. d4 { [%eval 1.48] } 3... d6 { [%eval 1.44] } 4. Be3
+{ [%eval 1.27] } 4... Bg4 { [%eval 1.34] } 5. Be2 { [%eval 1.27] } 5... Bxf3
+{ [%eval 1.28] } 6. Bxf3 { [%eval 1.21] } 6... Qe7 { [%eval 1.52] } 7. Nc3
+{ [%eval 1.45] } 7... c6 { [%eval 1.76] } 8. Qd2 { [%eval 1.73] } 8... exd4
+{ [%eval 1.93] } 9. Bxd4 { [%eval 1.73] } 9... Qd7 { [%eval 1.91] } 10. O-O-O
+{ [%eval 1.9] } 10... Ne7 $2 { [%eval 3.22] } 11. Kb1 $6 { [%eval 2.5] } 11...
+Ng6 { [%eval 2.4] } 12. h3 { [%eval 2.31] } 12... Na6 { [%eval 2.71] } 13. g4
+{ [%eval 2.31] } 13... Be7 { [%eval 2.41] } 14. h4 { [%eval 2.26] } 14... Bd8
+$6 { [%eval 2.8] } 15. g5 $6 { [%eval 2.22] } 15... Ba5 $2 { [%eval 3.36] } 16.
+Qe3 $2 { [%eval 1.28] } 16... c5 { [%eval 1.5] } 17. h5 $2 { [%eval -1.07] }
+17... Ne7 $4 { [%eval 2.67] } 18. gxf6 $6 { [%eval 2.08] } 18... cxd4
+{ [%eval 2.16] } 19. Qxd4 $2 { [%eval -0.47] } 19... gxf6 { [%eval 0.0] } 20.
+Qxf6 $4 { [%eval -3.08] } 20... O-O-O $4 { [%eval -0.02] } 21. Rhg1 $2
+{ [%eval -1.64] } 21... Rhf8 { [%eval -1.49] } 22. Qd4 $4 { [%eval -6.14] }
+22... Rxf3 { [%eval -5.98] } 23. Nb5 $4 { [%eval -11.02] } 23... Qxb5
+{ [%eval -10.38] } 24. Qxa7 { [%eval -18.47] } 24... Nc6 { [%eval -15.12] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/51O0n3W4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GlauberVinicius"]
+[Black "knotex"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:55:45"]
+[WhiteElo "1509"]
+[BlackElo "1529"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... Nf6 { [%eval 0.3] } 2. Bf4 { [%eval 0.22] } 2... g6
+{ [%eval 0.27] } 3. e3 { [%eval 0.13] } 3... Bg7 { [%eval 0.25] } 4. h3
+{ [%eval 0.22] } 4... d6 { [%eval 0.21] } 5. c4 { [%eval -0.14] } 5... O-O
+{ [%eval 0.24] } 6. Nc3 { [%eval 0.32] } 6... Nc6 { [%eval 0.4] } 7. Bd3 $2
+{ [%eval -0.65] } 7... e5 { [%eval -0.46] } 8. dxe5 { [%eval -0.54] } 8... dxe5
+{ [%eval -0.56] } 9. Bg5 { [%eval -0.7] } 9... Nb4 { [%eval -0.64] } 10. Nd5 $2
+{ [%eval -2.15] } 10... Be6 $4 { [%eval 1.99] } 11. Nxf6+ $4 { [%eval -1.87] }
+11... Bxf6 { [%eval -1.95] } 12. Bxf6 { [%eval -1.86] } 12... Qxf6 $6
+{ [%eval -1.22] } 13. Be4 $2 { [%eval -2.64] } 13... Rad8 $2 { [%eval -1.27] }
+14. Qb3 { [%eval -1.64] } 14... Nc6 $2 { [%eval -0.12] } 15. Qxb7
+{ [%eval -0.06] } 15... Na5 { [%eval 0.21] } 16. Qxc7 $6 { [%eval -0.7] } 16...
+Nxc4 { [%eval -0.51] } 17. b3 $2 { [%eval -1.93] } 17... Nd2 { [%eval -1.66] }
+18. Nf3 $2 { [%eval -2.69] } 18... Nxe4 { [%eval -2.43] } 19. O-O $2
+{ [%eval -3.76] } 19... Nd2 { [%eval -3.55] } 20. Nxd2 { [%eval -3.71] } 20...
+Rxd2 { [%eval -3.39] } 21. Qxa7 { [%eval -3.5] } 21... Qg5 { [%eval -3.59] }
+22. Rac1 $2 { [%eval -6.24] } 22... Bxh3 $2 { [%eval -4.68] } 23. g3 $4
+{ [%eval -24.43] } 23... Rxf2 $4 { [%eval -1.75] } 24. Rxf2 $4 { [%eval #-10] }
+24... Qxg3+ { [%eval #-9] } 25. Kh1 { [%eval #-9] } 25... Qxf2 { [%eval #-8] }
+26. Rg1 { [%eval #-7] } 26... Qf3+ { [%eval #-8] } 27. Kh2 { [%eval #-15] }
+27... Be6 $6 { [%eval -62.3] } 28. Qc5 $6 { [%eval #-1] } 28... Qh3# 0-1

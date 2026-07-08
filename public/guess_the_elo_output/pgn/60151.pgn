@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/KtnmYS98"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FPoole"]
+[Black "ZachWood"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:25:01"]
+[WhiteElo "2007"]
+[BlackElo "2011"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.24] } 2. c4 { [%eval 0.16] } 2... e6
+{ [%eval 0.35] } 3. Nc3 { [%eval 0.33] } 3... c6 { [%eval 0.35] } 4. Nf3
+{ [%eval 0.25] } 4... Nf6 { [%eval 0.33] } 5. Bg5 { [%eval 0.22] } 5... Be7
+{ [%eval 0.3] } 6. e3 { [%eval 0.28] } 6... O-O { [%eval 0.28] } 7. Qc2
+{ [%eval 0.1] } 7... Nbd7 { [%eval 0.17] } 8. Rd1 { [%eval 0.14] } 8... a6
+{ [%eval 0.29] } 9. a3 { [%eval 0.25] } 9... Nb6 { [%eval 0.56] } 10. Ne5
+{ [%eval 0.18] } 10... h6 { [%eval 0.32] } 11. Bh4 { [%eval 0.16] } 11... dxc4
+{ [%eval 0.39] } 12. Nxc4 { [%eval 0.25] } 12... Nxc4 { [%eval 0.39] } 13. Bxc4
+{ [%eval 0.31] } 13... b5 { [%eval 0.59] } 14. Ba2 { [%eval 0.52] } 14... Bb7
+{ [%eval 0.77] } 15. Bb1 { [%eval 0.7] } 15... g6 { [%eval 0.63] } 16. Bxf6
+{ [%eval 0.67] } 16... Bxf6 { [%eval 0.7] } 17. Ne4 { [%eval 0.7] } 17... Bg7
+{ [%eval 0.68] } 18. Nc5 { [%eval 0.67] } 18... Qc7 $2 { [%eval 1.91] } 19. h4
+{ [%eval 1.63] } 19... Rad8 $6 { [%eval 2.53] } 20. h5 { [%eval 2.6] } 20... f5
+$2 { [%eval 4.75] } 21. Nxe6 { [%eval 4.66] } 21... Qa5+ { [%eval 4.99] } 22.
+b4 $6 { [%eval 4.12] } 22... Qxa3 { [%eval 4.17] } 23. Ba2 { [%eval 4.08] }
+23... Qxb4+ $6 { [%eval 4.72] } 24. Kf1 $2 { [%eval 3.52] } 24... Kh7 $4
+{ [%eval 8.12] } 25. hxg6+ { [%eval 4.42] } 25... Kxg6 $4 { [%eval 9.43] } 26.
+g4 { [%eval 8.06] } 26... Rde8 $2 { [%eval 19.46] } 27. gxf5+ { [%eval 16.75] }
+27... Rxf5 { [%eval 26.56] } 28. Nxg7 { [%eval 17.94] } 28... Rf8 $6
+{ [%eval #8] } 29. Nxf5 { [%eval #8] } 29... Rxf5 { [%eval #8] } 30. Bb1 $6
+{ [%eval 12.45] } 30... c5 $6 { [%eval #4] } 31. Qxf5+ { [%eval #3] } 1-0

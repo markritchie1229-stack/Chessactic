@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gqQRN3fg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Hamelner"]
+[Black "motorrad"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:39:02"]
+[WhiteElo "2028"]
+[BlackElo "1991"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-9"]
+[ECO "B06"]
+[Opening "Pterodactyl Defense: Western, Rhamphorhynchus"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.08] } 1... g6 { [%eval 0.47] } 2. e4 { [%eval 0.45] } 2...
+Bg7 { [%eval 0.49] } 3. d4 { [%eval 0.5] } 3... c5 { [%eval 0.66] } 4. dxc5
+{ [%eval 0.33] } 4... Qa5+ { [%eval 0.29] } 5. c3 { [%eval 0.31] } 5... Qxc5
+{ [%eval 0.5] } 6. e5 $6 { [%eval -0.21] } 6... Nc6 { [%eval -0.29] } 7. Be3
+{ [%eval -0.41] } 7... Qa5 { [%eval -0.52] } 8. Be2 { [%eval -0.5] } 8... Nxe5
+{ [%eval -0.41] } 9. Nxe5 { [%eval -0.37] } 9... Bxe5 { [%eval -0.34] } 10. Na3
+{ [%eval -0.41] } 10... Bxc3+ { [%eval -0.09] } 11. bxc3 { [%eval -0.26] }
+11... Qxc3+ { [%eval 0.0] } 12. Bd2 { [%eval -0.14] } 12... Qxa3
+{ [%eval -0.19] } 13. O-O { [%eval -0.25] } 13... Nf6 { [%eval 0.22] } 14. Bh6
+{ [%eval 0.12] } 14... Rg8 { [%eval 0.0] } 15. Rc1 { [%eval -0.21] } 15... g5
+$2 { [%eval 1.04] } 16. Qc2 { [%eval 0.67] } 16... e6 { [%eval 0.88] } 17. f4
+{ [%eval 0.66] } 17... Qe3+ { [%eval 0.72] } 18. Kh1 { [%eval 0.9] } 18... gxf4
+$6 { [%eval 1.76] } 19. Rxf4 { [%eval 2.08] } 19... b6 $4 { [%eval 6.52] } 20.
+Rxf6 { [%eval 6.36] } 20... Qe5 $4 { [%eval #8] } 21. Qxh7 { [%eval #7] } 21...
+Rf8 { [%eval #4] } 22. Bxf8 { [%eval #3] } 22... Qxf6 { [%eval #3] } 23. Bd6
+{ [%eval #2] } 1-0

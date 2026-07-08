@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dhm3lyMB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rockus"]
+[Black "elcordobes"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:12:50"]
+[WhiteElo "1817"]
+[BlackElo "1762"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "0+1"]
+[Termination "Time forfeit"]
+
+1. b3 $6 { [%eval -0.37] } 1... e6 { [%eval 0.03] } 2. Bb2 { [%eval -0.01] }
+2... c5 { [%eval 0.18] } 3. Nc3 $6 { [%eval -0.35] } 3... Nf6 { [%eval -0.11] }
+4. e3 { [%eval -0.37] } 4... Be7 { [%eval -0.1] } 5. Nge2 { [%eval -0.43] }
+5... O-O { [%eval -0.49] } 6. g3 { [%eval -0.53] } 6... Re8 { [%eval -0.18] }
+7. Bg2 { [%eval -0.27] } 7... d5 { [%eval -0.28] } 8. O-O { [%eval -0.26] }
+8... Nbd7 { [%eval -0.11] } 9. d4 { [%eval -0.25] } 9... Nf8 $6
+{ [%eval 0.28] } 10. dxc5 { [%eval 0.13] } 10... Bxc5 { [%eval 0.25] } 11. Na4
+{ [%eval 0.02] } 11... Be7 { [%eval 0.16] } 12. Nd4 { [%eval -0.24] } 12... b6
+$6 { [%eval 0.55] } 13. Nc3 $6 { [%eval -0.35] } 13... Bb7 { [%eval -0.21] }
+14. Nce2 { [%eval -0.36] } 14... N6d7 $6 { [%eval 0.29] } 15. c4
+{ [%eval 0.32] } 15... Bf6 { [%eval 0.73] } 16. cxd5 { [%eval 0.76] } 16...
+exd5 { [%eval 1.12] } 17. Nf4 { [%eval 0.93] } 17... Nc5 { [%eval 0.84] } 18.
+Nf3 $4 { [%eval -3.87] } 18... Ne4 $4 { [%eval 0.52] } 19. Bxf6
+{ [%eval 0.42] } 19... Nxf6 { [%eval 0.39] } 20. Nd4 { [%eval 0.33] } 20... Ne4
+{ [%eval 0.58] } 21. Bxe4 { [%eval 0.37] } 21... dxe4 { [%eval 0.35] } 22. Nc2
+$6 { [%eval -0.48] } 22... f5 $6 { [%eval 0.46] } 0-1

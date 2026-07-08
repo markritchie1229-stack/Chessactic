@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/Jcbjq43C"]
+[Site "https://lichess.org/H8Dd9TuT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "appulo"]
+[Black "eruditbattle_ru"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:12:24"]
+[WhiteElo "1919"]
+[BlackElo "1956"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... c5 { [%eval 0.33] } 2. Nc3 { [%eval 0.35] } 2... e6
+{ [%eval 0.33] } 3. d3 { [%eval -0.15] } 3... Nc6 { [%eval -0.08] } 4. Nf3
+{ [%eval -0.13] } 4... d5 { [%eval -0.13] } 5. exd5 { [%eval -0.1] } 5... exd5
+{ [%eval -0.13] } 6. Bg5 { [%eval -0.31] } 6... Nf6 { [%eval 0.13] } 7. Qe2+ $2
+{ [%eval -0.97] } 7... Be7 $6 { [%eval -0.18] } 8. O-O-O $6 { [%eval -0.97] }
+8... O-O { [%eval -0.77] } 9. Re1 $2 { [%eval -1.77] } 9... d4 $6
+{ [%eval -1.03] } 10. Ne4 { [%eval -1.39] } 10... Nxe4 { [%eval -0.92] } 11.
+Bxe7 { [%eval -0.92] } 11... Qxe7 { [%eval -0.7] } 12. Qxe4 { [%eval -0.84] }
+12... Qxe4 $6 { [%eval -0.34] } 13. Rxe4 { [%eval -0.51] } 13... Bf5
+{ [%eval -0.28] } 14. Rf4 $6 { [%eval -0.84] } 14... Bg6 $6 { [%eval 0.0] } 15.
+h4 $6 { [%eval -0.51] } 15... h6 $6 { [%eval 0.0] } 16. g3 { [%eval -0.14] }
+16... Rfe8 { [%eval 0.0] } 17. Bh3 $6 { [%eval -0.95] } 17... Ne5 $6
+{ [%eval 0.0] } 18. Nxe5 { [%eval -0.12] } 18... Rxe5 { [%eval 0.0] } 19. Rd1
+{ [%eval -0.29] } 19... Rae8 { [%eval -0.27] } 20. f3 $6 { [%eval -1.03] }
+20... Re2 { [%eval -0.81] } 21. Bg4 $2 { [%eval -2.06] } 21... Rg2
+{ [%eval -1.89] } 22. Re4 $2 { [%eval -4.27] } 22... Bxe4 { [%eval -4.09] } 23.
+dxe4 { [%eval -4.42] } 23... Rxg3 $6 { [%eval -3.85] } 24. Bf5 $2
+{ [%eval -5.7] } 24... Rxf3 { [%eval -5.44] } 25. Rg1 $2 { [%eval -6.67] }
+25... Rxf5 $4 { [%eval -2.88] } 26. Kd2 $4 { [%eval -12.13] } 26... Rxe4
+{ [%eval -11.82] } 27. Kd3 { [%eval -12.05] } 27... Re3+ { [%eval -11.8] } 28.
+Kc4 { [%eval -11.59] } 28... a6 { [%eval -11.21] } 29. b3 $6 { [%eval #-1] }
+29... Rc3# 0-1

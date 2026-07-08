@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cbYehsM1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bogz2"]
+[Black "LEOMSTR"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:20:23"]
+[WhiteElo "1500"]
+[BlackElo "1368"]
+[WhiteRatingDiff "+120"]
+[BlackRatingDiff "-7"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "900+15"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.08] } 2. d4 { [%eval 0.09] } 2... d6
+$6 { [%eval 0.72] } 3. Nf3 { [%eval 0.62] } 3... Bd7 { [%eval 0.91] } 4. Nc3
+{ [%eval 0.72] } 4... Nf6 { [%eval 0.57] } 5. e5 { [%eval 0.59] } 5... Nd5
+{ [%eval 0.54] } 6. Nxd5 { [%eval 0.55] } 6... exd5 { [%eval 0.65] } 7. exd6 $6
+{ [%eval 0.09] } 7... Bxd6 { [%eval 0.17] } 8. Bd3 { [%eval 0.22] } 8... c6
+{ [%eval 0.55] } 9. O-O { [%eval 0.42] } 9... Bg4 $6 { [%eval 1.05] } 10. h3 $6
+{ [%eval 0.54] } 10... Be6 $6 { [%eval 1.48] } 11. Re1 { [%eval 1.27] } 11...
+Qf6 $4 { [%eval 8.67] } 12. Bg5 { [%eval 8.27] } 12... Qg6 $2 { [%eval 11.97] }
+13. Bxg6 { [%eval 11.71] } 13... hxg6 { [%eval 11.62] } 14. Ne5 $2
+{ [%eval 7.76] } 14... Bf5 $2 { [%eval 19.56] } 15. Nxc6+ { [%eval 11.49] }
+15... Kd7 { [%eval 12.5] } 16. Ne5+ { [%eval 11.89] } 16... Kc7
+{ [%eval 15.33] } 17. Nxf7 { [%eval 14.62] } 17... Rh5 { [%eval 18.79] } 18.
+Bd8+ { [%eval 18.15] } 18... Kd7 { [%eval 22.78] } 19. c4 { [%eval 18.22] }
+19... b6 $6 { [%eval #9] } 20. Qa4+ { [%eval #8] } 20... Nc6 { [%eval #8] } 21.
+cxd5 { [%eval #7] } 1-0

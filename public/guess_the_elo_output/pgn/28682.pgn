@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/4M7YAMPM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "socalkid"]
+[Black "ravaljaimin"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:18:23"]
+[WhiteElo "1387"]
+[BlackElo "1442"]
+[WhiteRatingDiff "-54"]
+[BlackRatingDiff "+9"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.08] } 1... c5 $6 { [%eval 0.66] } 2. e3 $6 { [%eval 0.08] }
+2... d6 $6 { [%eval 0.73] } 3. Bd3 { [%eval 0.35] } 3... g6 { [%eval 0.41] } 4.
+dxc5 { [%eval 0.1] } 4... Qa5+ { [%eval 0.28] } 5. c3 { [%eval 0.04] } 5...
+Qxc5 { [%eval 0.14] } 6. Bd2 { [%eval 0.02] } 6... Bg7 { [%eval 0.0] } 7. Na3
+{ [%eval -0.35] } 7... Nf6 { [%eval -0.17] } 8. Bb5+ $6 { [%eval -0.88] } 8...
+Bd7 { [%eval -0.5] } 9. Bxd7+ { [%eval -0.71] } 9... Nbxd7 { [%eval -0.68] }
+10. Ne2 { [%eval -0.76] } 10... O-O { [%eval -0.81] } 11. Nd4 { [%eval -1.07] }
+11... Qc8 $6 { [%eval -0.32] } 12. O-O { [%eval -0.34] } 12... Re8
+{ [%eval -0.25] } 13. Qe2 { [%eval -0.22] } 13... a6 { [%eval -0.29] } 14. Nc4
+$6 { [%eval -0.98] } 14... Qc7 { [%eval -0.6] } 15. a4 $6 { [%eval -1.4] }
+15... d5 { [%eval -1.35] } 16. Na3 { [%eval -1.43] } 16... e5 { [%eval -0.99] }
+17. Nf3 { [%eval -1.41] } 17... Ne4 { [%eval -1.26] } 18. Ng5 $4
+{ [%eval -4.57] } 18... Nxd2 $4 { [%eval -0.7] } 19. Qxd2 { [%eval -0.81] }
+19... e4 $2 { [%eval 0.31] } 20. Nf3 $4 { [%eval -4.22] } 20... Ne5 $4
+{ [%eval -0.04] } 21. Qxd5 $4 { [%eval -4.9] } 21... Rad8 $4 { [%eval 1.02] }
+22. Qxe4 { [%eval 1.07] } 22... Nxf3+ { [%eval 0.95] } 23. Qxf3
+{ [%eval 0.86] } 23... Be5 { [%eval 0.81] } 24. Qe2 $2 { [%eval -0.48] } 24...
+Bxh2+ { [%eval -0.44] } 25. Kh1 { [%eval -0.42] } 25... Be5 $6 { [%eval 0.12] }
+0-1

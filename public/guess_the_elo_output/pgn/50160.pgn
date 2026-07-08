@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/SeTZhSzP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DavidSkerle"]
+[Black "sepehr36"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:28:05"]
+[WhiteElo "1890"]
+[BlackElo "1966"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-12"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "900+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... d6 { [%eval 0.48] } 2. d4 { [%eval 0.4] } 2... e6
+{ [%eval 0.67] } 3. Nf3 { [%eval 0.51] } 3... Nd7 { [%eval 0.66] } 4. c4
+{ [%eval 0.66] } 4... c6 { [%eval 0.77] } 5. Nc3 { [%eval 0.8] } 5... a6
+{ [%eval 0.88] } 6. Bd3 { [%eval 0.77] } 6... b5 { [%eval 0.72] } 7. b3
+{ [%eval 0.68] } 7... b4 { [%eval 0.91] } 8. Ne2 { [%eval 0.86] } 8... Ngf6
+{ [%eval 1.1] } 9. Ng3 { [%eval 0.71] } 9... Qc7 { [%eval 1.0] } 10. O-O
+{ [%eval 0.93] } 10... Be7 $6 { [%eval 1.43] } 11. Re1 { [%eval 1.14] } 11...
+e5 $6 { [%eval 1.8] } 12. d5 $2 { [%eval 0.65] } 12... Nc5 { [%eval 0.68] } 13.
+Bc2 { [%eval 0.76] } 13... O-O { [%eval 0.83] } 14. h3 { [%eval 0.38] } 14...
+cxd5 { [%eval 0.59] } 15. cxd5 { [%eval 0.44] } 15... Re8 $6 { [%eval 1.19] }
+16. Be3 $6 { [%eval 0.49] } 16... a5 { [%eval 0.48] } 17. Rc1 { [%eval 0.6] }
+17... Qb7 $2 { [%eval 2.54] } 18. Bb1 $2 { [%eval 0.68] } 18... Bd7 $2
+{ [%eval 1.74] } 19. Bxc5 { [%eval 1.49] } 19... dxc5 { [%eval 1.76] } 20. Nxe5
+{ [%eval 1.64] } 20... Bd6 { [%eval 1.61] } 21. Nc4 { [%eval 1.63] } 21... Bf4
+{ [%eval 1.36] } 22. Qc2 { [%eval 1.16] } 22... Bxc1 $6 { [%eval 1.83] } 23.
+Rxc1 { [%eval 1.94] } 23... a4 $2 { [%eval 4.61] } 24. e5 { [%eval 4.45] }
+24... Nxd5 $4 { [%eval 11.12] } 25. Qxh7+ { [%eval 10.77] } 25... Kf8
+{ [%eval 10.3] } 26. Nd6 { [%eval 9.28] } 26... Qc6 $2 { [%eval #17] } 27. Ngf5
+{ [%eval #16] } 27... Bxf5 { [%eval 66.51] } 28. Nxf5 { [%eval 26.57] } 28...
+Qg6 $6 { [%eval #1] } 29. Qh8# 1-0

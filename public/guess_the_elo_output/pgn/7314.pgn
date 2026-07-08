@@ -1,0 +1,45 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/De48056Z"]
+[Date "????.??.??"]
+[Round "?"]
+[White "atillaches"]
+[Black "math21"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:16:02"]
+[WhiteElo "1680"]
+[BlackElo "1659"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "45+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.12] } 1... e6 { [%eval 0.23] } 2. d4 { [%eval 0.08] } 2... d6
+$6 { [%eval 0.63] } 3. Nf3 { [%eval 0.62] } 3... c6 { [%eval 0.85] } 4. Bd3
+{ [%eval 0.7] } 4... b6 { [%eval 0.97] } 5. c4 { [%eval 0.91] } 5... c5
+{ [%eval 0.95] } 6. d5 { [%eval 1.0] } 6... e5 { [%eval 1.16] } 7. Nc3
+{ [%eval 1.12] } 7... Qe7 { [%eval 1.26] } 8. b4 $6 { [%eval 0.56] } 8... Bd7
+$2 { [%eval 1.58] } 9. bxc5 { [%eval 1.7] } 9... a6 $4 { [%eval 5.35] } 10.
+cxd6 $2 { [%eval 3.11] } 10... Qxd6 { [%eval 3.02] } 11. O-O { [%eval 2.66] }
+11... Qc7 { [%eval 3.02] } 12. Re1 $6 { [%eval 2.27] } 12... Be7 $6
+{ [%eval 2.92] } 13. Bg5 $2 { [%eval 1.89] } 13... Nf6 $6 { [%eval 2.46] } 14.
+Bxf6 $6 { [%eval 1.65] } 14... Bxf6 { [%eval 1.5] } 15. Nd2 { [%eval 1.18] }
+15... O-O { [%eval 1.29] } 16. Rc1 { [%eval 1.0] } 16... Be7 { [%eval 1.17] }
+17. Na4 { [%eval 0.97] } 17... Bc5 $2 { [%eval 2.08] } 18. Nxc5
+{ [%eval 1.88] } 18... bxc5 { [%eval 2.01] } 19. f4 { [%eval 2.03] } 19... exf4
+$2 { [%eval 3.53] } 20. Nf3 $2 { [%eval 1.98] } 20... Qd6 $2 { [%eval 3.14] }
+21. e5 { [%eval 2.79] } 21... Qe7 $6 { [%eval 3.45] } 22. Qd2 { [%eval 3.2] }
+22... Re8 $2 { [%eval 6.1] } 23. Qxf4 { [%eval 5.8] } 23... Bf5 $4
+{ [%eval 10.86] } 24. Bxf5 { [%eval 10.4] } 24... g6 { [%eval 9.62] } 25. Bg4
+{ [%eval 9.42] } 25... Rf8 $6 { [%eval 15.83] } 26. Qe4 $2 { [%eval 8.66] }
+26... Nd7 $2 { [%eval 9.83] } 27. e6 $2 { [%eval 7.29] } 27... fxe6 $2
+{ [%eval 11.53] } 28. Bxe6+ $2 { [%eval 8.95] } 28... Kh8 { [%eval 8.89] } 29.
+Ne5 { [%eval 8.68] } 29... Nf6 { [%eval 8.55] } 30. Nc6 $2 { [%eval 6.24] }
+30... Nxe4 { [%eval 6.16] } 31. Nxe7 { [%eval 5.94] } 31... Nd2 $4
+{ [%eval 10.5] } 32. Nxg6+ $2 { [%eval 7.4] } 32... hxg6 { [%eval 7.37] } 33.
+Re2 { [%eval 7.18] } 33... Nb3 $2 { [%eval 8.39] } 34. Rce1 $4 { [%eval 2.62] }
+34... Rf6 $4 { [%eval 9.3] } 35. d6 $4 { [%eval 2.12] } 35... Nd2 $4
+{ [%eval 10.64] } 36. d7 { [%eval 10.29] } 36... Rd8 { [%eval 10.01] } 37. Bh3
+$2 { [%eval 8.33] } 37... Nf3+ $2 { [%eval 12.53] } 0-1

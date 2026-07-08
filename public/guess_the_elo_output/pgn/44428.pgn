@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9g5CcvcX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "roaburgos"]
+[Black "Vadim_Grossmaster"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:57:00"]
+[WhiteElo "1537"]
+[BlackElo "1448"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.44] } 2... d6
+{ [%eval 0.36] } 3. Nc3 { [%eval 0.29] } 3... Bg4 { [%eval 0.54] } 4. d4
+{ [%eval 0.42] } 4... exd4 { [%eval 0.45] } 5. Qxd4 { [%eval 0.39] } 5... Nc6
+{ [%eval 0.42] } 6. Bb5 { [%eval 0.6] } 6... Bxf3 { [%eval 0.75] } 7. Bxc6+
+{ [%eval 0.73] } 7... bxc6 { [%eval 0.76] } 8. gxf3 { [%eval 0.58] } 8... Be7
+{ [%eval 0.62] } 9. Qxg7 { [%eval 0.63] } 9... Bf6 { [%eval 0.68] } 10. Qg4
+{ [%eval 0.67] } 10... Qe7 $6 { [%eval 1.31] } 11. Rg1 { [%eval 0.99] } 11...
+Bxc3+ { [%eval 1.15] } 12. bxc3 { [%eval 1.02] } 12... Qf6 $6 { [%eval 1.76] }
+13. Rb1 { [%eval 1.48] } 13... Qxc3+ $2 { [%eval 2.62] } 14. Bd2
+{ [%eval 2.49] } 14... Qxc2 { [%eval 2.58] } 15. Rc1 { [%eval 2.74] } 15...
+Qxa2 $4 { [%eval 5.96] } 16. Qg7 { [%eval 5.78] } 16... O-O-O { [%eval 6.0] }
+17. Qxh8 { [%eval 5.79] } 17... Ne7 { [%eval 5.94] } 18. Qa1 { [%eval 5.89] }
+18... Qb3 { [%eval 5.93] } 19. Rc3 { [%eval 5.84] } 19... Qe6 { [%eval 5.69] }
+20. Qxa7 { [%eval 5.79] } 20... Kd7 { [%eval 5.9] } 21. Rg7 { [%eval 5.78] }
+21... Qh3 $4 { [%eval 9.07] } 22. Rxf7 { [%eval 8.58] } 22... Qh5 $2
+{ [%eval #21] } 23. Rxc6 { [%eval 44.89] } 23... Qxf7 $6 { [%eval #13] } 24.
+Rxc7+ { [%eval 60.67] } 24... Ke6 $6 { [%eval #8] } 25. Bg5 { [%eval #10] }
+25... Re8 { [%eval #7] } 26. Qd4 { [%eval #6] } 26... d5 { [%eval #2] } 27.
+Rxe7+ { [%eval #1] } 27... Rxe7 { [%eval #1] } 28. Qxd5# 1-0

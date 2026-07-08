@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/dzQt9EiO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dr_zoydberg"]
+[Black "magnushark"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:10:35"]
+[WhiteElo "1690"]
+[BlackElo "1897"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-17"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.16] } 1... c6 { [%eval 0.36] } 2. d4 { [%eval 0.25] } 2... d6
+{ [%eval 0.71] } 3. c4 { [%eval 0.54] } 3... Nd7 { [%eval 0.8] } 4. Nc3
+{ [%eval 0.66] } 4... g6 { [%eval 0.78] } 5. Be2 { [%eval 0.78] } 5... Bg7
+{ [%eval 0.74] } 6. Be3 { [%eval 0.71] } 6... e5 { [%eval 0.7] } 7. d5
+{ [%eval 0.71] } 7... Ne7 { [%eval 1.04] } 8. dxc6 { [%eval 1.06] } 8... bxc6
+$2 { [%eval 2.13] } 9. Qd2 $2 { [%eval 0.53] } 9... Nc5 { [%eval 0.75] } 10.
+Bxc5 { [%eval 0.75] } 10... dxc5 { [%eval 0.77] } 11. Qxd8+ { [%eval 0.82] }
+11... Kxd8 { [%eval 0.96] } 12. Nf3 { [%eval 0.91] } 12... Kc7 { [%eval 1.04] }
+13. O-O-O { [%eval 0.86] } 13... h6 { [%eval 1.08] } 14. Na4 { [%eval 1.01] }
+14... Be6 { [%eval 1.2] } 15. Nxc5 { [%eval 1.31] } 15... Rab8 $2
+{ [%eval 2.8] } 16. Na6+ { [%eval 2.76] } 16... Kc8 { [%eval 3.12] } 17. Nxb8
+{ [%eval 3.03] } 17... Kxb8 { [%eval 2.9] } 18. b3 { [%eval 2.62] } 18... f5 $6
+{ [%eval 3.55] } 19. Kb2 $2 { [%eval 2.34] } 19... fxe4 { [%eval 2.29] } 20.
+Nd2 { [%eval 2.18] } 20... c5 $2 { [%eval 3.83] } 21. Nxe4 { [%eval 3.67] }
+21... Bf5 { [%eval 4.06] } 22. Nxc5 { [%eval 4.0] } 22... Nc6 { [%eval 4.03] }
+23. Rd7 $2 { [%eval 1.39] } 23... e4+ $4 { [%eval 10.32] } 24. Ka3 $4
+{ [%eval 0.44] } 24... Bf8 $2 { [%eval 2.77] } 25. Rf7 $4 { [%eval -1.94] }
+25... Bxc5+ { [%eval -1.74] } 26. Ka4 { [%eval -1.86] } 26... Nd4 $2
+{ [%eval -0.77] } 27. Rxf5 $2 { [%eval -2.96] } 27... gxf5 { [%eval -2.66] }
+28. Bd3 $4 { [%eval -6.79] } 28... a5 { [%eval -6.24] } 29. Re1 $2
+{ [%eval -8.11] } 29... Kc7 $6 { [%eval -7.22] } 30. Bxe4 $6 { [%eval -7.84] }
+30... fxe4 { [%eval -7.38] } 31. Rxe4 $2 { [%eval -9.02] } 31... Rb8
+{ [%eval -8.12] } 32. Re7+ $2 { [%eval #-5] } 32... Bxe7 { [%eval #-4] } 33. b4
+{ [%eval #-3] } 1-0

@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Y3gpm9Kj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Iraklius"]
+[Black "hoscarua"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:59:16"]
+[WhiteElo "2011"]
+[BlackElo "2084"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.26] } 3. Bc4 { [%eval 0.21] } 3... e6 { [%eval 0.24] } 4. h3
+{ [%eval -0.08] } 4... Nf6 { [%eval 0.0] } 5. O-O $6 { [%eval -0.81] } 5... Be7
+$6 { [%eval 0.0] } 6. d3 { [%eval -0.06] } 6... O-O { [%eval -0.08] } 7. c3
+{ [%eval -0.13] } 7... b6 { [%eval 0.0] } 8. Bb3 { [%eval 0.03] } 8... Bb7
+{ [%eval 0.18] } 9. Bc2 { [%eval -0.04] } 9... Nbd7 { [%eval 0.2] } 10. Be3
+{ [%eval -0.24] } 10... Ne5 $6 { [%eval 0.31] } 11. Re1 { [%eval 0.09] } 11...
+Qc7 { [%eval 0.12] } 12. Nxe5 { [%eval 0.05] } 12... dxe5 { [%eval 0.07] } 13.
+Nd2 { [%eval 0.0] } 13... Rad8 { [%eval 0.14] } 14. Qc1 { [%eval -0.27] } 14...
+Ba6 { [%eval -0.21] } 15. c4 { [%eval -0.6] } 15... Rd7 { [%eval -0.14] } 16.
+Nf3 { [%eval -0.22] } 16... Rfd8 { [%eval 0.17] } 17. a3 $6 { [%eval -0.48] }
+17... b5 $6 { [%eval 0.22] } 18. b3 { [%eval 0.23] } 18... bxc4
+{ [%eval 0.38] } 19. bxc4 { [%eval 0.4] } 19... Bb7 { [%eval 0.48] } 20. Rb1
+{ [%eval 0.37] } 20... Bc6 { [%eval 0.37] } 21. Qb2 { [%eval 0.34] } 21... Rc8
+$2 { [%eval 1.7] } 22. Nxe5 { [%eval 1.66] } 22... Rdd8 { [%eval 1.71] } 23.
+Nxc6 { [%eval 1.66] } 23... Qxc6 { [%eval 1.73] } 24. Qb5 { [%eval 1.54] }
+24... Qc7 { [%eval 1.68] } 25. Qb7 { [%eval 1.51] } 25... Qe5 $6
+{ [%eval 2.06] } 26. f4 { [%eval 1.63] } 26... Qh5 $4 { [%eval 7.02] } 27. Qxe7
+{ [%eval 6.95] } 27... Qh4 $2 { [%eval 8.06] } 28. e5 { [%eval 7.96] } 28...
+Re8 { [%eval 7.97] } 29. Qd6 $2 { [%eval 6.62] } 29... Nh5 { [%eval 6.24] } 30.
+Bxc5 $2 { [%eval 4.84] } 30... Nxf4 { [%eval 4.53] } 31. Qd4 $4
+{ [%eval -0.76] } 31... Qg3 { [%eval -0.7] } 32. Qf2 $2 { [%eval -3.23] } 32...
+Qf3 $4 { [%eval 20.85] } 33. Qxf3 { [%eval 19.64] } 1-0

@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/VA85ET0X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bakminfo"]
+[Black "birshane"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:58:38"]
+[WhiteElo "1365"]
+[BlackElo "1354"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-115"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.39] } 2. Bc4 { [%eval 0.04] } 2... h6
+$6 { [%eval 0.62] } 3. d4 { [%eval 0.59] } 3... Nc6 { [%eval 0.78] } 4. d5
+{ [%eval 0.47] } 4... Nce7 { [%eval 0.49] } 5. Nf3 { [%eval 0.33] } 5... d6
+{ [%eval 0.49] } 6. O-O { [%eval 0.37] } 6... Nf6 { [%eval 0.51] } 7. Nbd2
+{ [%eval 0.06] } 7... c6 { [%eval -0.03] } 8. dxc6 { [%eval -0.11] } 8... Nxc6
+{ [%eval 0.25] } 9. h3 { [%eval 0.16] } 9... Be7 { [%eval 0.28] } 10. a3
+{ [%eval 0.13] } 10... a6 { [%eval 0.04] } 11. b4 { [%eval 0.08] } 11... b5
+{ [%eval 0.2] } 12. Be2 { [%eval -0.22] } 12... Be6 { [%eval -0.16] } 13. c3
+{ [%eval -0.31] } 13... Qd7 { [%eval -0.21] } 14. Nh2 { [%eval -0.62] } 14...
+Bxh3 $2 { [%eval 1.52] } 15. gxh3 { [%eval 1.1] } 15... Qxh3 { [%eval 1.43] }
+16. Kh1 $6 { [%eval 0.49] } 16... g5 $2 { [%eval 1.88] } 17. Bg4 $2
+{ [%eval -0.11] } 17... Qh4 $4 { [%eval 7.56] } 18. Rg1 $4 { [%eval 0.96] }
+18... h5 { [%eval 1.36] } 19. Bf5 { [%eval 1.3] } 19... Qxf2 { [%eval 1.37] }
+20. Ndf3 $6 { [%eval 0.85] } 20... g4 { [%eval 0.56] } 21. Rg2 { [%eval 0.56] }
+21... Qxf3 $4 { [%eval 8.33] } 22. Nxf3 { [%eval 8.14] } 22... gxf3
+{ [%eval 8.11] } 23. Qxf3 { [%eval 7.81] } 23... Ng4 $6 { [%eval 8.69] } 24.
+Rxg4 $4 { [%eval -8.16] } 1-0

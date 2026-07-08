@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CkJ7FZQe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nasil1"]
+[Black "pufnicava"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:20:53"]
+[WhiteElo "1389"]
+[BlackElo "1431"]
+[WhiteRatingDiff "+34"]
+[BlackRatingDiff "-11"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... g6 { [%eval 0.57] } 2. d4 { [%eval 0.52] } 2... Bg7
+{ [%eval 0.61] } 3. Nf3 { [%eval 0.59] } 3... d6 { [%eval 0.7] } 4. Bc4
+{ [%eval 0.44] } 4... Nf6 { [%eval 0.39] } 5. e5 { [%eval -0.02] } 5... Ng4 $2
+{ [%eval 1.25] } 6. exd6 $6 { [%eval 0.34] } 6... cxd6 { [%eval 0.41] } 7. Ng5
+{ [%eval 0.06] } 7... e6 $4 { [%eval 3.06] } 8. Qxg4 { [%eval 2.84] } 8... O-O
+{ [%eval 2.99] } 9. Qh4 $6 { [%eval 2.23] } 9... h5 $4 { [%eval 5.37] } 10. Qf4
+$2 { [%eval 2.98] } 10... e5 $2 { [%eval 4.89] } 11. dxe5 $2 { [%eval 3.69] }
+11... Bxe5 $6 { [%eval 4.5] } 12. Nxf7 $6 { [%eval 3.64] } 12... Rxf7 $4
+{ [%eval 27.26] } 13. Qxf7+ { [%eval 26.57] } 13... Kh8 { [%eval 23.19] } 14.
+Bh6 $6 { [%eval 9.34] } 14... Nd7 $2 { [%eval #6] } 15. f4 $6 { [%eval 19.41] }
+15... Bd4 $6 { [%eval #18] } 16. c3 { [%eval #17] } 16... Bf6 { [%eval #17] }
+17. Qxg6 { [%eval #18] } 17... Qe7+ { [%eval 25.87] } 18. Kd1 { [%eval 18.12] }
+18... Qd8 $6 { [%eval #3] } 19. Bg5 $6 { [%eval #8] } 19... b6 { [%eval #1] }
+20. Bxf6+ $6 { [%eval 10.29] } 20... Nxf6 { [%eval 10.31] } 21. Re1
+{ [%eval 10.16] } 21... Bg4+ { [%eval 10.85] } 22. Kc2 { [%eval 10.59] } 22...
+Qf8 { [%eval 10.81] } 23. h3 { [%eval 10.32] } 23... Bxh3 { [%eval 15.5] } 24.
+gxh3 { [%eval 14.9] } 24... Rd8 { [%eval 20.54] } 25. Re6 { [%eval 18.5] }
+25... Rd7 $6 { [%eval #4] } 26. Rxf6 { [%eval #3] } 26... Rg7 { [%eval #2] }
+27. Rxf8+ { [%eval #1] } 27... Rg8 { [%eval #1] } 28. Qxg8# 1-0

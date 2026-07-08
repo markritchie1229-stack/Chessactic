@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xmopDrTC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pschwarz"]
+[Black "Diego94"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:48:33"]
+[WhiteElo "1255"]
+[BlackElo "1445"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+8"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "2100+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... Nc6 { [%eval 0.33] } 2. d3 { [%eval -0.06] } 2...
+Nf6 { [%eval 0.29] } 3. Nf3 { [%eval -0.15] } 3... e5 { [%eval -0.08] } 4. Bg5
+{ [%eval -0.2] } 4... h6 { [%eval -0.13] } 5. Be3 { [%eval -0.62] } 5... d5
+{ [%eval -0.5] } 6. d4 $6 { [%eval -1.04] } 6... exd4 { [%eval -1.27] } 7. Bxd4
+$4 { [%eval -4.75] } 7... dxe4 { [%eval -4.57] } 8. Nfd2 $2 { [%eval -6.15] }
+8... Qxd4 { [%eval -6.07] } 9. c3 { [%eval -6.26] } 9... Qd5 { [%eval -6.3] }
+10. Bc4 $2 { [%eval -7.91] } 10... Qg5 { [%eval -7.72] } 11. O-O $2
+{ [%eval -9.62] } 11... Bh3 { [%eval -9.18] } 12. g3 { [%eval -8.97] } 12...
+Bxf1 $2 { [%eval -7.23] } 13. Nxf1 { [%eval -7.72] } 13... Ne5
+{ [%eval -7.46] } 14. Qa4+ $2 { [%eval -9.19] } 14... c6 { [%eval -9.04] } 15.
+Nbd2 { [%eval -8.55] } 15... b5 $6 { [%eval -7.96] } 16. Qb3 $2
+{ [%eval -11.2] } 16... bxc4 { [%eval -10.63] } 17. Nxc4 { [%eval -12.5] }
+17... Nf3+ { [%eval -12.06] } 18. Kg2 { [%eval -12.45] } 18... Bc5
+{ [%eval -11.92] } 19. Qc2 { [%eval -12.43] } 19... Rd8 { [%eval -12.06] } 20.
+Re1 $6 { [%eval #-9] } 20... Nxe1+ { [%eval #-8] } 0-1

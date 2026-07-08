@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/VkSEquoz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bero-dj"]
+[Black "Tinus31"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:25:26"]
+[WhiteElo "1401"]
+[BlackElo "1337"]
+[WhiteRatingDiff "-42"]
+[BlackRatingDiff "+19"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "480+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... e5 { [%eval 0.36] } 2. Nc3 { [%eval 0.08] } 2... d6
+{ [%eval 0.33] } 3. Bc4 { [%eval 0.2] } 3... Nf6 { [%eval 0.13] } 4. Nge2
+{ [%eval -0.14] } 4... a6 { [%eval 0.22] } 5. d4 { [%eval 0.21] } 5... Nc6
+{ [%eval 0.31] } 6. Be3 { [%eval 0.03] } 6... Bg4 $6 { [%eval 0.54] } 7. f3
+{ [%eval 0.5] } 7... Bd7 { [%eval 0.6] } 8. a3 { [%eval 0.6] } 8... Be7
+{ [%eval 0.68] } 9. Qd3 $6 { [%eval 0.0] } 9... O-O $6 { [%eval 0.67] } 10.
+O-O-O $6 { [%eval -0.04] } 10... h6 $6 { [%eval 0.59] } 11. g4 { [%eval 0.43] }
+11... a5 $2 { [%eval 1.51] } 12. h4 { [%eval 1.65] } 12... b6 $6
+{ [%eval 2.2] } 13. g5 { [%eval 1.98] } 13... hxg5 $4 { [%eval 5.81] } 14. hxg5
+{ [%eval 5.54] } 14... Nh7 $6 { [%eval 6.46] } 15. d5 $4 { [%eval 2.32] } 15...
+Nb8 $2 { [%eval 3.99] } 16. Rdg1 { [%eval 3.7] } 16... Bxg5 $2 { [%eval 5.88] }
+17. Bxg5 { [%eval 5.57] } 17... Nxg5 { [%eval 5.47] } 18. f4 { [%eval 4.74] }
+18... exf4 $6 { [%eval 5.28] } 19. Nxf4 { [%eval 5.41] } 19... c6 $4
+{ [%eval 14.92] } 20. e5 { [%eval 12.14] } 20... dxe5 $6 { [%eval #6] } 21.
+Rxg5 { [%eval #5] } 21... g6 { [%eval #2] } 22. Ne4 $6 { [%eval 16.5] } 22...
+exf4 $6 { [%eval #6] } 23. Nf6+ $4 { [%eval -3.16] } 23... Qxf6
+{ [%eval -2.87] } 24. Rgh5 $4 { [%eval -10.64] } 24... gxh5 { [%eval -10.53] }
+25. Rxh5 { [%eval -10.42] } 25... Qg6 { [%eval -10.27] } 26. Qh3
+{ [%eval -30.41] } 26... Bxh3 { [%eval -28.95] } 0-1

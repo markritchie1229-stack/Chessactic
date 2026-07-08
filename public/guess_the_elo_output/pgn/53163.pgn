@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/2DneIQ10"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DarkCronos"]
+[Black "Sokrates29"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:40:34"]
+[WhiteElo "1142"]
+[BlackElo "1267"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "A00"]
+[Opening "Polish Opening: Schiffler-Sokolsky Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.62] } 1... d5 { [%eval -0.27] } 2. Bb2 { [%eval -0.46] }
+2... Nf6 { [%eval -0.31] } 3. b5 { [%eval -0.39] } 3... e6 { [%eval -0.34] } 4.
+e3 { [%eval -0.35] } 4... c6 { [%eval -0.16] } 5. a4 { [%eval -0.21] } 5...
+cxb5 { [%eval 0.2] } 6. axb5 { [%eval 0.04] } 6... Bb4 { [%eval 0.2] } 7. b6 $6
+{ [%eval -0.65] } 7... Qxb6 { [%eval -0.56] } 8. Ba3 { [%eval -1.02] } 8... Qa5
+{ [%eval -0.78] } 9. c3 { [%eval -0.66] } 9... Bxa3 { [%eval -0.62] } 10. Rxa3
+{ [%eval -1.1] } 10... Qc5 { [%eval -0.87] } 11. Rb3 { [%eval -1.08] } 11...
+O-O { [%eval -1.04] } 12. Rb5 { [%eval -1.39] } 12... Qc6 { [%eval -1.31] } 13.
+Bd3 { [%eval -1.52] } 13... a6 { [%eval -1.49] } 14. Rb4 { [%eval -1.6] } 14...
+a5 { [%eval -1.27] } 15. Rb5 $6 { [%eval -1.77] } 15... Nbd7 { [%eval -1.28] }
+16. Qc2 $6 { [%eval -2.12] } 16... Ne5 { [%eval -2.14] } 17. Bxh7+ $4
+{ [%eval -6.97] } 17... Nxh7 { [%eval -6.86] } 18. Rb3 $6 { [%eval -7.36] }
+18... Nc4 $2 { [%eval -5.16] } 19. Nh3 $4 { [%eval -8.41] } 19... a4
+{ [%eval -7.9] } 20. Ra3 { [%eval -8.39] } 20... Nxa3 { [%eval -8.02] } 21.
+Nxa3 { [%eval -8.0] } 21... d4 { [%eval -7.63] } 22. exd4 $2 { [%eval -12.12] }
+22... Qxg2 { [%eval -11.91] } 23. Rg1 { [%eval -12.0] } 23... Qxh3
+{ [%eval -11.82] } 24. Qe4 { [%eval -11.9] } 24... Qxh2 { [%eval -11.69] } 25.
+Qg4 { [%eval -11.95] } 25... g6 { [%eval -11.71] } 26. Nb5 { [%eval -16.7] }
+26... e5 { [%eval -13.42] } 27. Nd6 { [%eval -39.46] } 27... Bxg4
+{ [%eval -36.69] } 28. Ne4 $6 { [%eval #-1] } 28... Qxg1# 0-1

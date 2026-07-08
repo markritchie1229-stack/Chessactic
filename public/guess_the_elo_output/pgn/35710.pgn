@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/s7YhHVvr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DINOSQ"]
+[Black "Recife-Chess-Player"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:54:10"]
+[WhiteElo "1659"]
+[BlackElo "1702"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A40"]
+[Opening "Queen's Pawn"]
+[TimeControl "0+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.11] } 1... c6 { [%eval 0.43] } 2. e3 { [%eval 0.2] } 2... d6
+{ [%eval 0.59] } 3. f4 $6 { [%eval 0.06] } 3... g6 { [%eval 0.46] } 4. g4 $2
+{ [%eval -0.87] } 4... Bg7 { [%eval -0.56] } 5. g5 { [%eval -0.56] } 5... a6 $6
+{ [%eval 0.09] } 6. h4 { [%eval 0.05] } 6... e5 { [%eval 0.36] } 7. dxe5
+{ [%eval 0.31] } 7... dxe5 { [%eval 0.25] } 8. Bg2 $2 { [%eval -0.87] } 8...
+Qxd1+ { [%eval -0.9] } 9. Kxd1 { [%eval -0.97] } 9... exf4 { [%eval -0.74] }
+10. e4 { [%eval -1.0] } 10... Ne7 { [%eval -0.66] } 11. Nf3 $6
+{ [%eval -1.55] } 11... Bg4 { [%eval -1.62] } 12. Ke2 { [%eval -2.1] } 12...
+Nd7 { [%eval -1.87] } 13. Bh3 { [%eval -1.85] } 13... Bxf3+ $2
+{ [%eval -0.83] } 14. Kxf3 { [%eval -0.83] } 14... Be5 $6 { [%eval 0.12] } 15.
+Bxf4 $2 { [%eval -0.89] } 15... Bxf4 $2 { [%eval 0.17] } 16. Kxf4
+{ [%eval 0.18] } 16... O-O $4 { [%eval 4.01] } 17. e5 $4 { [%eval -1.08] }
+17... Nc5 $2 { [%eval 0.09] } 18. Nc3 { [%eval 0.13] } 18... Nd5+
+{ [%eval 0.5] } 19. Kg4 $2 { [%eval -1.06] } 19... Nxc3 { [%eval -0.85] } 20.
+bxc3 { [%eval -1.01] } 20... Ne6 $6 { [%eval -0.25] } 21. Rhe1
+{ [%eval -0.29] } 21... b5 $6 { [%eval 0.32] } 22. Rad1 { [%eval 0.19] } 22...
+Rad8 $6 { [%eval 0.71] } 23. Rxd8 $6 { [%eval -0.11] } 23... Rxd8
+{ [%eval -0.13] } 24. Kf3 { [%eval -0.19] } 24... Rd2 { [%eval -0.04] } 25.
+Bxe6 { [%eval -0.12] } 25... fxe6 { [%eval -0.14] } 0-1

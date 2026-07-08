@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tskIiKf1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rojekst"]
+[Black "ypkoval"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:49:40"]
+[WhiteElo "2129"]
+[BlackElo "1979"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+15"]
+[ECO "B98"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.34] } 2. Nf3 { [%eval 0.19] } 2... d6
+{ [%eval 0.19] } 3. d4 { [%eval 0.19] } 3... cxd4 { [%eval 0.19] } 4. Nxd4
+{ [%eval 0.18] } 4... a6 { [%eval 0.29] } 5. Nc3 { [%eval 0.15] } 5... Nf6
+{ [%eval 0.26] } 6. Bg5 { [%eval 0.09] } 6... e6 { [%eval 0.27] } 7. f4
+{ [%eval 0.12] } 7... Be7 { [%eval 0.24] } 8. Qf3 { [%eval 0.31] } 8... O-O
+{ [%eval 0.58] } 9. O-O-O { [%eval 0.51] } 9... b5 $2 { [%eval 2.08] } 10. g4
+$2 { [%eval -0.14] } 10... b4 { [%eval -0.17] } 11. Nce2 { [%eval -0.14] }
+11... e5 $6 { [%eval 0.7] } 12. Nf5 { [%eval 0.66] } 12... Bxf5
+{ [%eval 0.88] } 13. gxf5 $2 { [%eval -0.36] } 13... Qa5 $6 { [%eval 0.28] }
+14. Kb1 { [%eval 0.43] } 14... Nc6 { [%eval 0.76] } 15. Bxf6 $6
+{ [%eval -0.16] } 15... Bxf6 { [%eval -0.17] } 16. Rd5 { [%eval -0.26] } 16...
+Qc7 { [%eval -0.16] } 17. Nc1 $2 { [%eval -1.85] } 17... Nd4 $2
+{ [%eval -0.72] } 18. Qd3 $6 { [%eval -1.25] } 18... Rfc8 { [%eval -1.18] } 19.
+c4 $4 { [%eval -5.09] } 19... bxc3 { [%eval -4.9] } 20. bxc3 $4
+{ [%eval -10.78] } 20... Qb6+ { [%eval -5.26] } 21. Ka1 $4 { [%eval -19.44] }
+21... Rab8 { [%eval -17.85] } 22. Nb3 { [%eval -24.5] } 22... Nxb3+
+{ [%eval -22.09] } 23. axb3 $6 { [%eval #-5] } 23... Qxb3 { [%eval #-4] } 24.
+Qd2 { [%eval #-1] } 24... Qa3+ $6 { [%eval #-2] } 0-1

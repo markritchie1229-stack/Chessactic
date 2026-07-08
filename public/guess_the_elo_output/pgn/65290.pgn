@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/aGf2maDi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "post_mortem_massacre"]
+[Black "Mauriciano"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:50:27"]
+[WhiteElo "1522"]
+[BlackElo "1077"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-2"]
+[ECO "C40"]
+[Opening "King's Knight Opening"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.47] } 2...
+Bb4 { [%eval 0.95] } 3. Bc4 { [%eval 0.84] } 3... Qf6 $6 { [%eval 1.4] } 4. O-O
+{ [%eval 1.16] } 4... c6 $2 { [%eval 2.87] } 5. a3 $2 { [%eval 1.72] } 5... Bc5
+$6 { [%eval 2.33] } 6. d3 $2 { [%eval 0.94] } 6... Ne7 $6 { [%eval 1.7] } 7.
+Bg5 { [%eval 1.73] } 7... Qg6 $2 { [%eval 3.27] } 8. Qd2 $2 { [%eval 0.89] }
+8... d5 $6 { [%eval 1.44] } 9. Nxe5 $6 { [%eval 0.84] } 9... Qh5 $2
+{ [%eval 2.09] } 10. exd5 { [%eval 2.01] } 10... cxd5 $2 { [%eval 3.06] } 11.
+Bb3 $4 { [%eval -0.21] } 11... Bd6 $2 { [%eval 1.33] } 12. Nf3 { [%eval 1.1] }
+12... h6 $6 { [%eval 1.84] } 13. Bxe7 { [%eval 1.87] } 13... Kxe7 $6
+{ [%eval 2.61] } 14. Re1+ { [%eval 2.58] } 14... Kd7 $2 { [%eval 5.1] } 15. Nc3
+{ [%eval 4.64] } 15... b6 $4 { [%eval 9.29] } 16. Bxd5 $2 { [%eval 7.1] } 16...
+Nc6 { [%eval 7.87] } 17. Bb3 $4 { [%eval 4.38] } 17... Bb7 { [%eval 4.25] } 18.
+Ne4 { [%eval 3.91] } 18... Nd4 $2 { [%eval 5.57] } 19. Nxd6 $2 { [%eval 2.68] }
+19... Kxd6 $4 { [%eval 19.95] } 20. Qf4+ { [%eval 19.35] } 20... Kd7
+{ [%eval 18.68] } 21. Qxd4+ { [%eval 14.84] } 21... Kc7 $6 { [%eval #3] } 22.
+Re7+ { [%eval #2] } 22... Kc6 { [%eval #2] } 23. Ne5+ $6 { [%eval #2] } 23...
+Kb5 { [%eval #2] } 24. Ba4+ $6 { [%eval #2] } 24... Ka5 { [%eval #2] } 25. Qb4+
+{ [%eval #1] } 25... Ka6 { [%eval #1] } 26. Qb5# 1-0

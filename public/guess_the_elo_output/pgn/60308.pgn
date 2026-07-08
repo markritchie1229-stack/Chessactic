@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/lFHta8Sj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kedasien"]
+[Black "MateIn7even"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:32:29"]
+[WhiteElo "1344"]
+[BlackElo "1382"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C58"]
+[Opening "Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.39] } 2. Nf3 { [%eval 0.33] } 2...
+Nc6 { [%eval 0.37] } 3. Bc4 { [%eval 0.17] } 3... Nf6 { [%eval 0.34] } 4. Ng5
+{ [%eval 0.17] } 4... d5 { [%eval 0.2] } 5. exd5 { [%eval 0.17] } 5... Na5
+{ [%eval 0.31] } 6. Bb5+ { [%eval 0.31] } 6... c6 { [%eval 0.18] } 7. dxc6
+{ [%eval 0.36] } 7... bxc6 { [%eval 0.04] } 8. Ba4 $6 { [%eval -0.84] } 8...
+Nd7 $2 { [%eval 0.86] } 9. d3 { [%eval 0.83] } 9... Bc5 $6 { [%eval 1.47] } 10.
+Qf3 $6 { [%eval 0.86] } 10... Nf6 $4 { [%eval 4.59] } 11. O-O $4
+{ [%eval 1.29] } 11... h6 $2 { [%eval 3.37] } 12. Ne4 $2 { [%eval 2.05] } 12...
+Nxe4 $2 { [%eval 3.1] } 13. dxe4 $2 { [%eval 1.45] } 13... O-O { [%eval 1.57] }
+14. Be3 $6 { [%eval 0.73] } 14... Qb6 { [%eval 1.06] } 15. c3 $2
+{ [%eval -0.19] } 15... Bxe3 { [%eval -0.22] } 16. Qxe3 { [%eval -0.19] } 16...
+Qxb2 { [%eval -0.07] } 17. Nd2 { [%eval -0.17] } 17... Ba6 { [%eval -0.17] }
+18. Rfb1 { [%eval 0.0] } 18... Qa3 { [%eval 0.0] } 19. Bb3 { [%eval -0.2] }
+19... Nxb3 $4 { [%eval 4.99] } 20. Rxb3 $4 { [%eval -0.21] } 20... Qe7
+{ [%eval -0.24] } 21. h3 { [%eval -0.24] } 21... Rab8 { [%eval 0.0] } 22. Rxb8
+{ [%eval -0.18] } 22... Rxb8 { [%eval -0.11] } 23. Nf3 { [%eval -0.56] } 23...
+Rb2 { [%eval -0.94] } 24. Qxa7 $4 { [%eval #-12] } 24... Bd3 $4
+{ [%eval 17.57] } 25. Qxe7 { [%eval 16.68] } 1-0

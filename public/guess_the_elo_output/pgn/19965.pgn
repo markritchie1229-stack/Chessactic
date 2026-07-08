@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mfHkOJlY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tobu1997"]
+[Black "Joyousconga"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:16:45"]
+[WhiteElo "2012"]
+[BlackElo "1881"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+16"]
+[ECO "A10"]
+[Opening "English Opening: Great Snake Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.04] } 1... g6 { [%eval 0.5] } 2. Nc3 { [%eval 0.14] } 2... Bg7
+{ [%eval 0.45] } 3. g3 { [%eval 0.05] } 3... Nf6 { [%eval 0.23] } 4. Bg2
+{ [%eval 0.06] } 4... d6 { [%eval 0.33] } 5. e4 { [%eval 0.04] } 5... e5
+{ [%eval 0.21] } 6. Nge2 { [%eval 0.2] } 6... O-O { [%eval 0.15] } 7. O-O
+{ [%eval 0.12] } 7... Nbd7 { [%eval 0.45] } 8. d3 { [%eval 0.42] } 8... h6
+{ [%eval 0.64] } 9. h3 { [%eval 0.67] } 9... a6 { [%eval 0.64] } 10. f4
+{ [%eval 0.45] } 10... Re8 { [%eval 0.68] } 11. f5 { [%eval 0.7] } 11... g5
+{ [%eval 0.75] } 12. g4 { [%eval 0.46] } 12... c6 { [%eval 0.61] } 13. Ng3
+{ [%eval 0.33] } 13... Rb8 { [%eval 0.39] } 14. Be3 { [%eval 0.37] } 14... b6
+{ [%eval 0.82] } 15. Qd2 { [%eval 0.43] } 15... Bb7 { [%eval 0.85] } 16. Nge2
+$6 { [%eval 0.16] } 16... d5 { [%eval 0.12] } 17. exd5 { [%eval 0.17] } 17...
+cxd5 { [%eval 0.59] } 18. Nxd5 $6 { [%eval 0.06] } 18... Nxd5 { [%eval 0.28] }
+19. Bxd5 { [%eval 0.0] } 19... Bxd5 { [%eval 0.0] } 20. cxd5 { [%eval -0.26] }
+20... Nf6 { [%eval -0.09] } 21. h4 $6 { [%eval -0.97] } 21... Nxg4
+{ [%eval -1.04] } 22. hxg5 { [%eval -0.77] } 22... Nxe3 $6 { [%eval 0.0] } 23.
+Qxe3 { [%eval 0.14] } 23... Qxd5 $6 { [%eval 0.97] } 24. f6 $6 { [%eval 0.0] }
+24... Bf8 { [%eval 0.13] } 25. gxh6 $6 { [%eval -0.56] } 25... e4 $6
+{ [%eval 0.0] } 26. dxe4 $2 { [%eval -2.4] } 26... Qh5 $2 { [%eval 0.17] } 27.
+Rf3 $4 { [%eval -4.75] } 27... Bc5 { [%eval -4.65] } 28. Rg3+ { [%eval -4.72] }
+28... Kh8 { [%eval -4.45] } 29. Qxc5 $4 { [%eval -13.91] } 29... Qxc5+
+{ [%eval -11.12] } 0-1

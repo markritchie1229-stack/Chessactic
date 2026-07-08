@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/wkW5HpYR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ANGIBAULT"]
+[Black "cheeserob"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:34:00"]
+[WhiteElo "1514"]
+[BlackElo "1597"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Nimzowitsch System"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.07] } 1... e6 { [%eval 0.19] } 2. Nf3 { [%eval 0.08] } 2... d5
+{ [%eval 0.08] } 3. e5 { [%eval 0.11] } 3... c5 { [%eval -0.02] } 4. d4
+{ [%eval -0.37] } 4... cxd4 { [%eval -0.26] } 5. Nxd4 { [%eval -0.33] } 5...
+Nc6 { [%eval 0.0] } 6. Nxc6 { [%eval -0.1] } 6... bxc6 { [%eval 0.04] } 7. c4
+$6 { [%eval -0.58] } 7... Ne7 { [%eval -0.48] } 8. cxd5 { [%eval -0.52] } 8...
+cxd5 { [%eval -0.35] } 9. Bb5+ { [%eval -0.44] } 9... Bd7 { [%eval -0.47] } 10.
+Bxd7+ { [%eval -0.47] } 10... Qxd7 { [%eval -0.46] } 11. O-O { [%eval -0.51] }
+11... Ng6 { [%eval -0.48] } 12. Re1 { [%eval -0.51] } 12... Qc7
+{ [%eval -0.24] } 13. Qd4 $6 { [%eval -0.79] } 13... Qc2 $6 { [%eval 0.13] }
+14. Na3 $6 { [%eval -0.54] } 14... Bxa3 { [%eval -0.57] } 15. bxa3
+{ [%eval -0.58] } 15... O-O { [%eval -0.52] } 16. Qd2 $6 { [%eval -1.27] }
+16... Qxd2 $6 { [%eval -0.72] } 17. Bxd2 { [%eval -0.83] } 17... Rab8
+{ [%eval -0.55] } 18. Bb4 { [%eval -0.58] } 18... Rfc8 { [%eval -0.56] } 19.
+Bd6 { [%eval -0.47] } 19... Rb2 { [%eval -0.36] } 20. g3 { [%eval -0.55] }
+20... Rcc2 { [%eval -0.57] } 21. Rab1 $2 { [%eval -1.67] } 21... Rxf2
+{ [%eval -1.45] } 22. Bc5 $2 { [%eval -2.68] } 22... Rg2+ { [%eval -2.32] } 23.
+Kf1 { [%eval -2.58] } 23... Rxh2 { [%eval -2.61] } 24. Bg1 { [%eval -2.52] }
+24... Rhc2 { [%eval -2.44] } 25. Rec1 $2 { [%eval -3.91] } 25... h6
+{ [%eval -3.89] } 26. Rxc2 { [%eval -3.89] } 26... Rxc2 { [%eval -3.53] } 27.
+Bxa7 { [%eval -3.87] } 27... Rxa2 { [%eval -3.56] } 28. Rb3 $6
+{ [%eval -4.55] } 28... Nxe5 { [%eval -4.49] } 29. Rb8+ { [%eval -4.83] } 29...
+Kh7 { [%eval -4.57] } 30. Bd4 $2 { [%eval -7.18] } 30... Nc6 { [%eval -7.06] }
+31. Rb2 $2 { [%eval -9.92] } 31... Ra1+ { [%eval -9.77] } 32. Kg2
+{ [%eval -9.68] } 32... Nxd4 { [%eval -9.39] } 0-1

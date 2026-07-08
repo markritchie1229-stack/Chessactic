@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/n9fcGq26"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hugoonline"]
+[Black "vladnel"]
+[Result "1/2-1/2"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:19:49"]
+[WhiteElo "1434"]
+[BlackElo "1362"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+3"]
+[ECO "C53"]
+[Opening "Italian Game: Classical Variation, Giuoco Pianissimo"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.5] } 2. Nf3 { [%eval 0.34] } 2... Nc6
+{ [%eval 0.32] } 3. Bc4 { [%eval 0.14] } 3... Bc5 { [%eval 0.21] } 4. c3
+{ [%eval 0.27] } 4... Nf6 { [%eval 0.31] } 5. d3 { [%eval 0.29] } 5... O-O
+{ [%eval 0.27] } 6. O-O { [%eval 0.2] } 6... d6 { [%eval 0.3] } 7. Qe2
+{ [%eval 0.0] } 7... Bg4 { [%eval 0.2] } 8. Be3 { [%eval -0.1] } 8... Bxe3
+{ [%eval -0.1] } 9. Qxe3 { [%eval 0.0] } 9... a6 { [%eval 0.1] } 10. h3
+{ [%eval -0.14] } 10... Bd7 { [%eval 0.07] } 11. Nbd2 { [%eval 0.0] } 11... Ne7
+{ [%eval 0.13] } 12. Qg5 { [%eval -0.21] } 12... Ng6 { [%eval -0.15] } 13. Nh4
+$2 { [%eval -1.58] } 13... Nxh4 $2 { [%eval -0.12] } 14. Qxh4 { [%eval -0.05] }
+14... b5 { [%eval 0.0] } 15. Bb3 { [%eval -0.14] } 15... c5 { [%eval -0.06] }
+16. Nf3 { [%eval -0.37] } 16... c4 $6 { [%eval 0.48] } 17. Bc2 $6
+{ [%eval -0.39] } 17... Qc7 { [%eval -0.25] } 18. g4 { [%eval -0.66] } 18...
+Qd8 $6 { [%eval 0.16] } 19. g5 $6 { [%eval -0.71] } 19... Ne8 { [%eval -0.59] }
+20. Kh2 { [%eval -1.04] } 20... g6 $6 { [%eval -0.37] } 21. Rg1
+{ [%eval -0.77] } 21... Ng7 { [%eval -0.69] } 22. Qh6 { [%eval -1.18] } 22...
+Nh5 { [%eval -1.19] } 23. Bd1 $6 { [%eval -2.06] } 23... Nf4 { [%eval -1.97] }
+24. d4 { [%eval -2.4] } 24... exd4 $2 { [%eval -0.97] } 25. Nxd4
+{ [%eval -0.78] } 25... Qe7 { [%eval -0.94] } 26. f3 $2 { [%eval -2.31] } 26...
+Rae8 $6 { [%eval -1.81] } 27. Re1 $2 { [%eval -3.35] } 27... Nxh3
+{ [%eval -3.0] } 28. Rf1 $6 { [%eval -3.95] } 28... Qe5+ { [%eval -3.96] } 29.
+Kg2 $6 { [%eval -4.86] } 29... Nf4+ $6 { [%eval -4.28] } 30. Kg1
+{ [%eval -4.04] } 30... Nh3+ { [%eval -3.95] } 31. Kg2 $2 { [%eval -5.0] }
+31... Nf4+ $6 { [%eval -4.13] } 32. Kg1 { [%eval -4.39] } 32... Nh3+ $4
+{ [%eval 0.0] } 33. Kg2 { [%eval -4.62] } 1/2-1/2

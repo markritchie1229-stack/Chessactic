@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/FcBHVBFC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marciodr01"]
+[Black "theawsomekid427"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:49:38"]
+[WhiteElo "984"]
+[BlackElo "1259"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+35"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.1] } 1... e6 { [%eval 0.16] } 2. d4 { [%eval 0.07] } 2... Nc6
+{ [%eval 0.43] } 3. Bb5 { [%eval 0.29] } 3... a6 { [%eval 0.33] } 4. Bf1
+{ [%eval 0.0] } 4... Nf6 { [%eval -0.07] } 5. c4 { [%eval 0.0] } 5... Bb4+
+{ [%eval 0.13] } 6. Ke2 $2 { [%eval -1.06] } 6... O-O { [%eval -0.68] } 7. a3
+{ [%eval -0.9] } 7... Bd6 { [%eval -0.59] } 8. b4 { [%eval -0.86] } 8... e5
+{ [%eval -0.43] } 9. d5 { [%eval -0.66] } 9... Ne7 $6 { [%eval 0.19] } 10. Nc3
+$2 { [%eval -1.56] } 10... Nf5 $2 { [%eval -0.44] } 11. Ke1 { [%eval -0.69] }
+11... Ng4 $4 { [%eval 3.36] } 12. f4 $4 { [%eval -4.69] } 12... Qh4+ $4
+{ [%eval -0.67] } 13. g3 { [%eval -0.86] } 13... Qh5 $2 { [%eval 0.95] } 14.
+fxe5 $4 { [%eval -5.5] } 14... Bxe5 { [%eval -4.37] } 15. Nf3 $4
+{ [%eval -12.54] } 15... Bxc3+ { [%eval -12.26] } 16. Bd2 { [%eval -12.17] }
+16... Bxa1 { [%eval -11.07] } 17. Qxa1 { [%eval -10.95] } 17... Re8
+{ [%eval -10.75] } 18. h4 { [%eval -14.09] } 18... Nfxe3 { [%eval -13.82] } 19.
+Bxe3 { [%eval -13.41] } 19... Nxe3 { [%eval -11.77] } 20. Ng5
+{ [%eval -22.35] } 20... Nc2+ { [%eval -21.58] } 0-1

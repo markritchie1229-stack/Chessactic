@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IjG1x5oE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kwerulant"]
+[Black "occhio"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:49:00"]
+[WhiteElo "1699"]
+[BlackElo "1439"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-4"]
+[ECO "B07"]
+[Opening "King's Pawn Game: Maroczy Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.37] } 2. d4 $6 { [%eval -0.17] } 2...
+d6 $6 { [%eval 0.52] } 3. dxe5 { [%eval 0.52] } 3... dxe5 { [%eval 0.61] } 4.
+Qxd8+ { [%eval 0.55] } 4... Kxd8 { [%eval 0.65] } 5. f4 { [%eval 0.29] } 5...
+exf4 { [%eval 0.69] } 6. Bxf4 { [%eval 0.54] } 6... Bd6 { [%eval 0.84] } 7.
+Bxd6 $6 { [%eval 0.34] } 7... cxd6 { [%eval 0.52] } 8. Nc3 { [%eval 0.52] }
+8... Nf6 { [%eval 0.46] } 9. Nf3 { [%eval 0.37] } 9... Bg4 { [%eval 0.46] } 10.
+Be2 { [%eval 0.35] } 10... Bxf3 $6 { [%eval 1.04] } 11. Bxf3 $6
+{ [%eval 0.25] } 11... Nc6 { [%eval 0.31] } 12. O-O-O { [%eval 0.14] } 12...
+Ke7 { [%eval 0.22] } 13. Rhe1 { [%eval 0.16] } 13... Rad8 { [%eval 0.28] } 14.
+Nd5+ { [%eval 0.0] } 14... Nxd5 { [%eval 0.19] } 15. exd5+ { [%eval -0.05] }
+15... Kd7 $4 { [%eval 5.45] } 16. dxc6+ { [%eval 5.37] } 16... bxc6
+{ [%eval 5.37] } 17. Bg4+ { [%eval 5.25] } 17... Kc7 { [%eval 5.32] } 18. Re7+
+{ [%eval 5.27] } 18... Kb6 { [%eval 5.31] } 19. Rxf7 { [%eval 5.05] } 19...
+Rhg8 $6 { [%eval 5.59] } 20. Bf3 { [%eval 5.35] } 20... h6 { [%eval 5.66] } 21.
+h3 { [%eval 5.43] } 21... g5 $2 { [%eval 7.23] } 22. Bg4 $2 { [%eval 5.35] }
+22... Rde8 $2 { [%eval 7.69] } 23. Rd7 $2 { [%eval 5.6] } 23... Re5 $2
+{ [%eval 7.52] } 24. R7xd6 { [%eval 7.19] } 24... Rge8 $6 { [%eval 8.08] } 25.
+Rxh6 { [%eval 7.86] } 25... Re1 { [%eval 8.35] } 26. Rd6 { [%eval 7.9] } 26...
+Rxd1+ { [%eval 7.86] } 27. Rxd1 $6 { [%eval 7.25] } 27... a5 { [%eval 7.72] }
+28. b3 { [%eval 7.44] } 28... c5 $6 { [%eval 8.12] } 29. Kb2 { [%eval 7.67] }
+29... Kb5 $2 { [%eval #15] } 30. Bd7+ { [%eval 115.97] } 1-0

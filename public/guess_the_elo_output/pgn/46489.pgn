@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hKGhssQw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "libormar"]
+[Black "Spicybeef189"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:35:06"]
+[WhiteElo "1100"]
+[BlackElo "1398"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+4"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queen's Gambit Invitation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.26] } 1... e6 { [%eval 0.2] } 2. d4 { [%eval 0.27] } 2... Nf6
+{ [%eval 0.15] } 3. Nc3 { [%eval -0.16] } 3... d5 { [%eval -0.18] } 4. e3
+{ [%eval -0.18] } 4... Bb4 { [%eval 0.03] } 5. Bb5+ { [%eval -0.23] } 5... Bd7
+{ [%eval -0.12] } 6. Bxd7+ { [%eval -0.53] } 6... Nbxd7 { [%eval -0.5] } 7. Ne5
+{ [%eval -0.89] } 7... Bxc3+ { [%eval -0.89] } 8. Bd2 $4 { [%eval -5.02] } 8...
+Bxb2 $6 { [%eval -4.52] } 9. Rb1 $6 { [%eval -5.31] } 9... Ba3 $6
+{ [%eval -4.41] } 10. O-O { [%eval -4.66] } 10... b6 { [%eval -4.42] } 11. Nc6
+{ [%eval -4.26] } 11... Qc8 { [%eval -4.34] } 12. Rb3 $6 { [%eval -5.1] } 12...
+Qb7 $2 { [%eval -3.8] } 13. Nb4 $2 { [%eval -5.12] } 13... Bxb4
+{ [%eval -5.11] } 14. Rxb4 { [%eval -5.39] } 14... a5 { [%eval -5.33] } 15. Rb5
+{ [%eval -5.46] } 15... c6 { [%eval -5.33] } 16. Rb3 { [%eval -5.33] } 16... a4
+{ [%eval -5.27] } 17. Rb4 { [%eval -5.4] } 17... c5 { [%eval -4.91] } 18. Rb5
+$6 { [%eval -5.5] } 18... cxd4 { [%eval -5.31] } 19. exd4 { [%eval -5.3] }
+19... O-O { [%eval -5.13] } 20. Bb4 $2 { [%eval -6.72] } 20... Rfc8
+{ [%eval -6.76] } 21. Qf3 $4 { [%eval -11.37] } 21... Rxc2 $2 { [%eval -8.82] }
+22. Qd3 { [%eval -9.07] } 22... Rxa2 { [%eval -8.6] } 23. g3 $2
+{ [%eval -10.13] } 23... e5 $2 { [%eval -8.54] } 24. Qb1 $6 { [%eval -9.12] }
+24... Re2 { [%eval -9.0] } 25. Qd1 $2 { [%eval -11.77] } 25... Rb2
+{ [%eval -11.33] } 26. Bc3 { [%eval -14.83] } 26... Rxb5 { [%eval -14.64] } 27.
+dxe5 { [%eval -14.57] } 27... Ne4 { [%eval -14.22] } 28. f3 { [%eval -25.81] }
+28... Nxc3 { [%eval -24.48] } 29. Qa1 { [%eval -27.05] } 29... Qc6
+{ [%eval -24.97] } 30. Rc1 $6 { [%eval #-12] } 30... Ne2+ { [%eval #-11] } 31.
+Kg2 { [%eval #-11] } 31... Qxc1 { [%eval #-11] } 32. Qa2 { [%eval #-7] } 32...
+Rb2 { [%eval #-6] } 33. Qxd5 { [%eval #-1] } 33... Nf4# 0-1

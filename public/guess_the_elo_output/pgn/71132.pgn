@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/fsjdb3Y5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FinnaJuzo"]
+[Black "droLratS"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:15:44"]
+[WhiteElo "1311"]
+[BlackElo "1304"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+18"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #3"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e6 { [%eval 0.26] } 2. d4 { [%eval 0.13] } 2... d5
+{ [%eval 0.24] } 3. e5 { [%eval 0.02] } 3... f6 $6 { [%eval 0.6] } 4. Bf4
+{ [%eval 0.34] } 4... fxe5 $6 { [%eval 1.07] } 5. Bxe5 $6 { [%eval 0.21] } 5...
+Nf6 { [%eval 0.12] } 6. f3 $2 { [%eval -0.97] } 6... Nc6 $6 { [%eval -0.28] }
+7. Bb5 { [%eval -0.51] } 7... Bd6 { [%eval -0.54] } 8. Bxd6 { [%eval -0.51] }
+8... Qxd6 { [%eval -0.39] } 9. Ne2 { [%eval -0.47] } 9... Bd7 { [%eval -0.24] }
+10. c4 $6 { [%eval -0.84] } 10... e5 $6 { [%eval -0.23] } 11. O-O
+{ [%eval -0.22] } 11... dxc4 { [%eval -0.1] } 12. Bxc4 $2 { [%eval -1.79] }
+12... Nxd4 $6 { [%eval -0.88] } 13. Nxd4 { [%eval -0.98] } 13... exd4 $2
+{ [%eval 0.06] } 14. b3 $2 { [%eval -1.63] } 14... O-O-O { [%eval -1.53] } 15.
+Nd2 $2 { [%eval -2.88] } 15... Rhe8 $2 { [%eval -1.6] } 16. Re1 $2
+{ [%eval -2.68] } 16... Qc5 $2 { [%eval -1.56] } 17. Rxe8 { [%eval -1.66] }
+17... Rxe8 { [%eval -1.52] } 18. g4 $4 { [%eval -9.36] } 18... Nd5 $4
+{ [%eval -1.54] } 19. Ne4 { [%eval -1.72] } 19... Qc6 $2 { [%eval 0.0] } 20.
+Qxd4 { [%eval 0.0] } 20... Nf4 { [%eval 0.0] } 21. Nc5 $2 { [%eval -1.46] }
+21... Ne2+ $2 { [%eval 0.14] } 22. Bxe2 { [%eval 0.06] } 22... Rxe2
+{ [%eval 0.13] } 23. Qxg7 $4 { [%eval #-7] } 23... Qxc5+ { [%eval #-6] } 24.
+Kf1 { [%eval #-1] } 24... Qf2# 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ckMKWxZA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheMrBeanofChess"]
+[Black "Bel1nda"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:15:19"]
+[WhiteElo "1417"]
+[BlackElo "1425"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+40"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.25] } 3. Bc4 { [%eval 0.18] } 3... Nf6 { [%eval 0.16] } 4. d3
+{ [%eval 0.22] } 4... d5 { [%eval 0.47] } 5. exd5 { [%eval 0.35] } 5... Nxd5
+{ [%eval 0.47] } 6. Bxd5 $6 { [%eval -0.41] } 6... Qxd5 { [%eval -0.34] } 7.
+Nc3 { [%eval -0.32] } 7... Qd8 { [%eval -0.25] } 8. O-O { [%eval -0.3] } 8...
+Bb4 { [%eval -0.06] } 9. Bd2 { [%eval -0.24] } 9... O-O { [%eval -0.15] } 10.
+a3 { [%eval -0.2] } 10... Bc5 { [%eval -0.08] } 11. Bg5 { [%eval -0.38] } 11...
+f6 { [%eval -0.27] } 12. Be3 { [%eval -0.37] } 12... Bxe3 { [%eval -0.04] } 13.
+fxe3 { [%eval -0.06] } 13... Qe7 { [%eval -0.09] } 14. e4 { [%eval -0.35] }
+14... Be6 { [%eval -0.19] } 15. Qe2 { [%eval -0.35] } 15... a6
+{ [%eval -0.18] } 16. Nh4 { [%eval -0.44] } 16... Rad8 { [%eval -0.49] } 17.
+Nf5 { [%eval -0.46] } 17... Bxf5 { [%eval -0.41] } 18. exf5 { [%eval -0.55] }
+18... Nd4 { [%eval -0.46] } 19. Qe3 $4 { [%eval -3.85] } 19... Qd7 $4
+{ [%eval -0.22] } 20. Rac1 $2 { [%eval -1.26] } 20... c5 $2 { [%eval -0.22] }
+21. Rfd1 $2 { [%eval -1.39] } 21... Nxf5 $6 { [%eval -0.65] } 22. Qe4 $6
+{ [%eval -1.5] } 22... Nd6 $2 { [%eval -0.43] } 23. Nd5 $4 { [%eval -9.99] }
+23... Nxe4 { [%eval -9.49] } 24. Nxf6+ $6 { [%eval -24.51] } 24... gxf6
+{ [%eval -18.7] } 25. dxe4 $6 { [%eval #-12] } 25... Qxd1+ { [%eval #-11] } 26.
+Rxd1 { [%eval #-11] } 26... Rxd1+ { [%eval #-12] } 27. Kf2 { [%eval #-12] }
+27... Rd2+ { [%eval #-12] } 28. Kf3 { [%eval #-9] } 28... Rxc2 { [%eval #-9] }
+29. g4 { [%eval #-8] } 29... Rd8 { [%eval #-10] } 30. h4 { [%eval #-1] } 30...
+Rxb2 $6 { [%eval #-6] } 31. h5 { [%eval #-1] } 31... Rd3# 0-1

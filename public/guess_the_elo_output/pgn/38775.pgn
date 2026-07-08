@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4jzkH8tf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Moonfish"]
+[Black "zlac"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:11:55"]
+[WhiteElo "1545"]
+[BlackElo "1561"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+10"]
+[ECO "C62"]
+[Opening "Ruy Lopez: Steinitz Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.27] } 2...
+Nc6 { [%eval 0.31] } 3. Bb5 { [%eval 0.35] } 3... d6 { [%eval 0.38] } 4. d4
+{ [%eval 0.39] } 4... exd4 { [%eval 0.37] } 5. Nxd4 { [%eval 0.2] } 5... Bd7
+{ [%eval 0.33] } 6. O-O { [%eval 0.31] } 6... Nxd4 { [%eval 0.74] } 7. Bxd7+
+{ [%eval 0.59] } 7... Qxd7 { [%eval 0.61] } 8. Qxd4 { [%eval 0.6] } 8... Nf6
+{ [%eval 0.75] } 9. Re1 { [%eval 0.46] } 9... c5 { [%eval 0.87] } 10. Qd1
+{ [%eval 0.61] } 10... Be7 { [%eval 0.72] } 11. Nc3 { [%eval 0.59] } 11... O-O
+{ [%eval 0.61] } 12. Bg5 { [%eval 0.6] } 12... h6 { [%eval 0.75] } 13. Bh4
+{ [%eval 0.62] } 13... Nh7 { [%eval 0.73] } 14. Bxe7 { [%eval 0.89] } 14...
+Qxe7 { [%eval 0.95] } 15. Nd5 { [%eval 0.88] } 15... Qe5 { [%eval 0.75] } 16.
+Qg4 $6 { [%eval 0.17] } 16... Nf6 { [%eval 0.3] } 17. Nxf6+ { [%eval 0.22] }
+17... Qxf6 { [%eval 0.21] } 18. Qd7 $2 { [%eval -0.81] } 18... Qxb2
+{ [%eval -0.85] } 19. Qxd6 { [%eval -1.09] } 19... Rad8 $6 { [%eval -0.22] }
+20. Qxc5 { [%eval -0.35] } 20... Rd2 $6 { [%eval 0.31] } 21. Qxa7
+{ [%eval 0.25] } 21... Qxc2 { [%eval 0.5] } 22. Qxb7 $6 { [%eval -0.04] } 22...
+Rxf2 { [%eval -0.07] } 23. Rec1 $4 { [%eval #-3] } 23... Rxg2+ { [%eval #-2] }
+24. Kf1 { [%eval #-1] } 24... Qf2# 0-1

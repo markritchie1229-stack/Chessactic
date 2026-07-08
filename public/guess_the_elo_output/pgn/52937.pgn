@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4npA4R9m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Hiawatha-2"]
+[Black "armine"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:20:03"]
+[WhiteElo "2001"]
+[BlackElo "2165"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "B54"]
+[Opening "Sicilian Defense: Prins Variation"]
+[TimeControl "240+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... c5 { [%eval 0.24] } 2. Nf3 { [%eval 0.18] } 2... d6
+{ [%eval 0.26] } 3. d4 { [%eval 0.24] } 3... cxd4 { [%eval 0.29] } 4. Nxd4
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.45] } 5. f3 { [%eval -0.01] } 5... a6
+{ [%eval 0.47] } 6. c4 { [%eval 0.42] } 6... g6 { [%eval 0.52] } 7. Nc3
+{ [%eval 0.52] } 7... Bg7 { [%eval 0.56] } 8. Be3 { [%eval 0.45] } 8... O-O
+{ [%eval 0.47] } 9. Qd2 { [%eval 0.44] } 9... Re8 { [%eval 0.55] } 10. Rc1
+{ [%eval 0.41] } 10... Nc6 { [%eval 0.35] } 11. Nc2 { [%eval 0.11] } 11... e6
+{ [%eval 0.26] } 12. Na3 $2 { [%eval -0.96] } 12... b6 $2 { [%eval 0.31] } 13.
+Be2 $6 { [%eval -0.39] } 13... Bb7 { [%eval 0.0] } 14. O-O { [%eval -0.41] }
+14... Qc7 $2 { [%eval 1.73] } 15. Rfd1 $6 { [%eval 1.21] } 15... Rad8
+{ [%eval 1.43] } 16. Nab1 $2 { [%eval 0.06] } 16... Nh5 $6 { [%eval 0.78] } 17.
+g3 $2 { [%eval -0.25] } 17... Ne5 $6 { [%eval 0.26] } 18. b3 { [%eval 0.23] }
+18... Bf8 $6 { [%eval 0.82] } 19. f4 { [%eval 0.35] } 19... Nd7
+{ [%eval 0.48] } 20. Bxh5 { [%eval 0.12] } 20... gxh5 { [%eval 0.16] } 21. Qe2
+{ [%eval 0.08] } 21... Nf6 { [%eval 0.24] } 22. Qf2 $2 { [%eval -1.75] } 22...
+Ng4 { [%eval -1.22] } 23. Bxb6 $4 { [%eval -5.22] } 23... Qc6 { [%eval -5.1] }
+24. Qd4 $2 { [%eval -6.26] } 24... Bg7 { [%eval -5.88] } 25. e5 $4
+{ [%eval #-1] } 25... Qg2# 0-1

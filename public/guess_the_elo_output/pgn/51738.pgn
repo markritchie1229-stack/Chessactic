@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1bJOHSLC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pleasesnow"]
+[Black "JaxTheMaster"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:23:38"]
+[WhiteElo "1414"]
+[BlackElo "1327"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-91"]
+[ECO "C44"]
+[Opening "King's Knight Opening: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.31] } 2...
+Nc6 { [%eval 0.33] } 3. a3 { [%eval 0.13] } 3... Bc5 { [%eval 0.15] } 4. c3 $6
+{ [%eval -0.37] } 4... d6 $6 { [%eval 0.17] } 5. d4 { [%eval 0.21] } 5... exd4
+$6 { [%eval 0.76] } 6. Nxd4 $2 { [%eval -0.47] } 6... Nf6 { [%eval -0.42] } 7.
+Nxc6 $6 { [%eval -0.93] } 7... bxc6 { [%eval -1.04] } 8. Nd2 $2
+{ [%eval -3.38] } 8... O-O $2 { [%eval -0.42] } 9. b4 { [%eval -0.73] } 9...
+Bxf2+ $2 { [%eval 1.58] } 10. Kxf2 { [%eval 1.36] } 10... Ng4+ { [%eval 1.82] }
+11. Kg3 $2 { [%eval 0.64] } 11... Qg5 { [%eval 1.1] } 12. h4 $4 { [%eval #-4] }
+12... Qe3+ $4 { [%eval 0.12] } 13. Qf3 { [%eval 0.0] } 13... Qxf3+ $4
+{ [%eval 3.64] } 14. gxf3 { [%eval 3.59] } 14... Ne5 { [%eval 3.79] } 15. f4 $6
+{ [%eval 3.18] } 15... Ng4 { [%eval 3.31] } 16. f5 { [%eval 3.13] } 16... Re8
+$4 { [%eval 7.39] } 17. Kxg4 { [%eval 7.31] } 17... d5 { [%eval 7.45] } 18. Bg2
+{ [%eval 7.23] } 18... dxe4 $2 { [%eval 8.55] } 19. Bxe4 $2 { [%eval 7.37] }
+19... Ba6 $2 { [%eval 8.79] } 20. Bxc6 { [%eval 8.5] } 20... Re2 $2
+{ [%eval 14.77] } 21. Bxa8 { [%eval 14.5] } 21... Rg2+ { [%eval 22.39] } 22.
+Kf4 { [%eval 16.65] } 22... Rf2+ { [%eval 17.35] } 23. Ke5 { [%eval 14.67] }
+23... Re2+ { [%eval 16.26] } 24. Ne4 { [%eval 15.92] } 24... f6+
+{ [%eval 17.42] } 25. Kd4 { [%eval 16.93] } 25... g6 { [%eval 20.06] } 26. fxg6
+{ [%eval 18.88] } 26... h6 $6 { [%eval #7] } 27. Bxh6 { [%eval #6] } 27... f5
+{ [%eval #2] } 28. Nf6+ { [%eval #1] } 28... Kh8 { [%eval #1] } 29. Rhf1 $6
+{ [%eval #6] } 29... Re4+ { [%eval #3] } 30. Kd5 $6 { [%eval #5] } 1-0

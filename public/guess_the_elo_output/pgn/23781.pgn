@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/8AU56UCh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "knightorrent"]
+[Black "zongorista1"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:18:32"]
+[WhiteElo "1915"]
+[BlackElo "1934"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D30"]
+[Opening "Semi-Slav Defense: Quiet Variation #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... d5 { [%eval 0.23] } 2. c4 { [%eval 0.16] } 2... c6
+{ [%eval 0.34] } 3. Nf3 { [%eval 0.3] } 3... Nf6 { [%eval 0.3] } 4. e3
+{ [%eval 0.31] } 4... e6 { [%eval 0.35] } 5. Nbd2 { [%eval 0.21] } 5... Be7
+{ [%eval 0.2] } 6. Qc2 { [%eval 0.1] } 6... O-O { [%eval 0.07] } 7. Bd3
+{ [%eval 0.0] } 7... b6 { [%eval 0.14] } 8. g4 { [%eval 0.01] } 8... Bb7 $2
+{ [%eval 1.58] } 9. g5 { [%eval 0.92] } 9... Ne4 $6 { [%eval 1.88] } 10. Nxe4
+{ [%eval 1.62] } 10... dxe4 { [%eval 1.72] } 11. Bxe4 { [%eval 1.38] } 11... g6
+$2 { [%eval 2.91] } 12. h4 { [%eval 2.59] } 12... Nd7 { [%eval 2.6] } 13. h5
+{ [%eval 2.93] } 13... f5 $2 { [%eval 5.03] } 14. gxf6 { [%eval 4.65] } 14...
+Nxf6 { [%eval 4.93] } 15. hxg6 { [%eval 4.06] } 15... Nxe4 $4 { [%eval 9.39] }
+16. Qxe4 { [%eval 9.23] } 16... h6 $2 { [%eval #10] } 17. Rxh6 $2
+{ [%eval 8.52] } 17... Kg7 $2 { [%eval #4] } 18. Rh7+ { [%eval #3] } 18... Kg8
+{ [%eval #2] } 19. Ne5 $6 { [%eval 16.26] } 19... Bf6 $6 { [%eval #5] } 20. Nf7
+{ [%eval #4] } 20... Rxf7 { [%eval #4] } 21. gxf7+ { [%eval #3] } 21... Kf8
+{ [%eval #3] } 22. Qg6 { [%eval #2] } 22... Ke7 { [%eval #2] } 23. f8=Q+
+{ [%eval #1] } 1-0

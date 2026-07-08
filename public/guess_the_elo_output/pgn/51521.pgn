@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/GpY9cPie"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ivan_Vodka"]
+[Black "madal"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:59:17"]
+[WhiteElo "1925"]
+[BlackElo "1881"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Pirc Invitation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.2] } 1... d6 { [%eval 0.53] } 2. g3 $6 { [%eval 0.0] } 2...
+g6 { [%eval 0.33] } 3. Bg2 { [%eval 0.11] } 3... Bg7 { [%eval 0.44] } 4. O-O
+{ [%eval 0.1] } 4... Nc6 { [%eval 0.48] } 5. c4 $6 { [%eval -0.06] } 5... e5
+{ [%eval -0.08] } 6. Nc3 { [%eval -0.09] } 6... f5 { [%eval -0.1] } 7. d3
+{ [%eval -0.07] } 7... Nf6 { [%eval 0.08] } 8. Bd2 { [%eval -0.01] } 8... h6
+{ [%eval 0.1] } 9. a3 { [%eval -0.05] } 9... O-O { [%eval -0.05] } 10. b4
+{ [%eval -0.14] } 10... a5 { [%eval 0.16] } 11. bxa5 $6 { [%eval -0.5] } 11...
+Nxa5 { [%eval -0.6] } 12. Rb1 { [%eval -0.71] } 12... Nc6 { [%eval -0.39] } 13.
+Nb5 { [%eval -0.36] } 13... Nd7 { [%eval -0.39] } 14. Bc3 { [%eval -0.5] }
+14... Nc5 { [%eval -0.54] } 15. Nd2 { [%eval -0.71] } 15... Be6
+{ [%eval -0.51] } 16. Qc2 { [%eval -0.6] } 16... Rb8 { [%eval -0.12] } 17. e3
+{ [%eval 0.09] } 17... d5 $6 { [%eval 0.96] } 18. cxd5 $6 { [%eval 0.26] }
+18... Bxd5 { [%eval 0.41] } 19. Bxd5+ { [%eval 0.33] } 19... Qxd5
+{ [%eval 0.39] } 20. Nxc7 { [%eval 0.31] } 20... Qxd3 { [%eval 0.33] } 21. Qxd3
+{ [%eval 0.3] } 21... Nxd3 { [%eval 0.38] } 22. Rfd1 { [%eval 0.0] } 22... e4
+$6 { [%eval 0.98] } 23. Bxg7 { [%eval 0.92] } 23... Kxg7 $2 { [%eval 3.34] }
+24. Ne6+ { [%eval 3.16] } 24... Kf6 { [%eval 3.41] } 25. Nxf8 { [%eval 3.26] }
+25... Rxf8 { [%eval 3.21] } 26. Rxb7 { [%eval 2.79] } 26... Nce5
+{ [%eval 2.7] } 27. f4 $2 { [%eval 1.62] } 27... exf3 { [%eval 2.09] } 28. Nc4
+{ [%eval 1.86] } 28... Kg5 $2 { [%eval 2.97] } 29. Nxe5 $2 { [%eval 1.87] }
+29... Nxe5 { [%eval 2.12] } 30. Kf2 { [%eval 1.64] } 30... Kg4 $4
+{ [%eval 5.03] } 31. Rd4+ $2 { [%eval 2.58] } 31... Kh3 $4 { [%eval #1] } 32.
+Rh4# 1-0

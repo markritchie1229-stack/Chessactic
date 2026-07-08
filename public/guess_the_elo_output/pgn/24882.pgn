@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0F9rtvtv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ricardkkloster"]
+[Black "santinic"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:34:28"]
+[WhiteElo "1500"]
+[BlackElo "1285"]
+[WhiteRatingDiff "+93"]
+[BlackRatingDiff "-5"]
+[ECO "C67"]
+[Opening "Ruy Lopez: Berlin Defense, Rio Gambit Accepted"]
+[TimeControl "360+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.4] } 2. Nf3 { [%eval 0.32] } 2... Nc6
+{ [%eval 0.3] } 3. Bb5 { [%eval 0.37] } 3... Nf6 { [%eval 0.39] } 4. O-O
+{ [%eval 0.31] } 4... Nxe4 { [%eval 0.27] } 5. d4 { [%eval 0.26] } 5... d5 $2
+{ [%eval 1.46] } 6. Nxe5 { [%eval 1.43] } 6... Bd7 { [%eval 1.65] } 7. Nxf7
+{ [%eval 1.73] } 7... Kxf7 { [%eval 1.77] } 8. Qh5+ { [%eval 1.6] } 8... g6
+{ [%eval 1.74] } 9. Qxd5+ { [%eval 1.69] } 9... Be6 $6 { [%eval 2.47] } 10.
+Qxe4 { [%eval 1.99] } 10... Nxd4 { [%eval 2.41] } 11. Rd1 { [%eval 2.46] }
+11... c5 $2 { [%eval 3.93] } 12. Nc3 $2 { [%eval 2.04] } 12... a6 $6
+{ [%eval 2.62] } 13. Qxb7+ { [%eval 2.41] } 13... Kg8 $6 { [%eval 3.3] } 14.
+Bd3 { [%eval 3.21] } 14... a5 $6 { [%eval 3.89] } 15. Qe4 { [%eval 3.51] }
+15... Bf5 $4 { [%eval 15.89] } 16. Qe3 $4 { [%eval 3.19] } 16... Bxd3
+{ [%eval 3.2] } 17. Qxd3 { [%eval 3.19] } 17... Bg7 $4 { [%eval 6.72] } 18. a3
+$4 { [%eval 3.04] } 18... Qh4 $4 { [%eval 6.66] } 19. Qc4+ { [%eval 6.52] }
+19... Kf8 { [%eval 6.22] } 20. Bf4 { [%eval 5.77] } 20... Qxf4 $2
+{ [%eval 7.83] } 21. Qxc5+ { [%eval 7.44] } 21... Ke8 $2 { [%eval 12.88] } 22.
+Nd5 $2 { [%eval 7.9] } 22... Ne2+ $2 { [%eval 10.94] } 23. Kf1
+{ [%eval 10.47] } 23... Qe4 { [%eval 10.25] } 24. Nc7+ { [%eval 10.06] } 24...
+Kf7 { [%eval 9.91] } 25. Rd7+ { [%eval 9.59] } 25... Kf6 { [%eval 14.76] } 26.
+Rad1 { [%eval 14.27] } 26... Rad8 $6 { [%eval #2] } 27. R1d6+ { [%eval #1] }
+27... Qe6 { [%eval #1] } 28. Rxe6# 1-0

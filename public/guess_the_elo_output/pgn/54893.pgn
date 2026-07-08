@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MyVe1UVe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Dinnerkolya"]
+[Black "kakawka"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:49:07"]
+[WhiteElo "1784"]
+[BlackElo "1842"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Snyder Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... c5 { [%eval 0.29] } 2. b3 { [%eval 0.0] } 2... d6
+{ [%eval 0.13] } 3. Bb2 { [%eval 0.0] } 3... e5 { [%eval 0.26] } 4. Qh5 $6
+{ [%eval -0.48] } 4... Nf6 { [%eval -0.56] } 5. Qe2 { [%eval -0.62] } 5... Be7
+{ [%eval -0.56] } 6. d3 { [%eval -0.64] } 6... b5 { [%eval -0.48] } 7. Nd2
+{ [%eval -0.56] } 7... Bb7 $6 { [%eval -0.06] } 8. Ngf3 { [%eval -0.13] } 8...
+Nbd7 { [%eval 0.03] } 9. O-O-O $2 { [%eval -1.19] } 9... a5 { [%eval -1.15] }
+10. Nb1 $6 { [%eval -1.73] } 10... c4 { [%eval -1.71] } 11. dxc4
+{ [%eval -1.67] } 11... bxc4 { [%eval -1.5] } 12. Qxc4 $6 { [%eval -2.26] }
+12... O-O $2 { [%eval -0.68] } 13. Nfd2 { [%eval -0.79] } 13... Ba6 $6
+{ [%eval -0.22] } 14. Qc3 { [%eval -0.21] } 14... Rc8 { [%eval 0.08] } 15. Qf3
+{ [%eval 0.0] } 15... Bxf1 { [%eval 0.22] } 16. Rhxf1 { [%eval 0.4] } 16... Qc7
+{ [%eval 0.46] } 17. c4 $2 { [%eval -0.71] } 17... Nc5 $6 { [%eval 0.0] } 18.
+Nc3 { [%eval 0.0] } 18... Qc6 { [%eval 0.25] } 19. Nb5 $6 { [%eval -0.64] }
+19... a4 $2 { [%eval 0.39] } 20. Rfe1 $2 { [%eval -1.88] } 20... axb3 $2
+{ [%eval 0.0] } 21. axb3 $6 { [%eval -0.56] } 21... Rb8 { [%eval -0.45] } 22.
+Qg3 $2 { [%eval -1.68] } 22... Kh8 $6 { [%eval -0.69] } 23. f4 $2
+{ [%eval -2.3] } 23... exf4 $2 { [%eval -0.58] } 24. Qxf4 $4 { [%eval -11.22] }
+24... Nxb3+ $4 { [%eval -4.67] } 25. Nxb3 $2 { [%eval -7.15] } 25... Qxc4+
+{ [%eval -6.05] } 26. Kd2 $2 { [%eval -7.43] } 26... Rxb5 { [%eval -6.84] } 27.
+Qf3 $4 { [%eval -11.07] } 27... Rxb3 { [%eval -10.69] } 28. Qe2 $6
+{ [%eval #-7] } 28... Rxb2+ { [%eval #-8] } 0-1

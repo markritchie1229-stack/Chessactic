@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4EoU8AWZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DaniloCunha"]
+[Black "erkiki"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:42:43"]
+[WhiteElo "1861"]
+[BlackElo "1989"]
+[WhiteRatingDiff "+35"]
+[BlackRatingDiff "-15"]
+[ECO "A46"]
+[Opening "Torre Attack #2"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... Nf6 { [%eval 0.29] } 2. Nf3 { [%eval 0.18] } 2...
+e6 { [%eval 0.17] } 3. g3 { [%eval -0.04] } 3... d5 { [%eval 0.0] } 4. Bg2
+{ [%eval 0.03] } 4... Nbd7 { [%eval 0.14] } 5. c4 { [%eval 0.05] } 5... c6
+{ [%eval 0.14] } 6. Nc3 { [%eval 0.0] } 6... Bb4 { [%eval 0.14] } 7. cxd5
+{ [%eval -0.32] } 7... cxd5 $6 { [%eval 0.3] } 8. Bd2 { [%eval 0.0] } 8... O-O
+{ [%eval 0.0] } 9. O-O { [%eval 0.0] } 9... b6 { [%eval 0.04] } 10. a3
+{ [%eval 0.0] } 10... Be7 { [%eval -0.07] } 11. b4 { [%eval -0.25] } 11... Ba6
+{ [%eval -0.2] } 12. Re1 { [%eval -0.29] } 12... Rc8 { [%eval -0.27] } 13. Rc1
+{ [%eval -0.32] } 13... Bc4 { [%eval -0.31] } 14. e4 { [%eval -0.33] } 14...
+Nxe4 { [%eval -0.41] } 15. Nxe4 { [%eval -0.59] } 15... dxe4 { [%eval -0.53] }
+16. Rxe4 { [%eval -0.55] } 16... Nf6 { [%eval -0.23] } 17. Rh4 $6
+{ [%eval -1.2] } 17... Nd5 $6 { [%eval -0.31] } 18. Re4 { [%eval -0.28] } 18...
+Bd3 { [%eval 0.06] } 19. Re1 { [%eval 0.04] } 19... Qd7 $4 { [%eval 4.11] } 20.
+Ne5 { [%eval 4.07] } 20... Qb5 { [%eval 4.18] } 21. Bxd5 $2 { [%eval 3.12] }
+21... exd5 $2 { [%eval 4.68] } 22. Nxd3 { [%eval 4.44] } 22... Qxd3 $6
+{ [%eval 4.98] } 23. Rxe7 { [%eval 4.79] } 23... Qxd4 { [%eval 5.24] } 24. Be3
+{ [%eval 4.81] } 24... Qf6 $6 { [%eval 5.62] } 25. Rxa7 { [%eval 5.38] } 25...
+d4 $2 { [%eval 7.78] } 26. Rxc8 { [%eval 7.62] } 26... Rxc8 { [%eval 7.49] }
+27. Qxd4 { [%eval 7.22] } 27... Qe7 $2 { [%eval #7] } 28. Rxe7 { [%eval #7] }
+1-0

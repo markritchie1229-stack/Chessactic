@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3wmaiMOS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zebyja123"]
+[Black "MMC_Vitalis"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:18:41"]
+[WhiteElo "1417"]
+[BlackElo "1237"]
+[WhiteRatingDiff "+31"]
+[BlackRatingDiff "-6"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "1200+20"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... d5 { [%eval 0.63] } 2. exd5 { [%eval 0.6] } 2...
+Qxd5 { [%eval 0.58] } 3. Nc3 { [%eval 0.57] } 3... Qe5+ { [%eval 0.73] } 4. Be2
+{ [%eval 0.72] } 4... Qg5 { [%eval 0.8] } 5. Bf1 { [%eval 0.54] } 5... Qf4 $6
+{ [%eval 1.1] } 6. Nge2 $6 { [%eval 0.58] } 6... Qd6 { [%eval 0.57] } 7. d3
+{ [%eval 0.23] } 7... Qd8 { [%eval 0.47] } 8. Ng1 { [%eval 0.02] } 8... e6
+{ [%eval 0.29] } 9. Nf3 { [%eval 0.27] } 9... g6 { [%eval 0.52] } 10. Bg5
+{ [%eval 0.56] } 10... Be7 { [%eval 0.66] } 11. Bxe7 { [%eval 0.31] } 11...
+Qxe7 { [%eval 0.36] } 12. Be2 { [%eval 0.22] } 12... Qd8 $6 { [%eval 0.83] }
+13. O-O { [%eval 0.59] } 13... b6 { [%eval 0.79] } 14. Ne4 { [%eval 0.35] }
+14... Bb7 { [%eval 0.44] } 15. c4 { [%eval 0.2] } 15... Bxe4 { [%eval 0.52] }
+16. dxe4 { [%eval 0.45] } 16... Qxd1 { [%eval 0.47] } 17. Raxd1
+{ [%eval 0.28] } 17... Nc6 $6 { [%eval 0.86] } 18. Nd4 $6 { [%eval 0.08] }
+18... Nb4 $6 { [%eval 1.03] } 19. a3 { [%eval 0.97] } 19... Na6
+{ [%eval 1.33] } 20. Nc6 $6 { [%eval 0.56] } 20... Nb8 $4 { [%eval #1] } 21.
+Rd8# 1-0

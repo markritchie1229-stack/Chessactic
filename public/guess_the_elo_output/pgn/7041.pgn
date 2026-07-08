@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/5sz0pGxy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "militarchess"]
+[Black "naqalsamoht"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:56:31"]
+[WhiteElo "1359"]
+[BlackElo "1372"]
+[WhiteRatingDiff "+28"]
+[BlackRatingDiff "-11"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.31] } 1... e6 { [%eval 0.31] } 2. c4 { [%eval 0.27] } 2... d5
+{ [%eval 0.28] } 3. cxd5 { [%eval 0.0] } 3... exd5 { [%eval 0.08] } 4. Nc3
+{ [%eval 0.1] } 4... Nf6 { [%eval 0.08] } 5. Bf4 { [%eval 0.04] } 5... Nc6
+{ [%eval 0.28] } 6. Nb5 $6 { [%eval -0.7] } 6... Bd6 $6 { [%eval 0.0] } 7.
+Nxd6+ { [%eval 0.01] } 7... cxd6 { [%eval 0.09] } 8. e3 $6 { [%eval -0.65] }
+8... Qe7 $2 { [%eval 0.62] } 9. Bd3 $6 { [%eval 0.0] } 9... Ne4 $6
+{ [%eval 0.96] } 10. Nf3 { [%eval 0.52] } 10... h6 { [%eval 0.6] } 11. O-O
+{ [%eval 0.33] } 11... g5 { [%eval 0.43] } 12. Bg3 { [%eval 0.41] } 12... f5
+{ [%eval 0.36] } 13. Bxe4 $6 { [%eval -0.28] } 13... dxe4 $2 { [%eval 0.78] }
+14. Nd2 $6 { [%eval 0.13] } 14... h5 $6 { [%eval 0.95] } 15. Nc4 $6
+{ [%eval 0.34] } 15... d5 { [%eval 0.48] } 16. Bd6 { [%eval 0.1] } 16... Qg7 $6
+{ [%eval 0.68] } 17. Ne5 { [%eval 0.54] } 17... Nxe5 $4 { [%eval 4.45] } 18.
+Bxe5 { [%eval 4.56] } 18... Qh7 { [%eval 4.45] } 19. Bxh8 { [%eval 4.35] }
+19... Qxh8 { [%eval 4.31] } 20. Qa4+ $6 { [%eval 3.6] } 20... Bd7
+{ [%eval 3.69] } 21. Qb3 { [%eval 3.64] } 21... O-O-O { [%eval 3.91] } 22.
+Rac1+ $2 { [%eval 2.87] } 22... Bc6 { [%eval 2.74] } 23. a4 { [%eval 2.55] }
+23... g4 $6 { [%eval 3.3] } 24. Qb5 $6 { [%eval 2.68] } 24... Kb8 $4
+{ [%eval 8.68] } 25. Rxc6 { [%eval 8.53] } 25... h4 $2 { [%eval 9.8] } 26. Rc7
+$4 { [%eval 0.68] } 26... b6 $4 { [%eval #2] } 27. Rxa7 $4 { [%eval 3.36] }
+27... Kxa7 { [%eval 3.16] } 28. Rc1 { [%eval 2.74] } 28... Qh7 $2
+{ [%eval 4.49] } 29. a5 { [%eval 4.5] } 1-0

@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1vp6pZqY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "billooji"]
+[Black "malikc5"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:30:18"]
+[WhiteElo "1815"]
+[BlackElo "2083"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+10"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.24] } 2. a3 { [%eval 0.15] } 2... Nf6
+{ [%eval 0.02] } 3. e3 { [%eval 0.0] } 3... Bf5 { [%eval 0.03] } 4. Bd3
+{ [%eval -0.01] } 4... Bxd3 { [%eval -0.05] } 5. Qxd3 { [%eval -0.02] } 5... e6
+{ [%eval 0.0] } 6. Qb5+ { [%eval 0.0] } 6... Nbd7 { [%eval 0.09] } 7. Qxb7
+{ [%eval 0.0] } 7... Bd6 { [%eval 0.23] } 8. Qc6 { [%eval 0.07] } 8... O-O
+{ [%eval 0.15] } 9. Nf3 { [%eval 0.17] } 9... e5 { [%eval 0.37] } 10. dxe5
+{ [%eval 0.09] } 10... Nxe5 { [%eval 0.14] } 11. Nxe5 { [%eval 0.09] } 11...
+Bxe5 { [%eval 0.12] } 12. O-O { [%eval 0.06] } 12... Rb8 { [%eval 0.25] } 13.
+Qa4 { [%eval -0.08] } 13... Bxb2 { [%eval 0.2] } 14. Bxb2 { [%eval 0.13] }
+14... Rxb2 { [%eval 0.24] } 15. Nd2 { [%eval -0.08] } 15... Re8 $6
+{ [%eval 0.45] } 16. Nf3 $6 { [%eval -0.09] } 16... Ne4 { [%eval 0.0] } 17. Nd4
+{ [%eval -0.32] } 17... c5 { [%eval -0.43] } 18. Nc6 $4 { [%eval -3.99] } 18...
+Qf6 $4 { [%eval 0.82] } 19. Nxa7 $2 { [%eval -1.31] } 19... Ra8 $6
+{ [%eval -0.7] } 20. Qd7 { [%eval -0.74] } 20... Qe6 { [%eval -0.45] } 21. Qb7
+$4 { [%eval -17.39] } 21... Rxb7 { [%eval -17.14] } 0-1

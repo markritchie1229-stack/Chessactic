@@ -1,0 +1,44 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wQk2PCBi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DmitriySeven"]
+[Black "Thoufak"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:58:25"]
+[WhiteElo "1133"]
+[BlackElo "1166"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-12"]
+[ECO "C25"]
+[Opening "Vienna Game: Zhuravlev Countergambit #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.3] } 2. Nc3 { [%eval 0.07] } 2... Bb4
+{ [%eval 0.36] } 3. Nf3 { [%eval 0.16] } 3... Bxc3 { [%eval 0.23] } 4. bxc3
+{ [%eval 0.17] } 4... Nf6 { [%eval 0.34] } 5. d4 { [%eval 0.31] } 5... d6
+{ [%eval 0.53] } 6. Bc4 { [%eval 0.25] } 6... Bg4 $6 { [%eval 1.17] } 7. O-O $2
+{ [%eval 0.11] } 7... c5 $2 { [%eval 1.21] } 8. h3 { [%eval 0.72] } 8... Bxf3
+{ [%eval 0.8] } 9. Qxf3 { [%eval 0.76] } 9... cxd4 { [%eval 0.64] } 10. cxd4
+{ [%eval 0.57] } 10... exd4 { [%eval 0.89] } 11. Bg5 { [%eval 0.62] } 11... Nc6
+{ [%eval 0.66] } 12. Rfe1 { [%eval 0.22] } 12... Ne5 { [%eval 0.24] } 13. Bb5+
+{ [%eval 0.37] } 13... Kf8 { [%eval 0.72] } 14. Qf5 $6 { [%eval 0.0] } 14... h6
+{ [%eval 0.0] } 15. Bf4 $4 { [%eval -3.99] } 15... Ng6 $4 { [%eval 1.04] } 16.
+Rab1 $4 { [%eval -6.58] } 16... Nxf4 $4 { [%eval 0.6] } 17. Qxf4
+{ [%eval 0.54] } 17... a6 { [%eval 0.82] } 18. Bc4 { [%eval 0.43] } 18... b5
+{ [%eval 0.61] } 19. Bd5 $6 { [%eval -0.12] } 19... Rc8 { [%eval 0.26] } 20.
+Rbd1 $6 { [%eval -0.39] } 20... Rxc2 $6 { [%eval 0.25] } 21. Rxd4
+{ [%eval -0.07] } 21... g5 { [%eval 0.0] } 22. Qf5 $6 { [%eval -0.62] } 22...
+Kg7 $2 { [%eval 0.71] } 23. e5 $2 { [%eval -1.51] } 23... dxe5
+{ [%eval -1.46] } 24. Qxe5 $4 { [%eval -6.54] } 24... Rc5 $4 { [%eval -1.39] }
+25. Red1 { [%eval -1.39] } 25... Re8 { [%eval -1.32] } 26. Qf5 $6
+{ [%eval -2.23] } 26... Qe7 $6 { [%eval -1.41] } 27. Be4 $4 { [%eval -10.0] }
+27... Nxe4 $4 { [%eval -6.8] } 28. Rxe4 $2 { [%eval -9.33] } 28... Rc2 $4
+{ [%eval 16.66] } 29. Rxe7 { [%eval 15.31] } 29... Rxe7 { [%eval 14.2] } 30.
+Rd8 $4 { [%eval 6.04] } 30... Re1+ $2 { [%eval 8.2] } 31. Kh2 { [%eval 7.83] }
+31... Rce2 $6 { [%eval 8.64] } 32. Rd7 $2 { [%eval 5.77] } 32... Re7
+{ [%eval 5.46] } 33. Rd6 { [%eval 5.06] } 33... Kf8 $4 { [%eval #9] } 34. Qf6
+$2 { [%eval 9.28] } 34... R1e2 $2 { [%eval #1] } 35. Qxh6+ $6 { [%eval #12] }
+35... Ke8 { [%eval #1] } 36. Qh8# 1-0

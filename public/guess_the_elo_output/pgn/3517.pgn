@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8Xeje3mV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marx0571"]
+[Black "dkatz24"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:00:45"]
+[WhiteElo "1594"]
+[BlackElo "1596"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+12"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.45] } 2. Bc4 { [%eval 0.0] } 2... Nf6
+{ [%eval 0.13] } 3. d3 { [%eval 0.0] } 3... Nc6 { [%eval 0.24] } 4. Nf3
+{ [%eval 0.15] } 4... h6 { [%eval 0.31] } 5. h3 { [%eval 0.29] } 5... Bc5
+{ [%eval 0.22] } 6. g4 $6 { [%eval -0.45] } 6... d6 { [%eval -0.29] } 7. g5
+{ [%eval -0.7] } 7... hxg5 { [%eval -0.7] } 8. Nxg5 { [%eval -0.76] } 8... Rf8
+{ [%eval -0.29] } 9. Nc3 { [%eval -0.35] } 9... Bd7 { [%eval -0.19] } 10. Qf3
+$2 { [%eval -1.47] } 10... Nd4 { [%eval -1.43] } 11. Qd1 { [%eval -1.61] }
+11... Qe7 $6 { [%eval -0.82] } 12. Be3 { [%eval -0.94] } 12... O-O-O
+{ [%eval -0.89] } 13. Qd2 { [%eval -1.04] } 13... Bb4 { [%eval -0.56] } 14.
+O-O-O { [%eval -1.05] } 14... Ba4 { [%eval -1.19] } 15. b3 $4 { [%eval -7.92] }
+15... Ba3+ $4 { [%eval -0.47] } 16. Kb1 { [%eval -0.45] } 16... Bc6
+{ [%eval -0.15] } 17. Nb5 $4 { [%eval -3.27] } 17... Bxb5 { [%eval -3.18] } 18.
+Bxd4 $6 { [%eval -3.85] } 18... exd4 $2 { [%eval -2.15] } 19. Bxb5
+{ [%eval -2.25] } 19... Qe5 $2 { [%eval -0.28] } 20. Nf3 $2 { [%eval -2.81] }
+20... Qxb5 { [%eval -2.93] } 21. Nxd4 { [%eval -2.82] } 21... Qe5
+{ [%eval -2.74] } 22. Nf3 $4 { [%eval #-1] } 22... Qb2# 0-1

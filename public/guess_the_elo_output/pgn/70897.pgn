@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/IeQ8CM0v"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FABRICOT"]
+[Black "pat222"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:02:17"]
+[WhiteElo "1787"]
+[BlackElo "1488"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+20"]
+[ECO "C30"]
+[Opening "King's Gambit"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.45] } 2. f4 $6 { [%eval -0.34] } 2...
+d6 { [%eval -0.02] } 3. Nf3 { [%eval -0.41] } 3... Nc6 $6 { [%eval 0.31] } 4.
+Bb5 { [%eval -0.1] } 4... Be7 $6 { [%eval 0.75] } 5. O-O $6 { [%eval -0.11] }
+5... Bd7 { [%eval 0.35] } 6. Bxc6 { [%eval 0.36] } 6... Bxc6 { [%eval 0.32] }
+7. d3 { [%eval 0.29] } 7... Nf6 { [%eval 0.29] } 8. fxe5 { [%eval 0.13] } 8...
+dxe5 { [%eval 0.2] } 9. Nc3 { [%eval 0.06] } 9... Bc5+ { [%eval 0.0] } 10. Kh1
+{ [%eval 0.03] } 10... O-O $2 { [%eval 1.39] } 11. Nxe5 { [%eval 1.27] } 11...
+Bd4 $6 { [%eval 1.95] } 12. Nxc6 { [%eval 1.79] } 12... bxc6 { [%eval 1.75] }
+13. Bg5 $6 { [%eval 1.25] } 13... Bxc3 $2 { [%eval 2.7] } 14. bxc3
+{ [%eval 2.37] } 14... Qe7 $2 { [%eval 3.4] } 15. Bxf6 $6 { [%eval 2.86] }
+15... gxf6 { [%eval 2.92] } 16. Qg4+ { [%eval 2.8] } 16... Kh8 { [%eval 2.62] }
+17. Rf3 { [%eval 2.19] } 17... Rg8 { [%eval 2.17] } 18. Qh4 { [%eval 2.04] }
+18... Qa3 $2 { [%eval 3.84] } 19. Raf1 $2 { [%eval 2.83] } 19... Qxc3
+{ [%eval 2.89] } 20. Rxf6 $6 { [%eval 2.1] } 20... Qxc2 { [%eval 2.18] } 21.
+Rxf7 $4 { [%eval #-1] } 21... Qxg2# 0-1

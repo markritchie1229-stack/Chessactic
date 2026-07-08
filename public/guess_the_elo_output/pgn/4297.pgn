@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NDetSVvQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MasterVision"]
+[Black "taekim12"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "05:31:50"]
+[WhiteElo "1994"]
+[BlackElo "2009"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+16"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.4] } 2. Bd3 { [%eval 0.03] } 2... Nc6
+{ [%eval 0.16] } 3. c3 { [%eval -0.22] } 3... Nf6 { [%eval 0.0] } 4. Nf3
+{ [%eval -0.24] } 4... d6 { [%eval 0.15] } 5. Qe2 { [%eval -0.12] } 5... a6
+{ [%eval 0.0] } 6. h3 { [%eval -0.03] } 6... b5 { [%eval 0.29] } 7. O-O
+{ [%eval 0.22] } 7... Bb7 { [%eval 0.5] } 8. Rd1 { [%eval 0.18] } 8... e6
+{ [%eval 0.2] } 9. Bc2 { [%eval 0.27] } 9... Be7 { [%eval 0.05] } 10. a3
+{ [%eval -0.04] } 10... O-O { [%eval 0.27] } 11. d4 { [%eval 0.1] } 11... cxd4
+{ [%eval 0.18] } 12. cxd4 { [%eval 0.15] } 12... Qc7 { [%eval 0.2] } 13. Nc3
+{ [%eval 0.07] } 13... Rac8 $6 { [%eval 0.64] } 14. Bf4 { [%eval 0.29] } 14...
+Rfd8 $6 { [%eval 1.23] } 15. Rac1 $6 { [%eval 0.27] } 15... Qb6 $6
+{ [%eval 1.18] } 16. Be3 $6 { [%eval 0.64] } 16... Qa5 $2 { [%eval 2.26] } 17.
+d5 { [%eval 2.12] } 17... exd5 { [%eval 2.54] } 18. Nxd5 { [%eval 2.42] } 18...
+Nxd5 { [%eval 2.43] } 19. exd5 { [%eval 2.41] } 19... Ne5 { [%eval 2.46] } 20.
+Bf5 $2 { [%eval 0.1] } 20... Rxc1 { [%eval 0.1] } 21. Bxc1 { [%eval 0.0] }
+21... Bf6 { [%eval 0.4] } 22. Bb1 $6 { [%eval -0.14] } 22... Qa4 $6
+{ [%eval 0.55] } 23. Rd4 $4 { [%eval -8.46] } 23... Nc4 $4 { [%eval 2.09] } 24.
+Re4 { [%eval 1.74] } 24... h6 $4 { [%eval #2] } 25. Re7 $4 { [%eval -1.83] }
+25... Bxe7 { [%eval -1.7] } 26. Qxe7 { [%eval -1.72] } 26... Rf8
+{ [%eval -1.37] } 27. Qxb7 $4 { [%eval -5.39] } 27... Qd1+ { [%eval -5.22] }
+28. Kh2 { [%eval -5.23] } 28... Qxc1 { [%eval -5.07] } 29. Be4 $4
+{ [%eval -8.74] } 29... Qf4+ { [%eval -8.16] } 0-1

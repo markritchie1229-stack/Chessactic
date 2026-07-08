@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WFsqbnnJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mssj2"]
+[Black "GMRonWeasley"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:19:37"]
+[WhiteElo "1767"]
+[BlackElo "1836"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "B19"]
+[Opening "Caro-Kann Defense: Classical, Spassky Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c6 { [%eval 0.35] } 2. d4 { [%eval 0.25] } 2... d5
+{ [%eval 0.32] } 3. Nc3 { [%eval 0.21] } 3... dxe4 { [%eval 0.23] } 4. Nxe4
+{ [%eval 0.24] } 4... Bf5 { [%eval 0.25] } 5. Ng3 { [%eval 0.21] } 5... Bg6
+{ [%eval 0.28] } 6. Nf3 { [%eval 0.33] } 6... Nd7 { [%eval 0.34] } 7. h4
+{ [%eval 0.1] } 7... h6 { [%eval 0.07] } 8. h5 { [%eval 0.0] } 8... Bh7
+{ [%eval 0.0] } 9. Bd3 { [%eval 0.0] } 9... Ngf6 { [%eval 0.2] } 10. c3
+{ [%eval -0.2] } 10... e6 { [%eval 0.04] } 11. Qc2 $6 { [%eval -0.51] } 11...
+Bxd3 { [%eval -0.58] } 12. Qxd3 { [%eval -0.61] } 12... Be7 { [%eval -0.34] }
+13. Bd2 { [%eval -0.46] } 13... Nc5 { [%eval 0.0] } 14. Qc2 { [%eval 0.0] }
+14... Ncd7 { [%eval 0.0] } 15. Ne4 { [%eval -0.27] } 15... Nd5 $6
+{ [%eval 0.25] } 16. g4 { [%eval 0.3] } 16... N7f6 { [%eval 0.43] } 17. g5 $2
+{ [%eval -0.71] } 17... Nxe4 { [%eval -0.67] } 18. Qxe4 { [%eval -0.82] } 18...
+hxg5 { [%eval -0.7] } 19. Nxg5 $4 { [%eval -4.82] } 19... Bxg5 { [%eval -4.7] }
+20. O-O-O { [%eval -4.97] } 20... Bxd2+ { [%eval -4.94] } 21. Rxd2
+{ [%eval -4.96] } 21... Qg5 { [%eval -4.91] } 22. f4 $6 { [%eval -5.69] } 22...
+Qxf4 { [%eval -5.63] } 23. Qxf4 { [%eval -6.12] } 23... Nxf4 { [%eval -5.93] }
+24. Kc2 $6 { [%eval -6.72] } 24... Rxh5 { [%eval -6.65] } 25. Rg1 $2
+{ [%eval -7.69] } 25... g5 { [%eval -7.43] } 26. Rf2 { [%eval -7.81] } 26...
+Nh3 { [%eval -7.6] } 0-1

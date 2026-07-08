@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/o5ULtsmi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "grynhorn"]
+[Black "els3odyyy"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:20:34"]
+[WhiteElo "1742"]
+[BlackElo "1458"]
+[WhiteRatingDiff "+36"]
+[BlackRatingDiff "-7"]
+[ECO "C44"]
+[Opening "Scotch Game: Scotch Gambit"]
+[TimeControl "300+8"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.11] } 2... Nc6
+{ [%eval 0.16] } 3. d4 { [%eval 0.0] } 3... exd4 { [%eval 0.18] } 4. Bc4
+{ [%eval 0.0] } 4... d6 { [%eval 0.25] } 5. Nxd4 { [%eval 0.29] } 5... Nxd4
+{ [%eval 0.47] } 6. Qxd4 { [%eval 0.53] } 6... c5 { [%eval 0.86] } 7. Qd3
+{ [%eval 0.87] } 7... Nf6 { [%eval 0.91] } 8. Nc3 { [%eval 0.89] } 8... Be7
+{ [%eval 0.92] } 9. O-O { [%eval 0.82] } 9... O-O { [%eval 0.81] } 10. Bg5
+{ [%eval 0.55] } 10... Qc7 $6 { [%eval 1.09] } 11. Bxf6 { [%eval 0.7] } 11...
+Bxf6 { [%eval 0.64] } 12. Nd5 { [%eval 0.62] } 12... Qd8 { [%eval 0.73] } 13.
+c3 { [%eval 0.6] } 13... Be6 { [%eval 0.75] } 14. Rad1 { [%eval 0.63] } 14...
+Bxd5 { [%eval 0.65] } 15. Qxd5 { [%eval 0.59] } 15... Rb8 { [%eval 0.97] } 16.
+Qxd6 { [%eval 0.91] } 16... Qxd6 { [%eval 0.98] } 17. Rxd6 { [%eval 1.0] }
+17... Be5 $6 { [%eval 1.57] } 18. Rd7 { [%eval 1.4] } 18... a6 $6
+{ [%eval 1.9] } 19. f4 { [%eval 1.82] } 19... Bf6 { [%eval 1.95] } 20. e5
+{ [%eval 1.56] } 20... Bd8 $6 { [%eval 2.44] } 21. Rfd1 { [%eval 2.4] } 21...
+Bb6 $6 { [%eval 2.93] } 22. g4 { [%eval 2.57] } 22... h6 $6 { [%eval 3.12] }
+23. f5 $6 { [%eval 2.56] } 23... Ba7 $4 { [%eval 6.14] } 24. e6
+{ [%eval 5.66] } 24... fxe6 $6 { [%eval 6.62] } 25. Bxe6+ $4 { [%eval 3.19] }
+25... Kh8 { [%eval 3.25] } 26. h4 { [%eval 2.93] } 26... Bb6 { [%eval 3.27] }
+27. g5 { [%eval 3.67] } 27... hxg5 $4 { [%eval 11.76] } 28. hxg5
+{ [%eval 10.16] } 28... Bd8 { [%eval 43.95] } 29. g6 { [%eval 12.91] } 29...
+Bf6 $6 { [%eval #4] } 30. R1d3 { [%eval #3] } 30... b5 { [%eval #2] } 31. Rh3+
+{ [%eval #1] } 1-0

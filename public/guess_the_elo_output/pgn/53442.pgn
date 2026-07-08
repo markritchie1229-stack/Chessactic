@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1H5NqY6H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Leooon"]
+[Black "guangyuzhao"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:03:14"]
+[WhiteElo "1349"]
+[BlackElo "1463"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.22] } 2. b3 { [%eval -0.09] } 2...
+Nc6 { [%eval 0.33] } 3. c4 $6 { [%eval -0.49] } 3... e5 { [%eval -0.02] } 4. d5
+{ [%eval -0.05] } 4... Nd4 { [%eval 0.31] } 5. e3 { [%eval 0.39] } 5... Nf5
+{ [%eval 0.55] } 6. Qd3 { [%eval 0.2] } 6... d6 { [%eval 0.52] } 7. e4
+{ [%eval 0.3] } 7... Ne7 { [%eval 0.48] } 8. Ba3 { [%eval 0.44] } 8... b6
+{ [%eval 0.58] } 9. Nf3 { [%eval 0.58] } 9... Bb7 { [%eval 0.68] } 10. Nc3
+{ [%eval 0.63] } 10... Ng6 { [%eval 0.83] } 11. b4 { [%eval 0.56] } 11... Nf4
+{ [%eval 0.62] } 12. Qd2 { [%eval 0.6] } 12... Qe7 $6 { [%eval 1.37] } 13. Nxe5
+$4 { [%eval -1.72] } 13... dxe5 $6 { [%eval -1.0] } 14. d6 $4 { [%eval -4.46] }
+14... Qxd6 { [%eval -4.61] } 15. Qxd6 { [%eval -4.58] } 15... cxd6 $6
+{ [%eval -3.59] } 16. c5 $2 { [%eval -4.96] } 16... Rc8 { [%eval -4.5] } 17.
+Bb5+ { [%eval -4.55] } 17... Bc6 $6 { [%eval -3.72] } 18. Bxc6+
+{ [%eval -3.79] } 18... Rxc6 { [%eval -3.63] } 19. Nb5 $2 { [%eval -5.73] }
+19... Nxe4 $2 { [%eval -3.97] } 20. cxd6 $4 { [%eval -8.02] } 20... Bxd6 $2
+{ [%eval -6.0] } 21. Nxa7 $2 { [%eval -8.7] } 21... Rc2 { [%eval -8.4] } 22.
+O-O { [%eval -8.68] } 22... Ne2+ { [%eval -8.44] } 23. Kh1 { [%eval -8.12] }
+23... Nf4 $2 { [%eval -6.46] } 24. Rae1 $2 { [%eval -9.44] } 24... Nxf2+
+{ [%eval -9.08] } 25. Kg1 $6 { [%eval -10.12] } 25... N2d3 { [%eval -9.91] }
+26. Rd1 { [%eval -10.24] } 26... Rxg2+ { [%eval -10.15] } 27. Kh1
+{ [%eval -10.15] } 27... Nf2+ { [%eval -9.87] } 28. Rxf2 { [%eval -9.86] }
+28... Rxf2 { [%eval -9.64] } 29. Rxd6 $2 { [%eval #-1] } 29... Rf1# 0-1

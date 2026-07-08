@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/HDDB3Rqh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jeduhay"]
+[Black "mkeninja"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:02:04"]
+[WhiteElo "1243"]
+[BlackElo "1274"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... e5 { [%eval 0.72] } 2. Nd2 $2 { [%eval -0.65] }
+2... exd4 { [%eval -0.58] } 3. Ngf3 { [%eval -0.48] } 3... d3 $6
+{ [%eval 0.35] } 4. exd3 { [%eval 0.21] } 4... Bc5 $6 { [%eval 0.73] } 5. g3 $6
+{ [%eval 0.2] } 5... Bxf2+ $2 { [%eval 3.02] } 6. Kxf2 { [%eval 3.07] } 6...
+Qf6 $6 { [%eval 3.64] } 7. Bg2 { [%eval 3.63] } 7... Qb6+ $6 { [%eval 4.16] }
+8. Kf1 $6 { [%eval 3.29] } 8... Nf6 $6 { [%eval 3.91] } 9. b3 $2
+{ [%eval 2.77] } 9... O-O { [%eval 3.07] } 10. Bb2 $6 { [%eval 2.28] } 10...
+Qe3 $2 { [%eval 4.51] } 11. Qe1 $2 { [%eval 3.35] } 11... Qc5 $2
+{ [%eval 4.93] } 12. d4 $4 { [%eval 1.72] } 12... Qxc2 { [%eval 1.75] } 13. Rb1
+$2 { [%eval -0.44] } 13... Qd3+ $2 { [%eval 1.7] } 14. Qe2 { [%eval 1.63] }
+14... Qxb1+ $4 { [%eval 7.36] } 15. Nxb1 { [%eval 7.2] } 15... Nd5 $2
+{ [%eval 8.7] } 16. Ne5 { [%eval 8.51] } 16... c6 { [%eval 8.74] } 17. Qg4 $4
+{ [%eval 0.0] } 17... Na6 $4 { [%eval 7.69] } 18. Nc3 $4 { [%eval 0.06] } 18...
+Nab4 $4 { [%eval 8.29] } 19. Nxd5 { [%eval 8.14] } 19... Nxd5 { [%eval 7.94] }
+20. Bxd5 $6 { [%eval 7.16] } 20... cxd5 { [%eval 6.91] } 21. h3 $2
+{ [%eval 4.08] } 21... f6 $4 { [%eval 7.26] } 22. Rh2 $2 { [%eval 4.66] } 22...
+fxe5+ $6 { [%eval 5.62] } 23. Rf2 { [%eval 5.34] } 23... Rxf2+ { [%eval 5.32] }
+24. Kxf2 { [%eval 4.57] } 24... exd4 $4 { [%eval #4] } 25. Bxd4 { [%eval #3] }
+25... g6 { [%eval #3] } 26. Qe4 $4 { [%eval -7.04] } 26... d6 $4 { [%eval #1] }
+27. Qe7 $6 { [%eval #1] } 27... Be6 { [%eval #1] } 28. Qg7# 1-0

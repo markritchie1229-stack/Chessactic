@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/owfn7W0S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "crubin"]
+[Black "MARKOF"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:34:20"]
+[WhiteElo "1913"]
+[BlackElo "2032"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+31"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.05] } 1... e6 { [%eval 0.17] } 2. Nc3 { [%eval 0.12] } 2...
+c6 { [%eval 0.25] } 3. Nf3 { [%eval 0.24] } 3... d5 { [%eval 0.18] } 4. e3
+{ [%eval 0.25] } 4... Nf6 { [%eval 0.24] } 5. a3 { [%eval 0.1] } 5... Ne4
+{ [%eval 0.44] } 6. Qc2 { [%eval 0.4] } 6... Nxc3 { [%eval 0.38] } 7. bxc3
+{ [%eval 0.25] } 7... dxc4 { [%eval 0.6] } 8. Bxc4 { [%eval 0.64] } 8... Nd7
+{ [%eval 0.78] } 9. O-O { [%eval 0.73] } 9... Bd6 { [%eval 0.87] } 10. Bb2
+{ [%eval 0.55] } 10... O-O { [%eval 0.58] } 11. Bd3 { [%eval 0.19] } 11... g6
+{ [%eval 0.63] } 12. c4 { [%eval 0.39] } 12... f6 { [%eval 0.73] } 13. Qc3 $6
+{ [%eval 0.2] } 13... Qe7 { [%eval 0.22] } 14. Bc2 { [%eval 0.09] } 14... Ne5
+$6 { [%eval 0.66] } 15. Nd4 { [%eval 0.47] } 15... Ng4 { [%eval 0.79] } 16. g3
+$6 { [%eval 0.18] } 16... e5 { [%eval 0.08] } 17. Ne2 { [%eval -0.29] } 17...
+Qg7 $6 { [%eval 0.4] } 18. d4 { [%eval 0.06] } 18... Qh6 { [%eval 0.08] } 19.
+h4 { [%eval -0.06] } 19... exd4 $6 { [%eval 0.73] } 20. Qxd4 $4
+{ [%eval -4.08] } 20... Be5 { [%eval -3.81] } 21. Qc5 { [%eval -4.25] } 21...
+Bxb2 { [%eval -4.34] } 22. Rab1 { [%eval -4.46] } 22... Be5 { [%eval -4.16] }
+23. f3 $4 { [%eval -12.91] } 23... Nxe3 $2 { [%eval -7.64] } 24. Rfe1 $2
+{ [%eval -12.12] } 24... Nxc2 { [%eval -11.62] } 0-1

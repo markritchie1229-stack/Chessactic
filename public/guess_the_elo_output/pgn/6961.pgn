@@ -1,0 +1,44 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/yC1F3kyQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MRTCBNKY"]
+[Black "TANKMAN"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:50:25"]
+[WhiteElo "1800"]
+[BlackElo "1563"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-5"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.38] } 2. d4 { [%eval 0.1] } 2... cxd4
+{ [%eval 0.02] } 3. Qxd4 { [%eval 0.06] } 3... Nc6 { [%eval 0.1] } 4. Qa4
+{ [%eval -0.06] } 4... d6 { [%eval 0.12] } 5. Bb5 { [%eval -0.29] } 5... Bd7
+{ [%eval -0.28] } 6. Bxc6 $6 { [%eval -1.0] } 6... Bxc6 { [%eval -1.0] } 7. Qb3
+{ [%eval -1.2] } 7... Bxe4 { [%eval -1.17] } 8. Nc3 $4 { [%eval -5.28] } 8...
+Bxg2 { [%eval -5.14] } 9. Nf3 $2 { [%eval -7.15] } 9... Bxh1 { [%eval -6.95] }
+10. Nd5 $2 { [%eval -8.41] } 10... e6 { [%eval -8.43] } 11. Nf4
+{ [%eval -8.26] } 11... Nf6 { [%eval -8.4] } 12. Be3 $2 { [%eval -12.27] }
+12... b6 $2 { [%eval -8.17] } 13. O-O-O $2 { [%eval -11.78] } 13... Be7 $4
+{ [%eval -3.98] } 14. Nxe6 $4 { [%eval -7.12] } 14... fxe6 { [%eval -6.93] }
+15. Qxe6 $4 { [%eval -14.41] } 15... Bxf3 { [%eval -14.16] } 16. Re1
+{ [%eval -14.47] } 16... Qd7 { [%eval -13.45] } 17. Qc4 { [%eval -16.68] }
+17... Rc8 { [%eval -16.16] } 18. Qb3 { [%eval -16.71] } 18... Bb7
+{ [%eval -14.26] } 19. Bg5 { [%eval -14.54] } 19... h6 { [%eval -13.97] } 20.
+Bh4 { [%eval -15.03] } 20... g5 { [%eval -14.71] } 21. Bg3 { [%eval -14.51] }
+21... Qc6 { [%eval -14.09] } 22. c3 { [%eval -14.76] } 22... a6
+{ [%eval -11.29] } 23. Qc2 { [%eval -14.89] } 23... b5 { [%eval -13.65] } 24.
+Qf5 { [%eval -15.07] } 24... Qf3 { [%eval -14.12] } 25. Qg6+ { [%eval -18.8] }
+25... Kd7 { [%eval -16.24] } 26. Rxe7+ { [%eval -23.18] } 26... Kxe7
+{ [%eval -20.98] } 27. Kc2 $6 { [%eval #-7] } 27... Rcf8 $6 { [%eval -28.81] }
+28. Kb3 $6 { [%eval #-8] } 28... Qd5+ $6 { [%eval -21.97] } 29. Ka3 $6
+{ [%eval #-9] } 29... a5 $6 { [%eval -30.35] } 30. b3 $6 { [%eval #-7] } 30...
+b4+ { [%eval #-7] } 31. cxb4 { [%eval #-7] } 31... axb4+ { [%eval #-6] } 32.
+Kb2 { [%eval #-6] } 32... Qd4+ { [%eval #-6] } 33. Kb1 { [%eval #-6] } 33...
+Qe4+ { [%eval #-8] } 34. Qxe4+ { [%eval #-8] } 34... Bxe4+ { [%eval #-7] } 35.
+Kc1 { [%eval #-10] } 1-0

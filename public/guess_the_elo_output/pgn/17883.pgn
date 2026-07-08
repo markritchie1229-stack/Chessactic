@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/BeJgcrBk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SpmKerch"]
+[Black "dmitry1988"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:53:23"]
+[WhiteElo "1192"]
+[BlackElo "1755"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+9"]
+[ECO "A46"]
+[Opening "Yusupov-Rubinstein System"]
+[TimeControl "720+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.14] } 2. e3 { [%eval 0.17] } 2... e6
+{ [%eval 0.08] } 3. Nf3 { [%eval 0.04] } 3... c5 { [%eval 0.09] } 4. Bb5
+{ [%eval -0.04] } 4... a6 { [%eval -0.1] } 5. Bd3 { [%eval -0.13] } 5... d5
+{ [%eval -0.15] } 6. Ne5 { [%eval -0.49] } 6... Bd7 { [%eval -0.04] } 7. h3
+{ [%eval -0.27] } 7... Nc6 { [%eval -0.34] } 8. Nxc6 { [%eval -0.74] } 8...
+Bxc6 { [%eval -0.53] } 9. Qe2 $2 { [%eval -3.32] } 9... c4 { [%eval -3.24] }
+10. Bxc4 { [%eval -3.35] } 10... dxc4 { [%eval -3.36] } 11. Qxc4 $2
+{ [%eval -4.42] } 11... Rc8 { [%eval -4.33] } 12. Qd3 $2 { [%eval -6.66] }
+12... Bxg2 { [%eval -6.54] } 13. Rh2 $2 { [%eval -8.47] } 13... Be4
+{ [%eval -8.44] } 14. Qe2 $2 { [%eval -10.05] } 14... Rxc2 { [%eval -9.8] } 15.
+Bd2 { [%eval -11.06] } 15... Rxb2 { [%eval -10.82] } 16. Nc3 { [%eval -11.5] }
+16... Bb4 { [%eval -11.05] } 17. Qc4 { [%eval -11.48] } 17... O-O $4
+{ [%eval -6.41] } 18. Rb1 $4 { [%eval -16.97] } 18... Bxb1 { [%eval -15.82] }
+19. Nxb1 { [%eval -23.25] } 19... Rxb1+ { [%eval -22.45] } 20. Ke2
+{ [%eval -21.3] } 20... Rb2 { [%eval -17.33] } 21. Rh1 $6 { [%eval #-9] } 21...
+Ne4 $6 { [%eval -20.91] } 22. Kf3 $6 { [%eval #-3] } 22... Nxd2+ $6
+{ [%eval #-5] } 0-1

@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/m9AlITvN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Srolikan"]
+[Black "fritzj52"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:22:33"]
+[WhiteElo "1366"]
+[BlackElo "1310"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-17"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Symmetrical Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... Nf6 { [%eval 0.25] } 2. Nf3 { [%eval 0.25] } 2...
+d5 { [%eval 0.13] } 3. Nc3 { [%eval -0.2] } 3... h6 { [%eval 0.09] } 4. Ne5
+{ [%eval 0.0] } 4... Be6 { [%eval 0.45] } 5. h3 { [%eval 0.05] } 5... Nc6
+{ [%eval 0.21] } 6. e3 { [%eval -0.04] } 6... Nxe5 { [%eval 0.03] } 7. e4 $4
+{ [%eval -3.1] } 7... Nxe4 $2 { [%eval -1.14] } 8. Nxe4 $6 { [%eval -1.72] }
+8... Nc4 $2 { [%eval -0.5] } 9. Nc5 { [%eval -0.47] } 9... Qd6 $6
+{ [%eval 0.11] } 10. b3 { [%eval 0.18] } 10... Qb6 $2 { [%eval 3.11] } 11. c3
+$2 { [%eval 0.92] } 11... O-O-O $2 { [%eval 3.41] } 12. bxc4 { [%eval 3.31] }
+12... Qa5 $2 { [%eval 4.67] } 13. Bb2 $2 { [%eval 3.34] } 13... b6 $2
+{ [%eval 4.71] } 14. Nb3 $2 { [%eval 3.37] } 14... dxc4 $4 { [%eval 13.7] } 15.
+Nxa5 { [%eval 13.38] } 15... bxa5 { [%eval 13.25] } 16. Ba3 { [%eval 12.48] }
+16... g5 { [%eval 14.18] } 17. Qa4 { [%eval 13.8] } 17... Rd5 { [%eval 21.54] }
+18. Qc6 { [%eval 17.2] } 18... Bg7 { [%eval 24.79] } 19. Bxe7 { [%eval 18.49] }
+19... Bxd4 { [%eval 24.1] } 20. cxd4 { [%eval 22.16] } 20... Rxd4
+{ [%eval 24.85] } 21. Bf6 { [%eval 17.26] } 21... Rd7 $6 { [%eval #1] } 22.
+Qa8# 1-0

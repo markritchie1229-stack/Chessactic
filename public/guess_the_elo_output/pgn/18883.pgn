@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/afmp8o9A"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JG22"]
+[Black "KingsForQueens"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:33:30"]
+[WhiteElo "1668"]
+[BlackElo "1114"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+24"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Main Line"]
+[TimeControl "180+20"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... d5 { [%eval 0.71] } 2. exd5 { [%eval 0.44] } 2...
+Qxd5 { [%eval 0.47] } 3. Nc3 { [%eval 0.48] } 3... Qa5 { [%eval 0.75] } 4. d3
+$6 { [%eval 0.23] } 4... e6 { [%eval 0.47] } 5. Bd2 { [%eval 0.51] } 5... Bd6
+{ [%eval 0.59] } 6. Ne4 { [%eval 0.38] } 6... Qe5 $4 { [%eval 5.04] } 7. Nf3 $4
+{ [%eval 0.34] } 7... Qxb2 { [%eval 0.66] } 8. Nxd6+ $6 { [%eval -0.07] } 8...
+cxd6 { [%eval 0.0] } 9. Be2 { [%eval -0.19] } 9... h5 $6 { [%eval 0.47] } 10.
+O-O { [%eval 0.31] } 10... Nf6 { [%eval 0.45] } 11. Re1 { [%eval 0.18] } 11...
+Qb6 { [%eval 0.35] } 12. Be3 { [%eval 0.17] } 12... Qd8 { [%eval 0.52] } 13.
+Bg5 { [%eval 0.43] } 13... Nc6 { [%eval 0.52] } 14. d4 { [%eval 0.52] } 14...
+O-O { [%eval 0.6] } 15. c3 { [%eval 0.42] } 15... d5 $6 { [%eval 1.38] } 16.
+Rb1 $6 { [%eval 0.43] } 16... Qa5 { [%eval 0.89] } 17. Qc2 $6 { [%eval 0.22] }
+17... Ne4 { [%eval 0.36] } 18. Bd2 { [%eval -0.06] } 18... a6 { [%eval 0.31] }
+19. c4 $2 { [%eval -1.05] } 19... Nxd2 { [%eval -0.93] } 20. Nxd2 $6
+{ [%eval -1.47] } 20... Nxd4 { [%eval -1.31] } 21. Qd3 $6 { [%eval -1.87] }
+21... Nxe2+ { [%eval -1.62] } 22. Rxe2 { [%eval -1.71] } 22... Rd8
+{ [%eval -1.63] } 23. Ra1 { [%eval -2.03] } 23... dxc4 { [%eval -2.12] } 24.
+Qf3 $4 { [%eval -7.05] } 0-1

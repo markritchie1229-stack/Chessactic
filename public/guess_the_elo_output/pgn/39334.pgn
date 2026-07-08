@@ -1,0 +1,36 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/UYxI2mb1"]
+[Site "https://lichess.org/DxhTxNse"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kostya2007"]
+[Black "Grzybiarz85"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:34:36"]
+[WhiteElo "1845"]
+[BlackElo "1749"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... b6 { [%eval 0.44] } 2. Nf3 { [%eval 0.21] } 2...
+Bb7 { [%eval 0.25] } 3. Nc3 { [%eval 0.25] } 3... e6 { [%eval 0.24] } 4. d4
+{ [%eval 0.14] } 4... Bb4 { [%eval 0.46] } 5. e5 { [%eval 0.19] } 5... d6
+{ [%eval 0.28] } 6. a3 { [%eval 0.01] } 6... Bxc3+ { [%eval -0.12] } 7. bxc3
+{ [%eval -0.08] } 7... dxe5 { [%eval 0.25] } 8. Nxe5 { [%eval 0.2] } 8... Nf6
+{ [%eval 0.27] } 9. Bd3 { [%eval 0.15] } 9... Nc6 { [%eval 0.19] } 10. Nxc6
+{ [%eval 0.18] } 10... Bxc6 { [%eval 0.39] } 11. O-O { [%eval 0.41] } 11... Qd5
+{ [%eval 0.43] } 12. f3 { [%eval 0.41] } 12... O-O-O { [%eval 0.85] } 13. Bf4
+{ [%eval 0.46] } 13... Nh5 { [%eval 0.9] } 14. Be3 { [%eval 0.97] } 14... h6
+{ [%eval 1.23] } 15. Be4 $6 { [%eval 0.34] } 15... Qd6 { [%eval 0.77] } 16.
+Bxc6 $6 { [%eval 0.04] } 16... Qxc6 { [%eval 0.13] } 17. f4 $2
+{ [%eval -1.43] } 17... Qxc3 { [%eval -1.43] } 18. Bf2 $2 { [%eval -2.83] }
+18... Nxf4 { [%eval -2.72] } 19. Qg4 { [%eval -2.96] } 19... Ng6 $6
+{ [%eval -2.16] } 20. Qe4 { [%eval -2.16] } 20... Rhe8 { [%eval -2.05] } 21. a4
+{ [%eval -2.19] } 21... Kb8 { [%eval -2.04] } 22. a5 { [%eval -2.01] } 22... f5
+{ [%eval -2.15] } 23. Qe2 { [%eval -2.3] } 23... Nf4 { [%eval -2.31] } 24. Qa6
+$4 { [%eval -15.14] } 24... Nd5 $4 { [%eval 2.32] } 25. axb6 { [%eval 2.16] }
+25... axb6 $4 { [%eval #1] } 26. Qa8# 1-0

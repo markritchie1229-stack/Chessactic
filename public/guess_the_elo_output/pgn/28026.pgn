@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DISlYTdI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Templarian93"]
+[Black "sky1234"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:05:31"]
+[WhiteElo "1104"]
+[BlackElo "1071"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-10"]
+[ECO "C25"]
+[Opening "Vienna Game: Zhuravlev Countergambit #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... e5 { [%eval 0.47] } 2. Nc3 { [%eval 0.09] } 2...
+Bb4 { [%eval 0.45] } 3. Bc4 { [%eval 0.0] } 3... Bxc3 { [%eval 0.14] } 4. bxc3
+{ [%eval 0.17] } 4... Nf6 { [%eval 0.13] } 5. Qf3 { [%eval 0.0] } 5... O-O
+{ [%eval 0.0] } 6. Ba3 $6 { [%eval -0.64] } 6... Nc6 $2 { [%eval 1.25] } 7.
+Bxf8 { [%eval 1.12] } 7... Qxf8 { [%eval 1.12] } 8. d4 $2 { [%eval 0.07] } 8...
+exd4 { [%eval 0.21] } 9. cxd4 $2 { [%eval -2.78] } 9... Nxd4 $4
+{ [%eval 0.25] } 10. Qd3 { [%eval 0.28] } 10... Nc6 { [%eval 0.66] } 11. O-O-O
+$2 { [%eval -0.73] } 11... d6 $6 { [%eval 0.16] } 12. f4 { [%eval -0.26] }
+12... Bg4 $6 { [%eval 0.43] } 13. Nf3 { [%eval 0.44] } 13... Bxf3
+{ [%eval 0.72] } 14. gxf3 { [%eval 0.68] } 14... Rd8 $6 { [%eval 1.19] } 15. e5
+$2 { [%eval -0.31] } 15... dxe5 { [%eval -0.3] } 16. Qf5 $2 { [%eval -1.31] }
+16... Rxd1+ $2 { [%eval 0.26] } 17. Rxd1 { [%eval 0.29] } 17... a6 $4
+{ [%eval 3.83] } 18. Bd3 $4 { [%eval 0.0] } 18... b5 $6 { [%eval 0.72] } 19. h4
+$2 { [%eval -0.64] } 19... Nd4 $6 { [%eval 0.0] } 20. fxe5 $4 { [%eval -8.17] }
+20... Nd5 $4 { [%eval #1] } 21. Qxh7# 1-0

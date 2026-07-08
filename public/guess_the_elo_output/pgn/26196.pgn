@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/GTyzllMe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vinichamp"]
+[Black "mdeepu"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:35:29"]
+[WhiteElo "1617"]
+[BlackElo "1536"]
+[WhiteRatingDiff "+38"]
+[BlackRatingDiff "-32"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.27] } 2...
+Nc6 { [%eval 0.35] } 3. Bc4 { [%eval 0.24] } 3... a6 $6 { [%eval 0.79] } 4. O-O
+{ [%eval 0.83] } 4... b5 { [%eval 0.99] } 5. Bd5 { [%eval 1.13] } 5... Rb8
+{ [%eval 1.3] } 6. d4 { [%eval 1.02] } 6... d6 $4 { [%eval 5.52] } 7. Bxc6+
+{ [%eval 5.55] } 7... Bd7 { [%eval 5.58] } 8. Bxd7+ { [%eval 5.43] } 8... Qxd7
+{ [%eval 5.5] } 9. dxe5 { [%eval 5.37] } 9... Be7 $6 { [%eval 6.14] } 10. exd6
+$6 { [%eval 5.46] } 10... cxd6 { [%eval 5.62] } 11. Bf4 { [%eval 5.32] } 11...
+Rd8 { [%eval 5.62] } 12. Nc3 { [%eval 5.45] } 12... Qg4 $6 { [%eval 6.37] } 13.
+h3 $2 { [%eval 3.78] } 13... Qxf4 { [%eval 3.81] } 14. Nd5 { [%eval 3.81] }
+14... Qxe4 { [%eval 3.75] } 15. Nxe7 $4 { [%eval 0.66] } 15... Nxe7
+{ [%eval 0.88] } 16. Re1 { [%eval 0.79] } 16... Qb4 $4 { [%eval 3.84] } 17. Qe2
+$2 { [%eval 1.03] } 17... Rd7 { [%eval 1.09] } 18. b3 $6 { [%eval 0.55] } 18...
+O-O { [%eval 0.74] } 19. Ng5 $6 { [%eval 0.19] } 19... h6 { [%eval 0.41] } 20.
+Ne6 $6 { [%eval -0.12] } 20... fxe6 $4 { [%eval 3.78] } 21. Qxe6+
+{ [%eval 3.72] } 21... Kh8 $6 { [%eval 4.56] } 22. Qxd7 { [%eval 4.31] } 22...
+Nf5 $6 { [%eval 5.21] } 23. Re8 { [%eval 5.01] } 23... d5 $4 { [%eval 12.39] }
+24. Rxf8+ { [%eval 12.27] } 24... Qxf8 { [%eval 11.88] } 25. Re1
+{ [%eval 10.53] } 25... Kh7 { [%eval 11.99] } 26. Re8 { [%eval 11.14] } 26...
+Qf6 { [%eval 10.29] } 27. Re6 $4 { [%eval 4.19] } 27... Qa1+ { [%eval 4.06] }
+28. Kh2 { [%eval 3.89] } 28... Nd4 $4 { [%eval 10.8] } 29. Re7
+{ [%eval 10.08] } 29... Ne2 $6 { [%eval #2] } 30. Qf5+ { [%eval #1] } 30... Kh8
+{ [%eval #1] } 31. Re8# 1-0

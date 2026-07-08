@@ -1,0 +1,32 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/n9775J3h"]
+[Date "????.??.??"]
+[Round "?"]
+[White "timothybradley"]
+[Black "chien11110"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:02:33"]
+[WhiteElo "1578"]
+[BlackElo "1639"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "420+7"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.27] } 3. h3 { [%eval 0.21] } 3... c5 { [%eval 0.31] } 4. Bc4
+{ [%eval 0.28] } 4... Nc6 { [%eval 0.44] } 5. Nc3 { [%eval 0.26] } 5... g6
+{ [%eval 0.4] } 6. d3 { [%eval 0.43] } 6... Bg7 $6 { [%eval 1.18] } 7. Bg5 $6
+{ [%eval 0.28] } 7... Nge7 { [%eval 0.34] } 8. Nd5 { [%eval 0.38] } 8... O-O $6
+{ [%eval 1.26] } 9. Bxe7 $2 { [%eval 0.07] } 9... Nxe7 { [%eval 0.06] } 10. g4
+{ [%eval -0.43] } 10... a6 { [%eval -0.33] } 11. Nd2 { [%eval -0.29] } 11... b5
+{ [%eval -0.39] } 12. Bb3 { [%eval -0.33] } 12... Rb8 { [%eval -0.31] } 13. h4
+{ [%eval -0.17] } 13... Bb7 { [%eval 0.0] } 14. a3 $6 { [%eval -0.89] } 14...
+Bxd5 { [%eval -0.69] } 15. Bxd5 { [%eval -0.93] } 15... Nxd5 { [%eval -0.84] }
+16. exd5 { [%eval -0.77] } 16... f5 { [%eval -0.7] } 17. g5 $2
+{ [%eval -1.95] } 17... f4 $2 { [%eval 0.68] } 18. Ne4 { [%eval 0.74] } 18...
+Qd7 { [%eval 0.94] } 19. h5 { [%eval 0.91] } 19... gxh5 $2 { [%eval 2.87] } 20.
+Qxh5 { [%eval 2.77] } 20... Qf7 $4 { [%eval #1] } 21. Qxh7# 1-0

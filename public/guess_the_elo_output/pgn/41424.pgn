@@ -1,0 +1,43 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/CefNQs5S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "urjah"]
+[Black "isaypotato"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:58:48"]
+[WhiteElo "2048"]
+[BlackElo "1808"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense: Kmoch Variation"]
+[TimeControl "2700+45"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... Nf6 { [%eval 0.18] } 2. c4 { [%eval 0.26] } 2... e6
+{ [%eval 0.22] } 3. Nc3 { [%eval 0.14] } 3... Bb4 { [%eval 0.16] } 4. f3
+{ [%eval -0.24] } 4... c5 { [%eval -0.12] } 5. d5 { [%eval 0.02] } 5... O-O
+{ [%eval 0.06] } 6. e4 { [%eval -0.04] } 6... d6 { [%eval 0.07] } 7. Ne2
+{ [%eval -0.07] } 7... b5 { [%eval -0.07] } 8. Ng3 { [%eval -0.2] } 8... bxc4
+{ [%eval 0.27] } 9. Bxc4 { [%eval 0.06] } 9... e5 $6 { [%eval 0.78] } 10. Bg5
+{ [%eval 0.7] } 10... h6 { [%eval 0.73] } 11. Bd2 { [%eval 0.71] } 11... Ba6
+{ [%eval 1.11] } 12. Bxa6 { [%eval 1.07] } 12... Nxa6 { [%eval 1.15] } 13. O-O
+{ [%eval 0.98] } 13... Nc7 { [%eval 1.11] } 14. Nf5 { [%eval 1.11] } 14... a6
+{ [%eval 1.39] } 15. Qe1 { [%eval 1.33] } 15... Nh5 { [%eval 1.29] } 16. h4 $2
+{ [%eval 0.22] } 16... Nb5 { [%eval 0.43] } 17. Rc1 $6 { [%eval -0.37] } 17...
+Nd4 { [%eval -0.29] } 18. Nxd4 $6 { [%eval -0.96] } 18... cxd4
+{ [%eval -0.91] } 19. Ne2 { [%eval -1.4] } 19... Bxd2 { [%eval -1.25] } 20.
+Qxd2 { [%eval -1.21] } 20... Qd7 $2 { [%eval 0.41] } 21. Rc6 $6
+{ [%eval -0.22] } 21... Rfc8 { [%eval 0.25] } 22. Rfc1 { [%eval 0.17] } 22...
+Nf6 { [%eval 0.62] } 23. Qc2 { [%eval 0.13] } 23... Rcb8 { [%eval 0.52] } 24.
+Kf2 $6 { [%eval -0.27] } 24... Ne8 { [%eval -0.2] } 25. Ng3 { [%eval -0.13] }
+25... a5 { [%eval 0.0] } 26. Nf5 { [%eval -0.17] } 26... h5 { [%eval -0.14] }
+27. g4 { [%eval -0.49] } 27... g6 { [%eval 0.0] } 28. Nh6+ { [%eval 0.0] }
+28... Kg7 { [%eval 0.0] } 29. Qd2 { [%eval 0.0] } 29... a4 { [%eval 0.37] } 30.
+gxh5 { [%eval 0.0] } 30... Qd8 $2 { [%eval 1.25] } 31. Kg3 { [%eval 1.25] }
+31... gxh5 $4 { [%eval 6.73] } 32. Nf5+ { [%eval 6.53] } 32... Kg8
+{ [%eval 6.17] } 33. Kh3 { [%eval 5.91] } 33... Qf6 { [%eval 5.1] } 34. Rg1+
+{ [%eval 4.69] } 34... Kh7 $4 { [%eval 13.15] } 35. Rg5 { [%eval 12.64] } 35...
+Kh8 { [%eval 32.39] } 36. Qg2 { [%eval 18.38] } 1-0

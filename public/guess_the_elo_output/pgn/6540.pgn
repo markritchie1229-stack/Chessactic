@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8bCoutiX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "misaru"]
+[Black "sintoumekkyaku"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:16:52"]
+[WhiteElo "1882"]
+[BlackElo "1778"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-7"]
+[ECO "C41"]
+[Opening "Philidor Defense #4"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.43] } 2. Nf3 { [%eval 0.37] } 2... d6
+{ [%eval 0.41] } 3. Bc4 { [%eval 0.3] } 3... Be7 { [%eval 0.3] } 4. h3
+{ [%eval 0.33] } 4... c6 { [%eval 0.31] } 5. Bb3 { [%eval 0.18] } 5... Nf6
+{ [%eval 0.22] } 6. d3 { [%eval 0.26] } 6... O-O { [%eval 0.32] } 7. O-O
+{ [%eval 0.25] } 7... d5 $6 { [%eval 1.07] } 8. exd5 { [%eval 1.04] } 8... cxd5
+{ [%eval 1.1] } 9. Nxe5 { [%eval 1.13] } 9... Bd6 { [%eval 1.26] } 10. Nf3
+{ [%eval 1.1] } 10... Nc6 { [%eval 1.33] } 11. Bg5 { [%eval 0.98] } 11... Be6
+{ [%eval 1.33] } 12. c4 { [%eval 0.9] } 12... Qd7 { [%eval 1.38] } 13. Bxf6
+{ [%eval 1.28] } 13... Bxh3 $2 { [%eval 2.86] } 14. Bh4 { [%eval 2.64] } 14...
+Bxg2 $4 { [%eval 5.92] } 15. Kxg2 { [%eval 5.84] } 15... Qg4+ { [%eval 6.28] }
+16. Bg3 { [%eval 6.21] } 16... f5 { [%eval 6.45] } 17. Nh2 $6 { [%eval 5.7] }
+17... Qg5 { [%eval 6.06] } 18. cxd5 { [%eval 5.74] } 18... Nd4 { [%eval 5.69] }
+19. Nd2 { [%eval 5.7] } 19... f4 { [%eval 5.46] } 20. Ne4 { [%eval 5.5] } 20...
+Qg6 { [%eval 5.83] } 21. Qg4 { [%eval 5.68] } 21... fxg3 { [%eval 5.71] } 22.
+Qxg6 { [%eval 5.41] } 22... hxg6 { [%eval 5.6] } 23. fxg3 $6 { [%eval 5.0] }
+23... Nf5 $4 { [%eval 9.09] } 24. Rxf5 { [%eval 8.8] } 24... gxf5
+{ [%eval 8.89] } 25. Nxd6 { [%eval 8.58] } 25... f4 $2 { [%eval 10.41] } 26.
+Nxb7 { [%eval 9.9] } 26... Rae8 { [%eval 12.47] } 27. d6+ { [%eval 11.94] }
+27... Kh8 { [%eval 12.78] } 28. d7 { [%eval 12.3] } 28... Rb8 { [%eval 13.81] }
+29. d8=Q { [%eval 13.12] } 29... Rfxd8 { [%eval 13.27] } 30. Nxd8
+{ [%eval 12.76] } 30... Rxd8 { [%eval 12.59] } 31. gxf4 { [%eval 11.98] } 31...
+Rxd3 { [%eval 21.67] } 32. Nf3 { [%eval 10.75] } 32... a5 $6 { [%eval #1] } 33.
+Rh1# 1-0

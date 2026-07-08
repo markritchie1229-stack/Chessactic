@@ -1,0 +1,48 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/SMLZmU1o"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MSI02"]
+[Black "Memoooo"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:00:33"]
+[WhiteElo "1294"]
+[BlackElo "1291"]
+[WhiteRatingDiff "+72"]
+[BlackRatingDiff "-111"]
+[ECO "C48"]
+[Opening "Four Knights Game: Spanish Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.44] } 2. Nf3 { [%eval 0.43] } 2...
+Nf6 { [%eval 0.51] } 3. Nc3 { [%eval 0.03] } 3... Nc6 { [%eval 0.07] } 4. Bb5
+{ [%eval 0.16] } 4... Nb4 $2 { [%eval 1.42] } 5. d3 $6 { [%eval 0.56] } 5... c6
+{ [%eval 0.7] } 6. Ba4 { [%eval 0.7] } 6... b5 $6 { [%eval 1.35] } 7. Bb3
+{ [%eval 1.37] } 7... d6 { [%eval 1.25] } 8. a3 { [%eval 1.16] } 8... Na6
+{ [%eval 1.87] } 9. Bg5 $2 { [%eval 0.3] } 9... Be7 { [%eval 0.21] } 10. h3
+{ [%eval 0.01] } 10... h6 { [%eval 0.36] } 11. Bh4 { [%eval 0.12] } 11... Bg4
+$4 { [%eval 3.97] } 12. O-O $4 { [%eval 0.49] } 12... c5 $4 { [%eval 4.02] }
+13. hxg4 { [%eval 3.96] } 13... Nxg4 $6 { [%eval 4.6] } 14. Nh2 $2
+{ [%eval 3.56] } 14... Bxh4 { [%eval 4.04] } 15. Qxg4 { [%eval 3.91] } 15...
+Qg5 $2 { [%eval 5.24] } 16. Qxg5 $6 { [%eval 4.58] } 16... Bxg5
+{ [%eval 4.56] } 17. Nd5 $2 { [%eval 3.44] } 17... O-O { [%eval 3.74] } 18. f3
+$6 { [%eval 2.81] } 18... Rae8 $6 { [%eval 3.47] } 19. Ng4 $6 { [%eval 2.83] }
+19... h5 { [%eval 3.08] } 20. Nf2 { [%eval 2.93] } 20... Bh4 { [%eval 3.23] }
+21. c4 { [%eval 3.16] } 21... Rb8 $6 { [%eval 3.86] } 22. Nh3 $2
+{ [%eval 2.52] } 22... bxc4 $2 { [%eval 5.39] } 23. Bxc4 { [%eval 5.17] } 23...
+Rxb2 { [%eval 5.34] } 24. Bxa6 { [%eval 5.09] } 24... Rfb8 { [%eval 5.35] } 25.
+Ne7+ $4 { [%eval 1.63] } 25... Kf8 $4 { [%eval 5.36] } 26. Nf5 { [%eval 5.46] }
+26... Bd8 { [%eval 5.25] } 27. Nxd6 $6 { [%eval 4.39] } 27... R8b6 $4
+{ [%eval 7.45] } 28. Nc4 { [%eval 7.18] } 28... Rxa6 $2 { [%eval 10.29] } 29.
+Nxb2 { [%eval 10.3] } 29... Rd6 { [%eval 10.24] } 30. Rad1 { [%eval 10.07] }
+30... Bb6 { [%eval 10.87] } 31. Nc4 { [%eval 10.63] } 31... Re6
+{ [%eval 10.96] } 32. Nxb6 { [%eval 10.35] } 32... Rxb6 { [%eval 11.18] } 33.
+Ng5 { [%eval 9.71] } 33... Rb3 { [%eval 11.14] } 34. f4 { [%eval 10.78] } 34...
+Kg8 { [%eval 22.55] } 35. fxe5 { [%eval 19.03] } 35... Rb7 { [%eval 21.07] }
+36. Rc1 { [%eval 17.83] } 36... a6 { [%eval 26.75] } 37. Rxc5 { [%eval 22.5] }
+37... Re7 $6 { [%eval #2] } 38. Rb1 $6 { [%eval 14.75] } 38... h4 $6
+{ [%eval #2] } 39. Rb6 $6 { [%eval 15.27] } 39... a5 $6 { [%eval #2] } 40. Rxa5
+$6 { [%eval 21.11] } 40... Rc7 $6 { [%eval #2] } 41. Ra8+ { [%eval #1] } 41...
+Rc8 { [%eval #1] } 42. Rxc8# 1-0

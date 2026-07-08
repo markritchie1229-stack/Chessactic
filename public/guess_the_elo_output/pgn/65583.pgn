@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/2E65c9hB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lybitelia"]
+[Black "Baikonur82"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:01:28"]
+[WhiteElo "1442"]
+[BlackElo "1558"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-14"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #2"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.07] } 1... e6 { [%eval 0.14] } 2. d4 { [%eval 0.21] } 2... d5
+{ [%eval 0.27] } 3. e5 { [%eval 0.14] } 3... c5 { [%eval 0.03] } 4. c3
+{ [%eval 0.0] } 4... cxd4 { [%eval 0.07] } 5. cxd4 { [%eval 0.16] } 5... Bb4+
+{ [%eval 0.6] } 6. Bd2 { [%eval 0.41] } 6... Bxd2+ { [%eval 0.41] } 7. Qxd2
+{ [%eval 0.42] } 7... Nc6 { [%eval 0.42] } 8. Nf3 { [%eval 0.32] } 8... a6
+{ [%eval 0.54] } 9. Nc3 { [%eval 0.45] } 9... b5 { [%eval 0.82] } 10. a3
+{ [%eval 0.48] } 10... a5 $2 { [%eval 2.75] } 11. Bxb5 $2 { [%eval 1.5] } 11...
+Bd7 { [%eval 1.86] } 12. O-O { [%eval 1.76] } 12... Na7 { [%eval 2.2] } 13. Ba4
+$6 { [%eval 1.69] } 13... Ne7 { [%eval 1.97] } 14. b4 $6 { [%eval 1.03] } 14...
+axb4 $6 { [%eval 1.65] } 15. axb4 { [%eval 1.67] } 15... O-O { [%eval 1.71] }
+16. b5 { [%eval 1.57] } 16... Nac8 { [%eval 1.66] } 17. Bc2 { [%eval 1.64] }
+17... Rxa1 { [%eval 1.62] } 18. Rxa1 { [%eval 1.74] } 18... Nb6
+{ [%eval 1.79] } 19. Na4 $6 { [%eval 0.91] } 19... Bxb5 { [%eval 1.04] } 20.
+Nxb6 $6 { [%eval 0.54] } 20... Qxb6 { [%eval 0.22] } 21. Rb1 { [%eval 0.0] }
+21... Rb8 $4 { [%eval 3.86] } 22. Ba4 $4 { [%eval 0.0] } 22... Qa5 $4
+{ [%eval 18.73] } 23. Rxb5 $4 { [%eval 0.0] } 23... Qxd2 $4 { [%eval #2] } 24.
+Rxb8+ { [%eval #1] } 24... Nc8 { [%eval #1] } 25. Rxc8# 1-0

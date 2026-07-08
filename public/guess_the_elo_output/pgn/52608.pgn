@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/8Ax7lFIx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SuperChess2017"]
+[Black "poet1c"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:51:08"]
+[WhiteElo "2021"]
+[BlackElo "2042"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C37"]
+[Opening "King's Gambit Accepted: Soerensen Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.39] } 2. f4 $6 { [%eval -0.39] } 2...
+exf4 { [%eval -0.31] } 3. Nf3 { [%eval -0.33] } 3... g5 { [%eval -0.55] } 4. d4
+$6 { [%eval -1.1] } 4... g4 { [%eval -0.87] } 5. Ne5 { [%eval -0.94] } 5... Nf6
+$2 { [%eval 1.25] } 6. Bc4 { [%eval 1.06] } 6... d5 { [%eval 1.07] } 7. exd5
+{ [%eval 1.23] } 7... Nxd5 { [%eval 1.23] } 8. O-O { [%eval 1.09] } 8... Be6 $2
+{ [%eval 2.32] } 9. b3 $2 { [%eval -0.14] } 9... c6 $2 { [%eval 1.27] } 10.
+Bxf4 { [%eval 1.16] } 10... Bg7 { [%eval 1.29] } 11. Nd2 $2 { [%eval 0.0] }
+11... Nd7 $6 { [%eval 0.54] } 12. Ne4 { [%eval 0.3] } 12... Nxe5 $2
+{ [%eval 1.3] } 13. Bxe5 { [%eval 1.15] } 13... Bxe5 { [%eval 1.31] } 14. dxe5
+{ [%eval 0.89] } 14... O-O $2 { [%eval 3.68] } 15. Qd2 $2 { [%eval 0.93] }
+15... Kh8 $2 { [%eval 2.03] } 16. Qh6 $2 { [%eval 1.01] } 16... Rg8
+{ [%eval 1.03] } 17. Bxd5 { [%eval 1.06] } 17... Bxd5 $6 { [%eval 1.59] } 18.
+Nf6 { [%eval 1.51] } 18... Rg7 { [%eval 1.46] } 19. c4 { [%eval 1.41] } 19...
+Be6 { [%eval 1.27] } 20. Rad1 { [%eval 1.25] } 20... Qe7 { [%eval 1.59] } 21.
+Rd6 { [%eval 1.47] } 21... b5 $2 { [%eval 2.52] } 22. Rfd1 $2 { [%eval 1.44] }
+22... bxc4 { [%eval 1.4] } 23. bxc4 { [%eval 1.43] } 23... Bxc4
+{ [%eval 1.34] } 24. Rd7 { [%eval 1.25] } 24... Qxe5 $4 { [%eval #4] } 25. Rd8+
+{ [%eval #3] } 25... Rg8 { [%eval #1] } 26. Qxh7# 1-0

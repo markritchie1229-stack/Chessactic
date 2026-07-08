@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/bCfilPzX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "petcha99"]
+[Black "Charlie44"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:52:23"]
+[WhiteElo "1767"]
+[BlackElo "1916"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense"]
+[TimeControl "600+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.27] } 2. c4 { [%eval 0.22] } 2... e6
+{ [%eval 0.18] } 3. Nc3 { [%eval 0.11] } 3... Bb4 { [%eval 0.05] } 4. Bd2
+{ [%eval -0.04] } 4... O-O { [%eval 0.0] } 5. e3 { [%eval 0.0] } 5... d5
+{ [%eval 0.06] } 6. a3 { [%eval 0.02] } 6... Bxc3 { [%eval 0.18] } 7. Bxc3
+{ [%eval 0.09] } 7... Nbd7 { [%eval 0.12] } 8. Bd3 { [%eval 0.04] } 8... c5
+{ [%eval -0.01] } 9. Nf3 { [%eval 0.0] } 9... cxd4 { [%eval 0.12] } 10. Bxd4
+{ [%eval 0.2] } 10... dxc4 { [%eval 0.17] } 11. Bxc4 { [%eval 0.07] } 11... Nb6
+$6 { [%eval 0.89] } 12. Ba2 $6 { [%eval 0.37] } 12... Qe7 { [%eval 0.66] } 13.
+O-O { [%eval 0.54] } 13... Bd7 { [%eval 0.73] } 14. Bxb6 $6 { [%eval 0.18] }
+14... axb6 { [%eval 0.18] } 15. Qb3 { [%eval 0.17] } 15... Bc6 { [%eval 0.24] }
+16. Ne5 { [%eval 0.06] } 16... b5 { [%eval 0.16] } 17. Nxc6 { [%eval 0.06] }
+17... bxc6 { [%eval 0.14] } 18. Rac1 { [%eval 0.03] } 18... Rac8
+{ [%eval 0.26] } 19. Rc2 { [%eval -0.04] } 19... Rfd8 { [%eval -0.06] } 20.
+Rfc1 { [%eval -0.38] } 20... Qd7 { [%eval 0.0] } 21. f3 { [%eval -0.34] } 21...
+h6 { [%eval -0.41] } 22. Rc5 { [%eval -0.66] } 22... Qd2 { [%eval -0.56] } 23.
+R1c2 $4 { [%eval #-1] } 23... Qd1+ $4 { [%eval -6.72] } 24. Kf2
+{ [%eval -6.63] } 24... Rd2+ { [%eval -6.54] } 25. Rxd2 { [%eval -6.43] } 25...
+Qxd2+ { [%eval -6.25] } 26. Kg3 $2 { [%eval -8.87] } 26... Qd6+
+{ [%eval -8.58] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/S2jBQs5X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "thebuz"]
+[Black "Tolya0937"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:10:43"]
+[WhiteElo "1589"]
+[BlackElo "1568"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.03] } 1... e6 { [%eval 0.16] } 2. Nf3 { [%eval 0.13] } 2... g6
+$6 { [%eval 0.66] } 3. Bc4 $6 { [%eval 0.03] } 3... Bg7 { [%eval 0.48] } 4. Nc3
+{ [%eval 0.16] } 4... Qe7 $6 { [%eval 0.97] } 5. d4 { [%eval 0.6] } 5... b6 $2
+{ [%eval 1.73] } 6. Be3 $6 { [%eval 0.96] } 6... Bb7 { [%eval 0.99] } 7. O-O
+{ [%eval 1.04] } 7... d6 { [%eval 1.1] } 8. Re1 { [%eval 0.76] } 8... Nd7
+{ [%eval 1.04] } 9. Bb3 $6 { [%eval 0.53] } 9... O-O-O { [%eval 0.86] } 10. d5
+$6 { [%eval 0.29] } 10... f5 $2 { [%eval 1.94] } 11. dxe6 { [%eval 1.99] }
+11... Ne5 { [%eval 2.22] } 12. Nxe5 $6 { [%eval 1.37] } 12... Bxe5
+{ [%eval 1.6] } 13. Nd5 { [%eval 1.64] } 13... Qg7 { [%eval 1.78] } 14. Nb4 $2
+{ [%eval 0.62] } 14... Bxb2 { [%eval 1.05] } 15. Rb1 { [%eval 0.89] } 15... Bc3
+{ [%eval 1.08] } 16. f3 $4 { [%eval -4.08] } 16... Bxb4 { [%eval -3.87] } 17.
+Bd4 $6 { [%eval -4.37] } 17... Nf6 $6 { [%eval -3.55] } 18. c3
+{ [%eval -3.62] } 18... Bc5 { [%eval -3.43] } 19. a4 $2 { [%eval -5.12] } 19...
+Bxd4+ $2 { [%eval -3.32] } 20. cxd4 $2 { [%eval -4.88] } 20... Nh5 $2
+{ [%eval -2.18] } 21. d5 { [%eval -2.57] } 21... fxe4 { [%eval -2.38] } 22.
+fxe4 { [%eval -2.39] } 22... Qf6 { [%eval -1.96] } 23. Rf1 { [%eval -2.28] }
+23... Qe5 { [%eval -2.43] } 24. Qg4 $2 { [%eval -3.91] } 24... Rhf8 $4
+{ [%eval 10.82] } 25. e7+ { [%eval 10.29] } 25... Kb8 { [%eval 19.3] } 26.
+exd8=Q+ $4 { [%eval 1.59] } 26... Rxd8 { [%eval 1.73] } 27. Rf7 $2
+{ [%eval -0.25] } 27... Qd4+ $2 { [%eval 0.97] } 28. Kh1 { [%eval 0.83] } 28...
+Qd3 { [%eval 0.76] } 29. Ba2 $6 { [%eval 0.22] } 29... Qc2 { [%eval 0.27] } 30.
+Rbf1 $2 { [%eval -1.35] } 30... Qxa2 { [%eval -1.18] } 0-1

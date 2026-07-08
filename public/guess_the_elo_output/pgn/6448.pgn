@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/KWheuPGv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheRodriguez25"]
+[Black "seachess"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:08:45"]
+[WhiteElo "1456"]
+[BlackElo "1461"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[TimeControl "300+5"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.28] } 2. c4 { [%eval 0.16] } 2... dxc4
+{ [%eval 0.3] } 3. e3 { [%eval 0.29] } 3... e6 { [%eval 0.26] } 4. Bxc4
+{ [%eval 0.33] } 4... Bb4+ { [%eval 0.66] } 5. Nc3 { [%eval 0.28] } 5... Nf6
+{ [%eval 0.39] } 6. a3 { [%eval 0.37] } 6... Ba5 $6 { [%eval 1.08] } 7. b4
+{ [%eval 1.0] } 7... Bb6 { [%eval 1.11] } 8. Nge2 { [%eval 0.65] } 8... O-O
+{ [%eval 0.68] } 9. O-O { [%eval 0.52] } 9... Nc6 { [%eval 0.62] } 10. Ng3
+{ [%eval 0.47] } 10... a5 { [%eval 0.82] } 11. b5 { [%eval 0.77] } 11... Ne7
+{ [%eval 0.85] } 12. Qf3 { [%eval 0.71] } 12... c5 $6 { [%eval 1.42] } 13. bxc6
+$6 { [%eval 0.75] } 13... Nxc6 { [%eval 0.8] } 14. Nce4 { [%eval 0.39] } 14...
+h6 $6 { [%eval 1.37] } 15. Nxf6+ { [%eval 1.29] } 15... gxf6 $4
+{ [%eval 5.92] } 16. Nh5 $2 { [%eval 3.79] } 16... f5 { [%eval 3.62] } 17. Qg3+
+$2 { [%eval 1.47] } 17... Qg5 { [%eval 1.46] } 18. Qxg5+ $6 { [%eval 0.7] }
+18... hxg5 { [%eval 0.73] } 19. g3 { [%eval 0.5] } 19... Bd8 { [%eval 0.43] }
+20. f4 $6 { [%eval -0.23] } 20... g4 { [%eval -0.06] } 21. d5 $6
+{ [%eval -0.57] } 21... Ne7 $2 { [%eval 0.46] } 22. dxe6 { [%eval 0.07] } 22...
+Bxe6 { [%eval 0.52] } 23. Bxe6 $2 { [%eval -0.6] } 23... fxe6 { [%eval -0.41] }
+24. Bb2 { [%eval -0.64] } 24... Ng6 $6 { [%eval 0.05] } 25. Ng7
+{ [%eval -0.07] } 25... Bf6 { [%eval 0.01] } 26. Bxf6 { [%eval -0.31] } 26...
+Rxf6 { [%eval -0.17] } 27. Nh5 { [%eval -0.06] } 27... Rff8 { [%eval -0.12] }
+28. Rfd1 $6 { [%eval -0.93] } 28... Kh7 $2 { [%eval 0.54] } 29. Rd7+
+{ [%eval 0.41] } 29... Kh6 { [%eval 0.42] } 30. Ng7 { [%eval 0.28] } 30... Rad8
+$2 { [%eval 1.4] } 31. Rxd8 { [%eval 1.31] } 31... Rxd8 { [%eval 1.41] } 32.
+Nxe6 { [%eval 1.33] } 1-0

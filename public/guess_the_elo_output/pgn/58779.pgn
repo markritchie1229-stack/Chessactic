@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/876FUYzA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "feza1"]
+[Black "Nocani"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:22:02"]
+[WhiteElo "1525"]
+[BlackElo "1510"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.3] } 2. Nf3 { [%eval 0.29] } 2... Nc6
+{ [%eval 0.2] } 3. Nc3 { [%eval 0.2] } 3... d6 { [%eval 0.3] } 4. Bb5
+{ [%eval 0.24] } 4... Bd7 { [%eval 0.32] } 5. d4 { [%eval 0.16] } 5... a6 $6
+{ [%eval 0.72] } 6. Bxc6 { [%eval 0.65] } 6... Bxc6 { [%eval 0.85] } 7. d5
+{ [%eval 0.65] } 7... Bb5 $6 { [%eval 1.27] } 8. Nxb5 { [%eval 1.11] } 8...
+axb5 { [%eval 1.04] } 9. O-O { [%eval 1.01] } 9... Nf6 { [%eval 1.02] } 10. Qe2
+{ [%eval 0.99] } 10... g6 { [%eval 1.36] } 11. Qxb5+ { [%eval 1.29] } 11... Qd7
+{ [%eval 1.44] } 12. Qd3 $6 { [%eval 0.78] } 12... Bg7 { [%eval 0.75] } 13. Re1
+{ [%eval 0.79] } 13... O-O { [%eval 0.86] } 14. c3 { [%eval 0.82] } 14... Rfb8
+{ [%eval 0.88] } 15. h3 { [%eval 0.87] } 15... b5 { [%eval 0.88] } 16. Be3
+{ [%eval 0.63] } 16... c4 { [%eval 0.97] } 17. Qc2 { [%eval 0.95] } 17... b4
+{ [%eval 1.12] } 18. cxb4 { [%eval 1.12] } 18... Rxb4 { [%eval 0.99] } 19. Bd2
+{ [%eval 0.91] } 19... Qa4 { [%eval 1.15] } 20. Qxa4 $6 { [%eval 0.16] } 20...
+Rbxa4 { [%eval 0.2] } 21. Bc3 { [%eval -0.26] } 21... Rc8 $6 { [%eval 0.3] }
+22. Nd4 { [%eval 0.31] } 22... Nd7 $6 { [%eval 0.94] } 23. Nc6 { [%eval 0.85] }
+23... Bxc3 $6 { [%eval 1.56] } 24. bxc3 $2 { [%eval 0.0] } 24... Kf8
+{ [%eval 0.0] } 25. Reb1 { [%eval -0.18] } 25... Ra3 { [%eval 0.0] } 26. Rb7 $6
+{ [%eval -0.9] } 26... Ke8 $2 { [%eval 0.36] } 27. e5 { [%eval 0.0] } 27...
+Rxc3 $4 { [%eval 5.18] } 28. exd6 { [%eval 4.25] } 28... exd6 $2
+{ [%eval 6.29] } 29. a4 $4 { [%eval -0.09] } 29... Ne5 $2 { [%eval 2.42] } 30.
+Re7+ $4 { [%eval -0.77] } 30... Kf8 { [%eval -0.98] } 31. a5 $2
+{ [%eval -3.83] } 31... Nxc6 { [%eval -3.75] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Re8CXaGE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kate-Magistra"]
+[Black "Curlack"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:11:49"]
+[WhiteElo "1793"]
+[BlackElo "1730"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Macleod Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.3] } 2. c3 $6 { [%eval -0.4] } 2... b6
+$2 { [%eval 0.79] } 3. d4 { [%eval 0.6] } 3... exd4 { [%eval 0.58] } 4. cxd4
+{ [%eval 0.52] } 4... d5 { [%eval 0.5] } 5. e5 { [%eval 0.26] } 5... Bb7 $6
+{ [%eval 0.93] } 6. f4 { [%eval 0.44] } 6... Ne7 { [%eval 0.53] } 7. Nf3
+{ [%eval 0.54] } 7... Nf5 { [%eval 0.59] } 8. Bd3 { [%eval 0.54] } 8... Qd7 $6
+{ [%eval 1.13] } 9. O-O $6 { [%eval 0.41] } 9... Nc6 { [%eval 0.43] } 10. Bc2
+$2 { [%eval -1.06] } 10... O-O-O $2 { [%eval 0.15] } 11. Nc3 $2
+{ [%eval -1.66] } 11... Nb4 $2 { [%eval 0.91] } 12. Bb1 { [%eval 0.5] } 12...
+c5 $6 { [%eval 1.16] } 13. a3 $6 { [%eval 0.33] } 13... Na6 $6 { [%eval 1.32] }
+14. Qc2 $6 { [%eval 0.8] } 14... g6 { [%eval 0.77] } 15. Na4 $2
+{ [%eval -0.27] } 15... Kb8 { [%eval -0.29] } 16. dxc5 $6 { [%eval -1.2] }
+16... Nxc5 { [%eval -1.04] } 17. b4 $4 { [%eval -4.14] } 17... Nxa4
+{ [%eval -4.14] } 18. Ba2 { [%eval -4.49] } 18... d4 { [%eval -4.28] } 19. Rd1
+$4 { [%eval -7.36] } 19... a5 $2 { [%eval -4.47] } 20. bxa5 $4
+{ [%eval -7.63] } 20... Bxa3 $4 { [%eval 0.0] } 21. Bxa3 { [%eval 0.0] } 21...
+Ne3 { [%eval 0.21] } 22. Qd3 $4 { [%eval -3.79] } 22... Nxd1 $4
+{ [%eval 0.95] } 23. Rxd1 $2 { [%eval -0.32] } 23... Nc5 { [%eval 0.09] } 24.
+Qb1 { [%eval 0.11] } 24... Bxf3 $2 { [%eval 1.63] } 25. Qxb6+ $2
+{ [%eval 0.0] } 25... Nb7 $4 { [%eval 3.09] } 26. Bd6+ { [%eval 2.99] } 26...
+Kc8 $4 { [%eval #4] } 27. Rc1+ { [%eval #3] } 1-0

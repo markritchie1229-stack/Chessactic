@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qCWv11Dy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MestreFungo"]
+[Black "dm345"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:40:45"]
+[WhiteElo "1372"]
+[BlackElo "1337"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+14"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.34] } 2... d6
+{ [%eval 0.31] } 3. Bc4 { [%eval 0.26] } 3... h6 { [%eval 0.6] } 4. O-O
+{ [%eval 0.39] } 4... Qe7 { [%eval 0.84] } 5. d4 { [%eval 0.83] } 5... Bg4
+{ [%eval 1.1] } 6. dxe5 { [%eval 1.11] } 6... dxe5 { [%eval 1.13] } 7. Qd5
+{ [%eval 1.08] } 7... c6 $2 { [%eval 2.35] } 8. Qxe5 $2 { [%eval 1.25] } 8...
+Bxf3 { [%eval 1.29] } 9. Qxe7+ { [%eval 1.36] } 9... Bxe7 { [%eval 1.38] } 10.
+gxf3 { [%eval 1.43] } 10... Nf6 { [%eval 1.43] } 11. e5 { [%eval 1.4] } 11...
+Nfd7 { [%eval 1.32] } 12. f4 { [%eval 0.99] } 12... O-O $6 { [%eval 1.58] } 13.
+e6 $6 { [%eval 1.0] } 13... Nc5 $2 { [%eval 2.2] } 14. exf7+ { [%eval 2.24] }
+14... Kh8 { [%eval 2.24] } 15. Re1 { [%eval 2.32] } 15... Bf6 { [%eval 2.32] }
+16. Re8 { [%eval 1.91] } 16... Nbd7 { [%eval 2.14] } 17. Rxf8+ $2
+{ [%eval 1.06] } 17... Rxf8 { [%eval 1.1] } 18. Nc3 { [%eval 0.97] } 18... Bxc3
+{ [%eval 0.99] } 19. bxc3 { [%eval 1.09] } 19... b5 $6 { [%eval 1.6] } 20. Be6
+$4 { [%eval -2.74] } 20... Nxe6 { [%eval -2.52] } 21. Ba3 $2 { [%eval -4.67] }
+21... Rxf7 { [%eval -4.56] } 22. Re1 { [%eval -4.85] } 22... Nxf4
+{ [%eval -4.71] } 23. Re8+ { [%eval -5.18] } 23... Kh7 { [%eval -4.99] } 0-1

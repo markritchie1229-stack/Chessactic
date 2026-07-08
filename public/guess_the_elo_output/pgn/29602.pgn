@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/2dYXihfk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wahono_soesantio"]
+[Black "CoffeeHouse_Chess"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:43:38"]
+[WhiteElo "1444"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+10"]
+[ECO "C46"]
+[Opening "Three Knights Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.2] } 2. Nf3 { [%eval 0.26] } 2... Nc6
+{ [%eval 0.39] } 3. Nc3 { [%eval 0.08] } 3... Bc5 $6 { [%eval 0.65] } 4. Bb5 $6
+{ [%eval 0.08] } 4... Qe7 $2 { [%eval 1.14] } 5. Bxc6 $2 { [%eval 0.0] } 5...
+dxc6 { [%eval 0.13] } 6. d3 { [%eval 0.12] } 6... Bg4 { [%eval 0.14] } 7. O-O
+{ [%eval 0.1] } 7... h5 { [%eval 0.17] } 8. Be3 { [%eval -0.07] } 8... Bb6
+{ [%eval 0.0] } 9. Nxe5 $4 { [%eval -8.75] } 9... Bxd1 { [%eval -8.46] } 10.
+Bxb6 $6 { [%eval -9.38] } 10... axb6 { [%eval -9.22] } 11. Rfxd1 $6
+{ [%eval -10.56] } 11... Qxe5 { [%eval -10.4] } 12. Rf1 { [%eval -11.52] }
+12... Nf6 { [%eval -11.4] } 13. Rad1 { [%eval -14.46] } 13... h4
+{ [%eval -11.01] } 14. f3 { [%eval -12.0] } 14... h3 { [%eval -11.49] } 15. g3
+{ [%eval -11.33] } 15... g5 { [%eval -11.01] } 16. d4 { [%eval -11.1] } 16...
+Qe7 { [%eval -10.84] } 17. Ne2 { [%eval -12.44] } 17... O-O-O
+{ [%eval -11.58] } 18. d5 { [%eval -14.99] } 18... g4 { [%eval -14.38] } 19. f4
+{ [%eval -19.1] } 19... Nxe4 { [%eval -17.73] } 20. Nc3 $6 { [%eval #-7] }
+20... Nxc3 { [%eval #-7] } 21. bxc3 { [%eval #-6] } 21... Rxd5 { [%eval #-7] }
+22. Rfe1 { [%eval #-4] } 22... Qd7 $6 { [%eval #-8] } 23. Rc1 { [%eval #-6] }
+23... Rd2 { [%eval #-5] } 24. Rf1 { [%eval #-4] } 24... Re8 $6 { [%eval #-5] }
+25. Rf2 { [%eval #-4] } 25... Ree2 $6 { [%eval #-4] } 26. Rxe2 { [%eval #-4] }
+26... Rxe2 { [%eval #-3] } 27. Kf1 { [%eval #-3] } 27... Qd2 { [%eval #-2] }
+0-1

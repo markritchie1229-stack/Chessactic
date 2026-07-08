@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LyzMLecy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lynnpv"]
+[Black "Bogdaaann"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:23:47"]
+[WhiteElo "1769"]
+[BlackElo "1981"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-16"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... Nf6 { [%eval 0.6] } 2. Nc3 { [%eval 0.11] } 2... d5
+{ [%eval 0.31] } 3. e5 { [%eval 0.1] } 3... Nfd7 { [%eval 0.1] } 4. d4
+{ [%eval 0.06] } 4... e6 { [%eval 0.07] } 5. Nf3 { [%eval -0.32] } 5... c5
+{ [%eval -0.31] } 6. Be3 { [%eval -0.27] } 6... Qb6 { [%eval 0.0] } 7. dxc5
+{ [%eval -0.07] } 7... Bxc5 { [%eval -0.05] } 8. Bxc5 { [%eval -0.09] } 8...
+Nxc5 { [%eval -0.14] } 9. Be2 { [%eval -0.38] } 9... Qxb2 { [%eval 0.0] } 10.
+Nb5 { [%eval 0.0] } 10... Nba6 $2 { [%eval 1.7] } 11. Nd6+ { [%eval 1.6] }
+11... Ke7 { [%eval 1.89] } 12. O-O { [%eval 1.6] } 12... h6 $2 { [%eval 2.93] }
+13. Nd2 $4 { [%eval -1.98] } 13... Qxe5 { [%eval -1.93] } 14. Nb5
+{ [%eval -1.89] } 14... Bd7 { [%eval -1.75] } 15. Na3 $6 { [%eval -2.48] }
+15... Rac8 { [%eval -2.28] } 16. Nf3 { [%eval -2.7] } 16... Qd6 $6
+{ [%eval -2.17] } 17. Re1 $6 { [%eval -2.68] } 17... Rhd8 { [%eval -2.44] } 18.
+Bd3 { [%eval -2.61] } 18... Kf8 { [%eval -2.59] } 19. Bh7 { [%eval -2.64] }
+19... Bc6 { [%eval -2.64] } 20. Ne5 { [%eval -2.76] } 20... Ne4
+{ [%eval -2.77] } 21. Qh5 $2 { [%eval -3.96] } 21... g6 $4 { [%eval 5.05] } 22.
+Nxg6+ $4 { [%eval -0.79] } 22... fxg6 $2 { [%eval 0.27] } 23. Qxg6 $4
+{ [%eval -3.18] } 23... Ke7 $4 { [%eval #2] } 24. Qg7+ { [%eval #1] } 24... Ke8
+{ [%eval #1] } 25. Bg6# 1-0

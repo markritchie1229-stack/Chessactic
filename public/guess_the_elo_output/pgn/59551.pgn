@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/7NsKKp9w"]
+[Date "????.??.??"]
+[Round "?"]
+[White "czempus"]
+[Black "jazz08"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:58:01"]
+[WhiteElo "1286"]
+[BlackElo "1362"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Berlin Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.5] } 2. Bc4 { [%eval 0.04] } 2... Nf6
+{ [%eval 0.0] } 3. Bb3 $6 { [%eval -0.58] } 3... Nxe4 { [%eval -0.49] } 4. Qh5
+$6 { [%eval -1.1] } 4... Qe7 { [%eval -1.02] } 5. f3 $2 { [%eval -2.51] } 5...
+Nf6 $6 { [%eval -1.72] } 6. Qg4 $4 { [%eval -10.35] } 6... Nxg4
+{ [%eval -10.12] } 7. fxg4 { [%eval -10.16] } 7... Qh4+ { [%eval -10.15] } 8.
+g3 { [%eval -10.34] } 8... Qxg4 { [%eval -10.32] } 9. Nc3 { [%eval -10.2] }
+9... Bb4 { [%eval -9.91] } 10. a3 { [%eval -14.39] } 10... Bxc3
+{ [%eval -14.33] } 11. dxc3 { [%eval -17.17] } 11... Qe4+ { [%eval -16.64] }
+12. Kf1 { [%eval -17.61] } 12... Qxh1 { [%eval -17.61] } 13. Bd2
+{ [%eval -18.4] } 13... Qxh2 { [%eval -18.34] } 14. Be3 { [%eval -18.39] }
+14... Qxg3 { [%eval -18.1] } 15. Bf2 { [%eval -18.21] } 15... Qg5
+{ [%eval -17.91] } 16. Nf3 { [%eval -18.18] } 16... Qf6 { [%eval -17.61] } 17.
+Re1 { [%eval -21.34] } 17... d6 { [%eval -18.2] } 18. Ba4+ { [%eval -19.71] }
+18... Nc6 { [%eval -17.25] } 19. Bh4 $6 { [%eval #-6] } 19... Qxf3+
+{ [%eval #-5] } 20. Bf2 { [%eval #-2] } 20... Bh3+ { [%eval #-1] } 21. Kg1
+{ [%eval #-1] } 21... Qg2# 0-1

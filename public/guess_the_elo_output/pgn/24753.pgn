@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jKVxXjPc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mencina"]
+[Black "weissesroessl"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:23:40"]
+[WhiteElo "1546"]
+[BlackElo "1617"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation, Quiet System"]
+[TimeControl "660+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... g6 { [%eval 0.47] } 2. e4 { [%eval 0.47] } 2... Bg7
+{ [%eval 0.45] } 3. Nf3 { [%eval 0.53] } 3... d6 { [%eval 0.56] } 4. Nc3
+{ [%eval 0.37] } 4... Nf6 { [%eval 0.44] } 5. Be2 { [%eval 0.44] } 5... O-O
+{ [%eval 0.53] } 6. Be3 { [%eval 0.35] } 6... h6 $6 { [%eval 0.94] } 7. Qc1
+{ [%eval 0.58] } 7... Kh7 { [%eval 0.66] } 8. h4 { [%eval 0.6] } 8... Bg4 $2
+{ [%eval 1.99] } 9. e5 { [%eval 1.98] } 9... dxe5 { [%eval 1.89] } 10. dxe5
+{ [%eval 1.77] } 10... Nh5 { [%eval 2.17] } 11. Ng5+ { [%eval 1.69] } 11...
+hxg5 { [%eval 1.81] } 12. Bxg4 { [%eval 1.8] } 12... Bxe5 { [%eval 1.99] } 13.
+hxg5 { [%eval 1.79] } 13... Rh8 $2 { [%eval 3.6] } 14. Bf3 { [%eval 3.52] }
+14... Kg7 $6 { [%eval 4.41] } 15. g4 { [%eval 3.67] } 15... Nf4 $2
+{ [%eval 5.62] } 16. Rxh8 { [%eval 5.44] } 16... Qxh8 { [%eval 5.49] } 17. Bxb7
+{ [%eval 5.36] } 17... c6 $4 { [%eval 8.97] } 18. Bxf4 { [%eval 8.94] } 18...
+Bxf4 { [%eval 9.06] } 19. Qxf4 { [%eval 8.97] } 19... Qh1+ { [%eval 8.89] } 20.
+Kd2 { [%eval 8.57] } 20... Qxa1 { [%eval 8.66] } 21. b3 { [%eval 8.45] } 21...
+Nd7 { [%eval 8.46] } 22. Bxa8 { [%eval 8.26] } 22... e5 $2 { [%eval 11.63] }
+23. Qh2 { [%eval 11.05] } 23... Qf1 { [%eval 19.68] } 24. Bxc6
+{ [%eval 11.85] } 24... Nf8 $6 { [%eval #12] } 25. Qxe5+ { [%eval #12] } 25...
+Kg8 { [%eval #13] } 26. Ne4 { [%eval 116.84] } 26... Qh3 $6 { [%eval #4] } 27.
+Nf6+ { [%eval #3] } 27... Kh8 { [%eval #3] } 28. Ne8+ { [%eval #2] } 28... Kg8
+{ [%eval #1] } 29. Qg7# 1-0

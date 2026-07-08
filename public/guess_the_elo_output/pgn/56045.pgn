@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/1IA7X9q1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Makogon"]
+[Black "Lerov"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:57:43"]
+[WhiteElo "1297"]
+[BlackElo "1320"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-15"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.1] } 1... e6 { [%eval 0.36] } 2. Nf3 { [%eval 0.1] } 2... Ne7
+$6 { [%eval 0.81] } 3. Bf4 { [%eval 0.5] } 3... b6 { [%eval 0.64] } 4. Nc3
+{ [%eval 0.46] } 4... Bb7 { [%eval 0.49] } 5. h3 { [%eval 0.14] } 5... Ng6
+{ [%eval 0.23] } 6. Bg3 { [%eval 0.14] } 6... Bb4 { [%eval 0.2] } 7. Qd2
+{ [%eval 0.0] } 7... h5 $6 { [%eval 0.55] } 8. a3 { [%eval 0.54] } 8... Bd6 $6
+{ [%eval 1.13] } 9. O-O-O $6 { [%eval 0.59] } 9... Bxg3 { [%eval 0.78] } 10.
+fxg3 { [%eval 0.73] } 10... Ne7 $6 { [%eval 1.39] } 11. e4 { [%eval 1.35] }
+11... a5 { [%eval 1.46] } 12. Bc4 { [%eval 1.52] } 12... Ba6 { [%eval 1.89] }
+13. Bxa6 { [%eval 1.75] } 13... Nxa6 { [%eval 1.78] } 14. d5 $6
+{ [%eval 1.14] } 14... exd5 { [%eval 1.6] } 15. exd5 { [%eval 1.44] } 15... O-O
+{ [%eval 1.92] } 16. d6 { [%eval 1.69] } 16... Nf5 { [%eval 1.84] } 17. dxc7
+{ [%eval 1.73] } 17... Qxc7 $2 { [%eval 2.98] } 18. g4 { [%eval 2.69] } 18...
+Ng3 { [%eval 2.46] } 19. Rhe1 { [%eval 2.05] } 19... hxg4 $4 { [%eval 5.68] }
+20. Ng5 $4 { [%eval 1.62] } 20... Rae8 { [%eval 1.93] } 21. Rxe8 $2
+{ [%eval 0.79] } 21... Rxe8 { [%eval 1.04] } 22. Nxf7 { [%eval 0.96] } 22...
+Kxf7 $2 { [%eval 2.54] } 23. Qd3 $4 { [%eval -3.27] } 23... Kg8 $4
+{ [%eval 0.89] } 24. Qxa6 { [%eval 0.76] } 24... Ne2+ $4 { [%eval 5.14] } 25.
+Nxe2 { [%eval 5.02] } 25... Rxe2 $4 { [%eval 12.19] } 26. Qxe2
+{ [%eval 10.06] } 26... Qc6 { [%eval 53.81] } 27. Qe7 $6 { [%eval 9.2] } 27...
+b5 $6 { [%eval 17.1] } 28. Rxd7 { [%eval 14.47] } 28... Qxg2 $6 { [%eval #1] }
+29. Rd8+ $6 { [%eval #29] } 29... Kh7 { [%eval #31] } 30. Qh4+
+{ [%eval 63.93] } 30... Kg6 { [%eval 54.59] } 31. Qxg4+ { [%eval 49.02] } 1-0

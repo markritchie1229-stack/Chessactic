@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/PsF7OyLG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "IMDetermineD"]
+[Black "pontes72"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:00:54"]
+[WhiteElo "1562"]
+[BlackElo "1779"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Austrian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.23] } 2. c4 { [%eval 0.17] } 2... c5
+{ [%eval 0.65] } 3. cxd5 { [%eval 0.51] } 3... e5 $4 { [%eval 4.22] } 4. dxe5
+{ [%eval 3.93] } 4... f6 $6 { [%eval 4.55] } 5. exf6 $2 { [%eval 2.56] } 5...
+Nxf6 { [%eval 2.6] } 6. Nc3 { [%eval 2.52] } 6... Bd6 { [%eval 2.54] } 7. Nf3
+{ [%eval 2.28] } 7... O-O { [%eval 2.38] } 8. Bg5 $6 { [%eval 1.71] } 8... a6
+{ [%eval 1.88] } 9. e4 { [%eval 1.66] } 9... b5 $2 { [%eval 2.89] } 10. Bd3 $2
+{ [%eval 1.14] } 10... c4 { [%eval 1.36] } 11. Bc2 { [%eval 1.32] } 11... Nbd7
+$6 { [%eval 2.06] } 12. O-O { [%eval 2.09] } 12... Qb6 $6 { [%eval 2.8] } 13.
+Re1 $2 { [%eval 0.49] } 13... Ne5 $6 { [%eval 1.29] } 14. Nxe5 { [%eval 1.14] }
+14... Bxe5 { [%eval 1.36] } 15. Be3 { [%eval 1.54] } 15... Qd6 { [%eval 1.56] }
+16. h3 { [%eval 1.48] } 16... h6 $6 { [%eval 2.26] } 17. Bd4 { [%eval 2.14] }
+17... Bh2+ { [%eval 2.55] } 18. Kf1 $2 { [%eval 1.1] } 18... Nd7
+{ [%eval 1.27] } 19. e5 { [%eval 1.1] } 19... Nxe5 $6 { [%eval 1.64] } 20. Bxe5
+$2 { [%eval -0.04] } 20... Bxe5 { [%eval 0.0] } 21. Qe2 $2 { [%eval -2.35] }
+21... Bg3 $4 { [%eval 1.06] } 22. Qe6+ $4 { [%eval -16.56] } 22... Bxe6
+{ [%eval -14.98] } 0-1

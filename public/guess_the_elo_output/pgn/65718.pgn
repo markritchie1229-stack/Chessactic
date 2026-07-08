@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/P3JJYUp8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "totoca"]
+[Black "Galgamech"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:06:28"]
+[WhiteElo "1708"]
+[BlackElo "1718"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C26"]
+[Opening "Bishop's Opening: Vienna Hybrid, Spielmann Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... e5 { [%eval 0.37] } 2. Bc4 { [%eval 0.06] } 2... Nf6
+{ [%eval -0.02] } 3. Nc3 { [%eval -0.11] } 3... Bc5 { [%eval -0.04] } 4. d3
+{ [%eval -0.1] } 4... d6 { [%eval 0.01] } 5. h3 { [%eval -0.01] } 5... Nc6
+{ [%eval 0.1] } 6. Bg5 { [%eval -0.28] } 6... a6 $6 { [%eval 0.4] } 7. a3 $6
+{ [%eval -0.15] } 7... Be6 { [%eval 0.27] } 8. Nd5 { [%eval 0.18] } 8... Bxd5
+{ [%eval 0.37] } 9. Bxd5 { [%eval 0.26] } 9... Qd7 { [%eval 0.25] } 10. Bxf6
+{ [%eval 0.24] } 10... gxf6 { [%eval 0.35] } 11. Nf3 { [%eval 0.33] } 11... Nd4
+$6 { [%eval 0.91] } 12. Nxd4 { [%eval 0.65] } 12... Bxd4 { [%eval 0.78] } 13.
+c3 { [%eval 0.7] } 13... Ba7 { [%eval 1.18] } 14. O-O $6 { [%eval 0.41] } 14...
+O-O-O { [%eval 0.64] } 15. Qb3 { [%eval 0.61] } 15... Rdf8 $4 { [%eval 7.23] }
+16. Qxb7+ { [%eval 7.1] } 16... Kd8 { [%eval 7.08] } 17. Qxa7 { [%eval 7.03] }
+17... Ke7 $6 { [%eval 7.9] } 18. Qxa6 { [%eval 7.75] } 18... Rhg8
+{ [%eval 7.91] } 19. Kh2 { [%eval 7.6] } 19... Rxg2+ $2 { [%eval 12.49] } 20.
+Kxg2 { [%eval 12.22] } 20... Rg8+ { [%eval 13.33] } 21. Kh2 { [%eval 12.84] }
+21... c6 { [%eval 15.08] } 22. Bxc6 { [%eval 14.57] } 22... Qd8
+{ [%eval 22.31] } 23. Qb7+ { [%eval 21.12] } 23... Kf8 { [%eval 19.43] } 24.
+Bd5 { [%eval 20.03] } 24... Kg7 $6 { [%eval #18] } 25. Qxf7+ { [%eval #20] }
+25... Kh8 { [%eval 126.64] } 26. Qh5 { [%eval 20.42] } 26... Qf8 $6
+{ [%eval #8] } 27. Bxg8 { [%eval #7] } 27... Qxg8 { [%eval #7] } 28. Rg1
+{ [%eval #10] } 28... Qxg1+ { [%eval #2] } 29. Rxg1 { [%eval #1] } 29... d5
+{ [%eval #1] } 30. Qf7 $6 { [%eval #1] } 30... d4 { [%eval #1] } 31. a4 $6
+{ [%eval #1] } 31... h5 { [%eval #1] } 32. a5 $6 { [%eval #1] } 32... h4
+{ [%eval #1] } 33. a6 $6 { [%eval #1] } 33... dxc3 { [%eval #1] } 34. Qg7# 1-0

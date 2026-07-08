@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ASmxNHov"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pablo1987"]
+[Black "EpicVeper"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:44:59"]
+[WhiteElo "1242"]
+[BlackElo "1319"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-126"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.49] } 2. Nf3 { [%eval 0.41] } 2...
+Nc6 { [%eval 0.47] } 3. Bc4 { [%eval 0.23] } 3... Nf6 { [%eval 0.38] } 4. O-O
+$6 { [%eval -0.29] } 4... d6 $2 { [%eval 0.82] } 5. Nc3 { [%eval 0.37] } 5...
+Bg4 { [%eval 0.39] } 6. d3 $6 { [%eval -0.28] } 6... Be7 $6 { [%eval 0.31] } 7.
+Nd5 $6 { [%eval -0.23] } 7... Nxd5 { [%eval -0.13] } 8. exd5 { [%eval -0.62] }
+8... Nd4 { [%eval -0.6] } 9. Be3 { [%eval -0.65] } 9... f5 $2 { [%eval 0.47] }
+10. Bxd4 { [%eval 0.47] } 10... exd4 { [%eval 0.42] } 11. c3 $6
+{ [%eval -0.37] } 11... Bf6 $2 { [%eval 0.68] } 12. Re1+ $6 { [%eval 0.0] }
+12... Be7 $4 { [%eval 3.33] } 13. Bb5+ $2 { [%eval 0.64] } 13... Kf7 $6
+{ [%eval 1.27] } 14. Ng5+ $4 { [%eval -4.0] } 14... Bxg5 { [%eval -3.83] } 15.
+Be8+ $4 { [%eval -8.26] } 15... Kf8 $4 { [%eval -2.72] } 16. f3 $2
+{ [%eval -4.41] } 16... Bh5 $2 { [%eval -1.97] } 17. Bxh5 { [%eval -2.02] }
+17... g6 $2 { [%eval -0.84] } 18. f4 { [%eval -0.89] } 18... Bxf4
+{ [%eval -0.82] } 19. Bf3 { [%eval -0.75] } 19... Qh4 { [%eval -0.33] } 20. Re2
+$4 { [%eval -5.37] } 20... Qxh2+ { [%eval -4.92] } 21. Kf2 $4 { [%eval #-2] }
+21... Qg3+ $4 { [%eval -3.91] } 22. Kf1 { [%eval -3.84] } 22... Qxf3+ $4
+{ [%eval 7.85] } 23. gxf3 { [%eval 7.56] } 23... Rg8 { [%eval 7.89] } 24. Qc2
+$6 { [%eval 6.91] } 24... g5 $2 { [%eval 8.04] } 25. Re6 { [%eval 7.69] } 25...
+g4 $2 { [%eval 8.95] } 26. fxg4 $6 { [%eval 8.31] } 26... fxg4 $2
+{ [%eval 12.89] } 27. Rae1 $6 { [%eval 9.08] } 27... h5 $2 { [%eval #8] } 28.
+Qa4 { [%eval #9] } 28... Kf7 { [%eval #2] } 29. Qd7+ { [%eval #1] } 29... Kf8
+{ [%eval #1] } 30. Re8+ $6 { [%eval #1] } 30... Rxe8 { [%eval #1] } 31. Rxe8#
+1-0

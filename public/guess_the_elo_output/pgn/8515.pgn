@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/kaFk3AB4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "KacperRobotnik"]
+[Black "house99"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:34:12"]
+[WhiteElo "1368"]
+[BlackElo "1421"]
+[WhiteRatingDiff "+66"]
+[BlackRatingDiff "-11"]
+[ECO "D01"]
+[Opening "Richter-Veresov Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval 0.0] } 2... Nf6
+{ [%eval 0.07] } 3. Bg5 { [%eval -0.19] } 3... e6 { [%eval 0.0] } 4. h3
+{ [%eval -0.43] } 4... Nc6 $6 { [%eval 0.16] } 5. Nf3 { [%eval 0.02] } 5... Be7
+{ [%eval 0.1] } 6. Ne5 $6 { [%eval -0.79] } 6... Nxe5 { [%eval -0.78] } 7. dxe5
+{ [%eval -0.61] } 7... Ne4 $6 { [%eval 0.0] } 8. Bxe7 { [%eval 0.0] } 8... Qxe7
+{ [%eval 0.0] } 9. Nxe4 { [%eval 0.0] } 9... dxe4 { [%eval 0.0] } 10. e3 $6
+{ [%eval -0.97] } 10... O-O $2 { [%eval 0.43] } 11. Qg4 $4 { [%eval -3.56] }
+11... Qb4+ { [%eval -3.43] } 12. c3 { [%eval -3.56] } 12... Qxb2
+{ [%eval -3.58] } 13. Rd1 { [%eval -3.45] } 13... Qxc3+ { [%eval -3.37] } 14.
+Rd2 { [%eval -3.42] } 14... f5 $2 { [%eval -1.31] } 15. exf6 { [%eval -1.28] }
+15... Rxf6 { [%eval -0.77] } 16. Qxe4 { [%eval -0.9] } 16... Bd7
+{ [%eval -0.43] } 17. Bd3 { [%eval -0.87] } 17... Raf8 $6 { [%eval 0.0] } 18.
+Qxh7+ { [%eval 0.0] } 18... Kf7 { [%eval 0.0] } 19. Qh5+ { [%eval 0.0] } 19...
+Kg8 $4 { [%eval #3] } 20. Bh7+ { [%eval #2] } 20... Kh8 { [%eval #2] } 21. Bg6+
+{ [%eval #1] } 21... Kg8 { [%eval #1] } 22. Qh7# 1-0

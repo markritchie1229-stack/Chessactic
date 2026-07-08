@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/GqQrJVtX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "thatboyraym"]
+[Black "Metal__Mercenary"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:00:06"]
+[WhiteElo "1493"]
+[BlackElo "1455"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... e6 { [%eval 0.31] } 2. d4 { [%eval 0.16] } 2...
+Bb4+ $6 { [%eval 0.8] } 3. c3 { [%eval 0.65] } 3... Be7 { [%eval 0.73] } 4. Be3
+{ [%eval 0.46] } 4... Nf6 { [%eval 0.37] } 5. Bd3 { [%eval 0.34] } 5... d5 $6
+{ [%eval 0.84] } 6. Nd2 $6 { [%eval 0.28] } 6... dxe4 { [%eval 0.35] } 7. Bxe4
+$6 { [%eval -0.22] } 7... O-O { [%eval -0.07] } 8. Bd3 { [%eval -0.05] } 8...
+c6 { [%eval 0.28] } 9. Qe2 { [%eval 0.0] } 9... Bd7 $6 { [%eval 0.69] } 10.
+O-O-O $6 { [%eval 0.05] } 10... Na6 { [%eval 0.21] } 11. h3 { [%eval 0.0] }
+11... Nc7 { [%eval 0.21] } 12. g4 { [%eval 0.2] } 12... Ncd5 $6
+{ [%eval 0.85] } 13. f4 $2 { [%eval -0.58] } 13... Nxe3 { [%eval -0.58] } 14.
+Qxe3 { [%eval -0.77] } 14... c5 { [%eval -0.61] } 15. dxc5 { [%eval -0.78] }
+15... b6 $6 { [%eval 0.0] } 16. cxb6 $2 { [%eval -1.02] } 16... axb6
+{ [%eval -0.72] } 17. Ne4 $2 { [%eval -2.4] } 17... Bc5 $2 { [%eval 0.4] } 18.
+Qf3 $2 { [%eval -0.89] } 18... Bxg1 $2 { [%eval 0.24] } 19. Rdxg1
+{ [%eval -0.14] } 19... Nxe4 $2 { [%eval 0.93] } 20. Bxe4 $6 { [%eval 0.0] }
+20... Qc7 $4 { [%eval 7.17] } 21. Bxa8 { [%eval 6.97] } 21... Rxa8 $4
+{ [%eval 11.41] } 22. Qxa8+ { [%eval 10.95] } 22... Be8 $6 { [%eval #1] } 23.
+Qxe8# 1-0

@@ -1,0 +1,44 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/aA44WZKd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ural-43"]
+[Black "koreelev"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:05:35"]
+[WhiteElo "1731"]
+[BlackElo "1908"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.16] } 2. Nf3 { [%eval 0.09] } 2...
+Nc6 { [%eval 0.5] } 3. Nbd2 { [%eval 0.14] } 3... Nf6 { [%eval 0.58] } 4. e3
+{ [%eval 0.47] } 4... e6 { [%eval 0.48] } 5. Be2 { [%eval 0.44] } 5... Bd6
+{ [%eval 0.31] } 6. O-O { [%eval 0.11] } 6... e5 { [%eval 0.23] } 7. c4
+{ [%eval 0.03] } 7... e4 { [%eval -0.02] } 8. Ne5 { [%eval -0.5] } 8... Nxe5
+{ [%eval -0.5] } 9. dxe5 { [%eval -0.57] } 9... Bxe5 { [%eval -0.36] } 10. Rb1
+$6 { [%eval -1.21] } 10... d4 $2 { [%eval -0.18] } 11. exd4 $6
+{ [%eval -0.97] } 11... Bxd4 { [%eval -0.87] } 12. Nb3 { [%eval -0.97] } 12...
+c5 { [%eval -1.0] } 13. Bg5 { [%eval -0.9] } 13... h6 { [%eval -0.85] } 14.
+Bxf6 $2 { [%eval -1.91] } 14... Qxf6 { [%eval -1.91] } 15. Re1 $4
+{ [%eval -5.24] } 15... Bxf2+ { [%eval -5.08] } 16. Kh1 { [%eval -5.2] } 16...
+Bxe1 { [%eval -5.04] } 17. Qxe1 { [%eval -4.89] } 17... b6 { [%eval -4.65] }
+18. Nd2 { [%eval -4.64] } 18... Qg6 $6 { [%eval -3.74] } 19. Bf3 $2
+{ [%eval -4.74] } 19... f5 $4 { [%eval -1.38] } 20. Nxe4 { [%eval -1.38] }
+20... O-O { [%eval -1.33] } 21. Nd6 $2 { [%eval -2.55] } 21... Qxd6 $2
+{ [%eval -1.13] } 22. Bxa8 { [%eval -1.27] } 22... Be6 { [%eval -0.97] } 23. b3
+$4 { [%eval -5.64] } 23... Rxa8 { [%eval -5.46] } 24. Rd1 { [%eval -5.56] }
+24... Qe7 { [%eval -5.45] } 25. Rd2 { [%eval -5.76] } 25... Re8
+{ [%eval -5.54] } 26. Re2 $6 { [%eval -6.25] } 26... Qf7 { [%eval -6.23] } 27.
+Qd2 { [%eval -6.31] } 27... Bd7 { [%eval -6.18] } 28. Rxe8+ $6
+{ [%eval -6.99] } 28... Qxe8 { [%eval -6.87] } 29. Qd5+ { [%eval -6.89] } 29...
+Qe6 { [%eval -6.58] } 30. Qa8+ $4 { [%eval -15.44] } 30... Kh7
+{ [%eval -11.89] } 31. h3 { [%eval -19.89] } 31... Bc6 { [%eval -17.44] } 32.
+Qxa7 $6 { [%eval #-3] } 32... Qe1+ $6 { [%eval #-3] } 33. Kh2 { [%eval #-3] }
+33... Qf2 { [%eval #-2] } 34. Qxg7+ { [%eval #-2] } 34... Kxg7 { [%eval #-1] }
+0-1

@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/I1rlc524"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Denis1984"]
+[Black "GM1Bolt"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:22:26"]
+[WhiteElo "1366"]
+[BlackElo "1364"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+30"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nf6 { [%eval 0.18] } 2. Nc3 { [%eval -0.1] } 2...
+d5 { [%eval 0.03] } 3. e3 { [%eval -0.13] } 3... Bf5 { [%eval 0.04] } 4. Bb5+
+{ [%eval -0.25] } 4... c6 { [%eval -0.19] } 5. Bd3 { [%eval -0.22] } 5... e6
+{ [%eval -0.2] } 6. Bxf5 { [%eval -0.27] } 6... exf5 { [%eval -0.2] } 7. Nf3
+{ [%eval -0.32] } 7... g6 { [%eval -0.1] } 8. Ne5 { [%eval -0.52] } 8... Nbd7
+{ [%eval -0.33] } 9. Nf3 { [%eval -0.71] } 9... c5 $6 { [%eval -0.14] } 10.
+dxc5 { [%eval -0.32] } 10... Bxc5 $6 { [%eval 0.63] } 11. O-O { [%eval 0.67] }
+11... O-O { [%eval 0.74] } 12. Nxd5 { [%eval 0.7] } 12... Nxd5 { [%eval 0.81] }
+13. Qxd5 { [%eval 0.73] } 13... b6 { [%eval 0.84] } 14. Rd1 { [%eval 0.76] }
+14... Nf6 { [%eval 0.81] } 15. Qxd8 { [%eval 0.83] } 15... Raxd8
+{ [%eval 0.74] } 16. Bd2 { [%eval 0.66] } 16... Ne4 { [%eval 0.59] } 17. b4 $6
+{ [%eval 0.0] } 17... Nxd2 { [%eval 0.0] } 18. Nxd2 $6 { [%eval -0.78] } 18...
+Bxb4 { [%eval -0.96] } 19. Nc4 $2 { [%eval -2.06] } 19... Rxd1+
+{ [%eval -1.95] } 20. Rxd1 { [%eval -1.91] } 20... Rc8 { [%eval -1.67] } 21.
+Rd4 { [%eval -1.76] } 21... Bc3 { [%eval -1.64] } 22. Rf4 $2 { [%eval -3.31] }
+22... Bf6 $2 { [%eval -1.37] } 23. a4 { [%eval -1.33] } 23... Kg7 $6
+{ [%eval -0.77] } 24. e4 $4 { [%eval -7.99] } 24... Rxc4 { [%eval -7.68] } 25.
+f3 $2 { [%eval -12.36] } 25... Rxc2 $4 { [%eval -6.17] } 26. exf5
+{ [%eval -6.12] } 26... gxf5 { [%eval -5.98] } 27. Rxf5 $6 { [%eval -6.67] }
+27... Bd4+ { [%eval -6.5] } 28. Kf1 { [%eval -6.42] } 28... Rc1+ $2
+{ [%eval -5.18] } 29. Ke2 { [%eval -5.21] } 29... Ra1 { [%eval -5.1] } 30. Rg5+
+{ [%eval -5.1] } 30... Kf6 { [%eval -4.95] } 31. Kd3 $4 { [%eval -49.14] }
+31... Kxg5 { [%eval -49.02] } 0-1

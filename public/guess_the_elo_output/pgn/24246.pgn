@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/XXRrPVSJ"]
+[Site "https://lichess.org/1ax5uxS5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rqewww"]
+[Black "king-s"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:46:26"]
+[WhiteElo "1862"]
+[BlackElo "1925"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+10"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, Adams Attack"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.21] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.29] } 2... d6
+{ [%eval 0.29] } 3. d4 { [%eval 0.21] } 3... cxd4 { [%eval 0.18] } 4. Nxd4
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.22] } 5. Nc3 { [%eval 0.28] } 5... a6
+{ [%eval 0.38] } 6. h3 { [%eval 0.07] } 6... e5 { [%eval 0.07] } 7. Nb3
+{ [%eval 0.13] } 7... Be6 { [%eval 0.18] } 8. a4 { [%eval -0.04] } 8... Nbd7
+{ [%eval 0.12] } 9. Be3 { [%eval -0.03] } 9... Be7 { [%eval 0.24] } 10. Nd5 $6
+{ [%eval -0.67] } 10... Bxd5 $6 { [%eval 0.02] } 11. exd5 { [%eval 0.0] } 11...
+O-O { [%eval 0.1] } 12. Be2 { [%eval -0.24] } 12... Rc8 { [%eval 0.04] } 13.
+O-O { [%eval -0.11] } 13... Qc7 $6 { [%eval 0.44] } 14. c4 { [%eval 0.45] }
+14... Nc5 { [%eval 0.44] } 15. Nxc5 { [%eval 0.33] } 15... dxc5
+{ [%eval 0.54] } 16. b3 { [%eval 0.31] } 16... Bd6 { [%eval 0.32] } 17. Qc2
+{ [%eval 0.12] } 17... b6 $6 { [%eval 0.94] } 18. f4 $2 { [%eval -0.71] } 18...
+Rce8 $6 { [%eval 0.23] } 19. fxe5 $2 { [%eval -1.46] } 19... Bxe5
+{ [%eval -1.37] } 20. Bg5 $2 { [%eval -3.48] } 20... Bd4+ $6 { [%eval -2.85] }
+21. Kh1 { [%eval -2.76] } 21... h6 $2 { [%eval -0.21] } 22. Bxf6
+{ [%eval -0.36] } 22... Bxf6 { [%eval -0.34] } 23. Rad1 { [%eval -0.41] } 23...
+Qd6 { [%eval 0.0] } 24. Bd3 $6 { [%eval -0.52] } 24... Re5 $6 { [%eval 0.0] }
+25. Qf2 { [%eval -0.07] } 25... Rfe8 { [%eval -0.07] } 26. Bb1 { [%eval -0.2] }
+26... Re2 { [%eval -0.2] } 27. Qf5 { [%eval -0.46] } 27... Qg3 { [%eval -0.6] }
+28. Qh7+ $4 { [%eval -24.99] } 28... Kf8 { [%eval -19.56] } 29. Be4
+{ [%eval -21.07] } 29... R8xe4 { [%eval -17.05] } 30. Rg1 $6 { [%eval #-6] }
+30... Ke7 $4 { [%eval -5.72] } 0-1

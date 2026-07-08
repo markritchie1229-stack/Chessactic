@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Bpb7z3gM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ulthamar"]
+[Black "jclady1"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:28:07"]
+[WhiteElo "1706"]
+[BlackElo "1681"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.09] } 1... e6 { [%eval 0.13] } 2. Nc3 { [%eval 0.08] } 2... g6
+$6 { [%eval 0.79] } 3. g3 $6 { [%eval 0.26] } 3... Bg7 { [%eval 0.47] } 4. Bg2
+{ [%eval 0.13] } 4... Ne7 { [%eval 0.47] } 5. d3 { [%eval 0.0] } 5... c6
+{ [%eval 0.3] } 6. f4 { [%eval -0.16] } 6... b6 { [%eval 0.12] } 7. Nf3
+{ [%eval 0.14] } 7... Bb7 { [%eval 0.18] } 8. O-O { [%eval 0.22] } 8... f5 $6
+{ [%eval 0.94] } 9. Be3 { [%eval 0.48] } 9... Na6 { [%eval 0.64] } 10. a3
+{ [%eval 0.41] } 10... c5 { [%eval 0.84] } 11. Qd2 { [%eval 0.45] } 11... Nc7
+{ [%eval 0.54] } 12. Rad1 { [%eval 0.17] } 12... O-O { [%eval 0.28] } 13. h3 $6
+{ [%eval -0.25] } 13... Qe8 $6 { [%eval 0.33] } 14. Rf2 $2 { [%eval -1.24] }
+14... Qf7 $2 { [%eval 0.97] } 15. Rdf1 $2 { [%eval -0.15] } 15... h6 $6
+{ [%eval 0.63] } 16. Nh4 $6 { [%eval -0.33] } 16... Kh8 $2 { [%eval 1.58] } 17.
+g4 $2 { [%eval -0.18] } 17... Qf6 $2 { [%eval 1.19] } 18. g5 { [%eval 1.11] }
+18... hxg5 $4 { [%eval 4.28] } 19. fxg5 { [%eval 3.79] } 19... Qf7
+{ [%eval 4.12] } 20. exf5 { [%eval 4.08] } 20... Bxg2 $6 { [%eval 4.87] } 21.
+Kxg2 $4 { [%eval -0.29] } 21... gxf5 $6 { [%eval 0.6] } 22. Ne4 $4
+{ [%eval -2.91] } 22... Qh5 { [%eval -2.67] } 23. Kg3 $4 { [%eval -5.96] }
+23... fxe4 $4 { [%eval -2.95] } 24. Rxf8+ { [%eval -2.94] } 24... Bxf8 $2
+{ [%eval -1.9] } 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/l1fqaYOi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kapur_skywalker"]
+[Black "Newtect"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:25:10"]
+[WhiteElo "1311"]
+[BlackElo "1182"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-6"]
+[ECO "B07"]
+[Opening "King's Pawn Game: Maroczy Defense"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.39] } 2. d4 { [%eval -0.07] } 2... d6
+$6 { [%eval 0.63] } 3. dxe5 { [%eval 0.61] } 3... Nf6 $4 { [%eval 4.4] } 4. f4
+$4 { [%eval 0.24] } 4... Nxe4 { [%eval 0.29] } 5. Qd4 $2 { [%eval -1.71] } 5...
+Nc5 $2 { [%eval -0.12] } 6. Nc3 { [%eval -0.46] } 6... Nc6 { [%eval -0.31] } 7.
+Qd5 $4 { [%eval -3.7] } 7... Be6 $2 { [%eval -1.11] } 8. Qd2 { [%eval -1.18] }
+8... Qe7 { [%eval -0.75] } 9. Qe3 $2 { [%eval -2.63] } 9... f6 $2
+{ [%eval -0.19] } 10. Bb5 { [%eval -0.07] } 10... fxe5 { [%eval 0.0] } 11.
+Bxc6+ $6 { [%eval -0.62] } 11... bxc6 { [%eval -0.32] } 12. Ne4 $4
+{ [%eval -3.79] } 12... Nxe4 $2 { [%eval -2.61] } 13. Qxe4 { [%eval -2.87] }
+13... exf4 $6 { [%eval -2.01] } 14. Qxc6+ $4 { [%eval -14.34] } 14... Kf7 $4
+{ [%eval -0.44] } 15. Qxa8 $4 { [%eval -8.54] } 15... Bxa2+ $4 { [%eval 6.63] }
+16. Ne2 { [%eval 6.5] } 16... Bc4 { [%eval 6.54] } 17. O-O { [%eval 6.46] }
+17... Bxe2 $4 { [%eval 15.87] } 18. Qd5+ { [%eval 12.71] } 18... Ke8
+{ [%eval 12.38] } 19. Rxf4 { [%eval 12.02] } 19... g5 { [%eval 16.71] } 20. Re4
+{ [%eval 15.95] } 20... Qxe4 { [%eval 24.93] } 21. Qxe4+ { [%eval 23.47] }
+21... Kd7 { [%eval 23.26] } 22. Qxe2 { [%eval 20.37] } 22... Bg7 $6
+{ [%eval #9] } 23. Bxg5 $6 { [%eval 19.1] } 23... h6 $6 { [%eval #8] } 24. Qe7+
+{ [%eval #8] } 24... Kc6 { [%eval #8] } 25. Qxg7 { [%eval #11] } 1-0

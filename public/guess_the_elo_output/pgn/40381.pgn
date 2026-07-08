@@ -1,0 +1,39 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/aiE0ARsb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ao_Murbras"]
+[Black "KasparovMY"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:16:29"]
+[WhiteElo "1422"]
+[BlackElo "2344"]
+[WhiteRatingDiff "+0"]
+[BlackRatingDiff "+0"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Staunton-Cochrane Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... c5 { [%eval 0.42] } 2. c4 { [%eval 0.05] } 2... d6
+{ [%eval 0.02] } 3. d4 { [%eval 0.06] } 3... cxd4 { [%eval 0.06] } 4. Qxd4
+{ [%eval 0.04] } 4... Nf6 { [%eval 0.1] } 5. e5 $2 { [%eval -0.99] } 5... Nc6
+{ [%eval -1.12] } 6. Qd1 { [%eval -1.47] } 6... Nxe5 $6 { [%eval -0.97] } 7.
+Nf3 { [%eval -0.93] } 7... Qa5+ { [%eval -0.87] } 8. Bd2 $6 { [%eval -1.52] }
+8... Nxf3+ { [%eval -1.36] } 9. Qxf3 { [%eval -1.63] } 9... Qe5+
+{ [%eval -1.58] } 10. Be2 { [%eval -1.63] } 10... Bg4 { [%eval -1.56] } 11. Qe3
+{ [%eval -1.56] } 11... Qxb2 { [%eval -1.43] } 12. Bc3 { [%eval -1.87] } 12...
+Qxe2+ { [%eval -1.85] } 13. Qxe2 { [%eval -1.83] } 13... Bxe2 { [%eval -1.62] }
+14. Kxe2 { [%eval -1.7] } 14... Rc8 { [%eval -1.74] } 15. Nd2 { [%eval -1.8] }
+15... e5 { [%eval -1.61] } 16. Rhe1 $6 { [%eval -2.33] } 16... Be7
+{ [%eval -1.97] } 17. Kf1 { [%eval -2.16] } 17... O-O { [%eval -1.9] } 18. h3
+$6 { [%eval -2.75] } 18... b5 { [%eval -2.55] } 19. Rab1 $6 { [%eval -3.21] }
+19... bxc4 { [%eval -3.02] } 20. Rb7 { [%eval -3.42] } 20... Nd5
+{ [%eval -3.09] } 21. Ne4 { [%eval -3.49] } 21... f5 { [%eval -3.31] } 22. Rxa7
+$4 { [%eval -9.78] } 22... fxe4 { [%eval -9.31] } 23. Ba5 $6 { [%eval -13.83] }
+23... Bh4 { [%eval -13.15] } 24. Rxe4 { [%eval -16.54] } 24... Bxf2
+{ [%eval -15.74] } 25. Ra6 { [%eval -22.58] } 25... c3 { [%eval -20.87] } 26.
+Bxc3 $6 { [%eval #-7] } 26... Nxc3 { [%eval #-6] } 27. Rea4 { [%eval #-4] }
+27... Bg3+ { [%eval #-3] } 28. Kg1 { [%eval #-2] } 28... Ne2+ { [%eval #-1] }
+29. Kh1 { [%eval #-1] } 29... Rf1# 0-1

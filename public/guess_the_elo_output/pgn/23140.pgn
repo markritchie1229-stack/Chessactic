@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/rt4ovj06"]
+[Date "????.??.??"]
+[Round "?"]
+[White "martinroldan23"]
+[Black "OskarMazerath"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:43:14"]
+[WhiteElo "1608"]
+[BlackElo "1576"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... c6 { [%eval 0.44] } 2. Nf3 { [%eval 0.43] } 2... d5
+{ [%eval 0.42] } 3. exd5 { [%eval 0.26] } 3... cxd5 { [%eval 0.22] } 4. d4
+{ [%eval 0.28] } 4... Nf6 { [%eval 0.26] } 5. Nc3 { [%eval -0.04] } 5... e6
+{ [%eval 0.22] } 6. Bg5 { [%eval 0.07] } 6... a6 { [%eval 0.0] } 7. Bd3
+{ [%eval 0.04] } 7... Nbd7 { [%eval 0.3] } 8. O-O { [%eval 0.32] } 8... Bd6
+{ [%eval 0.34] } 9. Re1 { [%eval 0.22] } 9... Qc7 { [%eval 0.23] } 10. Qd2
+{ [%eval 0.0] } 10... b5 { [%eval 0.08] } 11. Ne2 { [%eval -0.18] } 11... Bb7
+$6 { [%eval 0.4] } 12. Ng3 { [%eval 0.0] } 12... Rc8 $6 { [%eval 0.8] } 13.
+Bxf6 { [%eval 0.44] } 13... Nxf6 { [%eval 0.3] } 14. c3 { [%eval 0.0] } 14...
+O-O { [%eval 0.07] } 15. Ng5 $4 { [%eval -3.92] } 15... h6 $4 { [%eval -0.46] }
+16. Rxe6 $2 { [%eval -2.87] } 16... fxe6 $6 { [%eval -1.93] } 17. Nxe6
+{ [%eval -2.04] } 17... Qe7 $6 { [%eval -1.47] } 18. Nxf8 { [%eval -1.56] }
+18... Rxf8 { [%eval -1.54] } 19. Nf5 { [%eval -1.52] } 19... Qc7
+{ [%eval -1.52] } 20. Nxd6 { [%eval -1.48] } 20... Qxd6 { [%eval -1.42] } 21.
+Re1 $2 { [%eval -2.87] } 21... Kf7 $2 { [%eval -1.45] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/jk2I8b2I"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bliblabluuub"]
+[Black "Firefinch"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:55:42"]
+[WhiteElo "1661"]
+[BlackElo "1632"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+13"]
+[ECO "D09"]
+[Opening "Queen's Gambit Refused: Albin Countergambit, Modern Line"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.14] } 1... d5 { [%eval 0.21] } 2. c4 { [%eval 0.25] } 2... e5
+{ [%eval 0.65] } 3. dxe5 { [%eval 0.52] } 3... d4 { [%eval 0.58] } 4. Nf3
+{ [%eval 0.64] } 4... Nc6 { [%eval 0.66] } 5. Nbd2 { [%eval 0.41] } 5... Bg4
+{ [%eval 0.71] } 6. a3 { [%eval 0.53] } 6... Be7 $6 { [%eval 1.46] } 7. b4
+{ [%eval 1.37] } 7... f6 { [%eval 1.53] } 8. exf6 { [%eval 1.22] } 8... Nxf6
+{ [%eval 1.41] } 9. Bb2 { [%eval 1.11] } 9... O-O { [%eval 1.0] } 10. Nb3 $6
+{ [%eval 0.43] } 10... a6 $6 { [%eval 1.05] } 11. Nfxd4 $6 { [%eval 0.41] }
+11... Nxd4 { [%eval 0.52] } 12. Qxd4 { [%eval 0.19] } 12... c6 $2
+{ [%eval 1.85] } 13. e3 { [%eval 1.84] } 13... Qc7 $6 { [%eval 2.5] } 14. h3 $6
+{ [%eval 1.68] } 14... Rad8 { [%eval 2.12] } 15. Qc3 { [%eval 2.04] } 15... Be6
+{ [%eval 2.15] } 16. Be2 { [%eval 2.15] } 16... Rf7 { [%eval 2.38] } 17. O-O
+{ [%eval 2.0] } 17... Bf5 { [%eval 2.19] } 18. Nd4 { [%eval 2.18] } 18... Ne4
+{ [%eval 2.22] } 19. Qc1 $2 { [%eval 0.98] } 19... Bxh3 { [%eval 1.04] } 20.
+gxh3 $2 { [%eval 0.0] } 20... Bh4 $4 { [%eval 4.32] } 21. Bf3 $4
+{ [%eval -0.88] } 21... Rxf3 $4 { [%eval 6.6] } 22. Nxf3 { [%eval 6.53] } 22...
+Rf8 $4 { [%eval 9.9] } 23. Be5 $4 { [%eval 6.29] } 23... Qf7 $2
+{ [%eval 9.25] } 24. Nxh4 { [%eval 9.23] } 24... Qe6 { [%eval 9.18] } 25. Bg3
+{ [%eval 9.1] } 25... Qxh3 { [%eval 9.1] } 26. Qd1 { [%eval 8.89] } 26... Ng5
+$2 { [%eval 10.18] } 27. Qh5 { [%eval 9.55] } 27... Nf3+ { [%eval 9.85] } 28.
+Nxf3 $4 { [%eval 1.72] } 28... Qxh5 { [%eval 1.82] } 29. Kg2 $4
+{ [%eval -8.72] } 29... Qxf3+ { [%eval -8.34] } 30. Kh3 $2 { [%eval #-4] }
+30... Qf5+ $4 { [%eval -3.24] } 0-1

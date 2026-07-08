@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/aiuUNimm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "demianulises"]
+[Black "claudio8556"]
+[Result "1-0"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:08:25"]
+[WhiteElo "1537"]
+[BlackElo "1416"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.08] } 1... e5 { [%eval -0.05] } 2. Bg2 { [%eval -0.32] } 2...
+d5 { [%eval -0.31] } 3. Bxd5 $4 { [%eval -3.4] } 3... Qxd5 { [%eval -3.37] } 4.
+c4 $4 { [%eval -15.78] } 4... Qxh1 { [%eval -15.56] } 5. Kf1 $6 { [%eval #-2] }
+5... b6 $6 { [%eval -13.44] } 6. f3 { [%eval -22.45] } 6... Bb7
+{ [%eval -11.52] } 7. e4 { [%eval -16.41] } 7... Qg2+ $4 { [%eval 2.42] } 8.
+Kxg2 { [%eval 2.27] } 8... Nc6 { [%eval 2.76] } 9. Qa4 $6 { [%eval 2.04] } 9...
+Bc5 { [%eval 2.41] } 10. Nc3 { [%eval 2.37] } 10... Nf6 { [%eval 2.49] } 11.
+Nge2 { [%eval 2.6] } 11... O-O { [%eval 2.53] } 12. d3 { [%eval 2.37] } 12...
+a6 $6 { [%eval 3.02] } 13. Bg5 $6 { [%eval 2.41] } 13... Nd4 $2
+{ [%eval 3.56] } 14. Nxd4 { [%eval 3.6] } 14... exd4 { [%eval 3.91] } 15. Nd5
+$6 { [%eval 3.31] } 15... Bxd5 $6 { [%eval 3.83] } 16. exd5 { [%eval 3.45] }
+16... Nxd5 $4 { [%eval 6.59] } 17. cxd5 { [%eval 6.53] } 17... Rfe8
+{ [%eval 6.97] } 18. Qc2 $2 { [%eval 5.74] } 18... b5 $4 { [%eval 12.41] } 19.
+a3 $4 { [%eval 6.62] } 19... b4 $4 { [%eval 11.66] } 20. axb4 $2
+{ [%eval 8.0] } 20... Bd6 { [%eval 8.25] } 21. Qc6 { [%eval 8.0] } 21... f5 $2
+{ [%eval 9.9] } 22. Bf4 $6 { [%eval 9.0] } 22... g6 $2 { [%eval 11.25] } 23.
+Bxd6 { [%eval 10.8] } 23... Re2+ { [%eval 19.43] } 24. Kh3 { [%eval 16.75] }
+24... g5 $6 { [%eval #9] } 25. g4 $6 { [%eval 17.0] } 25... fxg4+
+{ [%eval 21.49] } 26. Kxg4 { [%eval 18.64] } 26... Rg2+ $6 { [%eval #8] } 27.
+Kf5 { [%eval #7] } 27... Rf2 { [%eval #2] } 28. Qxc7 $6 { [%eval #11] } 28...
+Rxf3+ { [%eval #13] } 29. Kxg5 { [%eval 48.58] } 29... h6+ $6 { [%eval #4] }
+30. Kxh6 $6 { [%eval #6] } 30... Kh8 { [%eval #1] } 31. Qg7# 1-0

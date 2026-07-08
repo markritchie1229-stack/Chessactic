@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cfULSD0n"]
+[Date "????.??.??"]
+[Round "?"]
+[White "giodip"]
+[Black "kubzap"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:28:05"]
+[WhiteElo "1126"]
+[BlackElo "1265"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+81"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.51] } 2. Bc4 { [%eval 0.05] } 2...
+Nc6 { [%eval 0.29] } 3. Qf3 $6 { [%eval -0.31] } 3... Qf6 $6 { [%eval 0.23] }
+4. Qxf6 { [%eval -0.21] } 4... Nxf6 { [%eval -0.17] } 5. Nf3 $6
+{ [%eval -0.87] } 5... d6 $6 { [%eval -0.03] } 6. c3 $6 { [%eval -0.9] } 6...
+Be6 $6 { [%eval -0.02] } 7. Bxe6 { [%eval -0.12] } 7... fxe6 { [%eval -0.06] }
+8. d4 $2 { [%eval -1.06] } 8... Nxe4 { [%eval -0.58] } 9. O-O $6
+{ [%eval -1.26] } 9... exd4 { [%eval -1.12] } 10. cxd4 { [%eval -1.27] } 10...
+Nf6 { [%eval -1.2] } 11. Nc3 { [%eval -1.25] } 11... Kd7 { [%eval -1.2] } 12.
+Be3 { [%eval -1.27] } 12... h6 { [%eval -1.29] } 13. Rad1 { [%eval -1.43] }
+13... d5 { [%eval -1.1] } 14. Ne5+ $6 { [%eval -1.65] } 14... Nxe5
+{ [%eval -1.52] } 15. dxe5 { [%eval -1.55] } 15... Nh7 $2 { [%eval -0.44] } 16.
+Nxd5 $2 { [%eval -2.18] } 16... exd5 { [%eval -1.87] } 17. Rxd5+
+{ [%eval -2.13] } 17... Ke6 { [%eval -1.97] } 18. Rfd1 $6 { [%eval -2.66] }
+18... Be7 { [%eval -2.53] } 19. f4 { [%eval -2.85] } 19... Rad8
+{ [%eval -2.54] } 20. g4 $4 { [%eval -9.62] } 20... Rxd5 { [%eval -9.34] } 21.
+Bd4 $6 { [%eval -16.74] } 21... Rxd4 { [%eval -16.57] } 22. Rxd4
+{ [%eval -16.66] } 22... Bc5 { [%eval -16.17] } 23. f5+ { [%eval -17.43] }
+23... Kxe5 { [%eval -16.8] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/RhJ7o0ZA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mirabi"]
+[Black "Kilipp"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:22:35"]
+[WhiteElo "1586"]
+[BlackElo "1540"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+12"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queen's Gambit Invitation"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. Nf3 { [%eval 0.07] } 1... e6 { [%eval 0.25] } 2. d4 { [%eval 0.15] } 2... g6
+$6 { [%eval 0.75] } 3. Bf4 { [%eval 0.58] } 3... Bg7 { [%eval 0.78] } 4. Ne5 $2
+{ [%eval -0.27] } 4... b6 { [%eval -0.09] } 5. Nxf7 $2 { [%eval -1.54] } 5...
+Kxf7 { [%eval -1.61] } 6. e4 { [%eval -1.74] } 6... Ke8 $6 { [%eval -1.23] } 7.
+e5 { [%eval -1.55] } 7... d6 { [%eval -1.18] } 8. Nc3 { [%eval -1.6] } 8...
+dxe5 { [%eval -1.49] } 9. Bxe5 { [%eval -1.96] } 9... Bxe5 { [%eval -1.71] }
+10. dxe5 { [%eval -2.04] } 10... Qxd1+ { [%eval -2.01] } 11. Nxd1 $6
+{ [%eval -2.86] } 11... Nc6 { [%eval -2.77] } 12. Ne3 $6 { [%eval -3.44] }
+12... Bb7 { [%eval -3.06] } 13. O-O-O { [%eval -3.41] } 13... Ke7
+{ [%eval -3.41] } 14. Ng4 { [%eval -3.75] } 14... Rd8 $6 { [%eval -3.22] } 15.
+Rxd8 { [%eval -3.28] } 15... Nxd8 { [%eval -3.26] } 16. Bb5 { [%eval -3.43] }
+16... c6 { [%eval -3.19] } 17. Bd3 { [%eval -3.17] } 17... Kf7 $6
+{ [%eval -2.37] } 18. f3 { [%eval -2.66] } 18... Ne7 { [%eval -2.6] } 19. Nf6
+{ [%eval -2.81] } 19... Nf5 { [%eval -2.66] } 20. g4 { [%eval -2.68] } 20...
+Nd4 $6 { [%eval -1.86] } 21. c3 $2 { [%eval -3.14] } 21... Nxf3
+{ [%eval -2.96] } 22. h4 $4 { [%eval -9.03] } 22... Nxe5 { [%eval -8.82] } 23.
+h5 $6 { [%eval -9.75] } 23... c5 $6 { [%eval -8.91] } 24. Bc2 $2
+{ [%eval -13.93] } 24... Bxh1 { [%eval -13.85] } 25. hxg6+ { [%eval -15.44] }
+25... Nxg6 { [%eval -12.18] } 26. g5 { [%eval -13.72] } 26... Nf4
+{ [%eval -11.69] } 0-1

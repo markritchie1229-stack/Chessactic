@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/lO8TzCXl"]
+[Site "https://lichess.org/58B0AG1H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "eduardo_gonzalez"]
+[Black "Filimon"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:21:11"]
+[WhiteElo "1773"]
+[BlackElo "1865"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.09] } 1... d5 { [%eval -0.09] } 2. g3 { [%eval -0.18] } 2...
+c5 { [%eval -0.15] } 3. Kd2 $2 { [%eval -1.23] } 3... Nc6 { [%eval -1.15] } 4.
+Ke3 $6 { [%eval -2.06] } 4... Nf6 { [%eval -1.58] } 5. Kf3 { [%eval -1.67] }
+5... e5 { [%eval -1.74] } 6. Kg2 { [%eval -1.75] } 6... e4 $6 { [%eval -1.18] }
+7. f3 $6 { [%eval -1.84] } 7... exf3+ { [%eval -1.79] } 8. exf3
+{ [%eval -1.99] } 8... Be6 $6 { [%eval -1.25] } 9. Bg5 $6 { [%eval -2.04] }
+9... Bd6 { [%eval -1.84] } 10. Nd2 { [%eval -1.92] } 10... Qc7 $6
+{ [%eval -1.29] } 11. Ne2 { [%eval -1.24] } 11... Nh5 { [%eval -1.41] } 12. Nf4
+$2 { [%eval -2.64] } 12... Nxf4+ { [%eval -2.61] } 13. gxf4 $6
+{ [%eval -3.47] } 13... Bxf4 $6 { [%eval -2.54] } 14. Bxf4 { [%eval -2.62] }
+14... Qxf4 { [%eval -2.64] } 15. Qe2 $2 { [%eval -4.52] } 15... O-O $2
+{ [%eval -3.45] } 16. Rg1 { [%eval -3.39] } 16... Nd4 { [%eval -3.33] } 17. Qf2
+{ [%eval -3.69] } 17... Nxc2 { [%eval -3.61] } 18. Rc1 { [%eval -3.63] } 18...
+Ne3+ { [%eval -3.6] } 19. Kh1 { [%eval -3.72] } 19... g6 { [%eval -3.31] } 20.
+Re1 { [%eval -3.59] } 20... d4 { [%eval -3.54] } 21. Ne4 $6 { [%eval -4.07] }
+21... Bd5 { [%eval -3.6] } 22. Bg2 $2 { [%eval -5.18] } 22... f5
+{ [%eval -4.86] } 23. Nxc5 { [%eval -5.09] } 23... Nxg2 $4 { [%eval -2.0] } 24.
+Kxg2 { [%eval -2.08] } 24... Rae8 { [%eval -2.11] } 25. Rxe8 $2
+{ [%eval -4.13] } 25... Rxe8 { [%eval -3.89] } 26. Qg3 $4 { [%eval #-26] }
+26... Re2+ { [%eval -41.46] } 27. Kh1 $6 { [%eval #-3] } 27... Bxf3+
+{ [%eval #-2] } 28. Qxf3 { [%eval #-1] } 28... Qxf3+ $6 { [%eval #-1] } 29. Rg2
+{ [%eval #-1] } 29... Qxg2# 0-1

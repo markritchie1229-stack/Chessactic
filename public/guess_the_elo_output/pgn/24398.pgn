@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/yKnkbl7f"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chessy_Chames"]
+[Black "Isaac__Newton"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:56:23"]
+[WhiteElo "2343"]
+[BlackElo "2446"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+10"]
+[ECO "D59"]
+[Opening "Queen's Gambit Declined: Tartakower Defense, Makogonov Exchange Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.14] } 1... d5 { [%eval 0.12] } 2. d4 { [%eval 0.14] } 2... e6
+{ [%eval 0.24] } 3. c4 { [%eval 0.29] } 3... Nf6 { [%eval 0.22] } 4. Nc3
+{ [%eval 0.22] } 4... Be7 { [%eval 0.23] } 5. Bg5 { [%eval 0.1] } 5... O-O
+{ [%eval 0.17] } 6. e3 { [%eval 0.1] } 6... h6 { [%eval 0.1] } 7. Bh4
+{ [%eval 0.1] } 7... b6 { [%eval 0.1] } 8. cxd5 { [%eval 0.06] } 8... Nxd5
+{ [%eval 0.05] } 9. Bxe7 { [%eval 0.02] } 9... Qxe7 { [%eval 0.09] } 10. Bd3
+{ [%eval -0.1] } 10... Nxc3 { [%eval -0.03] } 11. bxc3 { [%eval -0.03] } 11...
+c5 { [%eval -0.04] } 12. O-O { [%eval -0.07] } 12... Bb7 { [%eval 0.02] } 13.
+a4 { [%eval -0.2] } 13... Nc6 { [%eval -0.09] } 14. Qe2 { [%eval -0.32] } 14...
+Rac8 { [%eval -0.2] } 15. h3 { [%eval -0.34] } 15... Rc7 { [%eval -0.16] } 16.
+Bc2 $6 { [%eval -0.83] } 16... cxd4 { [%eval -0.72] } 17. cxd4
+{ [%eval -0.81] } 17... Nb4 { [%eval -0.91] } 18. Rfc1 $4 { [%eval -4.83] }
+18... Bxf3 { [%eval -4.7] } 19. gxf3 $6 { [%eval -5.29] } 19... Rfc8
+{ [%eval -5.12] } 20. Qd2 $4 { [%eval -10.81] } 20... Rxc2 { [%eval -9.27] }
+0-1

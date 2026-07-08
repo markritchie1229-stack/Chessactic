@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/n0IAdOsw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "quiquedalfo"]
+[Black "rolean"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:04:13"]
+[WhiteElo "1415"]
+[BlackElo "1212"]
+[WhiteRatingDiff "-36"]
+[BlackRatingDiff "+155"]
+[ECO "C20"]
+[Opening "King's Pawn Game"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.47] } 2. g3 $6 { [%eval -0.16] } 2...
+Bc5 { [%eval -0.08] } 3. c3 { [%eval -0.31] } 3... d5 { [%eval -0.12] } 4. b4
+$6 { [%eval -0.94] } 4... Bb6 { [%eval -0.83] } 5. Bg2 $2 { [%eval -1.85] }
+5... Nf6 $2 { [%eval -0.47] } 6. f3 $2 { [%eval -1.79] } 6... d4 $6
+{ [%eval -1.0] } 7. c4 $6 { [%eval -1.52] } 7... O-O $2 { [%eval 0.66] } 8. c5
+{ [%eval 0.43] } 8... Nc6 { [%eval 0.85] } 9. a3 { [%eval 0.84] } 9... a5
+{ [%eval 0.96] } 10. cxb6 { [%eval 0.86] } 10... axb4 { [%eval 0.88] } 11. d3
+{ [%eval 0.89] } 11... cxb6 { [%eval 0.78] } 12. Ne2 { [%eval 0.81] } 12... Ne7
+$6 { [%eval 1.6] } 13. Bb2 { [%eval 1.59] } 13... Nd7 $6 { [%eval 2.37] } 14.
+axb4 { [%eval 2.29] } 14... Rxa1 { [%eval 2.3] } 15. Bxa1 { [%eval 2.35] }
+15... b5 { [%eval 2.42] } 16. Na3 { [%eval 1.99] } 16... Qb6 $6
+{ [%eval 2.82] } 17. O-O { [%eval 2.52] } 17... f5 $2 { [%eval 4.22] } 18. Bh3
+$2 { [%eval 2.49] } 18... g6 $2 { [%eval 4.26] } 19. Qb3+ { [%eval 4.12] }
+19... Rf7 $6 { [%eval 4.98] } 20. g4 $2 { [%eval 2.24] } 20... Nb8
+{ [%eval 2.51] } 21. gxf5 { [%eval 2.48] } 21... gxf5 { [%eval 2.56] } 22. Ng3
+{ [%eval 2.13] } 22... Be6 { [%eval 2.25] } 23. Qd1 { [%eval 2.0] } 23... fxe4
+$2 { [%eval 3.22] } 24. Bxe6 $6 { [%eval 2.66] } 24... Qxe6 { [%eval 2.94] }
+25. f4 $2 { [%eval 0.85] } 25... exf4 $2 { [%eval 2.33] } 26. Nxe4
+{ [%eval 2.19] } 26... Qg6+ $2 { [%eval 4.07] } 27. Kh1 { [%eval 3.7] } 27...
+f3 $4 { [%eval 10.2] } 28. Rg1 { [%eval 9.95] } 28... f2 { [%eval 10.08] } 29.
+Rxg6+ { [%eval 9.4] } 29... Nxg6 { [%eval 9.2] } 30. Nxf2 { [%eval 9.0] } 30...
+Rxf2 { [%eval 8.79] } 31. Qe1 { [%eval 8.4] } 31... Rf8 $2 { [%eval 12.09] }
+0-1

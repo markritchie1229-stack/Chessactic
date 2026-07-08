@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TVQSBbDv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DjinnKahn"]
+[Black "ilopez000"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:00:01"]
+[WhiteElo "1522"]
+[BlackElo "1580"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-13"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.3] } 2. Bc4 { [%eval 0.05] } 2... b5
+$6 { [%eval 1.04] } 3. Bxb5 { [%eval 1.06] } 3... Nf6 { [%eval 0.99] } 4. d3
+{ [%eval 0.95] } 4... Bb7 { [%eval 1.38] } 5. Nc3 { [%eval 1.16] } 5... Bb4
+{ [%eval 1.0] } 6. Ne2 { [%eval 0.87] } 6... O-O { [%eval 1.12] } 7. O-O
+{ [%eval 0.83] } 7... c6 { [%eval 0.89] } 8. Bc4 { [%eval 0.73] } 8... d5
+{ [%eval 0.88] } 9. exd5 { [%eval 0.4] } 9... cxd5 { [%eval 0.49] } 10. Bb3
+{ [%eval 0.46] } 10... Nbd7 { [%eval 0.66] } 11. Bg5 { [%eval 0.59] } 11... Qc7
+{ [%eval 0.74] } 12. f4 $2 { [%eval -0.28] } 12... Nc5 $2 { [%eval 1.82] } 13.
+fxe5 { [%eval 1.83] } 13... Nfd7 $2 { [%eval 2.92] } 14. d4 $2 { [%eval 1.91] }
+14... Nxb3 { [%eval 2.02] } 15. axb3 { [%eval 2.06] } 15... Rac8 $2
+{ [%eval 3.1] } 16. Qd3 $6 { [%eval 2.17] } 16... Qc6 { [%eval 2.14] } 17. Rxa7
+$6 { [%eval 1.61] } 17... f6 $2 { [%eval 3.16] } 18. exf6 { [%eval 3.44] }
+18... Nxf6 $6 { [%eval 4.32] } 19. Bxf6 { [%eval 3.93] } 19... Rxf6 $6
+{ [%eval 4.5] } 20. Rxf6 { [%eval 4.33] } 20... gxf6 { [%eval 4.32] } 21. Qg3+
+$6 { [%eval 3.71] } 21... Kh8 { [%eval 3.6] } 22. Qf3 { [%eval 3.57] } 22...
+Rf8 $6 { [%eval 4.18] } 23. Qf5 $6 { [%eval 3.47] } 23... Bc8 $4 { [%eval #1] }
+24. Qxh7# 1-0

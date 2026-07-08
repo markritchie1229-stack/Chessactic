@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/VbMdyMFd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "naotomate"]
+[Black "IbraTV"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:50:25"]
+[WhiteElo "1652"]
+[BlackElo "1738"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+10"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.29] } 2. c4 { [%eval 0.15] } 2... c6
+{ [%eval 0.41] } 3. Nc3 { [%eval 0.29] } 3... Nf6 { [%eval 0.26] } 4. Nf3
+{ [%eval 0.14] } 4... e6 { [%eval 0.25] } 5. Bg5 { [%eval 0.06] } 5... Bb4
+{ [%eval 0.55] } 6. e3 { [%eval 0.48] } 6... Nbd7 { [%eval 0.46] } 7. a3
+{ [%eval 0.26] } 7... h6 $6 { [%eval 1.05] } 8. Bh4 $6 { [%eval 0.31] } 8...
+Bxc3+ { [%eval 0.38] } 9. bxc3 { [%eval 0.29] } 9... Qc7 { [%eval 0.61] } 10.
+cxd5 { [%eval 0.32] } 10... exd5 { [%eval 0.58] } 11. Bd3 { [%eval 0.38] }
+11... O-O { [%eval 0.48] } 12. Qc2 { [%eval 0.27] } 12... c5 { [%eval 0.2] }
+13. O-O { [%eval 0.37] } 13... cxd4 { [%eval 0.8] } 14. Nxd4 { [%eval 0.82] }
+14... b6 { [%eval 0.88] } 15. h3 { [%eval 0.66] } 15... Bb7 { [%eval 0.55] }
+16. Bg3 { [%eval 0.31] } 16... Qd8 { [%eval 0.37] } 17. Rfd1 { [%eval 0.13] }
+17... Nh5 $6 { [%eval 0.94] } 18. Bh2 { [%eval 0.83] } 18... Nhf6
+{ [%eval 0.73] } 19. a4 { [%eval 0.76] } 19... Re8 { [%eval 0.95] } 20. a5
+{ [%eval 1.13] } 20... Ne5 $2 { [%eval 2.47] } 21. axb6 $2 { [%eval 0.59] }
+21... axb6 $6 { [%eval 1.16] } 22. Rxa8 { [%eval 1.18] } 22... Bxa8
+{ [%eval 1.52] } 23. Bxe5 { [%eval 1.14] } 23... Rxe5 { [%eval 1.0] } 24. Nf3
+{ [%eval 0.58] } 24... Re8 { [%eval 0.64] } 25. Bb5 { [%eval 0.5] } 25... Re7
+{ [%eval 0.5] } 26. c4 { [%eval 0.21] } 26... Qc7 { [%eval 0.31] } 27. cxd5 $4
+{ [%eval -14.25] } 27... Qxc2 { [%eval -13.35] } 28. Nd4 { [%eval -26.58] }
+28... Qxd1+ { [%eval -24.97] } 0-1

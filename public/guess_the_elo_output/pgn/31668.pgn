@@ -1,0 +1,44 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/L79yEp0Y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SinnerNBD"]
+[Black "rasoulsaeidi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:15:58"]
+[WhiteElo "1620"]
+[BlackElo "1573"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+13"]
+[ECO "B06"]
+[Opening "Modern Defense: Two Knights Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... g6 { [%eval 0.5] } 2. d4 { [%eval 0.54] } 2... Bg7
+{ [%eval 0.54] } 3. Nf3 { [%eval 0.54] } 3... d6 { [%eval 0.6] } 4. Nc3
+{ [%eval 0.5] } 4... e5 $2 { [%eval 1.79] } 5. d5 $2 { [%eval 0.36] } 5... c6
+{ [%eval 0.63] } 6. Bg5 { [%eval 0.31] } 6... Bf6 $6 { [%eval 0.97] } 7. h4
+{ [%eval 0.93] } 7... Bg4 { [%eval 1.22] } 8. Bxf6 $2 { [%eval 0.06] } 8...
+Qxf6 $6 { [%eval 0.96] } 9. dxc6 $6 { [%eval 0.26] } 9... Nxc6 { [%eval 0.22] }
+10. Nd5 { [%eval 0.24] } 10... Qd8 { [%eval 0.28] } 11. Bb5 { [%eval -0.15] }
+11... Ne7 $2 { [%eval 2.43] } 12. Nf6+ { [%eval 2.37] } 12... Kf8
+{ [%eval 2.35] } 13. Nxg4 { [%eval 1.99] } 13... Qa5+ $2 { [%eval 3.49] } 14.
+Qd2 $6 { [%eval 2.54] } 14... Qxb5 { [%eval 2.77] } 15. O-O-O $2
+{ [%eval 0.74] } 15... h5 { [%eval 0.78] } 16. Nf6 { [%eval 0.47] } 16... Rd8
+{ [%eval 0.48] } 17. g4 { [%eval 0.31] } 17... Kg7 { [%eval 0.4] } 18. Nxh5+
+{ [%eval 0.0] } 18... gxh5 { [%eval -0.39] } 19. gxh5 $2 { [%eval -2.65] }
+19... Rxh5 { [%eval -2.52] } 20. Rhg1+ { [%eval -2.73] } 20... Ng6
+{ [%eval -2.64] } 21. Rg5 $6 { [%eval -3.27] } 21... Rdh8 $6 { [%eval -2.55] }
+22. Rdg1 $6 { [%eval -3.2] } 22... Qc5 { [%eval -2.87] } 23. c3 $6
+{ [%eval -3.37] } 23... Na5 $2 { [%eval -0.52] } 24. b4 { [%eval -0.4] } 24...
+Nc4 { [%eval 0.0] } 25. bxc5 { [%eval 0.0] } 25... Nxd2 { [%eval 0.04] } 26.
+Kxd2 { [%eval -0.2] } 26... f6 $4 { [%eval 9.72] } 27. cxd6 $4
+{ [%eval -5.47] } 27... fxg5 { [%eval -5.25] } 28. hxg5 { [%eval -5.7] } 28...
+Rd8 { [%eval -5.53] } 29. Kc2 { [%eval -5.6] } 29... Rxd6 { [%eval -5.37] } 30.
+Rd1 $2 { [%eval -8.18] } 30... Rxd1 { [%eval -7.8] } 31. Kxd1 { [%eval -7.85] }
+31... Rh1+ { [%eval -7.41] } 32. Ke2 $2 { [%eval -8.45] } 32... Ra1
+{ [%eval -8.12] } 33. Kd3 { [%eval -8.54] } 33... Rxa2 { [%eval -8.2] } 34. Kc4
+$6 { [%eval -9.16] } 34... Rxf2 { [%eval -8.67] } 35. Nd2 $2
+{ [%eval -113.72] } 0-1

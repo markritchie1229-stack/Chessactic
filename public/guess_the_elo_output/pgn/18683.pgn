@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/kXMTTih1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lpb"]
+[Black "ozzzer"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:25:26"]
+[WhiteElo "1353"]
+[BlackElo "1353"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+22"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Tennison Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... d5 $6 { [%eval 0.85] } 2. Nf3 $2 { [%eval -0.55] }
+2... dxe4 { [%eval -0.43] } 3. Ng5 { [%eval -0.56] } 3... f6 $2
+{ [%eval 0.47] } 4. Nh3 $2 { [%eval -1.28] } 4... Bxh3 $6 { [%eval -0.74] } 5.
+Bb5+ $4 { [%eval -4.36] } 5... Bd7 { [%eval -4.02] } 6. Bxd7+ $2
+{ [%eval -5.24] } 6... Qxd7 { [%eval -5.08] } 7. d3 $6 { [%eval -5.69] } 7...
+exd3 { [%eval -5.54] } 8. cxd3 { [%eval -5.77] } 8... Nc6 { [%eval -5.69] } 9.
+Nc3 { [%eval -5.72] } 9... e5 { [%eval -5.63] } 10. O-O { [%eval -5.71] } 10...
+O-O-O { [%eval -5.71] } 11. Be3 { [%eval -5.67] } 11... Qxd3 { [%eval -5.27] }
+12. Qxd3 $6 { [%eval -6.25] } 12... Rxd3 { [%eval -6.25] } 13. Rad1
+{ [%eval -6.2] } 13... Rxd1 { [%eval -6.2] } 14. Rxd1 { [%eval -6.2] } 14... b6
+{ [%eval -6.13] } 15. Nb5 { [%eval -6.32] } 15... Nge7 { [%eval -6.21] } 16. a3
+{ [%eval -6.31] } 16... g5 { [%eval -6.18] } 17. g4 { [%eval -6.52] } 17... h6
+{ [%eval -6.48] } 18. f3 { [%eval -6.7] } 18... f5 { [%eval -6.62] } 19. gxf5
+{ [%eval -6.96] } 19... Nxf5 { [%eval -6.8] } 20. h3 $4 { [%eval -11.72] }
+20... Nxe3 { [%eval -11.37] } 21. Rd5 { [%eval -22.12] } 21... Nxd5
+{ [%eval -21.5] } 22. Kf2 { [%eval -22.29] } 22... Bc5+ { [%eval -21.08] } 23.
+Kg3 { [%eval -20.75] } 23... Ne3 { [%eval -19.99] } 24. Nc3 { [%eval -20.79] }
+24... Bd4 { [%eval -20.16] } 25. Nd1 { [%eval -61.3] } 25... Nxd1
+{ [%eval -58.27] } 0-1

@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/CZ0Idn6Z"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rtf92"]
+[Black "Nikolayevich_Myshkin"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:48:34"]
+[WhiteElo "1251"]
+[BlackElo "1013"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+33"]
+[ECO "C40"]
+[Opening "King's Knight Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.27] } 2... g6
+$2 { [%eval 1.27] } 3. Nxe5 { [%eval 1.25] } 3... d6 { [%eval 1.4] } 4. Nxf7 $2
+{ [%eval -0.38] } 4... Kxf7 { [%eval -0.38] } 5. Bc4+ { [%eval -0.17] } 5...
+Ke8 $6 { [%eval 0.55] } 6. Bb5+ $2 { [%eval -0.61] } 6... c6 { [%eval -0.36] }
+7. Nc3 $4 { [%eval -3.6] } 7... cxb5 { [%eval -3.69] } 8. Nxb5 { [%eval -3.6] }
+8... h5 { [%eval -3.22] } 9. b3 { [%eval -3.39] } 9... Bd7 { [%eval -3.06] }
+10. Nd4 $6 { [%eval -3.92] } 10... Qf6 $6 { [%eval -3.38] } 11. Bb2 $6
+{ [%eval -4.34] } 11... d5 $2 { [%eval -2.43] } 12. Nb5 $4 { [%eval -7.36] }
+12... Qxb2 { [%eval -6.93] } 13. Nc7+ { [%eval -7.04] } 13... Kd8 $6
+{ [%eval -6.39] } 14. Nxa8 { [%eval -6.36] } 14... Bg4 $2 { [%eval -4.0] } 15.
+Qb1 $2 { [%eval -6.32] } 15... Qe5 { [%eval -5.81] } 16. f3 { [%eval -6.16] }
+16... Bd7 { [%eval -6.01] } 17. a4 $2 { [%eval -7.37] } 17... Be7 $2
+{ [%eval -5.29] } 18. O-O $2 { [%eval -6.44] } 18... Nf6 { [%eval -6.37] } 19.
+Qe1 { [%eval -6.53] } 19... Nc6 { [%eval -6.43] } 20. exd5 { [%eval -6.65] }
+20... Nxd5 $6 { [%eval -6.11] } 21. c4 $2 { [%eval -7.12] } 21... Nf4
+{ [%eval -6.55] } 22. Qg3 $4 { [%eval #-9] } 22... Ne2+ { [%eval #-8] } 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/wUpFtQy6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lolik90"]
+[Black "mishamv"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:43:20"]
+[WhiteElo "1433"]
+[BlackElo "1566"]
+[WhiteRatingDiff "-83"]
+[BlackRatingDiff "+83"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "-"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... c6 { [%eval 0.57] } 2. Nf3 { [%eval 0.43] } 2... d5
+{ [%eval 0.52] } 3. Bd3 $6 { [%eval 0.02] } 3... Bg4 { [%eval 0.04] } 4. exd5
+{ [%eval -0.12] } 4... cxd5 { [%eval -0.09] } 5. O-O { [%eval -0.14] } 5... e5
+$2 { [%eval 0.89] } 6. Be2 $6 { [%eval 0.29] } 6... e4 $6 { [%eval 0.83] } 7.
+Nd4 { [%eval 0.71] } 7... Bxe2 { [%eval 0.85] } 8. Qxe2 { [%eval 0.72] } 8...
+Bc5 { [%eval 0.87] } 9. c3 $6 { [%eval -0.05] } 9... Bxd4 { [%eval -0.07] } 10.
+cxd4 { [%eval -0.1] } 10... Nc6 { [%eval -0.1] } 11. Qe3 $2 { [%eval -1.1] }
+11... Nf6 $6 { [%eval -0.29] } 12. f3 $2 { [%eval -1.44] } 12... O-O
+{ [%eval -1.31] } 13. d3 { [%eval -1.62] } 13... Re8 $6 { [%eval -0.87] } 14.
+Nc3 { [%eval -1.0] } 14... exf3 { [%eval -0.9] } 15. Qxf3 { [%eval -1.03] }
+15... Nxd4 { [%eval -0.95] } 16. Qf2 { [%eval -1.12] } 16... Ne6
+{ [%eval -0.83] } 17. Ne2 { [%eval -1.1] } 17... b6 $6 { [%eval -0.39] } 18. b3
+{ [%eval -0.82] } 18... Rc8 $6 { [%eval -0.27] } 19. Bb2 $6 { [%eval -1.09] }
+19... d4 $6 { [%eval -0.4] } 20. Nxd4 { [%eval -0.37] } 20... Nxd4
+{ [%eval -0.27] } 21. Bxd4 { [%eval -0.35] } 21... Rc6 { [%eval -0.24] } 22.
+Qf3 $4 { [%eval -5.34] } 22... Qxd4+ { [%eval -5.25] } 23. Rf2 $4
+{ [%eval #-14] } 23... Qxa1+ { [%eval -120.43] } 0-1

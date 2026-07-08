@@ -1,0 +1,38 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/fMwNTheM"]
+[Site "https://lichess.org/2E2hHYdj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "aGrig"]
+[Black "mossyoaktree"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:04:30"]
+[WhiteElo "2081"]
+[BlackElo "1979"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C63"]
+[Opening "Ruy Lopez: Schliemann Defense, Schoenemann Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e5 { [%eval 0.15] } 2. Nf3 { [%eval 0.13] } 2...
+Nc6 { [%eval 0.2] } 3. Bb5 { [%eval 0.2] } 3... f5 { [%eval 0.53] } 4. d4 $6
+{ [%eval 0.03] } 4... fxe4 { [%eval 0.1] } 5. Nxe5 { [%eval -0.11] } 5... Nxe5
+{ [%eval -0.04] } 6. dxe5 { [%eval 0.06] } 6... Qe7 $2 { [%eval 1.23] } 7. Bf4
+{ [%eval 0.84] } 7... a6 $2 { [%eval 2.01] } 8. Be2 $2 { [%eval 0.73] } 8... b5
+$6 { [%eval 1.66] } 9. O-O { [%eval 1.28] } 9... Bb7 { [%eval 1.41] } 10. Nc3
+{ [%eval 0.98] } 10... O-O-O $6 { [%eval 1.66] } 11. Nd5 { [%eval 1.39] } 11...
+Bxd5 $2 { [%eval 3.76] } 12. Qxd5 { [%eval 3.39] } 12... Kb8 $2
+{ [%eval 4.99] } 13. c4 $2 { [%eval 3.69] } 13... Qc5 { [%eval 3.75] } 14. Qxe4
+{ [%eval 3.74] } 14... Be7 $2 { [%eval 4.89] } 15. Be3 { [%eval 5.12] } 15...
+Qc6 { [%eval 5.22] } 16. Qd4 { [%eval 4.7] } 16... Nh6 $4 { [%eval 18.64] } 17.
+Qa7+ { [%eval 18.32] } 17... Kc8 { [%eval 18.13] } 18. Bf3 { [%eval 14.36] }
+18... Qxf3 { [%eval 17.91] } 19. gxf3 { [%eval 16.89] } 19... d5 $6
+{ [%eval #8] } 20. e6 { [%eval #7] } 20... c5 { [%eval #7] } 21. Bf4 $6
+{ [%eval 27.41] } 21... Bd6 { [%eval 27.14] } 22. Bxd6 { [%eval 25.83] } 22...
+Rxd6 { [%eval 25.11] } 23. e7 { [%eval 19.59] } 23... Re8 { [%eval 30.58] } 24.
+Rfe1 { [%eval 28.15] } 24... Rg6+ { [%eval 30.75] } 25. Kh1 { [%eval 28.61] }
+25... Nf5 { [%eval 27.94] } 26. cxd5 { [%eval 24.1] } 26... Nh4 $6
+{ [%eval #6] } 27. d6 { [%eval #5] } 27... Rxd6 { [%eval #5] } 28. Rad1 $6
+{ [%eval #6] } 28... Rd7 { [%eval #2] } 29. Rxd7 { [%eval #1] } 1-0

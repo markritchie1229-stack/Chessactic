@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/20NwdYp7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JureMil"]
+[Black "johnniewalkerblack"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:45:32"]
+[WhiteElo "1749"]
+[BlackElo "1888"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... Nf6 { [%eval 0.62] } 2. Nc3 { [%eval 0.14] } 2...
+d5 { [%eval 0.4] } 3. exd5 { [%eval 0.35] } 3... Nxd5 { [%eval 0.53] } 4. Nxd5
+$6 { [%eval 0.02] } 4... Qxd5 { [%eval 0.08] } 5. Nf3 { [%eval 0.04] } 5... Bg4
+{ [%eval 0.32] } 6. d3 { [%eval 0.08] } 6... Nc6 { [%eval 0.07] } 7. Be2
+{ [%eval 0.0] } 7... O-O-O { [%eval 0.09] } 8. O-O { [%eval 0.02] } 8... e5
+{ [%eval 0.07] } 9. Re1 { [%eval -0.05] } 9... f5 { [%eval 0.2] } 10. Ng5 $2
+{ [%eval -0.92] } 10... Bxe2 { [%eval -0.91] } 11. Qxe2 { [%eval -0.97] } 11...
+h6 { [%eval -0.89] } 12. Nf3 { [%eval -0.83] } 12... Bd6 { [%eval -0.69] } 13.
+c4 { [%eval -1.02] } 13... Qf7 { [%eval -0.87] } 14. Be3 { [%eval -1.29] }
+14... Rhe8 { [%eval -1.09] } 15. a3 { [%eval -1.24] } 15... f4
+{ [%eval -0.86] } 16. Bd2 { [%eval -1.03] } 16... g5 { [%eval -0.67] } 17. b4
+$2 { [%eval -2.24] } 17... g4 { [%eval -2.28] } 18. Nh4 { [%eval -2.37] } 18...
+Nd4 $2 { [%eval -0.13] } 19. Qxg4+ { [%eval -0.37] } 19... Kb8
+{ [%eval -0.07] } 20. c5 $6 { [%eval -1.0] } 20... Be7 { [%eval -0.85] } 21.
+Qg6 $2 { [%eval -2.85] } 21... Qd5 $6 { [%eval -2.35] } 22. f3 $4
+{ [%eval -7.89] } 22... Bxh4 { [%eval -7.31] } 23. Re4 $2 { [%eval -13.3] }
+23... Nxf3+ { [%eval -12.48] } 24. gxf3 $6 { [%eval #-13] } 24... Rg8
+{ [%eval -25.46] } 25. Qxg8 $6 { [%eval #-6] } 25... Rxg8+ { [%eval #-5] } 26.
+Kf1 { [%eval #-3] } 26... Qxd3+ { [%eval #-2] } 27. Re2 { [%eval #-2] } 27...
+Qxf3+ { [%eval #-1] } 0-1

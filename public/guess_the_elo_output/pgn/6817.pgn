@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HKYvLfSQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Yuby"]
+[Black "irogna"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:39:26"]
+[WhiteElo "1181"]
+[BlackElo "1184"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... e6 { [%eval 0.35] } 2. Nf3 { [%eval 0.18] } 2... g6
+$6 { [%eval 0.77] } 3. e4 { [%eval 0.74] } 3... Nf6 { [%eval 0.97] } 4. Nc3
+{ [%eval 0.85] } 4... b6 $6 { [%eval 1.43] } 5. d5 $6 { [%eval 0.6] } 5... exd5
+$2 { [%eval 2.7] } 6. exd5 $2 { [%eval 0.57] } 6... Bb7 { [%eval 0.56] } 7. Bc4
+{ [%eval 0.48] } 7... Bc5 $2 { [%eval 1.95] } 8. Be3 $2 { [%eval 0.34] } 8...
+Ng4 $6 { [%eval 1.11] } 9. Bxc5 { [%eval 1.28] } 9... bxc5 { [%eval 1.26] } 10.
+h3 $6 { [%eval 0.48] } 10... Qe7+ { [%eval 0.93] } 11. Qe2 { [%eval 0.89] }
+11... O-O $4 { [%eval 15.45] } 12. Qxe7 { [%eval 14.99] } 12... Nc6
+{ [%eval 20.83] } 13. Qxd7 { [%eval 14.83] } 13... Nb4 { [%eval 19.17] } 14.
+O-O-O { [%eval 15.18] } 14... Nxf2 { [%eval 15.08] } 15. Qxc7 { [%eval 14.89] }
+15... Rfb8 { [%eval 20.87] } 16. a3 { [%eval 16.9] } 16... Na6 { [%eval 20.4] }
+17. Bxa6 { [%eval 17.09] } 17... Bxa6 { [%eval 16.73] } 18. Qxc5
+{ [%eval 16.41] } 18... Nxd1 { [%eval 17.59] } 19. Rxd1 { [%eval 17.02] } 19...
+Rc8 { [%eval 17.22] } 20. Qa5 { [%eval 16.44] } 20... Be2 { [%eval 21.84] } 21.
+Rd2 { [%eval 16.47] } 21... Bc4 { [%eval 19.08] } 22. d6 { [%eval 18.48] }
+22... Rd8 { [%eval 19.76] } 23. b3 { [%eval 18.62] } 23... Be6
+{ [%eval 19.79] } 24. Ng5 { [%eval 18.85] } 24... Rac8 $6 { [%eval #15] } 25.
+Nxe6 { [%eval 38.27] } 25... fxe6 $6 { [%eval #14] } 26. d7 { [%eval 55.93] }
+26... Rc4 $6 { [%eval #6] } 27. bxc4 { [%eval #5] } 1-0

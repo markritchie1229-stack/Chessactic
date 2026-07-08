@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/n0qdXE6e"]
+[Date "????.??.??"]
+[Round "?"]
+[White "K2A"]
+[Black "Mokichi"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:22:34"]
+[WhiteElo "1631"]
+[BlackElo "1630"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C21"]
+[Opening "Danish Gambit"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.42] } 2. d4 $6 { [%eval -0.27] } 2...
+exd4 { [%eval -0.29] } 3. c3 { [%eval -0.28] } 3... dxc3 { [%eval -0.27] } 4.
+Bc4 { [%eval -0.73] } 4... Bb4 { [%eval -0.26] } 5. bxc3 { [%eval -0.3] } 5...
+Ba5 $2 { [%eval 1.94] } 6. Ba3 $2 { [%eval -1.01] } 6... d6 $2 { [%eval 1.01] }
+7. Nf3 $2 { [%eval -0.59] } 7... Bg4 $2 { [%eval 0.66] } 8. h3 $2
+{ [%eval -0.94] } 8... Bxf3 { [%eval -0.86] } 9. gxf3 $6 { [%eval -1.79] } 9...
+Qf6 { [%eval -1.8] } 10. Qa4+ { [%eval -2.1] } 10... Nc6 { [%eval -2.07] } 11.
+Bb5 { [%eval -2.07] } 11... Bxc3+ $2 { [%eval 0.0] } 12. Nxc3 { [%eval 0.0] }
+12... Qxc3+ { [%eval 0.0] } 13. Ke2 { [%eval -0.31] } 13... Ne7 { [%eval 0.0] }
+14. Rac1 { [%eval 0.0] } 14... Qf6 { [%eval 0.23] } 15. Ke3 $4
+{ [%eval -3.48] } 15... O-O { [%eval -3.0] } 16. f4 $2 { [%eval -4.95] } 16...
+a6 $2 { [%eval -3.4] } 17. Bd3 $2 { [%eval -5.66] } 17... d5 $2
+{ [%eval -2.99] } 18. e5 { [%eval -2.86] } 18... d4+ $6 { [%eval -2.02] } 19.
+Kf3 $4 { [%eval -9.27] } 19... Nxe5+ { [%eval -8.85] } 20. Ke2 $6
+{ [%eval -9.58] } 20... Nxd3 $2 { [%eval -7.11] } 21. Kxd3 { [%eval -7.0] }
+21... Rfe8 { [%eval -6.64] } 22. Rhg1 $2 { [%eval -9.47] } 22... Qf5+ $2
+{ [%eval -7.8] } 23. Kxd4 $2 { [%eval -22.56] } 23... Nc6+ { [%eval -15.17] }
+24. Kc3 { [%eval -14.93] } 24... Qf6+ { [%eval -14.03] } 25. Kc2
+{ [%eval -13.79] } 25... Nd4+ $4 { [%eval -4.36] } 26. Kb1 { [%eval -4.39] }
+26... Ne2 { [%eval -4.3] } 27. Rce1 $4 { [%eval #-12] } 27... Nc3+
+{ [%eval -55.89] } 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/fKgwFBhp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kzamoranos"]
+[Black "pammon"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:38:27"]
+[WhiteElo "1729"]
+[BlackElo "1739"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C36"]
+[Opening "King's Gambit Accepted, Abbazia Defense"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.42] } 2. f4 $6 { [%eval -0.41] } 2...
+d5 { [%eval -0.35] } 3. exd5 { [%eval -0.23] } 3... exf4 { [%eval -0.18] } 4.
+Nf3 { [%eval -0.22] } 4... Nf6 { [%eval -0.22] } 5. Nc3 { [%eval -0.27] } 5...
+Bg4 { [%eval 0.16] } 6. Be2 { [%eval -0.24] } 6... Nbd7 { [%eval 0.19] } 7. d4
+{ [%eval 0.14] } 7... Bd6 { [%eval 0.11] } 8. Ne5 { [%eval 0.17] } 8... Qe7 $2
+{ [%eval 1.68] } 9. Bxf4 $2 { [%eval -0.44] } 9... Bxe2 $2 { [%eval 0.88] } 10.
+Qxe2 { [%eval 0.7] } 10... O-O-O { [%eval 0.67] } 11. O-O { [%eval 0.61] }
+11... Rhe8 { [%eval 0.77] } 12. Rae1 { [%eval 0.71] } 12... Nxe5
+{ [%eval 0.79] } 13. dxe5 { [%eval 0.74] } 13... Bc5+ { [%eval 0.81] } 14. Kh1
+{ [%eval 0.83] } 14... Nxd5 { [%eval 0.84] } 15. Nxd5 { [%eval 0.87] } 15...
+Rxd5 { [%eval 0.82] } 16. Qc4 $2 { [%eval -0.32] } 16... Rd4 { [%eval 0.13] }
+17. Qb5 { [%eval -0.2] } 17... Red8 { [%eval 0.08] } 18. c3 { [%eval 0.0] }
+18... R4d5 { [%eval 0.0] } 19. c4 $6 { [%eval -0.72] } 19... Bf2 $4
+{ [%eval 4.86] } 20. cxd5 { [%eval 4.7] } 20... Bxe1 { [%eval 4.62] } 21. d6
+{ [%eval 4.35] } 21... Qh4 $4 { [%eval 15.73] } 22. Qc5 { [%eval 14.26] } 22...
+Ba5 { [%eval 20.65] } 23. dxc7 $4 { [%eval 2.14] } 23... Bxc7 { [%eval 2.44] }
+24. e6 $4 { [%eval -4.29] } 24... Qxf4 { [%eval -3.54] } 25. Rxf4 $6
+{ [%eval -4.22] } 25... Rd1+ { [%eval -4.0] } 0-1

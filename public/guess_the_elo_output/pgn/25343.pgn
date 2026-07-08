@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Q2mo2eMW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GMSulbr"]
+[Black "TitanOverlordTheBoss"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:13:37"]
+[WhiteElo "1839"]
+[BlackElo "1860"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+67"]
+[ECO "C08"]
+[Opening "French Defense: Tarrasch, Open, 4.exd5 exd5"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.25] } 2. d4 { [%eval 0.16] } 2... d5
+{ [%eval 0.22] } 3. Nd2 { [%eval 0.09] } 3... c5 { [%eval 0.17] } 4. exd5
+{ [%eval 0.15] } 4... exd5 { [%eval 0.2] } 5. dxc5 { [%eval -0.12] } 5... Bxc5
+{ [%eval -0.12] } 6. Nb3 { [%eval -0.18] } 6... Bb6 { [%eval -0.24] } 7. Bb5+
+{ [%eval -0.32] } 7... Nc6 { [%eval -0.3] } 8. Nf3 { [%eval -0.35] } 8... Nf6
+{ [%eval -0.26] } 9. Bg5 $6 { [%eval -1.01] } 9... Bxf2+ { [%eval -0.97] } 10.
+Kxf2 { [%eval -1.0] } 10... Ne4+ { [%eval -0.93] } 11. Kg1 { [%eval -0.94] }
+11... Nxg5 { [%eval -0.79] } 12. Qe1+ $6 { [%eval -1.69] } 12... Ne4
+{ [%eval -1.48] } 13. Bd3 $6 { [%eval -2.17] } 13... Qb6+ { [%eval -2.45] } 14.
+Kf1 { [%eval -2.69] } 14... f5 { [%eval -2.31] } 15. Rd1 $6 { [%eval -2.87] }
+15... O-O { [%eval -2.76] } 16. Bxe4 $4 { [%eval -8.23] } 16... fxe4
+{ [%eval -7.46] } 17. Rxd5 $2 { [%eval -11.46] } 17... exf3 { [%eval -10.85] }
+18. h4 { [%eval -17.12] } 18... Bg4 { [%eval -16.06] } 19. Rc5
+{ [%eval -24.46] } 19... Rae8 { [%eval -21.16] } 20. Qg3 $6 { [%eval #-11] }
+20... f2 { [%eval #-11] } 21. Qxf2 { [%eval #-8] } 21... Rxf2+ { [%eval #-7] }
+22. Kxf2 { [%eval #-7] } 22... Re2+ { [%eval #-6] } 23. Kg3 { [%eval #-5] }
+23... Qc7+ { [%eval #-4] } 24. Kxg4 { [%eval #-4] } 24... Re4+ { [%eval #-3] }
+25. Kh3 { [%eval #-3] } 25... Re3+ { [%eval #-2] } 26. Kg4 { [%eval #-2] }
+26... Qg3+ { [%eval #-1] } 27. Kh5 { [%eval #-1] } 27... Qg6# 0-1

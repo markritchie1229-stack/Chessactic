@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/s0SR9nxe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vaggoskip"]
+[Black "Pizzamonkey"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:48:15"]
+[WhiteElo "1606"]
+[BlackElo "1321"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-4"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... d5 { [%eval 0.3] } 2. Nf3 { [%eval 0.2] } 2... e6
+{ [%eval 0.16] } 3. e3 { [%eval 0.16] } 3... g6 { [%eval 0.44] } 4. Ne5 $6
+{ [%eval -0.19] } 4... Nd7 { [%eval 0.01] } 5. f4 { [%eval -0.37] } 5... f6 $6
+{ [%eval 0.19] } 6. Nf3 { [%eval 0.16] } 6... f5 { [%eval 0.21] } 7. Bd3
+{ [%eval 0.17] } 7... Ngf6 { [%eval 0.26] } 8. Ne5 { [%eval -0.08] } 8... c5
+{ [%eval 0.02] } 9. c3 { [%eval -0.1] } 9... cxd4 { [%eval 0.33] } 10. cxd4
+{ [%eval -0.13] } 10... Ne4 { [%eval -0.02] } 11. Nd2 $6 { [%eval -0.97] }
+11... Nxd2 $2 { [%eval 0.33] } 12. Qxd2 { [%eval 0.19] } 12... a5
+{ [%eval 0.22] } 13. O-O { [%eval 0.22] } 13... Bb4 { [%eval 0.3] } 14. Qd1
+{ [%eval 0.23] } 14... Nxe5 { [%eval 0.23] } 15. fxe5 { [%eval 0.19] } 15...
+O-O { [%eval 0.22] } 16. Rf3 { [%eval 0.15] } 16... Qg5 $2 { [%eval 2.02] } 17.
+Rg3 $2 { [%eval 0.24] } 17... Qe7 $4 { [%eval 3.28] } 18. Qh5 $4
+{ [%eval -1.47] } 18... Qg7 $2 { [%eval 0.2] } 19. Qh3 { [%eval -0.06] } 19...
+f4 $2 { [%eval 1.82] } 20. exf4 { [%eval 1.7] } 20... Rxf4 $4 { [%eval 12.85] }
+21. Bxf4 { [%eval 12.45] } 21... Bd7 { [%eval 11.56] } 22. Rf3
+{ [%eval 11.01] } 22... Rf8 { [%eval 10.0] } 23. Bh6 $2 { [%eval 7.64] } 23...
+Rxf3 { [%eval 7.6] } 24. gxf3 { [%eval 7.41] } 24... Qf7 { [%eval 7.31] } 25.
+Rc1 { [%eval 6.93] } 25... Bd2 $4 { [%eval 15.0] } 26. Rc7 { [%eval 14.07] }
+26... Bxh6 { [%eval 15.45] } 27. Qxh6 { [%eval 14.61] } 27... Qxf3 $6
+{ [%eval #8] } 28. Rxd7 { [%eval #7] } 28... Qxd3 { [%eval #1] } 29. Qg7# 1-0

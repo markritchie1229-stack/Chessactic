@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/93tIPIIh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cffnm47"]
+[Black "meliath"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:19:04"]
+[WhiteElo "1314"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+7"]
+[ECO "A00"]
+[Opening "Van Geet Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.1] } 1... Nf6 { [%eval 0.11] } 2. Nf3 { [%eval -0.24] } 2...
+g6 $6 { [%eval 0.32] } 3. d4 { [%eval 0.0] } 3... Bg7 { [%eval 0.34] } 4. Bf4
+{ [%eval 0.03] } 4... a6 { [%eval 0.45] } 5. e4 { [%eval 0.51] } 5... b5
+{ [%eval 0.87] } 6. Qd3 $6 { [%eval 0.25] } 6... Bb7 { [%eval 0.25] } 7. Be2 $6
+{ [%eval -0.31] } 7... Nc6 $2 { [%eval 0.94] } 8. d5 { [%eval 0.82] } 8... Nb4
+$6 { [%eval 1.33] } 9. Qd4 $4 { [%eval -10.7] } 9... Nxc2+ { [%eval -10.47] }
+10. Kd2 { [%eval -12.85] } 10... Nxd4 { [%eval -12.77] } 11. Nxd4
+{ [%eval -12.45] } 11... Ng8 $2 { [%eval -8.81] } 12. Rac1 $2
+{ [%eval -12.44] } 12... Bxd4 { [%eval -12.36] } 13. Nd1 { [%eval -13.95] }
+13... f6 { [%eval -10.53] } 14. Bxc7 { [%eval -10.6] } 14... Qc8
+{ [%eval -10.33] } 15. Bf4 { [%eval -10.84] } 15... Bc5 { [%eval -10.59] } 16.
+Be3 { [%eval -11.44] } 16... d6 { [%eval -11.16] } 17. Bxc5 { [%eval -11.77] }
+17... dxc5 { [%eval -11.61] } 18. Rc2 { [%eval -12.58] } 18... Qc7
+{ [%eval -12.14] } 19. Ne3 { [%eval -12.45] } 19... Nh6 { [%eval -11.54] } 20.
+g3 { [%eval -13.14] } 20... Bc8 { [%eval -11.71] } 21. Rhc1 { [%eval -12.21] }
+21... O-O { [%eval -12.15] } 22. Rxc5 { [%eval -12.58] } 22... Qe5
+{ [%eval -12.38] } 23. b4 { [%eval -13.33] } 23... Qb2+ { [%eval -13.09] } 24.
+Nc2 { [%eval -14.61] } 24... Bg4 { [%eval -12.0] } 25. Bxg4 { [%eval -15.36] }
+25... Nxg4 { [%eval -15.02] } 26. a3 { [%eval -16.87] } 26... Rac8
+{ [%eval -16.28] } 27. Rxc8 $6 { [%eval #-9] } 27... Rxc8 { [%eval #-12] } 28.
+f3 { [%eval #-8] } 28... Ne5 { [%eval #-7] } 29. Kd1 { [%eval #-6] } 29... Nd3
+{ [%eval #-5] } 0-1

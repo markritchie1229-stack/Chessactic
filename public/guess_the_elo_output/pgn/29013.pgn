@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wcuFwlh7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hra"]
+[Black "vahidkkk"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:50:48"]
+[WhiteElo "1873"]
+[BlackElo "1869"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "C49"]
+[Opening "Four Knights Game: Double Spanish"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.33] } 2...
+Nc6 { [%eval 0.41] } 3. Nc3 { [%eval 0.13] } 3... Nf6 { [%eval 0.14] } 4. Bb5
+{ [%eval 0.02] } 4... Bb4 { [%eval 0.08] } 5. O-O { [%eval 0.08] } 5... Bxc3
+{ [%eval 0.35] } 6. bxc3 { [%eval 0.27] } 6... d6 { [%eval 0.25] } 7. d3
+{ [%eval 0.18] } 7... O-O { [%eval 0.17] } 8. Bg5 { [%eval 0.02] } 8... h6
+{ [%eval 0.1] } 9. Bh4 { [%eval 0.08] } 9... g5 { [%eval 0.39] } 10. Bg3
+{ [%eval 0.06] } 10... Nh7 $6 { [%eval 0.66] } 11. Bc4 $2 { [%eval -0.62] }
+11... Be6 $2 { [%eval 0.48] } 12. Bxe6 { [%eval 0.5] } 12... fxe6
+{ [%eval 0.54] } 13. Qb1 { [%eval 0.08] } 13... Qf6 $2 { [%eval 2.62] } 14.
+Qxb7 { [%eval 2.54] } 14... Ne7 { [%eval 2.44] } 15. Qxc7 { [%eval 2.3] } 15...
+Ng6 $2 { [%eval 4.39] } 16. Qxd6 { [%eval 4.09] } 16... h5 $6 { [%eval 4.82] }
+17. Nxe5 $6 { [%eval 4.29] } 17... Nxe5 $2 { [%eval 5.89] } 18. Bxe5
+{ [%eval 5.68] } 18... Qg6 $6 { [%eval 6.18] } 19. Rab1 { [%eval 5.93] } 19...
+Rad8 { [%eval 5.84] } 20. Qe7 { [%eval 5.83] } 20... Rde8 { [%eval 5.91] } 21.
+Qa3 { [%eval 5.71] } 21... Rf7 { [%eval 5.79] } 22. Qa5 { [%eval 5.64] } 22...
+g4 { [%eval 5.91] } 23. Bd4 { [%eval 5.91] } 23... Ref8 $6 { [%eval 6.8] } 24.
+Bxa7 $2 { [%eval 5.7] } 24... Ng5 $2 { [%eval 6.97] } 25. Be3 { [%eval 6.81] }
+25... Nf3+ $2 { [%eval 8.4] } 26. gxf3 { [%eval 8.18] } 26... gxf3+
+{ [%eval 8.37] } 27. Kh1 $4 { [%eval #-1] } 27... Qg2# 0-1

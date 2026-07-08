@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/4ZFD9z95"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fabkob"]
+[Black "Tarzan_10"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:00:30"]
+[WhiteElo "1610"]
+[BlackElo "1558"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... d5 { [%eval 0.62] } 2. exd5 { [%eval 0.58] } 2...
+Qxd5 { [%eval 0.63] } 3. Nf3 { [%eval 0.6] } 3... e5 { [%eval 1.0] } 4. d3 $6
+{ [%eval 0.13] } 4... Bg4 { [%eval 0.29] } 5. Be2 { [%eval 0.06] } 5... e4 $2
+{ [%eval 1.08] } 6. dxe4 { [%eval 0.9] } 6... Qxd1+ { [%eval 0.91] } 7. Bxd1
+{ [%eval 1.01] } 7... Bxf3 { [%eval 1.2] } 8. Bxf3 { [%eval 1.21] } 8... Nc6
+{ [%eval 1.22] } 9. c3 { [%eval 1.03] } 9... O-O-O { [%eval 1.16] } 10. O-O
+{ [%eval 0.89] } 10... Ne5 { [%eval 1.0] } 11. Be2 { [%eval 0.89] } 11... Bc5
+{ [%eval 1.11] } 12. Kh1 $6 { [%eval 0.54] } 12... a6 { [%eval 0.77] } 13. f4
+$6 { [%eval 0.0] } 13... Ng6 $2 { [%eval 1.36] } 14. b4 $6 { [%eval 0.74] }
+14... Ba7 { [%eval 0.96] } 15. Na3 { [%eval 0.54] } 15... h5 $2
+{ [%eval 1.64] } 16. Nc4 { [%eval 1.63] } 16... h4 $6 { [%eval 2.21] } 17. Bf3
+{ [%eval 1.94] } 17... h3 { [%eval 2.09] } 18. g3 { [%eval 1.95] } 18... N6e7
+{ [%eval 2.41] } 19. Bb2 $2 { [%eval 1.36] } 19... f6 $6 { [%eval 2.27] } 20.
+Rad1 { [%eval 1.89] } 20... Nc6 $2 { [%eval 2.96] } 21. Rxd8+ { [%eval 2.89] }
+21... Nxd8 { [%eval 3.06] } 22. Rd1 $2 { [%eval 1.91] } 22... Ne7 $6
+{ [%eval 2.89] } 23. Rd3 $6 { [%eval 2.29] } 23... g5 { [%eval 2.63] } 24. Ne3
+$2 { [%eval 1.27] } 24... Rg8 $2 { [%eval 3.38] } 25. Bg4+ $6 { [%eval 2.47] }
+25... Kb8 { [%eval 2.44] } 26. Bxh3 { [%eval 2.47] } 26... gxf4 { [%eval 2.9] }
+27. gxf4 $4 { [%eval -0.93] } 27... Ng6 { [%eval -0.87] } 28. f5 $4
+{ [%eval -6.02] } 28... Ne5 $4 { [%eval -1.9] } 29. Bf1 $4 { [%eval -7.18] }
+29... Nxd3 { [%eval -7.1] } 30. Bxd3 { [%eval -7.0] } 30... Bxe3
+{ [%eval -6.81] } 0-1

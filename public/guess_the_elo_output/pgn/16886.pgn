@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vl0cBypP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Keu13579"]
+[Black "seckinYasar"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:12:44"]
+[WhiteElo "1150"]
+[BlackElo "1223"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+24"]
+[ECO "D10"]
+[Opening "Slav Defense #3"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... d5 { [%eval 0.11] } 2. c4 { [%eval 0.15] } 2... c6
+{ [%eval 0.43] } 3. Nc3 { [%eval 0.13] } 3... dxc4 { [%eval 0.25] } 4. e3
+{ [%eval 0.03] } 4... Nf6 $6 { [%eval 0.65] } 5. Bxc4 { [%eval 0.61] } 5... b5
+{ [%eval 0.64] } 6. Be2 { [%eval 0.65] } 6... Nd5 { [%eval 1.05] } 7. Nf3
+{ [%eval 1.03] } 7... Bf5 $6 { [%eval 1.67] } 8. Nxd5 { [%eval 1.53] } 8...
+cxd5 { [%eval 1.57] } 9. O-O { [%eval 1.64] } 9... e6 $2 { [%eval 4.41] } 10.
+Qb3 $4 { [%eval 1.12] } 10... Bd6 { [%eval 1.24] } 11. Qxb5+ { [%eval 1.19] }
+11... Nd7 { [%eval 1.2] } 12. Bd2 { [%eval 0.82] } 12... Qb6 $2
+{ [%eval 1.86] } 13. Ba5 $6 { [%eval 1.19] } 13... Qxb5 { [%eval 0.97] } 14.
+Bxb5 { [%eval 0.64] } 14... O-O $4 { [%eval 4.87] } 15. Ne5 $4
+{ [%eval -0.86] } 15... Nxe5 { [%eval -0.77] } 16. dxe5 { [%eval -0.82] } 16...
+Bxe5 { [%eval -0.76] } 17. Bc3 { [%eval -0.68] } 17... d4 $6 { [%eval 0.31] }
+18. exd4 { [%eval 0.32] } 18... Bf6 { [%eval 0.37] } 19. Rae1 { [%eval 0.12] }
+19... Rab8 { [%eval 0.2] } 20. Bd3 $4 { [%eval -5.95] } 20... Bxd3
+{ [%eval -5.89] } 21. Re3 { [%eval -5.95] } 21... Bxf1 { [%eval -5.93] } 0-1

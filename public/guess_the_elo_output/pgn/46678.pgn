@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/I03rTJIa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fffffftttttt"]
+[Black "kachazo"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:44:58"]
+[WhiteElo "1819"]
+[BlackElo "1642"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+38"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.19] } 2. d4 { [%eval 0.18] } 2... d5
+{ [%eval 0.14] } 3. exd5 { [%eval 0.05] } 3... exd5 { [%eval 0.1] } 4. c4
+{ [%eval -0.08] } 4... Nf6 { [%eval -0.08] } 5. c5 $6 { [%eval -0.62] } 5... c6
+{ [%eval -0.31] } 6. Nc3 { [%eval -0.46] } 6... g6 $6 { [%eval 0.24] } 7. h3
+{ [%eval -0.16] } 7... Bg7 { [%eval -0.08] } 8. Bd3 { [%eval -0.11] } 8... O-O
+{ [%eval -0.14] } 9. Nge2 { [%eval -0.38] } 9... Re8 { [%eval -0.14] } 10. O-O
+{ [%eval 0.0] } 10... Nbd7 { [%eval 0.0] } 11. Bg5 { [%eval -0.01] } 11... Qc7
+{ [%eval 0.12] } 12. Bf4 { [%eval 0.0] } 12... Qd8 { [%eval 0.1] } 13. Ng3
+{ [%eval 0.0] } 13... b6 { [%eval 0.0] } 14. b4 { [%eval 0.0] } 14... bxc5
+{ [%eval 0.23] } 15. bxc5 { [%eval 0.21] } 15... a5 { [%eval 0.35] } 16. a4
+{ [%eval -0.03] } 16... Ba6 { [%eval 0.08] } 17. Rc1 { [%eval -0.13] } 17...
+Bxd3 { [%eval 0.0] } 18. Qxd3 { [%eval 0.06] } 18... Nh5 $6 { [%eval 0.62] }
+19. Nxh5 { [%eval 0.45] } 19... gxh5 { [%eval 0.59] } 20. Ne2 { [%eval 0.54] }
+20... Nf6 $6 { [%eval 1.27] } 21. Ng3 { [%eval 1.38] } 21... h4
+{ [%eval 1.53] } 22. Nf5 { [%eval 1.45] } 22... Ne4 { [%eval 1.33] } 23. Nxh4
+$4 { [%eval -4.13] } 23... Qxh4 { [%eval -3.95] } 24. Be3 { [%eval -4.25] }
+24... Rab8 { [%eval -3.76] } 25. Rb1 { [%eval -4.2] } 25... Rb4 $2
+{ [%eval -3.08] } 26. Rxb4 { [%eval -3.02] } 26... axb4 { [%eval -2.54] } 27.
+a5 $2 { [%eval -4.0] } 27... Rb8 $2 { [%eval -2.65] } 28. a6 { [%eval -2.69] }
+28... Ra8 { [%eval -2.58] } 29. Rb1 $6 { [%eval -3.26] } 29... Qd8 $4
+{ [%eval 0.0] } 30. Rxb4 { [%eval 0.0] } 30... Qa5 { [%eval 0.0] } 31. Rb6
+{ [%eval 0.0] } 31... Qa1+ { [%eval 0.0] } 32. Kh2 { [%eval 0.0] } 32... Qa2 $2
+{ [%eval 1.93] } 0-1

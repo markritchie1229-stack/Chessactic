@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ucApUJfR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "anmadi"]
+[Black "MamatShamshiev"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:18:59"]
+[WhiteElo "2291"]
+[BlackElo "2067"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+16"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Main Line, Mieses Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... d5 { [%eval 0.62] } 2. Nc3 $6 { [%eval -0.36] }
+2... dxe4 $6 { [%eval 0.19] } 3. Nxe4 { [%eval 0.11] } 3... Qd5 $6
+{ [%eval 0.72] } 4. Nc3 { [%eval 0.64] } 4... Qa5 { [%eval 0.64] } 5. d4
+{ [%eval 0.85] } 5... Nf6 { [%eval 0.88] } 6. g3 $2 { [%eval -0.55] } 6... c6
+$6 { [%eval 0.32] } 7. Bg2 { [%eval 0.22] } 7... Bf5 { [%eval 0.18] } 8. Nf3
+{ [%eval 0.28] } 8... e6 { [%eval 0.35] } 9. O-O { [%eval 0.18] } 9... Nbd7
+{ [%eval 0.32] } 10. Bd2 { [%eval 0.2] } 10... Qc7 { [%eval 0.43] } 11. Bf4
+{ [%eval 0.08] } 11... Bd6 { [%eval 0.25] } 12. Bxd6 { [%eval 0.22] } 12...
+Qxd6 { [%eval 0.23] } 13. Qe2 { [%eval 0.06] } 13... O-O { [%eval 0.06] } 14.
+a4 { [%eval 0.0] } 14... a5 { [%eval 0.09] } 15. Rfd1 { [%eval -0.34] } 15...
+h6 { [%eval 0.0] } 16. Ne5 { [%eval 0.0] } 16... Rfd8 { [%eval 0.0] } 17. h3 $6
+{ [%eval -0.68] } 17... Qc7 { [%eval -0.19] } 18. g4 { [%eval -0.42] } 18...
+Bh7 { [%eval -0.25] } 19. Rd2 $6 { [%eval -1.24] } 19... Qb6 $6
+{ [%eval -0.3] } 20. b3 { [%eval -0.21] } 20... Qb4 { [%eval -0.13] } 21. Qe3
+$6 { [%eval -1.0] } 21... Nxe5 { [%eval -0.87] } 22. dxe5 { [%eval -0.94] }
+22... Rxd2 { [%eval -0.75] } 23. Qxd2 { [%eval -0.98] } 23... Nd5
+{ [%eval -0.83] } 24. Ne4 { [%eval -0.98] } 24... Bxe4 $6 { [%eval -0.25] } 25.
+Qxb4 { [%eval -0.21] } 25... Nxb4 { [%eval -0.23] } 26. Bxe4 { [%eval -0.26] }
+26... Rd8 { [%eval -0.2] } 27. Kf1 { [%eval -0.29] } 27... Rd2
+{ [%eval -0.33] } 28. Rc1 { [%eval -0.21] } 28... Na2 { [%eval -0.27] } 29. Ke1
+$4 { [%eval -4.69] } 29... Rd4 { [%eval -4.52] } 30. Bd3 $4 { [%eval -8.59] }
+30... Nxc1 { [%eval -8.21] } 0-1

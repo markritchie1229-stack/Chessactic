@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/eLWf5xXk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lesnick86"]
+[Black "orleyman"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:24:30"]
+[WhiteElo "1773"]
+[BlackElo "1736"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-10"]
+[ECO "B27"]
+[Opening "Sicilian Defense: Hyperaccelerated Dragon"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.12] } 1... c5 { [%eval 0.25] } 2. Nf3 { [%eval 0.25] } 2... g6
+{ [%eval 0.47] } 3. Bc4 { [%eval 0.2] } 3... Bg7 { [%eval 0.21] } 4. Nc3
+{ [%eval 0.08] } 4... Nc6 { [%eval 0.07] } 5. d3 { [%eval 0.12] } 5... d6
+{ [%eval 0.1] } 6. O-O { [%eval 0.09] } 6... Nf6 { [%eval 0.17] } 7. Be3
+{ [%eval 0.02] } 7... a6 { [%eval 0.12] } 8. a3 { [%eval 0.01] } 8... O-O
+{ [%eval -0.06] } 9. h3 { [%eval -0.04] } 9... b5 { [%eval -0.02] } 10. Ba2
+{ [%eval -0.07] } 10... Bb7 { [%eval -0.08] } 11. Nh2 { [%eval -0.38] } 11...
+b4 $6 { [%eval 0.56] } 12. Ne2 $6 { [%eval -0.06] } 12... bxa3 { [%eval 0.16] }
+13. bxa3 { [%eval 0.15] } 13... Nd7 { [%eval 0.43] } 14. Rb1 { [%eval 0.34] }
+14... Rb8 { [%eval 0.49] } 15. f4 { [%eval 0.34] } 15... Nd4 $6
+{ [%eval 0.84] } 16. f5 { [%eval 0.77] } 16... Nxe2+ { [%eval 1.11] } 17. Qxe2
+{ [%eval 0.89] } 17... Ne5 { [%eval 1.33] } 18. Qd2 $6 { [%eval 0.62] } 18...
+Ba8 { [%eval 0.9] } 19. Bh6 $6 { [%eval 0.04] } 19... Qd7 $4 { [%eval 4.62] }
+20. fxg6 $2 { [%eval 2.57] } 20... Nxg6 $4 { [%eval 11.06] } 21. Ng4 $4
+{ [%eval 1.33] } 21... Kh8 $4 { [%eval #7] } 22. Bxg7+ { [%eval #6] } 22...
+Kxg7 { [%eval #6] } 23. Qh6+ { [%eval #5] } 23... Kh8 { [%eval #5] } 24. Rxb8
+{ [%eval #4] } 24... Rxb8 { [%eval #3] } 25. Rxf7 { [%eval #2] } 25... Nf8
+{ [%eval #1] } 26. Qg7# 1-0

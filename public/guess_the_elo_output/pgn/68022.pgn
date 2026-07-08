@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/khe8jB9d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Chronofugit"]
+[Black "DESSE"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:39:32"]
+[WhiteElo "1475"]
+[BlackElo "1408"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Stonewall Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.17] } 2. e3 { [%eval 0.09] } 2... d5
+{ [%eval 0.18] } 3. Bd3 { [%eval -0.06] } 3... Nc6 { [%eval 0.01] } 4. c3 $6
+{ [%eval -0.6] } 4... b6 $2 { [%eval 0.53] } 5. Nd2 { [%eval 0.41] } 5... e5 $6
+{ [%eval 0.98] } 6. dxe5 $2 { [%eval -0.52] } 6... Nxe5 { [%eval -0.43] } 7.
+Bc2 { [%eval -0.56] } 7... Bd6 { [%eval -0.62] } 8. Ndf3 { [%eval -0.71] } 8...
+Nxf3+ { [%eval -0.52] } 9. Qxf3 $4 { [%eval -6.64] } 9... Bg4 { [%eval -6.45] }
+10. Qxg4 $6 { [%eval -7.19] } 10... Nxg4 { [%eval -7.09] } 11. h3 $2
+{ [%eval -9.62] } 11... Nf6 $2 { [%eval -6.76] } 12. Nf3 $6 { [%eval -7.28] }
+12... O-O { [%eval -7.17] } 13. O-O { [%eval -7.17] } 13... c6
+{ [%eval -7.18] } 14. Rd1 { [%eval -7.3] } 14... Qc7 { [%eval -7.25] } 15. Rd4
+{ [%eval -7.5] } 15... Ne4 { [%eval -7.2] } 16. b3 $2 { [%eval -8.37] } 16...
+c5 $2 { [%eval -7.19] } 17. Rd3 { [%eval -7.58] } 17... Nf6 $6
+{ [%eval -6.99] } 18. Ba3 { [%eval -7.31] } 18... c4 { [%eval -7.24] } 19. Bxd6
+{ [%eval -7.35] } 19... Qxd6 { [%eval -7.35] } 20. Rd4 { [%eval -7.29] } 20...
+cxb3 { [%eval -7.25] } 21. Bxb3 { [%eval -7.31] } 21... Rfd8 $6
+{ [%eval -6.52] } 22. Rad1 $2 { [%eval -7.57] } 22... Qe7 { [%eval -7.45] } 23.
+Bxd5 $2 { [%eval -10.22] } 23... Nxd5 { [%eval -9.96] } 24. Rxd5
+{ [%eval -10.05] } 24... Rxd5 { [%eval -9.78] } 25. Rxd5 { [%eval -9.7] } 25...
+Rd8 { [%eval -9.44] } 26. Rd4 $6 { [%eval -11.0] } 26... Rxd4
+{ [%eval -10.43] } 27. cxd4 { [%eval -12.4] } 27... Qa3 { [%eval -11.92] } 28.
+Kh2 { [%eval -12.8] } 28... Qd6+ { [%eval -10.88] } 29. Ne5 { [%eval -14.62] }
+29... f6 { [%eval -13.64] } 30. f4 { [%eval -14.93] } 30... fxe5
+{ [%eval -14.31] } 0-1

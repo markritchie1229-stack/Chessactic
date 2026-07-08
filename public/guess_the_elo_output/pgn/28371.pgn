@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mDPm2F3X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sveinungdyr"]
+[Black "seachess"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:44:44"]
+[WhiteElo "1436"]
+[BlackElo "1467"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+9"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "480+10"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.28] } 2. Nf3 { [%eval 0.32] } 2... d6
+{ [%eval 0.37] } 3. Bc4 { [%eval 0.3] } 3... Be6 $6 { [%eval 1.04] } 4. d3 $6
+{ [%eval 0.14] } 4... a6 $2 { [%eval 1.55] } 5. Ng5 $2 { [%eval -0.12] } 5...
+Bxc4 { [%eval -0.09] } 6. dxc4 { [%eval -0.18] } 6... g6 $2 { [%eval 0.92] } 7.
+O-O $2 { [%eval -0.14] } 7... Bg7 $2 { [%eval 0.86] } 8. c3 $2
+{ [%eval -0.14] } 8... e6 { [%eval -0.07] } 9. Qf3 { [%eval -0.36] } 9... Nf6
+{ [%eval 0.0] } 10. Be3 { [%eval -0.38] } 10... Nc6 { [%eval -0.23] } 11. Nd2
+{ [%eval -0.36] } 11... O-O { [%eval -0.22] } 12. Qh3 { [%eval -0.28] } 12...
+h5 { [%eval -0.33] } 13. Qg3 { [%eval -0.69] } 13... Ng4 { [%eval -0.52] } 14.
+Rad1 { [%eval -0.68] } 14... Nxe3 { [%eval -0.41] } 15. fxe3 $6
+{ [%eval -1.19] } 15... Ne5 { [%eval -1.05] } 16. h3 { [%eval -1.36] } 16...
+Bh6 { [%eval -0.98] } 17. b4 $4 { [%eval -5.69] } 17... Rc8 $4
+{ [%eval -1.64] } 18. Ngf3 { [%eval -1.68] } 18... cxb4 { [%eval -1.56] } 19.
+Nxe5 { [%eval -1.56] } 19... dxe5 { [%eval -1.65] } 20. cxb4 { [%eval -1.64] }
+20... Qd4 $4 { [%eval 11.44] } 21. Rf2 $4 { [%eval -5.66] } 21... Bxe3
+{ [%eval -5.26] } 22. Nb3 $4 { [%eval -15.64] } 22... Bxf2+ { [%eval -14.98] }
+23. Qxf2 { [%eval -14.52] } 23... Qxd1+ { [%eval -13.51] } 0-1

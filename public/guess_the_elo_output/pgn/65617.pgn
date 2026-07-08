@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/IXp0MRJU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jogolk"]
+[Black "IsamKh"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:02:47"]
+[WhiteElo "1521"]
+[BlackElo "1520"]
+[WhiteRatingDiff "-94"]
+[BlackRatingDiff "+21"]
+[ECO "D31"]
+[Opening "Queen's Gambit Declined: Queen's Knight Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... d5 { [%eval 0.13] } 2. c4 { [%eval 0.19] } 2... e6
+{ [%eval 0.3] } 3. Nc3 { [%eval 0.18] } 3... dxc4 { [%eval 0.52] } 4. e3 $6
+{ [%eval 0.0] } 4... Bb4 { [%eval 0.43] } 5. Bxc4 { [%eval 0.48] } 5... h6
+{ [%eval 0.82] } 6. a3 { [%eval 0.6] } 6... Bxc3+ { [%eval 0.6] } 7. bxc3
+{ [%eval 0.63] } 7... Qg5 $6 { [%eval 1.27] } 8. Qf3 $6 { [%eval 0.7] } 8...
+Bd7 $2 { [%eval 1.82] } 9. Nh3 $6 { [%eval 1.02] } 9... Qa5 { [%eval 1.16] }
+10. Bd2 { [%eval 0.95] } 10... Bc6 $6 { [%eval 1.58] } 11. Qg3 { [%eval 1.33] }
+11... g6 $6 { [%eval 2.04] } 12. O-O $6 { [%eval 1.22] } 12... Nf6
+{ [%eval 1.64] } 13. Bd3 { [%eval 1.17] } 13... Be4 $6 { [%eval 1.93] } 14. Be2
+$6 { [%eval 0.97] } 14... Nbd7 { [%eval 1.02] } 15. f3 { [%eval 0.81] } 15...
+Bf5 { [%eval 1.58] } 16. Nf4 $6 { [%eval 0.87] } 16... g5 $6 { [%eval 1.57] }
+17. Nd3 { [%eval 1.34] } 17... Bxd3 { [%eval 1.72] } 18. Bxd3 { [%eval 1.5] }
+18... Nd5 $6 { [%eval 2.3] } 19. Qe1 { [%eval 1.91] } 19... Qb6
+{ [%eval 2.22] } 20. c4 { [%eval 1.81] } 20... N5f6 { [%eval 2.06] } 21. Bb4 $6
+{ [%eval 1.42] } 21... a6 $6 { [%eval 2.08] } 22. Rb1 { [%eval 2.05] } 22...
+Qa7 { [%eval 2.21] } 23. Qc3 $4 { [%eval -1.25] } 23... a5 { [%eval -1.25] }
+24. Bc5 { [%eval -1.3] } 24... b6 { [%eval -1.11] } 0-1

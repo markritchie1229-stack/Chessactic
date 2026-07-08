@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/2BYW7aMw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tribulete"]
+[Black "Masbruto"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:29:15"]
+[WhiteElo "1828"]
+[BlackElo "1827"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "C05"]
+[Opening "French Defense: Tarrasch Variation, Closed Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e6 { [%eval 0.33] } 2. d4 { [%eval 0.19] } 2... d5
+{ [%eval 0.23] } 3. Nd2 { [%eval 0.18] } 3... Nf6 { [%eval 0.36] } 4. exd5
+{ [%eval 0.0] } 4... exd5 { [%eval -0.09] } 5. Ngf3 { [%eval -0.2] } 5... c6 $6
+{ [%eval 0.35] } 6. Bd3 { [%eval 0.33] } 6... Be7 { [%eval 0.41] } 7. Nf1
+{ [%eval 0.0] } 7... Bg4 { [%eval 0.37] } 8. Ng3 { [%eval 0.32] } 8... O-O
+{ [%eval 0.4] } 9. O-O { [%eval 0.29] } 9... Nbd7 { [%eval 0.55] } 10. Bf4
+{ [%eval 0.07] } 10... Qb6 { [%eval 0.39] } 11. Rb1 { [%eval 0.11] } 11... Rfe8
+{ [%eval 0.16] } 12. c3 { [%eval 0.1] } 12... Nf8 { [%eval 0.43] } 13. Qc2 $6
+{ [%eval -0.47] } 13... Ng6 { [%eval -0.24] } 14. Ne5 $2 { [%eval -2.99] }
+14... Nxf4 { [%eval -2.99] } 15. Nxg4 { [%eval -3.04] } 15... Nxd3 $2
+{ [%eval -0.35] } 16. Nxf6+ { [%eval -0.27] } 16... Bxf6 { [%eval -0.23] } 17.
+Qxd3 { [%eval -0.31] } 17... Re7 { [%eval 0.11] } 18. Nf5 { [%eval -0.16] }
+18... Rae8 $2 { [%eval 2.17] } 19. Nxe7+ { [%eval 2.18] } 19... Bxe7
+{ [%eval 2.14] } 20. g3 { [%eval 2.08] } 20... Qc7 { [%eval 2.21] } 21. Rfe1
+{ [%eval 2.15] } 21... Qd7 { [%eval 2.17] } 22. Re3 { [%eval 2.24] } 22... Bf6
+{ [%eval 2.4] } 23. Rbe1 { [%eval 2.26] } 23... Rxe3 { [%eval 2.41] } 24. Qxe3
+{ [%eval 2.33] } 24... g6 $2 { [%eval 5.12] } 25. Qe8+ { [%eval 4.88] } 1-0

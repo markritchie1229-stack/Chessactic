@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Pk4NcqZz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Llamadude"]
+[Black "arxanas"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:45:42"]
+[WhiteElo "1257"]
+[BlackElo "1506"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... d5 { [%eval 0.6] } 2. exd5 { [%eval 0.63] } 2...
+Nf6 { [%eval 0.78] } 3. Nc3 { [%eval 0.39] } 3... Nxd5 { [%eval 0.38] } 4. Nxd5
+{ [%eval 0.04] } 4... Qxd5 { [%eval 0.11] } 5. d4 { [%eval 0.08] } 5... Nc6
+{ [%eval 0.13] } 6. Nf3 { [%eval -0.13] } 6... Bg4 { [%eval 0.26] } 7. Be2
+{ [%eval -0.16] } 7... O-O-O { [%eval -0.16] } 8. O-O { [%eval -0.18] } 8... e5
+$6 { [%eval 0.45] } 9. c4 { [%eval 0.54] } 9... Qd6 { [%eval 0.67] } 10. Be3 $2
+{ [%eval -0.37] } 10... exd4 { [%eval -0.21] } 11. Bxd4 $4 { [%eval -4.18] }
+11... Nxd4 $4 { [%eval -0.6] } 12. Nxd4 { [%eval -0.61] } 12... Qxd4
+{ [%eval -0.15] } 13. Bxg4+ { [%eval -0.16] } 13... Kb8 { [%eval -0.17] } 14.
+Be2 { [%eval -0.44] } 14... Bc5 { [%eval -0.42] } 15. Rc1 $2 { [%eval -1.66] }
+15... Qxb2 { [%eval -1.5] } 16. Qa4 $4 { [%eval -6.28] } 16... Qxe2
+{ [%eval -6.08] } 17. Qc2 $6 { [%eval -7.01] } 17... Rd2 { [%eval -6.68] } 18.
+Qc3 $2 { [%eval -8.13] } 18... Bxf2+ { [%eval -7.81] } 19. Rxf2 $2
+{ [%eval #-2] } 19... Qxf2+ { [%eval #-1] } 20. Kh1 { [%eval #-1] } 20... Qxg2#
+0-1

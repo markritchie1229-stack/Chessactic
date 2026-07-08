@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/bZ062Bdw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "icaras1"]
+[Black "alonshocron"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "09:34:50"]
+[WhiteElo "2257"]
+[BlackElo "2044"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "B09"]
+[Opening "Pirc Defense: Austrian Attack, Weiss Variation"]
+[TimeControl "960+12"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... d6 { [%eval 0.57] } 2. e4 { [%eval 0.51] } 2... Nf6
+{ [%eval 0.56] } 3. Nc3 { [%eval 0.45] } 3... g6 { [%eval 0.63] } 4. f4
+{ [%eval 0.37] } 4... Bg7 { [%eval 0.43] } 5. Nf3 { [%eval 0.23] } 5... O-O
+{ [%eval 0.37] } 6. Bd3 { [%eval 0.32] } 6... Bg4 { [%eval 0.75] } 7. O-O
+{ [%eval 0.59] } 7... Nbd7 { [%eval 0.58] } 8. e5 { [%eval 0.12] } 8... dxe5 $6
+{ [%eval 1.03] } 9. fxe5 $6 { [%eval 0.2] } 9... Ne8 { [%eval 0.44] } 10. h3 $6
+{ [%eval -0.14] } 10... Bxf3 { [%eval -0.12] } 11. Qxf3 { [%eval -0.12] } 11...
+c5 { [%eval 0.0] } 12. Qxb7 $6 { [%eval -0.57] } 12... cxd4 { [%eval -0.5] }
+13. Nd5 { [%eval -0.55] } 13... Nxe5 $6 { [%eval 0.0] } 14. Nxe7+
+{ [%eval 0.13] } 14... Kh8 { [%eval 0.23] } 15. Be4 $2 { [%eval -1.17] } 15...
+Rb8 { [%eval -1.14] } 16. Qxa7 { [%eval -1.53] } 16... Nd6 { [%eval -1.16] }
+17. Bd5 $2 { [%eval -2.54] } 17... Nb5 { [%eval -2.17] } 18. Qc5
+{ [%eval -2.4] } 18... d3 $2 { [%eval -0.45] } 19. Bf4 $2 { [%eval -1.71] }
+19... Nf3+ $4 { [%eval 2.79] } 20. Kh1 $2 { [%eval 1.76] } 20... Bd4 $4
+{ [%eval 6.75] } 21. Qb4 $2 { [%eval 4.93] } 21... Ne5 $4 { [%eval 12.7] } 22.
+Qxd4 { [%eval 12.01] } 22... Nxd4 $6 { [%eval #3] } 23. Bxe5+ { [%eval #2] }
+23... f6 { [%eval #2] } 24. Rxf6 { [%eval #1] } 1-0

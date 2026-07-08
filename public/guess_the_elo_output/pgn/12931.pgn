@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/62NDpG8d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cesarushko"]
+[Black "Torkrall"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:22:32"]
+[WhiteElo "1556"]
+[BlackElo "1556"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C44"]
+[Opening "Scotch Game: Goering Gambit, Double Pawn Sacrifice"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.43] } 2. d4 $6 { [%eval -0.11] } 2...
+exd4 { [%eval 0.0] } 3. c3 { [%eval -0.3] } 3... Nc6 { [%eval 0.02] } 4. Nf3
+{ [%eval -0.25] } 4... dxc3 { [%eval -0.12] } 5. Bc4 { [%eval -0.51] } 5...
+cxb2 { [%eval -0.14] } 6. Bxb2 { [%eval -0.14] } 6... Bc5 $4 { [%eval 5.1] } 7.
+Bxg7 { [%eval 5.15] } 7... d6 { [%eval 5.12] } 8. O-O { [%eval 4.89] } 8... Nf6
+{ [%eval 5.32] } 9. Bxh8 { [%eval 5.48] } 9... Nxe4 $6 { [%eval 6.35] } 10.
+Bxf7+ { [%eval 6.28] } 10... Kxf7 { [%eval 6.21] } 11. Qd5+ { [%eval 5.89] }
+11... Be6 { [%eval 6.12] } 12. Qxe4 { [%eval 6.11] } 12... Qxh8 $2
+{ [%eval 8.35] } 13. Ng5+ { [%eval 7.12] } 13... Ke8 $2 { [%eval 8.62] } 14.
+Nxe6 $2 { [%eval 6.71] } 14... Ne7 $4 { [%eval 11.9] } 15. Nxc7+
+{ [%eval 11.53] } 15... Kd7 { [%eval 13.31] } 16. Nxa8 { [%eval 13.01] } 16...
+Qxa1 { [%eval 13.04] } 17. Qxb7+ { [%eval 12.14] } 17... Ke6 { [%eval 20.27] }
+18. Nc7+ { [%eval 17.43] } 18... Kf7 { [%eval 17.02] } 19. Qf3+ $6
+{ [%eval 9.28] } 19... Kg8 $6 { [%eval 18.77] } 20. Ne6 { [%eval 15.29] } 20...
+Qxa2 $6 { [%eval #1] } 21. Qf8# 1-0

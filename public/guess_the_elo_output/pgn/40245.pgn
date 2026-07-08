@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BUAl68fM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Babineur"]
+[Black "feraguilar"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:11:08"]
+[WhiteElo "1226"]
+[BlackElo "1285"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[ECO "D04"]
+[Opening "Queen's Pawn Game: Colle System, Anti-Colle"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... d5 { [%eval 0.25] } 2. e3 { [%eval 0.11] } 2... Bf5
+{ [%eval 0.12] } 3. Nf3 { [%eval 0.07] } 3... Nf6 { [%eval 0.26] } 4. Bb5+
+{ [%eval -0.14] } 4... Bd7 { [%eval 0.34] } 5. Bd3 { [%eval 0.36] } 5... Ne4 $6
+{ [%eval 0.98] } 6. Na3 $6 { [%eval 0.36] } 6... Bf5 { [%eval 0.45] } 7. O-O
+{ [%eval 0.22] } 7... Nc6 { [%eval 0.47] } 8. Nb5 $6 { [%eval -0.1] } 8... a6
+{ [%eval -0.01] } 9. Nh4 { [%eval -0.25] } 9... axb5 $6 { [%eval 0.46] } 10.
+Nxf5 { [%eval 0.33] } 10... e6 { [%eval 0.39] } 11. Nh6 $2 { [%eval -2.16] }
+11... gxh6 { [%eval -2.21] } 12. Bd2 $6 { [%eval -2.95] } 12... Bg7 $6
+{ [%eval -2.24] } 13. Bxe4 $2 { [%eval -3.26] } 13... dxe4 { [%eval -3.23] }
+14. f3 { [%eval -3.25] } 14... exf3 { [%eval -3.24] } 15. g4 $2
+{ [%eval -4.69] } 15... O-O $6 { [%eval -4.12] } 16. Qxf3 { [%eval -4.11] }
+16... Qe7 { [%eval -3.79] } 17. Qe2 { [%eval -3.86] } 17... h5 $6
+{ [%eval -2.96] } 18. Qd3 $2 { [%eval -4.77] } 18... h6 $6 { [%eval -3.99] }
+19. Rf4 $6 { [%eval -4.71] } 19... hxg4 $2 { [%eval -3.51] } 20. Kh1 $2
+{ [%eval -5.7] } 20... g3 $2 { [%eval -3.62] } 21. Rf3 $6 { [%eval -4.3] }
+21... Nb4 $2 { [%eval -2.47] } 22. Qb3 $2 { [%eval -3.88] } 22... Nd5 $2
+{ [%eval -2.04] } 23. Rxg3 { [%eval -1.92] } 23... Qh4 $2 { [%eval -0.68] } 24.
+Rag1 { [%eval -0.79] } 24... c6 $2 { [%eval 0.23] } 25. Rxg7+ { [%eval 0.26] }
+25... Kh8 { [%eval 0.23] } 26. Qd3 { [%eval 0.0] } 26... Nb4 $4 { [%eval #1] }
+27. Rh7# 1-0

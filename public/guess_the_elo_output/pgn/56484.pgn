@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xKwkpWru"]
+[Date "????.??.??"]
+[Round "?"]
+[White "josc4"]
+[Black "Ibragim-Dushanbe"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:22:47"]
+[WhiteElo "1505"]
+[BlackElo "1519"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+38"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.21] } 1... d5 { [%eval 0.28] } 2. c4 { [%eval 0.08] } 2... e6
+{ [%eval 0.19] } 3. d4 { [%eval 0.31] } 3... Nf6 { [%eval 0.31] } 4. cxd5
+{ [%eval -0.12] } 4... Nxd5 $6 { [%eval 0.87] } 5. e4 { [%eval 0.9] } 5... Nb6
+{ [%eval 0.93] } 6. Be3 { [%eval 0.91] } 6... Nc6 { [%eval 1.02] } 7. Be2
+{ [%eval 0.88] } 7... Bb4+ { [%eval 1.1] } 8. Bd2 $6 { [%eval 0.49] } 8... O-O
+{ [%eval 0.78] } 9. Bxb4 { [%eval 0.64] } 9... Nxb4 { [%eval 0.65] } 10. a3
+{ [%eval 0.46] } 10... Nc6 { [%eval 0.45] } 11. Nc3 { [%eval 0.49] } 11... Nd7
+{ [%eval 0.8] } 12. b4 { [%eval 0.71] } 12... b6 { [%eval 0.77] } 13. b5 $6
+{ [%eval 0.14] } 13... Na5 { [%eval 0.27] } 14. a4 { [%eval 0.07] } 14... Bb7
+{ [%eval 0.04] } 15. O-O { [%eval 0.03] } 15... Nf6 { [%eval 0.09] } 16. e5
+{ [%eval -0.22] } 16... Nh5 $6 { [%eval 0.57] } 17. Qd2 $2 { [%eval -0.43] }
+17... Nb3 { [%eval -0.09] } 18. Qe3 { [%eval -0.25] } 18... Nxa1
+{ [%eval -0.27] } 19. Rxa1 { [%eval -0.44] } 19... g6 { [%eval -0.72] } 20. Nd2
+{ [%eval -1.09] } 20... Ng7 { [%eval -1.2] } 21. Qh6 $2 { [%eval -3.82] } 21...
+Nf5 { [%eval -3.75] } 22. Qf4 { [%eval -3.79] } 22... Rc8 $2 { [%eval -1.46] }
+23. Nde4 $6 { [%eval -1.99] } 23... Nxd4 $2 { [%eval 0.0] } 24. Nf6+
+{ [%eval 0.0] } 24... Kg7 { [%eval 0.0] } 25. Qh4 $2 { [%eval -2.37] } 25... h6
+{ [%eval -2.39] } 26. Bh5 $2 { [%eval -3.98] } 26... Nf5 { [%eval -3.94] } 27.
+Qg4 { [%eval -3.85] } 27... g5 $2 { [%eval -1.77] } 28. f4 $4 { [%eval -9.17] }
+28... Qd4+ { [%eval -8.98] } 29. Kf1 $2 { [%eval -24.63] } 29... Ne3+
+{ [%eval -24.01] } 30. Ke2 { [%eval -23.66] } 30... Nxg4 { [%eval -23.13] } 31.
+Nxg4 { [%eval -24.85] } 31... Qxc3 { [%eval -24.01] } 0-1

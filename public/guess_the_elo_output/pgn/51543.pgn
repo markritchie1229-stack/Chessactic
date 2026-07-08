@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/tE3ThGOL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ADFGX"]
+[Black "wgl"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:02:05"]
+[WhiteElo "2090"]
+[BlackElo "1671"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-1"]
+[ECO "C41"]
+[Opening "Philidor Defense: Steinitz Variation"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.45] } 2... d6
+{ [%eval 0.32] } 3. Bc4 { [%eval 0.2] } 3... Be7 { [%eval 0.24] } 4. c3
+{ [%eval 0.04] } 4... Nf6 { [%eval 0.04] } 5. d4 { [%eval -0.19] } 5... Nc6
+{ [%eval 0.19] } 6. d5 { [%eval 0.18] } 6... Nb8 { [%eval 0.2] } 7. Qc2
+{ [%eval -0.22] } 7... O-O { [%eval -0.08] } 8. O-O { [%eval -0.33] } 8... c6
+{ [%eval -0.22] } 9. h3 { [%eval -0.37] } 9... cxd5 { [%eval -0.14] } 10. exd5
+{ [%eval -0.24] } 10... Nbd7 { [%eval -0.25] } 11. Re1 $6 { [%eval -0.87] }
+11... Nb6 { [%eval -0.75] } 12. Bb3 { [%eval -1.01] } 12... Nbxd5 $6
+{ [%eval -0.45] } 13. Qd3 $6 { [%eval -1.04] } 13... Nb6 { [%eval -0.85] } 14.
+Bc2 $6 { [%eval -1.37] } 14... g6 $6 { [%eval -0.6] } 15. Bg5 { [%eval -0.96] }
+15... Re8 { [%eval -0.99] } 16. Nbd2 $4 { [%eval -4.56] } 16... Bf8 $4
+{ [%eval 0.88] } 17. Ne4 { [%eval 0.56] } 17... Nbd7 $2 { [%eval 1.93] } 18.
+Nxd6 { [%eval 1.79] } 18... Re6 $2 { [%eval 3.68] } 19. Ne4 $2 { [%eval 1.73] }
+19... Bg7 $2 { [%eval 3.6] } 20. Bb3 { [%eval 3.55] } 20... Re8 $2
+{ [%eval 4.66] } 21. Nd6 { [%eval 4.35] } 21... Re7 $4 { [%eval 8.94] } 22.
+Nxf7 { [%eval 8.75] } 22... Rxf7 { [%eval 8.44] } 23. Nxe5 { [%eval 8.29] } 1-0

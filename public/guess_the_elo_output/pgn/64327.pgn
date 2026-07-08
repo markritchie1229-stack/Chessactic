@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Tdngo6M4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JUANALVIRA"]
+[Black "arja55"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:13:51"]
+[WhiteElo "1300"]
+[BlackElo "1147"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+133"]
+[ECO "C42"]
+[Opening "Petrov's Defense"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.23] } 2... Nf6
+{ [%eval 0.45] } 3. d3 $6 { [%eval -0.09] } 3... Nc6 { [%eval -0.03] } 4. Nc3
+{ [%eval -0.06] } 4... d5 { [%eval -0.12] } 5. exd5 { [%eval -0.14] } 5... Nxd5
+{ [%eval -0.14] } 6. d4 $6 { [%eval -1.12] } 6... exd4 $6 { [%eval -0.33] } 7.
+Nxd4 { [%eval -0.29] } 7... Nf6 $2 { [%eval 0.85] } 8. Nxc6 $6 { [%eval 0.13] }
+8... bxc6 $6 { [%eval 0.81] } 9. Qxd8+ { [%eval 0.9] } 9... Kxd8
+{ [%eval 0.79] } 10. Bg5 { [%eval 0.78] } 10... h6 { [%eval 0.94] } 11. O-O-O+
+{ [%eval 0.98] } 11... Bd6 { [%eval 0.99] } 12. Bxf6+ { [%eval 0.88] } 12...
+gxf6 { [%eval 1.06] } 13. Bc4 $6 { [%eval 0.45] } 13... Be6 { [%eval 0.53] }
+14. Bxe6 { [%eval 0.41] } 14... fxe6 { [%eval 0.45] } 15. Rhe1 { [%eval 0.38] }
+15... Re8 $6 { [%eval 0.96] } 16. Ne4 { [%eval 0.76] } 16... Ke7
+{ [%eval 0.85] } 17. Nxd6 $6 { [%eval 0.29] } 17... cxd6 { [%eval 0.19] } 18.
+c4 { [%eval -0.12] } 18... c5 { [%eval 0.13] } 19. a3 { [%eval -0.19] } 19...
+a5 { [%eval -0.18] } 20. f4 { [%eval -0.41] } 20... f5 { [%eval 0.0] } 21. h3
+$6 { [%eval -0.91] } 21... h5 $6 { [%eval -0.16] } 22. Rd2 { [%eval -0.3] }
+22... Kf7 $2 { [%eval 1.07] } 23. Rde2 $2 { [%eval -0.24] } 23... Rab8
+{ [%eval -0.37] } 24. b4 $2 { [%eval -2.11] } 24... axb4 { [%eval -1.98] } 25.
+Rxe6 $4 { [%eval -24.02] } 25... Rxe6 { [%eval -15.35] } 0-1

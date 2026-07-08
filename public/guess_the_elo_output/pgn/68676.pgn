@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/VSoDEmjG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rainyman"]
+[Black "Friday_the_13th"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:09:13"]
+[WhiteElo "1556"]
+[BlackElo "1320"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-4"]
+[ECO "E47"]
+[Opening "Nimzo-Indian Defense: Normal Variation, Bishop Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.21] } 2. c4 { [%eval 0.18] } 2... e6
+{ [%eval 0.18] } 3. Nc3 { [%eval 0.18] } 3... Bb4 { [%eval 0.2] } 4. e3
+{ [%eval 0.11] } 4... O-O { [%eval 0.12] } 5. Bd3 { [%eval 0.22] } 5... c5
+{ [%eval 0.11] } 6. Ne2 { [%eval 0.09] } 6... cxd4 { [%eval 0.21] } 7. exd4
+{ [%eval 0.11] } 7... Re8 { [%eval 0.39] } 8. O-O { [%eval 0.41] } 8... e5 $2
+{ [%eval 1.69] } 9. dxe5 { [%eval 1.53] } 9... Rxe5 { [%eval 1.51] } 10. Bf4
+{ [%eval 1.5] } 10... Re8 { [%eval 1.49] } 11. Nd5 $6 { [%eval 0.68] } 11...
+Nxd5 { [%eval 0.75] } 12. cxd5 { [%eval 0.75] } 12... b6 { [%eval 1.08] } 13.
+Qc2 { [%eval 0.83] } 13... Bb7 $2 { [%eval 3.63] } 14. Bxh7+ $2
+{ [%eval 2.11] } 14... Kh8 { [%eval 2.28] } 15. Bd3 $6 { [%eval 1.54] } 15...
+Bxd5 $6 { [%eval 2.18] } 16. a3 { [%eval 1.97] } 16... Be7 $4 { [%eval 5.66] }
+17. Nd4 $4 { [%eval 1.96] } 17... Bf6 { [%eval 2.38] } 18. Nf5 $6
+{ [%eval 1.59] } 18... g6 $4 { [%eval 6.45] } 19. Nh6 $4 { [%eval 0.99] } 19...
+Nc6 { [%eval 1.24] } 20. Bxg6 $2 { [%eval -1.28] } 20... Ne7 $4
+{ [%eval 5.38] } 21. Bxf7 $2 { [%eval 4.27] } 21... Bxf7 $4 { [%eval 12.61] }
+22. Nxf7+ { [%eval 12.39] } 22... Kg7 { [%eval 11.98] } 23. Nd6 $4
+{ [%eval 5.82] } 23... Nc6 $2 { [%eval 8.66] } 24. Rfe1 $2 { [%eval 7.26] }
+24... Rxe1+ $2 { [%eval 9.47] } 25. Rxe1 { [%eval 9.07] } 25... Qf8 $6
+{ [%eval 10.07] } 26. Nf5+ { [%eval 9.42] } 26... Kg6 $2 { [%eval #5] } 27.
+Nh4+ $6 { [%eval 21.1] } 27... Kf7 $6 { [%eval #1] } 28. Qg6# 1-0

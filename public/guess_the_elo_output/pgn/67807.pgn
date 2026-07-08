@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/7veHD86T"]
+[Date "????.??.??"]
+[Round "?"]
+[White "V1962"]
+[Black "coralines"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:29:55"]
+[WhiteElo "1704"]
+[BlackElo "1646"]
+[WhiteRatingDiff "-25"]
+[BlackRatingDiff "+12"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation #4"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.17] } 1... e5 { [%eval 0.27] } 2. b3 { [%eval -0.12] } 2...
+Nc6 { [%eval 0.0] } 3. Bb2 { [%eval -0.18] } 3... d6 $6 { [%eval 0.33] } 4. g3
+$6 { [%eval -0.41] } 4... a6 { [%eval 0.07] } 5. Bg2 { [%eval 0.0] } 5... f5 $6
+{ [%eval 0.55] } 6. Qe2 { [%eval 0.12] } 6... Nf6 { [%eval 0.13] } 7. h3
+{ [%eval -0.31] } 7... e4 { [%eval 0.05] } 8. Nc3 { [%eval -0.02] } 8... Ne5 $6
+{ [%eval 0.87] } 9. O-O-O { [%eval 0.82] } 9... Be6 $6 { [%eval 1.44] } 10. f4
+$6 { [%eval 0.72] } 10... exf3 { [%eval 1.19] } 11. Nxf3 { [%eval 1.18] } 11...
+Qe7 $2 { [%eval 2.99] } 12. Nxe5 { [%eval 2.75] } 12... dxe5 { [%eval 2.91] }
+13. d4 $2 { [%eval 0.41] } 13... e4 { [%eval 0.62] } 14. d5 { [%eval 0.17] }
+14... Bd7 { [%eval 0.19] } 15. g4 { [%eval 0.23] } 15... fxg4 { [%eval 0.0] }
+16. hxg4 $2 { [%eval -1.1] } 16... Bxg4 { [%eval -0.91] } 17. Qf2 $6
+{ [%eval -1.75] } 17... Bxd1 { [%eval -1.51] } 18. Rxd1 { [%eval -1.66] } 18...
+Ng4 $2 { [%eval 0.64] } 19. Qg3 $2 { [%eval -0.73] } 19... h5 { [%eval -0.58] }
+20. Bh3 $2 { [%eval -1.8] } 20... Qg5 $2 { [%eval 0.69] } 21. Rg1 $2
+{ [%eval -1.99] } 21... Qxe3+ $6 { [%eval -1.27] } 22. Kb1 $4 { [%eval -4.76] }
+22... Qxg3 { [%eval -4.35] } 23. Rxg3 { [%eval -4.57] } 23... Bd6
+{ [%eval -4.42] } 24. Rg2 $6 { [%eval -5.14] } 24... e3 $6 { [%eval -4.29] }
+25. Re2 $2 { [%eval -5.68] } 25... Bf4 $2 { [%eval -3.79] } 26. Ne4 $6
+{ [%eval -4.57] } 26... O-O { [%eval -4.22] } 27. Bd4 $6 { [%eval -5.08] }
+27... Rae8 { [%eval -4.82] } 28. Nc5 $6 { [%eval -5.48] } 28... b6 $2
+{ [%eval -4.0] } 29. Ne6 { [%eval -3.86] } 29... Rf7 { [%eval -3.79] } 30. Nxf4
+$4 { [%eval -7.31] } 30... Rxf4 { [%eval -7.0] } 31. Rxe3 $4 { [%eval -13.95] }
+31... Nxe3 { [%eval -13.37] } 0-1

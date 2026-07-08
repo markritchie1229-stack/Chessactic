@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/OsMocU2M"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lazyhaze"]
+[Black "ALE_CUNHA"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:37:41"]
+[WhiteElo "1938"]
+[BlackElo "1822"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "E81"]
+[Opening "King's Indian Defense: Saemisch Variation, Normal Defense"]
+[TimeControl "180+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... Nf6 { [%eval 0.16] } 2. c4 { [%eval 0.16] } 2... g6
+$6 { [%eval 0.67] } 3. f3 { [%eval 0.33] } 3... Bg7 { [%eval 0.33] } 4. e4
+{ [%eval 0.47] } 4... O-O { [%eval 0.47] } 5. Nc3 { [%eval 0.47] } 5... d6
+{ [%eval 0.47] } 6. Be3 { [%eval 0.25] } 6... Nbd7 { [%eval 0.47] } 7. Nge2
+{ [%eval 0.31] } 7... c5 { [%eval 0.5] } 8. d5 { [%eval 0.25] } 8... Ne5
+{ [%eval 0.45] } 9. Ng3 { [%eval 0.4] } 9... e6 { [%eval 0.45] } 10. Qd2
+{ [%eval 0.14] } 10... exd5 { [%eval 0.17] } 11. cxd5 { [%eval -0.19] } 11...
+Qb6 $2 { [%eval 0.82] } 12. Be2 { [%eval 0.62] } 12... h5 { [%eval 0.79] } 13.
+O-O { [%eval 0.72] } 13... Bd7 { [%eval 1.2] } 14. h3 { [%eval 1.04] } 14... a6
+$2 { [%eval 2.72] } 15. f4 { [%eval 2.66] } 15... h4 $2 { [%eval 3.97] } 16.
+fxe5 { [%eval 3.84] } 16... hxg3 $4 { [%eval 7.1] } 17. exf6 { [%eval 6.98] }
+17... Bh8 { [%eval 6.83] } 18. Bh6 { [%eval 6.6] } 18... Rfe8 $6
+{ [%eval 7.12] } 19. Qf4 { [%eval 6.46] } 19... Re5 $2 { [%eval 8.85] } 20. Bg7
+{ [%eval 8.36] } 20... Qxb2 $2 { [%eval #5] } 21. Qh6 { [%eval #4] } 21... Rh5
+{ [%eval #4] } 22. Bxh5 { [%eval #3] } 1-0

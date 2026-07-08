@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dMd0Q8PY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "persiangulf2017"]
+[Black "iaahbiat"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:47:43"]
+[WhiteElo "1653"]
+[BlackElo "1647"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C50"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.36] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.4] } 3. Bc4 { [%eval 0.17] } 3... Nf6 { [%eval 0.2] } 4. Nc3
+{ [%eval 0.2] } 4... Bc5 { [%eval 0.21] } 5. Ng5 $6 { [%eval -0.47] } 5... O-O
+{ [%eval -0.39] } 6. Qf3 $2 { [%eval -1.72] } 6... Nd4 { [%eval -1.64] } 7. Qd1
+{ [%eval -1.69] } 7... c6 { [%eval -1.7] } 8. d3 $6 { [%eval -2.54] } 8... d5
+{ [%eval -2.59] } 9. exd5 { [%eval -2.83] } 9... cxd5 { [%eval -3.06] } 10. Bb5
+$2 { [%eval -4.17] } 10... h6 { [%eval -3.83] } 11. Nf3 { [%eval -4.31] } 11...
+Bg4 { [%eval -4.13] } 12. h3 $6 { [%eval -4.76] } 12... Bxf3 { [%eval -4.72] }
+13. gxf3 { [%eval -4.82] } 13... Nxb5 { [%eval -4.75] } 14. Nxb5
+{ [%eval -4.77] } 14... Qa5+ { [%eval -4.67] } 15. Nc3 { [%eval -4.72] } 15...
+d4 { [%eval -4.56] } 16. a3 $2 { [%eval -5.7] } 16... dxc3 { [%eval -5.45] }
+17. b4 { [%eval -5.7] } 17... Bxb4 { [%eval -5.38] } 18. axb4 $4
+{ [%eval -8.56] } 18... Qxa1 { [%eval -8.42] } 19. Rg1 { [%eval -8.42] } 19...
+g6 { [%eval -8.02] } 20. Bxh6 $6 { [%eval -8.54] } 20... Qxd1+
+{ [%eval -8.48] } 21. Kxd1 { [%eval -8.32] } 21... Rfe8 { [%eval -8.14] } 22.
+Bg5 $2 { [%eval -9.25] } 22... Nd5 { [%eval -9.0] } 23. Re1 { [%eval -9.18] }
+23... f6 { [%eval -8.99] } 24. Bh4 $2 { [%eval -10.28] } 24... Kf7
+{ [%eval -9.79] } 25. Re4 { [%eval -14.16] } 25... a5 { [%eval -12.78] } 26.
+bxa5 { [%eval -16.95] } 26... Rxa5 { [%eval -15.27] } 27. Rc4 $6
+{ [%eval #-3] } 27... Ra1+ { [%eval #-2] } 28. Ke2 { [%eval #-2] } 28... Nf4+
+{ [%eval #-1] } 29. Ke3 { [%eval #-1] } 29... Re1# 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/MlsNgt6E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "svizzero"]
+[Black "Bahabaha"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:55:55"]
+[WhiteElo "1310"]
+[BlackElo "1334"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.35] } 2. d3 { [%eval -0.09] } 2...
+Nc6 { [%eval -0.04] } 3. Nc3 { [%eval -0.04] } 3... Nf6 { [%eval 0.0] } 4. Nf3
+{ [%eval -0.2] } 4... Bb4 { [%eval 0.01] } 5. Bg5 { [%eval -0.16] } 5... h6
+{ [%eval -0.17] } 6. Bxf6 { [%eval -0.27] } 6... Qxf6 { [%eval -0.15] } 7. Qd2
+{ [%eval -0.42] } 7... Nd4 { [%eval -0.41] } 8. a3 { [%eval -0.41] } 8... Nxf3+
+{ [%eval -0.22] } 9. gxf3 { [%eval -0.17] } 9... Bxc3 { [%eval -0.25] } 10.
+Qxc3 { [%eval -0.2] } 10... Qxf3 $2 { [%eval 1.69] } 11. Rg1 $2
+{ [%eval -0.12] } 11... O-O $2 { [%eval 1.14] } 12. Bg2 $2 { [%eval -0.81] }
+12... Qf6 { [%eval -0.43] } 13. O-O-O $6 { [%eval -0.94] } 13... c6
+{ [%eval -0.87] } 14. h3 { [%eval -1.17] } 14... b5 { [%eval -0.78] } 15. Bf3
+$2 { [%eval -2.9] } 15... d5 $2 { [%eval -0.6] } 16. Rg3 { [%eval -1.04] }
+16... d4 { [%eval -0.88] } 17. Qc5 { [%eval -1.05] } 17... Be6 $2
+{ [%eval 0.35] } 18. Rdg1 { [%eval 0.29] } 18... Rac8 $6 { [%eval 0.89] } 19.
+Rxg7+ { [%eval 1.02] } 19... Qxg7 $2 { [%eval 3.35] } 20. Rxg7+
+{ [%eval 3.18] } 20... Kxg7 { [%eval 3.16] } 21. Qxe5+ { [%eval 3.01] } 21...
+Kg8 $6 { [%eval 3.61] } 22. h4 $2 { [%eval 2.38] } 22... Rfe8 $2
+{ [%eval 3.57] } 23. Qf6 { [%eval 3.25] } 23... Bg4 $4 { [%eval 11.31] } 24.
+Bxg4 { [%eval 11.08] } 24... Rc7 { [%eval 11.09] } 25. Qxh6 { [%eval 10.66] }
+25... Re6 { [%eval 16.66] } 26. Bxe6 { [%eval 16.06] } 26... fxe6
+{ [%eval 15.72] } 27. h5 { [%eval 14.1] } 27... Rh7 { [%eval 56.97] } 28. Qg6+
+{ [%eval 15.94] } 28... Rg7 { [%eval 15.18] } 29. Qxe6+ { [%eval 14.39] } 29...
+Kh8 { [%eval 14.39] } 30. h6 { [%eval 12.77] } 30... Rh7 $6 { [%eval #1] } 31.
+Qe8# 1-0

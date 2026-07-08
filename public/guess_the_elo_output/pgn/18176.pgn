@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/UHzpkb1r"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ask_utandi"]
+[Black "tpe03"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:05:27"]
+[WhiteElo "1214"]
+[BlackElo "1209"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C57"]
+[Opening "Italian Game: Two Knights Defense, Knight Attack, Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.41] } 2. Bc4 { [%eval 0.03] } 2...
+Nf6 { [%eval 0.11] } 3. Nf3 { [%eval -0.29] } 3... Nc6 $6 { [%eval 0.23] } 4.
+Ng5 { [%eval 0.1] } 4... d5 { [%eval 0.2] } 5. exd5 { [%eval 0.21] } 5... Nxd5
+$2 { [%eval 1.37] } 6. Bxd5 $2 { [%eval -1.02] } 6... Qxd5 { [%eval -0.8] } 7.
+Qf3 $2 { [%eval -3.45] } 7... Qxf3 { [%eval -3.45] } 8. gxf3 { [%eval -3.4] }
+8... f6 { [%eval -2.96] } 9. Ne4 { [%eval -3.2] } 9... Nd4 { [%eval -2.91] }
+10. O-O $4 { [%eval -6.92] } 10... Nxc2 { [%eval -6.67] } 11. Nec3 $2
+{ [%eval -7.89] } 11... Nxa1 { [%eval -7.45] } 12. Re1 $2 { [%eval -9.51] }
+12... Nc2 { [%eval -9.18] } 13. Re2 $6 { [%eval -9.93] } 13... Nd4
+{ [%eval -9.88] } 14. Re3 { [%eval -9.87] } 14... Bf5 { [%eval -9.82] } 15. Na3
+{ [%eval -9.87] } 15... Bxa3 $2 { [%eval -8.4] } 16. bxa3 { [%eval -8.36] }
+16... O-O-O { [%eval -8.3] } 17. Bb2 { [%eval -8.66] } 17... Nc2
+{ [%eval -8.47] } 18. Re2 $2 { [%eval -9.56] } 18... Bd3 { [%eval -9.48] } 19.
+Re3 { [%eval -9.37] } 19... Nxe3 { [%eval -9.34] } 20. fxe3 { [%eval -9.22] }
+20... Bc2 $6 { [%eval -8.47] } 21. d4 $2 { [%eval -13.46] } 21... exd4
+{ [%eval -12.33] } 22. exd4 { [%eval -13.21] } 22... Rxd4 { [%eval -12.52] }
+23. Ne2 { [%eval -15.13] } 23... Rd1+ { [%eval -14.91] } 24. Kf2
+{ [%eval -14.64] } 24... Re8 { [%eval -13.86] } 25. Nc3 { [%eval -18.01] }
+25... Rd2+ { [%eval -15.81] } 26. Kf1 $6 { [%eval #-4] } 26... Bd3+
+{ [%eval #-3] } 27. Kg1 { [%eval #-1] } 27... Re1# 0-1

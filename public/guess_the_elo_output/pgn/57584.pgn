@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TLXql3nl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wigand"]
+[Black "darksquaregames"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:21:18"]
+[WhiteElo "2131"]
+[BlackElo "2411"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+3"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... c5 { [%eval 0.58] } 2. c3 $6 { [%eval 0.04] } 2...
+Nf6 { [%eval 0.04] } 3. Nf3 { [%eval 0.08] } 3... Qb6 $6 { [%eval 0.78] } 4. e3
+{ [%eval 0.39] } 4... e6 { [%eval 0.37] } 5. Bd3 { [%eval 0.39] } 5... Be7
+{ [%eval 0.29] } 6. O-O { [%eval 0.38] } 6... O-O { [%eval 0.5] } 7. Nbd2
+{ [%eval 0.35] } 7... d5 { [%eval 0.33] } 8. e4 { [%eval 0.22] } 8... dxe4
+{ [%eval 0.2] } 9. Nxe4 { [%eval 0.24] } 9... Nxe4 { [%eval 0.4] } 10. Bxe4
+{ [%eval 0.37] } 10... cxd4 { [%eval 0.32] } 11. cxd4 { [%eval 0.12] } 11...
+Nc6 { [%eval 0.25] } 12. Be3 { [%eval -0.11] } 12... Bf6 $2 { [%eval 1.31] }
+13. d5 { [%eval 1.14] } 13... Qxb2 $2 { [%eval 2.88] } 14. dxc6 $6
+{ [%eval 1.91] } 14... bxc6 $2 { [%eval 3.97] } 15. Bb1 $4 { [%eval 0.0] }
+15... Qxa1 { [%eval -0.23] } 16. Bxh7+ { [%eval -0.8] } 16... Kxh7 $2
+{ [%eval 1.09] } 17. Qxa1 $4 { [%eval -2.47] } 17... Bxa1 { [%eval -2.47] } 18.
+Rxa1 { [%eval -2.47] } 18... Ba6 { [%eval -2.1] } 19. Rc1 { [%eval -2.16] }
+19... Rfd8 { [%eval -2.18] } 20. g3 { [%eval -2.42] } 20... Bb5
+{ [%eval -2.35] } 21. Kg2 { [%eval -2.44] } 21... Rd3 { [%eval -2.2] } 22. Ng5+
+{ [%eval -2.62] } 22... Kg6 { [%eval -2.18] } 23. Ne4 { [%eval -2.57] } 23...
+Rad8 { [%eval -2.62] } 24. Nc5 $6 { [%eval -3.38] } 24... Ra3 { [%eval -3.35] }
+25. Nb7 $6 { [%eval -4.14] } 25... Rd5 { [%eval -3.94] } 26. Nc5
+{ [%eval -4.29] } 26... Rxa2 { [%eval -4.17] } 27. Ne4 { [%eval -4.16] } 27...
+Rd3 { [%eval -3.99] } 28. Kf3 { [%eval -4.17] } 28... c5 $2 { [%eval -3.01] }
+29. Rxc5 { [%eval -3.21] } 29... Ba6 $6 { [%eval -2.56] } 30. Rg5+ $6
+{ [%eval -3.21] } 30... Kh7 { [%eval -3.06] } 31. Ra5 $4 { [%eval -12.72] }
+31... Rxa5 { [%eval -12.18] } 0-1

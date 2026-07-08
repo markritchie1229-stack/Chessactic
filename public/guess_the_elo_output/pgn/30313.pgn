@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/W1SQmEYW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rosvall"]
+[Black "scubidoo"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:42:43"]
+[WhiteElo "1937"]
+[BlackElo "1846"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "C22"]
+[Opening "Center Game: Berger Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.34] } 2. d4 { [%eval -0.04] } 2...
+exd4 { [%eval -0.06] } 3. Qxd4 { [%eval -0.19] } 3... Nc6 { [%eval -0.2] } 4.
+Qe3 { [%eval -0.06] } 4... Nf6 { [%eval -0.17] } 5. Nc3 { [%eval -0.51] } 5...
+Bb4 { [%eval -0.43] } 6. Bd2 { [%eval -0.49] } 6... O-O { [%eval -0.5] } 7.
+Nge2 { [%eval -0.99] } 7... Ne5 $6 { [%eval -0.1] } 8. O-O-O { [%eval 0.11] }
+8... Nfg4 $6 { [%eval 0.79] } 9. Qg3 { [%eval 0.86] } 9... d6 { [%eval 1.11] }
+10. f3 { [%eval 1.34] } 10... Nf6 { [%eval 1.12] } 11. h4 { [%eval 0.79] }
+11... Nh5 { [%eval 0.76] } 12. Qf2 { [%eval 0.6] } 12... b6 $2 { [%eval 1.64] }
+13. g4 { [%eval 1.41] } 13... Bc5 { [%eval 1.75] } 14. Be3 $6 { [%eval 1.24] }
+14... Bxe3+ $2 { [%eval 2.5] } 15. Qxe3 { [%eval 2.25] } 15... Nf6
+{ [%eval 2.21] } 16. Qf4 $2 { [%eval 0.9] } 16... c5 $2 { [%eval 2.08] } 17. h5
+{ [%eval 1.94] } 17... b5 $2 { [%eval 2.99] } 18. g5 { [%eval 3.0] } 18... b4
+{ [%eval 3.11] } 19. Nd5 $4 { [%eval -0.27] } 19... Nxd5 { [%eval -0.58] } 20.
+Rxd5 { [%eval -0.42] } 20... Be6 { [%eval -0.3] } 21. Rd1 $2 { [%eval -1.47] }
+21... Bxa2 $2 { [%eval 0.0] } 22. g6 $4 { [%eval -3.45] } 22... fxg6
+{ [%eval -3.37] } 23. hxg6 $4 { [%eval -13.46] } 23... Rxf4 { [%eval -12.75] }
+24. Nxf4 { [%eval -12.36] } 24... Nxg6 $2 { [%eval -7.15] } 25. Ne6 $2
+{ [%eval -14.09] } 25... Qf6 { [%eval -11.88] } 26. Bh3 { [%eval -14.14] }
+26... Bxe6 { [%eval -13.75] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/yQSE6q0i"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rcouti"]
+[Black "slmsyfgl"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:53:14"]
+[WhiteElo "1413"]
+[BlackElo "1411"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queenside Fianchetto Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.13] } 1... b6 { [%eval 0.44] } 2. d4 { [%eval 0.29] } 2...
+Bb7 { [%eval 0.29] } 3. d5 $6 { [%eval -0.36] } 3... e6 { [%eval 0.13] } 4. c4
+$6 { [%eval -0.72] } 4... exd5 { [%eval -0.54] } 5. cxd5 { [%eval -0.59] } 5...
+Nf6 { [%eval -0.67] } 6. Nc3 { [%eval -0.78] } 6... Nxd5 $4 { [%eval 2.93] } 7.
+Nxd5 { [%eval 2.95] } 7... Bxd5 $6 { [%eval 3.46] } 8. Qxd5 { [%eval 3.29] }
+8... Bb4+ { [%eval 3.41] } 9. Bd2 { [%eval 3.45] } 9... Bxd2+ { [%eval 3.56] }
+10. Nxd2 $6 { [%eval 3.05] } 10... O-O $4 { [%eval 8.64] } 11. Qxa8
+{ [%eval 8.49] } 11... Nc6 $6 { [%eval 9.34] } 12. Qb7 $6 { [%eval 8.45] }
+12... Qc8 $6 { [%eval 9.43] } 13. Qxc8 { [%eval 9.35] } 13... Rxc8
+{ [%eval 9.37] } 14. e3 { [%eval 9.3] } 14... f5 $6 { [%eval 10.08] } 15. Bc4+
+{ [%eval 9.87] } 15... Kf8 { [%eval 9.85] } 16. O-O { [%eval 9.46] } 16... h5
+$6 { [%eval 11.07] } 17. Nf3 { [%eval 10.83] } 17... Na5 { [%eval 11.02] } 18.
+b3 { [%eval 9.93] } 18... Nxc4 { [%eval 9.93] } 19. bxc4 { [%eval 9.77] } 19...
+a5 { [%eval 10.37] } 20. Rfd1 { [%eval 10.28] } 20... d6 { [%eval 10.2] } 21.
+Rd5 { [%eval 9.88] } 21... Re8 { [%eval 12.64] } 22. Rxf5+ { [%eval 12.41] }
+22... Ke7 { [%eval 12.66] } 23. Rxh5 { [%eval 12.34] } 23... g6
+{ [%eval 15.26] } 24. Rh7+ { [%eval 15.07] } 24... Kd8 { [%eval 14.91] } 25.
+Nd4 { [%eval 14.06] } 25... c5 $6 { [%eval #6] } 26. Nc6+ { [%eval #5] } 26...
+Kc8 { [%eval #5] } 27. Rd1 $6 { [%eval #7] } 27... Re4 { [%eval #4] } 28. Rxd6
+{ [%eval #3] } 28... Rxc4 { [%eval #1] } 29. Rd8# 1-0

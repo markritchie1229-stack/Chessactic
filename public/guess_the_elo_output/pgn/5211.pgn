@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/KyL4yj1q"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nicolederhos"]
+[Black "NickBalan"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:16:46"]
+[WhiteElo "1653"]
+[BlackElo "1670"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+12"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Advance Variation"]
+[TimeControl "1500+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... Nc6 { [%eval 0.29] } 2. d4 { [%eval 0.27] } 2... d5
+{ [%eval 0.27] } 3. e5 { [%eval 0.25] } 3... Bf5 { [%eval 0.36] } 4. Bb5
+{ [%eval 0.3] } 4... Qd7 { [%eval 0.4] } 5. Nf3 { [%eval 0.32] } 5... a6
+{ [%eval 0.39] } 6. Ba4 { [%eval 0.35] } 6... O-O-O { [%eval 0.72] } 7. O-O
+{ [%eval 0.6] } 7... e6 { [%eval 0.58] } 8. Nc3 { [%eval 0.3] } 8... Bb4 $6
+{ [%eval 0.8] } 9. Bd2 $6 { [%eval 0.2] } 9... Nge7 { [%eval 0.25] } 10. a3
+{ [%eval 0.13] } 10... Ba5 { [%eval 0.43] } 11. b4 { [%eval 0.46] } 11... Bb6
+{ [%eval 0.52] } 12. Bb3 $2 { [%eval -1.47] } 12... Nxd4 { [%eval -1.57] } 13.
+Nxd4 { [%eval -1.92] } 13... Bxd4 { [%eval -1.7] } 14. Re1 $6 { [%eval -2.22] }
+14... Nc6 { [%eval -1.91] } 15. Ba4 { [%eval -2.1] } 15... b5 { [%eval -1.88] }
+16. Nxb5 $6 { [%eval -2.43] } 16... axb5 { [%eval -2.07] } 17. Bxb5
+{ [%eval -2.41] } 17... Bxa1 { [%eval -2.38] } 18. Qxa1 { [%eval -2.08] } 18...
+d4 { [%eval -2.03] } 19. a4 $2 { [%eval -3.62] } 19... Bxc2 $4
+{ [%eval -0.45] } 20. Rc1 $4 { [%eval -4.27] } 20... d3 { [%eval -4.21] } 21.
+a5 { [%eval -4.65] } 21... Qd5 { [%eval -4.49] } 22. a6 $4 { [%eval -9.79] }
+22... Qxb5 { [%eval -9.53] } 23. a7 { [%eval -10.77] } 23... Kb7
+{ [%eval -10.42] } 24. a8=Q+ { [%eval -13.96] } 24... Rxa8 { [%eval -13.49] }
+25. Qxa8+ { [%eval -22.25] } 25... Rxa8 { [%eval -20.44] } 26. Ra1 $6
+{ [%eval #-2] } 0-1

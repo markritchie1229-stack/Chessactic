@@ -1,0 +1,47 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QA76SByC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wwlc269"]
+[Black "yoruyoru"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:33:40"]
+[WhiteElo "1451"]
+[BlackElo "1418"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+12"]
+[ECO "D41"]
+[Opening "Queen's Gambit Declined: Semi-Tarrasch, 5.cxd5"]
+[TimeControl "120+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.18] } 2. c4 { [%eval 0.18] } 2... e6
+{ [%eval 0.25] } 3. Nc3 { [%eval 0.38] } 3... c5 { [%eval 0.35] } 4. Nf3
+{ [%eval 0.04] } 4... Nf6 { [%eval 0.44] } 5. cxd5 { [%eval 0.44] } 5... exd5
+{ [%eval 0.5] } 6. dxc5 $6 { [%eval -0.02] } 6... Bxc5 { [%eval 0.03] } 7. Bg5
+$6 { [%eval -0.52] } 7... Be7 $6 { [%eval 0.45] } 8. e3 { [%eval 0.39] } 8...
+O-O { [%eval 0.39] } 9. Nd4 { [%eval 0.07] } 9... a6 { [%eval 0.43] } 10. Bd3
+{ [%eval 0.24] } 10... Nc6 { [%eval 0.22] } 11. Nxc6 { [%eval 0.09] } 11...
+bxc6 { [%eval 0.16] } 12. O-O { [%eval 0.09] } 12... Bb7 { [%eval 0.49] } 13.
+Re1 { [%eval 0.08] } 13... h6 { [%eval 0.04] } 14. Bf4 { [%eval 0.08] } 14...
+Bd6 { [%eval 0.28] } 15. Bxd6 { [%eval 0.07] } 15... Qxd6 { [%eval 0.1] } 16.
+e4 { [%eval -0.11] } 16... dxe4 $6 { [%eval 0.5] } 17. Nxe4 { [%eval 0.42] }
+17... Nxe4 { [%eval 0.44] } 18. Rxe4 { [%eval 0.19] } 18... Rfe8 $4
+{ [%eval 10.2] } 19. Qc2 $4 { [%eval 0.2] } 19... Rxe4 { [%eval 0.2] } 20. Bxe4
+{ [%eval 0.29] } 20... Qd7 { [%eval 0.42] } 21. Rd1 { [%eval 0.58] } 21... Qc7
+{ [%eval 0.62] } 22. Bf5 { [%eval 0.27] } 22... Rd8 { [%eval 0.54] } 23. Bd3
+{ [%eval 0.1] } 23... c5 { [%eval 0.16] } 24. Bc4 { [%eval 0.0] } 24... Rf8 $6
+{ [%eval 0.66] } 25. Bd5 $6 { [%eval 0.09] } 25... Bc8 $6 { [%eval 1.06] } 26.
+Bc4 $6 { [%eval 0.46] } 26... Bb7 { [%eval 0.6] } 27. Qf5 { [%eval 0.52] }
+27... Qc6 $6 { [%eval 1.3] } 28. Bd5 $6 { [%eval 0.4] } 28... Qc7
+{ [%eval 0.62] } 29. Bxb7 { [%eval 0.18] } 29... Qxb7 { [%eval 0.12] } 30. Rd7
+$2 { [%eval -0.88] } 30... Qxb2 { [%eval -0.75] } 31. h3 { [%eval -0.91] }
+31... Qxa2 { [%eval -0.57] } 32. Qxc5 { [%eval -0.57] } 32... a5 $6
+{ [%eval 0.0] } 33. Ra7 { [%eval 0.0] } 33... Qb1+ { [%eval 0.0] } 34. Kh2
+{ [%eval 0.0] } 34... Qg6 { [%eval 0.0] } 35. Qxa5 { [%eval 0.0] } 35... Qd6+
+{ [%eval 0.0] } 36. g3 { [%eval 0.0] } 36... Qd1 { [%eval 0.08] } 37. Qc7
+{ [%eval 0.0] } 37... Qf3 { [%eval 0.0] } 38. Qc2 { [%eval 0.0] } 38... g6
+{ [%eval 0.0] } 39. Rc7 { [%eval 0.0] } 39... Qf6 { [%eval 0.0] } 40. Qc1 $2
+{ [%eval -2.47] } 40... g5 $2 { [%eval 0.0] } 41. Qd2 { [%eval -0.02] } 41...
+Qa1 { [%eval 0.14] } 42. Rd7 { [%eval 0.0] } 42... Qa8 { [%eval 0.26] } 0-1

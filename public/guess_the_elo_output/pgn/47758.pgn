@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/N4n50CiI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tonuka"]
+[Black "beyhan"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:49:47"]
+[WhiteElo "1545"]
+[BlackElo "1417"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+14"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.41] } 3. Bc4 { [%eval 0.27] } 3... d5 $2 { [%eval 1.33] } 4. Bxd5
+{ [%eval 1.12] } 4... Nce7 $6 { [%eval 1.81] } 5. Bb3 { [%eval 1.79] } 5... Be6
+$6 { [%eval 2.39] } 6. Nxe5 $2 { [%eval 1.09] } 6... f6 $4 { [%eval 4.18] } 7.
+Nf3 $2 { [%eval 3.04] } 7... Bxb3 { [%eval 2.96] } 8. axb3 { [%eval 3.0] } 8...
+Nc6 $2 { [%eval 4.25] } 9. O-O { [%eval 3.88] } 9... Ne5 $6 { [%eval 4.68] }
+10. Nxe5 { [%eval 4.44] } 10... fxe5 { [%eval 4.54] } 11. c3 $2
+{ [%eval 2.84] } 11... Qe7 $6 { [%eval 3.53] } 12. d4 { [%eval 3.39] } 12...
+Nf6 { [%eval 3.65] } 13. dxe5 $6 { [%eval 2.97] } 13... Qxe5 { [%eval 3.04] }
+14. f3 $2 { [%eval 2.02] } 14... Nh5 $2 { [%eval 3.67] } 15. Kh1 $6
+{ [%eval 2.97] } 15... Bd6 $2 { [%eval 5.44] } 16. g3 $4 { [%eval 0.0] } 16...
+Nxg3+ { [%eval 0.0] } 17. hxg3 { [%eval 0.0] } 17... Qxg3 { [%eval 0.0] } 18.
+Qe2 { [%eval 0.0] } 18... Qh3+ { [%eval 0.0] } 19. Qh2 $4 { [%eval #-1] } 19...
+Bxh2 $6 { [%eval #-8] } 20. Rf2 { [%eval #-8] } 20... Bg3+ $6
+{ [%eval -21.93] } 21. Kg1 { [%eval -21.4] } 21... O-O-O { [%eval -20.03] } 22.
+Rg2 $6 { [%eval #-1] } 22... a6 $6 { [%eval -17.16] } 23. Kf1 $6
+{ [%eval #-2] } 23... Rhf8 $6 { [%eval #-6] } 24. Nd2 { [%eval #-6] } 24...
+Rxd2 { [%eval #-7] } 25. Bxd2 { [%eval #-7] } 25... Rxf3+ { [%eval #-6] } 26.
+Ke2 { [%eval #-3] } 26... Rf2+ $4 { [%eval -4.91] } 27. Ke1 $4 { [%eval #-2] }
+27... Rxg2+ $6 { [%eval #-3] } 0-1

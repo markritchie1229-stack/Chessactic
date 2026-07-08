@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/q3cEHVvv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "B1vrn"]
+[Black "principito"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:27:45"]
+[WhiteElo "1439"]
+[BlackElo "1650"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+8"]
+[ECO "C23"]
+[Opening "Bishop's Opening: Calabrese Countergambit"]
+[TimeControl "300+9"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.4] } 2. Bc4 { [%eval 0.0] } 2... f5
+$6 { [%eval 0.99] } 3. Qe2 $6 { [%eval 0.13] } 3... Nf6 { [%eval 0.23] } 4. f3
+$6 { [%eval -0.49] } 4... fxe4 $6 { [%eval 0.06] } 5. fxe4 { [%eval 0.01] }
+5... Nc6 { [%eval 0.06] } 6. d3 $2 { [%eval -1.21] } 6... Nd4 { [%eval -1.19] }
+7. Qd1 { [%eval -1.05] } 7... b5 { [%eval -1.0] } 8. Bb3 { [%eval -1.1] } 8...
+Nxb3 $6 { [%eval -0.58] } 9. axb3 { [%eval -0.67] } 9... Bc5 { [%eval -0.6] }
+10. Nf3 { [%eval -0.55] } 10... d6 { [%eval -0.21] } 11. Nc3 { [%eval -0.23] }
+11... c6 { [%eval -0.29] } 12. Ra6 $4 { [%eval -6.32] } 12... Bxa6
+{ [%eval -6.29] } 13. Bg5 { [%eval -6.5] } 13... O-O { [%eval -6.31] } 14. Qa1
+$6 { [%eval -6.82] } 14... Bc8 { [%eval -6.91] } 15. b4 $6 { [%eval -7.41] }
+15... Bb6 { [%eval -7.17] } 16. Na2 $2 { [%eval -8.77] } 16... Bg4
+{ [%eval -8.47] } 17. Qd1 { [%eval -8.66] } 17... Qe8 { [%eval -8.56] } 18. h3
+$2 { [%eval -10.25] } 18... Bh5 $2 { [%eval -7.88] } 19. g4 $2
+{ [%eval -14.91] } 19... Nxg4 { [%eval -14.39] } 20. hxg4 { [%eval -14.07] }
+20... Bxg4 { [%eval -12.81] } 21. Rg1 { [%eval -19.77] } 21... Bxf3
+{ [%eval -18.48] } 22. Qd2 { [%eval -28.95] } 22... Bxg1 { [%eval -24.98] } 23.
+Qc3 { [%eval -52.31] } 23... Bd4 { [%eval -31.5] } 24. Qd2 $6 { [%eval #-6] }
+24... Qh5 { [%eval #-5] } 25. Be7 { [%eval #-1] } 25... Rf7 $6 { [%eval #-6] }
+26. Bxd6 { [%eval #-1] } 26... Qh4+ $6 { [%eval #-1] } 27. Kf1 { [%eval #-1] }
+27... Bxe4+ $6 { [%eval #-3] } 28. Ke2 { [%eval #-2] } 28... Rf2+ $6
+{ [%eval #-2] } 29. Kd1 { [%eval #-2] } 29... Rxd2+ $6 { [%eval #-3] } 30. Kxd2
+{ [%eval #-3] } 30... Bd5 $6 { [%eval #-4] } 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/RDuadXBM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gepard1974"]
+[Black "tevs"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:35:56"]
+[WhiteElo "1401"]
+[BlackElo "1246"]
+[WhiteRatingDiff "+27"]
+[BlackRatingDiff "-6"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... d5 { [%eval 0.66] } 2. exd5 { [%eval 0.66] } 2...
+Qxd5 { [%eval 0.69] } 3. Nc3 { [%eval 0.54] } 3... Qe5+ { [%eval 0.75] } 4. Be2
+{ [%eval 0.85] } 4... f5 $2 { [%eval 2.11] } 5. Nf3 { [%eval 1.95] } 5... Qf4
+$2 { [%eval 4.21] } 6. d4 $2 { [%eval 2.99] } 6... Qd6 { [%eval 3.16] } 7. g3
+{ [%eval 2.81] } 7... Nf6 { [%eval 2.71] } 8. Bf4 { [%eval 2.54] } 8... Qb4 $2
+{ [%eval 3.6] } 9. O-O { [%eval 3.62] } 9... Qxb2 $2 { [%eval 5.54] } 10. Bxc7
+$4 { [%eval -1.5] } 10... Qxc3 { [%eval -1.62] } 11. Rb1 $4 { [%eval -6.02] }
+11... Qxc7 { [%eval -5.79] } 12. Ng5 $6 { [%eval -6.5] } 12... h6 $4
+{ [%eval -3.33] } 13. Nf3 $2 { [%eval -6.28] } 13... g5 { [%eval -5.98] } 14.
+Ne5 { [%eval -5.94] } 14... Nc6 $4 { [%eval -1.27] } 15. f4 $4
+{ [%eval -6.91] } 15... gxf4 $4 { [%eval -2.52] } 16. gxf4 $4 { [%eval -8.04] }
+16... Rg8+ { [%eval -7.65] } 17. Kh1 { [%eval -7.33] } 17... Ng4 $6
+{ [%eval -6.81] } 18. c3 $6 { [%eval -7.75] } 18... Ngxe5 $2 { [%eval -6.27] }
+19. fxe5 $2 { [%eval -7.44] } 19... f4 $2 { [%eval -5.02] } 20. Bh5+
+{ [%eval -5.26] } 20... Kd8 { [%eval -5.18] } 21. Rxf4 { [%eval -4.82] } 21...
+Bh3 { [%eval -4.94] } 22. Qb3 $4 { [%eval -13.1] } 22... b6 $4 { [%eval 8.16] }
+23. Qxg8 { [%eval 7.52] } 23... Kd7 { [%eval 6.68] } 24. d5 $4 { [%eval 3.27] }
+24... Nxe5 { [%eval 3.17] } 25. Rd1 $4 { [%eval 0.0] } 25... Qxc3
+{ [%eval 0.0] } 26. d6 $4 { [%eval -3.83] } 26... Qc6+ { [%eval -3.72] } 27.
+Bf3 { [%eval -3.78] } 27... Nxf3 { [%eval -3.73] } 28. dxe7+ $4
+{ [%eval -10.17] } 28... Kxe7 $4 { [%eval #1] } 29. Qf7# 1-0

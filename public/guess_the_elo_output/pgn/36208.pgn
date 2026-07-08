@@ -1,0 +1,35 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/9ZhtjTE4"]
+[Site "https://lichess.org/jEohfvjk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Janda_Bohai"]
+[Black "MuhPras"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:17:53"]
+[WhiteElo "1723"]
+[BlackElo "1426"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-3"]
+[ECO "B07"]
+[Opening "King's Pawn Game: Maroczy Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.42] } 2. d4 $6 { [%eval -0.17] } 2...
+d6 $6 { [%eval 0.66] } 3. c3 { [%eval 0.3] } 3... exd4 { [%eval 0.54] } 4. Bc4
+$6 { [%eval -0.16] } 4... c5 $6 { [%eval 0.7] } 5. Nf3 { [%eval 0.5] } 5... Bg4
+{ [%eval 0.84] } 6. cxd4 { [%eval 0.69] } 6... Nc6 { [%eval 0.91] } 7. O-O $6
+{ [%eval 0.22] } 7... Nxd4 { [%eval 0.35] } 8. Bxf7+ $4 { [%eval -2.87] } 8...
+Kxf7 { [%eval -2.85] } 9. Ng5+ $6 { [%eval -3.83] } 9... Ke8 $4
+{ [%eval 1.49] } 10. Qxg4 { [%eval 1.58] } 10... Nf6 { [%eval 1.79] } 11. Qd1
+{ [%eval 1.58] } 11... h6 { [%eval 1.64] } 12. Qa4+ $4 { [%eval -2.69] } 12...
+Ke7 $4 { [%eval 0.88] } 13. Nf3 { [%eval 0.62] } 13... Nxe4 $2 { [%eval 3.33] }
+14. Re1 { [%eval 3.34] } 14... d5 { [%eval 3.37] } 15. Nc3 $2 { [%eval 2.09] }
+15... Kd6 $4 { [%eval 10.99] } 16. Nxd4 { [%eval 10.65] } 16... cxd4
+{ [%eval 16.22] } 17. Bf4+ $2 { [%eval 8.2] } 17... Ke6 { [%eval 8.04] } 18.
+Nxe4 { [%eval 7.57] } 18... dxe4 { [%eval 7.62] } 19. Rxe4+ { [%eval 7.39] }
+19... Kf5 $2 { [%eval 9.27] } 20. Qc2 $4 { [%eval 5.09] } 20... Kg4 $4
+{ [%eval #4] } 21. Qe2+ $6 { [%eval #6] } 21... Kf5 { [%eval #6] } 22. Re6
+{ [%eval #5] } 22... Kxf4 { [%eval #2] } 23. Qe4+ $6 { [%eval #2] } 23... Kg5
+{ [%eval #2] } 24. Rg6+ { [%eval #1] } 24... Kh5 { [%eval #1] } 25. Qg4# 1-0

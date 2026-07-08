@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/yPjBPaQM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Pavel_Domrachev"]
+[Black "SERG1955"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:36:25"]
+[WhiteElo "1866"]
+[BlackElo "1838"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.27] } 2. Bf4 { [%eval 0.07] } 2...
+Nc6 { [%eval 0.07] } 3. e3 { [%eval 0.11] } 3... Bf5 { [%eval 0.11] } 4. Nf3
+{ [%eval 0.11] } 4... e6 { [%eval 0.12] } 5. c3 { [%eval 0.0] } 5... Bd6
+{ [%eval 0.01] } 6. Ne5 { [%eval -0.23] } 6... Nxe5 { [%eval -0.07] } 7. dxe5
+{ [%eval -0.2] } 7... Be7 { [%eval 0.1] } 8. Be2 { [%eval 0.12] } 8... Bxb1 $6
+{ [%eval 0.72] } 9. Qxb1 { [%eval 0.4] } 9... Bg5 { [%eval 0.49] } 10. O-O
+{ [%eval 0.28] } 10... f6 $2 { [%eval 1.87] } 11. Bxg5 $2 { [%eval 0.64] }
+11... fxg5 { [%eval 0.69] } 12. Bh5+ { [%eval 0.39] } 12... g6 { [%eval 0.37] }
+13. Bxg6+ $2 { [%eval -1.49] } 13... hxg6 { [%eval -1.22] } 14. Qxg6+
+{ [%eval -1.3] } 14... Kd7 { [%eval -1.27] } 15. e4 $6 { [%eval -1.83] } 15...
+Ne7 { [%eval -1.51] } 16. Qxg5 { [%eval -1.48] } 16... Rg8 $6 { [%eval -0.69] }
+17. Qe3 { [%eval -0.73] } 17... c6 { [%eval -0.56] } 18. exd5 $6
+{ [%eval -1.16] } 18... cxd5 { [%eval -1.19] } 19. c4 { [%eval -1.24] } 19...
+Nf5 { [%eval -1.02] } 20. Qb3 { [%eval -1.08] } 20... b6 $4 { [%eval 2.06] }
+21. cxd5 { [%eval 1.97] } 21... Qg5 { [%eval 2.27] } 22. dxe6+ { [%eval 1.94] }
+22... Ke7 { [%eval 2.18] } 23. g3 { [%eval 1.89] } 23... Rh8 $2 { [%eval 3.4] }
+24. Rad1 { [%eval 3.16] } 24... Rxh2 $4 { [%eval 19.07] } 25. Rd7+
+{ [%eval 11.36] } 25... Ke8 { [%eval 16.51] } 26. Kxh2 { [%eval 15.41] } 26...
+Rc8 { [%eval 18.95] } 27. Qb5 { [%eval 11.52] } 27... Rc5 $6 { [%eval #2] } 28.
+Rd8+ { [%eval #1] } 28... Ke7 { [%eval #1] } 29. Qd7# 1-0

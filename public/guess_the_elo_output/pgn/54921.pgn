@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/qv6KdXy4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "perham"]
+[Black "ronjatinke"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:50:46"]
+[WhiteElo "1978"]
+[BlackElo "1836"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "D21"]
+[Opening "Queen's Gambit Accepted: Rosenthal Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.21] } 2. c4 { [%eval 0.17] } 2... e6
+{ [%eval 0.21] } 3. Nf3 { [%eval 0.23] } 3... dxc4 { [%eval 0.37] } 4. e4
+{ [%eval 0.13] } 4... a6 { [%eval 0.6] } 5. Bxc4 { [%eval 0.7] } 5... b5
+{ [%eval 0.66] } 6. Bd3 { [%eval 0.61] } 6... Bb7 { [%eval 0.85] } 7. O-O
+{ [%eval 0.72] } 7... h6 { [%eval 1.16] } 8. Nc3 { [%eval 0.81] } 8... Bb4 $6
+{ [%eval 1.6] } 9. a3 { [%eval 1.16] } 9... Ba5 { [%eval 1.31] } 10. b4
+{ [%eval 1.3] } 10... Bb6 { [%eval 1.41] } 11. Ne2 { [%eval 0.93] } 11... Ne7
+{ [%eval 1.02] } 12. Bb2 { [%eval 0.86] } 12... O-O { [%eval 0.86] } 13. Qc2
+{ [%eval 0.85] } 13... Nd7 { [%eval 1.04] } 14. Rac1 $6 { [%eval 0.33] } 14...
+Rc8 { [%eval 0.75] } 15. Qc3 { [%eval 0.7] } 15... f6 $2 { [%eval 2.41] } 16.
+Nf4 { [%eval 2.48] } 16... Kf7 $4 { [%eval 6.35] } 17. Qb3 { [%eval 6.45] }
+17... Re8 $4 { [%eval 12.83] } 18. Qxe6+ { [%eval 14.33] } 18... Kf8
+{ [%eval 13.13] } 19. d5 { [%eval 11.43] } 19... g5 { [%eval 19.43] } 20. Nh5
+$4 { [%eval 5.2] } 20... Nxd5 $2 { [%eval 7.05] } 21. Qf5 $6 { [%eval 6.48] }
+21... Ne7 $4 { [%eval 23.31] } 22. Qh7 { [%eval 21.06] } 22... Ng8 $6
+{ [%eval #1] } 23. Qg7# 1-0

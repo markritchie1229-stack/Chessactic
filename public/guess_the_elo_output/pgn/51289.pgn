@@ -1,0 +1,36 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/V6wbbFAr"]
+[Site "https://lichess.org/W9o8WCKh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Obignu"]
+[Black "Kaissar"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:33:31"]
+[WhiteElo "1599"]
+[BlackElo "1450"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "C16"]
+[Opening "French Defense: Winawer Variation, Advance Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.0] } 1... e6 { [%eval 0.08] } 2. d4 { [%eval 0.06] } 2... d5
+{ [%eval 0.24] } 3. Nc3 { [%eval 0.25] } 3... Bb4 { [%eval 0.21] } 4. e5
+{ [%eval -0.01] } 4... Qh4 $6 { [%eval 0.84] } 5. a3 { [%eval 0.43] } 5...
+Bxc3+ { [%eval 0.46] } 6. bxc3 { [%eval 0.43] } 6... Nc6 $6 { [%eval 1.08] } 7.
+Nf3 { [%eval 0.97] } 7... Qg4 { [%eval 1.39] } 8. g3 { [%eval 1.05] } 8... h5
+$2 { [%eval 2.1] } 9. Be2 { [%eval 1.88] } 9... h4 $4 { [%eval 6.7] } 10. Nxh4
+$4 { [%eval 2.1] } 10... Qe4 { [%eval 2.0] } 11. O-O { [%eval 2.08] } 11...
+Rxh4 $2 { [%eval 3.31] } 12. gxh4 $2 { [%eval 1.69] } 12... Qxh4
+{ [%eval 1.75] } 13. Kh1 { [%eval 2.02] } 13... b6 { [%eval 2.45] } 14. Rg1
+{ [%eval 2.5] } 14... Bb7 $2 { [%eval 3.89] } 15. Bg5 $2 { [%eval 2.22] } 15...
+Qe4+ { [%eval 2.49] } 16. Bf3 { [%eval 2.09] } 16... Qf5 { [%eval 2.47] } 17.
+Qd2 $4 { [%eval -2.5] } 17... f6 $4 { [%eval 1.39] } 18. exf6 $4
+{ [%eval -2.53] } 18... gxf6 $4 { [%eval 3.23] } 19. Bg4 $2 { [%eval 2.2] }
+19... Qxg5 { [%eval 1.51] } 20. Qxg5 $6 { [%eval 0.77] } 20... fxg5
+{ [%eval 0.83] } 21. Bxe6 { [%eval 0.53] } 21... Nge7 { [%eval 0.56] } 22. Rae1
+{ [%eval 0.6] } 22... Kf8 { [%eval 1.06] } 23. Rxg5 { [%eval 0.67] } 23... Ng8
+$4 { [%eval #12] } 24. Rxg8+ { [%eval #11] } 24... Ke7 { [%eval 14.4] } 25.
+Bxd5+ $2 { [%eval 8.27] } 1-0

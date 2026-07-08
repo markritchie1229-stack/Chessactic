@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mLijk455"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Martin22222"]
+[Black "MarceloZucoli"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:50:34"]
+[WhiteElo "1426"]
+[BlackElo "1652"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B09"]
+[Opening "Pirc Defense: Austrian Attack, Weiss Variation"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... d6 { [%eval 0.45] } 2. d4 { [%eval 0.51] } 2... Nf6
+{ [%eval 0.53] } 3. Nc3 { [%eval 0.47] } 3... g6 { [%eval 0.56] } 4. f4
+{ [%eval 0.32] } 4... Bg7 { [%eval 0.49] } 5. Nf3 { [%eval 0.22] } 5... O-O
+{ [%eval 0.45] } 6. Bd3 { [%eval 0.41] } 6... Re8 $6 { [%eval 1.14] } 7. O-O
+{ [%eval 0.69] } 7... e5 $6 { [%eval 1.31] } 8. dxe5 { [%eval 1.34] } 8... dxe5
+{ [%eval 1.33] } 9. Nxe5 { [%eval 1.31] } 9... Bg4 $4 { [%eval 5.45] } 10. Be2
+$4 { [%eval 0.74] } 10... Bxe2 { [%eval 1.14] } 11. Qxe2 { [%eval 1.17] } 11...
+Nbd7 { [%eval 1.66] } 12. Nxd7 $6 { [%eval 1.08] } 12... Qxd7 { [%eval 1.22] }
+13. Qd3 $6 { [%eval 0.25] } 13... Qc6 { [%eval 0.42] } 14. e5 { [%eval 0.32] }
+14... Rad8 { [%eval 0.45] } 15. Qb5 { [%eval 0.0] } 15... Qxb5 { [%eval 0.0] }
+16. Nxb5 { [%eval 0.0] } 16... Ne4 $2 { [%eval 1.0] } 17. Nxc7 { [%eval 0.89] }
+17... Re7 { [%eval 0.92] } 18. Nb5 { [%eval 0.9] } 18... a6 { [%eval 0.99] }
+19. Nc3 $6 { [%eval 0.1] } 19... Nd2 $2 { [%eval 2.07] } 20. Bxd2
+{ [%eval 1.88] } 20... Rxd2 { [%eval 1.7] } 21. Rf2 { [%eval 1.26] } 21... Red7
+$6 { [%eval 2.21] } 0-1

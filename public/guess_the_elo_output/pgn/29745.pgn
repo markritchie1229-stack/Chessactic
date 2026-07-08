@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/9bcq3IJ9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "WonderBrais"]
+[Black "agnimithra"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:55:07"]
+[WhiteElo "1760"]
+[BlackElo "1685"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C24"]
+[Opening "Bishop's Opening: Urusov Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.45] } 2. d4 $6 { [%eval -0.1] } 2...
+exd4 { [%eval 0.0] } 3. Nf3 { [%eval -0.09] } 3... Nf6 $6 { [%eval 0.45] } 4.
+Bc4 $2 { [%eval -0.56] } 4... Be7 $2 { [%eval 1.17] } 5. e5 { [%eval 1.04] }
+5... Nh5 $2 { [%eval 3.09] } 6. h3 $2 { [%eval 0.82] } 6... O-O
+{ [%eval 0.98] } 7. Nxd4 { [%eval 0.56] } 7... Nf4 $4 { [%eval 4.07] } 8. Qf3
+$4 { [%eval -0.29] } 8... Bg5 $4 { [%eval 4.37] } 9. Bxf4 { [%eval 4.2] } 9...
+Bxf4 $6 { [%eval 4.91] } 10. Qxf4 { [%eval 4.75] } 10... d5 { [%eval 5.24] }
+11. exd6 { [%eval 5.15] } 11... cxd6 { [%eval 5.21] } 12. Nc3 { [%eval 4.93] }
+12... Nc6 $6 { [%eval 5.52] } 13. Nxc6 $6 { [%eval 5.01] } 13... bxc6
+{ [%eval 5.09] } 14. O-O $6 { [%eval 4.37] } 14... d5 { [%eval 4.58] } 15. Bd3
+{ [%eval 4.52] } 15... f5 $6 { [%eval 5.06] } 16. Rae1 { [%eval 5.1] } 16...
+Qf6 { [%eval 5.31] } 17. Qe5 { [%eval 4.94] } 17... Qg6 $2 { [%eval 7.22] } 18.
+Re3 $2 { [%eval 5.19] } 18... Kh8 { [%eval 5.52] } 19. Rg3 { [%eval 5.06] }
+19... Qf7 { [%eval 5.19] } 20. Re1 { [%eval 5.11] } 20... f4 { [%eval 5.34] }
+21. Rg5 { [%eval 5.04] } 21... h6 $4 { [%eval 9.41] } 22. Rh5 $4
+{ [%eval 4.64] } 22... Bd7 $4 { [%eval #6] } 23. Rh4 $4 { [%eval 4.16] } 23...
+Rae8 $4 { [%eval #6] } 24. Qxe8 $4 { [%eval -2.97] } 24... Rxe8 $2
+{ [%eval -1.7] } 25. Rxe8+ { [%eval -1.81] } 25... Qxe8 $2 { [%eval -0.72] }
+26. Rxf4 { [%eval -0.81] } 26... Qe1+ { [%eval -0.62] } 27. Kh2
+{ [%eval -0.54] } 27... Qe5 { [%eval -0.69] } 28. g3 { [%eval -0.6] } 28... d4
+$4 { [%eval #1] } 29. Rf8# 1-0

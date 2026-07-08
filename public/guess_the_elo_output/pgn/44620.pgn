@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QfuaOaxC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Petrochiant"]
+[Black "rexadrez"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:05:29"]
+[WhiteElo "2276"]
+[BlackElo "2358"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-14"]
+[ECO "C15"]
+[Opening "French Defense: Winawer Variation, Winckelmann-Riemer Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e6 { [%eval 0.17] } 2. d4 { [%eval 0.14] } 2... d5
+{ [%eval 0.21] } 3. Nc3 { [%eval 0.2] } 3... Bb4 { [%eval 0.18] } 4. a3
+{ [%eval 0.06] } 4... Bxc3+ { [%eval 0.12] } 5. bxc3 { [%eval 0.0] } 5... dxe4
+{ [%eval 0.16] } 6. Qg4 { [%eval 0.2] } 6... Nf6 { [%eval 0.22] } 7. Qxg7
+{ [%eval 0.13] } 7... Rg8 { [%eval 0.12] } 8. Qh6 { [%eval 0.22] } 8... c5
+{ [%eval 0.03] } 9. Bg5 { [%eval 0.0] } 9... Nbd7 { [%eval -0.07] } 10. Bb5
+{ [%eval -0.43] } 10... Rg6 { [%eval -0.52] } 11. Qh4 { [%eval -0.52] } 11...
+cxd4 { [%eval -0.35] } 12. Bxf6 { [%eval -0.52] } 12... Qxf6 { [%eval -0.34] }
+13. Qxh7 $4 { [%eval -5.01] } 13... Rxg2 { [%eval -4.91] } 14. O-O-O $6
+{ [%eval -5.86] } 14... Qxf2 $4 { [%eval -1.15] } 15. Ne2 $2 { [%eval -4.01] }
+15... a6 $4 { [%eval 0.75] } 16. Bxd7+ $2 { [%eval -0.55] } 16... Bxd7
+{ [%eval -0.48] } 17. Nxd4 { [%eval -0.76] } 17... Rc8 $4 { [%eval 7.45] } 18.
+Rhf1 { [%eval 6.8] } 18... Qe3+ $4 { [%eval 15.6] } 19. Kb1 { [%eval 13.91] }
+19... Rf2 { [%eval 16.95] } 20. Qh8+ { [%eval 16.25] } 20... Ke7
+{ [%eval 15.48] } 21. Qh4+ { [%eval 14.37] } 21... f6 { [%eval 12.87] } 22.
+Qxf2 $4 { [%eval 3.54] } 22... Qxc3 $4 { [%eval #9] } 23. Qxf6+ { [%eval #8] }
+23... Kd6 { [%eval #8] } 24. Nxe6+ { [%eval #8] } 1-0

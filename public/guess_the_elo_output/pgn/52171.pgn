@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6Krmzpix"]
+[Date "????.??.??"]
+[Round "?"]
+[White "oktayaga"]
+[Black "kubrat"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:09:44"]
+[WhiteElo "2071"]
+[BlackElo "2098"]
+[WhiteRatingDiff "+20"]
+[BlackRatingDiff "-11"]
+[ECO "D15"]
+[Opening "Slav Defense: Chameleon Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.18] } 2... c6
+{ [%eval 0.25] } 3. Nf3 { [%eval 0.28] } 3... Nf6 { [%eval 0.3] } 4. Nc3
+{ [%eval 0.2] } 4... a6 { [%eval 0.35] } 5. Bf4 { [%eval 0.06] } 5... e6
+{ [%eval 0.55] } 6. e3 { [%eval 0.64] } 6... Nbd7 { [%eval 0.69] } 7. h3
+{ [%eval 0.47] } 7... dxc4 { [%eval 0.37] } 8. Bxc4 { [%eval 0.37] } 8... b5
+{ [%eval 0.41] } 9. Bd3 { [%eval 0.08] } 9... Bb7 { [%eval 0.13] } 10. O-O
+{ [%eval 0.06] } 10... c5 { [%eval 0.19] } 11. Rc1 { [%eval 0.09] } 11... Rc8
+{ [%eval 0.14] } 12. Qe2 { [%eval -0.12] } 12... Be7 { [%eval -0.04] } 13. Rfd1
+{ [%eval 0.0] } 13... Qb6 { [%eval 0.0] } 14. a3 { [%eval -0.05] } 14... O-O
+{ [%eval 0.0] } 15. dxc5 { [%eval -0.07] } 15... Nxc5 { [%eval 0.0] } 16. Bb1
+{ [%eval -0.16] } 16... Rfd8 { [%eval 0.13] } 17. Nd4 { [%eval -0.26] } 17...
+Ncd7 { [%eval 0.0] } 18. Bh2 { [%eval -0.07] } 18... g6 { [%eval 0.0] } 19. Ba2
+{ [%eval 0.0] } 19... e5 $6 { [%eval 0.62] } 20. Nf3 { [%eval 0.55] } 20...
+Bxf3 $2 { [%eval 1.65] } 21. Qxf3 { [%eval 1.47] } 21... Bf8 { [%eval 1.86] }
+22. Rd2 $6 { [%eval 1.04] } 22... b4 $6 { [%eval 1.67] } 23. axb4
+{ [%eval 1.46] } 23... Qxb4 $6 { [%eval 2.41] } 24. Rcd1 $6 { [%eval 1.72] }
+24... a5 $4 { [%eval 13.12] } 25. Bg3 $4 { [%eval 3.79] } 25... a4 $4
+{ [%eval 16.5] } 26. Rxd7 { [%eval 15.69] } 26... Rxd7 { [%eval 15.96] } 27.
+Rxd7 { [%eval 14.05] } 27... Nxd7 $6 { [%eval #2] } 28. Qxf7+ { [%eval #1] }
+1-0

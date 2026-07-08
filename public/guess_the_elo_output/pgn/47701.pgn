@@ -1,0 +1,35 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/Q33oYnde"]
+[Site "https://lichess.org/Mg5p1kUg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bchessguru"]
+[Black "Sergey_Portugal"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:46:18"]
+[WhiteElo "1621"]
+[BlackElo "1933"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+4"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.39] } 2. Nf3 { [%eval 0.36] } 2... Nc6
+{ [%eval 0.54] } 3. Bc4 { [%eval 0.18] } 3... Bc5 { [%eval 0.24] } 4. d3
+{ [%eval 0.08] } 4... Nf6 { [%eval 0.17] } 5. Nc3 { [%eval 0.07] } 5... d6
+{ [%eval 0.25] } 6. Nd5 { [%eval -0.08] } 6... Bg4 $6 { [%eval 0.51] } 7. h3
+{ [%eval 0.05] } 7... Be6 $6 { [%eval 0.72] } 8. Nxf6+ $6 { [%eval 0.0] } 8...
+Qxf6 { [%eval 0.0] } 9. Bxe6 { [%eval 0.0] } 9... Qxe6 { [%eval 0.08] } 10. Qd2
+{ [%eval -0.39] } 10... O-O-O { [%eval -0.28] } 11. a3 { [%eval -0.46] } 11...
+h6 { [%eval -0.17] } 12. b4 { [%eval -0.21] } 12... Bb6 { [%eval -0.22] } 13.
+c4 { [%eval -0.57] } 13... Nd4 $6 { [%eval -0.02] } 14. Nxd4 { [%eval -0.15] }
+14... Bxd4 { [%eval -0.1] } 15. Rb1 { [%eval -0.28] } 15... f5 { [%eval -0.2] }
+16. Bb2 $6 { [%eval -0.89] } 16... fxe4 { [%eval -0.8] } 17. Bxd4
+{ [%eval -1.0] } 17... exd4 { [%eval -0.64] } 18. O-O { [%eval -0.76] } 18...
+exd3 { [%eval -0.52] } 19. Rfe1 $2 { [%eval -1.57] } 19... Qf5 $6
+{ [%eval -0.98] } 20. Rbd1 $6 { [%eval -1.89] } 20... Rde8 { [%eval -1.9] } 21.
+Rxe8+ $2 { [%eval -2.91] } 21... Rxe8 { [%eval -2.81] } 22. Qxd3 $4
+{ [%eval -11.81] } 22... Re1+ { [%eval -11.08] } 23. Rxe1 { [%eval -11.85] }
+23... Qxd3 { [%eval -11.06] } 0-1

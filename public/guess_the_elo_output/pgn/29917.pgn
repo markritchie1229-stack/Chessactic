@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/xXGpvuKp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "socalkid"]
+[Black "Sekoza-32"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:09:59"]
+[WhiteElo "1099"]
+[BlackElo "1187"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+8"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.13] } 1... d5 { [%eval 0.2] } 2. d4 { [%eval 0.1] } 2... Nc6
+{ [%eval 0.46] } 3. e3 { [%eval 0.4] } 3... Nf6 { [%eval 0.45] } 4. Bd3
+{ [%eval 0.17] } 4... Bg4 { [%eval 0.13] } 5. Nbd2 { [%eval -0.15] } 5... e6
+{ [%eval 0.27] } 6. Ne5 $4 { [%eval -7.76] } 6... Nxe5 $4 { [%eval -3.79] } 7.
+Qxg4 $4 { [%eval -11.3] } 7... Nexg4 { [%eval -10.27] } 8. Nf3
+{ [%eval -10.75] } 8... Bd6 { [%eval -10.55] } 9. Ne5 { [%eval -13.79] } 9...
+Bxe5 { [%eval -13.37] } 10. dxe5 { [%eval -13.07] } 10... Nxe5
+{ [%eval -12.37] } 11. O-O { [%eval -12.45] } 11... Nxd3 { [%eval -12.39] } 12.
+cxd3 { [%eval -12.45] } 12... O-O { [%eval -12.33] } 13. d4 { [%eval -12.53] }
+13... Nh5 { [%eval -12.22] } 14. g3 { [%eval -12.63] } 14... Qg5
+{ [%eval -12.68] } 15. Bd2 { [%eval -12.72] } 15... Qg4 { [%eval -12.25] } 16.
+Bb4 { [%eval -13.16] } 16... Rfe8 { [%eval -12.87] } 17. a4 { [%eval -14.0] }
+17... Qh3 { [%eval -12.66] } 18. a5 { [%eval -12.76] } 18... f5
+{ [%eval -12.59] } 19. e4 { [%eval -16.61] } 19... dxe4 { [%eval -16.17] } 20.
+a6 $6 { [%eval #-7] } 20... bxa6 $6 { [%eval -17.58] } 21. Rxa6 $6
+{ [%eval #-7] } 21... f4 { [%eval #-6] } 22. Bd6 { [%eval #-2] } 22... cxd6 $6
+{ [%eval #-6] } 23. Rxd6 { [%eval #-2] } 23... f3 { [%eval #-1] } 24. d5
+{ [%eval #-1] } 24... Qg2# 0-1

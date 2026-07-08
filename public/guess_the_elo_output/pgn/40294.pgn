@@ -1,0 +1,42 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/58EtXWd6"]
+[Site "https://lichess.org/xZ7PzKlu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "CasparOuf"]
+[Black "batwave"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:13:09"]
+[WhiteElo "1598"]
+[BlackElo "1487"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+15"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.28] } 2. Bc4 { [%eval -0.07] } 2...
+Nf6 { [%eval -0.09] } 3. d3 { [%eval -0.06] } 3... e5 $2 { [%eval 0.95] } 4.
+Nf3 { [%eval 0.91] } 4... d6 $6 { [%eval 1.42] } 5. Nc3 $2 { [%eval 0.27] }
+5... Bg4 { [%eval 0.51] } 6. h3 { [%eval 0.41] } 6... Bxf3 { [%eval 0.81] } 7.
+Qxf3 { [%eval 0.72] } 7... Nc6 { [%eval 0.77] } 8. Be3 { [%eval 0.72] } 8... h6
+{ [%eval 1.09] } 9. O-O { [%eval 1.03] } 9... g5 $6 { [%eval 1.55] } 10. a3
+{ [%eval 1.29] } 10... g4 $6 { [%eval 2.01] } 11. hxg4 { [%eval 1.95] } 11...
+Rg8 { [%eval 2.02] } 12. Nd5 { [%eval 2.01] } 12... Bg7 $6 { [%eval 2.94] } 13.
+Nxf6+ $6 { [%eval 2.2] } 13... Qxf6 { [%eval 2.2] } 14. Qe2 { [%eval 1.88] }
+14... Qh4 $6 { [%eval 2.61] } 15. Qf3 $6 { [%eval 1.88] } 15... Bf6
+{ [%eval 2.29] } 16. g3 { [%eval 2.34] } 16... Qxg4 $4 { [%eval 6.0] } 17. Qxf6
+{ [%eval 5.87] } 17... Qd7 $6 { [%eval 6.52] } 18. Bb5 $6 { [%eval 5.61] }
+18... a6 { [%eval 5.91] } 19. Ba4 $6 { [%eval 5.34] } 19... b5 $6
+{ [%eval 5.86] } 20. Bb3 { [%eval 5.77] } 20... h5 $6 { [%eval 6.6] } 21. Bd5
+{ [%eval 6.45] } 21... h4 $2 { [%eval 9.27] } 22. Kg2 $2 { [%eval 6.78] } 22...
+h3+ { [%eval 7.14] } 23. Kh2 { [%eval 7.09] } 23... Rc8 { [%eval 6.87] } 24.
+Rh1 { [%eval 6.53] } 24... Ne7 $4 { [%eval 16.37] } 25. Ba2 $4 { [%eval 5.97] }
+25... Ng6 $6 { [%eval 6.92] } 26. b4 { [%eval 6.8] } 26... Rh8 $2
+{ [%eval 8.5] } 27. bxc5 { [%eval 8.18] } 27... dxc5 $6 { [%eval 8.71] } 28. c4
+$2 { [%eval 7.68] } 28... Rc6 { [%eval 7.56] } 29. cxb5 $4 { [%eval -4.83] }
+29... Rxf6 { [%eval -4.58] } 30. Bg5 $4 { [%eval #-4] } 30... Rxf2+
+{ [%eval #-3] } 31. Kg1 { [%eval #-3] } 31... Rg2+ { [%eval #-2] } 32. Kf1
+{ [%eval #-2] } 32... Qxd3+ { [%eval #-1] } 33. Ke1 { [%eval #-1] } 33... Qe2#
+0-1

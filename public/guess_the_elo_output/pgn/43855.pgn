@@ -1,0 +1,32 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/4ekcstGy"]
+[Site "https://lichess.org/FgXYhMz9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MizginBae"]
+[Black "demoboard"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:34:55"]
+[WhiteElo "1965"]
+[BlackElo "2212"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.11] } 1... c5 { [%eval 0.14] } 2. b3 { [%eval 0.0] } 2... Nf6
+{ [%eval 0.0] } 3. Bb2 { [%eval -0.06] } 3... g6 { [%eval 0.1] } 4. Nf3
+{ [%eval 0.16] } 4... Bg7 { [%eval 0.08] } 5. Nc3 { [%eval -0.23] } 5... Nc6
+{ [%eval 0.24] } 6. h3 { [%eval -0.06] } 6... O-O { [%eval -0.02] } 7. Qe2 $2
+{ [%eval -1.17] } 7... d5 { [%eval -1.03] } 8. g4 { [%eval -1.45] } 8... d4
+{ [%eval -1.39] } 9. Nb5 $6 { [%eval -2.14] } 9... a6 { [%eval -2.22] } 10. Na3
+{ [%eval -2.28] } 10... e5 { [%eval -2.08] } 11. O-O-O { [%eval -2.11] } 11...
+e4 { [%eval -2.07] } 12. Nh2 { [%eval -2.27] } 12... Nb4 { [%eval -2.31] } 13.
+exd4 $6 { [%eval -2.94] } 13... cxd4 { [%eval -2.73] } 14. g5 $2
+{ [%eval -4.39] } 14... d3 $2 { [%eval -2.19] } 15. cxd3 $4 { [%eval -7.69] }
+15... Nxd3+ { [%eval -7.51] } 16. Kb1 $2 { [%eval -9.89] } 16... Nxb2
+{ [%eval -9.72] } 17. Kxb2 { [%eval -10.35] } 17... Qd4+ { [%eval -9.69] } 18.
+Kb1 $2 { [%eval #-3] } 18... Nd5 { [%eval #-2] } 19. Nc4 { [%eval #-2] } 19...
+Qa1+ { [%eval #-1] } 20. Kc2 { [%eval #-1] } 20... Nb4# 0-1

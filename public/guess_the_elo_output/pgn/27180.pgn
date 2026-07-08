@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/o4nHmr1u"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JerChay"]
+[Black "OuazriAnass"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:25:21"]
+[WhiteElo "1873"]
+[BlackElo "1991"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "A43"]
+[Opening "Benoni Defense: Benoni Gambit Accepted"]
+[TimeControl "180+2"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.23] } 1... c5 { [%eval 0.66] } 2. dxc5 $6 { [%eval 0.14] }
+2... e6 { [%eval 0.16] } 3. c4 { [%eval 0.0] } 3... Bxc5 { [%eval 0.0] } 4. Nc3
+{ [%eval -0.05] } 4... Nc6 { [%eval -0.03] } 5. Nf3 { [%eval -0.11] } 5... Nf6
+{ [%eval -0.04] } 6. e4 $2 { [%eval -1.59] } 6... O-O $2 { [%eval -0.05] } 7.
+Bd3 { [%eval -0.16] } 7... Kh8 { [%eval 0.29] } 8. O-O { [%eval 0.37] } 8... d5
+{ [%eval 0.33] } 9. e5 { [%eval 0.0] } 9... dxc4 { [%eval 0.08] } 10. Bxc4
+{ [%eval -0.01] } 10... Qxd1 { [%eval 0.01] } 11. Rxd1 { [%eval 0.03] } 11...
+Ng4 { [%eval -0.06] } 12. Ne4 { [%eval 0.0] } 12... Be7 $2 { [%eval 1.16] } 13.
+h3 $2 { [%eval -0.38] } 13... Ngxe5 { [%eval -0.26] } 14. Nxe5
+{ [%eval -0.45] } 14... Nxe5 { [%eval -0.43] } 15. Be2 { [%eval -0.42] } 15...
+b6 { [%eval -0.16] } 16. Bf4 { [%eval -0.47] } 16... Ng6 { [%eval -0.44] } 17.
+Bh2 { [%eval -0.59] } 17... Bb7 { [%eval -0.51] } 18. Nd6 { [%eval -0.66] }
+18... Bd5 { [%eval -0.61] } 19. Rac1 { [%eval -1.06] } 19... Rad8
+{ [%eval -0.71] } 20. Rc7 $4 { [%eval -4.21] } 20... Bxd6 { [%eval -4.1] } 21.
+Bxd6 { [%eval -4.3] } 21... Rxd6 { [%eval -4.19] } 22. Rxa7 { [%eval -4.19] }
+22... Kg8 { [%eval -3.95] } 23. a3 { [%eval -4.21] } 23... Rfd8
+{ [%eval -3.8] } 24. Rc1 $2 { [%eval -5.13] } 24... R6d7 $2 { [%eval -3.48] }
+25. Rcc7 $6 { [%eval -4.27] } 25... Rxc7 { [%eval -4.2] } 26. Rxc7
+{ [%eval -4.23] } 26... h6 { [%eval -3.97] } 27. Kh2 { [%eval -4.25] } 27...
+Nf4 { [%eval -4.22] } 0-1

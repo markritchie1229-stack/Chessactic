@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZvaVzlXf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "prokostet"]
+[Black "leo2006"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:32:55"]
+[WhiteElo "1734"]
+[BlackElo "1609"]
+[WhiteRatingDiff "+64"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.06] } 1... c5 { [%eval 0.03] } 2. d4 { [%eval 0.09] } 2... Nc6
+$6 { [%eval 1.02] } 3. d5 { [%eval 1.0] } 3... Ne5 { [%eval 0.97] } 4. f4
+{ [%eval 1.03] } 4... Ng6 { [%eval 1.14] } 5. Be2 $6 { [%eval 0.51] } 5... d6
+{ [%eval 0.78] } 6. c4 { [%eval 0.49] } 6... Bf5 $6 { [%eval 1.2] } 7. Nc3
+{ [%eval 1.35] } 7... Nh4 { [%eval 1.75] } 8. g3 { [%eval 1.68] } 8... Ng6
+{ [%eval 1.86] } 9. e4 { [%eval 1.59] } 9... Bd7 { [%eval 1.7] } 10. Bd3
+{ [%eval 1.58] } 10... e5 { [%eval 1.71] } 11. dxe6 { [%eval 1.53] } 11... fxe6
+{ [%eval 1.82] } 12. Nf3 { [%eval 1.49] } 12... h6 $2 { [%eval 4.45] } 13. e5
+{ [%eval 4.24] } 13... dxe5 $4 { [%eval 11.08] } 14. Bxg6+ { [%eval 10.77] }
+14... Ke7 { [%eval 10.85] } 15. Nxe5 { [%eval 10.67] } 15... Bc6
+{ [%eval 10.45] } 16. Nxc6+ $2 { [%eval 8.69] } 16... bxc6 { [%eval 8.36] } 17.
+Qg4 $6 { [%eval 7.64] } 17... Qd3 $2 { [%eval 21.0] } 18. Bxd3 { [%eval 20.0] }
+18... Nf6 { [%eval 21.0] } 19. Qg6 { [%eval 20.56] } 19... Rd8
+{ [%eval 20.93] } 20. O-O { [%eval 20.22] } 20... Kd6 { [%eval 22.49] } 21.
+Ne4+ { [%eval 21.71] } 21... Nxe4 { [%eval 30.2] } 22. Bxe4 { [%eval 29.51] }
+22... Kc7 { [%eval 29.12] } 23. Qf7+ { [%eval 28.36] } 23... Rd7
+{ [%eval 27.75] } 24. Qxe6 { [%eval 25.87] } 24... Bd6 $6 { [%eval #13] } 25.
+Rd1 $6 { [%eval 25.39] } 25... Rhd8 { [%eval 25.16] } 26. Be3 { [%eval 23.73] }
+26... Re7 { [%eval 69.71] } 27. Rxd6 { [%eval 59.93] } 27... Rxe6
+{ [%eval 34.8] } 28. Rxe6 { [%eval 24.62] } 28... Rd6 $6 { [%eval #11] } 29.
+Re7+ { [%eval #22] } 29... Kb6 { [%eval #6] } 30. b4 { [%eval #5] } 30... g5
+{ [%eval #2] } 1-0

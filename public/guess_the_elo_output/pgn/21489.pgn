@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/XgeaR46i"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kaisparov"]
+[Black "teunvd"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:21:09"]
+[WhiteElo "1812"]
+[BlackElo "1641"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-6"]
+[ECO "A00"]
+[Opening "Gedult's Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. f3 $6 { [%eval -0.68] } 1... g6 $6 { [%eval 0.1] } 2. e4 { [%eval 0.0] }
+2... e6 { [%eval 0.19] } 3. d4 { [%eval 0.06] } 3... c6 { [%eval 0.55] } 4. Be3
+{ [%eval 0.57] } 4... a6 { [%eval 0.78] } 5. Qd2 { [%eval 0.75] } 5... Bg7
+{ [%eval 0.72] } 6. Nc3 { [%eval 0.73] } 6... d6 { [%eval 1.0] } 7. Nge2
+{ [%eval 0.8] } 7... b5 { [%eval 0.86] } 8. O-O-O { [%eval 0.8] } 8... Bb7
+{ [%eval 1.08] } 9. g4 { [%eval 0.95] } 9... Ne7 { [%eval 1.26] } 10. h4
+{ [%eval 1.35] } 10... f5 $2 { [%eval 3.29] } 11. gxf5 { [%eval 2.99] } 11...
+exf5 { [%eval 3.29] } 12. Bh6 $2 { [%eval 2.17] } 12... O-O $2 { [%eval 5.04] }
+13. h5 { [%eval 4.58] } 13... c5 $2 { [%eval 7.11] } 14. dxc5 $2
+{ [%eval 5.83] } 14... dxc5 { [%eval 5.78] } 15. Qg5 { [%eval 5.61] } 15... Qe8
+$4 { [%eval 10.34] } 16. Nf4 $4 { [%eval 4.63] } 16... Bf6 { [%eval 4.96] } 17.
+Qg3 { [%eval 4.64] } 17... Bxc3 $4 { [%eval 10.06] } 18. bxc3 { [%eval 9.19] }
+18... Rf6 $6 { [%eval 11.73] } 19. Bg5 { [%eval 10.79] } 19... Rf7
+{ [%eval 14.46] } 20. Bxe7 { [%eval 13.31] } 20... Rxe7 { [%eval 16.31] } 21.
+hxg6 { [%eval 13.06] } 21... fxe4 $6 { [%eval #6] } 22. gxh7+ { [%eval #5] }
+22... Kh8 { [%eval #5] } 23. Ng6+ { [%eval #4] } 23... Qxg6 { [%eval #4] } 24.
+Qxg6 $6 { [%eval #4] } 24... Nc6 { [%eval #3] } 25. Qf6+ $6 { [%eval #3] }
+25... Rg7 { [%eval #3] } 26. Rd7 $6 { [%eval #3] } 26... Ne7 { [%eval #3] } 27.
+Rxe7 { [%eval #2] } 27... Bd5 { [%eval #1] } 28. Qxg7# 1-0

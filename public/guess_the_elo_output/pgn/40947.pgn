@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LPE5PjM4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wei1"]
+[Black "shtefan_32"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:39:18"]
+[WhiteElo "1581"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+220"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "240+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... Nf6 { [%eval 0.2] } 2. Bf4 { [%eval 0.0] } 2... g6
+{ [%eval 0.35] } 3. e3 { [%eval 0.15] } 3... Bg7 { [%eval 0.22] } 4. Nc3
+{ [%eval 0.22] } 4... Nh5 { [%eval 0.3] } 5. Bg3 { [%eval -0.08] } 5... Nxg3
+{ [%eval -0.14] } 6. hxg3 { [%eval -0.17] } 6... O-O { [%eval 0.0] } 7. Be2
+{ [%eval -0.28] } 7... c5 { [%eval -0.22] } 8. Bh5 $2 { [%eval -1.77] } 8...
+Qb6 $6 { [%eval -1.0] } 9. Bf3 { [%eval -1.2] } 9... Qxb2 { [%eval -0.75] } 10.
+Nge2 $2 { [%eval -1.78] } 10... cxd4 { [%eval -1.77] } 11. Rb1 { [%eval -1.8] }
+11... Qa3 { [%eval -1.43] } 12. exd4 { [%eval -1.65] } 12... Nc6
+{ [%eval -1.33] } 13. Qd3 { [%eval -1.75] } 13... d6 { [%eval -1.26] } 14. Bxc6
+$6 { [%eval -2.25] } 14... bxc6 { [%eval -2.32] } 15. f4 $6 { [%eval -3.28] }
+15... a5 $4 { [%eval 1.97] } 16. O-O $4 { [%eval -2.91] } 16... Ba6
+{ [%eval -2.83] } 17. Qe3 { [%eval -3.13] } 17... d5 $2 { [%eval -1.85] } 18.
+Rb3 { [%eval -2.18] } 18... Qd6 { [%eval -2.16] } 19. f5 $6 { [%eval -3.1] }
+19... e5 $6 { [%eval -2.58] } 20. fxe6 { [%eval -2.68] } 20... Qxe6 $2
+{ [%eval -1.64] } 21. Qxe6 { [%eval -1.57] } 21... fxe6 { [%eval -1.55] } 22.
+Rxf8+ { [%eval -1.79] } 22... Bxf8 { [%eval -1.7] } 23. Nf4 { [%eval -2.19] }
+23... Kf7 { [%eval -1.7] } 24. Rb6 $6 { [%eval -2.52] } 24... g5 $6
+{ [%eval -1.53] } 25. Nh5 $2 { [%eval -4.04] } 25... Bb4 $2 { [%eval -2.31] }
+26. Na4 $2 { [%eval -3.71] } 26... Kg6 { [%eval -3.41] } 27. Rxc6 $2
+{ [%eval -5.37] } 27... Kxh5 { [%eval -5.29] } 28. Rxe6 { [%eval -5.31] } 28...
+Bc4 { [%eval -5.09] } 29. Re7 $4 { [%eval -15.55] } 29... Bxe7
+{ [%eval -14.16] } 30. Nc5 $6 { [%eval #-8] } 30... Bxc5 { [%eval #-7] } 31.
+dxc5 { [%eval #-7] } 31... Bxa2 $6 { [%eval -66.64] } 0-1

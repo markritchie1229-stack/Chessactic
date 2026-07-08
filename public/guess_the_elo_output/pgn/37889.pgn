@@ -1,0 +1,34 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/HZsbelyt"]
+[Site "https://lichess.org/ezrqWhp2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "aji1s59"]
+[Black "gunungmas"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:34:02"]
+[WhiteElo "2131"]
+[BlackElo "2144"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "C39"]
+[Opening "King's Gambit Accepted, Kieseritzky Gambit, Anderssen Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.45] } 2. f4 $2 { [%eval -0.63] } 2...
+exf4 { [%eval -0.53] } 3. Nf3 { [%eval -0.44] } 3... g5 { [%eval -0.19] } 4. h4
+{ [%eval -0.54] } 4... g4 { [%eval -0.62] } 5. Ne5 { [%eval -0.68] } 5... Nf6
+{ [%eval -0.59] } 6. Bc4 { [%eval -0.67] } 6... d5 { [%eval -0.74] } 7. exd5
+{ [%eval -0.83] } 7... Bd6 { [%eval -0.87] } 8. d4 { [%eval -0.97] } 8... Nh5
+{ [%eval -0.65] } 9. Nc3 { [%eval -1.12] } 9... Qe7 { [%eval -0.76] } 10. Be2
+$6 { [%eval -1.6] } 10... Ng3 $6 { [%eval -0.91] } 11. Bxg4 $2
+{ [%eval -2.63] } 11... Bxe5 { [%eval -2.66] } 12. dxe5 $2 { [%eval -4.46] }
+12... Qxe5+ { [%eval -4.49] } 13. Kf2 { [%eval -4.47] } 13... Nxh1+
+{ [%eval -4.36] } 14. Qxh1 { [%eval -4.31] } 14... Qd4+ { [%eval -4.11] } 15.
+Kf3 $6 { [%eval -4.83] } 15... Bxg4+ { [%eval -4.45] } 16. Kxg4
+{ [%eval -4.33] } 16... Qf2 { [%eval -4.62] } 17. Bxf4 { [%eval -5.03] } 17...
+f5+ { [%eval -4.88] } 18. Kg5 $4 { [%eval -11.64] } 18... Rg8+
+{ [%eval -11.32] } 19. Kf6 $6 { [%eval #-6] } 19... Qd4+ { [%eval #-5] } 20.
+Be5 { [%eval #-2] } 20... Nd7+ { [%eval #-1] } 21. Kxf5 { [%eval #-1] } 21...
+Qxe5# 0-1

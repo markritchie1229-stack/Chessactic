@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XyydgOix"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Heiervang"]
+[Black "mamadu"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:15:38"]
+[WhiteElo "1532"]
+[BlackElo "1637"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-14"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e3 { [%eval 0.23] } 1... e5 { [%eval 0.25] } 2. f4 $6 { [%eval -0.5] } 2...
+exf4 { [%eval -0.57] } 3. exf4 { [%eval -0.71] } 3... Nc6 { [%eval -0.38] } 4.
+Nf3 { [%eval -0.33] } 4... Qf6 $6 { [%eval 0.31] } 5. Bc4 { [%eval -0.03] }
+5... Bc5 { [%eval -0.14] } 6. d4 $6 { [%eval -0.9] } 6... Bb6 $2
+{ [%eval 0.47] } 7. c3 { [%eval 0.06] } 7... Nge7 { [%eval 0.17] } 8. O-O
+{ [%eval 0.08] } 8... d6 { [%eval 0.14] } 9. Kh1 { [%eval -0.08] } 9... Bg4
+{ [%eval 0.06] } 10. Be3 { [%eval -0.16] } 10... O-O-O { [%eval 0.04] } 11.
+Nbd2 { [%eval 0.02] } 11... h5 $6 { [%eval 0.6] } 12. b4 $6 { [%eval -0.39] }
+12... h4 { [%eval -0.03] } 13. a4 $6 { [%eval -0.88] } 13... h3 $2
+{ [%eval 0.3] } 14. g3 { [%eval 0.3] } 14... a6 { [%eval 0.6] } 15. b5
+{ [%eval 0.46] } 15... axb5 { [%eval 0.51] } 16. axb5 { [%eval 0.16] } 16...
+Nb8 $6 { [%eval 1.12] } 17. Ra8 { [%eval 1.04] } 17... Kd7 $2 { [%eval 3.04] }
+18. Qa4 $2 { [%eval 1.23] } 18... Rhe8 $6 { [%eval 2.02] } 19. Ne4
+{ [%eval 1.64] } 19... Qg6 { [%eval 1.76] } 20. Nfd2 $4 { [%eval -2.22] } 20...
+Nf5 { [%eval -2.13] } 21. Bf2 { [%eval -2.1] } 21... Bf3+ $4 { [%eval 3.95] }
+22. Nxf3 { [%eval 3.64] } 22... Rxe4 { [%eval 3.67] } 23. Bd3 { [%eval 3.69] }
+23... Ree8 $4 { [%eval 7.49] } 24. c4 $4 { [%eval -1.26] } 24... Qf6 $4
+{ [%eval 8.13] } 25. c5 { [%eval 7.03] } 1-0

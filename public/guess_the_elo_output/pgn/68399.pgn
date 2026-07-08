@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/20vT3zD3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Albatross77"]
+[Black "LaBourdonniais"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:55:50"]
+[WhiteElo "1586"]
+[BlackElo "1686"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "D94"]
+[Opening "Gruenfeld Defense: Smyslov Defense"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. Nf3 { [%eval 0.16] } 1... Nf6 { [%eval 0.25] } 2. c4 { [%eval 0.1] } 2... g6
+{ [%eval 0.43] } 3. d4 { [%eval 0.37] } 3... d5 { [%eval 0.5] } 4. e3
+{ [%eval 0.21] } 4... Bg7 { [%eval 0.45] } 5. Nc3 { [%eval 0.07] } 5... O-O
+{ [%eval 0.25] } 6. Bd3 { [%eval -0.06] } 6... Bg4 { [%eval 0.39] } 7. O-O
+{ [%eval 0.3] } 7... c6 { [%eval 0.39] } 8. b3 { [%eval 0.05] } 8... Nbd7
+{ [%eval 0.26] } 9. Rb1 { [%eval -0.14] } 9... Re8 { [%eval -0.07] } 10. h3
+{ [%eval 0.04] } 10... Bxf3 { [%eval 0.14] } 11. Qxf3 { [%eval 0.07] } 11... e5
+{ [%eval 0.16] } 12. dxe5 $2 { [%eval -1.15] } 12... Nxe5 { [%eval -1.14] } 13.
+Qd1 { [%eval -1.31] } 13... dxc4 $2 { [%eval -0.22] } 14. Bxc4
+{ [%eval -0.25] } 14... Nxc4 { [%eval -0.2] } 15. bxc4 { [%eval -0.23] } 15...
+Qc7 { [%eval -0.12] } 16. Qc2 { [%eval -0.25] } 16... Rad8 { [%eval -0.16] }
+17. Bb2 { [%eval -0.33] } 17... Rd7 { [%eval -0.06] } 18. Ne2 { [%eval -0.26] }
+18... Red8 { [%eval -0.14] } 19. Nd4 { [%eval -0.17] } 19... a6 { [%eval 0.0] }
+20. a4 { [%eval -0.14] } 20... c5 { [%eval 0.1] } 21. Nb3 { [%eval 0.0] } 21...
+Rd3 $6 { [%eval 0.67] } 22. Ba3 $2 { [%eval -0.73] } 22... b6 $6
+{ [%eval 0.2] } 23. Bc1 $6 { [%eval -0.48] } 23... Ne4 { [%eval -0.44] } 24.
+Bb2 $2 { [%eval -1.89] } 24... Nc3 $2 { [%eval -0.64] } 25. Nc1 $4
+{ [%eval -4.93] } 25... Rd2 { [%eval -4.58] } 0-1

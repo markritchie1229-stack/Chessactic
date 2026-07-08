@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/4YdMQ98p"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mentis"]
+[Black "D50"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:07:17"]
+[WhiteElo "1551"]
+[BlackElo "1439"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Saduleto Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.19] } 2. c4 { [%eval 0.29] } 2...
+dxc4 { [%eval 0.6] } 3. e4 $6 { [%eval 0.0] } 3... e6 $6 { [%eval 0.61] } 4.
+Bxc4 { [%eval 0.62] } 4... c6 $6 { [%eval 1.16] } 5. d5 $2 { [%eval -0.33] }
+5... Nf6 { [%eval -0.08] } 6. dxe6 { [%eval -0.19] } 6... Bxe6 { [%eval 0.16] }
+7. Qxd8+ { [%eval 0.08] } 7... Kxd8 { [%eval 0.18] } 8. Bxe6 { [%eval 0.04] }
+8... fxe6 { [%eval 0.03] } 9. e5 { [%eval -0.06] } 9... Nd5 { [%eval -0.08] }
+10. Nf3 { [%eval -0.07] } 10... Be7 { [%eval -0.09] } 11. Nc3 { [%eval -0.15] }
+11... Rf8 { [%eval 0.12] } 12. Nxd5 $6 { [%eval -0.4] } 12... cxd5
+{ [%eval -0.37] } 13. O-O { [%eval -0.46] } 13... Nc6 { [%eval -0.5] } 14. Bd2
+{ [%eval -0.64] } 14... Bc5 { [%eval -0.31] } 15. Bc3 { [%eval -0.75] } 15...
+Rc8 { [%eval -0.67] } 16. a3 { [%eval -0.77] } 16... b6 { [%eval -0.33] } 17.
+b4 { [%eval -0.4] } 17... Nxb4 $4 { [%eval 4.71] } 18. axb4 { [%eval 4.67] }
+18... Be7 { [%eval 4.64] } 19. Rac1 $2 { [%eval 2.91] } 19... b5 $2
+{ [%eval 4.6] } 20. Rfd1 $2 { [%eval 3.49] } 20... Kd7 { [%eval 3.69] } 21. Rd4
+$2 { [%eval 1.58] } 21... Rc4 $2 { [%eval 4.27] } 22. Rxc4 { [%eval 3.75] }
+22... bxc4 { [%eval 4.17] } 23. b5 $2 { [%eval 2.79] } 23... Rb8
+{ [%eval 2.75] } 24. Rb1 $6 { [%eval 2.25] } 24... a6 { [%eval 2.29] } 25. b6
+{ [%eval 2.17] } 25... Rb7 { [%eval 2.37] } 26. h3 { [%eval 1.89] } 26... g6
+{ [%eval 2.35] } 27. Nd4 { [%eval 2.13] } 27... Bc5 { [%eval 2.12] } 28. Nf3 $2
+{ [%eval 1.11] } 1-0

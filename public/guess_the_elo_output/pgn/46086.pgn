@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WhVN5ddK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rangeanxiety"]
+[Black "Lord_FRD"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:14:32"]
+[WhiteElo "996"]
+[BlackElo "1109"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+15"]
+[ECO "B07"]
+[Opening "Pirc Defense #4"]
+[TimeControl "3600+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... d6 { [%eval 0.59] } 2. Bc4 { [%eval 0.13] } 2... a6
+{ [%eval 0.29] } 3. Qf3 { [%eval -0.02] } 3... e6 { [%eval 0.03] } 4. Nh3 $6
+{ [%eval -0.58] } 4... b5 { [%eval -0.1] } 5. Bd3 $6 { [%eval -0.69] } 5... h6
+{ [%eval -0.53] } 6. Nf4 { [%eval -0.46] } 6... e5 { [%eval -0.2] } 7. c4 $2
+{ [%eval -2.96] } 7... exf4 { [%eval -2.98] } 8. cxb5 { [%eval -3.06] } 8...
+axb5 { [%eval -3.19] } 9. Bxb5+ { [%eval -3.14] } 9... c6 { [%eval -2.89] } 10.
+Bc4 { [%eval -3.24] } 10... Ra4 $2 { [%eval -1.54] } 11. b3 { [%eval -1.99] }
+11... Ra5 { [%eval -2.04] } 12. Qxf4 { [%eval -2.25] } 12... d5
+{ [%eval -2.15] } 13. b4 $2 { [%eval -3.43] } 13... g5 $4 { [%eval 3.46] } 14.
+Qe5+ { [%eval 3.45] } 14... Qe7 $6 { [%eval 4.27] } 15. Qxh8 $2
+{ [%eval 2.29] } 15... Qxe4+ { [%eval 2.65] } 16. Kd1 $2 { [%eval 0.47] } 16...
+Qxg2 $4 { [%eval 3.75] } 17. Re1+ { [%eval 3.35] } 17... Be6 $4
+{ [%eval 6.46] } 18. bxa5 { [%eval 6.48] } 18... dxc4 $2 { [%eval 8.36] } 19.
+Qxg8 { [%eval 8.12] } 19... Qxf2 $6 { [%eval 8.91] } 20. Ba3 { [%eval 8.55] }
+20... Nd7 $2 { [%eval 12.9] } 21. Rxe6+ $2 { [%eval 7.99] } 21... fxe6
+{ [%eval 7.65] } 22. a6 { [%eval 7.25] } 22... h5 $2 { [%eval 11.14] } 23. Nc3
+{ [%eval 10.18] } 23... g4 { [%eval 11.41] } 24. a7 $2 { [%eval 8.36] } 24...
+Qxa7 { [%eval 8.41] } 25. Ne4 $4 { [%eval 1.42] } 25... Qxa3 $2 { [%eval 2.7] }
+26. Nd6+ $4 { [%eval -4.98] } 26... Qxd6 { [%eval -4.71] } 27. Rb1 $2
+{ [%eval -6.33] } 27... Qd3 $2 { [%eval -4.59] } 28. Qg6+ $4 { [%eval #-10] }
+28... Qxg6 { [%eval #-45] } 29. Rb8+ { [%eval #-6] } 29... Nxb8 { [%eval #-5] }
+0-1

@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Av7bYM3m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "otsike"]
+[Black "rachero"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:58:51"]
+[WhiteElo "1793"]
+[BlackElo "1610"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+16"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Nimzowitsch System"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e6 { [%eval 0.2] } 2. Nf3 { [%eval 0.1] } 2... d5
+{ [%eval 0.16] } 3. e5 { [%eval 0.0] } 3... c5 { [%eval -0.05] } 4. d4
+{ [%eval -0.22] } 4... Nc6 { [%eval 0.01] } 5. Bb5 { [%eval -0.43] } 5... Qb6
+{ [%eval -0.4] } 6. Bxc6+ { [%eval -0.53] } 6... bxc6 { [%eval -0.54] } 7. c3
+{ [%eval -0.7] } 7... cxd4 { [%eval -0.37] } 8. cxd4 { [%eval -0.39] } 8... c5
+{ [%eval 0.01] } 9. Be3 $2 { [%eval -1.69] } 9... Qxb2 { [%eval -1.66] } 10.
+Nbd2 { [%eval -1.62] } 10... Ba6 $2 { [%eval -0.56] } 11. dxc5
+{ [%eval -0.71] } 11... Rc8 { [%eval -0.54] } 12. Bd4 $2 { [%eval -2.02] }
+12... Qa3 { [%eval -1.85] } 13. Nb3 { [%eval -2.12] } 13... Qb4+ $2
+{ [%eval -1.0] } 14. Nfd2 $2 { [%eval -2.12] } 14... Bc4 $2 { [%eval -0.49] }
+15. Rb1 $2 { [%eval -2.84] } 15... Bd3 $2 { [%eval -1.57] } 16. Rb2
+{ [%eval -1.76] } 16... Ne7 { [%eval -1.7] } 17. Qf3 { [%eval -2.06] } 17...
+Bc4 $2 { [%eval -0.85] } 18. Bc3 { [%eval -1.02] } 18... Qa3 $2
+{ [%eval 0.35] } 19. Nxc4 { [%eval 0.23] } 19... dxc4 { [%eval 0.25] } 20. Nd4
+{ [%eval 0.0] } 20... Nd5 { [%eval 0.22] } 21. Rc2 $2 { [%eval -1.87] } 21...
+Bxc5 { [%eval -1.75] } 22. O-O $6 { [%eval -2.48] } 22... Nxc3 $2
+{ [%eval -1.44] } 23. Rxc3 { [%eval -1.53] } 23... Qxa2 { [%eval -1.58] } 24.
+Ne2 $6 { [%eval -2.27] } 24... O-O { [%eval -2.26] } 25. Rfc1 { [%eval -2.2] }
+25... Rfd8 { [%eval -2.12] } 26. h3 { [%eval -2.31] } 26... Rd2 $2
+{ [%eval -0.84] } 27. Ng3 $4 { [%eval -12.83] } 27... Rxf2 { [%eval -12.0] }
+28. Qb7 $6 { [%eval #-2] } 28... Rxg2+ { [%eval #-1] } 29. Kf1 { [%eval #-1] }
+29... Qf2# 0-1

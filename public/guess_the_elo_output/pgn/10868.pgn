@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/isHQ6S0y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "VladKChess"]
+[Black "AndreyAAAAA"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:42:49"]
+[WhiteElo "1668"]
+[BlackElo "1737"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C44"]
+[Opening "Ponziani Opening"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.25] } 2... Nc6
+{ [%eval 0.39] } 3. c3 { [%eval -0.08] } 3... d6 $6 { [%eval 0.57] } 4. d4
+{ [%eval 0.54] } 4... exd4 { [%eval 0.72] } 5. cxd4 { [%eval 0.7] } 5... Bg4
+{ [%eval 0.75] } 6. d5 { [%eval 0.6] } 6... Ne5 { [%eval 0.77] } 7. Qa4+ $6
+{ [%eval 0.25] } 7... Bd7 { [%eval 0.25] } 8. Qb3 { [%eval 0.0] } 8... Nxf3+
+{ [%eval 0.26] } 9. gxf3 { [%eval 0.35] } 9... b6 { [%eval 0.55] } 10. Nc3
+{ [%eval 0.45] } 10... Qf6 $2 { [%eval 2.43] } 11. Bb5 $2 { [%eval 0.44] }
+11... Qxf3 { [%eval 0.78] } 12. Bxd7+ { [%eval 0.48] } 12... Kxd7
+{ [%eval 0.88] } 13. Qb5+ $6 { [%eval 0.13] } 13... Kd8 { [%eval 0.03] } 14.
+Rf1 $6 { [%eval -0.7] } 14... Nf6 { [%eval -0.41] } 15. Qc6 $6
+{ [%eval -1.08] } 15... Rc8 { [%eval -0.9] } 16. Bg5 $6 { [%eval -1.75] } 16...
+Be7 { [%eval -1.65] } 17. Rc1 $2 { [%eval -3.03] } 17... Re8 { [%eval -2.73] }
+18. Ne2 $2 { [%eval -3.85] } 18... Nxe4 { [%eval -3.77] } 19. Bxe7+ $6
+{ [%eval -4.66] } 19... Rxe7 { [%eval -4.21] } 20. Rg1 $4 { [%eval #-5] } 20...
+Nc5 $2 { [%eval -7.52] } 21. Qb5 $2 { [%eval -19.08] } 21... Nd3+
+{ [%eval -18.18] } 22. Kd2 $6 { [%eval #-4] } 22... Qxe2+ $6 { [%eval -21.47] }
+23. Kc3 { [%eval -21.22] } 23... Nxc1 { [%eval -20.65] } 24. Kb4 $6
+{ [%eval #-3] } 24... Nxa2+ $6 { [%eval #-5] } 25. Ka4 { [%eval #-5] } 25...
+Re4+ { [%eval #-4] } 0-1

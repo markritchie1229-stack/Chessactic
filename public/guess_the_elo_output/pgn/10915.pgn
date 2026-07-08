@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6MoEowmg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mikas4"]
+[Black "Armenoid"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:45:09"]
+[WhiteElo "1566"]
+[BlackElo "1723"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-16"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.27] } 2...
+Nf6 { [%eval 0.41] } 3. Bc4 $6 { [%eval -0.13] } 3... Bd6 $6 { [%eval 0.43] }
+4. O-O { [%eval 0.41] } 4... h6 $6 { [%eval 0.92] } 5. d3 { [%eval 0.43] } 5...
+Nc6 { [%eval 0.63] } 6. c3 { [%eval 0.58] } 6... a6 { [%eval 0.65] } 7. h3
+{ [%eval 0.42] } 7... b5 { [%eval 0.59] } 8. Bb3 { [%eval 0.5] } 8... Na5 $6
+{ [%eval 1.06] } 9. Bc2 { [%eval 1.13] } 9... c5 { [%eval 1.39] } 10. a4
+{ [%eval 1.05] } 10... b4 $6 { [%eval 1.69] } 11. c4 $2 { [%eval -0.31] } 11...
+Bb7 { [%eval -0.16] } 12. b3 { [%eval -0.28] } 12... Bc7 { [%eval -0.25] } 13.
+Be3 { [%eval -0.23] } 13... d6 { [%eval -0.42] } 14. Nbd2 { [%eval -0.43] }
+14... O-O { [%eval -0.35] } 15. Re1 { [%eval -0.28] } 15... Qe7
+{ [%eval -0.23] } 16. Nf1 { [%eval -0.17] } 16... Rad8 { [%eval 0.0] } 17. Bc1
+{ [%eval -0.18] } 17... Rfe8 { [%eval 0.03] } 18. Bb2 { [%eval -0.17] } 18...
+Nd7 { [%eval -0.11] } 19. Ng3 { [%eval -0.21] } 19... Rb8 { [%eval -0.07] } 20.
+Nf5 { [%eval 0.0] } 20... Qe6 { [%eval 0.0] } 21. N3h4 { [%eval -0.09] } 21...
+Bd8 { [%eval -0.21] } 22. Qg4 { [%eval -0.43] } 22... Bxh4 $4 { [%eval #1] }
+23. Qxg7# 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/k69PGqkS"]
+[Site "https://lichess.org/wZ0BMr2h"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AlphaLeonis"]
+[Black "turkeychilli"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "05:12:39"]
+[WhiteElo "1941"]
+[BlackElo "1880"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+15"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... c5 { [%eval 0.47] } 2. Nf3 { [%eval -0.02] } 2...
+cxd4 { [%eval -0.03] } 3. c3 { [%eval -0.18] } 3... Nc6 { [%eval 0.15] } 4.
+cxd4 { [%eval 0.09] } 4... d5 { [%eval 0.05] } 5. Nc3 { [%eval 0.09] } 5... Nf6
+{ [%eval 0.22] } 6. g3 { [%eval 0.02] } 6... e6 { [%eval 0.12] } 7. Ne5
+{ [%eval -0.33] } 7... Ne4 $6 { [%eval 0.19] } 8. f3 $6 { [%eval -0.71] } 8...
+Nxc3 { [%eval -0.77] } 9. bxc3 { [%eval -0.91] } 9... Be7 $6 { [%eval -0.31] }
+10. Nxc6 { [%eval -0.29] } 10... bxc6 { [%eval -0.41] } 11. Bg2
+{ [%eval -0.54] } 11... O-O { [%eval -0.4] } 12. O-O { [%eval -0.41] } 12... f6
+{ [%eval 0.0] } 13. e4 { [%eval 0.0] } 13... e5 { [%eval 0.24] } 14. a4
+{ [%eval -0.12] } 14... dxe4 { [%eval -0.15] } 15. fxe4 { [%eval -0.15] } 15...
+Bd6 { [%eval -0.04] } 16. c4 $2 { [%eval -1.16] } 16... exd4 { [%eval -0.94] }
+17. Qxd4 { [%eval -0.85] } 17... Qe7 { [%eval -0.69] } 18. Bb2 $4
+{ [%eval -8.53] } 18... Bc5 { [%eval -8.07] } 19. Rad1 $6 { [%eval -8.79] }
+19... Bxd4+ { [%eval -8.68] } 20. Bxd4 { [%eval -8.53] } 20... Be6
+{ [%eval -8.3] } 21. c5 $2 { [%eval -9.44] } 21... Rad8 { [%eval -9.14] } 22.
+e5 $6 { [%eval -19.72] } 22... Rxd4 { [%eval -18.39] } 23. Rxd4
+{ [%eval -19.07] } 23... Qxc5 { [%eval -17.96] } 24. Rd1 { [%eval -58.06] }
+24... fxe5 { [%eval -26.72] } 0-1

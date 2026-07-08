@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DzJA1t2V"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mist112"]
+[Black "GodSaveMyKwin"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:20:41"]
+[WhiteElo "1507"]
+[BlackElo "1647"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "B51"]
+[Opening "Sicilian Defense: Canal-Sokolsky Attack"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.24] } 2... d6
+{ [%eval 0.31] } 3. Bb5+ { [%eval 0.25] } 3... Nd7 { [%eval 0.32] } 4. d3
+{ [%eval -0.02] } 4... a6 { [%eval 0.07] } 5. Bc4 { [%eval -0.08] } 5... b5
+{ [%eval -0.07] } 6. Bb3 { [%eval -0.14] } 6... Nb6 $6 { [%eval 0.42] } 7. a3
+{ [%eval 0.04] } 7... Nf6 { [%eval 0.01] } 8. Nc3 { [%eval 0.03] } 8... Bg4 $6
+{ [%eval 0.71] } 9. h3 { [%eval 0.47] } 9... Bh5 { [%eval 0.4] } 10. O-O
+{ [%eval 0.31] } 10... e6 { [%eval 0.39] } 11. Bg5 { [%eval 0.0] } 11... h6
+{ [%eval 0.31] } 12. Bh4 { [%eval 0.0] } 12... Be7 { [%eval 0.01] } 13. g4
+{ [%eval -0.07] } 13... Nxg4 $6 { [%eval 0.43] } 14. hxg4 { [%eval 0.32] }
+14... Bxh4 $2 { [%eval 1.67] } 15. Nxh4 { [%eval 1.43] } 15... Qxh4
+{ [%eval 1.81] } 16. Nxb5 $4 { [%eval -5.51] } 16... Bxg4 { [%eval -5.28] } 17.
+Nxd6+ { [%eval -5.41] } 17... Kd7 $2 { [%eval -4.29] } 18. Qxg4 $4
+{ [%eval -14.1] } 18... Qxg4+ { [%eval -13.96] } 19. Kh1 { [%eval -14.28] }
+19... Kxd6 { [%eval -13.99] } 20. Bxe6 { [%eval -18.64] } 20... fxe6
+{ [%eval -16.86] } 21. Rg1 $6 { [%eval #-1] } 21... Qh3# 0-1

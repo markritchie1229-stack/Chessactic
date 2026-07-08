@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sWArzSRX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zepoll"]
+[Black "nikow56"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:59:47"]
+[WhiteElo "1636"]
+[BlackElo "1834"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.01] } 1... d5 $6 { [%eval 0.61] } 2. cxd5 { [%eval 0.55] }
+2... c6 { [%eval 0.49] } 3. dxc6 { [%eval 0.54] } 3... Nxc6 { [%eval 0.49] } 4.
+Nc3 { [%eval 0.5] } 4... e5 { [%eval 0.49] } 5. e4 { [%eval 0.42] } 5... Nf6
+{ [%eval 0.53] } 6. Nf3 { [%eval 0.46] } 6... Bb4 { [%eval 0.64] } 7. Bb5
+{ [%eval 0.35] } 7... Bxc3 $6 { [%eval 0.99] } 8. Bxc6+ { [%eval 0.51] } 8...
+bxc6 { [%eval 0.68] } 9. bxc3 { [%eval 0.44] } 9... Nxe4 $6 { [%eval 1.09] }
+10. Nxe5 $2 { [%eval -0.09] } 10... Qf6 { [%eval -0.08] } 11. Nf3 $2
+{ [%eval -1.49] } 11... Bg4 $2 { [%eval 0.0] } 12. Ba3 { [%eval -0.04] } 12...
+Nxc3 { [%eval -0.06] } 13. dxc3 $6 { [%eval -1.0] } 13... Qxc3+
+{ [%eval -0.98] } 14. Kf1 { [%eval -1.0] } 14... Qxa3 { [%eval -0.95] } 15.
+Qe1+ { [%eval -1.33] } 15... Be6 { [%eval -1.16] } 16. Ne5 $6 { [%eval -2.05] }
+16... O-O { [%eval -2.12] } 17. g3 $4 { [%eval -7.4] } 17... Bd5
+{ [%eval -7.18] } 18. Rg1 $2 { [%eval -8.6] } 18... Rfe8 $2 { [%eval -6.36] }
+19. f4 $2 { [%eval -9.27] } 19... f6 { [%eval -8.9] } 20. Qc1 $2
+{ [%eval -10.48] } 20... Qxc1+ $4 { [%eval -6.48] } 21. Rxc1 { [%eval -6.46] }
+21... fxe5 { [%eval -6.19] } 22. fxe5 $2 { [%eval -9.18] } 22... Rxe5
+{ [%eval -8.76] } 23. Kf2 $2 { [%eval #-1] } 23... Rf8# 0-1

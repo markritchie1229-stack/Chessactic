@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/om23jn3w"]
+[Date "????.??.??"]
+[Round "?"]
+[White "apop22"]
+[Black "Dillerfax"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:32:22"]
+[WhiteElo "1158"]
+[BlackElo "943"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+18"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval -0.01] } 2...
+Nc6 $6 { [%eval 0.53] } 3. Nf3 $6 { [%eval 0.03] } 3... Bf5 { [%eval 0.14] } 4.
+e3 { [%eval 0.05] } 4... e6 { [%eval 0.08] } 5. Bb5 { [%eval -0.07] } 5... Qd7
+$2 { [%eval 1.77] } 6. Ne5 { [%eval 1.62] } 6... Qd6 { [%eval 1.96] } 7. O-O $2
+{ [%eval 0.92] } 7... a6 { [%eval 1.16] } 8. Bxc6+ { [%eval 0.97] } 8... bxc6
+{ [%eval 0.97] } 9. Qh5 { [%eval 0.8] } 9... Bg6 { [%eval 1.07] } 10. Qg5 $4
+{ [%eval -2.56] } 10... Ne7 $2 { [%eval 0.16] } 11. a3 $4 { [%eval -3.0] }
+11... f6 { [%eval -2.87] } 12. Nxg6 $2 { [%eval -4.15] } 12... fxg5
+{ [%eval -3.83] } 13. Nxh8 { [%eval -3.86] } 13... Ng6 $2 { [%eval -1.02] } 14.
+e4 $4 { [%eval -4.32] } 14... Nxh8 { [%eval -4.18] } 15. exd5 $2
+{ [%eval -5.57] } 15... cxd5 { [%eval -5.48] } 16. Bxg5 { [%eval -5.48] } 16...
+Be7 $2 { [%eval -4.48] } 17. Bf4 $4 { [%eval -9.13] } 17... Qxf4
+{ [%eval -8.83] } 18. g3 $2 { [%eval -10.38] } 18... Qxd4 { [%eval -10.29] }
+19. Rad1 { [%eval -10.52] } 19... Qc5 { [%eval -9.96] } 20. Rfe1
+{ [%eval -9.8] } 20... Qd6 { [%eval -9.73] } 21. b4 { [%eval -10.27] } 21...
+Bf6 $2 { [%eval -8.98] } 22. Na4 $2 { [%eval -10.2] } 22... O-O-O
+{ [%eval -10.09] } 23. Rb1 { [%eval -10.95] } 23... Bc3 $2 { [%eval -7.14] }
+24. Red1 $2 { [%eval -10.56] } 24... Bf6 { [%eval -10.35] } 25. b5
+{ [%eval -14.83] } 25... axb5 { [%eval -12.76] } 26. Rxb5 { [%eval -13.83] }
+26... Kd7 $6 { [%eval -9.38] } 27. c4 $6 { [%eval -12.3] } 27... Qxa3
+{ [%eval -11.94] } 28. Rbxd5+ { [%eval -19.95] } 28... exd5 { [%eval -18.87] }
+29. Rxd5+ { [%eval -64.3] } 29... Ke8 { [%eval -26.28] } 30. Rxd8+ $6
+{ [%eval #-13] } 30... Kxd8 { [%eval -60.36] } 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HM27K88X"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lesaa1034"]
+[Black "Eldiegochess"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:27:50"]
+[WhiteElo "1579"]
+[BlackElo "1678"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "A80"]
+[Opening "Dutch Defense"]
+[TimeControl "300+6"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... f5 { [%eval 0.55] } 2. e3 { [%eval 0.35] } 2... Nf6
+{ [%eval 0.38] } 3. c4 { [%eval 0.34] } 3... e6 { [%eval 0.43] } 4. Be2
+{ [%eval 0.37] } 4... Nc6 { [%eval 0.58] } 5. Nf3 { [%eval 0.43] } 5... b6
+{ [%eval 0.59] } 6. Nc3 { [%eval 0.39] } 6... Bb7 { [%eval 0.58] } 7. b3
+{ [%eval 0.15] } 7... Bb4 { [%eval 0.31] } 8. Bd2 { [%eval 0.06] } 8... Qe7 $6
+{ [%eval 0.56] } 9. O-O { [%eval 0.32] } 9... g5 $2 { [%eval 1.83] } 10. h3 $2
+{ [%eval -0.38] } 10... g4 { [%eval -0.04] } 11. hxg4 { [%eval -0.02] } 11...
+fxg4 { [%eval -0.07] } 12. Ne5 $2 { [%eval -1.45] } 12... h5 $2
+{ [%eval 0.63] } 13. Ng6 { [%eval 0.56] } 13... Qg7 { [%eval 0.67] } 14. Nxh8
+{ [%eval 0.93] } 14... Qxh8 $2 { [%eval 2.16] } 15. f3 $2 { [%eval 0.69] }
+15... g3 $6 { [%eval 1.39] } 16. Ne4 { [%eval 1.16] } 16... h4 { [%eval 1.63] }
+17. Nxf6+ { [%eval 1.54] } 17... Qxf6 { [%eval 1.51] } 18. Bxb4
+{ [%eval 1.45] } 18... Nxb4 { [%eval 1.42] } 19. Qd2 { [%eval 1.4] } 19... Nc6
+{ [%eval 1.59] } 20. Qd3 $2 { [%eval 0.0] } 20... O-O-O $6 { [%eval 0.82] } 21.
+d5 $6 { [%eval 0.07] } 21... Ne5 { [%eval 0.46] } 22. Qd4 { [%eval 0.54] }
+22... Qh8 $2 { [%eval 2.24] } 23. f4 { [%eval 1.91] } 23... h3 $2
+{ [%eval 2.97] } 24. Qxe5 { [%eval 2.67] } 24... hxg2 { [%eval 3.06] } 25. Kxg2
+{ [%eval 3.0] } 25... Qh2+ { [%eval 3.46] } 26. Kf3 { [%eval 3.4] } 26... Rf8
+$6 { [%eval 4.21] } 27. Ke4 $4 { [%eval -2.27] } 27... Qxe2 { [%eval -1.97] }
+28. Qg7 $4 { [%eval #-5] } 28... exd5+ { [%eval #-4] } 29. Ke5 { [%eval #-1] }
+29... Qxe3# 0-1

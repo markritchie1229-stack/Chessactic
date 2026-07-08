@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CmlXh1AG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Boo112"]
+[Black "graf81"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:14:09"]
+[WhiteElo "1560"]
+[BlackElo "1605"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.27] } 2... d6
+{ [%eval 0.38] } 3. Bc4 { [%eval 0.2] } 3... Nc6 { [%eval 0.44] } 4. d4
+{ [%eval 0.32] } 4... Bg4 { [%eval 0.73] } 5. d5 { [%eval 0.25] } 5... Nd4
+{ [%eval 0.3] } 6. Be2 { [%eval 0.06] } 6... Nxe2 { [%eval 0.13] } 7. Qxe2
+{ [%eval 0.06] } 7... Nf6 { [%eval 0.29] } 8. Nc3 { [%eval 0.0] } 8... h6
+{ [%eval 0.45] } 9. h3 { [%eval 0.02] } 9... Bh5 $6 { [%eval 0.69] } 10. Bd2 $6
+{ [%eval -0.06] } 10... c6 { [%eval 0.41] } 11. O-O $6 { [%eval -0.2] } 11...
+cxd5 { [%eval -0.18] } 12. Nxd5 { [%eval -0.24] } 12... Be7 $2 { [%eval 0.83] }
+13. Nxf6+ $6 { [%eval 0.21] } 13... Bxf6 { [%eval 0.27] } 14. Bc3
+{ [%eval -0.18] } 14... O-O { [%eval -0.07] } 15. Qd2 $6 { [%eval -0.76] }
+15... Bxf3 { [%eval -0.81] } 16. gxf3 { [%eval -0.83] } 16... Qe7
+{ [%eval -0.71] } 17. Rad1 { [%eval -0.63] } 17... Rad8 { [%eval -0.45] } 18.
+Qe3 { [%eval -0.71] } 18... a6 { [%eval -0.62] } 19. Kh2 { [%eval -1.04] }
+19... Bg5 { [%eval -1.02] } 20. Qe2 { [%eval -1.24] } 20... Bf4+
+{ [%eval -1.08] } 21. Kh1 { [%eval -1.14] } 21... Qh4 { [%eval -0.95] } 0-1

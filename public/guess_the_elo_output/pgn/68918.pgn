@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/T7zSOhKn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sarog"]
+[Black "F0854"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:20:56"]
+[WhiteElo "1397"]
+[BlackElo "1375"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation"]
+[TimeControl "360+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.43] } 2. Nc3 { [%eval 0.07] } 2... Nf6
+{ [%eval 0.1] } 3. Nf3 { [%eval 0.11] } 3... Nc6 { [%eval 0.14] } 4. d4
+{ [%eval -0.09] } 4... d6 { [%eval 0.37] } 5. dxe5 { [%eval 0.49] } 5... dxe5
+{ [%eval 0.61] } 6. Nd5 $2 { [%eval -1.43] } 6... Nxd5 $2 { [%eval 0.43] } 7.
+exd5 { [%eval 0.32] } 7... Bb4+ $2 { [%eval 2.62] } 8. c3 { [%eval 2.7] } 8...
+Ba5 $2 { [%eval 3.79] } 9. Bg5 $2 { [%eval 2.62] } 9... f6 { [%eval 2.84] } 10.
+Be3 $2 { [%eval 0.64] } 10... Bg4 $2 { [%eval 3.18] } 11. Be2 $6
+{ [%eval 2.57] } 11... Nd4 { [%eval 2.0] } 12. b4 $2 { [%eval -0.09] } 12...
+Bb6 $4 { [%eval 3.5] } 13. cxd4 { [%eval 3.57] } 13... Bxf3 { [%eval 3.55] }
+14. Bb5+ $2 { [%eval 0.96] } 14... c6 { [%eval 1.34] } 15. Bxc6+ $2
+{ [%eval -0.31] } 15... bxc6 { [%eval -0.31] } 16. Qxf3 { [%eval -0.1] } 16...
+Qxd5 { [%eval 0.0] } 17. Qg3 $2 { [%eval -1.68] } 17... Kf7 $2
+{ [%eval -0.08] } 18. O-O $2 { [%eval -1.09] } 18... Bxd4 $2 { [%eval 0.0] }
+19. Bxd4 { [%eval 0.0] } 19... Qxd4 $4 { [%eval 5.62] } 20. Rad1
+{ [%eval 5.47] } 20... Qf4 $2 { [%eval 7.72] } 21. Qd3 $4 { [%eval -0.07] }
+21... Rhd8 { [%eval 0.1] } 22. Qb3+ { [%eval -0.05] } 22... Ke7
+{ [%eval 0.12] } 23. Rxd8 { [%eval 0.0] } 23... Rxd8 { [%eval 0.0] } 24. g3 $6
+{ [%eval -0.58] } 24... Qd2 $6 { [%eval -0.03] } 25. Qa4 $6 { [%eval -0.59] }
+25... Ra8 $2 { [%eval 1.08] } 26. Qxc6 { [%eval 1.1] } 26... Qxb4 $4
+{ [%eval 8.45] } 27. Qxa8 { [%eval 7.99] } 1-0

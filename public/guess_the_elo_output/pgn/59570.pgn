@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/YmtqnQqD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FrederikTrump"]
+[Black "v_izmaylov"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:58:57"]
+[WhiteElo "1082"]
+[BlackElo "1712"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+8"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... c6 { [%eval 0.53] } 2. Nf3 { [%eval 0.48] } 2... d6
+{ [%eval 0.71] } 3. d4 { [%eval 0.68] } 3... Nf6 { [%eval 0.7] } 4. h4 $2
+{ [%eval -0.72] } 4... Nxe4 { [%eval -0.56] } 5. Ng5 { [%eval -1.02] } 5...
+Nxg5 $6 { [%eval -0.5] } 6. hxg5 { [%eval -0.51] } 6... f6 $6 { [%eval 0.41] }
+7. gxf6 { [%eval 0.29] } 7... exf6 { [%eval 0.31] } 8. Qe2+ $6
+{ [%eval -0.35] } 8... Qe7 { [%eval -0.15] } 9. Qxe7+ { [%eval -0.62] } 9...
+Bxe7 { [%eval -0.57] } 10. c3 { [%eval -0.89] } 10... Bf5 { [%eval -0.81] } 11.
+Nd2 { [%eval -0.93] } 11... Nd7 { [%eval -0.93] } 12. Nf3 { [%eval -1.19] }
+12... O-O-O { [%eval -0.82] } 13. Bf4 $6 { [%eval -1.43] } 13... Rde8 $6
+{ [%eval -0.81] } 14. O-O-O { [%eval -1.24] } 14... g5 { [%eval -1.39] } 15.
+Bg3 { [%eval -1.6] } 15... Bg4 $6 { [%eval -0.85] } 16. Nd2 $2 { [%eval -2.3] }
+16... Bxd1 { [%eval -2.35] } 17. Kxd1 { [%eval -2.77] } 17... Kc7 $2
+{ [%eval -1.63] } 18. Ne4 $2 { [%eval -3.38] } 18... h5 { [%eval -3.14] } 19.
+f4 { [%eval -3.25] } 19... h4 { [%eval -3.22] } 20. Bf2 $6 { [%eval -3.89] }
+20... gxf4 $6 { [%eval -3.34] } 21. g3 $4 { [%eval -7.5] } 21... fxg3
+{ [%eval -7.41] } 22. Bxg3 { [%eval -7.42] } 22... hxg3 $2 { [%eval -6.34] }
+23. Rxh8 { [%eval -6.29] } 23... Rxh8 { [%eval -6.08] } 24. Be2 $4
+{ [%eval -29.19] } 24... g2 { [%eval -26.46] } 25. b4 $6 { [%eval #-9] } 25...
+g1=Q+ { [%eval #-8] } 26. Kd2 { [%eval #-8] } 26... Rh2 { [%eval #-7] } 27. Nf2
+{ [%eval #-3] } 27... Qxf2 { [%eval #-2] } 0-1

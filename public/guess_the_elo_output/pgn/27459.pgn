@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BXjWkcha"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Pap3rClip"]
+[Black "bibbychess"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:58:42"]
+[WhiteElo "1234"]
+[BlackElo "1204"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-10"]
+[ECO "C26"]
+[Opening "Bishop's Opening: Vienna Hybrid, Spielmann Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.43] } 2. Bc4 { [%eval 0.02] } 2...
+Nf6 { [%eval 0.04] } 3. d3 { [%eval 0.08] } 3... Bc5 { [%eval 0.11] } 4. Nc3
+{ [%eval -0.11] } 4... O-O { [%eval -0.02] } 5. Bg5 { [%eval -0.28] } 5... h6
+{ [%eval -0.27] } 6. Bh4 { [%eval -0.1] } 6... g5 $6 { [%eval 0.85] } 7. Bg3
+{ [%eval 0.54] } 7... Ng4 $2 { [%eval 3.09] } 8. Qxg4 { [%eval 3.35] } 8... d6
+$2 { [%eval 5.27] } 9. Nd5 $4 { [%eval -7.43] } 9... Bxg4 { [%eval -7.41] } 10.
+f3 { [%eval -7.55] } 10... Be6 { [%eval -7.36] } 11. Ne2 { [%eval -7.81] }
+11... Bxd5 { [%eval -7.49] } 12. Bxd5 { [%eval -7.41] } 12... c6
+{ [%eval -7.12] } 13. Bc4 { [%eval -7.43] } 13... d5 { [%eval -7.0] } 14. Bb3
+{ [%eval -7.06] } 14... d4 $2 { [%eval -5.81] } 15. O-O-O $6 { [%eval -6.46] }
+15... Nd7 { [%eval -6.63] } 16. h4 { [%eval -6.12] } 16... a6 { [%eval -5.67] }
+17. hxg5 { [%eval -5.68] } 17... Qxg5+ { [%eval -5.83] } 18. f4
+{ [%eval -6.15] } 18... exf4 { [%eval -5.76] } 19. Bxf4 { [%eval -5.84] } 19...
+Qxg2 $4 { [%eval 0.64] } 20. Rxh6 $2 { [%eval -0.54] } 20... Qxe2 $4
+{ [%eval #2] } 21. Rg1+ { [%eval #1] } 21... Qg4 { [%eval #1] } 22. Rxg4# 1-0

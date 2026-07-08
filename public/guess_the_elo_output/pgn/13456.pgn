@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/rjwaWS9l"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mortjac"]
+[Black "giampimn1"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:47:05"]
+[WhiteElo "845"]
+[BlackElo "1032"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.23] } 2... d6
+{ [%eval 0.31] } 3. Nc3 { [%eval 0.28] } 3... Bg4 { [%eval 0.62] } 4. h3
+{ [%eval 0.39] } 4... Bxf3 { [%eval 0.3] } 5. Qxf3 { [%eval 0.28] } 5... c6
+{ [%eval 0.5] } 6. d4 $6 { [%eval -0.2] } 6... exd4 { [%eval 0.04] } 7. Nd1 $6
+{ [%eval -0.6] } 7... Nf6 { [%eval -0.4] } 8. c3 { [%eval -0.45] } 8... c5
+{ [%eval -0.5] } 9. cxd4 { [%eval -0.55] } 9... cxd4 { [%eval -0.58] } 10. Qd3
+$6 { [%eval -1.24] } 10... Nc6 { [%eval -1.27] } 11. b3 $2 { [%eval -3.33] }
+11... Nb4 $4 { [%eval 0.91] } 12. Qb5+ { [%eval 1.03] } 12... Nc6
+{ [%eval 0.91] } 13. Qxb7 { [%eval 0.88] } 13... Na5 $4 { [%eval 5.06] } 14.
+Qb5+ $2 { [%eval 3.71] } 14... Nd7 { [%eval 3.61] } 15. Bd2 { [%eval 3.53] }
+15... Rb8 $6 { [%eval 4.1] } 16. Qd5 $2 { [%eval 1.47] } 16... Nf6 $2
+{ [%eval 3.66] } 17. Bb5+ $2 { [%eval 2.05] } 17... Ke7 { [%eval 2.05] } 18. b4
+$4 { [%eval -9.47] } 18... Nxd5 { [%eval -9.33] } 19. Bd3 $6 { [%eval -11.09] }
+19... Nc6 $2 { [%eval -7.33] } 20. b5 $2 { [%eval -10.95] } 20... Ne5
+{ [%eval -10.47] } 21. f4 { [%eval -19.0] } 21... Nxd3+ { [%eval -18.69] } 22.
+Ke2 { [%eval -18.88] } 22... N3xf4+ { [%eval -16.45] } 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/GLGTMgW8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "frost3d"]
+[Black "JayScrilla"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:34:19"]
+[WhiteElo "1415"]
+[BlackElo "1502"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+12"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Huebsch Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.2] } 2. Nc3 { [%eval -0.05] } 2...
+Nf6 { [%eval -0.05] } 3. e4 $6 { [%eval -0.56] } 3... Nxe4 { [%eval -0.34] } 4.
+Nxe4 { [%eval -0.48] } 4... dxe4 { [%eval -0.58] } 5. Qe2 $6 { [%eval -1.42] }
+5... Qxd4 { [%eval -1.23] } 6. c3 { [%eval -1.53] } 6... Qd5 { [%eval -1.47] }
+7. Bf4 { [%eval -1.63] } 7... e5 { [%eval -1.6] } 8. c4 $2 { [%eval -2.92] }
+8... Qd4 { [%eval -2.82] } 9. Rd1 { [%eval -2.95] } 9... Qc5 $2
+{ [%eval -1.5] } 10. Rd5 { [%eval -1.95] } 10... Qb6 { [%eval -1.82] } 11.
+Rxe5+ { [%eval -1.93] } 11... Be6 { [%eval -1.84] } 12. Rb5 { [%eval -1.86] }
+12... Qc6 { [%eval -1.87] } 13. a4 $2 { [%eval -4.18] } 13... Be7 $6
+{ [%eval -3.19] } 14. Qe3 $6 { [%eval -3.83] } 14... Bxc4 $2 { [%eval -1.69] }
+15. Bxc4 $6 { [%eval -2.19] } 15... Qxc4 { [%eval -2.07] } 16. Ne2
+{ [%eval -2.39] } 16... Qxa4 $2 { [%eval -1.25] } 17. Rb3 $2 { [%eval -4.12] }
+17... Na6 $2 { [%eval -2.55] } 18. O-O { [%eval -2.6] } 18... Bc5
+{ [%eval -2.23] } 19. Qg3 $6 { [%eval -2.92] } 19... Rd8 $2 { [%eval 0.0] } 20.
+Qxg7 { [%eval 0.0] } 20... Rf8 $2 { [%eval 2.5] } 21. Rc3 $2 { [%eval -0.41] }
+21... Bd4 $2 { [%eval 1.09] } 22. Nxd4 { [%eval 1.25] } 22... Rxd4 $4
+{ [%eval 7.62] } 23. Rfc1 $4 { [%eval #-2] } 23... Rd1+ { [%eval #-1] } 24.
+Rxd1 { [%eval #-1] } 24... Qxd1# 0-1

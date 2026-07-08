@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/DsAAW5Ri"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Oskarx"]
+[Black "kano77"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:12:48"]
+[WhiteElo "1656"]
+[BlackElo "1657"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.17] } 1... Nc6 { [%eval 0.23] } 2. d4 { [%eval 0.27] } 2... e5
+{ [%eval 0.63] } 3. d5 { [%eval 0.63] } 3... Nce7 { [%eval 0.64] } 4. c4
+{ [%eval 0.18] } 4... Ng6 { [%eval 0.31] } 5. g3 { [%eval 0.21] } 5... Bb4+
+{ [%eval 0.24] } 6. Bd2 { [%eval 0.2] } 6... Bxd2+ { [%eval 0.27] } 7. Qxd2
+{ [%eval 0.26] } 7... d6 { [%eval 0.28] } 8. Nc3 { [%eval 0.25] } 8... Nh6
+{ [%eval 0.61] } 9. b4 { [%eval 0.2] } 9... b6 { [%eval 0.39] } 10. a4 $6
+{ [%eval -0.15] } 10... a5 { [%eval -0.14] } 11. b5 { [%eval -0.14] } 11... O-O
+{ [%eval 0.2] } 12. O-O-O { [%eval 0.09] } 12... f5 { [%eval 0.08] } 13. h4
+{ [%eval 0.09] } 13... fxe4 { [%eval 0.14] } 14. Nxe4 { [%eval 0.09] } 14...
+Bf5 { [%eval 0.17] } 15. Ng5 $2 { [%eval -1.12] } 15... Ng4 $2 { [%eval 0.95] }
+16. f3 { [%eval 0.9] } 16... Nf6 { [%eval 1.29] } 17. g4 $2 { [%eval -0.02] }
+17... Bxg4 $2 { [%eval 2.94] } 18. fxg4 { [%eval 2.8] } 18... Nxg4
+{ [%eval 2.91] } 19. Ne6 $6 { [%eval 2.39] } 19... Qf6 { [%eval 2.31] } 20.
+Nxf8 $6 { [%eval 1.65] } 20... Rxf8 { [%eval 1.75] } 21. Nh3 { [%eval 1.97] }
+21... e4 { [%eval 2.05] } 22. Qd4 $2 { [%eval 0.0] } 22... Qf3 { [%eval 0.0] }
+23. Rg1 { [%eval 0.0] } 23... Ne3 { [%eval 0.0] } 24. Re1 { [%eval 0.0] } 24...
+Nxf1 { [%eval 0.0] } 25. Rgxf1 { [%eval -0.42] } 25... Qxh3 { [%eval 0.0] } 26.
+Rxf8+ { [%eval 0.0] } 26... Kxf8 { [%eval 0.0] } 27. Qxe4 { [%eval 0.0] } 27...
+Qa3+ { [%eval 0.0] } 28. Kd2 { [%eval 0.0] } 28... Qb2+ { [%eval 0.0] } 29. Qc2
+{ [%eval 0.0] } 29... Qd4+ { [%eval 0.0] } 30. Ke2 $6 { [%eval -0.55] } 30...
+Nf4+ $6 { [%eval 0.0] } 0-1

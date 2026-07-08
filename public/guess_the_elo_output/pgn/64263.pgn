@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BoGyUEQd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kalius"]
+[Black "jussi"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:11:31"]
+[WhiteElo "1707"]
+[BlackElo "1700"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "A10"]
+[Opening "English Opening"]
+[TimeControl "240+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... d6 { [%eval 0.44] } 2. d3 { [%eval -0.02] } 2... e5
+{ [%eval 0.12] } 3. e4 { [%eval 0.03] } 3... Nc6 { [%eval 0.04] } 4. Nc3
+{ [%eval -0.08] } 4... Be7 { [%eval 0.09] } 5. a3 { [%eval 0.05] } 5... Nf6
+{ [%eval 0.04] } 6. b4 { [%eval -0.06] } 6... Ng4 $6 { [%eval 0.44] } 7. b5 $6
+{ [%eval -0.17] } 7... Nb8 $6 { [%eval 0.47] } 8. h3 { [%eval 0.29] } 8... Nf6
+{ [%eval 0.32] } 9. Nd5 $6 { [%eval -0.64] } 9... Nbd7 $6 { [%eval 0.2] } 10.
+Nxe7 { [%eval 0.13] } 10... Qxe7 { [%eval 0.18] } 11. Be2 { [%eval -0.26] }
+11... Nc5 { [%eval 0.11] } 12. Nf3 { [%eval -0.12] } 12... Be6 { [%eval 0.1] }
+13. Be3 { [%eval 0.11] } 13... Ncd7 $6 { [%eval 0.79] } 14. a4 { [%eval 0.67] }
+14... b6 { [%eval 0.99] } 15. a5 { [%eval 0.94] } 15... O-O { [%eval 0.91] }
+16. a6 { [%eval 0.47] } 16... Ne8 { [%eval 0.95] } 17. O-O { [%eval 0.84] }
+17... f5 { [%eval 0.86] } 18. exf5 { [%eval 0.87] } 18... Bxf5 { [%eval 0.88] }
+19. Nh2 { [%eval 0.54] } 19... Ndf6 $6 { [%eval 1.19] } 20. Bf3
+{ [%eval 0.75] } 20... e4 $6 { [%eval 1.25] } 21. dxe4 { [%eval 1.38] } 21...
+Bxe4 { [%eval 1.53] } 22. Bxe4 { [%eval 1.08] } 22... Nxe4 $4 { [%eval 7.27] }
+23. Qd5+ { [%eval 7.03] } 23... Kh8 $2 { [%eval 9.86] } 24. Qxa8
+{ [%eval 9.43] } 24... N8f6 $6 { [%eval 10.83] } 25. Qxa7 { [%eval 10.7] }
+25... Qe5 { [%eval 14.45] } 26. Qxc7 { [%eval 13.85] } 26... Nc3
+{ [%eval 16.04] } 27. a7 { [%eval 15.07] } 27... Ne2+ { [%eval 16.96] } 28. Kh1
+{ [%eval 16.41] } 28... Nh5 { [%eval 15.97] } 29. a8=Q $4 { [%eval #-4] } 29...
+Rxa8 $4 { [%eval #2] } 30. Rxa8+ { [%eval #1] } 1-0

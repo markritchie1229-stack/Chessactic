@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/YwXMCMbO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zeco_chan"]
+[Black "faris_009"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:09:42"]
+[WhiteElo "1244"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-43"]
+[BlackRatingDiff "+89"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "600+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... d5 { [%eval 0.25] } 2. Nc3 { [%eval -0.03] } 2...
+Nc6 { [%eval 0.41] } 3. Nf3 { [%eval 0.08] } 3... Bf5 { [%eval 0.09] } 4. e3
+{ [%eval 0.01] } 4... Nf6 { [%eval 0.4] } 5. Nh4 $6 { [%eval -0.27] } 5... Bg4
+{ [%eval -0.24] } 6. f3 { [%eval -0.27] } 6... Bh5 $6 { [%eval 0.25] } 7. g4
+{ [%eval 0.29] } 7... Bg6 { [%eval 0.3] } 8. Nxg6 { [%eval 0.2] } 8... hxg6
+{ [%eval 0.41] } 9. Bb5 { [%eval -0.04] } 9... e6 { [%eval 0.0] } 10. Bxc6+
+{ [%eval -0.29] } 10... bxc6 { [%eval -0.2] } 11. Bd2 { [%eval -0.21] } 11...
+Nd7 { [%eval -0.24] } 12. Qe2 { [%eval -0.35] } 12... Qh4+ { [%eval -0.3] } 13.
+Kd1 { [%eval -0.6] } 13... c5 $6 { [%eval 0.01] } 14. dxc5 $6 { [%eval -0.83] }
+14... Bxc5 { [%eval -0.81] } 15. Be1 { [%eval -0.95] } 15... Qg5
+{ [%eval -0.72] } 16. h4 $6 { [%eval -1.25] } 16... Qxe3 { [%eval -1.25] } 17.
+Qh2 $4 { [%eval -4.25] } 17... Qxf3+ { [%eval -4.07] } 18. Kc1
+{ [%eval -4.28] } 18... Bd6 { [%eval -3.79] } 19. Qg1 $6 { [%eval -4.7] } 19...
+Bf4+ { [%eval -4.31] } 20. Kb1 $6 { [%eval -4.81] } 20... Rb8 { [%eval -4.46] }
+21. a4 $2 { [%eval -6.05] } 21... O-O $2 { [%eval -3.9] } 22. h5 $2
+{ [%eval -6.14] } 22... Rxb2+ $4 { [%eval 0.0] } 23. Kxb2 { [%eval 0.0] } 23...
+Rb8+ { [%eval 0.42] } 24. Ka2 { [%eval 0.33] } 24... Be5 $6 { [%eval 0.88] }
+25. Rc1 $4 { [%eval -11.56] } 25... Bxc3 { [%eval -11.25] } 26. Bxc3
+{ [%eval -11.21] } 26... Qxc3 { [%eval -10.88] } 27. hxg6 $6 { [%eval #-1] }
+27... Qb2# 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jQqQbyEu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PamPamPam"]
+[Black "Akhmedov10"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:13:39"]
+[WhiteElo "1409"]
+[BlackElo "1449"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[ECO "A41"]
+[Opening "Queen's Pawn"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d6 { [%eval 0.49] } 2. f4 $6 { [%eval -0.07] } 2...
+Bf5 { [%eval -0.08] } 3. e3 { [%eval -0.08] } 3... Be4 $6 { [%eval 0.83] } 4.
+Nd2 { [%eval 0.49] } 4... d5 $6 { [%eval 1.17] } 5. Nxe4 { [%eval 1.08] } 5...
+dxe4 { [%eval 1.05] } 6. c3 { [%eval 1.04] } 6... e6 { [%eval 1.28] } 7. g4 $2
+{ [%eval 0.04] } 7... h6 $6 { [%eval 0.88] } 8. Bd2 $2 { [%eval -1.27] } 8...
+g5 $2 { [%eval 0.93] } 9. Nh3 { [%eval 0.71] } 9... gxf4 { [%eval 0.9] } 10.
+Nxf4 $2 { [%eval -1.12] } 10... Qh4+ { [%eval -0.98] } 11. Ke2
+{ [%eval -1.05] } 11... Qxg4+ { [%eval -0.99] } 12. Ke1 { [%eval -1.07] } 12...
+h5 $2 { [%eval 0.53] } 13. Bh3 $2 { [%eval -0.77] } 13... Qh4+
+{ [%eval -0.77] } 14. Kf1 { [%eval -1.14] } 14... Rh6 $2 { [%eval 0.46] } 15.
+Be1 { [%eval 0.56] } 15... Qf6 { [%eval 0.95] } 16. Ke2 $2 { [%eval -0.2] }
+16... e5 $2 { [%eval 0.95] } 17. dxe5 { [%eval 0.58] } 17... Qxe5
+{ [%eval 1.05] } 18. Bg3 $2 { [%eval -0.46] } 18... Qb5+ { [%eval -0.34] } 19.
+Kf2 $2 { [%eval -2.62] } 19... f5 $4 { [%eval 0.68] } 20. Rg1 $6
+{ [%eval -0.16] } 20... Nc6 $2 { [%eval 2.27] } 21. Ke1 $4 { [%eval -1.52] }
+21... Bd6 $2 { [%eval 0.57] } 22. Bh4 $2 { [%eval -0.73] } 22... Nge7
+{ [%eval -0.65] } 23. b4 $2 { [%eval -1.79] } 23... O-O-O { [%eval -1.69] } 24.
+Qb3 $4 { [%eval -8.58] } 24... Bxf4 { [%eval -8.16] } 25. exf4 $2
+{ [%eval -9.26] } 25... Qb6 $4 { [%eval -2.14] } 26. Rf1 $4 { [%eval #-1] }
+26... Qe3# 0-1

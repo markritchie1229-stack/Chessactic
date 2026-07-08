@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/CaBYLn4n"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mikotar"]
+[Black "Bahabaha"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:08:02"]
+[WhiteElo "1197"]
+[BlackElo "1307"]
+[WhiteRatingDiff "-29"]
+[BlackRatingDiff "+8"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.15] } 2. c3 { [%eval -0.05] } 2... c6
+{ [%eval 0.05] } 3. f3 { [%eval -0.33] } 3... Bf5 { [%eval -0.01] } 4. e4 $6
+{ [%eval -0.53] } 4... dxe4 { [%eval -0.4] } 5. fxe4 { [%eval -0.58] } 5...
+Bxe4 { [%eval -0.62] } 6. Nd2 { [%eval -0.62] } 6... Bd5 { [%eval -0.2] } 7.
+Bd3 $2 { [%eval -2.97] } 7... e6 $4 { [%eval 0.09] } 8. Ngf3 $6
+{ [%eval -0.64] } 8... Bxf3 $2 { [%eval 0.43] } 9. gxf3 $6 { [%eval -0.56] }
+9... Qf6 $6 { [%eval 0.09] } 10. Ne4 { [%eval 0.02] } 10... Qh4+
+{ [%eval 0.28] } 11. Kd2 { [%eval 0.03] } 11... c5 $2 { [%eval 1.23] } 12. dxc5
+$6 { [%eval 0.68] } 12... Qh6+ $6 { [%eval 1.41] } 13. Kc2 { [%eval 1.38] }
+13... Qg6 $4 { [%eval 8.91] } 14. Rg1 $4 { [%eval 1.8] } 14... Qf6 $4
+{ [%eval 10.0] } 15. Nxf6+ { [%eval 9.9] } 15... Nxf6 { [%eval 9.75] } 16. Qe2
+{ [%eval 9.58] } 16... Be7 { [%eval 10.19] } 17. Bf4 $6 { [%eval 9.2] } 17...
+Bxc5 $6 { [%eval 11.68] } 18. h4 $2 { [%eval 8.58] } 18... Bxg1
+{ [%eval 8.59] } 19. Rxg1 { [%eval 8.1] } 19... Nd5 $2 { [%eval 9.41] } 20.
+Bb5+ $6 { [%eval 8.66] } 20... Nc6 { [%eval 8.64] } 21. Rd1 $2 { [%eval 6.16] }
+21... Nxf4 { [%eval 6.14] } 22. Rd4 $4 { [%eval -11.0] } 22... Nxe2
+{ [%eval -10.69] } 0-1

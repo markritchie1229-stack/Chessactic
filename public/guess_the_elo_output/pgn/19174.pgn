@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xtRxFL7P"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gi69"]
+[Black "fastforward"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:45:00"]
+[WhiteElo "1875"]
+[BlackElo "2016"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "A80"]
+[Opening "Dutch Defense"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... f5 { [%eval 0.52] } 2. Nf3 { [%eval 0.45] } 2... Nf6
+{ [%eval 0.54] } 3. e3 { [%eval 0.37] } 3... e6 { [%eval 0.35] } 4. Bd3
+{ [%eval 0.3] } 4... c6 { [%eval 0.61] } 5. c3 { [%eval 0.36] } 5... Be7
+{ [%eval 0.47] } 6. O-O { [%eval 0.58] } 6... O-O { [%eval 0.56] } 7. Nbd2
+{ [%eval 0.27] } 7... d5 { [%eval 0.3] } 8. Re1 { [%eval 0.06] } 8... Nbd7
+{ [%eval 0.07] } 9. Nf1 { [%eval -0.09] } 9... Ne4 { [%eval -0.01] } 10. N3d2
+{ [%eval -0.39] } 10... Bh4 { [%eval -0.13] } 11. g3 { [%eval -0.52] } 11...
+Bf6 { [%eval -0.25] } 12. f3 { [%eval -0.71] } 12... Nxd2 $6 { [%eval 0.06] }
+13. Nxd2 { [%eval 0.0] } 13... g6 { [%eval 0.0] } 14. e4 { [%eval 0.14] } 14...
+fxe4 { [%eval 0.0] } 15. fxe4 { [%eval 0.06] } 15... e5 { [%eval 0.22] } 16.
+Nf3 { [%eval 0.19] } 16... Qb6 { [%eval 0.37] } 17. exd5 $6 { [%eval -0.26] }
+17... exd4 $6 { [%eval 0.52] } 18. dxc6 { [%eval 0.13] } 18... dxc3+
+{ [%eval 0.16] } 19. Kh1 $2 { [%eval -1.01] } 19... cxb2 $6 { [%eval -0.4] }
+20. Rb1 $4 { [%eval -4.43] } 20... bxc1=Q { [%eval -4.26] } 21. Qxc1
+{ [%eval -4.63] } 21... Qxc6 { [%eval -4.55] } 22. Bc4+ $2 { [%eval -6.79] }
+22... Kg7 $2 { [%eval -5.75] } 23. Re6 $4 { [%eval #-10] } 23... Qxf3+
+{ [%eval #-9] } 24. Kg1 { [%eval #-9] } 24... Bd4+ { [%eval #-8] } 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/E3dll8u2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Imri"]
+[Black "Viking2006"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:41:16"]
+[WhiteElo "1689"]
+[BlackElo "1356"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-3"]
+[ECO "C25"]
+[Opening "Vienna Game: Anderssen Defense"]
+[TimeControl "900+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e5 { [%eval 0.32] } 2. Nc3 { [%eval 0.12] } 2...
+Bc5 { [%eval 0.22] } 3. Nf3 { [%eval 0.06] } 3... Nc6 { [%eval 0.47] } 4. Nxe5
+{ [%eval 0.32] } 4... Nxe5 { [%eval 0.58] } 5. d4 { [%eval 0.46] } 5... Bb4 $6
+{ [%eval 1.34] } 6. dxe5 { [%eval 1.55] } 6... Bxc3+ { [%eval 1.71] } 7. bxc3
+{ [%eval 1.68] } 7... d6 { [%eval 2.06] } 8. exd6 { [%eval 1.94] } 8... cxd6
+{ [%eval 2.06] } 9. Bc4 $6 { [%eval 1.48] } 9... Qa5 $2 { [%eval 2.85] } 10.
+Bd2 $2 { [%eval 0.88] } 10... Qe5 { [%eval 1.08] } 11. Qf3 { [%eval 1.08] }
+11... Be6 { [%eval 1.17] } 12. Bxe6 { [%eval 0.68] } 12... Qxe6
+{ [%eval 0.79] } 13. O-O { [%eval 0.53] } 13... Nf6 { [%eval 0.61] } 14. Bg5
+{ [%eval 0.49] } 14... Nxe4 { [%eval 0.64] } 15. Rfe1 { [%eval 0.54] } 15... d5
+{ [%eval 0.52] } 16. c4 { [%eval 0.91] } 16... Rc8 $4 { [%eval 9.62] } 17. cxd5
+{ [%eval 9.25] } 17... Qxd5 $6 { [%eval 13.29] } 18. Rxe4+ { [%eval 13.02] }
+18... Kf8 { [%eval 12.81] } 19. Re8+ { [%eval 12.15] } 19... Kxe8 $6
+{ [%eval #7] } 20. Qxd5 { [%eval #6] } 20... Rxc2 { [%eval #1] } 21. Re1+ $6
+{ [%eval #1] } 21... Kf8 { [%eval #1] } 22. Qd8# 1-0

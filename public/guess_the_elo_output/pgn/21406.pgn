@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/cAWvJPvI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dagadeplata"]
+[Black "sorry-i-win"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:17:07"]
+[WhiteElo "1661"]
+[BlackElo "1873"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... e6 { [%eval 0.35] } 2. d3 { [%eval -0.06] } 2... d5
+{ [%eval -0.11] } 3. e5 { [%eval -0.25] } 3... c5 { [%eval -0.22] } 4. Nf3
+{ [%eval -0.23] } 4... Nc6 { [%eval -0.34] } 5. Nc3 $6 { [%eval -0.87] } 5...
+Qb6 { [%eval -0.54] } 6. b3 { [%eval -0.77] } 6... f5 $6 { [%eval -0.12] } 7.
+Rb1 $6 { [%eval -0.67] } 7... Be7 { [%eval -0.43] } 8. Be2 { [%eval -0.58] }
+8... d4 { [%eval -0.34] } 9. Na4 { [%eval -0.45] } 9... Qd8 { [%eval -0.2] }
+10. O-O { [%eval -0.64] } 10... b5 { [%eval -0.66] } 11. Nb2 { [%eval -0.72] }
+11... a5 $2 { [%eval 0.71] } 12. h3 { [%eval 0.23] } 12... Nh6 { [%eval 0.38] }
+13. Qe1 $6 { [%eval -0.31] } 13... Nf7 { [%eval -0.31] } 14. Nd1 $6
+{ [%eval -0.91] } 14... O-O { [%eval -0.89] } 15. c3 $6 { [%eval -1.56] } 15...
+Bb7 { [%eval -1.62] } 16. Bb2 $6 { [%eval -2.59] } 16... Qd7 $6
+{ [%eval -2.05] } 17. Bc1 { [%eval -2.18] } 17... Rad8 { [%eval -1.79] } 18.
+Bf4 { [%eval -2.13] } 18... Qc7 $6 { [%eval -1.39] } 19. Nb2 $6
+{ [%eval -2.08] } 19... dxc3 { [%eval -2.08] } 20. Nd1 $4 { [%eval -5.89] }
+20... b4 $2 { [%eval -4.0] } 21. Rc1 $2 { [%eval -5.13] } 21... Nd4 $2
+{ [%eval -3.91] } 22. Nxd4 { [%eval -3.99] } 22... cxd4 { [%eval -3.61] } 23.
+Bf3 $4 { [%eval -9.02] } 23... Bxf3 { [%eval -9.02] } 24. gxf3
+{ [%eval -8.91] } 24... Qc6 $4 { [%eval -5.91] } 25. Qe2 { [%eval -6.2] } 25...
+Bg5 { [%eval -6.02] } 26. Ne3 $4 { [%eval -11.75] } 26... Bxf4
+{ [%eval -11.5] } 27. Nc4 { [%eval -11.0] } 27... Bxc1 { [%eval -9.81] } 28.
+Rxc1 { [%eval -9.65] } 28... Ng5 { [%eval -9.23] } 29. Nd6 $6
+{ [%eval -19.34] } 29... Nxf3+ { [%eval -18.67] } 30. Kf1 { [%eval -19.02] }
+30... Nd2+ { [%eval -17.53] } 31. Ke1 $6 { [%eval #-2] } 31... Qh1+
+{ [%eval #-1] } 0-1

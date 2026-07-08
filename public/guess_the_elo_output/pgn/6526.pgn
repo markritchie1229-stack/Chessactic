@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/6ZYY5Tmu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vango12"]
+[Black "Faakukenut"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:15:42"]
+[WhiteElo "1175"]
+[BlackElo "1089"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+14"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.22] } 2. Nf3 { [%eval 0.25] } 2... e6
+{ [%eval 0.33] } 3. Bc4 { [%eval 0.04] } 3... h6 { [%eval 0.31] } 4. d4
+{ [%eval 0.26] } 4... a6 { [%eval 0.55] } 5. d5 { [%eval 0.57] } 5... exd5 $2
+{ [%eval 2.6] } 6. Bxd5 $2 { [%eval 0.64] } 6... Nf6 { [%eval 1.02] } 7. O-O
+{ [%eval 0.66] } 7... g5 $6 { [%eval 1.53] } 8. Nc3 { [%eval 1.54] } 8... Bg7
+{ [%eval 1.95] } 9. Ne5 { [%eval 1.91] } 9... d6 $4 { [%eval 5.93] } 10. Nxf7
+{ [%eval 4.8] } 10... Qa5 $4 { [%eval 11.0] } 11. Nxd6+ { [%eval 10.37] } 11...
+Kd8 { [%eval 12.29] } 12. Nf7+ $2 { [%eval 8.39] } 12... Ke8 $2
+{ [%eval 11.33] } 13. Nxh8 { [%eval 10.27] } 13... Bxh8 { [%eval 11.08] } 14.
+Bb3 $4 { [%eval 6.69] } 14... Bg4 $2 { [%eval 9.02] } 15. f3 $2
+{ [%eval 7.55] } 15... Bd7 $2 { [%eval 9.89] } 16. Bd2 $2 { [%eval 6.96] }
+16... Bb5 $4 { [%eval 10.04] } 17. Nd5 $2 { [%eval 8.22] } 17... Qd8
+{ [%eval 8.27] } 18. Nxf6+ $2 { [%eval 5.48] } 18... Bxf6 { [%eval 5.53] } 19.
+Re1 $6 { [%eval 4.91] } 19... Nc6 $6 { [%eval 5.88] } 20. e5 { [%eval 5.8] }
+20... Nxe5 $2 { [%eval 7.96] } 21. Bc3 $2 { [%eval 6.09] } 21... Kf8 $2
+{ [%eval 7.22] } 22. Qxd8+ $6 { [%eval 6.58] } 22... Rxd8 { [%eval 6.52] } 23.
+a4 { [%eval 6.4] } 23... Bc6 $2 { [%eval 8.49] } 0-1

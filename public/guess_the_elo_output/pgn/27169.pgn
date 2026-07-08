@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/lcefHDkS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "shegu"]
+[Black "salvo10"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:24:26"]
+[WhiteElo "1351"]
+[BlackElo "1220"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.13] } 2. Nf3 { [%eval 0.14] } 2... e6
+{ [%eval 0.2] } 3. Bf4 { [%eval 0.06] } 3... Nf6 { [%eval 0.09] } 4. e3
+{ [%eval 0.14] } 4... Bd6 { [%eval 0.13] } 5. Bxd6 { [%eval 0.08] } 5... Qxd6
+{ [%eval 0.06] } 6. Nbd2 { [%eval 0.0] } 6... Nc6 { [%eval 0.22] } 7. Bb5
+{ [%eval 0.15] } 7... Bd7 { [%eval 0.32] } 8. Bxc6 { [%eval 0.04] } 8... Bxc6
+{ [%eval 0.21] } 9. O-O { [%eval 0.18] } 9... O-O-O $6 { [%eval 0.91] } 10. c3
+{ [%eval 0.71] } 10... Rde8 $6 { [%eval 1.33] } 11. h3 $6 { [%eval 0.73] }
+11... Nd7 { [%eval 1.09] } 12. a4 { [%eval 0.98] } 12... e5 { [%eval 1.29] }
+13. dxe5 $6 { [%eval 0.55] } 13... Nxe5 { [%eval 0.54] } 14. Nxe5
+{ [%eval 0.39] } 14... Qxe5 { [%eval 0.58] } 15. Nf3 { [%eval 0.41] } 15... Qe4
+{ [%eval 0.64] } 16. Qd4 { [%eval 0.38] } 16... Qxd4 { [%eval 0.35] } 17. Nxd4
+{ [%eval 0.29] } 17... Re6 $2 { [%eval 2.4] } 18. Nxc6 $2 { [%eval 0.16] }
+18... Rxc6 { [%eval 0.14] } 19. Rfd1 { [%eval 0.23] } 19... Rd8
+{ [%eval 0.25] } 20. Rd4 { [%eval 0.12] } 20... Rcd6 { [%eval 0.25] } 21. b4
+{ [%eval 0.0] } 21... b6 { [%eval 0.38] } 22. b5 { [%eval 0.29] } 22... c5
+{ [%eval 0.34] } 23. bxc6 $6 { [%eval -0.19] } 23... Kc7 { [%eval -0.06] } 24.
+Rad1 { [%eval -0.11] } 24... Kxc6 { [%eval 0.13] } 25. f3 { [%eval -0.03] }
+25... b5 $6 { [%eval 0.47] } 26. axb5+ { [%eval 0.52] } 26... Kxb5
+{ [%eval 0.66] } 27. Rb4+ { [%eval 0.56] } 27... Kc5 { [%eval 0.55] } 28. Rb2
+$6 { [%eval 0.0] } 28... a5 { [%eval 0.0] } 29. f4 $6 { [%eval -0.5] } 29... a4
+{ [%eval -0.35] } 30. Kf2 $6 { [%eval -1.12] } 30... a3 { [%eval -0.86] } 31.
+Ra2 $6 { [%eval -1.68] } 31... Ra8 { [%eval -1.49] } 32. c4 $4
+{ [%eval -4.84] } 1-0

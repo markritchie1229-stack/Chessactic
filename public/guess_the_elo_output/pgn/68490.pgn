@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LItOLL9R"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NikitasTheo"]
+[Black "koklab"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:00:11"]
+[WhiteElo "1423"]
+[BlackElo "1396"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+13"]
+[ECO "D10"]
+[Opening "Slav Defense"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.27] } 1... d5 { [%eval 0.27] } 2. c4 { [%eval 0.17] } 2... c6
+{ [%eval 0.5] } 3. Qc2 { [%eval 0.3] } 3... g6 { [%eval 0.34] } 4. Bf4
+{ [%eval 0.14] } 4... Bf5 { [%eval 0.29] } 5. Qc3 $6 { [%eval -0.42] } 5... e6
+{ [%eval 0.07] } 6. cxd5 { [%eval -0.33] } 6... exd5 { [%eval 0.0] } 7. e3
+{ [%eval -0.27] } 7... Na6 { [%eval 0.02] } 8. a3 { [%eval 0.06] } 8... Qb6
+{ [%eval 0.27] } 9. b4 $4 { [%eval -3.03] } 9... Nxb4 { [%eval -2.72] } 10.
+axb4 $4 { [%eval -5.87] } 10... Bxb4 { [%eval -5.75] } 11. Qxb4 $4
+{ [%eval -10.09] } 11... Qxb4+ { [%eval -9.87] } 12. Nd2 { [%eval -9.46] }
+12... Ne7 $4 { [%eval -6.31] } 13. Nf3 $2 { [%eval -8.55] } 13... Bg4 $4
+{ [%eval -4.8] } 14. Be2 { [%eval -4.93] } 14... Nf5 { [%eval -4.93] } 15. O-O
+{ [%eval -4.74] } 15... Bxf3 { [%eval -4.46] } 16. Bxf3 $4 { [%eval -8.35] }
+16... O-O $4 { [%eval -5.18] } 17. Rfb1 $4 { [%eval -8.77] } 17... Qe7 $4
+{ [%eval -5.1] } 18. e4 $2 { [%eval -6.25] } 18... Nxd4 { [%eval -6.18] } 19.
+exd5 { [%eval -6.26] } 19... Nxf3+ { [%eval -6.13] } 20. Nxf3 { [%eval -6.1] }
+20... cxd5 { [%eval -6.13] } 21. Re1 { [%eval -6.33] } 21... Qc5
+{ [%eval -5.97] } 22. Rac1 { [%eval -6.3] } 22... Qb4 { [%eval -5.81] } 23. Bd2
+$6 { [%eval -6.33] } 23... Qa3 { [%eval -5.98] } 24. Rb1 { [%eval -6.26] }
+24... Rfe8 { [%eval -6.27] } 25. Rxe8+ $2 { [%eval -7.78] } 25... Rxe8
+{ [%eval -7.55] } 26. Rxb7 $2 { [%eval #-4] } 26... Qa1+ { [%eval #-3] } 0-1

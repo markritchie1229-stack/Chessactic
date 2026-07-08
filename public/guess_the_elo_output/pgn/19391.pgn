@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/S4URO87B"]
+[Date "????.??.??"]
+[Round "?"]
+[White "yournightmare"]
+[Black "longedok"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:53:32"]
+[WhiteElo "1826"]
+[BlackElo "1682"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.41] } 2. Nc3 { [%eval 0.28] } 2... d6
+{ [%eval 0.47] } 3. f4 { [%eval 0.23] } 3... Nf6 { [%eval 0.25] } 4. Bb5+
+{ [%eval 0.07] } 4... Nbd7 { [%eval 0.09] } 5. Bxd7+ { [%eval -0.25] } 5...
+Bxd7 { [%eval -0.02] } 6. Nf3 { [%eval -0.34] } 6... a6 $6 { [%eval 0.2] } 7.
+O-O { [%eval -0.07] } 7... b5 $6 { [%eval 0.62] } 8. d3 $6 { [%eval -0.02] }
+8... e6 { [%eval 0.18] } 9. Qe1 { [%eval -0.12] } 9... Be7 $2 { [%eval 1.0] }
+10. Ne2 $2 { [%eval -0.37] } 10... O-O { [%eval -0.34] } 11. Ng3
+{ [%eval -0.3] } 11... Bc6 { [%eval -0.23] } 12. f5 { [%eval -0.29] } 12... d5
+$2 { [%eval 1.5] } 13. Bg5 $2 { [%eval 0.02] } 13... dxe4 { [%eval 0.18] } 14.
+dxe4 { [%eval -0.09] } 14... Qc7 $6 { [%eval 0.65] } 15. Bxf6 $6
+{ [%eval 0.0] } 15... Bxf6 { [%eval 0.0] } 16. Nh5 { [%eval 0.0] } 16... Bxb2
+{ [%eval -0.16] } 17. Rb1 { [%eval -0.25] } 17... Bd4+ { [%eval -0.18] } 18.
+Nxd4 { [%eval -0.56] } 18... cxd4 { [%eval -0.67] } 19. f6 { [%eval -0.93] }
+19... e5 $4 { [%eval 4.26] } 20. Nxg7 $2 { [%eval 1.53] } 20... Qd6 $4
+{ [%eval 10.61] } 21. Qg3 $2 { [%eval 7.22] } 21... Kh8 { [%eval 7.37] } 22.
+Rf5 $4 { [%eval 1.39] } 22... Rg8 { [%eval 1.36] } 23. Rbf1 $2
+{ [%eval -0.79] } 23... Rae8 $4 { [%eval 5.0] } 24. Rh5 $4 { [%eval -0.42] }
+24... Re6 $4 { [%eval #3] } 25. Rh6 $4 { [%eval -0.33] } 25... b4 $4
+{ [%eval #3] } 26. Qh4 $6 { [%eval #7] } 26... Bxe4 { [%eval #4] } 27. Qxe4
+{ [%eval #3] } 27... Rc8 { [%eval #1] } 28. Qxh7# 1-0

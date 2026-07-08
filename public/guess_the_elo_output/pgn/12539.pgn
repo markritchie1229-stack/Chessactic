@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/osrwoFNS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Volo8"]
+[Black "Sergei999"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:04:14"]
+[WhiteElo "1570"]
+[BlackElo "1690"]
+[WhiteRatingDiff "+63"]
+[BlackRatingDiff "-13"]
+[ECO "C42"]
+[Opening "Petrov's Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.43] } 2. Nf3 { [%eval 0.35] } 2...
+Nf6 { [%eval 0.48] } 3. g3 $6 { [%eval -0.28] } 3... Nc6 { [%eval -0.05] } 4.
+c4 $6 { [%eval -0.75] } 4... d6 $6 { [%eval 0.08] } 5. Nc3 { [%eval -0.03] }
+5... Be7 { [%eval 0.17] } 6. Nd5 $2 { [%eval -0.87] } 6... O-O $6
+{ [%eval -0.1] } 7. d3 { [%eval -0.12] } 7... a5 { [%eval -0.04] } 8. Bg2
+{ [%eval -0.13] } 8... Nb4 { [%eval 0.04] } 9. Bg5 $4 { [%eval -3.92] } 9...
+Nbxd5 $4 { [%eval -0.78] } 10. cxd5 { [%eval -0.88] } 10... Bg4 $6
+{ [%eval -0.06] } 11. O-O $2 { [%eval -1.11] } 11... h6 $2 { [%eval 0.11] } 12.
+Bxf6 { [%eval -0.35] } 12... Bxf6 { [%eval -0.33] } 13. h3 { [%eval -0.31] }
+13... Bd7 { [%eval -0.22] } 14. a3 { [%eval -0.61] } 14... b5 $6
+{ [%eval -0.06] } 15. b4 { [%eval -0.42] } 15... a4 $6 { [%eval 0.29] } 16. d4
+{ [%eval 0.04] } 16... c6 { [%eval 0.1] } 17. dxe5 { [%eval 0.06] } 17... dxe5
+{ [%eval 0.26] } 18. Rb1 { [%eval -0.07] } 18... cxd5 { [%eval -0.02] } 19.
+exd5 { [%eval -0.25] } 19... e4 { [%eval 0.05] } 20. Nd4 $6 { [%eval -0.68] }
+20... Bxd4 $6 { [%eval 0.19] } 21. Qxd4 { [%eval 0.21] } 21... f5
+{ [%eval 0.16] } 22. Rfd1 { [%eval 0.07] } 22... Rc8 { [%eval 0.43] } 23. d6 $6
+{ [%eval -0.19] } 23... Rc4 $6 { [%eval 0.31] } 24. Qd5+ { [%eval 0.39] } 24...
+Kh8 { [%eval 0.68] } 25. Rbc1 { [%eval 0.41] } 25... Bc6 { [%eval 0.62] } 26.
+Qe5 { [%eval 0.65] } 26... Rxc1 $2 { [%eval 2.4] } 27. Rxc1 { [%eval 2.05] }
+27... Bb7 $4 { [%eval 7.44] } 28. Rc7 { [%eval 6.8] } 28... Bc8 $4
+{ [%eval #1] } 29. Qxg7# 1-0

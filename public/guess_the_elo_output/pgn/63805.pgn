@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/K1EIQYrI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elpequeno"]
+[Black "rafiswcc"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:54:28"]
+[WhiteElo "1486"]
+[BlackElo "1523"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+9"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.54] } 2. Bc4 $6 { [%eval 0.0] } 2...
+Nc6 { [%eval 0.13] } 3. Nc3 { [%eval 0.13] } 3... h6 { [%eval 0.34] } 4. Nf3
+{ [%eval 0.18] } 4... a6 $6 { [%eval 0.91] } 5. d3 $6 { [%eval 0.18] } 5... Nf6
+{ [%eval 0.24] } 6. Be3 { [%eval 0.0] } 6... Bb4 { [%eval 0.15] } 7. Qd2
+{ [%eval -0.1] } 7... d5 { [%eval -0.08] } 8. exd5 { [%eval -0.12] } 8... Nxd5
+$4 { [%eval 3.55] } 9. Bxd5 { [%eval 3.41] } 9... Bxc3 $2 { [%eval 4.97] } 10.
+Qxc3 $4 { [%eval -0.17] } 10... Qxd5 { [%eval -0.11] } 11. O-O-O
+{ [%eval -0.42] } 11... Be6 { [%eval -0.32] } 12. Rhe1 { [%eval -0.61] } 12...
+Qxa2 $2 { [%eval 0.59] } 13. Nxe5 { [%eval 0.36] } 13... Nxe5 { [%eval 0.47] }
+14. Qxe5 { [%eval 0.47] } 14... O-O-O $6 { [%eval 1.15] } 15. Bf4
+{ [%eval 1.08] } 15... Rd7 { [%eval 1.11] } 16. Kd2 $6 { [%eval 0.14] } 16...
+Rg8 { [%eval 0.37] } 17. Be3 { [%eval 0.07] } 17... Qd5 { [%eval 0.15] } 18.
+Qc3 $6 { [%eval -0.5] } 18... b6 $2 { [%eval 0.9] } 19. Bxb6 { [%eval 0.83] }
+19... c6 $2 { [%eval 2.76] } 20. Be3 { [%eval 2.28] } 20... Qb5 { [%eval 2.5] }
+21. Qd4 $4 { [%eval -5.68] } 21... Rxd4 { [%eval -5.39] } 22. Bxd4
+{ [%eval -5.45] } 22... h5 $2 { [%eval -3.61] } 23. Be3 $6 { [%eval -4.51] }
+23... g5 $6 { [%eval -3.74] } 24. f4 $4 { [%eval -12.06] } 24... gxf4
+{ [%eval -11.45] } 25. Bxf4 { [%eval -23.31] } 25... Qxb2 $4 { [%eval -6.5] }
+26. Be5 $4 { [%eval -54.95] } 26... Qb4+ { [%eval -13.58] } 27. Bc3 $6
+{ [%eval #-6] } 27... Qf4+ { [%eval #-9] } 28. Ke2 { [%eval #-1] } 28... Qxh2
+$6 { [%eval -16.55] } 29. Rb1 $6 { [%eval #-7] } 29... Qg3 $6
+{ [%eval -11.46] } 30. Rf1 { [%eval -18.57] } 30... Kd7 $2 { [%eval -7.62] }
+0-1

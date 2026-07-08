@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/szVb3mmo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kires"]
+[Black "shoxi"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:10:19"]
+[WhiteElo "1414"]
+[BlackElo "1428"]
+[WhiteRatingDiff "+48"]
+[BlackRatingDiff "-11"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.27] } 2. c4 { [%eval 0.18] } 2... dxc4
+{ [%eval 0.29] } 3. e3 { [%eval 0.31] } 3... Nf6 { [%eval 0.38] } 4. Bxc4
+{ [%eval 0.25] } 4... Nbd7 { [%eval 0.33] } 5. Nf3 { [%eval 0.35] } 5... e6
+{ [%eval 0.37] } 6. O-O { [%eval 0.35] } 6... Ne4 $6 { [%eval 1.3] } 7. Nbd2 $6
+{ [%eval 0.74] } 7... Nxd2 { [%eval 1.07] } 8. Bxd2 { [%eval 0.85] } 8... Bd6
+{ [%eval 0.87] } 9. Bc3 { [%eval 0.91] } 9... f6 $2 { [%eval 1.95] } 10. Bxe6
+{ [%eval 1.83] } 10... Nb6 { [%eval 1.97] } 11. Bb3 { [%eval 1.89] } 11... c5
+$2 { [%eval 4.18] } 12. Re1 $2 { [%eval 2.18] } 12... c4 { [%eval 2.36] } 13.
+Ba4+ { [%eval 1.92] } 13... Nxa4 { [%eval 2.22] } 14. Qxa4+ { [%eval 2.26] }
+14... Bd7 { [%eval 2.24] } 15. Qxc4 { [%eval 2.5] } 15... b5 $2
+{ [%eval 3.62] } 16. Qd5 { [%eval 3.54] } 16... Bg4 $4 { [%eval 6.97] } 17.
+Qe4+ { [%eval 6.76] } 17... Kf7 $6 { [%eval 7.38] } 18. Qxg4 { [%eval 7.35] }
+18... b4 { [%eval 7.28] } 19. Bd2 { [%eval 7.23] } 19... g6 $6 { [%eval 8.04] }
+20. d5 $2 { [%eval 6.99] } 20... f5 $2 { [%eval 9.67] } 21. Qd4 $2
+{ [%eval 7.39] } 21... g5 $2 { [%eval 12.28] } 22. Ne5+ $2 { [%eval 8.2] }
+22... Ke7 $2 { [%eval 19.9] } 23. Nc6+ { [%eval 19.04] } 1-0

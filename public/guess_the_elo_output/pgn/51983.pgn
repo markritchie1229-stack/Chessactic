@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vyPPGYj1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "positive_by"]
+[Black "Bruce_lee"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:49:57"]
+[WhiteElo "1550"]
+[BlackElo "1427"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-7"]
+[ECO "A40"]
+[Opening "Englund Gambit Complex: Soller Gambit"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... e5 $6 { [%eval 0.89] } 2. dxe5 { [%eval 0.57] }
+2... f6 $6 { [%eval 1.29] } 3. Nf3 { [%eval 0.97] } 3... Bc5 { [%eval 1.31] }
+4. b3 $2 { [%eval 0.23] } 4... fxe5 { [%eval 0.31] } 5. Nxe5 $2
+{ [%eval -0.98] } 5... Qf6 $6 { [%eval -0.13] } 6. Bb2 $4 { [%eval #-12] } 6...
+Ne7 $4 { [%eval 1.38] } 7. Qc1 $4 { [%eval -2.33] } 7... Qh4 $4
+{ [%eval 1.65] } 8. g3 { [%eval 1.51] } 8... Qe4 { [%eval 1.62] } 9. Rg1 $6
+{ [%eval 1.12] } 9... Bxf2+ $2 { [%eval 3.66] } 10. Kxf2 { [%eval 3.55] } 10...
+O-O+ { [%eval 3.62] } 11. Ke1 { [%eval 3.18] } 11... d6 { [%eval 3.59] } 12.
+Nd2 { [%eval 3.52] } 12... Qe3 { [%eval 3.37] } 13. Rg2 $2 { [%eval 0.61] }
+13... dxe5 { [%eval 0.6] } 14. Nc4 { [%eval 0.63] } 14... Qc5 { [%eval 0.71] }
+15. Nxe5 $2 { [%eval -1.61] } 15... Bh3 { [%eval -1.54] } 16. Nd3
+{ [%eval -1.93] } 16... Qb6 $4 { [%eval 3.0] } 17. Rf2 $2 { [%eval 1.38] }
+17... Bxf1 $2 { [%eval 3.03] } 18. Kxf1 $2 { [%eval 0.97] } 18... Nbc6
+{ [%eval 1.14] } 19. Qg5 { [%eval 1.08] } 19... Nd4 $4 { [%eval 5.22] } 20.
+Qxe7 { [%eval 4.44] } 20... Rae8 $6 { [%eval 5.23] } 21. Qc5 $2 { [%eval 4.1] }
+21... Rxf2+ { [%eval 4.08] } 22. Kxf2 { [%eval 4.05] } 22... Qf6+ $2
+{ [%eval 6.72] } 23. Kg1 { [%eval 6.52] } 23... Nxe2+ $6 { [%eval 7.45] } 24.
+Kg2 { [%eval 7.27] } 24... Qg6 $6 { [%eval 7.83] } 25. Qd5+ { [%eval 7.45] }
+25... Kh8 $6 { [%eval 8.38] } 26. Be5 $2 { [%eval 6.78] } 26... h5 $2
+{ [%eval 8.59] } 27. Qf3 { [%eval 8.4] } 27... h4 $6 { [%eval 9.08] } 28. Qxe2
+{ [%eval 8.85] } 28... hxg3 $2 { [%eval 11.25] } 29. hxg3 $2 { [%eval 8.84] }
+29... Qf5 $2 { [%eval 20.73] } 30. Rf1 { [%eval 10.41] } 30... Qxe5 $6
+{ [%eval #5] } 31. Nxe5 { [%eval #4] } 31... Rxe5 { [%eval #4] } 32. Qxe5
+{ [%eval #3] } 1-0

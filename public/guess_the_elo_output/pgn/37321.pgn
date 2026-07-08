@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/b6lBB5B7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chesslover94"]
+[Black "sbezz"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:09:42"]
+[WhiteElo "1440"]
+[BlackElo "1395"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "A84"]
+[Opening "Dutch Defense: Normal Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.24] } 1... f5 { [%eval 0.54] } 2. c4 { [%eval 0.46] } 2... Nf6
+{ [%eval 0.45] } 3. e3 { [%eval 0.46] } 3... e6 { [%eval 0.39] } 4. c5 $6
+{ [%eval -0.49] } 4... Be7 { [%eval -0.5] } 5. Be2 { [%eval -0.4] } 5... b6
+{ [%eval -0.44] } 6. cxb6 { [%eval -0.45] } 6... cxb6 { [%eval 0.0] } 7. Nf3
+{ [%eval 0.0] } 7... Bb7 { [%eval 0.0] } 8. O-O { [%eval 0.01] } 8... Ne4
+{ [%eval 0.04] } 9. Bd3 { [%eval -0.12] } 9... O-O { [%eval -0.03] } 10. Bxe4
+$2 { [%eval -1.36] } 10... fxe4 { [%eval -1.57] } 11. Ne5 $6 { [%eval -2.39] }
+11... d6 { [%eval -2.08] } 12. Ng4 $2 { [%eval -3.12] } 12... Bg5 $2
+{ [%eval -1.54] } 13. Nc3 { [%eval -1.89] } 13... d5 $2 { [%eval -0.67] } 14.
+b4 { [%eval -0.54] } 14... Bc8 { [%eval -0.1] } 15. a4 { [%eval 0.0] } 15... e5
+$2 { [%eval 1.72] } 16. a5 $2 { [%eval -0.08] } 16... Bxg4 $2 { [%eval 1.52] }
+17. Qxg4 { [%eval 1.57] } 17... Qf6 $4 { [%eval 5.61] } 18. Nxd5 $2
+{ [%eval 3.87] } 18... Qh6 $2 { [%eval 6.53] } 19. Qe6+ $4 { [%eval -7.6] }
+19... Kh8 $4 { [%eval 6.59] } 20. Qxh6 { [%eval 6.35] } 20... Bxh6 $6
+{ [%eval 7.12] } 21. Ne7 $4 { [%eval 1.92] } 21... exd4 $2 { [%eval 4.59] } 22.
+exd4 $2 { [%eval 2.1] } 22... Rf7 { [%eval 1.96] } 23. Bxh6 { [%eval 1.83] }
+23... gxh6 { [%eval 1.88] } 24. Rac1 $2 { [%eval -0.14] } 24... Rxe7
+{ [%eval -0.17] } 25. Rc8+ { [%eval -0.29] } 25... Kg7 { [%eval -0.32] } 26.
+Re1 { [%eval -0.62] } 26... bxa5 $6 { [%eval 0.0] } 27. bxa5 { [%eval 0.0] }
+27... a6 $6 { [%eval 0.73] } 28. f3 $6 { [%eval 0.0] } 28... Rea7 $2
+{ [%eval 1.39] } 29. Rxe4 { [%eval 1.24] } 29... Nd7 $2 { [%eval 3.64] } 30.
+Re7+ { [%eval 3.33] } 30... Kf6 { [%eval 3.38] } 31. Rc6+ $4 { [%eval -7.96] }
+31... Kxe7 { [%eval -7.48] } 0-1

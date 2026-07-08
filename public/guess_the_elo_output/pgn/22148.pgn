@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/E6Ef2Rga"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Meepo_1337"]
+[Black "saifujiwara"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:54:14"]
+[WhiteElo "1654"]
+[BlackElo "1691"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+20"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... Nf6 { [%eval 0.27] } 2. Bf4 { [%eval 0.14] } 2...
+e6 { [%eval 0.14] } 3. e3 { [%eval 0.12] } 3... Nc6 { [%eval 0.27] } 4. a3
+{ [%eval 0.17] } 4... d5 { [%eval 0.08] } 5. Nc3 { [%eval 0.0] } 5... a6
+{ [%eval 0.16] } 6. b4 $6 { [%eval -0.64] } 6... b5 $2 { [%eval 0.37] } 7. Qb1
+$6 { [%eval -0.5] } 7... Bb7 $6 { [%eval 0.08] } 8. a4 $2 { [%eval -2.76] }
+8... Bd6 $2 { [%eval 0.02] } 9. Bg3 $2 { [%eval -1.77] } 9... Qe7 $2
+{ [%eval 0.07] } 10. axb5 $2 { [%eval -1.35] } 10... axb5 $2 { [%eval 0.06] }
+11. Nxb5 $6 { [%eval -0.68] } 11... Bxb4+ { [%eval -0.42] } 12. c3
+{ [%eval -0.68] } 12... Bd6 $6 { [%eval 0.15] } 13. Rxa8+ { [%eval 0.17] }
+13... Bxa8 { [%eval 0.19] } 14. Nxd6+ { [%eval 0.09] } 14... cxd6
+{ [%eval 0.27] } 15. Bb5 { [%eval 0.0] } 15... Ne4 { [%eval 0.0] } 16. Bxc6+
+{ [%eval -0.25] } 16... Bxc6 { [%eval -0.29] } 17. Qb8+ { [%eval -0.6] } 17...
+Qd8 { [%eval -0.52] } 18. Qxd8+ { [%eval -0.5] } 18... Kxd8 { [%eval -0.47] }
+19. Ne2 $6 { [%eval -0.97] } 19... Kd7 { [%eval -0.87] } 20. Bf4 $2
+{ [%eval -3.5] } 20... Ra8 { [%eval -3.41] } 21. O-O $6 { [%eval -4.29] } 21...
+Bb5 { [%eval -4.19] } 22. Re1 $6 { [%eval -4.8] } 22... Bxe2 { [%eval -4.6] }
+23. Rxe2 $4 { [%eval #-2] } 23... Nxc3 $4 { [%eval -1.34] } 24. Rb2 $4
+{ [%eval #-2] } 24... Ra1+ { [%eval #-1] } 0-1

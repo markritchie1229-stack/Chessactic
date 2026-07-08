@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/bdH5fM4y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "xmas11"]
+[Black "Enuma_Elish"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:21:26"]
+[WhiteElo "1837"]
+[BlackElo "1768"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "B07"]
+[Opening "Pirc Defense #5"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... d6 { [%eval 0.53] } 2. d4 { [%eval 0.54] } 2... h6
+{ [%eval 0.81] } 3. c4 { [%eval 0.59] } 3... h5 $6 { [%eval 1.29] } 4. Nc3
+{ [%eval 1.16] } 4... e5 { [%eval 1.04] } 5. h3 { [%eval 0.76] } 5... exd4
+{ [%eval 0.85] } 6. Qxd4 { [%eval 0.8] } 6... Qf6 { [%eval 1.21] } 7. Qxf6 $6
+{ [%eval 0.45] } 7... Nxf6 { [%eval 0.52] } 8. Nf3 { [%eval 0.39] } 8... Be6
+{ [%eval 0.64] } 9. Bg5 { [%eval 0.58] } 9... Nbd7 { [%eval 0.57] } 10. Bxf6 $6
+{ [%eval -0.15] } 10... Nxf6 { [%eval -0.08] } 11. Bd3 { [%eval -0.27] } 11...
+O-O-O { [%eval -0.24] } 12. O-O { [%eval -0.43] } 12... c6 { [%eval -0.15] }
+13. Nd4 { [%eval -0.39] } 13... d5 $2 { [%eval 0.61] } 14. cxd5
+{ [%eval 0.46] } 14... cxd5 { [%eval 0.59] } 15. exd5 $6 { [%eval 0.04] } 15...
+Nxd5 { [%eval 0.26] } 16. Nxd5 $6 { [%eval -0.28] } 16... Bxd5
+{ [%eval -0.22] } 17. Nf3 { [%eval -0.64] } 17... Bxf3 { [%eval -0.39] } 18.
+gxf3 $4 { [%eval -4.68] } 18... g5 $4 { [%eval -0.19] } 19. Rae1 $4
+{ [%eval -4.15] } 19... Bc5 $4 { [%eval 0.0] } 20. Be4 { [%eval -0.29] } 20...
+Bb6 { [%eval 0.14] } 21. Rc1+ { [%eval -0.16] } 21... Kb8 { [%eval -0.17] } 22.
+a4 { [%eval -0.49] } 22... Rd7 { [%eval -0.16] } 23. Bf5 $6 { [%eval -0.74] }
+23... Re7 $6 { [%eval -0.03] } 24. Rc2 { [%eval -0.47] } 24... f6
+{ [%eval -0.2] } 25. Rfc1 { [%eval -0.21] } 25... Rhe8 $4 { [%eval #2] } 26.
+Rc8+ { [%eval #1] } 26... Rxc8 { [%eval #1] } 27. Rxc8# 1-0

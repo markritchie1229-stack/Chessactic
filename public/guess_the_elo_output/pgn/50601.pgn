@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lJKjrR9m"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TaiNgoc"]
+[Black "lucho23"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:16:02"]
+[WhiteElo "1119"]
+[BlackElo "1101"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-10"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.4] } 2. Nc3 { [%eval 0.1] } 2... c6
+$2 { [%eval 1.19] } 3. Bc4 $6 { [%eval 0.31] } 3... Nf6 { [%eval 0.37] } 4. Nf3
+{ [%eval 0.21] } 4... g6 $2 { [%eval 1.81] } 5. Nxe5 { [%eval 1.48] } 5... d5
+{ [%eval 1.66] } 6. exd5 { [%eval 1.62] } 6... cxd5 { [%eval 1.52] } 7. Nxd5 $2
+{ [%eval 0.0] } 7... Nxd5 { [%eval 0.31] } 8. Qf3 { [%eval 0.19] } 8... Be6
+{ [%eval 0.63] } 9. Bb3 $2 { [%eval -1.93] } 9... Nc6 { [%eval -1.87] } 10. c4
+$4 { [%eval -6.29] } 10... f6 $4 { [%eval 0.98] } 11. cxd5 $2 { [%eval -1.23] }
+11... Nb4 $4 { [%eval 9.63] } 12. dxe6 { [%eval 9.58] } 12... Nc2+
+{ [%eval 13.97] } 13. Bxc2 { [%eval 13.38] } 13... fxe5 $6 { [%eval #1] } 14.
+Qxb7 $2 { [%eval 9.49] } 14... Qb8 $2 { [%eval #1] } 15. Qc6+ $6 { [%eval #5] }
+15... Ke7 { [%eval #5] } 16. Qd7+ { [%eval #4] } 16... Kf6 { [%eval #4] } 17.
+h4 $2 { [%eval 8.74] } 17... h5 $2 { [%eval #1] } 18. d4 $6 { [%eval #15] }
+18... Qb4+ { [%eval #15] } 19. Kd1 $6 { [%eval 10.51] } 19... Qxd4+
+{ [%eval 10.33] } 20. Bd3 $4 { [%eval 6.85] } 20... Qg4+ $4 { [%eval #14] } 21.
+f3 { [%eval #13] } 21... Qxg2 { [%eval #1] } 22. Qf7# 1-0

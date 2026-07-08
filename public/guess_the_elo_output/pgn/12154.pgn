@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/k0aUxQ9y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "splittheatom"]
+[Black "hhasan52"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:45:43"]
+[WhiteElo "1713"]
+[BlackElo "1765"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "D08"]
+[Opening "Queen's Gambit Refused: Albin Countergambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... d5 { [%eval 0.29] } 2. c4 { [%eval 0.2] } 2... e5
+{ [%eval 0.63] } 3. Nc3 { [%eval 0.14] } 3... c5 { [%eval 0.61] } 4. dxe5
+{ [%eval 0.63] } 4... d4 { [%eval 0.62] } 5. Ne4 { [%eval 0.53] } 5... Bf5
+{ [%eval 0.7] } 6. f3 $6 { [%eval -0.24] } 6... Nc6 { [%eval -0.16] } 7. Bf4
+{ [%eval -0.28] } 7... f6 { [%eval -0.12] } 8. e3 $2 { [%eval -1.54] } 8...
+fxe5 { [%eval -1.53] } 9. Bg5 { [%eval -1.6] } 9... Be7 { [%eval -1.45] } 10.
+Bxe7 { [%eval -1.5] } 10... Ngxe7 { [%eval -1.54] } 11. Nxc5 $2
+{ [%eval -3.93] } 11... O-O $2 { [%eval -2.53] } 12. g4 $2 { [%eval -4.53] }
+12... Bg6 $2 { [%eval -1.62] } 13. h4 $4 { [%eval -6.46] } 13... Qa5+
+{ [%eval -5.81] } 14. Qd2 { [%eval -6.18] } 14... Qxc5 { [%eval -5.85] } 15. h5
+$6 { [%eval -6.4] } 15... Bf7 $2 { [%eval -4.5] } 16. exd4 $2 { [%eval -5.84] }
+16... Nxd4 { [%eval -5.36] } 17. Ne2 $4 { [%eval -27.23] } 17... Nxe2 $4
+{ [%eval -5.15] } 18. Qxe2 $6 { [%eval -5.83] } 18... e4 { [%eval -5.24] } 19.
+Qxe4 $2 { [%eval -7.5] } 19... Rfe8 $2 { [%eval -5.25] } 20. Kd2 $4
+{ [%eval -16.14] } 20... Rad8+ { [%eval -15.91] } 21. Kc2 { [%eval -15.73] }
+21... Nc6 { [%eval -14.66] } 22. Qf5 $6 { [%eval #-5] } 22... Nb4+
+{ [%eval #-4] } 23. Kb1 { [%eval #-1] } 23... Re1# 0-1

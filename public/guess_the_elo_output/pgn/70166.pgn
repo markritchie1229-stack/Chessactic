@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Fp920eSO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Asoiko"]
+[Black "Renatho"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:22:30"]
+[WhiteElo "1401"]
+[BlackElo "1432"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C22"]
+[Opening "Center Game: Normal Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.39] } 2. d4 $6 { [%eval -0.17] } 2...
+exd4 { [%eval 0.17] } 3. Qxd4 $6 { [%eval -0.35] } 3... Nc6 { [%eval -0.19] }
+4. Qd3 { [%eval -0.25] } 4... d6 $6 { [%eval 0.25] } 5. g3 { [%eval -0.1] }
+5... Nf6 { [%eval 0.04] } 6. Bg2 { [%eval -0.08] } 6... Be7 { [%eval 0.12] } 7.
+Bg5 $6 { [%eval -0.49] } 7... O-O { [%eval -0.22] } 8. Nf3 $6 { [%eval -0.83] }
+8... Be6 $6 { [%eval -0.25] } 9. Bxf6 { [%eval -0.55] } 9... Bxf6
+{ [%eval -0.6] } 10. c3 { [%eval -0.87] } 10... Ne5 { [%eval -0.66] } 11. Nxe5
+{ [%eval -0.91] } 11... Bxe5 $6 { [%eval -0.06] } 12. O-O { [%eval -0.1] }
+12... Qd7 $2 { [%eval 2.04] } 13. Nd2 $2 { [%eval -0.03] } 13... Bh3
+{ [%eval 0.19] } 14. Bxh3 { [%eval 0.23] } 14... Qxh3 { [%eval 0.27] } 15. Nf3
+{ [%eval 0.14] } 15... Rad8 { [%eval 0.33] } 16. Nxe5 { [%eval -0.14] } 16...
+dxe5 { [%eval -0.14] } 17. Qe3 { [%eval -0.13] } 17... Rd7 { [%eval 0.11] } 18.
+Qxa7 { [%eval -0.27] } 18... b6 $2 { [%eval 1.12] } 19. Qa4 { [%eval 0.65] }
+19... Rfd8 $6 { [%eval 1.24] } 20. Qb5 $6 { [%eval 0.36] } 20... Qg4 $6
+{ [%eval 1.07] } 21. Qxe5 { [%eval 1.35] } 21... Rd1 $4 { [%eval 10.27] } 22.
+Raxd1 { [%eval 9.84] } 22... Rxd1 $2 { [%eval #1] } 23. Qe8# 1-0

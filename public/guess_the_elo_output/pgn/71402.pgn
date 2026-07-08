@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Dqa2btcz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Carallot"]
+[Black "BARAKOFF"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:31:49"]
+[WhiteElo "1925"]
+[BlackElo "1890"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted"]
+[TimeControl "120+12"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.15] } 2...
+dxc4 { [%eval 0.34] } 3. Nc3 { [%eval 0.18] } 3... a6 { [%eval 0.06] } 4. e4
+{ [%eval -0.18] } 4... b5 { [%eval -0.13] } 5. a4 { [%eval -0.25] } 5... c6 $6
+{ [%eval 0.6] } 6. axb5 { [%eval 0.63] } 6... cxb5 { [%eval 0.69] } 7. Nxb5
+{ [%eval 0.45] } 7... Bb7 $2 { [%eval 1.56] } 8. Nc3 { [%eval 1.62] } 8... Nf6
+{ [%eval 1.6] } 9. f3 { [%eval 1.31] } 9... Qc8 { [%eval 1.59] } 10. d5
+{ [%eval 1.29] } 10... e6 $6 { [%eval 1.97] } 11. Qa4+ { [%eval 1.57] } 11...
+Nbd7 { [%eval 1.85] } 12. Bxc4 $2 { [%eval -0.09] } 12... exd5 { [%eval 0.06] }
+13. Nxd5 { [%eval 0.0] } 13... Nxd5 { [%eval 0.0] } 14. Bxd5 { [%eval -0.03] }
+14... Bxd5 { [%eval 0.1] } 15. exd5 { [%eval 0.18] } 15... Bc5 { [%eval 0.16] }
+16. Bd2 $2 { [%eval -0.94] } 16... O-O { [%eval -1.13] } 17. Ne2
+{ [%eval -1.09] } 17... Re8 { [%eval -0.69] } 18. Rc1 $6 { [%eval -1.26] }
+18... Qb7 { [%eval -1.19] } 19. b4 { [%eval -1.16] } 19... Ba7 $6
+{ [%eval -0.58] } 20. d6 $2 { [%eval -3.28] } 20... Rac8 $2 { [%eval -0.77] }
+21. Rxc8 { [%eval -1.05] } 21... Qxc8 { [%eval -1.02] } 22. Kd1
+{ [%eval -1.07] } 22... Qc4 $2 { [%eval 0.0] } 23. Re1 { [%eval 0.0] } 23...
+Bf2 { [%eval 0.0] } 24. Qxd7 { [%eval 0.0] } 24... Qb3+ { [%eval 0.0] } 25. Kc1
+{ [%eval 0.0] } 25... Qa3+ { [%eval 0.0] } 26. Kd1 { [%eval 0.0] } 26... Qb3+
+{ [%eval 0.0] } 27. Kc1 { [%eval 0.0] } 27... Qc4+ $4 { [%eval 7.12] } 28. Kb2
+$4 { [%eval 0.01] } 28... Rc8 $4 { [%eval 17.32] } 29. Rc1 { [%eval 16.22] }
+29... Bd4+ { [%eval 23.51] } 30. Nxd4 { [%eval 22.4] } 30... Qxd4+
+{ [%eval 20.48] } 31. Bc3 { [%eval 17.33] } 31... Qf2+ $6 { [%eval #26] } 32.
+Rc2 { [%eval 39.01] } 1-0

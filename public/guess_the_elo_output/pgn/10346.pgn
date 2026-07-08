@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ca3ecMPq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wirmius"]
+[Black "Leviair"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "13:15:37"]
+[WhiteElo "1461"]
+[BlackElo "1388"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C28"]
+[Opening "Vienna Game: Stanley Variation, Three Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.41] } 2. Bc4 { [%eval 0.02] } 2...
+Nc6 { [%eval 0.24] } 3. Nc3 { [%eval 0.01] } 3... Nf6 { [%eval 0.05] } 4. Nge2
+$6 { [%eval -0.48] } 4... d6 $6 { [%eval 0.39] } 5. O-O { [%eval -0.02] } 5...
+Be7 { [%eval 0.33] } 6. f4 { [%eval 0.12] } 6... a6 { [%eval 0.25] } 7. fxe5
+{ [%eval -0.08] } 7... dxe5 { [%eval -0.02] } 8. d3 { [%eval 0.0] } 8... b5
+{ [%eval 0.14] } 9. Bb3 { [%eval -0.01] } 9... Bb7 $6 { [%eval 0.58] } 10. Bg5
+{ [%eval 0.21] } 10... Nd4 $6 { [%eval 0.79] } 11. Bxf6 { [%eval 0.34] } 11...
+Bxf6 { [%eval 0.21] } 12. Nd5 { [%eval -0.06] } 12... Nxe2+ $6 { [%eval 0.8] }
+13. Qxe2 { [%eval 0.68] } 13... Bxd5 { [%eval 0.91] } 14. Bxd5 { [%eval 0.83] }
+14... Rb8 { [%eval 0.69] } 15. Bc6+ { [%eval 0.72] } 15... Kf8 { [%eval 0.8] }
+16. c3 { [%eval 0.5] } 16... Be7 $2 { [%eval 2.07] } 17. b4 $2 { [%eval 0.86] }
+17... Kg8 $6 { [%eval 1.47] } 18. c4 $6 { [%eval 0.72] } 18... bxc4
+{ [%eval 0.83] } 19. dxc4 { [%eval 0.83] } 19... f6 $4 { [%eval 5.01] } 20. b5
+$4 { [%eval 1.85] } 20... axb5 { [%eval 2.05] } 21. cxb5 { [%eval 2.07] } 21...
+Qd6 $4 { [%eval 8.76] } 22. Qc4+ $4 { [%eval 3.31] } 22... Kf8 { [%eval 3.14] }
+23. Rad1 $2 { [%eval 1.06] } 23... h6 $4 { [%eval 24.9] } 24. Rxd6
+{ [%eval 21.66] } 24... Bxd6 { [%eval 21.41] } 25. Qe6 { [%eval 19.75] } 25...
+Rd8 $6 { [%eval #4] } 26. Bd5 $6 { [%eval 18.7] } 1-0

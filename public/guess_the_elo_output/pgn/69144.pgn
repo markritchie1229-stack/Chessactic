@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/3KpFPL1v"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Zozo_les_bananes"]
+[Black "andi_ar"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:31:55"]
+[WhiteElo "1288"]
+[BlackElo "1222"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+13"]
+[ECO "C22"]
+[Opening "Center Game: Normal Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... e5 { [%eval 0.29] } 2. d4 { [%eval -0.19] } 2...
+exd4 { [%eval 0.22] } 3. Qxd4 { [%eval -0.22] } 3... Nc6 { [%eval -0.09] } 4.
+Be2 $4 { [%eval -11.74] } 4... Nxd4 { [%eval -11.67] } 5. Bd2
+{ [%eval -16.89] } 5... Nf6 { [%eval -12.5] } 6. Bh6 { [%eval -20.21] } 6...
+gxh6 { [%eval -18.04] } 7. Ba6 { [%eval -25.24] } 7... bxa6 { [%eval -25.06] }
+8. Nc3 { [%eval -26.05] } 8... Qe7 { [%eval -20.45] } 9. Nd5 { [%eval -33.41] }
+9... Qd6 { [%eval -23.99] } 10. Nxf6+ { [%eval -26.77] } 10... Qxf6
+{ [%eval -25.85] } 11. c4 { [%eval -31.07] } 11... Bc5 { [%eval -29.33] } 12.
+Nf3 $6 { [%eval #-7] } 12... Nc2+ $6 { [%eval -29.83] } 13. Kd1 $6
+{ [%eval #-18] } 13... Nxa1 { [%eval -36.03] } 14. Re1 $6 { [%eval #-9] } 14...
+Qxb2 { [%eval #-8] } 15. Re3 { [%eval #-3] } 15... Qc2+ $6 { [%eval #-6] } 16.
+Ke1 { [%eval #-7] } 16... Bb4+ { [%eval #-8] } 17. Kf1 { [%eval #-8] } 17...
+Qc1+ { [%eval #-12] } 18. Ke2 { [%eval #-12] } 18... Bb7 $6 { [%eval -35.52] }
+19. Rc3 $6 { [%eval #-6] } 19... Qxc3 { [%eval #-5] } 20. Nd2 { [%eval #-5] }
+20... Qxd2+ { [%eval #-4] } 21. Kf3 { [%eval #-4] } 21... Qc3+ $6
+{ [%eval #-4] } 22. Kf4 { [%eval #-4] } 22... Rg8 { [%eval #-3] } 23. f3
+{ [%eval #-2] } 23... Bd6+ { [%eval #-1] } 24. Kf5 { [%eval #-1] } 24... Qe5#
+0-1

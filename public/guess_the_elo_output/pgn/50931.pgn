@@ -1,0 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/mADnLjsW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "EOblomoff"]
+[Black "ruslya007"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:51:43"]
+[WhiteElo "1512"]
+[BlackElo "1343"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-8"]
+[ECO "C50"]
+[Opening "Italian Game: Schilling-Kostic Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.3] } 2. Bc4 { [%eval 0.19] } 2... Nc6
+{ [%eval 0.22] } 3. Nf3 { [%eval 0.12] } 3... Nd4 $2 { [%eval 1.22] } 4. d3 $6
+{ [%eval 0.35] } 4... Nxf3+ { [%eval 0.35] } 5. Qxf3 { [%eval 0.43] } 5... Qf6
+{ [%eval 0.79] } 6. Qxf6 { [%eval 0.53] } 6... Nxf6 { [%eval 0.46] } 7. O-O
+{ [%eval 0.08] } 7... Bc5 { [%eval 0.22] } 8. Nc3 { [%eval 0.16] } 8... c6
+{ [%eval 0.16] } 9. Be3 { [%eval -0.25] } 9... Bxe3 { [%eval -0.31] } 10. fxe3
+{ [%eval -0.29] } 10... O-O { [%eval 0.07] } 11. a3 { [%eval -0.09] } 11... Ng4
+{ [%eval 0.01] } 12. Rae1 { [%eval 0.0] } 12... d6 { [%eval 0.06] } 13. d4
+{ [%eval -0.32] } 13... exd4 $6 { [%eval 0.19] } 14. exd4 { [%eval 0.19] }
+14... Be6 { [%eval 0.13] } 15. Be2 $6 { [%eval -0.58] } 15... Ne3
+{ [%eval -0.37] } 16. Rf3 { [%eval -0.62] } 16... Nxc2 { [%eval -0.38] } 17.
+Rc1 $2 { [%eval -2.32] } 17... Nxd4 { [%eval -2.22] } 18. Rd3 { [%eval -2.26] }
+18... Nxe2+ { [%eval -2.01] } 19. Kf1 $4 { [%eval -13.25] } 19... Nxc1
+{ [%eval -13.09] } 20. Rxd6 { [%eval -13.93] } 20... Nb3 { [%eval -13.41] } 21.
+e5 { [%eval -13.33] } 21... Rad8 { [%eval -13.08] } 22. Rxd8 { [%eval -14.96] }
+22... Rxd8 { [%eval -14.75] } 23. g3 { [%eval -18.41] } 23... Nd4
+{ [%eval -14.47] } 24. Ne4 { [%eval -15.16] } 24... Nf3 { [%eval -15.01] } 25.
+Kg2 { [%eval -16.14] } 25... Ne1+ { [%eval -14.61] } 26. Kf2 { [%eval -15.52] }
+26... Nd3+ { [%eval -15.11] } 27. Kf3 { [%eval -15.42] } 27... Nxb2
+{ [%eval -14.81] } 28. Nd6 { [%eval -18.08] } 28... Nc4 { [%eval -15.55] } 29.
+Nxc4 $6 { [%eval #-12] } 29... Bxc4 { [%eval #-11] } 30. h3 { [%eval #-10] }
+30... Be6 { [%eval #-9] } 31. g4 { [%eval #-9] } 31... Rd3+ { [%eval #-19] }
+32. Kf4 { [%eval #-13] } 32... Rxa3 { [%eval #-16] } 33. h4 { [%eval #-12] }
+33... Rd3 { [%eval #-11] } 34. g5 { [%eval #-11] } 34... a5 { [%eval #-10] }
+35. Ke4 { [%eval #-10] } 35... Rd5 { [%eval #-9] } 36. Ke3 { [%eval #-9] } 1-0

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/h5ahzZM8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sloobmorn"]
+[Black "clchcks"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:29:08"]
+[WhiteElo "1553"]
+[BlackElo "1484"]
+[WhiteRatingDiff "-68"]
+[BlackRatingDiff "+12"]
+[ECO "A00"]
+[Opening "Grob Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g4 $6 { [%eval -0.79] } 1... c5 { [%eval -0.52] } 2. Bg2 { [%eval -0.52] }
+2... Nc6 { [%eval -0.34] } 3. d4 $6 { [%eval -1.29] } 3... d5 $6
+{ [%eval -0.66] } 4. Bxd5 $4 { [%eval -5.4] } 4... Qxd5 { [%eval -5.23] } 5. f3
+{ [%eval -5.35] } 5... Nxd4 $2 { [%eval -3.14] } 6. Nc3 $2 { [%eval -4.18] }
+6... Qd8 $6 { [%eval -3.5] } 7. Bf4 { [%eval -3.8] } 7... e5 { [%eval -3.63] }
+8. Bxe5 { [%eval -3.82] } 8... Nf6 $2 { [%eval -1.91] } 9. a3 $2
+{ [%eval -3.79] } 9... Bd6 { [%eval -3.47] } 10. Qd3 $4 { [%eval -7.25] } 10...
+Bxe5 { [%eval -6.94] } 11. f4 $4 { [%eval -11.52] } 11... Bxf4
+{ [%eval -11.18] } 12. e3 { [%eval -12.67] } 12... O-O { [%eval -11.52] } 13.
+exd4 { [%eval -13.73] } 13... Bxg4 { [%eval -11.66] } 14. h3 { [%eval -12.02] }
+14... Bh5 { [%eval -11.72] } 15. Nge2 { [%eval -11.47] } 15... Qd5 $4
+{ [%eval 1.33] } 16. Nxd5 { [%eval 1.2] } 16... Nxd5 { [%eval 1.19] } 17. Nxf4
+{ [%eval 0.87] } 17... Nxf4 { [%eval 1.05] } 18. Qf5 { [%eval 0.84] } 18... Ne2
+$4 { [%eval 5.63] } 19. Qxh5 { [%eval 5.52] } 19... Ng3 { [%eval 5.75] } 20.
+Qf3 { [%eval 5.66] } 20... Nxh1 { [%eval 5.68] } 21. Qxh1 { [%eval 5.61] }
+21... Rae8+ { [%eval 5.64] } 22. Kd2 { [%eval 5.59] } 22... Re6 $2
+{ [%eval 6.71] } 23. d5 $2 { [%eval 5.7] } 23... Re5 $2 { [%eval 7.32] } 24. c4
+$6 { [%eval 6.33] } 24... Rfe8 { [%eval 6.33] } 25. Kc3 { [%eval 6.16] } 25...
+Re3+ { [%eval 6.09] } 26. Kc2 { [%eval 5.75] } 26... a6 $2 { [%eval 7.64] } 27.
+Rd1 { [%eval 7.42] } 27... b5 $2 { [%eval 8.62] } 0-1

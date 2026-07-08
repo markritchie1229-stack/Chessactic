@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/SXonYyl5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "uncavi"]
+[Black "starboy95"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:36:53"]
+[WhiteElo "1392"]
+[BlackElo "1447"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.48] } 2. Bc4 { [%eval 0.02] } 2...
+Nc6 { [%eval 0.14] } 3. Nf3 { [%eval 0.2] } 3... Bc5 { [%eval 0.24] } 4. O-O
+{ [%eval 0.08] } 4... d6 { [%eval 0.24] } 5. d4 $6 { [%eval -0.59] } 5... Nxd4
+{ [%eval -0.6] } 6. b4 { [%eval -0.63] } 6... Bb6 { [%eval -0.54] } 7. Nxd4
+{ [%eval -0.91] } 7... Bxd4 { [%eval -0.84] } 8. c3 { [%eval -0.93] } 8... Bb6
+{ [%eval -0.92] } 9. a4 { [%eval -0.93] } 9... a5 { [%eval -0.92] } 10. Qb3
+{ [%eval -1.1] } 10... Nf6 $2 { [%eval -0.08] } 11. Bxf7+ { [%eval -0.07] }
+11... Kf8 $6 { [%eval 0.45] } 12. bxa5 $6 { [%eval -0.07] } 12... Rxa5
+{ [%eval 0.17] } 13. Nd2 { [%eval 0.12] } 13... Qd7 { [%eval 0.31] } 14. Nc4 $4
+{ [%eval -2.97] } 14... Qxf7 { [%eval -2.87] } 15. Nxa5 { [%eval -2.97] } 15...
+Bxa5 { [%eval -2.89] } 16. Qb5 { [%eval -2.92] } 16... Bxc3 { [%eval -2.85] }
+17. Ra3 { [%eval -2.83] } 17... Nxe4 $2 { [%eval -0.81] } 18. Qd3
+{ [%eval -0.86] } 18... Bf5 { [%eval -0.99] } 19. Rxc3 { [%eval -0.94] } 19...
+Nxc3 { [%eval -0.97] } 20. Qxc3 { [%eval -0.86] } 20... Ke7 $2 { [%eval 0.55] }
+21. Qxc7+ { [%eval 0.6] } 21... Ke6 { [%eval 0.52] } 22. Qc4+ { [%eval 0.57] }
+22... Kf6 { [%eval 0.49] } 23. Qh4+ { [%eval 0.47] } 23... g5 $2
+{ [%eval 2.32] } 24. Bxg5+ { [%eval 2.31] } 24... Kg7 $4 { [%eval #3] } 25.
+Qh6+ $4 { [%eval 4.92] } 25... Kg8 { [%eval 4.79] } 26. Bf6 { [%eval 4.34] }
+26... Qe6 $4 { [%eval #1] } 27. Qg7# 1-0

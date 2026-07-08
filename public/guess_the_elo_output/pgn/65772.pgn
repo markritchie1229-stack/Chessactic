@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TISTic4e"]
+[Date "????.??.??"]
+[Round "?"]
+[White "conor-pappas"]
+[Black "Pinkiepou"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:08:35"]
+[WhiteElo "1270"]
+[BlackElo "1322"]
+[WhiteRatingDiff "-78"]
+[BlackRatingDiff "+38"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "120+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.25] } 2. Nf3 { [%eval 0.15] } 2...
+Nc6 { [%eval 0.37] } 3. e3 { [%eval 0.42] } 3... Bg4 { [%eval 0.47] } 4. Bd3 $6
+{ [%eval -0.04] } 4... e6 { [%eval 0.22] } 5. O-O { [%eval 0.22] } 5... Bd6
+{ [%eval 0.29] } 6. b3 { [%eval 0.2] } 6... Bxf3 { [%eval 0.32] } 7. Qxf3
+{ [%eval 0.23] } 7... Qh4 { [%eval 0.64] } 8. g3 { [%eval 0.56] } 8... Qh3
+{ [%eval 0.66] } 9. Bb2 $6 { [%eval 0.1] } 9... Nf6 { [%eval 0.56] } 10. e4 $6
+{ [%eval -0.24] } 10... Ng4 $6 { [%eval 0.44] } 11. Qg2 { [%eval 0.29] } 11...
+Qh6 $2 { [%eval 1.95] } 12. e5 { [%eval 1.72] } 12... Be7 { [%eval 2.02] } 13.
+f3 $4 { [%eval -1.88] } 13... Ne3 { [%eval -1.7] } 14. Qd2 { [%eval -1.77] }
+14... Nxf1 { [%eval -1.71] } 15. Kxf1 { [%eval -1.57] } 15... Qxd2
+{ [%eval -1.66] } 16. Nxd2 { [%eval -1.73] } 16... O-O-O { [%eval -1.39] } 17.
+f4 $6 { [%eval -2.07] } 17... f6 $2 { [%eval -1.03] } 18. c3 { [%eval -1.5] }
+18... fxe5 { [%eval -1.51] } 19. fxe5 { [%eval -1.58] } 19... Rhf8+
+{ [%eval -1.33] } 20. Ke2 { [%eval -1.69] } 20... Rf7 { [%eval -1.57] } 21. b4
+{ [%eval -1.7] } 21... Rdf8 { [%eval -1.63] } 22. Kd1 $2 { [%eval -4.16] }
+22... Bg5 { [%eval -3.83] } 23. Nb3 $6 { [%eval -4.47] } 23... Rf2
+{ [%eval -4.18] } 24. Ke1 $4 { [%eval -9.0] } 24... Rxb2 { [%eval -8.5] } 25.
+Nc5 $2 { [%eval -14.98] } 25... Rff2 $2 { [%eval -7.97] } 26. Nxe6 $2
+{ [%eval -24.24] } 26... Rbe2+ $4 { [%eval 1.36] } 27. Bxe2 { [%eval 1.22] }
+27... Rxh2 $4 { [%eval 4.58] } 28. Nxg5 { [%eval 4.34] } 28... Ne7 $6
+{ [%eval 4.98] } 0-1

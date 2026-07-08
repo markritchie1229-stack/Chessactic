@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/oEoU6Q07"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tjota09"]
+[Black "SoCalPawn"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "05:26:54"]
+[WhiteElo "1546"]
+[BlackElo "1298"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... d5 { [%eval 0.72] } 2. exd5 { [%eval 0.65] } 2...
+Qxd5 { [%eval 0.6] } 3. Nc3 { [%eval 0.6] } 3... Qe6+ { [%eval 0.85] } 4. Be2
+{ [%eval 0.72] } 4... h5 $6 { [%eval 1.36] } 5. Nf3 { [%eval 1.47] } 5... b6 $2
+{ [%eval 2.81] } 6. O-O { [%eval 2.5] } 6... Ba6 { [%eval 2.62] } 7. Bxa6
+{ [%eval 2.85] } 7... Nxa6 { [%eval 2.81] } 8. Re1 { [%eval 2.67] } 8... Qg6 $2
+{ [%eval 5.33] } 9. d4 $2 { [%eval 3.39] } 9... O-O-O { [%eval 3.6] } 10. Nb5
+{ [%eval 3.28] } 10... Kb8 $2 { [%eval 5.84] } 11. Bf4 $4 { [%eval 2.44] }
+11... Nf6 $4 { [%eval 5.87] } 12. Qe2 $2 { [%eval 3.11] } 12... Nd5
+{ [%eval 3.27] } 13. Ne5 $2 { [%eval 0.91] } 13... Qf5 $4 { [%eval 5.58] } 14.
+Bd2 $2 { [%eval 4.39] } 14... Kb7 { [%eval 4.65] } 15. a3 $2 { [%eval 3.16] }
+15... f6 $4 { [%eval 6.28] } 16. Nf7 { [%eval 6.09] } 16... Rc8 $6
+{ [%eval 6.82] } 17. Nxh8 { [%eval 6.56] } 17... c6 { [%eval 6.66] } 18. c4
+{ [%eval 6.58] } 18... c5 $4 { [%eval 12.57] } 19. cxd5 { [%eval 12.21] } 19...
+cxd4 { [%eval 13.28] } 20. Rac1 { [%eval 12.69] } 20... Nc5 { [%eval 14.81] }
+21. b4 { [%eval 14.05] } 21... Nd3 { [%eval 21.46] } 22. Rxc8 { [%eval 20.54] }
+22... Kxc8 { [%eval 26.96] } 23. Rc1+ { [%eval 14.97] } 23... Kb7
+{ [%eval 16.73] } 24. Rc7+ { [%eval 16.2] } 24... Ka6 $6 { [%eval #3] } 25. a4
+{ [%eval #2] } 25... e6 { [%eval #1] } 26. Rxa7# 1-0

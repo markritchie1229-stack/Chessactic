@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/h8r4f7oU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "uLuckLess"]
+[Black "Archivaldo"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:04:02"]
+[WhiteElo "1589"]
+[BlackElo "1532"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "A42"]
+[Opening "Sicilian Defense: Hyperaccelerated Fianchetto"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... c5 { [%eval 0.24] } 2. Nf3 { [%eval 0.21] } 2... g6
+{ [%eval 0.6] } 3. d4 { [%eval 0.25] } 3... cxd4 { [%eval 0.43] } 4. Nxd4
+{ [%eval 0.25] } 4... Bg7 { [%eval 0.33] } 5. f3 { [%eval 0.0] } 5... e5 $2
+{ [%eval 2.29] } 6. Nb3 $2 { [%eval 0.78] } 6... Ne7 { [%eval 1.23] } 7. Bc4 $6
+{ [%eval 0.62] } 7... O-O { [%eval 0.66] } 8. O-O { [%eval 0.41] } 8... a6 $6
+{ [%eval 1.09] } 9. a4 { [%eval 0.68] } 9... Nbc6 { [%eval 1.12] } 10. Bd2 $2
+{ [%eval -0.55] } 10... b6 $2 { [%eval 0.5] } 11. Nc3 { [%eval 0.27] } 11...
+Bb7 { [%eval 0.71] } 12. Nd5 $6 { [%eval 0.2] } 12... Nd4 $2 { [%eval 1.44] }
+13. Nxd4 $2 { [%eval 0.38] } 13... exd4 $6 { [%eval 1.36] } 14. Bg5
+{ [%eval 1.12] } 14... f6 $2 { [%eval 2.87] } 15. Nxb6+ $4 { [%eval -0.22] }
+15... Kh8 { [%eval -0.23] } 16. Nxa8 { [%eval -0.57] } 16... fxg5
+{ [%eval -0.56] } 17. Re1 $6 { [%eval -1.24] } 17... Bxa8 $6 { [%eval -0.29] }
+18. e5 $2 { [%eval -3.04] } 18... Bb7 $2 { [%eval -1.33] } 19. Qxd4
+{ [%eval -1.26] } 19... Nc6 $6 { [%eval -0.31] } 20. Qe3 $2 { [%eval -1.59] }
+20... Nxe5 { [%eval -1.44] } 21. Bd3 $2 { [%eval -2.99] } 21... d6 $2
+{ [%eval -1.65] } 22. Qa7 $2 { [%eval -3.91] } 22... Qd7 $4 { [%eval -0.18] }
+23. Bxa6 { [%eval -0.39] } 23... Nc6 $4 { [%eval 4.98] } 24. Qxb7
+{ [%eval 4.85] } 24... Qxb7 { [%eval 4.8] } 25. Bxb7 { [%eval 4.56] } 25... Nd4
+$2 { [%eval 5.65] } 26. c3 { [%eval 5.58] } 26... Nc2 { [%eval 5.43] } 27. a5
+{ [%eval 5.2] } 27... Nxa1 $6 { [%eval 6.06] } 28. Rxa1 { [%eval 5.98] } 28...
+Rd8 $6 { [%eval 6.6] } 29. a6 { [%eval 6.37] } 29... d5 $2 { [%eval 7.54] } 30.
+a7 { [%eval 7.2] } 30... d4 $2 { [%eval 14.38] } 31. a8=Q { [%eval 13.31] }
+31... Rxa8 { [%eval 53.43] } 32. Rxa8+ { [%eval 52.43] } 1-0

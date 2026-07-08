@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RyRmxzST"]
+[Date "????.??.??"]
+[Round "?"]
+[White "skopjelisice"]
+[Black "untaltal"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:09:26"]
+[WhiteElo "1594"]
+[BlackElo "1878"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c5 { [%eval 0.34] } 2. Bc4 { [%eval -0.11] } 2... e6
+{ [%eval 0.0] } 3. Nf3 { [%eval -0.14] } 3... a6 { [%eval 0.1] } 4. a4
+{ [%eval -0.38] } 4... d5 { [%eval -0.43] } 5. exd5 { [%eval -0.45] } 5... exd5
+{ [%eval -0.3] } 6. Qe2+ { [%eval -0.69] } 6... Be7 { [%eval -0.67] } 7. Ba2
+{ [%eval -0.73] } 7... Nf6 { [%eval -0.67] } 8. O-O { [%eval -0.75] } 8... O-O
+{ [%eval -0.67] } 9. h3 { [%eval -0.76] } 9... Nc6 { [%eval -0.78] } 10. Nc3
+{ [%eval -0.81] } 10... Re8 { [%eval -0.88] } 11. Qd3 $2 { [%eval -3.69] }
+11... Be6 $2 { [%eval -1.86] } 12. Re1 $2 { [%eval -3.29] } 12... Nb4
+{ [%eval -3.25] } 13. Qe3 $2 { [%eval -5.36] } 13... Nxa2 $2 { [%eval -2.72] }
+14. Nxa2 { [%eval -2.8] } 14... d4 { [%eval -2.44] } 15. Qf4 $2
+{ [%eval -4.72] } 15... Bd6 { [%eval -4.41] } 16. Qh4 { [%eval -4.61] } 16...
+Bxa2 { [%eval -4.35] } 17. Rxa2 $2 { [%eval -5.35] } 17... Rxe1+
+{ [%eval -5.26] } 18. Nxe1 { [%eval -5.34] } 18... Qe7 { [%eval -5.02] } 19.
+Nf3 $4 { [%eval -12.8] } 19... Qe6 $4 { [%eval -6.35] } 20. b3 $4
+{ [%eval -12.0] } 20... Re8 $4 { [%eval -6.79] } 21. d3 $4 { [%eval #-2] }
+21... Qe1+ { [%eval #-1] } 0-1

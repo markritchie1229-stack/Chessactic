@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/f1gWS75O"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Take_Take_Mate"]
+[Black "panadeli"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:32:49"]
+[WhiteElo "1747"]
+[BlackElo "1762"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation, Gipslis Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.29] } 1... d5 { [%eval 0.58] } 2. exd5 { [%eval 0.58] } 2...
+Nf6 { [%eval 0.57] } 3. Nf3 { [%eval 0.54] } 3... Nxd5 { [%eval 0.56] } 4. d4
+{ [%eval 0.57] } 4... Bg4 { [%eval 0.74] } 5. Bd3 $6 { [%eval 0.23] } 5... Nc6
+{ [%eval 0.33] } 6. c4 $6 { [%eval -0.39] } 6... Ndb4 { [%eval -0.41] } 7. h3
+$2 { [%eval -2.37] } 7... Bxf3 { [%eval -2.43] } 8. Qxf3 { [%eval -2.35] } 8...
+Nxd4 $6 { [%eval -1.67] } 9. Qxb7 $4 { [%eval -7.62] } 9... Nxd3+
+{ [%eval -7.43] } 10. Kd2 $2 { [%eval -8.91] } 10... Nxf2 $2 { [%eval -6.7] }
+11. Rf1 { [%eval -6.45] } 11... Nf3+ $4 { [%eval -1.51] } 12. Ke2
+{ [%eval -1.63] } 12... Qd3+ $4 { [%eval 2.73] } 13. Kxf2 { [%eval 2.71] }
+13... Rd8 { [%eval 2.72] } 14. Be3 $4 { [%eval -0.37] } 14... Ne5 $2
+{ [%eval 0.67] } 15. Nc3 $6 { [%eval 0.0] } 15... e6 $2 { [%eval 1.11] } 16.
+Qb5+ { [%eval 1.05] } 16... c6 $4 { [%eval 4.33] } 17. Qxe5 { [%eval 4.29] }
+17... Rg8 $6 { [%eval 5.07] } 18. Rad1 { [%eval 4.89] } 18... Qc2+ $4
+{ [%eval 14.18] } 19. Ne2 $4 { [%eval 0.0] } 19... Rxd1 { [%eval 0.0] } 20.
+Rxd1 { [%eval 0.0] } 20... Qxd1 { [%eval 0.0] } 21. Nd4 { [%eval 0.0] } 21...
+Kd7 $2 { [%eval 2.37] } 22. Bf4 { [%eval 1.98] } 1-0

@@ -1,0 +1,38 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/WzulIiL3"]
+[Site "https://lichess.org/yxcEfO6H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Christian91"]
+[Black "jongek_bali"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:00:00"]
+[WhiteElo "1997"]
+[BlackElo "1987"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Black Mustang Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.27] } 1... Nc6 { [%eval 0.49] } 2. g3 { [%eval 0.0] } 2... e5
+{ [%eval -0.11] } 3. Bg2 { [%eval -0.44] } 3... e4 { [%eval -0.54] } 4. Ng1
+{ [%eval -0.6] } 4... d5 { [%eval -0.66] } 5. d3 { [%eval -0.78] } 5... exd3 $6
+{ [%eval -0.03] } 6. Qxd3 { [%eval -0.26] } 6... Nf6 { [%eval -0.24] } 7. c4 $6
+{ [%eval -1.18] } 7... Bd6 $2 { [%eval -0.01] } 8. cxd5 { [%eval -0.02] } 8...
+Nb4 { [%eval 0.13] } 9. Qb5+ $6 { [%eval -0.52] } 9... Bd7 { [%eval -0.54] }
+10. Qc4 { [%eval -0.56] } 10... b5 { [%eval -0.57] } 11. Qb3 { [%eval -0.66] }
+11... a5 $6 { [%eval 0.29] } 12. Nf3 { [%eval 0.32] } 12... a4 { [%eval 0.76] }
+13. Qd1 { [%eval 0.45] } 13... Nfxd5 $2 { [%eval 2.45] } 14. O-O $2
+{ [%eval 0.83] } 14... c6 $2 { [%eval 2.85] } 15. a3 { [%eval 2.43] } 15... Na6
+$2 { [%eval 4.11] } 16. e4 { [%eval 4.05] } 16... Be6 { [%eval 4.25] } 17. exd5
+{ [%eval 4.11] } 17... Bxd5 $2 { [%eval 5.6] } 18. Nc3 { [%eval 5.16] } 18...
+O-O { [%eval 5.09] } 19. Re1 $2 { [%eval 3.8] } 19... Bc5 $2 { [%eval 5.04] }
+20. Nxd5 { [%eval 5.01] } 20... cxd5 { [%eval 4.87] } 21. Be3 $6
+{ [%eval 4.29] } 21... d4 $2 { [%eval 5.39] } 22. Nxd4 { [%eval 5.37] } 22...
+Re8 $4 { [%eval 9.08] } 23. Bxa8 { [%eval 8.77] } 23... Qxa8 { [%eval 8.64] }
+24. Qf3 $2 { [%eval 7.16] } 24... Qa7 $2 { [%eval 12.93] } 25. Nc6
+{ [%eval 12.15] } 25... Qb6 $6 { [%eval #11] } 26. Bxc5 { [%eval 31.23] } 26...
+Rxe1+ $6 { [%eval #6] } 27. Rxe1 { [%eval #5] } 27... Nxc5 { [%eval #1] } 28.
+Re8# 1-0

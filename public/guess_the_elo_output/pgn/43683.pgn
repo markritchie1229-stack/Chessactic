@@ -1,0 +1,39 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/W6DPgs6p"]
+[Site "https://lichess.org/xfYstXgE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "radamel9"]
+[Black "mauriciox1"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:28:12"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+162"]
+[BlackRatingDiff "-163"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Franco-Nimzowitsch Variation"]
+[TimeControl "420+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.02] } 1... e6 { [%eval 0.14] } 2. Nf3 { [%eval 0.1] } 2... Nc6
+{ [%eval 0.52] } 3. e5 $6 { [%eval -0.02] } 3... Nh6 $6 { [%eval 0.56] } 4. d4
+{ [%eval 0.55] } 4... Nf5 { [%eval 0.52] } 5. Nc3 { [%eval 0.43] } 5... Nfxd4
+$2 { [%eval 1.93] } 6. Nxd4 { [%eval 1.76] } 6... Nxd4 $2 { [%eval 3.4] } 7.
+Qxd4 { [%eval 3.34] } 7... d6 { [%eval 3.55] } 8. Bf4 $6 { [%eval 2.82] } 8...
+dxe5 $2 { [%eval 4.19] } 9. Qxd8+ { [%eval 3.87] } 9... Kxd8 { [%eval 3.87] }
+10. O-O-O+ { [%eval 3.7] } 10... Ke8 $6 { [%eval 4.22] } 11. Bxe5
+{ [%eval 4.25] } 11... f6 $2 { [%eval 5.26] } 12. Bxc7 { [%eval 4.78] } 12...
+Bc5 $4 { [%eval 11.89] } 13. Bg3 $4 { [%eval 4.7] } 13... b6 $2
+{ [%eval 7.36] } 14. Nb5 $2 { [%eval 5.6] } 14... Rb8 $4 { [%eval 10.77] } 15.
+Bxb8 { [%eval 10.53] } 15... Ba6 { [%eval 14.53] } 16. Nc7+ { [%eval 14.15] }
+16... Ke7 { [%eval 14.99] } 17. Nxa6 { [%eval 14.48] } 17... Bd6
+{ [%eval 22.03] } 18. Bxd6+ { [%eval 21.61] } 18... Ke8 { [%eval 22.48] } 19.
+Nc7+ { [%eval 21.93] } 19... Kd7 $6 { [%eval #7] } 20. Bg3+ { [%eval #11] }
+20... Kc6 { [%eval #5] } 21. a4 $6 { [%eval #7] } 21... Kb7 { [%eval #4] } 22.
+Ba6+ { [%eval #3] } 22... Kc6 { [%eval #3] } 23. Nxe6 { [%eval #2] } 23... Re8
+{ [%eval #1] } 24. Bb5+ $6 { [%eval #3] } 24... Kb7 { [%eval #3] } 25. Bxe8 $6
+{ [%eval #4] } 25... Ka6 { [%eval #3] } 26. Rd8 $6 { [%eval #3] } 26... Ka5
+{ [%eval #3] } 27. Bd6 { [%eval #2] } 27... Ka6 { [%eval #2] } 28. Rb8 $6
+{ [%eval #2] } 28... Ka5 { [%eval #2] } 29. b4+ { [%eval #1] } 29... Ka6
+{ [%eval #1] } 30. Bb5# 1-0

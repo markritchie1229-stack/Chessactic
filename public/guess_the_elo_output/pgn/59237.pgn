@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Y4eAqjdS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "shanthikumar"]
+[Black "szuka_shmelle"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:43:34"]
+[WhiteElo "1480"]
+[BlackElo "1529"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+70"]
+[ECO "C22"]
+[Opening "Center Game: Hall Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.42] } 2. d4 $6 { [%eval -0.26] } 2...
+exd4 { [%eval 0.01] } 3. Qxd4 { [%eval -0.31] } 3... Nc6 { [%eval 0.03] } 4.
+Qc4 { [%eval -0.39] } 4... d6 $6 { [%eval 0.25] } 5. Nf3 { [%eval 0.19] } 5...
+Be6 { [%eval 0.18] } 6. Qa4 { [%eval 0.05] } 6... a6 { [%eval 0.09] } 7. Bxa6
+$4 { [%eval -3.52] } 7... Rxa6 { [%eval -3.4] } 8. Qb5 { [%eval -3.56] } 8...
+Rb6 $6 { [%eval -2.93] } 9. Qa4 $2 { [%eval -5.43] } 9... Rb4 { [%eval -5.23] }
+10. Qa3 { [%eval -5.3] } 10... Rxe4+ { [%eval -5.39] } 11. Be3
+{ [%eval -5.32] } 11... d5 { [%eval -5.1] } 12. Qd3 { [%eval -5.2] } 12... Nb4
+{ [%eval -5.08] } 13. Qb5+ $2 { [%eval -6.37] } 13... c6 { [%eval -5.89] } 14.
+Qxb7 $2 { [%eval -7.8] } 14... Nxc2+ { [%eval -7.53] } 15. Kf1 $2
+{ [%eval -9.24] } 15... Nxa1 { [%eval -8.92] } 16. Nc3 { [%eval -8.84] } 16...
+Nc2 $6 { [%eval -8.22] } 17. Nxe4 { [%eval -8.27] } 17... dxe4
+{ [%eval -8.09] } 18. Bb6 $2 { [%eval #-2] } 18... Qc8 $2 { [%eval -8.91] } 19.
+Qxc8+ { [%eval -9.02] } 19... Bxc8 { [%eval -8.85] } 20. Ne5 $6
+{ [%eval -9.64] } 20... Bd6 { [%eval -9.47] } 21. Nxc6 { [%eval -9.71] } 21...
+Bb7 $6 { [%eval -8.76] } 22. Nd8 $2 { [%eval -11.09] } 22... Ba6+
+{ [%eval -10.85] } 23. Kg1 { [%eval -10.85] } 23... Nf6 { [%eval -10.56] } 24.
+Nc6 { [%eval -11.28] } 24... O-O { [%eval -10.75] } 25. h4 { [%eval -13.3] }
+25... Rc8 { [%eval -12.93] } 26. Na7 { [%eval -15.57] } 26... Rb8
+{ [%eval -14.34] } 27. Ba5 $6 { [%eval #-14] } 27... Rxb2 { [%eval -21.33] }
+28. Rh3 $6 { [%eval #-2] } 28... Rb1+ { [%eval #-1] } 29. Be1 { [%eval #-1] }
+29... Rxe1# 0-1

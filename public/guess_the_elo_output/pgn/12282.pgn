@@ -1,0 +1,33 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/MgPfoQlE"]
+[Site "https://lichess.org/qXTX3Uod"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bobby_faturrahman18"]
+[Black "gmyusupov"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:51:39"]
+[WhiteElo "1787"]
+[BlackElo "1989"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[ECO "A00"]
+[Opening "Clemenz Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. h3 { [%eval -0.04] } 1... d5 { [%eval 0.0] } 2. Nf3 { [%eval 0.1] } 2... c5
+{ [%eval 0.02] } 3. d4 { [%eval -0.02] } 3... Nc6 { [%eval 0.14] } 4. dxc5
+{ [%eval -0.05] } 4... e5 $6 { [%eval 0.51] } 5. Bf4 $4 { [%eval -5.12] } 5...
+exf4 { [%eval -4.9] } 6. Qd2 { [%eval -5.26] } 6... g5 $2 { [%eval -3.01] } 7.
+Nxg5 $4 { [%eval -6.94] } 7... Qxg5 { [%eval -6.97] } 8. h4 $2
+{ [%eval -8.67] } 8... Qe5 { [%eval -8.27] } 9. Nc3 $2 { [%eval -9.84] } 9...
+d4 { [%eval -9.42] } 10. Nb5 { [%eval -9.82] } 10... Bxc5 { [%eval -9.71] } 11.
+O-O-O { [%eval -9.68] } 11... a6 { [%eval -9.54] } 12. Nxd4 { [%eval -13.52] }
+12... Bxd4 { [%eval -13.03] } 13. e3 { [%eval -18.71] } 13... fxe3
+{ [%eval -13.7] } 14. fxe3 { [%eval -18.81] } 14... Bxe3 { [%eval -13.85] } 15.
+Qxe3 { [%eval -22.03] } 15... Qxe3+ { [%eval -21.77] } 16. Kb1
+{ [%eval -21.49] } 16... Bg4 { [%eval -20.87] } 17. Be2 { [%eval -24.99] }
+17... Bxe2 { [%eval -24.2] } 18. Rde1 { [%eval -25.06] } 18... O-O-O
+{ [%eval -24.15] } 19. Rxe2 $6 { [%eval #-7] } 19... Qxe2 { [%eval #-6] } 20.
+Re1 { [%eval #-1] } 20... Qxe1# 0-1

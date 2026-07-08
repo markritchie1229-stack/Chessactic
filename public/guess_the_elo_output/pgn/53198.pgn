@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/dneAWLtC"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lugovskiy"]
+[Black "Inv"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:43:25"]
+[WhiteElo "1647"]
+[BlackElo "1513"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... c5 { [%eval 0.29] } 2. c3 { [%eval 0.12] } 2... Nc6
+{ [%eval 0.37] } 3. f4 $6 { [%eval -0.19] } 3... e5 { [%eval -0.18] } 4. Nf3 $6
+{ [%eval -0.69] } 4... d6 $2 { [%eval 0.35] } 5. fxe5 { [%eval 0.12] } 5...
+dxe5 { [%eval 0.13] } 6. Bb5 { [%eval 0.11] } 6... Bg4 { [%eval 0.54] } 7. O-O
+{ [%eval 0.41] } 7... Bd6 { [%eval 0.52] } 8. Na3 { [%eval 0.25] } 8... Qc8 $2
+{ [%eval 1.68] } 9. Nc4 { [%eval 1.39] } 9... Qd7 $6 { [%eval 2.29] } 10. h3 $6
+{ [%eval 1.64] } 10... Bh5 $6 { [%eval 2.41] } 11. g4 $6 { [%eval 1.5] } 11...
+Bxg4 $2 { [%eval 3.33] } 12. hxg4 { [%eval 3.17] } 12... Qxg4+ { [%eval 3.47] }
+13. Kf2 { [%eval 3.27] } 13... Qd7 $6 { [%eval 3.89] } 14. Nfxe5
+{ [%eval 3.71] } 14... Bxe5 { [%eval 3.59] } 15. Nxe5 { [%eval 3.68] } 15...
+Qc8 $2 { [%eval 4.75] } 16. Nxf7 $2 { [%eval 3.21] } 16... Kxf7 { [%eval 3.3] }
+17. Qh5+ $2 { [%eval 2.25] } 17... g6 { [%eval 2.39] } 18. Ke2+ $6
+{ [%eval 1.85] } 18... Kg7 { [%eval 1.93] } 19. Bxc6 $4 { [%eval -6.89] } 19...
+gxh5 { [%eval -6.34] } 20. Bd5 $4 { [%eval -10.9] } 20... Nh6 $2
+{ [%eval -7.49] } 21. d3 $2 { [%eval -11.6] } 21... Rf8 $2 { [%eval -7.75] }
+22. Rg1+ $2 { [%eval -9.14] } 22... Kh8 $4 { [%eval 0.0] } 23. Bxh6
+{ [%eval 0.0] } 23... Rf2+ $4 { [%eval 13.61] } 24. Kxf2 { [%eval 12.29] }
+24... Qf8+ $6 { [%eval #16] } 25. Bxf8 { [%eval #15] } 25... Rxf8+
+{ [%eval #15] } 26. Ke2 { [%eval #15] } 26... h6 { [%eval 58.63] } 27. Rg6
+{ [%eval 54.25] } 27... Kh7 $6 { [%eval #5] } 28. Rag1 { [%eval #4] } 28... a5
+{ [%eval #3] } 29. Rg7+ $6 { [%eval #3] } 29... Kh8 { [%eval #3] } 30. Rxb7 $6
+{ [%eval #4] } 30... h4 { [%eval #3] } 31. Rgg7 { [%eval #2] } 31... Rf2+
+{ [%eval #2] } 32. Kxf2 { [%eval #1] } 32... h5 { [%eval #1] } 33. Rh7# 1-0

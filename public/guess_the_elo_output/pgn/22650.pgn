@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/SnMeMpt2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "N4trach"]
+[Black "dukas225"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:18:54"]
+[WhiteElo "1519"]
+[BlackElo "1605"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "A00"]
+[Opening "Polish Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. b4 $6 { [%eval -0.56] } 1... d5 { [%eval -0.33] } 2. b5 { [%eval -0.75] }
+2... Nf6 { [%eval -0.56] } 3. Bb2 { [%eval -0.55] } 3... Bd7 { [%eval -0.22] }
+4. e4 $6 { [%eval -1.03] } 4... dxe4 { [%eval -1.12] } 5. Nc3 { [%eval -1.16] }
+5... Bg4 { [%eval -0.81] } 6. f3 { [%eval -1.03] } 6... exf3 { [%eval -1.01] }
+7. Nxf3 { [%eval -1.14] } 7... Qd6 $6 { [%eval -0.64] } 8. Bc4 { [%eval -0.9] }
+8... Nbd7 { [%eval -0.84] } 9. O-O $4 { [%eval -4.15] } 9... Ne5 $4
+{ [%eval -0.98] } 10. Bxf7+ $2 { [%eval -3.27] } 10... Kxf7 $4 { [%eval 1.91] }
+11. Nxe5+ { [%eval 1.85] } 11... Qxe5 { [%eval 1.85] } 12. Qxg4
+{ [%eval 1.68] } 12... e6 $6 { [%eval 2.67] } 13. Ne2 $4 { [%eval -2.44] }
+13... Qc5+ $4 { [%eval 2.26] } 14. Kh1 $6 { [%eval 1.75] } 14... Ke7 $4
+{ [%eval 6.18] } 15. Bxf6+ { [%eval 6.11] } 15... gxf6 { [%eval 5.87] } 16. Nd4
+{ [%eval 5.15] } 16... f5 $6 { [%eval 6.12] } 17. Qg5+ { [%eval 6.05] } 17...
+Kd7 { [%eval 5.96] } 18. Qf6 { [%eval 5.86] } 18... Be7 $4 { [%eval 9.85] } 19.
+Qxe6+ { [%eval 9.45] } 19... Kd8 { [%eval 9.1] } 20. Rae1 $4 { [%eval 4.01] }
+20... Re8 $4 { [%eval 11.78] } 21. Nc6+ $4 { [%eval 5.33] } 21... bxc6
+{ [%eval 5.11] } 22. bxc6 $4 { [%eval -0.45] } 22... Qd6 { [%eval -0.39] } 0-1

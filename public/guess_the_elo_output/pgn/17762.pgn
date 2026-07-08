@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/xVCn9exU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "muniogro"]
+[Black "Boxcar_Franky"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:48:29"]
+[WhiteElo "1722"]
+[BlackElo "1853"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "A16"]
+[Opening "English Opening: Anglo-Indian Defense, Queen's Knight Variation"]
+[TimeControl "600+4"]
+[Termination "Time forfeit"]
+
+1. c4 { [%eval 0.1] } 1... Nf6 { [%eval 0.24] } 2. Nc3 { [%eval 0.02] } 2... g6
+$6 { [%eval 0.56] } 3. Nf3 { [%eval 0.2] } 3... Bg7 { [%eval 0.41] } 4. g3
+{ [%eval 0.09] } 4... O-O { [%eval 0.14] } 5. Bg2 { [%eval 0.16] } 5... d6
+{ [%eval 0.28] } 6. d4 { [%eval 0.25] } 6... c6 { [%eval 0.3] } 7. O-O
+{ [%eval 0.27] } 7... Nbd7 { [%eval 0.34] } 8. e4 { [%eval 0.32] } 8... e5
+{ [%eval 0.36] } 9. Bg5 { [%eval 0.05] } 9... Qc7 { [%eval 0.35] } 10. Qc2
+{ [%eval 0.34] } 10... a6 { [%eval 0.53] } 11. Rac1 { [%eval 0.24] } 11... Re8
+{ [%eval 0.48] } 12. Rfd1 { [%eval 0.1] } 12... Nf8 $6 { [%eval 0.78] } 13.
+dxe5 $6 { [%eval 0.19] } 13... dxe5 { [%eval 0.52] } 14. b4 { [%eval 0.1] }
+14... Ne6 { [%eval 0.18] } 15. c5 $6 { [%eval -0.39] } 15... Nxg5
+{ [%eval -0.17] } 16. Nxg5 { [%eval -0.29] } 16... h6 { [%eval -0.25] } 17. Nh3
+$6 { [%eval -1.06] } 17... Be6 { [%eval -0.76] } 18. Rd6 $2 { [%eval -1.97] }
+18... Bf8 { [%eval -1.85] } 19. Qd2 $2 { [%eval -3.27] } 19... Bxd6
+{ [%eval -3.22] } 20. cxd6 { [%eval -3.27] } 20... Qd7 { [%eval -3.25] } 21.
+Qxh6 { [%eval -3.18] } 21... Bxh3 { [%eval -3.03] } 22. Bxh3 { [%eval -2.84] }
+22... Qxd6 { [%eval -2.88] } 23. Rd1 $6 { [%eval -3.62] } 23... Qe7 $2
+{ [%eval -2.55] } 24. f4 $2 { [%eval -4.83] } 24... exf4 { [%eval -4.45] } 25.
+gxf4 $4 { [%eval -7.78] } 25... Rad8 $2 { [%eval -4.84] } 26. Re1 $4
+{ [%eval -11.34] } 26... Qxb4 { [%eval -10.62] } 27. f5 { [%eval -11.74] }
+27... Qxc3 { [%eval -11.11] } 28. Re3 { [%eval -53.22] } 28... Rd1+
+{ [%eval -29.09] } 0-1

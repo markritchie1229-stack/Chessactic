@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nFsf0ysJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "miguelvega98"]
+[Black "ZUkott"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:48:50"]
+[WhiteElo "1897"]
+[BlackElo "1882"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+22"]
+[ECO "A40"]
+[Opening "Queen's Pawn"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... h5 $6 { [%eval 0.87] } 2. c4 { [%eval 0.83] } 2...
+h4 { [%eval 1.1] } 3. Nc3 { [%eval 0.96] } 3... d6 { [%eval 1.0] } 4. e4
+{ [%eval 0.73] } 4... g6 $6 { [%eval 1.29] } 5. Nf3 $6 { [%eval 0.72] } 5... h3
+{ [%eval 0.9] } 6. gxh3 { [%eval 0.95] } 6... Bxh3 { [%eval 1.02] } 7. Bxh3
+{ [%eval 0.97] } 7... Rxh3 { [%eval 0.96] } 8. Bf4 $6 { [%eval 0.35] } 8... Nf6
+{ [%eval 0.81] } 9. Qe2 { [%eval 0.78] } 9... Nc6 { [%eval 0.77] } 10. d5
+{ [%eval 0.65] } 10... Nb4 { [%eval 0.66] } 11. a3 $2 { [%eval -0.36] } 11...
+Rxf3 { [%eval -0.33] } 12. Qxf3 { [%eval -0.41] } 12... Nc2+ { [%eval -0.36] }
+13. Kd2 { [%eval -0.33] } 13... Nxa1 { [%eval -0.28] } 14. Rxa1
+{ [%eval -0.38] } 14... Qd7 { [%eval -0.21] } 15. e5 { [%eval -0.25] } 15...
+dxe5 { [%eval 0.0] } 16. Bxe5 { [%eval 0.07] } 16... O-O-O { [%eval 0.5] } 17.
+Nb5 $2 { [%eval -0.75] } 17... Kb8 $4 { [%eval 4.1] } 18. Bxc7+
+{ [%eval 3.99] } 18... Ka8 { [%eval 3.96] } 19. Bxd8 { [%eval 3.58] } 19...
+Qxd8 { [%eval 3.57] } 20. Qg3 $4 { [%eval -5.47] } 20... Ne4+ { [%eval -5.2] }
+21. Ke3 $4 { [%eval -8.66] } 21... Nxg3 { [%eval -8.41] } 22. fxg3
+{ [%eval -8.35] } 0-1

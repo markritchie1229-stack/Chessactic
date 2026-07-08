@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/epErPpNz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mikor"]
+[Black "leonardodiolupo"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:33:45"]
+[WhiteElo "1461"]
+[BlackElo "1556"]
+[WhiteRatingDiff "+23"]
+[BlackRatingDiff "-15"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.16] } 1... e5 { [%eval -0.13] } 2. e4 { [%eval -0.26] } 2...
+Nf6 { [%eval -0.02] } 3. Be2 $2 { [%eval -1.16] } 3... Be7 $6 { [%eval -0.52] }
+4. g4 $2 { [%eval -1.6] } 4... d6 $2 { [%eval -0.59] } 5. d3 { [%eval -0.88] }
+5... Nc6 $6 { [%eval -0.33] } 6. c3 $6 { [%eval -0.89] } 6... Qd7 $6
+{ [%eval -0.11] } 7. g5 { [%eval -0.29] } 7... Ng4 $2 { [%eval 1.66] } 8. h4 $2
+{ [%eval 0.31] } 8... f6 $6 { [%eval 1.12] } 9. Rh3 $2 { [%eval 0.07] } 9...
+fxg5 $2 { [%eval 1.33] } 10. Bxg5 $2 { [%eval -0.68] } 10... Bxg5 $6
+{ [%eval -0.07] } 11. hxg5 { [%eval -0.12] } 11... b6 $2 { [%eval 1.74] } 12.
+Rg3 $6 { [%eval 0.75] } 12... Nxf2 $2 { [%eval 1.88] } 13. Kxf2
+{ [%eval 1.69] } 13... O-O+ { [%eval 2.09] } 14. Ke1 { [%eval 1.89] } 14... d5
+{ [%eval 1.92] } 15. Nf3 { [%eval 1.53] } 15... Ba6 $6 { [%eval 2.48] } 16. Nh4
+$2 { [%eval 1.43] } 16... g6 $2 { [%eval 2.73] } 17. Kd2 $2 { [%eval 0.0] }
+17... dxe4 { [%eval 0.25] } 18. Nxg6 $2 { [%eval -2.72] } 18... hxg6
+{ [%eval -2.43] } 19. Qh1 $6 { [%eval -3.01] } 19... Bxd3 { [%eval -2.55] } 20.
+Bxd3 $2 { [%eval -3.84] } 20... exd3 { [%eval -3.18] } 21. Rh3 $4
+{ [%eval -7.08] } 21... Rf2+ { [%eval -6.56] } 22. Ke3 $4 { [%eval #-3] } 22...
+Qxh3+ $4 { [%eval 6.0] } 23. Qxh3 { [%eval 5.7] } 23... Rxb2 $4
+{ [%eval 15.68] } 24. Nd2 { [%eval 12.61] } 24... Rd8 $6 { [%eval #4] } 25.
+Qe6+ { [%eval #3] } 25... Kf8 { [%eval #3] } 26. Rf1+ { [%eval #2] } 26... Kg7
+{ [%eval #2] } 27. Rf7+ $6 { [%eval #2] } 27... Kg8 { [%eval #2] } 28. Qxg6+
+{ [%eval #1] } 28... Kh8 { [%eval #1] } 1-0

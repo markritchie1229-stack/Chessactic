@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QT5odjXN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HardWoodPusher"]
+[Black "NgaPeja"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:03:09"]
+[WhiteElo "1925"]
+[BlackElo "1848"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+13"]
+[ECO "A43"]
+[Opening "Old Benoni Defense"]
+[TimeControl "0+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.15] } 1... c5 { [%eval 0.57] } 2. c4 $6 { [%eval -0.05] } 2...
+e6 $6 { [%eval 0.79] } 3. d5 { [%eval 0.69] } 3... Qa5+ { [%eval 1.1] } 4. Bd2
+{ [%eval 0.99] } 4... Qb6 { [%eval 0.97] } 5. Bc3 { [%eval 0.67] } 5... Nf6
+{ [%eval 0.67] } 6. Nd2 $6 { [%eval -0.25] } 6... exd5 { [%eval -0.22] } 7.
+cxd5 { [%eval -0.58] } 7... Nxd5 { [%eval -0.54] } 8. e4 { [%eval -0.59] } 8...
+Nxc3 { [%eval -0.5] } 9. bxc3 { [%eval -0.57] } 9... g6 { [%eval -0.43] } 10.
+Rb1 { [%eval -0.47] } 10... Qa5 { [%eval -0.44] } 11. Qb3 $6 { [%eval -0.98] }
+11... Bg7 { [%eval -0.97] } 12. c4 $6 { [%eval -1.71] } 12... Nc6
+{ [%eval -1.75] } 13. Bd3 { [%eval -1.96] } 13... Nb4 $6 { [%eval -1.46] } 14.
+a3 { [%eval -1.58] } 14... Nxd3+ { [%eval -1.19] } 15. Qxd3 { [%eval -1.19] }
+15... O-O { [%eval -1.14] } 16. Nf3 { [%eval -1.42] } 16... d6
+{ [%eval -1.27] } 17. O-O { [%eval -1.48] } 17... a6 $6 { [%eval -0.56] } 18.
+Rfd1 $6 { [%eval -1.12] } 18... b5 $6 { [%eval -0.56] } 19. cxb5 $6
+{ [%eval -1.54] } 19... axb5 { [%eval -1.41] } 20. Qb3 $6 { [%eval -2.25] }
+20... c4 { [%eval -2.12] } 21. Qb4 $2 { [%eval -3.83] } 21... Qxb4
+{ [%eval -3.73] } 22. axb4 $2 { [%eval -4.91] } 22... Rb8 $2 { [%eval -2.6] }
+23. Rbc1 $6 { [%eval -3.11] } 23... Bb7 { [%eval -2.85] } 24. Nb1
+{ [%eval -3.14] } 24... Rfe8 { [%eval -2.74] } 25. Rxd6 { [%eval -3.14] } 25...
+Bxe4 { [%eval -2.83] } 0-1

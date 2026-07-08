@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/5ZR99tBL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lukasi96"]
+[Black "CrhistianSol"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:15:55"]
+[WhiteElo "1298"]
+[BlackElo "1292"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.21] } 1... c6 { [%eval 0.43] } 2. d4 { [%eval 0.47] } 2... e6
+{ [%eval 0.6] } 3. f4 { [%eval 0.19] } 3... Nf6 { [%eval 0.43] } 4. e5
+{ [%eval 0.31] } 4... Ne4 { [%eval 0.44] } 5. Ne2 { [%eval -0.02] } 5... Qh4+
+$6 { [%eval 0.83] } 6. g3 { [%eval 0.86] } 6... Qh5 { [%eval 0.87] } 7. Bg2
+{ [%eval 0.91] } 7... d5 { [%eval 0.93] } 8. Bxe4 { [%eval 0.84] } 8... dxe4
+{ [%eval 0.77] } 9. O-O $6 { [%eval 0.12] } 9... c5 $2 { [%eval 1.31] } 10.
+Nec3 $6 { [%eval 0.63] } 10... b6 $4 { [%eval 11.95] } 11. Qxh5
+{ [%eval 11.49] } 11... g6 { [%eval 12.49] } 12. Qe2 { [%eval 12.07] } 12...
+cxd4 { [%eval 18.19] } 13. Qxe4 { [%eval 18.17] } 13... Bc5 { [%eval 18.1] }
+14. Qxa8 { [%eval 18.06] } 14... dxc3+ { [%eval 17.83] } 15. Kg2
+{ [%eval 17.45] } 15... Bd7 { [%eval 30.07] } 16. Qxb8+ { [%eval 29.19] } 16...
+Ke7 { [%eval 28.08] } 17. Qxh8 { [%eval 26.95] } 17... Bc6+ { [%eval 30.54] }
+18. Kh3 { [%eval 29.42] } 18... cxb2 { [%eval 30.62] } 19. Bxb2
+{ [%eval 29.35] } 19... Bb5 $6 { [%eval #8] } 20. Rf3 $6 { [%eval 27.74] }
+20... f6 $6 { [%eval #12] } 21. exf6+ { [%eval #11] } 21... Kd6 { [%eval #6] }
+22. Qxh7 $6 { [%eval 72.58] } 22... e5 $6 { [%eval #9] } 23. fxe5+
+{ [%eval #9] } 23... Kd5 { [%eval #6] } 24. Qxg6 { [%eval #10] } 24... Bd7+
+{ [%eval #10] } 25. g4 { [%eval #9] } 25... Bb5 { [%eval #6] } 26. Qf7+
+{ [%eval #8] } 26... Ke4 { [%eval #1] } 27. Nd2# 1-0

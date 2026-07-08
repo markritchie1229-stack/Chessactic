@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mr3AKfOz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Andrzej701"]
+[Black "vonaviza"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:38:44"]
+[WhiteElo "1495"]
+[BlackElo "1526"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "D08"]
+[Opening "Queen's Gambit Refused: Albin Countergambit"]
+[TimeControl "900+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.16] } 1... d5 { [%eval 0.12] } 2. c4 { [%eval 0.25] } 2... e5
+{ [%eval 0.68] } 3. a3 $2 { [%eval -0.37] } 3... Bf5 $2 { [%eval 1.04] } 4.
+dxe5 { [%eval 0.92] } 4... d4 { [%eval 1.16] } 5. Nf3 { [%eval 1.0] } 5... Nc6
+{ [%eval 0.89] } 6. Bg5 $6 { [%eval 0.07] } 6... Be7 { [%eval 0.11] } 7. Bxe7
+{ [%eval -0.08] } 7... Ngxe7 { [%eval 0.0] } 8. b4 $6 { [%eval -0.59] } 8...
+Ng6 { [%eval -0.54] } 9. Qd2 $6 { [%eval -1.39] } 9... Be4 $2 { [%eval 0.08] }
+10. Qg5 $6 { [%eval -0.53] } 10... Bxf3 { [%eval -0.51] } 11. Qxd8+
+{ [%eval -0.5] } 11... Rxd8 { [%eval -0.62] } 12. gxf3 { [%eval -0.92] } 12...
+Ncxe5 { [%eval -0.99] } 13. Nd2 { [%eval -0.92] } 13... O-O { [%eval -0.92] }
+14. c5 { [%eval -1.22] } 14... b6 { [%eval -1.16] } 15. cxb6 { [%eval -1.43] }
+15... axb6 { [%eval -1.31] } 16. Rc1 { [%eval -1.59] } 16... Rd7
+{ [%eval -1.39] } 17. a4 { [%eval -1.71] } 17... Nf4 { [%eval -1.57] } 18. e3
+$2 { [%eval -3.36] } 18... Nfd3+ { [%eval -3.31] } 19. Bxd3 { [%eval -3.35] }
+19... Nxd3+ { [%eval -3.28] } 20. Ke2 { [%eval -3.31] } 20... Nxc1+
+{ [%eval -3.23] } 21. Rxc1 { [%eval -3.19] } 21... Ra8 { [%eval -2.89] } 22.
+Ra1 { [%eval -2.96] } 22... d3+ { [%eval -2.83] } 23. Kf1 $6 { [%eval -3.5] }
+23... g6 $2 { [%eval -2.22] } 24. a5 $2 { [%eval -3.64] } 24... bxa5 $2
+{ [%eval -2.51] } 25. bxa5 { [%eval -2.72] } 25... Ra6 { [%eval -2.58] } 26. e4
+{ [%eval -2.7] } 26... c5 { [%eval -2.32] } 0-1

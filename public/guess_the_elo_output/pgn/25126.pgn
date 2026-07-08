@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3YYG1PwR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tarsis"]
+[Black "lorein"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:54:22"]
+[WhiteElo "2106"]
+[BlackElo "1944"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "B17"]
+[Opening "Caro-Kann Defense: Karpov Variation"]
+[TimeControl "600+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c6 { [%eval 0.54] } 2. d4 { [%eval 0.29] } 2... d5
+{ [%eval 0.43] } 3. Nc3 { [%eval 0.34] } 3... dxe4 { [%eval 0.41] } 4. Nxe4
+{ [%eval 0.4] } 4... Nd7 { [%eval 0.64] } 5. g3 { [%eval 0.27] } 5... Ngf6
+{ [%eval 0.28] } 6. Nxf6+ { [%eval 0.34] } 6... Nxf6 { [%eval 0.32] } 7. Bg2
+{ [%eval 0.0] } 7... e5 { [%eval 0.08] } 8. c3 $6 { [%eval -0.54] } 8... exd4
+{ [%eval -0.36] } 9. cxd4 $6 { [%eval -1.02] } 9... Bb4+ { [%eval -1.22] } 10.
+Bd2 { [%eval -1.52] } 10... Qe7+ $2 { [%eval -0.29] } 11. Ne2 { [%eval -0.39] }
+11... Bg4 { [%eval -0.36] } 12. f3 { [%eval -0.62] } 12... Be6
+{ [%eval -0.71] } 13. O-O { [%eval -0.6] } 13... O-O { [%eval -0.46] } 14. Nf4
+{ [%eval -0.51] } 14... Nd5 { [%eval -0.1] } 15. Nxe6 { [%eval -0.11] } 15...
+Qxe6 { [%eval -0.07] } 16. Re1 { [%eval -0.14] } 16... Qd6 { [%eval -0.09] }
+17. Re4 $6 { [%eval -0.7] } 17... Nf6 { [%eval -0.6] } 18. Rh4 $6
+{ [%eval -1.13] } 18... Rad8 { [%eval -0.67] } 19. Bc3 { [%eval -1.04] } 19...
+Bxc3 { [%eval -0.8] } 20. bxc3 { [%eval -0.93] } 20... c5 { [%eval -0.61] } 21.
+Rb1 $6 { [%eval -1.31] } 21... b6 $6 { [%eval -0.54] } 22. Qa4 $6
+{ [%eval -1.5] } 22... Nd5 $6 { [%eval -0.61] } 23. Qc2 { [%eval -0.71] } 23...
+Ne3 $4 { [%eval #1] } 24. Qxh7# 1-0

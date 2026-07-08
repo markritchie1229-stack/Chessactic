@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9G61iPcw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "juantonamera"]
+[Black "carlosmercado"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:29:56"]
+[WhiteElo "1888"]
+[BlackElo "1940"]
+[WhiteRatingDiff "+26"]
+[BlackRatingDiff "-12"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.01] } 1... Nf6 { [%eval 0.27] } 2. g3 { [%eval -0.13] } 2...
+e6 { [%eval 0.05] } 3. Bg2 { [%eval -0.02] } 3... Bc5 { [%eval 0.43] } 4. d4
+{ [%eval 0.35] } 4... Be7 { [%eval 0.6] } 5. Nf3 { [%eval 0.33] } 5... O-O
+{ [%eval 0.43] } 6. Nc3 { [%eval 0.38] } 6... c6 { [%eval 0.52] } 7. O-O
+{ [%eval 0.47] } 7... d5 { [%eval 0.55] } 8. b3 { [%eval 0.41] } 8... Nbd7
+{ [%eval 0.5] } 9. Bb2 { [%eval 0.41] } 9... b6 { [%eval 0.34] } 10. Nd2
+{ [%eval 0.32] } 10... Bb7 { [%eval 0.37] } 11. e4 { [%eval 0.34] } 11... c5 $6
+{ [%eval 0.98] } 12. cxd5 $6 { [%eval 0.35] } 12... cxd4 { [%eval 0.47] } 13.
+e5 $4 { [%eval -3.66] } 13... dxc3 { [%eval -3.71] } 14. exf6 { [%eval -3.67] }
+14... cxb2 $2 { [%eval -0.79] } 15. fxe7 { [%eval -1.02] } 15... bxa1=Q $6
+{ [%eval -0.22] } 16. exf8=Q+ $6 { [%eval -0.91] } 16... Nxf8 { [%eval -0.95] }
+17. Qxa1 { [%eval -0.85] } 17... Bxd5 { [%eval -1.0] } 18. Rd1
+{ [%eval -1.05] } 18... Bxg2 { [%eval -0.86] } 19. Kxg2 { [%eval -1.03] } 19...
+Qd5+ { [%eval -0.96] } 20. Nf3 { [%eval -0.91] } 20... Qc6 { [%eval -0.76] }
+21. Rc1 { [%eval -0.91] } 21... Qe4 $6 { [%eval -0.29] } 22. Re1 $6
+{ [%eval -1.09] } 22... Qb7 { [%eval -0.98] } 23. h4 { [%eval -1.32] } 23...
+Ng6 { [%eval -0.97] } 24. h5 { [%eval -1.0] } 24... Ne7 { [%eval -0.92] } 25.
+h6 { [%eval -1.0] } 25... gxh6 { [%eval -0.83] } 26. Rh1 $6 { [%eval -1.66] }
+26... Nf5 $6 { [%eval -1.04] } 27. g4 $6 { [%eval -1.57] } 27... Ng7 $6
+{ [%eval -0.67] } 28. Qf6 { [%eval -1.08] } 28... Rd8 $4 { [%eval 17.45] } 29.
+Qxh6 $4 { [%eval -0.84] } 1-0

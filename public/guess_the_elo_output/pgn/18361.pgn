@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/TTaPJxdp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Xios"]
+[Black "CataloniaIndependent"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:12:47"]
+[WhiteElo "1294"]
+[BlackElo "1368"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-14"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Spanish Countergambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.17] } 2...
+Nc6 { [%eval 0.2] } 3. Bb5 { [%eval 0.15] } 3... d5 $6 { [%eval 0.99] } 4. d4
+{ [%eval 0.54] } 4... Bd7 { [%eval 1.02] } 5. exd5 { [%eval 0.87] } 5... Nb4 $2
+{ [%eval 2.0] } 6. Bxd7+ { [%eval 1.99] } 6... Qxd7 { [%eval 2.42] } 7. dxe5 $6
+{ [%eval 1.47] } 7... Nxd5 { [%eval 1.43] } 8. c4 $6 { [%eval 0.76] } 8... Nb4
+{ [%eval 0.85] } 9. a3 $2 { [%eval -0.5] } 9... Nd3+ { [%eval -0.47] } 10. Ke2
+{ [%eval -0.25] } 10... Nf4+ $4 { [%eval 5.27] } 11. Bxf4 { [%eval 5.16] }
+11... Qxd1+ $6 { [%eval 5.86] } 12. Kxd1 $6 { [%eval 5.33] } 12... O-O-O+
+{ [%eval 5.35] } 13. Kc2 { [%eval 5.23] } 13... f6 $6 { [%eval 5.74] } 14. exf6
+{ [%eval 5.33] } 14... Nxf6 { [%eval 5.29] } 15. Ng5 $6 { [%eval 4.43] } 15...
+Rd4 { [%eval 4.54] } 16. Be5 { [%eval 4.34] } 16... Rxc4+ { [%eval 4.37] } 17.
+Nc3 { [%eval 4.31] } 17... Ng4 { [%eval 4.51] } 18. Nf7 { [%eval 4.21] } 18...
+Rg8 { [%eval 4.16] } 19. Rad1 { [%eval 4.08] } 19... Bc5 { [%eval 4.29] } 20.
+f3 { [%eval 4.19] } 20... Nf2 { [%eval 4.36] } 21. Rhe1 $2 { [%eval 2.15] }
+21... Nxd1 { [%eval 2.0] } 22. Rxd1 { [%eval 1.94] } 22... Re8 $2
+{ [%eval 2.94] } 23. b3 { [%eval 2.89] } 23... Rh4 { [%eval 2.7] } 24. b4
+{ [%eval 2.32] } 24... Be3 $2 { [%eval 3.43] } 25. Rd3 $2 { [%eval 1.91] }
+25... Re7 $4 { [%eval #1] } 26. Rd8# 1-0

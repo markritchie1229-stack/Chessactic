@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/BBkfoTJ3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LFUL91"]
+[Black "kkl10"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:29:37"]
+[WhiteElo "1480"]
+[BlackElo "1514"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+15"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.22] } 1... Nc6 { [%eval 0.0] } 2. Bd2 { [%eval -0.26] } 2...
+d5 { [%eval -0.15] } 3. c3 $6 { [%eval -0.77] } 3... e5 { [%eval -0.53] } 4.
+Qc2 { [%eval -0.76] } 4... Nf6 { [%eval -0.58] } 5. b3 $6 { [%eval -1.37] }
+5... Bc5 { [%eval -1.13] } 6. a4 $6 { [%eval -1.88] } 6... Bd6 $2
+{ [%eval -0.64] } 7. e3 $6 { [%eval -1.44] } 7... Be6 $6 { [%eval -0.93] } 8.
+c4 $6 { [%eval -1.7] } 8... O-O { [%eval -1.43] } 9. cxd5 { [%eval -1.85] }
+9... Bxd5 $6 { [%eval -1.19] } 10. e4 $2 { [%eval -3.32] } 10... Be6 $2
+{ [%eval -1.09] } 11. f4 $2 { [%eval -3.68] } 11... exf4 { [%eval -3.45] } 12.
+g3 $4 { [%eval -8.29] } 12... fxg3 { [%eval -7.99] } 13. hxg3 $2
+{ [%eval -11.39] } 13... Bxg3+ { [%eval -11.16] } 14. Kd1 { [%eval -11.24] }
+14... Bg4+ $4 { [%eval -5.93] } 15. Kc1 { [%eval -6.07] } 15... Nd4
+{ [%eval -5.76] } 16. Qc3 $2 { [%eval -7.62] } 16... Be5 { [%eval -7.35] } 17.
+Qc4 $2 { [%eval -13.37] } 17... a6 $2 { [%eval -8.44] } 18. Nf3 $2
+{ [%eval -13.54] } 18... Bxf3 { [%eval -12.93] } 19. Rh3 { [%eval -13.69] }
+19... Bg4 { [%eval -13.27] } 20. Rh4 { [%eval -18.16] } 20... Be6
+{ [%eval -17.37] } 21. Rh2 { [%eval -24.54] } 21... Bxc4 { [%eval -24.04] } 22.
+Re2 { [%eval -36.08] } 22... Nxb3+ { [%eval -33.16] } 23. Kc2 $6
+{ [%eval #-7] } 23... Qxd3+ { [%eval #-6] } 24. Kd1 { [%eval #-6] } 24... Nxa1
+{ [%eval #-5] } 25. Ke1 { [%eval #-2] } 25... Qxb1+ $6 { [%eval #-7] } 26. Kf2
+{ [%eval #-7] } 26... Bd4+ { [%eval #-6] } 27. Kf3 { [%eval #-4] } 27... Bxe2+
+$6 { [%eval #-5] } 28. Bxe2 { [%eval #-4] } 28... Qh1+ $6 { [%eval #-4] } 29.
+Kf4 { [%eval #-2] } 29... Qh4+ { [%eval #-1] } 30. Kf3 { [%eval #-1] } 30...
+Qg4# 0-1

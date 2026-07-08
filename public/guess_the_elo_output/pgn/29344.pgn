@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Yb6oz6A3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Agent_Kremlya"]
+[Black "C01B01"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:21:02"]
+[WhiteElo "2123"]
+[BlackElo "2302"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "E06"]
+[Opening "Catalan Opening: Closed Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... Nf6 { [%eval 0.33] } 2. c4 { [%eval 0.23] } 2... e6
+{ [%eval 0.24] } 3. g3 { [%eval 0.11] } 3... d5 { [%eval 0.11] } 4. Bg2
+{ [%eval 0.11] } 4... Be7 { [%eval 0.11] } 5. Nf3 { [%eval 0.11] } 5... O-O
+{ [%eval 0.15] } 6. O-O { [%eval 0.15] } 6... dxc4 { [%eval 0.18] } 7. Qc2
+{ [%eval 0.1] } 7... a6 { [%eval 0.17] } 8. a4 { [%eval 0.17] } 8... Bd7
+{ [%eval 0.1] } 9. Rd1 { [%eval 0.07] } 9... Bc6 { [%eval 0.0] } 10. Nc3
+{ [%eval 0.0] } 10... Bxf3 { [%eval 0.1] } 11. Bxf3 { [%eval 0.07] } 11... Nc6
+{ [%eval 0.0] } 12. Bxc6 { [%eval 0.0] } 12... bxc6 { [%eval 0.0] } 13. a5
+{ [%eval 0.0] } 13... Rb8 { [%eval 0.0] } 14. Na4 $6 { [%eval -0.58] } 14...
+Qd5 { [%eval -0.33] } 15. Bf4 { [%eval -0.41] } 15... Bd6 { [%eval 0.0] } 16.
+Bxd6 { [%eval -0.14] } 16... cxd6 { [%eval -0.08] } 17. Nb6 { [%eval -0.16] }
+17... Qh5 { [%eval 0.0] } 18. Qxc4 { [%eval 0.0] } 18... Ng4 { [%eval 0.0] }
+19. h4 { [%eval 0.0] } 19... g5 { [%eval 0.0] } 20. Qxc6 { [%eval -0.06] }
+20... gxh4 { [%eval -0.04] } 21. Qxd6 $4 { [%eval -3.9] } 21... Kh8 $4
+{ [%eval -0.9] } 22. gxh4 $4 { [%eval -10.36] } 22... Rg8 { [%eval -9.57] } 23.
+Kf1 { [%eval -18.38] } 23... Qxh4 { [%eval -17.11] } 24. Qg3 $6
+{ [%eval #-23] } 24... Ne3+ $6 { [%eval -14.79] } 0-1

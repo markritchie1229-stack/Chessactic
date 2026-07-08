@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jsePMP26"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ifka44"]
+[Black "Ronin47"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:05:39"]
+[WhiteElo "1943"]
+[BlackElo "1814"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+20"]
+[ECO "D10"]
+[Opening "Slav Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.08] } 1... d5 { [%eval 0.05] } 2. c4 { [%eval 0.02] } 2... c6
+{ [%eval 0.28] } 3. e3 { [%eval 0.08] } 3... Nf6 { [%eval 0.4] } 4. Nc3
+{ [%eval 0.26] } 4... g6 { [%eval 0.44] } 5. Nf3 { [%eval 0.4] } 5... Bg7
+{ [%eval 0.47] } 6. Be2 { [%eval 0.22] } 6... O-O { [%eval 0.29] } 7. O-O
+{ [%eval 0.33] } 7... Bg4 { [%eval 0.31] } 8. h3 { [%eval 0.2] } 8... Be6
+{ [%eval 0.49] } 9. c5 $6 { [%eval -0.01] } 9... Bc8 { [%eval 0.33] } 10. b4
+{ [%eval 0.32] } 10... Nbd7 { [%eval 0.37] } 11. Bb2 { [%eval 0.43] } 11... Qe8
+{ [%eval 0.7] } 12. a4 { [%eval 0.5] } 12... e5 { [%eval 0.48] } 13. Qc2
+{ [%eval 0.52] } 13... e4 { [%eval 0.48] } 14. Nh2 { [%eval 0.43] } 14... Kh8
+{ [%eval 0.69] } 15. Rae1 { [%eval 0.47] } 15... Nb8 { [%eval 0.43] } 16. Bc1
+{ [%eval 0.33] } 16... Na6 { [%eval 0.44] } 17. Qb3 { [%eval 0.14] } 17... Nc7
+{ [%eval 0.2] } 18. f3 $6 { [%eval -0.39] } 18... Be6 { [%eval -0.08] } 19. Qb2
+{ [%eval -0.19] } 19... Bd7 { [%eval 0.0] } 20. fxe4 { [%eval -0.25] } 20...
+Nxe4 { [%eval -0.25] } 21. Nxe4 { [%eval -0.36] } 21... Qxe4 $6
+{ [%eval 0.26] } 22. Bf3 { [%eval -0.2] } 22... Qh4 { [%eval -0.07] } 23. Qf2
+{ [%eval -0.36] } 23... Qxf2+ { [%eval -0.29] } 24. Rxf2 { [%eval -0.15] }
+24... a5 { [%eval -0.14] } 25. Rb2 { [%eval -0.28] } 25... axb4
+{ [%eval -0.25] } 26. Rxb4 { [%eval -0.32] } 26... Ra7 { [%eval -0.09] } 27.
+Ng4 { [%eval -0.33] } 27... Ne6 { [%eval -0.13] } 28. Re2 { [%eval -0.57] }
+28... Re8 { [%eval -0.35] } 29. Kf2 { [%eval -0.72] } 29... Rea8
+{ [%eval -0.25] } 30. Bd2 $2 { [%eval -1.54] } 30... Bc8 { [%eval -1.47] } 31.
+Be1 { [%eval -1.64] } 31... f5 { [%eval -1.62] } 32. Nh2 { [%eval -1.71] }
+32... Rxa4 { [%eval -1.65] } 33. g4 $2 { [%eval -3.22] } 33... f4
+{ [%eval -3.17] } 0-1

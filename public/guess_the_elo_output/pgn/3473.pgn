@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/3B3lmX0p"]
+[Date "????.??.??"]
+[Round "?"]
+[White "samantha_ihc"]
+[Black "agiustir"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:55:22"]
+[WhiteElo "1458"]
+[BlackElo "1115"]
+[WhiteRatingDiff "-23"]
+[BlackRatingDiff "+81"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"]
+[TimeControl "600+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nc6 { [%eval 0.65] } 2. e4 { [%eval 0.45] } 2... e5
+{ [%eval 0.66] } 3. d5 { [%eval 0.82] } 3... Nd4 $2 { [%eval 3.18] } 4. c3
+{ [%eval 3.05] } 4... Nb5 $6 { [%eval 3.93] } 5. Bxb5 { [%eval 4.01] } 5... Nf6
+{ [%eval 3.88] } 6. f3 $2 { [%eval 2.76] } 6... c6 { [%eval 2.8] } 7. Bc4
+{ [%eval 2.85] } 7... Bc5 { [%eval 2.91] } 8. Bg5 { [%eval 2.83] } 8... O-O
+{ [%eval 2.87] } 9. Nd2 { [%eval 2.7] } 9... Qb6 $6 { [%eval 3.59] } 10. Ne2
+{ [%eval 3.45] } 10... cxd5 { [%eval 3.68] } 11. exd5 { [%eval 3.68] } 11...
+Bf2+ $6 { [%eval 4.26] } 12. Kf1 { [%eval 4.36] } 12... d6 $6 { [%eval 5.04] }
+13. Ne4 $4 { [%eval 0.0] } 13... Nxe4 { [%eval 0.0] } 14. fxe4 { [%eval 0.0] }
+14... Bg4 $2 { [%eval 1.94] } 15. Qd2 $4 { [%eval -4.01] } 15... f6 $2
+{ [%eval -1.74] } 16. Bxf6 $4 { [%eval #-11] } 16... Rxf6 { [%eval -25.96] }
+17. Qg5 $6 { [%eval #-6] } 17... Be3+ $6 { [%eval -12.06] } 18. Ke1 $6
+{ [%eval #-6] } 18... Bxg5 { [%eval #-5] } 19. Ng3 { [%eval #-1] } 19... Qe3+
+$6 { [%eval #-1] } 20. Ne2 { [%eval #-1] } 20... Bxe2 $6 { [%eval #-1] } 21.
+Bxe2 { [%eval #-1] } 21... Qd2# 0-1

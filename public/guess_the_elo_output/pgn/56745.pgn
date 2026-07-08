@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EQHHlJy8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jomiol"]
+[Black "tortob20"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:37:27"]
+[WhiteElo "2019"]
+[BlackElo "2003"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Indian Variation"]
+[TimeControl "240+6"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.14] } 1... Nf6 { [%eval 0.05] } 2. Bb2 { [%eval -0.02] } 2...
+g6 { [%eval 0.33] } 3. Bxf6 $6 { [%eval -0.19] } 3... exf6 { [%eval -0.2] } 4.
+c4 { [%eval -0.23] } 4... Bg7 { [%eval -0.13] } 5. Nc3 { [%eval -0.21] } 5...
+O-O { [%eval 0.05] } 6. g3 { [%eval 0.08] } 6... d6 { [%eval 0.07] } 7. e3
+{ [%eval -0.02] } 7... c6 { [%eval 0.14] } 8. Bg2 { [%eval 0.02] } 8... Qa5
+{ [%eval 0.35] } 9. Nge2 { [%eval 0.31] } 9... Nd7 { [%eval 0.33] } 10. O-O
+{ [%eval 0.3] } 10... Ne5 { [%eval 0.5] } 11. d4 { [%eval 0.61] } 11... Ng4
+{ [%eval 0.89] } 12. h3 { [%eval 0.81] } 12... Nh6 { [%eval 0.89] } 13. Qc2
+{ [%eval 0.77] } 13... Bf5 { [%eval 1.0] } 14. Qd2 { [%eval 0.88] } 14... Rfe8
+{ [%eval 0.94] } 15. Rac1 { [%eval 0.68] } 15... Rad8 { [%eval 0.7] } 16. Rfd1
+{ [%eval 0.73] } 16... Bc8 { [%eval 0.87] } 17. d5 { [%eval 0.39] } 17... c5
+{ [%eval 0.3] } 18. Nf4 { [%eval 0.26] } 18... Nf5 { [%eval 0.48] } 19. Nd3
+{ [%eval 0.38] } 19... a6 { [%eval 0.45] } 20. a3 { [%eval 0.26] } 20... Qxa3
+$2 { [%eval 2.24] } 21. Ra1 { [%eval 2.24] } 21... Qxb3 { [%eval 2.24] } 22.
+Rdb1 { [%eval 2.16] } 22... Qxc4 { [%eval 2.22] } 23. Ra4 { [%eval 2.2] } 23...
+Qxa4 { [%eval 2.24] } 24. Nxa4 { [%eval 2.13] } 24... b5 { [%eval 2.22] } 25.
+Nb6 { [%eval 2.2] } 25... Bb7 { [%eval 2.22] } 26. Qa2 { [%eval 2.17] } 26...
+Ne7 { [%eval 2.3] } 27. Nf4 { [%eval 2.0] } 27... f5 { [%eval 2.06] } 28. Nc4
+{ [%eval 1.93] } 28... b4 $2 { [%eval 3.41] } 29. Qa5 { [%eval 3.29] } 29...
+Nc8 { [%eval 3.39] } 30. Qc7 { [%eval 3.39] } 30... Ba8 { [%eval 3.47] } 31.
+Qb8 { [%eval 3.43] } 31... Ne7 $6 { [%eval 4.16] } 32. Qb6 { [%eval 3.87] }
+32... Nc8 $2 { [%eval 5.29] } 33. Qxa6 { [%eval 5.27] } 33... Re7 $2
+{ [%eval 6.47] } 34. Qxa8 { [%eval 6.45] } 1-0

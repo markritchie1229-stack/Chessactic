@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/XI7q5TZj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RORRI"]
+[Black "edalfmarbar"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:21:18"]
+[WhiteElo "1440"]
+[BlackElo "1908"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+3"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: French Connection"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e6 { [%eval 0.34] } 2. Nc3 { [%eval 0.23] } 2...
+Nc6 { [%eval 0.53] } 3. a3 $6 { [%eval -0.01] } 3... d5 { [%eval 0.12] } 4. d3
+{ [%eval -0.11] } 4... Nf6 { [%eval -0.11] } 5. Nf3 { [%eval -0.06] } 5... d4
+{ [%eval -0.12] } 6. Ne2 { [%eval -0.14] } 6... e5 { [%eval -0.01] } 7. Bg5
+{ [%eval -0.27] } 7... h6 { [%eval -0.22] } 8. Bxf6 $6 { [%eval -0.89] } 8...
+Qxf6 { [%eval -0.71] } 9. c3 { [%eval -0.85] } 9... Bg4 { [%eval -1.07] } 10.
+h3 $6 { [%eval -1.62] } 10... Bxf3 { [%eval -1.6] } 11. gxf3 { [%eval -1.57] }
+11... dxc3 { [%eval -1.39] } 12. Nxc3 $6 { [%eval -1.98] } 12... Nd4
+{ [%eval -1.91] } 13. Bg2 { [%eval -2.0] } 13... O-O-O { [%eval -1.66] } 14.
+Nd5 { [%eval -1.78] } 14... Qg6 { [%eval -1.82] } 15. O-O { [%eval -1.66] }
+15... c6 { [%eval -1.73] } 16. Ne3 { [%eval -1.73] } 16... Ne6
+{ [%eval -1.69] } 17. Rc1 { [%eval -2.09] } 17... Nf4 { [%eval -2.1] } 18. Ng4
+$2 { [%eval -4.79] } 18... h5 { [%eval -4.72] } 19. Ne3 { [%eval -4.6] } 19...
+Nxh3+ $2 { [%eval -3.46] } 20. Kh2 { [%eval -3.32] } 20... Nf4
+{ [%eval -3.35] } 21. Rg1 $6 { [%eval -4.04] } 21... Qf6 { [%eval -3.72] } 22.
+Nf5 $4 { [%eval -7.99] } 22... g6 { [%eval -7.56] } 23. Ne3 $2 { [%eval #-2] }
+23... Qh4+ { [%eval #-1] } 24. Bh3+ { [%eval #-1] } 24... Qxh3# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0qKjvkP9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MalachiCZ"]
+[Black "Enuma_Elish"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:37:11"]
+[WhiteElo "1652"]
+[BlackElo "1739"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.25] } 1... e5 { [%eval 0.72] } 2. f4 $2 { [%eval -0.95] } 2...
+exd4 { [%eval -1.02] } 3. Qxd4 { [%eval -1.5] } 3... d6 $2 { [%eval -0.06] } 4.
+Qd1 $6 { [%eval -0.57] } 4... Be7 { [%eval -0.24] } 5. e3 { [%eval -0.55] }
+5... Bh4+ { [%eval -0.12] } 6. g3 { [%eval -0.16] } 6... Bf6 { [%eval -0.13] }
+7. Nf3 { [%eval -0.27] } 7... Nc6 { [%eval 0.18] } 8. Bg2 { [%eval -0.06] }
+8... d5 { [%eval 0.14] } 9. O-O { [%eval -0.08] } 9... Be6 { [%eval 0.3] } 10.
+Qe2 { [%eval -0.13] } 10... Qd7 { [%eval 0.33] } 11. Rd1 { [%eval 0.13] } 11...
+O-O-O { [%eval 0.37] } 12. b3 $4 { [%eval -4.88] } 12... Qe7 $4
+{ [%eval -0.64] } 13. Bb2 $4 { [%eval -6.44] } 13... Bxb2 { [%eval -6.22] } 14.
+Nc3 $2 { [%eval -8.91] } 14... Bxa1 $2 { [%eval -6.29] } 15. Na4 $4
+{ [%eval -9.9] } 15... d4 $4 { [%eval -6.81] } 16. e4 $2 { [%eval -9.34] }
+16... Bc3 { [%eval -9.16] } 17. e5 { [%eval -9.63] } 17... Nb4 $6
+{ [%eval -8.72] } 18. Qb5 $6 { [%eval -9.4] } 18... Bd5 { [%eval -9.07] } 19.
+Kf2 $6 { [%eval -10.52] } 19... c5 $6 { [%eval -9.19] } 20. Ne1 $6
+{ [%eval -11.76] } 20... b6 $6 { [%eval -9.25] } 21. Bxd5 $6 { [%eval -10.92] }
+21... Nxd5 { [%eval -10.72] } 22. Nxb6+ { [%eval -13.95] } 22... Nxb6
+{ [%eval -12.29] } 23. Qa6+ { [%eval -13.38] } 23... Qb7 { [%eval -13.23] } 24.
+Nf3 { [%eval -28.82] } 24... Qxa6 { [%eval -27.81] } 0-1

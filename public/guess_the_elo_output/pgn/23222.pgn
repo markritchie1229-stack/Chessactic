@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8W2MSK6c"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Rafael1111"]
+[Black "Frankarpov"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:47:31"]
+[WhiteElo "1602"]
+[BlackElo "1590"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+62"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.28] } 1... c6 { [%eval 0.29] } 2. Nf3 { [%eval 0.37] } 2... d5
+{ [%eval 0.51] } 3. e5 { [%eval 0.2] } 3... Bf5 { [%eval 0.29] } 4. d4
+{ [%eval 0.23] } 4... e6 { [%eval 0.36] } 5. g3 $6 { [%eval -0.15] } 5... c5
+{ [%eval -0.06] } 6. Na3 $6 { [%eval -0.75] } 6... cxd4 { [%eval -0.5] } 7.
+Nxd4 { [%eval -0.52] } 7... Be4 { [%eval -0.4] } 8. f3 { [%eval -0.56] } 8...
+Bg6 { [%eval -0.57] } 9. Bb5+ { [%eval -0.71] } 9... Nd7 { [%eval -0.56] } 10.
+c4 { [%eval -0.85] } 10... a6 { [%eval -1.01] } 11. Ba4 $6 { [%eval -1.95] }
+11... Bc5 $6 { [%eval -1.37] } 12. cxd5 { [%eval -0.99] } 12... Qa5+ $4
+{ [%eval 2.54] } 13. Ke2 $2 { [%eval 0.39] } 13... Bxd4 $2 { [%eval 1.52] } 14.
+Bxd7+ { [%eval 1.33] } 14... Kxd7 { [%eval 1.42] } 15. dxe6+ { [%eval 1.39] }
+15... Kxe6 { [%eval 1.31] } 16. Qxd4 { [%eval 1.23] } 16... Rd8
+{ [%eval 1.39] } 17. Qc4+ $6 { [%eval 0.51] } 17... Qd5 { [%eval 0.68] } 18. f4
+$4 { [%eval -13.06] } 18... Be4 $4 { [%eval 0.44] } 19. Qxd5+ { [%eval 0.45] }
+19... Bxd5 { [%eval 0.56] } 20. f5+ $2 { [%eval -0.79] } 20... Kxf5
+{ [%eval -0.72] } 21. Rf1+ { [%eval -0.72] } 21... Kxe5 { [%eval -0.67] } 22.
+Bf4+ { [%eval -0.96] } 22... Ke6 { [%eval -0.85] } 23. Rae1 { [%eval -0.92] }
+23... Kd7 { [%eval -0.6] } 24. Rd1 { [%eval -0.91] } 24... Kc8 $6
+{ [%eval -0.06] } 25. Rc1+ { [%eval -0.16] } 25... Bc6 $2 { [%eval 1.15] } 26.
+Nc4 { [%eval 1.17] } 26... Re8+ $6 { [%eval 1.87] } 27. Kf2 { [%eval 1.75] }
+27... Ne7 $4 { [%eval 4.81] } 28. Nd6+ $4 { [%eval 1.0] } 28... Kd7
+{ [%eval 1.1] } 29. Nxe8 { [%eval 1.04] } 29... Rxe8 { [%eval 1.06] } 30. Rcd1+
+{ [%eval 0.97] } 30... Ke6 $4 { [%eval 4.24] } 31. Rfe1+ { [%eval 4.15] } 31...
+Kf5 { [%eval 4.12] } 0-1

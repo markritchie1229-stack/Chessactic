@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/XYJGsvFn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stonewall97"]
+[Black "eastrage"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:43:11"]
+[WhiteElo "1682"]
+[BlackElo "1359"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+61"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense: Ragozin Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.2] } 1... d5 { [%eval 0.31] } 2. c4 { [%eval 0.19] } 2... e6
+{ [%eval 0.27] } 3. Nc3 { [%eval 0.27] } 3... Nf6 { [%eval 0.26] } 4. Nf3
+{ [%eval 0.17] } 4... Bb4 { [%eval 0.27] } 5. Bg5 { [%eval 0.23] } 5... Bxc3+
+{ [%eval 0.37] } 6. bxc3 { [%eval 0.28] } 6... O-O { [%eval 0.28] } 7. e3
+{ [%eval 0.29] } 7... h6 { [%eval 0.34] } 8. Bh4 { [%eval 0.37] } 8... Nbd7
+{ [%eval 0.3] } 9. c5 { [%eval -0.02] } 9... Re8 { [%eval 0.26] } 10. g4 $6
+{ [%eval -0.44] } 10... g5 $6 { [%eval 0.1] } 11. Nxg5 $2 { [%eval -0.99] }
+11... hxg5 { [%eval -1.01] } 12. Bxg5 { [%eval -0.96] } 12... Kg7 $6
+{ [%eval -0.4] } 13. h4 { [%eval -0.72] } 13... Rh8 $6 { [%eval 0.05] } 14. h5
+{ [%eval -0.08] } 14... Qg8 $6 { [%eval 0.64] } 15. h6+ $6 { [%eval 0.0] }
+15... Kf8 { [%eval 0.0] } 16. f4 $2 { [%eval -1.35] } 16... Ne4
+{ [%eval -0.91] } 17. Qd3 $4 { [%eval -4.17] } 17... f6 $2 { [%eval -2.59] }
+18. h7 { [%eval -2.56] } 18... Rxh7 { [%eval -2.62] } 19. Rxh7 $4
+{ [%eval -6.61] } 19... Qxh7 { [%eval -6.47] } 20. Qxe4 $4 { [%eval -14.81] }
+20... Qxe4 { [%eval -12.25] } 0-1

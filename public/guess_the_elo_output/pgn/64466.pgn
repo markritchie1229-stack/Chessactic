@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/KgJ109Ez"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jhonnesalves"]
+[Black "Lisaso"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:19:07"]
+[WhiteElo "1477"]
+[BlackElo "1663"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-17"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... d6 { [%eval 0.41] } 2. d4 { [%eval 0.41] } 2... e6
+{ [%eval 0.57] } 3. Nf3 { [%eval 0.66] } 3... Be7 { [%eval 0.72] } 4. Nc3
+{ [%eval 0.44] } 4... Nf6 { [%eval 0.42] } 5. Bd3 { [%eval 0.45] } 5... c5
+{ [%eval 0.5] } 6. dxc5 { [%eval 0.46] } 6... dxc5 { [%eval 0.41] } 7. b3
+{ [%eval 0.08] } 7... Nc6 { [%eval 0.1] } 8. e5 { [%eval -0.14] } 8... Nd7
+{ [%eval -0.06] } 9. Bf4 $2 { [%eval -1.18] } 9... Nd4 $2 { [%eval 0.96] } 10.
+Nxd4 $6 { [%eval 0.39] } 10... cxd4 { [%eval 0.35] } 11. Nb5 { [%eval 0.31] }
+11... Bb4+ { [%eval 0.42] } 12. Bd2 $6 { [%eval -0.12] } 12... Bxd2+
+{ [%eval -0.19] } 13. Qxd2 { [%eval -0.29] } 13... Nxe5 { [%eval -0.14] } 14.
+O-O { [%eval -0.25] } 14... O-O { [%eval -0.12] } 15. Qf4 $6 { [%eval -0.87] }
+15... Nxd3 { [%eval -0.81] } 16. cxd3 { [%eval -0.76] } 16... Bd7
+{ [%eval -0.41] } 17. Nxd4 { [%eval -0.51] } 17... Rc8 { [%eval -0.37] } 18.
+Rfe1 { [%eval -0.44] } 18... Rc3 { [%eval -0.47] } 19. Re3 { [%eval -0.63] }
+19... e5 $2 { [%eval 0.83] } 20. Qxe5 { [%eval 0.77] } 20... Re8
+{ [%eval 0.77] } 21. Ne6 { [%eval 0.93] } 21... Rxe6 $2 { [%eval 3.15] } 22.
+Qxc3 { [%eval 2.95] } 22... Rc6 { [%eval 3.34] } 23. Qd4 { [%eval 3.31] } 23...
+a6 { [%eval 3.34] } 24. Rae1 { [%eval 3.27] } 24... Be6 $4 { [%eval #1] } 25.
+Qxd8# 1-0

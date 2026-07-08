@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/J9cP2P61"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Discab"]
+[Black "krupa59"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:00:40"]
+[WhiteElo "1392"]
+[BlackElo "1353"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "D06"]
+[Opening "Queen's Gambit Refused: Zilbermints Gambit"]
+[TimeControl "480+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.12] } 2. c4 { [%eval 0.24] } 2... b5
+$6 { [%eval 1.14] } 3. cxb5 { [%eval 0.85] } 3... Bd7 { [%eval 1.09] } 4. e3
+{ [%eval 0.83] } 4... Nf6 { [%eval 0.75] } 5. Nc3 { [%eval 0.75] } 5... e6
+{ [%eval 0.86] } 6. Nf3 { [%eval 0.79] } 6... c6 { [%eval 1.08] } 7. bxc6
+{ [%eval 0.92] } 7... Bxc6 { [%eval 1.14] } 8. Ne5 { [%eval 1.01] } 8... Qa5 $6
+{ [%eval 1.64] } 9. Nxc6 { [%eval 1.43] } 9... Nxc6 { [%eval 1.4] } 10. Bb5
+{ [%eval 1.37] } 10... Qc7 $6 { [%eval 2.18] } 11. Qa4 { [%eval 2.16] } 11...
+a6 $4 { [%eval 11.59] } 12. Bxc6+ { [%eval 11.35] } 12... Nd7 { [%eval 11.62] }
+13. Bxa8 { [%eval 11.47] } 13... Bb4 { [%eval 15.62] } 14. Qxb4
+{ [%eval 15.45] } 14... Nb6 { [%eval 15.38] } 15. O-O { [%eval 12.94] } 15...
+Nxa8 { [%eval 12.95] } 16. Qa4+ { [%eval 12.65] } 16... Qd7 { [%eval 12.67] }
+17. Qxd7+ { [%eval 12.38] } 17... Kxd7 { [%eval 12.35] } 18. a4
+{ [%eval 11.66] } 18... Rb8 { [%eval 11.7] } 19. Rb1 { [%eval 11.54] } 19...
+Nb6 { [%eval 11.65] } 20. b4 { [%eval 11.4] } 20... Nc4 { [%eval 12.0] } 21.
+Re1 { [%eval 11.21] } 21... a5 { [%eval 13.06] } 22. bxa5 { [%eval 12.93] }
+22... Rxb1 { [%eval 12.92] } 23. Nxb1 { [%eval 12.71] } 23... Nxa5
+{ [%eval 12.6] } 24. Ba3 { [%eval 12.29] } 24... Nb3 { [%eval 14.44] } 25. Nc3
+{ [%eval 13.93] } 25... Nd2 { [%eval 15.74] } 26. a5 { [%eval 15.17] } 26...
+Ne4 $6 { [%eval #20] } 27. Nxe4 { [%eval 30.4] } 27... dxe4 $6 { [%eval #8] }
+28. Bf8 $6 { [%eval 25.77] } 28... g6 $6 { [%eval #9] } 29. a6 { [%eval #8] }
+29... Kc7 { [%eval #5] } 30. Rb1 { [%eval #4] } 30... Kd8 { [%eval #4] } 31. a7
+{ [%eval #3] } 31... Ke8 { [%eval #3] } 32. a8=Q+ { [%eval #2] } 32... Kd7
+{ [%eval #2] } 33. Qa7+ { [%eval #1] } 33... Ke8 { [%eval #1] } 34. Rb8# 1-0

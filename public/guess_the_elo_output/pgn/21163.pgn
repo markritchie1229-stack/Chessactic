@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/WG5Aa3RS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PTKindy"]
+[Black "LarrySan"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:05:15"]
+[WhiteElo "1437"]
+[BlackElo "1491"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+31"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo, Normal"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.34] } 2...
+Nc6 { [%eval 0.53] } 3. Bc4 { [%eval 0.2] } 3... Nf6 { [%eval 0.21] } 4. d3
+{ [%eval 0.27] } 4... Bc5 { [%eval 0.32] } 5. b4 $2 { [%eval -0.92] } 5...
+Bxb4+ { [%eval -0.87] } 6. c3 { [%eval -0.93] } 6... Bc5 { [%eval -0.6] } 7. d4
+{ [%eval -0.68] } 7... exd4 { [%eval -0.99] } 8. O-O { [%eval -1.18] } 8...
+dxc3 { [%eval -1.02] } 9. Nxc3 { [%eval -1.11] } 9... O-O { [%eval -0.86] } 10.
+Re1 $6 { [%eval -1.57] } 10... Re8 $2 { [%eval -0.56] } 11. Qc2 $6
+{ [%eval -1.55] } 11... Nb4 $6 { [%eval -0.97] } 12. Qb3 { [%eval -0.93] }
+12... d6 $2 { [%eval 1.58] } 13. Bxf7+ { [%eval 1.22] } 13... Kh8
+{ [%eval 1.11] } 14. Bxe8 { [%eval 1.32] } 14... Qxe8 { [%eval 1.4] } 15. Bg5
+$2 { [%eval 0.07] } 15... Be6 { [%eval 0.0] } 16. Qb1 { [%eval 0.0] } 16... Qe7
+$2 { [%eval 1.7] } 17. e5 { [%eval 1.97] } 17... dxe5 { [%eval 1.88] } 18. Rxe5
+{ [%eval 1.67] } 18... Bd4 $4 { [%eval 8.29] } 19. Rxe6 $4 { [%eval 3.86] }
+19... Qxe6 { [%eval 3.7] } 20. Qxb4 { [%eval 3.6] } 20... Rd8 $4
+{ [%eval 7.57] } 21. Rd1 $4 { [%eval 4.08] } 21... a5 $4 { [%eval 7.56] } 22.
+Qxa5 $2 { [%eval 5.03] } 22... b6 $6 { [%eval 5.66] } 23. Qa4 { [%eval 5.51] }
+23... c5 { [%eval 5.53] } 24. Nxd4 $2 { [%eval 4.19] } 24... cxd4 $2
+{ [%eval 5.33] } 25. Rxd4 $4 { [%eval #-1] } 25... Qe1# 0-1

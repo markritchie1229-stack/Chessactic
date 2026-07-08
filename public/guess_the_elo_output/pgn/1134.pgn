@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/kChIunPZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "olafolafolaf"]
+[Black "Willy_B"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:10:56"]
+[WhiteElo "1035"]
+[BlackElo "1305"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+4"]
+[ECO "A43"]
+[Opening "Old Benoni Defense #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... c5 { [%eval 0.57] } 2. d5 { [%eval 0.61] } 2... c4
+$6 { [%eval 1.6] } 3. c3 $6 { [%eval 0.72] } 3... Nf6 { [%eval 0.89] } 4. d6 $6
+{ [%eval 0.14] } 4... exd6 { [%eval 0.02] } 5. Bg5 { [%eval -0.24] } 5... Be7
+$6 { [%eval 0.6] } 6. Bxf6 { [%eval 0.35] } 6... Bxf6 { [%eval 0.53] } 7. Qxd6
+$6 { [%eval -0.34] } 7... Nc6 { [%eval -0.2] } 8. e4 { [%eval -0.6] } 8... Be7
+$6 { [%eval -0.1] } 9. Qg3 { [%eval -0.25] } 9... O-O { [%eval -0.07] } 10.
+Bxc4 { [%eval -0.08] } 10... Bf6 $6 { [%eval 0.44] } 11. Nd2 { [%eval 0.57] }
+11... a6 $6 { [%eval 1.18] } 12. O-O-O { [%eval 0.77] } 12... b5
+{ [%eval 0.93] } 13. Bd3 $2 { [%eval -0.54] } 13... Re8 $6 { [%eval 0.07] } 14.
+Re1 $2 { [%eval -1.2] } 14... Ne5 $6 { [%eval -0.23] } 15. Bc2 { [%eval -0.3] }
+15... Rb8 { [%eval 0.09] } 16. f4 $2 { [%eval -2.09] } 16... Nc6 $4
+{ [%eval 1.06] } 17. e5 $2 { [%eval -0.07] } 17... Be7 $2 { [%eval 1.35] } 18.
+Qh3 $2 { [%eval 0.2] } 18... g6 { [%eval 0.58] } 19. f5 { [%eval 0.39] } 19...
+d6 $2 { [%eval 1.81] } 20. Qh6 $4 { [%eval -1.81] } 20... Bg5 { [%eval -1.9] }
+21. fxg6 $4 { [%eval -12.54] } 21... Bxh6 { [%eval -12.19] } 22. gxh7+
+{ [%eval -13.88] } 22... Kh8 { [%eval -13.52] } 23. Rf1 { [%eval -17.33] }
+23... Rf8 { [%eval -12.87] } 0-1

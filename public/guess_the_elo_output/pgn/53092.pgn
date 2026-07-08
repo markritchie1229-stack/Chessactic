@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/YUJRSctf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "manamanah"]
+[Black "kogaa"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:34:36"]
+[WhiteElo "1799"]
+[BlackElo "1864"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.45] } 2. Bc4 { [%eval 0.12] } 2... d6
+{ [%eval 0.23] } 3. Bxf7+ $2 { [%eval -2.23] } 3... Kxf7 { [%eval -2.08] } 4.
+c3 { [%eval -2.49] } 4... Qf6 $6 { [%eval -1.97] } 5. Nf3 { [%eval -1.93] }
+5... Ke8 { [%eval -1.56] } 6. Qb3 $6 { [%eval -2.16] } 6... h6
+{ [%eval -1.89] } 7. d3 { [%eval -2.21] } 7... Ne7 { [%eval -1.98] } 8. O-O
+{ [%eval -2.31] } 8... Nec6 { [%eval -1.83] } 9. Be3 { [%eval -1.9] } 9... Nd7
+{ [%eval -1.75] } 10. Nbd2 { [%eval -1.95] } 10... Nb6 $6 { [%eval -1.22] } 11.
+Qc2 $6 { [%eval -1.96] } 11... Be7 { [%eval -1.53] } 12. d4 { [%eval -1.93] }
+12... exd4 { [%eval -1.44] } 13. cxd4 { [%eval -1.85] } 13... Qf7 $2
+{ [%eval -0.3] } 14. d5 { [%eval -0.21] } 14... Ne5 { [%eval 0.12] } 15. Nxe5
+{ [%eval 0.0] } 15... dxe5 { [%eval 0.06] } 16. Qc3 $2 { [%eval -1.31] } 16...
+Bd6 { [%eval -1.14] } 17. Qc1 $6 { [%eval -1.86] } 17... Bd7 { [%eval -1.66] }
+18. Nb3 { [%eval -1.93] } 18... Rc8 { [%eval -1.88] } 19. Qd1 { [%eval -2.18] }
+19... a6 $6 { [%eval -1.33] } 20. Qe2 $2 { [%eval -3.12] } 20... g5 $2
+{ [%eval -1.22] } 21. Nd2 $2 { [%eval -2.74] } 21... Qg6 $6 { [%eval -1.88] }
+22. Nf3 $2 { [%eval -3.91] } 22... Qxe4 { [%eval -3.51] } 23. Rfe1
+{ [%eval -3.77] } 23... Qxd5 $4 { [%eval -0.16] } 24. Bc1 $4 { [%eval -4.89] }
+24... Qe6 $2 { [%eval -2.91] } 25. Be3 $2 { [%eval -4.5] } 25... Bc6 $6
+{ [%eval -3.91] } 26. Nd2 $6 { [%eval -4.7] } 26... Bxg2 $2 { [%eval -1.8] }
+27. f3 $4 { [%eval -5.83] } 27... Bxf3 $4 { [%eval -2.58] } 28. Qxf3
+{ [%eval -2.93] } 28... Rf8 $6 { [%eval -1.97] } 29. Qe2 $2 { [%eval -2.99] }
+29... Qf5 $2 { [%eval -1.91] } 30. Rf1 $6 { [%eval -2.7] } 30... e4 $4
+{ [%eval 10.09] } 31. Rxf5 { [%eval 9.78] } 31... Rxf5 { [%eval 9.56] } 32. Qf1
+$4 { [%eval -2.45] } 32... Bxh2+ $2 { [%eval 0.0] } 0-1

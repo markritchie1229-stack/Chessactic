@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/i6Ef8ydj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Olmob"]
+[Black "kingjamie"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:50:02"]
+[WhiteElo "1317"]
+[BlackElo "1149"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-8"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[TimeControl "300+1"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.38] } 2. Bc4 { [%eval -0.06] } 2...
+Nf6 { [%eval 0.0] } 3. Nf3 { [%eval -0.11] } 3... Nxe4 { [%eval -0.02] } 4. d3
+{ [%eval -0.33] } 4... Nf6 { [%eval -0.27] } 5. Ng5 $2 { [%eval -1.93] } 5...
+d5 { [%eval -1.92] } 6. Bb3 { [%eval -2.04] } 6... h6 { [%eval -1.97] } 7. Nf3
+{ [%eval -2.04] } 7... Nc6 $6 { [%eval -1.36] } 8. c4 { [%eval -1.71] } 8...
+dxc4 { [%eval -1.3] } 9. Bxc4 { [%eval -1.45] } 9... e4 { [%eval -1.08] } 10.
+dxe4 { [%eval -1.45] } 10... Qxd1+ { [%eval -1.39] } 11. Kxd1 { [%eval -1.47] }
+11... Nxe4 { [%eval -1.51] } 12. Rf1 $6 { [%eval -2.33] } 12... Bd6 $2
+{ [%eval -0.35] } 13. Re1 { [%eval -0.35] } 13... f5 { [%eval -0.27] } 14. g4
+$2 { [%eval -2.78] } 14... g6 $2 { [%eval -0.46] } 15. gxf5 { [%eval -0.58] }
+15... gxf5 { [%eval -0.54] } 16. Nc3 { [%eval -0.57] } 16... Bb4 $6
+{ [%eval 0.0] } 17. Bd5 { [%eval -0.31] } 17... Bxc3 { [%eval -0.12] } 18. bxc3
+{ [%eval -0.16] } 18... Bd7 { [%eval -0.12] } 19. Nh4 $2 { [%eval -1.18] }
+19... O-O-O { [%eval -1.15] } 20. f3 $4 { [%eval -6.68] } 20... Nxc3+
+{ [%eval -6.68] } 21. Kc2 { [%eval -6.69] } 21... Nxd5 { [%eval -6.56] } 22.
+Ng6 $2 { [%eval -7.68] } 22... Rhe8 $6 { [%eval -6.91] } 23. Rxe8 $6
+{ [%eval -7.81] } 23... Bxe8 { [%eval -7.5] } 24. Bxh6 $2 { [%eval -9.49] }
+24... Bxg6 { [%eval -9.24] } 25. Bg5 $6 { [%eval -11.96] } 25... f4+
+{ [%eval -10.99] } 26. Kb3 { [%eval -11.54] } 26... Na5+ { [%eval -10.89] } 27.
+Kb2 { [%eval -51.98] } 27... Nc4+ { [%eval -24.36] } 28. Kb3 { [%eval -20.06] }
+28... Nd2+ { [%eval -17.68] } 29. Ka3 { [%eval -14.88] } 29... Nb6 $2
+{ [%eval -8.71] } 30. Bxd8 { [%eval -8.49] } 30... Kxd8 { [%eval -8.29] } 31.
+Rd1 $6 { [%eval -8.87] } 31... Nc4+ { [%eval -8.64] } 32. Kb4 { [%eval -8.32] }
+1-0

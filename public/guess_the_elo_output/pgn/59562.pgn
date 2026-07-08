@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/M9hILt9M"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Piteco"]
+[Black "DrunkKing"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:58:36"]
+[WhiteElo "2048"]
+[BlackElo "1848"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.33] } 2... d6
+{ [%eval 0.34] } 3. d4 { [%eval 0.26] } 3... Bg4 { [%eval 0.72] } 4. Be2
+{ [%eval 0.69] } 4... Nc6 { [%eval 0.92] } 5. dxe5 { [%eval 0.45] } 5... Bxf3
+{ [%eval 0.58] } 6. Bxf3 { [%eval 0.46] } 6... Nxe5 { [%eval 0.69] } 7. Be2
+{ [%eval 0.79] } 7... Nf6 { [%eval 0.92] } 8. Nc3 { [%eval 0.85] } 8... Qd7
+{ [%eval 1.08] } 9. h3 { [%eval 0.74] } 9... a6 { [%eval 1.11] } 10. Bf4 $6
+{ [%eval 0.59] } 10... Qc6 $6 { [%eval 1.24] } 11. f3 $6 { [%eval 0.64] } 11...
+Nc4 { [%eval 0.92] } 12. b3 $6 { [%eval 0.01] } 12... Ne5 $2 { [%eval 1.2] }
+13. Qd2 { [%eval 1.31] } 13... Be7 { [%eval 1.42] } 14. O-O $6 { [%eval 0.57] }
+14... O-O { [%eval 0.7] } 15. Rad1 { [%eval 0.68] } 15... Rfd8 { [%eval 0.83] }
+16. Nd5 { [%eval 0.43] } 16... Nxd5 { [%eval 0.45] } 17. exd5 { [%eval 0.33] }
+17... Qb6+ $6 { [%eval 1.27] } 18. Be3 { [%eval 1.1] } 18... c5
+{ [%eval 1.27] } 19. c4 $6 { [%eval 0.31] } 19... Bf6 { [%eval 0.41] } 20. f4
+{ [%eval 0.3] } 20... Ng6 { [%eval 0.54] } 21. g4 $6 { [%eval 0.0] } 21... a5
+$2 { [%eval 1.33] } 22. g5 { [%eval 1.12] } 22... Be7 { [%eval 1.34] } 23. f5
+{ [%eval 1.18] } 23... Ne5 { [%eval 1.38] } 24. f6 { [%eval 1.44] } 24... gxf6
+$4 { [%eval 5.7] } 25. gxf6 { [%eval 5.42] } 25... Bf8 $2 { [%eval 7.4] } 26.
+Bh6 { [%eval 7.3] } 26... Kh8 { [%eval 7.15] } 27. Kh1 { [%eval 4.76] } 27...
+Bxh6 $4 { [%eval #7] } 28. Qxh6 { [%eval #6] } 28... Rg8 { [%eval #6] } 29. Rg1
+{ [%eval #5] } 29... Rg6 { [%eval #3] } 30. Rxg6 { [%eval #2] } 1-0

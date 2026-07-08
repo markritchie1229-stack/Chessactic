@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mxc5O8UL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jostak"]
+[Black "BobbyJives"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:36:16"]
+[WhiteElo "956"]
+[BlackElo "854"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-12"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.45] } 2. d3 { [%eval 0.0] } 2... Bb4+
+{ [%eval 0.47] } 3. c3 { [%eval 0.31] } 3... Bd6 { [%eval 0.62] } 4. Bd2 $6
+{ [%eval 0.0] } 4... f6 $2 { [%eval 1.03] } 5. b3 $2 { [%eval 0.01] } 5... Nh6
+$2 { [%eval 1.6] } 6. a4 $2 { [%eval 0.2] } 6... f5 $2 { [%eval 2.21] } 7. f3
+$2 { [%eval -0.29] } 7... fxe4 $6 { [%eval 0.46] } 8. dxe4 { [%eval 0.39] }
+8... a5 { [%eval 0.66] } 9. Be2 $6 { [%eval 0.0] } 9... c5 $2 { [%eval 1.97] }
+10. c4 $2 { [%eval 0.26] } 10... Nc6 { [%eval 0.22] } 11. Nc3 { [%eval 0.22] }
+11... Nb4 { [%eval 0.45] } 12. g4 $6 { [%eval -0.26] } 12... g5 $2
+{ [%eval 1.37] } 13. f4 $2 { [%eval -0.37] } 13... gxf4 { [%eval -0.03] } 14.
+h4 { [%eval 0.0] } 14... Bf8 { [%eval 0.49] } 15. g5 { [%eval 0.4] } 15... Nf7
+{ [%eval 0.0] } 16. Nf3 { [%eval -0.36] } 16... h6 $2 { [%eval 1.07] } 17. Nb5
+$2 { [%eval 0.0] } 17... hxg5 { [%eval 0.0] } 18. O-O $4 { [%eval -3.72] }
+18... gxh4 $4 { [%eval 1.48] } 19. Nh2 $4 { [%eval -3.54] } 19... Ng5 $4
+{ [%eval 0.01] } 20. Qc1 $4 { [%eval -6.26] } 20... Nxe4 { [%eval -5.94] } 21.
+Rxf4 $4 { [%eval -10.48] } 21... exf4 { [%eval -9.73] } 22. Bxf4
+{ [%eval -11.14] } 22... Bh6 $4 { [%eval -5.85] } 23. Bh5+ { [%eval -5.78] }
+23... Ke7 { [%eval -6.35] } 24. Bg5+ $4 { [%eval -16.06] } 24... Ke6 $4
+{ [%eval 0.14] } 25. Bg4+ { [%eval 0.0] } 25... Ke5 $4 { [%eval #1] } 26. Bxh6
+$6 { [%eval #4] } 26... Rf8 { [%eval #2] } 27. Bf4+ $6 { [%eval 10.53] } 27...
+Kf6 { [%eval 9.8] } 28. Bh5 $4 { [%eval -1.27] } 28... Kf5 $4 { [%eval 12.17] }
+29. Be3 $4 { [%eval 0.0] } 29... Ke5 $4 { [%eval #11] } 30. Qe1 $4
+{ [%eval -2.58] } 1-0

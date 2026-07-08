@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mI8BVSXa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Hell666Blazer"]
+[Black "Schalke04"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:55:56"]
+[WhiteElo "1127"]
+[BlackElo "1256"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-68"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.41] } 2. Bc4 { [%eval 0.11] } 2... Nc6
+{ [%eval 0.16] } 3. Bb5 { [%eval -0.33] } 3... a6 { [%eval 0.06] } 4. Bc4
+{ [%eval -0.35] } 4... b5 { [%eval -0.21] } 5. Bd5 { [%eval -0.3] } 5... Nf6
+{ [%eval -0.03] } 6. Bb3 $2 { [%eval -1.12] } 6... Be7 $6 { [%eval -0.31] } 7.
+g4 $2 { [%eval -2.3] } 7... O-O $2 { [%eval -0.87] } 8. g5 $2 { [%eval -2.81] }
+8... Nxe4 { [%eval -2.68] } 9. Qh5 $2 { [%eval -4.18] } 9... g6
+{ [%eval -4.04] } 10. Qh6 $4 { [%eval -8.05] } 10... Bxg5 { [%eval -7.45] } 11.
+Qh3 { [%eval -6.77] } 11... h5 $4 { [%eval -3.28] } 12. d3 $4 { [%eval -8.01] }
+12... d6 $4 { [%eval -2.86] } 13. Qg2 { [%eval -2.76] } 13... d5 $2
+{ [%eval -1.69] } 14. Bxg5 $6 { [%eval -2.67] } 14... Qe8 $4 { [%eval 6.35] }
+15. dxe4 { [%eval 6.26] } 15... dxe4 { [%eval 6.59] } 16. Bf6 $6
+{ [%eval 6.08] } 16... Nd4 $4 { [%eval #1] } 17. Bd5 $4 { [%eval 2.58] } 17...
+Nxc2+ $2 { [%eval 4.09] } 18. Kd2 { [%eval 3.88] } 18... Nxa1 $4 { [%eval #1] }
+19. Bxa8 $4 { [%eval 0.54] } 19... Qe6 { [%eval 0.91] } 20. Qg5 $2
+{ [%eval -0.42] } 20... Qf5 $4 { [%eval 5.34] } 21. Qh6 $4 { [%eval -3.36] }
+21... Qe6 $4 { [%eval #1] } 22. Qxf8+ $4 { [%eval -8.1] } 22... Kh7 $4
+{ [%eval #1] } 23. Qg7# 1-0

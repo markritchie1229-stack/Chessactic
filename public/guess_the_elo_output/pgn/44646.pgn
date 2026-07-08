@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ur3AMheN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RadovanP"]
+[Black "Patent"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:06:44"]
+[WhiteElo "1989"]
+[BlackElo "2029"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.2] } 2. d4 { [%eval 0.16] } 2... d5
+{ [%eval 0.17] } 3. exd5 { [%eval 0.08] } 3... exd5 { [%eval 0.1] } 4. Nf3
+{ [%eval 0.1] } 4... Nf6 { [%eval 0.16] } 5. Bd3 { [%eval 0.14] } 5... Be7
+{ [%eval 0.29] } 6. O-O { [%eval 0.24] } 6... O-O { [%eval 0.31] } 7. Re1
+{ [%eval 0.23] } 7... Bg4 { [%eval 0.5] } 8. Nbd2 { [%eval 0.25] } 8... Nc6
+{ [%eval 0.28] } 9. c3 { [%eval 0.31] } 9... Bd6 { [%eval 0.45] } 10. Nf1
+{ [%eval 0.27] } 10... Re8 { [%eval 0.39] } 11. Ne3 { [%eval 0.0] } 11... Bh5
+{ [%eval 0.29] } 12. Qb3 $2 { [%eval -1.61] } 12... Bxf3 { [%eval -1.61] } 13.
+gxf3 { [%eval -1.92] } 13... b6 $2 { [%eval -0.21] } 14. Kh1 $6
+{ [%eval -1.17] } 14... Nh5 { [%eval -0.84] } 15. Qxd5 $4 { [%eval -7.09] }
+15... Qh4 { [%eval -6.47] } 16. Ng4 $4 { [%eval -14.06] } 16... Kh8 $4
+{ [%eval 5.43] } 17. Be3 $4 { [%eval 0.93] } 17... Ne7 { [%eval 1.05] } 18.
+Qxf7 $6 { [%eval 0.48] } 18... Rf8 { [%eval 0.64] } 19. Qe6 { [%eval 0.6] }
+19... Rxf3 $4 { [%eval 3.66] } 20. Be4 $4 { [%eval 0.6] } 20... Rf6 $6
+{ [%eval 1.1] } 21. Qd7 $2 { [%eval -1.15] } 21... Raf8 { [%eval -0.98] } 22.
+f4 $4 { [%eval -8.37] } 22... Nf5 $4 { [%eval 1.0] } 23. Bxf5 $4
+{ [%eval -2.7] } 23... Rxf5 { [%eval -2.42] } 24. Ne5 { [%eval -2.25] } 24...
+Nxf4 { [%eval -2.19] } 25. Rg1 { [%eval -2.62] } 25... g6 $2 { [%eval -1.0] }
+26. Bxf4 $6 { [%eval -1.87] } 26... Rxf4 { [%eval -1.69] } 27. Rxg6 $4
+{ [%eval #-4] } 27... Rf1+ { [%eval #-3] } 28. Kg2 { [%eval #-1] } 28... R8f2#
+0-1

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/nCXUH5Dc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "orangerhyme"]
+[Black "Eugene123"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:58:24"]
+[WhiteElo "1852"]
+[BlackElo "1602"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+19"]
+[ECO "D32"]
+[Opening "Tarrasch Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.12] } 2... e6
+{ [%eval 0.23] } 3. Nc3 { [%eval 0.2] } 3... c5 { [%eval 0.26] } 4. Nf3
+{ [%eval 0.05] } 4... dxc4 { [%eval 0.46] } 5. e4 { [%eval 0.35] } 5... cxd4
+{ [%eval 0.41] } 6. Qxd4 { [%eval 0.41] } 6... Qxd4 { [%eval 0.45] } 7. Nxd4
+{ [%eval 0.25] } 7... e5 $6 { [%eval 0.89] } 8. Nf3 $6 { [%eval 0.29] } 8...
+Nc6 { [%eval 0.37] } 9. Bxc4 { [%eval 0.44] } 9... Bb4 { [%eval 0.58] } 10. Bd2
+{ [%eval 0.25] } 10... Nf6 { [%eval 0.1] } 11. Bd3 { [%eval -0.16] } 11... Bg4
+{ [%eval 0.05] } 12. Nh4 $2 { [%eval -1.06] } 12... O-O-O { [%eval -1.02] } 13.
+O-O $4 { [%eval -5.5] } 13... Rxd3 { [%eval -5.38] } 14. Be1 $6
+{ [%eval -6.02] } 14... Nd4 $2 { [%eval -4.67] } 15. a3 $6 { [%eval -5.32] }
+15... Bxc3 { [%eval -5.04] } 16. Bxc3 $6 { [%eval -5.89] } 16... Ne2+
+{ [%eval -5.74] } 17. Kh1 { [%eval -5.83] } 17... Nxc3 { [%eval -5.65] } 18.
+Rac1 $6 { [%eval -6.45] } 18... Kb8 $6 { [%eval -5.87] } 19. bxc3
+{ [%eval -6.2] } 19... Rc8 { [%eval -6.04] } 20. c4 $6 { [%eval -6.67] } 20...
+Rxa3 { [%eval -6.52] } 21. c5 { [%eval -6.83] } 21... Ra4 { [%eval -6.66] } 22.
+f3 { [%eval -7.0] } 22... Be6 { [%eval -6.84] } 23. Rc2 $6 { [%eval -7.36] }
+23... Rc4 { [%eval -7.12] } 24. Rb2 $6 { [%eval -7.87] } 24... R4xc5
+{ [%eval -7.58] } 25. Rfb1 $2 { [%eval #-2] } 25... b6 $2 { [%eval -7.64] } 26.
+Kg1 { [%eval -7.96] } 26... Rc1+ { [%eval -7.68] } 0-1

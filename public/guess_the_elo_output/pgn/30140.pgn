@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ETsneNee"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Damentauscher"]
+[Black "killerIcicles"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:28:49"]
+[WhiteElo "1369"]
+[BlackElo "1251"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-13"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[TimeControl "1800+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... e6 { [%eval 0.18] } 2. e4 { [%eval 0.14] } 2... c6
+{ [%eval 0.53] } 3. Bc4 { [%eval 0.04] } 3... d5 { [%eval 0.18] } 4. Bd3
+{ [%eval -0.17] } 4... Nf6 $6 { [%eval 0.37] } 5. f3 $2 { [%eval -0.83] } 5...
+dxe4 { [%eval -0.89] } 6. Bxe4 $6 { [%eval -1.39] } 6... Nxe4 { [%eval -1.23] }
+7. fxe4 { [%eval -1.43] } 7... Qd6 $2 { [%eval 0.25] } 8. e5 { [%eval -0.04] }
+8... Qb4+ { [%eval 0.45] } 9. c3 { [%eval 0.15] } 9... Qb6 { [%eval 0.61] } 10.
+Nd2 $6 { [%eval 0.09] } 10... Nd7 { [%eval 0.43] } 11. Nc4 { [%eval 0.12] }
+11... Qb5 $6 { [%eval 0.82] } 12. Qe2 { [%eval 0.45] } 12... c5 $4
+{ [%eval 7.18] } 13. a4 $4 { [%eval 0.45] } 13... Qc6 { [%eval 0.58] } 14. Nf3
+{ [%eval 0.5] } 14... b5 $2 { [%eval 2.7] } 15. Na5 $2 { [%eval 1.28] } 15...
+Qd5 { [%eval 1.45] } 16. axb5 { [%eval 1.26] } 16... f6 $4 { [%eval 11.8] } 17.
+Bf4 $4 { [%eval 2.82] } 17... fxe5 $4 { [%eval 7.31] } 18. Bd2 $4
+{ [%eval 1.58] } 18... exd4 $2 { [%eval 2.96] } 19. cxd4 $2 { [%eval 0.58] }
+19... cxd4 { [%eval 0.8] } 20. Nc6 $2 { [%eval -1.59] } 20... d3
+{ [%eval -1.51] } 21. Qf2 { [%eval -1.56] } 21... Qxb5 $2 { [%eval 0.64] } 22.
+Nb4 $4 { [%eval -6.15] } 22... Bb7 $2 { [%eval -3.21] } 23. O-O $6
+{ [%eval -3.81] } 23... Bxb4 $4 { [%eval 0.0] } 24. Nd4 { [%eval -0.21] } 24...
+Qc4 $4 { [%eval 7.31] } 25. Bxb4 $4 { [%eval -0.14] } 25... Qxb4 $2
+{ [%eval 2.14] } 26. Qf7+ { [%eval 2.08] } 26... Kd8 { [%eval 1.96] } 27. Nxe6+
+{ [%eval 1.95] } 27... Kc8 { [%eval 1.83] } 28. Qxg7 $2 { [%eval 0.74] } 28...
+Qd4+ $4 { [%eval #5] } 1-0

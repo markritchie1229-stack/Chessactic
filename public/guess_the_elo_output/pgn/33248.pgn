@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/JurCVLva"]
+[Date "????.??.??"]
+[Round "?"]
+[White "REALKOSYAK"]
+[Black "panaga"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:48:32"]
+[WhiteElo "2035"]
+[BlackElo "2463"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+3"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.31] } 2. Nf3 { [%eval 0.29] } 2... d6
+{ [%eval 0.32] } 3. b3 { [%eval -0.07] } 3... Nf6 { [%eval -0.07] } 4. d3
+{ [%eval 0.0] } 4... g6 { [%eval -0.01] } 5. Bb2 { [%eval -0.04] } 5... Bg7
+{ [%eval 0.0] } 6. Be2 { [%eval -0.21] } 6... O-O { [%eval -0.21] } 7. Nbd2
+{ [%eval -0.21] } 7... Nc6 { [%eval -0.22] } 8. h3 { [%eval -0.56] } 8... Bd7
+{ [%eval -0.38] } 9. O-O { [%eval -0.5] } 9... b5 { [%eval -0.31] } 10. Nh2
+{ [%eval -0.76] } 10... d5 $6 { [%eval 0.11] } 11. e5 $6 { [%eval -0.68] }
+11... Ne8 { [%eval -0.54] } 12. f4 { [%eval -0.64] } 12... f6 { [%eval -0.66] }
+13. Ndf3 { [%eval -0.75] } 13... d4 { [%eval -0.67] } 14. exf6
+{ [%eval -0.91] } 14... exf6 { [%eval -0.62] } 15. Nh4 { [%eval -1.05] } 15...
+Nc7 { [%eval -1.0] } 16. Bg4 $2 { [%eval -3.33] } 16... Nd5 $2
+{ [%eval -1.77] } 17. Qf3 $6 { [%eval -2.37] } 17... Ne3 { [%eval -2.35] } 18.
+Rf2 $2 { [%eval -3.88] } 18... f5 { [%eval -3.79] } 19. Bc1 $4
+{ [%eval -9.41] } 19... fxg4 { [%eval -8.86] } 20. hxg4 $6 { [%eval -9.38] }
+20... Nb4 $2 { [%eval -7.24] } 21. Bxe3 $2 { [%eval -10.33] } 21... dxe3
+{ [%eval -10.18] } 22. Qxe3 { [%eval -10.15] } 22... Bxa1 { [%eval -9.81] } 23.
+Qxc5 { [%eval -10.82] } 23... Qxh4 { [%eval -10.74] } 24. Qxb4
+{ [%eval -10.68] } 24... Bc6 { [%eval -10.39] } 25. Qd6 { [%eval -11.46] }
+25... Rad8 $2 { [%eval -8.89] } 26. Qxc6 { [%eval -8.75] } 26... Bd4
+{ [%eval -8.56] } 27. Qe6+ $2 { [%eval -10.74] } 27... Kh8 { [%eval -10.21] }
+28. Nf3 $6 { [%eval #-15] } 28... Qxf2+ { [%eval -26.84] } 29. Kh2
+{ [%eval -23.68] } 29... Bg7 { [%eval -13.64] } 30. f5 { [%eval -22.72] } 30...
+Rde8 { [%eval -19.21] } 31. Qd6 { [%eval -15.22] } 31... Re2 { [%eval -13.78] }
+0-1

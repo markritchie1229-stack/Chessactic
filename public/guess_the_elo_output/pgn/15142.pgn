@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/AdoY4Qbf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "notAgm090"]
+[Black "cetinbicen"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:00:58"]
+[WhiteElo "1563"]
+[BlackElo "1551"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D50"]
+[Opening "Queen's Gambit Declined: Modern Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.24] } 2... Nf6
+{ [%eval 0.23] } 3. Nc3 { [%eval 0.27] } 3... e6 { [%eval 0.26] } 4. Bg5
+{ [%eval 0.16] } 4... Bb4 { [%eval 0.3] } 5. Nf3 { [%eval 0.12] } 5... Bxc3+
+{ [%eval 0.41] } 6. bxc3 { [%eval 0.32] } 6... Nc6 $6 { [%eval 0.82] } 7. e3
+{ [%eval 0.75] } 7... O-O { [%eval 0.73] } 8. cxd5 { [%eval 0.6] } 8... exd5
+{ [%eval 0.51] } 9. Bd3 { [%eval 0.46] } 9... Re8 { [%eval 0.65] } 10. O-O
+{ [%eval 0.51] } 10... Bg4 { [%eval 0.85] } 11. h3 { [%eval 0.89] } 11... Bh5
+{ [%eval 1.0] } 12. Be2 $6 { [%eval 0.17] } 12... Bg6 $6 { [%eval 0.78] } 13.
+Bd3 { [%eval 0.39] } 13... Be4 { [%eval 0.82] } 14. Bxe4 { [%eval 0.64] } 14...
+dxe4 { [%eval 1.13] } 15. Nd2 { [%eval 0.97] } 15... Qd5 $6 { [%eval 1.6] } 16.
+Bxf6 { [%eval 1.7] } 16... gxf6 { [%eval 1.7] } 17. f3 { [%eval 1.7] } 17... f5
+$2 { [%eval 3.46] } 18. fxe4 { [%eval 3.29] } 18... fxe4 { [%eval 3.33] } 19.
+Qg4+ { [%eval 3.14] } 19... Kh8 { [%eval 3.47] } 20. Rf4 $2 { [%eval 1.52] }
+20... Rg8 { [%eval 1.61] } 21. Qe2 { [%eval 1.12] } 21... Rxg2+ $4
+{ [%eval 6.0] } 22. Kxg2 { [%eval 5.7] } 22... Rg8+ { [%eval 6.11] } 23. Rg4
+{ [%eval 5.95] } 23... Re8 $2 { [%eval 7.02] } 24. Qc4 $2 { [%eval 5.97] }
+24... Qd6 $4 { [%eval 11.2] } 25. Qxf7 { [%eval 10.5] } 25... Rf8 $6
+{ [%eval #1] } 26. Qg7# 1-0

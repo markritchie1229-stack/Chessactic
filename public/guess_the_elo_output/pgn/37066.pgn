@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gZtWSexn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Planter1144"]
+[Black "guerreiro99"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:57:53"]
+[WhiteElo "1554"]
+[BlackElo "1617"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+43"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "600+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.33] } 3. c4 { [%eval -0.02] } 3... Nc6 { [%eval 0.27] } 4. d3
+{ [%eval -0.1] } 4... g6 { [%eval 0.0] } 5. Nc3 { [%eval -0.04] } 5... Bg7
+{ [%eval -0.04] } 6. Be2 { [%eval 0.06] } 6... Nf6 { [%eval 0.01] } 7. O-O
+{ [%eval 0.04] } 7... O-O { [%eval 0.09] } 8. Bd2 { [%eval -0.27] } 8... e6
+{ [%eval -0.06] } 9. Qc1 { [%eval -0.07] } 9... Re8 { [%eval 0.04] } 10. Bh6
+{ [%eval -0.05] } 10... Bh8 { [%eval 0.15] } 11. Bg5 { [%eval 0.0] } 11... Qd7
+{ [%eval 0.44] } 12. Qf4 { [%eval 0.3] } 12... Nh5 { [%eval 0.33] } 13. Qh4
+{ [%eval 0.31] } 13... f6 { [%eval 0.66] } 14. Be3 { [%eval 0.46] } 14... Qf7
+$6 { [%eval 1.36] } 15. Nb5 $6 { [%eval 0.64] } 15... Rd8 { [%eval 0.74] } 16.
+Nd2 { [%eval 0.6] } 16... a6 { [%eval 0.77] } 17. Bxh5 $6 { [%eval 0.17] }
+17... gxh5 $2 { [%eval 1.48] } 18. Nc3 $2 { [%eval 0.48] } 18... Ne5
+{ [%eval 0.89] } 19. f4 $6 { [%eval 0.0] } 19... Nxd3 { [%eval 0.07] } 20. b3
+{ [%eval 0.0] } 20... Nb4 $6 { [%eval 0.62] } 21. Rac1 $6 { [%eval 0.06] }
+21... Rf8 $6 { [%eval 0.87] } 22. Rf3 { [%eval 0.42] } 22... Bg7
+{ [%eval 0.59] } 23. Rg3 { [%eval 0.32] } 23... Kh8 { [%eval 0.35] } 24. a4
+{ [%eval 0.0] } 24... f5 { [%eval 0.0] } 25. exf5 $2 { [%eval -1.22] } 25...
+Bxc3 $2 { [%eval 1.61] } 26. Rxc3 { [%eval 1.25] } 26... exf5 { [%eval 1.65] }
+27. Rg5 $2 { [%eval 0.4] } 27... Be6 $6 { [%eval 1.02] } 28. Rxh5
+{ [%eval 0.8] } 28... Rg8 $2 { [%eval 2.32] } 29. Nf3 { [%eval 2.22] } 29...
+Qg6 $4 { [%eval 9.05] } 30. Ng5 { [%eval 8.71] } 30... Rg7 { [%eval 8.44] } 31.
+Nxe6 $4 { [%eval #-1] } 31... Qxg2# 0-1

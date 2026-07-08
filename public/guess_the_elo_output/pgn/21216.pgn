@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/cvtsupLg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marein"]
+[Black "smels72"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:07:50"]
+[WhiteElo "1452"]
+[BlackElo "1464"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... e6 { [%eval 0.23] } 2. Bf4 { [%eval 0.02] } 2... f5
+{ [%eval 0.42] } 3. Nf3 { [%eval 0.4] } 3... g6 { [%eval 0.53] } 4. e3
+{ [%eval 0.54] } 4... Nf6 { [%eval 0.54] } 5. Bd3 { [%eval 0.44] } 5... Bg7
+{ [%eval 0.47] } 6. Nbd2 { [%eval 0.29] } 6... O-O { [%eval 0.33] } 7. Bg5
+{ [%eval 0.14] } 7... Nc6 { [%eval 0.08] } 8. Bb5 { [%eval -0.16] } 8... a6
+{ [%eval -0.02] } 9. Bxc6 { [%eval -0.07] } 9... dxc6 { [%eval 0.19] } 10. O-O
+{ [%eval 0.09] } 10... Qe8 { [%eval 0.21] } 11. h3 { [%eval 0.08] } 11... b5 $6
+{ [%eval 0.79] } 12. Bf4 { [%eval 0.83] } 12... Qe7 { [%eval 0.88] } 13. Ne5 $6
+{ [%eval 0.38] } 13... Bb7 $6 { [%eval 1.21] } 14. Nb3 { [%eval 1.16] } 14...
+Ne4 { [%eval 1.22] } 15. f3 { [%eval 1.14] } 15... Bxe5 { [%eval 1.25] } 16.
+Bxe5 { [%eval 1.12] } 16... Ng5 { [%eval 1.59] } 17. Nc5 { [%eval 1.59] } 17...
+f4 $4 { [%eval 5.62] } 18. Nxb7 { [%eval 5.66] } 18... fxe3 { [%eval 5.57] }
+19. Nc5 { [%eval 5.21] } 19... Nxh3+ $4 { [%eval 8.68] } 20. gxh3
+{ [%eval 8.61] } 20... Qg5+ { [%eval 8.89] } 21. Kh2 { [%eval 8.68] } 21...
+Qxe5+ $2 { [%eval 17.06] } 22. dxe5 { [%eval 16.72] } 1-0

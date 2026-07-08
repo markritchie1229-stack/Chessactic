@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/2luIIrXs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chasinalldream"]
+[Black "rockupandover"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:07:05"]
+[WhiteElo "1847"]
+[BlackElo "2271"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+2"]
+[ECO "D02"]
+[Opening "Queen's Gambit Refused: Baltic Defense"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.12] } 2... Bf5
+$6 { [%eval 0.65] } 3. c5 $6 { [%eval -0.33] } 3... c6 { [%eval -0.15] } 4. Nc3
+{ [%eval -0.21] } 4... e5 { [%eval -0.12] } 5. e4 $2 { [%eval -1.26] } 5...
+dxe4 { [%eval -0.89] } 6. Nxe4 $4 { [%eval -4.66] } 6... Bxe4 { [%eval -4.38] }
+7. d5 $2 { [%eval -6.3] } 7... Bxd5 { [%eval -5.96] } 8. Qh5 $2
+{ [%eval -7.29] } 8... Bxc5 $6 { [%eval -6.75] } 9. Qh4 $4 { [%eval -27.36] }
+9... Qxh4 { [%eval -26.58] } 10. g3 { [%eval -33.19] } 10... Bb4+
+{ [%eval -32.65] } 11. Bd2 { [%eval -32.9] } 11... Bxd2+ { [%eval -32.56] } 12.
+Kxd2 { [%eval -31.95] } 12... Qd4+ { [%eval -31.31] } 13. Ke2
+{ [%eval -37.54] } 13... Bxh1 { [%eval -29.2] } 14. Nf3 { [%eval -36.66] }
+14... Bxf3+ { [%eval -30.85] } 15. Kxf3 { [%eval -30.17] } 15... Nf6
+{ [%eval -29.28] } 16. Kg2 $6 { [%eval #-9] } 16... Qxb2 $6 { [%eval -25.69] }
+17. Rd1 { [%eval -34.31] } 17... Ne4 { [%eval -32.94] } 18. Bc4 $6
+{ [%eval #-8] } 18... Qxf2+ { [%eval #-7] } 19. Kh3 { [%eval #-5] } 19... Qf5+
+$6 { [%eval #-8] } 20. g4 { [%eval #-3] } 20... Qf3+ { [%eval #-2] } 21. Kh4
+{ [%eval #-2] } 21... g5+ { [%eval #-1] } 22. Kh5 { [%eval #-1] } 22... Qh3#
+0-1

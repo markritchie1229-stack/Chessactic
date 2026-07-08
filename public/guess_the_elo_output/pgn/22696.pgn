@@ -1,0 +1,38 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/cxW6niHX"]
+[Site "https://lichess.org/fxJDen9f"]
+[Date "????.??.??"]
+[Round "?"]
+[White "user1029"]
+[Black "deltabluesman"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:21:07"]
+[WhiteElo "1371"]
+[BlackElo "1458"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+8"]
+[ECO "A80"]
+[Opening "Dutch Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... f5 { [%eval 0.58] } 2. Nf3 { [%eval 0.55] } 2... g6
+{ [%eval 0.51] } 3. e3 { [%eval 0.54] } 3... Nf6 { [%eval 0.46] } 4. Nc3
+{ [%eval 0.25] } 4... Bg7 { [%eval 0.32] } 5. Bd3 { [%eval 0.2] } 5... d6
+{ [%eval 0.43] } 6. Bd2 { [%eval 0.12] } 6... O-O { [%eval 0.13] } 7. Ne2
+{ [%eval -0.12] } 7... c6 { [%eval 0.28] } 8. c3 $6 { [%eval -0.36] } 8... Qe8
+{ [%eval -0.35] } 9. Ng3 { [%eval -0.48] } 9... e5 { [%eval -0.51] } 10. Ng5 $6
+{ [%eval -1.01] } 10... f4 $2 { [%eval 0.58] } 11. Ne2 $2 { [%eval -0.75] }
+11... fxe3 { [%eval -0.75] } 12. Bxe3 { [%eval -0.97] } 12... Bh6 $6
+{ [%eval -0.04] } 13. Qc2 $6 { [%eval -0.96] } 13... Bxg5 $2 { [%eval 0.41] }
+14. Bxg5 { [%eval 0.5] } 14... Ng4 $2 { [%eval 1.66] } 15. f3 { [%eval 1.66] }
+15... Nf6 { [%eval 1.62] } 16. O-O-O { [%eval 1.17] } 16... e4 $2
+{ [%eval 2.7] } 17. fxe4 { [%eval 2.53] } 17... d5 $6 { [%eval 3.52] } 18. e5
+$6 { [%eval 2.86] } 18... Ne4 { [%eval 3.33] } 19. Bxe4 { [%eval 3.17] } 19...
+dxe4 { [%eval 3.3] } 20. Qxe4 { [%eval 2.91] } 20... Nd7 { [%eval 3.39] } 21.
+Rdf1 { [%eval 3.33] } 21... Rxf1+ { [%eval 3.33] } 22. Rxf1 { [%eval 3.34] }
+22... c5 $4 { [%eval 10.37] } 23. Bh6 $2 { [%eval 8.59] } 23... Nf6 $2
+{ [%eval 16.36] } 24. Rxf6 { [%eval 15.47] } 24... Bg4 $6 { [%eval #10] } 25.
+Nf4 $6 { [%eval 15.63] } 25... Qb5 $6 { [%eval #4] } 26. Qd5+ $6 { [%eval #6] }
+26... Kh8 { [%eval #6] } 27. Qf7 $6 { [%eval 107.02] } 27... Qf1+
+{ [%eval 22.71] } 28. Kc2 $4 { [%eval #-1] } 28... Qd1# 0-1

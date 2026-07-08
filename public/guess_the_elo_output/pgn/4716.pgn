@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wdHsWgEl"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Islam_Gazhev"]
+[Black "MatedKarpov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:20:51"]
+[WhiteElo "1307"]
+[BlackElo "1392"]
+[WhiteRatingDiff "+62"]
+[BlackRatingDiff "-12"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e6 { [%eval 0.26] } 2. Nf3 { [%eval 0.09] } 2... d6
+$6 { [%eval 0.63] } 3. Bb5+ { [%eval 0.26] } 3... Nd7 { [%eval 0.4] } 4. Ba4
+{ [%eval 0.28] } 4... c6 { [%eval 0.3] } 5. d4 { [%eval 0.0] } 5... Ndf6 $6
+{ [%eval 0.61] } 6. Nc3 $6 { [%eval -0.11] } 6... d5 $2 { [%eval 0.98] } 7.
+exd5 $6 { [%eval 0.3] } 7... exd5 { [%eval 0.31] } 8. O-O { [%eval -0.06] }
+8... Be7 $6 { [%eval 0.75] } 9. Nd2 $2 { [%eval -0.28] } 9... Bd7
+{ [%eval -0.01] } 10. Qf3 $6 { [%eval -0.73] } 10... c5 $2 { [%eval 1.61] } 11.
+dxc5 { [%eval 1.66] } 11... Bxa4 { [%eval 1.86] } 12. Qg3 $2 { [%eval 0.01] }
+12... Bxc2 $6 { [%eval 0.92] } 13. Nf3 $4 { [%eval -2.68] } 13... g6 $2
+{ [%eval -1.66] } 14. Bg5 $2 { [%eval -3.36] } 14... Ne4 { [%eval -3.12] } 15.
+Qh4 $4 { [%eval -6.86] } 15... Bxg5 { [%eval -6.66] } 16. Qh3 $6
+{ [%eval -7.56] } 16... Nxf2 $4 { [%eval -3.04] } 17. Rxf2 { [%eval -2.95] }
+17... Be3 $4 { [%eval 1.0] } 18. Re1 { [%eval 0.88] } 18... d4 { [%eval 0.78] }
+19. Kh1 $4 { [%eval -4.76] } 19... Ne7 $2 { [%eval -2.25] } 20. Rxe3 $2
+{ [%eval -4.57] } 20... dxe3 $2 { [%eval -3.22] } 21. Rxc2 { [%eval -3.06] }
+21... O-O { [%eval -2.94] } 22. Ng5 { [%eval -2.95] } 22... Re8 $4
+{ [%eval #2] } 23. Qxh7+ { [%eval #1] } 23... Kf8 { [%eval #1] } 24. Qxf7# 1-0

@@ -1,0 +1,43 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DHvGas75"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bosstuli"]
+[Black "Stefan2315"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:04:58"]
+[WhiteElo "1821"]
+[BlackElo "1718"]
+[WhiteRatingDiff "+37"]
+[BlackRatingDiff "-9"]
+[ECO "A00"]
+[Opening "Kadas Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. h4 { [%eval -0.21] } 1... e5 { [%eval -0.44] } 2. g4 $6 { [%eval -1.19] }
+2... d5 { [%eval -1.09] } 3. e3 { [%eval -1.14] } 3... Bc5 $6 { [%eval -0.46] }
+4. Bb5+ { [%eval -0.7] } 4... c6 { [%eval -0.7] } 5. Be2 { [%eval -0.83] } 5...
+Nd7 { [%eval -0.59] } 6. a3 { [%eval -1.05] } 6... Ndf6 $6 { [%eval -0.23] } 7.
+g5 { [%eval -0.52] } 7... Ne4 $6 { [%eval 0.17] } 8. d3 { [%eval 0.18] } 8...
+Nd6 { [%eval 0.0] } 9. Bd2 $6 { [%eval -0.77] } 9... Be6 $6 { [%eval -0.22] }
+10. Bg4 { [%eval -0.34] } 10... Qb6 $2 { [%eval 2.55] } 11. Bxe6
+{ [%eval 2.68] } 11... fxe6 { [%eval 2.53] } 12. b4 { [%eval 2.47] } 12... Bd4
+$2 { [%eval 3.66] } 13. c3 $6 { [%eval 2.95] } 13... Bxc3 $6 { [%eval 3.65] }
+14. Bxc3 $6 { [%eval 3.15] } 14... d4 { [%eval 3.07] } 15. exd4
+{ [%eval 2.97] } 15... exd4 { [%eval 3.08] } 16. Bb2 { [%eval 3.04] } 16...
+O-O-O $6 { [%eval 3.64] } 17. Nd2 { [%eval 3.25] } 17... e5 $6 { [%eval 4.16] }
+18. Qg4+ { [%eval 4.19] } 18... Kb8 { [%eval 4.12] } 19. Ngf3 { [%eval 3.8] }
+19... h5 { [%eval 4.25] } 20. gxh6 $2 { [%eval 1.64] } 20... gxh6 $4
+{ [%eval 5.82] } 21. Nxe5 $2 { [%eval 4.12] } 21... Nf6 { [%eval 4.46] } 22.
+Qxd4 { [%eval 4.43] } 22... Qc7 { [%eval 4.44] } 23. O-O-O { [%eval 4.25] }
+23... Nde4 $6 { [%eval 5.17] } 24. Qe3 { [%eval 5.06] } 24... Nd6
+{ [%eval 5.26] } 25. Nec4 { [%eval 5.24] } 25... Nd5 { [%eval 5.17] } 26. Qe6
+$2 { [%eval 2.67] } 26... Rhe8 $2 { [%eval 4.97] } 27. Qxh6 { [%eval 4.6] }
+27... Qf7 $4 { [%eval 11.2] } 28. Nxd6 { [%eval 10.83] } 28... Rxd6
+{ [%eval 14.58] } 29. Qxd6+ { [%eval 14.2] } 29... Ka8 { [%eval 14.02] } 30.
+Ne4 { [%eval 13.44] } 30... Nf4 { [%eval 16.18] } 31. Qf6 { [%eval 15.7] }
+31... Ne2+ { [%eval 18.06] } 32. Kd2 { [%eval 17.18] } 32... Qb3
+{ [%eval 22.28] } 33. Kxe2 { [%eval 21.2] } 33... Qxb2+ { [%eval 75.35] } 34.
+Qxb2 { [%eval 41.87] } 1-0

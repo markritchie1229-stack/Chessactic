@@ -1,0 +1,39 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/bwX2nNXi"]
+[Site "https://lichess.org/pZszODZX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "maksem_m"]
+[Black "Lebser58"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:17:31"]
+[WhiteElo "1738"]
+[BlackElo "1967"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+6"]
+[ECO "C50"]
+[Opening "Italian Game: Rosentreter Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.28] } 2. Bc4 { [%eval 0.05] } 2... Bc5
+{ [%eval 0.31] } 3. Nf3 { [%eval 0.31] } 3... Nc6 { [%eval 0.24] } 4. d4
+{ [%eval -0.17] } 4... Bxd4 { [%eval -0.18] } 5. Nxd4 { [%eval -0.2] } 5...
+Nxd4 { [%eval -0.18] } 6. c3 { [%eval -0.59] } 6... Ne6 { [%eval -0.29] } 7.
+Bxe6 { [%eval -0.38] } 7... fxe6 $6 { [%eval 0.45] } 8. Be3 $2
+{ [%eval -0.71] } 8... Nf6 { [%eval -0.5] } 9. Nd2 { [%eval -0.83] } 9... O-O
+{ [%eval -0.89] } 10. O-O { [%eval -0.95] } 10... d5 $6 { [%eval -0.43] } 11.
+exd5 $6 { [%eval -1.05] } 11... exd5 { [%eval -1.07] } 12. Bc5
+{ [%eval -1.32] } 12... Rf7 { [%eval -0.84] } 13. Nf3 $2 { [%eval -2.41] }
+13... e4 $2 { [%eval 0.44] } 14. Ne5 { [%eval 0.29] } 14... c6 $2
+{ [%eval 1.98] } 15. Nxf7 { [%eval 1.82] } 15... Kxf7 { [%eval 2.06] } 16. f3
+{ [%eval 1.88] } 16... Bf5 { [%eval 2.01] } 17. fxe4 { [%eval 1.99] } 17...
+Bxe4 { [%eval 2.06] } 18. Qd4 $2 { [%eval 0.53] } 18... Kg8 $6 { [%eval 1.34] }
+19. Rf4 $2 { [%eval 0.04] } 19... Qd7 $2 { [%eval 1.16] } 20. Raf1 $2
+{ [%eval 0.14] } 20... Re8 $2 { [%eval 1.41] } 21. Qb4 $2 { [%eval -0.25] }
+21... b6 { [%eval -0.06] } 22. Bd6 $2 { [%eval -1.47] } 22... c5
+{ [%eval -1.29] } 23. Bxc5 { [%eval -1.43] } 23... bxc5 { [%eval -1.33] } 24.
+Qxc5 { [%eval -1.47] } 24... h6 { [%eval -1.21] } 25. Qd4 { [%eval -1.66] }
+25... Qc7 { [%eval -1.49] } 26. Rxf6 { [%eval -1.93] } 26... gxf6
+{ [%eval -1.72] } 27. Qxf6 { [%eval -1.74] } 27... Qg7 { [%eval -1.75] } 28.
+Qd6 $4 { [%eval #-1] } 28... Qxg2# 0-1

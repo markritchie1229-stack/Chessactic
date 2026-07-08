@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/siPAmSB2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dopac"]
+[Black "Tobas"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:36:40"]
+[WhiteElo "970"]
+[BlackElo "1147"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-15"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... b6 { [%eval 0.41] } 2. d4 { [%eval 0.41] } 2... Bb7
+{ [%eval 0.38] } 3. Nc3 { [%eval 0.4] } 3... g6 { [%eval 0.87] } 4. Bc4
+{ [%eval 0.59] } 4... Bg7 { [%eval 0.7] } 5. Nf3 { [%eval 0.58] } 5... h5 $6
+{ [%eval 1.39] } 6. O-O { [%eval 1.46] } 6... h4 { [%eval 1.83] } 7. Ne5 $2
+{ [%eval 0.78] } 7... e6 { [%eval 0.85] } 8. b3 $6 { [%eval 0.3] } 8... h3
+{ [%eval 0.34] } 9. Qf3 { [%eval 0.53] } 9... hxg2 $4 { [%eval #1] } 10. Qxg2
+$4 { [%eval -0.33] } 10... Qh4 { [%eval -0.01] } 11. Nf3 { [%eval -0.06] }
+11... Qxe4 $4 { [%eval 6.98] } 12. Nxe4 { [%eval 6.86] } 12... Bxe4
+{ [%eval 6.86] } 13. Re1 { [%eval 6.71] } 13... Bxd4 $2 { [%eval 7.9] } 14.
+Rxe4 { [%eval 7.7] } 14... Bxa1 { [%eval 7.31] } 15. Ng5 { [%eval 6.95] } 15...
+f5 $4 { [%eval 23.7] } 16. Re3 { [%eval 13.32] } 16... Nf6 { [%eval 15.2] } 17.
+Rh3 { [%eval 13.44] } 17... Rg8 { [%eval 17.71] } 18. Nh7 $2 { [%eval 8.16] }
+18... Ne4 { [%eval 8.07] } 19. Rh6 $2 { [%eval 5.44] } 19... a5 $4
+{ [%eval 10.54] } 20. Rxg6 { [%eval 10.38] } 20... Rxg6 { [%eval 10.21] } 21.
+Qxg6+ { [%eval 9.8] } 21... Ke7 { [%eval 9.45] } 22. Qg8 $6 { [%eval 8.93] }
+22... Nd6 $2 { [%eval #1] } 23. Qf8# 1-0

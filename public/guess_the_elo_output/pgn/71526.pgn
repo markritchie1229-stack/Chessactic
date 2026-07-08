@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/J2venLPu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jeffreykramer9"]
+[Black "Alex2345"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:39:10"]
+[WhiteElo "1331"]
+[BlackElo "1198"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+14"]
+[ECO "C46"]
+[Opening "Three Knights Opening #2"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.14] } 2...
+Nc6 { [%eval 0.41] } 3. Nc3 { [%eval 0.06] } 3... Bb4 { [%eval 0.38] } 4. a3
+{ [%eval 0.03] } 4... Bxc3 { [%eval 0.15] } 5. dxc3 { [%eval 0.16] } 5... Nf6
+{ [%eval 0.16] } 6. Bd3 { [%eval 0.11] } 6... O-O { [%eval 0.15] } 7. O-O
+{ [%eval 0.0] } 7... d5 { [%eval 0.35] } 8. exd5 { [%eval 0.37] } 8... Nxd5
+{ [%eval 0.52] } 9. Be4 { [%eval 0.37] } 9... Be6 $6 { [%eval 1.16] } 10. Bxd5
+$2 { [%eval -0.53] } 10... Bxd5 { [%eval -0.18] } 11. Bg5 $6 { [%eval -0.81] }
+11... f6 { [%eval -0.69] } 12. Bh4 { [%eval -1.14] } 12... Ne7
+{ [%eval -0.77] } 13. b3 { [%eval -0.99] } 13... Ng6 { [%eval -0.62] } 14. c4
+$2 { [%eval -3.08] } 14... Be4 $2 { [%eval -1.39] } 15. Qxd8 $2
+{ [%eval -3.0] } 15... Raxd8 { [%eval -2.7] } 16. g3 $4 { [%eval -6.97] } 16...
+Bxf3 { [%eval -6.71] } 17. Rfe1 $6 { [%eval -7.42] } 17... e4 { [%eval -6.94] }
+18. Re3 { [%eval -7.33] } 18... Ne5 $6 { [%eval -6.47] } 19. Rae1 $4
+{ [%eval -10.2] } 19... Rd7 $2 { [%eval -7.31] } 20. g4 { [%eval -7.27] } 20...
+Rfd8 $2 { [%eval -5.94] } 21. Bg3 $2 { [%eval -7.15] } 21... Nxg4
+{ [%eval -6.98] } 0-1

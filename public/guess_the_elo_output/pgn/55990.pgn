@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8p6nnha5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DubDub30"]
+[Black "egorborisov"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:54:30"]
+[WhiteElo "1348"]
+[BlackElo "1435"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C45"]
+[Opening "Scotch Game"]
+[TimeControl "540+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.47] } 2. Nf3 { [%eval 0.4] } 2... Nc6
+{ [%eval 0.37] } 3. d4 { [%eval -0.03] } 3... exd4 { [%eval 0.0] } 4. Nxd4
+{ [%eval 0.0] } 4... Nxd4 $6 { [%eval 0.65] } 5. Qxd4 { [%eval 0.52] } 5... d6
+{ [%eval 0.77] } 6. Nc3 { [%eval 0.7] } 6... Nf6 { [%eval 0.62] } 7. Be3
+{ [%eval 0.56] } 7... c5 $6 { [%eval 1.11] } 8. Qd2 { [%eval 0.75] } 8... Be7
+{ [%eval 0.84] } 9. O-O-O { [%eval 0.71] } 9... O-O { [%eval 0.66] } 10. f4
+{ [%eval 0.47] } 10... Bg4 { [%eval 0.63] } 11. Be2 { [%eval 0.64] } 11... Bxe2
+{ [%eval 0.91] } 12. Qxe2 { [%eval 0.96] } 12... Qb6 $6 { [%eval 1.59] } 13. e5
+{ [%eval 1.41] } 13... Nd7 $6 { [%eval 2.23] } 14. exd6 $2 { [%eval 0.94] }
+14... Bxd6 $2 { [%eval 3.91] } 15. Nd5 $4 { [%eval 0.27] } 15... Qc6
+{ [%eval 0.26] } 16. Ne7+ $4 { [%eval -3.98] } 16... Bxe7 { [%eval -3.82] } 17.
+f5 $2 { [%eval -4.9] } 17... Rfe8 { [%eval -4.53] } 18. g4 $4 { [%eval -9.85] }
+18... Bg5 { [%eval -9.47] } 19. Rd3 $6 { [%eval -25.08] } 19... Qxh1+
+{ [%eval -17.64] } 20. Kd2 { [%eval -26.93] } 20... Bxe3+ { [%eval -25.26] }
+21. Rxe3 { [%eval -23.79] } 21... Rxe3 { [%eval -21.01] } 22. Qxe3
+{ [%eval -19.66] } 22... Qg2+ { [%eval -12.68] } 23. Kd3 $6 { [%eval #-8] }
+23... Qxg4 $6 { [%eval -15.25] } 24. c4 { [%eval -54.11] } 24... Qxf5+
+{ [%eval -50.9] } 25. Kc3 { [%eval -50.56] } 25... Qe5+ { [%eval -22.97] } 26.
+Kd3 { [%eval -54.13] } 26... Qxe3+ { [%eval -54.02] } 27. Kxe3
+{ [%eval -53.81] } 27... Re8+ { [%eval -24.93] } 28. Kf3 { [%eval -54.06] }
+28... Ne5+ { [%eval -52.78] } 29. Kf4 { [%eval -116.93] } 29... Nxc4
+{ [%eval -55.1] } 0-1

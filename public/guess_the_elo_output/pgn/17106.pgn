@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HnWifPHn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Yakov123"]
+[Black "srcntzcn"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:21:24"]
+[WhiteElo "1791"]
+[BlackElo "1534"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-5"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation #2"]
+[TimeControl "600+10"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.11] } 1... e6 { [%eval 0.34] } 2. d4 { [%eval 0.28] } 2... d5
+{ [%eval 0.23] } 3. e5 { [%eval 0.04] } 3... c5 { [%eval 0.0] } 4. c3
+{ [%eval 0.02] } 4... c4 $6 { [%eval 0.83] } 5. f4 $6 { [%eval 0.09] } 5... b5
+{ [%eval 0.0] } 6. Bd2 { [%eval 0.0] } 6... Nc6 { [%eval 0.0] } 7. a3
+{ [%eval -0.18] } 7... a5 { [%eval -0.14] } 8. Nf3 { [%eval -0.22] } 8... Ba6
+{ [%eval -0.1] } 9. Be2 { [%eval -0.25] } 9... b4 $6 { [%eval 0.7] } 10. axb4
+{ [%eval 0.58] } 10... axb4 { [%eval 0.78] } 11. Qa4 $4 { [%eval -3.55] } 11...
+Ne7 $4 { [%eval -0.4] } 12. cxb4 $2 { [%eval -2.1] } 12... Qb8 $2
+{ [%eval -0.22] } 13. Na3 { [%eval -0.64] } 13... Bb5 { [%eval -0.55] } 14. Qd1
+{ [%eval -0.72] } 14... Ba4 { [%eval -0.62] } 15. Qc1 { [%eval -1.04] } 15...
+Nxb4 $2 { [%eval 0.5] } 16. O-O { [%eval 0.08] } 16... Qb6 $2 { [%eval 1.88] }
+17. Qe1 $2 { [%eval -0.73] } 17... Nec6 $6 { [%eval -0.13] } 18. Bc3
+{ [%eval -0.6] } 18... Be7 { [%eval -0.25] } 19. Qd2 $6 { [%eval -1.03] } 19...
+O-O { [%eval -1.22] } 20. f5 $6 { [%eval -1.73] } 20... Nxe5 $4
+{ [%eval 2.15] } 21. Nxe5 { [%eval 2.23] } 21... Bd6 $2 { [%eval 4.82] } 22.
+Kh1 { [%eval 4.51] } 22... Bxe5 $2 { [%eval 6.12] } 23. dxe5 { [%eval 5.23] }
+23... Nc6 $4 { [%eval 8.39] } 24. f6 { [%eval 7.97] } 24... g6 $2
+{ [%eval #3] } 25. Qh6 { [%eval #2] } 1-0

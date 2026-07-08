@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/sYtTkNwu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "WouterProost"]
+[Black "Melkesjakk"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:56:38"]
+[WhiteElo "1185"]
+[BlackElo "1326"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-15"]
+[ECO "C25"]
+[Opening "Vienna Game: Zhuravlev Countergambit #2"]
+[TimeControl "120+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.31] } 2. Nc3 { [%eval 0.16] } 2...
+Bb4 { [%eval 0.51] } 3. Nf3 { [%eval 0.18] } 3... Bxc3 { [%eval 0.23] } 4. dxc3
+{ [%eval -0.09] } 4... Nc6 { [%eval 0.07] } 5. Bc4 { [%eval 0.03] } 5... h6
+{ [%eval 0.06] } 6. O-O { [%eval 0.0] } 6... Nf6 { [%eval 0.04] } 7. Be3
+{ [%eval -0.04] } 7... Nxe4 { [%eval 0.39] } 8. Bd3 $2 { [%eval -1.11] } 8...
+f5 $2 { [%eval 0.01] } 9. c4 $6 { [%eval -0.8] } 9... f4 $4 { [%eval 3.09] }
+10. Bd2 $4 { [%eval -0.67] } 10... d6 $4 { [%eval 3.01] } 11. Bxe4
+{ [%eval 3.04] } 11... Bg4 { [%eval 3.24] } 12. Bxc6+ $6 { [%eval 2.31] } 12...
+bxc6 { [%eval 2.33] } 13. Ba5 { [%eval 2.29] } 13... Qb8 { [%eval 2.5] } 14. b3
+{ [%eval 2.49] } 14... e4 $2 { [%eval 4.73] } 15. Qd4 { [%eval 4.66] } 15...
+exf3 $4 { [%eval 12.27] } 16. gxf3 $4 { [%eval 4.88] } 16... Bxf3 $4
+{ [%eval 10.4] } 17. Qxg7 { [%eval 10.02] } 17... Rf8 $6 { [%eval #4] } 18.
+Bxc7 $6 { [%eval 17.35] } 18... Qc8 $6 { [%eval #3] } 19. Rae1+ { [%eval #2] }
+19... Be4 { [%eval #2] } 20. Rxe4+ { [%eval #1] } 20... Qe6 { [%eval #1] } 21.
+Rxe6# 1-0

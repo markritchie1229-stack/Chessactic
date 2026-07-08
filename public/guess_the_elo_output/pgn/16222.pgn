@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/b3tqTScq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gitignore"]
+[Black "Sgade"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:45:47"]
+[WhiteElo "1723"]
+[BlackElo "1311"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-2"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... d5 { [%eval 0.5] } 2. exd5 { [%eval 0.47] } 2...
+Qxd5 { [%eval 0.56] } 3. Nc3 { [%eval 0.5] } 3... Qe5+ { [%eval 0.71] } 4. Be2
+{ [%eval 0.73] } 4... Qg5 { [%eval 0.89] } 5. Bf3 { [%eval 0.7] } 5... Nf6
+{ [%eval 0.83] } 6. d4 { [%eval 0.87] } 6... Qg6 { [%eval 1.12] } 7. Nge2
+{ [%eval 1.1] } 7... Bg4 $4 { [%eval 6.51] } 8. Nf4 $4 { [%eval 0.74] } 8...
+Qg5 $4 { [%eval 6.4] } 9. Ne6 $4 { [%eval 2.97] } 9... Bxf3 $4 { [%eval 6.39] }
+10. Qxf3 $2 { [%eval 5.02] } 10... Qa5 { [%eval 4.93] } 11. Qxb7
+{ [%eval 4.66] } 11... fxe6 { [%eval 4.78] } 12. Qxa8 { [%eval 4.76] } 12...
+Qb4 $6 { [%eval 5.35] } 13. a3 { [%eval 5.08] } 13... Qxd4 $4 { [%eval 8.34] }
+14. Qxb8+ { [%eval 8.32] } 14... Kf7 { [%eval 8.31] } 15. Be3 { [%eval 8.1] }
+15... Qg4 $6 { [%eval 8.85] } 16. O-O $6 { [%eval 8.15] } 16... g5 $2
+{ [%eval 9.29] } 17. Rad1 { [%eval 8.83] } 17... h5 { [%eval 9.19] } 18. Qxc7
+{ [%eval 9.25] } 18... h4 $6 { [%eval 11.57] } 19. h3 { [%eval 9.57] } 19...
+Qf5 { [%eval 9.57] } 20. Rd8 { [%eval 9.26] } 20... g4 $6 { [%eval 10.29] } 21.
+hxg4 { [%eval 9.92] } 21... Qxg4 { [%eval 9.9] } 22. Qf4 $2 { [%eval 8.05] }
+22... Qg6 { [%eval 8.03] } 23. Ne4 $4 { [%eval 5.02] } 23... h3 $4
+{ [%eval 12.56] } 24. g3 $4 { [%eval 2.02] } 24... Bg7 $4 { [%eval 11.9] } 25.
+Rxh8 { [%eval 11.47] } 25... Bxh8 { [%eval 12.59] } 26. Kh2 $4 { [%eval 5.21] }
+26... Qh5 $4 { [%eval 11.69] } 27. Nxf6 { [%eval 10.04] } 27... exf6
+{ [%eval 10.77] } 28. Re1 { [%eval 10.44] } 28... e5 { [%eval 12.08] } 29. Qh6
+{ [%eval 9.58] } 29... Qf5 { [%eval 21.94] } 30. Qxh8 { [%eval 17.91] } 30...
+Qxf2+ $6 { [%eval #5] } 31. Bxf2 { [%eval #4] } 1-0

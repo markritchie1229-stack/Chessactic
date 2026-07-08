@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EDMgPRgo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ivanov32"]
+[Black "albany"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:51:22"]
+[WhiteElo "1786"]
+[BlackElo "1720"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "C42"]
+[Opening "Russian Game: Damiano Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.31] } 2...
+Nf6 { [%eval 0.5] } 3. Nxe5 { [%eval 0.41] } 3... Nxe4 { [%eval 0.77] } 4. Be2
+$6 { [%eval 0.06] } 4... Be7 { [%eval 0.07] } 5. O-O { [%eval 0.11] } 5... O-O
+{ [%eval 0.25] } 6. d4 { [%eval 0.06] } 6... d5 { [%eval 0.12] } 7. Bd3
+{ [%eval 0.06] } 7... Bd6 { [%eval 0.11] } 8. f4 { [%eval 0.14] } 8... f5
+{ [%eval 0.45] } 9. c4 { [%eval 0.38] } 9... c5 { [%eval 0.79] } 10. Be3 $6
+{ [%eval -0.1] } 10... Be6 $6 { [%eval 0.89] } 11. dxc5 $2 { [%eval -0.14] }
+11... dxc4 $6 { [%eval 0.62] } 12. Bxe4 { [%eval 0.54] } 12... Bxe5
+{ [%eval 0.59] } 13. Qxd8 { [%eval 0.6] } 13... Rxd8 { [%eval 0.54] } 14. Bxb7
+{ [%eval 0.57] } 14... Bxb2 { [%eval 0.49] } 15. Bxa8 { [%eval 0.04] } 15...
+Bxa1 { [%eval 0.11] } 16. c6 { [%eval 0.0] } 16... c3 $2 { [%eval 1.78] } 17.
+c7 { [%eval 1.6] } 17... Rc8 { [%eval 1.8] } 18. cxb8=Q { [%eval 1.35] } 18...
+Rxb8 { [%eval 1.24] } 19. Bc6 { [%eval 1.22] } 19... c2 $6 { [%eval 2.16] } 20.
+Na3 { [%eval 2.27] } 20... Bxa2 $2 { [%eval 4.66] } 21. Nxc2 $2
+{ [%eval 3.59] } 21... Bf6 { [%eval 3.6] } 22. Nd4 { [%eval 3.27] } 22... a5 $6
+{ [%eval 3.8] } 23. Nxf5 { [%eval 3.82] } 23... Rb4 { [%eval 3.96] } 24. g4 $6
+{ [%eval 3.45] } 24... a4 $2 { [%eval 5.08] } 25. g5 { [%eval 4.98] } 25... Bb2
+{ [%eval 5.05] } 26. Ne7+ $2 { [%eval 3.93] } 26... Kh8 $2 { [%eval 5.41] } 27.
+Rd1 { [%eval 5.35] } 27... g6 { [%eval 5.79] } 28. Rd8+ { [%eval 5.62] } 28...
+Kg7 { [%eval 5.37] } 29. Nd5 $2 { [%eval 3.78] } 29... Bxd5 $2 { [%eval 6.57] }
+30. Bxd5 { [%eval 5.65] } 30... a3 $4 { [%eval #1] } 31. Rg8# 1-0

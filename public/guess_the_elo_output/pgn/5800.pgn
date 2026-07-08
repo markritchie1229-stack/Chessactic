@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/HUq72Z3N"]
+[Date "????.??.??"]
+[Round "?"]
+[White "snehsumant"]
+[Black "hayricanduz"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "08:14:05"]
+[WhiteElo "1026"]
+[BlackElo "1235"]
+[WhiteRatingDiff "-39"]
+[BlackRatingDiff "+8"]
+[ECO "C00"]
+[Opening "Rat Defense: Small Center Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.06] } 1... e6 { [%eval 0.22] } 2. d4 { [%eval 0.07] } 2... d6
+{ [%eval 0.53] } 3. Nc3 { [%eval 0.46] } 3... Be7 { [%eval 0.53] } 4. Nf3
+{ [%eval 0.52] } 4... Bd7 { [%eval 0.85] } 5. Bb5 $6 { [%eval 0.22] } 5... Nc6
+$6 { [%eval 0.76] } 6. Bxc6 $6 { [%eval 0.09] } 6... Nf6 $4 { [%eval 4.73] } 7.
+Bf4 $4 { [%eval -0.27] } 7... Bxc6 { [%eval -0.05] } 8. Ne5 $4
+{ [%eval -4.19] } 8... dxe5 { [%eval -4.1] } 9. Bxe5 { [%eval -4.14] } 9... b6
+$2 { [%eval -2.45] } 10. Qg4 $4 { [%eval -15.64] } 10... g6 $4
+{ [%eval -2.54] } 11. Qh3 $6 { [%eval -3.12] } 11... Bd7 $6 { [%eval -2.34] }
+12. O-O { [%eval -2.45] } 12... h5 { [%eval -2.1] } 13. Nb5 $4
+{ [%eval -6.29] } 13... Nxe4 $4 { [%eval -0.39] } 14. f3 $4 { [%eval -4.52] }
+14... Nd2 $4 { [%eval -1.42] } 15. Rad1 $4 { [%eval -5.9] } 15... Nxf1
+{ [%eval -5.6] } 16. Kxf1 $4 { [%eval -10.6] } 16... Bxb5+ { [%eval -10.34] }
+17. Rd3 { [%eval -15.08] } 17... Bxd3+ { [%eval -14.84] } 18. cxd3
+{ [%eval -14.65] } 18... Rg8 { [%eval -14.26] } 19. Qxh5 { [%eval -28.49] }
+19... gxh5 { [%eval -27.57] } 20. Bg7 $6 { [%eval #-7] } 20... Rxg7
+{ [%eval #-6] } 21. f4 { [%eval #-5] } 21... Qxd4 { [%eval #-4] } 22. f5
+{ [%eval #-3] } 22... Qxd3+ $6 { [%eval #-3] } 23. Ke1 { [%eval #-2] } 23...
+Rd8 $6 { [%eval #-2] } 24. Kf2 { [%eval #-2] } 24... Qd2+ $6 { [%eval #-2] }
+25. Kf3 { [%eval #-2] } 25... Rd3+ { [%eval #-1] } 26. Ke4 { [%eval #-1] }
+26... Qe3# 0-1

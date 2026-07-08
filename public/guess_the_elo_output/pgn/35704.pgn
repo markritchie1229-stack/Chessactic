@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9OnLFGWq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jamesaz"]
+[Black "enricoscacchi"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:53:47"]
+[WhiteElo "1064"]
+[BlackElo "1069"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.42] } 2. Qf3 $6 { [%eval -0.5] } 2...
+Nf6 { [%eval -0.33] } 3. Bc4 { [%eval -0.19] } 3... Qe7 { [%eval 0.29] } 4. d3
+{ [%eval 0.08] } 4... Nc6 { [%eval 0.35] } 5. c3 { [%eval -0.12] } 5... d6
+{ [%eval -0.01] } 6. Bg5 { [%eval 0.02] } 6... Bg4 { [%eval 0.29] } 7. Bxf6 $2
+{ [%eval -1.41] } 7... Bxf3 { [%eval -1.34] } 8. Bxe7 { [%eval -1.48] } 8...
+Bxe7 $4 { [%eval 3.58] } 9. Nxf3 { [%eval 3.56] } 9... O-O { [%eval 3.93] } 10.
+O-O { [%eval 3.52] } 10... Bf6 { [%eval 3.66] } 11. Nbd2 { [%eval 3.55] } 11...
+Na5 $6 { [%eval 4.27] } 12. Nb3 $6 { [%eval 3.45] } 12... Nxc4 { [%eval 3.9] }
+13. dxc4 { [%eval 3.88] } 13... Be7 { [%eval 4.11] } 14. Na5 { [%eval 4.14] }
+14... Rab8 { [%eval 4.16] } 15. h4 { [%eval 3.93] } 15... b6 $2
+{ [%eval 4.95] } 16. Nb3 $2 { [%eval 3.75] } 16... c5 { [%eval 4.2] } 17. Ng5
+{ [%eval 3.95] } 17... h6 { [%eval 4.07] } 18. Nf3 { [%eval 3.97] } 18... Rbd8
+{ [%eval 4.21] } 19. Rfd1 { [%eval 4.05] } 19... Ra8 { [%eval 4.46] } 20. a4
+{ [%eval 4.18] } 20... Bd8 $2 { [%eval 5.96] } 21. a5 $2 { [%eval 4.53] } 21...
+bxa5 $6 { [%eval 5.24] } 22. Nxa5 { [%eval 5.05] } 22... Bxa5 { [%eval 5.19] }
+23. Rxa5 { [%eval 5.19] } 23... f5 $2 { [%eval 6.86] } 24. exf5
+{ [%eval 6.37] } 24... Rxf5 $6 { [%eval 7.12] } 25. Rxd6 { [%eval 6.62] } 25...
+Rf4 $6 { [%eval 7.39] } 26. h5 { [%eval 7.02] } 26... Rxc4 { [%eval 7.21] } 27.
+b3 $2 { [%eval 5.12] } 27... Rxc3 { [%eval 4.69] } 28. Re6 { [%eval 4.45] }
+28... Re3 $4 { [%eval 14.01] } 29. fxe3 { [%eval 13.25] } 1-0

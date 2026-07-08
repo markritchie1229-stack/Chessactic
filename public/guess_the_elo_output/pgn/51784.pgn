@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/7qCPyrua"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rrrrrrrrrgggggggg"]
+[Black "elaniquilador"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:28:22"]
+[WhiteElo "1929"]
+[BlackElo "2072"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+12"]
+[ECO "D00"]
+[Opening "Queen's Pawn Opening: Veresov Attack, Irish Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.19] } 1... d5 { [%eval 0.22] } 2. Nc3 { [%eval -0.02] } 2...
+c5 { [%eval 0.23] } 3. dxc5 { [%eval -0.16] } 3... d4 { [%eval -0.06] } 4. Nb5
+$2 { [%eval -1.51] } 4... Nc6 $2 { [%eval 0.75] } 5. c3 { [%eval 0.31] } 5...
+e5 { [%eval 0.27] } 6. Nf3 { [%eval 0.0] } 6... Bxc5 { [%eval 0.12] } 7. e3
+{ [%eval 0.11] } 7... dxe3 { [%eval 0.09] } 8. Qxd8+ { [%eval 0.0] } 8... Kxd8
+{ [%eval 0.0] } 9. Bxe3 { [%eval 0.0] } 9... Bxe3 { [%eval 0.0] } 10. fxe3
+{ [%eval 0.01] } 10... f6 $6 { [%eval 0.71] } 11. Bc4 { [%eval 0.75] } 11...
+Nh6 { [%eval 0.95] } 12. Rd1+ { [%eval 0.68] } 12... Ke7 { [%eval 0.64] } 13.
+O-O { [%eval 0.28] } 13... Bg4 { [%eval 0.55] } 14. h3 { [%eval 0.32] } 14...
+Bxf3 { [%eval 0.41] } 15. gxf3 { [%eval 0.32] } 15... Rad8 { [%eval 0.43] } 16.
+Rde1 $2 { [%eval -0.6] } 16... Nf5 { [%eval -0.35] } 17. e4 { [%eval -0.43] }
+17... Nd6 { [%eval -0.04] } 18. Bd5 $4 { [%eval -4.19] } 18... Nxb5
+{ [%eval -4.06] } 19. c4 $6 { [%eval -4.68] } 19... Nc7 { [%eval -4.38] } 20.
+a3 $6 { [%eval -5.12] } 20... Nxd5 { [%eval -4.95] } 21. exd5 { [%eval -5.08] }
+21... Nd4 { [%eval -4.93] } 22. b4 { [%eval -5.31] } 22... Kd6
+{ [%eval -5.31] } 23. f4 { [%eval -5.24] } 23... Rhe8 { [%eval -5.04] } 24.
+fxe5+ { [%eval -5.05] } 24... Rxe5 $6 { [%eval -4.43] } 25. Rd1 $2
+{ [%eval -5.77] } 25... Ne2+ { [%eval -5.63] } 26. Kf2 { [%eval -5.68] } 26...
+Nc3 $6 { [%eval -4.83] } 27. c5+ $6 { [%eval -5.5] } 27... Kd7
+{ [%eval -5.31] } 28. c6+ $6 { [%eval -5.85] } 28... Kc7 { [%eval -5.79] } 29.
+d6+ { [%eval -5.82] } 29... Rxd6 { [%eval -5.85] } 30. Rxd6 { [%eval -5.78] }
+30... Ne4+ { [%eval -5.62] } 31. Kf3 { [%eval -5.49] } 31... Nxd6
+{ [%eval -5.39] } 32. cxb7 $4 { [%eval -10.15] } 32... Rf5+ { [%eval -9.02] }
+33. Ke2 { [%eval -8.33] } 33... Rxf1 { [%eval -6.97] } 0-1

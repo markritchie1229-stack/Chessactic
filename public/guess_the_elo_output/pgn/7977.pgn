@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/TFtaEEUa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kemal22"]
+[Black "fa_49"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:00:51"]
+[WhiteElo "1251"]
+[BlackElo "1686"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+2"]
+[ECO "A06"]
+[Opening "Reti Opening"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.1] } 1... d5 { [%eval 0.16] } 2. e3 { [%eval 0.12] } 2... Bg4
+{ [%eval 0.46] } 3. Be2 { [%eval 0.44] } 3... Nc6 { [%eval 0.43] } 4. O-O
+{ [%eval 0.37] } 4... h5 { [%eval 0.61] } 5. Ng5 $2 { [%eval -0.49] } 5... f6
+$6 { [%eval 0.36] } 6. Nf7 $4 { [%eval -3.11] } 6... Kxf7 { [%eval -2.94] } 7.
+Bxg4 $6 { [%eval -3.92] } 7... hxg4 { [%eval -3.63] } 8. Qxg4 { [%eval -3.84] }
+8... Qd6 $6 { [%eval -3.17] } 9. Nc3 $4 { [%eval #-1] } 9... a6 $4
+{ [%eval -3.37] } 10. g3 $6 { [%eval -3.9] } 10... f5 $2 { [%eval -2.29] } 11.
+Qf3 $2 { [%eval -3.92] } 11... g6 $2 { [%eval -2.85] } 12. Nxd5
+{ [%eval -3.06] } 12... e6 { [%eval -2.77] } 13. Nf4 $6 { [%eval -3.46] } 13...
+Nh6 $2 { [%eval -2.1] } 14. d4 { [%eval -2.1] } 14... Ng4 { [%eval -2.18] } 15.
+h4 $6 { [%eval -3.08] } 15... g5 { [%eval -2.97] } 16. Ne2 $2 { [%eval -5.58] }
+16... gxh4 { [%eval -5.26] } 17. e4 $2 { [%eval -6.37] } 17... hxg3
+{ [%eval -6.14] } 18. e5 $4 { [%eval -15.13] } 18... gxf2+ { [%eval -14.64] }
+19. Rxf2 { [%eval -14.11] } 19... Ncxe5 { [%eval -13.37] } 20. dxe5
+{ [%eval -26.82] } 20... Qd1+ { [%eval -25.91] } 21. Rf1 { [%eval -24.6] }
+21... Bc5+ { [%eval -22.98] } 22. Be3 { [%eval -21.72] } 22... Bxe3+
+{ [%eval -18.64] } 23. Kg2 $6 { [%eval #-17] } 23... Rh2+ { [%eval #-17] } 24.
+Kg3 { [%eval -127.78] } 24... Qxe2 { [%eval -54.18] } 25. Qxe2
+{ [%eval -27.47] } 25... Rxe2 { [%eval -20.4] } 26. Rh1 $6 { [%eval #-6] }
+26... Rg8 { [%eval #-7] } 27. Rh7+ { [%eval #-7] } 27... Kf8 { [%eval #-6] }
+28. Rxc7 { [%eval #-4] } 28... Nxe5+ { [%eval #-3] } 29. Kh4 { [%eval #-1] }
+29... Rh2# 0-1

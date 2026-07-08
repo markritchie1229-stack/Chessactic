@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ql1907g5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Fulladorn"]
+[Black "ekremdicle"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:44:52"]
+[WhiteElo "1822"]
+[BlackElo "1780"]
+[WhiteRatingDiff "+19"]
+[BlackRatingDiff "-9"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... e5 { [%eval 0.36] } 2. Nc3 { [%eval 0.22] } 2... c6
+{ [%eval 0.61] } 3. d4 { [%eval 0.56] } 3... d6 { [%eval 0.6] } 4. dxe5
+{ [%eval 0.66] } 4... dxe5 { [%eval 0.72] } 5. Qxd8+ { [%eval 0.65] } 5... Kxd8
+{ [%eval 0.85] } 6. Bc4 { [%eval 0.78] } 6... Bc5 { [%eval 1.21] } 7. Bxf7
+{ [%eval 1.16] } 7... Nf6 { [%eval 1.12] } 8. Nf3 { [%eval 1.03] } 8... Bg4 $2
+{ [%eval 2.83] } 9. Nxe5 { [%eval 2.71] } 9... Rf8 { [%eval 2.95] } 10. Bb3
+{ [%eval 2.83] } 10... Bh5 { [%eval 3.23] } 11. Nd3 { [%eval 3.06] } 11... Bb6
+{ [%eval 3.35] } 12. f3 { [%eval 3.29] } 12... Nbd7 { [%eval 3.63] } 13. Bd2
+{ [%eval 3.42] } 13... Kc7 { [%eval 3.87] } 14. Bf4+ { [%eval 3.64] } 14... Kd8
+$6 { [%eval 4.61] } 15. O-O-O { [%eval 4.49] } 15... Rc8 $2 { [%eval 5.69] }
+16. Rhe1 { [%eval 5.64] } 16... Bg6 { [%eval 5.72] } 17. Bd6 { [%eval 5.6] }
+17... Re8 { [%eval 5.66] } 18. e5 { [%eval 5.5] } 18... Nd5 { [%eval 5.67] }
+19. Nxd5 { [%eval 5.57] } 19... cxd5 { [%eval 5.67] } 20. Bxd5 { [%eval 6.0] }
+20... Ba5 $2 { [%eval 7.2] } 21. b4 { [%eval 7.14] } 21... Bc7 { [%eval 7.06] }
+22. Bxb7 { [%eval 6.92] } 22... Rb8 $2 { [%eval 8.08] } 23. Nc5
+{ [%eval 7.93] } 23... Bxd6 { [%eval 7.81] } 24. Rxd6 { [%eval 7.47] } 24...
+Bf5 $2 { [%eval 10.81] } 25. e6 { [%eval 10.53] } 25... Kc7 $6 { [%eval #7] }
+26. Rxd7+ { [%eval #6] } 26... Kb6 { [%eval #6] } 27. Na4+ { [%eval #5] } 27...
+Kb5 { [%eval #5] } 28. Re5+ { [%eval #4] } 28... Kxa4 { [%eval #2] } 29. Rd4
+{ [%eval #1] } 29... Bxe6 { [%eval #1] } 30. Ra5# 1-0

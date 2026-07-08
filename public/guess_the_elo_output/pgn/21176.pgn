@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/2azXDoPk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "e3523f23f0"]
+[Black "Atoku"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:05:53"]
+[WhiteElo "1375"]
+[BlackElo "1475"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+7"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation Accepted"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.45] } 2...
+Nc6 { [%eval 0.52] } 3. Nc3 { [%eval 0.12] } 3... Nf6 { [%eval 0.05] } 4. d4
+{ [%eval -0.07] } 4... exd4 { [%eval -0.01] } 5. Nxd4 { [%eval -0.25] } 5...
+Nxd4 $6 { [%eval 0.58] } 6. Qxd4 { [%eval 0.49] } 6... d6 { [%eval 0.46] } 7.
+Bc4 { [%eval 0.42] } 7... Be7 { [%eval 0.39] } 8. O-O { [%eval 0.41] } 8... O-O
+{ [%eval 0.46] } 9. Nd5 { [%eval 0.1] } 9... Nxd5 { [%eval 0.03] } 10. Bxd5
+{ [%eval 0.0] } 10... c6 { [%eval 0.0] } 11. Bc4 { [%eval -0.22] } 11... Be6
+{ [%eval 0.12] } 12. Bf4 { [%eval -0.3] } 12... Bxc4 { [%eval 0.18] } 13. Qxc4
+{ [%eval 0.2] } 13... h6 { [%eval 0.29] } 14. a4 { [%eval 0.23] } 14... Qc7
+{ [%eval 0.29] } 15. b4 { [%eval -0.01] } 15... Rae8 { [%eval 0.3] } 16. Rfe1
+{ [%eval 0.01] } 16... Qd7 { [%eval 0.16] } 17. b5 { [%eval 0.0] } 17... cxb5
+{ [%eval 0.38] } 18. axb5 { [%eval 0.37] } 18... Bf6 { [%eval 0.52] } 19. Rxa7
+{ [%eval 0.7] } 19... Be5 { [%eval 1.18] } 20. Bxe5 $2 { [%eval 0.17] } 20...
+dxe5 $6 { [%eval 1.07] } 21. Qd5 { [%eval 1.27] } 21... Qxd5 $6 { [%eval 1.9] }
+22. exd5 { [%eval 1.85] } 22... Rc8 { [%eval 2.1] } 23. Rxb7 { [%eval 2.19] }
+23... Rxc2 { [%eval 2.25] } 24. Rd7 $2 { [%eval 1.11] } 24... Rb2
+{ [%eval 1.18] } 25. Rd6 $2 { [%eval 0.0] } 25... Rxb5 { [%eval 0.0] } 26. Rd1
+{ [%eval -0.06] } 26... Rfb8 { [%eval 0.0] } 27. g3 { [%eval -0.07] } 27... Rb1
+{ [%eval 0.0] } 28. Kg2 $4 { [%eval -7.34] } 28... Rxd1 { [%eval -7.22] } 29.
+Rf6 $2 { [%eval -116.58] } 29... Rxd5 $2 { [%eval -8.55] } 0-1

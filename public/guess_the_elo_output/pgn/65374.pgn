@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/2IthsWPa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vottakvot"]
+[Black "maia11"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:53:38"]
+[WhiteElo "1272"]
+[BlackElo "1364"]
+[WhiteRatingDiff "+64"]
+[BlackRatingDiff "-12"]
+[ECO "C26"]
+[Opening "Vienna Game: Stanley Variation"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.41] } 2. Bc4 { [%eval 0.0] } 2... Nf6
+{ [%eval -0.02] } 3. Nc3 { [%eval -0.01] } 3... c5 $6 { [%eval 0.52] } 4. Qf3
+{ [%eval 0.1] } 4... d6 { [%eval 0.09] } 5. Nd5 { [%eval 0.08] } 5... Nbd7
+{ [%eval 0.29] } 6. Nxf6+ { [%eval 0.36] } 6... Nxf6 { [%eval 0.5] } 7. Nh3 $6
+{ [%eval -0.14] } 7... h6 { [%eval 0.08] } 8. c3 { [%eval -0.34] } 8... a6
+{ [%eval -0.37] } 9. d4 $6 { [%eval -0.87] } 9... Bg4 { [%eval -0.39] } 10. Qe3
+{ [%eval -0.5] } 10... b5 { [%eval -0.25] } 11. Bd5 $6 { [%eval -0.91] } 11...
+exd4 $6 { [%eval -0.14] } 12. cxd4 $6 { [%eval -0.79] } 12... Rc8 $6
+{ [%eval -0.19] } 13. Bb7 $6 { [%eval -1.09] } 13... cxd4 { [%eval -1.21] } 14.
+Qxd4 { [%eval -1.22] } 14... Rb8 $2 { [%eval 0.47] } 15. Bc6+ { [%eval 0.4] }
+15... Nd7 $6 { [%eval 1.19] } 16. f3 $2 { [%eval -0.45] } 16... Bxh3
+{ [%eval -0.27] } 17. gxh3 { [%eval -0.38] } 17... Qh4+ $2 { [%eval 1.12] } 18.
+Qf2 $2 { [%eval -0.25] } 18... Qxh3 { [%eval 0.0] } 19. Bxd7+ { [%eval -0.38] }
+19... Kxd7 $4 { [%eval 5.29] } 20. Qa7+ { [%eval 5.15] } 20... Kc8 $4
+{ [%eval 10.55] } 21. Bf4 { [%eval 10.52] } 21... Qh4+ { [%eval 14.98] } 22.
+Bg3 { [%eval 13.26] } 22... Qe7 $6 { [%eval #3] } 23. Rc1+ { [%eval #2] } 23...
+Kd8 { [%eval #2] } 24. Qxb8+ { [%eval #1] } 1-0

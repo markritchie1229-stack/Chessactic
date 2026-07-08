@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/l2vAoFIJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vinvin"]
+[Black "taginprinceton"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:56:19"]
+[WhiteElo "2154"]
+[BlackElo "2071"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+13"]
+[ECO "C61"]
+[Opening "Ruy Lopez: Bird Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.21] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.36] } 3. Bb5 { [%eval 0.18] } 3... Nd4 { [%eval 0.5] } 4. Nxd4
+{ [%eval 0.5] } 4... exd4 { [%eval 0.56] } 5. Bc4 { [%eval 0.2] } 5... Qh4 $6
+{ [%eval 0.85] } 6. d3 { [%eval 0.74] } 6... Nf6 { [%eval 0.74] } 7. Nd2 $6
+{ [%eval 0.24] } 7... Bc5 $6 { [%eval 0.76] } 8. Nf3 { [%eval 0.83] } 8... Qh5
+{ [%eval 0.75] } 9. Bg5 { [%eval 0.44] } 9... O-O { [%eval 0.7] } 10. Bxf6
+{ [%eval 0.63] } 10... gxf6 { [%eval 0.81] } 11. Qe2 { [%eval 0.41] } 11... d5
+$6 { [%eval 1.06] } 12. Bxd5 { [%eval 0.91] } 12... Bg4 { [%eval 1.09] } 13.
+O-O-O { [%eval 1.05] } 13... c6 { [%eval 1.06] } 14. Bb3 { [%eval 1.03] } 14...
+a5 { [%eval 1.1] } 15. h3 $4 { [%eval -1.91] } 15... Bxf3 { [%eval -1.86] } 16.
+gxf3 $6 { [%eval -2.71] } 16... a4 { [%eval -2.75] } 17. Bc4 { [%eval -2.63] }
+17... b5 { [%eval -2.48] } 18. Rhg1+ { [%eval -2.73] } 18... Kh8
+{ [%eval -2.43] } 19. Bxb5 $2 { [%eval -3.54] } 19... cxb5 { [%eval -3.4] } 20.
+Rg4 { [%eval -3.41] } 20... Rg8 { [%eval -3.31] } 21. Rdg1 { [%eval -3.38] }
+21... Rxg4 $6 { [%eval -2.85] } 22. hxg4 { [%eval -2.86] } 22... Qg5+
+{ [%eval -2.79] } 23. Kb1 { [%eval -3.15] } 23... a3 { [%eval -2.91] } 24. b3
+{ [%eval -2.97] } 24... Bb4 { [%eval -2.96] } 25. Qf1 $2 { [%eval -5.93] }
+25... Qd2 { [%eval -5.38] } 26. Rh1 $2 { [%eval -6.64] } 26... Rc8 $2
+{ [%eval -3.71] } 27. Qc1 { [%eval -3.81] } 27... Qxf2 { [%eval -3.56] } 28.
+Qh6 $4 { [%eval #-2] } 28... Qxc2+ { [%eval #-1] } 29. Ka1 { [%eval #-1] }
+29... Qb2# 0-1

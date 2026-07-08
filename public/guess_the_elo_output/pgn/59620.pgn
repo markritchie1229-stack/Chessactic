@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Z0lEI8ZO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vovo65"]
+[Black "shahka"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:01:16"]
+[WhiteElo "1729"]
+[BlackElo "1632"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "C41"]
+[Opening "Philidor Defense #3"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.31] } 2... d6
+{ [%eval 0.36] } 3. Bc4 { [%eval 0.2] } 3... h6 { [%eval 0.67] } 4. d3
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.24] } 5. Nc3 { [%eval 0.18] } 5... c6
+{ [%eval 0.27] } 6. a3 { [%eval 0.19] } 6... b5 { [%eval 0.2] } 7. Ba2
+{ [%eval 0.16] } 7... Be7 { [%eval 0.2] } 8. O-O { [%eval 0.1] } 8... Nbd7
+{ [%eval 0.4] } 9. h3 { [%eval 0.33] } 9... O-O { [%eval 0.28] } 10. Nh2
+{ [%eval -0.04] } 10... d5 $2 { [%eval 1.01] } 11. exd5 { [%eval 0.91] } 11...
+cxd5 { [%eval 1.09] } 12. Nxd5 { [%eval 0.87] } 12... Nxd5 { [%eval 1.09] } 13.
+Bxd5 { [%eval 1.07] } 13... Rb8 { [%eval 1.09] } 14. f4 $2 { [%eval -0.3] }
+14... Nf6 { [%eval -0.18] } 15. Bb3 { [%eval -0.28] } 15... Bc5+
+{ [%eval -0.2] } 16. Kh1 { [%eval -0.31] } 16... exf4 $6 { [%eval 0.66] } 17.
+Bxf4 { [%eval 0.44] } 17... Rb6 { [%eval 0.85] } 18. Be5 { [%eval 0.67] } 18...
+Qd7 $6 { [%eval 1.66] } 19. Bxf6 { [%eval 1.54] } 19... Rxf6 { [%eval 1.68] }
+20. Rxf6 { [%eval 1.68] } 20... gxf6 { [%eval 1.93] } 21. Qf3 $6
+{ [%eval 1.06] } 21... Bb7 $4 { [%eval 4.72] } 22. Qxf6 $4 { [%eval -2.8] }
+22... Qxh3 { [%eval -2.83] } 23. Qf1 $2 { [%eval -5.15] } 23... Bd6
+{ [%eval -4.97] } 24. Qg1 { [%eval -4.67] } 24... Kh7 $2 { [%eval -2.49] } 25.
+Re1 $2 { [%eval -3.86] } 25... Rg8 { [%eval -3.79] } 26. Re2 { [%eval -3.68] }
+26... Rg5 { [%eval -3.51] } 27. Bxf7 { [%eval -3.22] } 27... Rg4 $4
+{ [%eval 0.25] } 28. Be6 { [%eval 0.0] } 28... Qxh2+ $4 { [%eval 6.33] } 29.
+Qxh2 { [%eval 6.18] } 29... Bxh2 { [%eval 6.03] } 30. Bxg4 { [%eval 5.85] }
+30... Bf4 $2 { [%eval 7.49] } 31. Re7+ { [%eval 7.23] } 1-0

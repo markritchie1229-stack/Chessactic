@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/hx9gSssk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "NACANO"]
+[Black "laserany"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:32:21"]
+[WhiteElo "1322"]
+[BlackElo "1207"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+14"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Ross Gambit"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.19] } 1... e5 $6 { [%eval 0.91] } 2. Nxe5 { [%eval 0.93] }
+2... Bd6 { [%eval 1.22] } 3. Nf3 { [%eval 1.12] } 3... Nf6 { [%eval 1.16] } 4.
+d3 { [%eval 0.67] } 4... Ng4 $2 { [%eval 1.76] } 5. h3 $6 { [%eval 1.2] } 5...
+Ne5 { [%eval 1.3] } 6. Nxe5 { [%eval 1.16] } 6... Bxe5 { [%eval 1.27] } 7. g3
+{ [%eval 0.91] } 7... Qf6 { [%eval 1.22] } 8. Bg2 $6 { [%eval 0.61] } 8... Bxb2
+{ [%eval 0.62] } 9. Bxb2 { [%eval 0.58] } 9... Qxb2 { [%eval 0.63] } 10. Nd2
+{ [%eval 0.61] } 10... Nc6 { [%eval 0.62] } 11. Qb1 { [%eval 0.22] } 11... Qc3
+{ [%eval 0.3] } 12. Qb3 $4 { [%eval -5.89] } 12... Qxa1+ { [%eval -5.88] } 13.
+Qb1 { [%eval -5.94] } 13... Qc3 { [%eval -5.56] } 14. O-O $4 { [%eval -9.3] }
+14... Qxd2 { [%eval -9.19] } 15. Bxc6 $6 { [%eval -10.12] } 15... dxc6
+{ [%eval -9.85] } 16. e4 { [%eval -11.67] } 16... Bxh3 { [%eval -11.5] } 17.
+Rd1 { [%eval -14.22] } 17... Qh6 { [%eval -11.54] } 18. Qxb7 { [%eval -17.84] }
+18... O-O { [%eval -16.7] } 19. c4 { [%eval -27.88] } 19... Rab8
+{ [%eval -25.54] } 20. Qa6 $6 { [%eval #-6] } 20... Bg4 { [%eval #-6] } 21. Re1
+{ [%eval #-2] } 21... Qd2 $6 { [%eval -26.98] } 22. Re3 $6 { [%eval #-4] }
+22... Qd1+ { [%eval #-3] } 23. Kg2 { [%eval #-3] } 23... Rb2 $6 { [%eval #-9] }
+24. Qa3 { [%eval #-4] } 24... Qd2 $6 { [%eval -19.39] } 25. Kh1 $6
+{ [%eval #-5] } 25... Qxf2 { [%eval #-4] } 26. Re1 { [%eval #-1] } 26... Qxe1#
+0-1

@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NFFdd2AA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "skateboardboy"]
+[Black "CHESSMAKESMEHAPPY"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:47:45"]
+[WhiteElo "1163"]
+[BlackElo "1452"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "720+2"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.2] } 1... e6 { [%eval -0.04] } 2. e4 { [%eval -0.18] } 2...
+g6 $6 { [%eval 0.33] } 3. d4 { [%eval 0.27] } 3... Nf6 $6 { [%eval 0.9] } 4.
+Bc4 $2 { [%eval -0.82] } 4... d5 $6 { [%eval -0.04] } 5. exd5 { [%eval -0.11] }
+5... exd5 { [%eval -0.07] } 6. Nf3 $4 { [%eval -3.08] } 6... dxc4
+{ [%eval -2.93] } 7. Ng5 $2 { [%eval -4.82] } 7... Qe7+ { [%eval -4.56] } 8.
+Qe2 { [%eval -4.97] } 8... Qxe2+ { [%eval -4.88] } 9. Kxe2 { [%eval -4.87] }
+9... Bh6 $6 { [%eval -4.27] } 10. Nxf7 $2 { [%eval -7.12] } 10... Kxf7 $4
+{ [%eval -3.78] } 11. Bxh6 { [%eval -3.46] } 11... Bg4+ $6 { [%eval -2.66] }
+12. f3 { [%eval -2.75] } 12... Re8+ { [%eval -2.53] } 13. Kf2 { [%eval -2.75] }
+13... Bf5 { [%eval -2.74] } 14. Nc3 $6 { [%eval -3.33] } 14... Bxc2
+{ [%eval -3.24] } 15. Rae1 $6 { [%eval -3.9] } 15... Rxe1 { [%eval -3.79] } 16.
+Rxe1 { [%eval -3.73] } 16... Nc6 { [%eval -3.65] } 17. Nd5 $4 { [%eval -7.72] }
+17... Nxd5 { [%eval -7.48] } 18. Re2 $2 { [%eval -8.86] } 18... Nxd4
+{ [%eval -8.73] } 19. Re5 { [%eval -8.69] } 19... Rd8 { [%eval -8.36] } 20. Bg5
+{ [%eval -8.73] } 20... Rd7 { [%eval -8.57] } 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CgtjcRmO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SHER2"]
+[Black "Dimontreal"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:36:57"]
+[WhiteElo "1606"]
+[BlackElo "1637"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "C37"]
+[Opening "King's Gambit Accepted, King's Knight Gambit"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e5 { [%eval 0.45] } 2. f4 $2 { [%eval -0.65] } 2...
+exf4 { [%eval -0.43] } 3. Nf3 { [%eval -0.64] } 3... g5 { [%eval -0.36] } 4.
+Bc4 $6 { [%eval -0.92] } 4... a6 $2 { [%eval 0.9] } 5. O-O $2 { [%eval -0.75] }
+5... Nh6 $6 { [%eval 0.2] } 6. d4 { [%eval 0.14] } 6... d6 { [%eval 0.55] } 7.
+h3 $6 { [%eval -0.06] } 7... Nc6 { [%eval -0.15] } 8. c3 { [%eval -0.53] } 8...
+Bd7 $6 { [%eval 0.04] } 9. Nh2 $6 { [%eval -0.92] } 9... Qe7 { [%eval -0.93] }
+10. b4 { [%eval -0.98] } 10... g4 $2 { [%eval 1.2] } 11. Bxf4 $2
+{ [%eval -0.25] } 11... gxh3 { [%eval -0.39] } 12. g3 { [%eval -0.5] } 12...
+O-O-O { [%eval -0.23] } 13. Nd2 { [%eval -0.41] } 13... Rg8 { [%eval -0.26] }
+14. b5 $6 { [%eval -1.2] } 14... Na5 { [%eval -1.18] } 15. Bb3 $2
+{ [%eval -2.29] } 15... Bxb5 { [%eval -2.31] } 16. c4 { [%eval -2.7] } 16...
+Nxb3 { [%eval -2.29] } 17. axb3 $6 { [%eval -2.91] } 17... Bd7
+{ [%eval -2.86] } 18. Qe2 { [%eval -3.35] } 18... f5 { [%eval -3.25] } 19. b4
+{ [%eval -3.36] } 19... d5 $2 { [%eval -1.48] } 20. c5 $4 { [%eval -5.47] }
+20... Bb5 { [%eval -5.34] } 21. Qh5 { [%eval -5.52] } 21... Bxf1 $2
+{ [%eval -4.06] } 22. Kxf1 $2 { [%eval -5.99] } 22... Qd7 $2 { [%eval -3.43] }
+23. Bxh6 $4 { [%eval -7.77] } 23... Bxh6 { [%eval -7.54] } 24. Qxh6
+{ [%eval -7.06] } 24... Rxg3 $4 { [%eval -3.37] } 25. Qf4 $4 { [%eval -12.58] }
+25... Qb5+ { [%eval -12.31] } 26. Ke1 { [%eval -11.93] } 26... Rg2
+{ [%eval -10.95] } 27. Qf1 { [%eval -14.39] } 27... Qxb4 { [%eval -13.29] } 28.
+Qxg2 { [%eval -65.86] } 28... hxg2 { [%eval -56.85] } 29. Nf3
+{ [%eval -57.24] } 29... Qc3 { [%eval -29.73] } 30. Kf2 $6 { [%eval #-20] }
+30... Qxa1 { [%eval -60.08] } 0-1

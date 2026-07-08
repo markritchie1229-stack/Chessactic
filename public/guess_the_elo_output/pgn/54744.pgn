@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BXWO54x1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Inkvizitor01"]
+[Black "jerckly"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:39:35"]
+[WhiteElo "1165"]
+[BlackElo "1257"]
+[WhiteRatingDiff "+48"]
+[BlackRatingDiff "-27"]
+[ECO "C46"]
+[Opening "Four Knights Game: Italian Variation"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.33] } 2...
+Nc6 { [%eval 0.35] } 3. Nc3 { [%eval 0.04] } 3... Nf6 { [%eval 0.12] } 4. Bc4
+{ [%eval -0.12] } 4... a6 $6 { [%eval 0.45] } 5. Nd5 { [%eval 0.08] } 5... Nxe4
+{ [%eval 0.17] } 6. d3 { [%eval -0.15] } 6... Nc5 $6 { [%eval 0.56] } 7. Bg5
+{ [%eval 0.56] } 7... f6 { [%eval 0.42] } 8. Bxf6 $2 { [%eval -0.96] } 8...
+gxf6 { [%eval -0.69] } 9. Nh4 $2 { [%eval -2.31] } 9... Bg7 $2
+{ [%eval -1.03] } 10. Qh5+ { [%eval -1.33] } 10... Kf8 { [%eval -0.95] } 11.
+Nf5 $2 { [%eval -3.09] } 11... d6 $2 { [%eval -1.83] } 12. Nxc7 $4
+{ [%eval -6.64] } 12... Qxc7 { [%eval -6.42] } 13. O-O $6 { [%eval -6.94] }
+13... Bxf5 { [%eval -6.77] } 14. b4 $4 { [%eval -11.83] } 14... Bg6
+{ [%eval -11.76] } 15. Qg4 { [%eval -12.08] } 15... Na4 { [%eval -11.71] } 16.
+Rae1 { [%eval -12.11] } 16... Nd4 { [%eval -11.83] } 17. Bb3 { [%eval -12.27] }
+17... Nxb3 { [%eval -11.71] } 18. cxb3 { [%eval -12.6] } 18... Qc2 $2
+{ [%eval -7.7] } 19. Rc1 { [%eval -7.68] } 19... Qxa2 { [%eval -7.43] } 20. Rc7
+$2 { [%eval -9.91] } 20... Qxb3 { [%eval -9.41] } 21. Rfc1 $6
+{ [%eval -11.09] } 21... Qxb4 $4 { [%eval #10] } 22. Rc8+ $4 { [%eval 0.22] }
+22... Be8 $4 { [%eval 3.63] } 23. Rxa8 $4 { [%eval -20.33] } 23... Nb6 $4
+{ [%eval 10.25] } 24. Qxb4 $4 { [%eval 6.04] } 24... Nxa8 { [%eval 5.63] } 25.
+Qxd6+ $2 { [%eval 2.79] } 25... Kg8 $4 { [%eval 10.41] } 26. Qe7 $4
+{ [%eval 2.19] } 26... Nc7 $4 { [%eval #3] } 27. Rc6 $4 { [%eval -3.83] } 27...
+Bxc6 { [%eval -3.74] } 28. Qd8+ $4 { [%eval -7.33] } 28... Bf8 $4
+{ [%eval -3.96] } 29. Qxc7 { [%eval -4.08] } 29... Bb5 $2 { [%eval -1.43] } 30.
+Qxb7 { [%eval -1.76] } 1-0

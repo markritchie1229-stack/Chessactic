@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/WAPJYYAE"]
+[Site "https://lichess.org/L1d2B2Bq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gobbojr"]
+[Black "pawnsnagger7"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:20:34"]
+[WhiteElo "1543"]
+[BlackElo "1519"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.4] } 2. Nf3 { [%eval 0.2] } 2... e6
+{ [%eval 0.27] } 3. d3 { [%eval 0.01] } 3... Nc6 { [%eval -0.01] } 4. g3
+{ [%eval -0.2] } 4... Nf6 { [%eval 0.0] } 5. Bg2 { [%eval -0.09] } 5... d5
+{ [%eval -0.13] } 6. Nbd2 { [%eval -0.27] } 6... dxe4 { [%eval -0.18] } 7. dxe4
+{ [%eval -0.28] } 7... Qb6 $6 { [%eval 0.62] } 8. c3 { [%eval 0.22] } 8... Be7
+{ [%eval 0.13] } 9. O-O { [%eval 0.15] } 9... O-O { [%eval 0.23] } 10. Qc2
+{ [%eval 0.13] } 10... Nd7 { [%eval 0.19] } 11. Re1 { [%eval 0.0] } 11... Nde5
+{ [%eval 0.02] } 12. Nxe5 { [%eval 0.0] } 12... Nxe5 { [%eval 0.0] } 13. Nf3
+{ [%eval 0.0] } 13... Nxf3+ { [%eval 0.01] } 14. Bxf3 { [%eval 0.0] } 14... c4
+{ [%eval 0.31] } 15. e5 { [%eval 0.27] } 15... Bc5 $6 { [%eval 1.2] } 16. b3 $6
+{ [%eval 0.57] } 16... Bxf2+ $4 { [%eval 4.53] } 17. Qxf2 { [%eval 4.5] } 17...
+Qxf2+ { [%eval 4.83] } 18. Kxf2 { [%eval 4.7] } 18... Bd7 $6 { [%eval 5.2] }
+19. Bf4 $6 { [%eval 4.22] } 19... cxb3 { [%eval 4.33] } 20. Red1 $6
+{ [%eval 3.7] } 20... Bb5 $2 { [%eval 4.85] } 21. axb3 { [%eval 4.81] } 21...
+Rac8 $6 { [%eval 5.37] } 22. c4 { [%eval 5.1] } 22... Ba6 $6 { [%eval 5.94] }
+23. Rd7 { [%eval 5.66] } 23... b5 $4 { [%eval 9.26] } 24. cxb5 $4
+{ [%eval 4.23] } 24... Bxb5 { [%eval 4.23] } 25. Rd2 $6 { [%eval 3.73] } 25...
+Rfd8 $2 { [%eval 5.19] } 26. Rad1 $2 { [%eval 3.56] } 1-0

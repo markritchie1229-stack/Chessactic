@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/7FQguw42"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nkko"]
+[Black "elcordobes"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:51:32"]
+[WhiteElo "1898"]
+[BlackElo "1772"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+13"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "0+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.17] } 1... e6 { [%eval 0.27] } 2. Bf4 { [%eval 0.08] } 2... d5
+{ [%eval 0.08] } 3. Nf3 { [%eval 0.06] } 3... Nf6 { [%eval 0.05] } 4. e3
+{ [%eval 0.05] } 4... Bd6 { [%eval 0.03] } 5. Bg5 { [%eval 0.0] } 5... Be7
+{ [%eval 0.12] } 6. c3 { [%eval -0.08] } 6... Nfd7 { [%eval 0.26] } 7. Bxe7
+{ [%eval 0.21] } 7... Qxe7 { [%eval 0.34] } 8. Qc2 { [%eval 0.24] } 8... f6 $6
+{ [%eval 0.81] } 9. Nbd2 { [%eval 0.48] } 9... O-O { [%eval 0.62] } 10. e4
+{ [%eval 0.21] } 10... Qf7 $6 { [%eval 0.77] } 11. Bd3 { [%eval 0.79] } 11...
+g6 { [%eval 0.76] } 12. h4 { [%eval 0.72] } 12... Nc6 $6 { [%eval 1.25] } 13.
+h5 { [%eval 1.0] } 13... g5 { [%eval 1.12] } 14. O-O-O { [%eval 1.06] } 14...
+h6 { [%eval 1.23] } 15. Nh2 $6 { [%eval 0.6] } 15... Ne7 $6 { [%eval 1.17] }
+16. f4 $2 { [%eval 0.17] } 16... Kh8 $2 { [%eval 1.81] } 17. fxg5
+{ [%eval 1.76] } 17... fxg5 { [%eval 1.81] } 18. Nhf3 $6 { [%eval 0.91] } 18...
+Nf6 $6 { [%eval 1.76] } 19. e5 $2 { [%eval 0.14] } 19... Ng4 { [%eval 0.16] }
+20. Kb1 $6 { [%eval -0.75] } 20... Ne3 { [%eval -0.64] } 21. Qb3
+{ [%eval -0.94] } 21... Nxd1 { [%eval -0.51] } 22. Rxd1 $2 { [%eval -1.77] }
+22... b6 $6 { [%eval -1.16] } 23. c4 $2 { [%eval -2.16] } 23... Bd7 $6
+{ [%eval -1.57] } 24. cxd5 { [%eval -1.97] } 24... Nxd5 { [%eval -1.6] } 25.
+Bc4 $6 { [%eval -2.39] } 25... Qe7 $6 { [%eval -1.79] } 26. Ne4
+{ [%eval -1.97] } 26... c6 $6 { [%eval -1.31] } 27. Bxd5 { [%eval -1.52] }
+27... cxd5 { [%eval -1.35] } 28. Nf6 { [%eval -1.28] } 28... Rxf6 $2
+{ [%eval 0.0] } 29. exf6 { [%eval 0.0] } 29... Qxf6 { [%eval 0.0] } 30. Ne5
+{ [%eval 0.0] } 30... Be8 { [%eval 0.0] } 31. g4 { [%eval 0.0] } 31... Bf7 $2
+{ [%eval 1.08] } 0-1

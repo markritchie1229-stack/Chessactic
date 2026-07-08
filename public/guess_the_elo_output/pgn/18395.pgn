@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/YCqPHnwN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RiskyBlitzer"]
+[Black "WRaven"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:14:11"]
+[WhiteElo "2279"]
+[BlackElo "2167"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-7"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit: Vienna Variation"]
+[TimeControl "300+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... d5 { [%eval 0.71] } 2. d4 $2 { [%eval -0.54] } 2...
+dxe4 { [%eval -0.45] } 3. Nc3 { [%eval -0.47] } 3... Nf6 { [%eval -0.42] } 4.
+f3 { [%eval -0.61] } 4... Bf5 { [%eval -0.3] } 5. fxe4 { [%eval -0.46] } 5...
+Nxe4 { [%eval -0.46] } 6. Qf3 { [%eval -0.42] } 6... Nd6 { [%eval -0.33] } 7.
+Bf4 { [%eval -0.32] } 7... Qd7 $2 { [%eval 1.53] } 8. Bxd6 { [%eval 1.43] }
+8... exd6 $2 { [%eval 3.68] } 9. O-O-O $4 { [%eval -0.34] } 9... Nc6
+{ [%eval 0.0] } 10. Bb5 { [%eval 0.0] } 10... a6 { [%eval 0.0] } 11. Ba4
+{ [%eval -0.02] } 11... b5 { [%eval 0.0] } 12. Nxb5 { [%eval 0.0] } 12... axb5
+{ [%eval 0.0] } 13. Bxb5 { [%eval 0.0] } 13... d5 { [%eval 0.0] } 14. Bxc6
+{ [%eval 0.0] } 14... Qxc6 { [%eval 0.0] } 15. Qxf5 { [%eval 0.0] } 15... Rxa2
+$2 { [%eval 1.05] } 16. Qc8+ { [%eval 1.04] } 16... Ke7 { [%eval 1.04] } 17.
+Re1+ { [%eval 1.06] } 17... Kf6 { [%eval 1.08] } 18. Rf1+ { [%eval 1.11] }
+18... Kg6 $4 { [%eval 12.67] } 19. Qg4+ { [%eval 12.14] } 19... Kh6
+{ [%eval 12.1] } 20. Rf3 $4 { [%eval 2.05] } 20... g6 $4 { [%eval 12.58] } 21.
+Qf4+ { [%eval 12.47] } 21... g5 { [%eval 12.46] } 22. Qxf7 { [%eval 12.33] }
+22... Ra1+ { [%eval 12.3] } 23. Kd2 { [%eval 12.11] } 23... Bb4+
+{ [%eval 11.93] } 24. c3 { [%eval 11.5] } 24... g4 $6 { [%eval #9] } 1-0

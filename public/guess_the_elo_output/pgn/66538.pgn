@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9Cwk5Oa2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elgalgo2017"]
+[Black "putcrun"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:37:46"]
+[WhiteElo "2110"]
+[BlackElo "2145"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-11"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e6 { [%eval 0.2] } 2. d4 { [%eval 0.19] } 2... Ne7
+$6 { [%eval 0.69] } 3. Nd2 { [%eval 0.52] } 3... Ng6 { [%eval 0.45] } 4. Ngf3
+{ [%eval 0.46] } 4... Nf4 $6 { [%eval 1.19] } 5. Nb3 { [%eval 1.17] } 5... Ng6
+{ [%eval 1.28] } 6. Bd3 { [%eval 1.13] } 6... Nh4 { [%eval 1.42] } 7. O-O
+{ [%eval 1.23] } 7... a6 $2 { [%eval 2.61] } 8. g3 $2 { [%eval 0.73] } 8...
+Nxf3+ { [%eval 0.87] } 9. Qxf3 { [%eval 0.91] } 9... Nc6 { [%eval 1.06] } 10.
+d5 $2 { [%eval 0.05] } 10... Ne5 { [%eval 0.21] } 11. Qe2 { [%eval 0.16] }
+11... Bc5 $4 { [%eval 3.6] } 12. Be3 $4 { [%eval 0.25] } 12... Bxe3
+{ [%eval 0.2] } 13. Qxe3 { [%eval 0.22] } 13... O-O { [%eval 0.67] } 14. f4 $6
+{ [%eval 0.07] } 14... Nxd3 { [%eval 0.1] } 15. Qxd3 { [%eval 0.25] } 15... f5
+$2 { [%eval 1.29] } 16. exf5 { [%eval 1.09] } 16... exf5 { [%eval 1.22] } 17.
+d6 { [%eval 1.13] } 17... c6 $2 { [%eval 2.13] } 18. c4 $6 { [%eval 1.26] }
+18... b5 $6 { [%eval 2.01] } 19. c5 { [%eval 1.81] } 19... b4 $2
+{ [%eval 2.86] } 20. Qc4+ { [%eval 2.55] } 20... Kh8 { [%eval 2.76] } 21. Qxb4
+{ [%eval 2.59] } 21... a5 { [%eval 2.48] } 22. Qd4 { [%eval 2.29] } 22... Ba6
+{ [%eval 2.64] } 23. Rfe1 { [%eval 2.29] } 23... a4 $2 { [%eval 4.35] } 24. Re7
+{ [%eval 3.97] } 24... Rg8 $2 { [%eval 5.56] } 25. Nd2 { [%eval 5.09] } 25...
+Qa5 { [%eval 5.42] } 26. Rae1 { [%eval 5.21] } 26... Rab8 { [%eval 4.87] } 27.
+a3 { [%eval 4.71] } 27... Bc8 $4 { [%eval #7] } 28. Rf7 $2 { [%eval 7.02] }
+28... Rxb2 $2 { [%eval #8] } 29. Qxb2 $4 { [%eval 1.02] } 29... Qb5 $4
+{ [%eval #14] } 1-0

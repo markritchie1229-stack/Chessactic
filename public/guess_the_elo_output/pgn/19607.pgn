@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/QbS0kF49"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kazanchess"]
+[Black "kvc123"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:02:23"]
+[WhiteElo "1723"]
+[BlackElo "1582"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.16] } 1... d5 { [%eval 0.09] } 2. d3 { [%eval -0.16] } 2... e5
+{ [%eval -0.16] } 3. Be2 { [%eval -0.33] } 3... c5 { [%eval -0.34] } 4. Nf3
+{ [%eval -0.58] } 4... Nc6 { [%eval -0.45] } 5. O-O { [%eval -0.52] } 5... Bd6
+{ [%eval -0.42] } 6. h3 { [%eval -0.52] } 6... Nf6 { [%eval -0.59] } 7. Ng5 $6
+{ [%eval -1.14] } 7... h6 { [%eval -1.03] } 8. Nf3 { [%eval -1.26] } 8... Ng4
+$4 { [%eval 2.48] } 9. Nc3 $4 { [%eval -0.57] } 9... d4 $6 { [%eval -0.04] }
+10. Ne4 { [%eval -0.07] } 10... Bf5 $4 { [%eval 3.82] } 11. Nxd6+
+{ [%eval 3.6] } 11... Qxd6 { [%eval 3.47] } 12. hxg4 { [%eval 3.36] } 12...
+Bxg4 { [%eval 3.27] } 13. Nh2 $6 { [%eval 2.51] } 13... h5 $2 { [%eval 3.66] }
+14. Bxg4 { [%eval 3.19] } 14... hxg4 { [%eval 3.08] } 15. Qxg4 { [%eval 3.12] }
+15... g6 $6 { [%eval 4.04] } 16. e4 { [%eval 3.97] } 16... Ne7 $6
+{ [%eval 4.79] } 17. Bg5 $6 { [%eval 3.85] } 17... Kd8 $2 { [%eval 6.29] } 18.
+Bf6 $4 { [%eval 0.22] } 18... Qxf6 { [%eval 0.18] } 19. c3 { [%eval 0.0] }
+19... Kc7 { [%eval 0.12] } 20. cxd4 { [%eval 0.0] } 20... exd4 { [%eval 0.11] }
+21. f4 { [%eval -0.29] } 21... Rh4 { [%eval -0.23] } 22. Qg3 { [%eval -0.67] }
+22... Rah8 { [%eval -0.64] } 23. Nf3 { [%eval -0.75] } 23... Rh1+ $6
+{ [%eval 0.22] } 24. Kf2 { [%eval 0.07] } 24... Rxf1+ { [%eval 0.33] } 25. Rxf1
+{ [%eval 0.14] } 25... Nc6 { [%eval 0.07] } 26. f5+ { [%eval -0.17] } 26... Kd7
+{ [%eval 0.0] } 27. fxg6 { [%eval 0.0] } 27... fxg6 { [%eval 0.41] } 28. Qg4+
+{ [%eval 0.0] } 28... Ke7 { [%eval 0.14] } 29. Ke2 { [%eval 0.14] } 29... Nb4
+$4 { [%eval 11.39] } 30. Ng5 { [%eval 10.52] } 30... Qb6 $6 { [%eval #2] } 31.
+Rf7+ { [%eval #1] } 31... Ke8 { [%eval #1] } 32. Qd7# 1-0

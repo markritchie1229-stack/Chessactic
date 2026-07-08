@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UR0DEQDt"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sarwajeet"]
+[Black "MustardRice"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:20:40"]
+[WhiteElo "1236"]
+[BlackElo "1325"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+46"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... c6 { [%eval 0.32] } 2. d4 { [%eval 0.29] } 2... d5
+{ [%eval 0.47] } 3. exd5 { [%eval 0.21] } 3... cxd5 { [%eval 0.29] } 4. Nf3
+{ [%eval 0.27] } 4... Nc6 { [%eval 0.22] } 5. Bb5 { [%eval 0.12] } 5... Bg4
+{ [%eval 0.29] } 6. Nc3 { [%eval -0.2] } 6... a6 { [%eval 0.0] } 7. Bxc6+
+{ [%eval -0.02] } 7... bxc6 { [%eval 0.16] } 8. Be3 { [%eval -0.13] } 8... Qa5
+{ [%eval 0.0] } 9. O-O { [%eval 0.0] } 9... Nf6 { [%eval 0.05] } 10. a4
+{ [%eval -0.18] } 10... e6 { [%eval -0.29] } 11. Bd2 { [%eval -0.6] } 11... Qb6
+{ [%eval -0.3] } 12. b3 $2 { [%eval -1.32] } 12... Bxf3 { [%eval -1.22] } 13.
+Qxf3 { [%eval -1.2] } 13... Qxd4 { [%eval -1.2] } 14. Ne2 $4 { [%eval -5.62] }
+14... Qxd2 { [%eval -5.45] } 15. Rfd1 { [%eval -5.57] } 15... Qg5
+{ [%eval -5.54] } 16. Nd4 { [%eval -5.72] } 16... Bc5 { [%eval -5.53] } 17.
+Nxc6 $6 { [%eval -6.09] } 17... O-O $6 { [%eval -5.5] } 18. Nd4 $6
+{ [%eval -6.06] } 18... Bxd4 $2 { [%eval -4.93] } 19. Rxd4 { [%eval -4.98] }
+19... e5 { [%eval -4.95] } 20. Rdd1 { [%eval -5.04] } 20... e4
+{ [%eval -4.97] } 21. Qc3 $6 { [%eval -5.56] } 21... Rac8 { [%eval -5.4] } 22.
+Qa5 $4 { [%eval -12.32] } 22... Rxc2 { [%eval -10.99] } 23. Qxa6
+{ [%eval -16.87] } 23... e3 { [%eval -14.38] } 24. fxe3 $6 { [%eval #-1] }
+24... Qxg2# 0-1

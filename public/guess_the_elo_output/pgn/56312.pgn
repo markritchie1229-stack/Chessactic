@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ls93ux9i"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Seb8983"]
+[Black "popou"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:12:53"]
+[WhiteElo "1364"]
+[BlackElo "1073"]
+[WhiteRatingDiff "-18"]
+[BlackRatingDiff "+48"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c6 { [%eval 0.32] } 2. d4 { [%eval 0.38] } 2... d5
+{ [%eval 0.52] } 3. exd5 { [%eval 0.21] } 3... cxd5 { [%eval 0.28] } 4. Nf3
+{ [%eval 0.23] } 4... Bf5 { [%eval 0.4] } 5. Bb5+ { [%eval 0.35] } 5... Nc6
+{ [%eval 0.35] } 6. Nc3 { [%eval 0.09] } 6... a5 $2 { [%eval 1.14] } 7. Qe2
+{ [%eval 0.9] } 7... Qd6 { [%eval 1.19] } 8. Ne5 { [%eval 0.93] } 8... O-O-O $4
+{ [%eval 6.4] } 9. Nxc6 $4 { [%eval 2.52] } 9... bxc6 { [%eval 2.49] } 10. Ba6+
+$2 { [%eval 1.21] } 10... Kd7 { [%eval 1.25] } 11. g3 { [%eval 0.87] } 11... e6
+{ [%eval 0.77] } 12. Bf4 { [%eval 0.61] } 12... Qb4 { [%eval 0.9] } 13. O-O-O
+$6 { [%eval 0.32] } 13... a4 { [%eval 0.4] } 14. Bc8+ $4 { [%eval -3.63] }
+14... Rxc8 { [%eval -3.78] } 15. Qa6 { [%eval -3.64] } 15... a3
+{ [%eval -3.45] } 16. Qa7+ $2 { [%eval -4.85] } 16... Rc7 $4 { [%eval 10.79] }
+17. Qxc7+ { [%eval 10.24] } 17... Ke8 { [%eval 9.69] } 18. Qc8+ $4
+{ [%eval 3.67] } 18... Ke7 { [%eval 3.35] } 19. Bg5+ $4 { [%eval -1.93] } 19...
+f6 { [%eval -1.62] } 20. Qc7+ { [%eval -1.7] } 20... Ke8 { [%eval -1.64] } 21.
+Qxc6+ { [%eval -1.58] } 21... Ke7 $2 { [%eval 1.18] } 22. Qc7+ $2
+{ [%eval 0.0] } 22... Ke8 { [%eval 0.0] } 23. b3 { [%eval 0.0] } 23... fxg5
+{ [%eval -0.54] } 24. f3 { [%eval -0.93] } 24... Bd6 { [%eval -0.91] } 25. g4
+$4 { [%eval -16.33] } 25... Bxc7 { [%eval -15.66] } 26. gxf5 $6 { [%eval #-3] }
+26... Qxc3 $6 { [%eval -37.23] } 27. Rde1 $6 { [%eval #-3] } 27... Bf4+
+{ [%eval #-2] } 0-1

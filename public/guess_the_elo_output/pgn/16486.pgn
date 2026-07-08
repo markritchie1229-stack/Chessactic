@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nThYdTeX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "penichess"]
+[Black "alerodas2010"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:56:26"]
+[WhiteElo "1789"]
+[BlackElo "1792"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+46"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.3] } 2. Nc3 { [%eval 0.17] } 2... f5
+$2 { [%eval 1.2] } 3. exf5 { [%eval 1.46] } 3... Nf6 { [%eval 1.52] } 4. g4
+{ [%eval 1.49] } 4... d5 $6 { [%eval 2.19] } 5. d3 $2 { [%eval 0.58] } 5... Bc5
+$2 { [%eval 1.76] } 6. h3 $6 { [%eval 0.89] } 6... O-O { [%eval 1.22] } 7. Bg2
+{ [%eval 1.07] } 7... c6 { [%eval 1.17] } 8. Nf3 { [%eval 1.0] } 8... Qe7 $6
+{ [%eval 1.58] } 9. O-O { [%eval 1.45] } 9... g6 { [%eval 1.83] } 10. fxg6
+{ [%eval 2.1] } 10... hxg6 { [%eval 2.37] } 11. Bh6 { [%eval 2.25] } 11... Re8
+{ [%eval 2.21] } 12. Bg5 $6 { [%eval 1.44] } 12... Be6 $2 { [%eval 2.77] } 13.
+Nxe5 { [%eval 2.62] } 13... Bf7 $2 { [%eval 4.01] } 14. Nxf7 $2
+{ [%eval 2.34] } 14... Qxf7 { [%eval 2.48] } 15. Qf3 { [%eval 2.12] } 15...
+Nbd7 { [%eval 2.16] } 16. Rae1 { [%eval 2.15] } 16... Rf8 { [%eval 2.51] } 17.
+Be3 $2 { [%eval 0.27] } 17... Bd6 $2 { [%eval 2.31] } 18. Qd1 { [%eval 2.49] }
+18... Qh7 { [%eval 2.68] } 19. Bd4 { [%eval 2.2] } 19... b6 $2 { [%eval 4.32] }
+20. Bxf6 $2 { [%eval 1.59] } 20... Nxf6 { [%eval 1.55] } 21. Re6
+{ [%eval 1.28] } 21... Rad8 { [%eval 1.56] } 22. Rfe1 $6 { [%eval 0.88] } 22...
+Qh4 $6 { [%eval 1.55] } 23. Nb1 { [%eval 1.11] } 23... Bc5 $6 { [%eval 1.99] }
+24. d4 $2 { [%eval 0.0] } 24... Bd6 $2 { [%eval 2.56] } 25. Nd2
+{ [%eval 2.66] } 25... Ne4 { [%eval 3.01] } 26. Nxe4 { [%eval 2.74] } 26...
+dxe4 { [%eval 2.89] } 27. R1xe4 $2 { [%eval 1.27] } 27... Qxf2+
+{ [%eval 1.23] } 28. Kh1 { [%eval 1.26] } 28... Qg3 $6 { [%eval 1.86] } 29. Kg1
+$4 { [%eval #-1] } 29... Qh2# 0-1

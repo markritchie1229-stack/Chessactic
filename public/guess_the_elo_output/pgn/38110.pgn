@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HXw28b8w"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ghjkfdsa"]
+[Black "JosephZL"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:43:30"]
+[WhiteElo "1566"]
+[BlackElo "1522"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+12"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.29] } 2. Nf3 { [%eval 0.35] } 2...
+Nf6 { [%eval 0.38] } 3. Bc4 $6 { [%eval -0.22] } 3... Nxe4 { [%eval -0.1] } 4.
+Nxe5 { [%eval -0.36] } 4... d6 $4 { [%eval 4.95] } 5. Nxf7 { [%eval 5.02] }
+5... Qh4 { [%eval 5.13] } 6. O-O { [%eval 4.57] } 6... d5 $2 { [%eval 6.32] }
+7. Bxd5 { [%eval 6.32] } 7... c6 { [%eval 6.34] } 8. Bxe4 $2 { [%eval 3.36] }
+8... Kxf7 { [%eval 3.34] } 9. d3 $6 { [%eval 2.79] } 9... Bg4 { [%eval 2.76] }
+10. f3 { [%eval 2.79] } 10... Be6 { [%eval 2.99] } 11. Be3 { [%eval 2.75] }
+11... Bd6 { [%eval 3.13] } 12. h3 $2 { [%eval 1.23] } 12... Qg3
+{ [%eval 1.12] } 13. f4 $4 { [%eval -2.38] } 13... Qxe3+ { [%eval -2.1] } 14.
+Kh1 { [%eval -1.89] } 14... Kg8 $6 { [%eval -1.13] } 15. Rf3 { [%eval -1.54] }
+15... Qb6 { [%eval -1.49] } 16. b3 $6 { [%eval -2.07] } 16... Nd7
+{ [%eval -2.04] } 17. Nc3 { [%eval -2.29] } 17... Bd5 $2 { [%eval 0.0] } 18.
+Bxd5+ $6 { [%eval -0.9] } 18... cxd5 { [%eval -1.05] } 19. Nxd5
+{ [%eval -0.89] } 19... Qd4 { [%eval -0.95] } 20. c4 { [%eval -0.89] } 20... h5
+{ [%eval -0.5] } 21. Nc7 $4 { [%eval -5.73] } 21... Bxc7 { [%eval -5.7] } 22.
+Qc2 $4 { [%eval -20.85] } 22... Qxa1+ { [%eval -15.86] } 23. Kh2
+{ [%eval -15.53] } 23... Nf6 { [%eval -14.97] } 24. c5 $6 { [%eval #-9] } 24...
+Ng4+ { [%eval #-8] } 25. Kg3 { [%eval #-5] } 25... Qe1+ { [%eval #-4] } 26. Rf2
+{ [%eval #-3] } 26... Bxf4+ { [%eval #-2] } 27. Kxf4 { [%eval #-2] } 27... Qe5+
+{ [%eval #-1] } 28. Kf3 { [%eval #-1] } 28... Nh2# 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/j64uHU2L"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mako13"]
+[Black "pikutrex"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:04:32"]
+[WhiteElo "2053"]
+[BlackElo "1765"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+19"]
+[ECO "A40"]
+[Opening "Mikenas Defense"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... Nc6 { [%eval 0.49] } 2. Bg5 $6 { [%eval -0.13] }
+2... d5 { [%eval -0.07] } 3. e3 { [%eval -0.16] } 3... Bf5 { [%eval -0.05] } 4.
+Bd3 { [%eval -0.17] } 4... Qd7 { [%eval -0.31] } 5. Nf3 { [%eval -0.4] } 5...
+e6 $6 { [%eval 0.19] } 6. c4 { [%eval -0.18] } 6... Be7 $6 { [%eval 0.63] } 7.
+Bf4 { [%eval 0.24] } 7... Nf6 { [%eval 0.38] } 8. Nc3 { [%eval 0.09] } 8...
+Bxd3 { [%eval -0.04] } 9. Qxd3 { [%eval -0.03] } 9... Nh5 { [%eval 0.2] } 10.
+Bg3 { [%eval 0.12] } 10... Nxg3 { [%eval 0.25] } 11. hxg3 { [%eval 0.22] }
+11... Nb4 { [%eval 0.25] } 12. Qb1 { [%eval -0.02] } 12... dxc4
+{ [%eval -0.02] } 13. Ne5 { [%eval 0.0] } 13... Qd6 { [%eval 0.31] } 14. Nxc4
+{ [%eval 0.2] } 14... Qa6 { [%eval 0.34] } 15. b3 { [%eval -0.07] } 15... b5 $6
+{ [%eval 0.68] } 16. Ne5 { [%eval 0.68] } 16... f6 $6 { [%eval 1.55] } 17. Nd3
+$2 { [%eval 0.0] } 17... Qc6 { [%eval 0.0] } 18. Kd2 { [%eval 0.0] } 18... Qxg2
+{ [%eval 0.0] } 19. Qe1 $2 { [%eval -1.15] } 19... a6 $2 { [%eval -0.03] } 20.
+Nf4 { [%eval -0.16] } 20... Qc6 $6 { [%eval 0.6] } 21. Qe2 $2 { [%eval -0.4] }
+21... e5 { [%eval 0.0] } 22. d5 $4 { [%eval -3.84] } 22... Qd7 $4
+{ [%eval 0.45] } 23. Nd3 $2 { [%eval -2.43] } 23... Nxd5 { [%eval -2.08] } 24.
+Nxd5 { [%eval -2.52] } 24... Qxd5 { [%eval -2.43] } 25. Rhd1 $2
+{ [%eval -5.17] } 25... e4 { [%eval -5.07] } 26. Ke1 { [%eval -5.13] } 26...
+exd3 { [%eval -5.0] } 27. Rxd3 $4 { [%eval -14.54] } 27... Bb4+
+{ [%eval -14.52] } 28. Kd1 { [%eval -14.43] } 28... Qh1+ { [%eval -13.97] } 29.
+Kc2 { [%eval -13.83] } 29... Qxa1 { [%eval -13.46] } 0-1

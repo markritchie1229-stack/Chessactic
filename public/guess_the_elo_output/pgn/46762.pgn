@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/eoMSP5Lj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mostro79"]
+[Black "CapaMyIdol"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:49:24"]
+[WhiteElo "1652"]
+[BlackElo "1641"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. b3 { [%eval -0.15] } 1... d6 { [%eval 0.32] } 2. Bb2 { [%eval 0.1] } 2...
+Nf6 { [%eval 0.39] } 3. g3 { [%eval -0.01] } 3... e5 { [%eval 0.07] } 4. Bg2
+{ [%eval -0.19] } 4... c6 $6 { [%eval 0.33] } 5. e3 { [%eval 0.02] } 5... Be7
+{ [%eval 0.03] } 6. Qe2 $6 { [%eval -0.5] } 6... O-O { [%eval -0.5] } 7. d3
+{ [%eval -0.59] } 7... Nbd7 $6 { [%eval -0.08] } 8. Nd2 { [%eval -0.25] } 8...
+Qc7 { [%eval -0.12] } 9. O-O-O { [%eval -0.59] } 9... d5 { [%eval -0.41] } 10.
+h4 { [%eval -0.69] } 10... Qa5 { [%eval -0.64] } 11. f3 $2 { [%eval -2.6] }
+11... Ba3 $2 { [%eval -0.9] } 12. Nb1 { [%eval -1.08] } 12... Bxb2+
+{ [%eval -1.07] } 13. Kxb2 { [%eval -1.35] } 13... b5 $6 { [%eval -0.84] } 14.
+d4 { [%eval -1.04] } 14... Qb6 { [%eval -0.97] } 15. dxe5 $2 { [%eval -2.0] }
+15... Nxe5 { [%eval -2.14] } 16. f4 $2 { [%eval -3.19] } 16... Ned7 $2
+{ [%eval -1.87] } 17. g4 { [%eval -2.25] } 17... Re8 { [%eval -2.15] } 18. g5
+{ [%eval -1.97] } 18... Ne4 $6 { [%eval -1.4] } 19. Bxe4 { [%eval -1.52] }
+19... Rxe4 { [%eval -1.47] } 20. Nf3 { [%eval -1.54] } 20... a5
+{ [%eval -1.16] } 21. h5 { [%eval -1.55] } 21... a4 { [%eval -1.36] } 22. g6
+{ [%eval -1.62] } 22... fxg6 { [%eval -2.05] } 23. hxg6 { [%eval -2.11] } 23...
+h6 { [%eval -1.85] } 24. Nh4 $2 { [%eval -3.54] } 24... axb3 { [%eval -3.18] }
+25. cxb3 { [%eval -2.93] } 25... Qa5 { [%eval -2.54] } 26. a3 { [%eval -2.41] }
+26... Nc5 { [%eval -2.72] } 27. Nf5 $4 { [%eval -8.96] } 27... Nxb3 $4
+{ [%eval 1.61] } 28. Nxh6+ { [%eval 1.17] } 28... Kf8 { [%eval 1.38] } 29. Nf5
+$4 { [%eval -2.96] } 29... Kg8 $4 { [%eval #3] } 30. Nxg7 $4 { [%eval 4.9] }
+1-0

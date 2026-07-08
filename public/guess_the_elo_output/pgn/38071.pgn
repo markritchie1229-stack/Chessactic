@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/NwfVdxvr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "stockfish25"]
+[Black "jeanma88"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:41:48"]
+[WhiteElo "1745"]
+[BlackElo "1776"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-11"]
+[ECO "B44"]
+[Opening "Sicilian Defense: Paulsen Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.17] } 2. Nf3 { [%eval 0.27] } 2... e6
+{ [%eval 0.35] } 3. d4 { [%eval 0.23] } 3... cxd4 { [%eval 0.21] } 4. Nxd4
+{ [%eval 0.3] } 4... Nc6 { [%eval 0.3] } 5. Bc4 { [%eval 0.22] } 5... Nge7 $6
+{ [%eval 0.77] } 6. Nc3 { [%eval 0.43] } 6... Na5 $6 { [%eval 1.07] } 7. Bb3 $6
+{ [%eval 0.46] } 7... Nxb3 $6 { [%eval 0.97] } 8. axb3 { [%eval 0.92] } 8...
+Nc6 { [%eval 1.18] } 9. Nxc6 $6 { [%eval 0.6] } 9... bxc6 { [%eval 0.59] } 10.
+O-O { [%eval 0.5] } 10... Bb4 $6 { [%eval 1.22] } 11. Na4 $2 { [%eval 0.17] }
+11... d5 $2 { [%eval 1.25] } 12. exd5 { [%eval 0.76] } 12... cxd5 $6
+{ [%eval 1.75] } 13. Bd2 $2 { [%eval -0.27] } 13... Qe7 $6 { [%eval 0.59] } 14.
+Nb6 { [%eval 0.48] } 14... Rb8 { [%eval 0.79] } 15. Nxc8 { [%eval 0.74] } 15...
+Rxc8 { [%eval 0.78] } 16. Bxb4 { [%eval 0.7] } 16... Qxb4 { [%eval 0.73] } 17.
+Rxa7 { [%eval 0.66] } 17... O-O { [%eval 0.72] } 18. Ra4 { [%eval 0.7] } 18...
+Qc5 { [%eval 0.86] } 19. c3 { [%eval 0.79] } 19... Rc7 $6 { [%eval 1.3] } 20.
+Qd2 { [%eval 0.96] } 20... Rfc8 { [%eval 1.1] } 21. Re1 { [%eval 0.93] } 21...
+Qb5 { [%eval 1.1] } 22. Rb4 { [%eval 1.03] } 22... Qc5 { [%eval 1.1] } 23. Qg5
+{ [%eval 0.8] } 23... h6 { [%eval 1.01] } 24. Qh5 { [%eval 1.0] } 24... Qe7
+{ [%eval 0.97] } 25. Qe5 { [%eval 0.93] } 25... Qh4 $4 { [%eval 15.08] } 26.
+Rxh4 { [%eval 14.77] } 1-0

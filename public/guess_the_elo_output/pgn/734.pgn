@@ -1,0 +1,40 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/1D7kT9Kp"]
+[Site "https://lichess.org/pCja3joE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "muzzio1"]
+[Black "Rasil7"]
+[Result "0-1"]
+[UTCDate "2017.01.31"]
+[UTCTime "23:43:49"]
+[WhiteElo "1759"]
+[BlackElo "1756"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+20"]
+[ECO "A30"]
+[Opening "English Opening: Symmetrical Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.06] } 1... c5 { [%eval 0.2] } 2. g3 { [%eval 0.1] } 2... Nf6
+{ [%eval 0.15] } 3. Bg2 { [%eval 0.06] } 3... g6 { [%eval 0.3] } 4. Nc3
+{ [%eval 0.22] } 4... Bg7 { [%eval 0.22] } 5. e3 { [%eval 0.28] } 5... O-O
+{ [%eval 0.29] } 6. Nge2 { [%eval 0.21] } 6... Nc6 { [%eval 0.24] } 7. O-O
+{ [%eval 0.2] } 7... d6 { [%eval 0.18] } 8. d4 { [%eval 0.16] } 8... cxd4
+{ [%eval 0.2] } 9. exd4 { [%eval 0.25] } 9... Bd7 $6 { [%eval 0.77] } 10. b3
+{ [%eval 0.33] } 10... Rb8 $6 { [%eval 0.93] } 11. Bb2 { [%eval 0.58] } 11...
+Ne8 { [%eval 1.0] } 12. Rc1 { [%eval 0.7] } 12... a6 { [%eval 1.1] } 13. Qd2
+{ [%eval 0.89] } 13... Na7 { [%eval 0.98] } 14. a4 { [%eval 0.56] } 14... Nc8
+{ [%eval 0.84] } 15. d5 { [%eval 1.0] } 15... b5 { [%eval 1.14] } 16. Nd4 $2
+{ [%eval -0.33] } 16... bxc4 { [%eval -0.46] } 17. bxc4 $2 { [%eval -3.39] }
+17... Qb6 $4 { [%eval 0.4] } 18. Nc6 $4 { [%eval -3.4] } 18... Bxc6
+{ [%eval -3.25] } 19. dxc6 { [%eval -3.27] } 19... Qxb2 { [%eval -3.16] } 20.
+Qxb2 { [%eval -3.59] } 20... Rxb2 { [%eval -3.29] } 21. Nd5 { [%eval -3.64] }
+21... e6 { [%eval -3.54] } 22. Ne3 { [%eval -3.6] } 22... Nb6 { [%eval -3.48] }
+23. a5 { [%eval -3.53] } 23... Na4 { [%eval -3.44] } 24. Rb1 { [%eval -3.64] }
+24... Nc7 { [%eval -3.5] } 25. Rxb2 { [%eval -3.65] } 25... Nxb2
+{ [%eval -3.56] } 26. Rb1 { [%eval -3.6] } 26... Rb8 { [%eval -3.49] } 27. Nd1
+{ [%eval -3.47] } 27... Bd4 { [%eval -3.37] } 28. Nxb2 $2 { [%eval -4.39] }
+28... Rxb2 { [%eval -4.33] } 29. Rxb2 { [%eval -4.32] } 29... Bxb2
+{ [%eval -4.09] } 30. f4 { [%eval -4.37] } 30... Bc3 { [%eval -4.11] } 31. Kf1
+{ [%eval -4.29] } 31... Bxa5 { [%eval -4.12] } 0-1

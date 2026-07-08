@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/J2VrCjhi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Jupo"]
+[Black "thedind"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:38:46"]
+[WhiteElo "2137"]
+[BlackElo "2164"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+40"]
+[ECO "D10"]
+[Opening "Slav Defense: Exchange Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.23] } 2... c6
+{ [%eval 0.4] } 3. cxd5 { [%eval 0.26] } 3... cxd5 { [%eval 0.24] } 4. Bf4
+{ [%eval 0.24] } 4... Nc6 { [%eval 0.26] } 5. Nc3 { [%eval 0.08] } 5... Nf6
+{ [%eval 0.23] } 6. e3 { [%eval 0.23] } 6... e6 { [%eval 0.2] } 7. Bd3
+{ [%eval 0.28] } 7... Bd6 { [%eval 0.28] } 8. Nge2 { [%eval 0.18] } 8... O-O
+{ [%eval 0.22] } 9. O-O { [%eval 0.11] } 9... Nb4 { [%eval 0.13] } 10. Bb1
+{ [%eval 0.1] } 10... Nc6 { [%eval 0.21] } 11. Bd3 { [%eval 0.2] } 11... Nb4
+{ [%eval 0.17] } 12. Bb1 { [%eval 0.17] } 12... Nc6 { [%eval 0.18] } 13. a3
+{ [%eval 0.16] } 13... b6 { [%eval 0.16] } 14. f3 { [%eval -0.06] } 14... Ba6
+{ [%eval 0.03] } 15. b4 $6 { [%eval -0.76] } 15... Bxf4 { [%eval -0.64] } 16.
+exf4 { [%eval -0.64] } 16... Bc4 { [%eval -0.6] } 17. Re1 $6 { [%eval -1.12] }
+17... b5 { [%eval -1.18] } 18. g3 $6 { [%eval -1.72] } 18... g6
+{ [%eval -1.29] } 19. Nc1 $2 { [%eval -2.56] } 19... Qc7 $6 { [%eval -1.7] }
+20. N3e2 $6 { [%eval -2.22] } 20... Qb6 { [%eval -2.14] } 21. Kg2
+{ [%eval -2.56] } 21... a5 { [%eval -2.42] } 22. bxa5 { [%eval -2.5] } 22...
+Rxa5 { [%eval -2.25] } 23. Bc2 { [%eval -2.65] } 23... Rfa8 { [%eval -2.35] }
+24. Nb3 { [%eval -2.65] } 24... Rxa3 { [%eval -2.5] } 25. Rxa3
+{ [%eval -2.58] } 25... Rxa3 { [%eval -2.51] } 26. Nc5 $2 { [%eval -4.37] }
+26... Qa5 { [%eval -3.62] } 27. Nc1 $2 { [%eval -6.31] } 27... Qc3 $2
+{ [%eval -4.98] } 28. N1b3 $4 { [%eval -13.23] } 28... Ra2 { [%eval -12.71] }
+29. Na1 { [%eval -14.3] } 29... Nxd4 { [%eval -13.03] } 0-1

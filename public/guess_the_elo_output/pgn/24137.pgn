@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/CMTA5DBv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "knightvuillaume"]
+[Black "elregonzo"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:39:55"]
+[WhiteElo "1729"]
+[BlackElo "1771"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A40"]
+[Opening "Modern Defense"]
+[TimeControl "0+1"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.15] } 1... g6 { [%eval 0.6] } 2. Nc3 { [%eval 0.36] } 2... Bg7
+{ [%eval 0.61] } 3. e3 $6 { [%eval -0.04] } 3... d6 { [%eval 0.23] } 4. Bd2
+{ [%eval -0.09] } 4... Nf6 { [%eval -0.02] } 5. Bd3 { [%eval -0.04] } 5... O-O
+{ [%eval 0.0] } 6. Qe2 { [%eval -0.42] } 6... c6 { [%eval -0.11] } 7. Nf3
+{ [%eval -0.27] } 7... Nbd7 { [%eval -0.02] } 8. O-O { [%eval -0.28] } 8... Re8
+{ [%eval -0.13] } 9. h3 { [%eval -0.24] } 9... Qc7 { [%eval 0.0] } 10. e4
+{ [%eval -0.01] } 10... e5 { [%eval 0.0] } 11. d5 $2 { [%eval -1.68] } 11...
+Nf8 $2 { [%eval 0.0] } 12. dxc6 $6 { [%eval -0.53] } 12... bxc6
+{ [%eval -0.54] } 13. Bc4 { [%eval -0.46] } 13... Ne6 { [%eval -0.23] } 14. Bb3
+{ [%eval -0.55] } 14... Bb7 { [%eval -0.48] } 15. Rac1 { [%eval -0.73] } 15...
+Rad8 { [%eval -0.62] } 16. Bg5 { [%eval -1.1] } 16... d5 { [%eval -1.31] } 17.
+exd5 $6 { [%eval -2.27] } 17... cxd5 { [%eval -2.54] } 18. Bxf6
+{ [%eval -2.9] } 18... Bxf6 { [%eval -2.61] } 19. Rcd1 $6 { [%eval -3.13] }
+19... d4 $2 { [%eval -1.99] } 20. Ne4 { [%eval -1.92] } 20... Bg7 $6
+{ [%eval -1.1] } 21. c3 $2 { [%eval -2.52] } 21... dxc3 $2 { [%eval -0.1] } 22.
+Nxc3 $2 { [%eval -1.22] } 22... Nd4 { [%eval -1.24] } 23. Qe3 { [%eval -1.4] }
+23... Nxf3+ $2 { [%eval -0.36] } 24. gxf3 { [%eval -0.44] } 24... Qc8
+{ [%eval 0.0] } 25. Qg5 $2 { [%eval -2.55] } 25... Qxh3 $2 { [%eval -1.32] }
+26. Rfe1 $4 { [%eval #-3] } 26... Bxf3 { [%eval #-2] } 27. Rxd8 { [%eval #-1] }
+27... Rxd8 $6 { [%eval #-5] } 0-1

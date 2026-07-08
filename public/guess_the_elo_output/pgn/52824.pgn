@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ZalAOhwX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "oximahos"]
+[Black "Alexandr52"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:10:40"]
+[WhiteElo "1796"]
+[BlackElo "1782"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B17"]
+[Opening "Caro-Kann Defense: Karpov Variation"]
+[TimeControl "1500+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c6 { [%eval 0.37] } 2. d4 { [%eval 0.24] } 2... d5
+{ [%eval 0.28] } 3. Nd2 { [%eval 0.29] } 3... dxe4 { [%eval 0.44] } 4. Nxe4
+{ [%eval 0.43] } 4... Nd7 { [%eval 0.53] } 5. Nf3 { [%eval 0.43] } 5... Ndf6
+{ [%eval 0.83] } 6. Nxf6+ { [%eval 0.5] } 6... Nxf6 { [%eval 0.35] } 7. Bc4
+{ [%eval 0.16] } 7... Bg4 $2 { [%eval 1.52] } 8. Qd3 $2 { [%eval -0.11] } 8...
+e6 { [%eval -0.1] } 9. O-O $6 { [%eval -0.6] } 9... Bxf3 { [%eval -0.53] } 10.
+Qxf3 { [%eval -0.6] } 10... g6 $2 { [%eval 0.63] } 11. Bg5 { [%eval 0.54] }
+11... Bg7 { [%eval 0.79] } 12. Rfe1 $6 { [%eval 0.13] } 12... O-O $6
+{ [%eval 0.94] } 13. Re4 $6 { [%eval -0.04] } 13... h6 { [%eval 0.04] } 14.
+Bxf6 { [%eval 0.03] } 14... Bxf6 { [%eval 0.06] } 15. c3 { [%eval 0.11] } 15...
+Bg7 { [%eval 0.08] } 16. Rae1 { [%eval 0.04] } 16... a6 { [%eval 0.07] } 17.
+Bb3 { [%eval 0.06] } 17... b5 { [%eval 0.43] } 18. h4 { [%eval 0.22] } 18... h5
+{ [%eval 0.17] } 19. Qh3 { [%eval 0.16] } 19... a5 $6 { [%eval 0.75] } 20. g4
+{ [%eval 0.75] } 20... hxg4 { [%eval 0.75] } 21. Qxg4 $2 { [%eval -0.69] }
+21... Bh6 $4 { [%eval 3.22] } 22. h5 $2 { [%eval 1.12] } 22... Kh7 $2
+{ [%eval 2.81] } 23. hxg6+ { [%eval 2.71] } 23... fxg6 { [%eval 2.54] } 24.
+Rxe6 $6 { [%eval 1.85] } 24... Qg5 { [%eval 1.85] } 25. Re7+ { [%eval 1.57] }
+25... Kh8 { [%eval 1.55] } 26. R1e4 { [%eval 1.45] } 26... Qc1+
+{ [%eval 1.58] } 27. Kg2 $6 { [%eval 1.01] } 27... Rxf2+ $4 { [%eval 8.23] }
+28. Kxf2 { [%eval 7.96] } 28... Rf8+ { [%eval 7.66] } 29. Kg2 $4
+{ [%eval -5.02] } 29... Qf1+ { [%eval -5.0] } 30. Kg3 { [%eval -4.82] } 30...
+Qf2+ { [%eval -4.54] } 31. Kh3 { [%eval -4.38] } 31... Rf3+ { [%eval -4.1] }
+32. Qxf3 { [%eval -3.92] } 32... Qxf3+ { [%eval -3.62] } 33. Kh4 $4
+{ [%eval #-1] } 33... g5# 0-1

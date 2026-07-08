@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/GSewEkPB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "figuexmar"]
+[Black "fruityloops"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:41:32"]
+[WhiteElo "1303"]
+[BlackElo "956"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-5"]
+[ECO "C26"]
+[Opening "Vienna Game: Falkbeer Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... Nf6 { [%eval 0.79] } 2. Nc3 $6 { [%eval 0.19] }
+2... e5 { [%eval 0.24] } 3. h3 { [%eval 0.0] } 3... c6 { [%eval 0.3] } 4. a3
+{ [%eval -0.18] } 4... b5 $6 { [%eval 0.81] } 5. d3 $6 { [%eval 0.03] } 5... a5
+{ [%eval 0.46] } 6. Bg5 $6 { [%eval -0.1] } 6... h6 { [%eval 0.01] } 7. Bxf6 $6
+{ [%eval -0.5] } 7... Qxf6 { [%eval -0.55] } 8. a4 { [%eval -0.75] } 8... d5 $6
+{ [%eval -0.21] } 9. axb5 $2 { [%eval -1.51] } 9... Bc5 $2 { [%eval 0.5] } 10.
+Nf3 { [%eval 0.57] } 10... d4 { [%eval 0.55] } 11. Na4 { [%eval 0.56] } 11...
+Bb4+ { [%eval 0.68] } 12. Nd2 $4 { [%eval -3.14] } 12... O-O $4
+{ [%eval 0.43] } 13. Be2 $4 { [%eval -3.1] } 13... cxb5 { [%eval -2.88] } 14.
+Nb6 $2 { [%eval -5.1] } 14... Qxb6 { [%eval -5.0] } 15. O-O { [%eval -5.06] }
+15... Qg6 { [%eval -5.0] } 16. Nf3 $6 { [%eval -5.87] } 16... Qh5 $2
+{ [%eval -2.88] } 17. Nxd4 { [%eval -3.03] } 17... exd4 $4 { [%eval 4.03] } 18.
+Bxh5 { [%eval 4.07] } 18... g6 $6 { [%eval 4.79] } 19. Bf3 { [%eval 4.62] }
+19... h5 $6 { [%eval 5.25] } 20. e5 { [%eval 4.86] } 20... Re8 $4
+{ [%eval 11.0] } 21. Bxa8 { [%eval 10.6] } 21... Nd7 { [%eval 11.59] } 22. Bc6
+{ [%eval 10.54] } 22... Kg7 { [%eval 12.09] } 23. Bxb5 { [%eval 10.44] } 23...
+Nxe5 { [%eval 19.47] } 24. Bxe8 { [%eval 19.11] } 24... g5 { [%eval 21.25] }
+25. Qe2 { [%eval 19.69] } 25... h4 { [%eval 30.72] } 26. Qxe5+
+{ [%eval 28.11] } 26... f6 $6 { [%eval #7] } 27. Qxd4 $6 { [%eval 65.42] }
+27... Bf8 $6 { [%eval #6] } 28. Qa7+ { [%eval #5] } 28... Kg8 { [%eval #5] }
+29. Qf7+ { [%eval #4] } 29... Kh8 { [%eval #4] } 30. Qxf8+ { [%eval #3] } 30...
+Kh7 { [%eval #3] } 31. Rfe1 { [%eval #2] } 31... g4 { [%eval #1] } 32. Re7# 1-0

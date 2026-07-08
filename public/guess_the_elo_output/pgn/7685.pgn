@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/vTYCs1j9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GiftWind"]
+[Black "Otiotto37"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:41:07"]
+[WhiteElo "1454"]
+[BlackElo "1350"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-11"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "420+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... d5 { [%eval 0.66] } 2. exd5 { [%eval 0.7] } 2...
+Qxd5 { [%eval 0.81] } 3. Nc3 { [%eval 0.51] } 3... Qd8 { [%eval 0.52] } 4. d4
+{ [%eval 0.48] } 4... e6 { [%eval 0.48] } 5. Nf3 { [%eval 0.39] } 5... Nf6
+{ [%eval 0.45] } 6. Bd3 { [%eval 0.34] } 6... g6 { [%eval 0.57] } 7. O-O
+{ [%eval 0.5] } 7... Bg7 { [%eval 0.58] } 8. Be3 { [%eval 0.34] } 8... O-O
+{ [%eval 0.46] } 9. Re1 { [%eval 0.43] } 9... Nc6 { [%eval 0.43] } 10. a3
+{ [%eval 0.45] } 10... Qd6 { [%eval 0.81] } 11. b4 $6 { [%eval 0.31] } 11...
+Ng4 { [%eval 0.2] } 12. g3 { [%eval -0.21] } 12... Nxd4 $2 { [%eval 1.54] } 13.
+Bxd4 $6 { [%eval 0.95] } 13... Bxd4 { [%eval 1.13] } 14. Nxd4 $2
+{ [%eval -0.43] } 14... Qxd4 { [%eval -0.05] } 15. Qd2 $2 { [%eval -1.47] }
+15... b6 $2 { [%eval 0.54] } 16. Nb5 { [%eval 0.28] } 16... Ba6 $4
+{ [%eval 12.36] } 17. Nxd4 { [%eval 11.95] } 17... Bxd3 { [%eval 12.09] } 18.
+Qxd3 { [%eval 12.13] } 18... Rad8 { [%eval 12.04] } 19. c3 { [%eval 11.16] }
+19... e5 { [%eval 12.43] } 20. Qe4 { [%eval 11.1] } 20... exd4
+{ [%eval 12.47] } 21. Qxg4 { [%eval 12.16] } 21... dxc3 { [%eval 13.0] } 22.
+Rac1 { [%eval 12.6] } 22... Rd3 { [%eval 13.2] } 23. Re3 { [%eval 12.8] } 23...
+Rxe3 { [%eval 14.93] } 24. fxe3 { [%eval 14.4] } 24... Re8 { [%eval 15.39] }
+25. Qf3 { [%eval 13.9] } 25... a5 { [%eval 20.56] } 26. bxa5 { [%eval 18.38] }
+26... bxa5 { [%eval 54.03] } 27. Rxc3 { [%eval 41.84] } 27... Rc8
+{ [%eval 23.52] } 28. Qf4 { [%eval 19.56] } 28... c5 { [%eval 22.92] } 29. Qe5
+{ [%eval 18.35] } 29... Rd8 { [%eval 63.95] } 30. Rxc5 { [%eval 20.15] } 30...
+Rd1+ $6 { [%eval #14] } 31. Kf2 { [%eval 103.15] } 31... Ra1 $6 { [%eval #1] }
+32. Rc8# 1-0

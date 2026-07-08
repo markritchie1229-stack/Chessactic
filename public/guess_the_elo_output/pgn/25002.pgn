@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/W4B7cm5S"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ahof"]
+[Black "OldSim"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "00:44:17"]
+[WhiteElo "1317"]
+[BlackElo "1200"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-8"]
+[ECO "C42"]
+[Opening "Russian Game: Damiano Variation"]
+[TimeControl "900+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.41] } 2...
+Nf6 { [%eval 0.34] } 3. Nxe5 { [%eval 0.41] } 3... Nxe4 { [%eval 0.64] } 4. f3
+$4 { [%eval -3.25] } 4... Qe7 $4 { [%eval -0.04] } 5. d4 $2 { [%eval -1.15] }
+5... Nd6 $2 { [%eval 1.19] } 6. Bd3 $2 { [%eval 0.06] } 6... g6 $2
+{ [%eval 2.65] } 7. c4 $4 { [%eval -0.48] } 7... f6 { [%eval -0.33] } 8. Bxg6+
+$4 { [%eval -5.98] } 8... Nf7 $4 { [%eval 5.16] } 9. Bxf7+ { [%eval 5.19] }
+9... Kd8 { [%eval 5.0] } 10. Bd5 $2 { [%eval 2.62] } 10... fxe5
+{ [%eval 2.45] } 11. O-O { [%eval 2.36] } 11... c6 { [%eval 2.66] } 12. Be4
+{ [%eval 2.35] } 12... d6 { [%eval 2.68] } 13. dxe5 { [%eval 2.73] } 13... Rg8
+$6 { [%eval 3.68] } 14. exd6 { [%eval 3.81] } 14... Qe6 $2 { [%eval 5.39] } 15.
+Bf4 { [%eval 5.31] } 15... Qh3 $2 { [%eval 6.34] } 16. g3 $2 { [%eval 4.79] }
+16... Qe6 $2 { [%eval 6.63] } 17. b3 $2 { [%eval 4.6] } 17... b5 $4
+{ [%eval 10.31] } 18. cxb5 { [%eval 9.88] } 18... a6 { [%eval 18.11] } 19. bxc6
+{ [%eval 17.58] } 19... Bh6 { [%eval 23.04] } 20. c7+ { [%eval 22.4] } 20...
+Kd7 { [%eval 21.87] } 21. Bxa8 { [%eval 20.71] } 21... Qxd6 $6 { [%eval #4] }
+22. Qxd6+ { [%eval #3] } 22... Ke8 { [%eval #3] } 1-0

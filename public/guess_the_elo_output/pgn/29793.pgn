@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/EfmxQvtI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tomsk1000"]
+[Black "bartzz63"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:58:56"]
+[WhiteElo "1613"]
+[BlackElo "1603"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... d5 { [%eval 0.57] } 2. exd5 { [%eval 0.53] } 2...
+Qxd5 { [%eval 0.66] } 3. Nc3 { [%eval 0.45] } 3... Qe6+ { [%eval 0.93] } 4. Be2
+{ [%eval 0.7] } 4... b6 $6 { [%eval 1.31] } 5. Nf3 { [%eval 1.2] } 5... Ba6
+{ [%eval 1.41] } 6. d3 { [%eval 0.96] } 6... Bb7 $6 { [%eval 1.63] } 7. Be3 $2
+{ [%eval 0.4] } 7... Qc8 { [%eval 0.53] } 8. Ne4 { [%eval 0.2] } 8... e6
+{ [%eval 0.34] } 9. Qd2 { [%eval -0.02] } 9... Be7 { [%eval 0.27] } 10. Qc3
+{ [%eval -0.16] } 10... Nf6 { [%eval -0.13] } 11. Nxf6+ { [%eval -0.26] } 11...
+Bxf6 { [%eval -0.25] } 12. Qb3 { [%eval -0.34] } 12... Bd5 { [%eval -0.28] }
+13. c4 { [%eval -0.26] } 13... Bc6 $6 { [%eval 0.25] } 14. O-O { [%eval 0.09] }
+14... Na6 { [%eval 0.29] } 15. a3 { [%eval 0.0] } 15... Be7 $6 { [%eval 0.66] }
+16. Qc2 { [%eval 0.47] } 16... Bc5 $2 { [%eval 2.06] } 17. b4 { [%eval 2.12] }
+17... Bxe3 { [%eval 2.04] } 18. fxe3 { [%eval 1.95] } 18... Nb8
+{ [%eval 1.96] } 19. Ng5 { [%eval 1.6] } 19... O-O { [%eval 1.54] } 20. b5
+{ [%eval 1.4] } 20... Bd7 { [%eval 1.86] } 21. d4 { [%eval 1.7] } 21... h6 $4
+{ [%eval #1] } 22. Qh7# 1-0

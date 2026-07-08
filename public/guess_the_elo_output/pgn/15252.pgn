@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/7qUNSILA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cuatos"]
+[Black "klabukov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:05:44"]
+[WhiteElo "1691"]
+[BlackElo "1645"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "660+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.42] } 2. Nf3 { [%eval 0.22] } 2... d6
+{ [%eval 0.45] } 3. h3 { [%eval 0.2] } 3... h6 { [%eval 0.37] } 4. Bc4
+{ [%eval 0.27] } 4... Nf6 { [%eval 0.33] } 5. Nc3 { [%eval 0.34] } 5... a6
+{ [%eval 0.48] } 6. a3 { [%eval 0.26] } 6... Nc6 { [%eval 0.38] } 7. O-O
+{ [%eval 0.14] } 7... Qe7 $6 { [%eval 1.07] } 8. d3 $6 { [%eval 0.34] } 8...
+Be6 { [%eval 0.83] } 9. Nd5 { [%eval 0.85] } 9... Bxd5 { [%eval 1.33] } 10.
+Bxd5 $6 { [%eval 0.51] } 10... Nxd5 { [%eval 0.81] } 11. exd5 { [%eval 0.83] }
+11... Na7 { [%eval 1.11] } 12. c4 { [%eval 0.85] } 12... c6 { [%eval 1.29] }
+13. dxc6 $6 { [%eval 0.43] } 13... Nxc6 { [%eval 0.78] } 14. Be3
+{ [%eval 0.29] } 14... O-O-O $2 { [%eval 2.25] } 15. a4 $2 { [%eval 0.68] }
+15... g5 { [%eval 1.11] } 16. Nh2 $2 { [%eval 0.11] } 16... Bg7 $6
+{ [%eval 0.64] } 17. Qd2 $2 { [%eval -0.69] } 17... Kd7 $2 { [%eval 1.31] } 18.
+b4 { [%eval 1.11] } 18... e4 $6 { [%eval 1.84] } 19. Rae1 $6 { [%eval 1.22] }
+19... f5 $2 { [%eval 3.01] } 20. b5 $2 { [%eval 1.8] } 20... Ne5
+{ [%eval 1.87] } 21. bxa6 { [%eval 1.68] } 21... bxa6 { [%eval 1.64] } 22. a5
+$2 { [%eval -0.95] } 22... Nxd3 { [%eval -0.75] } 23. Rb1 { [%eval -0.88] }
+23... Rb8 { [%eval -0.82] } 24. f3 { [%eval -1.07] } 1-0

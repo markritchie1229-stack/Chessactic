@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/liRefgLT"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bologan"]
+[Black "Daalin"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:48:54"]
+[WhiteElo "1980"]
+[BlackElo "1889"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "C40"]
+[Opening "Elephant Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.48] } 2. Nf3 { [%eval 0.47] } 2... d5
+{ [%eval 0.83] } 3. Nxe5 { [%eval 0.77] } 3... Bd6 { [%eval 0.84] } 4. d4
+{ [%eval 0.62] } 4... dxe4 { [%eval 0.85] } 5. Qg4 $4 { [%eval -7.43] } 5...
+Bxe5 $4 { [%eval -3.59] } 6. Qxe4 { [%eval -3.67] } 6... Qxd4 { [%eval -3.47] }
+7. Qe2 $6 { [%eval -4.03] } 7... Nf6 $2 { [%eval -2.93] } 8. c3 $6
+{ [%eval -3.61] } 8... Qd6 $2 { [%eval -1.2] } 9. f4 { [%eval -1.22] } 9... O-O
+$2 { [%eval 1.43] } 10. fxe5 { [%eval 0.61] } 10... Re8 $4 { [%eval 5.71] } 11.
+exd6 { [%eval 5.51] } 11... Rxe2+ { [%eval 5.94] } 12. Bxe2 { [%eval 5.83] }
+12... cxd6 { [%eval 5.82] } 13. Bf4 { [%eval 5.79] } 13... d5 { [%eval 5.81] }
+14. Nd2 $6 { [%eval 5.3] } 14... Be6 { [%eval 5.72] } 15. Nf3 { [%eval 5.47] }
+15... Nc6 { [%eval 5.48] } 16. Nd4 { [%eval 5.43] } 16... Nxd4 { [%eval 5.51] }
+17. cxd4 { [%eval 5.6] } 17... Rc8 { [%eval 5.97] } 18. Rc1 { [%eval 5.98] }
+18... Re8 $6 { [%eval 6.83] } 19. Kd2 $2 { [%eval 5.4] } 19... Ne4+
+{ [%eval 5.43] } 20. Ke3 $6 { [%eval 4.92] } 20... Bf5 $2 { [%eval 6.18] } 21.
+Bb5 { [%eval 5.96] } 21... Rf8 $6 { [%eval 6.72] } 22. h3 $6 { [%eval 5.8] }
+22... h6 $2 { [%eval 6.92] } 23. g4 { [%eval 6.93] } 23... Bh7 { [%eval 7.22] }
+24. Rc7 { [%eval 7.18] } 24... a6 { [%eval 6.99] } 25. Bd3 $2 { [%eval 5.67] }
+25... Re8 { [%eval 5.5] } 26. Bxe4 $6 { [%eval 4.81] } 26... Bxe4
+{ [%eval 5.16] } 27. Rhc1 { [%eval 5.0] } 27... g5 $2 { [%eval 6.53] } 28. Be5
+{ [%eval 6.01] } 28... f5 $4 { [%eval #17] } 29. Rg7+ { [%eval #16] } 29... Kf8
+{ [%eval #16] } 30. Rcc7 { [%eval 14.91] } 30... fxg4 $6 { [%eval #1] } 31.
+Rcf7# 1-0

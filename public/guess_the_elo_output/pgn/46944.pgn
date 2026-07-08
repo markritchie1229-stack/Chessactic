@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/hs0nkTFc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LeoCave"]
+[Black "Loserz"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:59:57"]
+[WhiteElo "1805"]
+[BlackElo "1625"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Franco-Sicilian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.28] } 2... e6
+{ [%eval 0.3] } 3. d4 { [%eval 0.19] } 3... Nc6 $2 { [%eval 1.74] } 4. Bb5 $2
+{ [%eval 0.01] } 4... cxd4 { [%eval 0.05] } 5. Nxd4 { [%eval -0.05] } 5... Nxd4
+$6 { [%eval 0.49] } 6. Qxd4 { [%eval 0.5] } 6... Qa5+ { [%eval 0.52] } 7. Nc3
+{ [%eval 0.49] } 7... Nf6 $6 { [%eval 1.08] } 8. Bd2 { [%eval 0.8] } 8... Qc7
+$6 { [%eval 1.33] } 9. f3 $2 { [%eval 0.02] } 9... a6 { [%eval 0.17] } 10. Ba4
+{ [%eval 0.0] } 10... b5 { [%eval -0.08] } 11. Bb3 { [%eval -0.18] } 11... Bb7
+{ [%eval 0.0] } 12. O-O-O { [%eval -0.21] } 12... Bc5 { [%eval -0.13] } 13. Qd3
+{ [%eval -0.25] } 13... e5 $2 { [%eval 1.37] } 14. Be3 $6 { [%eval 0.7] } 14...
+b4 { [%eval 1.12] } 15. Nd5 $6 { [%eval 0.53] } 15... Bxd5 { [%eval 0.68] } 16.
+Bxd5 { [%eval 0.63] } 16... Bxe3+ { [%eval 0.69] } 17. Qxe3 { [%eval 0.53] }
+17... b3 $2 { [%eval 1.6] } 18. axb3 { [%eval 1.65] } 18... Nxd5 $6
+{ [%eval 2.55] } 19. Rxd5 { [%eval 2.49] } 19... O-O-O $4 { [%eval 10.09] } 20.
+Rc5 { [%eval 9.71] } 20... Qxc5 { [%eval 10.93] } 21. Qxc5+ { [%eval 10.34] }
+1-0

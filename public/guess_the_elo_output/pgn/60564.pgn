@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ixuL7pC4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FarukFischer"]
+[Black "danilin707"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:44:04"]
+[WhiteElo "1462"]
+[BlackElo "1442"]
+[WhiteRatingDiff "+37"]
+[BlackRatingDiff "-14"]
+[ECO "C41"]
+[Opening "Philidor Defense: Nimzowitsch Variation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.32] } 2. Nf3 { [%eval 0.43] } 2... d6
+{ [%eval 0.43] } 3. d4 { [%eval 0.32] } 3... Nf6 { [%eval 0.4] } 4. dxe5
+{ [%eval 0.29] } 4... Nxe4 { [%eval 0.47] } 5. exd6 $6 { [%eval -0.03] } 5...
+cxd6 $2 { [%eval 1.09] } 6. c4 $6 { [%eval 0.28] } 6... f5 $6 { [%eval 1.06] }
+7. Nc3 { [%eval 0.61] } 7... Be7 { [%eval 0.55] } 8. Qd4 $6 { [%eval -0.35] }
+8... Bf6 { [%eval -0.33] } 9. Qd3 { [%eval -0.55] } 9... Nc6 $6 { [%eval 0.0] }
+10. Nxe4 $6 { [%eval -0.75] } 10... fxe4 $2 { [%eval 0.81] } 11. Qxe4+
+{ [%eval 0.85] } 11... Kd7 $6 { [%eval 1.78] } 12. Be2 { [%eval 1.79] } 12...
+Re8 { [%eval 1.68] } 13. Qc2 { [%eval 1.31] } 13... Kc7 { [%eval 1.73] } 14.
+O-O { [%eval 1.37] } 14... Bg4 $6 { [%eval 1.93] } 15. Qd3 $6 { [%eval 1.18] }
+15... Ne5 { [%eval 1.46] } 16. Qe4 $4 { [%eval -5.14] } 16... d5 $4
+{ [%eval 2.2] } 17. cxd5 $4 { [%eval -3.78] } 17... h5 $4 { [%eval 6.35] } 18.
+Bf4 { [%eval 6.35] } 18... Qd6 { [%eval 6.78] } 19. Rac1+ { [%eval 6.56] }
+19... Kd7 $4 { [%eval 10.96] } 20. Bb5+ { [%eval 10.69] } 20... Kd8
+{ [%eval 10.52] } 21. Bxe8 { [%eval 10.25] } 21... Kxe8 { [%eval 20.1] } 22.
+Nxe5 { [%eval 19.49] } 22... Bxe5 { [%eval 19.02] } 23. Bxe5 { [%eval 16.74] }
+23... Qg6 $6 { [%eval #4] } 1-0

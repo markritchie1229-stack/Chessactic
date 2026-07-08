@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pe1D8WMh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mehdi993"]
+[Black "viktorni"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:06:20"]
+[WhiteElo "1549"]
+[BlackElo "1561"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-11"]
+[ECO "A84"]
+[Opening "Dutch Defense: Classical Variation"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.15] } 1... e6 { [%eval 0.2] } 2. c4 { [%eval 0.07] } 2... f5
+{ [%eval 0.38] } 3. e3 { [%eval 0.37] } 3... Nf6 { [%eval 0.43] } 4. Bd3
+{ [%eval 0.36] } 4... c6 { [%eval 0.83] } 5. Qc2 { [%eval 0.54] } 5... d5
+{ [%eval 0.72] } 6. cxd5 $6 { [%eval -0.21] } 6... cxd5 { [%eval -0.21] } 7.
+Ne2 { [%eval -0.24] } 7... Bd6 { [%eval -0.23] } 8. O-O { [%eval -0.48] } 8...
+O-O { [%eval -0.27] } 9. Nbc3 { [%eval -0.55] } 9... a6 { [%eval -0.26] } 10.
+Bd2 { [%eval -0.31] } 10... Bd7 { [%eval -0.27] } 11. a4 $6 { [%eval -0.89] }
+11... Be8 { [%eval -0.43] } 12. Rac1 { [%eval -0.91] } 12... Ne4
+{ [%eval -0.54] } 13. Bxe4 { [%eval -0.89] } 13... fxe4 { [%eval -0.94] } 14.
+b3 $6 { [%eval -1.82] } 14... Qh4 { [%eval -1.41] } 15. Ng3 { [%eval -1.35] }
+15... Nc6 { [%eval -1.1] } 16. Nce2 { [%eval -1.27] } 16... Bb4 $2
+{ [%eval 0.0] } 17. Nf4 $6 { [%eval -0.79] } 17... Bxd2 { [%eval -0.33] } 18.
+Qxd2 { [%eval -0.43] } 18... Bf7 { [%eval -0.08] } 19. b4 { [%eval -0.41] }
+19... a5 $6 { [%eval 0.48] } 20. b5 { [%eval 0.36] } 20... Nb4 { [%eval 0.56] }
+21. Rc7 { [%eval 0.39] } 21... Rab8 { [%eval 0.45] } 22. Rfc1 { [%eval 0.37] }
+22... g5 { [%eval 0.39] } 23. Rxf7 $2 { [%eval -2.2] } 23... Rxf7
+{ [%eval -2.06] } 24. Nxe6 { [%eval -1.93] } 24... Re8 $6 { [%eval -0.99] } 25.
+Nc7 { [%eval -1.27] } 25... Rc8 $2 { [%eval 0.0] } 26. b6 $2 { [%eval -1.92] }
+26... Rcf8 $6 { [%eval -1.11] } 27. Rf1 $2 { [%eval -2.54] } 27... Nd3 $4
+{ [%eval 1.15] } 28. Qa2 $4 { [%eval -1.93] } 1-0

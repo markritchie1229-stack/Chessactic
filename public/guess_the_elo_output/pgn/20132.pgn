@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/YP4Syl3O"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Egamberdiev"]
+[Black "Daniyal777"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:23:15"]
+[WhiteElo "1500"]
+[BlackElo "1606"]
+[WhiteRatingDiff "-131"]
+[BlackRatingDiff "+11"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation"]
+[TimeControl "180+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.11] } 1... e6 { [%eval 0.09] } 2. Nf3 { [%eval 0.15] } 2... c5
+{ [%eval 0.24] } 3. d4 { [%eval 0.03] } 3... Qc7 $6 { [%eval 0.95] } 4. d5
+{ [%eval 0.9] } 4... e5 { [%eval 1.19] } 5. Bc4 { [%eval 1.0] } 5... d6
+{ [%eval 1.04] } 6. O-O { [%eval 0.97] } 6... h6 { [%eval 1.03] } 7. Nc3
+{ [%eval 0.95] } 7... a6 { [%eval 1.12] } 8. a3 $6 { [%eval 0.55] } 8... b5
+{ [%eval 0.54] } 9. Bd3 { [%eval 0.62] } 9... c4 { [%eval 0.73] } 10. Be2
+{ [%eval 0.59] } 10... g5 $6 { [%eval 1.35] } 11. a4 $6 { [%eval 0.77] } 11...
+b4 { [%eval 0.79] } 12. Na2 { [%eval 0.59] } 12... a5 { [%eval 0.64] } 13. Bd2
+$6 { [%eval -0.1] } 13... Nf6 { [%eval 0.2] } 14. Nc1 $2 { [%eval -2.1] } 14...
+Nxe4 { [%eval -1.77] } 15. c3 { [%eval -2.2] } 15... b3 { [%eval -2.1] } 16.
+Re1 { [%eval -2.17] } 16... Nf6 $2 { [%eval -0.97] } 17. Bf1 $2
+{ [%eval -2.09] } 17... Nbd7 { [%eval -1.94] } 18. Qe2 { [%eval -2.34] } 18...
+Nb6 { [%eval -2.07] } 19. Qe3 $2 { [%eval -3.37] } 19... Bg4 $6
+{ [%eval -2.43] } 20. Nxe5 $2 { [%eval -3.52] } 20... dxe5 { [%eval -3.51] }
+21. Qxe5+ { [%eval -3.33] } 21... Qxe5 { [%eval -2.98] } 0-1

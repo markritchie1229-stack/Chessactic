@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WZSls7tN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lucas21"]
+[Black "kasparovkelsen"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:18:45"]
+[WhiteElo "1593"]
+[BlackElo "1591"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+19"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.37] } 2. Nf3 { [%eval 0.36] } 2... d6
+{ [%eval 0.36] } 3. Bc4 { [%eval 0.29] } 3... Nc6 { [%eval 0.27] } 4. a3
+{ [%eval 0.01] } 4... Nf6 { [%eval 0.0] } 5. d3 { [%eval -0.1] } 5... Bg4
+{ [%eval 0.06] } 6. h3 { [%eval 0.01] } 6... Bh5 { [%eval 0.0] } 7. Nbd2
+{ [%eval -0.06] } 7... e6 { [%eval 0.04] } 8. c3 { [%eval -0.11] } 8... Be7
+{ [%eval -0.08] } 9. Qb3 $6 { [%eval -0.81] } 9... b6 $6 { [%eval 0.0] } 10.
+O-O $6 { [%eval -0.53] } 10... O-O { [%eval -0.31] } 11. Qc2 { [%eval -0.56] }
+11... d5 { [%eval -0.47] } 12. exd5 { [%eval -0.64] } 12... exd5
+{ [%eval -0.35] } 13. Ba2 $6 { [%eval -0.92] } 13... Re8 { [%eval -0.85] } 14.
+Nh2 { [%eval -0.99] } 14... h6 { [%eval -1.0] } 15. f4 { [%eval -1.24] } 15...
+d4 $6 { [%eval -0.62] } 16. Ndf3 { [%eval -0.58] } 16... dxc3 { [%eval -0.71] }
+17. bxc3 { [%eval -1.0] } 17... Bg6 { [%eval -0.95] } 18. Rd1 { [%eval -0.91] }
+18... Nd5 { [%eval -0.58] } 19. Qf2 $2 { [%eval -3.42] } 19... Nxc3
+{ [%eval -3.42] } 20. Rf1 $2 { [%eval -5.16] } 20... Bxd3 { [%eval -4.93] } 21.
+Bxf7+ $2 { [%eval -7.37] } 21... Kxf7 { [%eval -6.93] } 22. Ne5+ $2
+{ [%eval -8.28] } 22... Nxe5 { [%eval -8.09] } 23. fxe5+ { [%eval -7.76] }
+23... Kg8 { [%eval -7.91] } 24. Qf7+ $2 { [%eval -10.45] } 24... Kh7
+{ [%eval -9.85] } 25. Rf3 { [%eval -12.69] } 25... Ne2+ { [%eval -12.56] } 26.
+Kh1 { [%eval -12.22] } 26... Rf8 $2 { [%eval -8.58] } 27. Qh5 $2
+{ [%eval -15.48] } 27... Rxf3 $2 { [%eval -7.77] } 28. Bxh6 $2
+{ [%eval -26.05] } 28... Ng3+ { [%eval -24.32] } 0-1

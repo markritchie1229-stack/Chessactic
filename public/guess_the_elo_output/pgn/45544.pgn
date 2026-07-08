@@ -1,0 +1,43 @@
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/MC3B75Ii"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Urmo76"]
+[Black "RipVoid"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:47:58"]
+[WhiteElo "1933"]
+[BlackElo "2006"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+18"]
+[ECO "B43"]
+[Opening "Sicilian Defense: Kan Variation, Wing Attack"]
+[TimeControl "-"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.23] } 2. Nf3 { [%eval 0.21] } 2... e6
+{ [%eval 0.24] } 3. d4 { [%eval 0.14] } 3... cxd4 { [%eval 0.1] } 4. Nxd4
+{ [%eval 0.25] } 4... a6 { [%eval 0.31] } 5. Nc3 { [%eval 0.45] } 5... b5
+{ [%eval 0.32] } 6. a3 { [%eval 0.26] } 6... Bb7 { [%eval 0.33] } 7. Be3
+{ [%eval 0.06] } 7... Qc7 { [%eval 0.12] } 8. Bd3 { [%eval 0.08] } 8... Nf6
+{ [%eval 0.19] } 9. O-O { [%eval 0.14] } 9... d5 { [%eval 0.19] } 10. Qf3
+{ [%eval -0.22] } 10... Bd6 { [%eval -0.12] } 11. Qh3 $2 { [%eval -1.4] } 11...
+dxe4 { [%eval -1.36] } 12. Be2 { [%eval -1.54] } 12... Nc6 $6 { [%eval -0.95] }
+13. Nxc6 { [%eval -1.14] } 13... Qxc6 { [%eval -0.97] } 14. a4
+{ [%eval -1.03] } 14... b4 { [%eval -1.07] } 15. Na2 $2 { [%eval -3.24] } 15...
+Qxc2 { [%eval -3.25] } 16. Bg4 { [%eval -3.32] } 16... O-O $6 { [%eval -2.81] }
+17. Bg5 $2 { [%eval -5.65] } 17... Nxg4 { [%eval -5.43] } 18. Qxg4
+{ [%eval -5.31] } 18... Qxb2 { [%eval -5.14] } 19. Rfb1 $6 { [%eval -5.79] }
+19... Qe5 { [%eval -5.51] } 20. g3 $6 { [%eval -6.22] } 20... Rfc8 $4
+{ [%eval -2.51] } 21. Bf4 { [%eval -2.44] } 21... Qd5 $2 { [%eval -0.43] } 22.
+Bxd6 $4 { [%eval -10.98] } 22... Qxd6 $4 { [%eval -3.29] } 23. Rxb4
+{ [%eval -3.21] } 23... f5 { [%eval -3.22] } 24. Qe2 { [%eval -3.28] } 24...
+Bd5 { [%eval -3.25] } 25. Rd4 $6 { [%eval -4.02] } 25... a5 $6
+{ [%eval -3.33] } 26. Qe3 { [%eval -3.2] } 26... Rab8 $2 { [%eval -2.16] } 27.
+Nc3 { [%eval -1.95] } 27... Rb3 $6 { [%eval -1.25] } 28. Rc1 $4
+{ [%eval -6.89] } 28... Qa3 { [%eval -6.67] } 29. Rcd1 $2 { [%eval -7.71] }
+29... Rbxc3 { [%eval -7.43] } 30. Qe2 $6 { [%eval -7.94] } 30... Rc1
+{ [%eval -7.23] } 31. Qb5 $2 { [%eval #-10] } 31... Qf3 { [%eval #-9] } 32. Rf1
+{ [%eval #-3] } 32... e3 { [%eval #-2] } 33. Rxd5 { [%eval #-1] } 33... exf2#
+0-1

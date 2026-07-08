@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ggZsuD2J"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ALX89"]
+[Black "theblaster666"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "06:50:38"]
+[WhiteElo "1297"]
+[BlackElo "1462"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C21"]
+[Opening "Center Game: Kieseritzky Variation #3"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... e5 { [%eval 0.24] } 2. d4 { [%eval -0.12] } 2...
+exd4 { [%eval -0.09] } 3. Nf3 { [%eval 0.05] } 3... c5 { [%eval 0.47] } 4. c3
+{ [%eval 0.26] } 4... d5 { [%eval 0.14] } 5. cxd4 $6 { [%eval -0.77] } 5...
+dxe4 { [%eval -0.56] } 6. Bb5+ { [%eval -0.77] } 6... Bd7 { [%eval -0.67] } 7.
+Bxd7+ { [%eval -0.81] } 7... Qxd7 { [%eval -0.48] } 8. Ne5 { [%eval -0.21] }
+8... Qxd4 { [%eval -0.19] } 9. Qxd4 $2 { [%eval -2.67] } 9... cxd4
+{ [%eval -2.64] } 10. O-O { [%eval -2.76] } 10... Nc6 $6 { [%eval -2.06] } 11.
+Nc4 $2 { [%eval -3.09] } 11... f5 { [%eval -3.1] } 12. f3 $6 { [%eval -3.93] }
+12... Nf6 { [%eval -3.86] } 13. Nbd2 $2 { [%eval -5.22] } 13... e3
+{ [%eval -5.02] } 14. Nb3 { [%eval -5.05] } 14... f4 { [%eval -4.91] } 15. Nd6+
+$4 { [%eval -9.76] } 15... Bxd6 { [%eval -9.54] } 16. Bxe3 { [%eval -10.6] }
+16... dxe3 { [%eval -10.43] } 17. Rad1 { [%eval -11.29] } 17... O-O-O
+{ [%eval -11.18] } 18. Rc1 { [%eval -11.18] } 18... b6 $2 { [%eval -7.31] } 19.
+Nd4 $2 { [%eval -10.5] } 19... Kb7 $2 { [%eval -8.3] } 20. Nxc6
+{ [%eval -8.12] } 20... Rc8 { [%eval -7.95] } 21. Nd4 { [%eval -7.71] } 21...
+Bc5 $6 { [%eval -7.08] } 22. Nb5 $2 { [%eval -13.84] } 22... e2+
+{ [%eval -13.26] } 23. Rf2 { [%eval -20.04] } 23... Bxf2+ { [%eval -19.53] }
+24. Kxf2 { [%eval -18.78] } 24... Rxc1 { [%eval -17.65] } 25. Nd6+ $6
+{ [%eval #-12] } 25... Ka6 { [%eval #-15] } 26. Nf7 { [%eval #-1] } 26... e1=Q#
+0-1

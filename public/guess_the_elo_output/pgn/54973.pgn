@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bykfrBPM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "twister84"]
+[Black "RyanTaylor"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:54:02"]
+[WhiteElo "1735"]
+[BlackElo "1554"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "C20"]
+[Opening "King's Pawn Game: King's Head Opening #2"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e5 { [%eval 0.43] } 2. f3 $2 { [%eval -0.7] } 2...
+Nc6 { [%eval -0.65] } 3. Nh3 { [%eval -1.11] } 3... h6 { [%eval -0.67] } 4. Nf2
+{ [%eval -0.78] } 4... b6 $6 { [%eval -0.01] } 5. d4 $6 { [%eval -0.82] } 5...
+d6 $2 { [%eval 0.78] } 6. Nc3 $2 { [%eval -0.56] } 6... Nxd4 { [%eval -0.58] }
+7. Nb5 { [%eval -0.79] } 7... Nxb5 { [%eval -0.74] } 8. Bxb5+ { [%eval -0.73] }
+8... Bd7 { [%eval -0.6] } 9. Qe2 { [%eval -0.89] } 9... Nf6 { [%eval -0.6] }
+10. Be3 { [%eval -0.94] } 10... Bxb5 { [%eval -0.69] } 11. Qxb5+
+{ [%eval -0.79] } 11... Qd7 { [%eval -0.82] } 12. c4 { [%eval -1.09] } 12...
+Qxb5 { [%eval -1.03] } 13. cxb5 { [%eval -1.08] } 13... Be7 { [%eval -0.87] }
+14. Ke2 { [%eval -0.84] } 14... d5 { [%eval -0.91] } 15. Rhc1 { [%eval -0.87] }
+15... Rc8 { [%eval -0.54] } 16. Rc6 { [%eval -0.6] } 16... d4 { [%eval -0.57] }
+17. Bd2 { [%eval -0.6] } 17... O-O $6 { [%eval 0.25] } 18. Rac1 { [%eval 0.0] }
+18... Bd6 { [%eval 0.0] } 19. Nd3 { [%eval 0.0] } 19... Rfe8 { [%eval 0.18] }
+20. Nb4 { [%eval 0.1] } 20... Re7 $4 { [%eval 5.18] } 21. Na6 $4
+{ [%eval 0.07] } 21... g5 $4 { [%eval 5.32] } 22. Rxd6 { [%eval 5.28] } 22...
+Ne8 $6 { [%eval 6.02] } 23. Rxh6 { [%eval 5.8] } 23... Kg7 $6 { [%eval 6.56] }
+24. Rhc6 { [%eval 6.45] } 24... f6 { [%eval 6.34] } 25. Nb4 { [%eval 6.17] }
+25... Kg6 $6 { [%eval 7.01] } 26. Nd5 { [%eval 6.78] } 26... Rd7
+{ [%eval 7.0] } 27. Bb4 { [%eval 6.58] } 1-0

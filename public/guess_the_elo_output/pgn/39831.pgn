@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gCrGVMCp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Den-ka"]
+[Black "antonreiser"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:54:22"]
+[WhiteElo "1609"]
+[BlackElo "1544"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "300+5"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.09] } 1... e6 { [%eval 0.17] } 2. Nc3 { [%eval 0.11] } 2... d5
+{ [%eval 0.37] } 3. exd5 { [%eval 0.11] } 3... exd5 { [%eval 0.12] } 4. d3
+{ [%eval -0.24] } 4... c6 { [%eval -0.12] } 5. g3 { [%eval -0.17] } 5... Nf6
+{ [%eval -0.21] } 6. Nf3 { [%eval -0.18] } 6... Bd6 { [%eval -0.16] } 7. Be3
+{ [%eval -0.45] } 7... O-O { [%eval -0.45] } 8. h4 $2 { [%eval -1.56] } 8...
+Nbd7 $6 { [%eval -0.92] } 9. Bh3 { [%eval -1.0] } 9... Ne5 { [%eval -0.66] }
+10. Nxe5 { [%eval -1.03] } 10... Bxe5 { [%eval -0.62] } 11. Bxc8
+{ [%eval -0.73] } 11... Rxc8 { [%eval -0.52] } 12. g4 $4 { [%eval -4.57] }
+12... Re8 $4 { [%eval -1.27] } 13. Ne2 $2 { [%eval -3.31] } 13... Nxg4
+{ [%eval -2.97] } 14. d4 { [%eval -3.15] } 14... Nxe3 { [%eval -2.76] } 15.
+fxe3 { [%eval -2.87] } 15... Bd6 $6 { [%eval -2.32] } 16. Qd3 { [%eval -2.15] }
+16... a5 $6 { [%eval -1.64] } 17. O-O-O { [%eval -1.71] } 17... b5
+{ [%eval -1.62] } 18. Rdg1 { [%eval -1.66] } 18... Qe7 { [%eval -1.27] } 19.
+Rh3 { [%eval -1.64] } 19... c5 $6 { [%eval -0.97] } 20. h5 { [%eval -1.16] }
+20... c4 $6 { [%eval -0.29] } 21. Qf5 { [%eval -0.23] } 21... Bh2 $4
+{ [%eval 3.37] } 22. Rg2 $2 { [%eval 0.5] } 22... f6 $4 { [%eval 4.27] } 23. h6
+$6 { [%eval 3.66] } 23... g5 $6 { [%eval 4.43] } 24. Qxd5+ $6 { [%eval 3.86] }
+24... Kh8 $6 { [%eval 4.59] } 25. Rgxh2 { [%eval 4.29] } 25... b4
+{ [%eval 4.72] } 26. Qf5 $6 { [%eval 4.2] } 26... b3 $6 { [%eval 5.12] } 27.
+axb3 { [%eval 4.67] } 27... cxb3 { [%eval 4.84] } 28. c3 $6 { [%eval 3.87] }
+28... Rxc3+ $4 { [%eval 13.87] } 29. Nxc3 { [%eval 12.92] } 29... Rc8 $6
+{ [%eval #2] } 30. e4 $6 { [%eval 13.02] } 1-0

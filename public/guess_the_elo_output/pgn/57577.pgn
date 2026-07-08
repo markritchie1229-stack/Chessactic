@@ -1,0 +1,39 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/aV8lDgDg"]
+[Site "https://lichess.org/FPHPHg65"]
+[Date "????.??.??"]
+[Round "?"]
+[White "BOSSIK"]
+[Black "Konariq7"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:20:54"]
+[WhiteElo "1889"]
+[BlackElo "1989"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... c6 { [%eval 0.5] } 2. d4 { [%eval 0.4] } 2... d5
+{ [%eval 0.38] } 3. exd5 { [%eval 0.22] } 3... cxd5 { [%eval 0.32] } 4. Bd3
+{ [%eval 0.32] } 4... Nf6 { [%eval 0.32] } 5. Nf3 { [%eval 0.31] } 5... Nc6
+{ [%eval 0.31] } 6. O-O { [%eval 0.37] } 6... g6 { [%eval 0.3] } 7. Bg5
+{ [%eval 0.1] } 7... Bg7 { [%eval 0.26] } 8. Qd2 $2 { [%eval -1.53] } 8... O-O
+$2 { [%eval 0.22] } 9. Bh6 $6 { [%eval -0.59] } 9... Bg4 { [%eval -0.16] } 10.
+Bxg7 { [%eval -0.21] } 10... Kxg7 { [%eval -0.06] } 11. c3 $2 { [%eval -1.57] }
+11... Bxf3 { [%eval -1.67] } 12. gxf3 { [%eval -1.53] } 12... e5
+{ [%eval -1.48] } 13. dxe5 { [%eval -1.61] } 13... Nxe5 $6 { [%eval -1.06] }
+14. Be2 { [%eval -1.02] } 14... Qc7 { [%eval -0.68] } 15. Na3 { [%eval -0.68] }
+15... a6 { [%eval -0.54] } 16. Nc2 { [%eval -0.69] } 16... Rad8
+{ [%eval -0.47] } 17. Nd4 { [%eval -0.64] } 17... Nh5 { [%eval -0.55] } 18. Qg5
+{ [%eval -0.96] } 18... h6 $6 { [%eval -0.06] } 19. Qg2 $2 { [%eval -2.16] }
+19... Nf4 { [%eval -2.12] } 20. Qg3 { [%eval -1.91] } 20... g5 $6
+{ [%eval -0.97] } 21. h4 $6 { [%eval -1.81] } 21... f6 $2 { [%eval 1.0] } 22.
+hxg5 $4 { [%eval -4.09] } 22... fxg5 $4 { [%eval -0.17] } 23. Rfe1 $2
+{ [%eval -1.33] } 23... Rf6 { [%eval -0.96] } 24. Bxa6 $4 { [%eval -4.53] }
+24... Neg6 $4 { [%eval -0.01] } 25. Bf1 { [%eval 0.11] } 25... Rdf8
+{ [%eval 0.03] } 26. Re3 { [%eval -0.12] } 26... Nh4 $6 { [%eval 0.47] } 27.
+Rae1 { [%eval 0.0] } 27... R8f7 { [%eval 0.34] } 28. Bg2 $4 { [%eval -6.2] }
+28... Nhxg2 { [%eval -6.15] } 0-1

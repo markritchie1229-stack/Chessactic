@@ -1,0 +1,38 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/SBc2XC4j"]
+[Site "https://lichess.org/jotJjNfW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mewsermeow"]
+[Black "deitaking"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:57:07"]
+[WhiteElo "1714"]
+[BlackElo "1805"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+14"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... e6 { [%eval 0.19] } 2. Nc3 { [%eval 0.13] } 2... d5
+{ [%eval 0.12] } 3. Nf3 { [%eval -0.18] } 3... Nf6 { [%eval -0.06] } 4. b3
+{ [%eval -0.54] } 4... Bb4 { [%eval -0.16] } 5. Bb2 { [%eval -0.55] } 5... Ne4
+{ [%eval -0.48] } 6. Qd3 { [%eval -0.77] } 6... c6 $6 { [%eval -0.27] } 7. e3
+$4 { [%eval -3.54] } 7... Qa5 { [%eval -3.43] } 8. Nd2 { [%eval -3.88] } 8...
+Nxc3 $4 { [%eval 0.09] } 9. Bxc3 $4 { [%eval -6.25] } 9... Bxc3
+{ [%eval -5.99] } 10. Rd1 { [%eval -6.24] } 10... Bxd2+ $2 { [%eval -3.61] }
+11. Rxd2 $6 { [%eval -4.11] } 11... O-O { [%eval -3.79] } 12. c3
+{ [%eval -3.9] } 12... Nd7 { [%eval -3.87] } 13. Be2 { [%eval -3.87] } 13...
+Nf6 { [%eval -3.79] } 14. O-O { [%eval -3.82] } 14... Ne4 { [%eval -3.54] } 15.
+Rb2 $6 { [%eval -4.5] } 15... b6 $6 { [%eval -3.63] } 16. c4 { [%eval -3.7] }
+16... dxc4 $4 { [%eval -0.14] } 17. Qxe4 { [%eval -0.2] } 17... c3
+{ [%eval 0.12] } 18. Rc2 { [%eval 0.1] } 18... Bb7 { [%eval 0.1] } 19. Bd3
+{ [%eval 0.0] } 19... g6 { [%eval 0.1] } 20. Qh4 { [%eval -0.37] } 20... c5
+{ [%eval -0.39] } 21. Rfc1 { [%eval -0.85] } 21... cxd4 { [%eval -0.33] } 22.
+exd4 $2 { [%eval -1.4] } 22... Qd5 $6 { [%eval -0.54] } 23. f3
+{ [%eval -0.87] } 23... Rfd8 { [%eval -0.82] } 24. Be4 $2 { [%eval -2.09] }
+24... Qxd4+ { [%eval -1.95] } 25. Kf1 $4 { [%eval -34.27] } 25... Ba6+
+{ [%eval -26.85] } 26. Ke1 $6 { [%eval #-1] } 26... Qe3+ $6 { [%eval #-1] } 27.
+Re2 { [%eval #-1] } 27... Qg1# 0-1

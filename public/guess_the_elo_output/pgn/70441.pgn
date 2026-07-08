@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/8gcxsOJK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "barthezz"]
+[Black "SoriaZucker"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:36:50"]
+[WhiteElo "1588"]
+[BlackElo "1644"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+79"]
+[ECO "C37"]
+[Opening "King's Gambit Accepted: Soerensen Gambit"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.43] } 2. f4 $6 { [%eval -0.45] } 2...
+exf4 { [%eval -0.31] } 3. Nf3 { [%eval -0.34] } 3... g5 { [%eval -0.28] } 4. d4
+{ [%eval -0.52] } 4... g4 { [%eval -0.33] } 5. Ne5 { [%eval -0.82] } 5... Qh4+
+{ [%eval -1.25] } 6. Ke2 $6 { [%eval -2.16] } 6... d6 { [%eval -1.91] } 7. Nd3
+$6 { [%eval -2.51] } 7... Nc6 $2 { [%eval -1.26] } 8. c3 $6 { [%eval -1.95] }
+8... f3+ { [%eval -2.05] } 9. gxf3 { [%eval -1.93] } 9... gxf3+
+{ [%eval -1.89] } 10. Kxf3 $4 { [%eval -19.12] } 10... Bg4+ { [%eval -18.56] }
+11. Ke3 { [%eval -22.79] } 11... Bxd1 { [%eval -17.63] } 12. Nf2 $6
+{ [%eval #-8] } 12... Bh6+ { [%eval #-7] } 13. Kd3 { [%eval #-7] } 13... Qxf2
+{ [%eval #-6] } 14. Bxh6 { [%eval #-3] } 14... Nxh6 $6 { [%eval -22.65] } 15.
+Nd2 { [%eval -22.45] } 15... Bf3 { [%eval -21.96] } 16. Nxf3 { [%eval -25.12] }
+16... Qxf3+ { [%eval -24.31] } 17. Kd2 { [%eval -26.85] } 17... Qxh1
+{ [%eval -26.1] } 18. Re1 { [%eval -28.46] } 18... Qxh2+ { [%eval -27.65] } 19.
+Re2 { [%eval -33.73] } 19... Qf4+ { [%eval -31.39] } 20. Re3 $6
+{ [%eval #-13] } 20... Ng4 { [%eval -66.93] } 21. Be2 $6 { [%eval #-6] } 21...
+Qxe3+ { [%eval #-5] } 22. Ke1 { [%eval #-4] } 22... Nf2 { [%eval #-3] } 23. Kf1
+{ [%eval #-3] } 23... Nxe4 { [%eval #-2] } 0-1

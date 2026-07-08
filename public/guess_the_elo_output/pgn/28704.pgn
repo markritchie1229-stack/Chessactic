@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/h3MjFlbL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "imnotsneaky"]
+[Black "usern4me"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:20:34"]
+[WhiteElo "1916"]
+[BlackElo "2122"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "E92"]
+[Opening "King's Indian Defense: Petrosian Variation, Stein Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... g6 { [%eval 0.58] } 2. d4 { [%eval 0.54] } 2... Bg7
+{ [%eval 0.58] } 3. Nf3 { [%eval 0.57] } 3... d6 { [%eval 0.59] } 4. c4
+{ [%eval 0.37] } 4... Nf6 { [%eval 0.45] } 5. Nc3 { [%eval 0.54] } 5... O-O
+{ [%eval 0.66] } 6. Be2 { [%eval 0.41] } 6... e5 { [%eval 0.52] } 7. d5
+{ [%eval 0.48] } 7... a5 { [%eval 0.59] } 8. h3 { [%eval 0.14] } 8... Na6
+{ [%eval 0.3] } 9. Be3 { [%eval 0.12] } 9... Nc5 { [%eval 0.25] } 10. Qc2
+{ [%eval 0.16] } 10... Qe7 { [%eval 0.43] } 11. O-O { [%eval 0.3] } 11... Bd7
+{ [%eval 0.45] } 12. Nd2 { [%eval 0.41] } 12... c6 { [%eval 0.62] } 13. Bxc5
+{ [%eval 0.54] } 13... dxc5 { [%eval 0.48] } 14. a4 { [%eval 0.24] } 14... Rad8
+{ [%eval 0.38] } 15. Nf3 { [%eval 0.02] } 15... Nh5 { [%eval 0.26] } 16. Rad1
+{ [%eval -0.06] } 16... Bc8 { [%eval 0.1] } 17. Qd2 { [%eval -0.08] } 17... Rd6
+{ [%eval 0.09] } 18. Na2 { [%eval -0.24] } 18... Nf4 { [%eval -0.13] } 19. Rfe1
+{ [%eval -0.41] } 19... Qf6 { [%eval -0.07] } 20. Nh2 $2 { [%eval -1.45] }
+20... Bh6 $2 { [%eval -0.06] } 21. Qxa5 { [%eval -0.41] } 21... Bxh3
+{ [%eval -0.56] } 22. gxh3 $4 { [%eval -6.46] } 22... Nxh3+ { [%eval -6.23] }
+23. Kg2 $4 { [%eval -13.0] } 23... Qxf2+ { [%eval -11.07] } 24. Kxh3 $6
+{ [%eval #-6] } 24... Bf4 { [%eval #-5] } 25. Nf1 { [%eval #-5] } 25... g5
+{ [%eval #-4] } 26. Qc3 { [%eval #-4] } 26... Rh6+ { [%eval #-3] } 27. Kg4
+{ [%eval #-2] } 27... f5+ { [%eval #-1] } 28. exf5 { [%eval #-1] } 28... Rh4#
+0-1

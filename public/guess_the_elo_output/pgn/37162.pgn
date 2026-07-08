@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jkIck4Bi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Nankorkedi"]
+[Black "eale"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:02:24"]
+[WhiteElo "1130"]
+[BlackElo "963"]
+[WhiteRatingDiff "-19"]
+[BlackRatingDiff "+28"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.14] } 1... Nf6 { [%eval 0.2] } 2. Be2 { [%eval -0.15] } 2...
+b6 { [%eval 0.22] } 3. Bg4 $2 { [%eval -0.85] } 3... e6 { [%eval -0.36] } 4.
+Nh3 { [%eval -0.83] } 4... g6 { [%eval -0.42] } 5. Ng5 $6 { [%eval -1.04] }
+5... Bh6 { [%eval -0.7] } 6. Nh3 $6 { [%eval -1.46] } 6... e5 $6
+{ [%eval -0.8] } 7. O-O { [%eval -0.9] } 7... d6 $6 { [%eval -0.03] } 8. Nc3 $4
+{ [%eval -5.07] } 8... Bxg4 { [%eval -4.95] } 9. f3 { [%eval -5.05] } 9... Bd7
+$2 { [%eval -3.72] } 10. f4 $6 { [%eval -4.47] } 10... exf4 $6
+{ [%eval -3.74] } 11. exf4 $2 { [%eval -4.88] } 11... b5 $2 { [%eval -3.75] }
+12. Qe1+ { [%eval -3.99] } 12... Be6 $4 { [%eval -0.87] } 13. Ne4 $4
+{ [%eval -3.94] } 13... Nxe4 { [%eval -3.87] } 14. Qxe4 { [%eval -3.93] } 14...
+Nd7 $6 { [%eval -3.42] } 15. Ng5 { [%eval -3.57] } 15... d5 { [%eval -3.5] }
+16. Qe3 { [%eval -3.81] } 16... c6 $2 { [%eval -2.22] } 17. Nxe6
+{ [%eval -2.29] } 17... Qb6 $4 { [%eval 3.53] } 18. d4 $4 { [%eval -1.65] }
+18... fxe6 { [%eval -1.36] } 19. Qxe6+ { [%eval -1.33] } 19... Kd8
+{ [%eval -1.39] } 20. Qe3 $6 { [%eval -2.16] } 20... Ne5 $4 { [%eval 1.77] }
+21. Qxe5 { [%eval 1.33] } 21... Re8 { [%eval 1.54] } 22. Qd6+ { [%eval 1.39] }
+22... Kc8 { [%eval 1.67] } 23. Qa3 $2 { [%eval -0.27] } 23... Qxd4+
+{ [%eval -0.14] } 24. Be3 $4 { [%eval -5.85] } 24... Rxe3 { [%eval -5.54] } 25.
+Qf8+ $4 { [%eval -21.42] } 25... Bxf8 { [%eval -20.33] } 26. Rf3 $6
+{ [%eval #-1] } 26... Re2+ $6 { [%eval -25.31] } 27. Kf1 $6 { [%eval #-5] }
+27... Rxc2 { [%eval #-4] } 28. Re1 { [%eval #-4] } 28... Bb4 $6 { [%eval #-5] }
+29. Re8+ { [%eval #-4] } 29... Kb7 { [%eval #-3] } 30. Re7+ { [%eval #-3] }
+30... Bxe7 { [%eval #-2] } 31. g4 { [%eval #-1] } 31... Qd1# 0-1

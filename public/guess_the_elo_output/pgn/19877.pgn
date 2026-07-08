@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/eK7k1imr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "CthaehForReal"]
+[Black "lord_kali"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:13:09"]
+[WhiteElo "1351"]
+[BlackElo "1398"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C61"]
+[Opening "Ruy Lopez: Bird Variation"]
+[TimeControl "1200+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.36] } 2...
+Nc6 { [%eval 0.38] } 3. Bb5 { [%eval 0.29] } 3... Nd4 { [%eval 0.54] } 4. Nxd4
+{ [%eval 0.52] } 4... exd4 { [%eval 0.5] } 5. O-O { [%eval 0.47] } 5... c6
+{ [%eval 0.54] } 6. Bc4 { [%eval 0.56] } 6... d5 { [%eval 0.98] } 7. exd5
+{ [%eval 0.88] } 7... cxd5 { [%eval 0.95] } 8. Re1+ $6 { [%eval 0.42] } 8...
+Ne7 { [%eval 0.82] } 9. Bb5+ { [%eval 0.72] } 9... Bd7 { [%eval 0.71] } 10. Bd3
+$6 { [%eval 0.14] } 10... Qc7 { [%eval 0.48] } 11. Qh5 $6 { [%eval -0.15] }
+11... O-O-O { [%eval 0.02] } 12. Qxf7 { [%eval -0.47] } 12... Nc6
+{ [%eval -0.07] } 13. Qxd5 { [%eval -0.54] } 13... Nb4 { [%eval -0.58] } 14.
+Qxd4 { [%eval -0.89] } 14... Nxd3 $2 { [%eval 0.52] } 15. Qxd3 { [%eval 0.42] }
+15... Bd6 { [%eval 0.25] } 16. g3 { [%eval 0.52] } 16... g6 $2 { [%eval 1.85] }
+17. Nc3 { [%eval 1.55] } 17... a6 $6 { [%eval 2.21] } 18. Ne4 { [%eval 2.15] }
+18... Bb5 { [%eval 2.59] } 19. Qd5 $4 { [%eval -1.18] } 19... Rhe8 $4
+{ [%eval 2.56] } 20. d3 $4 { [%eval -0.89] } 20... Bc6 $4 { [%eval 2.7] } 21.
+Qd4 $4 { [%eval -0.4] } 21... Bxg3 { [%eval -0.31] } 22. Qf6 $2
+{ [%eval -1.54] } 22... Bxh2+ { [%eval -1.19] } 23. Kf1 { [%eval -1.35] } 23...
+Bxe4 $6 { [%eval -0.44] } 24. Rxe4 $2 { [%eval -2.0] } 24... Rxe4
+{ [%eval -1.96] } 25. dxe4 { [%eval -1.95] } 25... Rd1+ { [%eval -1.61] } 26.
+Kg2 { [%eval -1.56] } 26... Rg1+ { [%eval -1.67] } 27. Kf3 { [%eval -1.13] }
+27... Qxc2 $4 { [%eval 2.71] } 28. Qf8+ { [%eval 2.47] } 28... Kc7 $4
+{ [%eval 6.75] } 29. Qe7+ $4 { [%eval 2.62] } 29... Kb6 $4 { [%eval 17.1] } 30.
+Be3+ { [%eval 15.55] } 30... Ka5 $6 { [%eval #7] } 31. Qe5+ $4
+{ [%eval -8.13] } 0-1

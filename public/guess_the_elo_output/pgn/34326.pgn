@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/iDa51zgs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "howplaychecker"]
+[Black "Zirugi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:46:01"]
+[WhiteElo "1372"]
+[BlackElo "1342"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+128"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Macleod Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.39] } 2. c3 $6 { [%eval -0.29] } 2...
+Nc6 { [%eval 0.01] } 3. d4 { [%eval -0.2] } 3... exd4 { [%eval -0.21] } 4. cxd4
+{ [%eval -0.13] } 4... d5 { [%eval 0.28] } 5. exd5 { [%eval 0.02] } 5... Qxd5
+{ [%eval 0.0] } 6. Nc3 $6 { [%eval -0.58] } 6... Bb4 $6 { [%eval 0.33] } 7. Bd2
+$6 { [%eval -0.56] } 7... Qxd4 { [%eval -0.18] } 8. Nce2 $4 { [%eval -3.26] }
+8... Bxd2+ $2 { [%eval -2.25] } 9. Qxd2 { [%eval -2.29] } 9... Qxd2+
+{ [%eval -2.12] } 10. Kxd2 { [%eval -2.27] } 10... Be6 { [%eval -2.27] } 11.
+Re1 { [%eval -2.44] } 11... O-O-O+ { [%eval -2.46] } 12. Kc1 { [%eval -2.58] }
+12... Nf6 $6 { [%eval -1.69] } 13. Nf3 $2 { [%eval -2.7] } 13... Bxa2
+{ [%eval -2.58] } 14. g3 $2 { [%eval -4.61] } 14... Nb4 $2 { [%eval -2.66] }
+15. Bg2 $2 { [%eval -5.41] } 15... Nd3+ { [%eval -5.06] } 16. Kc2
+{ [%eval -5.21] } 16... Nxf2 $2 { [%eval -3.51] } 17. Rhf1 { [%eval -3.89] }
+17... Nd3 { [%eval -3.56] } 18. Rd1 $6 { [%eval -4.45] } 18... Bc4
+{ [%eval -4.62] } 19. Rxd3 $4 { [%eval -10.48] } 19... Bxd3+ { [%eval -10.31] }
+20. Kc3 { [%eval -11.35] } 20... Bxe2 { [%eval -11.25] } 21. Re1
+{ [%eval -11.29] } 21... Bxf3 { [%eval -9.79] } 22. Bxf3 { [%eval -9.75] }
+22... Rd6 { [%eval -9.7] } 23. Re7 { [%eval -10.36] } 23... Rf8
+{ [%eval -9.56] } 24. Bg2 { [%eval -9.63] } 24... Nd5+ { [%eval -9.33] } 25.
+Kc4 $6 { [%eval -17.97] } 25... Nxe7 { [%eval -17.57] } 26. Bxb7+ $6
+{ [%eval #-9] } 26... Kxb7 { [%eval #-15] } 0-1

@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/CyXIRLGU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "alltogether"]
+[Black "toto1toto"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:39:52"]
+[WhiteElo "1688"]
+[BlackElo "1686"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B00"]
+[Opening "Carr Defense"]
+[TimeControl "120+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.16] } 1... h6 { [%eval 0.4] } 2. d4 { [%eval 0.31] } 2... a6
+{ [%eval 0.7] } 3. Bf4 { [%eval 0.38] } 3... e6 { [%eval 0.4] } 4. Be2
+{ [%eval 0.22] } 4... b5 $6 { [%eval 0.83] } 5. Bf3 { [%eval 0.5] } 5... Bb7
+{ [%eval 0.53] } 6. e5 { [%eval 0.2] } 6... Bxf3 { [%eval 0.36] } 7. Qxf3
+{ [%eval 0.27] } 7... Nc6 { [%eval 0.31] } 8. Ne2 { [%eval 0.18] } 8... Nge7
+{ [%eval 0.37] } 9. b3 $6 { [%eval -0.32] } 9... Nf5 { [%eval 0.03] } 10. c3
+{ [%eval -0.12] } 10... d5 $2 { [%eval 0.96] } 11. O-O $6 { [%eval 0.3] } 11...
+Rc8 { [%eval 0.46] } 12. a4 $6 { [%eval -0.11] } 12... b4 { [%eval -0.07] } 13.
+Bd2 { [%eval -0.25] } 13... bxc3 { [%eval -0.07] } 14. Bxc3 { [%eval -0.02] }
+14... a5 { [%eval -0.01] } 15. Rd1 { [%eval -0.21] } 15... Bb4 { [%eval 0.0] }
+16. Bxb4 { [%eval -0.4] } 16... Nxb4 { [%eval -0.39] } 17. Ng3
+{ [%eval -0.54] } 17... Nxg3 { [%eval -0.52] } 18. fxg3 $6 { [%eval -1.31] }
+18... O-O { [%eval -1.1] } 19. Nc3 { [%eval -1.26] } 19... c5 { [%eval -1.25] }
+20. Nb5 { [%eval -1.56] } 20... cxd4 $6 { [%eval -1.03] } 21. Rxd4 $2
+{ [%eval -2.97] } 21... Nc2 { [%eval -2.88] } 22. Nd6 $4 { [%eval -8.28] }
+22... Nxd4 { [%eval -8.04] } 23. Qd3 { [%eval -8.36] } 23... Nc2
+{ [%eval -8.0] } 24. Nxc8 $2 { [%eval -12.08] } 24... Nxa1 { [%eval -11.9] }
+25. Nd6 { [%eval -11.78] } 25... Qb6+ { [%eval -11.28] } 26. Kh1
+{ [%eval -11.12] } 26... Nxb3 { [%eval -10.6] } 27. Nb5 $6 { [%eval #-14] }
+27... Rc8 { [%eval #-13] } 28. h4 { [%eval #-8] } 28... Rc1+ { [%eval #-7] }
+29. Kh2 { [%eval #-7] } 29... Qg1+ { [%eval #-6] } 30. Kh3 { [%eval #-6] }
+30... Qh1+ { [%eval #-11] } 31. Kg4 { [%eval #-11] } 31... Qxg2
+{ [%eval -30.13] } 0-1

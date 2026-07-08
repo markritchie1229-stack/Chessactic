@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/J3zIM8VK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "samiatron"]
+[Black "mftrocha"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:43:07"]
+[WhiteElo "1184"]
+[BlackElo "1857"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+3"]
+[ECO "D10"]
+[Opening "Slav Defense: Exchange Variation"]
+[TimeControl "540+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... d5 { [%eval 0.16] } 2. c4 { [%eval 0.14] } 2... c6
+{ [%eval 0.31] } 3. cxd5 { [%eval 0.35] } 3... cxd5 { [%eval 0.46] } 4. Nc3
+{ [%eval 0.14] } 4... Nc6 { [%eval 0.27] } 5. e4 { [%eval 0.21] } 5... dxe4
+{ [%eval 0.37] } 6. Bb5 $6 { [%eval -0.31] } 6... a6 { [%eval 0.0] } 7. Bxc6+
+{ [%eval 0.0] } 7... bxc6 { [%eval -0.02] } 8. Nxe4 { [%eval -0.1] } 8... Nf6
+{ [%eval -0.05] } 9. f3 $6 { [%eval -0.6] } 9... Bf5 { [%eval -0.51] } 10. Be3
+$6 { [%eval -1.18] } 10... Nxe4 { [%eval -1.18] } 11. fxe4 { [%eval -1.22] }
+11... Bxe4 { [%eval -1.21] } 12. Nf3 { [%eval -1.03] } 12... Qd5
+{ [%eval -0.85] } 13. O-O { [%eval -1.03] } 13... g6 { [%eval -0.66] } 14. Qa4
+{ [%eval -0.94] } 14... Bg7 { [%eval -0.97] } 15. Rac1 { [%eval -0.95] } 15...
+O-O { [%eval -0.88] } 16. Ne5 $6 { [%eval -1.84] } 16... Bxe5 { [%eval -1.44] }
+17. dxe5 { [%eval -1.43] } 17... Bxg2 { [%eval -1.37] } 18. Rfd1 $6
+{ [%eval -1.93] } 18... Qe4 $6 { [%eval -1.04] } 19. Bc5 $4 { [%eval -14.39] }
+19... Qxa4 { [%eval -13.73] } 20. Bxe7 { [%eval -19.54] } 20... Rfe8
+{ [%eval -18.1] } 21. Rd8 $6 { [%eval #-9] } 21... Qg4 $6 { [%eval -18.96] }
+22. Rxe8+ { [%eval -120.85] } 22... Rxe8 { [%eval -24.68] } 23. Kf2 $6
+{ [%eval #-6] } 23... Qf3+ { [%eval #-5] } 24. Ke1 { [%eval #-5] } 24... Qe3+
+$6 { [%eval #-5] } 25. Kd1 { [%eval #-5] } 25... Bf3+ $6 { [%eval #-6] } 26.
+Kc2 { [%eval #-6] } 26... Be4+ { [%eval #-5] } 27. Kd1 { [%eval #-5] } 27...
+Qd3+ $6 { [%eval #-6] } 28. Ke1 { [%eval #-6] } 28... Bf3 { [%eval #-7] } 29.
+Rxc6 { [%eval #-1] } 29... Qe2# 0-1

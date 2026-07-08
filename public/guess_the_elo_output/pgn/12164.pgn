@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9ExkwgXW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jamespawn"]
+[Black "abolfazl215"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:46:13"]
+[WhiteElo "1430"]
+[BlackElo "1371"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "A00"]
+[Opening "Polish Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. b4 $6 { [%eval -0.42] } 1... Nf6 { [%eval -0.35] } 2. Bb2 { [%eval -0.45] }
+2... e6 { [%eval -0.16] } 3. d4 $2 { [%eval -1.31] } 3... Bxb4+
+{ [%eval -1.04] } 4. c3 { [%eval -1.31] } 4... Be7 { [%eval -1.24] } 5. Nf3
+{ [%eval -1.13] } 5... d5 { [%eval -1.21] } 6. c4 { [%eval -1.42] } 6... dxc4
+{ [%eval -1.43] } 7. Qa4+ { [%eval -1.42] } 7... Bd7 { [%eval -1.16] } 8. Qxc4
+{ [%eval -1.24] } 8... c5 { [%eval -1.52] } 9. Nbd2 $6 { [%eval -2.14] } 9...
+cxd4 { [%eval -2.1] } 10. Bxd4 { [%eval -2.0] } 10... Nc6 { [%eval -2.03] } 11.
+e4 $6 { [%eval -2.6] } 11... Rc8 { [%eval -2.6] } 12. e5 $2 { [%eval -4.09] }
+12... Nxe5 { [%eval -3.91] } 13. Qe2 $6 { [%eval -4.74] } 13... Nxf3+
+{ [%eval -4.52] } 14. Nxf3 $2 { [%eval -6.97] } 14... Bb4+ { [%eval -6.77] }
+15. Kd1 $4 { [%eval #-9] } 15... Ba4+ { [%eval #-8] } 16. Qc2 { [%eval #-8] }
+16... Bxc2+ { [%eval #-7] } 17. Ke2 { [%eval #-6] } 17... Qd5 { [%eval #-5] }
+18. Ne1 { [%eval #-4] } 18... Qe4+ { [%eval #-3] } 19. Be3 { [%eval #-3] }
+19... Qc4+ { [%eval #-2] } 20. Kf3 { [%eval #-1] } 20... Qg4# 0-1

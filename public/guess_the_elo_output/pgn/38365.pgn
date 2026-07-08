@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/17R7cPPD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "MosesBerlin"]
+[Black "smiks"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:54:23"]
+[WhiteElo "1512"]
+[BlackElo "1579"]
+[WhiteRatingDiff "+37"]
+[BlackRatingDiff "-12"]
+[ECO "C21"]
+[Opening "Center Game"]
+[TimeControl "300+4"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.42] } 2. d4 $6 { [%eval -0.09] } 2...
+exd4 { [%eval 0.08] } 3. Qxd4 { [%eval -0.28] } 3... Nf6 { [%eval -0.25] } 4.
+f4 $2 { [%eval -1.46] } 4... Nc6 { [%eval -1.25] } 5. Qe3 { [%eval -1.09] }
+5... Be7 { [%eval -1.26] } 6. e5 { [%eval -1.27] } 6... Nd5 $6
+{ [%eval -0.62] } 7. Qe4 { [%eval -0.81] } 7... Nb6 { [%eval -0.68] } 8. c3
+{ [%eval -1.16] } 8... d6 { [%eval -0.97] } 9. Bb5 { [%eval -1.07] } 9... Bd7
+{ [%eval -0.79] } 10. Be3 $2 { [%eval -1.97] } 10... O-O { [%eval -1.79] } 11.
+Bd3 $6 { [%eval -2.62] } 11... g6 { [%eval -2.51] } 12. Nd2 $6
+{ [%eval -3.45] } 12... Bf5 { [%eval -3.32] } 13. Qxf5 $4 { [%eval -7.58] }
+13... gxf5 { [%eval -7.38] } 14. Bxf5 { [%eval -7.68] } 14... dxe5
+{ [%eval -7.43] } 15. fxe5 $2 { [%eval -10.49] } 15... Nxe5 $2
+{ [%eval -8.89] } 16. Bd4 $6 { [%eval -9.46] } 16... Bf6 $2 { [%eval -7.93] }
+17. O-O-O { [%eval -7.93] } 17... Nd3+ $2 { [%eval -5.83] } 18. Bxd3
+{ [%eval -5.98] } 18... Bxd4 { [%eval -5.68] } 19. cxd4 { [%eval -5.7] } 19...
+Qxd4 { [%eval -5.18] } 20. Ndf3 $2 { [%eval -7.29] } 20... Qc5+ $2
+{ [%eval -4.9] } 21. Kb1 { [%eval -4.93] } 21... Na4 { [%eval -4.83] } 22. Ne2
+{ [%eval -4.74] } 22... Qb6 { [%eval -4.76] } 23. b3 $2 { [%eval -5.84] } 23...
+Nc5 $2 { [%eval -4.72] } 24. Bc4 $2 { [%eval -6.12] } 24... Rad8 $6
+{ [%eval -5.33] } 25. Nfd4 $6 { [%eval -6.18] } 25... Qh6 $2 { [%eval -5.12] }
+26. h4 $2 { [%eval -6.74] } 26... a6 $6 { [%eval -5.84] } 27. g4 $6
+{ [%eval -6.66] } 27... Rfe8 $2 { [%eval -4.75] } 28. g5 $2 { [%eval -7.72] }
+28... Qf6 $4 { [%eval 7.57] } 29. gxf6 { [%eval 7.5] } 29... Nd3 $2
+{ [%eval 16.43] } 30. Rxd3 { [%eval 12.18] } 30... Rxe2 $6 { [%eval #7] } 31.
+Nxe2 { [%eval #6] } 31... Rd5 { [%eval #3] } 32. Bxd5 { [%eval #2] } 1-0

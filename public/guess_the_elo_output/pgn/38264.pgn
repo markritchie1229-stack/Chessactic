@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Aau414M1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LelouchViLamperouge"]
+[Black "UnderPrez"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:50:04"]
+[WhiteElo "1926"]
+[BlackElo "2073"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+6"]
+[ECO "E20"]
+[Opening "Nimzo-Indian Defense: Ragozin Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... e6 { [%eval 0.25] } 2. c4 { [%eval 0.14] } 2... d5
+{ [%eval 0.2] } 3. Nc3 { [%eval 0.16] } 3... Bb4 { [%eval 0.26] } 4. Nf3
+{ [%eval 0.16] } 4... Nf6 { [%eval 0.12] } 5. e3 { [%eval 0.09] } 5... Bxc3+
+{ [%eval 0.5] } 6. bxc3 { [%eval 0.43] } 6... dxc4 { [%eval 0.83] } 7. Bxc4
+{ [%eval 0.94] } 7... c6 $6 { [%eval 1.51] } 8. Ba3 { [%eval 1.33] } 8... Nbd7
+{ [%eval 1.6] } 9. O-O $6 { [%eval 1.06] } 9... Qa5 { [%eval 1.37] } 10. Bb4
+{ [%eval 1.07] } 10... Qh5 { [%eval 1.56] } 11. h3 { [%eval 1.33] } 11... c5 $2
+{ [%eval 2.69] } 12. Ba3 $2 { [%eval 0.74] } 12... b6 { [%eval 0.86] } 13. Bb2
+{ [%eval 0.43] } 13... O-O { [%eval 0.6] } 14. Be2 { [%eval 0.31] } 14... Bb7
+{ [%eval 0.22] } 15. Ne5 { [%eval 0.21] } 15... Qh6 { [%eval 0.24] } 16. Bf3
+{ [%eval 0.16] } 16... Nxe5 $2 { [%eval 1.16] } 17. Bxb7 { [%eval 1.31] } 17...
+Rab8 $2 { [%eval 3.46] } 18. dxe5 { [%eval 3.38] } 18... Rxb7 { [%eval 3.27] }
+19. exf6 { [%eval 3.11] } 19... gxf6 $6 { [%eval 4.09] } 20. Qf3
+{ [%eval 3.75] } 20... Kh8 $4 { [%eval 11.01] } 21. c4 $4 { [%eval 6.18] }
+21... Rg8 $4 { [%eval 16.41] } 22. Bxf6+ { [%eval 16.04] } 22... Rg7
+{ [%eval 15.64] } 23. Qg3 $4 { [%eval 0.1] } 23... Qxf6 { [%eval 0.25] } 24.
+Rfd1 $4 { [%eval -7.89] } 24... Rb8 $4 { [%eval 7.52] } 25. Rd2 $4
+{ [%eval -16.36] } 25... Qxa1+ { [%eval -15.91] } 26. Kh2 { [%eval -15.36] }
+26... Qf6 $4 { [%eval 1.37] } 27. Qf3 $4 { [%eval -9.31] } 27... Rbg8 $4
+{ [%eval 8.89] } 28. g4 $4 { [%eval #-6] } 28... Qe5+ $4 { [%eval -6.99] } 29.
+Kg2 $2 { [%eval -9.47] } 29... Qa1 $2 { [%eval -7.31] } 0-1

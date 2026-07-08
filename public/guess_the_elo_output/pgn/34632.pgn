@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/i146v1BU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bidly"]
+[Black "gunes_kasparov2"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:02:04"]
+[WhiteElo "1330"]
+[BlackElo "1371"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.42] } 1... b6 { [%eval 0.63] } 2. Bc4 $6 { [%eval 0.06] } 2...
+Bb7 { [%eval 0.17] } 3. Nf3 { [%eval 0.06] } 3... Nf6 $6 { [%eval 0.74] } 4.
+Ng5 $6 { [%eval -0.12] } 4... h6 $4 { [%eval #1] } 5. Nxf7 $4 { [%eval 6.19] }
+5... e6 $2 { [%eval 9.15] } 6. Nxd8 { [%eval 9.08] } 6... Kxd8 { [%eval 9.1] }
+7. e5 { [%eval 8.91] } 7... Nd5 { [%eval 8.91] } 8. Bxd5 { [%eval 8.57] } 8...
+Bxd5 { [%eval 8.57] } 9. b3 $2 { [%eval 7.37] } 9... Nc6 $2 { [%eval 8.48] }
+10. Qe2 $4 { [%eval 4.81] } 10... Kc8 $4 { [%eval 8.25] } 11. Nc3 $2
+{ [%eval 6.59] } 11... Be7 $2 { [%eval 9.22] } 12. Nxd5 { [%eval 9.54] } 12...
+exd5 { [%eval 9.35] } 13. Bb2 { [%eval 9.41] } 13... Kb7 { [%eval 9.2] } 14.
+O-O-O { [%eval 9.16] } 14... Raf8 { [%eval 9.45] } 15. Rhf1 { [%eval 9.32] }
+15... Rf5 { [%eval 9.67] } 16. e6 { [%eval 9.43] } 16... dxe6 { [%eval 9.82] }
+17. Qxe6 { [%eval 9.68] } 17... Rf6 { [%eval 12.2] } 18. Qd7 $6
+{ [%eval 9.09] } 18... Rd8 { [%eval 9.28] } 19. Qh3 { [%eval 8.94] } 19... Rdf8
+$2 { [%eval 11.16] } 20. Qg4 $2 { [%eval 8.82] } 20... Rf4 $6 { [%eval 9.56] }
+21. Qxg7 { [%eval 9.37] } 21... R8f7 $6 { [%eval 10.59] } 22. Qxh6
+{ [%eval 10.38] } 22... R7f6 { [%eval 13.45] } 23. Qh5 { [%eval 10.87] } 23...
+R6f5 { [%eval 10.93] } 24. Qe8 { [%eval 10.19] } 24... Rf8 { [%eval 10.15] }
+25. Qh5 $4 { [%eval 0.0] } 25... R8f5 { [%eval 10.79] } 26. Qe2
+{ [%eval 10.71] } 26... Re4 { [%eval 10.64] } 27. Qg4 $4 { [%eval -1.08] }
+27... Rxg4 { [%eval -1.05] } 28. f3 $2 { [%eval -3.9] } 28... Rgg5 $4
+{ [%eval -0.55] } 29. Rfe1 $4 { [%eval -3.74] } 29... Re5 $4 { [%eval 2.93] }
+30. Rxe5 $2 { [%eval 1.18] } 30... Rxe5 $2 { [%eval 3.04] } 31. Bxe5
+{ [%eval 2.85] } 1-0

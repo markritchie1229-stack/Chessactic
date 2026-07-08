@@ -1,0 +1,34 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/nsrJm4Mx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "moveloser"]
+[Black "witold22"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:59:25"]
+[WhiteElo "1669"]
+[BlackElo "1768"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-14"]
+[ECO "A46"]
+[Opening "Indian Game: Spielmann-Indian"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... Nf6 { [%eval 0.2] } 2. Nf3 { [%eval 0.19] } 2... c5
+{ [%eval 0.5] } 3. Nc3 $6 { [%eval -0.08] } 3... cxd4 { [%eval 0.15] } 4. Nxd4
+{ [%eval -0.19] } 4... e5 { [%eval -0.28] } 5. Nf3 { [%eval -0.2] } 5... a6 $6
+{ [%eval 0.47] } 6. e4 { [%eval 0.13] } 6... d6 { [%eval 0.09] } 7. Bg5
+{ [%eval 0.02] } 7... Be6 { [%eval 0.06] } 8. Bd3 { [%eval -0.23] } 8... Nc6
+{ [%eval 0.05] } 9. O-O { [%eval 0.06] } 9... Qc7 $6 { [%eval 0.74] } 10. a3
+{ [%eval 0.27] } 10... h6 $6 { [%eval 0.98] } 11. Bxf6 { [%eval 0.93] } 11...
+gxf6 { [%eval 0.87] } 12. h3 $6 { [%eval 0.26] } 12... Rd8 $6 { [%eval 0.94] }
+13. Nh2 $6 { [%eval 0.44] } 13... Nd4 $2 { [%eval 2.16] } 14. Ng4
+{ [%eval 1.75] } 14... Bg7 { [%eval 1.74] } 15. f4 $2 { [%eval 0.48] } 15...
+Bxg4 $6 { [%eval 1.39] } 16. Qxg4 { [%eval 1.54] } 16... Rg8 $6
+{ [%eval 2.34] } 17. fxe5 { [%eval 2.11] } 17... dxe5 { [%eval 2.02] } 18. Rxf6
+$2 { [%eval 0.89] } 18... Ke7 $4 { [%eval 4.35] } 19. Rff1 $2 { [%eval 2.5] }
+19... Qc6 $2 { [%eval 3.88] } 20. Nd5+ { [%eval 3.66] } 20... Kd6 $2
+{ [%eval 6.22] } 21. Qh4 $6 { [%eval 5.7] } 21... Ne6 $4 { [%eval #1] } 22.
+Qe7# 1-0

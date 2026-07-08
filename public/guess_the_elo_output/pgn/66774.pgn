@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/VBsMXfMe"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ExtraSmall"]
+[Black "KoenigDrosselbartIV"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:46:57"]
+[WhiteElo "1530"]
+[BlackElo "1521"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-10"]
+[ECO "B70"]
+[Opening "Sicilian Defense: Dragon Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... c5 { [%eval 0.36] } 2. Nf3 { [%eval 0.32] } 2... d6
+{ [%eval 0.33] } 3. d4 { [%eval 0.27] } 3... cxd4 { [%eval 0.23] } 4. Nxd4
+{ [%eval 0.23] } 4... Nf6 { [%eval 0.28] } 5. Nc3 { [%eval 0.23] } 5... g6
+{ [%eval 0.47] } 6. Bg5 { [%eval 0.18] } 6... Bg7 { [%eval 0.37] } 7. Bb5+
+{ [%eval -0.02] } 7... Bd7 { [%eval 0.06] } 8. Qd3 { [%eval -0.11] } 8... O-O
+{ [%eval -0.13] } 9. f3 { [%eval -0.1] } 9... Bxb5 { [%eval -0.09] } 10. Ncxb5
+{ [%eval -0.47] } 10... a6 { [%eval -0.45] } 11. Nc3 { [%eval -0.41] } 11...
+Nbd7 { [%eval -0.23] } 12. O-O-O { [%eval -0.43] } 12... Nc5 $6
+{ [%eval 0.35] } 13. Qd2 { [%eval 0.13] } 13... Qb6 $2 { [%eval 1.47] } 14. Bh6
+$2 { [%eval 0.0] } 14... Rfc8 $2 { [%eval 1.11] } 15. Bxg7 { [%eval 0.93] }
+15... Kxg7 { [%eval 1.3] } 16. h4 { [%eval 0.96] } 16... a5 $2 { [%eval 2.02] }
+17. g4 $6 { [%eval 1.35] } 17... a4 $6 { [%eval 1.89] } 18. a3 { [%eval 1.79] }
+18... Nd3+ $4 { [%eval 5.89] } 19. Qxd3 { [%eval 5.59] } 19... Ra5 $2
+{ [%eval 6.81] } 20. h5 { [%eval 6.6] } 20... g5 $2 { [%eval 7.83] } 21. Nf5+
+{ [%eval 7.85] } 21... Kf8 { [%eval 7.61] } 22. h6 $2 { [%eval 5.77] } 22... e6
+$2 { [%eval 7.16] } 23. Qxd6+ { [%eval 6.91] } 23... Qxd6 { [%eval 6.94] } 24.
+Nxd6 { [%eval 7.02] } 24... Ke7 $2 { [%eval 15.39] } 1-0

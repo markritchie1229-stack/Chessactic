@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/esI6b7oD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RBH1911"]
+[Black "hyperactivs"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:44:48"]
+[WhiteElo "1371"]
+[BlackElo "1385"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.4] } 1... Nc6 { [%eval 0.5] } 2. Bc4 $6 { [%eval -0.14] } 2...
+Nf6 { [%eval 0.05] } 3. Qf3 $6 { [%eval -0.77] } 3... e5 $6 { [%eval -0.23] }
+4. d3 { [%eval -0.62] } 4... Bc5 { [%eval -0.16] } 5. Nc3 { [%eval -0.6] } 5...
+d6 $6 { [%eval 0.15] } 6. Nd5 $2 { [%eval -0.97] } 6... Nxd5 $6
+{ [%eval -0.36] } 7. Bxd5 { [%eval -0.54] } 7... Be6 $6 { [%eval 0.06] } 8.
+Bxc6+ { [%eval -0.31] } 8... bxc6 { [%eval -0.23] } 9. b3 $6 { [%eval -0.75] }
+9... a5 { [%eval -0.7] } 10. Nh3 $6 { [%eval -1.36] } 10... O-O $6
+{ [%eval -0.77] } 11. Ng5 $6 { [%eval -1.72] } 11... h6 { [%eval -1.66] } 12.
+Nxe6 { [%eval -1.81] } 12... fxe6 { [%eval -1.62] } 13. Qg3 $4
+{ [%eval -7.33] } 13... Qf6 $4 { [%eval 0.0] } 14. h4 $4 { [%eval -16.4] }
+14... Bxf2+ { [%eval -15.47] } 15. Qxf2 $6 { [%eval #-9] } 15... Qxf2+
+{ [%eval #-9] } 16. Kd1 { [%eval #-9] } 16... Qxg2 { [%eval #-8] } 17. Re1
+{ [%eval #-7] } 17... Rf1 { [%eval #-11] } 18. Rxf1 { [%eval #-11] } 18... Qf2
+$4 { [%eval 10.6] } 19. Rxf2 { [%eval 10.32] } 19... Rf8 { [%eval 12.86] } 20.
+Rg2 { [%eval 11.08] } 20... Rf1+ { [%eval 11.01] } 21. Kd2 { [%eval 10.73] }
+21... Rxc1 { [%eval 49.9] } 22. Rxc1 { [%eval 24.1] } 22... Kh7 $6
+{ [%eval #7] } 23. Rcg1 { [%eval #6] } 23... d5 { [%eval #3] } 24. Rxg7+
+{ [%eval #2] } 24... Kh8 { [%eval #2] } 25. Rg8+ { [%eval #1] } 25... Kh7
+{ [%eval #1] } 26. R1g7# 1-0

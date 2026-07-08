@@ -1,0 +1,39 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/kYmO8gSt"]
+[Site "https://lichess.org/CFcogDoF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AndrejNomad"]
+[Black "burakbey7"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:45:01"]
+[WhiteElo "1740"]
+[BlackElo "1789"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Panov Attack #2"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.1] } 1... d5 { [%eval 0.06] } 2. d4 { [%eval 0.0] } 2... c5
+{ [%eval 0.03] } 3. c4 { [%eval 0.02] } 3... cxd4 { [%eval 0.3] } 4. exd4
+{ [%eval 0.15] } 4... dxc4 { [%eval 0.29] } 5. Bxc4 { [%eval 0.25] } 5... Nc6
+{ [%eval 0.47] } 6. Nf3 { [%eval 0.28] } 6... Bg4 $2 { [%eval 1.44] } 7. O-O $6
+{ [%eval 0.49] } 7... Bxf3 $6 { [%eval 1.35] } 8. Qxf3 { [%eval 1.38] } 8...
+Nxd4 $4 { [%eval 13.2] } 9. Qd3 $4 { [%eval 0.33] } 9... Nc6 $6
+{ [%eval 1.17] } 10. Qxd8+ $2 { [%eval -0.5] } 10... Rxd8 { [%eval -0.37] } 11.
+Nc3 { [%eval -0.42] } 11... Nf6 { [%eval -0.31] } 12. Bg5 { [%eval -0.59] }
+12... e6 { [%eval -0.6] } 13. Bxf6 $6 { [%eval -1.15] } 13... gxf6
+{ [%eval -1.04] } 14. Rfe1 { [%eval -1.27] } 14... Rg8 { [%eval -1.09] } 15.
+Ne4 { [%eval -1.08] } 15... f5 $4 { [%eval 3.96] } 16. Nf6+ { [%eval 3.91] }
+16... Ke7 { [%eval 3.9] } 17. Nxg8+ { [%eval 3.78] } 17... Kd6 $2
+{ [%eval 4.97] } 18. Nf6 $6 { [%eval 4.08] } 18... Bg7 { [%eval 4.41] } 19. Nh5
+$6 { [%eval 3.81] } 19... Bd4 $6 { [%eval 4.33] } 20. Red1 { [%eval 3.97] }
+20... Kc5 $6 { [%eval 4.56] } 21. Bb3 { [%eval 4.2] } 21... Bxb2 $6
+{ [%eval 4.75] } 22. Rab1 { [%eval 4.54] } 22... Bd4 $2 { [%eval 5.93] } 23.
+Nf4 $2 { [%eval 4.08] } 23... e5 $2 { [%eval 5.32] } 24. Ne2 { [%eval 5.31] }
+24... Kb6 $6 { [%eval 6.22] } 25. Nxd4 { [%eval 6.1] } 25... Nxd4
+{ [%eval 6.22] } 26. Rdc1 $2 { [%eval 3.61] } 26... Nxb3 $4 { [%eval 7.36] }
+27. Rxb3+ { [%eval 7.17] } 27... Ka5 $2 { [%eval 8.21] } 28. Rc4 $4
+{ [%eval #-1] } 28... Rd1# 0-1

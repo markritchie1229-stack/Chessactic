@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HZjnY2ca"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Michaeel"]
+[Black "Roman8410"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:46:41"]
+[WhiteElo "1603"]
+[BlackElo "1771"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... d5 { [%eval 0.61] } 2. exd5 { [%eval 0.64] } 2...
+Nf6 { [%eval 0.66] } 3. Nc3 { [%eval 0.44] } 3... Nxd5 { [%eval 0.48] } 4. Nxd5
+$6 { [%eval -0.08] } 4... Qxd5 { [%eval -0.08] } 5. Nf3 { [%eval -0.08] } 5...
+Nc6 { [%eval 0.0] } 6. b3 $6 { [%eval -0.5] } 6... Bg4 { [%eval -0.56] } 7. Bb2
+{ [%eval -0.64] } 7... e5 { [%eval -0.18] } 8. Be2 { [%eval -0.65] } 8... O-O-O
+{ [%eval -0.62] } 9. O-O { [%eval -0.58] } 9... Bd6 $6 { [%eval 0.01] } 10. c4
+{ [%eval -0.08] } 10... Qe6 $2 { [%eval 1.0] } 11. d4 $2 { [%eval -0.65] }
+11... Nxd4 $4 { [%eval 2.91] } 12. Bxd4 $4 { [%eval -1.27] } 12... exd4
+{ [%eval -1.39] } 13. Nxd4 { [%eval -1.57] } 13... Qh6 $4 { [%eval 1.49] } 14.
+g3 $2 { [%eval -0.99] } 14... Bh3 $2 { [%eval 0.07] } 15. Re1 $4
+{ [%eval -4.14] } 15... Be5 $4 { [%eval 0.84] } 16. f4 $4 { [%eval -20.83] }
+16... Bxd4+ { [%eval -19.64] } 17. Kh1 { [%eval -19.74] } 17... Qc6+ $2
+{ [%eval -8.02] } 18. Bf3 { [%eval -7.98] } 18... Qf6 { [%eval -7.83] } 19. Rb1
+{ [%eval -7.68] } 19... Bf2 { [%eval -7.41] } 20. Bg4+ $2 { [%eval -9.2] }
+20... Bxg4 { [%eval -8.99] } 21. Qxg4+ { [%eval -8.75] } 21... Kb8
+{ [%eval -8.53] } 22. Rf1 $2 { [%eval #-2] } 22... Qc6+ { [%eval #-1] } 23. Qf3
+{ [%eval #-1] } 23... Qxf3# 0-1

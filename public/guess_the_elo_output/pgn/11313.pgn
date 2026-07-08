@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/hLfOtXiE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Mippie"]
+[Black "an1ke"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:05:40"]
+[WhiteElo "1222"]
+[BlackElo "1230"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Scandinavian Variation, Bogoljubov Variation"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.18] } 2. Nc3 { [%eval -0.09] } 2...
+Nc6 { [%eval 0.29] } 3. e4 { [%eval 0.16] } 3... e6 { [%eval 0.51] } 4. Bb5
+{ [%eval 0.45] } 4... Bd7 { [%eval 0.88] } 5. Qe2 $2 { [%eval -1.29] } 5... Be7
+$2 { [%eval 0.42] } 6. Bxc6 { [%eval 0.02] } 6... Bxc6 { [%eval 0.09] } 7. e5
+{ [%eval 0.14] } 7... Qd7 { [%eval 0.26] } 8. a4 $6 { [%eval -0.31] } 8...
+O-O-O $6 { [%eval 0.19] } 9. Nf3 { [%eval 0.13] } 9... b6 { [%eval 0.35] } 10.
+O-O { [%eval 0.37] } 10... Bb7 $6 { [%eval 0.98] } 11. b3 $6 { [%eval 0.29] }
+11... f6 $2 { [%eval 1.32] } 12. Nb5 $6 { [%eval 0.64] } 12... Ba6 $2
+{ [%eval 2.37] } 13. c4 { [%eval 2.06] } 13... dxc4 $6 { [%eval 2.84] } 14.
+bxc4 { [%eval 2.4] } 14... Bxb5 $2 { [%eval 3.7] } 15. axb5 { [%eval 3.2] }
+15... fxe5 $4 { [%eval 12.57] } 16. Qa2 $4 { [%eval 5.58] } 16... Qd6 $4
+{ [%eval 10.39] } 17. Qa6+ { [%eval 10.26] } 17... Kd7 { [%eval 10.35] } 18.
+Ba3 { [%eval 10.16] } 18... c5 { [%eval 16.85] } 19. Qxa7+ $4 { [%eval 5.75] }
+19... Ke8 { [%eval 5.52] } 20. dxe5 $2 { [%eval 2.92] } 20... Qd3 $2
+{ [%eval 5.14] } 21. Rfd1 $4 { [%eval -16.38] } 21... Qxc4 $4 { [%eval 11.19] }
+22. Qxb6 $4 { [%eval 4.79] } 22... Rxd1+ { [%eval 4.87] } 23. Rxd1
+{ [%eval 4.3] } 23... Kf7 $2 { [%eval 6.31] } 24. Ng5+ $4 { [%eval -0.18] }
+24... Kg6 $4 { [%eval 9.67] } 25. Nxe6 { [%eval 8.89] } 25... Kf7 $2
+{ [%eval 11.92] } 26. Nd8+ { [%eval 11.59] } 26... Bxd8 { [%eval 11.23] } 27.
+Qxd8 { [%eval 10.44] } 27... Ne7 { [%eval 16.87] } 28. Qxh8 { [%eval 15.37] }
+28... Qb3 { [%eval 17.23] } 29. e6+ { [%eval 14.9] } 29... Kf6 $6
+{ [%eval #9] } 30. Qf8+ { [%eval #11] } 30... Kxe6 { [%eval #6] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/f44StnDX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "br_martinelli"]
+[Black "EvergreenAttack"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:54:37"]
+[WhiteElo "2130"]
+[BlackElo "2154"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+12"]
+[ECO "A00"]
+[Opening "Ware Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. a4 { [%eval -0.22] } 1... Nf6 { [%eval -0.22] } 2. d4 { [%eval -0.18] } 2...
+d6 { [%eval 0.14] } 3. Nf3 { [%eval 0.11] } 3... g6 { [%eval 0.23] } 4. c3
+{ [%eval -0.06] } 4... Bg7 { [%eval -0.04] } 5. Bg5 { [%eval -0.09] } 5... O-O
+{ [%eval 0.01] } 6. Nbd2 { [%eval -0.06] } 6... c6 { [%eval 0.2] } 7. e3
+{ [%eval 0.18] } 7... Bg4 { [%eval 0.46] } 8. Be2 { [%eval 0.31] } 8... Nbd7
+{ [%eval 0.51] } 9. O-O { [%eval 0.18] } 9... Bxf3 { [%eval 0.54] } 10. Nxf3
+{ [%eval 0.2] } 10... h6 { [%eval 0.42] } 11. Bh4 { [%eval 0.4] } 11... g5
+{ [%eval 0.35] } 12. Bg3 { [%eval 0.35] } 12... Re8 $6 { [%eval 0.94] } 13. Qc2
+{ [%eval 0.78] } 13... e5 { [%eval 0.84] } 14. e4 $2 { [%eval -0.71] } 14...
+exd4 { [%eval -0.62] } 15. Bd3 { [%eval -0.96] } 15... dxc3 { [%eval -0.94] }
+16. bxc3 $6 { [%eval -1.47] } 16... Nc5 { [%eval -1.53] } 17. Bc4 $2
+{ [%eval -3.47] } 17... Nfxe4 { [%eval -3.54] } 18. Rfe1 $2 { [%eval -4.96] }
+18... d5 { [%eval -4.82] } 19. Ba2 $6 { [%eval -5.77] } 19... f5 $2
+{ [%eval -4.21] } 20. h4 $2 { [%eval -6.57] } 20... f4 $6 { [%eval -5.87] } 21.
+Bh2 $6 { [%eval -6.48] } 21... g4 $2 { [%eval -4.32] } 22. Nd4 $2
+{ [%eval -6.2] } 22... g3 { [%eval -6.09] } 23. fxg3 { [%eval -6.08] } 23...
+fxg3 { [%eval -5.83] } 24. Rxe4 $4 { [%eval -11.04] } 24... gxh2+
+{ [%eval -10.39] } 25. Kh1 { [%eval -11.66] } 25... Nxe4 { [%eval -10.26] } 26.
+Rf1 $6 { [%eval #-10] } 26... Qxh4 $6 { [%eval -12.83] } 27. Bb1 $6
+{ [%eval #-1] } 27... Ng3# 0-1

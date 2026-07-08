@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FNmvRmJ0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "semihce"]
+[Black "Israelnorte"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:24:44"]
+[WhiteElo "1755"]
+[BlackElo "1763"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-19"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.48] } 2. Bc4 { [%eval 0.01] } 2... b6
+$2 { [%eval 1.19] } 3. Nf3 { [%eval 0.93] } 3... Bb7 $2 { [%eval 2.31] } 4. d3
+$2 { [%eval 0.54] } 4... d6 { [%eval 0.88] } 5. O-O { [%eval 0.6] } 5... Be7
+{ [%eval 0.56] } 6. c3 { [%eval 0.52] } 6... Nf6 { [%eval 0.6] } 7. h3
+{ [%eval 0.32] } 7... O-O { [%eval 0.4] } 8. Nh2 $6 { [%eval -0.22] } 8... Nc6
+{ [%eval 0.08] } 9. Ng4 { [%eval -0.16] } 9... Nxg4 { [%eval 0.0] } 10. Qxg4
+{ [%eval -0.04] } 10... Kh8 { [%eval 0.36] } 11. f4 $6 { [%eval -0.38] } 11...
+a6 $6 { [%eval 0.51] } 12. f5 $6 { [%eval -0.09] } 12... f6 $2 { [%eval 1.4] }
+13. Rf3 { [%eval 1.47] } 13... Qd7 $2 { [%eval 2.91] } 14. Rg3 { [%eval 3.0] }
+14... Bd8 $4 { [%eval 7.59] } 15. Be3 $4 { [%eval 2.82] } 15... Na5 $4
+{ [%eval 8.36] } 16. Be6 { [%eval 8.14] } 16... Qe7 { [%eval 8.06] } 17. Nd2 $2
+{ [%eval 5.97] } 17... c5 $4 { [%eval 11.38] } 18. Nf3 $4 { [%eval 3.77] }
+18... Bc7 $4 { [%eval 23.44] } 19. Nh4 { [%eval 20.0] } 19... Qxe6 $6
+{ [%eval #1] } 20. fxe6 $6 { [%eval #4] } 20... Bc8 { [%eval #1] } 21. Qxg7#
+1-0

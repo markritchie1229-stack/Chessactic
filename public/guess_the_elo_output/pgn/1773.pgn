@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/3VZUyJ6d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Outubro"]
+[Black "BenoneG"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:01:48"]
+[WhiteElo "1733"]
+[BlackElo "1822"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "E10"]
+[Opening "Blumenfeld Countergambit #2"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.23] } 1... e6 { [%eval 0.29] } 2. c4 { [%eval 0.25] } 2... c5
+$6 { [%eval 0.79] } 3. Nf3 $6 { [%eval 0.09] } 3... Nf6 { [%eval 0.39] } 4. Bg5
+{ [%eval -0.02] } 4... Be7 { [%eval -0.04] } 5. Qb3 $6 { [%eval -0.54] } 5...
+O-O { [%eval -0.33] } 6. Ne5 $2 { [%eval -2.14] } 6... cxd4 { [%eval -2.12] }
+7. Nd2 { [%eval -2.09] } 7... d6 { [%eval -1.95] } 8. Nef3 { [%eval -2.11] }
+8... Nc6 { [%eval -1.68] } 9. Rc1 $6 { [%eval -2.42] } 9... Bd7 $6
+{ [%eval -1.91] } 10. a3 { [%eval -1.96] } 10... Rc8 { [%eval -1.99] } 11. Bxf6
+{ [%eval -2.33] } 11... Bxf6 { [%eval -2.31] } 12. Ne4 $6 { [%eval -2.99] }
+12... Be7 { [%eval -2.8] } 13. Qd3 $2 { [%eval -4.18] } 13... e5
+{ [%eval -3.8] } 14. e3 $2 { [%eval -5.18] } 14... dxe3 $2 { [%eval -2.94] }
+15. Qxe3 $2 { [%eval -4.25] } 15... f5 { [%eval -4.2] } 16. Ned2
+{ [%eval -4.21] } 16... f4 $4 { [%eval -1.1] } 17. Qc3 $2 { [%eval -3.5] }
+17... e4 $2 { [%eval -1.53] } 18. Nd4 $4 { [%eval -5.33] } 18... Nxd4 $6
+{ [%eval -4.45] } 19. Qxd4 { [%eval -4.24] } 19... Bf6 { [%eval -4.21] } 20.
+Qxe4 $4 { [%eval -9.57] } 20... Re8 { [%eval -9.02] } 21. Qxe8+ $6
+{ [%eval -12.38] } 21... Qxe8+ { [%eval -12.12] } 22. Be2 { [%eval -11.82] }
+22... f3 { [%eval -10.53] } 23. gxf3 { [%eval -11.33] } 23... Bg5 $2
+{ [%eval -7.15] } 24. Rd1 $2 { [%eval -11.24] } 24... Ba4 $2 { [%eval -7.55] }
+25. b3 $2 { [%eval -9.38] } 25... Bxd2+ { [%eval -9.26] } 26. Rxd2
+{ [%eval -9.0] } 26... Bxb3 { [%eval -8.64] } 27. Rxd6 $2 { [%eval -18.71] }
+27... Bxc4 { [%eval -14.93] } 28. O-O $6 { [%eval #-10] } 28... Bxe2
+{ [%eval #-9] } 29. Re1 { [%eval #-9] } 29... Qe5 { [%eval #-8] } 30. Rd2
+{ [%eval #-2] } 30... Qg5+ { [%eval #-1] } 0-1

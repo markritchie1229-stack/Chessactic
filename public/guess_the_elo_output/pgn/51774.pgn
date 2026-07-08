@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/bb8WhbT8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "saro83"]
+[Black "Geranolog"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "06:27:31"]
+[WhiteElo "1699"]
+[BlackElo "1711"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+10"]
+[ECO "C00"]
+[Opening "French Defense #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.28] } 2. Bc4 { [%eval -0.21] } 2... d5
+{ [%eval -0.18] } 3. exd5 { [%eval -0.2] } 3... exd5 { [%eval -0.23] } 4. Bb3
+{ [%eval -0.2] } 4... Nf6 { [%eval -0.13] } 5. d4 { [%eval -0.25] } 5... Bd6
+{ [%eval -0.38] } 6. Bg5 { [%eval -0.6] } 6... c6 { [%eval -0.6] } 7. Nc3
+{ [%eval -0.89] } 7... Bf5 $6 { [%eval -0.25] } 8. Nf3 { [%eval -0.6] } 8...
+Nbd7 { [%eval -0.4] } 9. O-O { [%eval -0.74] } 9... O-O { [%eval -0.81] } 10.
+h3 { [%eval -0.71] } 10... Qc7 { [%eval -0.39] } 11. Bxf6 $6 { [%eval -1.03] }
+11... Nxf6 { [%eval -0.95] } 12. Qd2 { [%eval -1.1] } 12... Bb4
+{ [%eval -0.97] } 13. a3 { [%eval -0.98] } 13... Ne4 { [%eval -0.72] } 14. Qe1
+$6 { [%eval -1.56] } 14... Bxc3 { [%eval -1.54] } 15. bxc3 { [%eval -1.63] }
+15... Rfe8 { [%eval -1.31] } 16. Qd1 { [%eval -1.73] } 16... Nxc3
+{ [%eval -1.66] } 17. Qd2 { [%eval -1.76] } 17... Ne4 { [%eval -1.7] } 18. Qb4
+$2 { [%eval -4.33] } 18... a5 { [%eval -4.15] } 19. Qa4 $4 { [%eval -13.15] }
+19... b5 { [%eval -12.88] } 20. Qxb5 { [%eval -14.03] } 20... cxb5
+{ [%eval -13.39] } 21. Rae1 { [%eval -16.16] } 21... a4 { [%eval -15.14] } 22.
+Bxd5 { [%eval -14.97] } 22... Rad8 { [%eval -14.62] } 23. Bxe4
+{ [%eval -14.91] } 23... Bxe4 { [%eval -13.97] } 24. Nd2 { [%eval -15.46] }
+24... Bxc2 { [%eval -14.89] } 25. Rxe8+ { [%eval -18.27] } 25... Rxe8
+{ [%eval -17.81] } 26. Nf3 { [%eval -17.23] } 26... Bb3 { [%eval -16.57] } 27.
+Ne5 { [%eval -17.3] } 27... Bc4 { [%eval -16.64] } 28. f3 { [%eval -31.34] }
+28... f6 { [%eval -19.6] } 29. Rf2 { [%eval -30.04] } 29... fxe5
+{ [%eval -25.87] } 0-1

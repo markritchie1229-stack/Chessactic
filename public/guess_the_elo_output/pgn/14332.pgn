@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WJKlm5vL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "supermegaextra"]
+[Black "s1r3um"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:27:16"]
+[WhiteElo "1632"]
+[BlackElo "1647"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "B50"]
+[Opening "Sicilian Defense: Delayed Alapin"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.3] } 2... d6
+{ [%eval 0.29] } 3. c3 { [%eval 0.18] } 3... Nf6 { [%eval 0.19] } 4. d3
+{ [%eval -0.17] } 4... g6 { [%eval 0.13] } 5. Bg5 { [%eval -0.1] } 5... Bg7
+{ [%eval -0.02] } 6. Qc1 { [%eval -0.12] } 6... O-O { [%eval -0.08] } 7. Bh6
+{ [%eval -0.26] } 7... Nbd7 { [%eval -0.11] } 8. Bxg7 { [%eval -0.12] } 8...
+Kxg7 { [%eval -0.15] } 9. Be2 { [%eval -0.15] } 9... e5 { [%eval -0.22] } 10.
+O-O { [%eval -0.16] } 10... Qe7 { [%eval -0.04] } 11. Ng5 { [%eval -0.45] }
+11... a5 { [%eval -0.06] } 12. f4 { [%eval -0.46] } 12... b5 { [%eval -0.32] }
+13. f5 { [%eval -0.69] } 13... Bb7 { [%eval -0.22] } 14. Qe3 { [%eval -0.27] }
+14... d5 { [%eval -0.03] } 15. Nd2 { [%eval -0.46] } 15... d4 $6
+{ [%eval 0.11] } 16. cxd4 { [%eval -0.09] } 16... exd4 { [%eval 0.26] } 17. Qh3
+{ [%eval 0.07] } 17... c4 $2 { [%eval 1.14] } 18. e5 $2 { [%eval -1.56] } 18...
+Nxe5 { [%eval -1.23] } 19. Ndf3 $2 { [%eval -3.37] } 19... Nxf3+ $2
+{ [%eval -2.12] } 20. gxf3 $4 { [%eval -7.53] } 20... Qxe2 { [%eval -7.23] }
+21. Qxh7+ $2 { [%eval -21.85] } 21... Nxh7 { [%eval -20.94] } 22. Ne6+
+{ [%eval -31.56] } 22... Kh8 { [%eval -21.1] } 23. fxg6 $6 { [%eval #-8] }
+23... fxe6 { [%eval #-9] } 24. g7+ { [%eval #-8] } 24... Kxg7 { [%eval #-7] }
+25. Rf2 { [%eval #-6] } 25... Qe3 { [%eval #-5] } 26. Kf1 { [%eval #-5] } 26...
+Bxf3 { [%eval #-4] } 27. Rg2+ { [%eval #-2] } 1-0

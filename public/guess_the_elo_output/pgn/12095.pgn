@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LWps7xn1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "songxialone"]
+[Black "Richer009"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:43:00"]
+[WhiteElo "1481"]
+[BlackElo "1603"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "C10"]
+[Opening "French Defense: Rubinstein Variation"]
+[TimeControl "1500+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.1] } 1... e6 { [%eval 0.16] } 2. d4 { [%eval 0.2] } 2... d5
+{ [%eval 0.16] } 3. Nc3 { [%eval 0.18] } 3... dxe4 { [%eval 0.32] } 4. Nxe4
+{ [%eval 0.47] } 4... Nc6 { [%eval 0.91] } 5. Nf3 { [%eval 0.85] } 5... Nf6
+{ [%eval 0.84] } 6. Bd3 { [%eval 0.86] } 6... Nxe4 { [%eval 1.04] } 7. Bxe4
+{ [%eval 0.99] } 7... Be7 { [%eval 1.14] } 8. O-O { [%eval 1.08] } 8... O-O
+{ [%eval 1.11] } 9. Re1 { [%eval 0.72] } 9... Bf6 { [%eval 1.14] } 10. c3
+{ [%eval 1.15] } 10... Ne7 { [%eval 1.14] } 11. Qd3 { [%eval 1.14] } 11... Ng6
+{ [%eval 1.25] } 12. Be3 { [%eval 0.86] } 12... c5 { [%eval 1.13] } 13. Rac1 $6
+{ [%eval 0.62] } 13... cxd4 { [%eval 0.76] } 14. cxd4 { [%eval 0.56] } 14... e5
+$6 { [%eval 1.11] } 15. Red1 $6 { [%eval 0.53] } 15... exd4 { [%eval 0.56] }
+16. Bxd4 { [%eval 0.38] } 16... Bxd4 { [%eval 0.7] } 17. Nxd4 { [%eval 0.72] }
+17... f5 $6 { [%eval 1.43] } 18. Qc4+ { [%eval 0.95] } 18... Kh8
+{ [%eval 0.95] } 19. Ne6 { [%eval 0.78] } 19... Bxe6 { [%eval 0.7] } 20. Rxd8
+$4 { [%eval -2.72] } 20... Bxc4 { [%eval -2.54] } 21. Rxf8+ { [%eval -2.79] }
+21... Rxf8 { [%eval -2.72] } 22. Bxb7 $6 { [%eval -3.44] } 22... Bxa2
+{ [%eval -3.39] } 23. f3 { [%eval -3.81] } 23... Nf4 { [%eval -3.7] } 24. Kf2
+$4 { [%eval -11.17] } 24... Nd3+ { [%eval -10.91] } 0-1

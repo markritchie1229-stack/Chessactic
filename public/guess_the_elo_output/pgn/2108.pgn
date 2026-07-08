@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/qmf6gHFX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AA2009"]
+[Black "schlurgs"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:32:19"]
+[WhiteElo "1977"]
+[BlackElo "2340"]
+[WhiteRatingDiff "-3"]
+[BlackRatingDiff "+6"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "480+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.45] } 1... Nf6 { [%eval 0.75] } 2. Nc3 $6 { [%eval 0.13] }
+2... d5 { [%eval 0.41] } 3. exd5 { [%eval 0.32] } 3... Nxd5 { [%eval 0.42] } 4.
+Nxd5 { [%eval 0.08] } 4... Qxd5 { [%eval 0.11] } 5. Nf3 { [%eval 0.07] } 5...
+Nc6 { [%eval 0.05] } 6. Be2 { [%eval -0.28] } 6... e5 { [%eval -0.27] } 7. O-O
+{ [%eval -0.3] } 7... e4 { [%eval -0.13] } 8. Ne1 $6 { [%eval -0.64] } 8... Bd6
+{ [%eval -0.29] } 9. f4 { [%eval -0.76] } 9... O-O { [%eval -0.46] } 10. d3
+{ [%eval -0.75] } 10... Bf5 { [%eval -0.73] } 11. Be3 { [%eval -1.1] } 11...
+Bc5 { [%eval -1.0] } 12. Qd2 $6 { [%eval -1.74] } 12... Rfe8 { [%eval -1.71] }
+13. c4 $2 { [%eval -2.74] } 13... Qd6 { [%eval -2.71] } 14. Bxc5
+{ [%eval -2.62] } 14... Qxc5+ { [%eval -2.56] } 15. Kh1 { [%eval -2.48] } 15...
+Rad8 { [%eval -2.45] } 16. Qc3 $6 { [%eval -3.43] } 16... Qe3 { [%eval -3.33] }
+17. dxe4 $2 { [%eval -5.47] } 17... Qxe2 { [%eval -5.33] } 18. Nf3
+{ [%eval -5.45] } 18... Rxe4 { [%eval -5.16] } 19. Rae1 $2 { [%eval -6.18] }
+19... Qxc4 { [%eval -6.04] } 20. Rxe4 $4 { [%eval #-6] } 20... Qxf1+
+{ [%eval #-5] } 21. Ng1 { [%eval #-5] } 21... Bxe4 { [%eval #-4] } 0-1

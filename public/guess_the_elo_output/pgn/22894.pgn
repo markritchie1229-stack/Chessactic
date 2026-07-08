@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/SiZPJXO9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Womboose"]
+[Black "rcanabat"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:30:49"]
+[WhiteElo "1282"]
+[BlackElo "1246"]
+[WhiteRatingDiff "+108"]
+[BlackRatingDiff "-8"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.46] } 2. Qh5 $6 { [%eval -0.13] }
+2... d6 { [%eval -0.02] } 3. Bc4 { [%eval -0.1] } 3... g6 { [%eval -0.08] } 4.
+Qf3 { [%eval -0.39] } 4... Nf6 { [%eval -0.3] } 5. Nc3 { [%eval -0.28] } 5...
+Be6 { [%eval -0.06] } 6. Bxe6 { [%eval -0.19] } 6... fxe6 { [%eval -0.17] } 7.
+d3 { [%eval -0.14] } 7... Bg7 { [%eval -0.13] } 8. Bg5 { [%eval -0.1] } 8...
+O-O { [%eval 0.0] } 9. Bxf6 { [%eval -0.27] } 9... Bxf6 { [%eval -0.05] } 10.
+O-O-O $4 { [%eval -5.32] } 10... Nc6 $4 { [%eval 0.24] } 11. Qg4
+{ [%eval 0.0] } 11... Nd4 { [%eval 0.13] } 12. f3 $6 { [%eval -0.63] } 12...
+Bg5+ { [%eval -0.54] } 13. Kb1 { [%eval -0.56] } 13... Rf4 { [%eval -0.49] }
+14. Qh3 { [%eval -0.49] } 14... Nf5 $4 { [%eval 4.22] } 15. Nb5 $4
+{ [%eval -2.22] } 15... Nh6 $4 { [%eval 2.09] } 16. Qxe6+ { [%eval 2.11] }
+16... Nf7 { [%eval 2.45] } 17. Qxf7+ $4 { [%eval -6.93] } 17... Kxf7 $2
+{ [%eval -5.73] } 18. g3 { [%eval -6.06] } 18... Qf6 $4 { [%eval -0.33] } 19.
+h3 $2 { [%eval -2.29] } 19... Rxf3 $2 { [%eval -0.26] } 20. Ne2 $4
+{ [%eval -8.59] } 20... Re3 $2 { [%eval -6.42] } 21. Rd2 $4 { [%eval -11.3] }
+21... Qf2 $6 { [%eval -9.13] } 22. Nxc7 $6 { [%eval -11.83] } 22... Rxe2
+{ [%eval -9.76] } 23. Rxe2 { [%eval -9.34] } 1-0

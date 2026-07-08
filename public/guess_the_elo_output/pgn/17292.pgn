@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/qB3jqX7U"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Fischer1943"]
+[Black "tutunikov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:29:04"]
+[WhiteElo "1500"]
+[BlackElo "2112"]
+[WhiteRatingDiff "+597"]
+[BlackRatingDiff "-18"]
+[ECO "A00"]
+[Opening "Grob Opening: Grob Gambit Declined"]
+[TimeControl "180+1"]
+[Termination "Time forfeit"]
+
+1. g4 $6 { [%eval -0.79] } 1... d5 { [%eval -0.77] } 2. Bg2 { [%eval -0.75] }
+2... c6 { [%eval -0.64] } 3. h4 $2 { [%eval -1.72] } 3... Bxg4
+{ [%eval -1.64] } 4. a4 $6 { [%eval -2.31] } 4... a5 { [%eval -1.9] } 5. d4
+{ [%eval -1.95] } 5... e6 { [%eval -1.65] } 6. f3 { [%eval -1.95] } 6... Bh5
+{ [%eval -1.91] } 7. Nh3 { [%eval -1.82] } 7... Bd6 { [%eval -1.75] } 8. Nc3
+{ [%eval -1.77] } 8... Bg3+ { [%eval -1.74] } 9. Kf1 { [%eval -1.83] } 9...
+Bxh4 { [%eval -1.54] } 10. Nf4 { [%eval -1.57] } 10... Bg6 { [%eval -1.47] }
+11. Ra3 { [%eval -1.76] } 11... Nh6 { [%eval -1.67] } 12. e4 { [%eval -1.68] }
+12... Bg5 $6 { [%eval -1.18] } 13. Rb3 { [%eval -1.29] } 13... Ra7
+{ [%eval -1.14] } 14. Rg1 $6 { [%eval -1.76] } 14... Bxf4 { [%eval -1.33] } 15.
+Bxf4 { [%eval -1.33] } 15... Ng8 { [%eval -1.25] } 16. exd5 { [%eval -1.6] }
+16... exd5 { [%eval -1.49] } 17. Ne2 { [%eval -1.48] } 17... Nd7 $4
+{ [%eval 3.19] } 18. Re3+ { [%eval 3.05] } 18... Ne7 { [%eval 3.06] } 19. Bd6
+{ [%eval 2.8] } 19... Nf6 $2 { [%eval 5.13] } 20. Bxe7 { [%eval 5.01] } 20...
+Qxe7 { [%eval 4.91] } 21. Rxe7+ { [%eval 4.79] } 21... Kxe7 { [%eval 4.71] }
+22. Ng3 { [%eval 4.43] } 22... Re8 $2 { [%eval 5.51] } 23. f4 { [%eval 5.62] }
+23... Be4 $2 { [%eval 7.58] } 24. Bxe4 { [%eval 7.13] } 24... Nxe4 $2
+{ [%eval 8.83] } 25. Nxe4 { [%eval 8.65] } 25... dxe4 { [%eval 8.48] } 26. Rxg7
+{ [%eval 7.93] } 1-0

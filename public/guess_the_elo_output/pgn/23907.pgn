@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4QfJK0nO"]
+[Date "????.??.??"]
+[Round "?"]
+[White "EdwFj"]
+[Black "bjkaria"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:25:42"]
+[WhiteElo "1727"]
+[BlackElo "1734"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A36"]
+[Opening "English Opening: Symmetrical Variation, Botvinnik System"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.11] } 1... g6 $6 { [%eval 0.6] } 2. Nc3 { [%eval 0.22] } 2...
+Bg7 { [%eval 0.46] } 3. g3 { [%eval 0.15] } 3... c5 { [%eval 0.13] } 4. Bg2
+{ [%eval 0.05] } 4... Nc6 { [%eval 0.09] } 5. e4 { [%eval 0.06] } 5... d6
+{ [%eval -0.04] } 6. Nge2 { [%eval -0.04] } 6... Nf6 { [%eval 0.0] } 7. d3
+{ [%eval 0.0] } 7... O-O { [%eval 0.0] } 8. O-O { [%eval 0.12] } 8... e6
+{ [%eval 0.27] } 9. Be3 { [%eval 0.18] } 9... a6 { [%eval 0.25] } 10. a3
+{ [%eval 0.12] } 10... Qc7 { [%eval 0.12] } 11. Rb1 { [%eval 0.11] } 11... b6
+{ [%eval 0.04] } 12. b4 { [%eval 0.12] } 12... Bb7 { [%eval 0.18] } 13. b5
+{ [%eval 0.1] } 13... Ne7 { [%eval 0.27] } 14. bxa6 { [%eval 0.19] } 14... Rxa6
+{ [%eval 0.31] } 15. Nb5 { [%eval 0.18] } 15... Qd7 { [%eval 0.28] } 16. Nec3
+{ [%eval 0.18] } 16... d5 { [%eval 0.05] } 17. e5 { [%eval 0.04] } 17... Ng4 $2
+{ [%eval 1.4] } 18. Qxg4 { [%eval 1.11] } 18... Bxe5 $2 { [%eval 3.47] } 19. f4
+$4 { [%eval -0.26] } 19... Bxc3 { [%eval -0.2] } 20. Bxc5 $2 { [%eval -2.39] }
+20... bxc5 { [%eval -2.23] } 21. Nxc3 { [%eval -2.15] } 21... Rxa3
+{ [%eval -2.11] } 22. Nb5 $2 { [%eval -4.39] } 22... Rxd3 { [%eval -4.22] } 23.
+cxd5 $6 { [%eval -4.82] } 23... Bxd5 { [%eval -4.75] } 24. Rbc1 $4
+{ [%eval -9.6] } 24... Bxg2 { [%eval -8.5] } 0-1

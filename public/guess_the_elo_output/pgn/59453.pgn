@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DFbMrzDi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TokenBlack112"]
+[Black "gitars22"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:53:21"]
+[WhiteElo "1143"]
+[BlackElo "1252"]
+[WhiteRatingDiff "+84"]
+[BlackRatingDiff "-14"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.17] } 1... Nf6 { [%eval 0.64] } 2. Nc3 $6 { [%eval 0.05] }
+2... g6 $6 { [%eval 0.85] } 3. Nf3 { [%eval 0.39] } 3... Bg7 $6
+{ [%eval 1.35] } 4. d4 $6 { [%eval 0.36] } 4... O-O { [%eval 0.49] } 5. e5
+{ [%eval 0.52] } 5... Nh5 $2 { [%eval 2.95] } 6. Ng5 $2 { [%eval 1.2] } 6... d6
+{ [%eval 1.45] } 7. exd6 $2 { [%eval -0.03] } 7... exd6 { [%eval -0.14] } 8.
+Be2 { [%eval -0.17] } 8... f6 $6 { [%eval 0.81] } 9. Bxh5 $6 { [%eval 0.0] }
+9... fxg5 { [%eval -0.06] } 10. Bf3 { [%eval -0.04] } 10... Qe7+
+{ [%eval 0.05] } 11. Be3 { [%eval -0.08] } 11... Re8 $6 { [%eval 0.66] } 12.
+Qe2 $6 { [%eval 0.12] } 12... c5 $6 { [%eval 0.77] } 13. Bd5+ { [%eval 0.64] }
+13... Be6 { [%eval 0.76] } 14. Bxb7 $4 { [%eval -4.13] } 14... Qxb7
+{ [%eval -3.83] } 15. dxc5 $4 { [%eval -7.03] } 15... Qxb2 { [%eval -7.04] }
+16. O-O { [%eval -7.1] } 16... Qxc3 { [%eval -7.05] } 17. Bxg5 $2
+{ [%eval -8.26] } 17... dxc5 { [%eval -7.95] } 18. Qe4 $6 { [%eval -8.46] }
+18... Bd4 $4 { [%eval -1.91] } 19. Be3 $4 { [%eval -8.23] } 19... Bc4 $4
+{ [%eval 5.1] } 20. Qxe8+ { [%eval 5.0] } 20... Kg7 { [%eval 4.98] } 21. Qe7+
+{ [%eval 4.57] } 21... Bf7 $2 { [%eval 6.02] } 22. Bxd4+ $4 { [%eval 0.38] }
+22... Qxd4 $2 { [%eval 2.47] } 23. Rfd1 { [%eval 2.41] } 23... Qc3 $4
+{ [%eval 6.44] } 24. Rf1 $4 { [%eval 0.12] } 24... Nc6 $2 { [%eval 3.03] } 25.
+Qb7 { [%eval 3.1] } 25... Rd8 { [%eval 3.14] } 26. Qxc6 { [%eval 3.12] } 26...
+Qxc2 { [%eval 3.27] } 27. Rac1 { [%eval 3.25] } 27... Qd2 { [%eval 3.54] } 28.
+Rcd1 $4 { [%eval -3.35] } 28... Bd5 $4 { [%eval 12.16] } 29. Qc7+
+{ [%eval 11.53] } 29... Rd7 $6 { [%eval #8] } 30. Qxd7+ { [%eval #8] } 30...
+Bf7 { [%eval #6] } 31. Qxd2 { [%eval #6] } 1-0

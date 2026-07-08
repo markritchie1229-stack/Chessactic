@@ -1,0 +1,37 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/F32E5cMj"]
+[Site "https://lichess.org/dwNH1UpY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kulmanov"]
+[Black "ujun3juanda"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:19:24"]
+[WhiteElo "1876"]
+[BlackElo "1779"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+27"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.25] } 3. d4 { [%eval 0.22] } 3... cxd4 { [%eval 0.14] } 4. Nxd4
+{ [%eval 0.2] } 4... Nf6 { [%eval 0.3] } 5. Nc3 { [%eval 0.24] } 5... a6
+{ [%eval 0.29] } 6. Be3 { [%eval 0.25] } 6... Bd7 { [%eval 0.65] } 7. f3
+{ [%eval 0.56] } 7... Nc6 { [%eval 0.64] } 8. a4 $6 { [%eval 0.0] } 8... g6
+{ [%eval 0.33] } 9. Qd2 { [%eval 0.24] } 9... Bg7 { [%eval 0.4] } 10. Bh6 $4
+{ [%eval -3.72] } 10... O-O $4 { [%eval -0.01] } 11. Bxg7 { [%eval -0.02] }
+11... Kxg7 { [%eval 0.02] } 12. h4 { [%eval -0.09] } 12... h5 { [%eval -0.16] }
+13. O-O-O { [%eval -0.27] } 13... Qa5 { [%eval -0.34] } 14. g4
+{ [%eval -0.63] } 14... hxg4 { [%eval -0.74] } 15. Nb3 $2 { [%eval -1.74] }
+15... Qh5 { [%eval -1.62] } 16. f4 { [%eval -1.92] } 16... b5 { [%eval -1.66] }
+17. axb5 { [%eval -1.98] } 17... axb5 { [%eval -1.81] } 18. e5 $2
+{ [%eval -2.85] } 18... dxe5 { [%eval -2.74] } 19. fxe5 $6 { [%eval -3.56] }
+19... Nxe5 { [%eval -3.5] } 20. Qd4 $2 { [%eval -5.4] } 20... Be6 $6
+{ [%eval -4.55] } 21. Nc5 $4 { [%eval -15.1] } 21... Rfd8 $4 { [%eval -4.86] }
+22. Nxe6+ { [%eval -4.83] } 22... fxe6 { [%eval -4.45] } 23. Qc5 $4
+{ [%eval #-4] } 23... Rxd1+ $6 { [%eval #-8] } 24. Kxd1 { [%eval #-8] } 24...
+Ra1+ { [%eval #-7] } 25. Kd2 { [%eval #-6] } 25... Nc4+ $6 { [%eval -16.2] }
+26. Bxc4 { [%eval -15.58] } 26... Qxc5 { [%eval -14.19] } 0-1

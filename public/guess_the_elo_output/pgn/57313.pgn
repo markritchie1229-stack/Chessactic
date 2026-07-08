@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NzrX310v"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RRRJerdy"]
+[Black "bosy"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:07:32"]
+[WhiteElo "1783"]
+[BlackElo "1787"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation, Monte Carlo Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.08] } 1... e6 { [%eval 0.2] } 2. d4 { [%eval 0.1] } 2... d5
+{ [%eval 0.38] } 3. exd5 { [%eval 0.08] } 3... exd5 { [%eval 0.13] } 4. c4
+{ [%eval 0.06] } 4... Nf6 { [%eval 0.06] } 5. c5 $6 { [%eval -0.61] } 5... b6
+{ [%eval -0.33] } 6. b4 $6 { [%eval -1.01] } 6... a5 { [%eval -1.0] } 7. bxa5
+$2 { [%eval -2.16] } 7... bxc5 { [%eval -2.17] } 8. dxc5 { [%eval -2.59] } 8...
+Bxc5 { [%eval -2.38] } 9. Nf3 { [%eval -2.48] } 9... Rxa5 $6 { [%eval -1.71] }
+10. Bd2 $2 { [%eval -3.28] } 10... Ra8 $2 { [%eval -1.83] } 11. Be2
+{ [%eval -2.04] } 11... c6 { [%eval -2.0] } 12. O-O { [%eval -2.12] } 12... O-O
+{ [%eval -1.9] } 13. Bg5 { [%eval -2.2] } 13... h6 { [%eval -2.08] } 14. Bh4
+{ [%eval -2.15] } 14... Nbd7 { [%eval -2.02] } 15. Nd4 $6 { [%eval -2.67] }
+15... Qb6 { [%eval -2.49] } 16. Ne6 $4 { [%eval -6.26] } 16... fxe6
+{ [%eval -6.08] } 17. Nc3 $2 { [%eval -7.12] } 17... Ba6 $2 { [%eval -5.97] }
+18. Na4 { [%eval -6.14] } 18... Qb4 { [%eval -6.01] } 19. Bxa6
+{ [%eval -6.29] } 19... Rxa6 { [%eval -6.05] } 20. Nxc5 { [%eval -5.93] } 20...
+Qxc5 $6 { [%eval -5.2] } 21. Qe2 { [%eval -5.02] } 21... Qd6 $4
+{ [%eval 0.45] } 22. Qxa6 { [%eval 0.43] } 22... Ng4 $2 { [%eval 2.5] } 23. Bg3
+{ [%eval 2.26] } 23... e5 { [%eval 2.44] } 24. h3 $2 { [%eval 0.7] } 24... Ngf6
+{ [%eval 0.85] } 25. Rfe1 $6 { [%eval 0.16] } 25... Ne4 { [%eval 0.62] } 26.
+Bh2 $2 { [%eval -0.96] } 26... Rxf2 { [%eval -0.6] } 27. Rxe4 { [%eval -0.81] }
+27... Rxg2+ $4 { [%eval 5.52] } 28. Kxg2 { [%eval 5.36] } 28... dxe4
+{ [%eval 5.35] } 29. Qc4+ { [%eval 5.27] } 29... Kh7 $2 { [%eval 6.47] } 30.
+Qxe4+ { [%eval 6.15] } 30... g6 $2 { [%eval 7.43] } 31. Re1 { [%eval 7.0] }
+31... Nf6 $2 { [%eval 9.25] } 32. Qxe5 { [%eval 8.8] } 1-0

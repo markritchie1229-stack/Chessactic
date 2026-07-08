@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ShSqjLHW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "igor617"]
+[Black "kannibal_hdz_666"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:16:03"]
+[WhiteElo "1496"]
+[BlackElo "1544"]
+[WhiteRatingDiff "+104"]
+[BlackRatingDiff "-15"]
+[ECO "B06"]
+[Opening "Robatsch (Modern) Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... g6 { [%eval 0.6] } 2. d4 { [%eval 0.54] } 2... Bg7
+{ [%eval 0.67] } 3. e5 $6 { [%eval -0.18] } 3... d6 { [%eval -0.02] } 4. f4
+{ [%eval -0.37] } 4... dxe5 { [%eval -0.48] } 5. fxe5 { [%eval -0.28] } 5...
+Nc6 $6 { [%eval 0.36] } 6. c3 { [%eval -0.01] } 6... Bf5 { [%eval 0.31] } 7.
+Bc4 { [%eval 0.0] } 7... Bd7 $2 { [%eval 1.41] } 8. Nf3 { [%eval 1.38] } 8...
+e6 { [%eval 1.55] } 9. O-O { [%eval 1.43] } 9... Nge7 $6 { [%eval 1.93] } 10.
+Ng5 { [%eval 1.95] } 10... O-O { [%eval 1.88] } 11. Qf3 $6 { [%eval 0.91] }
+11... a6 $6 { [%eval 1.78] } 12. Qh3 { [%eval 1.42] } 12... h5 $4
+{ [%eval 6.29] } 13. Be2 $4 { [%eval 1.7] } 13... Nf5 $6 { [%eval 2.56] } 14.
+Bxh5 { [%eval 2.68] } 14... Qxg5 $4 { [%eval 9.39] } 15. Bxg5 { [%eval 9.06] }
+15... gxh5 { [%eval 9.2] } 16. Qxh5 { [%eval 8.78] } 16... Be8 $2
+{ [%eval 11.53] } 17. Qh3 $2 { [%eval 8.49] } 17... f6 { [%eval 8.6] } 18. exf6
+{ [%eval 8.28] } 18... Bxf6 { [%eval 7.75] } 19. Bxf6 { [%eval 7.47] } 19...
+Rxf6 { [%eval 7.38] } 20. Nd2 { [%eval 7.17] } 20... Bd7 $2 { [%eval 9.12] }
+21. Ne4 { [%eval 8.74] } 21... Rf7 $2 { [%eval 10.99] } 22. Ng5 $2
+{ [%eval 8.02] } 22... Rg7 { [%eval 8.03] } 23. Ne4 { [%eval 7.85] } 23... Rf8
+{ [%eval 7.73] } 24. Rf3 $2 { [%eval 6.56] } 24... e5 $2 { [%eval 9.22] } 25.
+Raf1 { [%eval 8.94] } 25... Ne3 $2 { [%eval #1] } 26. Rxf8# 1-0

@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TRHw04BE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zegareki"]
+[Black "twinblades"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:11:17"]
+[WhiteElo "1658"]
+[BlackElo "1710"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-14"]
+[ECO "C01"]
+[Opening "French Defense: Perseus Gambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.11] } 1... e6 { [%eval 0.16] } 2. d4 { [%eval 0.0] } 2... d5
+{ [%eval 0.23] } 3. Nf3 $6 { [%eval -0.66] } 3... dxe4 { [%eval -0.68] } 4. Ng5
+$6 { [%eval -1.24] } 4... Be7 $2 { [%eval -0.12] } 5. Nxe4 { [%eval -0.12] }
+5... c5 $6 { [%eval 0.75] } 6. Nxc5 { [%eval 0.64] } 6... Bxc5 { [%eval 0.61] }
+7. dxc5 { [%eval 0.64] } 7... Qa5+ { [%eval 1.1] } 8. Qd2 { [%eval 0.68] } 8...
+Qxc5 { [%eval 0.65] } 9. Nc3 { [%eval 0.69] } 9... Nf6 { [%eval 0.8] } 10. Bb5+
+{ [%eval 0.64] } 10... Bd7 { [%eval 0.59] } 11. Bxd7+ $6 { [%eval 0.06] } 11...
+Nbxd7 { [%eval 0.29] } 12. b3 { [%eval 0.02] } 12... Rc8 { [%eval 0.08] } 13.
+Bb2 { [%eval 0.1] } 13... O-O { [%eval 0.14] } 14. Na4 $2 { [%eval -1.58] }
+14... Qe7 $2 { [%eval 0.0] } 15. O-O { [%eval -0.02] } 15... Rfd8
+{ [%eval 0.14] } 16. Qg5 $2 { [%eval -0.91] } 16... h6 $6 { [%eval -0.03] } 17.
+Qg3 $2 { [%eval -1.05] } 17... Rxc2 { [%eval -0.78] } 18. Bc1 $6
+{ [%eval -1.42] } 18... Rdc8 { [%eval -1.22] } 19. Bxh6 { [%eval -1.41] } 19...
+g6 $6 { [%eval -0.71] } 20. Bg5 $2 { [%eval -2.34] } 20... Qa3 $2
+{ [%eval -0.42] } 21. Qf3 $6 { [%eval -1.02] } 21... Rxa2 $2 { [%eval 1.07] }
+22. Rxa2 { [%eval 0.92] } 22... Qxa2 { [%eval 1.0] } 23. Bxf6 { [%eval 1.24] }
+23... Nf8 $4 { [%eval 6.52] } 24. Be7 $2 { [%eval 3.81] } 1-0

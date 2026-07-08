@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/x20IeOQW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "viniciusbatcar"]
+[Black "ut21"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:52:51"]
+[WhiteElo "1541"]
+[BlackElo "1707"]
+[WhiteRatingDiff "+16"]
+[BlackRatingDiff "-16"]
+[ECO "C41"]
+[Opening "Philidor Defense: Exchange Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.3] } 2. Nf3 { [%eval 0.27] } 2... d6
+{ [%eval 0.42] } 3. d4 { [%eval 0.39] } 3... exd4 { [%eval 0.38] } 4. Nxd4
+{ [%eval 0.41] } 4... Nf6 { [%eval 0.4] } 5. Nc3 { [%eval 0.31] } 5... Qe7
+{ [%eval 0.77] } 6. Bd3 { [%eval 0.62] } 6... d5 $2 { [%eval 2.24] } 7. f3 $2
+{ [%eval 0.27] } 7... dxe4 { [%eval 0.37] } 8. Nxe4 { [%eval -0.01] } 8... Qb4+
+$2 { [%eval 1.43] } 9. c3 { [%eval 1.54] } 9... Qe7 $2 { [%eval 2.77] } 10. O-O
+{ [%eval 2.6] } 10... Nxe4 { [%eval 2.63] } 11. Bxe4 $6 { [%eval 1.76] } 11...
+Be6 $4 { [%eval 7.81] } 12. Nxe6 $2 { [%eval 6.69] } 12... fxe6 $2
+{ [%eval 7.88] } 13. Bxb7 { [%eval 7.78] } 13... Qc5+ { [%eval 8.06] } 14. Kh1
+{ [%eval 7.89] } 14... Bd6 { [%eval 7.84] } 15. Bxa8 { [%eval 7.75] } 15...
+Bxh2 $2 { [%eval 11.08] } 16. Bg5 $4 { [%eval 6.53] } 16... Bd6 $6
+{ [%eval 7.5] } 17. f4 { [%eval 7.31] } 17... O-O { [%eval 7.1] } 18. Re1 $6
+{ [%eval 6.38] } 18... h6 $2 { [%eval 9.0] } 19. Rxe6 { [%eval 8.44] } 19...
+hxg5 $2 { [%eval 16.79] } 20. Bd5 { [%eval 15.36] } 20... Rxf4 $6
+{ [%eval #2] } 21. Re8+ { [%eval #1] } 21... Kh7 { [%eval #1] } 22. Qh5# 1-0

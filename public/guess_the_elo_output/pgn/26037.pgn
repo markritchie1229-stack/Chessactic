@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/wERGmE6G"]
+[Date "????.??.??"]
+[Round "?"]
+[White "antonielson"]
+[Black "DiegoRojas10"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:18:42"]
+[WhiteElo "1887"]
+[BlackElo "1806"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+110"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.14] } 2... e6
+{ [%eval 0.32] } 3. Nf3 { [%eval 0.19] } 3... Nf6 { [%eval 0.34] } 4. e3
+{ [%eval 0.0] } 4... Bd6 { [%eval 0.18] } 5. Bd3 { [%eval 0.15] } 5... dxc4
+{ [%eval 0.21] } 6. Bxc4 { [%eval 0.17] } 6... O-O { [%eval 0.19] } 7. Nc3
+{ [%eval 0.02] } 7... c5 { [%eval 0.2] } 8. O-O { [%eval 0.08] } 8... a6
+{ [%eval 0.02] } 9. a4 { [%eval -0.2] } 9... Nc6 { [%eval -0.2] } 10. a5 $6
+{ [%eval -0.71] } 10... cxd4 { [%eval -0.67] } 11. exd4 { [%eval -0.72] } 11...
+h6 { [%eval -0.63] } 12. Be3 { [%eval -0.96] } 12... Nxa5 { [%eval -0.97] } 13.
+Bd3 { [%eval -1.04] } 13... Bd7 { [%eval -1.1] } 14. Qd2 $2 { [%eval -2.92] }
+14... Nb3 { [%eval -2.79] } 15. Qe2 { [%eval -2.78] } 15... Nxa1
+{ [%eval -2.71] } 16. Rxa1 { [%eval -2.62] } 16... Bc6 { [%eval -2.68] } 17.
+Ne5 { [%eval -2.64] } 17... Qc7 { [%eval -2.54] } 18. Nxc6 { [%eval -2.64] }
+18... Qxc6 { [%eval -2.7] } 19. Rc1 { [%eval -2.8] } 19... Rac8
+{ [%eval -2.7] } 20. Rc2 { [%eval -2.81] } 20... Qd7 { [%eval -2.78] } 21. Ne4
+$6 { [%eval -3.3] } 21... Nd5 { [%eval -3.16] } 22. Nxd6 $6 { [%eval -3.66] }
+22... Qxd6 { [%eval -3.49] } 23. Bxh6 $4 { [%eval -7.11] } 23... gxh6
+{ [%eval -7.09] } 24. Qh5 $6 { [%eval -7.92] } 24... Qf4 { [%eval -7.61] } 25.
+h4 $2 { [%eval -11.58] } 25... Nb4 { [%eval -11.18] } 26. g3 { [%eval -11.57] }
+26... Qxd4 { [%eval -11.28] } 27. Rxc8 { [%eval -10.89] } 27... Rxc8
+{ [%eval -10.18] } 28. Qxh6 { [%eval -120.61] } 28... Nxd3 { [%eval -51.81] }
+29. Qg5+ $6 { [%eval #-20] } 29... Kf8 { [%eval #-19] } 30. Qh6+
+{ [%eval #-19] } 30... Ke8 { [%eval -56.89] } 0-1

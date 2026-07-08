@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8NJ6GgEG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "blue_sol"]
+[Black "Carlo_Rossi"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "03:19:18"]
+[WhiteElo "1902"]
+[BlackElo "1881"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-10"]
+[ECO "B34"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.36] } 2... Nc6
+{ [%eval 0.51] } 3. d4 { [%eval 0.14] } 3... cxd4 { [%eval 0.27] } 4. Nxd4
+{ [%eval 0.16] } 4... g6 { [%eval 0.22] } 5. Nc3 { [%eval 0.21] } 5... Bg7
+{ [%eval 0.35] } 6. Be3 { [%eval 0.19] } 6... Nf6 { [%eval 0.26] } 7. f4
+{ [%eval 0.0] } 7... a6 $2 { [%eval 1.12] } 8. Be2 $6 { [%eval 0.26] } 8... O-O
+{ [%eval 0.75] } 9. O-O { [%eval 0.31] } 9... e6 $6 { [%eval 0.97] } 10. f5 $2
+{ [%eval -0.42] } 10... Qc7 $6 { [%eval 0.48] } 11. Nxc6 { [%eval 0.45] } 11...
+dxc6 { [%eval 0.51] } 12. fxg6 { [%eval 0.56] } 12... hxg6 { [%eval 0.49] } 13.
+Bg5 $2 { [%eval -0.59] } 13... Nd7 $6 { [%eval 0.22] } 14. Qe1
+{ [%eval -0.26] } 14... b5 $6 { [%eval 0.4] } 15. Be7 { [%eval 0.0] } 15... Re8
+{ [%eval 0.14] } 16. Qh4 { [%eval -0.14] } 16... c5 $2 { [%eval 0.92] } 17. a4
+$2 { [%eval -0.21] } 17... b4 { [%eval -0.2] } 18. Nd1 { [%eval -0.37] } 18...
+Bb7 { [%eval -0.45] } 19. Rb1 $6 { [%eval -1.3] } 19... Bxe4 $4
+{ [%eval 2.41] } 20. Qxe4 { [%eval 2.36] } 20... Rxe7 $2 { [%eval 4.21] } 21.
+Qxa8+ { [%eval 4.18] } 21... Re8 $4 { [%eval 11.0] } 22. Qxe8+
+{ [%eval 10.66] } 1-0

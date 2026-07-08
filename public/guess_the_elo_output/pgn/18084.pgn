@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/K50y2xsr"]
+[Date "????.??.??"]
+[Round "?"]
+[White "loscigarros"]
+[Black "Tonuka"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:01:38"]
+[WhiteElo "1467"]
+[BlackElo "1540"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "A56"]
+[Opening "Benoni Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.11] } 1... Nf6 { [%eval 0.16] } 2. c4 { [%eval 0.08] } 2... c5
+{ [%eval 0.39] } 3. e3 { [%eval 0.13] } 3... b6 $6 { [%eval 0.7] } 4. Nc3
+{ [%eval 0.3] } 4... Bb7 { [%eval 0.78] } 5. Nf3 { [%eval 0.39] } 5... e6
+{ [%eval 0.78] } 6. d5 { [%eval 0.69] } 6... exd5 { [%eval 0.81] } 7. cxd5
+{ [%eval 0.88] } 7... d6 { [%eval 0.83] } 8. e4 { [%eval 0.73] } 8... g6
+{ [%eval 1.08] } 9. Bg5 { [%eval 0.7] } 9... Bg7 { [%eval 0.91] } 10. Bxf6 $6
+{ [%eval 0.0] } 10... Bxf6 { [%eval 0.0] } 11. Be2 { [%eval -0.16] } 11... O-O
+{ [%eval -0.17] } 12. O-O { [%eval -0.25] } 12... Re8 { [%eval -0.06] } 13. Qd3
+{ [%eval -0.18] } 13... Ba6 { [%eval -0.2] } 14. Qc2 { [%eval -0.26] } 14...
+Bxe2 { [%eval -0.25] } 15. Qxe2 { [%eval -0.33] } 15... Qc7 { [%eval -0.15] }
+16. Rfe1 { [%eval -0.49] } 16... Nd7 { [%eval -0.22] } 17. Rad1
+{ [%eval -0.66] } 17... Ne5 { [%eval -0.47] } 18. Nxe5 { [%eval -0.49] } 18...
+Bxe5 { [%eval -0.46] } 19. Na4 { [%eval -0.68] } 19... Bg7 { [%eval -0.61] }
+20. b3 $6 { [%eval -1.39] } 20... f5 { [%eval -1.41] } 21. f3 { [%eval -1.71] }
+21... fxe4 { [%eval -1.25] } 22. fxe4 { [%eval -1.68] } 22... Re7
+{ [%eval -1.48] } 23. Rd3 $6 { [%eval -1.98] } 23... Rae8 { [%eval -1.62] } 24.
+Re3 $2 { [%eval -2.87] } 24... Bd4 { [%eval -2.56] } 25. e5 $4
+{ [%eval -16.89] } 25... Bxe3+ { [%eval -13.23] } 26. Qxe3 { [%eval -13.2] }
+26... Rxe5 { [%eval -12.26] } 27. Qf2 $6 { [%eval #-7] } 27... Rxe1+
+{ [%eval #-6] } 28. Qxe1 { [%eval #-6] } 28... Rxe1+ { [%eval #-5] } 29. Kf2
+{ [%eval #-5] } 29... Re7 $6 { [%eval #-7] } 30. Kf3 { [%eval #-5] } 30... Rf7+
+$6 { [%eval #-10] } 0-1

@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/CNmT4v4g"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tithead"]
+[Black "CONSTRICTOR1"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:24:18"]
+[WhiteElo "1710"]
+[BlackElo "1818"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+24"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.36] } 2. Bc4 { [%eval -0.07] } 2...
+d6 { [%eval 0.18] } 3. Nf3 { [%eval 0.22] } 3... Nf6 { [%eval 0.29] } 4. d3
+{ [%eval -0.02] } 4... g6 { [%eval 0.39] } 5. Bg5 { [%eval 0.12] } 5... Nbd7
+{ [%eval 0.47] } 6. Bb5 $6 { [%eval -0.22] } 6... Bg7 { [%eval -0.19] } 7.
+Bxd7+ { [%eval -0.29] } 7... Bxd7 { [%eval -0.26] } 8. Nc3 { [%eval -0.42] }
+8... O-O { [%eval -0.22] } 9. O-O { [%eval -0.43] } 9... a6 { [%eval -0.07] }
+10. Rb1 { [%eval -0.47] } 10... h6 { [%eval -0.41] } 11. Bxf6 { [%eval -0.39] }
+11... Bxf6 { [%eval -0.55] } 12. Nd5 { [%eval -0.6] } 12... Bg7
+{ [%eval -0.54] } 13. b4 { [%eval -0.7] } 13... e6 { [%eval -0.69] } 14. Ne3
+{ [%eval -0.7] } 14... cxb4 { [%eval -0.7] } 15. Rxb4 { [%eval -0.52] } 15...
+b5 { [%eval -0.54] } 16. c4 { [%eval -0.52] } 16... Rb8 { [%eval -0.55] } 17.
+cxb5 { [%eval -0.68] } 17... Bxb5 { [%eval -0.35] } 18. a4 $6 { [%eval -0.9] }
+18... Bd7 { [%eval -0.68] } 19. Rxb8 { [%eval -1.13] } 19... Qxb8
+{ [%eval -1.07] } 20. Nc4 { [%eval -1.25] } 20... d5 { [%eval -0.77] } 21. Nce5
+$4 { [%eval -5.0] } 21... Bxe5 { [%eval -4.81] } 22. Nxe5 { [%eval -5.17] }
+22... Qxe5 { [%eval -5.03] } 23. exd5 { [%eval -5.34] } 23... exd5 $6
+{ [%eval -4.81] } 24. Qb3 $6 { [%eval -5.43] } 24... Re8 { [%eval -5.25] } 25.
+g3 $4 { [%eval -13.4] } 25... Bh3 { [%eval -12.05] } 26. f4 $6 { [%eval #-3] }
+26... Qe3+ $6 { [%eval #-3] } 27. Rf2 { [%eval #-2] } 27... Qe1+
+{ [%eval #-1] } 28. Rf1 { [%eval #-1] } 28... Qxf1# 0-1

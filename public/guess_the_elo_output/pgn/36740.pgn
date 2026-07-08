@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/QWVa4Ddp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "CONSTRICTOR1"]
+[Black "tithead"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:42:38"]
+[WhiteElo "1762"]
+[BlackElo "1728"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-9"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.08] } 1... e6 { [%eval 0.24] } 2. Nf3 { [%eval 0.1] } 2... Nc6
+$6 { [%eval 0.7] } 3. g3 $6 { [%eval 0.0] } 3... Bb4+ $6 { [%eval 0.5] } 4. c3
+{ [%eval 0.4] } 4... Bd6 { [%eval 0.81] } 5. Bg2 { [%eval 0.6] } 5... Nf6
+{ [%eval 0.71] } 6. O-O { [%eval 0.63] } 6... O-O { [%eval 0.64] } 7. Re1
+{ [%eval 0.59] } 7... Qe7 $2 { [%eval 2.04] } 8. Nbd2 $2 { [%eval 1.03] } 8...
+b6 $2 { [%eval 2.13] } 9. e4 { [%eval 2.3] } 9... Bb7 $2 { [%eval 3.81] } 10.
+e5 { [%eval 3.7] } 10... Bxe5 { [%eval 3.79] } 11. dxe5 { [%eval 3.84] } 11...
+Ng4 $2 { [%eval 5.57] } 12. h3 { [%eval 5.5] } 12... Nh6 $6 { [%eval 6.2] } 13.
+Ne4 { [%eval 5.8] } 13... Na5 $2 { [%eval 8.18] } 14. Bxh6 $2 { [%eval 6.61] }
+14... Bxe4 { [%eval 6.27] } 15. Rxe4 { [%eval 6.15] } 15... gxh6
+{ [%eval 6.12] } 16. Rg4+ $6 { [%eval 5.4] } 16... Kh8 { [%eval 5.47] } 17. Nd4
+$6 { [%eval 4.86] } 17... Nc4 $2 { [%eval 7.5] } 18. Qc1 $4 { [%eval 3.56] }
+18... Nxe5 { [%eval 3.56] } 19. Rh4 { [%eval 3.56] } 19... Rg8 $4
+{ [%eval 7.78] } 20. Bxa8 $4 { [%eval 2.87] } 20... Rxa8 $2 { [%eval 5.24] }
+21. Qxh6 { [%eval 5.11] } 21... f5 $2 { [%eval 7.98] } 22. Re1 { [%eval 7.38] }
+22... d6 $2 { [%eval 10.64] } 23. Nc6 $4 { [%eval 6.39] } 23... Nxc6 $2
+{ [%eval 8.54] } 24. Rxe6 { [%eval 8.18] } 24... Qf7 $2 { [%eval 9.34] } 25.
+Rf6 { [%eval 9.16] } 25... Qg7 { [%eval 9.0] } 26. Rxf5 $4 { [%eval 4.07] }
+26... Qxh6 $2 { [%eval 5.07] } 27. Rxh6 { [%eval 4.92] } 27... Re8 $4
+{ [%eval 8.07] } 28. Rf7 { [%eval 7.81] } 28... Re7 $2 { [%eval 60.72] } 29.
+Rhxh7+ { [%eval 60.01] } 29... Kg8 { [%eval 57.85] } 30. Rxe7 { [%eval 55.57] }
+30... Nxe7 { [%eval 54.84] } 31. Rxe7 { [%eval 51.18] } 1-0

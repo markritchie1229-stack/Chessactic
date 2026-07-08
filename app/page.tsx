@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Chess, type Square } from "chess.js";
-import { Chessboard } from "react-chessboard";
+import ChessBoard from "./components/ChessBoard";
 import {
   CheckCircle2,
   ChevronRight,
@@ -13,6 +13,9 @@ import { AccountRail } from "./components/AccountRail";
 import { SocialRail } from "./components/SocialRail";
 import { StatsRail } from "./components/StatsRail";
 import { MiniGamesRail } from "./components/MiniGamesRail";
+import { ThemeRail } from "./components/ThemeRail";
+import { DailyRail } from "./components/DailyRail";
+import { useTheme } from "@/components/ThemeProvider";
 import { supabase } from "@/lib/supabase";
 
 type RawPuzzle = {
@@ -206,7 +209,54 @@ function interleavePuzzleGroups(groups: Puzzle[][]) {
   return output;
 }
 
+function getSurfaceStyles(themeId: string) {
+  if (themeId === "girly") {
+    return {
+      page: "linear-gradient(180deg, #fff6fb 0%, #fdeaf4 44%, #f9dceb 100%)",
+      panel:
+        "linear-gradient(135deg, rgba(255,255,255,0.72) 0%, rgba(255,232,245,0.64) 100%)",
+      panelBorder: "rgba(236,72,153,0.22)",
+      card:
+        "linear-gradient(180deg, rgba(255,255,255,0.82) 0%, rgba(255,239,248,0.78) 100%)",
+      control:
+        "linear-gradient(180deg, rgba(255,255,255,0.88) 0%, rgba(255,232,245,0.84) 100%)",
+      ink: "#4b5563",
+    };
+  }
+
+  if (themeId === "standard") {
+    return {
+      page: "linear-gradient(180deg, #020617 0%, #0f172a 48%, #020617 100%)",
+      panel:
+        "linear-gradient(135deg, rgba(15,23,42,0.96) 0%, rgba(30,41,59,0.88) 100%)",
+      panelBorder: "rgba(71,85,105,0.9)",
+      card:
+        "linear-gradient(180deg, rgba(15,23,42,0.96) 0%, rgba(2,6,23,0.88) 100%)",
+      control:
+        "linear-gradient(180deg, rgba(15,23,42,0.96) 0%, rgba(30,41,59,0.90) 100%)",
+      ink: "#e2e8f0",
+    };
+  }
+
+  return {
+    page: "linear-gradient(180deg, #070605 0%, #120f0c 42%, #070605 100%)",
+    panel:
+      "linear-gradient(135deg, rgba(26,21,18,0.96) 0%, rgba(16,13,11,0.90) 100%)",
+    panelBorder: "rgba(217,190,121,0.25)",
+    card:
+      "linear-gradient(180deg, rgba(26,21,18,0.98) 0%, rgba(10,8,6,0.92) 100%)",
+    control:
+      "linear-gradient(180deg, rgba(26,21,18,0.98) 0%, rgba(16,13,11,0.94) 100%)",
+    ink: "#f8fafc",
+  };
+}
+
 export default function Page() {
+  const { theme } = useTheme();
+  const surface = getSurfaceStyles(theme.id);
+  const labelColor = theme.id === "girly" ? "#6b7280" : "#94a3b8";
+  const valueColor = theme.id === "girly" ? "#9d174d" : surface.ink;
+
   const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([
     CATEGORIES[0].id,
   ]);
@@ -238,6 +288,13 @@ export default function Page() {
 
   const puzzle = puzzles[index];
   const boardOrientation = userColor === "w" ? "white" : "black";
+  const legalTargets = useMemo(() => {
+    if (!selectedSquare || !game) return [];
+
+    return game
+      .moves({ square: selectedSquare, verbose: true })
+      .map((move) => move.to as Square);
+  }, [game, selectedSquare]);
 
   const recordSolvedPuzzle = async (p: Puzzle) => {
     try {
@@ -256,7 +313,7 @@ export default function Page() {
           p_solution: p.solution,
           p_theme: p.theme ?? null,
           p_difficulty: p.difficulty ?? null,
-        }
+        },
       );
 
       if (error) throw error;
@@ -265,7 +322,7 @@ export default function Page() {
         window.dispatchEvent(
           new CustomEvent("profile-metrics-updated", {
             detail: { gamesSolvedDelta: 1 },
-          })
+          }),
         );
       }
     } catch (err) {
@@ -289,7 +346,7 @@ export default function Page() {
       window.dispatchEvent(
         new CustomEvent("profile-metrics-updated", {
           detail: { failedAttemptDelta: 1 },
-        })
+        }),
       );
     } catch (err) {
       console.warn("Could not record failed attempt:", err);
@@ -346,7 +403,7 @@ export default function Page() {
 
     try {
       const selectedCategories = CATEGORIES.filter((c) =>
-        selectedIds.includes(c.id)
+        selectedIds.includes(c.id),
       );
 
       const loadedGroups = await Promise.all(
@@ -362,7 +419,7 @@ export default function Page() {
             .map((p) => normalizePuzzle(p, cat));
 
           return shuffleArray(puzzlesForCategory);
-        })
+        }),
       );
 
       const merged = interleavePuzzleGroups(loadedGroups);
@@ -375,7 +432,7 @@ export default function Page() {
         setGame(firstGame);
         setUserColor(firstGame.turn());
         setMessage(
-          `Loaded ${merged.length} puzzles from ${selectedCategoryLabel}.`
+          `Loaded ${merged.length} puzzles from ${selectedCategoryLabel}.`,
         );
       } else {
         setGame(null);
@@ -409,15 +466,6 @@ export default function Page() {
     setIndex(next);
     resetPuzzle(puzzles[next].fen);
   };
-
-  const customSquareStyles = useMemo(() => {
-    if (!selectedSquare) return {};
-    return {
-      [selectedSquare]: {
-        background: "rgba(59, 130, 246, 0.35)",
-      },
-    };
-  }, [selectedSquare]);
 
   const tryMove = (from: Square, to: Square) => {
     if (!game || !puzzle || solved) return false;
@@ -463,7 +511,7 @@ export default function Page() {
         }
 
         newLog.push(
-          `Auto: ${moveToUci(autoSpec.from, autoSpec.to, autoSpec.promotion)}`
+          `Auto: ${moveToUci(autoSpec.from, autoSpec.to, autoSpec.promotion)}`,
         );
         nextIndex += 1;
       }
@@ -475,9 +523,7 @@ export default function Page() {
 
       if (nextIndex >= puzzle.playableLine.length) {
         setSolved(true);
-        setMessage(
-          `Correct. ${puzzle.san ?? puzzle.solution} completes the line.`
-        );
+        setMessage(`Correct. ${puzzle.san ?? puzzle.solution} completes the line.`);
         void recordSolvedPuzzle(puzzle);
       } else {
         setMessage("Correct.");
@@ -492,25 +538,23 @@ export default function Page() {
     }
   };
 
-  const onSquareClick = ({ square }: any) => {
+  const handleSquareClick = (square: Square) => {
     if (solved || !game || !puzzle) return;
 
-    const sq = square as Square;
-
     if (!selectedSquare) {
-      const piece = game.get(sq);
+      const piece = game.get(square);
       if (piece && piece.color === game.turn()) {
-        setSelectedSquare(sq);
+        setSelectedSquare(square);
       }
       return;
     }
 
-    if (selectedSquare === sq) {
+    if (selectedSquare === square) {
       setSelectedSquare(null);
       return;
     }
 
-    const moved = tryMove(selectedSquare, sq);
+    const moved = tryMove(selectedSquare, square);
     setSelectedSquare(null);
 
     if (!moved) {
@@ -518,38 +562,54 @@ export default function Page() {
     }
   };
 
-  const onPieceDrop = ({ sourceSquare, targetSquare }: any) => {
-    if (solved || !game || !puzzle) return false;
-    if (!sourceSquare || !targetSquare) return false;
-    if (sourceSquare === targetSquare) return false;
+  const selectedButtonClass =
+    theme.id === "girly"
+      ? "border-pink-200/80 bg-pink-50 text-pink-950 shadow-sm shadow-pink-200/40"
+      : theme.id === "standard"
+        ? "border-blue-100 bg-blue-50 text-slate-950 shadow-sm shadow-blue-200/40"
+        : "border-amber-100 bg-amber-50 text-slate-950 shadow-sm shadow-amber-200/40";
 
-    const moved = tryMove(sourceSquare as Square, targetSquare as Square);
-    setSelectedSquare(null);
-
-    if (!moved) {
-      setMessage("Illegal move or wrong move in the solution line.");
-    }
-
-    return moved;
-  };
+  const unselectedButtonClass =
+    theme.id === "girly"
+      ? "border-pink-200/60 bg-white/70 text-slate-700 hover:bg-pink-50"
+      : theme.id === "standard"
+        ? "border-slate-700 bg-slate-900/80 text-slate-100 hover:bg-slate-800"
+        : "border-amber-700/35 bg-[#140f0d] text-amber-50 hover:bg-[#1b1411]";
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
+    <main
+      className="min-h-screen text-slate-100 transition-colors duration-300"
+      style={{ background: surface.page }}
+    >
       <div className="mx-auto max-w-7xl px-4 py-6 md:py-10">
         <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900 px-3 py-1 text-sm text-slate-300">
+            <div
+              className="mb-2 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.card,
+                color:
+                  theme.id === "girly"
+                    ? "#be185d"
+                    : theme.id === "standard"
+                      ? "#e2e8f0"
+                      : "#e7c36a",
+              }}
+            >
               Chess Trainer
             </div>
             <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">
               Chess Puzzle Trainer
             </h1>
-            <p className="mt-2 max-w-2xl text-sm text-slate-400 md:text-base">
+            <p className="mt-2 max-w-2xl text-sm md:text-base" style={{ color: labelColor }}>
               Pick one or more categories, then solve puzzles one by one.
             </p>
 
             <div className="mt-4">
-              <div className="mb-2 text-sm text-slate-400">Mix categories:</div>
+              <div className="mb-2 text-sm" style={{ color: labelColor }}>
+                Mix categories:
+              </div>
               <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
                 {categoryOptions.map((option) => {
                   const active =
@@ -562,10 +622,11 @@ export default function Page() {
                       key={option.id}
                       onClick={() => toggleCategory(option.id)}
                       className={`rounded-2xl border px-3 py-2 text-left text-sm transition ${
-                        active
-                          ? "border-slate-100 bg-slate-100 text-slate-950"
-                          : "border-slate-800 bg-slate-900 text-slate-100 hover:bg-slate-800"
+                        active ? selectedButtonClass : unselectedButtonClass
                       }`}
+                      style={{
+                        borderColor: active ? theme.background.accent : surface.panelBorder,
+                      }}
                     >
                       {option.label}
                     </button>
@@ -579,7 +640,20 @@ export default function Page() {
             <button
               onClick={randomPuzzle}
               disabled={loading || !puzzles.length}
-              className="inline-flex items-center gap-2 rounded-2xl bg-slate-100 px-4 py-2 text-sm font-medium text-slate-950 transition hover:bg-white disabled:opacity-50"
+              className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium transition disabled:opacity-50"
+              style={{
+                color:
+                  theme.id === "girly"
+                    ? "#9d174d"
+                    : theme.id === "standard"
+                      ? "#0f172a"
+                      : "#0f172a",
+                background:
+                  theme.id === "girly"
+                    ? "linear-gradient(180deg, #fff 0%, #ffe4f1 100%)"
+                    : "linear-gradient(180deg, #fff5d6 0%, #f0d9b5 100%)",
+                boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
+              }}
             >
               <Shuffle className="h-4 w-4" />
               Random
@@ -587,7 +661,12 @@ export default function Page() {
             <button
               onClick={nextPuzzle}
               disabled={loading || !puzzles.length}
-              className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800 disabled:opacity-50"
+              className="inline-flex items-center gap-2 rounded-2xl border px-4 py-2 text-sm font-medium transition disabled:opacity-50"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.control,
+                color: surface.ink,
+              }}
             >
               Next
               <ChevronRight className="h-4 w-4" />
@@ -595,7 +674,12 @@ export default function Page() {
             <button
               onClick={() => resetPuzzle()}
               disabled={loading || !puzzles.length}
-              className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800 disabled:opacity-50"
+              className="inline-flex items-center gap-2 rounded-2xl border px-4 py-2 text-sm font-medium transition disabled:opacity-50"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.control,
+                color: surface.ink,
+              }}
             >
               <RefreshCw className="h-4 w-4" />
               Reset
@@ -609,24 +693,32 @@ export default function Page() {
             <SocialRail />
             <StatsRail />
             <MiniGamesRail />
+            <ThemeRail />
+            <DailyRail />
           </div>
 
-          <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-2xl shadow-black/20">
+          <div
+            className="rounded-3xl border p-4 shadow-2xl shadow-black/20"
+            style={{
+              borderColor: surface.panelBorder,
+              background: surface.panel,
+            }}
+          >
             <div className="w-full max-w-[640px]">
               {game ? (
-                <Chessboard
-                  options={{
-                    position: game.fen(),
-                    boardOrientation,
-                    allowDragging: !solved && !!game && !!puzzle,
-                    onPieceDrop,
-                    onSquareClick,
-                    squareStyles: customSquareStyles,
-                    boardStyle: { width: "100%" },
-                  }}
+                <ChessBoard
+                  key={`${theme.id}-${index}`}
+                  board={game}
+                  selectedSquare={selectedSquare}
+                  legalTargets={legalTargets}
+                  orientation={boardOrientation}
+                  onSquareClick={handleSquareClick}
                 />
               ) : (
-                <div className="flex aspect-square items-center justify-center rounded-2xl border border-slate-800 bg-slate-950/60 text-slate-400">
+                <div
+                  className="flex aspect-square items-center justify-center rounded-2xl border text-slate-400"
+                  style={{ borderColor: surface.panelBorder, background: surface.card }}
+                >
                   {loading ? "Loading..." : "No puzzle loaded"}
                 </div>
               )}
@@ -634,13 +726,19 @@ export default function Page() {
           </div>
 
           <div className="space-y-4">
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
+            <div
+              className="rounded-3xl border p-5 shadow-lg"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.panel,
+              }}
+            >
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <div className="text-sm uppercase tracking-wide text-slate-400">
+                  <div className="text-sm uppercase tracking-wide" style={{ color: labelColor }}>
                     Current selection
                   </div>
-                  <div className="mt-1 text-xl font-semibold">
+                  <div className="mt-1 text-xl font-semibold" style={{ color: valueColor }}>
                     {selectedCategoryLabel}
                   </div>
                 </div>
@@ -652,54 +750,95 @@ export default function Page() {
                 ) : null}
               </div>
 
-              <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950/70 p-4 text-sm text-slate-300">
+              <div
+                className="mt-4 rounded-2xl border p-4 text-sm"
+                style={{
+                  borderColor: surface.panelBorder,
+                  background: surface.card,
+                  color: valueColor,
+                }}
+              >
                 {message}
               </div>
 
               <div className="mt-4 grid grid-cols-2 gap-3 text-sm">
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                  <div className="text-slate-500">Puzzle count</div>
-                  <div className="mt-1 font-medium">{puzzles.length || "-"}</div>
+                <div
+                  className="rounded-2xl border p-3"
+                  style={{ borderColor: surface.panelBorder, background: surface.card }}
+                >
+                  <div style={{ color: labelColor }}>Puzzle count</div>
+                  <div className="mt-1 font-medium" style={{ color: valueColor }}>
+                    {puzzles.length || "-"}
+                  </div>
                 </div>
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                  <div className="text-slate-500">Side to move</div>
-                  <div className="mt-1 font-medium">
+                <div
+                  className="rounded-2xl border p-3"
+                  style={{ borderColor: surface.panelBorder, background: surface.card }}
+                >
+                  <div style={{ color: labelColor }}>Side to move</div>
+                  <div className="mt-1 font-medium" style={{ color: valueColor }}>
                     {game?.turn() === "w" ? "White" : "Black"}
                   </div>
                 </div>
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                  <div className="text-slate-500">Current puzzle type</div>
-                  <div className="mt-1 font-medium">
+                <div
+                  className="rounded-2xl border p-3"
+                  style={{ borderColor: surface.panelBorder, background: surface.card }}
+                >
+                  <div style={{ color: labelColor }}>Current puzzle type</div>
+                  <div className="mt-1 font-medium" style={{ color: valueColor }}>
                     {puzzle?.categoryLabel ?? "-"}
                   </div>
                 </div>
-                <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-3">
-                  <div className="text-slate-500">Moves played</div>
-                  <div className="mt-1 font-medium">{moveLog.length}</div>
+                <div
+                  className="rounded-2xl border p-3"
+                  style={{ borderColor: surface.panelBorder, background: surface.card }}
+                >
+                  <div style={{ color: labelColor }}>Moves played</div>
+                  <div className="mt-1 font-medium" style={{ color: valueColor }}>
+                    {moveLog.length}
+                  </div>
                 </div>
               </div>
 
               <button
                 onClick={() => setShowHint(true)}
                 disabled={showHint || !puzzle}
-                className="mt-4 inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-50"
+                className="mt-4 inline-flex items-center gap-2 rounded-2xl border px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50"
+                style={{
+                  borderColor: surface.panelBorder,
+                  background: surface.control,
+                  color: surface.ink,
+                }}
               >
                 Show hint
               </button>
             </div>
 
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
-              <div className="text-sm uppercase tracking-wide text-slate-400">
+            <div
+              className="rounded-3xl border p-5 shadow-lg"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.panel,
+              }}
+            >
+              <div className="text-sm uppercase tracking-wide" style={{ color: labelColor }}>
                 Move log
               </div>
               <div className="mt-3 space-y-2">
                 {moveLog.length === 0 ? (
-                  <div className="text-sm text-slate-500">No moves yet.</div>
+                  <div className="text-sm" style={{ color: labelColor }}>
+                    No moves yet.
+                  </div>
                 ) : (
                   moveLog.map((move, i) => (
                     <div
                       key={`${move}-${i}`}
-                      className="rounded-2xl border border-slate-800 bg-slate-950/60 px-3 py-2 text-sm text-slate-300"
+                      className="rounded-2xl border px-3 py-2 text-sm"
+                      style={{
+                        borderColor: surface.panelBorder,
+                        background: surface.card,
+                        color: valueColor,
+                      }}
                     >
                       {i + 1}. {move}
                     </div>
@@ -708,24 +847,35 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
-              <div className="text-sm uppercase tracking-wide text-slate-400">
+            <div
+              className="rounded-3xl border p-5 shadow-lg"
+              style={{
+                borderColor: surface.panelBorder,
+                background: surface.panel,
+              }}
+            >
+              <div className="text-sm uppercase tracking-wide" style={{ color: labelColor }}>
                 Continuation preview
               </div>
-              <div className="mt-3 text-sm text-slate-300">
+              <div className="mt-3 text-sm">
                 {puzzle?.previewLine.length ? (
                   <div className="space-y-2">
                     {puzzle.previewLine.map((step, i) => (
                       <div
                         key={`${step}-${i}`}
-                        className="rounded-2xl border border-slate-800 bg-slate-950/60 px-3 py-2"
+                        className="rounded-2xl border px-3 py-2"
+                        style={{
+                          borderColor: surface.panelBorder,
+                          background: surface.card,
+                          color: valueColor,
+                        }}
                       >
                         {i + 1}. {step}
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <div className="text-slate-500">No preview available.</div>
+                  <div style={{ color: labelColor }}>No preview available.</div>
                 )}
               </div>
             </div>

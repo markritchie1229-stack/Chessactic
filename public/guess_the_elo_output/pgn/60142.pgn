@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Zz9mIuey"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ratnikmora"]
+[Black "Grirory_53"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:24:40"]
+[WhiteElo "1912"]
+[BlackElo "1913"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "300+7"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.22] } 1... d5 { [%eval -0.18] } 2. Nf3 { [%eval -0.29] } 2...
+Nf6 { [%eval -0.4] } 3. g3 { [%eval -0.33] } 3... g6 { [%eval -0.18] } 4. Bg2
+{ [%eval -0.22] } 4... Bg7 { [%eval -0.2] } 5. d3 { [%eval -0.28] } 5... O-O
+{ [%eval 0.02] } 6. c3 { [%eval -0.2] } 6... e6 { [%eval 0.0] } 7. O-O
+{ [%eval -0.14] } 7... Nbd7 { [%eval -0.16] } 8. Qc2 { [%eval -0.4] } 8... a6
+{ [%eval -0.06] } 9. Re1 { [%eval -0.23] } 9... b5 { [%eval -0.21] } 10. Nbd2
+{ [%eval -0.24] } 10... c5 { [%eval -0.22] } 11. e4 { [%eval -0.21] } 11...
+dxe4 { [%eval -0.1] } 12. dxe4 { [%eval -0.11] } 12... Bb7 { [%eval 0.26] } 13.
+e5 { [%eval 0.35] } 13... Nd5 { [%eval 0.52] } 14. c4 $6 { [%eval -0.16] }
+14... bxc4 $2 { [%eval 0.85] } 15. Qxc4 $6 { [%eval -0.07] } 15... a5
+{ [%eval 0.08] } 16. Nb3 $2 { [%eval -1.04] } 16... Ba6 { [%eval -0.98] } 17.
+Qc3 $4 { [%eval -7.31] } 17... c4 $4 { [%eval -3.27] } 18. Qd2 $2
+{ [%eval -4.51] } 18... cxb3 { [%eval -4.36] } 19. axb3 $6 { [%eval -5.1] }
+19... Nc5 { [%eval -4.75] } 20. Ng5 $4 { [%eval -10.37] } 20... Nxb3
+{ [%eval -10.26] } 21. Qf2 { [%eval -10.36] } 21... Nxa1 { [%eval -10.15] } 22.
+g4 { [%eval -11.59] } 22... Nb3 { [%eval -11.25] } 23. Qh4 { [%eval -14.79] }
+23... h6 { [%eval -14.31] } 24. Be4 { [%eval -21.12] } 24... hxg5
+{ [%eval -19.56] } 25. fxg5 { [%eval -21.32] } 25... Nxc1 { [%eval -20.86] }
+26. Rxc1 { [%eval -20.58] } 26... Qb6+ { [%eval -17.34] } 27. Kg2
+{ [%eval -25.97] } 27... Qe3 { [%eval -24.02] } 28. Ra1 $6 { [%eval #-3] }
+28... Nf4+ { [%eval #-2] } 0-1

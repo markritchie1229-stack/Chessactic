@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Poaxryii"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Kaels"]
+[Black "Visnhu"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:39:11"]
+[WhiteElo "1499"]
+[BlackElo "1516"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.1] } 1... d5 { [%eval 0.07] } 2. Nc3 { [%eval -0.19] } 2... c5
+{ [%eval -0.19] } 3. d4 { [%eval -0.24] } 3... e6 { [%eval -0.14] } 4. dxc5
+{ [%eval -0.17] } 4... Bxc5 { [%eval -0.22] } 5. Bd3 { [%eval -0.29] } 5... Nf6
+{ [%eval -0.16] } 6. Nf3 { [%eval -0.22] } 6... Nc6 { [%eval -0.19] } 7. O-O
+{ [%eval -0.2] } 7... O-O { [%eval -0.25] } 8. a3 { [%eval -0.23] } 8... e5
+{ [%eval -0.18] } 9. b4 { [%eval -0.43] } 9... Bb6 { [%eval 0.0] } 10. Bb5 $2
+{ [%eval -1.29] } 10... e4 { [%eval -1.26] } 11. Bxc6 { [%eval -1.69] } 11...
+bxc6 { [%eval -1.68] } 12. Nd4 { [%eval -1.78] } 12... Qd6 { [%eval -1.43] }
+13. a4 $2 { [%eval -2.79] } 13... Bc7 { [%eval -2.33] } 14. g3
+{ [%eval -2.66] } 14... Qxb4 { [%eval -2.5] } 15. Qd2 { [%eval -2.65] } 15...
+Qd6 $2 { [%eval -1.12] } 16. Ba3 { [%eval -1.24] } 16... c5 $2 { [%eval 0.0] }
+17. Ndb5 { [%eval 0.0] } 17... Qb6 $6 { [%eval 0.51] } 18. Nxc7 $6
+{ [%eval -0.1] } 18... Qxc7 { [%eval 0.07] } 19. Nxd5 { [%eval 0.0] } 19...
+Nxd5 { [%eval 0.22] } 20. Qxd5 { [%eval 0.26] } 20... Bh3 { [%eval 0.39] } 21.
+Rfe1 { [%eval 0.0] } 21... Rad8 $6 { [%eval 0.6] } 22. Qxc5 { [%eval 0.6] }
+22... Qd7 { [%eval 0.63] } 23. Qh5 $6 { [%eval 0.02] } 23... Rfe8
+{ [%eval 0.1] } 24. Rad1 { [%eval 0.21] } 24... Qxd1 $4 { [%eval 6.87] } 25.
+Rxd1 { [%eval 6.49] } 25... Rxd1+ { [%eval 6.8] } 26. Qxd1 { [%eval 6.49] }
+26... Rb8 $6 { [%eval 7.0] } 27. f4 $2 { [%eval 5.24] } 1-0

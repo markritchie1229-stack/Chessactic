@@ -1,0 +1,32 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0x1VzrTj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "PinkyWinky"]
+[Black "tomsk1000"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "09:35:15"]
+[WhiteElo "1700"]
+[BlackElo "1654"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+12"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Gubinsky-Melts Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... d5 { [%eval 0.68] } 2. exd5 { [%eval 0.63] } 2...
+Qxd5 { [%eval 0.8] } 3. Nc3 { [%eval 0.56] } 3... Qd6 { [%eval 0.73] } 4. d4
+{ [%eval 0.49] } 4... Nf6 { [%eval 0.63] } 5. Nf3 { [%eval 0.59] } 5... c6
+{ [%eval 0.64] } 6. Be3 { [%eval 0.56] } 6... e6 { [%eval 0.59] } 7. Bc4
+{ [%eval 0.41] } 7... Be7 { [%eval 0.67] } 8. Qd2 { [%eval 0.44] } 8... O-O
+{ [%eval 0.54] } 9. O-O-O { [%eval 0.1] } 9... b5 { [%eval 0.16] } 10. Bd3
+{ [%eval 0.15] } 10... a5 { [%eval 0.08] } 11. h4 { [%eval 0.06] } 11... a4
+{ [%eval 0.17] } 12. a3 $6 { [%eval -0.52] } 12... b4 { [%eval -0.49] } 13.
+axb4 { [%eval -0.58] } 13... Qxb4 { [%eval -0.27] } 14. Nb1 $6 { [%eval -1.2] }
+14... Qb6 $6 { [%eval -0.57] } 15. c4 { [%eval -0.72] } 15... a3
+{ [%eval -0.71] } 16. Nxa3 $2 { [%eval -3.46] } 16... Rxa3 { [%eval -3.42] }
+17. Kc2 $2 { [%eval -5.28] } 17... Qb3+ { [%eval -5.11] } 18. Kb1 $2
+{ [%eval -8.06] } 18... Qa2+ $2 { [%eval -6.1] } 19. Kc2 $4 { [%eval -10.6] }
+19... Rb3 $4 { [%eval -6.16] } 20. Ne1 $4 { [%eval #-1] } 20... Qxb2# 0-1

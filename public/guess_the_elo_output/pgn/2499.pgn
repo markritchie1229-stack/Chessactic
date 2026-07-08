@@ -1,0 +1,46 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/S2KiNmEF"]
+[Date "????.??.??"]
+[Round "?"]
+[White "santiago250783"]
+[Black "Nefasto"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:09:35"]
+[WhiteElo "1566"]
+[BlackElo "1716"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+76"]
+[ECO "D01"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.15] } 1... d5 { [%eval 0.15] } 2. Nc3 { [%eval -0.03] } 2...
+Nf6 { [%eval -0.02] } 3. h3 { [%eval -0.24] } 3... Nc6 { [%eval 0.08] } 4. a3
+{ [%eval -0.32] } 4... e5 { [%eval -0.24] } 5. dxe5 { [%eval -0.19] } 5... Nxe5
+{ [%eval -0.2] } 6. Bf4 { [%eval -0.31] } 6... Bd6 { [%eval -0.02] } 7. e3
+{ [%eval -0.24] } 7... Be6 $6 { [%eval 0.29] } 8. Nf3 { [%eval 0.0] } 8...
+Nxf3+ { [%eval 0.03] } 9. Qxf3 { [%eval 0.08] } 9... Ne4 $2 { [%eval 1.09] }
+10. Nxe4 { [%eval 1.07] } 10... dxe4 { [%eval 1.1] } 11. Qxe4 { [%eval 0.99] }
+11... O-O $6 { [%eval 1.53] } 12. Bd3 { [%eval 1.33] } 12... f5 $4
+{ [%eval 6.24] } 13. Qxe6+ { [%eval 6.19] } 13... Kh8 { [%eval 6.2] } 14. O-O-O
+{ [%eval 6.06] } 14... Rf6 { [%eval 6.22] } 15. Qb3 { [%eval 6.06] } 15... Qf8
+$6 { [%eval 6.71] } 16. g4 { [%eval 6.4] } 16... fxg4 $4 { [%eval 9.61] } 17.
+Bxd6 $2 { [%eval 8.45] } 17... cxd6 $2 { [%eval 14.28] } 18. hxg4
+{ [%eval 13.93] } 18... h6 { [%eval 13.72] } 19. Qc3 { [%eval 10.4] } 19... Rc8
+{ [%eval 10.73] } 20. Qd4 { [%eval 10.16] } 20... Qf7 { [%eval 16.42] } 21. g5
+{ [%eval 14.89] } 21... Re6 { [%eval 27.91] } 22. Rxh6+ { [%eval 17.94] } 22...
+Rxh6 { [%eval 54.35] } 23. f4 $4 { [%eval 2.18] } 23... Rh4 { [%eval 2.36] }
+24. Qxd6 $6 { [%eval 1.61] } 24... Qc7 $6 { [%eval 2.58] } 25. Qg6
+{ [%eval 2.29] } 25... Qc6 { [%eval 2.29] } 26. Qf5 { [%eval 1.85] } 26... Qc5
+$2 { [%eval 2.85] } 27. Qg6 $2 { [%eval 1.33] } 27... Qxe3+ { [%eval 1.33] }
+28. Kb1 { [%eval 1.09] } 28... Qxf4 { [%eval 1.23] } 29. Qe6 $6
+{ [%eval 0.68] } 29... Qc7 { [%eval 1.09] } 30. Bf5 $6 { [%eval 0.56] } 30...
+Rf8 { [%eval 0.53] } 31. Bd3 { [%eval 0.47] } 31... Qf7 { [%eval 0.63] } 32.
+Qd6 { [%eval 0.47] } 32... Qf4 { [%eval 0.45] } 33. Qc5 { [%eval 0.33] } 33...
+b6 { [%eval 0.24] } 34. Qe7 { [%eval 0.42] } 34... Qf7 { [%eval 0.5] } 35. Qb4
+$6 { [%eval 0.0] } 35... Rxb4 { [%eval 0.04] } 36. axb4 $4 { [%eval -7.11] }
+36... Qf4 { [%eval -7.11] } 37. Rh1+ { [%eval -7.04] } 37... Kg8
+{ [%eval -7.11] } 38. Bc4+ $2 { [%eval -19.76] } 38... Qxc4 { [%eval -15.81] }
+0-1

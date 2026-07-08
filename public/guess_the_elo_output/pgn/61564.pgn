@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WRWlQs7s"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Wolf555"]
+[Black "d1mka988"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:27:00"]
+[WhiteElo "1218"]
+[BlackElo "1442"]
+[WhiteRatingDiff "+43"]
+[BlackRatingDiff "-17"]
+[ECO "C00"]
+[Opening "French Defense: Diemer-Duhm Gambit"]
+[TimeControl "0+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.31] } 2. c4 { [%eval 0.22] } 2... e6
+{ [%eval 0.19] } 3. e4 $6 { [%eval -0.72] } 3... dxe4 { [%eval -0.73] } 4. c5
+$6 { [%eval -1.31] } 4... b6 { [%eval -1.27] } 5. b4 $6 { [%eval -1.82] } 5...
+bxc5 $6 { [%eval -1.1] } 6. bxc5 { [%eval -1.43] } 6... Bxc5 $2
+{ [%eval 0.81] } 7. dxc5 { [%eval 0.95] } 7... Qxd1+ { [%eval 1.41] } 8. Kxd1
+{ [%eval 1.3] } 8... Nf6 { [%eval 1.27] } 9. Nc3 { [%eval 1.17] } 9... Ng4 $6
+{ [%eval 2.13] } 10. Ke1 { [%eval 2.0] } 10... Nc6 { [%eval 2.09] } 11. h3
+{ [%eval 1.72] } 11... Nd4 $2 { [%eval 4.01] } 12. hxg4 { [%eval 4.1] } 12...
+Nc2+ { [%eval 4.01] } 13. Kd1 { [%eval 3.87] } 13... Nxa1 { [%eval 3.85] } 14.
+Bb2 { [%eval 3.68] } 14... f5 $6 { [%eval 4.33] } 15. Bxa1 { [%eval 4.13] }
+15... fxg4 $6 { [%eval 4.72] } 16. Nxe4 { [%eval 4.56] } 16... e5 $2
+{ [%eval 6.2] } 17. Bxe5 { [%eval 6.21] } 17... Bf5 { [%eval 6.2] } 18. f3 $2
+{ [%eval 5.02] } 18... gxf3 $6 { [%eval 5.95] } 19. gxf3 $6 { [%eval 5.28] }
+19... O-O-O+ { [%eval 5.18] } 20. Ke2 { [%eval 5.07] } 20... Rhe8
+{ [%eval 5.22] } 21. Bxg7 { [%eval 4.95] } 21... Bxe4 { [%eval 5.2] } 22. fxe4
+{ [%eval 5.12] } 22... Rxe4+ { [%eval 5.04] } 23. Kf3 { [%eval 5.01] } 23...
+Re7 { [%eval 4.99] } 24. Bf6 $4 { [%eval 0.39] } 24... Rf7 $6 { [%eval 1.06] }
+25. Rh6 $6 { [%eval 0.22] } 25... Rd5 $4 { [%eval 6.82] } 26. Ke4
+{ [%eval 6.74] } 26... Rxc5 { [%eval 6.71] } 27. Ba6+ $2 { [%eval 5.61] } 27...
+Kb8 { [%eval 5.6] } 28. Bd4 $2 { [%eval 4.17] } 28... Re7+ { [%eval 4.2] } 29.
+Kd3 { [%eval 4.1] } 29... Rd5 { [%eval 4.22] } 30. Nf3 $6 { [%eval 3.66] }
+30... c5 { [%eval 3.37] } 31. Rc6 { [%eval 3.14] } 31... cxd4 $4 { [%eval #1] }
+32. Rc8# 1-0

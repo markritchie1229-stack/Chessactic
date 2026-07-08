@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hc1TWIi9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Get_Chekt"]
+[Black "skinner90"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:53:53"]
+[WhiteElo "1219"]
+[BlackElo "1360"]
+[WhiteRatingDiff "-21"]
+[BlackRatingDiff "+79"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... Nf6 { [%eval 0.56] } 2. Nc3 { [%eval 0.11] } 2...
+e5 { [%eval 0.11] } 3. Nf3 { [%eval 0.02] } 3... d6 { [%eval 0.29] } 4. d4
+{ [%eval 0.28] } 4... exd4 { [%eval 0.32] } 5. Nxd4 { [%eval 0.3] } 5... Bg4
+{ [%eval 0.77] } 6. Be2 { [%eval 0.83] } 6... Bc8 { [%eval 0.81] } 7. f4
+{ [%eval 0.72] } 7... Nc6 { [%eval 0.87] } 8. e5 $6 { [%eval 0.36] } 8... Nd7
+$6 { [%eval 0.92] } 9. exd6 $6 { [%eval 0.17] } 9... Bxd6 { [%eval 0.27] } 10.
+f5 $4 { [%eval -4.61] } 10... Be5 $4 { [%eval -0.19] } 11. Nxc6
+{ [%eval -0.44] } 11... bxc6 { [%eval -0.43] } 12. Qd3 { [%eval -0.58] } 12...
+Qh4+ { [%eval -0.31] } 13. g3 { [%eval -0.47] } 13... Qd8 $2 { [%eval 0.7] }
+14. Bf4 { [%eval 0.6] } 14... Bb7 $2 { [%eval 1.64] } 15. O-O-O
+{ [%eval 1.63] } 15... c5 $2 { [%eval 4.39] } 16. Nd5 $4 { [%eval 0.76] } 16...
+Bxf4+ $2 { [%eval 2.19] } 17. Nxf4 $4 { [%eval -1.45] } 17... Qg5 $4
+{ [%eval 18.85] } 18. Rde1 $4 { [%eval 0.56] } 18... Kf8 $4 { [%eval 5.96] }
+19. Qxd7 { [%eval 5.75] } 19... Rd8 $4 { [%eval 10.15] } 20. Qxc7
+{ [%eval 9.97] } 20... Bxh1 { [%eval 22.82] } 21. Rd1 $4 { [%eval 0.0] } 21...
+Rxd1+ { [%eval 0.0] } 22. Kxd1 { [%eval 0.0] } 22... g6 { [%eval 0.0] } 23.
+fxg6 $2 { [%eval -1.17] } 23... hxg6 { [%eval -1.12] } 24. Qd6+ $6
+{ [%eval -1.94] } 24... Qe7 $6 { [%eval -1.37] } 25. Qb8+ $2 { [%eval -4.34] }
+25... Kg7 { [%eval -4.19] } 26. Qb3 { [%eval -4.31] } 26... Rxh2
+{ [%eval -4.18] } 27. Qc3+ { [%eval -4.23] } 27... f6 { [%eval -3.76] } 28. Nd5
+$4 { [%eval #-3] } 28... Bxd5 $6 { [%eval -15.75] } 29. Qxc5 $6 { [%eval #-2] }
+29... Qxe2+ { [%eval #-1] } 30. Kc1 { [%eval #-1] } 30... Rh1+ $6
+{ [%eval #-1] } 31. Qg1 { [%eval #-1] } 31... Rxg1# 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/mxrTEVT9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "guerina"]
+[Black "CallsignBlank"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:21:55"]
+[WhiteElo "1123"]
+[BlackElo "1331"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "360+6"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... d5 { [%eval 0.71] } 2. d3 $6 { [%eval -0.27] } 2...
+dxe4 { [%eval -0.2] } 3. dxe4 { [%eval -0.2] } 3... Qxd1+ { [%eval -0.2] } 4.
+Kxd1 { [%eval -0.27] } 4... Nc6 { [%eval -0.17] } 5. Nf3 { [%eval -0.28] } 5...
+e5 { [%eval -0.22] } 6. Bc4 { [%eval -0.36] } 6... Nf6 { [%eval -0.38] } 7. Ng5
+{ [%eval -0.61] } 7... Bc5 { [%eval -0.47] } 8. Be3 $2 { [%eval -1.54] } 8...
+Bxe3 { [%eval -1.55] } 9. fxe3 { [%eval -1.52] } 9... h6 { [%eval -1.53] } 10.
+Nxf7 $6 { [%eval -2.21] } 10... Bg4+ { [%eval -2.1] } 11. Kd2 { [%eval -2.22] }
+11... Rf8 { [%eval -2.16] } 12. h3 $2 { [%eval -4.31] } 12... Nxe4+
+{ [%eval -4.11] } 13. Kd3 $2 { [%eval -5.25] } 13... Bf5 { [%eval -5.18] } 14.
+Rf1 $2 { [%eval -7.68] } 14... Nb4+ { [%eval -7.59] } 15. Ke2 { [%eval -7.56] }
+15... Ng3+ { [%eval -7.42] } 16. Kf3 $2 { [%eval -11.18] } 16... Nxf1
+{ [%eval -10.97] } 17. Bxf1 { [%eval -13.37] } 17... Nxc2 { [%eval -13.11] }
+18. Nxe5 { [%eval -13.28] } 18... Nxa1 { [%eval -13.09] } 19. e4
+{ [%eval -13.47] } 19... Bd7+ { [%eval -13.25] } 20. Ke2 { [%eval -15.36] }
+20... Bb5+ { [%eval -14.94] } 21. Ke1 $6 { [%eval #-7] } 21... Rxf1+
+{ [%eval #-6] } 22. Kd2 { [%eval #-6] } 22... O-O-O+ { [%eval #-5] } 23. Ke3
+{ [%eval #-1] } 23... Nc2# 0-1

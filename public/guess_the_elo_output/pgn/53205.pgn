@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/XdNYJQjm"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tigamelin"]
+[Black "ME001"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "08:43:55"]
+[WhiteElo "1376"]
+[BlackElo "1323"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+23"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.41] } 1... d5 { [%eval 0.51] } 2. exd5 { [%eval 0.68] } 2...
+Qxd5 { [%eval 0.53] } 3. Nc3 { [%eval 0.74] } 3... Qe5+ { [%eval 0.84] } 4. Be2
+{ [%eval 0.8] } 4... Bg4 { [%eval 0.9] } 5. Nb5 $6 { [%eval 0.24] } 5... Na6
+{ [%eval 0.32] } 6. Nf3 { [%eval 0.13] } 6... Qf5 $2 { [%eval 1.14] } 7. Bd3 $2
+{ [%eval -0.22] } 7... Qd5 { [%eval 0.11] } 8. Nc3 { [%eval 0.08] } 8... Qe6+
+{ [%eval 0.27] } 9. Be4 $2 { [%eval -2.54] } 9... O-O-O $2 { [%eval 0.02] } 10.
+O-O { [%eval 0.03] } 10... Nh6 $2 { [%eval 1.31] } 11. d3 $2 { [%eval 0.02] }
+11... Nf5 $6 { [%eval 0.85] } 12. Nb5 $6 { [%eval 0.26] } 12... Qg6 $2
+{ [%eval 2.43] } 13. Nxa7+ $2 { [%eval 1.32] } 13... Kb8 { [%eval 1.22] } 14.
+Nb5 { [%eval 1.22] } 14... Bh3 $2 { [%eval 3.27] } 15. Ne5 { [%eval 3.2] }
+15... Qe6 { [%eval 3.08] } 16. Bf4 $2 { [%eval 0.97] } 16... Bxg2 $4
+{ [%eval 4.83] } 17. Kxg2 $2 { [%eval 2.51] } 17... Nh4+ $2 { [%eval 4.27] }
+18. Kh1 { [%eval 4.03] } 18... Qh3 $4 { [%eval 9.43] } 19. Nxf7 { [%eval 9.4] }
+19... Nc5 $6 { [%eval 12.62] } 20. Nxd8 $4 { [%eval #-6] } 20... Nxe4
+{ [%eval #-5] } 21. Rg1 { [%eval #-1] } 21... Nxf2# 0-1

@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ClB2MLI7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Bogdan2006"]
+[Black "masterroy"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:52:52"]
+[WhiteElo "1880"]
+[BlackElo "2105"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+30"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maroczy Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.16] } 1... Nf6 { [%eval -0.02] } 2. e4 { [%eval -0.1] } 2...
+e5 { [%eval 0.0] } 3. f4 { [%eval -0.18] } 3... Nc6 { [%eval 0.29] } 4. Nf3 $6
+{ [%eval -0.48] } 4... d5 $6 { [%eval 0.22] } 5. exd5 { [%eval 0.21] } 5...
+Nxd5 { [%eval 0.33] } 6. fxe5 { [%eval 0.27] } 6... Bg4 { [%eval 0.22] } 7. Be2
+{ [%eval -0.19] } 7... Bc5 { [%eval -0.06] } 8. Bg5 $2 { [%eval -1.22] } 8...
+Qd7 { [%eval -0.91] } 9. Qd2 $2 { [%eval -1.97] } 9... h5 $2 { [%eval 0.73] }
+10. a3 $2 { [%eval -0.35] } 10... Qe6 $6 { [%eval 0.41] } 11. Nc3
+{ [%eval 0.29] } 11... Nxe5 { [%eval 0.35] } 12. Nxd5 { [%eval 0.1] } 12...
+Qxd5 { [%eval 0.12] } 13. Nxe5 { [%eval 0.03] } 13... Qxe5 { [%eval 0.1] } 14.
+Bf4 $4 { [%eval -3.24] } 14... Qxb2 { [%eval -3.1] } 15. Rd1 { [%eval -3.28] }
+15... O-O-O { [%eval -3.37] } 16. Bxg4+ $2 { [%eval -5.25] } 16... hxg4
+{ [%eval -4.75] } 17. d4 $4 { [%eval -22.83] } 17... Rxd4 { [%eval -19.04] }
+18. Qe2 { [%eval -29.03] } 18... Rxd1+ { [%eval -21.4] } 19. Qxd1
+{ [%eval -60.19] } 19... Re8+ { [%eval -26.89] } 20. Kf1 $6 { [%eval #-4] }
+20... Qb5+ { [%eval #-3] } 0-1

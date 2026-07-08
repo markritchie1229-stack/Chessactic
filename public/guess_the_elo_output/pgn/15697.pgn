@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tEbM55fq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FrickleFuss"]
+[Black "Aminor"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:24:20"]
+[WhiteElo "1670"]
+[BlackElo "1651"]
+[WhiteRatingDiff "+111"]
+[BlackRatingDiff "-12"]
+[ECO "A16"]
+[Opening "English Opening: Anglo-Indian Defense, Queen's Knight Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.01] } 1... Nf6 { [%eval 0.25] } 2. Nc3 { [%eval 0.0] } 2...
+g6 { [%eval 0.43] } 3. g3 { [%eval 0.19] } 3... Bg7 { [%eval 0.37] } 4. Bg2
+{ [%eval 0.17] } 4... O-O { [%eval 0.42] } 5. e4 { [%eval 0.0] } 5... e5
+{ [%eval 0.14] } 6. Nge2 { [%eval 0.08] } 6... Nc6 { [%eval 0.27] } 7. O-O
+{ [%eval 0.19] } 7... Re8 { [%eval 0.27] } 8. d4 $2 { [%eval -0.85] } 8... exd4
+{ [%eval -0.81] } 9. Nxd4 { [%eval -0.93] } 9... Nxd4 { [%eval -0.93] } 10.
+Qxd4 { [%eval -1.21] } 10... d6 $2 { [%eval 0.08] } 11. Qd1 { [%eval 0.05] }
+11... Be6 { [%eval 0.22] } 12. Nd5 { [%eval -0.24] } 12... c6 { [%eval -0.08] }
+13. Nxf6+ { [%eval -0.32] } 13... Bxf6 { [%eval -0.19] } 14. Qb3 $6
+{ [%eval -1.11] } 14... Rb8 $6 { [%eval -0.4] } 15. Bh6 $2 { [%eval -1.41] }
+15... b5 { [%eval -1.46] } 16. Qf3 { [%eval -1.89] } 16... Bxc4
+{ [%eval -1.64] } 17. Rfe1 $6 { [%eval -2.56] } 17... Bxb2 { [%eval -2.46] }
+18. Rad1 { [%eval -2.46] } 18... Be5 { [%eval -2.2] } 19. a3 { [%eval -2.43] }
+19... Qd7 $6 { [%eval -1.91] } 20. h4 $6 { [%eval -2.54] } 20... Bb3 $4
+{ [%eval 2.08] } 21. Rd3 $4 { [%eval -2.19] } 21... Bc4 { [%eval -1.86] } 22.
+Rdd1 $6 { [%eval -2.39] } 22... b4 { [%eval -2.01] } 23. axb4 { [%eval -1.92] }
+23... Rxb4 { [%eval -1.66] } 24. h5 { [%eval -2.02] } 24... a5
+{ [%eval -1.89] } 25. hxg6 $6 { [%eval -2.63] } 25... hxg6 { [%eval -2.27] }
+26. Bf4 $6 { [%eval -2.99] } 26... Rb3 { [%eval -2.55] } 27. Re3
+{ [%eval -2.67] } 27... Rxe3 { [%eval -2.49] } 28. Qxe3 { [%eval -2.39] } 28...
+Rb8 $4 { [%eval 5.22] } 29. Bxe5 { [%eval 5.07] } 29... Rb3 $4
+{ [%eval 13.38] } 30. Qh6 { [%eval 12.74] } 30... f6 $6 { [%eval #18] } 31.
+Rxd6 { [%eval 22.43] } 31... Qxd6 $6 { [%eval #9] } 32. Qxg6+ { [%eval #9] }
+32... Kf8 { [%eval #1] } 33. Bxd6# 1-0

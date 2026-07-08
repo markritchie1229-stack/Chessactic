@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/zq9N3F1c"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sunflower20"]
+[Black "gezgin52"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:17:49"]
+[WhiteElo "1693"]
+[BlackElo "1518"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "360+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... d5 { [%eval 0.21] } 2. g3 { [%eval -0.22] } 2...
+Nc6 { [%eval 0.21] } 3. Bg2 { [%eval 0.21] } 3... Nf6 { [%eval 0.33] } 4. Nf3
+{ [%eval 0.23] } 4... Bf5 { [%eval 0.23] } 5. a3 { [%eval 0.0] } 5... e6
+{ [%eval -0.08] } 6. Nbd2 { [%eval -0.19] } 6... h6 { [%eval 0.0] } 7. c4
+{ [%eval -0.14] } 7... Be7 { [%eval 0.05] } 8. cxd5 { [%eval -0.29] } 8... exd5
+{ [%eval -0.18] } 9. O-O { [%eval -0.3] } 9... O-O { [%eval -0.36] } 10. Re1
+{ [%eval -0.43] } 10... Ne4 { [%eval -0.2] } 11. Nxe4 { [%eval -0.46] } 11...
+Bxe4 { [%eval -0.07] } 12. Ne5 { [%eval -0.1] } 12... Nxe5 { [%eval -0.07] }
+13. dxe5 { [%eval -0.3] } 13... Bg5 $6 { [%eval 0.56] } 14. Bxe4
+{ [%eval 0.33] } 14... Bxc1 $2 { [%eval 1.48] } 15. Rxc1 { [%eval 1.26] } 15...
+dxe4 { [%eval 1.43] } 16. Qxd8 { [%eval 1.35] } 16... Raxd8 { [%eval 1.41] }
+17. Rxc7 { [%eval 1.45] } 17... Ra8 $6 { [%eval 2.17] } 18. Rxb7
+{ [%eval 1.94] } 18... Rfe8 $6 { [%eval 2.66] } 19. f4 $6 { [%eval 2.09] }
+19... exf3 { [%eval 2.05] } 20. exf3 { [%eval 2.06] } 20... Rxe5 $4
+{ [%eval 9.95] } 21. Rxe5 { [%eval 9.7] } 1-0

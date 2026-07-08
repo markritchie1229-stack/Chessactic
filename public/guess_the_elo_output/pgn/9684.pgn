@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Y2W0HwLy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "deep_blue_13"]
+[Black "ArthurSKV"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:40:05"]
+[WhiteElo "1370"]
+[BlackElo "1487"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+13"]
+[ECO "B00"]
+[Opening "St. George Defense"]
+[TimeControl "300+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... a6 { [%eval 0.5] } 2. Nf3 { [%eval 0.46] } 2... b5
+$6 { [%eval 1.03] } 3. b4 $6 { [%eval 0.22] } 3... e6 { [%eval 0.27] } 4. Be2
+$6 { [%eval -0.33] } 4... Bxb4 { [%eval -0.04] } 5. c3 { [%eval -0.39] } 5...
+Bf8 { [%eval 0.07] } 6. Ba3 $6 { [%eval -0.89] } 6... c5 $6 { [%eval -0.33] }
+7. d4 { [%eval -0.45] } 7... Bb7 { [%eval -0.4] } 8. dxc5 $6 { [%eval -1.02] }
+8... Bxe4 { [%eval -0.97] } 9. c6 $2 { [%eval -2.2] } 9... Bxb1 $2
+{ [%eval -0.97] } 10. Bxf8 { [%eval -1.11] } 10... Nxc6 $4 { [%eval 5.12] } 11.
+Qxb1 $4 { [%eval -1.12] } 11... Kxf8 { [%eval -0.95] } 12. O-O { [%eval -1.1] }
+12... Nh6 $6 { [%eval -0.58] } 13. Nd4 { [%eval -0.93] } 13... Nxd4
+{ [%eval -1.11] } 14. Qb4+ { [%eval -1.08] } 14... d6 { [%eval -1.04] } 15.
+Qxd4 { [%eval -0.91] } 15... Rc8 { [%eval -0.84] } 16. Rad1 { [%eval -1.2] }
+16... Nf5 { [%eval -1.18] } 17. Qg4 $6 { [%eval -1.79] } 17... Rxc3
+{ [%eval -1.58] } 18. f4 $4 { [%eval -10.08] } 18... Ne3 $4 { [%eval -5.62] }
+19. Rc1 $4 { [%eval -14.45] } 19... Rxc1 { [%eval -13.11] } 20. Rxc1
+{ [%eval -12.93] } 20... Nxg4 { [%eval -12.64] } 0-1

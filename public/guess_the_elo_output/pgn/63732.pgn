@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/24BXef0k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Asoiko"]
+[Black "xyzbakl"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:51:40"]
+[WhiteElo "1279"]
+[BlackElo "1408"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.03] } 1... e5 { [%eval 0.02] } 2. Bg2 { [%eval -0.26] } 2...
+Bc5 $6 { [%eval 0.25] } 3. f3 $2 { [%eval -0.87] } 3... Nc6 { [%eval -0.81] }
+4. e4 { [%eval -0.82] } 4... Nf6 { [%eval -0.97] } 5. b3 $6 { [%eval -1.47] }
+5... Bxg1 $2 { [%eval -0.37] } 6. Rxg1 { [%eval -0.56] } 6... d6
+{ [%eval -0.14] } 7. Bb2 { [%eval -0.39] } 7... Be6 { [%eval 0.0] } 8. Nc3
+{ [%eval 0.0] } 8... Qd7 { [%eval 0.27] } 9. Qe2 $6 { [%eval -0.24] } 9... Nd4
+{ [%eval -0.14] } 10. Qd3 { [%eval -0.31] } 10... O-O-O $6 { [%eval 0.19] } 11.
+O-O-O { [%eval 0.06] } 11... a6 $6 { [%eval 0.57] } 12. Kb1 { [%eval 0.28] }
+12... b5 $6 { [%eval 0.96] } 13. Nd5 $6 { [%eval 0.31] } 13... c6 $4
+{ [%eval 9.52] } 14. Nxf6 $4 { [%eval 1.81] } 14... gxf6 { [%eval 1.75] } 15.
+f4 { [%eval 1.58] } 15... Rhg8 $2 { [%eval 3.93] } 16. fxe5 $2 { [%eval 1.65] }
+16... fxe5 { [%eval 1.72] } 17. Bxd4 { [%eval 1.6] } 17... Bg4 $2
+{ [%eval 4.1] } 18. Rc1 $2 { [%eval 1.73] } 18... f6 $4 { [%eval 4.97] } 19.
+Bf2 { [%eval 4.69] } 19... c5 { [%eval 4.65] } 20. c4 { [%eval 4.3] } 20...
+bxc4 $6 { [%eval 5.18] } 21. Rxc4 { [%eval 4.89] } 21... a5 $6 { [%eval 5.81] }
+22. Ra4 { [%eval 5.45] } 22... Qc7 { [%eval 5.54] } 23. Qa6+ { [%eval 5.49] }
+23... Kd7 { [%eval 5.48] } 24. Rxa5 { [%eval 5.52] } 24... Ra8 { [%eval 6.0] }
+25. Qb5+ $6 { [%eval 5.17] } 25... Qc6 $6 { [%eval 6.06] } 26. Qxc6+
+{ [%eval 6.0] } 26... Kxc6 { [%eval 5.93] } 27. Rxa8 { [%eval 5.92] } 27...
+Rxa8 { [%eval 5.84] } 28. h3 { [%eval 5.64] } 28... Bh5 $6 { [%eval 6.36] } 29.
+g4 { [%eval 6.34] } 29... Bf7 { [%eval 6.29] } 30. Bg3 { [%eval 6.2] } 30...
+Ra3 $2 { [%eval 7.3] } 31. Rc1 $6 { [%eval 6.41] } 31... c4 $6 { [%eval 7.21] }
+32. d3 { [%eval 6.89] } 32... Kc5 $2 { [%eval 8.39] } 33. Be1 $2
+{ [%eval 6.98] } 33... Kd4 $4 { [%eval 11.0] } 0-1

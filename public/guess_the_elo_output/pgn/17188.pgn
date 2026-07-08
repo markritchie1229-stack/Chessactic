@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RmQBFWgH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ATPrubisco"]
+[Black "Titik"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:24:40"]
+[WhiteElo "1500"]
+[BlackElo "1295"]
+[WhiteRatingDiff "+96"]
+[BlackRatingDiff "-5"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.11] } 1... e6 { [%eval 0.14] } 2. e4 { [%eval 0.18] } 2... Qh4
+$6 { [%eval 1.17] } 3. e5 { [%eval 0.97] } 3... f6 { [%eval 1.46] } 4. Nf3
+{ [%eval 1.27] } 4... Qe4+ { [%eval 1.35] } 5. Qe2 $2 { [%eval 0.33] } 5... d5
+{ [%eval 0.71] } 6. Nc3 { [%eval 0.72] } 6... Qxe2+ { [%eval 0.89] } 7. Bxe2
+{ [%eval 0.75] } 7... fxe5 { [%eval 0.76] } 8. Nxe5 { [%eval 0.64] } 8... Bb4
+{ [%eval 0.81] } 9. O-O { [%eval 0.98] } 9... Bxc3 { [%eval 1.12] } 10. bxc3
+{ [%eval 1.12] } 10... Nf6 { [%eval 1.16] } 11. Bf3 { [%eval 0.85] } 11... O-O
+{ [%eval 0.89] } 12. Re1 { [%eval 0.92] } 12... Nbd7 { [%eval 0.98] } 13. Bf4
+{ [%eval 0.74] } 13... Nxe5 { [%eval 0.62] } 14. Bxe5 { [%eval 0.68] } 14...
+Ne8 { [%eval 0.78] } 15. Bg3 { [%eval 0.61] } 15... Bd7 { [%eval 0.85] } 16.
+Rab1 { [%eval 0.7] } 16... Ba4 $2 { [%eval 2.35] } 17. Rxb7 { [%eval 2.26] }
+17... Bxc2 $6 { [%eval 2.84] } 18. Bxc7 $2 { [%eval 1.33] } 18... Nxc7
+{ [%eval 1.64] } 19. Rxc7 { [%eval 1.38] } 19... Rac8 $6 { [%eval 2.22] } 20.
+Rxc8 { [%eval 2.04] } 20... Rxc8 { [%eval 2.09] } 21. Re3 $2 { [%eval 0.75] }
+21... a5 $6 { [%eval 1.4] } 22. Rxe6 { [%eval 1.4] } 22... Rxc3 $6
+{ [%eval 2.33] } 23. Bxd5 $6 { [%eval 1.72] } 23... Rc4 $4 { [%eval #1] } 24.
+Re8# 1-0

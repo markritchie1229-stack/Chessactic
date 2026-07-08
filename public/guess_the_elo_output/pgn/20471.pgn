@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Q5yhixpy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Yanivvvvv"]
+[Black "month11"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:36:36"]
+[WhiteElo "1464"]
+[BlackElo "1519"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "A11"]
+[Opening "English Opening: Caro-Kann Defensive System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.01] } 1... c6 { [%eval 0.33] } 2. Nc3 { [%eval 0.12] } 2... d5
+{ [%eval 0.26] } 3. cxd5 { [%eval 0.2] } 3... cxd5 { [%eval 0.2] } 4. d4
+{ [%eval 0.15] } 4... e6 { [%eval 0.2] } 5. Nf3 { [%eval 0.17] } 5... a6
+{ [%eval 0.34] } 6. a3 { [%eval 0.16] } 6... Nf6 { [%eval 0.23] } 7. Bf4
+{ [%eval 0.2] } 7... Bd6 { [%eval 0.22] } 8. Bxd6 { [%eval 0.17] } 8... Qxd6
+{ [%eval 0.25] } 9. e3 { [%eval 0.22] } 9... b5 { [%eval 0.29] } 10. Bd3
+{ [%eval 0.23] } 10... Nbd7 { [%eval 0.38] } 11. O-O { [%eval 0.33] } 11... Bb7
+{ [%eval 0.35] } 12. b4 { [%eval 0.18] } 12... Rc8 { [%eval 0.5] } 13. Rc1
+{ [%eval 0.3] } 13... O-O { [%eval 0.33] } 14. Ne5 $2 { [%eval -1.54] } 14...
+Nxe5 { [%eval -1.63] } 15. dxe5 { [%eval -1.55] } 15... Qxe5 { [%eval -1.5] }
+16. Ne2 { [%eval -1.38] } 16... Rxc1 { [%eval -1.19] } 17. Qxc1
+{ [%eval -1.2] } 17... Rc8 { [%eval -1.18] } 18. Qd1 { [%eval -1.08] } 18...
+Qc7 { [%eval -0.89] } 19. Nd4 { [%eval -0.85] } 19... Ne4 { [%eval -0.74] } 20.
+Bxe4 { [%eval -0.83] } 20... dxe4 { [%eval -0.81] } 21. Qg4 $6 { [%eval -1.5] }
+21... f5 { [%eval -1.35] } 22. Qg5 { [%eval -1.12] } 22... Qe7 $4
+{ [%eval #9] } 23. Qxe7 { [%eval 23.06] } 23... Rc3 $6 { [%eval #1] } 24. Nxe6
+$6 { [%eval #1] } 24... Rc7 { [%eval #1] } 25. Qd8+ $6 { [%eval #7] } 1-0

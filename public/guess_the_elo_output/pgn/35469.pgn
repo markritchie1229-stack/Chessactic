@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/eSqhKQDq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ZeruHmyz"]
+[Black "Yoda2240"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:43:00"]
+[WhiteElo "2378"]
+[BlackElo "2388"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B51"]
+[Opening "Sicilian Defense: Canal-Sokolsky Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... c5 { [%eval 0.25] } 2. Nf3 { [%eval 0.18] } 2... d6
+{ [%eval 0.27] } 3. Bb5+ { [%eval 0.17] } 3... Nd7 { [%eval 0.2] } 4. O-O
+{ [%eval 0.06] } 4... a6 { [%eval 0.19] } 5. Bxd7+ { [%eval 0.05] } 5... Bxd7
+{ [%eval 0.0] } 6. e5 { [%eval -0.17] } 6... dxe5 { [%eval 0.08] } 7. Nxe5
+{ [%eval 0.16] } 7... Nf6 { [%eval 0.22] } 8. d3 { [%eval 0.24] } 8... e6
+{ [%eval 0.3] } 9. Nc3 { [%eval 0.0] } 9... Bd6 { [%eval 0.07] } 10. Nxd7
+{ [%eval 0.01] } 10... Qxd7 { [%eval 0.0] } 11. Ne4 { [%eval -0.27] } 11...
+Nxe4 { [%eval -0.24] } 12. dxe4 { [%eval -0.24] } 12... Be7 { [%eval -0.04] }
+13. Qg4 { [%eval -0.17] } 13... O-O { [%eval -0.07] } 14. Be3 { [%eval -0.34] }
+14... Qc6 { [%eval -0.19] } 15. f3 $6 { [%eval -0.72] } 15... Rad8
+{ [%eval -0.45] } 16. Rad1 $6 { [%eval -0.95] } 16... c4 $6 { [%eval -0.36] }
+17. Qf4 { [%eval -0.78] } 17... Bc5 { [%eval -0.71] } 18. h4 $4
+{ [%eval -4.66] } 18... b5 $4 { [%eval -0.83] } 19. h5 $4 { [%eval -4.5] }
+19... h6 $4 { [%eval -0.93] } 20. g3 $4 { [%eval -5.16] } 20... Qb6 $4
+{ [%eval -0.79] } 21. Bxc5 { [%eval -1.02] } 21... Qxc5+ { [%eval -0.94] } 22.
+Kg2 { [%eval -1.0] } 22... Qxh5 { [%eval -0.95] } 23. Rd6 $6 { [%eval -1.5] }
+23... Rxd6 { [%eval -1.06] } 24. Qxd6 { [%eval -1.08] } 24... Qg5
+{ [%eval -1.14] } 25. Qxa6 { [%eval -1.17] } 25... Rd8 { [%eval -1.13] } 26.
+Rf2 $6 { [%eval -1.99] } 26... Rd1 { [%eval -1.84] } 27. Qa5 $2
+{ [%eval -3.9] } 27... Qc1 $2 { [%eval -2.54] } 28. Qxb5 $4 { [%eval #-14] }
+28... Rg1+ { [%eval -120.7] } 29. Kh3 { [%eval -30.17] } 29... Rh1+
+{ [%eval -20.44] } 30. Kg4 $6 { [%eval #-7] } 30... f5+ { [%eval #-6] } 31.
+exf5 { [%eval #-1] } 31... Qg5# 0-1

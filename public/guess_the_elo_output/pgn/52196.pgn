@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/GSnwqwRJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nedosky"]
+[Black "hbagheri"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "07:12:13"]
+[WhiteElo "1319"]
+[BlackElo "1343"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+18"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Wayward Queen Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.45] } 2. Qh5 $6 { [%eval -0.16] }
+2... Nc6 { [%eval -0.14] } 3. Bc4 { [%eval -0.14] } 3... g6 { [%eval 0.03] } 4.
+Qf3 { [%eval -0.41] } 4... Nf6 { [%eval -0.35] } 5. Nh3 $2 { [%eval -2.72] }
+5... Be7 $2 { [%eval -0.8] } 6. Ng5 { [%eval -1.26] } 6... O-O
+{ [%eval -1.26] } 7. Bxf7+ $6 { [%eval -1.91] } 7... Rxf7 { [%eval -2.03] } 8.
+Nxf7 { [%eval -2.05] } 8... Kxf7 { [%eval -1.89] } 9. Nc3 { [%eval -2.14] }
+9... Kg8 $6 { [%eval -1.55] } 10. Nd5 $6 { [%eval -2.22] } 10... Nxd5
+{ [%eval -2.25] } 11. exd5 { [%eval -2.28] } 11... Nd4 { [%eval -2.24] } 12.
+Qe4 $2 { [%eval -4.17] } 12... Bc5 $2 { [%eval -1.73] } 13. c3 { [%eval -1.6] }
+13... Nb5 $2 { [%eval 0.87] } 14. Qxe5 $2 { [%eval -0.69] } 14... d6 $2
+{ [%eval 1.33] } 15. Qe4 $2 { [%eval -1.17] } 15... Bf5 { [%eval -1.08] } 16.
+Qc4 { [%eval -1.11] } 16... Qe7+ { [%eval -1.09] } 17. Kd1 $4 { [%eval -5.6] }
+17... Re8 $4 { [%eval -0.61] } 18. Qxb5 $4 { [%eval -8.48] } 18... c6 $4
+{ [%eval -5.16] } 19. dxc6 $4 { [%eval #-6] } 19... bxc6 $4 { [%eval -1.82] }
+20. Qxc6 $4 { [%eval #-1] } 20... Qe2# 0-1

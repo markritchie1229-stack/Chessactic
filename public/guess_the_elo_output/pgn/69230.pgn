@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lFFWJGo8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Paule38"]
+[Black "potapoff86"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:35:52"]
+[WhiteElo "1221"]
+[BlackElo "1246"]
+[WhiteRatingDiff "+25"]
+[BlackRatingDiff "-12"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.36] } 2. d3 { [%eval -0.1] } 2... Bc5
+{ [%eval 0.06] } 3. Be3 { [%eval -0.21] } 3... b6 { [%eval 0.04] } 4. d4
+{ [%eval -0.15] } 4... Bd6 $2 { [%eval 1.27] } 5. dxe5 $6 { [%eval 0.55] } 5...
+Bxe5 { [%eval 0.62] } 6. Nf3 $2 { [%eval -1.41] } 6... d6 $2 { [%eval 1.08] }
+7. Bb5+ { [%eval 0.89] } 7... c6 { [%eval 0.94] } 8. Nxe5 { [%eval 0.9] } 8...
+dxe5 { [%eval 1.01] } 9. Bd3 $6 { [%eval 0.4] } 9... Qh4 $6 { [%eval 0.93] }
+10. g3 { [%eval 0.45] } 10... Qf6 { [%eval 0.85] } 11. O-O $6 { [%eval 0.33] }
+11... Nh6 $6 { [%eval 1.06] } 12. c3 $6 { [%eval 0.08] } 12... b5 $2
+{ [%eval 1.92] } 13. b4 $2 { [%eval 0.65] } 13... Na6 $2 { [%eval 1.9] } 14. a3
+$2 { [%eval 0.77] } 14... Bg4 $6 { [%eval 1.67] } 15. f3 { [%eval 1.63] } 15...
+Bh3 { [%eval 1.6] } 16. Re1 { [%eval 1.24] } 16... g5 $2 { [%eval 2.25] } 17.
+f4 $4 { [%eval -2.64] } 17... gxf4 { [%eval -2.57] } 18. gxf4 $4
+{ [%eval #-3] } 18... exf4 $2 { [%eval -8.36] } 19. Qf3 $2 { [%eval -11.23] }
+19... Qg6+ $4 { [%eval -6.56] } 20. Kh1 { [%eval -6.54] } 20... fxe3
+{ [%eval -6.27] } 21. Qxh3 { [%eval -6.33] } 21... Nc7 $4 { [%eval -0.41] } 22.
+Rxe3 $6 { [%eval -1.02] } 22... Rd8 $2 { [%eval 0.0] } 23. Rg3
+{ [%eval -0.14] } 23... Qe6 { [%eval 0.0] } 24. Qh4 $4 { [%eval -3.54] } 24...
+Ng8 $4 { [%eval 0.87] } 25. e5 $6 { [%eval 0.22] } 25... Qb3 $4
+{ [%eval 3.63] } 26. Nd2 { [%eval 3.33] } 26... Qxc3 $2 { [%eval 6.18] } 27.
+Ne4 $4 { [%eval -6.86] } 27... Qxa1+ { [%eval -6.61] } 28. Kg2 $2
+{ [%eval -7.83] } 28... Qb2+ { [%eval -7.52] } 29. Kh3 $6 { [%eval -8.05] }
+29... Nd5 $2 { [%eval -6.24] } 30. Nd6+ { [%eval -6.08] } 30... Kf8 $4
+{ [%eval #1] } 31. Qxd8# 1-0

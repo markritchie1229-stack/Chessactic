@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/EAQxTeAb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ramchandanbapu"]
+[Black "djulac"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "02:32:02"]
+[WhiteElo "1363"]
+[BlackElo "1390"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-11"]
+[ECO "A80"]
+[Opening "Dutch Defense: Raphael Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... f5 { [%eval 0.56] } 2. Nc3 { [%eval 0.24] } 2...
+Nf6 { [%eval 0.31] } 3. Bg5 { [%eval 0.33] } 3... e6 { [%eval 0.62] } 4. e3 $6
+{ [%eval 0.05] } 4... h6 { [%eval 0.27] } 5. Bxf6 { [%eval 0.22] } 5... Qxf6
+{ [%eval 0.3] } 6. Be2 { [%eval 0.25] } 6... Bb4 { [%eval 0.26] } 7. Bh5+
+{ [%eval -0.19] } 7... g6 { [%eval -0.04] } 8. Bf3 { [%eval -0.23] } 8... Bxc3+
+{ [%eval -0.08] } 9. bxc3 { [%eval -0.14] } 9... d5 { [%eval 0.18] } 10. Ne2
+{ [%eval 0.0] } 10... Bd7 $6 { [%eval 0.56] } 11. O-O $6 { [%eval 0.0] } 11...
+Nc6 { [%eval 0.21] } 12. Nf4 { [%eval 0.04] } 12... g5 { [%eval 0.29] } 13.
+Bh5+ { [%eval 0.25] } 13... Kf8 $2 { [%eval 1.56] } 14. Ng6+ { [%eval 1.51] }
+14... Kg7 { [%eval 1.47] } 15. Nxh8 { [%eval 1.45] } 15... Kxh8
+{ [%eval 1.54] } 16. Be2 { [%eval 1.42] } 16... f4 $6 { [%eval 1.94] } 17. exf4
+{ [%eval 1.8] } 17... Qxf4 $6 { [%eval 2.75] } 18. Bf3 $6 { [%eval 1.96] }
+18... e5 $2 { [%eval 3.24] } 19. Bxd5 { [%eval 3.05] } 19... Rd8
+{ [%eval 3.28] } 20. Qh5 { [%eval 3.17] } 20... Be8 $4 { [%eval #1] } 21. Qxh6#
+1-0

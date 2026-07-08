@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/65S0acYk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "matigelp97"]
+[Black "pastafar1an"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "03:23:16"]
+[WhiteElo "1603"]
+[BlackElo "1685"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Paulsen-Basman Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.21] } 2. Nf3 { [%eval 0.22] } 2... e6
+{ [%eval 0.24] } 3. d4 { [%eval 0.2] } 3... cxd4 { [%eval 0.27] } 4. Nxd4
+{ [%eval 0.29] } 4... Bc5 { [%eval 0.72] } 5. Be3 { [%eval 0.39] } 5... Qb6
+{ [%eval 0.64] } 6. c3 { [%eval 0.4] } 6... Qxb2 $2 { [%eval 1.64] } 7. Nd2
+{ [%eval 1.55] } 7... Qxc3 $4 { [%eval 7.3] } 8. Rc1 $4 { [%eval 3.5] } 8...
+Qa5 { [%eval 3.94] } 9. Nb3 { [%eval 3.66] } 9... Qxa2 $4 { [%eval 9.0] } 10.
+Bxc5 { [%eval 8.86] } 10... b6 $2 { [%eval 10.05] } 11. Bd6 $4 { [%eval 6.44] }
+11... Bb7 $2 { [%eval 8.0] } 12. Be5 { [%eval 7.78] } 12... f6 { [%eval 7.93] }
+13. Ra1 { [%eval 7.86] } 13... Qxb3 $2 { [%eval 9.77] } 14. Nxb3 $2
+{ [%eval 8.05] } 14... fxe5 { [%eval 8.04] } 15. Bb5 $2 { [%eval 6.51] } 15...
+Nc6 $6 { [%eval 7.46] } 16. O-O $6 { [%eval 6.9] } 16... Nf6 { [%eval 7.14] }
+17. Rc1 $2 { [%eval 5.72] } 17... O-O { [%eval 5.66] } 18. f4 $6
+{ [%eval 5.06] } 18... Nxe4 $4 { [%eval 12.08] } 19. Qxd7 { [%eval 11.67] }
+19... Rab8 { [%eval 15.04] } 20. Qxe6+ { [%eval 14.85] } 20... Kh8
+{ [%eval 14.68] } 21. Bxc6 { [%eval 14.02] } 21... Bxc6 { [%eval 15.07] } 22.
+Qxc6 { [%eval 14.44] } 22... exf4 { [%eval 19.2] } 23. Qxe4 { [%eval 15.97] }
+23... a6 $6 { [%eval #11] } 24. Rxf4 { [%eval 80.06] } 24... Rfd8 $6
+{ [%eval #8] } 25. Rcf1 { [%eval #9] } 25... Rg8 { [%eval #6] } 26. Qb4 $6
+{ [%eval 18.71] } 26... a5 $6 { [%eval #9] } 27. Qd6 { [%eval #8] } 27... h6
+{ [%eval #8] } 28. Rf8 { [%eval #8] } 28... a4 { [%eval #4] } 29. Rxb8 $6
+{ [%eval #5] } 1-0

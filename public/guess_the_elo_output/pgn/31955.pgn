@@ -1,0 +1,35 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/HmX4F4w0"]
+[Site "https://lichess.org/DyQ2RzMx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Prashin"]
+[Black "startrekx"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:33:50"]
+[WhiteElo "1604"]
+[BlackElo "1387"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-7"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed Variation"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.27] } 2. Nc3 { [%eval 0.26] } 2... d6
+{ [%eval 0.27] } 3. d4 { [%eval 0.26] } 3... Nf6 $2 { [%eval 1.28] } 4. Nce2 $2
+{ [%eval -0.98] } 4... cxd4 $6 { [%eval -0.4] } 5. Nxd4 $6 { [%eval -1.05] }
+5... g6 $6 { [%eval -0.19] } 6. Bg5 $2 { [%eval -1.75] } 6... Bg7 $2
+{ [%eval -0.37] } 7. Bxf6 { [%eval -0.66] } 7... Bxf6 { [%eval -0.49] } 8. h4
+$2 { [%eval -1.58] } 8... d5 $6 { [%eval -0.85] } 9. h5 $6 { [%eval -1.54] }
+9... gxh5 $6 { [%eval -0.59] } 10. Qe2 $2 { [%eval -3.28] } 10... O-O $4
+{ [%eval 3.3] } 11. exd5 $4 { [%eval -1.55] } 11... Bxd4 { [%eval -1.69] } 12.
+Qd3 $4 { [%eval -5.81] } 12... Qxd5 $2 { [%eval -3.41] } 13. Rxh5 $4
+{ [%eval -7.14] } 13... Qxh5 $6 { [%eval -6.44] } 14. Be2 $4 { [%eval -10.64] }
+14... Bxf2+ $2 { [%eval -7.41] } 15. Kxf2 { [%eval -7.35] } 15... Qg6 $6
+{ [%eval -6.82] } 16. Qa3 $6 { [%eval -7.73] } 16... Qxc2 { [%eval -7.75] } 17.
+Qh3 $2 { [%eval -18.7] } 17... Qxe2+ $2 { [%eval -8.72] } 18. Kxe2
+{ [%eval -9.15] } 18... Bxh3 { [%eval -9.08] } 19. Nxh3 { [%eval -9.12] } 19...
+Nc6 { [%eval -8.96] } 20. Ng5 { [%eval -9.25] } 20... f6 { [%eval -9.08] } 21.
+Rh1 $6 { [%eval -13.03] } 21... Kh8 $4 { [%eval -6.75] } 22. g4 $4
+{ [%eval -13.19] } 22... Rg8 $4 { [%eval #1] } 23. Rxh7# 1-0

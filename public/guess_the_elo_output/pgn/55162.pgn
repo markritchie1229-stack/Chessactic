@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/iBEs2i7j"]
+[Date "????.??.??"]
+[Round "?"]
+[White "reslires"]
+[Black "abdullah-muhammed"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:06:17"]
+[WhiteElo "1169"]
+[BlackElo "1225"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "D00"]
+[Opening "Amazon Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.19] } 2. Qd3 $6 { [%eval -0.38] }
+2... c5 { [%eval -0.4] } 3. Qa3 $2 { [%eval -1.84] } 3... Nc6 $2
+{ [%eval -0.37] } 4. Qxc5 $2 { [%eval -2.46] } 4... e6 $2 { [%eval 0.07] } 5.
+Nf3 $4 { [%eval -7.33] } 5... Bxc5 { [%eval -7.43] } 6. Nc3 $2
+{ [%eval -11.63] } 6... Bxd4 { [%eval -11.52] } 7. Nxd4 { [%eval -13.04] } 7...
+Nxd4 { [%eval -12.82] } 8. e4 { [%eval -18.28] } 8... Nxc2+ { [%eval -18.21] }
+9. Kd1 { [%eval -18.05] } 9... Nxa1 { [%eval -17.68] } 10. exd5
+{ [%eval -18.16] } 10... exd5 { [%eval -17.95] } 11. Bb5+ { [%eval -18.59] }
+11... Bd7 { [%eval -17.61] } 12. Bxd7+ { [%eval -21.09] } 12... Qxd7
+{ [%eval -20.5] } 13. Re1+ { [%eval -22.13] } 13... Ne7 { [%eval -21.4] } 14.
+Bg5 { [%eval -23.78] } 14... f6 { [%eval -23.12] } 15. Bh4 { [%eval -30.27] }
+15... d4 { [%eval -29.32] } 16. Ne4 { [%eval -31.82] } 16... d3
+{ [%eval -25.25] } 17. Nxf6+ { [%eval -39.14] } 17... gxf6 { [%eval -34.85] }
+18. Bxf6 { [%eval -37.45] } 18... Rf8 { [%eval -28.79] } 19. Bxe7 $6
+{ [%eval #-14] } 19... Kf7 $6 { [%eval -28.03] } 20. Bxf8 $6 { [%eval #-11] }
+20... Rxf8 { [%eval #-10] } 21. Kd2 { [%eval #-10] } 21... Nc2 $6
+{ [%eval -22.5] } 22. Re3 $6 { [%eval #-7] } 22... Nxe3 { [%eval #-6] } 23.
+fxe3 { [%eval #-5] } 23... Rg8 $6 { [%eval #-5] } 0-1

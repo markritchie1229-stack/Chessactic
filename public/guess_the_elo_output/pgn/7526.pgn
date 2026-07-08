@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/VQMgok7c"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Loliponche"]
+[Black "r1nghio"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:30:24"]
+[WhiteElo "1278"]
+[BlackElo "1306"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... Nc6 { [%eval 0.38] } 2. Bc4 $6 { [%eval -0.29] }
+2... e6 { [%eval 0.0] } 3. d3 { [%eval -0.29] } 3... a6 { [%eval 0.0] } 4. Bf4
+{ [%eval -0.31] } 4... b5 { [%eval 0.07] } 5. Bb3 { [%eval 0.2] } 5... Nd4
+{ [%eval 0.47] } 6. c3 $6 { [%eval -0.15] } 6... Nxb3 { [%eval 0.01] } 7. Qxb3
+{ [%eval -0.29] } 7... Bb7 { [%eval -0.18] } 8. c4 { [%eval -0.31] } 8... d5 $6
+{ [%eval 0.31] } 9. Nf3 $6 { [%eval -0.36] } 9... dxe4 { [%eval -0.39] } 10.
+dxe4 { [%eval -0.5] } 10... Bxe4 { [%eval -0.34] } 11. O-O { [%eval -0.28] }
+11... Bd3 { [%eval -0.18] } 12. Rd1 { [%eval -0.41] } 12... Bxc4 $4
+{ [%eval 4.5] } 13. Rxd8+ { [%eval 4.11] } 13... Rxd8 { [%eval 4.1] } 14. Qc3
+$4 { [%eval 0.0] } 14... Rd1+ { [%eval 0.0] } 15. Ne1 { [%eval 0.0] } 15... Nf6
+$4 { [%eval 4.99] } 16. h3 $4 { [%eval -2.33] } 16... Ne4 $2 { [%eval 0.0] }
+17. b3 $4 { [%eval -13.61] } 17... Nxc3 { [%eval -13.25] } 18. Nxc3
+{ [%eval -13.88] } 18... Rxa1 { [%eval -13.31] } 19. Bxc7 { [%eval -17.62] }
+19... Rxe1+ { [%eval -17.16] } 20. Kh2 { [%eval -17.02] } 20... Kd7
+{ [%eval -16.64] } 21. Ba5 { [%eval -18.25] } 21... Bd6+ { [%eval -16.41] } 22.
+g3 { [%eval -15.55] } 22... h5 { [%eval -14.55] } 23. h4 { [%eval -15.26] }
+23... g5 { [%eval -13.86] } 24. hxg5 $6 { [%eval #-11] } 24... h4
+{ [%eval #-9] } 25. Kh3 { [%eval #-5] } 25... Bd5 $6 { [%eval #-8] } 26. gxh4
+{ [%eval #-2] } 26... Rh1+ { [%eval #-1] } 27. Kg4 { [%eval #-1] } 27... R1xh4#
+0-1

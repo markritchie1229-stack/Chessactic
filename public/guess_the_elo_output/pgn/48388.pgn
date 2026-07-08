@@ -1,0 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/hH4eTls9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Diometriy"]
+[Black "HAW-KING"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "00:36:05"]
+[WhiteElo "1933"]
+[BlackElo "1786"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "C44"]
+[Opening "King's Pawn Game: Tayler Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.27] } 3. Be2 { [%eval 0.12] } 3... Nf6 { [%eval 0.11] } 4. d3
+{ [%eval -0.1] } 4... Bc5 { [%eval 0.14] } 5. Nbd2 $6 { [%eval -0.37] } 5... d6
+{ [%eval -0.2] } 6. O-O { [%eval -0.12] } 6... O-O { [%eval -0.27] } 7. c3
+{ [%eval -0.24] } 7... h6 { [%eval 0.2] } 8. b4 { [%eval 0.16] } 8... Bb6
+{ [%eval 0.21] } 9. a4 { [%eval 0.19] } 9... a6 { [%eval 0.16] } 10. a5
+{ [%eval -0.11] } 10... Ba7 { [%eval -0.18] } 11. h3 { [%eval -0.23] } 11...
+Ne7 { [%eval 0.0] } 12. Qc2 { [%eval -0.03] } 12... c6 { [%eval 0.27] } 13. Re1
+{ [%eval 0.23] } 13... Ng6 { [%eval 0.32] } 14. Nf1 { [%eval -0.16] } 14... Be6
+{ [%eval 0.06] } 15. Ng3 { [%eval -0.12] } 15... Qd7 $6 { [%eval 0.6] } 16. Kh2
+$2 { [%eval -2.38] } 16... Nf4 $2 { [%eval 0.43] } 17. Bf1 { [%eval 0.28] }
+17... N6h5 { [%eval 0.26] } 18. Nxh5 { [%eval 0.16] } 18... Nxh5
+{ [%eval 0.2] } 19. g4 { [%eval 0.12] } 19... Nf4 { [%eval 0.39] } 20. Bxf4
+{ [%eval 0.35] } 20... exf4 { [%eval 0.31] } 21. d4 { [%eval 0.22] } 21... d5
+{ [%eval 0.48] } 22. e5 { [%eval 0.66] } 22... h5 $2 { [%eval 2.56] } 23. Qd2
+$2 { [%eval -0.36] } 23... hxg4 { [%eval -0.38] } 24. hxg4 { [%eval -0.33] }
+24... Bxg4 { [%eval -0.27] } 25. Qxf4 { [%eval -0.32] } 25... Qf5 $6
+{ [%eval 0.4] } 26. Kg3 { [%eval 0.0] } 26... Qxf4+ { [%eval 0.04] } 27. Kxf4
+{ [%eval 0.0] } 27... Bh5 { [%eval 0.0] } 28. Bd3 { [%eval 0.0] } 28... Rae8 $2
+{ [%eval 1.33] } 29. Rh1 { [%eval 1.13] } 29... Bg6 $2 { [%eval 2.26] } 30.
+Bxg6 { [%eval 2.02] } 30... fxg6+ { [%eval 1.94] } 31. Kg3 $6 { [%eval 1.37] }
+31... Bb8 $2 { [%eval 2.5] } 32. Ng5 $2 { [%eval 0.86] } 32... Rf5
+{ [%eval 0.86] } 33. f4 { [%eval 0.86] } 33... Ref8 $4 { [%eval 6.12] } 34. Rh4
+{ [%eval 5.69] } 34... Bc7 $2 { [%eval 7.54] } 35. Rah1 { [%eval 7.0] } 35...
+b5 $4 { [%eval #1] } 36. Rh8# 1-0

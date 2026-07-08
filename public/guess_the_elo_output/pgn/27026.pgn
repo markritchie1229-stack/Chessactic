@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zOD6BuEJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "maxrobles"]
+[Black "megacomodin"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:08:27"]
+[WhiteElo "1836"]
+[BlackElo "1757"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+13"]
+[ECO "A22"]
+[Opening "English Opening: King's English Variation, Two Knights Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... e5 { [%eval 0.02] } 2. Nc3 { [%eval 0.02] } 2... Nf6
+{ [%eval 0.02] } 3. e4 { [%eval -0.26] } 3... c6 $6 { [%eval 0.44] } 4. d3 $6
+{ [%eval -0.36] } 4... Na6 $6 { [%eval 0.38] } 5. a3 { [%eval 0.0] } 5... Nc7
+$6 { [%eval 0.67] } 6. Bg5 $6 { [%eval -0.19] } 6... Be7 { [%eval 0.0] } 7. f4
+$6 { [%eval -0.69] } 7... exf4 $6 { [%eval 0.0] } 8. Bxf4 { [%eval 0.0] } 8...
+d6 { [%eval 0.0] } 9. Nf3 { [%eval -0.04] } 9... Ne6 { [%eval 0.05] } 10. Be3
+{ [%eval -0.4] } 10... Ng4 { [%eval -0.08] } 11. Bd2 $6 { [%eval -0.96] } 11...
+Bh4+ $6 { [%eval -0.35] } 12. g3 { [%eval -0.63] } 12... Bg5 $2
+{ [%eval 2.27] } 13. Nxg5 { [%eval 2.08] } 13... Nxg5 { [%eval 2.06] } 14. Bh3
+$4 { [%eval -5.43] } 14... Nxh3 { [%eval -5.3] } 15. Rf1 $2 { [%eval -7.1] }
+15... Nxh2 { [%eval -7.02] } 16. Rxf7 $2 { [%eval -13.0] } 16... Kxf7
+{ [%eval -10.94] } 17. Qh5+ { [%eval -11.93] } 17... g6 { [%eval -10.45] } 18.
+Qh6 { [%eval -11.24] } 18... Nf3+ { [%eval -10.97] } 19. Kd1 { [%eval -10.89] }
+19... Nxd2 { [%eval -10.67] } 20. Qxd2 { [%eval -11.42] } 20... Rf8
+{ [%eval -11.47] } 21. Kc2 { [%eval -11.3] } 21... Qg5 { [%eval -11.18] } 22.
+Rf1+ { [%eval -11.62] } 22... Kg8 { [%eval -11.41] } 23. Rxf8+
+{ [%eval -11.55] } 23... Kxf8 { [%eval -11.23] } 24. Qe1 { [%eval -11.52] }
+24... Qe3 $4 { [%eval 4.8] } 25. Qf1+ $4 { [%eval -12.51] } 25... Qf2+
+{ [%eval -12.06] } 26. Qxf2+ { [%eval -11.87] } 26... Nxf2 { [%eval -11.62] }
+0-1

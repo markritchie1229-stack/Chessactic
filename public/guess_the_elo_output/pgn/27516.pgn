@@ -1,0 +1,39 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/CqglhCar"]
+[Site "https://lichess.org/RUJBpzMG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pppp1234"]
+[Black "murcol"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "05:05:52"]
+[WhiteElo "1626"]
+[BlackElo "1419"]
+[WhiteRatingDiff "+5"]
+[BlackRatingDiff "-6"]
+[ECO "D10"]
+[Opening "Slav Defense #2"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... d5 { [%eval 0.15] } 2. c4 { [%eval 0.18] } 2... c6
+{ [%eval 0.28] } 3. Nc3 { [%eval 0.22] } 3... Nf6 { [%eval 0.2] } 4. e3
+{ [%eval 0.25] } 4... Bg4 { [%eval 0.38] } 5. f3 { [%eval 0.35] } 5... Bh5 $6
+{ [%eval 0.93] } 6. Nh3 { [%eval 0.46] } 6... e6 { [%eval 0.37] } 7. cxd5
+{ [%eval 0.4] } 7... cxd5 { [%eval 0.49] } 8. Nf4 { [%eval 0.36] } 8... Bd6
+{ [%eval 0.47] } 9. Qa4+ $6 { [%eval -0.08] } 9... Nc6 { [%eval -0.09] } 10.
+Bb5 { [%eval -0.26] } 10... Qd7 $6 { [%eval 0.55] } 11. Nxh5 { [%eval 0.49] }
+11... Nxh5 { [%eval 0.64] } 12. O-O $6 { [%eval 0.08] } 12... O-O
+{ [%eval 0.56] } 13. Qd1 $6 { [%eval 0.0] } 13... a6 { [%eval 0.0] } 14. Bxc6
+{ [%eval -0.05] } 14... bxc6 { [%eval 0.02] } 15. f4 { [%eval -0.24] } 15...
+Nf6 { [%eval -0.3] } 16. b3 { [%eval -0.36] } 16... c5 { [%eval -0.22] } 17.
+Bb2 { [%eval -0.45] } 17... cxd4 { [%eval -0.14] } 18. Qxd4 { [%eval -0.26] }
+18... Rfe8 { [%eval -0.11] } 19. e4 $6 { [%eval -1.05] } 19... dxe4 $4
+{ [%eval 2.88] } 20. Nxe4 { [%eval 2.87] } 20... e5 $2 { [%eval 3.91] } 21.
+Qxd6 { [%eval 3.8] } 21... Qa7+ { [%eval 3.88] } 22. Nf2 { [%eval 3.75] } 22...
+Rad8 { [%eval 4.03] } 23. Qb4 $2 { [%eval 2.52] } 23... exf4 $2
+{ [%eval 4.84] } 24. Rad1 $2 { [%eval 3.57] } 24... Rxd1 { [%eval 3.72] } 25.
+Rxd1 { [%eval 3.56] } 25... Ne4 $4 { [%eval 8.08] } 26. Bd4 $4 { [%eval 3.55] }
+26... Qe7 $4 { [%eval 8.16] } 27. Qxe7 { [%eval 7.95] } 27... Rxe7
+{ [%eval 7.84] } 28. Re1 $4 { [%eval 3.68] } 28... Kf8 $4 { [%eval 8.69] } 29.
+Rxe4 { [%eval 8.53] } 1-0

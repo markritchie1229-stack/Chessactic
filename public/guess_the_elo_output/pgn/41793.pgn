@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/BnApMzBE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vetmedin"]
+[Black "Debombi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:13:46"]
+[WhiteElo "1632"]
+[BlackElo "1605"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+20"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.3] } 1... c6 { [%eval 0.43] } 2. c3 { [%eval 0.22] } 2... d5
+{ [%eval 0.27] } 3. e5 { [%eval 0.2] } 3... e6 { [%eval 0.36] } 4. d4
+{ [%eval 0.41] } 4... c5 { [%eval 0.4] } 5. Nf3 { [%eval 0.4] } 5... Nd7
+{ [%eval 0.6] } 6. Be2 { [%eval 0.32] } 6... c4 $2 { [%eval 1.46] } 7. O-O $6
+{ [%eval 0.94] } 7... b5 $6 { [%eval 1.52] } 8. Nbd2 $2 { [%eval 0.52] } 8...
+Bb7 { [%eval 0.49] } 9. h3 { [%eval 0.52] } 9... Nh6 { [%eval 0.52] } 10. Nh2
+{ [%eval 0.28] } 10... Nf5 { [%eval 0.33] } 11. Bg4 { [%eval 0.22] } 11... Nh6
+{ [%eval 0.29] } 12. Bf3 { [%eval 0.25] } 12... f6 $6 { [%eval 1.14] } 13. Ng4
+{ [%eval 0.67] } 13... Nxg4 { [%eval 0.6] } 14. Bxg4 { [%eval 0.52] } 14... Qe7
+{ [%eval 1.01] } 15. Nf3 $6 { [%eval 0.34] } 15... fxe5 $2 { [%eval 1.54] } 16.
+dxe5 $2 { [%eval -1.32] } 16... h5 { [%eval -1.01] } 17. Bxh5+ $6
+{ [%eval -1.96] } 17... Rxh5 { [%eval -1.86] } 18. Nd4 { [%eval -2.08] } 18...
+Rxe5 { [%eval -1.9] } 19. f4 $2 { [%eval -3.08] } 19... Re4 { [%eval -2.97] }
+20. f5 $6 { [%eval -3.57] } 20... exf5 { [%eval -3.44] } 21. Rxf5 $4
+{ [%eval -8.76] } 21... Re1+ { [%eval -8.79] } 22. Qxe1 { [%eval -8.77] } 22...
+Qxe1+ { [%eval -8.48] } 23. Kh2 $2 { [%eval -16.75] } 23... Bd6+
+{ [%eval -16.12] } 24. g3 $6 { [%eval #-2] } 24... Bxg3+ $6 { [%eval -16.65] }
+25. Kg2 { [%eval -15.99] } 25... Nf6 { [%eval -10.96] } 26. Nf3 $6
+{ [%eval #-4] } 26... Qf2+ { [%eval #-3] } 27. Kh1 { [%eval #-3] } 27... Qf1+
+{ [%eval #-2] } 28. Ng1 { [%eval #-2] } 28... Qxf5 $6 { [%eval #-4] } 0-1

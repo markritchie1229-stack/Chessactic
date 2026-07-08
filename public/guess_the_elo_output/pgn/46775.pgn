@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mvlYj3u9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "hils89"]
+[Black "Gasper2017"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:50:03"]
+[WhiteElo "1612"]
+[BlackElo "1557"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-9"]
+[ECO "A40"]
+[Opening "Queen's Pawn"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.11] } 1... c6 { [%eval 0.36] } 2. Nf3 { [%eval 0.25] } 2... d5
+{ [%eval 0.38] } 3. Bf4 { [%eval 0.28] } 3... Nf6 { [%eval 0.28] } 4. h3
+{ [%eval 0.16] } 4... e6 { [%eval 0.19] } 5. e3 { [%eval 0.18] } 5... Bd6
+{ [%eval 0.2] } 6. Bh2 { [%eval -0.14] } 6... b5 { [%eval 0.12] } 7. a3
+{ [%eval -0.16] } 7... Nbd7 $4 { [%eval 4.39] } 8. Nbd2 $4 { [%eval -0.18] }
+8... Nb6 $6 { [%eval 0.43] } 9. b3 { [%eval 0.08] } 9... c5 $2 { [%eval 2.56] }
+10. dxc5 $2 { [%eval 0.99] } 10... Bxc5 { [%eval 1.1] } 11. Bxb5+
+{ [%eval 1.02] } 11... Bd7 { [%eval 1.1] } 12. Bxd7+ { [%eval 0.76] } 12...
+Qxd7 { [%eval 0.86] } 13. b4 { [%eval 0.63] } 13... Bd6 { [%eval 0.7] } 14. Nb3
+$6 { [%eval -0.04] } 14... Rc8 { [%eval 0.15] } 15. Nbd4 { [%eval -0.3] } 15...
+Nc4 { [%eval 0.0] } 16. Nd2 $6 { [%eval -0.86] } 16... e5 $6 { [%eval 0.0] }
+17. Ne2 { [%eval -0.06] } 17... e4 $2 { [%eval 1.06] } 18. Bxd6 { [%eval 1.0] }
+18... Nxd6 { [%eval 1.05] } 19. Nd4 { [%eval 1.04] } 19... Nf5 { [%eval 1.5] }
+20. N2b3 { [%eval 1.31] } 20... O-O $2 { [%eval 2.7] } 21. Nxf5 $2
+{ [%eval 1.27] } 21... Qxf5 { [%eval 1.18] } 22. Nd4 { [%eval 0.97] } 22... Qd7
+$6 { [%eval 1.54] } 23. O-O { [%eval 1.35] } 23... Ne8 { [%eval 1.69] } 24. Rc1
+$6 { [%eval 0.89] } 24... f5 $6 { [%eval 1.39] } 25. Ne2 { [%eval 1.14] } 25...
+Rf6 $2 { [%eval 2.44] } 26. Nf4 $2 { [%eval 1.12] } 26... Rcc6 $2
+{ [%eval 2.88] } 27. Nxd5 { [%eval 2.67] } 27... Rg6 $6 { [%eval 3.47] } 28.
+Nf4 $2 { [%eval 1.83] } 28... Qxd1 $2 { [%eval 2.87] } 29. Rcxd1
+{ [%eval 2.52] } 29... Rg5 $4 { [%eval 7.28] } 30. Rd8 { [%eval 6.86] } 30...
+Kf8 $6 { [%eval 7.37] } 31. g3 $2 { [%eval 5.26] } 31... Rxc2 $6
+{ [%eval 5.79] } 32. Ne6+ $6 { [%eval 5.15] } 1-0

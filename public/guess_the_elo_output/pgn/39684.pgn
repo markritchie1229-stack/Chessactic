@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/zOx6JTZb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HenriqueNo"]
+[Black "asmsampe"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:48:34"]
+[WhiteElo "1360"]
+[BlackElo "1312"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "C51"]
+[Opening "Italian Game: Evans Gambit Declined"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.47] } 2...
+Nc6 { [%eval 0.23] } 3. Bc4 { [%eval 0.12] } 3... Bc5 { [%eval 0.24] } 4. b4
+{ [%eval 0.02] } 4... Bb6 { [%eval 0.14] } 5. c3 { [%eval 0.29] } 5... d6
+{ [%eval 0.3] } 6. a3 { [%eval -0.08] } 6... a6 { [%eval 0.13] } 7. d4 $6
+{ [%eval -0.49] } 7... Qf6 { [%eval 0.0] } 8. O-O $6 { [%eval -0.63] } 8... Bg4
+$6 { [%eval -0.06] } 9. Bg5 { [%eval -0.29] } 9... Qg6 { [%eval -0.27] } 10.
+Be3 { [%eval -0.6] } 10... Bxf3 { [%eval -0.15] } 11. Qxf3 { [%eval -0.07] }
+11... exd4 { [%eval -0.17] } 12. cxd4 { [%eval -0.43] } 12... O-O-O $2
+{ [%eval 1.54] } 13. Bxf7 { [%eval 1.47] } 13... Nh6 $4 { [%eval 9.89] } 14.
+Bxg6 { [%eval 9.73] } 14... hxg6 { [%eval 9.81] } 15. Nc3 $6 { [%eval 8.83] }
+15... Rdf8 $2 { [%eval 10.64] } 16. Qe2 { [%eval 10.18] } 16... Nxd4
+{ [%eval 12.14] } 17. Bxd4 { [%eval 10.12] } 17... Bxd4 { [%eval 9.75] } 18.
+Rac1 { [%eval 8.92] } 18... Nf7 $2 { [%eval 11.38] } 19. Qd3 { [%eval 10.34] }
+19... Ba7 { [%eval 11.39] } 20. Kh1 $2 { [%eval 8.85] } 20... Ne5
+{ [%eval 9.24] } 21. Qg3 { [%eval 9.15] } 21... Rh7 $6 { [%eval 11.13] } 22.
+Nd5 { [%eval 10.83] } 22... Rfh8 { [%eval 12.97] } 23. Ne7+ { [%eval 10.2] }
+23... Kb8 { [%eval 10.01] } 24. h3 { [%eval 10.03] } 24... g5 { [%eval 9.84] }
+25. Qxg5 { [%eval 9.37] } 25... g6 $6 { [%eval 10.5] } 26. Nxg6 $4
+{ [%eval 6.95] } 26... Rg7 $4 { [%eval 12.4] } 27. Qf6 { [%eval 12.04] } 27...
+Rxg6 $6 { [%eval #2] } 28. Qxh8+ { [%eval #1] } 1-0

@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/0RSiM0V1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "evnei"]
+[Black "AregSaha"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:00:35"]
+[WhiteElo "1500"]
+[BlackElo "1481"]
+[WhiteRatingDiff "-184"]
+[BlackRatingDiff "+18"]
+[ECO "C54"]
+[Opening "Italian Game: Classical Variation, Greco Gambit, Greco Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.18] } 2. Nf3 { [%eval 0.28] } 2...
+Nc6 { [%eval 0.37] } 3. Bc4 { [%eval 0.27] } 3... Bc5 { [%eval 0.27] } 4. c3
+{ [%eval 0.18] } 4... Nf6 { [%eval 0.19] } 5. d4 { [%eval 0.06] } 5... exd4
+{ [%eval 0.07] } 6. cxd4 { [%eval 0.1] } 6... Bb4+ { [%eval -0.02] } 7. Nc3
+{ [%eval -0.17] } 7... Nxe4 { [%eval -0.18] } 8. O-O { [%eval -0.27] } 8...
+Nxc3 $6 { [%eval 0.42] } 9. Re1+ { [%eval -0.03] } 9... Kf8 { [%eval 0.06] }
+10. d5 $4 { [%eval -10.88] } 10... Nxd1 { [%eval -10.81] } 11. Rxd1
+{ [%eval -10.77] } 11... Ne7 { [%eval -10.63] } 12. Ng5 { [%eval -11.94] }
+12... d6 { [%eval -11.87] } 13. a3 { [%eval -12.03] } 13... Ba5
+{ [%eval -11.98] } 14. b4 { [%eval -12.21] } 14... Bb6 { [%eval -12.18] } 15.
+Re1 { [%eval -12.47] } 15... h6 { [%eval -12.68] } 16. Nxf7 { [%eval -15.73] }
+16... Kxf7 { [%eval -15.55] } 17. Re4 { [%eval -17.5] } 17... Ng6
+{ [%eval -17.06] } 18. Bd3 { [%eval -21.69] } 18... Rf8 { [%eval -17.62] } 19.
+Bb2 { [%eval -20.76] } 19... Kg8 { [%eval -20.12] } 20. Bd4 { [%eval -23.22] }
+20... Bf5 { [%eval -21.83] } 21. Bxb6 { [%eval -24.31] } 21... Bxe4
+{ [%eval -23.4] } 22. Bxe4 { [%eval -24.01] } 22... axb6 { [%eval -22.44] } 23.
+Re1 { [%eval -25.43] } 23... Ne5 { [%eval -23.92] } 24. Ra1 $6 { [%eval #-9] }
+24... Qh4 { [%eval #-9] } 25. g3 { [%eval #-6] } 25... Qxe4 { [%eval #-5] } 26.
+f4 { [%eval #-5] } 26... Nf3+ { [%eval #-4] } 0-1

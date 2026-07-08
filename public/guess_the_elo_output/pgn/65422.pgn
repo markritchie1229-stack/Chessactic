@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1rEM4wMA"]
+[Date "????.??.??"]
+[Round "?"]
+[White "wiciu123"]
+[Black "zloy_geniy"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:55:30"]
+[WhiteElo "1787"]
+[BlackElo "1840"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C21"]
+[Opening "Center Game: von der Lasa Gambit"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.39] } 2. d4 $6 { [%eval -0.13] } 2...
+exd4 { [%eval -0.09] } 3. Bc4 { [%eval -0.41] } 3... Nf6 { [%eval -0.37] } 4.
+Qxd4 { [%eval -0.37] } 4... Nc6 { [%eval -0.37] } 5. Qe3 { [%eval -0.52] } 5...
+Ne5 { [%eval -0.38] } 6. Bb3 { [%eval -0.44] } 6... Be7 $6 { [%eval 0.28] } 7.
+f4 $6 { [%eval -0.45] } 7... Ng6 $2 { [%eval 0.63] } 8. e5 $6 { [%eval 0.0] }
+8... Ng4 { [%eval 0.0] } 9. Qg3 $4 { [%eval -7.82] } 9... d5 $4
+{ [%eval -0.79] } 10. exd6 $4 { [%eval -8.77] } 10... Bh4 { [%eval -8.8] } 11.
+dxc7 $2 { [%eval -10.26] } 11... Bxg3+ { [%eval -9.72] } 12. hxg3
+{ [%eval -9.67] } 12... Qxc7 { [%eval -9.38] } 13. Nf3 $6 { [%eval -15.87] }
+13... Qe7+ { [%eval -15.32] } 14. Kd1 { [%eval -19.17] } 14... Nf2+
+{ [%eval -18.85] } 15. Kd2 { [%eval -18.78] } 15... Nxh1 { [%eval -18.0] } 16.
+Nc3 { [%eval -19.03] } 16... Nxg3 { [%eval -18.06] } 17. Kd1 { [%eval -19.81] }
+17... Qd6+ { [%eval -17.25] } 18. Bd2 { [%eval -19.7] } 18... Bg4
+{ [%eval -19.25] } 19. Ba4+ { [%eval -19.25] } 19... Kd8 { [%eval -16.96] } 20.
+Ke1 { [%eval -23.53] } 20... Bxf3 { [%eval -22.89] } 21. gxf3
+{ [%eval -23.29] } 21... Qb6 { [%eval -20.36] } 22. Nd5 $6 { [%eval #-1] }
+22... Qg1# 0-1

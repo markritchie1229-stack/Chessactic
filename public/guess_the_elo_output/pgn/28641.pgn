@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/kKsBpHVp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mr_Aston"]
+[Black "Petrosov"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:13:56"]
+[WhiteElo "1516"]
+[BlackElo "1518"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+40"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. g3 { [%eval -0.11] } 1... e5 { [%eval 0.03] } 2. Bg2 { [%eval -0.34] } 2...
+f5 $6 { [%eval 0.23] } 3. b3 { [%eval -0.11] } 3... e4 { [%eval 0.19] } 4. Bb2
+{ [%eval 0.18] } 4... b5 $6 { [%eval 0.73] } 5. a3 $6 { [%eval 0.12] } 5... d5
+{ [%eval 0.13] } 6. e3 { [%eval 0.04] } 6... Nc6 $6 { [%eval 0.73] } 7. Bxg7 $4
+{ [%eval -2.76] } 7... Bxg7 { [%eval -2.76] } 8. Qh5+ $6 { [%eval -3.27] } 8...
+Kf8 { [%eval -3.05] } 9. Nc3 $6 { [%eval -3.58] } 9... Nf6 $6 { [%eval -2.73] }
+10. Qg5 $2 { [%eval -5.04] } 10... h6 { [%eval -4.58] } 11. Qg6 $4
+{ [%eval -10.53] } 11... Ne7 { [%eval -9.75] } 12. Qxf6+ { [%eval -10.68] }
+12... Bxf6 { [%eval -10.43] } 13. Nge2 { [%eval -10.38] } 13... Rb8
+{ [%eval -10.1] } 14. O-O { [%eval -10.46] } 14... b4 $6 { [%eval -9.17] } 15.
+Na4 $6 { [%eval -11.72] } 15... Qd6 { [%eval -11.31] } 16. d4
+{ [%eval -14.43] } 16... bxa3 $2 { [%eval -8.94] } 17. Nf4 $2 { [%eval -10.5] }
+17... Bg5 { [%eval -10.32] } 18. Nc5 { [%eval -9.54] } 18... Bxf4
+{ [%eval -9.41] } 19. gxf4 $6 { [%eval -14.79] } 19... Rg8 { [%eval -13.63] }
+20. Rxa3 $6 { [%eval #-3] } 20... Qg6 { [%eval #-2] } 0-1

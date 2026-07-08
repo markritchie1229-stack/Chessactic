@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/UslzHIu7"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ali_hypermodern"]
+[Black "PeshkaCh"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:28:17"]
+[WhiteElo "2177"]
+[BlackElo "2353"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[BlackTitle "LM"]
+[ECO "D41"]
+[Opening "Queen's Gambit Declined: Semi-Tarrasch, 5.cxd5"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.14] } 1... Nf6 { [%eval 0.2] } 2. c4 { [%eval 0.22] } 2... e6
+{ [%eval 0.19] } 3. d4 { [%eval 0.2] } 3... d5 { [%eval 0.25] } 4. Nc3
+{ [%eval 0.17] } 4... c5 { [%eval 0.33] } 5. cxd5 { [%eval 0.37] } 5... exd5
+{ [%eval 0.49] } 6. Bg5 { [%eval 0.41] } 6... Be6 { [%eval 0.45] } 7. e3
+{ [%eval 0.16] } 7... Nc6 { [%eval 0.61] } 8. Be2 { [%eval 0.35] } 8... h6
+{ [%eval 0.51] } 9. Bh4 { [%eval 0.12] } 9... Be7 { [%eval 0.27] } 10. dxc5
+{ [%eval 0.41] } 10... Bxc5 { [%eval 0.38] } 11. O-O { [%eval 0.39] } 11... O-O
+{ [%eval 0.35] } 12. Bxf6 { [%eval 0.25] } 12... Qxf6 { [%eval 0.22] } 13. Nxd5
+{ [%eval 0.25] } 13... Qxb2 { [%eval 0.23] } 14. Rb1 $6 { [%eval -0.31] } 14...
+Qxa2 { [%eval -0.27] } 15. Nf4 { [%eval -0.08] } 15... Bb6 { [%eval 0.0] } 16.
+Ra1 { [%eval 0.0] } 16... Qb3 { [%eval 0.0] } 17. Qc1 { [%eval -0.17] } 17...
+Bg4 $2 { [%eval 2.25] } 18. Rb1 $2 { [%eval 0.41] } 18... Qa4 { [%eval 0.52] }
+19. Bb5 $6 { [%eval -0.1] } 19... Qe4 { [%eval -0.13] } 20. Bd3
+{ [%eval -0.39] } 20... Qe7 { [%eval -0.04] } 21. Nd5 { [%eval -0.1] } 21...
+Qd8 { [%eval 0.12] } 22. Rd1 { [%eval 0.0] } 22... Bxf3 { [%eval 0.16] } 23.
+gxf3 { [%eval 0.08] } 23... Qg5+ { [%eval 0.39] } 24. Kh1 { [%eval 0.23] }
+24... Qh5 { [%eval 0.62] } 25. Be4 { [%eval 0.6] } 25... Rad8 { [%eval 0.9] }
+26. Rb5 { [%eval 0.91] } 26... Qh4 { [%eval 0.75] } 27. Rg1 { [%eval 0.73] }
+27... f5 { [%eval 1.22] } 28. Bb1 $2 { [%eval 0.0] } 28... Qxf2 { [%eval 0.0] }
+29. Qc3 $4 { [%eval -4.64] } 29... Qxf3+ { [%eval -4.21] } 30. Rg2
+{ [%eval -4.25] } 30... Rd7 $2 { [%eval -1.78] } 31. Ba2 $2 { [%eval -2.89] }
+31... Kh8 { [%eval -2.75] } 32. Nf4 $4 { [%eval #-2] } 32... Rd1+
+{ [%eval #-1] } 0-1

@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/1XNmFzsq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marines2040"]
+[Black "narney"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:56:00"]
+[WhiteElo "1411"]
+[BlackElo "1369"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+21"]
+[ECO "C55"]
+[Opening "Italian Game: Two Knights Defense, Modern Bishop's Opening"]
+[TimeControl "600+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.3] } 2... Nc6
+{ [%eval 0.28] } 3. Bc4 { [%eval 0.21] } 3... Nf6 { [%eval 0.19] } 4. d3
+{ [%eval 0.15] } 4... Bb4+ { [%eval 0.58] } 5. Bd2 $6 { [%eval 0.02] } 5...
+Bxd2+ { [%eval 0.05] } 6. Qxd2 { [%eval 0.06] } 6... O-O { [%eval 0.0] } 7. O-O
+{ [%eval 0.0] } 7... d6 { [%eval 0.1] } 8. Nc3 { [%eval -0.12] } 8... Bg4
+{ [%eval -0.14] } 9. Nd5 $2 { [%eval -1.75] } 9... Bxf3 { [%eval -1.66] } 10.
+Qg5 $2 { [%eval -3.96] } 10... Nxd5 { [%eval -3.87] } 11. Qxd8
+{ [%eval -3.95] } 11... Raxd8 $2 { [%eval -2.62] } 12. Bxd5 $2
+{ [%eval -4.04] } 12... Bg4 { [%eval -4.0] } 13. c3 $6 { [%eval -4.72] } 13...
+Rb8 $6 { [%eval -3.83] } 14. d4 $2 { [%eval -4.94] } 14... exd4
+{ [%eval -4.81] } 15. cxd4 $6 { [%eval -5.39] } 15... Nxd4 { [%eval -5.31] }
+16. Rad1 $2 { [%eval -7.15] } 16... Bxd1 { [%eval -7.11] } 17. Rxd1
+{ [%eval -7.12] } 17... Ne2+ { [%eval -7.05] } 18. Kh1 { [%eval -7.16] } 18...
+Nf4 { [%eval -7.14] } 19. Bc4 { [%eval -7.39] } 19... b5 { [%eval -7.34] } 20.
+Bb3 { [%eval -7.59] } 20... c5 { [%eval -7.33] } 21. Rxd6 $2 { [%eval -10.34] }
+21... Rfd8 { [%eval -10.05] } 22. Rc6 { [%eval -12.36] } 22... Rd2 $2
+{ [%eval -7.92] } 23. g3 $2 { [%eval -9.86] } 23... Ne6 { [%eval -9.33] } 24.
+h4 $6 { [%eval -11.98] } 24... Rxf2 { [%eval -10.95] } 25. e5 { [%eval -15.1] }
+25... Rxb2 { [%eval -14.63] } 26. Bd5 { [%eval -14.73] } 26... Rd8
+{ [%eval -13.43] } 27. a3 $6 { [%eval #-8] } 27... Rxd5 { [%eval #-7] } 28.
+Rc8+ { [%eval #-3] } 28... Nf8 { [%eval #-2] } 29. Rxf8+ { [%eval #-2] } 29...
+Kxf8 { [%eval #-1] } 0-1

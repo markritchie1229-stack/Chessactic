@@ -1,0 +1,35 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/eWVH50Tt"]
+[Site "https://lichess.org/T9EWJ2cq"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gwonky"]
+[Black "trapmax"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:51:41"]
+[WhiteElo "1398"]
+[BlackElo "1443"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C10"]
+[Opening "French Defense: Marshall Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.11] } 1... e6 { [%eval 0.21] } 2. d4 { [%eval 0.18] } 2... d5
+{ [%eval 0.17] } 3. Nc3 { [%eval 0.21] } 3... c5 $6 { [%eval 0.78] } 4. Be3 $6
+{ [%eval -0.16] } 4... Qb6 $2 { [%eval 1.17] } 5. exd5 { [%eval 1.29] } 5...
+exd5 $2 { [%eval 2.33] } 6. Nxd5 { [%eval 2.31] } 6... Qxb2 $4 { [%eval 6.5] }
+7. Nc7+ $6 { [%eval 5.88] } 7... Kd7 $2 { [%eval 7.7] } 8. Nxa8
+{ [%eval 7.24] } 8... Qc3+ $2 { [%eval 10.39] } 9. Bd2 { [%eval 10.44] } 9...
+Qxd4 { [%eval 10.56] } 10. Nf3 { [%eval 10.1] } 10... Qe4+ { [%eval 10.03] }
+11. Be2 { [%eval 9.04] } 11... Nf6 $6 { [%eval 11.86] } 12. O-O
+{ [%eval 11.86] } 12... Bd6 { [%eval 11.89] } 13. Bd3 $4 { [%eval 6.38] } 13...
+Qc6 $2 { [%eval 9.25] } 14. Re1 { [%eval 8.82] } 14... b6 $2 { [%eval 14.57] }
+15. Nxb6+ $2 { [%eval 7.46] } 15... Qxb6 $2 { [%eval 10.1] } 16. Ne5+ $2
+{ [%eval 7.38] } 16... Bxe5 { [%eval 7.28] } 17. Rxe5 { [%eval 6.82] } 17...
+Bb7 $4 { [%eval 16.06] } 18. Bf5+ { [%eval 15.03] } 18... Kc7 { [%eval 25.79] }
+19. Bf4 { [%eval 20.68] } 19... Qc6 $6 { [%eval #5] } 20. Re7+ $6
+{ [%eval #7] } 20... Kb6 { [%eval #7] } 21. Rb1+ { [%eval #6] } 21... Ka5
+{ [%eval #6] } 22. Qd2+ { [%eval #6] } 22... Ka6 { [%eval #3] } 23. Bd3+ $6
+{ [%eval #6] } 1-0

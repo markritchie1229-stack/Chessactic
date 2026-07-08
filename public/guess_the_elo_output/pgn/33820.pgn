@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/cfJcLNDI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Patzmaschine"]
+[Black "mohamed_farrag20"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "13:19:54"]
+[WhiteElo "2290"]
+[BlackElo "1926"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-2"]
+[ECO "A02"]
+[Opening "Bird Opening: From's Gambit"]
+[TimeControl "300+15"]
+[Termination "Normal"]
+
+1. f4 { [%eval -0.12] } 1... e5 $6 { [%eval 0.43] } 2. fxe5 { [%eval 0.33] }
+2... d6 { [%eval 0.22] } 3. exd6 { [%eval 0.2] } 3... Bxd6 { [%eval 0.22] } 4.
+Nf3 { [%eval 0.12] } 4... Bg4 { [%eval 0.59] } 5. e4 { [%eval 0.14] } 5... Nc6
+$6 { [%eval 0.96] } 6. Bb5 { [%eval 0.78] } 6... Qe7 { [%eval 0.95] } 7. O-O
+{ [%eval 0.81] } 7... O-O-O $6 { [%eval 1.39] } 8. Bxc6 { [%eval 1.41] } 8...
+bxc6 { [%eval 1.32] } 9. Nc3 { [%eval 0.87] } 9... h5 $2 { [%eval 2.37] } 10.
+d4 { [%eval 1.68] } 10... Bb4 $2 { [%eval 3.2] } 11. Qd3 { [%eval 2.85] } 11...
+Nf6 $2 { [%eval 3.87] } 12. e5 $6 { [%eval 3.31] } 12... Nd5 $6
+{ [%eval 4.13] } 13. Nxd5 { [%eval 4.04] } 13... cxd5 $2 { [%eval 5.16] } 14.
+c3 { [%eval 5.03] } 14... Bc5 { [%eval 5.51] } 15. dxc5 { [%eval 5.15] } 15...
+Qxc5+ { [%eval 4.93] } 16. Be3 { [%eval 4.86] } 16... Qa5 $2 { [%eval 7.51] }
+17. Nd4 { [%eval 6.89] } 17... Qa4 $4 { [%eval 10.77] } 18. b3
+{ [%eval 10.58] } 18... Qa3 { [%eval 10.23] } 19. Nb5 { [%eval 9.98] } 19...
+Qa5 { [%eval 9.36] } 20. Nxa7+ $2 { [%eval 7.73] } 20... Kb7 { [%eval 7.83] }
+21. a4 $2 { [%eval 6.43] } 21... c5 $4 { [%eval 21.24] } 22. Nb5
+{ [%eval 9.65] } 22... c4 { [%eval 20.11] } 23. bxc4 { [%eval 12.88] } 23...
+dxc4 $6 { [%eval #7] } 24. Nd6+ { [%eval #6] } 24... Kc7 { [%eval #5] } 25.
+Qxc4+ { [%eval #4] } 25... Kb8 { [%eval #3] } 26. Rab1+ { [%eval #2] } 26...
+Ka8 { [%eval #1] } 27. Qc6# 1-0

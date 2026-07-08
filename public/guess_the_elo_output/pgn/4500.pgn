@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/A6rOFLJa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChessSageX"]
+[Black "HerpPotato"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "05:55:04"]
+[WhiteElo "1150"]
+[BlackElo "1298"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+8"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.22] } 1... Nf6 { [%eval 0.33] } 2. e3 { [%eval 0.12] } 2...
+Nc6 { [%eval 0.35] } 3. Bd3 { [%eval -0.14] } 3... e5 { [%eval -0.05] } 4. dxe5
+{ [%eval -0.11] } 4... Nxe5 { [%eval -0.08] } 5. Bf1 $6 { [%eval -0.99] } 5...
+Bb4+ $6 { [%eval -0.39] } 6. c3 { [%eval -0.6] } 6... Ba5 { [%eval -0.53] } 7.
+b4 { [%eval -0.56] } 7... Bb6 { [%eval -0.46] } 8. a4 { [%eval -0.77] } 8...
+O-O $2 { [%eval 2.13] } 9. a5 { [%eval 2.09] } 9... d5 $6 { [%eval 2.85] } 10.
+axb6 { [%eval 2.87] } 10... cxb6 { [%eval 2.88] } 11. f4 $2 { [%eval 1.64] }
+11... Bg4 $6 { [%eval 2.15] } 12. Qb3 $6 { [%eval 1.41] } 12... Nc6
+{ [%eval 1.68] } 13. Bb5 { [%eval 1.28] } 13... a6 { [%eval 1.71] } 14. Ba4 $2
+{ [%eval -0.96] } 14... b5 { [%eval -1.02] } 15. Bxb5 { [%eval -0.97] } 15...
+axb5 { [%eval -0.96] } 16. Rxa8 { [%eval -0.98] } 16... Qxa8 { [%eval -0.77] }
+17. Na3 { [%eval -1.0] } 17... Na7 $6 { [%eval -0.35] } 18. h3
+{ [%eval -0.68] } 18... Bd7 { [%eval -0.77] } 19. c4 $2 { [%eval -2.43] } 19...
+Qc8 $2 { [%eval -0.97] } 20. cxd5 $4 { [%eval -10.31] } 20... Qxc1+
+{ [%eval -10.31] } 21. Kf2 { [%eval -24.19] } 21... Ne4+ { [%eval -22.33] } 22.
+Kf3 { [%eval -29.72] } 22... Nd2+ { [%eval -29.08] } 23. Ke2 { [%eval -27.64] }
+23... Nxb3 { [%eval -26.34] } 24. h4 $6 { [%eval #-6] } 24... Qxa3 $6
+{ [%eval -27.93] } 0-1

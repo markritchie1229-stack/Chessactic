@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/5DZV8mVy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "atefmadrid"]
+[Black "engo55"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:43:56"]
+[WhiteElo "1753"]
+[BlackElo "1753"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Symmetrical Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.26] } 2. Nf3 { [%eval 0.16] } 2...
+Nf6 { [%eval 0.22] } 3. Nc3 { [%eval -0.13] } 3... g6 { [%eval 0.17] } 4. e3
+{ [%eval 0.0] } 4... c6 { [%eval 0.1] } 5. a4 { [%eval -0.15] } 5... Bg7
+{ [%eval -0.05] } 6. a5 { [%eval -0.13] } 6... a6 { [%eval 0.04] } 7. b3
+{ [%eval -0.12] } 7... Nbd7 { [%eval 0.23] } 8. Bb2 { [%eval 0.03] } 8... O-O
+{ [%eval 0.1] } 9. Bd3 { [%eval -0.31] } 9... Re8 { [%eval 0.03] } 10. h3
+{ [%eval 0.12] } 10... Nf8 { [%eval 0.19] } 11. O-O { [%eval 0.22] } 11... Ne6
+{ [%eval 0.71] } 12. Na4 $6 { [%eval 0.13] } 12... Nd7 $6 { [%eval 1.02] } 13.
+b4 { [%eval 0.67] } 13... Nc7 { [%eval 0.75] } 14. e4 { [%eval 0.72] } 14...
+dxe4 { [%eval 0.68] } 15. Bxe4 { [%eval 0.92] } 15... f5 $6 { [%eval 1.77] }
+16. Bd3 { [%eval 1.8] } 16... e5 $6 { [%eval 2.5] } 17. dxe5 { [%eval 2.13] }
+17... Nxe5 $2 { [%eval 3.6] } 18. Nxe5 $6 { [%eval 2.95] } 18... Bxe5
+{ [%eval 2.82] } 19. Bxe5 $2 { [%eval 1.43] } 19... Rxe5 { [%eval 1.64] } 20.
+Bc4+ $2 { [%eval 0.23] } 20... Nd5 $4 { [%eval 3.41] } 21. Nb6 { [%eval 3.41] }
+21... Rb8 { [%eval 3.05] } 22. Nxd5 $2 { [%eval 1.36] } 22... cxd5
+{ [%eval 1.39] } 23. Bb3 { [%eval 0.96] } 23... Be6 { [%eval 0.88] } 24. Re1
+{ [%eval 0.73] } 24... Rxe1+ { [%eval 1.16] } 25. Qxe1 { [%eval 1.14] } 25...
+Qd6 { [%eval 1.31] } 26. Rd1 { [%eval 1.16] } 26... Rd8 { [%eval 1.37] } 27. c4
+{ [%eval 1.28] } 27... Qc6 $4 { [%eval 10.87] } 28. cxd5 { [%eval 10.52] }
+28... Bxd5 { [%eval 10.32] } 29. Rxd5 { [%eval 9.8] } 29... Rxd5
+{ [%eval 9.36] } 30. Qd1 $2 { [%eval 7.01] } 1-0

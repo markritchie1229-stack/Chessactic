@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/mhCjTjUD"]
+[Date "????.??.??"]
+[Round "?"]
+[White "small_fingers"]
+[Black "freaddy354"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:07:06"]
+[WhiteElo "1596"]
+[BlackElo "1644"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "A00"]
+[Opening "Van Geet Opening: Napoleon Attack"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.16] } 1... Nc6 { [%eval 0.36] } 2. Nc3 { [%eval 0.07] } 2...
+e5 { [%eval 0.07] } 3. d4 { [%eval 0.0] } 3... exd4 { [%eval -0.11] } 4. Nxd4
+{ [%eval 0.0] } 4... Bb4 { [%eval 0.21] } 5. Qd3 { [%eval 0.0] } 5... Qf6
+{ [%eval 0.14] } 6. e3 { [%eval 0.08] } 6... Nxd4 { [%eval 0.21] } 7. exd4
+{ [%eval -0.05] } 7... c5 $2 { [%eval 1.2] } 8. dxc5 { [%eval 1.05] } 8... Bxc5
+{ [%eval 1.04] } 9. Be3 { [%eval 1.03] } 9... Qe6 $6 { [%eval 1.8] } 10. O-O-O
+$6 { [%eval 1.0] } 10... Bxe3+ { [%eval 1.07] } 11. fxe3 { [%eval 1.1] } 11...
+Nf6 { [%eval 1.12] } 12. g3 { [%eval 0.64] } 12... O-O { [%eval 0.84] } 13. Bg2
+{ [%eval 0.78] } 13... Re8 $6 { [%eval 1.59] } 14. e4 $2 { [%eval 0.55] } 14...
+Qe5 $6 { [%eval 1.14] } 15. Nd5 { [%eval 0.66] } 15... Nxd5 { [%eval 0.52] }
+16. exd5 { [%eval 0.1] } 16... d6 { [%eval 0.0] } 17. Rhe1 { [%eval 0.0] }
+17... Qg5+ { [%eval 0.25] } 18. Kb1 $6 { [%eval -0.41] } 18... Bg4
+{ [%eval -0.06] } 19. Rxe8+ $2 { [%eval -1.07] } 19... Rxe8 { [%eval -0.94] }
+20. Rf1 { [%eval -1.0] } 20... Be2 $4 { [%eval 2.23] } 21. Qf5 $4
+{ [%eval -4.73] } 21... Qxf5 { [%eval -4.67] } 22. Rxf5 { [%eval -4.5] } 22...
+Bg4 $2 { [%eval -2.36] } 23. Rf1 { [%eval -2.33] } 23... g6 $2
+{ [%eval -0.77] } 24. Rc1 $2 { [%eval -2.31] } 24... Re2 { [%eval -2.27] } 25.
+h3 $2 { [%eval -3.59] } 25... Rxg2 { [%eval -3.45] } 26. hxg4 { [%eval -3.44] }
+26... Rxg3 { [%eval -3.45] } 27. c4 { [%eval -3.39] } 27... Rxg4
+{ [%eval -3.32] } 28. c5 { [%eval -3.1] } 28... Rd4 $4 { [%eval 4.36] } 29. c6
+{ [%eval 3.85] } 29... Rxd5 $4 { [%eval 10.2] } 30. cxb7 $4 { [%eval 3.27] }
+30... Rc5 $4 { [%eval 60.99] } 31. Rxc5 { [%eval 23.2] } 31... Kg7 $6
+{ [%eval #11] } 32. b8=Q $6 { [%eval 21.18] } 1-0

@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/4viaOWTX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "thiagospx"]
+[Black "Popabear"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "02:30:46"]
+[WhiteElo "1793"]
+[BlackElo "1790"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "C62"]
+[Opening "Ruy Lopez: Steinitz Defense"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.35] } 2. Nf3 { [%eval 0.23] } 2... Nc6
+{ [%eval 0.35] } 3. Bb5 { [%eval 0.29] } 3... d6 { [%eval 0.35] } 4. d4
+{ [%eval 0.27] } 4... exd4 { [%eval 0.37] } 5. Nxd4 { [%eval 0.33] } 5... Bd7
+{ [%eval 0.23] } 6. O-O { [%eval 0.26] } 6... Ne5 $6 { [%eval 0.78] } 7. Bxd7+
+{ [%eval 0.46] } 7... Nxd7 { [%eval 0.54] } 8. Nc3 { [%eval 0.56] } 8... c6 $6
+{ [%eval 1.51] } 9. Nf5 { [%eval 1.49] } 9... Ne5 { [%eval 1.85] } 10. f4
+{ [%eval 1.75] } 10... Nc4 { [%eval 1.93] } 11. b3 { [%eval 2.09] } 11... g6
+{ [%eval 2.33] } 12. bxc4 { [%eval 1.99] } 12... gxf5 { [%eval 2.06] } 13. exf5
+{ [%eval 1.75] } 13... Nf6 $6 { [%eval 2.72] } 14. Re1+ $6 { [%eval 2.19] }
+14... Be7 { [%eval 2.38] } 15. Ba3 $6 { [%eval 1.66] } 15... c5 $2
+{ [%eval 3.77] } 16. Nd5 { [%eval 3.43] } 16... Nxd5 { [%eval 3.55] } 17. cxd5
+$2 { [%eval 1.24] } 17... f6 $4 { [%eval 4.59] } 18. Bb2 $6 { [%eval 3.73] }
+18... Kd7 { [%eval 4.12] } 19. c4 $6 { [%eval 3.47] } 19... Rg8
+{ [%eval 3.84] } 20. Qe2 $2 { [%eval 2.48] } 20... Rg7 { [%eval 2.51] } 21. g4
+{ [%eval 2.27] } 21... Qg8 $6 { [%eval 2.89] } 22. g5 { [%eval 2.6] } 22... h6
+$2 { [%eval 4.99] } 23. Kh1 { [%eval 5.08] } 23... hxg5 { [%eval 4.96] } 24.
+fxg5 { [%eval 4.81] } 24... Qf8 $2 { [%eval 7.36] } 25. g6 $4 { [%eval 4.32] }
+25... Qh8 $4 { [%eval 7.81] } 26. Qe6+ { [%eval 7.56] } 26... Kc7
+{ [%eval 7.42] } 27. Bxf6 { [%eval 6.91] } 27... Bxf6 { [%eval 6.98] } 28. Qxf6
+{ [%eval 6.47] } 28... Rf8 $4 { [%eval 74.87] } 29. Re7+ { [%eval 33.19] }
+29... Rxe7 $6 { [%eval #11] } 30. Qxe7+ { [%eval #10] } 30... Kb8
+{ [%eval #10] } 31. g7 { [%eval #10] } 1-0

@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/MrHv58Kb"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bahn"]
+[Black "oraun"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:54:20"]
+[WhiteElo "1286"]
+[BlackElo "1357"]
+[WhiteRatingDiff "-97"]
+[BlackRatingDiff "+8"]
+[ECO "C70"]
+[Opening "Ruy Lopez: Morphy Defense, Caro Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.25] } 3. Bb5 { [%eval 0.21] } 3... a6 { [%eval 0.26] } 4. Ba4
+{ [%eval 0.2] } 4... b5 { [%eval 0.35] } 5. Nc3 $2 { [%eval -2.64] } 5... Nf6
+$2 { [%eval 0.33] } 6. d4 $2 { [%eval -2.57] } 6... bxa4 $6 { [%eval -1.8] } 7.
+Nxa4 $2 { [%eval -3.12] } 7... Nxe4 $6 { [%eval -2.27] } 8. dxe5 $2
+{ [%eval -3.27] } 8... Bb4+ $6 { [%eval -2.39] } 9. c3 { [%eval -2.49] } 9...
+Nxc3 $2 { [%eval 0.06] } 10. bxc3 { [%eval -0.04] } 10... Bxc3+ $4
+{ [%eval 3.6] } 11. Bd2 $4 { [%eval -2.45] } 11... Bxa1 { [%eval -2.4] } 12.
+Qxa1 { [%eval -2.6] } 12... O-O { [%eval -2.38] } 13. O-O { [%eval -2.15] }
+13... d6 { [%eval -2.71] } 14. Re1 $6 { [%eval -3.47] } 14... dxe5
+{ [%eval -3.04] } 15. Nxe5 $4 { [%eval -6.45] } 15... Nxe5 { [%eval -6.14] }
+16. Qxe5 $2 { [%eval -7.5] } 16... Qxd2 { [%eval -7.26] } 17. Nc5
+{ [%eval -7.39] } 17... Bg4 $6 { [%eval -6.87] } 18. Ne4 $4 { [%eval #-1] }
+18... Qd3 $4 { [%eval -6.92] } 19. Nc5 { [%eval -6.89] } 19... Qd2
+{ [%eval -6.75] } 20. Qe4 $6 { [%eval -7.61] } 20... Rad8 { [%eval -7.41] } 21.
+Qxg4 $2 { [%eval #-1] } 21... Qxe1# 0-1

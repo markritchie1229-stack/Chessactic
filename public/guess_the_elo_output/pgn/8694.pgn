@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/IdruwTpk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Obanta"]
+[Black "labuverr"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:44:32"]
+[WhiteElo "1657"]
+[BlackElo "1626"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... d5 $6 { [%eval 0.87] } 2. Bb5+ $2 { [%eval -0.78] }
+2... c6 { [%eval -0.43] } 3. Be2 { [%eval -0.89] } 3... dxe4 { [%eval -0.77] }
+4. Bc4 $6 { [%eval -1.44] } 4... Nf6 { [%eval -1.33] } 5. Bxf7+ $2
+{ [%eval -3.18] } 5... Kxf7 { [%eval -3.01] } 6. f3 { [%eval -3.12] } 6... exf3
+{ [%eval -2.8] } 7. Nxf3 { [%eval -2.94] } 7... Be6 $4 { [%eval 1.56] } 8. Ng5+
+{ [%eval 1.25] } 8... Kg6 { [%eval 1.72] } 9. Nxe6 { [%eval 1.65] } 9... Qd6
+{ [%eval 1.9] } 10. Nxf8+ $2 { [%eval 0.0] } 10... Rxf8 { [%eval 0.15] } 11.
+O-O $2 { [%eval -1.09] } 11... Kf7 $2 { [%eval 0.19] } 12. Kh1 { [%eval 0.07] }
+12... Ke8 { [%eval 0.53] } 13. d3 { [%eval 0.49] } 13... Nbd7 { [%eval 0.73] }
+14. Bg5 { [%eval 0.27] } 14... Qc7 $6 { [%eval 0.81] } 15. Bxf6
+{ [%eval 0.79] } 15... exf6 $6 { [%eval 1.43] } 16. Re1+ $2 { [%eval 0.04] }
+16... Kd8 $2 { [%eval 1.53] } 17. Nc3 { [%eval 1.55] } 17... Qd6
+{ [%eval 1.46] } 18. Ne4 { [%eval 1.34] } 18... Qe5 $6 { [%eval 2.12] } 19. Qd2
+{ [%eval 1.82] } 19... Qd4 $6 { [%eval 2.34] } 20. Qa5+ $6 { [%eval 1.35] }
+20... b6 { [%eval 1.28] } 21. Qf5 { [%eval 1.02] } 21... Kc7 { [%eval 1.14] }
+22. Qf4+ $6 { [%eval 0.6] } 22... Kb7 $4 { [%eval 13.56] } 23. Nd6+
+{ [%eval 12.63] } 23... Ka6 $6 { [%eval #7] } 24. Nc4 $4 { [%eval -12.81] }
+24... Rae8 $4 { [%eval 21.73] } 25. Qc7 $4 { [%eval 0.72] } 25... Rb8 $4
+{ [%eval 10.74] } 26. Qxc6 { [%eval 9.49] } 26... Rb7 $2 { [%eval #1] } 27.
+Qa4# 1-0

@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/4e3UENZi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jwha"]
+[Black "ggwp123"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:34:37"]
+[WhiteElo "1602"]
+[BlackElo "1638"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.31] } 2. Be2 { [%eval 0.27] } 2...
+Nc6 { [%eval 0.25] } 3. Nf3 { [%eval 0.06] } 3... e6 { [%eval 0.27] } 4. d3
+{ [%eval -0.12] } 4... Nf6 { [%eval -0.02] } 5. Be3 { [%eval -0.33] } 5... d5
+{ [%eval -0.39] } 6. O-O { [%eval -0.32] } 6... d4 { [%eval 0.0] } 7. Bd2
+{ [%eval -0.28] } 7... e5 { [%eval -0.32] } 8. c3 { [%eval -0.37] } 8... Be7
+{ [%eval 0.0] } 9. cxd4 { [%eval -0.12] } 9... cxd4 { [%eval -0.13] } 10. a3 $6
+{ [%eval -0.71] } 10... O-O { [%eval -0.68] } 11. b4 { [%eval -0.75] } 11... b5
+$2 { [%eval 0.42] } 12. Bg5 $2 { [%eval -1.2] } 12... h6 { [%eval -0.85] } 13.
+Bh4 { [%eval -1.2] } 13... a6 $6 { [%eval -0.32] } 14. Bg3 { [%eval -0.57] }
+14... Bd6 { [%eval -0.43] } 15. Nbd2 { [%eval -0.4] } 15... Be6
+{ [%eval -0.39] } 16. h3 { [%eval -0.62] } 16... Nh5 { [%eval -0.23] } 17. Bh2
+{ [%eval -0.39] } 17... Rc8 $6 { [%eval 0.15] } 18. Ne1 $6 { [%eval -0.62] }
+18... Qf6 $4 { [%eval 3.12] } 19. Bxh5 { [%eval 3.06] } 19... Qg5
+{ [%eval 3.21] } 20. Qf3 $4 { [%eval -0.67] } 20... f5 $4 { [%eval 2.72] } 21.
+exf5 { [%eval 2.62] } 21... Rxf5 $2 { [%eval 4.33] } 22. h4 $4 { [%eval 0.52] }
+22... Qxd2 $6 { [%eval 1.21] } 23. Qg3 $2 { [%eval -0.52] } 23... Rcf8 $6
+{ [%eval 0.0] } 24. Bf3 $2 { [%eval -2.21] } 24... Qf4 $4 { [%eval 4.52] } 25.
+Qh3 $4 { [%eval 0.0] } 25... Qd2 { [%eval 0.15] } 26. Bg4 { [%eval 0.05] }
+26... Rxf2 $2 { [%eval 2.53] } 27. Bxe6+ { [%eval 2.45] } 27... Kh8
+{ [%eval 2.58] } 28. Rxf2 $2 { [%eval 0.0] } 28... Qxf2+ { [%eval 0.0] } 29.
+Kh1 { [%eval 0.0] } 29... Qf1+ $2 { [%eval 2.76] } 30. Bg1 { [%eval 2.75] }
+30... e4 $2 { [%eval 4.07] } 31. dxe4 { [%eval 3.69] } 31... Ne5 $6
+{ [%eval 4.65] } 0-1

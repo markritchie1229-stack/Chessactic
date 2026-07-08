@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/f5GGJg8J"]
+[Date "????.??.??"]
+[Round "?"]
+[White "artscispo"]
+[Black "Aslan-bay"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:28:41"]
+[WhiteElo "2250"]
+[BlackElo "2382"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-15"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.1] } 1... d5 { [%eval 0.12] } 2. c4 { [%eval 0.2] } 2... c6
+{ [%eval 0.28] } 3. Nc3 { [%eval 0.13] } 3... Nf6 { [%eval 0.33] } 4. Nf3
+{ [%eval 0.13] } 4... e6 { [%eval 0.25] } 5. Bg5 { [%eval 0.14] } 5... h6
+{ [%eval 0.18] } 6. Bxf6 { [%eval 0.19] } 6... Qxf6 { [%eval 0.19] } 7. e3
+{ [%eval 0.09] } 7... Nd7 { [%eval 0.23] } 8. Rc1 { [%eval 0.12] } 8... g6
+{ [%eval 0.22] } 9. Be2 { [%eval -0.07] } 9... Bg7 { [%eval 0.0] } 10. O-O
+{ [%eval -0.02] } 10... O-O { [%eval 0.0] } 11. e4 { [%eval -0.08] } 11... dxc4
+{ [%eval 0.25] } 12. Bxc4 { [%eval -0.07] } 12... Qe7 { [%eval 0.13] } 13. e5
+{ [%eval 0.1] } 13... c5 { [%eval 0.13] } 14. Re1 { [%eval 0.14] } 14... cxd4
+{ [%eval 0.21] } 15. Qxd4 { [%eval 0.14] } 15... b6 { [%eval 0.48] } 16. Rcd1
+{ [%eval 0.0] } 16... Nc5 { [%eval 0.0] } 17. b4 { [%eval 0.01] } 17... Na6
+{ [%eval 0.12] } 18. a3 { [%eval 0.14] } 18... Bb7 { [%eval 0.18] } 19. Ne4
+{ [%eval 0.0] } 19... Rfd8 { [%eval 0.0] } 20. Nd6 { [%eval -0.31] } 20... Bxf3
+{ [%eval 0.0] } 21. gxf3 { [%eval -0.07] } 21... Nc7 { [%eval -0.01] } 22. f4
+{ [%eval -0.03] } 22... Ne8 { [%eval 0.0] } 23. Qe4 { [%eval -0.05] } 23...
+Rab8 { [%eval 0.04] } 24. Nb5 { [%eval -0.14] } 24... Bf8 { [%eval 0.31] } 25.
+Nd4 { [%eval 0.27] } 25... Qb7 { [%eval 0.33] } 26. Nc6 { [%eval 0.18] } 26...
+Rxd1 { [%eval 0.03] } 27. Rxd1 { [%eval 0.04] } 27... Rc8 { [%eval 0.23] } 28.
+b5 { [%eval 0.1] } 28... Ng7 { [%eval 0.51] } 29. a4 { [%eval 0.29] } 29... Nf5
+{ [%eval 0.28] } 30. Qd3 { [%eval -0.07] } 30... Bc5 { [%eval 0.31] } 31. Qd7
+{ [%eval 0.46] } 31... Rc7 $4 { [%eval #4] } 32. Qe8+ { [%eval #3] } 32... Kg7
+{ [%eval #3] } 33. Rd8 { [%eval #2] } 1-0

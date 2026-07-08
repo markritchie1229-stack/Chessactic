@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/m7pbuiKi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ellidafearless12345"]
+[Black "mbaki"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:25:51"]
+[WhiteElo "1421"]
+[BlackElo "1305"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-10"]
+[ECO "D31"]
+[Opening "Semi-Slav Defense: Noteboom Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.3] } 2. c4 { [%eval 0.29] } 2... e6
+{ [%eval 0.28] } 3. Nc3 { [%eval 0.2] } 3... dxc4 { [%eval 0.57] } 4. Nf3 $6
+{ [%eval -0.04] } 4... c6 $6 { [%eval 0.61] } 5. e4 $6 { [%eval 0.1] } 5... b5
+{ [%eval 0.39] } 6. a4 { [%eval 0.0] } 6... Bd7 $6 { [%eval 0.68] } 7. axb5
+{ [%eval 0.35] } 7... cxb5 { [%eval 0.41] } 8. b3 $6 { [%eval -0.41] } 8... a6
+$2 { [%eval 1.47] } 9. bxc4 { [%eval 1.33] } 9... bxc4 { [%eval 1.68] } 10.
+Bxc4 { [%eval 1.52] } 10... Nc6 { [%eval 1.85] } 11. d5 { [%eval 1.62] } 11...
+exd5 $2 { [%eval 2.86] } 12. exd5 $6 { [%eval 1.93] } 12... Nb4 $2
+{ [%eval 4.58] } 13. d6 $2 { [%eval 3.51] } 13... Bxd6 { [%eval 3.55] } 14.
+Qxd6 { [%eval 3.43] } 14... Nc2+ { [%eval 3.56] } 15. Ke2 { [%eval 3.22] }
+15... Nxa1 $2 { [%eval 4.33] } 16. Bg5 $2 { [%eval 3.1] } 16... f6
+{ [%eval 3.47] } 17. Bf4 $4 { [%eval 0.07] } 17... Nb3 $4 { [%eval 5.38] } 18.
+Qc7 $4 { [%eval -2.68] } 18... Qe7+ $6 { [%eval -1.97] } 19. Kf1 $4
+{ [%eval -6.24] } 19... Rc8 { [%eval -5.84] } 20. Qd6 $4 { [%eval -10.26] }
+20... Qxd6 { [%eval -10.11] } 21. Bxd6 { [%eval -9.89] } 21... Rxc4
+{ [%eval -9.55] } 22. Nd5 { [%eval -13.66] } 22... Rc1+ { [%eval -12.97] } 23.
+Ne1 $6 { [%eval #-2] } 23... Nd2+ $2 { [%eval -8.33] } 24. Ke2
+{ [%eval -8.01] } 24... Ne4 $6 { [%eval -7.31] } 25. f3 $2 { [%eval -12.87] }
+1-0

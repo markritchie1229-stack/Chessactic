@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/HjIh2PoJ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ilkerK"]
+[Black "yury_kalinau"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:55:04"]
+[WhiteElo "1586"]
+[BlackElo "1598"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "C55"]
+[Opening "Italian Game: Anti-Fried Liver Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.35] } 2...
+Nc6 { [%eval 0.25] } 3. Bc4 { [%eval 0.14] } 3... h6 $6 { [%eval 0.67] } 4. Nc3
+{ [%eval 0.18] } 4... Nf6 { [%eval 0.34] } 5. d3 { [%eval 0.08] } 5... Bb4
+{ [%eval 0.13] } 6. Bd2 { [%eval 0.14] } 6... a6 { [%eval 0.14] } 7. a3
+{ [%eval 0.14] } 7... Bxc3 { [%eval 0.24] } 8. Bxc3 { [%eval 0.18] } 8... b5 $6
+{ [%eval 0.75] } 9. Ba2 { [%eval 0.3] } 9... d6 { [%eval 0.59] } 10. Bd2
+{ [%eval 0.16] } 10... Bg4 { [%eval 0.35] } 11. c3 { [%eval 0.19] } 11... Na5
+{ [%eval 0.67] } 12. b4 { [%eval 0.43] } 12... Nb7 { [%eval 0.54] } 13. d4 $6
+{ [%eval -0.14] } 13... Nxe4 { [%eval 0.0] } 14. Qe2 $2 { [%eval -1.04] } 14...
+Nxd2 { [%eval -1.12] } 15. Kxd2 { [%eval -1.48] } 15... O-O { [%eval -1.28] }
+16. Bd5 { [%eval -1.33] } 16... Rb8 { [%eval -1.14] } 17. Qe4 { [%eval -1.6] }
+17... Bxf3 $2 { [%eval -0.52] } 18. Qxf3 { [%eval -0.53] } 18... exd4 $2
+{ [%eval 1.05] } 19. Bxb7 { [%eval 1.02] } 19... Qg5+ { [%eval 0.97] } 20. Kd3
+{ [%eval 0.68] } 20... c5 { [%eval 0.76] } 21. bxc5 $2 { [%eval -0.75] } 21...
+Qxc5 $2 { [%eval 0.94] } 22. Rhc1 { [%eval 1.02] } 22... Qc4+ { [%eval 0.65] }
+23. Ke4 $4 { [%eval -22.92] } 23... dxc3+ { [%eval -20.53] } 24. Kf5 $6
+{ [%eval #-2] } 24... Rfe8 $6 { [%eval -21.1] } 25. Rxc3 $6 { [%eval #-1] }
+25... Re5# 0-1

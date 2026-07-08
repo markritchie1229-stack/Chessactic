@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WoqBpVln"]
+[Date "????.??.??"]
+[Round "?"]
+[White "soldier14"]
+[Black "Dragonchema"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:51:32"]
+[WhiteElo "2318"]
+[BlackElo "2499"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+6"]
+[ECO "C00"]
+[Opening "French Defense: Steiner Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e6 { [%eval 0.13] } 2. c4 { [%eval -0.09] } 2... d5
+{ [%eval -0.06] } 3. cxd5 { [%eval -0.11] } 3... exd5 { [%eval -0.12] } 4. exd5
+{ [%eval -0.1] } 4... Nf6 { [%eval -0.01] } 5. d4 { [%eval -0.13] } 5... Bd6
+{ [%eval 0.07] } 6. Nc3 { [%eval 0.05] } 6... O-O { [%eval 0.0] } 7. Bg5
+{ [%eval -0.09] } 7... a6 { [%eval 0.18] } 8. Nf3 { [%eval 0.12] } 8... b5
+{ [%eval 0.29] } 9. Bd3 { [%eval -0.2] } 9... Re8+ { [%eval -0.22] } 10. Kf1
+{ [%eval -0.22] } 10... Nbd7 { [%eval -0.2] } 11. h4 { [%eval -0.47] } 11...
+Bb7 { [%eval -0.11] } 12. Qb3 { [%eval -0.47] } 12... Be7 $6 { [%eval 0.21] }
+13. Re1 { [%eval -0.11] } 13... Nb6 { [%eval 0.25] } 14. Ne5 { [%eval 0.36] }
+14... Nfxd5 $6 { [%eval 1.18] } 15. Nxd5 $2 { [%eval -0.81] } 15... Bxd5 $6
+{ [%eval 0.0] } 16. Qc2 { [%eval 0.0] } 16... h6 { [%eval 0.05] } 17. Bxe7
+{ [%eval -0.04] } 17... Qxe7 $2 { [%eval 1.09] } 18. Re3 $2 { [%eval -1.58] }
+18... Qf6 $2 { [%eval -0.2] } 19. Rhh3 { [%eval -0.31] } 19... Rac8
+{ [%eval 0.0] } 20. Be4 $2 { [%eval -1.73] } 20... c5 { [%eval -1.89] } 21.
+Bxd5 { [%eval -1.96] } 21... Nxd5 { [%eval -2.01] } 22. Ref3 { [%eval -2.01] }
+22... cxd4 $2 { [%eval -0.44] } 23. Qd2 $4 { [%eval -9.47] } 23... Qxe5
+{ [%eval -9.18] } 24. Rhg3 $6 { [%eval -25.08] } 24... Qe2+ { [%eval -23.45] }
+25. Qxe2 $6 { [%eval #-2] } 25... Rc1+ { [%eval #-1] } 0-1

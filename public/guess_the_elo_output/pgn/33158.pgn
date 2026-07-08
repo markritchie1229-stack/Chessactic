@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jeRO6K5V"]
+[Date "????.??.??"]
+[Round "?"]
+[White "AzovSea"]
+[Black "Rolgom"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:43:19"]
+[WhiteElo "1928"]
+[BlackElo "1949"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-12"]
+[ECO "C00"]
+[Opening "French Defense: Queen's Knight"]
+[TimeControl "600+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e6 { [%eval 0.34] } 2. Nc3 { [%eval 0.34] } 2...
+Bb4 { [%eval 0.39] } 3. Nge2 { [%eval 0.16] } 3... d5 { [%eval 0.11] } 4. exd5
+{ [%eval -0.12] } 4... exd5 { [%eval -0.02] } 5. d4 { [%eval -0.19] } 5... Nf6
+{ [%eval -0.11] } 6. Bg5 { [%eval -0.23] } 6... O-O { [%eval -0.29] } 7. Qd3
+{ [%eval -0.49] } 7... c6 { [%eval -0.61] } 8. O-O-O { [%eval -0.6] } 8... Be6
+$6 { [%eval -0.02] } 9. h4 { [%eval -0.06] } 9... h6 { [%eval 0.16] } 10. f3
+{ [%eval 0.02] } 10... Be7 $6 { [%eval 0.6] } 11. g4 { [%eval 0.71] } 11... b5
+{ [%eval 0.93] } 12. Nf4 { [%eval 0.87] } 12... b4 { [%eval 1.31] } 13. Na4 $6
+{ [%eval 0.48] } 13... Nbd7 $2 { [%eval 2.37] } 14. Nxe6 $6 { [%eval 1.46] }
+14... fxe6 { [%eval 1.27] } 15. Bxh6 { [%eval 1.45] } 15... gxh6
+{ [%eval 1.74] } 16. Qg6+ { [%eval 1.54] } 16... Kh8 { [%eval 1.67] } 17. Qxh6+
+{ [%eval 1.42] } 17... Nh7 { [%eval 1.53] } 18. g5 { [%eval 1.08] } 18... Rxf3
+{ [%eval 1.35] } 19. Bd3 { [%eval 1.11] } 19... Nf8 $6 { [%eval 2.06] } 20. g6
+$2 { [%eval 0.94] } 20... Bf6 { [%eval 1.02] } 21. gxh7 { [%eval 0.79] } 21...
+Bxd4 $2 { [%eval 3.29] } 22. Kb1 $4 { [%eval -0.56] } 22... b3 $4
+{ [%eval 4.55] } 23. axb3 $4 { [%eval 1.03] } 23... Qe7 { [%eval 0.92] } 24.
+Rdf1 { [%eval 0.95] } 24... Qf7 $4 { [%eval 4.2] } 25. Rxf3 { [%eval 4.0] }
+25... Qxf3 { [%eval 4.02] } 26. Rf1 { [%eval 3.81] } 26... Qe3 $4
+{ [%eval #2] } 1-0

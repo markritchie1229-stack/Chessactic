@@ -1,0 +1,36 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/FLclpmxk"]
+[Site "https://lichess.org/ai6iggAE"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Xotic1"]
+[Black "Nicolaskasparov"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:21:05"]
+[WhiteElo "1923"]
+[BlackElo "1413"]
+[WhiteRatingDiff "+2"]
+[BlackRatingDiff "-2"]
+[ECO "B02"]
+[Opening "Alekhine Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... Nf6 { [%eval 0.67] } 2. e5 { [%eval 0.69] } 2... d6
+$2 { [%eval 2.91] } 3. exf6 { [%eval 2.87] } 3... exf6 { [%eval 2.86] } 4. h3
+{ [%eval 2.82] } 4... d5 { [%eval 2.83] } 5. d4 { [%eval 2.68] } 5... f5
+{ [%eval 3.11] } 6. Bd3 { [%eval 3.06] } 6... Nc6 { [%eval 3.25] } 7. c3
+{ [%eval 3.07] } 7... b6 { [%eval 3.36] } 8. Nf3 { [%eval 3.15] } 8... Nb8 $6
+{ [%eval 4.02] } 9. O-O { [%eval 3.96] } 9... c5 $2 { [%eval 5.47] } 10. Be3 $2
+{ [%eval 4.1] } 10... g6 $2 { [%eval 6.22] } 11. dxc5 { [%eval 6.3] } 11...
+bxc5 $4 { [%eval 11.86] } 12. b3 $4 { [%eval 4.52] } 12... g5 $4
+{ [%eval 13.69] } 13. Bxg5 $2 { [%eval 8.0] } 13... f4 $2 { [%eval 20.97] } 14.
+Bxd8 { [%eval 20.62] } 14... Kxd8 { [%eval 20.37] } 15. Re1 { [%eval 15.7] }
+15... Bd6 { [%eval 19.3] } 16. Nbd2 { [%eval 15.79] } 16... Re8
+{ [%eval 17.78] } 17. Rxe8+ { [%eval 17.58] } 17... Kxe8 { [%eval 17.4] } 18.
+c4 { [%eval 16.97] } 18... Nd7 { [%eval 18.34] } 19. cxd5 { [%eval 17.78] }
+19... Nb6 { [%eval 19.94] } 20. Nc4 { [%eval 16.31] } 20... Nxd5
+{ [%eval 21.87] } 21. Bxh7 { [%eval 20.91] } 21... Rb8 $6 { [%eval #14] } 22.
+Qxd5 $6 { [%eval 28.67] } 22... Bb7 $6 { [%eval #4] } 23. Re1+ $6
+{ [%eval #5] } 23... Kd7 { [%eval #2] } 24. Qxd6+ { [%eval #1] } 24... Kc8
+{ [%eval #1] } 25. Re8# 1-0

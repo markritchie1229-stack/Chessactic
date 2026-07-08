@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/0ARXsnEW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sonico2015"]
+[Black "Mryoso"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "07:54:34"]
+[WhiteElo "1394"]
+[BlackElo "1444"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Open #3"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.25] } 2...
+Nc6 { [%eval 0.35] } 3. d4 { [%eval 0.29] } 3... cxd4 { [%eval 0.35] } 4. Nxd4
+{ [%eval 0.23] } 4... Nxd4 $6 { [%eval 0.86] } 5. Qxd4 { [%eval 0.64] } 5... d6
+{ [%eval 0.95] } 6. c4 $6 { [%eval 0.22] } 6... e5 $6 { [%eval 0.76] } 7. Qe3
+{ [%eval 0.36] } 7... Nf6 { [%eval 0.67] } 8. Nc3 { [%eval 0.58] } 8... Be7
+{ [%eval 0.59] } 9. Bd3 { [%eval 0.46] } 9... h6 { [%eval 0.73] } 10. Nd5 $6
+{ [%eval 0.05] } 10... Be6 { [%eval 0.54] } 11. Nxe7 { [%eval 0.49] } 11...
+Qxe7 { [%eval 0.57] } 12. O-O { [%eval 0.51] } 12... Ng4 $6 { [%eval 1.03] }
+13. Qg3 { [%eval 1.03] } 13... O-O $6 { [%eval 1.56] } 14. h3 { [%eval 1.18] }
+14... Nf6 { [%eval 1.19] } 15. f4 $2 { [%eval -0.16] } 15... exf4 $6
+{ [%eval 0.51] } 16. Bxf4 $6 { [%eval -0.12] } 16... Rad8 $2 { [%eval 1.7] }
+17. Rad1 $2 { [%eval -0.17] } 17... Qc7 $2 { [%eval 1.91] } 18. b3 $2
+{ [%eval -0.07] } 18... a6 $2 { [%eval 2.41] } 19. e5 $2 { [%eval 0.77] } 19...
+dxe5 { [%eval 0.95] } 20. Bxe5 $6 { [%eval 0.13] } 20... Qc5+ { [%eval 0.27] }
+21. Kh1 { [%eval 0.14] } 21... Nd7 $4 { [%eval #1] } 22. Qxg7# 1-0

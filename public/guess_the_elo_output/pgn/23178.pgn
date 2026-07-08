@@ -1,0 +1,42 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/dSN1QpU8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "greenchili"]
+[Black "Stefan_Stojanovic_88"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:45:09"]
+[WhiteElo "1837"]
+[BlackElo "1796"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation #2"]
+[TimeControl "660+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.31] } 1... d5 { [%eval 0.33] } 2. c4 { [%eval 0.27] } 2... e6
+{ [%eval 0.31] } 3. cxd5 { [%eval 0.0] } 3... exd5 { [%eval -0.01] } 4. Nc3
+{ [%eval 0.02] } 4... Nf6 { [%eval 0.01] } 5. Bg5 { [%eval -0.08] } 5... Nbd7
+{ [%eval 0.32] } 6. Nf3 { [%eval 0.2] } 6... Be7 { [%eval 0.18] } 7. e3
+{ [%eval 0.26] } 7... O-O { [%eval 0.21] } 8. Bd3 { [%eval 0.13] } 8... c5
+{ [%eval 0.36] } 9. O-O { [%eval 0.37] } 9... c4 { [%eval 0.5] } 10. Bc2
+{ [%eval 0.31] } 10... a6 { [%eval 0.4] } 11. a4 { [%eval 0.45] } 11... h6
+{ [%eval 0.32] } 12. Bh4 { [%eval 0.2] } 12... Nh5 $2 { [%eval 2.61] } 13. Bxe7
+{ [%eval 2.47] } 13... Qxe7 { [%eval 2.63] } 14. Nxd5 { [%eval 2.42] } 14...
+Qd6 { [%eval 2.62] } 15. Nc3 { [%eval 2.29] } 15... Nhf6 $6 { [%eval 3.25] }
+16. Qe2 $6 { [%eval 2.6] } 16... Ng4 $2 { [%eval 4.14] } 17. Ne4 $2
+{ [%eval 2.8] } 17... Qc7 { [%eval 2.92] } 18. h3 { [%eval 2.49] } 18... Ngf6
+{ [%eval 2.55] } 19. Nxf6+ $2 { [%eval 1.55] } 19... Nxf6 { [%eval 1.65] } 20.
+Ne5 { [%eval 1.33] } 20... c3 $2 { [%eval 2.68] } 21. bxc3 { [%eval 2.55] }
+21... Qxc3 { [%eval 2.47] } 22. Rac1 { [%eval 2.13] } 22... Qb4
+{ [%eval 2.32] } 23. Rfd1 { [%eval 1.89] } 23... Be6 { [%eval 1.99] } 24. Rb1
+{ [%eval 1.59] } 24... Qe7 { [%eval 1.83] } 25. e4 { [%eval 1.56] } 25... Rab8
+$6 { [%eval 2.11] } 26. d5 $6 { [%eval 1.22] } 26... Bd7 $2 { [%eval 2.49] }
+27. Nc4 $2 { [%eval 1.2] } 27... b5 { [%eval 1.26] } 28. d6 { [%eval 1.05] }
+28... Qe6 { [%eval 1.13] } 29. Nb2 $6 { [%eval 0.36] } 29... bxa4
+{ [%eval 0.56] } 30. Qxa6 $2 { [%eval -1.81] } 30... Qa2 { [%eval -1.85] } 31.
+e5 $2 { [%eval -2.85] } 31... Rxb2 { [%eval -2.65] } 32. Rxb2 { [%eval -2.61] }
+32... Qxb2 { [%eval -2.39] } 33. Qd3 $2 { [%eval -5.14] } 33... g6 $2
+{ [%eval -2.25] } 34. exf6 { [%eval -2.17] } 1-0

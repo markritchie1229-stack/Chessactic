@@ -1,0 +1,35 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/k3pliTbw"]
+[Site "https://lichess.org/Az2Hf9oi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Gymbuddy"]
+[Black "AidarOr"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "07:32:15"]
+[WhiteElo "1500"]
+[BlackElo "1221"]
+[WhiteRatingDiff "+76"]
+[BlackRatingDiff "-7"]
+[WhiteTitle "IM"]
+[ECO "D07"]
+[Opening "Queen's Gambit Refused: Chigorin Defense, Janowski Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.27] } 1... Nc6 { [%eval 0.5] } 2. d4 { [%eval 0.36] } 2... d5
+{ [%eval 0.37] } 3. c4 { [%eval 0.32] } 3... dxc4 { [%eval 0.77] } 4. Nc3
+{ [%eval 0.59] } 4... Nxd4 $2 { [%eval 2.64] } 5. Nxd4 { [%eval 2.37] } 5...
+Bf5 $4 { [%eval 6.62] } 6. Nxf5 { [%eval 6.5] } 6... Qxd1+ { [%eval 6.55] } 7.
+Kxd1 { [%eval 6.42] } 7... O-O-O+ { [%eval 6.73] } 8. Kc2 { [%eval 6.64] } 8...
+e6 { [%eval 6.68] } 9. Ne3 { [%eval 6.65] } 9... Be7 { [%eval 7.08] } 10. Nxc4
+{ [%eval 7.02] } 10... Bf6 { [%eval 7.23] } 11. Bf4 { [%eval 7.15] } 11... Ne7
+{ [%eval 7.2] } 12. e3 { [%eval 7.18] } 12... Nc6 { [%eval 7.07] } 13. Be2
+{ [%eval 6.92] } 13... Be5 $4 { [%eval 12.33] } 14. Nxe5 { [%eval 12.21] }
+14... Nxe5 { [%eval 12.13] } 15. Bxe5 { [%eval 11.91] } 15... Rhe8
+{ [%eval 13.76] } 16. Bxg7 { [%eval 13.51] } 16... Re7 { [%eval 16.21] } 17.
+Bf6 { [%eval 15.81] } 17... Red7 { [%eval 16.56] } 18. Bxd8 { [%eval 16.44] }
+18... Rxd8 { [%eval 16.38] } 19. Rad1 { [%eval 16.1] } 19... Re8
+{ [%eval 17.35] } 20. Rd2 { [%eval 17.03] } 20... Rd8 { [%eval 17.92] } 21.
+Rhd1 { [%eval 17.6] } 21... Re8 { [%eval 18.78] } 22. Rd7 { [%eval 18.33] }
+22... Rd8 $6 { [%eval #1] } 23. Rxd8# 1-0

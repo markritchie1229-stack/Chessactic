@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/I7yvaOWM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Prier1234"]
+[Black "behzadss"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:15:47"]
+[WhiteElo "1721"]
+[BlackElo "1713"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.31] } 2. d4 { [%eval 0.02] } 2...
+cxd4 { [%eval 0.1] } 3. c3 { [%eval -0.13] } 3... d6 $6 { [%eval 0.75] } 4.
+cxd4 { [%eval 0.67] } 4... Nf6 { [%eval 0.82] } 5. Nc3 { [%eval 0.75] } 5... e6
+{ [%eval 0.79] } 6. f4 $6 { [%eval 0.2] } 6... d5 { [%eval 0.41] } 7. e5
+{ [%eval 0.31] } 7... Ne4 { [%eval 0.34] } 8. Nxe4 { [%eval 0.39] } 8... dxe4
+{ [%eval 0.39] } 9. Bc4 { [%eval 0.1] } 9... Nc6 { [%eval 0.18] } 10. Ne2
+{ [%eval 0.12] } 10... Bb4+ { [%eval 0.16] } 11. Bd2 { [%eval 0.03] } 11... Qa5
+{ [%eval 0.48] } 12. a3 { [%eval 0.43] } 12... Bxd2+ { [%eval 0.54] } 13. Qxd2
+{ [%eval 0.37] } 13... Qxd2+ { [%eval 0.56] } 14. Kxd2 { [%eval 0.44] } 14...
+Nxd4 $4 { [%eval 4.38] } 15. Nxd4 { [%eval 4.35] } 15... O-O { [%eval 4.65] }
+16. Rhe1 { [%eval 4.42] } 16... Rd8 { [%eval 4.52] } 17. Ke3 { [%eval 4.47] }
+17... a6 { [%eval 4.8] } 18. Rad1 { [%eval 4.5] } 18... b5 $2 { [%eval 5.65] }
+19. Nc6 $2 { [%eval 4.58] } 19... Rxd1 { [%eval 4.87] } 20. Rxd1
+{ [%eval 4.7] } 20... b4 $4 { [%eval #1] } 21. Rd8# 1-0

@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IeZgkt9C"]
+[Date "????.??.??"]
+[Round "?"]
+[White "bazinga16"]
+[Black "Robax"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:04:52"]
+[WhiteElo "1545"]
+[BlackElo "1539"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... d6 { [%eval 0.45] } 2. Nf3 { [%eval 0.29] } 2...
+Nf6 { [%eval 0.28] } 3. Nc3 { [%eval 0.16] } 3... g6 { [%eval 0.45] } 4. d4
+{ [%eval 0.5] } 4... Bg7 { [%eval 0.57] } 5. Bd3 { [%eval 0.41] } 5... O-O
+{ [%eval 0.44] } 6. Bg5 { [%eval 0.19] } 6... Nbd7 { [%eval 0.35] } 7. e5
+{ [%eval -0.08] } 7... dxe5 { [%eval 0.02] } 8. dxe5 { [%eval 0.0] } 8... Ng4
+{ [%eval 0.0] } 9. e6 { [%eval 0.0] } 9... fxe6 { [%eval 0.24] } 10. Nd4 $4
+{ [%eval -5.57] } 10... Nde5 $4 { [%eval -1.45] } 11. O-O $2 { [%eval -4.0] }
+11... Qxd4 { [%eval -3.87] } 12. Bxe7 $4 { [%eval -13.57] } 12... Rxf2
+{ [%eval -12.57] } 13. Ne2 $6 { [%eval #-2] } 13... Rxe2+ $6 { [%eval -22.09] }
+14. Kh1 { [%eval -20.62] } 14... Nf2+ { [%eval -13.18] } 15. Rxf2
+{ [%eval -12.93] } 15... Qxf2 $4 { [%eval -4.9] } 16. Qg1 $4 { [%eval -16.22] }
+16... Qxg1+ { [%eval -15.64] } 17. Kxg1 { [%eval -16.3] } 17... Nxd3
+{ [%eval -16.13] } 18. cxd3 { [%eval -15.93] } 18... Rxb2 { [%eval -15.62] }
+19. Rd1 { [%eval -18.94] } 19... Rxa2 { [%eval -15.96] } 20. d4
+{ [%eval -17.06] } 20... Bd7 { [%eval -16.55] } 21. d5 { [%eval -23.6] } 21...
+exd5 { [%eval -20.45] } 22. Rxd5 $6 { [%eval #-11] } 22... Bc6
+{ [%eval -114.16] } 23. Rd8+ $6 { [%eval #-6] } 23... Rxd8 { [%eval #-5] } 24.
+Bxd8 { [%eval #-5] } 24... Rxg2+ $6 { [%eval #-7] } 25. Kf1 { [%eval #-7] }
+25... Be5 { [%eval #-7] } 26. h4 { [%eval #-5] } 26... Rh2 $6 { [%eval #-5] }
+27. Bg5 { [%eval #-5] } 27... Bg3 { [%eval #-4] } 28. h5 { [%eval #-4] } 28...
+gxh5 $6 { [%eval #-4] } 29. Be3 { [%eval #-4] } 29... Bf3 { [%eval #-3] } 30.
+Bxa7 { [%eval #-3] } 30... b6 { [%eval #-2] } 31. Bb8 { [%eval #-1] } 31...
+Rh1# 0-1

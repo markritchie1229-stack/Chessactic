@@ -1,0 +1,43 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/WyLWynaQ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "brot1"]
+[Black "McMetalman"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:57:00"]
+[WhiteElo "1356"]
+[BlackElo "1250"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "C36"]
+[Opening "King's Gambit Accepted: Modern Defense #2"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.21] } 1... e5 { [%eval 0.55] } 2. f4 $2 { [%eval -0.51] } 2...
+exf4 { [%eval -0.48] } 3. Nf3 { [%eval -0.27] } 3... d5 { [%eval -0.22] } 4.
+exd5 { [%eval -0.19] } 4... Qxd5 { [%eval -0.04] } 5. Nc3 { [%eval -0.02] }
+5... Qc6 $4 { [%eval 6.47] } 6. b3 $4 { [%eval -0.17] } 6... Bg4 $4
+{ [%eval 6.16] } 7. Bc4 $4 { [%eval 0.05] } 7... Na6 $4 { [%eval 6.2] } 8. O-O
+$4 { [%eval -0.31] } 8... Bxf3 $2 { [%eval 1.04] } 9. Qxf3 $6 { [%eval 0.1] }
+9... Qxf3 { [%eval 0.28] } 10. Rxf3 { [%eval -0.07] } 10... O-O-O
+{ [%eval 0.37] } 11. d3 $6 { [%eval -0.48] } 11... g5 { [%eval 0.0] } 12. Bb2
+$6 { [%eval -0.79] } 12... Nh6 $6 { [%eval 0.06] } 13. a4 $6 { [%eval -0.72] }
+13... Nb4 { [%eval -0.51] } 14. Rc1 $6 { [%eval -1.37] } 14... Ng4 $2
+{ [%eval 1.47] } 15. Nb5 $2 { [%eval -0.78] } 15... Nxh2 $4 { [%eval 3.66] }
+16. Kxh2 { [%eval 3.38] } 16... h5 $4 { [%eval 7.51] } 17. Bc3 $4
+{ [%eval 1.73] } 17... Nxc2 $4 { [%eval 8.21] } 18. Rxc2 $2 { [%eval 6.33] }
+18... h4 $4 { [%eval 11.75] } 19. Re2 $4 { [%eval 6.48] } 19... h3 $4
+{ [%eval 11.86] } 20. gxh3 $4 { [%eval 6.82] } 20... g4 $6 { [%eval 7.48] } 21.
+Rf1 $4 { [%eval 3.15] } 21... Rxh3+ { [%eval 3.12] } 22. Kg2 $4
+{ [%eval -0.79] } 22... f3+ { [%eval -0.75] } 23. Kf2 $6 { [%eval -1.36] }
+23... Bc5+ $2 { [%eval -0.06] } 24. Re3 { [%eval -0.04] } 24... Bxe3+ $4
+{ [%eval 3.78] } 25. Kxe3 { [%eval 3.56] } 25... Re8+ $2 { [%eval 4.68] } 26.
+Kd2 $4 { [%eval -1.44] } 26... Re2+ $2 { [%eval 0.1] } 27. Kd1 { [%eval 0.19] }
+27... Rhh2 $6 { [%eval 0.87] } 28. Re1 $4 { [%eval -4.08] } 28... Rxe1+
+{ [%eval -3.93] } 29. Kxe1 { [%eval -4.07] } 29... Re2+ $4 { [%eval 0.0] } 30.
+Kd1 $2 { [%eval -2.24] } 30... f6 $4 { [%eval 1.07] } 31. Kc1 $4
+{ [%eval #-10] } 31... g3 $4 { [%eval -3.6] } 32. Kd1 $4 { [%eval -6.98] }
+32... g2 { [%eval -6.54] } 33. Be1 $4 { [%eval #-4] } 1-0

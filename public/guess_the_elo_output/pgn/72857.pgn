@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/aLgcpFKK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Roymister"]
+[Black "HardWoodPusher"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "01:15:49"]
+[WhiteElo "1775"]
+[BlackElo "1932"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[TimeControl "0+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.23] } 2. Nc3 { [%eval 0.12] } 2...
+Nc6 { [%eval 0.17] } 3. a3 { [%eval 0.18] } 3... Nf6 { [%eval 0.11] } 4. Bc4
+{ [%eval -0.25] } 4... Bc5 { [%eval 0.11] } 5. Ba2 { [%eval -0.09] } 5... d6
+{ [%eval -0.1] } 6. d3 { [%eval -0.19] } 6... Be6 { [%eval -0.07] } 7. Bg5
+{ [%eval -0.2] } 7... Bxa2 { [%eval -0.16] } 8. Nxa2 { [%eval -0.19] } 8... Qe7
+{ [%eval 0.19] } 9. Qd2 { [%eval -0.19] } 9... O-O { [%eval 0.16] } 10. Bh4
+{ [%eval -0.32] } 10... h6 { [%eval 0.1] } 11. Nf3 { [%eval -0.15] } 11... Qe6
+{ [%eval -0.15] } 12. O-O-O $4 { [%eval -5.52] } 12... Nd7 $4 { [%eval -0.32] }
+13. Kb1 $6 { [%eval -1.03] } 13... f5 $6 { [%eval -0.35] } 14. exf5
+{ [%eval -0.54] } 14... Qxf5 { [%eval -0.43] } 15. h3 { [%eval -0.6] } 15...
+Rae8 { [%eval -0.43] } 16. Bg3 { [%eval -0.52] } 16... Nd4 { [%eval -0.25] }
+17. Nxd4 { [%eval -0.37] } 17... exd4 { [%eval 0.0] } 18. Rhf1
+{ [%eval -0.41] } 18... Re6 { [%eval 0.0] } 19. Bh2 { [%eval -0.27] } 19...
+Rfe8 { [%eval 0.13] } 20. g4 $6 { [%eval -0.39] } 20... Qf7 $6 { [%eval 0.15] }
+21. f4 $4 { [%eval -4.72] } 21... Re2 { [%eval -4.57] } 22. Qc1
+{ [%eval -4.66] } 22... Rxh2 { [%eval -4.49] } 23. f5 $2 { [%eval -6.38] }
+23... Ree2 { [%eval -6.18] } 24. g5 $4 { [%eval -9.91] } 24... Rxc2
+{ [%eval -9.54] } 25. Qf4 $2 { [%eval #-2] } 25... Rxb2+ { [%eval #-1] } 26.
+Ka1 { [%eval #-1] } 26... Qxa2# 0-1

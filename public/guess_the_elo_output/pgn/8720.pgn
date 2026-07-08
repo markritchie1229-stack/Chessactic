@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ciIDOwBf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Hamidi1986"]
+[Black "Iliya_63"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "11:46:00"]
+[WhiteElo "1535"]
+[BlackElo "1632"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted, MacLeod Defense"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.09] } 1... e5 { [%eval 0.35] } 2. f4 $2 { [%eval -0.66] } 2...
+exf4 { [%eval -0.53] } 3. Nf3 { [%eval -0.46] } 3... Nc6 $6 { [%eval 0.26] } 4.
+Bc4 $6 { [%eval -0.67] } 4... h6 $6 { [%eval 0.0] } 5. h3 $2 { [%eval -1.06] }
+5... Nf6 { [%eval -0.98] } 6. Nc3 { [%eval -0.99] } 6... d6 { [%eval -0.95] }
+7. O-O { [%eval -1.0] } 7... Na5 { [%eval -0.73] } 8. Bd5 $6 { [%eval -1.43] }
+8... c6 { [%eval -1.44] } 9. Bxf7+ $2 { [%eval -2.52] } 9... Kxf7
+{ [%eval -2.45] } 10. e5 { [%eval -2.57] } 10... dxe5 { [%eval -2.19] } 11.
+Nxe5+ { [%eval -2.31] } 11... Kg8 { [%eval -2.16] } 12. d4 { [%eval -2.25] }
+12... b5 $2 { [%eval -1.2] } 13. Bxf4 { [%eval -1.46] } 13... Bd6 $6
+{ [%eval -0.64] } 14. Nxc6 $4 { [%eval -4.45] } 14... Nxc6 { [%eval -4.37] }
+15. Bxd6 { [%eval -4.39] } 15... Qxd6 { [%eval -4.19] } 16. d5 $2
+{ [%eval -5.64] } 16... Qc5+ { [%eval -5.42] } 17. Kh1 { [%eval -5.43] } 17...
+Ne5 { [%eval -5.68] } 18. d6 $2 { [%eval -7.06] } 18... Bb7 { [%eval -7.04] }
+19. Re1 $2 { [%eval -16.41] } 19... Kf7 $4 { [%eval -5.85] } 20. d7 $4
+{ [%eval -13.63] } 20... Nexd7 $2 { [%eval -7.16] } 21. Rf1 { [%eval -7.62] }
+21... Qc6 { [%eval -7.37] } 22. Qh5+ $6 { [%eval -8.35] } 22... g6
+{ [%eval -8.06] } 23. Qxb5 $2 { [%eval #-1] } 23... Qxg2# 0-1

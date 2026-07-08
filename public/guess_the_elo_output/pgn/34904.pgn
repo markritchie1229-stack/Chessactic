@@ -1,0 +1,33 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/F3mQD3g0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "IgnazWrobel"]
+[Black "Outakoski"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:15:55"]
+[WhiteElo "1771"]
+[BlackElo "1744"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+12"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.04] } 1... e5 { [%eval 0.08] } 2. g3 { [%eval 0.0] } 2... d5
+{ [%eval 0.07] } 3. cxd5 { [%eval 0.0] } 3... c6 $6 { [%eval 0.57] } 4. dxc6
+{ [%eval 0.51] } 4... Nxc6 { [%eval 0.51] } 5. Bg2 { [%eval 0.37] } 5... Nf6
+{ [%eval 0.48] } 6. Qc2 $6 { [%eval -0.28] } 6... Bb4 { [%eval -0.06] } 7.
+Bxc6+ { [%eval -0.25] } 7... bxc6 { [%eval -0.1] } 8. Qxc6+ { [%eval -0.59] }
+8... Bd7 { [%eval -0.47] } 9. Qc4 $4 { [%eval -6.1] } 9... a5 $4
+{ [%eval -0.96] } 10. a3 $4 { [%eval -5.91] } 10... Rc8 { [%eval -5.66] } 11.
+Qa6 $4 { [%eval #-1] } 11... Rc6 $4 { [%eval -5.45] } 12. Qd3 $4
+{ [%eval #-1] } 12... O-O $4 { [%eval -0.79] } 13. axb4 $4 { [%eval #-1] }
+13... axb4 $4 { [%eval -0.21] } 14. Kd1 $2 { [%eval -2.77] } 14... Qc7 $2
+{ [%eval -1.64] } 15. Na3 $4 { [%eval -10.92] } 15... bxa3 $4 { [%eval -5.73] }
+16. bxa3 $4 { [%eval -14.36] } 16... Rc8 { [%eval -13.75] } 17. Bb2
+{ [%eval -12.99] } 17... Rc2 $4 { [%eval -3.98] } 18. Bxe5 $4 { [%eval #-2] }
+18... Qc6 $2 { [%eval -9.58] } 19. Bxf6 $2 { [%eval #-2] } 19... Qxh1 $6
+{ [%eval #-9] } 20. Qxd7 { [%eval #-1] } 20... Qxg1# 0-1

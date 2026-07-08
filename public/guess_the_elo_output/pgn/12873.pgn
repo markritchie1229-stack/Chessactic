@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Fr4llS82"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sia1338"]
+[Black "mateomichaszoon"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:19:50"]
+[WhiteElo "1804"]
+[BlackElo "1924"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+8"]
+[ECO "C89"]
+[Opening "Ruy Lopez: Marshall Attack"]
+[TimeControl "720+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.25] } 3. Bb5 { [%eval 0.32] } 3... a6 { [%eval 0.32] } 4. Ba4
+{ [%eval 0.2] } 4... Nf6 { [%eval 0.27] } 5. O-O { [%eval 0.32] } 5... Be7
+{ [%eval 0.29] } 6. Re1 { [%eval 0.28] } 6... b5 { [%eval 0.25] } 7. Bb3
+{ [%eval 0.17] } 7... O-O { [%eval 0.26] } 8. c3 { [%eval 0.27] } 8... d5
+{ [%eval 0.54] } 9. exd5 { [%eval 0.42] } 9... Nxd5 { [%eval 0.46] } 10. h3
+{ [%eval 0.06] } 10... Bb7 { [%eval 0.16] } 11. d3 { [%eval 0.2] } 11... Qd6
+{ [%eval 0.35] } 12. Nbd2 { [%eval 0.17] } 12... Nf4 { [%eval 0.64] } 13. Ne4
+{ [%eval 0.68] } 13... Qxd3 { [%eval 1.06] } 14. Qxd3 $2 { [%eval -1.11] }
+14... Nxd3 { [%eval -1.18] } 15. Rd1 { [%eval -1.23] } 15... Rad8
+{ [%eval -1.2] } 16. Bc2 { [%eval -1.44] } 16... Ncb4 { [%eval -1.18] } 17.
+Bxd3 $2 { [%eval -2.8] } 17... Nxd3 { [%eval -2.67] } 18. Ned2 $6
+{ [%eval -3.4] } 18... Bc5 { [%eval -3.14] } 19. Kf1 $2 { [%eval -4.65] } 19...
+Nxf2 { [%eval -4.43] } 20. Re1 { [%eval -4.46] } 20... Nd3 { [%eval -4.36] }
+21. Re2 { [%eval -4.63] } 21... Bb6 { [%eval -4.55] } 22. Nxe5 $2
+{ [%eval -6.57] } 22... Nf4 { [%eval -6.4] } 23. Ndf3 $2 { [%eval -8.13] }
+23... Nxe2 { [%eval -8.02] } 24. Kxe2 { [%eval -8.04] } 24... Rfe8
+{ [%eval -7.94] } 25. Kf1 $2 { [%eval -12.63] } 25... f6 $2 { [%eval -8.52] }
+26. Ng4 $2 { [%eval #-2] } 26... Rd1+ { [%eval #-1] } 0-1

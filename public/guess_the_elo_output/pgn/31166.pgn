@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Rk7K0yIk"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Tolya0937"]
+[Black "Decentish"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "10:43:21"]
+[WhiteElo "1576"]
+[BlackElo "1651"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-16"]
+[ECO "C21"]
+[Opening "Danish Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.43] } 2. d4 $6 { [%eval -0.13] } 2...
+exd4 { [%eval 0.0] } 3. c3 { [%eval -0.27] } 3... Nc6 { [%eval -0.15] } 4. Bc4
+$6 { [%eval -0.81] } 4... Qf6 $2 { [%eval 0.72] } 5. Nf3 { [%eval 0.6] } 5...
+dxc3 { [%eval 0.55] } 6. Nxc3 { [%eval 0.65] } 6... Bc5 $6 { [%eval 1.22] } 7.
+O-O { [%eval 1.37] } 7... Nd4 $2 { [%eval 3.37] } 8. Nxd4 $2 { [%eval 2.06] }
+8... Bxd4 $4 { [%eval 9.27] } 9. Nd5 { [%eval 8.95] } 9... Qe5 $2
+{ [%eval 10.15] } 10. Bf4 { [%eval 9.56] } 10... Qxe4 { [%eval 20.18] } 11. Re1
+{ [%eval 19.29] } 11... Bxf2+ { [%eval 37.39] } 12. Kxf2 { [%eval 21.46] }
+12... Qxe1+ $6 { [%eval #8] } 13. Qxe1+ { [%eval #7] } 13... Kf8 { [%eval #7] }
+14. Qe7+ $4 { [%eval 1.14] } 14... Nxe7 { [%eval 1.02] } 15. Nxe7 $4
+{ [%eval -2.58] } 15... Kxe7 { [%eval -2.41] } 16. Bxc7 $6 { [%eval -3.0] }
+16... d5 $6 { [%eval -2.25] } 17. Bxd5 { [%eval -2.26] } 17... Be6
+{ [%eval -2.04] } 18. Bxb7 { [%eval -2.12] } 18... Rae8 $6 { [%eval -1.19] }
+19. Ba5 $2 { [%eval -3.47] } 19... Kf8 $2 { [%eval -1.01] } 20. Bc6
+{ [%eval -1.37] } 20... Re7 $4 { [%eval 3.62] } 21. Bb4 $2 { [%eval 2.36] }
+21... Bf5 $2 { [%eval 4.95] } 22. Re1 { [%eval 4.93] } 22... Be6
+{ [%eval 4.86] } 23. Bd5 $4 { [%eval 0.32] } 23... Bxd5 $4 { [%eval 5.29] } 24.
+Rxe7 { [%eval 5.13] } 24... Kg8 $4 { [%eval #1] } 25. Re8# 1-0

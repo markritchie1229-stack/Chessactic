@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UgkrRf9H"]
+[Date "????.??.??"]
+[Round "?"]
+[White "GrandFunkR"]
+[Black "MEHKB"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:26:31"]
+[WhiteElo "1787"]
+[BlackElo "1730"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+21"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "300+1"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.17] } 1... d5 { [%eval 0.27] } 2. c4 { [%eval 0.26] } 2... e6
+{ [%eval 0.18] } 3. e3 { [%eval 0.02] } 3... Nf6 { [%eval 0.05] } 4. Nc3
+{ [%eval 0.1] } 4... Bb4 { [%eval 0.14] } 5. Bd2 { [%eval 0.03] } 5... O-O
+{ [%eval 0.13] } 6. Qc2 { [%eval -0.04] } 6... Bxc3 { [%eval 0.28] } 7. bxc3
+{ [%eval -0.18] } 7... Ne4 { [%eval 0.12] } 8. Bc1 { [%eval -0.12] } 8... b6
+{ [%eval -0.19] } 9. Nf3 { [%eval -0.04] } 9... Bb7 { [%eval 0.15] } 10. cxd5
+{ [%eval -0.01] } 10... Bxd5 { [%eval 0.44] } 11. c4 { [%eval 0.4] } 11... Bb7
+{ [%eval 0.41] } 12. Bd3 { [%eval 0.33] } 12... f5 { [%eval 0.3] } 13. Bb2
+{ [%eval 0.3] } 13... Nd7 { [%eval 0.54] } 14. h4 { [%eval 0.13] } 14... c5
+{ [%eval 0.12] } 15. h5 { [%eval 0.05] } 15... cxd4 { [%eval 0.09] } 16. exd4
+{ [%eval 0.07] } 16... h6 { [%eval 0.15] } 17. O-O-O $6 { [%eval -0.8] } 17...
+Rc8 { [%eval -0.44] } 18. Kb1 { [%eval -0.68] } 18... b5 { [%eval -0.38] } 19.
+c5 { [%eval -0.65] } 19... Bd5 { [%eval -0.34] } 20. Ne5 $4 { [%eval -5.17] }
+20... Nxe5 { [%eval -5.01] } 21. dxe5 { [%eval -4.7] } 21... Rxc5
+{ [%eval -4.43] } 22. Qe2 $2 { [%eval -6.26] } 22... Qa5 { [%eval -5.47] } 23.
+a3 $4 { [%eval -12.92] } 23... b4 $6 { [%eval -9.5] } 24. Bxe4 $6
+{ [%eval -13.86] } 24... Bxe4+ { [%eval -13.23] } 25. Ka1 { [%eval -29.61] }
+25... bxa3 { [%eval -22.3] } 26. Bd4 { [%eval -20.83] } 26... Rc2
+{ [%eval -18.18] } 27. Qe1 $6 { [%eval #-4] } 27... Qd5 { [%eval #-3] } 28. Bb2
+{ [%eval #-3] } 28... axb2+ { [%eval #-2] } 29. Kb1 { [%eval #-2] } 29... Rc1+
+$6 { [%eval #-3] } 30. Kxb2 { [%eval #-3] } 30... Rc2+ { [%eval #-2] } 31. Ka3
+{ [%eval #-2] } 31... Qa2+ { [%eval #-1] } 32. Kb4 { [%eval #-1] } 32... Rb8#
+0-1

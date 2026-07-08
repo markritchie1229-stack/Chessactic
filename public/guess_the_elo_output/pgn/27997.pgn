@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tZVYhV1u"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mrbiggfoot"]
+[Black "kav19"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "06:02:02"]
+[WhiteElo "2132"]
+[BlackElo "1804"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-3"]
+[ECO "C48"]
+[Opening "Four Knights Game: Spanish Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... e5 { [%eval 0.44] } 2. Nf3 { [%eval 0.43] } 2...
+Nc6 { [%eval 0.34] } 3. Bb5 { [%eval 0.37] } 3... Nf6 { [%eval 0.3] } 4. Nc3
+{ [%eval 0.1] } 4... Be7 { [%eval 0.33] } 5. O-O { [%eval 0.27] } 5... O-O
+{ [%eval 0.68] } 6. d3 $6 { [%eval 0.15] } 6... d6 { [%eval 0.23] } 7. h3
+{ [%eval 0.16] } 7... Nd4 { [%eval 0.35] } 8. Nxd4 { [%eval 0.31] } 8... exd4
+{ [%eval 0.35] } 9. Ne2 { [%eval 0.52] } 9... c5 { [%eval 0.36] } 10. Bf4 $6
+{ [%eval -0.27] } 10... a6 { [%eval -0.01] } 11. Ba4 { [%eval -0.12] } 11... d5
+{ [%eval -0.03] } 12. exd5 { [%eval -0.35] } 12... Nxd5 { [%eval -0.25] } 13.
+a3 $6 { [%eval -0.87] } 13... Nxf4 { [%eval -0.75] } 14. Nxf4 { [%eval -1.04] }
+14... Qc7 $2 { [%eval 0.11] } 15. Nd5 { [%eval 0.12] } 15... Qd6
+{ [%eval 0.14] } 16. Nxe7+ { [%eval 0.07] } 16... Qxe7 { [%eval 0.12] } 17. Re1
+{ [%eval 0.07] } 17... Qg5 { [%eval 0.07] } 18. Qf3 { [%eval 0.18] } 18... b5
+$2 { [%eval 3.15] } 19. Qxa8 { [%eval 3.08] } 19... bxa4 { [%eval 2.95] } 20.
+Qf3 $2 { [%eval 1.95] } 20... Qd2 $2 { [%eval 3.91] } 21. Re2 $6
+{ [%eval 3.12] } 21... Qg5 { [%eval 3.08] } 22. Rae1 { [%eval 3.1] } 22... Be6
+{ [%eval 3.06] } 23. Re5 { [%eval 2.87] } 23... Qg6 $2 { [%eval 4.54] } 24.
+Rxc5 { [%eval 4.41] } 24... h5 $2 { [%eval 5.78] } 25. Qxh5 $6 { [%eval 5.14] }
+25... Qf6 { [%eval 5.62] } 26. Qg5 $6 { [%eval 4.93] } 1-0

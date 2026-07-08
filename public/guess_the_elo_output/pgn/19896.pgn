@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/gUbqVpkg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ludwig00"]
+[Black "DanielHeej"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "20:13:54"]
+[WhiteElo "1582"]
+[BlackElo "1348"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-9"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Krause Variation"]
+[TimeControl "420+7"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.24] } 1... d5 { [%eval 0.37] } 2. Nf3 { [%eval 0.22] } 2... c5
+{ [%eval 0.45] } 3. e3 { [%eval 0.1] } 3... c4 $6 { [%eval 0.76] } 4. Nc3
+{ [%eval 0.32] } 4... Nf6 { [%eval 0.48] } 5. Nd2 $6 { [%eval -0.18] } 5... e6
+{ [%eval -0.17] } 6. e4 { [%eval -0.13] } 6... Bb4 { [%eval -0.11] } 7. Qf3 $2
+{ [%eval -1.96] } 7... Bxc3 $2 { [%eval 0.39] } 8. bxc3 { [%eval 0.09] } 8...
+O-O { [%eval 0.2] } 9. Ba3 { [%eval 0.0] } 9... Re8 { [%eval 0.09] } 10. Rb1 $2
+{ [%eval -1.2] } 10... b5 $2 { [%eval 0.58] } 11. Rxb5 $2 { [%eval -0.75] }
+11... Na6 $2 { [%eval 0.64] } 12. Be2 $6 { [%eval -0.07] } 12... Bd7
+{ [%eval 0.0] } 13. Rb7 { [%eval 0.0] } 13... Bc6 { [%eval 0.0] } 14. Rb2
+{ [%eval 0.0] } 14... dxe4 $2 { [%eval 1.21] } 15. Qe3 $6 { [%eval 0.49] }
+15... Rb8 { [%eval 0.83] } 16. O-O { [%eval 0.62] } 16... e5 $6
+{ [%eval 1.37] } 17. Nxc4 { [%eval 1.43] } 17... exd4 $6 { [%eval 1.96] } 18.
+cxd4 { [%eval 1.87] } 18... Rxb2 { [%eval 1.71] } 19. Nxb2 { [%eval 1.85] }
+19... Nd5 { [%eval 2.09] } 20. Qb3 $2 { [%eval 0.54] } 20... e3 $2
+{ [%eval 2.16] } 21. Bxa6 $2 { [%eval 0.44] } 21... exf2+ $4 { [%eval 4.72] }
+22. Rxf2 { [%eval 4.73] } 22... Qa5 $6 { [%eval 5.53] } 23. Bd3 $6
+{ [%eval 5.01] } 23... Re1+ { [%eval 5.2] } 24. Rf1 { [%eval 4.76] } 24...
+Rxf1+ $2 { [%eval 6.32] } 25. Bxf1 { [%eval 6.09] } 25... Qd2 $4 { [%eval #2] }
+26. Qb8+ { [%eval #1] } 26... Be8 { [%eval #1] } 27. Qxe8# 1-0

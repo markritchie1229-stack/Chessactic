@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/ugHsgFbw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tlcunha"]
+[Black "sv69"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:51:49"]
+[WhiteElo "1823"]
+[BlackElo "1628"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-6"]
+[ECO "A35"]
+[Opening "English Opening: Symmetrical Variation, Two Knights Variation"]
+[TimeControl "300+8"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.08] } 1... c5 { [%eval 0.11] } 2. Nc3 { [%eval 0.11] } 2...
+Nc6 { [%eval 0.22] } 3. Nf3 { [%eval 0.15] } 3... h6 { [%eval 0.54] } 4. e4
+{ [%eval 0.08] } 4... g5 $6 { [%eval 0.71] } 5. d3 $6 { [%eval 0.18] } 5... Bg7
+{ [%eval 0.12] } 6. Qb3 $6 { [%eval -0.42] } 6... a6 { [%eval -0.09] } 7. g3
+{ [%eval -0.44] } 7... Nd4 $6 { [%eval 0.47] } 8. Nxd4 { [%eval 0.57] } 8...
+Bxd4 { [%eval 0.62] } 9. Bh3 { [%eval 0.32] } 9... Nf6 { [%eval 0.44] } 10. O-O
+{ [%eval 0.37] } 10... e5 { [%eval 0.45] } 11. Ne2 { [%eval 0.26] } 11... g4 $6
+{ [%eval 0.98] } 12. Bg2 { [%eval 1.0] } 12... h5 $2 { [%eval 3.9] } 13. Nxd4
+{ [%eval 3.72] } 13... cxd4 { [%eval 3.66] } 14. Bg5 { [%eval 3.62] } 14... d6
+$2 { [%eval 5.46] } 15. f3 $2 { [%eval 3.93] } 15... Rg8 { [%eval 4.1] } 16.
+Bxf6 $2 { [%eval 2.25] } 16... Qxf6 { [%eval 2.22] } 17. fxg4 { [%eval 2.15] }
+17... Qg5 { [%eval 2.35] } 18. gxh5 { [%eval 2.36] } 18... Qxh5
+{ [%eval 2.71] } 19. Qb6 $6 { [%eval 2.21] } 19... Bh3 $4 { [%eval 8.0] } 20.
+Qxb7 { [%eval 7.85] } 20... Rd8 { [%eval 7.81] } 21. Bxh3 { [%eval 7.46] }
+21... Qxh3 $2 { [%eval #1] } 22. Qxf7# 1-0

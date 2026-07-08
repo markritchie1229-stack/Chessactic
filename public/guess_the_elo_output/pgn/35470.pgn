@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/pSEtCPp9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "moveloser"]
+[Black "Gearhead"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:43:03"]
+[WhiteElo "1704"]
+[BlackElo "1730"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "D40"]
+[Opening "Queen's Gambit Declined: Semi-Tarrasch Defense, Pillsbury Variation"]
+[TimeControl "60+2"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.3] } 2. c4 { [%eval 0.2] } 2... e6
+{ [%eval 0.29] } 3. Nc3 { [%eval 0.29] } 3... Nf6 { [%eval 0.27] } 4. Nf3
+{ [%eval 0.33] } 4... c5 { [%eval 0.34] } 5. Bg5 { [%eval -0.02] } 5... Nc6
+{ [%eval 0.4] } 6. dxc5 $6 { [%eval -0.1] } 6... dxc4 $2 { [%eval 0.9] } 7.
+Bxf6 $6 { [%eval 0.04] } 7... Qxf6 { [%eval 0.07] } 8. e3 { [%eval 0.0] } 8...
+Bxc5 { [%eval 0.06] } 9. Bxc4 { [%eval 0.07] } 9... O-O { [%eval 0.07] } 10.
+O-O { [%eval 0.0] } 10... Ne5 { [%eval 0.2] } 11. Nxe5 { [%eval -0.09] } 11...
+Qxe5 { [%eval -0.06] } 12. Qd2 { [%eval -0.34] } 12... a6 { [%eval -0.02] } 13.
+Rfd1 { [%eval -0.31] } 13... b5 { [%eval -0.29] } 14. Bb3 $6 { [%eval -0.9] }
+14... Bb7 { [%eval -0.76] } 15. e4 $2 { [%eval -2.04] } 15... h6 $6
+{ [%eval -1.05] } 16. Kh1 $6 { [%eval -1.89] } 16... Rad8 { [%eval -1.68] } 17.
+Qxd8 $6 { [%eval -2.27] } 17... Rxd8 { [%eval -2.21] } 18. Rxd8+
+{ [%eval -2.11] } 18... Kh7 { [%eval -1.76] } 19. f3 $6 { [%eval -2.73] } 19...
+Bd6 { [%eval -2.47] } 20. g3 $6 { [%eval -3.02] } 20... f5 $4 { [%eval 1.01] }
+21. Rd1 { [%eval 0.56] } 21... Bc7 $6 { [%eval 1.35] } 22. exf5 $4
+{ [%eval #-8] } 22... Bxf3+ { [%eval #-7] } 23. Kg1 { [%eval #-7] } 23... Qe3+
+{ [%eval #-6] } 0-1

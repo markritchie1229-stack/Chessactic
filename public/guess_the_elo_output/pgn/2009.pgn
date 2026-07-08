@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/yrtBpzP8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "shalombi"]
+[Black "ooloops"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "01:23:19"]
+[WhiteElo "1089"]
+[BlackElo "1195"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+12"]
+[ECO "C21"]
+[Opening "King's Pawn Game: Beyer Gambit"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.43] } 2. d4 { [%eval -0.01] } 2... d5
+$6 { [%eval 0.93] } 3. dxe5 { [%eval 1.06] } 3... d4 $6 { [%eval 1.71] } 4. Nf3
+{ [%eval 1.67] } 4... c5 { [%eval 1.81] } 5. c3 { [%eval 1.77] } 5... Nc6
+{ [%eval 1.77] } 6. Bb5 { [%eval 1.6] } 6... Bg4 { [%eval 2.04] } 7. Bxc6+
+{ [%eval 1.95] } 7... bxc6 { [%eval 2.0] } 8. cxd4 $6 { [%eval 1.35] } 8...
+Bxf3 { [%eval 1.77] } 9. Qxf3 { [%eval 1.77] } 9... Qxd4 { [%eval 1.83] } 10.
+Nc3 { [%eval 1.42] } 10... Qxe5 { [%eval 1.52] } 11. O-O { [%eval 1.28] } 11...
+Nf6 { [%eval 1.43] } 12. Bd2 $6 { [%eval 0.54] } 12... c4 { [%eval 0.97] } 13.
+Rad1 { [%eval 0.97] } 13... Bc5 { [%eval 1.43] } 14. Na4 { [%eval 1.19] } 14...
+Nxe4 $4 { [%eval 8.53] } 15. Nxc5 $2 { [%eval 6.82] } 15... Nxd2 $4
+{ [%eval 25.02] } 16. Rfe1 $4 { [%eval -2.7] } 16... Nxf3+ { [%eval -2.72] }
+17. Kf1 $4 { [%eval -15.78] } 17... Nxe1 { [%eval -15.34] } 18. Rxe1
+{ [%eval -15.09] } 18... Qxe1+ { [%eval -14.53] } 19. Kxe1 { [%eval -11.7] }
+19... O-O { [%eval -11.4] } 20. Nd7 { [%eval -19.2] } 20... Rfe8+
+{ [%eval -16.15] } 21. Kf1 { [%eval -35.09] } 21... Rad8 { [%eval -26.95] } 0-1

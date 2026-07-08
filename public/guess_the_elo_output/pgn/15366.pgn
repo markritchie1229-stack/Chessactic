@@ -1,0 +1,40 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/SBc2XC4j"]
+[Site "https://lichess.org/6gmQaZXi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Iwan_Karamasow"]
+[Black "Cedric_O"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:10:32"]
+[WhiteElo "2135"]
+[BlackElo "1836"]
+[WhiteRatingDiff "+3"]
+[BlackRatingDiff "-3"]
+[ECO "B35"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.22] } 2... g6
+$6 { [%eval 0.73] } 3. d4 { [%eval 0.26] } 3... cxd4 { [%eval 0.35] } 4. Nxd4
+{ [%eval 0.25] } 4... Bg7 { [%eval 0.26] } 5. Nc3 { [%eval 0.27] } 5... Nc6
+{ [%eval 0.29] } 6. Be3 { [%eval 0.08] } 6... Nf6 { [%eval 0.09] } 7. Bc4
+{ [%eval -0.04] } 7... O-O { [%eval 0.18] } 8. Bb3 { [%eval -0.06] } 8... a5
+{ [%eval 0.09] } 9. f3 { [%eval 0.16] } 9... d6 { [%eval 0.43] } 10. Qd2
+{ [%eval 0.66] } 10... Nxd4 { [%eval 0.67] } 11. Bxd4 { [%eval 0.64] } 11...
+Bd7 { [%eval 0.83] } 12. O-O-O $2 { [%eval -0.37] } 12... b5 { [%eval -0.14] }
+13. a4 { [%eval -0.2] } 13... bxa4 { [%eval -0.15] } 14. Nxa4 { [%eval -0.07] }
+14... Rc8 { [%eval 0.03] } 15. Nb6 { [%eval -0.16] } 15... Rc7 $6
+{ [%eval 0.64] } 16. g4 $2 { [%eval -0.54] } 16... Rb7 $6 { [%eval 0.38] } 17.
+Nxd7 { [%eval 0.04] } 17... Qxd7 { [%eval 0.29] } 18. Qxa5 { [%eval 0.29] }
+18... Rc8 { [%eval 0.41] } 19. Kb1 { [%eval 0.35] } 19... Ne8 { [%eval 0.47] }
+20. Bxg7 { [%eval 0.19] } 20... Kxg7 $6 { [%eval 0.87] } 21. Qd5 $6
+{ [%eval 0.26] } 21... e6 { [%eval 0.22] } 22. Qd4+ { [%eval 0.12] } 22... Kg8
+{ [%eval 0.34] } 23. h4 { [%eval 0.3] } 23... Rcb8 { [%eval 0.71] } 24. h5
+{ [%eval 0.95] } 24... Rxb3 $2 { [%eval 2.89] } 25. cxb3 { [%eval 2.77] } 25...
+Rxb3 { [%eval 2.73] } 26. hxg6 { [%eval 2.65] } 26... e5 $4 { [%eval 10.37] }
+27. Qd5 $4 { [%eval 6.39] } 27... Rxf3 $4 { [%eval 10.35] } 28. Rxh7
+{ [%eval 8.49] } 28... Nf6 $2 { [%eval #24] } 29. Qxf7+ { [%eval 87.3] } 29...
+Qxf7 { [%eval 61.96] } 30. Rxf7 { [%eval 51.58] } 30... Rf2 $6 { [%eval #22] }
+31. Rxd6 { [%eval 52.22] } 31... Nxg4 $6 { [%eval #1] } 32. Rd8# 1-0

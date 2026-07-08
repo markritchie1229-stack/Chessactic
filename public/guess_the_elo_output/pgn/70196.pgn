@@ -1,0 +1,44 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/Nl0W7gm2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ahmadsoltani"]
+[Black "jjs2"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:24:00"]
+[WhiteElo "1574"]
+[BlackElo "1523"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-9"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Normal Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.25] } 2... Nf6
+{ [%eval 0.53] } 3. Nc3 { [%eval 0.18] } 3... e6 { [%eval 0.25] } 4. a3
+{ [%eval 0.15] } 4... Nc6 { [%eval 0.45] } 5. Bg5 { [%eval 0.3] } 5... Be7
+{ [%eval 0.34] } 6. Bxf6 { [%eval 0.01] } 6... Bxf6 { [%eval 0.06] } 7. e3
+{ [%eval 0.06] } 7... O-O { [%eval 0.14] } 8. c5 $6 { [%eval -0.82] } 8... b6
+{ [%eval -0.66] } 9. b4 { [%eval -0.94] } 9... a5 $6 { [%eval -0.26] } 10. b5
+{ [%eval -0.26] } 10... Ne7 { [%eval -0.12] } 11. c6 { [%eval -0.43] } 11...
+Ng6 $6 { [%eval 0.16] } 12. f4 { [%eval 0.07] } 12... Bh4+ $6 { [%eval 0.81] }
+13. g3 { [%eval 0.81] } 13... Be7 { [%eval 0.84] } 14. Nf3 { [%eval 0.81] }
+14... Qd6 { [%eval 1.23] } 15. Qc2 { [%eval 1.19] } 15... f6 { [%eval 1.45] }
+16. a4 { [%eval 1.02] } 16... e5 { [%eval 1.25] } 17. fxe5 $4 { [%eval -1.87] }
+17... fxe5 { [%eval -1.91] } 18. Nxe5 $2 { [%eval -2.93] } 18... Qe6 $4
+{ [%eval 0.14] } 19. Nxg6 $4 { [%eval -5.45] } 19... Qxe3+ { [%eval -5.18] }
+20. Ne2 $4 { [%eval -18.1] } 20... Bb4+ { [%eval -17.62] } 21. Kd1
+{ [%eval -17.64] } 21... hxg6 { [%eval -15.75] } 22. Bg2 { [%eval -17.78] }
+22... Bf5 { [%eval -17.37] } 23. Qb2 { [%eval -16.88] } 23... Bg4
+{ [%eval -15.86] } 24. Bxd5+ { [%eval -15.55] } 24... Kh7 { [%eval -12.96] }
+25. Bc4 { [%eval -59.16] } 25... Bxe2+ { [%eval -21.95] } 26. Qxe2
+{ [%eval -54.81] } 26... Qxd4+ { [%eval -21.79] } 27. Kc2 $6 { [%eval #-13] }
+27... Rfe8 $4 { [%eval -5.03] } 28. Qd3 $4 { [%eval -17.78] } 28... Qf2+
+{ [%eval -16.24] } 29. Kb1 { [%eval -14.87] } 29... Rad8 { [%eval -9.48] } 30.
+Qc2 $6 { [%eval -18.74] } 30... Rd2 { [%eval -16.97] } 31. Qb3 $6
+{ [%eval #-3] } 31... Qf5+ $6 { [%eval #-8] } 32. Kc1 { [%eval #-8] } 32... Qg5
+$6 { [%eval -22.08] } 33. h4 $6 { [%eval #-4] } 33... Qg4 $4 { [%eval -5.68] }
+34. Bf7 $4 { [%eval -22.32] } 34... Red8 $4 { [%eval -3.92] } 35. h5
+{ [%eval -1.95] } 35... Qe4 $4 { [%eval #1] } 36. hxg6# 1-0

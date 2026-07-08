@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/vGswB29B"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ggauvain"]
+[Black "Mendonca10"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:28:17"]
+[WhiteElo "1584"]
+[BlackElo "1600"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-12"]
+[ECO "A40"]
+[Opening "Englund Gambit Complex: Hartlaub-Charlick Gambit"]
+[TimeControl "600+8"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.35] } 1... e5 $6 { [%eval 0.97] } 2. dxe5 { [%eval 0.88] }
+2... d6 { [%eval 0.75] } 3. exd6 { [%eval 0.7] } 3... Bxd6 { [%eval 0.6] } 4.
+Nc3 { [%eval 0.43] } 4... c6 $6 { [%eval 1.0] } 5. Nf3 { [%eval 0.99] } 5...
+Nf6 { [%eval 1.06] } 6. Bg5 { [%eval 0.97] } 6... O-O { [%eval 1.01] } 7. e3
+{ [%eval 0.78] } 7... Bg4 { [%eval 1.19] } 8. Be2 { [%eval 1.21] } 8... Qc7 $6
+{ [%eval 2.16] } 9. O-O $2 { [%eval 0.02] } 9... Bxf3 { [%eval 0.1] } 10. Bxf3
+{ [%eval -0.39] } 10... Bxh2+ { [%eval -0.36] } 11. Kh1 { [%eval -0.36] } 11...
+Be5 { [%eval -0.39] } 12. Bxf6 { [%eval -0.31] } 12... Bxf6 { [%eval -0.34] }
+13. Rb1 { [%eval -0.39] } 13... Nd7 { [%eval -0.33] } 14. Bg4 { [%eval -0.58] }
+14... Rad8 { [%eval -0.6] } 15. Bxd7 { [%eval -0.86] } 15... Rxd7
+{ [%eval -0.71] } 16. Qf3 { [%eval -0.72] } 16... Re8 { [%eval -0.35] } 17. Ne4
+{ [%eval -0.44] } 17... Re6 $2 { [%eval 1.92] } 18. Nc5 { [%eval 1.91] } 18...
+Rd5 { [%eval 2.27] } 19. Nxe6 { [%eval 2.27] } 19... fxe6 { [%eval 2.22] } 20.
+g3 { [%eval 2.14] } 20... c5 $6 { [%eval 2.68] } 21. c3 { [%eval 2.53] } 21...
+Rf5 { [%eval 2.76] } 22. Qg4 $6 { [%eval 2.11] } 22... Qc6+ { [%eval 2.13] }
+23. Kg1 { [%eval 2.14] } 23... g6 $6 { [%eval 2.95] } 24. Rbd1 { [%eval 2.57] }
+24... Rh5 { [%eval 2.88] } 25. e4 { [%eval 2.83] } 25... Rg5 { [%eval 3.27] }
+26. Qf3 { [%eval 3.06] } 26... e5 $4 { [%eval 6.77] } 27. Rd2 $2
+{ [%eval 3.98] } 27... h5 $4 { [%eval 8.31] } 28. Rfd1 { [%eval 8.1] } 28...
+Be7 { [%eval 7.93] } 29. Rd7 $4 { [%eval 4.45] } 29... Qe6 $4 { [%eval 15.05] }
+30. Rxb7 { [%eval 10.22] } 30... h4 $6 { [%eval #11] } 31. Rdd7 { [%eval #10] }
+31... Bf6 { [%eval #3] } 32. Rb8+ { [%eval #2] } 1-0

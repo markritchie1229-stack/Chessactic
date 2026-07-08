@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bnWNKqnx"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ELVISCHESS79"]
+[Black "rockofstrength"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "03:42:37"]
+[WhiteElo "1761"]
+[BlackElo "1727"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-10"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: London System"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.18] } 1... d5 { [%eval 0.14] } 2. Nf3 { [%eval 0.2] } 2... Nf6
+{ [%eval 0.21] } 3. Bf4 { [%eval 0.0] } 3... Bg4 { [%eval 0.41] } 4. Ne5
+{ [%eval 0.34] } 4... e6 { [%eval 0.65] } 5. Bg5 $6 { [%eval 0.0] } 5... Be7 $2
+{ [%eval 2.41] } 6. Bxf6 { [%eval 2.36] } 6... Bxf6 $6 { [%eval 3.14] } 7. Nxg4
+{ [%eval 3.06] } 7... O-O { [%eval 3.47] } 8. e3 { [%eval 3.09] } 8... Nd7 $6
+{ [%eval 3.65] } 9. c4 { [%eval 3.33] } 9... c5 { [%eval 3.66] } 10. Nxf6+
+{ [%eval 3.43] } 10... Nxf6 { [%eval 3.62] } 11. Nc3 { [%eval 3.44] } 11...
+cxd4 { [%eval 3.86] } 12. Qxd4 { [%eval 3.62] } 12... Rc8 $6 { [%eval 4.4] }
+13. cxd5 { [%eval 4.35] } 13... exd5 $6 { [%eval 5.02] } 14. Be2
+{ [%eval 4.95] } 14... Re8 { [%eval 5.21] } 15. O-O { [%eval 5.2] } 15... Qd6
+{ [%eval 5.23] } 16. Rad1 { [%eval 5.12] } 16... a6 { [%eval 5.33] } 17. Nxd5
+{ [%eval 5.04] } 17... Ne4 $6 { [%eval 5.95] } 18. Bf3 { [%eval 5.86] } 18...
+Ng5 { [%eval 6.28] } 19. Nb6 $2 { [%eval 4.95] } 19... Nxf3+ { [%eval 4.94] }
+20. gxf3 { [%eval 4.83] } 20... Qg6+ $2 { [%eval 6.3] } 21. Kh1
+{ [%eval 6.32] } 21... Rc6 { [%eval 6.38] } 22. Rg1 { [%eval 6.31] } 22... Qh6
+{ [%eval 6.64] } 23. Nd7 $6 { [%eval 6.04] } 23... Rc2 $4 { [%eval 16.54] } 24.
+Rd2 $4 { [%eval 5.96] } 24... Rc6 { [%eval 6.02] } 25. Ne5 { [%eval 6.16] }
+25... Rce6 { [%eval 6.22] } 26. Ng4 { [%eval 6.11] } 26... Qh4 { [%eval 6.07] }
+27. Rg3 $2 { [%eval 4.8] } 27... Rg6 $2 { [%eval 6.07] } 28. Kg2
+{ [%eval 5.81] } 28... h5 $4 { [%eval 21.13] } 29. Nf6+ $4 { [%eval 1.25] }
+29... Rxf6 $4 { [%eval 19.33] } 30. Qxh4 { [%eval 17.29] } 1-0

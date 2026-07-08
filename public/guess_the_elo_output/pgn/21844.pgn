@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/b5vfVlkL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "X-Botty"]
+[Black "Deutz"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:38:38"]
+[WhiteElo "1678"]
+[BlackElo "1731"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Veresov Attack, Alburt Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval -0.11] } 1... d5 { [%eval 0.04] } 2. d4 { [%eval -0.05] } 2...
+Bf5 { [%eval 0.0] } 3. e3 { [%eval 0.0] } 3... a6 { [%eval 0.27] } 4. a3
+{ [%eval -0.15] } 4... Nf6 { [%eval -0.07] } 5. Bd3 { [%eval -0.14] } 5... Bg6
+{ [%eval 0.03] } 6. Nf3 { [%eval 0.01] } 6... e6 { [%eval 0.12] } 7. O-O
+{ [%eval 0.04] } 7... Bd6 { [%eval 0.17] } 8. b4 { [%eval -0.16] } 8... c6
+{ [%eval -0.07] } 9. Re1 { [%eval -0.23] } 9... Qc7 { [%eval 0.2] } 10. e4
+{ [%eval 0.1] } 10... dxe4 { [%eval 0.14] } 11. Nxe4 { [%eval 0.04] } 11...
+Nxe4 { [%eval 0.05] } 12. Bxe4 { [%eval 0.0] } 12... O-O { [%eval 0.36] } 13.
+c4 { [%eval 0.37] } 13... Nd7 { [%eval 0.46] } 14. c5 { [%eval 0.12] } 14...
+Be7 { [%eval 0.3] } 15. g3 $6 { [%eval -0.2] } 15... Rad8 $6 { [%eval 0.55] }
+16. Bf4 { [%eval 0.42] } 16... e5 $6 { [%eval 1.09] } 17. dxe5 $2
+{ [%eval -1.44] } 17... Nxe5 $4 { [%eval 2.77] } 18. Qe2 { [%eval 2.51] } 18...
+Nxf3+ $2 { [%eval 4.59] } 19. Qxf3 $4 { [%eval 1.21] } 19... Qc8 $2
+{ [%eval 3.29] } 20. Bxg6 { [%eval 3.11] } 20... fxg6 $4 { [%eval 6.22] } 21.
+Rxe7 { [%eval 5.84] } 21... g5 $6 { [%eval 6.78] } 22. Qb3+ { [%eval 6.37] }
+22... Kh8 $4 { [%eval 26.34] } 23. Be5 { [%eval 20.89] } 23... Rg8 $6
+{ [%eval #7] } 24. Qc3 $6 { [%eval 120.55] } 24... Rd4 { [%eval 33.78] } 25.
+Bxd4 { [%eval 25.42] } 1-0

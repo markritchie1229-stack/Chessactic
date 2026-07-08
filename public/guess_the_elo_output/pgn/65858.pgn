@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/llEIeLuh"]
+[Date "????.??.??"]
+[Round "?"]
+[White "marinkov"]
+[Black "Abderrahimid"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:11:48"]
+[WhiteElo "1879"]
+[BlackElo "2160"]
+[WhiteRatingDiff "-4"]
+[BlackRatingDiff "+6"]
+[ECO "E60"]
+[Opening "King's Indian Defense: Normal Variation, King's Knight Variation"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.12] } 1... Nf6 { [%eval 0.14] } 2. d4 { [%eval 0.07] } 2...
+g6 { [%eval 0.4] } 3. c4 { [%eval 0.47] } 3... Bg7 { [%eval 0.52] } 4. e3
+{ [%eval 0.36] } 4... O-O { [%eval 0.38] } 5. Nc3 { [%eval 0.27] } 5... d6
+{ [%eval 0.42] } 6. Qc2 { [%eval 0.05] } 6... Nc6 { [%eval 0.23] } 7. a3
+{ [%eval -0.08] } 7... e5 { [%eval -0.07] } 8. Be2 { [%eval -0.54] } 8... exd4
+{ [%eval -0.44] } 9. Nxd4 { [%eval -0.46] } 9... Nxd4 { [%eval -0.47] } 10.
+exd4 { [%eval -0.44] } 10... d5 { [%eval -0.42] } 11. c5 { [%eval -0.37] }
+11... Bf5 { [%eval -0.45] } 12. Qa4 { [%eval -0.54] } 12... Ne4
+{ [%eval -0.23] } 13. O-O { [%eval -0.24] } 13... Nxc3 { [%eval -0.2] } 14.
+bxc3 { [%eval -0.24] } 14... Re8 { [%eval -0.21] } 15. Be3 { [%eval -0.25] }
+15... Be4 { [%eval -0.08] } 16. Rfe1 { [%eval -0.06] } 16... c6
+{ [%eval 0.02] } 17. Bf1 { [%eval -0.13] } 17... Qc7 { [%eval -0.04] } 18. g3
+{ [%eval -0.22] } 18... b6 { [%eval -0.22] } 19. Qb4 $6 { [%eval -0.74] } 19...
+bxc5 { [%eval -0.73] } 20. dxc5 { [%eval -1.02] } 20... Reb8 { [%eval -1.02] }
+21. Qa4 { [%eval -1.08] } 21... Bxc3 { [%eval -1.18] } 22. Bf4
+{ [%eval -1.14] } 22... Qd7 { [%eval -1.08] } 23. Bxb8 { [%eval -1.14] } 23...
+Rxb8 { [%eval -1.07] } 24. Rac1 { [%eval -1.08] } 24... Bxe1 { [%eval -1.12] }
+25. Rxe1 { [%eval -1.07] } 25... f5 { [%eval -0.79] } 26. Qd4 { [%eval -1.02] }
+26... Qg7 { [%eval -0.85] } 27. Qe3 { [%eval -1.03] } 27... g5
+{ [%eval -0.94] } 28. f3 $6 { [%eval -1.74] } 28... f4 { [%eval -1.62] } 29.
+Qe2 $2 { [%eval -3.2] } 29... Rb2 { [%eval -3.1] } 30. Qa6 $4 { [%eval #-4] }
+30... Qd4+ { [%eval #-3] } 0-1

@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/0enxcR2f"]
+[Date "????.??.??"]
+[Round "?"]
+[White "1test"]
+[Black "test3"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "21:07:32"]
+[WhiteElo "1541"]
+[BlackElo "1626"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-13"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Macleod Attack"]
+[TimeControl "900+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.36] } 1... e5 { [%eval 0.41] } 2. c3 $6 { [%eval -0.15] } 2...
+Nf6 { [%eval -0.2] } 3. Qf3 $6 { [%eval -0.77] } 3... Bc5 { [%eval -0.58] } 4.
+Bc4 { [%eval -0.78] } 4... O-O { [%eval -0.72] } 5. h3 $6 { [%eval -1.42] }
+5... Nc6 $6 { [%eval -0.54] } 6. Ne2 $6 { [%eval -1.53] } 6... a6 $2
+{ [%eval 0.0] } 7. b4 { [%eval -0.46] } 7... Na7 $4 { [%eval 4.16] } 8. bxc5
+{ [%eval 4.11] } 8... d6 { [%eval 4.11] } 9. Ba3 $6 { [%eval 3.6] } 9... Nb5
+{ [%eval 3.91] } 10. Bxb5 { [%eval 3.87] } 10... axb5 { [%eval 3.83] } 11. cxd6
+{ [%eval 3.74] } 11... cxd6 { [%eval 3.74] } 12. Bb4 { [%eval 3.66] } 12... b6
+{ [%eval 3.9] } 13. Na3 { [%eval 3.91] } 13... Qd7 { [%eval 3.98] } 14. Qe3
+{ [%eval 3.9] } 14... Qc6 { [%eval 3.89] } 15. Ng3 { [%eval 3.78] } 15... g6 $2
+{ [%eval 5.05] } 16. O-O { [%eval 4.64] } 16... Nd7 $6 { [%eval 5.22] } 17. Qg5
+$2 { [%eval 4.22] } 17... Nc5 { [%eval 4.31] } 18. d4 { [%eval 4.25] } 18...
+Ne6 $2 { [%eval 5.49] } 19. Qf6 { [%eval 5.36] } 19... exd4 $6 { [%eval 6.26] }
+20. Nxb5 $2 { [%eval 4.39] } 20... Qxb5 { [%eval 4.34] } 21. Bxd6
+{ [%eval 4.49] } 21... Re8 $4 { [%eval 8.82] } 22. Be5 { [%eval 8.56] } 22...
+Kf8 $2 { [%eval 10.45] } 23. Bd6+ $2 { [%eval 8.62] } 23... Kg8 { [%eval 8.6] }
+24. Be5 { [%eval 8.4] } 24... Kf8 $2 { [%eval 9.8] } 25. Rab1 $2
+{ [%eval 8.48] } 25... Qc5 $2 { [%eval 11.84] } 26. cxd4 { [%eval 11.41] }
+26... Nxd4 { [%eval 15.18] } 27. Bd6+ $2 { [%eval 8.68] } 27... Qxd6 $2
+{ [%eval 14.37] } 28. Qxd6+ { [%eval 13.9] } 28... Kg8 { [%eval 13.68] } 29. e5
+$6 { [%eval 9.43] } 1-0

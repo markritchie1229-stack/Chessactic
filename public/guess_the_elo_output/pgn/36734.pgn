@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/JnieEd1o"]
+[Date "????.??.??"]
+[Round "?"]
+[White "JLubba"]
+[Black "russianattack"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:42:25"]
+[WhiteElo "1935"]
+[BlackElo "1902"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-21"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf, Lipnitsky Attack"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.3] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.31] } 3. d4 { [%eval 0.28] } 3... cxd4 { [%eval 0.29] } 4. Nxd4
+{ [%eval 0.2] } 4... Nf6 { [%eval 0.25] } 5. Nc3 { [%eval 0.14] } 5... a6
+{ [%eval 0.16] } 6. Bc4 { [%eval 0.17] } 6... e6 { [%eval 0.2] } 7. a3
+{ [%eval 0.12] } 7... Qc7 { [%eval 0.24] } 8. Ba2 { [%eval 0.12] } 8... Be7
+{ [%eval 0.16] } 9. O-O { [%eval 0.04] } 9... O-O { [%eval 0.12] } 10. f4
+{ [%eval 0.0] } 10... b5 { [%eval -0.02] } 11. f5 { [%eval -0.04] } 11... Bb7
+$4 { [%eval 3.19] } 12. fxe6 { [%eval 3.13] } 12... Nxe4 $4 { [%eval 6.54] }
+13. exf7+ $6 { [%eval 5.93] } 13... Kh8 { [%eval 5.86] } 14. Nxe4 $2
+{ [%eval 4.33] } 14... Bxe4 { [%eval 3.95] } 15. c3 $2 { [%eval 2.04] } 15...
+d5 { [%eval 2.05] } 16. Qg4 $6 { [%eval 1.13] } 16... Nd7 $2 { [%eval 3.5] }
+17. Bf4 $2 { [%eval 1.2] } 17... Ne5 $2 { [%eval 3.2] } 18. Bxe5
+{ [%eval 2.84] } 18... Qxe5 { [%eval 3.16] } 19. Ne6 { [%eval 2.77] } 19... Bg6
+$4 { [%eval 6.4] } 20. Nxf8 $2 { [%eval 4.09] } 20... Rxf8 { [%eval 3.95] } 21.
+Rae1 { [%eval 3.71] } 21... Bc5+ $2 { [%eval 5.42] } 22. Kh1 { [%eval 5.22] }
+22... Rxf7 $4 { [%eval #4] } 23. Qc8+ { [%eval #3] } 23... Bf8 { [%eval #2] }
+24. Qxf8+ { [%eval #1] } 1-0

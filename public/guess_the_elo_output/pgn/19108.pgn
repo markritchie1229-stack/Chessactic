@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/UtDmZvSu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "shosho123456"]
+[Black "E4d4"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:42:22"]
+[WhiteElo "1889"]
+[BlackElo "1899"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-10"]
+[ECO "C45"]
+[Opening "Scotch Game: Haxo Gambit"]
+[TimeControl "360+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.37] } 2. d4 $6 { [%eval -0.18] } 2...
+Nc6 $6 { [%eval 0.7] } 3. Nf3 $6 { [%eval 0.12] } 3... exd4 { [%eval 0.23] } 4.
+Bc4 $6 { [%eval -0.27] } 4... Bc5 { [%eval 0.04] } 5. c3 { [%eval 0.12] } 5...
+d6 $6 { [%eval 0.7] } 6. O-O $6 { [%eval -0.24] } 6... Qf6 { [%eval 0.12] } 7.
+Qb3 { [%eval -0.07] } 7... Nge7 { [%eval 0.0] } 8. Bg5 { [%eval 0.0] } 8... Qg6
+{ [%eval 0.0] } 9. cxd4 { [%eval 0.0] } 9... Nxd4 { [%eval 0.0] } 10. Nxd4
+{ [%eval 0.0] } 10... Qxg5 $6 { [%eval 0.97] } 11. Nf3 $2 { [%eval -1.02] }
+11... Qg6 { [%eval -0.75] } 12. e5 { [%eval -0.7] } 12... O-O { [%eval -0.7] }
+13. exd6 { [%eval -0.89] } 13... Bxd6 { [%eval -0.7] } 14. Nc3 $6
+{ [%eval -1.47] } 14... Bg4 $6 { [%eval -0.6] } 15. Nd5 $2 { [%eval -1.97] }
+15... Nf5 { [%eval -1.89] } 16. h3 { [%eval -1.93] } 16... Bh5
+{ [%eval -1.47] } 17. Rae1 $2 { [%eval -2.5] } 17... Rfe8 $2 { [%eval -0.88] }
+18. Kh1 $6 { [%eval -1.52] } 18... Bxf3 $6 { [%eval -0.93] } 19. Qxf3
+{ [%eval -0.97] } 19... Nh4 { [%eval -0.8] } 20. Qg4 { [%eval -0.86] } 20...
+Qf6 $4 { [%eval 33.25] } 21. Nxf6+ { [%eval 26.81] } 1-0

@@ -1,0 +1,43 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/CZImAeJN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "DLEKSET"]
+[Black "sadovod"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:50:08"]
+[WhiteElo "2110"]
+[BlackElo "2148"]
+[WhiteRatingDiff "+17"]
+[BlackRatingDiff "-14"]
+[ECO "E61"]
+[Opening "King's Indian Defense"]
+[TimeControl "300+8"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.22] } 1... Nf6 { [%eval 0.27] } 2. c4 { [%eval 0.14] } 2... g6
+{ [%eval 0.48] } 3. Nc3 { [%eval 0.43] } 3... Bg7 { [%eval 0.69] } 4. Bg5
+{ [%eval 0.31] } 4... h6 { [%eval 0.45] } 5. Bh4 { [%eval 0.17] } 5... d6
+{ [%eval 0.25] } 6. Nf3 { [%eval 0.1] } 6... O-O { [%eval 0.16] } 7. h3
+{ [%eval 0.1] } 7... c5 { [%eval 0.13] } 8. d5 { [%eval -0.01] } 8... e5
+{ [%eval 0.37] } 9. dxe6 $6 { [%eval -0.13] } 9... fxe6 $6 { [%eval 0.58] } 10.
+e4 $6 { [%eval -0.28] } 10... Nc6 { [%eval -0.25] } 11. a3 { [%eval -0.56] }
+11... Qe7 { [%eval -0.25] } 12. Be2 { [%eval -0.3] } 12... Bd7 { [%eval 0.0] }
+13. O-O { [%eval -0.04] } 13... Rad8 { [%eval -0.03] } 14. Qc2 $6
+{ [%eval -0.92] } 14... Nd4 $6 { [%eval -0.08] } 15. Nxd4 { [%eval -0.18] }
+15... cxd4 { [%eval -0.04] } 16. Nb5 { [%eval -0.04] } 16... Bxb5
+{ [%eval 0.0] } 17. cxb5 { [%eval -0.13] } 17... Rc8 { [%eval 0.07] } 18. Qb3
+$6 { [%eval -0.68] } 18... g5 { [%eval -0.65] } 19. Bg3 { [%eval -0.87] } 19...
+Nxe4 { [%eval -0.54] } 20. Bg4 { [%eval -0.75] } 20... d5 { [%eval -0.58] } 21.
+Rfe1 { [%eval -1.05] } 21... Rc5 { [%eval -0.9] } 22. Qd3 $6 { [%eval -1.56] }
+22... e5 { [%eval -1.71] } 23. b4 $2 { [%eval -3.49] } 23... Rc3
+{ [%eval -2.97] } 24. Qb1 $2 { [%eval -4.18] } 24... Nxg3 { [%eval -3.96] } 25.
+fxg3 $6 { [%eval -4.53] } 25... e4 { [%eval -4.24] } 26. Qa2 { [%eval -4.39] }
+26... Qf7 $2 { [%eval -1.58] } 27. Kh2 $2 { [%eval -4.48] } 27... Rd8 $2
+{ [%eval -1.66] } 28. Rxe4 { [%eval -1.6] } 28... Qc7 { [%eval -1.02] } 29.
+Be6+ $4 { [%eval -4.35] } 29... Kh8 { [%eval -3.95] } 30. Bxd5 $6
+{ [%eval -4.66] } 30... Rxg3 $4 { [%eval -0.97] } 31. Kh1 $2 { [%eval -3.36] }
+31... d3 $4 { [%eval 0.0] } 32. Rd1 $2 { [%eval -1.16] } 32... Qc2
+{ [%eval -1.1] } 33. Ree1 $2 { [%eval -3.01] } 33... Rxg2 $2 { [%eval -0.15] }
+34. Qxc2 { [%eval -0.14] } 1-0

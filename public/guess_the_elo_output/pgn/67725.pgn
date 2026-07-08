@@ -1,0 +1,36 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/pyAvjVMs"]
+[Site "https://lichess.org/AqsrixZv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ravl"]
+[Black "Oups4"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:26:25"]
+[WhiteElo "1676"]
+[BlackElo "1748"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+9"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e6 { [%eval 0.24] } 2. d3 { [%eval -0.15] } 2... d5
+{ [%eval -0.09] } 3. Nd2 { [%eval -0.07] } 3... d4 { [%eval 0.23] } 4. Ngf3
+{ [%eval 0.15] } 4... c5 { [%eval 0.19] } 5. g3 { [%eval 0.0] } 5... Nf6
+{ [%eval 0.09] } 6. Bg2 { [%eval 0.09] } 6... Nbd7 $6 { [%eval 0.69] } 7. O-O
+{ [%eval 0.67] } 7... b6 { [%eval 0.7] } 8. e5 $6 { [%eval 0.2] } 8... Nd5
+{ [%eval 0.25] } 9. Nc4 { [%eval 0.27] } 9... Rb8 $2 { [%eval 2.51] } 10. Ng5
+{ [%eval 2.36] } 10... h6 $6 { [%eval 2.97] } 11. Ne4 $2 { [%eval 1.39] } 11...
+Qc7 $2 { [%eval 2.6] } 12. f4 $6 { [%eval 2.02] } 12... Ba6 $2 { [%eval 3.06] }
+13. Ncd6+ $2 { [%eval 1.72] } 13... Bxd6 { [%eval 1.76] } 14. Nxd6+
+{ [%eval 1.63] } 14... Ke7 $2 { [%eval 3.21] } 15. Re1 $2 { [%eval 1.75] }
+15... Bb7 $2 { [%eval 3.2] } 16. Qg4 $2 { [%eval 1.71] } 16... Rhg8 $2
+{ [%eval 4.19] } 17. f5 $4 { [%eval 0.0] } 17... Nxe5 { [%eval 0.0] } 18. Rxe5
+{ [%eval 0.0] } 18... Qxd6 { [%eval 0.0] } 19. Bf4 { [%eval 0.0] } 19... Nxf4
+{ [%eval 0.12] } 20. Qxf4 { [%eval 0.13] } 20... Bxg2 { [%eval 0.13] } 21. Kxg2
+{ [%eval 0.13] } 21... Rbf8 { [%eval 0.15] } 22. Rae1 { [%eval 0.09] } 22... g5
+$2 { [%eval 2.66] } 23. f6+ $4 { [%eval -1.27] } 23... Kd7 { [%eval -1.29] }
+24. Rd5 $4 { [%eval -8.85] } 24... Qxd5+ { [%eval -8.69] } 25. Kg1 $2
+{ [%eval #-8] } 25... Qf5 $2 { [%eval -7.76] } 0-1

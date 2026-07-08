@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LxC0sgPX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "basico"]
+[Black "Onditmerciqui"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:48:27"]
+[WhiteElo "1582"]
+[BlackElo "1432"]
+[WhiteRatingDiff "+7"]
+[BlackRatingDiff "-6"]
+[ECO "C00"]
+[Opening "French Defense: Steinitz Attack"]
+[TimeControl "240+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e6 { [%eval 0.17] } 2. e5 { [%eval -0.11] } 2... d6
+{ [%eval -0.05] } 3. Nf3 { [%eval -0.11] } 3... dxe5 { [%eval -0.08] } 4. Nxe5
+{ [%eval -0.1] } 4... Bd6 { [%eval -0.11] } 5. Nf3 { [%eval -0.32] } 5... Nf6
+{ [%eval -0.27] } 6. Bd3 { [%eval -0.33] } 6... O-O { [%eval -0.29] } 7. b3 $2
+{ [%eval -1.99] } 7... Nc6 $2 { [%eval -0.43] } 8. Bb2 { [%eval -0.79] } 8...
+b6 $6 { [%eval -0.26] } 9. Nc3 { [%eval -0.61] } 9... Bb7 { [%eval -0.44] } 10.
+Ne4 { [%eval -0.56] } 10... Nxe4 { [%eval -0.15] } 11. Bxe4 { [%eval -0.16] }
+11... f6 { [%eval 0.0] } 12. d4 { [%eval -0.41] } 12... Qc8 $6 { [%eval 0.2] }
+13. O-O { [%eval 0.1] } 13... e5 $6 { [%eval 0.89] } 14. d5 $6 { [%eval 0.0] }
+14... Nb4 $6 { [%eval 0.59] } 15. a3 { [%eval 0.29] } 15... Na6
+{ [%eval 0.77] } 16. b4 $6 { [%eval -0.01] } 16... c6 $2 { [%eval 2.79] } 17.
+h3 $2 { [%eval 0.51] } 17... cxd5 $2 { [%eval 2.95] } 18. Bxd5+
+{ [%eval 2.94] } 18... Bxd5 { [%eval 2.88] } 19. Qxd5+ { [%eval 2.89] } 19...
+Rf7 $6 { [%eval 3.76] } 20. Qxd6 { [%eval 3.75] } 20... Qf5 { [%eval 4.08] }
+21. Qd1 $6 { [%eval 3.58] } 21... h6 $6 { [%eval 4.3] } 22. Qe2
+{ [%eval 4.23] } 22... Nc7 { [%eval 4.26] } 23. Nd2 $2 { [%eval 2.21] } 23...
+Qxc2 { [%eval 2.14] } 24. Bc1 { [%eval 2.14] } 24... Nd5 { [%eval 2.57] } 25.
+Rb1 $6 { [%eval 1.69] } 25... Nc3 $6 { [%eval 2.3] } 26. Qc4 { [%eval 2.19] }
+26... Ne2+ $4 { [%eval 6.67] } 27. Qxe2 { [%eval 6.45] } 27... Rd8
+{ [%eval 6.58] } 28. Rb2 { [%eval 6.53] } 28... Rxd2 $4 { [%eval 10.95] } 29.
+Qxd2 { [%eval 10.72] } 29... Qxd2 { [%eval 11.0] } 30. Rxd2 { [%eval 10.66] }
+1-0

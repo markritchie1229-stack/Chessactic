@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/oHyRqkYv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Liottas"]
+[Black "vruzkata"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:58:55"]
+[WhiteElo "1487"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-71"]
+[BlackRatingDiff "+167"]
+[ECO "C00"]
+[Opening "French Defense: Normal Variation"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.03] } 1... e6 { [%eval 0.11] } 2. e4 { [%eval 0.03] } 2... Qh4
+$2 { [%eval 1.1] } 3. e5 { [%eval 0.82] } 3... d6 { [%eval 0.93] } 4. Nf3
+{ [%eval 0.91] } 4... Qe4+ { [%eval 1.29] } 5. Qe2 $6 { [%eval 0.3] } 5...
+Qxe2+ { [%eval 0.37] } 6. Bxe2 { [%eval 0.4] } 6... d5 { [%eval 0.72] } 7. Nc3
+{ [%eval 0.4] } 7... c6 { [%eval 0.87] } 8. Bg5 { [%eval 0.56] } 8... h6
+{ [%eval 0.73] } 9. Bf4 { [%eval 0.59] } 9... g5 { [%eval 0.97] } 10. Be3
+{ [%eval 0.92] } 10... f6 { [%eval 1.29] } 11. O-O-O { [%eval 0.99] } 11...
+fxe5 $6 { [%eval 1.62] } 12. Nxe5 { [%eval 1.58] } 12... Bd6 $2
+{ [%eval 3.74] } 13. Bh5+ { [%eval 3.7] } 13... Kf8 { [%eval 4.11] } 14. Nf7 $2
+{ [%eval 2.65] } 14... Rh7 $4 { [%eval 6.02] } 15. Nxd6 { [%eval 5.95] } 15...
+Bd7 $2 { [%eval 7.43] } 16. Rhf1 $2 { [%eval 6.15] } 16... Nf6 $6
+{ [%eval 6.7] } 17. Bg6 $2 { [%eval 5.49] } 17... Rg7 { [%eval 5.7] } 18. Bd3
+{ [%eval 5.67] } 18... Ng4 $2 { [%eval 6.97] } 19. Nxb7 { [%eval 6.77] } 19...
+Nxh2 { [%eval 7.25] } 20. Rh1 { [%eval 7.04] } 20... Ng4 { [%eval 7.11] } 21.
+Rdf1 { [%eval 6.99] } 21... Bc8 $6 { [%eval 7.6] } 22. Nc5 { [%eval 7.48] }
+22... Re7 $2 { [%eval 9.38] } 23. Bxg5 { [%eval 9.49] } 23... Rf7 $6
+{ [%eval 11.24] } 24. Bxh6+ { [%eval 9.98] } 24... Nxh6 { [%eval 10.0] } 25.
+Rxh6 { [%eval 9.56] } 25... Nd7 { [%eval 12.7] } 26. Rh8+ $2 { [%eval 8.58] }
+26... Kg7 $2 { [%eval 9.97] } 27. Rfh1 { [%eval 9.46] } 27... e5 $2
+{ [%eval #4] } 28. R1h7+ { [%eval #3] } 28... Kf6 { [%eval #3] } 29. Nxd7+ $6
+{ [%eval 15.1] } 29... Ke7 { [%eval 22.73] } 0-1

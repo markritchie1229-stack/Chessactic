@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/bJitoSt5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Olic1994"]
+[Black "tonin1"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:24:14"]
+[WhiteElo "1433"]
+[BlackElo "1681"]
+[WhiteRatingDiff "+87"]
+[BlackRatingDiff "-17"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... d5 { [%eval 0.18] } 2. Nc3 { [%eval -0.07] } 2...
+c6 { [%eval 0.39] } 3. Nf3 { [%eval 0.07] } 3... h6 { [%eval 0.52] } 4. e3
+{ [%eval 0.2] } 4... Bf5 { [%eval 0.21] } 5. Bd3 { [%eval 0.14] } 5... Qd7 $2
+{ [%eval 2.04] } 6. Bxf5 $2 { [%eval -0.02] } 6... Qxf5 { [%eval 0.08] } 7. Bd2
+{ [%eval -0.16] } 7... Nd7 { [%eval -0.18] } 8. h3 { [%eval -0.22] } 8... e5
+{ [%eval -0.15] } 9. dxe5 { [%eval -0.12] } 9... Nxe5 { [%eval -0.17] } 10.
+Nxe5 { [%eval -0.25] } 10... Qxe5 { [%eval -0.2] } 11. Qe2 { [%eval -0.28] }
+11... O-O-O { [%eval -0.11] } 12. O-O-O { [%eval -0.09] } 12... Nf6
+{ [%eval -0.04] } 13. f4 { [%eval -0.47] } 13... Qe6 { [%eval -0.5] } 14. Qf3
+{ [%eval -0.49] } 14... d4 $6 { [%eval 0.47] } 15. exd4 { [%eval 0.56] } 15...
+Rxd4 { [%eval 0.78] } 16. Ne2 $2 { [%eval -1.7] } 16... Rd8 $2 { [%eval 0.12] }
+17. Bc3 { [%eval -0.32] } 17... Rxd1+ { [%eval -0.16] } 18. Rxd1
+{ [%eval -0.12] } 18... Qxa2 { [%eval -0.09] } 19. Qe3 $2 { [%eval -1.4] }
+19... Nd5 $4 { [%eval 1.93] } 20. Qe8+ { [%eval 1.37] } 20... Kc7
+{ [%eval 1.64] } 21. Be5+ $2 { [%eval 0.4] } 21... Kb6 { [%eval 0.47] } 22.
+Qd8+ $6 { [%eval -0.35] } 22... Ka6 { [%eval -0.42] } 23. Nc3 { [%eval -0.5] }
+23... Qa1+ { [%eval -0.58] } 24. Kd2 $4 { [%eval -3.59] } 24... Nxc3 $4
+{ [%eval #5] } 25. Rxa1+ { [%eval #4] } 25... Kb5 { [%eval #2] } 26. Qd3+ $6
+{ [%eval #4] } 26... Kb6 { [%eval #4] } 27. Qxc3 $6 { [%eval #7] } 27... f6
+{ [%eval #1] } 28. Bd4+ $6 { [%eval 117.56] } 28... c5 $6 { [%eval #6] } 29.
+Qb3+ { [%eval #5] } 29... Kc7 { [%eval #4] } 30. Qf7+ $6 { [%eval #8] } 30...
+Kc6 { [%eval #7] } 31. Bc3 $6 { [%eval 16.68] } 31... b5 $6 { [%eval #1] } 32.
+Ra6# 1-0

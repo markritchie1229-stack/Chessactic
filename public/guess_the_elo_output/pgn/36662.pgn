@@ -1,0 +1,33 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/V08KBBvn"]
+[Site "https://lichess.org/2pVHPDZR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "andrewsus"]
+[Black "steve37"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:39:09"]
+[WhiteElo "1739"]
+[BlackElo "1806"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-14"]
+[ECO "D02"]
+[Opening "Queen's Gambit Refused: Baltic Defense, Pseudo-Slav"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.21] } 1... d5 { [%eval 0.25] } 2. c4 { [%eval 0.19] } 2... c6
+{ [%eval 0.29] } 3. Nf3 { [%eval 0.37] } 3... Bf5 { [%eval 0.45] } 4. Nc3
+{ [%eval 0.24] } 4... e6 { [%eval 0.42] } 5. Bf4 { [%eval 0.34] } 5... Bb4
+{ [%eval 0.39] } 6. e3 { [%eval 0.46] } 6... Bxc3+ { [%eval 0.81] } 7. bxc3
+{ [%eval 0.79] } 7... Nf6 { [%eval 0.67] } 8. Nh4 { [%eval 0.82] } 8... Bg6
+{ [%eval 0.92] } 9. Nxg6 { [%eval 0.77] } 9... fxg6 $6 { [%eval 1.28] } 10.
+cxd5 { [%eval 0.96] } 10... cxd5 { [%eval 1.05] } 11. c4 $6 { [%eval 0.43] }
+11... O-O { [%eval 0.74] } 12. cxd5 { [%eval 0.64] } 12... Nxd5
+{ [%eval 0.54] } 13. Bg3 { [%eval 0.39] } 13... Qa5+ { [%eval 0.43] } 14. Qd2
+{ [%eval 0.36] } 14... Qxd2+ $6 { [%eval 1.1] } 15. Kxd2 { [%eval 0.95] } 15...
+Nc6 { [%eval 1.19] } 16. Rb1 { [%eval 1.0] } 16... b6 { [%eval 1.36] } 17. Bb5
+{ [%eval 1.45] } 17... Na5 { [%eval 1.49] } 18. Rhc1 { [%eval 1.7] } 18... Rac8
+$2 { [%eval 4.06] } 19. Bd7 { [%eval 3.9] } 19... Rc4 $4 { [%eval 9.49] } 20.
+Bxe6+ { [%eval 9.34] } 20... Kh8 { [%eval 9.25] } 21. Bxd5 { [%eval 8.86] }
+21... Rxc1 $2 { [%eval 9.87] } 22. Rxc1 { [%eval 9.48] } 1-0

@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/A1HiyMG2"]
+[Date "????.??.??"]
+[Round "?"]
+[White "FilFil"]
+[Black "davidz2010"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:41:53"]
+[WhiteElo "1274"]
+[BlackElo "977"]
+[WhiteRatingDiff "-237"]
+[BlackRatingDiff "+20"]
+[ECO "A00"]
+[Opening "Anderssen Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. a3 { [%eval 0.0] } 1... e5 { [%eval 0.09] } 2. c3 $6 { [%eval -0.41] } 2...
+Nc6 { [%eval -0.26] } 3. e3 { [%eval -0.23] } 3... d5 { [%eval -0.27] } 4. g3
+$6 { [%eval -1.1] } 4... d4 $6 { [%eval -0.21] } 5. exd4 { [%eval -0.56] } 5...
+exd4 { [%eval -0.56] } 6. cxd4 $2 { [%eval -2.76] } 6... Qxd4 $2
+{ [%eval -0.1] } 7. Nc3 { [%eval -0.39] } 7... Be6 { [%eval 0.07] } 8. Qf3 $6
+{ [%eval -0.7] } 8... Bd5 $4 { [%eval 3.51] } 9. Qe4+ $4 { [%eval -13.43] }
+9... Bxe4 { [%eval -13.21] } 10. Nxe4 { [%eval -20.48] } 10... Qxe4+
+{ [%eval -20.12] } 11. Be2 { [%eval -20.0] } 11... Qxh1 { [%eval -19.56] } 12.
+Bb5 { [%eval -31.23] } 12... Qxg1+ { [%eval -30.45] } 13. Ke2
+{ [%eval -29.91] } 13... Bc5 { [%eval -28.62] } 14. Bxc6+ { [%eval -34.58] }
+14... bxc6 { [%eval -32.26] } 15. b4 { [%eval -34.43] } 15... Bd4
+{ [%eval -33.19] } 16. Kd3 $6 { [%eval #-9] } 16... Bxa1 { [%eval #-8] } 17. b5
+{ [%eval #-7] } 17... Qxc1 { [%eval #-6] } 18. f4 { [%eval #-4] } 18... Bf6 $6
+{ [%eval #-5] } 19. Ke2 { [%eval #-5] } 19... g5 $6 { [%eval #-6] } 20. Ke3
+{ [%eval #-5] } 20... gxf4+ $6 { [%eval #-5] } 21. gxf4 { [%eval #-5] } 21...
+Bh4 $6 { [%eval #-5] } 22. Ke4 { [%eval #-3] } 22... Bf2 $6 { [%eval #-5] } 23.
+Kd3 { [%eval #-5] } 23... Qxd2+ $6 { [%eval #-12] } 24. Kxd2 { [%eval #-17] }
+24... Be1+ $6 { [%eval -61.52] } 25. Kxe1 { [%eval -66.42] } 25... Ke7
+{ [%eval -20.57] } 26. Ke2 $6 { [%eval #-13] } 26... Rd8 { [%eval -69.97] } 27.
+Kf3 $6 { [%eval #-11] } 27... Rd7 $6 { [%eval -120.04] } 28. Kg3 $6
+{ [%eval #-13] } 28... Rd8 $6 { [%eval -67.05] } 0-1

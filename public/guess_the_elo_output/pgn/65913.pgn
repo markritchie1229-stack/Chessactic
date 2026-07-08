@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/E5wPVNzy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mostafa10"]
+[Black "brentmyerson"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:13:49"]
+[WhiteElo "1425"]
+[BlackElo "1484"]
+[WhiteRatingDiff "+84"]
+[BlackRatingDiff "-12"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation"]
+[TimeControl "1800+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.2] } 2... d6
+{ [%eval 0.2] } 3. d4 { [%eval 0.26] } 3... cxd4 { [%eval 0.22] } 4. Nxd4
+{ [%eval 0.26] } 4... Nf6 { [%eval 0.33] } 5. Nc3 { [%eval 0.22] } 5... a6
+{ [%eval 0.41] } 6. Bd3 { [%eval 0.1] } 6... e6 { [%eval 0.2] } 7. O-O
+{ [%eval 0.17] } 7... Be7 { [%eval 0.29] } 8. a3 { [%eval 0.16] } 8... Qb6
+{ [%eval 0.59] } 9. Be2 { [%eval 0.32] } 9... d5 $6 { [%eval 1.09] } 10. e5 $6
+{ [%eval 0.21] } 10... Nfd7 { [%eval 0.27] } 11. Nf3 { [%eval -0.13] } 11...
+Nc6 { [%eval -0.25] } 12. Na4 $6 { [%eval -0.91] } 12... Qa5 { [%eval -1.01] }
+13. Nc3 { [%eval -1.22] } 13... Ndxe5 { [%eval -1.2] } 14. Nxe5
+{ [%eval -1.14] } 14... Nxe5 { [%eval -1.12] } 15. f4 { [%eval -1.26] } 15...
+Qc5+ { [%eval -1.15] } 16. Kh1 { [%eval -0.99] } 16... Nc4 { [%eval -1.19] }
+17. Na4 { [%eval -1.26] } 17... Qa5 $6 { [%eval -0.62] } 18. b3
+{ [%eval -0.62] } 18... Nd6 $6 { [%eval -0.08] } 19. Bb2 $6 { [%eval -0.65] }
+19... O-O { [%eval -0.56] } 20. Bd3 { [%eval -0.58] } 20... b5 $6
+{ [%eval 0.0] } 21. Qh5 $2 { [%eval -1.09] } 21... g6 $2 { [%eval 0.27] } 22.
+Qh6 { [%eval 0.21] } 22... f6 $4 { [%eval 3.45] } 23. Nc5 $4 { [%eval -0.46] }
+23... Nf5 { [%eval -0.27] } 24. Bxf5 { [%eval -0.3] } 24... exf5
+{ [%eval -0.23] } 25. Rfe1 $6 { [%eval -1.2] } 25... Bxc5 { [%eval -1.06] } 26.
+b4 { [%eval -1.16] } 26... Bxb4 $6 { [%eval -0.31] } 27. axb4 { [%eval -0.27] }
+27... Qxb4 $4 { [%eval 8.73] } 28. Ba3 { [%eval 8.57] } 1-0

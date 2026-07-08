@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pyjIara3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "peyman54"]
+[Black "pepes68"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:25:15"]
+[WhiteElo "1656"]
+[BlackElo "1571"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "C41"]
+[Opening "Philidor Defense #2"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.3] } 1... e5 { [%eval 0.33] } 2. Nf3 { [%eval 0.39] } 2... d6
+{ [%eval 0.39] } 3. h3 { [%eval 0.19] } 3... Nd7 { [%eval 0.42] } 4. Bb5
+{ [%eval 0.01] } 4... Nf6 { [%eval 0.1] } 5. d3 { [%eval -0.1] } 5... Be7
+{ [%eval 0.08] } 6. O-O { [%eval -0.11] } 6... c6 { [%eval -0.03] } 7. Ba4
+{ [%eval -0.05] } 7... Qc7 { [%eval 0.13] } 8. c3 { [%eval 0.01] } 8... O-O
+{ [%eval 0.0] } 9. Bg5 { [%eval 0.0] } 9... h6 { [%eval -0.08] } 10. Be3
+{ [%eval -0.3] } 10... Re8 { [%eval -0.09] } 11. Re1 { [%eval -0.18] } 11... d5
+{ [%eval -0.13] } 12. Bc2 { [%eval -0.16] } 12... dxe4 { [%eval -0.2] } 13.
+dxe4 { [%eval -0.15] } 13... b5 { [%eval 0.08] } 14. Nbd2 { [%eval -0.02] }
+14... Ba6 $6 { [%eval 0.57] } 15. Nf1 $6 { [%eval 0.0] } 15... b4
+{ [%eval -0.04] } 16. Ng3 { [%eval 0.0] } 16... Bc8 $6 { [%eval 0.81] } 17. Nf5
+{ [%eval 0.42] } 17... Bf8 { [%eval 0.66] } 18. g4 $2 { [%eval -0.36] } 18...
+Nb6 $6 { [%eval 0.32] } 19. Qe2 { [%eval -0.15] } 19... Bxf5 { [%eval 0.2] }
+20. gxf5 { [%eval 0.16] } 20... Nbd7 $6 { [%eval 0.79] } 21. Bb3 $6
+{ [%eval 0.21] } 21... a5 $2 { [%eval 1.33] } 22. Qc4 { [%eval 1.07] } 22...
+Nb8 { [%eval 1.4] } 23. Rad1 $6 { [%eval 0.44] } 23... Qe7 $4 { [%eval 3.91] }
+24. Bc5 $4 { [%eval -0.96] } 24... Qxc5 { [%eval -1.11] } 25. Qxf7+
+{ [%eval -0.72] } 25... Kh8 { [%eval -0.25] } 26. Nh4 $2 { [%eval -1.26] }
+26... a4 $2 { [%eval 0.83] } 27. Ng6+ { [%eval 0.43] } 27... Kh7
+{ [%eval 0.87] } 28. Nxf8+ $4 { [%eval -3.39] } 28... Rxf8 { [%eval -3.18] }
+29. Qb7 $2 { [%eval -5.64] } 29... Nbd7 $4 { [%eval -2.57] } 30. Be6 $2
+{ [%eval -4.69] } 30... bxc3 $2 { [%eval -3.48] } 31. Bxd7 { [%eval -3.5] }
+31... cxb2 $4 { [%eval 0.0] } 32. Be6 $4 { [%eval -7.18] } 1-0

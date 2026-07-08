@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/siBomyiy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "johann1949"]
+[Black "zendom"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:34:27"]
+[WhiteElo "1608"]
+[BlackElo "1446"]
+[WhiteRatingDiff "-15"]
+[BlackRatingDiff "+28"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Mason Attack"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.26] } 1... d5 { [%eval 0.16] } 2. Bf4 { [%eval 0.06] } 2...
+Nc6 { [%eval 0.11] } 3. e3 { [%eval 0.06] } 3... f6 { [%eval 0.53] } 4. Nf3
+{ [%eval 0.39] } 4... Bf5 { [%eval 0.45] } 5. c3 { [%eval 0.09] } 5... e6
+{ [%eval 0.19] } 6. Nbd2 { [%eval 0.03] } 6... a6 $6 { [%eval 0.84] } 7. a4 $6
+{ [%eval 0.06] } 7... g6 { [%eval 0.38] } 8. h3 { [%eval 0.29] } 8... g5
+{ [%eval 0.3] } 9. Bg3 { [%eval 0.16] } 9... h5 { [%eval 0.16] } 10. Bh2
+{ [%eval 0.08] } 10... h4 { [%eval 0.29] } 11. Be2 { [%eval 0.32] } 11... Bd6
+{ [%eval 0.3] } 12. Nf1 { [%eval -0.04] } 12... e5 { [%eval 0.35] } 13. dxe5
+{ [%eval 0.35] } 13... Bxe5 $6 { [%eval 0.85] } 14. Nxe5 { [%eval 0.62] } 14...
+fxe5 $6 { [%eval 1.25] } 15. Bh5+ $6 { [%eval 0.39] } 15... Ke7
+{ [%eval 0.46] } 16. g4 $6 { [%eval -0.42] } 16... Be4 $2 { [%eval 0.87] } 17.
+f3 { [%eval 0.53] } 17... Bh7 { [%eval 0.52] } 18. Qb3 { [%eval 0.72] } 18...
+Nf6 { [%eval 0.83] } 19. Rd1 $6 { [%eval 0.05] } 19... d4 $4 { [%eval 24.29] }
+20. cxd4 $4 { [%eval 2.86] } 20... exd4 $4 { [%eval #1] } 21. exd4 $4
+{ [%eval 1.77] } 21... Qd5 { [%eval 2.35] } 22. Qe3+ $2 { [%eval -0.25] } 22...
+Kd7 { [%eval -0.26] } 23. Kf2 $6 { [%eval -0.95] } 23... Nxh5 $6
+{ [%eval -0.17] } 24. gxh5 { [%eval -0.2] } 24... Rae8 { [%eval -0.11] } 25.
+Qd2 $2 { [%eval -2.22] } 25... Kc8 $2 { [%eval 0.66] } 26. Ne3 { [%eval 0.24] }
+26... Qd7 $2 { [%eval 1.59] } 27. Ng4 $2 { [%eval 0.04] } 27... Rhf8
+{ [%eval 0.02] } 28. Qxg5 $4 { [%eval -9.92] } 28... Qe7 $4 { [%eval 1.22] }
+29. Rhe1 $4 { [%eval -14.56] } 29... Qxg5 { [%eval -13.39] } 0-1

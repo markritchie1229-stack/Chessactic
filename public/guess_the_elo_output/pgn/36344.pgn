@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ibyZ6d02"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zubrowska"]
+[Black "jclaure"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "15:24:14"]
+[WhiteElo "1261"]
+[BlackElo "1676"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+2"]
+[ECO "C44"]
+[Opening "Scotch Game: Benima Defense"]
+[TimeControl "300+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.17] } 1... e5 { [%eval 0.39] } 2. Nf3 { [%eval 0.19] } 2...
+Nc6 { [%eval 0.31] } 3. d4 { [%eval 0.02] } 3... exd4 { [%eval 0.06] } 4. Bc4
+{ [%eval -0.06] } 4... Be7 { [%eval 0.4] } 5. O-O { [%eval 0.31] } 5... d6
+{ [%eval 0.2] } 6. c3 { [%eval -0.19] } 6... Nf6 { [%eval -0.17] } 7. Re1
+{ [%eval -0.27] } 7... dxc3 { [%eval -0.25] } 8. Nxc3 { [%eval -0.31] } 8...
+O-O { [%eval -0.23] } 9. h3 { [%eval -0.28] } 9... Ne5 { [%eval -0.26] } 10.
+Nxe5 { [%eval -0.43] } 10... dxe5 { [%eval -0.37] } 11. Qxd8 { [%eval -0.7] }
+11... Rxd8 { [%eval -0.68] } 12. Bg5 { [%eval -1.1] } 12... c6
+{ [%eval -0.91] } 13. Bxf6 { [%eval -1.39] } 13... Bxf6 { [%eval -1.39] } 14.
+Rad1 { [%eval -1.45] } 14... b5 { [%eval -1.47] } 15. Rxd8+ { [%eval -1.45] }
+15... Bxd8 { [%eval -1.36] } 16. Be2 { [%eval -1.7] } 16... Bb7
+{ [%eval -1.5] } 17. a4 { [%eval -1.53] } 17... a6 { [%eval -1.39] } 18. Ra1
+{ [%eval -1.82] } 18... Bb6 { [%eval -1.88] } 19. axb5 { [%eval -1.87] } 19...
+cxb5 { [%eval -1.41] } 20. Bxb5 $4 { [%eval -5.39] } 20... axb5
+{ [%eval -5.12] } 21. Rxa8+ { [%eval -5.4] } 21... Bxa8 { [%eval -5.3] } 22.
+Nxb5 { [%eval -5.3] } 22... Bc6 $6 { [%eval -4.37] } 23. Nd6 $6
+{ [%eval -5.06] } 23... Bd4 { [%eval -4.85] } 24. b4 { [%eval -4.93] } 24...
+Kf8 { [%eval -4.83] } 25. b5 { [%eval -4.83] } 25... Ba8 { [%eval -4.61] } 26.
+Kf1 { [%eval -4.61] } 26... g6 { [%eval -4.54] } 27. Ke2 $2 { [%eval -5.58] }
+27... Ke7 { [%eval -5.22] } 28. Nc8+ $4 { [%eval -9.42] } 28... Kd7
+{ [%eval -8.96] } 0-1

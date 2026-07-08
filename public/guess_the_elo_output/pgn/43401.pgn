@@ -1,0 +1,39 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/LTqxpWKd"]
+[Site "https://lichess.org/mL919mEv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chesserye"]
+[Black "Noise2015"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "20:17:34"]
+[WhiteElo "1668"]
+[BlackElo "2149"]
+[WhiteRatingDiff "-2"]
+[BlackRatingDiff "+1"]
+[ECO "A45"]
+[Opening "Trompowsky Attack: Classical Defense"]
+[TimeControl "30+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.31] } 1... Nf6 { [%eval 0.14] } 2. Bg5 { [%eval 0.08] } 2...
+e6 { [%eval 0.23] } 3. e3 { [%eval 0.0] } 3... Be7 { [%eval 0.05] } 4. Nf3
+{ [%eval 0.03] } 4... h6 { [%eval 0.06] } 5. Bh4 { [%eval 0.0] } 5... d5
+{ [%eval 0.06] } 6. Bg3 { [%eval -0.19] } 6... c5 { [%eval -0.14] } 7. Bd3
+{ [%eval -0.4] } 7... cxd4 { [%eval -0.05] } 8. exd4 { [%eval -0.14] } 8... Nc6
+{ [%eval -0.02] } 9. O-O { [%eval -0.15] } 9... Bd6 $6 { [%eval 0.38] } 10. Re1
+{ [%eval 0.17] } 10... Bxg3 { [%eval 0.2] } 11. Qe2 $4 { [%eval -3.85] } 11...
+Bd6 { [%eval -3.88] } 12. Rf1 { [%eval -4.35] } 12... Qb6 { [%eval -4.11] } 13.
+Nbd2 $2 { [%eval -5.34] } 13... Qxb2 { [%eval -4.99] } 14. c3 $2
+{ [%eval -6.19] } 14... Qxc3 { [%eval -6.1] } 15. Rac1 { [%eval -6.17] } 15...
+Nxd4 $2 { [%eval -4.02] } 16. Qe3 $4 { [%eval -7.54] } 16... Nxf3+
+{ [%eval -7.49] } 17. Nxf3 { [%eval -7.23] } 17... Qe5 $4 { [%eval 4.19] } 18.
+Bb5+ $4 { [%eval 0.67] } 18... Bd7 { [%eval 0.92] } 19. Bxd7+ { [%eval 0.92] }
+19... Nxd7 { [%eval 1.03] } 20. Qc3 $4 { [%eval -7.84] } 20... Qf4 $2
+{ [%eval -6.79] } 21. g3 $6 { [%eval -7.48] } 21... Qf6 { [%eval -7.35] } 22.
+Nd4 { [%eval -7.66] } 22... Be5 { [%eval -7.54] } 23. Rfd1 { [%eval -7.61] }
+23... Nb6 { [%eval -7.15] } 24. Qc7 $2 { [%eval -16.16] } 24... Bxc7
+{ [%eval -15.76] } 25. Nxe6 { [%eval -22.76] } 25... fxe6 { [%eval -22.2] } 26.
+Rxc7 { [%eval -21.72] } 26... O-O { [%eval -20.83] } 27. Rdc1 $6
+{ [%eval #-7] } 27... Qxf2+ { [%eval #-6] } 28. Kh1 { [%eval #-6] } 28... Nc4
+{ [%eval #-6] } 0-1

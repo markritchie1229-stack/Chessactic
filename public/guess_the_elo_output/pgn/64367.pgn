@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Db3aYDHi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "gzinzi"]
+[Black "Montalba"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "18:15:22"]
+[WhiteElo "1500"]
+[BlackElo "1573"]
+[WhiteRatingDiff "-143"]
+[BlackRatingDiff "+7"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... c6 { [%eval 0.38] } 2. d4 { [%eval 0.3] } 2... d5
+{ [%eval 0.37] } 3. Nc3 { [%eval 0.36] } 3... e6 { [%eval 0.43] } 4. f4
+{ [%eval 0.06] } 4... dxe4 { [%eval 0.1] } 5. Nxe4 { [%eval 0.11] } 5... Nf6
+{ [%eval 0.46] } 6. Qd3 $6 { [%eval -0.06] } 6... Nd5 { [%eval 0.33] } 7. Nf3
+{ [%eval 0.31] } 7... h6 { [%eval 0.69] } 8. Bd2 { [%eval 0.53] } 8... Be7
+{ [%eval 0.79] } 9. O-O-O { [%eval 0.7] } 9... Na6 { [%eval 1.04] } 10. a3
+{ [%eval 1.04] } 10... Nac7 { [%eval 1.43] } 11. g4 { [%eval 1.28] } 11... Nf6
+{ [%eval 1.42] } 12. g5 $6 { [%eval 0.57] } 12... Nxe4 { [%eval 0.54] } 13.
+Qxe4 { [%eval 0.47] } 13... hxg5 { [%eval 0.7] } 14. fxg5 { [%eval 0.75] }
+14... Nd5 $2 { [%eval 2.64] } 15. Ne5 $2 { [%eval 0.7] } 15... Bxg5
+{ [%eval 0.69] } 16. Rg1 { [%eval 0.37] } 16... Bxd2+ $6 { [%eval 0.92] } 17.
+Rxd2 { [%eval 0.82] } 17... Nf6 $2 { [%eval 2.25] } 18. Qf4 { [%eval 1.97] }
+18... Rg8 { [%eval 2.43] } 19. Rdg2 { [%eval 2.18] } 19... g6 $4
+{ [%eval 5.43] } 20. Rf2 { [%eval 5.43] } 20... Qa5 $4 { [%eval 9.57] } 21.
+Qxf6 $4 { [%eval #-1] } 21... Qe1# 0-1

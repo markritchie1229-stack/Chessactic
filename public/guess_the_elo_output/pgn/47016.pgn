@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/EPZCSkpo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tammino"]
+[Black "lukasbirki"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:04:04"]
+[WhiteElo "1666"]
+[BlackElo "1649"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "B50"]
+[Opening "Sicilian Defense"]
+[TimeControl "900+4"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.25] } 2... d6
+{ [%eval 0.27] } 3. Nc3 { [%eval 0.25] } 3... g6 { [%eval 0.68] } 4. Be2
+{ [%eval 0.2] } 4... Bg7 { [%eval 0.37] } 5. h3 { [%eval -0.1] } 5... Nc6
+{ [%eval -0.05] } 6. d3 { [%eval -0.01] } 6... Nf6 { [%eval 0.01] } 7. a3
+{ [%eval -0.22] } 7... O-O { [%eval -0.12] } 8. O-O { [%eval -0.16] } 8... a6
+{ [%eval 0.0] } 9. Bg5 { [%eval 0.0] } 9... b5 { [%eval 0.01] } 10. Na2 $6
+{ [%eval -0.54] } 10... Be6 { [%eval -0.14] } 11. c3 { [%eval -0.01] } 11... d5
+{ [%eval 0.1] } 12. e5 { [%eval 0.0] } 12... Nd7 { [%eval 0.06] } 13. d4
+{ [%eval 0.1] } 13... cxd4 { [%eval 0.24] } 14. cxd4 { [%eval 0.28] } 14... Qb6
+{ [%eval 0.42] } 15. Rc1 { [%eval 0.32] } 15... f6 { [%eval 0.37] } 16. exf6
+{ [%eval 0.26] } 16... exf6 { [%eval 0.19] } 17. Be3 { [%eval 0.21] } 17... f5
+{ [%eval 0.4] } 18. Qd2 { [%eval -0.04] } 18... Rac8 { [%eval 0.26] } 19. Ng5
+{ [%eval 0.28] } 19... Nxd4 $2 { [%eval 2.81] } 20. Nxe6 $4 { [%eval -1.14] }
+20... Qxe6 $4 { [%eval 3.5] } 21. Bxd4 { [%eval 3.52] } 21... Bxd4
+{ [%eval 3.72] } 22. Qxd4 { [%eval 3.77] } 22... Qxe2 $2 { [%eval 5.12] } 23.
+Qxd5+ { [%eval 4.96] } 23... Kh8 { [%eval 5.06] } 24. Qxd7 { [%eval 4.79] }
+24... Rxc1 $2 { [%eval 5.83] } 25. Rxc1 { [%eval 5.66] } 25... Qxb2 $4
+{ [%eval #7] } 26. Qd6 $4 { [%eval 3.67] } 26... Kg7 { [%eval 3.96] } 27. Qd5
+$6 { [%eval 3.27] } 27... Qxa3 $4 { [%eval 19.54] } 28. Nc3 $4 { [%eval -5.7] }
+28... Qxc1+ { [%eval -5.35] } 0-1

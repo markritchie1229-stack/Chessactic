@@ -1,0 +1,39 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/pyAvjVMs"]
+[Site "https://lichess.org/4IoCh8Y5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RocknBowler801"]
+[Black "Xrgq7"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:39:22"]
+[WhiteElo "1775"]
+[BlackElo "1885"]
+[WhiteRatingDiff "+15"]
+[BlackRatingDiff "-15"]
+[ECO "A00"]
+[Opening "Grob Opening"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. g4 $2 { [%eval -0.89] } 1... d5 { [%eval -0.91] } 2. h3 { [%eval -1.05] }
+2... Nc6 $6 { [%eval -0.48] } 3. d4 { [%eval -0.64] } 3... e6 { [%eval -0.17] }
+4. Nf3 { [%eval -0.29] } 4... Bd6 { [%eval -0.19] } 5. a3 { [%eval -0.29] }
+5... h6 { [%eval -0.04] } 6. e3 { [%eval -0.27] } 6... Nf6 { [%eval -0.36] } 7.
+c4 { [%eval -0.28] } 7... b6 { [%eval 0.0] } 8. Nc3 { [%eval -0.37] } 8... Ne4
+$2 { [%eval 0.73] } 9. cxd5 $6 { [%eval -0.21] } 9... Nxc3 { [%eval -0.2] } 10.
+bxc3 { [%eval -0.17] } 10... exd5 { [%eval -0.26] } 11. c4 { [%eval -0.18] }
+11... Be6 $6 { [%eval 0.71] } 12. cxd5 $2 { [%eval -0.38] } 12... Bxd5
+{ [%eval -0.48] } 13. Bg2 { [%eval -0.52] } 13... O-O { [%eval -0.33] } 14. Qc2
+$6 { [%eval -1.0] } 14... Rc8 $6 { [%eval -0.41] } 15. O-O { [%eval -0.29] }
+15... Ne7 $2 { [%eval 2.27] } 16. e4 { [%eval 2.07] } 16... Bxe4 $6
+{ [%eval 2.91] } 17. Qxe4 { [%eval 2.97] } 17... Re8 { [%eval 2.93] } 18. Ne5
+{ [%eval 2.65] } 18... c5 $6 { [%eval 3.15] } 19. dxc5 { [%eval 3.0] } 19...
+Bxc5 { [%eval 3.06] } 20. Bb2 { [%eval 2.96] } 20... Ng6 { [%eval 2.97] } 21.
+Rad1 { [%eval 2.8] } 21... Qc7 { [%eval 3.2] } 22. Rd7 { [%eval 3.02] } 22...
+Qb8 $4 { [%eval 6.04] } 23. Re1 $4 { [%eval 2.9] } 23... Re6 $2
+{ [%eval 4.47] } 24. Rxf7 $2 { [%eval 2.22] } 24... Nh4 $4 { [%eval #11] } 25.
+Qd5 $6 { [%eval 19.37] } 25... Rce8 { [%eval 24.89] } 26. Qd7 { [%eval 12.28] }
+26... R6e7 { [%eval 16.93] } 27. Rxe7 { [%eval 12.14] } 27... Rxe7
+{ [%eval 11.63] } 28. Qd5+ { [%eval 9.97] } 28... Kf8 $2 { [%eval #10] } 29.
+Nd7+ { [%eval 11.54] } 29... Ke8 $6 { [%eval #8] } 1-0

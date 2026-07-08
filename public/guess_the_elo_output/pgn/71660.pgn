@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/UwbeTAe1"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dhikawpp"]
+[Black "flex_serg"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:47:19"]
+[WhiteElo "2074"]
+[BlackElo "1945"]
+[WhiteRatingDiff "+9"]
+[BlackRatingDiff "-8"]
+[ECO "A20"]
+[Opening "English Opening: King's English Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.03] } 1... e5 { [%eval 0.06] } 2. g3 { [%eval 0.0] } 2... Nf6
+{ [%eval 0.08] } 3. Bg2 { [%eval 0.03] } 3... Bc5 { [%eval 0.18] } 4. Nc3
+{ [%eval 0.13] } 4... c6 { [%eval 0.27] } 5. Nf3 { [%eval 0.14] } 5... e4
+{ [%eval 0.22] } 6. Ng5 { [%eval -0.18] } 6... d5 { [%eval -0.07] } 7. cxd5
+{ [%eval 0.03] } 7... cxd5 { [%eval -0.06] } 8. d3 { [%eval -0.09] } 8... exd3
+{ [%eval 0.34] } 9. Qxd3 { [%eval 0.37] } 9... h6 { [%eval 0.16] } 10. Nh3
+{ [%eval -0.08] } 10... O-O { [%eval 0.07] } 11. Nf4 { [%eval 0.09] } 11... d4
+{ [%eval 0.08] } 12. Ncd5 { [%eval 0.02] } 12... Nc6 { [%eval 0.08] } 13. O-O
+{ [%eval 0.18] } 13... Nxd5 { [%eval 0.13] } 14. Nxd5 { [%eval 0.07] } 14...
+Be6 { [%eval 0.0] } 15. Nf4 { [%eval 0.07] } 15... Bd7 { [%eval 0.02] } 16. a3
+{ [%eval -0.03] } 16... Rc8 { [%eval 0.4] } 17. b4 { [%eval 0.31] } 17... Bb6
+{ [%eval 0.18] } 18. Bb2 { [%eval 0.2] } 18... Re8 { [%eval 0.38] } 19. Rad1
+{ [%eval 0.2] } 19... Ne5 { [%eval 0.23] } 20. Qb3 { [%eval 0.16] } 20... Bc6
+$6 { [%eval 0.85] } 21. Nd5 { [%eval 0.69] } 21... Qd7 $6 { [%eval 1.32] } 22.
+Bxd4 $2 { [%eval -0.1] } 22... Ba4 { [%eval 0.08] } 23. Qa2 $2
+{ [%eval -1.68] } 23... Bb3 $4 { [%eval 5.83] } 24. Nxb6 $2 { [%eval 2.85] }
+24... axb6 $4 { [%eval 6.68] } 25. Qxb3 { [%eval 6.47] } 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/PFSlXWqq"]
+[Site "https://lichess.org/IwOMEgX5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Toshasm"]
+[Black "Madpessac"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:31:38"]
+[WhiteElo "1321"]
+[BlackElo "1521"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.16] } 1... e6 { [%eval 0.2] } 2. Nf3 { [%eval 0.12] } 2... c5
+{ [%eval 0.25] } 3. Nc3 { [%eval 0.1] } 3... Nc6 { [%eval 0.26] } 4. Bc4
+{ [%eval -0.07] } 4... Nge7 { [%eval 0.36] } 5. d3 { [%eval -0.03] } 5... d5
+{ [%eval 0.02] } 6. exd5 { [%eval 0.02] } 6... Nxd5 { [%eval -0.1] } 7. Nxd5
+{ [%eval -0.1] } 7... exd5 { [%eval -0.11] } 8. Bxd5 $4 { [%eval -3.79] } 8...
+Qxd5 { [%eval -3.64] } 9. Be3 { [%eval -3.8] } 9... Be7 { [%eval -3.75] } 10.
+b3 $6 { [%eval -4.45] } 10... O-O { [%eval -4.32] } 11. O-O { [%eval -4.27] }
+11... Bf6 { [%eval -4.0] } 12. Rb1 { [%eval -4.1] } 12... Nd4 { [%eval -3.7] }
+13. c3 $6 { [%eval -4.5] } 13... Nxf3+ { [%eval -4.47] } 14. Qxf3
+{ [%eval -4.5] } 14... Qxf3 { [%eval -4.41] } 15. gxf3 { [%eval -4.47] } 15...
+Bxc3 { [%eval -4.3] } 16. Rbc1 $6 { [%eval -4.89] } 16... Bd4 { [%eval -4.7] }
+17. Bxd4 { [%eval -4.88] } 17... cxd4 { [%eval -4.77] } 18. Rc4
+{ [%eval -5.08] } 18... Rd8 { [%eval -5.01] } 19. Kh1 $2 { [%eval -6.03] }
+19... Bh3 { [%eval -5.73] } 20. Re1 { [%eval -5.91] } 20... g6
+{ [%eval -5.72] } 21. a4 $6 { [%eval -6.29] } 21... Rac8 { [%eval -5.96] } 22.
+Rxc8 $2 { [%eval -7.43] } 22... Rxc8 { [%eval -7.12] } 23. Re4 $2
+{ [%eval #-2] } 23... Rc3 $2 { [%eval -9.48] } 24. Rxd4 $2 { [%eval #-1] }
+24... Rc1# 0-1

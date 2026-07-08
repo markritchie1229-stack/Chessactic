@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NnqsYe5Z"]
+[Date "????.??.??"]
+[Round "?"]
+[White "rezasalehisalmi"]
+[Black "linenet1992"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "04:32:19"]
+[WhiteElo "1169"]
+[BlackElo "1278"]
+[WhiteRatingDiff "-95"]
+[BlackRatingDiff "+7"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Leonardis Variation"]
+[TimeControl "300+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.37] } 1... e5 { [%eval 0.43] } 2. d3 { [%eval -0.05] } 2... d5
+{ [%eval 0.06] } 3. Nc3 { [%eval -0.31] } 3... d4 { [%eval -0.44] } 4. Nd5 $2
+{ [%eval -2.55] } 4... c6 { [%eval -2.58] } 5. Qf3 $2 { [%eval -4.5] } 5...
+cxd5 { [%eval -4.48] } 6. exd5 $6 { [%eval -5.14] } 6... Nf6 $6
+{ [%eval -4.52] } 7. c4 $2 { [%eval -5.58] } 7... Bd7 $2 { [%eval -3.43] } 8.
+Bg5 $6 { [%eval -4.38] } 8... Be7 $6 { [%eval -3.64] } 9. Nh3 $2
+{ [%eval -6.04] } 9... b5 $2 { [%eval -3.72] } 10. Be2 $6 { [%eval -4.27] }
+10... bxc4 { [%eval -4.35] } 11. dxc4 { [%eval -4.33] } 11... Na6
+{ [%eval -4.19] } 12. O-O { [%eval -4.12] } 12... Nc5 $6 { [%eval -3.5] } 13.
+Bd3 $2 { [%eval -5.52] } 13... Bxh3 $2 { [%eval -2.95] } 14. Qxh3
+{ [%eval -3.33] } 14... Nfe4 $2 { [%eval -1.62] } 15. Bxe4 { [%eval -1.98] }
+15... Nxe4 { [%eval -1.49] } 16. Bxe7 { [%eval -1.71] } 16... Qxe7
+{ [%eval -1.62] } 17. Qf3 $2 { [%eval -3.57] } 17... Nd2 { [%eval -3.42] } 18.
+Qe2 $2 { [%eval -5.1] } 18... Nxf1 { [%eval -4.96] } 19. Kxf1 { [%eval -5.13] }
+19... O-O { [%eval -5.06] } 20. Re1 { [%eval -5.04] } 20... f6
+{ [%eval -5.03] } 21. f4 $6 { [%eval -5.55] } 21... h6 { [%eval -5.09] } 22.
+Kg1 $6 { [%eval -5.92] } 22... Rae8 { [%eval -5.47] } 23. fxe5 $2
+{ [%eval -8.04] } 23... fxe5 { [%eval -7.69] } 24. b4 $2 { [%eval -8.88] }
+24... Qxb4 { [%eval -8.48] } 25. Rc1 $2 { [%eval -14.5] } 25... Qc5
+{ [%eval -12.6] } 26. Rb1 $6 { [%eval #-7] } 26... d3+ { [%eval #-6] } 27. Qf2
+{ [%eval #-3] } 27... Qxf2+ { [%eval #-2] } 28. Kh1 { [%eval #-2] } 28... Qf1+
+{ [%eval #-1] } 29. Rxf1 { [%eval #-1] } 29... Rxf1# 0-1

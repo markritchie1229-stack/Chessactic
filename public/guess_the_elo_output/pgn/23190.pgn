@@ -1,0 +1,40 @@
+[Event "Rated Bullet tournament https://lichess.org/tournament/niB3rp9k"]
+[Site "https://lichess.org/0oyvI32e"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dinosaur11"]
+[Black "Fuerther"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:45:49"]
+[WhiteElo "1958"]
+[BlackElo "1916"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.35] } 1... b6 { [%eval 0.54] } 2. d4 { [%eval 0.5] } 2... Bb7
+{ [%eval 0.45] } 3. Bd3 { [%eval 0.64] } 3... e6 { [%eval 0.52] } 4. Nc3
+{ [%eval 0.43] } 4... Nf6 { [%eval 0.35] } 5. Nf3 { [%eval 0.08] } 5... Bb4
+{ [%eval 0.15] } 6. Bd2 $6 { [%eval -0.77] } 6... Bxc3 { [%eval -0.77] } 7.
+Bxc3 { [%eval -0.77] } 7... Nxe4 { [%eval -0.76] } 8. Bxe4 { [%eval -0.92] }
+8... Bxe4 { [%eval -0.78] } 9. Qe2 { [%eval -0.91] } 9... Bb7 { [%eval -0.75] }
+10. d5 { [%eval -0.81] } 10... Bxd5 { [%eval -0.75] } 11. Bxg7
+{ [%eval -0.79] } 11... Rg8 { [%eval -0.69] } 12. Bc3 { [%eval -0.69] } 12...
+Rxg2 $6 { [%eval -0.14] } 13. O-O-O { [%eval -0.19] } 13... Nc6 $4
+{ [%eval 3.07] } 14. Rxd5 { [%eval 2.97] } 14... Qe7 { [%eval 2.96] } 15. Rh5
+{ [%eval 2.9] } 15... O-O-O { [%eval 3.21] } 16. Rh6 $6 { [%eval 2.53] } 16...
+Rg4 $2 { [%eval 4.48] } 17. Bf6 { [%eval 4.41] } 17... Qc5 $6 { [%eval 5.08] }
+18. Bxd8 $6 { [%eval 4.54] } 18... Nxd8 $6 { [%eval 5.12] } 19. Rd1
+{ [%eval 4.97] } 19... f5 $4 { [%eval 9.68] } 20. Rxh7 { [%eval 9.27] } 20...
+Rf4 $2 { [%eval #7] } 21. Rhxd7 $6 { [%eval 12.27] } 21... Nc6 $6
+{ [%eval #3] } 22. Ne5 $2 { [%eval 7.08] } 22... Nxe5 $2 { [%eval #2] } 23.
+Rd8+ $4 { [%eval 1.6] } 23... Kb7 { [%eval 1.64] } 24. Qd2 $2 { [%eval 0.0] }
+24... Nc6 $4 { [%eval 7.95] } 25. Rd7 $4 { [%eval 0.0] } 25... Qxf2 $4
+{ [%eval 7.49] } 26. Qd6 { [%eval 7.24] } 26... Rf3 $2 { [%eval #10] } 27.
+Qxc7+ { [%eval #10] } 27... Ka6 { [%eval #10] } 28. Qxc6 { [%eval #9] } 28...
+Qe3+ { [%eval #9] } 29. Kb1 { [%eval #8] } 29... Rf1 { [%eval #1] } 30. Qa4#
+1-0

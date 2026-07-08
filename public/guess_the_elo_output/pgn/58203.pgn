@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LXVflaID"]
+[Date "????.??.??"]
+[Round "?"]
+[White "drusio"]
+[Black "Ali-Haddadi"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "13:52:51"]
+[WhiteElo "1696"]
+[BlackElo "1598"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[TimeControl "900+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.41] } 2. Nf3 { [%eval 0.41] } 2...
+Nc6 { [%eval 0.44] } 3. Bc4 { [%eval 0.12] } 3... Bc5 { [%eval 0.18] } 4. d3
+{ [%eval 0.14] } 4... h6 { [%eval 0.32] } 5. Nc3 { [%eval 0.0] } 5... Nf6
+{ [%eval 0.11] } 6. Qe2 { [%eval 0.0] } 6... O-O { [%eval -0.04] } 7. h3
+{ [%eval -0.12] } 7... Re8 { [%eval -0.07] } 8. Be3 { [%eval -0.45] } 8... Bb6
+{ [%eval -0.1] } 9. a3 { [%eval -0.24] } 9... Nd4 { [%eval -0.3] } 10. Nxd4 $4
+{ [%eval -3.46] } 10... exd4 { [%eval -3.41] } 11. Bxh6 $2 { [%eval -5.0] }
+11... dxc3 { [%eval -4.95] } 12. Bxg7 $2 { [%eval -7.8] } 12... Kxg7
+{ [%eval -7.56] } 13. bxc3 $2 { [%eval -8.83] } 13... d6 $4 { [%eval -5.14] }
+14. f4 $4 { [%eval -9.18] } 14... Kf8 $4 { [%eval -5.03] } 15. Qf3 $4
+{ [%eval -8.97] } 15... d5 { [%eval -8.57] } 16. Ba2 $2 { [%eval -21.71] }
+16... dxe4 { [%eval -20.21] } 17. dxe4 $6 { [%eval #-11] } 17... Rxe4+ $6
+{ [%eval -20.04] } 18. Kf1 { [%eval -14.2] } 18... Re3 { [%eval -13.92] } 19.
+Qd1 { [%eval -13.89] } 19... Qxd1+ { [%eval -13.43] } 20. Rxd1
+{ [%eval -13.22] } 20... Bf5 { [%eval -11.97] } 21. g4 $6 { [%eval #-10] }
+21... Bxc2 $6 { [%eval -13.09] } 22. Rc1 $6 { [%eval #-8] } 22... Bd3+
+{ [%eval #-7] } 23. Kg2 { [%eval #-7] } 23... Re2+ { [%eval #-6] } 24. Kg3
+{ [%eval #-5] } 0-1

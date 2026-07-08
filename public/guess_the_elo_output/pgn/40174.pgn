@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/MpHgLsam"]
+[Date "????.??.??"]
+[Round "?"]
+[White "robertszucs"]
+[Black "Whalehi"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:08:20"]
+[WhiteElo "1907"]
+[BlackElo "1893"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Breyer Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... c6 { [%eval 0.59] } 2. d3 $6 { [%eval 0.04] } 2...
+d5 { [%eval 0.01] } 3. exd5 { [%eval -0.25] } 3... cxd5 { [%eval 0.0] } 4. g3
+{ [%eval -0.46] } 4... Nf6 { [%eval -0.29] } 5. Bg2 { [%eval -0.33] } 5... Bg4
+{ [%eval -0.04] } 6. Nf3 { [%eval -0.04] } 6... Nc6 { [%eval -0.03] } 7. O-O
+{ [%eval -0.16] } 7... Ne5 { [%eval 0.26] } 8. Nbd2 { [%eval 0.28] } 8... e6
+{ [%eval 0.33] } 9. b3 { [%eval 0.12] } 9... Bb4 { [%eval 0.38] } 10. a3 $6
+{ [%eval -0.47] } 10... Bxd2 { [%eval 0.0] } 11. Bxd2 { [%eval 0.05] } 11... h5
+{ [%eval 0.23] } 12. h4 { [%eval -0.04] } 12... Nxf3+ { [%eval 0.04] } 13. Bxf3
+{ [%eval 0.02] } 13... Qc7 { [%eval 0.2] } 14. Bxg4 { [%eval 0.0] } 14... Nxg4
+{ [%eval 0.0] } 15. Re1 { [%eval 0.0] } 15... Qc5 { [%eval -0.16] } 16. Re2
+{ [%eval -0.25] } 16... Rc8 $6 { [%eval 0.68] } 17. Bb4 { [%eval 0.47] } 17...
+Qd4 { [%eval 0.54] } 18. Qe1 { [%eval 0.34] } 18... Rh6 { [%eval 0.48] } 19. c4
+{ [%eval 0.47] } 19... Rf6 $2 { [%eval 2.04] } 20. cxd5 $4 { [%eval -3.58] }
+20... Rxf2 $4 { [%eval 6.47] } 21. Rxf2 $4 { [%eval -3.68] } 21... Nxf2
+{ [%eval -3.45] } 22. Kg2 $4 { [%eval -10.91] } 22... Nxd3 $4 { [%eval -5.07] }
+23. Qf1 $4 { [%eval #-6] } 23... Rc2+ { [%eval #-5] } 24. Kh3 { [%eval #-1] }
+24... Qg4# 0-1

@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/1kpzh7MX"]
+[Date "????.??.??"]
+[Round "?"]
+[White "duketrf"]
+[Black "inspecgadg7"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:11:34"]
+[WhiteElo "1419"]
+[BlackElo "1426"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+17"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. d4 { [%eval 0.33] } 1... d5 { [%eval 0.3] } 2. c4 { [%eval 0.29] } 2... e6
+{ [%eval 0.35] } 3. Nc3 { [%eval 0.31] } 3... Nf6 { [%eval 0.29] } 4. cxd5
+{ [%eval 0.07] } 4... Bb4 $4 { [%eval 4.01] } 5. dxe6 $4 { [%eval 0.86] } 5...
+Bxc3+ $6 { [%eval 1.43] } 6. bxc3 { [%eval 1.54] } 6... fxe6 $6
+{ [%eval 2.12] } 7. Nf3 { [%eval 1.94] } 7... Nc6 { [%eval 2.29] } 8. e3
+{ [%eval 2.21] } 8... O-O { [%eval 2.52] } 9. Bb5 { [%eval 2.22] } 9... Bd7
+{ [%eval 2.61] } 10. O-O { [%eval 2.14] } 10... a6 $2 { [%eval 3.2] } 11. Bxc6
+$2 { [%eval 1.93] } 11... Bxc6 { [%eval 1.95] } 12. Qb3 $2 { [%eval 0.95] }
+12... Bxf3 $6 { [%eval 1.45] } 13. gxf3 $6 { [%eval 0.63] } 13... Kh8 $6
+{ [%eval 1.24] } 14. Qxb7 { [%eval 1.13] } 14... Rb8 $6 { [%eval 1.65] } 15.
+Qxa6 { [%eval 1.29] } 15... Qd5 { [%eval 1.78] } 16. e4 $2 { [%eval 0.25] }
+16... Qh5 $2 { [%eval 1.25] } 17. Ba3 $4 { [%eval -1.84] } 17... Qg6+ $2
+{ [%eval 0.0] } 18. Kh1 { [%eval 0.0] } 18... Nxe4 $4 { [%eval 4.99] } 19. fxe4
+$4 { [%eval 0.0] } 19... Qxe4+ { [%eval 0.0] } 20. Kg1 $4 { [%eval -8.97] }
+20... Qg4+ { [%eval -8.93] } 21. Kh1 { [%eval -8.81] } 21... Qf3+
+{ [%eval -8.65] } 22. Kg1 { [%eval -8.46] } 22... Rf6 { [%eval -8.09] } 23. Qa5
+$2 { [%eval #-2] } 23... Rg6+ { [%eval #-1] } 0-1

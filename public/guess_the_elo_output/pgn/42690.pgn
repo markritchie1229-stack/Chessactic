@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/lUJfYG4w"]
+[Date "????.??.??"]
+[Round "?"]
+[White "chhe"]
+[Black "ETOC"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:49:18"]
+[WhiteElo "1677"]
+[BlackElo "1550"]
+[WhiteRatingDiff "-16"]
+[BlackRatingDiff "+14"]
+[ECO "B28"]
+[Opening "Sicilian Defense: O'Kelly Variation, Venice System"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... c5 { [%eval 0.33] } 2. Nf3 { [%eval 0.31] } 2... a6
+{ [%eval 0.37] } 3. c3 { [%eval 0.35] } 3... b6 { [%eval 0.77] } 4. d4
+{ [%eval 0.73] } 4... cxd4 { [%eval 0.8] } 5. cxd4 { [%eval 0.79] } 5... Bb7
+{ [%eval 0.81] } 6. Nc3 { [%eval 0.68] } 6... b5 { [%eval 1.17] } 7. a3
+{ [%eval 0.75] } 7... Nf6 { [%eval 0.97] } 8. e5 { [%eval 0.76] } 8... Nd5
+{ [%eval 0.95] } 9. Nxd5 $6 { [%eval 0.41] } 9... Bxd5 { [%eval 0.27] } 10. Bd3
+{ [%eval 0.24] } 10... h6 { [%eval 0.5] } 11. Bd2 { [%eval 0.35] } 11... e6
+{ [%eval 0.36] } 12. Qe2 { [%eval 0.25] } 12... Be7 { [%eval 0.46] } 13. Be4
+{ [%eval 0.42] } 13... Bxe4 { [%eval 0.68] } 14. Qxe4 { [%eval 0.56] } 14...
+Nc6 { [%eval 0.64] } 15. Rc1 { [%eval 0.19] } 15... O-O { [%eval 0.32] } 16.
+Qg4 { [%eval 0.22] } 16... Kh7 { [%eval 0.65] } 17. h4 { [%eval 0.25] } 17...
+Na5 { [%eval 0.48] } 18. Rc3 { [%eval 0.26] } 18... Nc4 { [%eval 0.31] } 19.
+Bc1 { [%eval 0.37] } 19... Qa5 $2 { [%eval 2.03] } 20. O-O $2 { [%eval 0.41] }
+20... Rac8 { [%eval 0.59] } 21. Nh2 { [%eval 0.16] } 21... b4 $2
+{ [%eval 1.44] } 22. axb4 { [%eval 1.48] } 22... Qxb4 $6 { [%eval 2.08] } 23.
+Rg3 { [%eval 1.87] } 23... Rg8 { [%eval 1.72] } 24. Qe4+ $6 { [%eval 0.73] }
+24... g6 $2 { [%eval 2.88] } 25. h5 { [%eval 2.65] } 25... d5 $2
+{ [%eval 4.12] } 26. exd6 $4 { [%eval -0.04] } 26... Nxd6 { [%eval -0.2] } 27.
+hxg6+ { [%eval -0.18] } 27... fxg6 $2 { [%eval 2.38] } 28. Qxe6
+{ [%eval 2.29] } 28... Nf5 { [%eval 2.2] } 29. Rg4 $2 { [%eval 0.8] } 29... Qc4
+{ [%eval 1.26] } 30. Bf4 $4 { [%eval -13.06] } 30... Qxe6 { [%eval -12.77] }
+0-1

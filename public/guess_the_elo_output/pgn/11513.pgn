@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/xzcNVMJi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cyberpunk"]
+[Black "sllavko"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:15:19"]
+[WhiteElo "1658"]
+[BlackElo "1653"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "60+1"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.01] } 1... e6 { [%eval 0.27] } 2. Nc3 { [%eval 0.22] } 2... b6
+{ [%eval 0.25] } 3. e4 { [%eval 0.34] } 3... Bb7 { [%eval 0.43] } 4. d3
+{ [%eval 0.12] } 4... Ne7 { [%eval 0.6] } 5. Nf3 { [%eval 0.33] } 5... d6
+{ [%eval 0.71] } 6. Be3 { [%eval 0.44] } 6... Ng6 { [%eval 0.48] } 7. Qd2
+{ [%eval 0.43] } 7... Be7 { [%eval 0.47] } 8. h4 { [%eval 0.25] } 8... O-O
+{ [%eval 0.54] } 9. O-O-O { [%eval 0.27] } 9... Bf6 $6 { [%eval 0.99] } 10. h5
+{ [%eval 0.98] } 10... Ne5 { [%eval 0.92] } 11. Nxe5 { [%eval 0.55] } 11...
+Bxe5 $6 { [%eval 1.35] } 12. f4 { [%eval 1.12] } 12... Bf6 { [%eval 1.13] } 13.
+g4 { [%eval 1.09] } 13... c6 $2 { [%eval 2.38] } 14. d4 $6 { [%eval 1.8] }
+14... d5 { [%eval 1.97] } 15. cxd5 { [%eval 2.03] } 15... cxd5 { [%eval 1.96] }
+16. e5 { [%eval 1.48] } 16... Be7 { [%eval 1.64] } 17. f5 { [%eval 1.72] }
+17... exf5 $2 { [%eval 3.49] } 18. gxf5 { [%eval 2.58] } 18... f6 $4
+{ [%eval 5.71] } 19. e6 $2 { [%eval 3.72] } 19... Ba6 $4 { [%eval 7.4] } 20.
+Bxa6 { [%eval 6.91] } 20... Nxa6 { [%eval 6.72] } 21. a3 $4 { [%eval 3.56] }
+21... Kh8 { [%eval 3.52] } 22. h6 { [%eval 3.41] } 22... Rg8 $4
+{ [%eval 8.19] } 23. hxg7+ { [%eval 7.68] } 23... Rxg7 { [%eval 7.52] } 24.
+Rhg1 $2 { [%eval 5.96] } 24... Rxg1 $2 { [%eval 7.29] } 25. Rxg1
+{ [%eval 6.67] } 25... Qc7 $4 { [%eval 10.17] } 26. Bh6 { [%eval 7.91] } 26...
+Rg8 $2 { [%eval #4] } 27. Rxg8+ { [%eval #3] } 27... Kxg8 { [%eval #3] } 28.
+Qg2+ { [%eval #2] } 1-0

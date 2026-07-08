@@ -1,0 +1,32 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/pp0aViUH"]
+[Date "????.??.??"]
+[Round "?"]
+[White "cipollo"]
+[Black "aktt"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:58:47"]
+[WhiteElo "1708"]
+[BlackElo "1631"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+59"]
+[ECO "B44"]
+[Opening "Sicilian Defense: Paulsen Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.27] } 2. Nf3 { [%eval 0.2] } 2... e6
+{ [%eval 0.32] } 3. d4 { [%eval 0.27] } 3... cxd4 { [%eval 0.27] } 4. Nxd4
+{ [%eval 0.17] } 4... Nc6 { [%eval 0.24] } 5. Nxc6 { [%eval 0.0] } 5... bxc6
+{ [%eval 0.07] } 6. Nc3 { [%eval 0.04] } 6... a6 { [%eval 0.21] } 7. Bf4
+{ [%eval 0.16] } 7... d5 { [%eval 0.2] } 8. exd5 $6 { [%eval -0.31] } 8... cxd5
+{ [%eval -0.31] } 9. Qf3 { [%eval -0.35] } 9... Nf6 { [%eval -0.2] } 10. O-O-O
+{ [%eval -0.35] } 10... Bd6 { [%eval 0.0] } 11. Bxd6 { [%eval -0.12] } 11...
+Qxd6 { [%eval -0.1] } 12. Bc4 $6 { [%eval -0.71] } 12... Bb7 { [%eval -0.67] }
+13. Rhe1 { [%eval -1.09] } 13... Qxh2 $2 { [%eval 0.29] } 14. Bxd5
+{ [%eval 0.22] } 14... Nxd5 { [%eval 0.25] } 15. Nxd5 { [%eval 0.2] } 15... O-O
+$4 { [%eval 3.63] } 16. Ne7+ { [%eval 3.48] } 16... Kh8 { [%eval 3.68] } 17.
+Qxb7 { [%eval 3.59] } 17... Rab8 { [%eval 3.42] } 18. Qxa6 { [%eval 3.02] }
+18... Qf4+ { [%eval 2.92] } 19. Kb1 $2 { [%eval 1.2] } 19... Qf6 $4
+{ [%eval 4.97] } 20. Nc6 $4 { [%eval #-1] } 20... Qxb2# 0-1

@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/ZRPZAb0x"]
+[Date "????.??.??"]
+[Round "?"]
+[White "suemenow"]
+[Black "davidsantista"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:52:54"]
+[WhiteElo "1445"]
+[BlackElo "1455"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+11"]
+[ECO "C40"]
+[Opening "Latvian Gambit"]
+[TimeControl "120+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e5 { [%eval 0.42] } 2. Nf3 { [%eval 0.22] } 2... f5
+$2 { [%eval 1.36] } 3. d3 $2 { [%eval 0.03] } 3... fxe4 $6 { [%eval 0.81] } 4.
+dxe4 { [%eval 0.93] } 4... Nc6 { [%eval 1.04] } 5. Bc4 { [%eval 0.98] } 5...
+Be7 $2 { [%eval 3.6] } 6. Nc3 $2 { [%eval 1.28] } 6... Na5 $2 { [%eval 3.54] }
+7. Bd3 $2 { [%eval 0.58] } 7... Nf6 $2 { [%eval 1.58] } 8. Nxe5
+{ [%eval 1.52] } 8... O-O { [%eval 1.47] } 9. Nc4 { [%eval 1.18] } 9... Nxc4
+{ [%eval 1.25] } 10. Bxc4+ { [%eval 1.27] } 10... Kh8 { [%eval 1.32] } 11. Be3
+{ [%eval 1.16] } 11... d6 { [%eval 1.38] } 12. Qd3 $6 { [%eval 0.64] } 12... c6
+{ [%eval 0.61] } 13. O-O-O $2 { [%eval -0.42] } 13... b5 { [%eval -0.12] } 14.
+Bb3 { [%eval -0.39] } 14... a5 $2 { [%eval 1.17] } 15. a3 $2 { [%eval -0.87] }
+15... b4 { [%eval -0.88] } 16. axb4 $6 { [%eval -1.82] } 16... axb4
+{ [%eval -1.4] } 17. Nb1 { [%eval -1.76] } 17... Ba6 { [%eval -1.52] } 18. Bc4
+{ [%eval -1.74] } 18... Bxc4 { [%eval -1.62] } 19. Qxc4 { [%eval -1.42] } 19...
+c5 $2 { [%eval -0.23] } 20. Bxc5 $4 { [%eval -3.85] } 20... Qa5 $4
+{ [%eval 0.72] } 21. Bxb4 { [%eval 0.48] } 21... Qg5+ { [%eval 0.61] } 22. Bd2
+{ [%eval 0.12] } 22... Qxg2 { [%eval 0.38] } 23. Be3 $2 { [%eval -0.77] } 23...
+Qxe4 $2 { [%eval 0.39] } 24. Rdg1 $4 { [%eval -18.13] } 24... Qxc4
+{ [%eval -16.79] } 0-1

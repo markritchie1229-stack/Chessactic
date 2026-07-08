@@ -1,0 +1,36 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/IOsW3WR3"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Ioclio"]
+[Black "dazazzz"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:13:44"]
+[WhiteElo "1842"]
+[BlackElo "1864"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.24] } 2...
+Nc6 { [%eval 0.25] } 3. Bb5 { [%eval 0.31] } 3... d6 { [%eval 0.31] } 4. d4
+{ [%eval 0.29] } 4... cxd4 { [%eval 0.33] } 5. Qxd4 { [%eval 0.29] } 5... Bd7
+{ [%eval 0.25] } 6. Bxc6 { [%eval 0.0] } 6... Bxc6 { [%eval 0.06] } 7. Nc3
+{ [%eval 0.0] } 7... Nf6 { [%eval 0.0] } 8. Bg5 { [%eval 0.0] } 8... h6 $6
+{ [%eval 0.66] } 9. Bxf6 { [%eval 0.78] } 9... exf6 { [%eval 1.0] } 10. O-O-O
+{ [%eval 0.9] } 10... Qc7 { [%eval 1.25] } 11. Rhe1 { [%eval 1.08] } 11... Be7
+{ [%eval 1.09] } 12. Nh4 { [%eval 1.07] } 12... O-O { [%eval 1.12] } 13. Nf5
+{ [%eval 0.95] } 13... Rad8 $4 { [%eval 4.3] } 14. Nd5 $4 { [%eval 1.16] }
+14... Bxd5 { [%eval 1.51] } 15. Qxd5 { [%eval 1.25] } 15... Kh7 $2
+{ [%eval 4.11] } 16. Kb1 $2 { [%eval 1.84] } 16... g6 $2 { [%eval 4.25] } 17.
+Nd4 $2 { [%eval 1.4] } 17... a6 $6 { [%eval 2.18] } 18. f4 $6 { [%eval 1.23] }
+18... Rc8 { [%eval 1.28] } 19. Rd2 { [%eval 0.91] } 19... Qc5 $6
+{ [%eval 1.81] } 20. Qxb7 { [%eval 1.79] } 20... Rc7 $6 { [%eval 2.41] } 21.
+Qxa6 { [%eval 2.3] } 21... Ra7 { [%eval 2.75] } 22. Qc6 $2 { [%eval 1.15] }
+22... Qa5 { [%eval 1.21] } 23. Nb3 $4 { [%eval #-3] } 23... Qxa2+
+{ [%eval #-2] } 24. Kc1 { [%eval #-2] } 24... Qa1+ { [%eval #-1] } 25. Nxa1
+{ [%eval #-1] } 25... Rxa1# 0-1

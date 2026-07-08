@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/TuasQQ9Y"]
+[Date "????.??.??"]
+[Round "?"]
+[White "abdelham"]
+[Black "dagenssuppe"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:16:16"]
+[WhiteElo "1836"]
+[BlackElo "1818"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "A03"]
+[Opening "Bird Opening: Williams Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.47] } 1... d5 { [%eval 0.72] } 2. f4 $2 { [%eval -1.25] } 2...
+dxe4 { [%eval -1.08] } 3. d3 { [%eval -1.17] } 3... Bf5 { [%eval -0.87] } 4.
+Nc3 { [%eval -1.14] } 4... e6 $2 { [%eval -0.04] } 5. d4 $2 { [%eval -2.02] }
+5... h5 { [%eval -1.7] } 6. Be2 { [%eval -2.06] } 6... g6 { [%eval -1.8] } 7.
+Bc4 { [%eval -2.02] } 7... Bb4 $6 { [%eval -1.31] } 8. Bd2 $2 { [%eval -3.14] }
+8... Qxd4 { [%eval -2.87] } 9. Bb3 $4 { [%eval -5.98] } 9... e3
+{ [%eval -5.91] } 10. Bc1 $2 { [%eval -6.98] } 10... Bxc3+ { [%eval -6.89] }
+11. bxc3 $6 { [%eval -7.82] } 11... Qxc3+ { [%eval -7.58] } 12. Bd2 $2
+{ [%eval -13.24] } 12... exd2+ { [%eval -13.0] } 13. Ke2 { [%eval -16.6] }
+13... Nc6 { [%eval -15.7] } 14. Nf3 { [%eval -15.73] } 14... Bg4
+{ [%eval -13.45] } 15. h3 { [%eval -19.23] } 15... Bxf3+ { [%eval -18.6] } 16.
+gxf3 { [%eval -17.53] } 16... O-O-O { [%eval -17.05] } 17. Kf2
+{ [%eval -16.16] } 17... Nd4 { [%eval -15.52] } 18. Rb1 { [%eval -20.85] }
+18... Nh6 { [%eval -20.11] } 19. Rh2 { [%eval -24.15] } 19... Nhf5
+{ [%eval -22.74] } 20. Kg1 $6 { [%eval #-11] } 20... Nxf3+ { [%eval -101.66] }
+21. Kg2 $6 { [%eval #-7] } 21... Nxh2 { [%eval #-9] } 22. Kxh2 { [%eval #-6] }
+22... Qg3+ { [%eval #-5] } 23. Kh1 { [%eval #-5] } 23... Qxh3+ $6
+{ [%eval #-6] } 24. Kg1 { [%eval #-6] } 24... Rd4 { [%eval #-7] } 25. Qf1
+{ [%eval #-6] } 25... Qg3+ { [%eval #-5] } 26. Qg2 { [%eval #-2] } 26... Qxf4
+$6 { [%eval #-8] } 27. Rf1 { [%eval #-6] } 27... d1=Q { [%eval #-5] } 28. Rxd1
+{ [%eval #-3] } 28... Rxd1+ { [%eval #-2] } 29. Qf1 { [%eval #-2] } 29... Qxf1+
+{ [%eval #-1] } 30. Kh2 { [%eval #-1] } 30... Qg1+ $6 { [%eval #-1] } 31. Kh3
+{ [%eval #-1] } 31... Qh1# 0-1

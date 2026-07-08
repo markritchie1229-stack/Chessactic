@@ -1,0 +1,38 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/yjx49Srh"]
+[Site "https://lichess.org/D7Nbm02x"]
+[Date "????.??.??"]
+[Round "?"]
+[White "A-Alves"]
+[Black "W_G_Sebald"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "19:56:05"]
+[WhiteElo "1746"]
+[BlackElo "2056"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-20"]
+[ECO "C69"]
+[Opening "Ruy Lopez: Exchange Variation, Normal Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.19] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.31] } 3. Bb5 { [%eval 0.24] } 3... a6 { [%eval 0.37] } 4. Bxc6
+{ [%eval 0.18] } 4... dxc6 { [%eval 0.08] } 5. O-O { [%eval -0.03] } 5... Bg4
+{ [%eval 0.07] } 6. d3 { [%eval 0.0] } 6... Qf6 { [%eval 0.01] } 7. Nbd2
+{ [%eval 0.02] } 7... Ne7 { [%eval 0.0] } 8. h3 { [%eval -0.14] } 8... h5
+{ [%eval 0.27] } 9. c3 $6 { [%eval -0.24] } 9... Ng6 { [%eval -0.19] } 10. Nc4
+{ [%eval -0.38] } 10... Bxf3 { [%eval -0.2] } 11. Qxf3 { [%eval -0.37] } 11...
+Qxf3 { [%eval -0.26] } 12. gxf3 { [%eval -0.27] } 12... f6 { [%eval -0.14] }
+13. Be3 { [%eval -0.26] } 13... O-O-O { [%eval -0.17] } 14. Rfd1
+{ [%eval -0.35] } 14... c5 { [%eval -0.15] } 15. Kf1 { [%eval -0.13] } 15...
+Bd6 { [%eval 0.0] } 16. Ke2 { [%eval -0.04] } 16... Nh4 $6 { [%eval 0.57] } 17.
+Nxd6+ { [%eval 0.42] } 17... cxd6 { [%eval 0.47] } 18. d4 { [%eval 0.1] } 18...
+b6 { [%eval 0.53] } 19. a4 { [%eval 0.18] } 19... a5 { [%eval 0.61] } 20. dxe5
+{ [%eval 0.52] } 20... dxe5 { [%eval 0.69] } 21. Rdb1 $6 { [%eval 0.18] } 21...
+Rd6 $6 { [%eval 0.79] } 22. b4 { [%eval 0.89] } 22... cxb4 { [%eval 0.83] } 23.
+cxb4 { [%eval 0.82] } 23... Kd7 $2 { [%eval 1.93] } 24. bxa5 { [%eval 1.81] }
+24... bxa5 { [%eval 1.95] } 25. Rb7+ { [%eval 1.84] } 25... Ke6
+{ [%eval 1.83] } 26. Rc1 { [%eval 1.81] } 26... Rd7 $4 { [%eval 5.32] } 27.
+Rc6+ { [%eval 5.0] } 27... Rd6 { [%eval 4.92] } 28. Bc5 { [%eval 4.66] } 28...
+Rxc6 $4 { [%eval #1] } 29. Re7# 1-0

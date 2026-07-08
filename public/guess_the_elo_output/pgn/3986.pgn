@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/PxWgnkku"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zarathustra7"]
+[Black "cristofer_escobar"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:54:03"]
+[WhiteElo "1904"]
+[BlackElo "1709"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-5"]
+[ECO "C42"]
+[Opening "Russian Game: Three Knights Game"]
+[TimeControl "360+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.22] } 2. Nf3 { [%eval 0.25] } 2...
+Nf6 { [%eval 0.25] } 3. Nc3 { [%eval 0.11] } 3... Bc5 $6 { [%eval 0.86] } 4.
+Bc4 $6 { [%eval -0.1] } 4... O-O $6 { [%eval 0.7] } 5. O-O $6 { [%eval -0.02] }
+5... d6 { [%eval -0.09] } 6. d4 { [%eval -0.12] } 6... exd4 { [%eval -0.06] }
+7. Nxd4 { [%eval -0.08] } 7... Bg4 { [%eval 0.05] } 8. Qd3 $6 { [%eval -0.51] }
+8... Bh5 $6 { [%eval 0.26] } 9. Bg5 { [%eval 0.0] } 9... h6 { [%eval 0.31] }
+10. Bh4 { [%eval 0.13] } 10... g5 { [%eval 0.6] } 11. Bg3 { [%eval 0.47] }
+11... Bg6 { [%eval 0.43] } 12. f4 $2 { [%eval -2.16] } 12... gxf4 $6
+{ [%eval -1.27] } 13. Bxf4 $2 { [%eval -2.41] } 13... Nc6 { [%eval -2.19] } 14.
+Be3 $6 { [%eval -3.14] } 14... Qe7 $4 { [%eval 1.22] } 15. Nxc6 { [%eval 1.1] }
+15... bxc6 { [%eval 1.11] } 16. Bxc5 { [%eval 1.08] } 16... dxc5
+{ [%eval 1.11] } 17. Rae1 $6 { [%eval 0.45] } 17... Rad8 $6 { [%eval 1.07] }
+18. Qg3 { [%eval 1.09] } 18... Kg7 { [%eval 1.08] } 19. Qf4 $6 { [%eval 0.41] }
+19... Rd4 { [%eval 0.57] } 20. Qf3 $4 { [%eval -3.75] } 20... Rxc4
+{ [%eval -3.56] } 21. e5 $6 { [%eval -4.06] } 21... Nd5 { [%eval -4.04] } 22.
+Qg3 $6 { [%eval -4.79] } 22... Nb4 $2 { [%eval -3.69] } 23. Rf6 $6
+{ [%eval -4.44] } 23... Nxc2 { [%eval -4.42] } 24. Re2 { [%eval -4.41] } 24...
+Nd4 { [%eval -4.25] } 25. Re4 $6 { [%eval -4.76] } 25... Rxc3 $2
+{ [%eval -2.18] } 26. bxc3 { [%eval -2.37] } 26... Ne6 $6 { [%eval -1.79] } 27.
+Rg4 { [%eval -1.77] } 27... Ng5 $2 { [%eval -0.33] } 28. h4 { [%eval -0.54] }
+28... Qxe5 $4 { [%eval #9] } 29. Qxe5 { [%eval 15.62] } 29... Nh7 $6
+{ [%eval #1] } 30. Rfxg6# 1-0

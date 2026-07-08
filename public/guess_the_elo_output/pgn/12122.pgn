@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/z3An3hMU"]
+[Date "????.??.??"]
+[Round "?"]
+[White "zeitgeist_kaal"]
+[Black "deltab2013"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:44:20"]
+[WhiteElo "1624"]
+[BlackElo "1682"]
+[WhiteRatingDiff "+13"]
+[BlackRatingDiff "-12"]
+[ECO "C70"]
+[Opening "Ruy Lopez"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.15] } 1... e5 { [%eval 0.27] } 2. Nf3 { [%eval 0.22] } 2...
+Nc6 { [%eval 0.22] } 3. Bb5 { [%eval 0.16] } 3... a6 { [%eval 0.27] } 4. c3 $4
+{ [%eval -3.65] } 4... axb5 { [%eval -3.77] } 5. d4 { [%eval -3.99] } 5... exd4
+{ [%eval -3.93] } 6. cxd4 { [%eval -4.06] } 6... d5 { [%eval -3.95] } 7. e5
+{ [%eval -4.2] } 7... Be6 { [%eval -3.81] } 8. O-O { [%eval -3.76] } 8... Be7
+{ [%eval -3.45] } 9. Nc3 { [%eval -3.74] } 9... Bb4 $6 { [%eval -3.02] } 10.
+Nxb5 { [%eval -2.95] } 10... Nge7 { [%eval -2.95] } 11. a3 { [%eval -3.12] }
+11... Ba5 { [%eval -2.93] } 12. b4 $6 { [%eval -3.73] } 12... Bxb4
+{ [%eval -3.47] } 13. Bg5 $6 { [%eval -4.36] } 13... Bxa3 $4 { [%eval -0.68] }
+14. Nxa3 { [%eval -0.92] } 14... Rxa3 $2 { [%eval 1.25] } 15. Rxa3
+{ [%eval 1.14] } 15... O-O { [%eval 1.33] } 16. Qb3 { [%eval 1.21] } 16... b6
+{ [%eval 1.1] } 17. Qb5 { [%eval 1.05] } 17... h6 { [%eval 1.28] } 18. Bh4
+{ [%eval 1.04] } 18... g5 { [%eval 1.4] } 19. Nxg5 { [%eval 1.89] } 19... hxg5
+{ [%eval 1.7] } 20. Bxg5 { [%eval 2.33] } 20... Qd7 { [%eval 1.99] } 21. Rg3 $2
+{ [%eval 0.67] } 21... Kh7 $4 { [%eval 13.59] } 22. Qd3+ $4 { [%eval 4.33] }
+22... Bf5 $4 { [%eval 14.21] } 23. Qf3 { [%eval 12.95] } 23... Kg6 $6
+{ [%eval #4] } 24. h4 $4 { [%eval 4.81] } 24... Rh8 $4 { [%eval #3] } 25. Bxe7+
+$6 { [%eval 25.35] } 25... Kh7 $6 { [%eval #1] } 26. Qh5# 1-0

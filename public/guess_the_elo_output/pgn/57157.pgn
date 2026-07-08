@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/txJxtEVf"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kayhan34"]
+[Black "datnimaro"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:59:21"]
+[WhiteElo "1443"]
+[BlackElo "1500"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-206"]
+[ECO "B07"]
+[Opening "Pirc Defense #4"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.27] } 1... d6 { [%eval 0.52] } 2. Nc3 { [%eval 0.27] } 2... c6
+{ [%eval 0.52] } 3. Nf3 { [%eval 0.52] } 3... f6 $2 { [%eval 1.68] } 4. d4
+{ [%eval 1.58] } 4... a6 { [%eval 1.71] } 5. d5 { [%eval 1.27] } 5... cxd5
+{ [%eval 1.62] } 6. Nxd5 { [%eval 1.14] } 6... Nc6 $2 { [%eval 3.12] } 7. c3 $2
+{ [%eval 1.02] } 7... Na5 $4 { [%eval 7.02] } 8. b4 $4 { [%eval 1.78] } 8...
+Nc4 $4 { [%eval 5.85] } 9. Bxc4 { [%eval 5.43] } 9... a5 $4 { [%eval 10.28] }
+10. b5 $4 { [%eval 6.32] } 10... b6 $4 { [%eval 10.93] } 11. Be3
+{ [%eval 10.35] } 11... Nh6 { [%eval 16.7] } 12. Bxb6 { [%eval 16.27] } 12...
+Qd7 { [%eval 20.12] } 13. h3 { [%eval 12.08] } 13... Qe6 { [%eval 26.06] } 14.
+Nc7+ { [%eval 25.14] } 14... Kd8 $6 { [%eval #11] } 15. Nxe6+ { [%eval #11] }
+15... Kd7 { [%eval #6] } 16. Nxf8+ $6 { [%eval 30.16] } 16... Ke8
+{ [%eval 29.3] } 17. Ne6 { [%eval 28.63] } 17... Ng8 $6 { [%eval #10] } 18. e5
+$6 { [%eval 34.73] } 18... Bxe6 $6 { [%eval #12] } 19. Bxe6 { [%eval #11] }
+19... Ra6 { [%eval #7] } 20. Qd4 { [%eval #8] } 20... Ra8 { [%eval #7] } 21.
+Qd5 { [%eval #6] } 21... Kf8 { [%eval #1] } 22. Qxa8# 1-0

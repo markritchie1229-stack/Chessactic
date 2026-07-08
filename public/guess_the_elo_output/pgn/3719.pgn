@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/9sDt6Cvd"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StudyBreak"]
+[Black "cherries"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "04:23:09"]
+[WhiteElo "1850"]
+[BlackElo "2108"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+5"]
+[ECO "C27"]
+[Opening "Vienna Game"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.43] } 2. Nc3 { [%eval 0.06] } 2... f5
+$6 { [%eval 0.77] } 3. d4 $6 { [%eval 0.16] } 3... Nf6 $6 { [%eval 0.89] } 4.
+dxe5 { [%eval 0.87] } 4... Nxe4 { [%eval 0.89] } 5. Nxe4 { [%eval 0.89] } 5...
+fxe4 { [%eval 0.79] } 6. f3 $6 { [%eval -0.06] } 6... d5 { [%eval -0.06] } 7.
+fxe4 $2 { [%eval -1.92] } 7... Qh4+ { [%eval -2.29] } 8. g3 $2
+{ [%eval -5.21] } 8... Qxe4+ { [%eval -5.14] } 9. Qe2 { [%eval -5.19] } 9...
+Qxh1 { [%eval -5.15] } 10. Bg2 $4 { [%eval -10.47] } 10... Qxg1+
+{ [%eval -10.11] } 11. Kd2 { [%eval -14.93] } 11... Nc6 { [%eval -14.01] } 12.
+b3 $6 { [%eval #-14] } 12... Qd4+ $6 { [%eval -26.19] } 13. Qd3
+{ [%eval -37.37] } 13... Qxa1 { [%eval -19.4] } 14. Qxd5 $6 { [%eval #-11] }
+14... Qxe5 $6 { [%eval -16.12] } 15. Qf3 { [%eval -31.29] } 15... Bf5
+{ [%eval -27.27] } 16. Kd1 $6 { [%eval #-7] } 16... O-O-O+ { [%eval #-6] } 17.
+Bd2 { [%eval #-6] } 17... Bb4 { [%eval #-6] } 18. Kc1 { [%eval #-1] } 18...
+Bxd2+ $6 { [%eval #-3] } 19. Kb1 { [%eval #-3] } 19... Qe1+ { [%eval #-2] } 20.
+Kb2 { [%eval #-1] } 20... Bc3+ $6 { [%eval -25.05] } 21. Ka3 $6 { [%eval #-2] }
+21... Qc1+ $6 { [%eval #-3] } 22. Ka4 { [%eval #-3] } 22... Qxc2 $6
+{ [%eval #-5] } 23. Qxc3 { [%eval #-3] } 23... Qxc3 { [%eval #-2] } 24. Bd5
+{ [%eval #-1] } 24... Qa5# 0-1

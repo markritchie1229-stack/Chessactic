@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/jyjo3bjs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Shkrn"]
+[Black "ATPrubisco"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:59:10"]
+[WhiteElo "1166"]
+[BlackElo "1365"]
+[WhiteRatingDiff "+34"]
+[BlackRatingDiff "-84"]
+[ECO "C40"]
+[Opening "King's Pawn Game: Damiano Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.39] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.45] } 2... f6
+$6 { [%eval 1.33] } 3. Nc3 { [%eval 0.97] } 3... b6 $2 { [%eval 2.26] } 4. d3
+$2 { [%eval 0.72] } 4... Bb7 $6 { [%eval 1.31] } 5. Be3 $2 { [%eval 0.09] }
+5... d5 $2 { [%eval 1.37] } 6. exd5 $6 { [%eval 0.85] } 6... Bxd5 $6
+{ [%eval 1.58] } 7. d4 { [%eval 1.25] } 7... Bb7 $6 { [%eval 2.12] } 8. Qd2 $2
+{ [%eval 1.02] } 8... c5 $2 { [%eval 2.49] } 9. O-O-O { [%eval 2.29] } 9... Qd6
+$2 { [%eval 5.05] } 10. Bb5+ $2 { [%eval 3.36] } 10... Nc6 $2 { [%eval 5.68] }
+11. dxc5 $4 { [%eval 2.6] } 11... bxc5 $4 { [%eval 8.4] } 12. Qe2 $4
+{ [%eval 4.29] } 12... Qc7 $2 { [%eval 5.98] } 13. Nh4 $6 { [%eval 5.06] }
+13... a6 $6 { [%eval 5.58] } 14. Ba4 { [%eval 5.27] } 14... Bd6 $2
+{ [%eval 7.39] } 15. Nf5 $2 { [%eval 6.36] } 15... Rd8 $4 { [%eval 10.15] } 16.
+Qh5+ $4 { [%eval 4.65] } 16... Kf8 $2 { [%eval 6.72] } 17. Qg4 $4
+{ [%eval 0.32] } 17... Nh6 $4 { [%eval 13.07] } 18. Bxh6 { [%eval 12.37] }
+18... gxh6 { [%eval 14.71] } 19. Nxh6 $4 { [%eval 1.17] } 19... Ke7 $4
+{ [%eval 22.52] } 20. Qg7+ { [%eval 17.83] } 20... Ke6 $6 { [%eval #2] } 21.
+Bb3+ { [%eval #1] } 21... c4 { [%eval #1] } 22. Bxc4# 1-0

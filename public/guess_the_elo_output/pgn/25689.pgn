@@ -1,0 +1,34 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/WLZX5njj"]
+[Date "????.??.??"]
+[Round "?"]
+[White "OneDarkNight"]
+[Black "Grantorinno"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:44:26"]
+[WhiteElo "1798"]
+[BlackElo "1871"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+17"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Symmetrical Variation"]
+[TimeControl "300+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.16] } 1... g6 { [%eval 0.22] } 2. Bg2 { [%eval 0.15] } 2...
+Bg7 { [%eval 0.16] } 3. c4 { [%eval 0.15] } 3... e5 { [%eval 0.11] } 4. d3
+{ [%eval -0.04] } 4... d6 { [%eval 0.03] } 5. Nc3 { [%eval 0.01] } 5... f5
+{ [%eval 0.31] } 6. Nh3 { [%eval 0.0] } 6... Nf6 { [%eval 0.0] } 7. O-O
+{ [%eval 0.0] } 7... Nc6 { [%eval 0.03] } 8. f4 { [%eval 0.0] } 8... O-O
+{ [%eval 0.0] } 9. fxe5 { [%eval -0.26] } 9... dxe5 { [%eval -0.29] } 10. Bg5
+{ [%eval -0.36] } 10... Nd4 { [%eval -0.12] } 11. Nd5 { [%eval -0.15] } 11...
+Ne6 { [%eval -0.19] } 12. Bxf6 { [%eval -0.14] } 12... Bxf6 { [%eval -0.17] }
+13. Nxf6+ { [%eval -0.17] } 13... Qxf6 { [%eval -0.18] } 14. e3
+{ [%eval -0.22] } 14... c6 { [%eval -0.19] } 15. b4 { [%eval -0.3] } 15... Bd7
+{ [%eval -0.22] } 16. Qb3 { [%eval -0.37] } 16... h5 { [%eval -0.17] } 17. a4
+{ [%eval -0.35] } 17... g5 { [%eval -0.21] } 18. c5 { [%eval -0.37] } 18... g4
+{ [%eval -0.37] } 19. Nf2 { [%eval -0.56] } 19... Kh8 { [%eval -0.33] } 20. Ne4
+$6 { [%eval -0.88] } 20... Qh6 $6 { [%eval -0.37] } 21. Nd6 { [%eval -0.31] }
+21... Qxe3+ { [%eval -0.38] } 22. Kh1 { [%eval -0.43] } 22... Nd4
+{ [%eval -0.37] } 0-1

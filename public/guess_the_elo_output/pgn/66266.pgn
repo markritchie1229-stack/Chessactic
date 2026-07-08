@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/M6EcLcfw"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TheGasMask"]
+[Black "Joel2016"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "19:27:26"]
+[WhiteElo "1407"]
+[BlackElo "1436"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-14"]
+[ECO "C21"]
+[Opening "King's Pawn Game: Beyer Gambit"]
+[TimeControl "900+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.4] } 2. d4 { [%eval 0.04] } 2... d5
+$2 { [%eval 1.12] } 3. dxe5 { [%eval 1.16] } 3... c6 { [%eval 1.26] } 4. exd5
+{ [%eval 1.19] } 4... cxd5 { [%eval 1.19] } 5. Nc3 { [%eval 1.02] } 5... Nc6
+{ [%eval 1.45] } 6. Bb5 $6 { [%eval 0.82] } 6... Bd7 $6 { [%eval 1.55] } 7.
+Nxd5 { [%eval 1.38] } 7... Nxe5 $2 { [%eval 3.49] } 8. Bxd7+ $2
+{ [%eval 0.98] } 8... Nxd7 $6 { [%eval 1.6] } 9. Qe2+ { [%eval 1.48] } 9... Be7
+{ [%eval 1.58] } 10. Nxe7 { [%eval 1.34] } 10... Nxe7 { [%eval 1.27] } 11. Bg5
+{ [%eval 1.06] } 11... f6 { [%eval 1.46] } 12. Bf4 { [%eval 1.01] } 12... O-O
+$6 { [%eval 1.6] } 13. Nf3 $6 { [%eval 1.1] } 13... Nf5 $4 { [%eval 4.63] } 14.
+O-O $2 { [%eval 1.85] } 14... Re8 $6 { [%eval 2.61] } 15. Qc4+ { [%eval 2.12] }
+15... Kh8 { [%eval 2.13] } 16. Rfe1 $6 { [%eval 1.42] } 16... Rc8 $6
+{ [%eval 2.25] } 17. Rxe8+ { [%eval 2.31] } 17... Qxe8 { [%eval 2.17] } 18. Qb5
+$2 { [%eval 1.1] } 18... Qe4 $4 { [%eval 6.25] } 19. Qxd7 { [%eval 6.25] }
+19... Re8 { [%eval 6.36] } 20. g3 $2 { [%eval 5.18] } 20... Ra8 $2
+{ [%eval 7.39] } 21. Re1 { [%eval 7.14] } 21... Qc6 { [%eval 7.13] } 22. Qxf5
+{ [%eval 6.64] } 22... Qxc2 $4 { [%eval #7] } 23. Qxc2 { [%eval #5] } 23... Rc8
+{ [%eval #1] } 24. Qxc8# 1-0

@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/xx5CwIoL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "vova1969"]
+[Black "Outakoski"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "11:45:33"]
+[WhiteElo "2236"]
+[BlackElo "1863"]
+[WhiteRatingDiff "-24"]
+[BlackRatingDiff "+20"]
+[ECO "C45"]
+[Opening "Scotch Game: Schmidt Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.41] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.26] } 2...
+Nc6 { [%eval 0.28] } 3. d4 { [%eval 0.08] } 3... exd4 { [%eval 0.18] } 4. Nxd4
+{ [%eval 0.06] } 4... Nf6 { [%eval 0.12] } 5. Nc3 { [%eval 0.0] } 5... Bb4
+{ [%eval 0.02] } 6. Nxc6 { [%eval -0.01] } 6... bxc6 { [%eval 0.02] } 7. Bd3
+{ [%eval -0.02] } 7... d5 { [%eval -0.05] } 8. exd5 { [%eval -0.11] } 8... cxd5
+{ [%eval -0.03] } 9. Qe2+ { [%eval -0.03] } 9... Qe7 { [%eval 0.37] } 10. Bd2
+{ [%eval -0.01] } 10... Bg4 { [%eval 0.32] } 11. Qxe7+ { [%eval 0.46] } 11...
+Kxe7 { [%eval 0.56] } 12. f3 { [%eval 0.37] } 12... Be6 { [%eval 0.47] } 13.
+O-O-O { [%eval 0.18] } 13... Rab8 { [%eval 0.63] } 14. Rhe1 { [%eval 0.28] }
+14... Rhe8 { [%eval 0.72] } 15. Bf4 $6 { [%eval -0.11] } 15... Bxc3 $6
+{ [%eval 0.87] } 16. bxc3 { [%eval 0.71] } 16... Rb7 { [%eval 0.96] } 17. g4
+{ [%eval 0.55] } 17... c5 { [%eval 0.84] } 18. g5 { [%eval 0.48] } 18... Nh5
+{ [%eval 0.61] } 19. Be3 { [%eval 0.48] } 19... c4 $2 { [%eval 2.1] } 20. Bf1
+$2 { [%eval 0.0] } 20... Reb8 { [%eval 0.05] } 21. f4 { [%eval 0.0] } 21...
+Rb1+ { [%eval -0.05] } 22. Kd2 { [%eval -0.08] } 22... R1b2 { [%eval 0.36] }
+23. Bg2 { [%eval 0.0] } 23... Rxa2 { [%eval 0.03] } 24. Bc5+ { [%eval -0.22] }
+24... Kd7 { [%eval -0.22] } 25. Be3 $2 { [%eval -2.08] } 25... Bf5
+{ [%eval -1.84] } 26. Rc1 { [%eval -1.8] } 26... Rbb2 { [%eval -1.96] } 27. Bf3
+$2 { [%eval -3.43] } 27... Bxc2 { [%eval -2.91] } 28. Bg4+ $4 { [%eval #-6] }
+28... Bf5+ { [%eval #-5] } 0-1

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sI82uhYy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Shage"]
+[Black "bernisantullano"]
+[Result "0-1"]
+[UTCDate "2017.02.04"]
+[UTCTime "00:12:48"]
+[WhiteElo "1264"]
+[BlackElo "1290"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+17"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Napoleon Attack"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.52] } 2. Qf3 $6 { [%eval -0.37] } 2...
+Nf6 { [%eval -0.32] } 3. d3 { [%eval -0.71] } 3... Nc6 { [%eval -0.58] } 4. Nh3
+$2 { [%eval -1.62] } 4... Nd4 $6 { [%eval -0.85] } 5. Qd1 { [%eval -0.97] }
+5... c6 $6 { [%eval -0.33] } 6. Be3 $6 { [%eval -1.08] } 6... d5
+{ [%eval -0.95] } 7. Bxd4 { [%eval -1.29] } 7... exd4 { [%eval -1.39] } 8. c3
+$6 { [%eval -2.2] } 8... dxe4 { [%eval -1.97] } 9. cxd4 $2 { [%eval -3.28] }
+9... Bg4 $6 { [%eval -2.29] } 10. f3 $2 { [%eval -5.14] } 10... exf3 $2
+{ [%eval -3.61] } 11. gxf3 { [%eval -3.45] } 11... Bh5 $6 { [%eval -2.85] } 12.
+Qe2+ { [%eval -3.01] } 12... Be7 { [%eval -2.86] } 13. Nf4 $2 { [%eval -4.04] }
+13... Qa5+ $2 { [%eval -1.76] } 14. Nc3 { [%eval -1.98] } 14... O-O
+{ [%eval -1.89] } 15. Bh3 $2 { [%eval -4.35] } 15... Bb4 $2 { [%eval -2.11] }
+16. Ne6 $4 { [%eval -8.98] } 16... Rfe8 $4 { [%eval -5.62] } 17. Nf4 $4
+{ [%eval -20.91] } 17... Bxc3+ { [%eval -19.97] } 18. bxc3 { [%eval -22.84] }
+18... Qxc3+ { [%eval -22.29] } 19. Kf2 { [%eval -21.75] } 19... Rxe2+
+{ [%eval -20.65] } 20. Nxe2 { [%eval -20.14] } 20... Qxd3 { [%eval -18.04] }
+21. Rhd1 $6 { [%eval #-9] } 21... Qxf3+ { [%eval #-8] } 22. Ke1 { [%eval #-1] }
+22... Qxh3 $6 { [%eval -68.92] } 23. Kd2 $6 { [%eval #-7] } 23... Re8
+{ [%eval #-6] } 24. Rab1 { [%eval #-2] } 24... Qxh2 $6 { [%eval #-6] } 25. Rxb7
+{ [%eval #-6] } 25... Bxe2 { [%eval #-6] } 0-1

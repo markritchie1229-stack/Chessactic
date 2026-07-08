@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/RVgSBvyi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dfreeze"]
+[Black "isakovirus"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:59:34"]
+[WhiteElo "1755"]
+[BlackElo "1815"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.23] } 1... d6 { [%eval 0.45] } 2. d3 { [%eval 0.08] } 2... g6
+{ [%eval 0.24] } 3. a3 { [%eval -0.04] } 3... Bg7 { [%eval 0.02] } 4. h3
+{ [%eval -0.12] } 4... Nf6 { [%eval -0.07] } 5. Ne2 { [%eval -0.2] } 5... O-O
+{ [%eval -0.16] } 6. Nd2 { [%eval -0.39] } 6... c5 { [%eval -0.08] } 7. g3
+{ [%eval -0.12] } 7... Nc6 { [%eval -0.1] } 8. Bg2 { [%eval -0.32] } 8... a6
+{ [%eval -0.14] } 9. Nf4 { [%eval -0.61] } 9... Qc7 { [%eval -0.24] } 10. Nc4
+$6 { [%eval -1.03] } 10... b5 { [%eval -0.59] } 11. Nd2 { [%eval -0.82] } 11...
+Bb7 { [%eval -0.56] } 12. Ne2 { [%eval -0.71] } 12... Ne5 { [%eval -0.59] } 13.
+e4 { [%eval -0.52] } 13... d5 { [%eval -0.47] } 14. f4 { [%eval -0.78] } 14...
+Ned7 $6 { [%eval 0.12] } 15. e5 { [%eval 0.04] } 15... Nh5 $6 { [%eval 0.58] }
+16. Nf3 { [%eval 0.47] } 16... d4 $6 { [%eval 1.43] } 17. g4 { [%eval 1.29] }
+17... Bxf3 $2 { [%eval 2.54] } 18. Bxf3 { [%eval 2.34] } 18... Nxf4
+{ [%eval 2.49] } 19. Bxf4 { [%eval 2.3] } 19... Bxe5 $2 { [%eval 3.45] } 20.
+Qd2 $2 { [%eval 1.72] } 20... f5 $4 { [%eval 4.74] } 21. Bxa8 { [%eval 4.33] }
+21... fxg4 $4 { [%eval 7.56] } 22. Bxe5 { [%eval 7.6] } 22... Qxe5
+{ [%eval 7.43] } 23. Be4 $6 { [%eval 6.87] } 23... g3 $6 { [%eval 7.66] } 24.
+O-O-O { [%eval 7.43] } 24... Rf2 { [%eval 7.85] } 25. Rde1 $2 { [%eval 6.12] }
+25... c4 $2 { [%eval 7.36] } 26. Rhg1 { [%eval 7.06] } 26... c3 $2
+{ [%eval 8.46] } 27. Qh6 { [%eval 8.19] } 27... cxb2+ { [%eval 8.22] } 28. Kxb2
+{ [%eval 7.75] } 28... Qc5 $2 { [%eval 14.0] } 29. Nxg3 $4 { [%eval #-2] }
+29... Qxc2+ { [%eval #-1] } 0-1

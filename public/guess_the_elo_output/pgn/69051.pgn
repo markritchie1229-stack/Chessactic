@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/X7rY6tKV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "keko12"]
+[Black "ligregorio33"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:27:28"]
+[WhiteElo "1298"]
+[BlackElo "1383"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+8"]
+[ECO "C60"]
+[Opening "Ruy Lopez: Cozio Defense"]
+[TimeControl "240+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.34] } 1... e5 { [%eval 0.28] } 2. Nf3 { [%eval 0.2] } 2... Nc6
+{ [%eval 0.2] } 3. Bb5 { [%eval 0.27] } 3... Nge7 { [%eval 0.53] } 4. d3
+{ [%eval 0.13] } 4... a6 { [%eval 0.44] } 5. Ba4 { [%eval 0.17] } 5... b5 $6
+{ [%eval 0.75] } 6. Bb3 { [%eval 0.68] } 6... h6 { [%eval 0.69] } 7. a3
+{ [%eval 0.46] } 7... d5 { [%eval 0.68] } 8. exd5 { [%eval 0.7] } 8... Nxd5
+{ [%eval 0.61] } 9. d4 $6 { [%eval -0.33] } 9... exd4 { [%eval -0.11] } 10.
+Nxd4 $6 { [%eval -0.68] } 10... Nxd4 { [%eval -0.57] } 11. Qxd4
+{ [%eval -0.57] } 11... Bb7 $2 { [%eval 0.59] } 12. O-O { [%eval 0.33] } 12...
+c5 $2 { [%eval 1.74] } 13. Qe5+ $2 { [%eval -0.25] } 13... Ne7 $2
+{ [%eval 1.82] } 14. a4 $2 { [%eval -0.34] } 14... c4 { [%eval -0.27] } 15. Ba2
+{ [%eval -0.56] } 15... Qd5 { [%eval -0.47] } 16. Qxd5 { [%eval -0.55] } 16...
+Bxd5 $6 { [%eval 0.41] } 17. axb5 $6 { [%eval -0.1] } 17... axb5
+{ [%eval 0.04] } 18. b3 $6 { [%eval -0.75] } 18... c3 $2 { [%eval 0.87] } 19.
+Be3 $4 { [%eval -2.29] } 19... b4 { [%eval -2.12] } 20. Bc5 $2
+{ [%eval -3.33] } 20... Rc8 $4 { [%eval 1.05] } 21. Bxb4 { [%eval 1.37] } 21...
+Nc6 { [%eval 1.5] } 22. Re1+ $6 { [%eval 0.52] } 22... Be7 $2 { [%eval 2.09] }
+23. Bxc3 $2 { [%eval 0.16] } 23... O-O { [%eval 0.14] } 24. b4
+{ [%eval -0.01] } 24... Ra8 $4 { [%eval 4.95] } 25. b5 $4 { [%eval 0.39] }
+25... Rxa2 { [%eval 0.37] } 26. Rxa2 { [%eval 0.43] } 26... Bxa2
+{ [%eval 0.43] } 27. bxc6 { [%eval 0.4] } 27... Bxb1 $2 { [%eval 2.04] } 28.
+Rxb1 $6 { [%eval 1.54] } 28... Bd6 $6 { [%eval 2.13] } 29. Bb4 $2
+{ [%eval 0.82] } 29... Bxb4 $6 { [%eval 1.73] } 30. Rxb4 { [%eval 1.44] } 30...
+Rd8 { [%eval 1.79] } 31. c7 $4 { [%eval #-1] } 31... Rd1# 0-1

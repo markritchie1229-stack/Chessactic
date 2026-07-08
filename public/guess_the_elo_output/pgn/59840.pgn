@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/9JbUWN5D"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sisu12"]
+[Black "Mika_1"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "15:11:18"]
+[WhiteElo "1541"]
+[BlackElo "1701"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+73"]
+[ECO "C22"]
+[Opening "Center Game: Normal Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.34] } 2. d4 { [%eval 0.0] } 2... exd4
+{ [%eval 0.02] } 3. Qxd4 { [%eval 0.05] } 3... Nc6 { [%eval 0.05] } 4. Qd5 $6
+{ [%eval -0.93] } 4... Nf6 { [%eval -1.08] } 5. Qf5 $2 { [%eval -3.4] } 5... d5
+{ [%eval -2.84] } 6. Qf3 { [%eval -2.79] } 6... dxe4 { [%eval -2.98] } 7. Qe3
+{ [%eval -2.89] } 7... Bd6 { [%eval -2.91] } 8. Nc3 { [%eval -3.22] } 8... O-O
+{ [%eval -2.99] } 9. Be2 $6 { [%eval -3.56] } 9... Bb4 $2 { [%eval -1.91] } 10.
+Bd2 { [%eval -2.12] } 10... Nd4 { [%eval -1.93] } 11. O-O-O { [%eval -2.04] }
+11... Nxe2+ $2 { [%eval -0.72] } 12. Ncxe2 $6 { [%eval -1.59] } 12... Bxd2+ $6
+{ [%eval -0.86] } 13. Rxd2 { [%eval -0.85] } 13... Qe7 { [%eval -0.86] } 14.
+Nh3 { [%eval -1.12] } 14... Be6 { [%eval -0.83] } 15. b3 $6 { [%eval -1.51] }
+15... Qa3+ { [%eval -1.16] } 16. Kd1 $4 { [%eval -5.5] } 16... Qxa2
+{ [%eval -5.39] } 17. Nc1 { [%eval -5.61] } 17... Qa5 { [%eval -5.08] } 18. Ng5
+$4 { [%eval -8.89] } 18... Rad8 $2 { [%eval -7.83] } 19. Nxe6 { [%eval -7.79] }
+19... fxe6 { [%eval -7.35] } 20. Rxd8 $2 { [%eval -10.89] } 20... Rxd8+
+{ [%eval -10.64] } 21. Ke2 { [%eval -10.59] } 21... Ng4 { [%eval -10.49] } 22.
+Qxe4 { [%eval -10.43] } 22... Qd2+ { [%eval -10.26] } 23. Kf3 { [%eval -10.1] }
+23... h5 $2 { [%eval -7.61] } 24. h3 $2 { [%eval #-1] } 24... Qxf2# 0-1

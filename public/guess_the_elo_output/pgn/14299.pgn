@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/Pe0Ktqoa"]
+[Date "????.??.??"]
+[Round "?"]
+[White "donkouradas"]
+[Black "S_Lytvyn"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:25:47"]
+[WhiteElo "1500"]
+[BlackElo "1462"]
+[WhiteRatingDiff "+157"]
+[BlackRatingDiff "-8"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Saduleto Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... d5 { [%eval 0.2] } 2. c4 { [%eval 0.2] } 2... dxc4
+{ [%eval 0.45] } 3. e4 { [%eval 0.14] } 3... f6 $2 { [%eval 1.45] } 4. Bxc4
+{ [%eval 1.44] } 4... e5 $6 { [%eval 2.33] } 5. d5 $2 { [%eval 0.75] } 5... c6
+{ [%eval 0.86] } 6. Nc3 { [%eval 1.05] } 6... cxd5 { [%eval 1.42] } 7. Nxd5
+{ [%eval 1.33] } 7... Be6 { [%eval 1.68] } 8. Nxf6+ $4 { [%eval -2.39] } 8...
+Nxf6 $4 { [%eval 1.06] } 9. Qxd8+ { [%eval 1.04] } 9... Kxd8 { [%eval 1.22] }
+10. Bxe6 { [%eval 1.18] } 10... Nxe4 $6 { [%eval 1.71] } 11. a3 $2
+{ [%eval 0.29] } 11... Nc6 { [%eval 0.75] } 12. Bd5 { [%eval 0.7] } 12... Nf6
+{ [%eval 0.63] } 13. Bg5 { [%eval 0.23] } 13... Be7 $6 { [%eval 0.84] } 14. Nf3
+$6 { [%eval 0.0] } 14... Nxd5 { [%eval 0.0] } 15. Rd1 { [%eval -0.06] } 15...
+Nd4 { [%eval 0.25] } 16. Bxe7+ $2 { [%eval -2.69] } 16... Nxe7 $2
+{ [%eval -0.14] } 17. Nxe5 { [%eval -0.23] } 17... Ke8 $2 { [%eval 1.36] } 18.
+Rxd4 { [%eval 1.32] } 18... Rd8 $4 { [%eval 7.69] } 19. Rxd8+ { [%eval 7.38] }
+19... Kxd8 { [%eval 7.56] } 20. Nf7+ { [%eval 7.48] } 20... Ke8 { [%eval 7.4] }
+21. Nxh8 { [%eval 7.02] } 21... Ng8 $6 { [%eval 7.91] } 22. Kd2
+{ [%eval 7.57] } 22... Nf6 $6 { [%eval 8.36] } 23. Rc1 { [%eval 8.14] } 23...
+Ne4+ $2 { [%eval 9.27] } 24. Ke3 { [%eval 9.01] } 24... Nf6 { [%eval 9.22] }
+25. Rc8+ { [%eval 8.99] } 25... Ke7 $2 { [%eval 10.68] } 26. Rc7+
+{ [%eval 10.38] } 26... Kf8 { [%eval 10.7] } 27. Rxb7 { [%eval 10.47] } 27...
+Kg8 $6 { [%eval #2] } 28. Nf7 $6 { [%eval 11.4] } 28... Nd5+ { [%eval 12.93] }
+29. Kf3 { [%eval 12.27] } 1-0

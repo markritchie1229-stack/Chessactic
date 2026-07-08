@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/luRDOxtI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "tmoakt4"]
+[Black "p79g"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "22:19:58"]
+[WhiteElo "2132"]
+[BlackElo "2214"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+8"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "30+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.08] } 1... e5 { [%eval 0.18] } 2. Be2 { [%eval -0.25] } 2...
+d5 { [%eval -0.18] } 3. f3 $2 { [%eval -1.41] } 3... f5 $2 { [%eval -0.17] } 4.
+e4 $2 { [%eval -1.35] } 4... dxe4 { [%eval -1.19] } 5. fxe4 { [%eval -1.35] }
+5... fxe4 $6 { [%eval -0.63] } 6. d3 $6 { [%eval -1.45] } 6... Nf6
+{ [%eval -0.97] } 7. Nc3 { [%eval -1.34] } 7... exd3 $6 { [%eval -0.63] } 8.
+cxd3 $6 { [%eval -1.47] } 8... Bd6 { [%eval -1.04] } 9. Nf3 { [%eval -1.05] }
+9... O-O { [%eval -0.98] } 10. Ne4 { [%eval -1.36] } 10... Nxe4 $6
+{ [%eval -0.85] } 11. dxe4 { [%eval -0.96] } 11... Bg4 { [%eval -0.82] } 12.
+O-O { [%eval -0.88] } 12... Nc6 { [%eval -0.52] } 13. Qe1 $6 { [%eval -1.18] }
+13... Nd4 $4 { [%eval 1.89] } 14. Be3 $4 { [%eval -2.3] } 14... Nxe2+ $2
+{ [%eval -1.06] } 15. Qxe2 { [%eval -1.06] } 15... Bxf3 { [%eval -0.66] } 16.
+Rxf3 { [%eval -0.65] } 16... Rxf3 { [%eval -0.67] } 17. Qxf3 { [%eval -0.71] }
+17... Qf6 { [%eval -0.66] } 18. Qe2 { [%eval -0.7] } 18... Re8 $2
+{ [%eval 0.49] } 19. Rf1 $2 { [%eval -0.66] } 19... Qe7 { [%eval -0.52] } 20.
+Qd2 { [%eval -0.72] } 20... Rf8 $6 { [%eval 0.05] } 21. Bg5 $2
+{ [%eval -2.57] } 21... Rxf1+ { [%eval -2.51] } 22. Kxf1 { [%eval -2.41] }
+22... Qf7+ { [%eval -2.22] } 23. Kg1 { [%eval -2.66] } 23... Qxa2
+{ [%eval -2.53] } 24. h3 $6 { [%eval -3.33] } 24... Qb1+ { [%eval -3.26] } 25.
+Kh2 { [%eval -3.57] } 25... Qxe4 { [%eval -3.3] } 26. Bh4 $4 { [%eval -9.77] }
+26... Qxh4 { [%eval -9.22] } 27. g3 $6 { [%eval -10.39] } 27... Qd4
+{ [%eval -9.65] } 28. Kg2 $2 { [%eval #-6] } 28... Qxd2+ { [%eval #-5] } 0-1

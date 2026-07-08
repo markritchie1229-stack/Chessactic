@@ -1,0 +1,40 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/SBc2XC4j"]
+[Site "https://lichess.org/S9VuOJDc"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dokhotnikov"]
+[Black "Lead2000"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "19:36:53"]
+[WhiteElo "1529"]
+[BlackElo "1484"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "C00"]
+[Opening "French Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.18] } 1... e6 { [%eval 0.26] } 2. d4 { [%eval 0.18] } 2... d5
+{ [%eval 0.23] } 3. Bb5+ { [%eval -0.16] } 3... c6 { [%eval -0.1] } 4. Bd3
+{ [%eval -0.12] } 4... dxe4 { [%eval -0.11] } 5. Bxe4 { [%eval -0.12] } 5...
+Nf6 { [%eval -0.08] } 6. Nc3 { [%eval -0.1] } 6... Bb4 { [%eval -0.1] } 7. Bg5
+{ [%eval -0.27] } 7... h6 { [%eval 0.06] } 8. Bxf6 { [%eval 0.0] } 8... Qxf6
+{ [%eval 0.05] } 9. Ne2 { [%eval -0.29] } 9... Na6 { [%eval 0.06] } 10. a3
+{ [%eval 0.13] } 10... Ba5 { [%eval 0.19] } 11. O-O { [%eval -0.03] } 11... Bc7
+{ [%eval 0.0] } 12. Ng3 { [%eval -0.28] } 12... e5 $6 { [%eval 0.69] } 13. Nh5
+$6 { [%eval -0.07] } 13... Qh4 $6 { [%eval 0.69] } 14. Nxg7+ { [%eval 0.44] }
+14... Kf8 { [%eval 0.42] } 15. Nf5 $2 { [%eval -2.31] } 15... Qg5 $4
+{ [%eval 0.98] } 16. b4 $4 { [%eval -2.03] } 16... exd4 $4 { [%eval 1.37] } 17.
+Qxd4 { [%eval 1.36] } 17... Bxf5 $4 { [%eval 6.58] } 18. Qxh8+ { [%eval 6.38] }
+18... Qg8 { [%eval 6.42] } 19. Qxg8+ $2 { [%eval 5.31] } 19... Kxg8
+{ [%eval 5.54] } 20. Bxf5 { [%eval 5.5] } 20... Be5 { [%eval 5.42] } 21. Rad1
+$6 { [%eval 4.86] } 21... Bxc3 { [%eval 4.85] } 22. Rd7 { [%eval 4.66] } 22...
+b5 { [%eval 4.85] } 23. Be4 { [%eval 4.72] } 23... Rc8 { [%eval 4.86] } 24.
+Rxa7 { [%eval 4.62] } 24... Nc7 $6 { [%eval 5.26] } 25. Rd1 $6 { [%eval 4.76] }
+25... Ne6 { [%eval 4.96] } 26. Rdd7 { [%eval 4.8] } 26... Rf8 $2
+{ [%eval 6.25] } 27. Bxc6 { [%eval 5.95] } 27... Nd4 $2 { [%eval 7.45] } 28.
+Bd5 { [%eval 7.1] } 28... Nxc2 $2 { [%eval #12] } 29. Bxf7+ { [%eval #11] }
+29... Kh8 { [%eval #4] } 30. Bb3 { [%eval #3] } 30... Nxa3 { [%eval #1] } 31.
+Rh7# 1-0

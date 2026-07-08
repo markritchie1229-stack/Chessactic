@@ -1,0 +1,40 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/rnSljlOM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Sokol1"]
+[Black "Ideserve1000gg"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "16:34:02"]
+[WhiteElo "1616"]
+[BlackElo "1587"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "A43"]
+[Opening "Benoni Defense: Benoni Gambit Accepted"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.14] } 1... c5 { [%eval 0.47] } 2. dxc5 { [%eval 0.06] } 2...
+Qa5+ $6 { [%eval 0.62] } 3. Nc3 { [%eval 0.45] } 3... Qxc5 { [%eval 0.91] } 4.
+Nf3 { [%eval 0.95] } 4... e5 { [%eval 1.26] } 5. e3 $6 { [%eval 0.75] } 5...
+Nf6 { [%eval 0.82] } 6. Be2 $6 { [%eval 0.07] } 6... Nc6 $6 { [%eval 0.75] } 7.
+O-O { [%eval 0.32] } 7... d5 { [%eval 0.39] } 8. a3 $6 { [%eval -0.37] } 8...
+Be6 { [%eval -0.09] } 9. Ng5 { [%eval -0.3] } 9... Bf5 { [%eval -0.33] } 10. h3
+$6 { [%eval -0.84] } 10... h6 { [%eval -0.71] } 11. Nf3 { [%eval -0.61] } 11...
+Rd8 { [%eval -0.75] } 12. Bd3 { [%eval -0.74] } 12... e4 { [%eval -0.31] } 13.
+Nh4 $2 { [%eval -3.09] } 13... Be6 { [%eval -2.81] } 14. Bb5 { [%eval -3.12] }
+14... g5 { [%eval -3.05] } 15. Ng6 $2 { [%eval -4.38] } 15... fxg6
+{ [%eval -4.24] } 16. f4 $2 { [%eval -5.34] } 16... gxf4 { [%eval -5.24] } 17.
+Rxf4 { [%eval -5.31] } 17... Nh5 $6 { [%eval -4.58] } 18. Rf2 { [%eval -4.65] }
+18... Bd6 { [%eval -4.62] } 19. Bxc6+ { [%eval -4.79] } 19... bxc6
+{ [%eval -4.72] } 20. Ne2 { [%eval -4.74] } 20... Kd7 { [%eval -4.65] } 21. Nd4
+$6 { [%eval -5.31] } 21... Rhf8 { [%eval -5.11] } 22. Bd2 { [%eval -5.6] }
+22... Rxf2 { [%eval -5.49] } 23. Kxf2 { [%eval -5.03] } 23... Bg3+
+{ [%eval -4.75] } 24. Kg1 { [%eval -4.71] } 24... Rf8 $2 { [%eval -3.55] } 25.
+Be1 $2 { [%eval -4.94] } 25... Qd6 { [%eval -4.73] } 26. Qe2 { [%eval -4.6] }
+26... Bxh3 $2 { [%eval -3.01] } 27. Bb4 $4 { [%eval #-4] } 27... Bf2+ $6
+{ [%eval -11.22] } 28. Qxf2 { [%eval -11.03] } 28... Rxf2 { [%eval -10.52] }
+29. Kxf2 { [%eval -16.17] } 29... Qf6+ { [%eval -10.88] } 30. Kg1
+{ [%eval -15.69] } 30... Qg5 { [%eval -14.21] } 0-1

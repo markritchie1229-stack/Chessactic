@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/By5lngwz"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Andresking"]
+[Black "ghanbarisahar1987"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "14:39:04"]
+[WhiteElo "1259"]
+[BlackElo "1274"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+16"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo, Normal"]
+[TimeControl "300+3"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.23] } 1... e5 { [%eval 0.5] } 2. Bc4 { [%eval 0.15] } 2... Nc6
+{ [%eval 0.11] } 3. Nf3 { [%eval 0.11] } 3... Nf6 { [%eval 0.25] } 4. d3
+{ [%eval 0.18] } 4... Bc5 { [%eval 0.25] } 5. Ng5 { [%eval -0.24] } 5... d5 $6
+{ [%eval 0.54] } 6. exd5 { [%eval 0.5] } 6... Nxd5 $6 { [%eval 1.34] } 7. Qf3
+$6 { [%eval 0.72] } 7... Be6 { [%eval 0.72] } 8. Nxe6 { [%eval 0.64] } 8...
+fxe6 { [%eval 0.81] } 9. Qh5+ { [%eval 0.43] } 9... g6 { [%eval 0.43] } 10. Qh3
+{ [%eval 0.17] } 10... Qf6 { [%eval 0.0] } 11. Qg3 $2 { [%eval -1.7] } 11...
+O-O-O $2 { [%eval -0.3] } 12. Bg5 $2 { [%eval -1.64] } 12... Qf5 $2
+{ [%eval 0.66] } 13. Bxd8 { [%eval 0.64] } 13... Kxd8 $6 { [%eval 1.34] } 14.
+Bxd5 { [%eval 1.2] } 14... exd5 { [%eval 1.09] } 15. O-O { [%eval 0.77] } 15...
+Re8 $6 { [%eval 1.48] } 16. Nd2 { [%eval 1.02] } 16... Kc8 $6 { [%eval 1.54] }
+17. a3 $6 { [%eval 0.81] } 17... Kb8 $6 { [%eval 1.53] } 18. b4
+{ [%eval 1.08] } 18... Bb6 $6 { [%eval 1.75] } 19. Rfe1 $6 { [%eval 1.17] }
+19... h5 $6 { [%eval 1.92] } 20. Nf3 $6 { [%eval 1.25] } 20... Bd4 $6
+{ [%eval 2.12] } 21. Nxd4 { [%eval 2.1] } 21... Nxd4 { [%eval 1.98] } 22. Re3
+$2 { [%eval -0.85] } 22... Nxc2 { [%eval -0.49] } 23. Rc1 $6 { [%eval -1.31] }
+23... Nxe3 { [%eval -1.1] } 24. Qxe3 { [%eval -1.14] } 24... g5
+{ [%eval -1.13] } 25. Qc5 { [%eval -1.09] } 25... c6 { [%eval -0.9] } 26. Qd6+
+{ [%eval -1.01] } 26... Kc8 $6 { [%eval -0.14] } 27. b5 { [%eval -0.25] } 27...
+Re6 $6 { [%eval 0.56] } 28. Qd7+ $4 { [%eval -17.38] } 28... Kxd7
+{ [%eval -16.81] } 0-1

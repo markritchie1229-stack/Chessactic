@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/uEANSe7f"]
+[Date "????.??.??"]
+[Round "?"]
+[White "dknight50"]
+[Black "hiralda"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:52:00"]
+[WhiteElo "988"]
+[BlackElo "1079"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+27"]
+[ECO "D11"]
+[Opening "Slav Defense: Modern Line"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.12] } 1... d5 { [%eval 0.14] } 2. c4 { [%eval 0.13] } 2... c6
+{ [%eval 0.25] } 3. Nf3 { [%eval 0.27] } 3... e6 { [%eval 0.37] } 4. e3
+{ [%eval 0.22] } 4... a6 { [%eval 0.43] } 5. cxd5 { [%eval 0.03] } 5... cxd5
+{ [%eval 0.02] } 6. Bd3 { [%eval 0.12] } 6... b5 { [%eval 0.43] } 7. O-O
+{ [%eval 0.36] } 7... Be7 { [%eval 0.31] } 8. Ne5 { [%eval 0.59] } 8... Qd6
+{ [%eval 0.83] } 9. Qh5 { [%eval 0.43] } 9... g6 { [%eval 0.47] } 10. Qf3 $6
+{ [%eval -0.33] } 10... Nf6 $2 { [%eval 0.96] } 11. Nc3 $6 { [%eval 0.09] }
+11... Nc6 $6 { [%eval 0.68] } 12. Qd1 $2 { [%eval -1.21] } 12... Nxe5
+{ [%eval -1.08] } 13. dxe5 { [%eval -1.1] } 13... Qxe5 { [%eval -1.11] } 14.
+Qc2 $6 { [%eval -1.74] } 14... Bb7 { [%eval -1.59] } 15. f3 { [%eval -1.69] }
+15... Rc8 { [%eval -1.72] } 16. e4 $4 { [%eval -4.79] } 16... d4
+{ [%eval -4.62] } 17. f4 $2 { [%eval -5.62] } 17... Qc5 { [%eval -5.54] } 18.
+e5 $2 { [%eval -6.74] } 18... dxc3+ { [%eval -6.5] } 19. Qf2 $4
+{ [%eval -10.96] } 19... Ng4 { [%eval -10.78] } 20. Qxc5 { [%eval -10.5] }
+20... Rxc5 $4 { [%eval -6.26] } 21. Re1 $2 { [%eval -8.66] } 21... cxb2
+{ [%eval -8.84] } 22. Bxb2 { [%eval -8.77] } 22... Rc8 $2 { [%eval -6.13] } 23.
+h3 $2 { [%eval -8.62] } 23... Bc5+ { [%eval -8.4] } 24. Kh1 $2
+{ [%eval -14.06] } 24... Nf2+ { [%eval -13.73] } 25. Kg1 { [%eval -16.07] }
+25... Nxd3+ { [%eval -15.7] } 26. Kf1 { [%eval -16.2] } 0-1

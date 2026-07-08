@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/8MgXGEVP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Devls"]
+[Black "Emil1000"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:55:20"]
+[WhiteElo "1094"]
+[BlackElo "1222"]
+[WhiteRatingDiff "+22"]
+[BlackRatingDiff "-17"]
+[ECO "C42"]
+[Opening "Russian Game: Cochrane Gambit"]
+[TimeControl "960+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.13] } 1... e5 { [%eval 0.21] } 2. Nf3 { [%eval 0.22] } 2...
+Nf6 { [%eval 0.48] } 3. Nxe5 { [%eval 0.4] } 3... d6 { [%eval 0.5] } 4. Nxf7 $6
+{ [%eval -0.17] } 4... Kxf7 { [%eval -0.17] } 5. Bc4+ $6 { [%eval -0.91] } 5...
+Ke8 $2 { [%eval 0.16] } 6. d3 { [%eval -0.3] } 6... Bg4 { [%eval 0.18] } 7. Qd2
+{ [%eval -0.28] } 7... Nc6 { [%eval -0.23] } 8. O-O { [%eval -0.18] } 8... Be7
+{ [%eval -0.12] } 9. h3 { [%eval -0.24] } 9... Bh5 { [%eval -0.16] } 10. Qf4 $6
+{ [%eval -1.04] } 10... Qd7 $6 { [%eval -0.5] } 11. b3 $2 { [%eval -1.64] }
+11... Be2 $2 { [%eval -0.23] } 12. Re1 { [%eval -0.26] } 12... Bh5
+{ [%eval -0.13] } 13. Bb2 { [%eval -0.19] } 13... Qg4 $4 { [%eval 13.58] } 14.
+hxg4 { [%eval 13.1] } 14... Nxg4 { [%eval 15.78] } 15. e5 { [%eval 11.3] }
+15... dxe5 { [%eval 11.62] } 16. Bxe5 { [%eval 10.59] } 16... Bb4
+{ [%eval 18.36] } 17. Nc3 { [%eval 14.47] } 17... Bxc3 $6 { [%eval #12] } 18.
+Bxc3+ { [%eval #13] } 18... Kd8 { [%eval #14] } 19. Bxg7 { [%eval 31.7] } 19...
+Re8 $6 { [%eval #7] } 20. Qg5+ $6 { [%eval 28.12] } 20... Ne7 { [%eval 30.75] }
+21. Qxh5 { [%eval 28.21] } 1-0

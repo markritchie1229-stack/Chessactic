@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/hukYL1YW"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sukalov"]
+[Black "Marinhoshogun"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:56:37"]
+[WhiteElo "1311"]
+[BlackElo "1216"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.23] } 1... d5 { [%eval 0.53] } 2. exd5 { [%eval 0.5] } 2...
+Qxd5 { [%eval 0.61] } 3. c4 $6 { [%eval -0.3] } 3... Qe6+ $6 { [%eval 0.67] }
+4. Be2 { [%eval 0.71] } 4... Nc6 $6 { [%eval 1.33] } 5. d4 { [%eval 1.29] }
+5... Na5 $2 { [%eval 3.81] } 6. Na3 $2 { [%eval 1.51] } 6... Qc6 $2
+{ [%eval 3.25] } 7. b4 { [%eval 3.29] } 7... Qxg2 $6 { [%eval 3.86] } 8. Bf3
+{ [%eval 3.62] } 8... Qg6 { [%eval 3.52] } 9. bxa5 { [%eval 3.33] } 9... e6 $2
+{ [%eval 5.92] } 10. Nb5 { [%eval 5.61] } 10... Kd8 $6 { [%eval 6.41] } 11. Bf4
+{ [%eval 6.21] } 11... c6 { [%eval 6.2] } 12. Nc7 $6 { [%eval 5.26] } 12... Rb8
+$2 { [%eval 6.3] } 13. Nxe6+ $4 { [%eval 2.19] } 13... Qxe6+ { [%eval 1.72] }
+14. Ne2 { [%eval 1.56] } 14... Bd6 $6 { [%eval 2.19] } 15. d5 { [%eval 1.89] }
+15... cxd5 { [%eval 2.16] } 16. cxd5 $2 { [%eval 0.54] } 16... Qf6
+{ [%eval 0.59] } 17. Bxd6 { [%eval 0.57] } 17... Qxd6 { [%eval 0.73] } 18. O-O
+{ [%eval 0.68] } 18... Nh6 $6 { [%eval 1.45] } 19. Nc3 $2 { [%eval 0.04] }
+19... a6 $2 { [%eval 2.24] } 20. Ne4 { [%eval 2.0] } 20... Qg6+ { [%eval 2.1] }
+21. Kh1 { [%eval 1.74] } 21... Ng4 $2 { [%eval 3.28] } 22. Rg1 $2
+{ [%eval 0.29] } 22... h5 $2 { [%eval 1.66] } 23. h3 $4 { [%eval -1.95] } 23...
+Bf5 { [%eval -1.72] } 24. hxg4 $4 { [%eval -8.21] } 24... Bxe4 $2
+{ [%eval -6.41] } 25. Bxe4 { [%eval -4.93] } 25... Qxe4+ $4 { [%eval -1.51] }
+26. Kh2 $4 { [%eval #-2] } 26... hxg4+ { [%eval #-1] } 27. Kg3 { [%eval #-1] }
+27... Rh3# 0-1

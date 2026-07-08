@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/PuGsXB3A"]
+[Date "????.??.??"]
+[Round "?"]
+[White "skolem"]
+[Black "Suli_Diamond"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:13:45"]
+[WhiteElo "2012"]
+[BlackElo "1860"]
+[WhiteRatingDiff "-14"]
+[BlackRatingDiff "+61"]
+[ECO "C36"]
+[Opening "King's Gambit Accepted: Modern Defense #2"]
+[TimeControl "480+8"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.28] } 2. f4 $6 { [%eval -0.4] } 2...
+d5 { [%eval -0.07] } 3. exd5 { [%eval -0.18] } 3... exf4 { [%eval -0.24] } 4.
+Nf3 { [%eval -0.39] } 4... c6 { [%eval 0.09] } 5. d4 { [%eval 0.15] } 5... g5
+$6 { [%eval 1.07] } 6. Bd3 { [%eval 0.63] } 6... Qxd5 $2 { [%eval 1.76] } 7.
+O-O $2 { [%eval 0.53] } 7... Bg4 $6 { [%eval 1.31] } 8. c4 $2 { [%eval -0.58] }
+8... Bxf3 { [%eval -0.43] } 9. Qxf3 $2 { [%eval -1.55] } 9... Qxd4+
+{ [%eval -1.46] } 10. Kh1 { [%eval -1.6] } 10... Be7 $2 { [%eval 0.02] } 11.
+Bd2 { [%eval 0.02] } 11... Nf6 $2 { [%eval 1.48] } 12. Bc3 { [%eval 1.29] }
+12... Qd6 { [%eval 1.48] } 13. c5 $2 { [%eval -0.55] } 13... Qxc5 $6
+{ [%eval 0.02] } 14. Re1 { [%eval -0.13] } 14... Nbd7 { [%eval 0.04] } 15. Nd2
+{ [%eval -0.15] } 15... O-O-O { [%eval -0.39] } 16. a4 $2 { [%eval -2.32] }
+16... Rhe8 { [%eval -2.12] } 17. a5 { [%eval -2.5] } 17... Qd5 $6
+{ [%eval -1.83] } 18. Qf1 $6 { [%eval -2.42] } 18... Ng4 { [%eval -2.08] } 19.
+a6 $4 { [%eval -7.45] } 19... b6 $4 { [%eval -1.61] } 20. Nc4 $4
+{ [%eval -8.0] } 20... Bc5 $2 { [%eval -5.85] } 21. h3 $4 { [%eval -13.42] }
+21... Nf2+ { [%eval -12.81] } 22. Kh2 { [%eval -15.96] } 22... Qxd3 $2
+{ [%eval -7.94] } 0-1

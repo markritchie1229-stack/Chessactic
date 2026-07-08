@@ -1,0 +1,38 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/rCvGsDGv"]
+[Site "https://lichess.org/qJh9PJpZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "farreldu60"]
+[Black "ArchibaldTuttle"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "04:35:34"]
+[WhiteElo "1741"]
+[BlackElo "1704"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... d5 { [%eval 0.54] } 2. exd5 { [%eval 0.72] } 2...
+Qxd5 { [%eval 0.68] } 3. Nc3 { [%eval 0.54] } 3... Qd8 { [%eval 0.53] } 4. Bc4
+{ [%eval 0.37] } 4... Nf6 { [%eval 0.53] } 5. d3 { [%eval 0.08] } 5... a6
+{ [%eval 0.14] } 6. a3 { [%eval -0.12] } 6... b5 { [%eval 0.18] } 7. Ba2
+{ [%eval -0.12] } 7... Bb7 { [%eval -0.04] } 8. Nf3 { [%eval -0.04] } 8... e6
+{ [%eval -0.05] } 9. Bf4 { [%eval -0.33] } 9... Bd6 { [%eval -0.31] } 10. Bxd6
+{ [%eval -0.34] } 10... cxd6 { [%eval -0.32] } 11. Qe2 { [%eval -0.37] } 11...
+O-O { [%eval -0.41] } 12. O-O-O $6 { [%eval -1.17] } 12... Nc6
+{ [%eval -1.04] } 13. Rhg1 { [%eval -1.47] } 13... Qa5 $6 { [%eval -0.65] } 14.
+Qd2 $6 { [%eval -1.44] } 14... Rfc8 $6 { [%eval -0.7] } 15. Qe2 $2
+{ [%eval -2.24] } 15... b4 { [%eval -2.02] } 16. axb4 $2 { [%eval -4.47] }
+16... Nxb4 { [%eval -4.5] } 17. Bb3 $2 { [%eval -6.35] } 17... Rc7 $4
+{ [%eval -1.6] } 18. Kd2 { [%eval -1.66] } 18... Rac8 { [%eval -1.82] } 19. Ra1
+{ [%eval -1.74] } 19... Qb6 { [%eval -1.47] } 20. Rgc1 { [%eval -1.55] } 20...
+d5 $6 { [%eval -0.75] } 21. Kd1 $2 { [%eval -1.86] } 21... Nd7 $6
+{ [%eval -1.13] } 22. Na4 { [%eval -1.31] } 22... Qa7 $6 { [%eval -0.35] } 23.
+Nc3 $2 { [%eval -1.41] } 23... Nc5 $2 { [%eval 0.69] } 24. Nb5 { [%eval 0.7] }
+24... Qb6 { [%eval 1.04] } 25. Nxc7 { [%eval 0.84] } 25... Rxc7
+{ [%eval 0.89] } 26. Nd4 $6 { [%eval 0.12] } 26... e5 $2 { [%eval 2.28] } 27.
+Qxe5 { [%eval 2.16] } 27... Nxb3 $4 { [%eval #1] } 1-0

@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/tNByQuLv"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kenpachii"]
+[Black "dharmabum_v"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:50:06"]
+[WhiteElo "1571"]
+[BlackElo "1494"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+56"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit #2"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.2] } 1... c5 { [%eval 0.28] } 2. d4 { [%eval 0.15] } 2... cxd4
+{ [%eval 0.27] } 3. Qxd4 { [%eval 0.08] } 3... Nc6 { [%eval 0.11] } 4. Qd5 $6
+{ [%eval -0.48] } 4... Nf6 { [%eval -0.45] } 5. Qf5 $2 { [%eval -2.3] } 5... g6
+$2 { [%eval -1.02] } 6. Qf4 { [%eval -1.25] } 6... Bg7 $6 { [%eval -0.56] } 7.
+Bb5 $2 { [%eval -3.5] } 7... Qa5+ { [%eval -3.15] } 8. Nc3 { [%eval -3.62] }
+8... Nh5 $4 { [%eval -0.32] } 9. Qd2 { [%eval -0.33] } 9... O-O
+{ [%eval -0.25] } 10. Bxc6 $2 { [%eval -1.38] } 10... bxc6 { [%eval -1.22] }
+11. Nf3 { [%eval -1.29] } 11... Bb7 $6 { [%eval -0.73] } 12. O-O
+{ [%eval -0.88] } 12... d5 { [%eval -0.83] } 13. exd5 { [%eval -1.27] } 13...
+Rfd8 $6 { [%eval -0.4] } 14. Qe3 $2 { [%eval -1.45] } 14... cxd5
+{ [%eval -1.21] } 15. Qxe7 { [%eval -1.29] } 15... Rab8 { [%eval -0.64] } 16.
+Rd1 $6 { [%eval -1.62] } 16... d4 { [%eval -1.87] } 17. Ng5 $4
+{ [%eval -6.89] } 17... Qf5 $4 { [%eval -3.27] } 18. Nce4 { [%eval -3.75] }
+18... Re8 { [%eval -3.46] } 19. Qd6 $2 { [%eval -5.48] } 19... Bxe4
+{ [%eval -5.36] } 20. Nxe4 { [%eval -5.25] } 20... Qxe4 { [%eval -5.1] } 21. c4
+$4 { [%eval #-2] } 21... Qe1+ { [%eval #-1] } 0-1

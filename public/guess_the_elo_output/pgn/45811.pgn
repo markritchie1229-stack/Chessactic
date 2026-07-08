@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/FoQrSELg"]
+[Date "????.??.??"]
+[Round "?"]
+[White "RichardRJArnold"]
+[Black "perfectto"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:01:03"]
+[WhiteElo "1515"]
+[BlackElo "1518"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "C53"]
+[Opening "Italian Game: Classical Variation, Giuoco Pianissimo"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... e5 { [%eval 0.26] } 2. Nf3 { [%eval 0.22] } 2...
+Nc6 { [%eval 0.29] } 3. Bc4 { [%eval 0.12] } 3... Bc5 { [%eval 0.26] } 4. c3
+{ [%eval 0.12] } 4... Nf6 { [%eval 0.27] } 5. d3 { [%eval 0.27] } 5... O-O
+{ [%eval 0.38] } 6. O-O { [%eval 0.35] } 6... a6 { [%eval 0.19] } 7. a3
+{ [%eval 0.02] } 7... b5 { [%eval 0.03] } 8. Ba2 { [%eval 0.0] } 8... h6 $6
+{ [%eval 0.96] } 9. b4 $6 { [%eval 0.0] } 9... Ba7 { [%eval 0.12] } 10. Re1
+{ [%eval 0.12] } 10... Re8 { [%eval 0.23] } 11. h3 { [%eval 0.09] } 11... d6
+{ [%eval 0.03] } 12. Be3 { [%eval -0.12] } 12... Bxe3 { [%eval 0.0] } 13. Rxe3
+{ [%eval -0.22] } 13... Ne7 { [%eval -0.02] } 14. Nh2 $6 { [%eval -0.52] }
+14... c5 { [%eval -0.28] } 15. Nd2 { [%eval -0.38] } 15... c4 $2
+{ [%eval 0.89] } 16. dxc4 { [%eval 0.74] } 16... bxc4 $6 { [%eval 1.64] } 17.
+Bxc4 $6 { [%eval 0.88] } 17... Bb7 $2 { [%eval 1.91] } 18. Qb3 $2
+{ [%eval 0.86] } 18... d5 { [%eval 0.75] } 19. exd5 { [%eval 0.5] } 19... Nexd5
+{ [%eval 0.77] } 20. Bxd5 $2 { [%eval -0.39] } 20... Bxd5 $2 { [%eval 1.49] }
+21. Qc2 { [%eval 1.24] } 21... Nh5 { [%eval 1.27] } 22. Rae1 { [%eval 1.37] }
+22... f6 { [%eval 1.62] } 23. Ndf3 $2 { [%eval 0.58] } 23... Nf4
+{ [%eval 0.65] } 24. c4 { [%eval 0.56] } 24... Qc8 { [%eval 0.52] } 25. c5 $6
+{ [%eval -0.02] } 25... Bxf3 $2 { [%eval 1.77] } 26. Nxf3 { [%eval 1.67] }
+26... Rd8 { [%eval 1.87] } 27. Kh2 { [%eval 1.62] } 27... g5 { [%eval 2.08] }
+28. Ng1 { [%eval 1.6] } 28... g4 $4 { [%eval 5.7] } 29. g3 $2 { [%eval 4.5] }
+29... Nxh3 $4 { [%eval #10] } 30. Qg6+ { [%eval #9] } 30... Kf8 { [%eval #9] }
+31. Qxf6+ { [%eval #8] } 31... Ke8 { [%eval #4] } 32. Rxe5+ { [%eval #3] }
+32... Kd7 { [%eval #1] } 33. Qd6# 1-0

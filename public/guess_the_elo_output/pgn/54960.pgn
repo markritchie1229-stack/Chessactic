@@ -1,0 +1,41 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/NOGar6x4"]
+[Date "????.??.??"]
+[Round "?"]
+[White "LeeDeMaster"]
+[Black "MrAces"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "10:53:14"]
+[WhiteElo "1545"]
+[BlackElo "1761"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+5"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.42] } 1... d5 { [%eval 0.71] } 2. exd5 { [%eval 0.68] } 2...
+Qxd5 { [%eval 0.79] } 3. d3 $6 { [%eval 0.13] } 3... e5 { [%eval 0.11] } 4. c3
+{ [%eval -0.31] } 4... Nc6 { [%eval -0.49] } 5. h3 $6 { [%eval -1.26] } 5...
+Nf6 $6 { [%eval -0.64] } 6. Nf3 { [%eval -1.02] } 6... Bf5 { [%eval -1.02] } 7.
+Be2 { [%eval -1.02] } 7... O-O-O { [%eval -0.95] } 8. Nbd2 $6 { [%eval -1.53] }
+8... Bxd3 { [%eval -1.39] } 9. Bxd3 { [%eval -1.47] } 9... Qxd3
+{ [%eval -1.48] } 10. a3 $4 { [%eval -4.88] } 10... e4 { [%eval -4.87] } 11.
+Ng5 $2 { [%eval -7.5] } 11... e3 { [%eval -7.22] } 12. fxe3 { [%eval -7.64] }
+12... Qxe3+ { [%eval -7.56] } 13. Qe2 { [%eval -7.15] } 13... Qxg5
+{ [%eval -7.48] } 14. O-O { [%eval -7.79] } 14... Bc5+ { [%eval -7.58] } 15.
+Kh1 { [%eval -7.48] } 15... Qg3 $6 { [%eval -6.56] } 16. Ne4 $2
+{ [%eval -7.63] } 16... Nxe4 $2 { [%eval -5.83] } 17. Qxe4 { [%eval -5.7] }
+17... Bd6 { [%eval -5.68] } 18. Bf4 { [%eval -5.6] } 18... Bxf4
+{ [%eval -5.63] } 19. Rxf4 { [%eval -5.63] } 19... Rd2 $6 { [%eval -4.8] } 20.
+Rxf7 { [%eval -5.21] } 20... Rxb2 { [%eval -5.22] } 21. Raf1 { [%eval -5.37] }
+21... Qd6 $2 { [%eval -4.29] } 22. Qg4+ { [%eval -4.45] } 22... Kd8 $4
+{ [%eval 1.86] } 23. Qxg7 $4 { [%eval -3.03] } 23... Re8 { [%eval -3.13] } 24.
+Qg5+ $6 { [%eval -4.01] } 24... Ne7 $6 { [%eval -3.02] } 25. Rf8 $2
+{ [%eval -4.66] } 25... Rxf8 { [%eval -4.45] } 26. Rxf8+ { [%eval -4.64] }
+26... Kd7 { [%eval -4.53] } 27. Qg4+ { [%eval -4.37] } 27... Kc6
+{ [%eval -4.38] } 28. Qf3+ $2 { [%eval -6.31] } 28... Nd5 { [%eval -6.03] } 29.
+Qf5 $4 { [%eval -9.98] } 29... Nxc3 $4 { [%eval -6.29] } 30. g4 $4
+{ [%eval #-1] } 30... Qh2# 0-1

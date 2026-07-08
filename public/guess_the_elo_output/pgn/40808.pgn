@@ -1,0 +1,35 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/RmqPiVP0"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Cassiterite"]
+[Black "ErstazPlanet"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:33:40"]
+[WhiteElo "1568"]
+[BlackElo "1489"]
+[WhiteRatingDiff "+8"]
+[BlackRatingDiff "-8"]
+[ECO "A11"]
+[Opening "English Opening: Caro-Kann Defensive System"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.0] } 1... c6 { [%eval 0.4] } 2. Nc3 { [%eval 0.17] } 2... d5
+{ [%eval 0.22] } 3. cxd5 { [%eval 0.15] } 3... cxd5 { [%eval 0.14] } 4. d4
+{ [%eval 0.16] } 4... Nf6 { [%eval 0.39] } 5. g3 { [%eval 0.0] } 5... g6
+{ [%eval 0.17] } 6. Bg2 { [%eval 0.09] } 6... Bg7 { [%eval 0.21] } 7. Nf3
+{ [%eval 0.19] } 7... O-O { [%eval 0.29] } 8. e3 { [%eval -0.12] } 8... Nc6
+{ [%eval -0.15] } 9. O-O { [%eval -0.01] } 9... Bd7 { [%eval 0.14] } 10. b3
+{ [%eval 0.26] } 10... Qc7 { [%eval 0.39] } 11. Ba3 { [%eval 0.18] } 11... Rfe8
+{ [%eval 0.24] } 12. Ne5 $6 { [%eval -0.72] } 12... Nxe5 { [%eval -0.64] } 13.
+dxe5 { [%eval -0.74] } 13... Qxe5 { [%eval -0.66] } 14. Nxd5 $6
+{ [%eval -1.61] } 14... Nxd5 { [%eval -1.57] } 15. Bxd5 { [%eval -1.54] } 15...
+Qxa1 { [%eval -1.68] } 16. Bxf7+ $4 { [%eval -5.22] } 16... Kxf7
+{ [%eval -4.99] } 17. Qd5+ $4 { [%eval -10.17] } 17... e6 $4 { [%eval 2.54] }
+18. Qxd7+ { [%eval 2.39] } 18... Re7 $4 { [%eval 12.42] } 19. Qxe7+
+{ [%eval 12.31] } 19... Kg8 { [%eval 12.17] } 20. Rxa1 { [%eval 11.98] } 20...
+Bxa1 { [%eval 11.67] } 21. Qxe6+ { [%eval 11.14] } 21... Kg7 { [%eval 12.17] }
+22. Qe7+ { [%eval 11.61] } 22... Kh6 { [%eval 20.18] } 23. Qxb7
+{ [%eval 16.97] } 1-0

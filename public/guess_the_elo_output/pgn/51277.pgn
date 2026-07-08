@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/RDZUg3ar"]
+[Date "????.??.??"]
+[Round "?"]
+[White "termi"]
+[Black "Ogoagaugu1990"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "05:32:17"]
+[WhiteElo "1817"]
+[BlackElo "1802"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+11"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Two Knights Attack"]
+[TimeControl "480+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... c6 { [%eval 0.45] } 2. Nf3 { [%eval 0.48] } 2... d5
+{ [%eval 0.52] } 3. Nc3 { [%eval 0.43] } 3... dxe4 { [%eval 0.37] } 4. Nxe4
+{ [%eval 0.47] } 4... Bg4 { [%eval 0.64] } 5. Bc4 { [%eval 0.37] } 5... e6
+{ [%eval 0.32] } 6. h3 { [%eval 0.34] } 6... Bxf3 { [%eval 0.52] } 7. Qxf3
+{ [%eval 0.52] } 7... Nd7 { [%eval 0.52] } 8. d3 { [%eval 0.35] } 8... Ngf6
+{ [%eval 0.47] } 9. Bg5 { [%eval 0.02] } 9... Be7 { [%eval 0.03] } 10. O-O
+{ [%eval 0.0] } 10... O-O { [%eval 0.23] } 11. a4 { [%eval 0.03] } 11... Nxe4
+{ [%eval -0.02] } 12. Bxe7 { [%eval -0.06] } 12... Qxe7 { [%eval 0.06] } 13.
+Qxe4 { [%eval 0.02] } 13... g6 { [%eval 0.05] } 14. Rfe1 { [%eval 0.0] } 14...
+Nc5 { [%eval 0.19] } 15. Qf3 { [%eval 0.08] } 15... a6 { [%eval 0.39] } 16.
+Rad1 $2 { [%eval -0.81] } 16... Rac8 $2 { [%eval 0.39] } 17. d4 $2
+{ [%eval -0.63] } 17... Nxa4 { [%eval -0.62] } 18. b3 { [%eval -0.87] } 18...
+Nb2 { [%eval -0.84] } 19. Rd2 { [%eval -1.02] } 19... Nxc4 { [%eval -0.92] }
+20. bxc4 { [%eval -1.03] } 20... Qb4 { [%eval -1.22] } 21. Qd3
+{ [%eval -1.23] } 21... Rfd8 { [%eval -0.79] } 0-1

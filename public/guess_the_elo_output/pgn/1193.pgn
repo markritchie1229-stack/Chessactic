@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/FUPPYxfu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "fafaf_1700"]
+[Black "BangBangu"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:15:10"]
+[WhiteElo "1704"]
+[BlackElo "1880"]
+[WhiteRatingDiff "-5"]
+[BlackRatingDiff "+6"]
+[ECO "C40"]
+[Opening "Elephant Gambit: Paulsen Countergambit"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.22] } 1... e5 { [%eval 0.31] } 2. Nf3 { [%eval 0.44] } 2... d5
+$6 { [%eval 0.98] } 3. exd5 { [%eval 0.62] } 3... e4 { [%eval 0.75] } 4. Qe2
+{ [%eval 0.85] } 4... Qxd5 $6 { [%eval 1.52] } 5. d3 $6 { [%eval 0.79] } 5...
+Qd8 $6 { [%eval 1.49] } 6. Qxe4+ $6 { [%eval 0.93] } 6... Be7 { [%eval 0.91] }
+7. Bg5 { [%eval 0.52] } 7... Nf6 $2 { [%eval 2.0] } 8. Bxf6 { [%eval 1.92] }
+8... gxf6 { [%eval 1.92] } 9. Nc3 { [%eval 1.87] } 9... Nc6 { [%eval 2.0] } 10.
+O-O-O { [%eval 1.99] } 10... Be6 $6 { [%eval 2.8] } 11. a3 $6 { [%eval 2.2] }
+11... Qd7 { [%eval 2.51] } 12. d4 { [%eval 2.49] } 12... Bxa3 $4
+{ [%eval 6.36] } 13. bxa3 { [%eval 5.99] } 13... Qe7 { [%eval 6.35] } 14. d5 $2
+{ [%eval 4.96] } 14... Qxa3+ { [%eval 4.96] } 15. Kd2 { [%eval 4.37] } 15...
+O-O-O { [%eval 4.61] } 16. Ke1 $4 { [%eval -7.45] } 16... Bxd5 $4
+{ [%eval -0.9] } 17. Nxd5 { [%eval -0.72] } 17... Rhe8 { [%eval -0.83] } 18.
+Ne5 $4 { [%eval -8.34] } 18... Rxe5 { [%eval -8.17] } 19. Qxe5
+{ [%eval -8.14] } 19... Nxe5 { [%eval -6.56] } 20. Ne3 $2 { [%eval -8.34] }
+20... Qc3+ { [%eval -8.12] } 21. Ke2 { [%eval -7.81] } 21... Rxd1
+{ [%eval -7.12] } 22. Nxd1 $2 { [%eval -9.44] } 22... Ng4 $4 { [%eval 9.51] }
+23. f3 $4 { [%eval -7.58] } 23... Qxc2+ { [%eval -7.31] } 0-1

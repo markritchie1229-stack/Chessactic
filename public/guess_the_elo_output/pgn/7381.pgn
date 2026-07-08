@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/sDS5TR9k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Waffy"]
+[Black "masudxray"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "10:20:26"]
+[WhiteElo "1882"]
+[BlackElo "1725"]
+[WhiteRatingDiff "+21"]
+[BlackRatingDiff "-6"]
+[ECO "C40"]
+[Opening "King's Pawn Game: McConnell Defense"]
+[TimeControl "420+2"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.2] } 1... e5 { [%eval 0.37] } 2. Nf3 { [%eval 0.31] } 2... Qf6
+$6 { [%eval 1.09] } 3. Bc4 { [%eval 0.94] } 3... Bc5 { [%eval 1.02] } 4. d3 $6
+{ [%eval 0.48] } 4... h6 { [%eval 0.5] } 5. Nc3 { [%eval 0.33] } 5... Ne7
+{ [%eval 0.42] } 6. h3 { [%eval 0.07] } 6... a6 { [%eval 0.29] } 7. Be3
+{ [%eval 0.17] } 7... d6 { [%eval 0.25] } 8. Bxc5 { [%eval 0.07] } 8... dxc5
+{ [%eval 0.16] } 9. Nd5 { [%eval 0.13] } 9... Nxd5 { [%eval 0.22] } 10. Bxd5
+{ [%eval 0.14] } 10... Nc6 { [%eval 0.43] } 11. c3 $6 { [%eval -0.31] } 11...
+Bd7 { [%eval 0.0] } 12. Qb3 { [%eval -0.17] } 12... g5 $2 { [%eval 1.73] } 13.
+Qxb7 { [%eval 1.48] } 13... Rb8 $2 { [%eval 2.71] } 14. Qxc7 { [%eval 2.87] }
+14... Rxb2 { [%eval 3.09] } 15. Bxc6 { [%eval 2.99] } 15... Bxc6
+{ [%eval 3.12] } 16. Qxe5+ $2 { [%eval 1.92] } 16... Qxe5 { [%eval 1.91] } 17.
+Nxe5 { [%eval 2.14] } 17... Bb7 $2 { [%eval 4.67] } 18. O-O $2 { [%eval 2.87] }
+18... f6 $2 { [%eval 5.17] } 19. Nc4 { [%eval 5.09] } 19... h5 $4
+{ [%eval 9.22] } 20. Nxb2 { [%eval 9.06] } 20... g4 { [%eval 9.39] } 21. Kh2
+{ [%eval 9.22] } 21... gxh3 { [%eval 9.71] } 22. gxh3 { [%eval 9.47] } 22...
+Bc8 $6 { [%eval 10.39] } 23. Rg1 { [%eval 10.18] } 23... f5 { [%eval 10.49] }
+24. f4 { [%eval 10.16] } 24... fxe4 { [%eval 10.93] } 25. dxe4
+{ [%eval 10.41] } 25... Rf8 { [%eval 11.95] } 26. f5 { [%eval 11.24] } 26...
+Bb7 { [%eval 13.87] } 27. Rae1 { [%eval 10.72] } 27... Rg8 $6 { [%eval #23] }
+28. Rxg8+ { [%eval 30.17] } 1-0

@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/Sabpyhb6"]
+[Date "????.??.??"]
+[Round "?"]
+[White "michal3141"]
+[Black "dranocrepus"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "12:22:57"]
+[WhiteElo "1980"]
+[BlackElo "1775"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+16"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Kveinis Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... c5 { [%eval 0.25] } 2. Nf3 { [%eval 0.27] } 2... e6
+{ [%eval 0.36] } 3. d4 { [%eval 0.27] } 3... cxd4 { [%eval 0.26] } 4. Nxd4
+{ [%eval 0.09] } 4... Qb6 { [%eval 0.49] } 5. Nc3 { [%eval 0.08] } 5... Bc5
+{ [%eval 0.08] } 6. Be3 { [%eval 0.08] } 6... Nc6 { [%eval 0.08] } 7. Na4
+{ [%eval 0.08] } 7... Qa5+ { [%eval 0.08] } 8. c3 { [%eval 0.07] } 8... Bxd4
+{ [%eval 0.08] } 9. Bxd4 { [%eval 0.0] } 9... Nxd4 { [%eval 0.15] } 10. Qxd4
+{ [%eval 0.0] } 10... e5 { [%eval 0.12] } 11. Qb4 { [%eval 0.06] } 11... Qxb4
+{ [%eval 0.14] } 12. cxb4 { [%eval 0.13] } 12... Nf6 { [%eval 0.14] } 13. Nc5
+$2 { [%eval -1.04] } 13... d6 { [%eval -0.89] } 14. Nd3 { [%eval -1.06] } 14...
+Nxe4 { [%eval -0.95] } 15. f3 { [%eval -1.43] } 15... Nf6 { [%eval -1.38] } 16.
+O-O-O { [%eval -1.56] } 16... Be6 { [%eval -1.51] } 17. Kb1 { [%eval -1.78] }
+17... Rc8 { [%eval -1.69] } 18. b5 { [%eval -2.01] } 18... O-O
+{ [%eval -1.59] } 19. Nb4 { [%eval -1.6] } 19... d5 { [%eval -1.6] } 20. h4
+{ [%eval -1.91] } 20... Rc5 $6 { [%eval -1.32] } 21. g4 $6 { [%eval -2.15] }
+21... Rfc8 $2 { [%eval -0.97] } 22. h5 $2 { [%eval -2.04] } 22... Nxg4 $2
+{ [%eval -1.04] } 23. fxg4 { [%eval -0.94] } 23... Bxg4 { [%eval -0.82] } 24.
+Rxd5 $4 { [%eval #-1] } 24... Bf5+ $4 { [%eval 0.66] } 25. Ka1 $4
+{ [%eval #-1] } 25... Rc1# 0-1

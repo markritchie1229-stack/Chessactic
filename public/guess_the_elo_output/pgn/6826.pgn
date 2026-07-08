@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/yD7BuLLn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "seende"]
+[Black "siv1984"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:40:06"]
+[WhiteElo "1707"]
+[BlackElo "1632"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+16"]
+[ECO "C45"]
+[Opening "Scotch Game"]
+[TimeControl "900+5"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.31] } 1... e5 { [%eval 0.34] } 2. Nf3 { [%eval 0.34] } 2...
+Nc6 { [%eval 0.38] } 3. d4 { [%eval -0.06] } 3... exd4 { [%eval 0.03] } 4. Nxd4
+{ [%eval 0.08] } 4... Nxd4 { [%eval 0.48] } 5. Qxd4 { [%eval 0.54] } 5... Qe7
+$6 { [%eval 1.16] } 6. Nc3 { [%eval 1.1] } 6... c6 { [%eval 1.02] } 7. Bd3
+{ [%eval 0.73] } 7... d6 { [%eval 1.2] } 8. O-O { [%eval 0.88] } 8... Nf6
+{ [%eval 1.26] } 9. Re1 $6 { [%eval 0.45] } 9... Qe5 { [%eval 0.6] } 10. Qxe5+
+{ [%eval 0.11] } 10... dxe5 { [%eval 0.17] } 11. b3 { [%eval 0.02] } 11... Bd6
+{ [%eval 0.1] } 12. Bb2 { [%eval 0.0] } 12... O-O { [%eval 0.18] } 13. Rad1
+{ [%eval -0.03] } 13... Be6 $2 { [%eval 1.18] } 14. Nb1 $2 { [%eval -0.05] }
+14... Rad8 { [%eval 0.14] } 15. Nd2 { [%eval 0.08] } 15... Nh5 { [%eval 0.37] }
+16. g3 { [%eval 0.3] } 16... f5 $2 { [%eval 2.45] } 17. Nf3 $2 { [%eval 0.33] }
+17... f4 $6 { [%eval 1.25] } 18. Nxe5 { [%eval 1.0] } 18... fxg3
+{ [%eval 1.11] } 19. hxg3 $2 { [%eval -0.39] } 19... Bc5 { [%eval -0.12] } 20.
+Kg2 $4 { [%eval #-4] } 20... Rxf2+ { [%eval #-3] } 21. Kh1 { [%eval #-3] }
+21... Nxg3+ { [%eval #-2] } 22. Kg1 { [%eval #-2] } 22... Rxc2+ $6
+{ [%eval #-2] } 0-1

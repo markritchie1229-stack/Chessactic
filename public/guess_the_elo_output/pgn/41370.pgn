@@ -1,0 +1,38 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/SOMqIaBM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ERZNICK"]
+[Black "Eletto91"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:56:37"]
+[WhiteElo "1353"]
+[BlackElo "1325"]
+[WhiteRatingDiff "+68"]
+[BlackRatingDiff "-9"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... Nc6 { [%eval 0.35] } 2. d4 { [%eval 0.3] } 2... e5
+{ [%eval 0.79] } 3. d5 { [%eval 0.72] } 3... Na5 { [%eval 1.19] } 4. Bd2
+{ [%eval 0.76] } 4... b6 { [%eval 0.79] } 5. Bxa5 { [%eval 0.4] } 5... bxa5
+{ [%eval 0.38] } 6. Nc3 { [%eval 0.0] } 6... c6 $6 { [%eval 0.66] } 7. Be2 $6
+{ [%eval 0.0] } 7... Bb4 { [%eval 0.1] } 8. Nf3 { [%eval -0.05] } 8... Bxc3+
+{ [%eval 0.37] } 9. bxc3 { [%eval 0.18] } 9... Bb7 $2 { [%eval 1.35] } 10. c4
+$6 { [%eval 0.57] } 10... cxd5 { [%eval 0.54] } 11. cxd5 { [%eval 0.38] } 11...
+Nf6 { [%eval 0.61] } 12. Bd3 { [%eval 0.13] } 12... O-O { [%eval 0.21] } 13.
+O-O { [%eval 0.18] } 13... Rc8 { [%eval 0.62] } 14. Nxe5 { [%eval 0.36] } 14...
+d6 $2 { [%eval 1.73] } 15. Nc4 { [%eval 1.46] } 15... Ba6 $6 { [%eval 1.97] }
+16. Nb2 $2 { [%eval 0.85] } 16... Nxe4 $4 { [%eval 4.33] } 17. Bxa6
+{ [%eval 4.2] } 17... Nc3 { [%eval 4.48] } 18. Qd3 { [%eval 4.39] } 18... Rc5
+{ [%eval 4.52] } 19. Bc4 { [%eval 4.31] } 19... Qf6 { [%eval 4.43] } 20. Rae1
+{ [%eval 4.21] } 20... Nxa2 $2 { [%eval 6.06] } 21. Bxa2 $2 { [%eval 4.44] }
+21... Qxb2 { [%eval 4.38] } 22. Bb3 { [%eval 4.04] } 22... a4 $6
+{ [%eval 4.58] } 23. Bxa4 { [%eval 4.62] } 23... Ra5 { [%eval 4.72] } 24. Bb3
+{ [%eval 4.58] } 24... Rb8 { [%eval 4.99] } 25. Re7 { [%eval 4.89] } 25... Ra1
+$6 { [%eval 5.42] } 26. h3 $6 { [%eval 4.79] } 26... Rxf1+ { [%eval 5.18] } 27.
+Qxf1 { [%eval 5.09] } 27... Qf6 { [%eval 5.22] } 28. Qe1 { [%eval 5.16] } 28...
+Re8 $4 { [%eval #1] } 29. Rxe8# 1-0

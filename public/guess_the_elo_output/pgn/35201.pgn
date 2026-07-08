@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uInPx50u"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Paupara"]
+[Black "CoffeeHouse_Chess"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "14:30:15"]
+[WhiteElo "1402"]
+[BlackElo "1478"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined, Reversed French"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.12] } 1... e5 { [%eval 0.17] } 2. d4 { [%eval 0.14] } 2...
+exd4 { [%eval 0.14] } 3. exd4 { [%eval 0.13] } 3... Nf6 { [%eval 0.12] } 4. Nf3
+{ [%eval 0.15] } 4... Be7 { [%eval 0.32] } 5. Be2 { [%eval 0.03] } 5... h6
+{ [%eval 0.2] } 6. O-O { [%eval 0.17] } 6... O-O { [%eval 0.16] } 7. Be3
+{ [%eval 0.09] } 7... d5 { [%eval 0.14] } 8. Nbd2 { [%eval 0.01] } 8... Bf5
+{ [%eval 0.01] } 9. c4 { [%eval -0.01] } 9... c6 { [%eval -0.07] } 10. cxd5
+{ [%eval -0.11] } 10... Nxd5 { [%eval -0.18] } 11. b3 $6 { [%eval -0.91] }
+11... Nc3 { [%eval -0.82] } 12. Rc1 $4 { [%eval -7.66] } 12... Nxd1
+{ [%eval -7.81] } 13. Rfxd1 $6 { [%eval -8.39] } 13... Nd7 $6 { [%eval -7.55] }
+14. Bc4 $2 { [%eval -8.78] } 14... Nf6 $6 { [%eval -7.83] } 15. Bf4 $2
+{ [%eval -9.08] } 15... Nd5 $6 { [%eval -8.09] } 16. Bxd5 { [%eval -8.11] }
+16... cxd5 { [%eval -7.89] } 17. Ne5 $6 { [%eval -8.64] } 17... Bf6 $6
+{ [%eval -7.89] } 18. a4 $6 { [%eval -8.43] } 18... Bxe5 $2 { [%eval -7.31] }
+19. Bxe5 { [%eval -7.57] } 19... f6 { [%eval -7.41] } 20. Nf3 $2
+{ [%eval -12.93] } 20... fxe5 { [%eval -12.72] } 21. Nxe5 { [%eval -12.69] }
+21... Re8 { [%eval -12.4] } 22. Ng6 { [%eval -17.64] } 22... Bxg6
+{ [%eval -17.11] } 0-1

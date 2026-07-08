@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/QDlrsdfN"]
+[Date "????.??.??"]
+[Round "?"]
+[White "almostnoob"]
+[Black "amiiinn"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "11:28:26"]
+[WhiteElo "2364"]
+[BlackElo "2582"]
+[WhiteRatingDiff "-20"]
+[BlackRatingDiff "+31"]
+[ECO "A48"]
+[Opening "Torre Attack"]
+[TimeControl "300+5"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... Nf6 { [%eval 0.22] } 2. Nf3 { [%eval 0.16] } 2...
+g6 { [%eval 0.5] } 3. Bg5 { [%eval 0.15] } 3... Bg7 { [%eval 0.16] } 4. Nc3
+{ [%eval 0.07] } 4... d5 { [%eval 0.18] } 5. e3 { [%eval 0.13] } 5... O-O
+{ [%eval 0.19] } 6. Be2 { [%eval 0.16] } 6... c5 { [%eval 0.32] } 7. O-O
+{ [%eval -0.05] } 7... Nc6 { [%eval 0.27] } 8. dxc5 { [%eval 0.2] } 8... Bg4 $6
+{ [%eval 1.07] } 9. Bxf6 { [%eval 0.96] } 9... Bxf6 { [%eval 1.0] } 10. Qxd5 $6
+{ [%eval 0.47] } 10... Qa5 $6 { [%eval 1.08] } 11. Qb3 { [%eval 1.04] } 11...
+Qxc5 { [%eval 1.17] } 12. Ne4 { [%eval 1.22] } 12... Qf5 { [%eval 1.21] } 13.
+Nxf6+ { [%eval 1.21] } 13... Qxf6 { [%eval 1.13] } 14. Qxb7 $6 { [%eval 0.3] }
+14... Rab8 { [%eval 0.3] } 15. Qc7 { [%eval 0.04] } 15... Rxb2 { [%eval 0.12] }
+16. h3 { [%eval 0.0] } 16... Rc8 { [%eval 0.0] } 17. Qg3 { [%eval 0.0] } 17...
+Bxf3 { [%eval 0.0] } 18. Bxf3 { [%eval -0.08] } 18... Rxc2 { [%eval -0.21] }
+19. Bxc6 { [%eval -0.36] } 19... R2xc6 { [%eval -0.21] } 20. Rab1
+{ [%eval -0.29] } 20... Rc2 { [%eval -0.22] } 21. Rb8 { [%eval -0.29] } 21...
+Kg7 { [%eval -0.12] } 22. Rxc8 { [%eval -0.11] } 22... Rxc8 { [%eval -0.15] }
+23. Rb1 $6 { [%eval -0.79] } 23... Rc2 { [%eval -0.71] } 24. a4
+{ [%eval -1.05] } 24... Ra2 $6 { [%eval -0.34] } 25. Rb4 { [%eval -0.46] }
+25... a5 { [%eval -0.4] } 26. Rf4 { [%eval -0.8] } 26... Qd6 { [%eval -0.71] }
+27. Qg4 $4 { [%eval -4.93] } 27... Ra1+ { [%eval -4.61] } 28. Kh2
+{ [%eval -4.45] } 28... Rxa4 { [%eval -3.83] } 0-1

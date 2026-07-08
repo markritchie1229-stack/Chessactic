@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/DV8NgC4N"]
+[Date "????.??.??"]
+[Round "?"]
+[White "feb82"]
+[Black "mateomichaszoon"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:13:06"]
+[WhiteElo "1850"]
+[BlackElo "1990"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+7"]
+[ECO "C78"]
+[Opening "Ruy Lopez: Closed Variations, Martinez Variation"]
+[TimeControl "720+10"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.25] } 2. Nf3 { [%eval 0.25] } 2...
+Nc6 { [%eval 0.25] } 3. Bb5 { [%eval 0.18] } 3... a6 { [%eval 0.25] } 4. Ba4
+{ [%eval 0.18] } 4... Nf6 { [%eval 0.29] } 5. O-O { [%eval 0.18] } 5... Be7
+{ [%eval 0.22] } 6. d3 { [%eval 0.23] } 6... b5 { [%eval 0.21] } 7. Bb3
+{ [%eval 0.16] } 7... O-O { [%eval 0.27] } 8. a4 { [%eval 0.19] } 8... b4
+{ [%eval 0.22] } 9. c3 { [%eval -0.15] } 9... Rb8 { [%eval 0.0] } 10. cxb4
+{ [%eval -0.38] } 10... Bxb4 { [%eval -0.43] } 11. Bg5 { [%eval -0.84] } 11...
+h6 { [%eval -0.72] } 12. Bxf6 { [%eval -0.86] } 12... Qxf6 { [%eval -0.9] } 13.
+Nc3 { [%eval -0.93] } 13... Ne7 { [%eval -0.97] } 14. Nd5 { [%eval -0.93] }
+14... Nxd5 { [%eval -0.75] } 15. Bxd5 { [%eval -0.83] } 15... d6
+{ [%eval -0.52] } 16. Qc2 { [%eval -1.0] } 16... Bc5 { [%eval -0.52] } 17. Kh1
+{ [%eval -0.89] } 17... a5 { [%eval -0.77] } 18. Rad1 $6 { [%eval -1.7] } 18...
+Bg4 { [%eval -1.66] } 19. Rb1 $6 { [%eval -2.2] } 19... Bxf3 { [%eval -2.04] }
+20. gxf3 { [%eval -2.12] } 20... Qxf3+ { [%eval -2.12] } 21. Kg1
+{ [%eval -2.2] } 21... Kh8 $6 { [%eval -1.62] } 22. Bc4 $4 { [%eval -5.63] }
+22... f5 $4 { [%eval -2.55] } 23. d4 $4 { [%eval -8.09] } 23... Rf6
+{ [%eval -7.86] } 24. dxc5 $2 { [%eval #-1] } 24... Rg6# 0-1

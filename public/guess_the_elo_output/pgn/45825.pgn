@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/FsCNiR7d"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vovaniuys"]
+[Black "jes1606"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:01:45"]
+[WhiteElo "1760"]
+[BlackElo "1840"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+65"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Three Knights Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... d5 { [%eval 0.12] } 2. c4 { [%eval 0.12] } 2... Nf6
+{ [%eval 0.29] } 3. Nf3 { [%eval 0.2] } 3... e6 { [%eval 0.18] } 4. Nc3
+{ [%eval 0.24] } 4... Nc6 { [%eval 0.5] } 5. e3 { [%eval 0.42] } 5... Bb4
+{ [%eval 0.56] } 6. a3 $6 { [%eval 0.05] } 6... Bxc3+ { [%eval 0.14] } 7. bxc3
+{ [%eval 0.03] } 7... O-O { [%eval 0.07] } 8. Bb2 { [%eval -0.1] } 8... b6
+{ [%eval 0.03] } 9. Bd3 { [%eval 0.06] } 9... Ba6 $6 { [%eval 0.65] } 10. Qe2
+$2 { [%eval -0.62] } 10... Ne7 $6 { [%eval 0.02] } 11. O-O { [%eval 0.17] }
+11... Rc8 { [%eval 0.23] } 12. Ne5 { [%eval -0.07] } 12... c5 { [%eval 0.09] }
+13. cxd5 { [%eval -0.06] } 13... Nexd5 $4 { [%eval 4.92] } 14. c4 $4
+{ [%eval 0.75] } 14... Ne7 { [%eval 0.73] } 15. Rfd1 { [%eval 0.61] } 15...
+cxd4 { [%eval 0.57] } 16. Bxd4 { [%eval 0.72] } 16... Nc6 $6 { [%eval 1.24] }
+17. Nxc6 { [%eval 1.14] } 17... Rxc6 { [%eval 1.31] } 18. Bxf6 $2
+{ [%eval -0.34] } 18... Qxf6 { [%eval -0.18] } 19. Rac1 { [%eval -0.56] } 19...
+Rd8 { [%eval -0.24] } 20. e4 $6 { [%eval -0.85] } 20... g6 { [%eval -0.52] }
+21. f4 $2 { [%eval -2.51] } 21... Qxf4 { [%eval -2.41] } 22. Rf1
+{ [%eval -2.7] } 22... Qc7 { [%eval -2.59] } 23. Qf3 { [%eval -2.56] } 23...
+Rcd6 { [%eval -2.42] } 24. Qf4 { [%eval -2.56] } 24... Qc5+ { [%eval -2.69] }
+25. Kh1 { [%eval -2.68] } 25... R8d7 { [%eval -2.58] } 26. Be2
+{ [%eval -2.68] } 26... Qxa3 { [%eval -2.41] } 27. Ra1 { [%eval -2.58] } 27...
+Qb2 { [%eval -2.49] } 28. Rxa6 $6 { [%eval -3.3] } 28... Qxe2 { [%eval -3.08] }
+29. Rxa7 $4 { [%eval -9.92] } 29... Rxa7 { [%eval -9.52] } 30. Rf2 $2
+{ [%eval #-3] } 30... Rd1+ { [%eval #-2] } 0-1

@@ -1,0 +1,37 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/eb4SoqMn"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elpractico"]
+[Black "DyIan"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "14:21:27"]
+[WhiteElo "2114"]
+[BlackElo "2033"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "A42"]
+[Opening "Sicilian Defense: Hyperaccelerated Fianchetto"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.26] } 1... c5 { [%eval 0.38] } 2. Nf3 { [%eval 0.22] } 2... g6
+{ [%eval 0.62] } 3. d4 { [%eval 0.23] } 3... cxd4 { [%eval 0.33] } 4. Nxd4
+{ [%eval 0.21] } 4... Bg7 { [%eval 0.15] } 5. Nc3 { [%eval 0.16] } 5... Nc6
+{ [%eval 0.17] } 6. Be3 { [%eval 0.04] } 6... Nf6 { [%eval 0.04] } 7. Nxc6
+{ [%eval 0.14] } 7... bxc6 { [%eval 0.12] } 8. e5 { [%eval 0.1] } 8... Ng8
+{ [%eval 0.09] } 9. f4 { [%eval -0.09] } 9... Nh6 { [%eval 0.11] } 10. Bd3
+{ [%eval -0.16] } 10... O-O { [%eval 0.02] } 11. O-O $6 { [%eval -0.5] } 11...
+d6 { [%eval -0.54] } 12. exd6 { [%eval -0.74] } 12... exd6 { [%eval -0.35] }
+13. h3 { [%eval -0.3] } 13... Re8 { [%eval -0.25] } 14. Bf2 { [%eval -0.27] }
+14... Nf5 { [%eval -0.01] } 15. Bxf5 $6 { [%eval -0.77] } 15... Bxf5
+{ [%eval -0.7] } 16. g4 { [%eval -0.68] } 16... Be6 { [%eval -0.65] } 17. Bd4
+{ [%eval -0.66] } 17... Bc4 { [%eval -0.2] } 18. Rf3 { [%eval -0.14] } 18...
+Bf8 { [%eval -0.05] } 19. b3 { [%eval -0.24] } 19... Ba6 { [%eval -0.35] } 20.
+g5 $6 { [%eval -0.87] } 20... d5 { [%eval -0.74] } 21. Na4 $4 { [%eval -7.2] }
+21... Be2 { [%eval -7.17] } 22. Qd2 { [%eval -7.15] } 22... Bxf3
+{ [%eval -6.99] } 23. Bb2 { [%eval -7.38] } 23... Qd7 $2 { [%eval -5.4] } 24.
+Qc3 { [%eval -5.6] } 24... d4 { [%eval -5.37] } 25. Qxf3 { [%eval -5.33] }
+25... Re3 { [%eval -4.93] } 26. Nc5 $4 { [%eval -12.66] } 26... Bxc5
+{ [%eval -11.89] } 0-1

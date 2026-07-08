@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/N3VMf8t5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ferelaviador"]
+[Black "saladito"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "23:54:24"]
+[WhiteElo "1357"]
+[BlackElo "1325"]
+[WhiteRatingDiff "-12"]
+[BlackRatingDiff "+24"]
+[ECO "A00"]
+[Opening "Van Geet Opening: Reversed Nimzowitsch"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval 0.03] } 1... e5 { [%eval 0.08] } 2. Nf3 { [%eval 0.09] } 2...
+Nc6 { [%eval 0.13] } 3. d3 { [%eval -0.27] } 3... Nf6 { [%eval -0.16] } 4. e4
+{ [%eval -0.1] } 4... d5 { [%eval -0.15] } 5. Bd2 { [%eval -0.36] } 5... dxe4
+{ [%eval 0.03] } 6. Nxe4 { [%eval -0.17] } 6... Nxe4 { [%eval 0.04] } 7. dxe4
+{ [%eval -0.03] } 7... Bc5 { [%eval 0.02] } 8. Be2 { [%eval -0.15] } 8... O-O
+{ [%eval -0.07] } 9. O-O { [%eval -0.04] } 9... Bg4 { [%eval 0.06] } 10. a3
+{ [%eval -0.14] } 10... a5 { [%eval 0.0] } 11. b4 $6 { [%eval -0.81] } 11...
+axb4 { [%eval -0.68] } 12. axb4 $6 { [%eval -1.23] } 12... Rxa1
+{ [%eval -1.08] } 13. Qxa1 { [%eval -1.11] } 13... Bxf3 { [%eval -0.96] } 14.
+Bxf3 { [%eval -1.14] } 14... Bxb4 $2 { [%eval 0.11] } 15. Bxb4 { [%eval 0.08] }
+15... Nxb4 { [%eval 0.28] } 16. Qxe5 { [%eval 0.14] } 16... Nxc2
+{ [%eval 0.17] } 17. Qf5 $2 { [%eval -2.12] } 17... g6 $2 { [%eval -1.06] } 18.
+Qg5 $4 { [%eval -15.57] } 18... Qxg5 { [%eval -15.19] } 19. e5
+{ [%eval -16.63] } 19... Nd4 { [%eval -16.32] } 20. Bxb7 { [%eval -16.16] }
+20... c6 { [%eval -15.12] } 21. e6 $6 { [%eval #-10] } 21... fxe6
+{ [%eval -21.94] } 22. Ba6 $6 { [%eval #-8] } 22... Rf3 $6 { [%eval -15.92] }
+23. Bd3 $6 { [%eval #-8] } 23... Rxd3 { [%eval #-7] } 24. g3 { [%eval #-7] }
+24... Qh5 { [%eval #-6] } 25. Kg2 { [%eval #-4] } 25... Qf3+ { [%eval #-3] }
+26. Kg1 { [%eval #-1] } 26... Ne2# 0-1

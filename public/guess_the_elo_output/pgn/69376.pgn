@@ -1,0 +1,41 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ULKEQeBs"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Fashma"]
+[Black "Mistakechess"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "21:43:06"]
+[WhiteElo "1614"]
+[BlackElo "1610"]
+[WhiteRatingDiff "-11"]
+[BlackRatingDiff "+11"]
+[ECO "C00"]
+[Opening "French Defense: Knight Variation"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.11] } 1... e6 { [%eval 0.26] } 2. Nf3 { [%eval 0.05] } 2... d5
+{ [%eval 0.12] } 3. Bc4 $4 { [%eval -3.02] } 3... dxc4 { [%eval -2.95] } 4. O-O
+{ [%eval -3.2] } 4... Nf6 { [%eval -3.04] } 5. Re1 { [%eval -3.19] } 5... Nc6
+{ [%eval -3.14] } 6. c3 $6 { [%eval -3.86] } 6... e5 $6 { [%eval -3.2] } 7. d4
+$2 { [%eval -4.31] } 7... exd4 $6 { [%eval -3.39] } 8. cxd4 { [%eval -3.52] }
+8... Be7 $2 { [%eval -2.39] } 9. d5 { [%eval -2.64] } 9... Nb4
+{ [%eval -2.56] } 10. e5 $4 { [%eval -5.96] } 10... Nfxd5 { [%eval -5.89] } 11.
+Bg5 $4 { [%eval -8.95] } 11... Bxg5 { [%eval -8.8] } 12. e6 $2
+{ [%eval -10.71] } 12... Bxe6 { [%eval -10.45] } 13. Nxg5 { [%eval -12.38] }
+13... Qxg5 { [%eval -11.77] } 14. Rxe6+ { [%eval -14.48] } 14... fxe6
+{ [%eval -14.35] } 15. Nd2 { [%eval -14.34] } 15... Nd3 { [%eval -13.24] } 16.
+Nf3 { [%eval -14.23] } 16... Qf4 { [%eval -13.65] } 17. Qa4+ { [%eval -14.54] }
+17... c6 { [%eval -14.38] } 18. Rd1 { [%eval -18.33] } 18... O-O
+{ [%eval -16.85] } 19. Qc2 { [%eval -22.31] } 19... N5b4 { [%eval -14.43] } 20.
+Qe2 { [%eval -14.93] } 20... e5 { [%eval -14.74] } 21. a3 { [%eval -17.27] }
+21... e4 { [%eval -16.09] } 22. Nd4 { [%eval -17.39] } 22... Qxf2+
+{ [%eval -16.96] } 23. Qxf2 { [%eval -16.71] } 23... Nxf2 { [%eval -16.17] }
+24. Rd2 { [%eval -19.79] } 24... Nbd3 { [%eval -16.62] } 25. Ne6
+{ [%eval -19.02] } 25... e3 { [%eval -17.84] } 26. h4 $6 { [%eval #-6] } 26...
+exd2 { [%eval #-5] } 27. h5 { [%eval #-3] } 27... d1=Q+ { [%eval #-2] } 28. Kh2
+{ [%eval #-2] } 28... Nf4 $6 { [%eval #-4] } 29. h6 { [%eval #-2] } 29... Qh5+
+$6 { [%eval #-2] } 30. Kg1 { [%eval #-2] } 30... Ne2+ $6 { [%eval #-2] } 31.
+Kf1 { [%eval #-2] } 31... Nd3+ { [%eval #-1] } 0-1

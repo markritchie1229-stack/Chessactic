@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/jcbpy0XB"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pianist777"]
+[Black "Vladimir2007"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "08:11:45"]
+[WhiteElo "1933"]
+[BlackElo "1935"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-11"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.18] } 2. Nf3 { [%eval 0.34] } 2...
+Nc6 { [%eval 0.32] } 3. Bc4 { [%eval 0.16] } 3... Bc5 { [%eval 0.19] } 4. d3
+{ [%eval 0.17] } 4... d6 { [%eval 0.37] } 5. c3 { [%eval 0.18] } 5... Bg4
+{ [%eval 0.5] } 6. a4 { [%eval 0.31] } 6... a5 { [%eval 0.32] } 7. O-O
+{ [%eval 0.39] } 7... Nf6 { [%eval 0.43] } 8. Bd2 { [%eval 0.12] } 8... O-O
+{ [%eval 0.17] } 9. Be3 { [%eval -0.02] } 9... Bxe3 { [%eval -0.13] } 10. fxe3
+{ [%eval -0.06] } 10... Qe7 { [%eval 0.04] } 11. Qb3 { [%eval 0.0] } 11... b6
+{ [%eval -0.02] } 12. Nbd2 { [%eval 0.0] } 12... Nd8 { [%eval 0.06] } 13. Rf2
+{ [%eval 0.0] } 13... Be6 { [%eval 0.12] } 14. Raf1 { [%eval 0.0] } 14... Ng4
+{ [%eval 0.0] } 15. Re2 { [%eval 0.0] } 15... Bxc4 { [%eval 0.14] } 16. Nxc4
+{ [%eval 0.0] } 16... Kh8 { [%eval 0.22] } 17. h3 { [%eval 0.08] } 17... Nh6
+{ [%eval 0.3] } 18. Ref2 { [%eval 0.2] } 18... Ne6 { [%eval 0.24] } 19. d4
+{ [%eval 0.14] } 19... exd4 { [%eval 0.59] } 20. exd4 { [%eval 0.65] } 20... f5
+{ [%eval 0.83] } 21. e5 { [%eval 0.73] } 21... d5 { [%eval 1.05] } 22. Ne3
+{ [%eval 0.79] } 22... f4 $2 { [%eval 2.25] } 23. Nxd5 { [%eval 2.05] } 23...
+Qd7 $6 { [%eval 2.85] } 24. Nh2 $6 { [%eval 2.35] } 24... Rab8 $2
+{ [%eval 3.82] } 25. Nxf4 { [%eval 3.84] } 25... Nxf4 { [%eval 3.81] } 26. Rxf4
+{ [%eval 3.72] } 26... Rf5 $4 { [%eval 9.11] } 27. e6 { [%eval 8.55] } 27...
+Qd5 $2 { [%eval #12] } 28. Qxd5 { [%eval 32.66] } 28... Rxd5 $6 { [%eval #11] }
+29. Rf8+ { [%eval #10] } 29... Rxf8 { [%eval #10] } 30. Rxf8+ { [%eval #9] }
+30... Ng8 { [%eval #9] } 31. e7 { [%eval 21.97] } 1-0

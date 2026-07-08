@@ -1,0 +1,36 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/s5ZBA7JP"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Britvich"]
+[Black "Anton_Ga"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "20:22:27"]
+[WhiteElo "1698"]
+[BlackElo "1537"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "A28"]
+[Opening "English Opening: Four Knights System, Nimzowitsch Variation"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. c4 { [%eval 0.05] } 1... e5 { [%eval 0.21] } 2. Nc3 { [%eval 0.19] } 2...
+Nc6 { [%eval 0.09] } 3. Nf3 { [%eval 0.01] } 3... Nf6 { [%eval 0.02] } 4. e4
+{ [%eval 0.02] } 4... Bd6 { [%eval 0.1] } 5. d4 { [%eval 0.03] } 5... exd4
+{ [%eval 0.0] } 6. Nxd4 { [%eval -0.05] } 6... Nxd4 { [%eval 0.26] } 7. Qxd4
+{ [%eval 0.21] } 7... c5 $4 { [%eval 5.92] } 8. Qd1 $4 { [%eval 0.33] } 8...
+O-O $4 { [%eval 4.99] } 9. Bd3 $4 { [%eval 0.43] } 9... Re8 { [%eval 0.4] } 10.
+O-O { [%eval 0.2] } 10... Bf8 $6 { [%eval 1.03] } 11. Bg5 { [%eval 0.95] }
+11... h6 { [%eval 1.06] } 12. Bh4 { [%eval 0.89] } 12... d6 { [%eval 1.03] }
+13. Re1 { [%eval 0.66] } 13... b6 { [%eval 0.81] } 14. Bxf6 $6 { [%eval 0.04] }
+14... Qxf6 { [%eval 0.08] } 15. Nd5 { [%eval 0.08] } 15... Qd8 { [%eval 0.14] }
+16. Rb1 { [%eval 0.1] } 16... Bb7 { [%eval 0.06] } 17. Nf4 { [%eval -0.13] }
+17... a6 { [%eval 0.04] } 18. Re3 { [%eval -0.19] } 18... b5 { [%eval -0.14] }
+19. Qc2 { [%eval -0.24] } 19... bxc4 $2 { [%eval 0.87] } 20. Qxc4 $6
+{ [%eval 0.0] } 20... d5 $6 { [%eval 0.91] } 21. exd5 { [%eval 0.48] } 21...
+Rxe3 { [%eval 0.9] } 22. fxe3 { [%eval 0.64] } 22... Bxd5 $4 { [%eval 4.12] }
+23. Nxd5 { [%eval 3.98] } 23... Qg5 $4 { [%eval 7.38] } 24. Rf1 $2
+{ [%eval 6.12] } 24... Rd8 $2 { [%eval 8.45] } 25. Rf5 { [%eval 7.59] } 25...
+Qh4 $2 { [%eval 27.34] } 1-0

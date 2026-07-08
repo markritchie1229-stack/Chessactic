@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/9bb9283L"]
+[Date "????.??.??"]
+[Round "?"]
+[White "eomanx5"]
+[Black "SUPete"]
+[Result "0-1"]
+[UTCDate "2017.02.03"]
+[UTCTime "01:21:44"]
+[WhiteElo "1811"]
+[BlackElo "1979"]
+[WhiteRatingDiff "-6"]
+[BlackRatingDiff "+14"]
+[ECO "A60"]
+[Opening "Benoni Defense: Modern Variation"]
+[TimeControl "900+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.16] } 1... Nf6 { [%eval 0.17] } 2. d5 $6 { [%eval -0.34] }
+2... e6 { [%eval -0.15] } 3. c4 { [%eval -0.48] } 3... c5 $2 { [%eval 0.77] }
+4. d6 $2 { [%eval -0.87] } 4... Qb6 { [%eval -0.99] } 5. Bf4 $6
+{ [%eval -1.62] } 5... Qxb2 { [%eval -1.44] } 6. Nd2 { [%eval -1.6] } 6... Nh5
+{ [%eval -1.47] } 7. Rb1 { [%eval -1.38] } 7... Qxa2 $2 { [%eval -0.02] } 8.
+Be5 { [%eval -0.3] } 8... Qa3 $2 { [%eval 0.9] } 9. Nb3 $2 { [%eval -1.33] }
+9... Nc6 $6 { [%eval -0.83] } 10. f4 $2 { [%eval -2.17] } 10... Nxe5
+{ [%eval -1.99] } 11. fxe5 { [%eval -2.11] } 11... Qb4+ $2 { [%eval -0.79] }
+12. Nd2 { [%eval -0.91] } 12... Qc3 { [%eval -0.9] } 13. Nf3 { [%eval -0.87] }
+13... Nf4 $2 { [%eval 0.29] } 14. g3 { [%eval 0.13] } 14... Ng6
+{ [%eval 0.32] } 15. Bg2 $4 { [%eval -2.72] } 15... Nxe5 { [%eval -2.43] } 16.
+O-O $6 { [%eval -2.93] } 16... Qe3+ { [%eval -2.82] } 17. Kh1 { [%eval -3.02] }
+17... Ng4 { [%eval -2.89] } 18. Rb3 { [%eval -3.18] } 18... Nf2+ $4
+{ [%eval 4.49] } 19. Rxf2 { [%eval 4.09] } 19... Qh6 { [%eval 4.58] } 20. Ne4
+{ [%eval 4.39] } 20... Qh5 $4 { [%eval 9.65] } 21. Nfg5 { [%eval 9.0] } 21...
+f5 { [%eval 9.01] } 22. Qc1 $4 { [%eval 2.73] } 22... fxe4 $2 { [%eval 4.79] }
+23. Nf7 { [%eval 4.51] } 23... Rg8 { [%eval 4.56] } 24. Bxe4 { [%eval 4.31] }
+24... Rb8 $4 { [%eval 10.12] } 25. Qc2 $4 { [%eval 5.11] } 25... g6 $4
+{ [%eval 8.4] } 26. Qb2 $4 { [%eval 3.47] } 26... Bg7 { [%eval 3.68] } 27. Bxb7
+$4 { [%eval -18.46] } 27... Bxb2 { [%eval -17.65] } 0-1

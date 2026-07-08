@@ -1,0 +1,39 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/kIxv1LWo"]
+[Date "????.??.??"]
+[Round "?"]
+[White "murat_7796"]
+[Black "KurVic51"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:29:41"]
+[WhiteElo "1155"]
+[BlackElo "1307"]
+[WhiteRatingDiff "+86"]
+[BlackRatingDiff "-15"]
+[ECO "C23"]
+[Opening "Bishop's Opening"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.25] } 1... e5 { [%eval 0.4] } 2. Bc4 { [%eval 0.15] } 2... Qe7
+$6 { [%eval 0.89] } 3. Nf3 { [%eval 0.87] } 3... Nf6 { [%eval 0.95] } 4. b3 $6
+{ [%eval 0.12] } 4... Nxe4 { [%eval 0.18] } 5. d3 $2 { [%eval -1.04] } 5... Nf6
+{ [%eval -1.04] } 6. Be3 $2 { [%eval -3.3] } 6... c6 $2 { [%eval -1.38] } 7.
+Nc3 $2 { [%eval -3.04] } 7... d5 { [%eval -2.82] } 8. Nxd5 $6 { [%eval -3.72] }
+8... cxd5 { [%eval -3.6] } 9. Bb5+ { [%eval -3.62] } 9... Bd7 { [%eval -3.52] }
+10. a4 { [%eval -3.68] } 10... Qc5 $4 { [%eval 4.27] } 11. Bxc5
+{ [%eval 4.07] } 11... d4 $4 { [%eval 10.75] } 12. b4 $2 { [%eval 7.82] } 12...
+Nd5 $2 { [%eval 10.55] } 13. Nxe5 { [%eval 10.1] } 13... Nc3 { [%eval 19.17] }
+14. Qf3 { [%eval 18.62] } 14... Nc6 $6 { [%eval #2] } 15. O-O $6
+{ [%eval 16.19] } 15... a6 $6 { [%eval #2] } 16. Bc4 $6 { [%eval 13.06] } 16...
+Rc8 $6 { [%eval #2] } 17. Bb3 $6 { [%eval 13.37] } 17... Nxe5 { [%eval 13.16] }
+18. Qxb7 $6 { [%eval 9.2] } 18... Ne2+ $6 { [%eval 10.15] } 19. Kh1
+{ [%eval 9.95] } 19... Be7 { [%eval 14.76] } 20. Bc4 $2 { [%eval 8.87] } 20...
+Bxc5 { [%eval 8.85] } 21. bxc5 { [%eval 8.52] } 21... O-O { [%eval 8.66] } 22.
+Bxa6 { [%eval 8.43] } 22... Rxc5 { [%eval 8.72] } 23. f4 $2 { [%eval 7.53] }
+23... Ng4 $2 { [%eval 10.6] } 24. Qxd7 { [%eval 10.26] } 24... Rxc2
+{ [%eval 16.08] } 25. Qxg4 { [%eval 15.61] } 25... Nc3 { [%eval 16.0] } 26.
+Rfe1 { [%eval 15.28] } 26... f5 { [%eval 31.09] } 27. Qf3 { [%eval 17.83] }
+27... Rf6 $6 { [%eval #4] } 28. Bc4+ $6 { [%eval #4] } 28... Kf8 { [%eval #1] }
+29. Qa8# 1-0

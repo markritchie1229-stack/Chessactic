@@ -1,0 +1,38 @@
+[Event "Rated Classical tournament https://lichess.org/tournament/VyJaRYSR"]
+[Site "https://lichess.org/I9VtAAKG"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lunalith"]
+[Black "Sjakktrekk"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "22:20:52"]
+[WhiteElo "1906"]
+[BlackElo "1934"]
+[WhiteRatingDiff "+14"]
+[BlackRatingDiff "-13"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Kramnik Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.32] } 1... c5 { [%eval 0.32] } 2. Nf3 { [%eval 0.36] } 2... e6
+{ [%eval 0.36] } 3. c4 { [%eval 0.25] } 3... Nc6 { [%eval 0.14] } 4. d3
+{ [%eval -0.35] } 4... Qc7 { [%eval 0.09] } 5. Nc3 { [%eval 0.27] } 5... a6
+{ [%eval 0.36] } 6. g3 { [%eval 0.11] } 6... b6 { [%eval 0.31] } 7. a3
+{ [%eval 0.11] } 7... Bb7 { [%eval 0.12] } 8. Bg2 { [%eval 0.13] } 8... Rb8
+{ [%eval 0.49] } 9. Be3 { [%eval 0.17] } 9... Nf6 { [%eval 0.29] } 10. O-O
+{ [%eval 0.25] } 10... Be7 { [%eval 0.29] } 11. Qc2 { [%eval -0.04] } 11... Ng4
+{ [%eval -0.02] } 12. Rab1 { [%eval -0.49] } 12... Nxe3 { [%eval -0.52] } 13.
+fxe3 { [%eval -0.45] } 13... O-O { [%eval -0.37] } 14. d4 $6 { [%eval -0.98] }
+14... cxd4 { [%eval -0.87] } 15. exd4 { [%eval -0.88] } 15... Bf6 $6
+{ [%eval 0.05] } 16. d5 $2 { [%eval -0.97] } 16... Ne5 { [%eval -0.85] } 17. b3
+{ [%eval -1.27] } 17... Nxf3+ $6 { [%eval -0.74] } 18. Bxf3 { [%eval -1.2] }
+18... exd5 $2 { [%eval 0.0] } 19. exd5 $6 { [%eval -0.51] } 19... Qe5
+{ [%eval -0.1] } 20. Ne4 { [%eval -0.12] } 20... Be7 { [%eval -0.13] } 21. a4
+{ [%eval -0.23] } 21... f5 { [%eval -0.09] } 22. Nd2 $6 { [%eval -0.94] } 22...
+Bc5+ { [%eval -0.77] } 23. Kh1 { [%eval -0.77] } 23... f4 $2 { [%eval 0.24] }
+24. Rfe1 { [%eval -0.18] } 24... Qg5 { [%eval 0.0] } 25. Ne4 { [%eval 0.0] }
+25... Qg6 { [%eval -0.14] } 26. Qc3 { [%eval -0.11] } 26... Be3 $2
+{ [%eval 1.8] } 27. gxf4 { [%eval 1.66] } 27... Bxf4 { [%eval 2.27] } 28. Rg1
+{ [%eval 1.91] } 28... Qf5 $4 { [%eval #1] } 29. Qxg7# 1-0

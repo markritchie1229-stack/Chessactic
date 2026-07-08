@@ -1,0 +1,42 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/ZNgMiOIR"]
+[Date "????.??.??"]
+[Round "?"]
+[White "markast"]
+[Black "Maciasek123"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "18:09:58"]
+[WhiteElo "1213"]
+[BlackElo "1299"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+16"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.18] } 1... e6 { [%eval -0.24] } 2. Bg2 { [%eval -0.11] } 2...
+Qf6 $6 { [%eval 0.64] } 3. c3 { [%eval 0.32] } 3... Bc5 $6 { [%eval 1.01] } 4.
+d4 { [%eval 0.99] } 4... Bd6 { [%eval 1.14] } 5. Nf3 { [%eval 1.12] } 5... b6
+$6 { [%eval 1.66] } 6. Ne5 { [%eval 1.38] } 6... c6 { [%eval 1.1] } 7. h4
+{ [%eval 1.12] } 7... Bxe5 { [%eval 1.24] } 8. Bg5 { [%eval 1.17] } 8... Qf5 $6
+{ [%eval 1.74] } 9. dxe5 $6 { [%eval 1.13] } 9... Qxe5 { [%eval 1.18] } 10. Nd2
+{ [%eval 0.94] } 10... f6 $2 { [%eval 2.7] } 11. Bf4 { [%eval 2.42] } 11... Qf5
+$4 { [%eval 6.37] } 12. Bxb8 $4 { [%eval -0.01] } 12... Rxb8 { [%eval -0.14] }
+13. Be4 { [%eval -0.62] } 13... d5 $4 { [%eval 7.43] } 14. Bxf5 { [%eval 7.3] }
+14... exf5 { [%eval 7.34] } 15. O-O $6 { [%eval 6.79] } 15... Ne7
+{ [%eval 6.77] } 16. f4 $6 { [%eval 6.17] } 16... Ng6 $2 { [%eval 7.65] } 17.
+Nb3 $2 { [%eval 6.52] } 17... O-O { [%eval 6.58] } 18. Qd2 { [%eval 6.39] }
+18... c5 $2 { [%eval 7.46] } 19. Nd4 $4 { [%eval 3.93] } 19... cxd4
+{ [%eval 4.01] } 20. Qxd4 $6 { [%eval 3.45] } 20... Ne7 { [%eval 3.41] } 21.
+Rf3 { [%eval 3.39] } 21... Bb7 $6 { [%eval 4.22] } 22. Re3 { [%eval 3.91] }
+22... Nc6 $2 { [%eval 5.87] } 23. Re6 $4 { [%eval -4.9] } 23... Nxd4
+{ [%eval -4.83] } 24. cxd4 { [%eval -4.7] } 24... b5 $6 { [%eval -4.04] } 25.
+Rxf6 $4 { [%eval -11.15] } 25... gxf6 { [%eval -10.89] } 26. h5
+{ [%eval -11.75] } 26... h6 { [%eval -11.05] } 27. g4 { [%eval -12.38] } 27...
+fxg4 { [%eval -12.04] } 28. Kg2 { [%eval -13.08] } 28... g3 { [%eval -11.24] }
+29. Kxg3 { [%eval -10.93] } 29... Kh7 { [%eval -10.47] } 30. f5
+{ [%eval -11.72] } 30... Rg8+ { [%eval -11.26] } 31. Kh3 $6 { [%eval #-12] }
+31... Rbf8 $6 { [%eval -16.17] } 32. Rc1 { [%eval -16.12] } 32... Bc6 $2
+{ [%eval -7.16] } 0-1

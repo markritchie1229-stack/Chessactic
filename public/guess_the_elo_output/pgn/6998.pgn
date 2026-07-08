@@ -1,0 +1,40 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/v4D7xoMp"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ybrbnf228ras"]
+[Black "nikolakur1"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "09:53:18"]
+[WhiteElo "1894"]
+[BlackElo "1716"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-5"]
+[ECO "B35"]
+[Opening "Sicilian Defense: Accelerated Dragon, Modern Bc4 Variation"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.29] } 1... c5 { [%eval 0.29] } 2. Nf3 { [%eval 0.27] } 2...
+Nc6 { [%eval 0.36] } 3. d4 { [%eval 0.08] } 3... cxd4 { [%eval 0.2] } 4. Nxd4
+{ [%eval 0.09] } 4... g6 { [%eval 0.35] } 5. Nc3 { [%eval 0.12] } 5... Bg7
+{ [%eval 0.25] } 6. Be3 { [%eval 0.12] } 6... Nf6 { [%eval 0.12] } 7. Bc4
+{ [%eval 0.0] } 7... O-O { [%eval 0.07] } 8. f3 { [%eval -0.12] } 8... Qb6
+{ [%eval 0.0] } 9. Qd2 $6 { [%eval -0.88] } 9... Qxb2 $6 { [%eval -0.18] } 10.
+O-O $2 { [%eval -1.36] } 10... Nb4 $4 { [%eval 3.96] } 11. Rab1
+{ [%eval 3.77] } 11... Qa3 { [%eval 3.89] } 12. Ncb5 { [%eval 3.71] } 12... Qa5
+{ [%eval 3.83] } 13. Nb3 { [%eval 3.34] } 13... Qd8 { [%eval 3.73] } 14. Qxb4
+{ [%eval 3.64] } 14... a6 { [%eval 3.75] } 15. Nc3 { [%eval 3.63] } 15... b5
+{ [%eval 3.66] } 16. Bd5 $6 { [%eval 2.67] } 16... a5 { [%eval 2.82] } 17. Qxb5
+{ [%eval 2.69] } 17... Ba6 { [%eval 2.75] } 18. Qc5 $4 { [%eval -0.53] } 18...
+Nxd5 $2 { [%eval 2.41] } 19. Nxd5 { [%eval 2.2] } 19... Bxf1 { [%eval 2.31] }
+20. Nxe7+ $6 { [%eval 1.79] } 20... Kh8 { [%eval 1.7] } 21. Rxf1
+{ [%eval 1.85] } 21... a4 { [%eval 1.84] } 22. Na5 $4 { [%eval -1.17] } 22...
+d6 { [%eval -1.02] } 23. Nac6 $6 { [%eval -1.8] } 23... dxc5 { [%eval -1.72] }
+24. Nxd8 { [%eval -1.66] } 24... Rfxd8 { [%eval -1.44] } 25. Bxc5 $6
+{ [%eval -2.21] } 25... Rd2 { [%eval -1.86] } 26. Rc1 $6 { [%eval -2.59] }
+26... Bb2 { [%eval -2.12] } 27. Rb1 { [%eval -2.2] } 27... a3 { [%eval -2.02] }
+28. c4 $2 { [%eval -4.88] } 28... Rc2 $4 { [%eval 2.81] } 29. Rxb2
+{ [%eval 2.93] } 29... axb2 $4 { [%eval #2] } 30. Bd4+ { [%eval #1] } 30... f6
+{ [%eval #1] } 31. Bxf6# 1-0

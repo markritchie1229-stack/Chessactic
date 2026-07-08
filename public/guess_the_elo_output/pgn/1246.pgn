@@ -1,0 +1,39 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/xZlF7VB5"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Vault_Boy"]
+[Black "rvo1986"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "00:19:08"]
+[WhiteElo "1746"]
+[BlackElo "1906"]
+[WhiteRatingDiff "-7"]
+[BlackRatingDiff "+6"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "240+0"]
+[Termination "Time forfeit"]
+
+1. g3 { [%eval -0.2] } 1... e5 { [%eval -0.12] } 2. Bg2 { [%eval -0.22] } 2...
+Nc6 { [%eval 0.01] } 3. d3 { [%eval -0.24] } 3... Bc5 { [%eval -0.12] } 4. Nc3
+{ [%eval -0.12] } 4... a6 { [%eval 0.09] } 5. Ne4 { [%eval -0.23] } 5... Ba7
+{ [%eval 0.02] } 6. c3 $6 { [%eval -0.7] } 6... Nge7 { [%eval -0.31] } 7. Bg5
+$6 { [%eval -1.17] } 7... O-O $2 { [%eval 1.39] } 8. Bxe7 $2 { [%eval -0.62] }
+8... Qxe7 { [%eval -0.75] } 9. Nf3 $6 { [%eval -1.4] } 9... d6
+{ [%eval -1.02] } 10. O-O { [%eval -1.02] } 10... Bg4 { [%eval -0.75] } 11.
+Nfd2 $2 { [%eval -3.14] } 11... f5 $2 { [%eval -1.04] } 12. Ng5 $4
+{ [%eval -4.31] } 12... Qxg5 { [%eval -4.41] } 13. h3 { [%eval -4.66] } 13...
+Bh5 { [%eval -4.24] } 14. Kh2 { [%eval -4.47] } 14... f4 $6 { [%eval -3.92] }
+15. Nf3 $2 { [%eval -5.67] } 15... Bxf3 { [%eval -5.64] } 16. Bxf3 $2
+{ [%eval -7.23] } 16... fxg3+ $4 { [%eval -3.96] } 17. fxg3 { [%eval -3.51] }
+17... h5 $2 { [%eval -2.19] } 18. Bd5+ $2 { [%eval -3.78] } 18... Kh8
+{ [%eval -3.48] } 19. Qb3 $4 { [%eval -7.24] } 19... Bb6 $4 { [%eval -3.79] }
+20. Bxc6 $2 { [%eval -5.93] } 20... bxc6 { [%eval -5.66] } 21. Qe6 $4
+{ [%eval -13.85] } 21... h4 $4 { [%eval -4.28] } 22. gxh4 $2 { [%eval -5.35] }
+22... Qxh4 { [%eval -5.26] } 23. Qg4 { [%eval -5.22] } 23... Rf2+
+{ [%eval -5.04] } 24. Rxf2 { [%eval -5.06] } 24... Qxf2+ { [%eval -4.86] } 25.
+Qg2 $2 { [%eval -5.98] } 25... Rf8 { [%eval -5.81] } 26. Rg1 $4
+{ [%eval -17.31] } 26... Qf4+ { [%eval -15.17] } 27. Qg3 $6 { [%eval #-6] }
+27... Bxg1+ { [%eval #-5] } 0-1

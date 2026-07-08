@@ -1,0 +1,39 @@
+[Event "Rated Blitz tournament https://lichess.org/tournament/rRaTAbFN"]
+[Site "https://lichess.org/KqHD3GPV"]
+[Date "????.??.??"]
+[Round "?"]
+[White "ChessDiagnostic"]
+[Black "QueenMaster77"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "02:53:27"]
+[WhiteElo "2060"]
+[BlackElo "2054"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-13"]
+[ECO "A00"]
+[Opening "Mieses Opening: Reversed Rat"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+1. d3 { [%eval -0.12] } 1... e5 { [%eval -0.08] } 2. g3 { [%eval -0.2] } 2...
+d5 { [%eval -0.22] } 3. Bg2 { [%eval -0.33] } 3... Nc6 { [%eval -0.15] } 4. Nf3
+{ [%eval -0.21] } 4... Be6 { [%eval -0.08] } 5. O-O { [%eval -0.22] } 5... Qd7
+{ [%eval 0.22] } 6. e4 { [%eval -0.19] } 6... d4 { [%eval 0.0] } 7. c3
+{ [%eval 0.0] } 7... O-O-O $6 { [%eval 0.51] } 8. c4 { [%eval 0.06] } 8... f6
+{ [%eval 0.02] } 9. a3 $6 { [%eval -0.93] } 9... g5 { [%eval -0.48] } 10. b4 $6
+{ [%eval -1.13] } 10... h5 $6 { [%eval -0.4] } 11. b5 { [%eval -0.47] } 11...
+Nce7 { [%eval -0.43] } 12. a4 $6 { [%eval -1.35] } 12... h4 { [%eval -1.25] }
+13. gxh4 $2 { [%eval -2.56] } 13... g4 { [%eval -2.45] } 14. Nfd2 $2
+{ [%eval -3.5] } 14... Rxh4 $6 { [%eval -2.89] } 15. a5 { [%eval -2.88] } 15...
+Kb8 $6 { [%eval -2.29] } 16. c5 $2 { [%eval -3.91] } 16... Ng6 { [%eval -3.5] }
+17. c6 $2 { [%eval -6.2] } 17... Qh7 { [%eval -5.51] } 18. Nc4 $4
+{ [%eval -8.67] } 18... Nf4 $4 { [%eval -4.91] } 19. Bxf4 { [%eval -5.01] }
+19... exf4 { [%eval -4.28] } 20. b6 $6 { [%eval -5.15] } 20... f3 $2
+{ [%eval -3.47] } 21. bxa7+ $4 { [%eval -6.69] } 21... Kxa7 { [%eval -6.14] }
+22. Qb3 $4 { [%eval -18.45] } 22... bxc6 { [%eval -17.67] } 23. a6
+{ [%eval -18.44] } 23... Rb8 { [%eval -13.48] } 24. Qxb8+ { [%eval -22.81] }
+24... Kxb8 { [%eval -20.39] } 25. a7+ $6 { [%eval #-8] } 25... Ka8
+{ [%eval #-7] } 26. Nbd2 { [%eval #-6] } 26... fxg2 $4 { [%eval #3] } 27. Rfb1
+{ [%eval #2] } 27... Bb4 { [%eval #2] } 28. Rxb4 { [%eval #1] } 28... Ne7
+{ [%eval #1] } 29. Rb8# 1-0

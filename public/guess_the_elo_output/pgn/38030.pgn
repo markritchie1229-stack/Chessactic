@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/JoYwVZb9"]
+[Date "????.??.??"]
+[Round "?"]
+[White "jero32"]
+[Black "esoxen"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "16:40:03"]
+[WhiteElo "1517"]
+[BlackElo "1464"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "B00"]
+[Opening "St. George Defense"]
+[TimeControl "600+3"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.33] } 1... a6 { [%eval 0.57] } 2. Nc3 { [%eval 0.32] } 2... e6
+{ [%eval 0.43] } 3. Nf3 { [%eval 0.36] } 3... c5 { [%eval 0.27] } 4. Be2
+{ [%eval 0.41] } 4... h6 { [%eval 0.58] } 5. d4 { [%eval 0.55] } 5... b5
+{ [%eval 0.65] } 6. O-O { [%eval 0.56] } 6... Bb7 { [%eval 0.68] } 7. Bf4
+{ [%eval 0.49] } 7... Nf6 { [%eval 0.58] } 8. e5 { [%eval 0.45] } 8... Nd5
+{ [%eval 0.56] } 9. Nxd5 { [%eval 0.48] } 9... exd5 $2 { [%eval 1.53] } 10. Rb1
+{ [%eval 1.16] } 10... Bc6 $6 { [%eval 1.97] } 11. dxc5 { [%eval 1.92] } 11...
+Bxc5 { [%eval 1.97] } 12. Nd4 { [%eval 1.59] } 12... Bb7 $6 { [%eval 2.17] }
+13. Nf5 { [%eval 2.13] } 13... O-O $4 { [%eval 7.16] } 14. Qd4 $4
+{ [%eval -7.01] } 14... Bxd4 { [%eval -6.77] } 15. Nxd4 { [%eval -6.84] } 15...
+d6 { [%eval -6.52] } 16. exd6 { [%eval -6.56] } 16... Nd7 $6 { [%eval -5.59] }
+17. Nf5 { [%eval -5.96] } 17... Qf6 { [%eval -6.05] } 18. Bg4 { [%eval -6.5] }
+18... Nc5 $2 { [%eval -5.1] } 19. Rfe1 $6 { [%eval -6.09] } 19... Bc8 $2
+{ [%eval -4.1] } 20. Ne7+ { [%eval -4.18] } 20... Kh8 { [%eval -4.0] } 21. Nxd5
+{ [%eval -4.03] } 21... Bxg4 $4 { [%eval -0.64] } 22. Nxf6 { [%eval -0.68] }
+22... gxf6 { [%eval -0.61] } 23. Bxh6 { [%eval -0.61] } 23... Rg8
+{ [%eval -0.3] } 24. Re7 { [%eval -0.43] } 24... Be6 { [%eval -0.34] } 25. Re1
+{ [%eval -0.47] } 25... Rad8 { [%eval -0.42] } 26. Be3 { [%eval -0.52] } 26...
+Rc8 $6 { [%eval 0.0] } 27. Bd4 { [%eval 0.0] } 27... Kg7 $2 { [%eval 2.43] }
+28. b4 { [%eval 2.41] } 28... Nd7 { [%eval 2.21] } 29. R1xe6 { [%eval 2.14] }
+29... Ne5 $2 { [%eval 5.04] } 30. c3 $2 { [%eval 3.52] } 30... Nc4 $4
+{ [%eval 18.11] } 31. Rxf6 { [%eval 14.25] } 31... Kf8 $6 { [%eval #1] } 32.
+Rfxf7# 1-0

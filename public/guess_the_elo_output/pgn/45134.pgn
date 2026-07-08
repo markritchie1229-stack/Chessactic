@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/uVc17KLL"]
+[Date "????.??.??"]
+[Round "?"]
+[White "akiaki100"]
+[Black "rbatty"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "21:29:09"]
+[WhiteElo "1745"]
+[BlackElo "1802"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "C10"]
+[Opening "French Defense: Rubinstein Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nc3 { [%eval 0.0] } 1... e6 { [%eval 0.18] } 2. e4 { [%eval 0.01] } 2... d5
+{ [%eval 0.21] } 3. d4 { [%eval 0.25] } 3... dxe4 { [%eval 0.38] } 4. Nxe4
+{ [%eval 0.37] } 4... Nf6 { [%eval 0.75] } 5. Nxf6+ { [%eval 0.64] } 5... Qxf6
+{ [%eval 0.52] } 6. Be3 { [%eval 0.27] } 6... h6 { [%eval 0.4] } 7. Nf3
+{ [%eval 0.31] } 7... Bd6 { [%eval 0.26] } 8. Bd3 { [%eval 0.31] } 8... Nc6
+{ [%eval 0.35] } 9. Qd2 { [%eval -0.05] } 9... O-O { [%eval -0.05] } 10. O-O-O
+{ [%eval -0.34] } 10... a5 $6 { [%eval 0.43] } 11. g4 $4 { [%eval -3.61] }
+11... a4 $4 { [%eval 0.43] } 12. g5 $4 { [%eval -3.26] } 12... hxg5 $4
+{ [%eval 0.62] } 13. Nxg5 { [%eval 0.6] } 13... g6 $2 { [%eval 1.79] } 14. h4
+{ [%eval 1.76] } 14... e5 $2 { [%eval 3.4] } 15. h5 $2 { [%eval 2.01] } 15...
+exd4 { [%eval 1.52] } 16. hxg6 $4 { [%eval -2.05] } 16... fxg6 $4
+{ [%eval 11.04] } 17. Bxd4 $4 { [%eval -3.7] } 17... Nxd4 $2 { [%eval -1.42] }
+18. Qe3 $4 { [%eval -9.75] } 18... Bf4 { [%eval -9.56] } 19. Ne4
+{ [%eval -12.06] } 19... Bxe3+ { [%eval -9.52] } 20. fxe3 { [%eval -9.7] }
+20... Qb6 { [%eval -9.46] } 21. exd4 { [%eval -9.14] } 21... Bf5 $6
+{ [%eval -8.22] } 22. Rdg1 $2 { [%eval -14.37] } 22... Qxd4 { [%eval -13.46] }
+23. Ng5 { [%eval -28.34] } 23... Bxd3 { [%eval -23.48] } 24. cxd3 $6
+{ [%eval #-5] } 24... Qxd3 $6 { [%eval #-9] } 25. Ne6 { [%eval #-6] } 25... Rf2
+{ [%eval #-5] } 26. Rxg6+ { [%eval #-5] } 26... Qxg6 { [%eval #-4] } 0-1

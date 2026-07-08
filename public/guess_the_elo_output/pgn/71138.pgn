@@ -1,0 +1,40 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/gWWdmvkY"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mohit-sharma"]
+[Black "Tinotin"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "23:16:07"]
+[WhiteElo "1781"]
+[BlackElo "1807"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-11"]
+[ECO "B76"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... c5 { [%eval 0.26] } 2. Nf3 { [%eval 0.28] } 2... d6
+{ [%eval 0.28] } 3. d4 { [%eval 0.16] } 3... cxd4 { [%eval 0.23] } 4. Nxd4
+{ [%eval 0.22] } 4... Nf6 { [%eval 0.18] } 5. Nc3 { [%eval 0.27] } 5... g6
+{ [%eval 0.47] } 6. f3 { [%eval 0.44] } 6... Bg7 { [%eval 0.53] } 7. Be3
+{ [%eval 0.32] } 7... O-O { [%eval 0.6] } 8. Nb3 $6 { [%eval 0.07] } 8... Nc6
+{ [%eval 0.07] } 9. Bc4 { [%eval -0.18] } 9... Ne5 { [%eval -0.14] } 10. Be2
+{ [%eval -0.34] } 10... a6 { [%eval 0.09] } 11. Qd2 { [%eval -0.29] } 11... Be6
+{ [%eval 0.0] } 12. h4 { [%eval -0.35] } 12... h5 { [%eval -0.11] } 13. Nd4
+{ [%eval -0.13] } 13... Rc8 { [%eval 0.0] } 14. Nxe6 { [%eval 0.0] } 14... fxe6
+{ [%eval 0.14] } 15. g4 $2 { [%eval -1.66] } 15... hxg4 { [%eval -1.38] } 16.
+fxg4 $6 { [%eval -2.03] } 16... Nfxg4 { [%eval -1.67] } 17. Bxg4 $6
+{ [%eval -2.25] } 17... Nxg4 { [%eval -1.88] } 18. Rg1 $6 { [%eval -2.59] }
+18... Nxe3 $2 { [%eval -1.51] } 19. Qxe3 { [%eval -1.52] } 19... Qe8
+{ [%eval -1.08] } 20. h5 { [%eval -1.43] } 20... Qf7 $6 { [%eval -0.89] } 21.
+Rxg6 $4 { [%eval -11.64] } 21... Kh7 $4 { [%eval 1.19] } 22. O-O-O
+{ [%eval 1.16] } 22... Qf4 { [%eval 1.19] } 23. Qxf4 { [%eval 1.24] } 23...
+Rxf4 { [%eval 1.2] } 24. Rxe6 { [%eval 1.08] } 24... Rc7 $4 { [%eval 7.62] }
+25. Nd5 { [%eval 7.44] } 25... Rc5 { [%eval 7.4] } 26. Nxf4 { [%eval 7.04] }
+26... Bf6 $2 { [%eval 10.65] } 27. Nd5 { [%eval 10.11] } 27... Rc4
+{ [%eval 19.23] } 28. Nxf6+ { [%eval 16.22] } 28... exf6 { [%eval 14.05] } 29.
+Rdxd6 { [%eval 12.85] } 29... Rxe4 $6 { [%eval #7] } 30. Rxe4 { [%eval #6] }
+1-0

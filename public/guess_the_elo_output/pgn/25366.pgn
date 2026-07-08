@@ -1,0 +1,33 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/joIFW7Hi"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Lamesse_Edith"]
+[Black "Syndy_C"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "01:15:33"]
+[WhiteElo "1471"]
+[BlackElo "1536"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+10"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "420+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.11] } 1... Nf6 { [%eval 0.17] } 2. h4 { [%eval -0.2] } 2... d5
+{ [%eval -0.2] } 3. h5 { [%eval -0.63] } 3... Nc6 { [%eval -0.4] } 4. h6
+{ [%eval -0.66] } 4... g6 $6 { [%eval -0.14] } 5. a3 { [%eval -0.62] } 5... Bf5
+{ [%eval -0.37] } 6. Nf3 { [%eval -0.33] } 6... Ne4 { [%eval 0.08] } 7. Bf4 $6
+{ [%eval -0.52] } 7... Qd7 { [%eval -0.43] } 8. e3 { [%eval -0.52] } 8... O-O-O
+{ [%eval -0.3] } 9. Bb5 { [%eval -0.63] } 9... f6 { [%eval -0.66] } 10. Bxc6 $6
+{ [%eval -1.33] } 10... Qxc6 { [%eval -1.15] } 11. Nbd2 { [%eval -1.33] } 11...
+Qb6 { [%eval -1.56] } 12. Nxe4 { [%eval -1.63] } 12... Bxe4 $2
+{ [%eval -0.58] } 13. O-O { [%eval -0.87] } 13... g5 { [%eval -0.84] } 14. Bg3
+{ [%eval -0.87] } 14... Bxh6 { [%eval -1.03] } 15. c3 $2 { [%eval -2.09] }
+15... Bg7 { [%eval -1.95] } 16. b4 { [%eval -2.19] } 16... h5 { [%eval -2.07] }
+17. a4 $6 { [%eval -2.62] } 17... h4 { [%eval -2.41] } 18. Bh2
+{ [%eval -2.52] } 18... Qe6 { [%eval -2.39] } 19. Qc1 $4 { [%eval -8.7] } 19...
+Bxf3 $4 { [%eval -3.2] } 20. c4 $4 { [%eval #-17] } 20... Qg4
+{ [%eval -25.19] } 21. g3 $6 { [%eval #-2] } 21... Qh3 { [%eval #-1] } 0-1

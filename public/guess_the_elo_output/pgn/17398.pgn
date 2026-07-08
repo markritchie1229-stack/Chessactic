@@ -1,0 +1,42 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/LB5XOnzM"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nuncamas"]
+[Black "Brezkit"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "18:33:32"]
+[WhiteElo "1984"]
+[BlackElo "2031"]
+[WhiteRatingDiff "-10"]
+[BlackRatingDiff "+10"]
+[ECO "A45"]
+[Opening "Indian Game"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.25] } 1... Nf6 { [%eval 0.29] } 2. e3 { [%eval 0.09] } 2... g6
+{ [%eval 0.39] } 3. Bd3 { [%eval 0.16] } 3... Bg7 { [%eval 0.2] } 4. f4 $6
+{ [%eval -0.37] } 4... d6 { [%eval 0.0] } 5. Nf3 { [%eval -0.07] } 5... c5
+{ [%eval 0.03] } 6. O-O { [%eval -0.24] } 6... O-O { [%eval -0.1] } 7. c3
+{ [%eval -0.12] } 7... Nc6 { [%eval -0.09] } 8. b3 $6 { [%eval -0.72] } 8...
+Qc7 $6 { [%eval -0.14] } 9. Bb2 $6 { [%eval -0.9] } 9... e5 { [%eval -0.82] }
+10. fxe5 { [%eval -1.08] } 10... dxe5 { [%eval -1.27] } 11. dxe5
+{ [%eval -1.63] } 11... Nxe5 { [%eval -1.57] } 12. c4 $2 { [%eval -3.23] }
+12... Nxd3 $2 { [%eval -1.17] } 13. Qxd3 { [%eval -1.25] } 13... Bf5
+{ [%eval -1.14] } 14. Qe2 { [%eval -1.25] } 14... Rad8 { [%eval -1.16] } 15.
+Nc3 $2 { [%eval -2.63] } 15... Rfe8 $2 { [%eval -0.65] } 16. Rad1
+{ [%eval -0.81] } 16... Ng4 $6 { [%eval 0.0] } 17. Nd5 { [%eval 0.0] } 17...
+Rxd5 { [%eval 0.0] } 18. cxd5 { [%eval 0.0] } 18... Rxe3 { [%eval -0.04] } 19.
+d6 $6 { [%eval -0.62] } 19... Qb6 { [%eval -0.55] } 20. Qd2 $4 { [%eval -4.7] }
+20... Rd3 { [%eval -4.53] } 21. Qc1 $4 { [%eval -12.0] } 21... c4+
+{ [%eval -11.67] } 22. Kh1 { [%eval -11.44] } 22... Bxb2 { [%eval -11.1] } 23.
+Qxb2 { [%eval -12.61] } 23... Rxd1 { [%eval -11.94] } 24. Qe2
+{ [%eval -20.23] } 24... Rxf1+ { [%eval -19.4] } 25. Qxf1 { [%eval -18.99] }
+25... Nf2+ { [%eval -18.08] } 26. Kg1 { [%eval -17.86] } 26... Nd3+
+{ [%eval -17.42] } 27. Kh1 { [%eval -16.28] } 27... Qxd6 $2 { [%eval -7.72] }
+28. bxc4 { [%eval -7.88] } 28... Qc5 { [%eval -7.48] } 29. h3 { [%eval -7.86] }
+29... Qxc4 { [%eval -7.7] } 30. Kh2 $2 { [%eval -9.38] } 30... Qxa2
+{ [%eval -9.16] } 31. Ng5 { [%eval -9.47] } 31... Qd5 { [%eval -8.84] } 32. Qc1
+$2 { [%eval #-8] } 32... Nxc1 { [%eval #-7] } 0-1

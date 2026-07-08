@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/b6X90LJI"]
+[Date "????.??.??"]
+[Round "?"]
+[White "J_Bo"]
+[Black "mauritimo"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "17:19:17"]
+[WhiteElo "1871"]
+[BlackElo "1826"]
+[WhiteRatingDiff "+10"]
+[BlackRatingDiff "-9"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. b3 { [%eval -0.04] } 1... d6 { [%eval 0.35] } 2. Bb2 { [%eval -0.03] } 2...
+e5 { [%eval 0.18] } 3. g3 { [%eval -0.05] } 3... Nf6 { [%eval 0.0] } 4. Bg2
+{ [%eval -0.12] } 4... g6 { [%eval 0.33] } 5. d3 { [%eval -0.05] } 5... Bg7
+{ [%eval 0.0] } 6. c4 { [%eval 0.0] } 6... O-O { [%eval 0.04] } 7. e4
+{ [%eval -0.17] } 7... Nbd7 { [%eval -0.04] } 8. Ne2 { [%eval -0.09] } 8... c6
+{ [%eval 0.02] } 9. f4 $6 { [%eval -0.65] } 9... exf4 { [%eval -0.71] } 10.
+gxf4 $2 { [%eval -3.41] } 10... Ng4 $2 { [%eval -0.75] } 11. Bxg7
+{ [%eval -0.77] } 11... Kxg7 { [%eval -0.34] } 12. Qd2 { [%eval -0.36] } 12...
+d5 { [%eval -0.29] } 13. Nbc3 { [%eval -0.36] } 13... d4 { [%eval -0.2] } 14.
+Nxd4 $6 { [%eval -0.79] } 14... Qh4+ $2 { [%eval 1.49] } 15. Kd1 $2
+{ [%eval -0.26] } 15... Nf2+ { [%eval -0.1] } 16. Kc2 { [%eval -0.13] } 16...
+Nxh1 { [%eval -0.35] } 17. Rxh1 { [%eval -0.2] } 17... c5 $2 { [%eval 0.95] }
+18. Nf3 { [%eval 0.75] } 18... Qe7 $2 { [%eval 1.77] } 19. Nd5 { [%eval 1.45] }
+19... Qd6 $2 { [%eval 2.93] } 20. Qc3+ $6 { [%eval 2.09] } 20... Kg8 $2
+{ [%eval 4.75] } 21. e5 { [%eval 4.58] } 21... Qe6 $2 { [%eval 5.88] } 22. h4
+$2 { [%eval 3.55] } 22... b5 $2 { [%eval 5.7] } 23. Bh3 $2 { [%eval 3.38] }
+23... Qc6 $4 { [%eval 15.19] } 24. Bxd7 $2 { [%eval 7.17] } 24... Qxd7 $2
+{ [%eval 15.08] } 25. Nf6+ { [%eval 14.64] } 25... Kg7 { [%eval 14.75] } 26.
+Nxd7 { [%eval 14.16] } 26... Bxd7 { [%eval 15.25] } 27. e6+ { [%eval 14.56] }
+27... f6 { [%eval 15.35] } 28. exd7 { [%eval 14.54] } 1-0

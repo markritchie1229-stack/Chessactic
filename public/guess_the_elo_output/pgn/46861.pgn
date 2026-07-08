@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/LDHzIu9k"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Joepeger"]
+[Black "devaronaomar"]
+[Result "0-1"]
+[UTCDate "2017.02.02"]
+[UTCTime "22:54:50"]
+[WhiteElo "1421"]
+[BlackElo "1464"]
+[WhiteRatingDiff "-9"]
+[BlackRatingDiff "+9"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "600+0"]
+[Termination "Time forfeit"]
+
+1. f4 { [%eval -0.33] } 1... Nc6 { [%eval 0.05] } 2. Nf3 { [%eval 0.0] } 2...
+d5 { [%eval -0.05] } 3. d4 { [%eval -0.08] } 3... Nf6 { [%eval -0.11] } 4. Ne5
+{ [%eval -0.14] } 4... Bf5 { [%eval 0.0] } 5. a3 $6 { [%eval -0.66] } 5... e6
+{ [%eval -0.64] } 6. Nc3 { [%eval -1.06] } 6... Ne4 $6 { [%eval -0.27] } 7.
+Nxe4 { [%eval -0.37] } 7... dxe4 $6 { [%eval 0.35] } 8. e3 $6 { [%eval -0.29] }
+8... Qd5 $2 { [%eval 1.12] } 9. c4 { [%eval 0.96] } 9... Qd8 { [%eval 1.05] }
+10. c5 $6 { [%eval 0.26] } 10... f6 $2 { [%eval 1.37] } 11. Qh5+ $6
+{ [%eval 0.38] } 11... g6 { [%eval 0.46] } 12. Nxc6 { [%eval 0.45] } 12... bxc6
+{ [%eval 0.71] } 13. Qd1 { [%eval 0.72] } 13... Qd5 $2 { [%eval 3.68] } 14. b3
+$2 { [%eval 0.87] } 14... e5 { [%eval 0.89] } 15. Bc4 { [%eval 0.86] } 15...
+Qd7 { [%eval 0.97] } 16. O-O { [%eval 0.5] } 16... Be6 $6 { [%eval 1.06] } 17.
+d5 $2 { [%eval -1.04] } 17... cxd5 { [%eval -1.1] } 18. Be2 $2
+{ [%eval -2.42] } 18... Bxc5 $6 { [%eval -1.54] } 19. a4 $2 { [%eval -2.85] }
+19... d4 $2 { [%eval -1.0] } 20. Bb5 { [%eval -0.94] } 20... c6
+{ [%eval -0.94] } 21. exd4 $4 { [%eval -9.06] } 21... Bxd4+ { [%eval -8.8] }
+22. Kh1 { [%eval -8.85] } 22... a6 $4 { [%eval -5.72] } 23. fxe5 $2
+{ [%eval -8.17] } 23... f5 $4 { [%eval -0.57] } 24. Rxf5 $4 { [%eval -10.75] }
+24... gxf5 $4 { [%eval -5.56] } 25. Qh5+ $4 { [%eval -12.71] } 25... Bf7
+{ [%eval -12.44] } 26. e6 { [%eval -13.48] } 26... Qxe6 { [%eval -13.15] } 27.
+Bxc6+ { [%eval -18.27] } 27... Qxc6 { [%eval -17.68] } 0-1

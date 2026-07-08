@@ -1,0 +1,38 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/yO91vQ4E"]
+[Date "????.??.??"]
+[Round "?"]
+[White "TAMTAM21"]
+[Black "cane44"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "15:20:47"]
+[WhiteElo "1917"]
+[BlackElo "1822"]
+[WhiteRatingDiff "-13"]
+[BlackRatingDiff "+14"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.13] } 1... d5 { [%eval 0.08] } 2. e3 { [%eval 0.14] } 2... c6
+{ [%eval 0.24] } 3. Nf3 { [%eval 0.22] } 3... Bf5 { [%eval 0.27] } 4. Bd3
+{ [%eval 0.14] } 4... Bg6 { [%eval 0.26] } 5. Bxg6 { [%eval 0.25] } 5... hxg6
+{ [%eval 0.31] } 6. h3 { [%eval 0.26] } 6... Nf6 { [%eval 0.3] } 7. Nbd2
+{ [%eval 0.37] } 7... e6 { [%eval 0.37] } 8. b3 { [%eval 0.11] } 8... Bd6
+{ [%eval 0.18] } 9. Bb2 { [%eval 0.12] } 9... Nbd7 { [%eval 0.25] } 10. c4
+{ [%eval -0.06] } 10... Qe7 { [%eval 0.28] } 11. Qc2 { [%eval 0.21] } 11... e5
+{ [%eval 0.29] } 12. dxe5 { [%eval 0.15] } 12... Nxe5 { [%eval 0.17] } 13. Nxe5
+{ [%eval -0.02] } 13... Bxe5 { [%eval 0.04] } 14. O-O-O $6 { [%eval -0.73] }
+14... Bxb2+ { [%eval -0.54] } 15. Qxb2 $6 { [%eval -1.13] } 15... b5 $6
+{ [%eval -0.34] } 16. cxd5 { [%eval -0.44] } 16... cxd5 { [%eval -0.32] } 17.
+Kb1 { [%eval -0.41] } 17... a5 { [%eval -0.3] } 18. Nf3 $6 { [%eval -0.85] }
+18... a4 $2 { [%eval 0.17] } 19. Rhe1 $2 { [%eval -2.08] } 19... axb3
+{ [%eval -1.84] } 20. Qxb3 { [%eval -2.25] } 20... O-O { [%eval -2.25] } 21.
+Nd4 $6 { [%eval -3.06] } 21... Ra3 $2 { [%eval -1.97] } 22. Qb2
+{ [%eval -1.8] } 22... Rfa8 $6 { [%eval -1.01] } 23. Rd2 $4 { [%eval -4.65] }
+23... Ne4 { [%eval -4.5] } 24. Rc2 { [%eval -4.24] } 24... Rxa2
+{ [%eval -4.03] } 25. Qxa2 { [%eval -3.74] } 25... Rxa2 $2 { [%eval -2.03] }
+26. Rxa2 $4 { [%eval -15.03] } 26... Qb4+ { [%eval -14.27] } 27. Rb2
+{ [%eval -14.74] } 27... Qxe1+ { [%eval -12.2] } 0-1

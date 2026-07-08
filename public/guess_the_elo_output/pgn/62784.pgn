@@ -1,0 +1,36 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/oIP59Hu8"]
+[Date "????.??.??"]
+[Round "?"]
+[White "akilez_sse"]
+[Black "Art_Vandelay"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:15:54"]
+[WhiteElo "2179"]
+[BlackElo "2011"]
+[WhiteRatingDiff "+24"]
+[BlackRatingDiff "-6"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game #2"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. e3 { [%eval 0.08] } 1... d5 { [%eval 0.13] } 2. d4 { [%eval 0.12] } 2... c5
+{ [%eval 0.13] } 3. Nf3 { [%eval 0.13] } 3... Nf6 { [%eval 0.16] } 4. Bb5+
+{ [%eval 0.13] } 4... Nc6 { [%eval 0.27] } 5. Nc3 $6 { [%eval -0.24] } 5... Bg4
+{ [%eval -0.08] } 6. O-O { [%eval -0.27] } 6... e6 { [%eval -0.2] } 7. h3
+{ [%eval -0.33] } 7... Bh5 { [%eval -0.18] } 8. Bd2 { [%eval -0.6] } 8... Be7
+$6 { [%eval -0.07] } 9. Be2 $6 { [%eval -1.06] } 9... O-O $6 { [%eval -0.37] }
+10. Ne5 { [%eval -0.4] } 10... Bxe2 { [%eval -0.47] } 11. Qxe2 { [%eval -0.7] }
+11... Qc7 { [%eval -0.54] } 12. Nxc6 { [%eval -0.5] } 12... bxc6
+{ [%eval -0.27] } 13. Rab1 { [%eval -0.58] } 13... cxd4 { [%eval -0.51] } 14.
+exd4 { [%eval -0.34] } 14... a5 { [%eval -0.26] } 15. Bg5 { [%eval -0.37] }
+15... c5 { [%eval -0.13] } 16. dxc5 { [%eval -0.08] } 16... Qxc5
+{ [%eval -0.14] } 17. Rfc1 { [%eval -0.4] } 17... Rfb8 { [%eval -0.07] } 18.
+Nd1 $6 { [%eval -0.74] } 18... Ne4 $6 { [%eval -0.04] } 19. Bxe7
+{ [%eval -0.09] } 19... Qxe7 { [%eval 0.0] } 20. Ne3 { [%eval -0.45] } 20...
+Qb7 { [%eval -0.29] } 21. b3 $2 { [%eval -2.24] } 21... Qc6 $2
+{ [%eval -0.47] } 22. Rb2 $6 { [%eval -1.26] } 22... Rb7 $6 { [%eval -0.37] }
+23. c4 { [%eval -0.44] } 23... dxc4 $4 { [%eval 3.78] } 24. Rxc4
+{ [%eval 3.48] } 24... Qb5 $6 { [%eval 4.42] } 25. Rxe4 { [%eval 4.29] } 1-0

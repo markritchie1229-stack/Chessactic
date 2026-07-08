@@ -1,0 +1,37 @@
+[Event "Rated Blitz game"]
+[Site "https://lichess.org/nnDGRqig"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Donsalieri"]
+[Black "tomer0066"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:40:39"]
+[WhiteElo "897"]
+[BlackElo "911"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-27"]
+[ECO "C44"]
+[Opening "King's Pawn Game: Tayler Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.14] } 1... e5 { [%eval 0.17] } 2. Nf3 { [%eval 0.22] } 2...
+Nc6 { [%eval 0.37] } 3. Be2 { [%eval 0.02] } 3... d6 { [%eval 0.33] } 4. O-O
+{ [%eval 0.2] } 4... f6 $2 { [%eval 1.47] } 5. h3 $6 { [%eval 0.68] } 5... h5
+$6 { [%eval 1.6] } 6. Nc3 { [%eval 1.22] } 6... h4 { [%eval 1.65] } 7. Nd5
+{ [%eval 1.37] } 7... Nh6 $6 { [%eval 1.94] } 8. Bb5 $6 { [%eval 1.29] } 8...
+a6 { [%eval 1.22] } 9. Bxc6+ $6 { [%eval 0.62] } 9... bxc6 { [%eval 0.8] } 10.
+Nb4 $2 { [%eval -0.51] } 10... c5 $6 { [%eval 0.42] } 11. Nc6 $2
+{ [%eval -1.43] } 11... Qd7 { [%eval -1.27] } 12. Na5 { [%eval -1.35] } 12...
+Bb7 $4 { [%eval 2.37] } 13. Nxb7 { [%eval 2.31] } 13... Qb5 { [%eval 2.34] }
+14. Nxd6+ { [%eval 2.25] } 14... cxd6 { [%eval 2.52] } 15. d3 { [%eval 2.17] }
+15... g5 { [%eval 2.13] } 16. Bd2 { [%eval 1.79] } 16... Bg7 { [%eval 1.93] }
+17. Qe2 { [%eval 1.72] } 17... Qxb2 $2 { [%eval 3.46] } 18. Ba5 $2
+{ [%eval 1.18] } 18... f5 $2 { [%eval 3.99] } 19. Rfb1 { [%eval 4.14] } 19...
+Qa3 { [%eval 4.47] } 20. d4 $4 { [%eval 0.0] } 20... Qxa5 { [%eval 0.0] } 21.
+dxe5 $6 { [%eval -0.53] } 21... dxe5 $2 { [%eval 0.85] } 22. exf5 $2
+{ [%eval -0.6] } 22... Nxf5 $2 { [%eval 0.68] } 23. Nxg5 { [%eval 0.22] } 23...
+Nd4 $4 { [%eval 8.58] } 24. Qxe5+ $4 { [%eval -14.21] } 24... Kf8 $4
+{ [%eval #5] } 25. Qd6+ { [%eval #4] } 25... Ke8 { [%eval #4] } 26. Qe6+ $4
+{ [%eval -14.76] } 26... Kf8 $4 { [%eval #1] } 27. Qf7# 1-0

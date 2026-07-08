@@ -1,0 +1,35 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/deosAlgZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "breizhmasters"]
+[Black "bulut10"]
+[Result "1-0"]
+[UTCDate "2017.02.02"]
+[UTCTime "12:44:09"]
+[WhiteElo "1867"]
+[BlackElo "1854"]
+[WhiteRatingDiff "+11"]
+[BlackRatingDiff "-10"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense"]
+[TimeControl "480+7"]
+[Termination "Normal"]
+
+1. c4 { [%eval -0.01] } 1... Nf6 { [%eval 0.29] } 2. g3 { [%eval -0.04] } 2...
+c6 { [%eval 0.05] } 3. Bg2 { [%eval 0.01] } 3... d5 { [%eval 0.18] } 4. cxd5
+{ [%eval 0.04] } 4... cxd5 { [%eval 0.03] } 5. d4 { [%eval -0.01] } 5... Nc6
+{ [%eval 0.03] } 6. Nc3 { [%eval 0.0] } 6... e6 { [%eval 0.07] } 7. e3
+{ [%eval -0.37] } 7... b6 { [%eval -0.18] } 8. Nge2 { [%eval -0.33] } 8... h5
+$6 { [%eval 0.23] } 9. O-O { [%eval 0.16] } 9... h4 { [%eval 0.16] } 10. e4
+{ [%eval 0.2] } 10... hxg3 { [%eval 0.57] } 11. hxg3 $6 { [%eval -0.09] } 11...
+dxe4 { [%eval 0.16] } 12. Nxe4 { [%eval -0.09] } 12... Nd5 { [%eval 0.35] } 13.
+N2c3 { [%eval 0.44] } 13... Bb7 $6 { [%eval 1.09] } 14. Nxd5 { [%eval 1.01] }
+14... exd5 { [%eval 1.15] } 15. Nc3 { [%eval 0.9] } 15... Ne7 $6
+{ [%eval 1.59] } 16. Qf3 $6 { [%eval 0.73] } 16... f5 $2 { [%eval 3.43] } 17.
+Bg5 { [%eval 2.88] } 17... Qd6 $2 { [%eval 4.45] } 18. Bxe7 $4 { [%eval 1.31] }
+18... Bxe7 { [%eval 1.27] } 19. Rfe1 { [%eval 1.15] } 19... Kf7 $4
+{ [%eval 4.38] } 20. Nxd5 { [%eval 4.25] } 20... Bf6 { [%eval 4.29] } 21. Qxf5
+$2 { [%eval 2.0] } 21... Rad8 $4 { [%eval 7.08] } 22. Re7+ { [%eval 5.32] }
+22... Kg8 $4 { [%eval 9.86] } 23. Nxf6+ $2 { [%eval 6.87] } 23... gxf6 $4
+{ [%eval #2] } 24. Qg6+ { [%eval #1] } 24... Kf8 { [%eval #1] } 25. Qf7# 1-0

@@ -1,0 +1,37 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/l1ayqnHy"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elpequeno"]
+[Black "jmickle"]
+[Result "1-0"]
+[UTCDate "2017.02.03"]
+[UTCTime "17:36:36"]
+[WhiteElo "1484"]
+[BlackElo "1217"]
+[WhiteRatingDiff "+4"]
+[BlackRatingDiff "-4"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Bowdler Attack"]
+[TimeControl "60+0"]
+[Termination "Time forfeit"]
+
+1. e4 { [%eval 0.32] } 1... c5 { [%eval 0.43] } 2. Bc4 $6 { [%eval -0.11] }
+2... e6 { [%eval 0.03] } 3. d4 { [%eval -0.16] } 3... cxd4 { [%eval -0.1] } 4.
+Qxd4 { [%eval -0.05] } 4... Nc6 { [%eval -0.08] } 5. Qd2 { [%eval -0.47] } 5...
+Nf6 { [%eval -0.54] } 6. Nc3 { [%eval -0.41] } 6... Be7 { [%eval 0.08] } 7. Nf3
+{ [%eval 0.08] } 7... a6 $6 { [%eval 0.81] } 8. Qe2 $2 { [%eval -0.23] } 8...
+b5 { [%eval -0.17] } 9. Bb3 { [%eval -0.17] } 9... Na5 $6 { [%eval 0.66] } 10.
+Be3 $2 { [%eval -0.54] } 10... Nxb3 { [%eval -0.15] } 11. axb3
+{ [%eval -0.29] } 11... Bb7 { [%eval -0.12] } 12. Bf4 $2 { [%eval -1.32] }
+12... O-O $6 { [%eval -0.73] } 13. h4 $6 { [%eval -1.72] } 13... h6 $2
+{ [%eval -0.42] } 14. O-O-O $2 { [%eval -1.62] } 14... Nh5 $2 { [%eval -0.57] }
+15. Be3 { [%eval -0.91] } 15... Nf6 { [%eval -0.71] } 16. g4 $2
+{ [%eval -1.92] } 16... Nxe4 { [%eval -1.8] } 17. Nxe4 { [%eval -2.23] } 17...
+Bxe4 { [%eval -2.19] } 18. Rdg1 $6 { [%eval -3.01] } 18... Bxf3 $2
+{ [%eval -0.28] } 19. Qxf3 { [%eval -0.28] } 19... Rc8 { [%eval -0.16] } 20. g5
+{ [%eval -0.18] } 20... h5 { [%eval 0.29] } 21. Qxh5 { [%eval 0.23] } 21... g6
+$2 { [%eval 1.75] } 22. Qg4 $2 { [%eval 0.69] } 22... Bd6 $6 { [%eval 1.58] }
+23. h5 { [%eval 1.66] } 23... Bb4 $4 { [%eval 8.35] } 24. hxg6 { [%eval 8.14] }
+24... Qc7 { [%eval 8.04] } 25. gxf7+ $4 { [%eval 3.52] } 25... Rxf7 $2
+{ [%eval 5.88] } 26. c3 $4 { [%eval 0.0] } 1-0

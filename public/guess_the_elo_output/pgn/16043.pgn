@@ -1,0 +1,33 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/4bA0NtxK"]
+[Date "????.??.??"]
+[Round "?"]
+[White "HailRahul"]
+[Black "Nickalya"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "17:38:40"]
+[WhiteElo "1444"]
+[BlackElo "1300"]
+[WhiteRatingDiff "+18"]
+[BlackRatingDiff "-8"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Extended Bishop Swap"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.08] } 1... e6 { [%eval 0.19] } 2. d4 { [%eval 0.16] } 2... d5
+{ [%eval 0.12] } 3. e5 { [%eval -0.03] } 3... Bd7 { [%eval 0.14] } 4. Nf3
+{ [%eval 0.12] } 4... h5 $6 { [%eval 0.71] } 5. c3 { [%eval 0.75] } 5... h4
+{ [%eval 1.08] } 6. h3 { [%eval 0.97] } 6... c5 { [%eval 1.02] } 7. Bg5
+{ [%eval 0.56] } 7... Qc7 { [%eval 0.79] } 8. Be2 { [%eval 0.84] } 8... c4 $6
+{ [%eval 1.63] } 9. Bxh4 { [%eval 1.23] } 9... Nh6 $6 { [%eval 1.81] } 10. O-O
+$6 { [%eval 1.3] } 10... Nf5 { [%eval 1.5] } 11. Bg5 { [%eval 1.5] } 11... Rh5
+$2 { [%eval 2.85] } 12. g4 { [%eval 2.45] } 12... Rxh3 $2 { [%eval 3.55] } 13.
+gxf5 { [%eval 3.5] } 13... exf5 { [%eval 3.95] } 14. Kg2 { [%eval 3.97] } 14...
+Rh5 { [%eval 3.97] } 15. Rh1 { [%eval 3.76] } 15... Rxh1 { [%eval 3.84] } 16.
+Qxh1 { [%eval 3.83] } 16... Nc6 { [%eval 3.93] } 17. b3 { [%eval 3.87] } 17...
+Ne7 { [%eval 4.22] } 18. bxc4 { [%eval 4.11] } 18... dxc4 { [%eval 4.11] } 19.
+Nbd2 { [%eval 3.79] } 19... f4 $2 { [%eval 6.02] } 20. Bxc4 { [%eval 5.86] }
+20... f6 $4 { [%eval 13.72] } 21. exf6 { [%eval 13.15] } 21... Ng6 $6
+{ [%eval #1] } 22. f7# 1-0

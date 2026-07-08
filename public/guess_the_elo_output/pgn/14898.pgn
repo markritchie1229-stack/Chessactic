@@ -1,0 +1,34 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/zPv0sOiS"]
+[Date "????.??.??"]
+[Round "?"]
+[White "franchoi42"]
+[Black "Master_Silver"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:50:34"]
+[WhiteElo "1469"]
+[BlackElo "1268"]
+[WhiteRatingDiff "+27"]
+[BlackRatingDiff "-5"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "1200+0"]
+[Termination "Normal"]
+
+1. d4 { [%eval 0.32] } 1... d5 { [%eval 0.31] } 2. Nf3 { [%eval 0.11] } 2... f6
+$6 { [%eval 1.08] } 3. Nc3 { [%eval 0.89] } 3... Bd7 $6 { [%eval 1.83] } 4. Bf4
+$2 { [%eval 0.81] } 4... e6 { [%eval 0.88] } 5. e3 $6 { [%eval 0.2] } 5... Nc6
+{ [%eval 0.41] } 6. Bd3 { [%eval 0.63] } 6... g5 $2 { [%eval 2.01] } 7. O-O $4
+{ [%eval -1.79] } 7... g4 $4 { [%eval 1.24] } 8. Nd2 { [%eval 1.1] } 8... h5 $2
+{ [%eval 2.14] } 9. g3 $2 { [%eval 0.65] } 9... e5 $4 { [%eval 5.19] } 10. dxe5
+$4 { [%eval 1.9] } 10... fxe5 $4 { [%eval 11.65] } 11. Nxd5 $4 { [%eval 0.16] }
+11... exf4 $4 { [%eval #1] } 12. Nxf4 $4 { [%eval -1.31] } 12... Nge7
+{ [%eval -1.1] } 13. f3 { [%eval -1.5] } 13... Ne5 { [%eval -1.31] } 14. fxg4
+$6 { [%eval -1.84] } 14... Nxg4 $2 { [%eval 0.84] } 15. Ng6 $6 { [%eval 0.02] }
+15... Nxe3 $4 { [%eval 9.29] } 16. Qf3 $4 { [%eval 2.81] } 16... Bg4 $4
+{ [%eval 7.15] } 17. Qf7+ $4 { [%eval 2.96] } 17... Kd7 { [%eval 3.05] } 18.
+Ne5+ $4 { [%eval -1.41] } 18... Kc8 { [%eval -1.52] } 19. Rfc1 $2
+{ [%eval -2.61] } 19... Nxc2 $4 { [%eval 1.08] } 20. Rxc2 { [%eval 1.2] } 20...
+Qd4+ $2 { [%eval 2.48] } 21. Kh1 { [%eval 2.31] } 21... Qe3 $4 { [%eval #1] }
+22. Qe8# 1-0

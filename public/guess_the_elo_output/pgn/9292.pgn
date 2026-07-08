@@ -1,0 +1,35 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/UQTA4i2b"]
+[Date "????.??.??"]
+[Round "?"]
+[White "akrom4"]
+[Black "Mostafa_R"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "12:18:44"]
+[WhiteElo "2207"]
+[BlackElo "2052"]
+[WhiteRatingDiff "+6"]
+[BlackRatingDiff "-7"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Ross Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.2] } 1... e5 $6 { [%eval 0.98] } 2. Nxe5 { [%eval 0.97] }
+2... d6 { [%eval 1.14] } 3. Nd3 { [%eval 0.65] } 3... Nc6 { [%eval 0.77] } 4.
+Nf4 { [%eval 0.81] } 4... Nf6 { [%eval 1.26] } 5. d4 $6 { [%eval 0.61] } 5...
+Be7 { [%eval 0.91] } 6. Nc3 { [%eval 0.9] } 6... O-O $6 { [%eval 1.56] } 7. e3
+$6 { [%eval 0.91] } 7... Re8 { [%eval 1.01] } 8. Be2 { [%eval 0.97] } 8... Bf5
+$2 { [%eval 1.98] } 9. a3 $6 { [%eval 1.45] } 9... d5 { [%eval 1.69] } 10. Nd3
+$6 { [%eval 0.75] } 10... Bd6 { [%eval 0.76] } 11. Bd2 { [%eval 0.68] } 11...
+Qd7 { [%eval 0.83] } 12. h3 { [%eval 0.81] } 12... Re7 $6 { [%eval 1.33] } 13.
+Nb5 { [%eval 1.27] } 13... a6 { [%eval 1.41] } 14. Nxd6 { [%eval 1.29] } 14...
+cxd6 { [%eval 1.32] } 15. Nc1 { [%eval 1.18] } 15... Ne4 { [%eval 1.21] } 16.
+Nb3 $6 { [%eval 0.52] } 16... Nxf2 $2 { [%eval 3.45] } 17. Kxf2
+{ [%eval 3.52] } 17... Rae8 { [%eval 3.93] } 18. Rf1 { [%eval 3.93] } 18...
+Bxh3 $2 { [%eval 6.08] } 19. gxh3 { [%eval 5.95] } 19... Qxh3 { [%eval 5.97] }
+20. Bf3 { [%eval 5.72] } 20... Qh2+ $6 { [%eval 6.58] } 21. Bg2
+{ [%eval 6.47] } 21... Re4 $4 { [%eval 13.25] } 22. Qf3 $2 { [%eval 7.48] }
+22... Qh4+ { [%eval 7.39] } 23. Kg1 $6 { [%eval 6.56] } 23... Rg4 $4
+{ [%eval #2] } 24. Qxf7+ { [%eval #1] } 1-0

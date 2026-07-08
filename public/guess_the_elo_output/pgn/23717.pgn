@@ -1,0 +1,38 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/d1Ef2nJu"]
+[Date "????.??.??"]
+[Round "?"]
+[White "Emchik92"]
+[Black "Edgardinho"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "23:14:45"]
+[WhiteElo "1199"]
+[BlackElo "931"]
+[WhiteRatingDiff "-17"]
+[BlackRatingDiff "+35"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Anti-Torre"]
+[TimeControl "900+15"]
+[Termination "Normal"]
+
+1. Nf3 { [%eval 0.13] } 1... d5 { [%eval 0.15] } 2. d4 { [%eval 0.07] } 2...
+Bg4 { [%eval 0.42] } 3. Nc3 { [%eval 0.04] } 3... c6 $6 { [%eval 0.54] } 4. Ne5
+{ [%eval 0.37] } 4... h5 { [%eval 0.78] } 5. e4 $4 { [%eval -7.62] } 5... a5 $4
+{ [%eval 1.6] } 6. Qd2 { [%eval 1.15] } 6... f6 $6 { [%eval 2.0] } 7. Nxg4
+{ [%eval 1.97] } 7... hxg4 { [%eval 2.03] } 8. e5 $2 { [%eval 0.71] } 8... Ra6
+$2 { [%eval 2.47] } 9. exf6 { [%eval 2.06] } 9... exf6 { [%eval 2.04] } 10. Be2
+{ [%eval 1.7] } 10... Rb6 { [%eval 2.01] } 11. Bxg4 { [%eval 2.08] } 11... c5
+$6 { [%eval 3.02] } 12. Qe2+ { [%eval 2.95] } 12... Kf7 { [%eval 2.95] } 13.
+Bh5+ $2 { [%eval 1.13] } 13... g6 { [%eval 1.24] } 14. Bg4 $6 { [%eval 0.29] }
+14... Rb4 $2 { [%eval 2.96] } 15. dxc5 $6 { [%eval 2.41] } 15... Rxg4 $6
+{ [%eval 3.28] } 16. Qxg4 { [%eval 3.36] } 16... g5 $2 { [%eval 5.14] } 17. O-O
+$2 { [%eval 3.73] } 17... Rh4 $2 { [%eval 5.13] } 18. Qf5 $6 { [%eval 4.17] }
+18... Rf4 $4 { [%eval 13.66] } 19. Qh7+ { [%eval 12.3] } 19... Ke8
+{ [%eval 21.54] } 20. Re1+ { [%eval 21.22] } 20... Re4 { [%eval 21.1] } 21.
+Rxe4+ { [%eval 11.54] } 21... Be7 $6 { [%eval #9] } 22. Qxg8+ { [%eval #8] }
+22... Kd7 { [%eval #8] } 23. Qxd5+ $6 { [%eval 22.75] } 23... Bd6 $6
+{ [%eval #6] } 24. Qxd6+ { [%eval #11] } 24... Kc8 { [%eval #11] } 25. Rd4 $6
+{ [%eval 25.31] } 25... Nd7 $6 { [%eval #3] } 26. Nb5 { [%eval #2] } 26... Qe8
+{ [%eval #1] } 27. Na7+ $6 { [%eval #4] } 27... Kd8 { [%eval #4] } 28. c6 $4
+{ [%eval #-1] } 28... Qe1# 0-1

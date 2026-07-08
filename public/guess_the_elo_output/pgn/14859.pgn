@@ -1,0 +1,41 @@
+[Event "Rated Classical game"]
+[Site "https://lichess.org/yIxXpOno"]
+[Date "????.??.??"]
+[Round "?"]
+[White "pit53"]
+[Black "fearge"]
+[Result "0-1"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:48:56"]
+[WhiteElo "1896"]
+[BlackElo "1958"]
+[WhiteRatingDiff "-8"]
+[BlackRatingDiff "+9"]
+[ECO "C50"]
+[Opening "Giuoco Piano"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.24] } 1... e5 { [%eval 0.38] } 2. Nf3 { [%eval 0.29] } 2...
+Nc6 { [%eval 0.2] } 3. Bc4 { [%eval 0.27] } 3... Bc5 { [%eval 0.14] } 4. O-O
+{ [%eval 0.22] } 4... Nf6 { [%eval 0.2] } 5. d3 { [%eval 0.27] } 5... d5
+{ [%eval 0.29] } 6. exd5 { [%eval 0.42] } 6... Nxd5 { [%eval 0.45] } 7. Re1
+{ [%eval 0.52] } 7... f6 $6 { [%eval 1.16] } 8. a3 { [%eval 0.83] } 8... Be6
+{ [%eval 0.68] } 9. b4 { [%eval 0.25] } 9... Bd4 { [%eval 0.38] } 10. Nxd4
+{ [%eval 0.36] } 10... Nxd4 { [%eval 0.55] } 11. c3 { [%eval 0.41] } 11... Nc6
+{ [%eval 0.59] } 12. Bb5 $6 { [%eval -0.02] } 12... Qd6 { [%eval 0.25] } 13. d4
+{ [%eval -0.18] } 13... exd4 { [%eval 0.23] } 14. Bxc6+ $6 { [%eval -0.34] }
+14... Qxc6 { [%eval -0.26] } 15. cxd4 { [%eval -0.61] } 15... O-O
+{ [%eval -0.39] } 16. Bb2 $6 { [%eval -1.08] } 16... Rad8 { [%eval -0.72] } 17.
+Nd2 { [%eval -0.92] } 17... Nf4 { [%eval -0.65] } 18. f3 $2 { [%eval -2.14] }
+18... Nd3 { [%eval -2.03] } 19. Rxe6 $4 { [%eval -6.89] } 19... Qxe6
+{ [%eval -6.72] } 20. Qc2 $4 { [%eval #-5] } 20... Nxb2 $4 { [%eval -3.65] }
+21. Qxb2 { [%eval -3.7] } 21... Qe3+ { [%eval -3.54] } 22. Kh1
+{ [%eval -3.91] } 22... Rxd4 { [%eval -3.73] } 23. Nf1 { [%eval -3.87] } 23...
+Qd3 { [%eval -3.69] } 24. h3 { [%eval -3.91] } 24... Rfd8 { [%eval -3.71] } 25.
+Kh2 { [%eval -4.09] } 25... Qf5 { [%eval -3.77] } 26. Ng3 $6 { [%eval -4.34] }
+26... Qe5 { [%eval -4.2] } 27. Qf2 $6 { [%eval -4.7] } 27... h5
+{ [%eval -4.38] } 28. h4 $4 { [%eval #-21] } 28... Rxh4+ { [%eval #-21] } 29.
+Kg1 { [%eval -15.3] } 29... Qxa1+ { [%eval #-30] } 30. Nf1 { [%eval -127.61] }
+30... Rd1 { [%eval -56.69] } 31. Qxh4 $6 { [%eval #-4] } 31... Rxf1+
+{ [%eval #-3] } 32. Kh2 { [%eval #-3] } 32... Rh1+ { [%eval #-2] } 0-1

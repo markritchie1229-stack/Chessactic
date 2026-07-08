@@ -1,0 +1,39 @@
+[Event "Rated Bullet game"]
+[Site "https://lichess.org/XssDk0YZ"]
+[Date "????.??.??"]
+[Round "?"]
+[White "SpockOrie"]
+[Black "GMIGURNYS"]
+[Result "1-0"]
+[UTCDate "2017.02.01"]
+[UTCTime "16:58:19"]
+[WhiteElo "1990"]
+[BlackElo "2012"]
+[WhiteRatingDiff "+12"]
+[BlackRatingDiff "-12"]
+[ECO "C30"]
+[Opening "King's Gambit Declined: Classical, Soldatenkov Variation"]
+[TimeControl "0+1"]
+[Termination "Normal"]
+
+1. e4 { [%eval 0.28] } 1... e5 { [%eval 0.31] } 2. f4 $6 { [%eval -0.56] } 2...
+Bc5 $6 { [%eval 0.27] } 3. Nf3 { [%eval 0.06] } 3... d6 { [%eval 0.25] } 4.
+fxe5 { [%eval -0.16] } 4... dxe5 { [%eval -0.1] } 5. d4 $6 { [%eval -0.68] }
+5... exd4 { [%eval -0.46] } 6. Bd3 $6 { [%eval -1.02] } 6... Nc6
+{ [%eval -1.02] } 7. O-O { [%eval -1.06] } 7... Bg4 { [%eval -0.7] } 8. Qe1
+{ [%eval -0.89] } 8... Bxf3 { [%eval -0.83] } 9. Rxf3 { [%eval -0.81] } 9...
+Nf6 { [%eval -0.5] } 10. Qg3 { [%eval -0.46] } 10... Qe7 $4 { [%eval 4.39] }
+11. Bg5 $4 { [%eval -0.55] } 11... Ne5 { [%eval -0.31] } 12. Rf1
+{ [%eval -0.7] } 12... Nxd3 $2 { [%eval 0.72] } 13. cxd3 { [%eval 0.73] } 13...
+O-O-O $2 { [%eval 2.61] } 14. Nd2 $2 { [%eval 0.75] } 14... Bb6 $4
+{ [%eval 4.06] } 15. Nc4 $2 { [%eval 1.62] } 15... Kb8 $2 { [%eval 4.07] } 16.
+e5 { [%eval 3.88] } 16... h6 $4 { [%eval 7.58] } 17. exf6 { [%eval 7.33] }
+17... gxf6 $6 { [%eval 8.02] } 18. Bxf6 { [%eval 7.85] } 18... Qb4 $6
+{ [%eval 8.57] } 19. Bxd8 { [%eval 8.36] } 19... Rxd8 { [%eval 8.16] } 20. Rac1
+$6 { [%eval 7.65] } 20... a6 $2 { [%eval 8.86] } 21. Nxb6 { [%eval 8.71] }
+21... Qxb6 { [%eval 8.58] } 22. Rc4 $2 { [%eval 6.93] } 22... Rc8
+{ [%eval 7.41] } 23. Rfc1 { [%eval 7.12] } 23... Qxb2 $2 { [%eval 15.88] } 24.
+Rxc7 { [%eval 15.2] } 24... Rxc7 { [%eval 13.7] } 25. Qxc7+ { [%eval 10.66] }
+25... Ka8 $6 { [%eval #7] } 26. Qc2 $2 { [%eval 9.18] } 26... Qb6
+{ [%eval 9.15] } 27. Qc5 { [%eval 8.49] } 27... Qf6 { [%eval 8.93] } 28. Re1
+{ [%eval 8.46] } 28... Qg5 $2 { [%eval #2] } 29. Re8+ { [%eval #1] } 1-0
