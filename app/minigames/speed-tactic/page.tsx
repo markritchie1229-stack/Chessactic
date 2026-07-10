@@ -205,6 +205,7 @@ export default function SpeedTacticPage() {
 
   const { theme } = useTheme();
   const boardTheme = getBoardTheme(theme);
+  const lilacThemeClass = theme.id === "lilac" ? "lilac-text-fix" : "";
 
   const answerOptions = useMemo(() => {
     if (!currentPuzzle) return [];
@@ -507,17 +508,53 @@ export default function SpeedTacticPage() {
   const timerProgress = Math.max(0, Math.min(100, (timeLeft / roundTime) * 100));
 
   return (
-    <main className="min-h-screen text-slate-100" style={{ background: getPageBackground(theme) }}>
+    <main className={`min-h-screen ${lilacThemeClass} text-slate-100`} style={{ background: getPageBackground(theme) }}>
+
+      <style jsx global>{`
+        .lilac-text-fix .text-slate-100 {
+          color: #831843 !important;
+        }
+
+        .lilac-text-fix .text-slate-200 {
+          color: #9f1239 !important;
+        }
+
+        .lilac-text-fix .text-slate-300 {
+          color: #be185d !important;
+        }
+
+        .lilac-text-fix .text-slate-400 {
+          color: #db2777 !important;
+        }
+
+        .lilac-text-fix .text-slate-500 {
+          color: #ec4899 !important;
+        }
+
+        .lilac-text-fix .text-slate-700 {
+          color: #9f1239 !important;
+        }
+
+        .lilac-text-fix .text-slate-950 {
+          color: #831843 !important;
+        }
+      `}</style>
       <div className="mx-auto max-w-7xl px-4 py-6 md:py-10">
         <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900 px-3 py-1 text-sm text-slate-300">
               Speed Tactic
             </div>
-            <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">
-              Guess the tactic before the timer ends
-            </h1>
-            <p className="mt-2 max-w-2xl text-sm text-slate-400 md:text-base">
+            <h1
+  className="text-3xl font-semibold tracking-tight md:text-5xl"
+  style={{ color: theme.id === "lilac" ? "#be185d" : "#f8fafc" }}
+>
+  Guess the tactic before the timer ends
+</h1>
+            <p
+  className="mt-2 max-w-2xl text-sm md:text-base"
+  style={{ color: theme.id === "lilac" ? "#be185d" : "#94a3b8" }}
+>
               Five choices per round. Category order stays balanced, and the clock gets faster every 10 turns.
             </p>
           </div>

@@ -1,12 +1,20 @@
-// AccountSidebar.tsx
 "use client";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
-import { Flag, ShieldAlert } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Flag,
+  PanelLeftClose,
+  PanelLeftOpen,
+  ShieldAlert,
+} from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import { isAdmin } from "@/lib/admin";
+
+const SIDEBAR_STORAGE_KEY = "account-sidebar-collapsed";
 
 export function AccountSidebar() {
   const router = useRouter();
@@ -15,6 +23,34 @@ export function AccountSidebar() {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState("");
   const [saving, setSaving] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  useEffect(() => {
+    setIsHydrated(true);
+
+    try {
+      const saved = window.localStorage.getItem(SIDEBAR_STORAGE_KEY);
+      if (saved === "true") {
+        setIsCollapsed(true);
+      }
+    } catch {
+      // Ignore storage errors.
+    }
+  }, []);
+
+  useEffect(() => {
+    if (!isHydrated) return;
+
+    try {
+      window.localStorage.setItem(
+        SIDEBAR_STORAGE_KEY,
+        String(isCollapsed),
+      );
+    } catch {
+      // Ignore storage errors.
+    }
+  }, [isCollapsed, isHydrated]);
 
   useEffect(() => {
     const loadSession = async () => {
@@ -149,12 +185,49 @@ export function AccountSidebar() {
   const currentUserIsAdmin = isAdmin(session?.user.id);
 
   return (
-    <aside className="w-full rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
-      <div className="text-sm uppercase tracking-wide text-slate-400">
-        Account
+    <aside
+      className={`rounded-3xl border border-slate-800 bg-slate-900/80 shadow-lg transition-all duration-300 ${
+        isCollapsed ? "w-20 p-3" : "w-full p-5"
+      }`}
+    >
+      <div className="flex items-center justify-between gap-3">
+        {!isCollapsed ? (
+          <div className="text-sm uppercase tracking-wide text-slate-400">
+            Account
+          </div>
+        ) : (
+          <div className="flex h-10 w-10 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950/60 text-slate-300">
+            A
+          </div>
+        )}
+
+        <button
+          type="button"
+          onClick={() => setIsCollapsed((prev) => !prev)}
+          className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-slate-200 transition hover:bg-slate-800"
+          aria-label={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+          title={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+        >
+          {isCollapsed ? (
+            <PanelLeftOpen className="h-4 w-4" />
+          ) : (
+            <PanelLeftClose className="h-4 w-4" />
+          )}
+        </button>
       </div>
 
-      {session ? (
+      {isCollapsed ? (
+        <div className="mt-4 flex flex-col items-center gap-2">
+          <button
+            onClick={() => setIsCollapsed(false)}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-slate-800 bg-slate-950 text-slate-200 transition hover:bg-slate-800"
+            aria-label="Expand sidebar"
+            title="Expand sidebar"
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+        </div>
+      ) : session ? (
         <div className="mt-4 space-y-4">
           <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
             <div className="flex items-center gap-2 text-sm text-slate-400">

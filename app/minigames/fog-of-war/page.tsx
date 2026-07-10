@@ -88,6 +88,7 @@ function moveHeuristic(move: { from: string; to: string; piece?: string; capture
 export default function FogOfWarPage() {
   const { theme } = useTheme();
   const boardTheme = getBoardTheme(theme);
+  const lilacThemeClass = theme.id === "lilac" ? "lilac-text-fix" : "";
 
   const [elo, setElo] = useState(1200);
   const [gameElo, setGameElo] = useState<number | null>(null);
@@ -331,7 +332,37 @@ export default function FogOfWarPage() {
   }, [started]);
 
   return (
-    <main className="min-h-screen text-slate-100" style={{ background: getPageBackground(theme) }}>
+    <main className={`min-h-screen ${lilacThemeClass} text-slate-100`} style={{ background: getPageBackground(theme) }}>
+
+      <style jsx global>{`
+        .lilac-text-fix .text-slate-100 {
+          color: #831843 !important;
+        }
+
+        .lilac-text-fix .text-slate-200 {
+          color: #9f1239 !important;
+        }
+
+        .lilac-text-fix .text-slate-300 {
+          color: #be185d !important;
+        }
+
+        .lilac-text-fix .text-slate-400 {
+          color: #db2777 !important;
+        }
+
+        .lilac-text-fix .text-slate-500 {
+          color: #ec4899 !important;
+        }
+
+        .lilac-text-fix .text-slate-700 {
+          color: #9f1239 !important;
+        }
+
+        .lilac-text-fix .text-slate-950 {
+          color: #831843 !important;
+        }
+      `}</style>
       <div className="pointer-events-none fixed inset-0" style={{ background: getHeaderGlow(theme), opacity: 0.9 }} />
 
       <div className="mx-auto max-w-7xl px-4 py-6 md:py-10">
@@ -350,7 +381,12 @@ export default function FogOfWarPage() {
               Back
             </Link>
 
-            <h1 className="mt-4 text-3xl font-semibold tracking-tight md:text-5xl">Fog of War</h1>
+            <h1
+  className="mt-4 text-3xl font-semibold tracking-tight md:text-5xl"
+  style={{ color: theme.id === "lilac" ? "#be185d" : "#f8fafc" }}
+>
+  Fog of War
+</h1>
             <p className="mt-2 max-w-2xl text-sm text-slate-300 md:text-base">
               Play White, and after each move Stockfish replies. Fog squares are now fully opaque.
             </p>

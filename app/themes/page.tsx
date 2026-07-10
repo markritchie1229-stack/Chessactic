@@ -18,9 +18,15 @@ export default function ThemesPage() {
   const router = useRouter();
   const { themeId, theme, setTheme } = useTheme();
 
+  const primaryText = themeId === "lilac" ? "#831843" : "#f8fafc";
+  const secondaryText = themeId === "lilac" ? "#9f1239" : "#94a3b8";
+  const mutedText = themeId === "lilac" ? "#be185d" : "#64748b";
+  const panelText = themeId === "lilac" ? "#9f1239" : "#cbd5e1";
+  const buttonText = themeId === "lilac" ? "#9f1239" : "#f8fafc";
+
   return (
     <main
-      className="min-h-screen text-slate-100 transition-colors duration-300"
+      className="min-h-screen transition-colors duration-300"
       style={{
         background:
           themeId === "forged-kings"
@@ -28,6 +34,7 @@ export default function ThemesPage() {
             : themeId === "lilac"
               ? "linear-gradient(180deg, #fff7fb 0%, #ffe8f2 100%)"
               : "linear-gradient(180deg, #020617 0%, #0f172a 100%)",
+        color: primaryText,
       }}
     >
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col px-4 py-6 md:px-6 md:py-10">
@@ -35,7 +42,8 @@ export default function ThemesPage() {
           <button
             type="button"
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+            className="inline-flex items-center gap-2 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-2 text-sm font-medium transition hover:bg-slate-800"
+            style={{ color: buttonText }}
           >
             <ArrowLeft className="h-4 w-4" />
             Back
@@ -60,13 +68,13 @@ export default function ThemesPage() {
         <div className="mb-8 max-w-3xl">
           <h1
             className="text-3xl font-semibold tracking-tight md:text-5xl"
-            style={{ color: themeId === "lilac" ? "#831843" : "#f8fafc" }}
+            style={{ color: primaryText }}
           >
             Choose your theme
           </h1>
           <p
             className="mt-3 text-sm leading-6 md:text-base"
-            style={{ color: themeId === "lilac" ? "#9f1239" : "#94a3b8" }}
+            style={{ color: secondaryText }}
           >
             Your theme changes the board, pieces, backgrounds, and mini games across the app.
           </p>
@@ -86,7 +94,7 @@ export default function ThemesPage() {
                   : "linear-gradient(135deg, rgba(15,23,42,0.96) 0%, rgba(2,6,23,0.98) 100%)";
 
             const titleColor =
-              card.id === "lilac" ? "#9f1239" : isActive ? "#f8fafc" : "#f8fafc";
+              card.id === "lilac" ? "#9f1239" : "#f8fafc";
 
             const textColor =
               card.id === "lilac" ? "#be185d" : "#94a3b8";
@@ -101,9 +109,7 @@ export default function ThemesPage() {
                 disabled={isComingSoon}
                 className={[
                   "group rounded-[2rem] border p-5 text-left shadow-lg transition",
-                  isActive
-                    ? "shadow-black/30"
-                    : "hover:bg-slate-800",
+                  isActive ? "shadow-black/30" : "hover:bg-slate-800",
                   isComingSoon ? "cursor-not-allowed opacity-75" : "",
                 ].join(" ")}
                 style={{
@@ -116,7 +122,10 @@ export default function ThemesPage() {
                     <div
                       className="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs uppercase tracking-[0.28em]"
                       style={{
-                        borderColor: card.id === "lilac" ? "rgba(236,72,153,0.25)" : "rgba(51,65,85,1)",
+                        borderColor:
+                          card.id === "lilac"
+                            ? "rgba(236,72,153,0.25)"
+                            : "rgba(51,65,85,1)",
                         background:
                           card.id === "lilac"
                             ? "rgba(255,255,255,0.7)"
@@ -151,10 +160,7 @@ export default function ThemesPage() {
                           themeId === "lilac"
                             ? "rgba(236,72,153,0.12)"
                             : "rgba(16,185,129,0.12)",
-                        color:
-                          themeId === "lilac"
-                            ? "#be185d"
-                            : "#86efac",
+                        color: themeId === "lilac" ? "#be185d" : "#86efac",
                       }}
                     >
                       <CheckCircle2 className="h-4 w-4" />
@@ -226,13 +232,16 @@ export default function ThemesPage() {
                 : "rgba(15,23,42,0.8)",
           }}
         >
-          <div className="text-sm uppercase tracking-wide text-slate-400">
+          <div
+            className="text-sm uppercase tracking-wide"
+            style={{ color: mutedText }}
+          >
             Current theme
           </div>
           <div className="mt-2 text-2xl font-semibold" style={{ color: theme.background.accent }}>
             {theme.name}
           </div>
-          <p className="mt-2 text-sm leading-6 text-slate-400">
+          <p className="mt-2 text-sm leading-6" style={{ color: secondaryText }}>
             This is the theme currently applied across the app.
           </p>
         </div>

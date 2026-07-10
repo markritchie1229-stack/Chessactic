@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 
+import { ClubSidebarShell } from "./ClubSidebarShell";
 import { ClubQuickLinks } from "./ClubQuickLinks";
 import { getClubHeaderStats } from "../_lib/server-queries";
 import type { Club } from "../_lib/types";
@@ -107,13 +108,10 @@ export async function ClubLayout({ club, active, children }: Props) {
           </div>
         </section>
 
-        <div className="mt-6 grid gap-6 lg:grid-cols-[280px_1fr]">
-          <aside className="space-y-6">
-            <ClubQuickLinks base={base} active={active} clubId={club.id} />
-          </aside>
-
-          <main>{children}</main>
-        </div>
+        <div className="mt-6 grid gap-6 lg:grid-cols-[auto_1fr]">
+  <ClubSidebarShell base={base} active={active} clubId={club.id} />
+  <main>{children}</main>
+</div>
       </div>
     </div>
   );
