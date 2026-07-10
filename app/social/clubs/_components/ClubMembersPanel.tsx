@@ -103,7 +103,7 @@ export function ClubMembersPanel({
                     key={member.id}
                     href={
   profile?.username
-    ? `/social/profile/${profile.username.toLowerCase()}`
+    ? `/profile/${encodeURIComponent(profile.username)}`
     : "#"
 }
                     className="flex items-center gap-4 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 transition hover:border-cyan-500 hover:bg-slate-950"

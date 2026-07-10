@@ -1,5 +1,8 @@
 "use client";
 
+import { LegalRail } from "./components/LegalRail";
+import { ReportRail } from "./components/ReportRail";
+import { AdminModerationRail } from "./components/AdminModerationRail";
 import { useEffect, useMemo, useState } from "react";
 import { Chess, type Square } from "chess.js";
 import ChessBoard from "./components/ChessBoard";
@@ -210,7 +213,7 @@ function interleavePuzzleGroups(groups: Puzzle[][]) {
 }
 
 function getSurfaceStyles(themeId: string) {
-  if (themeId === "girly") {
+  if (themeId === "lilac") {
     return {
       page: "linear-gradient(180deg, #fff6fb 0%, #fdeaf4 44%, #f9dceb 100%)",
       panel:
@@ -254,8 +257,8 @@ function getSurfaceStyles(themeId: string) {
 export default function Page() {
   const { theme } = useTheme();
   const surface = getSurfaceStyles(theme.id);
-  const labelColor = theme.id === "girly" ? "#6b7280" : "#94a3b8";
-  const valueColor = theme.id === "girly" ? "#9d174d" : surface.ink;
+  const labelColor = theme.id === "lilac" ? "#6b7280" : "#94a3b8";
+  const valueColor = theme.id === "lilac" ? "#9d174d" : surface.ink;
 
   const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([
     CATEGORIES[0].id,
@@ -563,14 +566,14 @@ export default function Page() {
   };
 
   const selectedButtonClass =
-    theme.id === "girly"
+    theme.id === "lilac"
       ? "border-pink-200/80 bg-pink-50 text-pink-950 shadow-sm shadow-pink-200/40"
       : theme.id === "standard"
         ? "border-blue-100 bg-blue-50 text-slate-950 shadow-sm shadow-blue-200/40"
         : "border-amber-100 bg-amber-50 text-slate-950 shadow-sm shadow-amber-200/40";
 
   const unselectedButtonClass =
-    theme.id === "girly"
+    theme.id === "lilac"
       ? "border-pink-200/60 bg-white/70 text-slate-700 hover:bg-pink-50"
       : theme.id === "standard"
         ? "border-slate-700 bg-slate-900/80 text-slate-100 hover:bg-slate-800"
@@ -590,7 +593,7 @@ export default function Page() {
                 borderColor: surface.panelBorder,
                 background: surface.card,
                 color:
-                  theme.id === "girly"
+                  theme.id === "lilac"
                     ? "#be185d"
                     : theme.id === "standard"
                       ? "#e2e8f0"
@@ -643,13 +646,13 @@ export default function Page() {
               className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium transition disabled:opacity-50"
               style={{
                 color:
-                  theme.id === "girly"
+                  theme.id === "lilac"
                     ? "#9d174d"
                     : theme.id === "standard"
                       ? "#0f172a"
                       : "#0f172a",
                 background:
-                  theme.id === "girly"
+                  theme.id === "lilac"
                     ? "linear-gradient(180deg, #fff 0%, #ffe4f1 100%)"
                     : "linear-gradient(180deg, #fff5d6 0%, #f0d9b5 100%)",
                 boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
@@ -695,6 +698,9 @@ export default function Page() {
             <MiniGamesRail />
             <ThemeRail />
             <DailyRail />
+            <ReportRail />
+            <LegalRail />
+  <AdminModerationRail />
           </div>
 
           <div
@@ -800,18 +806,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <button
-                onClick={() => setShowHint(true)}
-                disabled={showHint || !puzzle}
-                className="mt-4 inline-flex items-center gap-2 rounded-2xl border px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50"
-                style={{
-                  borderColor: surface.panelBorder,
-                  background: surface.control,
-                  color: surface.ink,
-                }}
-              >
-                Show hint
-              </button>
+              
             </div>
 
             <div

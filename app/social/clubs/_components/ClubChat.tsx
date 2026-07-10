@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState, useTransition } from "react";
-import { Loader2, Send } from "lucide-react";
+import { Loader2, Send, X } from "lucide-react";
 
+import { deleteClubComment, postComment } from "../_lib/server-actions";
 import { supabase } from "@/lib/supabase";
 import { useCurrentClubMember } from "../_lib/useCurrentClubMember";
 import type { ClubComment } from "../_lib/types";
@@ -19,6 +20,13 @@ type ProfileRow = {
   avatar_url: string | null;
 };
 
+const MODERATOR_RANKS = new Set([
+  "leader",
+  "co_leader",
+  "senior_admin",
+  "admin",
+]);
+
 function formatDate(value: string | null | undefined) {
   if (!value) return "—";
 
@@ -32,17 +40,17 @@ function formatDate(value: string | null | undefined) {
 }
 
 export function ClubChat({ clubId, comments }: Props) {
-  const { member, loading, error: membershipError } =
-    useCurrentClubMember(clubId);
+  const { member, loading, error: membershipError } = useCurrentClubMember(clubId);
 
-  const [visibleComments, setVisibleComments] =
-    useState<ClubComment[]>(comments);
+  const [visibleComments, setVisibleComments] = useState<ClubComment[]>(comments);
   const [body, setBody] = useState("");
   const [localError, setLocalError] = useState("");
   const [isPending, startTransition] = useTransition();
+  const [deletingId, setDeletingId] = useState<string | null>(null);
   const [profilesById, setProfilesById] = useState<Record<string, ProfileRow>>({});
 
   const canPost = !!member && !member.muted;
+  const canModerate = !!member && MODERATOR_RANKS.has(member.rank);
   const error = localError || membershipError;
 
   const authorIds = useMemo(() => {
@@ -95,46 +103,48 @@ export function ClubChat({ clubId, comments }: Props) {
   }, [authorIds]);
 
   function handleSubmit() {
-    const text = body.trim();
+  const text = body.trim();
 
-    if (!text || !canPost || loading || isPending) {
-      return;
+  if (!text || !canPost || loading || isPending) {
+    return;
+  }
+
+  setLocalError("");
+
+  startTransition(async () => {
+    try {
+      const created = await postComment(clubId, text, null);
+      setVisibleComments((current) => [created, ...current]);
+      setBody("");
+    } catch (err) {
+      setLocalError(
+        err instanceof Error ? err.message : "Failed to post comment.",
+      );
     }
+  });
+}
+
+  async function handleDelete(commentId: string) {
+    if (deletingId === commentId) return;
+
+    const confirmed = window.confirm("Delete this comment?");
+    if (!confirmed) return;
 
     setLocalError("");
+    setDeletingId(commentId);
 
-    startTransition(async () => {
-      try {
-        const {
-          data: { session },
-        } = await supabase.auth.getSession();
-
-        if (!session?.user?.id) {
-          throw new Error("Auth session missing!");
-        }
-
-        const { data, error } = await supabase
-          .from("club_comments")
-          .insert({
-            club_id: clubId,
-            author_id: session.user.id,
-            body: text,
-          })
-          .select("*")
-          .single();
-
-        if (error) {
-          throw new Error(error.message);
-        }
-
-        setVisibleComments((current) => [data as ClubComment, ...current]);
-        setBody("");
-      } catch (err) {
-        setLocalError(
-          err instanceof Error ? err.message : "Failed to post comment.",
-        );
-      }
-    });
+    try {
+      await deleteClubComment(clubId, commentId);
+      setVisibleComments((current) =>
+        current.filter((comment) => comment.id !== commentId),
+      );
+    } catch (err) {
+      setLocalError(
+        err instanceof Error ? err.message : "Failed to delete comment.",
+      );
+    } finally {
+      setDeletingId(null);
+    }
   }
 
   return (
@@ -205,14 +215,34 @@ export function ClubChat({ clubId, comments }: Props) {
               profile?.username?.trim() || comment.author_id || "Member";
 
             const profileHref = profile?.username
-              ? `/social/profile/${profile.username.toLowerCase()}`
+              ? `/profile/${encodeURIComponent(profile.username)}`
               : null;
+
+            const canDeleteThisComment =
+              !!member &&
+              (member.user_id === comment.author_id || canModerate);
 
             return (
               <article
                 key={comment.id}
-                className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4"
+                className="relative rounded-2xl border border-slate-800 bg-slate-950/60 p-4 pr-12"
               >
+                {canDeleteThisComment ? (
+                  <button
+                    type="button"
+                    onClick={() => void handleDelete(comment.id)}
+                    disabled={deletingId === comment.id}
+                    aria-label="Delete comment"
+                    className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-300 disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    {deletingId === comment.id ? (
+                      <Loader2 className="h-4 w-4 animate-spin" />
+                    ) : (
+                      <X className="h-4 w-4" />
+                    )}
+                  </button>
+                ) : null}
+
                 <div className="flex items-center justify-between gap-3">
                   <div className="text-sm font-medium text-slate-100">
                     {profileHref ? (
@@ -231,7 +261,7 @@ export function ClubChat({ clubId, comments }: Props) {
                   </div>
                 </div>
 
-                <p className="mt-2 text-sm leading-6 text-slate-300">
+                <p className="mt-2 whitespace-pre-wrap text-sm leading-6 text-slate-300">
                   {comment.body}
                 </p>
               </article>

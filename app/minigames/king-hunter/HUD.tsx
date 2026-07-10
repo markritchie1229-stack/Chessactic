@@ -36,21 +36,21 @@ export default function HUD({
   const shellBackground =
     theme.id === "forged-kings"
       ? "linear-gradient(135deg, #1a1512 0%, #100d0b 55%, #070605 100%)"
-      : theme.id === "girly"
+      : theme.id === "lilac"
         ? "linear-gradient(135deg, #fff1f8 0%, #ffe4f1 55%, #ffd1e8 100%)"
         : "linear-gradient(135deg, #1e293b 0%, #0f172a 55%, #020617 100%)";
 
   const headerBackground =
     theme.id === "forged-kings"
       ? "radial-gradient(circle at top, rgba(255,244,210,0.06), rgba(255,255,255,0) 58%)"
-      : theme.id === "girly"
+      : theme.id === "lilac"
         ? "radial-gradient(circle at top, rgba(255,255,255,0.5), rgba(255,255,255,0) 58%)"
         : "radial-gradient(circle at top, rgba(59,130,246,0.08), rgba(255,255,255,0) 58%)";
 
   const infoBackground =
     theme.id === "forged-kings"
       ? "radial-gradient(circle at top, rgba(255,170,74,0.12), rgba(0,0,0,0) 60%)"
-      : theme.id === "girly"
+      : theme.id === "lilac"
         ? "radial-gradient(circle at top, rgba(236,72,153,0.10), rgba(0,0,0,0) 60%)"
         : "radial-gradient(circle at top, rgba(59,130,246,0.10), rgba(0,0,0,0) 60%)";
 

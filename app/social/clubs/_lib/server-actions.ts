@@ -1,5 +1,7 @@
 "use server";
 
+import { makeSiteAdminMember } from "./effective-member";
+import { isAdmin } from "@/lib/admin";
 import { revalidatePath } from "next/cache";
 
 import { createSupabaseServerClient } from "./supabase-server";
@@ -24,6 +26,42 @@ import type {
   ClubThread,
   Profile,
 } from "./types";
+
+type ProfileModerationState = {
+  muted_indefinitely: boolean | null;
+  muted_until: string | null;
+  account_status: string | null;
+};
+
+async function assertPostingAllowed(userId: string) {
+  const { supabase } = await getAuthedContext();
+
+  const { data, error } = await supabase
+    .from("profiles")
+    .select("muted_indefinitely,muted_until,account_status")
+    .eq("id", userId)
+    .maybeSingle();
+
+  if (error) throw new Error(error.message);
+
+  const profile = data as ProfileModerationState | null;
+  if (!profile) return;
+
+  if (profile.account_status === "closed") {
+    throw new Error("This account is closed.");
+  }
+
+  if (profile.muted_indefinitely) {
+    throw new Error("You are muted.");
+  }
+
+  if (profile.muted_until) {
+    const until = new Date(profile.muted_until);
+    if (!Number.isNaN(until.getTime()) && until > new Date()) {
+      throw new Error("You are muted.");
+    }
+  }
+}
 
 type ClubJoinPolicy = "open" | "request";
 
@@ -51,8 +89,23 @@ async function getAuthedContext() {
   return { supabase, user };
 }
 
+function makeAdminActor(clubId: string, userId: string): ClubMember {
+  return {
+    id: `site-admin-${clubId}`,
+    club_id: clubId,
+    user_id: userId,
+    rank: "leader",
+    muted: false,
+    created_at: null,
+  };
+}
+
 async function getActorMember(clubId: string): Promise<ClubMember> {
   const { supabase, user } = await getAuthedContext();
+
+  if (isAdmin(user.id)) {
+  return makeSiteAdminMember(clubId, user.id);
+}
 
   const { data, error } = await supabase
     .from("club_members")
@@ -65,11 +118,11 @@ async function getActorMember(clubId: string): Promise<ClubMember> {
     throw new Error(error.message);
   }
 
-  if (!data) {
-    throw new Error("You are not a member of this club.");
+  if (data) {
+    return data as ClubMember;
   }
 
-  return data as ClubMember;
+  throw new Error("You are not a member of this club.");
 }
 
 async function getClub(
@@ -585,6 +638,16 @@ export async function disbandClub(
 
   const { supabase } = await getAuthedContext();
 
+  const { data: club, error: clubError } = await supabase
+    .from("clubs")
+    .select("id,title_search")
+    .eq("id", clubId)
+    .maybeSingle();
+
+  if (clubError) {
+    throw new Error(clubError.message);
+  }
+
   const { error } = await supabase
     .from("clubs")
     .update({ disbanded_at: new Date().toISOString() })
@@ -604,6 +667,17 @@ export async function disbandClub(
   });
 
   revalidatePath("/social/clubs");
+
+  if (club?.title_search) {
+    revalidatePath(`/social/clubs/${club.title_search}`);
+    revalidatePath(`/social/clubs/${club.title_search}/forum`);
+    revalidatePath(`/social/clubs/${club.title_search}/settings`);
+    revalidatePath(`/social/clubs/${club.title_search}/members`);
+    revalidatePath(`/social/clubs/${club.title_search}/invite`);
+    revalidatePath(`/social/clubs/${club.title_search}/settings/audit`);
+  }
+
+  return { status: "disbanded" as const };
 }
 
 export async function promoteMember(
@@ -835,7 +909,7 @@ export async function createThread(
   imageUrl: string | null = null,
 ): Promise<ClubThread> {
   const actor = await getActorMember(clubId);
-
+await assertPostingAllowed(actor.user_id);
   if (!canCreateThread(actor)) {
     throw new Error("You do not have permission to create threads.");
   }
@@ -891,6 +965,137 @@ export async function createThread(
 
   return created;
 }
+const CLUB_CONTENT_MODERATOR_RANKS: ClubRank[] = [
+  "leader",
+  "co_leader",
+  "senior_admin",
+  "admin",
+];
+
+function canModerateClubContent(actor: ClubMember, authorId: string) {
+  return (
+    actor.user_id === authorId ||
+    CLUB_CONTENT_MODERATOR_RANKS.includes(actor.rank)
+  );
+}
+
+export async function deleteClubComment(clubId: string, commentId: string) {
+  const actor = await getActorMember(clubId);
+  const { supabase } = await getAuthedContext();
+
+  const { data: comment, error: commentError } = await supabase
+    .from("club_comments")
+    .select("id,author_id,thread_id")
+    .eq("club_id", clubId)
+    .eq("id", commentId)
+    .maybeSingle();
+
+  if (commentError) {
+    throw new Error(commentError.message);
+  }
+
+  if (!comment) {
+    throw new Error("Comment not found.");
+  }
+
+  if (!canModerateClubContent(actor, comment.author_id)) {
+    throw new Error("You do not have permission to delete this comment.");
+  }
+
+  const { error } = await supabase
+    .from("club_comments")
+    .delete()
+    .eq("club_id", clubId)
+    .eq("id", commentId);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  await logClubAction({
+    clubId,
+    action: "comment_deleted",
+    actorId: actor.user_id,
+    targetUserId: comment.author_id,
+    details: {
+      comment_id: commentId,
+      thread_id: comment.thread_id ?? null,
+    },
+  });
+
+  const club = await getClub(clubId);
+  if (club) {
+    revalidatePath(`/social/clubs/${club.title_search}/forum`);
+    if (comment.thread_id) {
+      revalidatePath(`/social/clubs/${club.title_search}/forum/${comment.thread_id}`);
+    }
+  }
+
+  return { status: "deleted" as const };
+}
+
+export async function deleteClubThread(clubId: string, threadId: string) {
+  const actor = await getActorMember(clubId);
+  const { supabase } = await getAuthedContext();
+
+  const { data: thread, error: threadError } = await supabase
+    .from("club_threads")
+    .select("id,author_id,title")
+    .eq("club_id", clubId)
+    .eq("id", threadId)
+    .maybeSingle();
+
+  if (threadError) {
+    throw new Error(threadError.message);
+  }
+
+  if (!thread) {
+    throw new Error("Thread not found.");
+  }
+
+  if (!canModerateClubContent(actor, thread.author_id)) {
+    throw new Error("You do not have permission to delete this thread.");
+  }
+
+  const { error: deleteCommentsError } = await supabase
+    .from("club_comments")
+    .delete()
+    .eq("club_id", clubId)
+    .eq("thread_id", threadId);
+
+  if (deleteCommentsError) {
+    throw new Error(deleteCommentsError.message);
+  }
+
+  const { error } = await supabase
+    .from("club_threads")
+    .delete()
+    .eq("club_id", clubId)
+    .eq("id", threadId);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  await logClubAction({
+    clubId,
+    action: "thread_deleted",
+    actorId: actor.user_id,
+    targetUserId: thread.author_id,
+    details: {
+      thread_id: threadId,
+      title: thread.title,
+    },
+  });
+
+  const club = await getClub(clubId);
+  if (club) {
+    revalidatePath(`/social/clubs/${club.title_search}/forum`);
+    revalidatePath(`/social/clubs/${club.title_search}/forum/${threadId}`);
+  }
+
+  return { status: "deleted" as const };
+}
 
 export async function postComment(
   clubId: string,
@@ -899,7 +1104,7 @@ export async function postComment(
   imageUrl: string | null = null,
 ): Promise<ClubComment> {
   const actor = await getActorMember(clubId);
-
+await assertPostingAllowed(actor.user_id);
   if (!canComment(actor)) {
     throw new Error("You do not have permission to comment.");
   }
@@ -957,6 +1162,18 @@ export async function postComment(
 export async function leaveClub(clubId: string) {
   const { supabase, user } = await getAuthedContext();
 
+  const club = await getClub(clubId);
+
+  if (!club) {
+    throw new Error("Club not found.");
+  }
+
+  if (isAdmin(user.id)) {
+    revalidatePath(`/social/clubs/${club.title_search}`);
+    revalidatePath("/social/clubs");
+    return { status: "left" as const };
+  }
+
   const { data: member, error: memberError } = await supabase
     .from("club_members")
     .select("*")
@@ -970,12 +1187,6 @@ export async function leaveClub(clubId: string) {
 
   if (!member) {
     throw new Error("You are not a member of this club.");
-  }
-
-  const club = await getClub(clubId);
-
-  if (!club) {
-    throw new Error("Club not found.");
   }
 
   const deleteCurrentMember = async () => {

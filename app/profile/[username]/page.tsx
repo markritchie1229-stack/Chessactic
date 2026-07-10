@@ -17,6 +17,7 @@ import {
   X,
 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
+import { AdminBadge } from "../AdminBadge";
 
 type ProfileRow = {
   id: string;
@@ -45,6 +46,7 @@ type FriendConnectionRow = {
 
 const MAX_AVATAR_SIZE_BYTES = 5 * 1024 * 1024;
 const MAX_BIO_LENGTH = 500;
+const ADMIN_USERNAME = "mark12291229";
 
 type RelationState =
   | "loading"
@@ -94,13 +96,17 @@ function sortPair(a: string, b: string) {
   return a < b ? [a, b] : [b, a];
 }
 
+function escapeLikePattern(value: string) {
+  return value.replace(/[\\%_]/g, "\\$&");
+}
+
 export default function ProfilePage() {
   const router = useRouter();
   const params = useParams<{ username?: string }>();
   const usernameParam = useMemo(() => {
     const raw = params?.username;
     if (typeof raw !== "string") return "";
-    return raw.trim().toLowerCase();
+    return raw.trim();
   }, [params]);
 
   const [session, setSession] = useState<Session | null>(null);
@@ -197,12 +203,14 @@ export default function ProfilePage() {
       return;
     }
 
+    const usernamePattern = escapeLikePattern(usernameParam);
+
     const { data: row, error } = await supabase
       .from("profiles")
       .select(
         "id,username,created_at,last_seen,games_solved,current_streak,longest_streak,puzzle_rating,accuracy,favorite_theme,avatar_url,bio",
       )
-      .eq("username", usernameParam)
+      .ilike("username", usernamePattern)
       .maybeSingle();
 
     if (!mountedRef.current) return;
@@ -317,7 +325,7 @@ export default function ProfilePage() {
     setMessage("");
 
     try {
-      const cleanedUsername = username.trim().toLowerCase();
+      const cleanedUsername = username.trim();
       const cleanedBio = bio.trim();
 
       if (!cleanedUsername) {
@@ -330,7 +338,7 @@ export default function ProfilePage() {
         return;
       }
 
-      if (!/^[a-z0-9_]+$/.test(cleanedUsername)) {
+      if (!/^[a-zA-Z0-9_]+$/.test(cleanedUsername)) {
         setMessage("Use only letters, numbers, and underscores.");
         return;
       }
@@ -340,7 +348,7 @@ export default function ProfilePage() {
         return;
       }
 
-      if (cleanedUsername !== profile.username?.trim().toLowerCase()) {
+      if (cleanedUsername.toLowerCase() !== profile.username?.trim().toLowerCase()) {
         const { data: usernameTaken, error: usernameCheckError } = await supabase.rpc(
           "is_username_taken",
           {
@@ -703,9 +711,14 @@ export default function ProfilePage() {
                 <div className="text-sm uppercase tracking-wide text-slate-400">
                   Public profile
                 </div>
-                <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-5xl">
-                  {profile.username}
-                </h1>
+                <div className="mt-2 flex flex-wrap items-center gap-3">
+                  <h1 className="text-3xl font-semibold tracking-tight sm:text-5xl">
+                    {profile.username}
+                  </h1>
+                  {profile.username?.trim().toLowerCase() === ADMIN_USERNAME ? (
+                    <AdminBadge />
+                  ) : null}
+                </div>
                 {activeBio ? (
                   <p className="mt-3 max-w-2xl whitespace-pre-wrap text-sm leading-6 text-slate-300 sm:text-base">
                     {activeBio}
@@ -787,7 +800,12 @@ export default function ProfilePage() {
                 <div className="text-sm uppercase tracking-wide text-slate-400">
                   Edit profile
                 </div>
-                <h2 className="mt-1 text-xl font-semibold">Owner controls</h2>
+                <div className="mt-1 flex flex-wrap items-center gap-3">
+                  <h2 className="text-xl font-semibold">Owner controls</h2>
+                  {profile.username?.trim().toLowerCase() === ADMIN_USERNAME ? (
+                    <AdminBadge />
+                  ) : null}
+                </div>
               </div>
               <button
                 onClick={resetEditor}

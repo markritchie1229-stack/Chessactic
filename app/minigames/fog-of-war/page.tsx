@@ -107,7 +107,7 @@ export default function FogOfWarPage() {
   const isGameOver = game.isGameOver();
 
   const themeBorderColor =
-    theme.id === "girly"
+    theme.id === "lilac"
       ? "rgba(236,72,153,0.22)"
       : theme.id === "standard"
         ? "rgba(51,65,85,0.95)"
@@ -343,7 +343,7 @@ export default function FogOfWarPage() {
               style={{
                 borderColor: themeBorderColor,
                 color: theme.background.accent,
-                background: theme.id === "girly" ? "rgba(255,255,255,0.75)" : "rgba(15,23,42,0.78)",
+                background: theme.id === "lilac" ? "rgba(255,255,255,0.75)" : "rgba(15,23,42,0.78)",
               }}
             >
               <ArrowLeft className="h-4 w-4" />
@@ -393,7 +393,7 @@ export default function FogOfWarPage() {
               <div
                 className="flex h-12 w-12 items-center justify-center rounded-2xl"
                 style={{
-                  background: theme.id === "girly" ? "rgba(236,72,153,0.12)" : "rgba(215,171,50,0.10)",
+                  background: theme.id === "lilac" ? "rgba(236,72,153,0.12)" : "rgba(215,171,50,0.10)",
                   color: theme.background.accent,
                 }}
               >
@@ -435,7 +435,7 @@ export default function FogOfWarPage() {
                     onClick={beginGame}
                     className="inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium text-slate-950 transition hover:opacity-90"
                     style={{
-                      background: theme.id === "girly"
+                      background: theme.id === "lilac"
                         ? "linear-gradient(180deg, #fff 0%, #ffe4f1 100%)"
                         : "linear-gradient(180deg, #fff5d6 0%, #f0d9b5 100%)",
                     }}
@@ -504,7 +504,7 @@ export default function FogOfWarPage() {
                           <div
                             className="absolute inset-0"
                             style={{
-                              background: theme.id === "girly" ? "rgba(255,247,251,1)" : "rgba(248,250,252,1)",
+                              background: theme.id === "lilac" ? "rgba(255,247,251,1)" : "rgba(248,250,252,1)",
                             }}
                           />
                           <CloudFog className="relative z-40 h-5 w-5 text-slate-700" />
@@ -553,7 +553,7 @@ export default function FogOfWarPage() {
                 style={{
                   borderColor: themeBorderColor,
                   background: "rgba(2,6,23,0.28)",
-                  color: theme.id === "girly" ? "#831843" : "#dbeafe",
+                  color: theme.id === "lilac" ? "#831843" : "#dbeafe",
                 }}
               >
                 {status}

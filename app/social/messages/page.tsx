@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
+import { sendDirectMessage } from "../_lib/social.server";
 
 type MessageThreadRow = {
   id: string;
@@ -72,6 +73,7 @@ export default function SocialMessagesPage() {
   const [messageBody, setMessageBody] = useState("");
   const [sending, setSending] = useState(false);
   const [sessionUserId, setSessionUserId] = useState<string | null>(null);
+  const [message, setMessage] = useState("");
 
   const loadConversation = useCallback(async (threadId: string) => {
     const { data, error } = await supabase
@@ -86,6 +88,7 @@ export default function SocialMessagesPage() {
 
   const load = useCallback(async () => {
     setLoading(true);
+    setMessage("");
 
     try {
       const { data } = await supabase.auth.getSession();
@@ -176,6 +179,10 @@ export default function SocialMessagesPage() {
       } else {
         setConversation([]);
       }
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "Could not load messages.");
+      setThreads([]);
+      setConversation([]);
     } finally {
       setLoading(false);
     }
@@ -194,20 +201,22 @@ export default function SocialMessagesPage() {
     if (!body) return;
 
     setSending(true);
+    setMessage("");
 
-    const { error, data } = await supabase
-      .from("messages")
-      .insert({ thread_id: activeThreadId, sender_id: sessionUserId, body })
-      .select("id,thread_id,sender_id,body,created_at")
-      .single();
+    try {
+      await sendDirectMessage({
+        threadId: activeThreadId,
+        body,
+      });
 
-    if (!error && data) {
       setMessageBody("");
       await loadConversation(activeThreadId);
       await load();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "Could not send message.");
+    } finally {
+      setSending(false);
     }
-
-    setSending(false);
   };
 
   return (
@@ -279,10 +288,10 @@ export default function SocialMessagesPage() {
                   </div>
 
                   <div className="max-h-[420px] space-y-2 overflow-y-auto pr-1">
-                    {conversation.map((message) => {
-                      const mine = message.sender_id === sessionUserId;
+                    {conversation.map((messageRow) => {
+                      const mine = messageRow.sender_id === sessionUserId;
                       return (
-                        <div key={message.id} className={`flex ${mine ? "justify-end" : "justify-start"}`}>
+                        <div key={messageRow.id} className={`flex ${mine ? "justify-end" : "justify-start"}`}>
                           <div
                             className={`max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-6 ${
                               mine
@@ -290,9 +299,9 @@ export default function SocialMessagesPage() {
                                 : "border border-slate-800 bg-slate-900 text-slate-100"
                             }`}
                           >
-                            {message.body}
+                            {messageRow.body}
                             <div className={`mt-2 text-[11px] ${mine ? "text-slate-600" : "text-slate-500"}`}>
-                              {formatDate(message.created_at)}
+                              {formatDate(messageRow.created_at)}
                             </div>
                           </div>
                         </div>
@@ -325,6 +334,12 @@ export default function SocialMessagesPage() {
           </div>
         )}
       </section>
+
+      {message ? (
+        <div className="rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-300">
+          {message}
+        </div>
+      ) : null}
     </div>
   );
 }

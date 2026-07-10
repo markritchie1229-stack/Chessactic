@@ -36,8 +36,8 @@ export default function KingHunter() {
   const pageBackground = getPageBackground(theme);
   const panelBackground = getPanelBackground(theme);
 
-  const shellText = theme.id === "girly" ? "text-slate-900" : "text-slate-100";
-  const mutedText = theme.id === "girly" ? "text-slate-700" : "text-stone-300";
+  const shellText = theme.id === "lilac" ? "text-slate-900" : "text-slate-100";
+  const mutedText = theme.id === "lilac" ? "text-slate-700" : "text-stone-300";
   const accentText = theme.background.accent;
   const borderColor = theme.background.border;
 
@@ -287,7 +287,7 @@ export default function KingHunter() {
             style={{
               borderColor: borderColor,
               background: panelBackground,
-              color: theme.id === "girly" ? "#831843" : "#f5d7a1",
+              color: theme.id === "lilac" ? "#831843" : "#f5d7a1",
             }}
           >
             <ArrowLeft className="h-4 w-4" />
@@ -302,7 +302,7 @@ export default function KingHunter() {
               style={{
                 borderColor,
                 background: panelBackground,
-                color: theme.id === "girly" ? "#831843" : accentText,
+                color: theme.id === "lilac" ? "#831843" : accentText,
               }}
             >
               <RotateCcw className="h-4 w-4" />
@@ -316,10 +316,10 @@ export default function KingHunter() {
               style={{
                 borderColor: theme.background.accent,
                 background:
-                  theme.id === "girly"
+                  theme.id === "lilac"
                     ? "linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%)"
                     : "linear-gradient(135deg, #f3d59f 0%, #d7ab32 55%, #a56f1d 100%)",
-                color: theme.id === "girly" ? "#831843" : "#1a1207",
+                color: theme.id === "lilac" ? "#831843" : "#1a1207",
               }}
             >
               <KingHunterIcon className="h-4 w-4" />
@@ -335,7 +335,7 @@ export default function KingHunter() {
               borderColor,
               background: panelBackground,
               boxShadow:
-                theme.id === "girly"
+                theme.id === "lilac"
                   ? "0 24px 80px rgba(236,72,153,0.08)"
                   : "0 24px 80px rgba(0,0,0,0.45)",
             }}
@@ -360,15 +360,15 @@ export default function KingHunter() {
 
               <div
                 className="rounded-[1.5rem] border px-4 py-3 text-right"
-                style={{ borderColor, background: theme.id === "girly" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.3)" }}
+                style={{ borderColor, background: theme.id === "lilac" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.3)" }}
               >
                 <div
                   className="text-[11px] uppercase tracking-[0.28em]"
-                  style={{ color: theme.id === "girly" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
+                  style={{ color: theme.id === "lilac" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
                 >
                   Remaining strikes
                 </div>
-                <div className="mt-1 text-3xl font-semibold" style={{ color: theme.id === "girly" ? "#831843" : "#f8fafc" }}>
+                <div className="mt-1 text-3xl font-semibold" style={{ color: theme.id === "lilac" ? "#831843" : "#f8fafc" }}>
                   {movesRemaining}
                 </div>
               </div>
@@ -403,11 +403,11 @@ export default function KingHunter() {
                 >
                   <div
                     className="text-[11px] uppercase tracking-[0.28em]"
-                    style={{ color: theme.id === "girly" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
+                    style={{ color: theme.id === "lilac" ? "#9f1239" : "rgba(252,211,77,0.55)" }}
                   >
                     {card.label}
                   </div>
-                  <div className="mt-2 text-xl font-semibold" style={{ color: theme.id === "girly" ? "#831843" : "#f8fafc" }}>
+                  <div className="mt-2 text-xl font-semibold" style={{ color: theme.id === "lilac" ? "#831843" : "#f8fafc" }}>
                     {card.value}
                   </div>
                 </div>
@@ -416,7 +416,7 @@ export default function KingHunter() {
 
             <div
               className="mb-4 rounded-[1.35rem] border p-4 text-sm"
-              style={{ borderColor, background: theme.id === "girly" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.25)", color: theme.id === "girly" ? "#4c1d95" : "#e7e5e4" }}
+              style={{ borderColor, background: theme.id === "lilac" ? "rgba(255,255,255,0.65)" : "rgba(0,0,0,0.25)", color: theme.id === "lilac" ? "#4c1d95" : "#e7e5e4" }}
             >
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <span>{message}</span>
@@ -425,10 +425,10 @@ export default function KingHunter() {
                   style={{
                     borderColor,
                     background:
-                      theme.id === "girly"
+                      theme.id === "lilac"
                         ? "linear-gradient(135deg, rgba(255,255,255,0.8), rgba(255,228,241,0.9))"
                         : "linear-gradient(135deg, #22160f, #0b0908)",
-                    color: theme.id === "girly" ? "#831843" : "rgba(254,240,138,0.85)",
+                    color: theme.id === "lilac" ? "#831843" : "rgba(254,240,138,0.85)",
                   }}
                 >
                   {sideLabel}

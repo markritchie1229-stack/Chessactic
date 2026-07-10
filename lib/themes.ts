@@ -1,6 +1,6 @@
 // lib/themes.ts
 
-export type ThemeId = "forged-kings" | "standard" | "girly";
+export type ThemeId = "forged-kings" | "standard" | "lilac";
 
 export type ChessTheme = {
   id: ThemeId;
@@ -72,9 +72,9 @@ export const THEMES: Record<ThemeId, ChessTheme> = {
     },
   },
 
-  girly: {
-    id: "girly",
-    name: "Girly",
+  lilac: {
+    id: "lilac",
+    name: "Lilac",
     description: "Pink pastel theme with custom artwork.",
     available: true,
     background: {
@@ -88,10 +88,10 @@ export const THEMES: Record<ThemeId, ChessTheme> = {
       dark: "#f7b4d5",
       selected: "rgba(236,72,153,0.35)",
       legalMove: "rgba(236,72,153,0.20)",
-      image: "/boards/girly/board-girly.png",
+      image: "/boards/lilac/board-lilac.png",
     },
     pieces: {
-      folder: "/chess-pieces/girly",
+      folder: "/chess-pieces/lilac",
     },
   },
 };

@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import { AdminBadge } from "./AdminBadge";
+import { isAdmin } from "@/lib/admin";
 
 type ProfileRow = {
   id: string;
@@ -39,6 +41,8 @@ export default function SocialProfilePage() {
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState<ProfileRow | null>(null);
   const [message, setMessage] = useState("");
+
+  const admin = isAdmin(profile?.id);
 
   useEffect(() => {
     const load = async () => {
@@ -134,7 +138,14 @@ export default function SocialProfilePage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">{profile.username ?? "Player"}</h2>
+            <div className="flex items-center gap-3">
+              <h2 className="text-2xl font-semibold">
+                {profile.username ?? "Player"}
+              </h2>
+
+              {admin ? <AdminBadge /> : null}
+            </div>
+
             <p className="mt-1 text-sm text-slate-500">
               Last seen {formatDate(profile.last_seen)}
             </p>
@@ -157,7 +168,9 @@ export default function SocialProfilePage() {
           </div>
           <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
             <div className="text-slate-500">Account</div>
-            <div className="mt-1 font-medium text-slate-100">Public profile</div>
+            <div className="mt-1 font-medium text-slate-100">
+              {admin ? "Admin profile" : "Public profile"}
+            </div>
           </div>
         </div>
 

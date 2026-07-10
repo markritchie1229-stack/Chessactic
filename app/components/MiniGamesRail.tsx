@@ -103,11 +103,6 @@ const miniGameItems: MiniGameItem[] = [
     icon: KingHunterIcon,
   },
   {
-    href: "/minigames/chess-puzzle",
-    label: "Chess Puzzle",
-    icon: StackedBoardsIcon,
-  },
-  {
     href: "/minigames/speed-tactic",
     label: "Speed Tactic",
     icon: Clock3,

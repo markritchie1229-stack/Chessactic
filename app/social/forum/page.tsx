@@ -2,7 +2,9 @@
 
 import { useEffect, useMemo, useRef, useState, type ChangeEvent } from "react";
 import { ImagePlus, Loader2, X } from "lucide-react";
+import { isAdmin } from "@/lib/admin";
 import { supabase } from "@/lib/supabase";
+import { createForumThread, replyToForumThread } from "../_lib/social.server";
 
 type ForumThread = {
   id: string;
@@ -30,6 +32,18 @@ type ForumProfile = {
   username: string | null;
 };
 
+type FeedItem = {
+  kind: "thread" | "comment";
+  id: string;
+  threadId: string;
+  title?: string | null;
+  author_id: string;
+  body: string;
+  created_at: string;
+  updated_at: string | null;
+  image_url: string | null;
+};
+
 const POSTS_PER_PAGE = 20;
 
 function formatDate(value: string | null | undefined) {
@@ -46,7 +60,6 @@ async function uploadForumImage(scope: string, file: File) {
   const extension = file.name.split(".").pop() || "bin";
   const path = `forum/${scope}/${crypto.randomUUID()}.${extension}`;
 
-  // Reuse the existing storage bucket already used by club media.
   const { error } = await supabase.storage.from("club-media").upload(path, file, {
     upsert: true,
     contentType: file.type || "application/octet-stream",
@@ -89,6 +102,7 @@ export default function SocialForumPage() {
   const [replying, setReplying] = useState(false);
   const [message, setMessage] = useState("");
   const [currentUserId, setCurrentUserId] = useState<string | null>(null);
+  const [isSiteAdmin, setIsSiteAdmin] = useState(false);
   const [profileNamesById, setProfileNamesById] = useState<Record<string, string>>({});
 
   const threadFileInputRef = useRef<HTMLInputElement | null>(null);
@@ -158,7 +172,9 @@ export default function SocialForumPage() {
 
     const { data, error, count } = await supabase
       .from("forum_posts")
-      .select("id,thread_id,author_id,body,image_url,created_at,updated_at", { count: "exact" })
+      .select("id,thread_id,author_id,body,image_url,created_at,updated_at", {
+        count: "exact",
+      })
       .eq("thread_id", threadId)
       .order("created_at", { ascending: true })
       .range(from, to);
@@ -202,7 +218,9 @@ export default function SocialForumPage() {
     const load = async () => {
       setLoading(true);
       const { data } = await supabase.auth.getUser();
-      setCurrentUserId(data.user?.id ?? null);
+      const userId = data.user?.id ?? null;
+      setCurrentUserId(userId);
+      setIsSiteAdmin(Boolean(userId && isAdmin(userId)));
       await loadThreads();
       setLoading(false);
     };
@@ -296,51 +314,25 @@ export default function SocialForumPage() {
     setPosting(true);
     setMessage("");
 
-    const { data } = await supabase.auth.getSession();
-    const session = data.session;
-
-    if (!session) {
-      setMessage("Sign in to post.");
-      setPosting(false);
-      return;
-    }
-
-    const { data: threadRow, error: threadError } = await supabase
-      .from("forum_threads")
-      .insert({
-        author_id: session.user.id,
+    try {
+      const result = await createForumThread({
         title: cleanTitle,
-      })
-      .select("id")
-      .single();
+        body: cleanBody,
+        imageUrl: threadImageUrl || null,
+      });
 
-    if (threadError || !threadRow) {
-      setMessage(threadError?.message || "Could not create thread.");
+      setTitle("");
+      setBody("");
+      clearThreadImage();
+      await loadThreads();
+      setView("thread");
+      await loadThreadPage(result.threadId, 1);
+      setMessage("Thread posted.");
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not create thread.");
+    } finally {
       setPosting(false);
-      return;
     }
-
-    const { error: postError } = await supabase.from("forum_posts").insert({
-      thread_id: threadRow.id,
-      author_id: session.user.id,
-      body: cleanBody || "",
-      image_url: threadImageUrl || null,
-    });
-
-    if (postError) {
-      setMessage(postError.message);
-      setPosting(false);
-      return;
-    }
-
-    setTitle("");
-    setBody("");
-    clearThreadImage();
-    await loadThreads();
-    setView("thread");
-    await loadThreadPage(threadRow.id, 1);
-    setMessage("Thread posted.");
-    setPosting(false);
   };
 
   const replyToThread = async () => {
@@ -358,33 +350,22 @@ export default function SocialForumPage() {
     setReplying(true);
     setMessage("");
 
-    const { data } = await supabase.auth.getSession();
-    const session = data.session;
+    try {
+      await replyToForumThread({
+        threadId: selectedThreadId,
+        body: cleanReply,
+        imageUrl: replyImageUrl || null,
+      });
 
-    if (!session) {
-      setMessage("Sign in to comment.");
+      setReplyBody("");
+      clearReplyImage();
+      await refreshSelectedThread();
+      setMessage("Reply posted.");
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not reply.");
+    } finally {
       setReplying(false);
-      return;
     }
-
-    const { error } = await supabase.from("forum_posts").insert({
-      thread_id: selectedThreadId,
-      author_id: session.user.id,
-      body: cleanReply || "",
-      image_url: replyImageUrl || null,
-    });
-
-    if (error) {
-      setMessage(error.message);
-      setReplying(false);
-      return;
-    }
-
-    setReplyBody("");
-    clearReplyImage();
-    await refreshSelectedThread();
-    setMessage("Reply posted.");
-    setReplying(false);
   };
 
   const goToThreadPage = async (page: number) => {
@@ -405,6 +386,174 @@ export default function SocialForumPage() {
         className="mt-3 max-h-96 w-full rounded-2xl border border-slate-800 object-cover"
       />
     );
+  };
+
+  const feedItems: FeedItem[] = useMemo(() => {
+    if (!selectedThread || posts.length === 0) return [];
+
+    const firstPost = posts[0];
+
+    return [
+      {
+        kind: "thread",
+        id: firstPost.id,
+        threadId: selectedThread.id,
+        title: selectedThread.title,
+        author_id: selectedThread.author_id,
+        body: firstPost.body,
+        created_at: firstPost.created_at,
+        updated_at: firstPost.updated_at,
+        image_url: firstPost.image_url,
+      },
+      ...posts.slice(1).map((post) => ({
+        kind: "comment" as const,
+        id: post.id,
+        threadId: post.thread_id,
+        author_id: post.author_id,
+        body: post.body,
+        created_at: post.created_at,
+        updated_at: post.updated_at,
+        image_url: post.image_url,
+      })),
+    ];
+  }, [posts, selectedThread]);
+
+  const handleDeleteThread = async (threadId: string) => {
+    const ok = window.confirm("Delete this thread?");
+    if (!ok) return;
+
+    try {
+      const { error: postsError } = await supabase.from("forum_posts").delete().eq("thread_id", threadId);
+      if (postsError) throw new Error(postsError.message);
+
+      const { error } = await supabase.from("forum_threads").delete().eq("id", threadId);
+      if (error) throw new Error(error.message);
+
+      setMessage("Thread deleted.");
+      setView("list");
+      setSelectedThreadId(null);
+      setSelectedThread(null);
+      await loadThreads();
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not delete thread.");
+    }
+  };
+
+  const handleDeletePost = async (post: FeedItem) => {
+    const ok = window.confirm("Delete this comment?");
+    if (!ok) return;
+
+    try {
+      if (post.kind === "thread") {
+        await handleDeleteThread(post.threadId);
+        return;
+      }
+
+      const { error } = await supabase.from("forum_posts").delete().eq("id", post.id);
+      if (error) throw new Error(error.message);
+
+      const { count: remainingCount } = await supabase
+        .from("forum_posts")
+        .select("id", { count: "exact", head: true })
+        .eq("thread_id", post.threadId);
+
+      const { data: latestPost, error: latestError } = await supabase
+        .from("forum_posts")
+        .select("created_at")
+        .eq("thread_id", post.threadId)
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+
+      if (latestError) throw new Error(latestError.message);
+
+      const { error: threadUpdateError } = await supabase
+        .from("forum_threads")
+        .update({
+          reply_count: Math.max((remainingCount ?? 0) - 1, 0),
+          last_post_at: latestPost?.created_at ?? null,
+          updated_at: new Date().toISOString(),
+        })
+        .eq("id", post.threadId);
+
+      if (threadUpdateError) throw new Error(threadUpdateError.message);
+
+      setMessage("Comment deleted.");
+      await refreshSelectedThread();
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not delete comment.");
+    }
+  };
+
+  const handleEditThreadTitle = async (thread: ForumThread) => {
+    const nextTitle = window.prompt("Edit thread title", thread.title);
+    if (nextTitle === null) return;
+
+    const cleanTitle = nextTitle.trim();
+    if (!cleanTitle) {
+      setMessage("Thread title cannot be empty.");
+      return;
+    }
+
+    try {
+      const { error } = await supabase
+        .from("forum_threads")
+        .update({
+          title: cleanTitle,
+          updated_at: new Date().toISOString(),
+        })
+        .eq("id", thread.id);
+
+      if (error) throw new Error(error.message);
+
+      setMessage("Thread updated.");
+      setThreads((current) =>
+        current.map((row) => (row.id === thread.id ? { ...row, title: cleanTitle } : row)),
+      );
+      setSelectedThread((current) =>
+        current && current.id === thread.id ? { ...current, title: cleanTitle } : current,
+      );
+      await refreshSelectedThread();
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not edit thread.");
+    }
+  };
+
+  const handleEditPost = async (post: FeedItem) => {
+    const nextBody = window.prompt("Edit post body", post.body ?? "");
+    if (nextBody === null) return;
+
+    const nextImage = window.prompt(
+      "Edit image URL (leave blank to remove)",
+      post.image_url ?? "",
+    );
+    if (nextImage === null) return;
+
+    const cleanBody = nextBody.trim();
+    const cleanImage = nextImage.trim();
+
+    if (!cleanBody && !cleanImage) {
+      setMessage("Post body or image is required.");
+      return;
+    }
+
+    try {
+      const { error } = await supabase
+        .from("forum_posts")
+        .update({
+          body: cleanBody,
+          image_url: cleanImage || null,
+          updated_at: new Date().toISOString(),
+        })
+        .eq("id", post.id);
+
+      if (error) throw new Error(error.message);
+
+      setMessage("Post updated.");
+      await refreshSelectedThread();
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not edit post.");
+    }
   };
 
   return (
@@ -559,37 +708,66 @@ export default function SocialForumPage() {
                   const authorName = displayNameFor(thread.author_id);
 
                   return (
-                    <button
+                    <div
                       key={thread.id}
-                      type="button"
-                      onClick={() => void openThread(thread.id)}
-                      className={`w-full rounded-2xl border p-4 text-left transition ${
+                      className={`relative rounded-2xl border p-4 pr-14 transition ${
                         active
                           ? "border-slate-200 bg-slate-100 text-slate-950"
                           : "border-slate-800 bg-slate-950/60 text-slate-100 hover:bg-slate-800"
                       }`}
                     >
-                      <div className="flex items-start justify-between gap-3">
-                        <div>
-                          <div className="font-medium">{thread.title}</div>
-                          <div className={`mt-1 text-sm ${active ? "text-slate-700" : "text-slate-500"}`}>
-                            by {authorName} · Replies: {thread.reply_count} · Last activity{" "}
-                            {formatDate(thread.last_post_at ?? thread.updated_at ?? thread.created_at)}
-                          </div>
-                        </div>
-                        {thread.is_pinned ? (
-                          <div
-                            className={`rounded-full border px-3 py-1 text-xs ${
+                      {isSiteAdmin ? (
+                        <div className="absolute right-3 top-3 flex gap-2">
+                          <button
+                            type="button"
+                            onClick={() => void handleEditThreadTitle(thread)}
+                            className={`inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition ${
                               active
                                 ? "border-slate-300 bg-slate-200 text-slate-700"
-                                : "border-slate-700 bg-slate-900 text-slate-200"
+                                : "border-slate-700 bg-slate-900 text-slate-300 hover:border-cyan-500 hover:text-cyan-300"
                             }`}
+                            title="Edit thread title"
                           >
-                            Pinned
+                            ✎
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => void handleDeleteThread(thread.id)}
+                            className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-300"
+                            title="Delete thread"
+                          >
+                            ×
+                          </button>
+                        </div>
+                      ) : null}
+
+                      <button
+                        type="button"
+                        onClick={() => void openThread(thread.id)}
+                        className="block w-full text-left"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <div className="font-medium">{thread.title}</div>
+                            <div className={`mt-1 text-sm ${active ? "text-slate-700" : "text-slate-500"}`}>
+                              by {authorName} · Replies: {thread.reply_count} · Last activity{" "}
+                              {formatDate(thread.last_post_at ?? thread.updated_at ?? thread.created_at)}
+                            </div>
                           </div>
-                        ) : null}
-                      </div>
-                    </button>
+                          {thread.is_pinned ? (
+                            <div
+                              className={`rounded-full border px-3 py-1 text-xs ${
+                                active
+                                  ? "border-slate-300 bg-slate-200 text-slate-700"
+                                  : "border-slate-700 bg-slate-900 text-slate-200"
+                              }`}
+                            >
+                              Pinned
+                            </div>
+                          ) : null}
+                        </div>
+                      </button>
+                    </div>
                   );
                 })
               )}
@@ -599,10 +777,32 @@ export default function SocialForumPage() {
               <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
                 <div className="text-sm uppercase tracking-wide text-slate-500">Thread</div>
                 <div className="mt-2 text-xl font-semibold">{selectedThreadTitle}</div>
+
                 {selectedThread ? (
-                  <div className="mt-2 text-sm text-slate-400">
-                    Started {formatDate(selectedThread.created_at)} · {threadPostCount} posts · by{" "}
-                    {displayNameFor(selectedThread.author_id)}
+                  <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-slate-400">
+                    <span>
+                      Started {formatDate(selectedThread.created_at)} · {threadPostCount} posts · by{" "}
+                      {displayNameFor(selectedThread.author_id)}
+                    </span>
+
+                    {isSiteAdmin ? (
+                      <div className="ml-auto flex gap-2">
+                        <button
+                          type="button"
+                          onClick={() => void handleEditThreadTitle(selectedThread)}
+                          className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs font-medium text-slate-200 transition hover:border-cyan-500 hover:text-cyan-300"
+                        >
+                          Edit title
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => void handleDeleteThread(selectedThread.id)}
+                          className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-xs font-medium text-slate-200 transition hover:border-rose-500 hover:text-rose-300"
+                        >
+                          Delete thread
+                        </button>
+                      </div>
+                    ) : null}
                   </div>
                 ) : (
                   <div className="mt-2 text-sm text-slate-500">
@@ -645,24 +845,46 @@ export default function SocialForumPage() {
                       </div>
 
                       <div className="max-h-[420px] space-y-3 overflow-y-auto pr-1">
-                        {posts.length === 0 ? (
+                        {feedItems.length === 0 ? (
                           <div className="rounded-2xl border border-slate-800 bg-slate-900/50 p-4 text-sm text-slate-400">
                             No posts in this thread yet.
                           </div>
                         ) : (
-                          posts.map((post, index) => {
-                            const authorName = displayNameFor(post.author_id);
-                            const isYou = currentUserId === post.author_id;
+                          feedItems.map((item, index) => {
+                            const authorName = displayNameFor(item.author_id);
+                            const isYou = currentUserId === item.author_id;
+                            const isOriginalPost = item.kind === "thread";
 
                             return (
                               <div
-                                key={post.id}
-                                className={`rounded-2xl border p-4 ${
+                                key={item.id}
+                                className={`relative rounded-2xl border p-4 pr-14 ${
                                   index === 0
                                     ? "border-slate-700 bg-slate-900/80"
                                     : "border-slate-800 bg-slate-950/70"
                                 }`}
                               >
+                                {isSiteAdmin ? (
+                                  <div className="absolute right-3 top-3 flex gap-2">
+                                    <button
+                                      type="button"
+                                      onClick={() => void handleEditPost(item)}
+                                      className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-cyan-500 hover:text-cyan-300"
+                                      title="Edit"
+                                    >
+                                      ✎
+                                    </button>
+                                    <button
+                                      type="button"
+                                      onClick={() => void handleDeletePost(item)}
+                                      className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-300"
+                                      title="Delete"
+                                    >
+                                      ×
+                                    </button>
+                                  </div>
+                                ) : null}
+
                                 <div className="flex items-center justify-between gap-3">
                                   <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
                                     <span>{authorName}</span>
@@ -671,14 +893,22 @@ export default function SocialForumPage() {
                                         You
                                       </span>
                                     ) : null}
+                                    {isOriginalPost ? (
+                                      <span className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-2 py-0.5 text-[10px] uppercase tracking-wide text-cyan-200">
+                                        Original post
+                                      </span>
+                                    ) : null}
                                   </div>
-                                  <div className="text-xs text-slate-500">{formatDate(post.created_at)}</div>
+                                  <div className="text-xs text-slate-500">{formatDate(item.created_at)}</div>
                                 </div>
 
-                                {renderImageAttachment(post.image_url, "Post attachment")}
+                                {renderImageAttachment(
+                                  item.image_url,
+                                  isOriginalPost ? "Thread attachment" : "Post attachment",
+                                )}
 
                                 <div className="mt-3 whitespace-pre-wrap text-sm leading-6 text-slate-100">
-                                  {post.body}
+                                  {item.body}
                                 </div>
                               </div>
                             );
@@ -755,7 +985,7 @@ export default function SocialForumPage() {
                           </div>
                         ) : null}
 
-                        <div className="text-sm uppercase tracking-wide text-slate-500 pt-3">
+                        <div className="pt-3 text-sm uppercase tracking-wide text-slate-500">
                           Comment
                         </div>
                         <textarea

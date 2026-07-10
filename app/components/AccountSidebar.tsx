@@ -1,9 +1,12 @@
+// AccountSidebar.tsx
 "use client";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
+import { Flag, ShieldAlert } from "lucide-react";
 import { supabase } from "@/lib/supabase";
+import { isAdmin } from "@/lib/admin";
 
 export function AccountSidebar() {
   const router = useRouter();
@@ -19,7 +22,7 @@ export function AccountSidebar() {
       setSession(data.session);
 
       const currentUsername =
-        data.session?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
+        data.session?.user.user_metadata?.username?.trim() ?? "";
       setUsername(currentUsername);
     };
 
@@ -31,7 +34,7 @@ export function AccountSidebar() {
       setSession(nextSession);
 
       const currentUsername =
-        nextSession?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
+        nextSession?.user.user_metadata?.username?.trim() ?? "";
       setUsername(currentUsername);
     });
 
@@ -52,7 +55,7 @@ export function AccountSidebar() {
         return;
       }
 
-      const cleaned = username.trim().toLowerCase();
+      const cleaned = username.trim();
 
       if (!cleaned) {
         setMessage("Username cannot be empty.");
@@ -64,22 +67,26 @@ export function AccountSidebar() {
         return;
       }
 
-      if (!/^[a-z0-9_]+$/.test(cleaned)) {
+      if (!/^[a-zA-Z0-9_]+$/.test(cleaned)) {
         setMessage("Use only letters, numbers, and underscores.");
         return;
       }
 
-      const { data: existing, error: checkError } = await supabase
-        .from("profiles")
-        .select("id")
-        .eq("username", cleaned)
-        .maybeSingle();
+      const currentUsername =
+        session?.user.user_metadata?.username?.trim() ?? "";
 
-      if (checkError) throw checkError;
+      if (cleaned.toLowerCase() !== currentUsername.toLowerCase()) {
+        const { data: usernameTaken, error: usernameCheckError } =
+          await supabase.rpc("is_username_taken", {
+            p_username: cleaned,
+          });
 
-      if (existing && existing.id !== user.id) {
-        setMessage("That username is already taken.");
-        return;
+        if (usernameCheckError) throw usernameCheckError;
+
+        if (usernameTaken) {
+          setMessage("Username is already taken.");
+          return;
+        }
       }
 
       const { error: authError } = await supabase.auth.updateUser({
@@ -97,9 +104,26 @@ export function AccountSidebar() {
 
       const { data: refreshed } = await supabase.auth.getSession();
       setSession(refreshed.session);
+      setUsername(cleaned);
       setMessage("Username updated.");
     } catch (err: unknown) {
-      setMessage(err instanceof Error ? err.message : "Something went wrong.");
+      if (
+        err &&
+        typeof err === "object" &&
+        "code" in err &&
+        (err as { code?: string }).code === "23505"
+      ) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      const maybeError = err as { message?: string } | null;
+      if (maybeError?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(maybeError?.message ?? "Something went wrong.");
     } finally {
       setSaving(false);
     }
@@ -122,6 +146,8 @@ export function AccountSidebar() {
     session?.user.email?.trim() ||
     "Account";
 
+  const currentUserIsAdmin = isAdmin(session?.user.id);
+
   return (
     <aside className="w-full rounded-3xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
       <div className="text-sm uppercase tracking-wide text-slate-400">
@@ -131,7 +157,14 @@ export function AccountSidebar() {
       {session ? (
         <div className="mt-4 space-y-4">
           <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-            <div className="text-sm text-slate-400">Signed in as</div>
+            <div className="flex items-center gap-2 text-sm text-slate-400">
+              <span>Signed in as</span>
+              {currentUserIsAdmin ? (
+                <span className="inline-flex items-center rounded-full border border-sky-500/30 bg-sky-500/15 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-sky-200">
+                  Admin
+                </span>
+              ) : null}
+            </div>
             <div className="mt-1 font-medium text-slate-100">{displayName}</div>
             <div className="mt-1 text-sm text-slate-500">{session.user.email}</div>
           </div>
@@ -154,6 +187,26 @@ export function AccountSidebar() {
           >
             {saving ? "Saving..." : "Save username"}
           </button>
+
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <button
+              onClick={() => router.push("/report")}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 font-medium text-slate-100 transition hover:bg-slate-800"
+            >
+              <Flag className="h-4 w-4" />
+              Report
+            </button>
+
+            {currentUserIsAdmin ? (
+              <button
+                onClick={() => router.push("/admin/moderation")}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-sky-500/30 bg-sky-500/10 px-4 py-3 font-medium text-sky-100 transition hover:bg-sky-500/20"
+              >
+                <ShieldAlert className="h-4 w-4" />
+                Admin actions
+              </button>
+            ) : null}
+          </div>
 
           <button
             onClick={handleLogout}

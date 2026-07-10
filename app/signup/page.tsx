@@ -26,7 +26,7 @@ export default function SignUpPage() {
 
     try {
       if (mode === "signup") {
-        const cleanUsername = username.trim().toLowerCase();
+        const cleanUsername = username.trim();
         const cleanEmail = email.trim().toLowerCase();
 
         if (!cleanUsername) {
@@ -36,6 +36,16 @@ export default function SignUpPage() {
 
         if (!cleanEmail) {
           setMessage("Please enter your email.");
+          return;
+        }
+
+        if (cleanUsername.length < 3) {
+          setMessage("Username must be at least 3 characters.");
+          return;
+        }
+
+        if (!/^[a-zA-Z0-9_]+$/.test(cleanUsername)) {
+          setMessage("Use only letters, numbers, and underscores.");
           return;
         }
 
@@ -79,7 +89,7 @@ export default function SignUpPage() {
 
         if (!rawLogin.includes("@")) {
           const { data, error } = await supabase.rpc("get_email_by_username", {
-            p_username: rawLogin.toLowerCase(),
+            p_username: rawLogin,
           });
 
           if (error) throw error;
@@ -202,7 +212,7 @@ export default function SignUpPage() {
                 autoComplete="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="chessmaster99"
+                placeholder="ChessMaster99"
                 className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
               />
             </div>
@@ -221,7 +231,7 @@ export default function SignUpPage() {
                 autoComplete="username"
                 value={loginIdentifier}
                 onChange={(e) => setLoginIdentifier(e.target.value)}
-                placeholder="chessmaster99 or you@example.com"
+                placeholder="ChessMaster99 or you@example.com"
                 className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-slate-100 outline-none placeholder:text-slate-500 focus:border-slate-500"
               />
             </div>
@@ -259,7 +269,9 @@ export default function SignUpPage() {
               id="password"
               type="password"
               required
-              autoComplete={mode === "signup" ? "new-password" : "current-password"}
+              autoComplete={
+                mode === "signup" ? "new-password" : "current-password"
+              }
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••"

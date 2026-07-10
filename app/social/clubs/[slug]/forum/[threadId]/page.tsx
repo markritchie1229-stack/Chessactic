@@ -3,7 +3,11 @@ import { notFound, redirect } from "next/navigation";
 
 import { ClubCommentComposer } from "../_components/ClubCommentComposer";
 import { canComment } from "../../../_lib/permissions";
-import { postComment } from "../../../_lib/server-actions";
+import {
+  deleteClubComment,
+  deleteClubThread,
+  postComment,
+} from "../../../_lib/server-actions";
 import {
   getClubBySlug,
   getCurrentMember,
@@ -42,6 +46,13 @@ type FeedItem = {
 };
 
 const PAGE_SIZE = 20;
+
+const MODERATOR_RANKS = new Set([
+  "leader",
+  "co_leader",
+  "senior_admin",
+  "admin",
+]);
 
 function formatDate(value: string | null | undefined) {
   if (!value) return "—";
@@ -126,6 +137,7 @@ export default async function ClubThreadPage({
   ]);
 
   const base = `/social/clubs/${resolvedClub.title_search}`;
+  const forumBase = `${base}/forum`;
 
   function pageHref(page: number) {
     const clamped = Math.min(Math.max(page, 1), pageCount);
@@ -136,9 +148,7 @@ export default async function ClubThreadPage({
     }
 
     const query = params.toString();
-    return query
-      ? `${base}/forum/${thread.id}?${query}`
-      : `${base}/forum/${thread.id}`;
+    return query ? `${base}/forum/${thread.id}?${query}` : `${base}/forum/${thread.id}`;
   }
 
   const redirectUrl =
@@ -157,7 +167,34 @@ export default async function ClubThreadPage({
     redirect(redirectUrl);
   }
 
-  const canPost = Boolean(currentMember);
+  async function deleteFeedItemAction(formData: FormData) {
+    "use server";
+
+    const kind = String(formData.get("kind") ?? "");
+    const targetId = String(formData.get("id") ?? "").trim();
+
+    if (!targetId) {
+      throw new Error("Missing item id.");
+    }
+
+    if (kind === "thread") {
+      await deleteClubThread(resolvedClub.id, thread.id);
+      redirect(forumBase);
+    }
+
+    if (kind === "comment") {
+      await deleteClubComment(resolvedClub.id, targetId);
+      redirect(redirectUrl);
+    }
+
+    throw new Error("Unknown delete target.");
+  }
+
+  const canPost = Boolean(currentMember && canComment(currentMember) && !currentMember.muted);
+  const canModerateContent = Boolean(
+    currentMember && MODERATOR_RANKS.has(currentMember.rank),
+  );
+
   const author = thread.author_id ? profiles.get(thread.author_id) : undefined;
   const showPagination = pageCount > 1;
 
@@ -228,16 +265,33 @@ export default async function ClubThreadPage({
           {visibleItems.map((item) => {
             const itemAuthor = item.author_id ? profiles.get(item.author_id) : undefined;
             const isOriginalPost = item.kind === "thread";
+            const canDeleteItem =
+              !!currentMember &&
+              (canModerateContent || currentMember.user_id === item.author_id);
 
             return (
               <article
                 key={item.id}
-                className={`rounded-2xl border p-5 ${
+                className={`relative rounded-2xl border p-5 pr-12 ${
                   isOriginalPost
                     ? "border-slate-700 bg-slate-900/80"
                     : "border-slate-800 bg-slate-950/60"
                 }`}
               >
+                {canDeleteItem ? (
+                  <form action={deleteFeedItemAction}>
+                    <input type="hidden" name="kind" value={item.kind} />
+                    <input type="hidden" name="id" value={item.kind === "thread" ? thread.id : item.id} />
+                    <button
+                      type="submit"
+                      aria-label="Delete item"
+                      className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-300 transition hover:border-rose-500 hover:text-rose-300"
+                    >
+                      ×
+                    </button>
+                  </form>
+                ) : null}
+
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-2">
                     <div className="font-medium">

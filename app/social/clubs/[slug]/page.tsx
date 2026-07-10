@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { isAdmin } from "@/lib/admin";
 import { ClubChat } from "../_components/ClubChat";
 import { ClubMembersPanel } from "../_components/ClubMembersPanel";
 import { RecentThreads } from "../_components/RecentThreads";
@@ -66,6 +68,17 @@ function groupMembersByRank(
   });
 }
 
+function makeSiteAdminMember(clubId: string, userId: string) {
+  return {
+    id: `site-admin-${clubId}`,
+    club_id: clubId,
+    user_id: userId,
+    rank: "leader" as const,
+    muted: false,
+    created_at: null,
+  };
+}
+
 export default async function ClubPage({ params }: PageProps) {
   const { slug } = await params;
 
@@ -90,11 +103,20 @@ export default async function ClubPage({ params }: PageProps) {
     (group) => group.rank !== "member",
   );
 
+  const supabase = await createSupabaseServerClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const siteAdminMember =
+    user && isAdmin(user.id) ? makeSiteAdminMember(club.id, user.id) : null;
+
+  const effectiveMember = siteAdminMember ?? currentMember;
+  const siteAdmin = Boolean(siteAdminMember);
+
   let joinRequests: JoinRequestView[] = [];
 
-  if (currentMember && canReviewJoinRequests(currentMember.rank)) {
-    const supabase = await createSupabaseServerClient();
-
+  if (effectiveMember && canReviewJoinRequests(effectiveMember.rank)) {
     const { data, error } = await supabase
       .from("club_join_requests")
       .select("id, user_id, created_at")
@@ -131,7 +153,7 @@ export default async function ClubPage({ params }: PageProps) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1.35fr_0.85fr]">
       <main className="space-y-6">
-        {!currentMember ? (
+        {!effectiveMember ? (
           <section className="rounded-3xl border border-slate-800 bg-slate-900/80 p-6 shadow-2xl shadow-black/20">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
@@ -152,10 +174,36 @@ export default async function ClubPage({ params }: PageProps) {
             <p className="mt-2 text-sm leading-6 text-slate-400">
               You are already in this club as{" "}
               <span className="font-semibold text-slate-200">
-                {currentMember.rank.replace("_", " ")}
+                {effectiveMember.rank.replace("_", " ")}
               </span>
               .
             </p>
+
+            {siteAdmin ? (
+              <div className="mt-4 rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4">
+                <div className="text-sm uppercase tracking-wide text-amber-300">
+                  Site admin access
+                </div>
+                <p className="mt-2 text-sm leading-6 text-amber-100/90">
+                  You are viewing this club as the site admin. You have
+                  leader-level permissions without joining.
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <Link
+                    href={`${base}/settings`}
+                    className="inline-flex rounded-2xl bg-amber-300 px-4 py-2 text-sm font-medium text-slate-950 transition hover:bg-amber-200"
+                  >
+                    Enter as Admin
+                  </Link>
+                  <Link
+                    href={`${base}/forum`}
+                    className="inline-flex rounded-2xl border border-amber-500/30 bg-transparent px-4 py-2 text-sm font-medium text-amber-200 transition hover:bg-amber-500/10"
+                  >
+                    Open forum
+                  </Link>
+                </div>
+              </div>
+            ) : null}
           </section>
         )}
 
@@ -166,7 +214,7 @@ export default async function ClubPage({ params }: PageProps) {
       <aside className="space-y-6">
         <ClubMembersPanel groups={rankedGroups} base={base} />
 
-        {currentMember && canReviewJoinRequests(currentMember.rank) ? (
+        {effectiveMember && canReviewJoinRequests(effectiveMember.rank) ? (
           <ClubJoinRequests requests={joinRequests} />
         ) : null}
 

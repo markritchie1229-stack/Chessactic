@@ -11,7 +11,7 @@ export function getPageBackground(theme: ChessTheme): string {
         "linear-gradient(180deg, #080808 0%, #0f0c09 100%)",
       ].join(", ");
 
-    case "girly":
+    case "lilac":
       return [
         "radial-gradient(circle at top, rgba(255,255,255,0.22), rgba(255,255,255,0) 34%)",
         "radial-gradient(circle at 18% 82%, rgba(236,72,153,0.22), rgba(255,255,255,0) 30%)",
@@ -33,7 +33,7 @@ export function getPanelBackground(theme: ChessTheme): string {
     case "forged-kings":
       return "rgba(15, 12, 9, 0.82)";
 
-    case "girly":
+    case "lilac":
       return "rgba(255, 248, 252, 0.82)";
 
     case "standard":
@@ -47,7 +47,7 @@ export function getHeaderGlow(theme: ChessTheme): string {
     case "forged-kings":
       return "radial-gradient(circle at top, rgba(255,244,210,0.10), rgba(255,255,255,0) 58%)";
 
-    case "girly":
+    case "lilac":
       return "radial-gradient(circle at top, rgba(255,255,255,0.35), rgba(255,255,255,0) 58%)";
 
     case "standard":

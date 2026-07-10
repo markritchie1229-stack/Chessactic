@@ -21,14 +21,14 @@ export function getBoardTheme(theme: ChessTheme): BoardTheme {
         pieceFolder: "/pieces/standard",
       };
 
-    case "girly":
+    case "lilac":
       return {
         light: "#ffe4f1",
         dark: "#f7b4d5",
         selected: "rgba(236,72,153,0.35)",
         legalMove: "rgba(236,72,153,0.20)",
         accent: theme.background.accent,
-        pieceFolder: "/pieces/girly",
+        pieceFolder: "/pieces/lilac",
       };
 
     case "forged-kings":

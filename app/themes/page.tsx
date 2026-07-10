@@ -12,7 +12,7 @@ import {
 import { useTheme } from "@/components/ThemeProvider";
 import { THEMES, type ThemeId } from "@/lib/themes";
 
-const THEME_ORDER: ThemeId[] = ["forged-kings", "standard", "girly"];
+const THEME_ORDER: ThemeId[] = ["forged-kings", "standard", "lilac"];
 
 export default function ThemesPage() {
   const router = useRouter();
@@ -25,7 +25,7 @@ export default function ThemesPage() {
         background:
           themeId === "forged-kings"
             ? "linear-gradient(180deg, #080808 0%, #0f0c09 100%)"
-            : themeId === "girly"
+            : themeId === "lilac"
               ? "linear-gradient(180deg, #fff7fb 0%, #ffe8f2 100%)"
               : "linear-gradient(180deg, #020617 0%, #0f172a 100%)",
       }}
@@ -46,10 +46,10 @@ export default function ThemesPage() {
             style={{
               borderColor: theme.background.border,
               background:
-                themeId === "girly"
+                themeId === "lilac"
                   ? "rgba(255,255,255,0.55)"
                   : "rgba(15,23,42,0.65)",
-              color: themeId === "girly" ? "#9f1239" : "#cbd5e1",
+              color: themeId === "lilac" ? "#9f1239" : "#cbd5e1",
             }}
           >
             <Palette className="h-4 w-4" />
@@ -60,13 +60,13 @@ export default function ThemesPage() {
         <div className="mb-8 max-w-3xl">
           <h1
             className="text-3xl font-semibold tracking-tight md:text-5xl"
-            style={{ color: themeId === "girly" ? "#831843" : "#f8fafc" }}
+            style={{ color: themeId === "lilac" ? "#831843" : "#f8fafc" }}
           >
             Choose your theme
           </h1>
           <p
             className="mt-3 text-sm leading-6 md:text-base"
-            style={{ color: themeId === "girly" ? "#9f1239" : "#94a3b8" }}
+            style={{ color: themeId === "lilac" ? "#9f1239" : "#94a3b8" }}
           >
             Your theme changes the board, pieces, backgrounds, and mini games across the app.
           </p>
@@ -81,15 +81,15 @@ export default function ThemesPage() {
             const cardShell =
               card.id === "forged-kings"
                 ? "linear-gradient(135deg, rgba(26,21,18,0.96) 0%, rgba(16,13,11,0.96) 55%, rgba(7,6,5,0.98) 100%)"
-                : card.id === "girly"
+                : card.id === "lilac"
                   ? "linear-gradient(135deg, rgba(255,248,252,0.98) 0%, rgba(255,234,244,0.98) 100%)"
                   : "linear-gradient(135deg, rgba(15,23,42,0.96) 0%, rgba(2,6,23,0.98) 100%)";
 
             const titleColor =
-              card.id === "girly" ? "#9f1239" : isActive ? "#f8fafc" : "#f8fafc";
+              card.id === "lilac" ? "#9f1239" : isActive ? "#f8fafc" : "#f8fafc";
 
             const textColor =
-              card.id === "girly" ? "#be185d" : "#94a3b8";
+              card.id === "lilac" ? "#be185d" : "#94a3b8";
 
             return (
               <button
@@ -116,12 +116,12 @@ export default function ThemesPage() {
                     <div
                       className="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs uppercase tracking-[0.28em]"
                       style={{
-                        borderColor: card.id === "girly" ? "rgba(236,72,153,0.25)" : "rgba(51,65,85,1)",
+                        borderColor: card.id === "lilac" ? "rgba(236,72,153,0.25)" : "rgba(51,65,85,1)",
                         background:
-                          card.id === "girly"
+                          card.id === "lilac"
                             ? "rgba(255,255,255,0.7)"
                             : "rgba(2,6,23,0.7)",
-                        color: card.id === "girly" ? "#9f1239" : "#94a3b8",
+                        color: card.id === "lilac" ? "#9f1239" : "#94a3b8",
                       }}
                     >
                       {card.id === "forged-kings" ? (
@@ -148,11 +148,11 @@ export default function ThemesPage() {
                       className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium"
                       style={{
                         background:
-                          themeId === "girly"
+                          themeId === "lilac"
                             ? "rgba(236,72,153,0.12)"
                             : "rgba(16,185,129,0.12)",
                         color:
-                          themeId === "girly"
+                          themeId === "lilac"
                             ? "#be185d"
                             : "#86efac",
                       }}
@@ -167,11 +167,11 @@ export default function ThemesPage() {
                   className="mt-5 overflow-hidden rounded-[1.5rem] border p-3"
                   style={{
                     borderColor:
-                      card.id === "girly"
+                      card.id === "lilac"
                         ? "rgba(236,72,153,0.18)"
                         : "rgba(51,65,85,0.95)",
                     background:
-                      card.id === "girly"
+                      card.id === "lilac"
                         ? "rgba(255,255,255,0.65)"
                         : "rgba(2,6,23,0.65)",
                   }}
@@ -183,7 +183,7 @@ export default function ThemesPage() {
                       className="rounded-2xl"
                       style={{
                         background:
-                          card.id === "girly"
+                          card.id === "lilac"
                             ? "linear-gradient(135deg, #fff1f8 0%, #ffd9ea 100%)"
                             : card.background.panel,
                       }}
@@ -221,7 +221,7 @@ export default function ThemesPage() {
           style={{
             borderColor: theme.background.border,
             background:
-              themeId === "girly"
+              themeId === "lilac"
                 ? "rgba(255,255,255,0.75)"
                 : "rgba(15,23,42,0.8)",
           }}

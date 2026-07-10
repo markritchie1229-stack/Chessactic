@@ -39,47 +39,100 @@ function formatDate(dateKey: string) {
 export default function DailyArchivePage() {
   const [entries, setEntries] = useState<DailyResultRow[]>([]);
   const [loading, setLoading] = useState(true);
+  const [authReady, setAuthReady] = useState(false);
   const todayKey = utcDayKey();
 
   useEffect(() => {
-    void (async () => {
-      try {
-        const { data: userData, error: userError } = await supabase.auth.getUser();
+    let mounted = true;
 
-        if (userError) {
-          console.error(userError);
-          setEntries([]);
-          return;
-        }
+    const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-        const user = userData.user;
-        if (!user) {
-          setEntries([]);
-          return;
-        }
+    const fetchEntries = async (userId: string) => {
+      const { data, error } = await supabase
+        .from(TABLE_NAME)
+        .select(
+          "date_key, label, white_guess, black_guess, white_error, black_error, max_error, solved, submitted_at",
+        )
+        .eq("user_id", userId)
+        .order("date_key", { ascending: false });
 
-        const { data, error } = await supabase
-          .from(TABLE_NAME)
-          .select(
-            "date_key, label, white_guess, black_guess, white_error, black_error, max_error, solved, submitted_at",
-          )
-          .eq("user_id", user.id)
-          .order("date_key", { ascending: false });
+      if (error) {
+        console.error(error);
+        if (mounted) setEntries([]);
+        return;
+      }
 
-        if (error) {
-          console.error(error);
-          setEntries([]);
-          return;
-        }
-
+      if (mounted) {
         setEntries((data ?? []) as DailyResultRow[]);
+      }
+    };
+
+    const loadArchive = async () => {
+      try {
+        let user = null as Awaited<
+          ReturnType<typeof supabase.auth.getUser>
+        >["data"]["user"] | null;
+
+        for (let attempt = 0; attempt < 10 && mounted; attempt += 1) {
+          const { data, error } = await supabase.auth.getUser();
+
+          if (error) {
+            console.error(error);
+            break;
+          }
+
+          user = data.user;
+          if (user) break;
+
+          await wait(250);
+        }
+
+        if (!mounted) return;
+
+        setAuthReady(true);
+
+        if (!user) {
+          if (mounted) setEntries([]);
+          return;
+        }
+
+        await fetchEntries(user.id);
       } catch (err) {
         console.error(err);
-        setEntries([]);
+        if (mounted) setEntries([]);
       } finally {
-        setLoading(false);
+        if (mounted) setLoading(false);
       }
-    })();
+    };
+
+    void loadArchive();
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!mounted) return;
+
+      if (!session?.user) {
+        setAuthReady(true);
+        setEntries([]);
+        setLoading(false);
+        return;
+      }
+
+      setAuthReady(true);
+      void (async () => {
+        try {
+          await fetchEntries(session.user.id);
+        } finally {
+          if (mounted) setLoading(false);
+        }
+      })();
+    });
+
+    return () => {
+      mounted = false;
+      subscription.unsubscribe();
+    };
   }, []);
 
   const solvedCount = useMemo(
@@ -149,7 +202,7 @@ export default function DailyArchivePage() {
           </div>
         ) : entries.length === 0 ? (
           <div className="rounded-3xl border border-slate-800 bg-slate-900/70 p-8 text-slate-400">
-            No archived results yet.
+            {authReady ? "No archived results yet." : "Loading your archive..."}
           </div>
         ) : (
           <div className="grid gap-4">

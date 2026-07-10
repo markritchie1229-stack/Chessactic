@@ -1,3 +1,4 @@
+// AccountRail.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -6,6 +7,7 @@ import { useRouter } from "next/navigation";
 import type { Session } from "@supabase/supabase-js";
 import { UserCircle2, X } from "lucide-react";
 import { supabase } from "@/lib/supabase";
+import { isAdmin } from "@/lib/admin";
 
 type ProfileRow = {
   username: string | null;
@@ -38,6 +40,8 @@ export function AccountRail() {
   const [lastSeenAt, setLastSeenAt] = useState<string | null>(null);
   const [message, setMessage] = useState("");
   const [saving, setSaving] = useState(false);
+
+  const currentUserIsAdmin = isAdmin(session?.user.id);
 
   const touchLastSeen = async (userId: string) => {
     const nowIso = new Date().toISOString();
@@ -76,8 +80,8 @@ export function AccountRail() {
       }
 
       const fallbackName =
-        nextSession.user.user_metadata?.username?.trim().toLowerCase() ??
-        nextSession.user.email?.trim().toLowerCase() ??
+        nextSession.user.user_metadata?.username?.trim() ??
+        nextSession.user.email?.trim() ??
         "Player";
 
       const { data: profile } = await supabase
@@ -90,7 +94,7 @@ export function AccountRail() {
 
       const row = profile as ProfileRow | null;
 
-      setUsername(row?.username?.trim().toLowerCase() ?? fallbackName);
+      setUsername(row?.username?.trim() ?? fallbackName);
       setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
       setLastLoginAt(row?.last_login ?? null);
       setLastSeenAt(row?.last_seen ?? null);
@@ -114,8 +118,8 @@ export function AccountRail() {
       }
 
       const fallbackName =
-        nextSession.user.user_metadata?.username?.trim().toLowerCase() ??
-        nextSession.user.email?.trim().toLowerCase() ??
+        nextSession.user.user_metadata?.username?.trim() ??
+        nextSession.user.email?.trim() ??
         "Player";
 
       void (async () => {
@@ -127,7 +131,7 @@ export function AccountRail() {
 
         const row = profile as ProfileRow | null;
 
-        setUsername(row?.username?.trim().toLowerCase() ?? fallbackName);
+        setUsername(row?.username?.trim() ?? fallbackName);
         setJoinedAt(row?.created_at ?? nextSession.user.created_at ?? null);
         setLastLoginAt(row?.last_login ?? null);
         setLastSeenAt(row?.last_seen ?? null);
@@ -168,7 +172,7 @@ export function AccountRail() {
         return;
       }
 
-      const cleaned = username.trim().toLowerCase();
+      const cleaned = username.trim();
 
       if (!cleaned) {
         setMessage("Username cannot be empty.");
@@ -180,15 +184,15 @@ export function AccountRail() {
         return;
       }
 
-      if (!/^[a-z0-9_]+$/.test(cleaned)) {
+      if (!/^[a-zA-Z0-9_]+$/.test(cleaned)) {
         setMessage("Use only letters, numbers, and underscores.");
         return;
       }
 
       const currentUsername =
-        session?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
+        session?.user.user_metadata?.username?.trim() ?? "";
 
-      if (cleaned !== currentUsername) {
+      if (cleaned.toLowerCase() !== currentUsername.toLowerCase()) {
         const { data: usernameTaken, error: usernameCheckError } =
           await supabase.rpc("is_username_taken", {
             p_username: cleaned,
@@ -220,16 +224,24 @@ export function AccountRail() {
       setUsername(cleaned);
       window.dispatchEvent(new CustomEvent("profile-updated"));
       setMessage("Username updated.");
-    } catch (err: any) {
+    } catch (err: unknown) {
       if (
-        err?.code === "23505" ||
-        err?.message?.includes("profiles_username_key")
+        err &&
+        typeof err === "object" &&
+        "code" in err &&
+        (err as { code?: string }).code === "23505"
       ) {
         setMessage("Username is already taken.");
         return;
       }
 
-      setMessage(err?.message ?? "Something went wrong.");
+      const maybeError = err as { message?: string } | null;
+      if (maybeError?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(maybeError?.message ?? "Something went wrong.");
     } finally {
       setSaving(false);
     }
@@ -282,8 +294,13 @@ export function AccountRail() {
                 <div className="mt-4 space-y-4">
                   <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
                     <div className="text-sm text-slate-400">Signed in as</div>
-                    <div className="mt-1 font-medium text-slate-100">
-                      {displayName}
+                    <div className="mt-1 flex items-center gap-2 font-medium text-slate-100">
+                      <span>{displayName}</span>
+                      {currentUserIsAdmin ? (
+                        <span className="rounded-full border border-amber-500/30 bg-amber-500/10 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-amber-300">
+                          Admin
+                        </span>
+                      ) : null}
                     </div>
                     <div className="mt-1 text-sm text-slate-500">
                       {session.user.email}

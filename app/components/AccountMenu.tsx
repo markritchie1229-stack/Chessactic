@@ -1,3 +1,4 @@
+// AccountMenu.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -18,7 +19,7 @@ export function AccountMenu() {
       setSession(data.session);
 
       const currentUsername =
-        data.session?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
+        data.session?.user.user_metadata?.username?.trim() ?? "";
       setUsername(currentUsername);
     };
 
@@ -30,7 +31,7 @@ export function AccountMenu() {
       setSession(nextSession);
 
       const currentUsername =
-        nextSession?.user.user_metadata?.username?.trim().toLowerCase() ?? "";
+        nextSession?.user.user_metadata?.username?.trim() ?? "";
       setUsername(currentUsername);
     });
 
@@ -51,7 +52,7 @@ export function AccountMenu() {
         return;
       }
 
-      const cleaned = username.trim().toLowerCase();
+      const cleaned = username.trim();
 
       if (!cleaned) {
         setMessage("Username cannot be empty.");
@@ -63,22 +64,26 @@ export function AccountMenu() {
         return;
       }
 
-      if (!/^[a-z0-9_]+$/.test(cleaned)) {
+      if (!/^[a-zA-Z0-9_]+$/.test(cleaned)) {
         setMessage("Use only letters, numbers, and underscores.");
         return;
       }
 
-      const { data: existing, error: checkError } = await supabase
-        .from("profiles")
-        .select("id")
-        .eq("username", cleaned)
-        .maybeSingle();
+      const currentUsername =
+        session?.user.user_metadata?.username?.trim() ?? "";
 
-      if (checkError) throw checkError;
+      if (cleaned.toLowerCase() !== currentUsername.toLowerCase()) {
+        const { data: usernameTaken, error: usernameCheckError } =
+          await supabase.rpc("is_username_taken", {
+            p_username: cleaned,
+          });
 
-      if (existing && existing.id !== user.id) {
-        setMessage("That username is already taken.");
-        return;
+        if (usernameCheckError) throw usernameCheckError;
+
+        if (usernameTaken) {
+          setMessage("Username is already taken.");
+          return;
+        }
       }
 
       const { error: authError } = await supabase.auth.updateUser({
@@ -100,7 +105,23 @@ export function AccountMenu() {
       window.dispatchEvent(new CustomEvent("profile-updated"));
       setMessage("Username updated.");
     } catch (err: unknown) {
-      setMessage(err instanceof Error ? err.message : "Something went wrong.");
+      if (
+        err &&
+        typeof err === "object" &&
+        "code" in err &&
+        (err as { code?: string }).code === "23505"
+      ) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      const maybeError = err as { message?: string } | null;
+      if (maybeError?.message?.includes("profiles_username_key")) {
+        setMessage("Username is already taken.");
+        return;
+      }
+
+      setMessage(maybeError?.message ?? "Something went wrong.");
     } finally {
       setSaving(false);
     }

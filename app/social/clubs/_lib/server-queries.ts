@@ -1,5 +1,6 @@
 import "server-only";
-
+import { makeSiteAdminMember } from "./effective-member";
+import { isAdmin } from "@/lib/admin";
 import { createSupabaseServerClient } from "./supabase-server";
 import type {
   Club,
@@ -288,6 +289,17 @@ export async function getClubMembers(clubId: string): Promise<ClubMember[]> {
   return (data ?? []) as ClubMember[];
 }
 
+function makeAdminMember(clubId: string, userId: string): ClubMember {
+  return {
+    id: `site-admin-${clubId}`,
+    club_id: clubId,
+    user_id: userId,
+    rank: "leader",
+    muted: false,
+    created_at: null,
+  };
+}
+
 export async function getCurrentMember(clubId: string): Promise<ClubMember | null> {
   const supabase = await createSupabaseServerClient();
 
@@ -299,6 +311,10 @@ export async function getCurrentMember(clubId: string): Promise<ClubMember | nul
   if (authError || !user) {
     return null;
   }
+
+  if (isAdmin(user.id)) {
+  return makeSiteAdminMember(clubId, user.id);
+}
 
   const { data, error } = await supabase
     .from("club_members")

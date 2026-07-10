@@ -18,7 +18,7 @@ type ChessBoardProps = {
 
 type PieceColor = "w" | "b";
 type PieceType = "p" | "n" | "b" | "r" | "q" | "k";
-type ThemeId = "forged-kings" | "standard" | "girly";
+type ThemeId = "forged-kings" | "standard" | "lilac";
 
 function buildBoardSquares(orientation: "white" | "black") {
   const files =
@@ -57,10 +57,10 @@ function getThemeAssets(themeId: ThemeId) {
         pieceFolder: "/chess-pieces/forged-kings",
         customArt: true,
       };
-    case "girly":
+    case "lilac":
       return {
-        boardImage: "/boards/girly/board-girly.png",
-        pieceFolder: "/chess-pieces/girly",
+        boardImage: "/boards/lilac/board-lilac.png",
+        pieceFolder: "/chess-pieces/lilac",
         customArt: true,
       };
     case "standard":
@@ -76,7 +76,7 @@ function getThemeAssets(themeId: ThemeId) {
 function getSquareBackground(fileIndex: number, rankIndex: number, themeId: ThemeId) {
   const isLight = (fileIndex + rankIndex) % 2 === 0;
 
-  if (themeId === "girly") {
+  if (themeId === "lilac") {
     return isLight
       ? "radial-gradient(circle at 30% 28%, rgba(255,255,255,0.58) 0%, rgba(255,255,255,0.16) 22%, rgba(255,255,255,0) 48%), linear-gradient(135deg, rgba(255,238,248,0.98) 0%, rgba(248,183,214,0.98) 100%)"
       : "radial-gradient(circle at 30% 28%, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.04) 22%, rgba(255,255,255,0) 48%), linear-gradient(135deg, rgba(223,120,169,0.98) 0%, rgba(190,70,130,0.98) 100%)";
@@ -100,7 +100,7 @@ function getPieceAuraSpec(
     ? "drop-shadow(0 1px 2px rgba(0,0,0,0.18)) drop-shadow(0 4px 7px rgba(0,0,0,0.12))"
     : "drop-shadow(0 1px 2px rgba(255,255,255,0.06)) drop-shadow(0 4px 7px rgba(0,0,0,0.18))";
 
-  if (themeId === "girly") {
+  if (themeId === "lilac") {
     return {
       pieceSrc,
       glowStyle: {
@@ -301,7 +301,7 @@ export default function ChessBoard({
         className="rounded-[2rem] border p-0 shadow-[0_24px_60px_rgba(0,0,0,0.48)] overflow-hidden"
         style={{
           borderColor: theme.background.border,
-          background: theme.id === "girly" ? "rgba(255, 247, 252, 0.86)" : "#0f0c09",
+          background: theme.id === "lilac" ? "rgba(255, 247, 252, 0.86)" : "#0f0c09",
         }}
       >
         <div
@@ -311,7 +311,7 @@ export default function ChessBoard({
             backgroundSize: "100% 100%",
             backgroundPosition: "center center",
             backgroundRepeat: "no-repeat",
-            backgroundColor: theme.id === "girly" ? "#ffe6f0" : "#0f0c09",
+            backgroundColor: theme.id === "lilac" ? "#ffe6f0" : "#0f0c09",
           }}
         >
           <div className="absolute inset-0 grid grid-cols-8 grid-rows-8">
@@ -341,7 +341,7 @@ export default function ChessBoard({
                         className="absolute inset-0"
                         style={{
                           background:
-                            theme.id === "girly"
+                            theme.id === "lilac"
                               ? "radial-gradient(circle at center, rgba(236,72,153,0.38) 0%, rgba(236,72,153,0.18) 38%, rgba(236,72,153,0) 74%)"
                               : "radial-gradient(circle at center, rgba(251,191,36,0.42) 0%, rgba(251,191,36,0.22) 38%, rgba(251,191,36,0) 74%)",
                           mixBlendMode: "screen",
