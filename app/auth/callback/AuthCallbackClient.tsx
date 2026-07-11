@@ -18,26 +18,42 @@ export default function AuthCallbackClient() {
       const error = searchParams.get("error");
       const errorDescription = searchParams.get("error_description");
       const code = searchParams.get("code");
+      const tokenHash = searchParams.get("token_hash");
 
       if (error) {
         setMessage(errorDescription ?? error);
         return;
       }
 
-      if (!code) {
+      let session = null;
+
+      if (tokenHash) {
+        const { data, error: otpError } = await supabase.auth.verifyOtp({
+          type: "email",
+          token_hash: tokenHash,
+        });
+
+        if (otpError) {
+          setMessage(otpError.message);
+          return;
+        }
+
+        session = data.session;
+      } else if (code) {
+        const { data, error: exchangeError } =
+          await supabase.auth.exchangeCodeForSession(code);
+
+        if (exchangeError) {
+          setMessage(exchangeError.message);
+          return;
+        }
+
+        session = data.session;
+      } else {
         setMessage("Missing authentication code.");
         return;
       }
 
-      const { data, error: exchangeError } =
-        await supabase.auth.exchangeCodeForSession(code);
-
-      if (exchangeError) {
-        setMessage(exchangeError.message);
-        return;
-      }
-
-      const session = data.session;
       if (!session) {
         setMessage("Could not complete sign-in.");
         return;
