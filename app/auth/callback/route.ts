@@ -10,11 +10,31 @@ export async function GET(request: Request) {
   }
 
   const supabase = await createClient();
-  const { error } = await supabase.auth.exchangeCodeForSession(code);
+  const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
 
-  if (error) {
+  if (exchangeError) {
     return NextResponse.redirect(
-      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin)
+      new URL(`/signup?error=${encodeURIComponent(exchangeError.message)}`, origin)
+    );
+  }
+
+  const { data: userData, error: userError } = await supabase.auth.getUser();
+  if (userError || !userData.user) {
+    return NextResponse.redirect(new URL("/signup?error=user_missing", origin));
+  }
+
+  const user = userData.user;
+  const username = user.user_metadata?.username?.trim();
+  const email = user.email?.trim();
+
+  if (username && email) {
+    await supabase.from("profiles").upsert(
+      {
+        id: user.id,
+        username,
+        email,
+      },
+      { onConflict: "id" }
     );
   }
 
