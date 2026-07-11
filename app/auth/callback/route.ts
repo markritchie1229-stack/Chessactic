@@ -10,7 +10,8 @@ export async function GET(request: Request) {
   }
 
   const supabase = await createClient();
-  const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
+
+  const { data, error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
 
   if (exchangeError) {
     return NextResponse.redirect(
@@ -18,17 +19,16 @@ export async function GET(request: Request) {
     );
   }
 
-  const { data: userData, error: userError } = await supabase.auth.getUser();
-  if (userError || !userData.user) {
+  const user = data.session?.user;
+  if (!user) {
     return NextResponse.redirect(new URL("/signup?error=user_missing", origin));
   }
 
-  const user = userData.user;
   const username = user.user_metadata?.username?.trim();
   const email = user.email?.trim();
 
   if (username && email) {
-    await supabase.from("profiles").upsert(
+    const { error: profileError } = await supabase.from("profiles").upsert(
       {
         id: user.id,
         username,
@@ -36,6 +36,12 @@ export async function GET(request: Request) {
       },
       { onConflict: "id" }
     );
+
+    if (profileError) {
+      return NextResponse.redirect(
+        new URL(`/signup?error=${encodeURIComponent(profileError.message)}`, origin)
+      );
+    }
   }
 
   return NextResponse.redirect(new URL("/", origin));
