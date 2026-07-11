@@ -150,8 +150,8 @@ export default function SignUpClient() {
           }
         }
 
-        router.push("/account");
-        router.refresh();
+        router.push("/");
+router.refresh();
       }
     } catch (err: any) {
       if (
