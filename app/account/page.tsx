@@ -187,21 +187,33 @@ export default function AccountPage() {
   return (
     <main className="min-h-screen bg-slate-950 px-4 py-10 text-slate-100">
       <div className="mx-auto w-full max-w-xl rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-2xl">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h1 className="text-3xl font-semibold">Account</h1>
-            <p className="mt-2 text-sm text-slate-400">
-              Manage your username and password.
-            </p>
-          </div>
+       <div className="flex items-start justify-between gap-4">
+  <div>
+    <h1 className="text-3xl font-semibold">Account</h1>
+    <p className="mt-2 text-sm text-slate-400">
+      Manage your username and password.
+    </p>
+  </div>
 
-          <button
-            onClick={handleLogout}
-            className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
-          >
-            Log out
-          </button>
-        </div>
+  <div className="flex gap-2">
+    <button
+      onClick={() => {
+        router.push("/");
+        router.refresh();
+      }}
+      className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+    >
+      Home
+    </button>
+
+    <button
+      onClick={handleLogout}
+      className="rounded-2xl border border-slate-800 bg-slate-950 px-4 py-2 text-sm font-medium text-slate-100 transition hover:bg-slate-800"
+    >
+      Log out
+    </button>
+  </div>
+</div>
 
         <div className="mt-6 space-y-6">
           <div className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
