@@ -16,65 +16,76 @@ export default function AuthCallbackClient() {
 
     const run = async () => {
       const code = searchParams.get("code");
+      const tokenHash = searchParams.get("token_hash");
 
-      if (!code) {
-        setMessage("Missing authentication code.");
-        return;
-      }
+      try {
+        let session = null;
 
-      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+        if (code) {
+          const { data, error } = await supabase.auth.exchangeCodeForSession(code);
 
-      if (error) {
-        setMessage(error.message);
-        return;
-      }
+          if (error) throw error;
+          session = data.session;
+        } else if (tokenHash) {
+          const { data, error } = await supabase.auth.verifyOtp({
+            type: "email",
+            token_hash: tokenHash,
+          });
 
-      const session = data.session;
-      if (!session) {
-        setMessage("Could not complete sign-in.");
-        return;
-      }
-
-      const { data: profile, error: profileError } = await supabase
-        .from("profiles")
-        .select("account_status")
-        .eq("id", session.user.id)
-        .maybeSingle();
-
-      if (profileError) {
-        setMessage(profileError.message);
-        return;
-      }
-
-      if (profile?.account_status === "closed") {
-        await supabase.auth.signOut({ scope: "global" });
-        if (active) {
-          setMessage(CLOSED_ACCOUNT_MESSAGE);
-        }
-        return;
-      }
-
-      const username = session.user.user_metadata?.username?.trim();
-      const email = session.user.email?.trim();
-
-      if (username && email) {
-        const { error: upsertError } = await supabase.from("profiles").upsert(
-          {
-            id: session.user.id,
-            username,
-            email,
-          },
-          { onConflict: "id" },
-        );
-
-        if (upsertError) {
-          setMessage(upsertError.message);
+          if (error) throw error;
+          session = data.session;
+        } else {
+          setMessage("Missing authentication code.");
           return;
         }
-      }
 
-      router.replace("/");
-      router.refresh();
+        if (!session) {
+          setMessage("Could not complete sign-in.");
+          return;
+        }
+
+        const { data: profile, error: profileError } = await supabase
+          .from("profiles")
+          .select("account_status")
+          .eq("id", session.user.id)
+          .maybeSingle();
+
+        if (profileError) {
+          setMessage(profileError.message);
+          return;
+        }
+
+        if (profile?.account_status === "closed") {
+          await supabase.auth.signOut({ scope: "global" });
+          if (active) setMessage(CLOSED_ACCOUNT_MESSAGE);
+          return;
+        }
+
+        const username = session.user.user_metadata?.username?.trim();
+        const email = session.user.email?.trim();
+
+        if (username && email) {
+          const { error: upsertError } = await supabase.from("profiles").upsert(
+            {
+              id: session.user.id,
+              username,
+              email,
+            },
+            { onConflict: "id" },
+          );
+
+          if (upsertError) {
+            setMessage(upsertError.message);
+            return;
+          }
+        }
+
+        router.replace("/account");
+        router.refresh();
+      } catch (err) {
+        const text = err instanceof Error ? err.message : "Something went wrong.";
+        setMessage(text);
+      }
     };
 
     void run();
