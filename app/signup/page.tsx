@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 
 function getAuthRedirectTo() {
@@ -10,6 +10,8 @@ function getAuthRedirectTo() {
 
 export default function SignUpPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackError = searchParams.get("callback_error");
 
   const [username, setUsername] = useState("");
   const [loginIdentifier, setLoginIdentifier] = useState("");
@@ -44,7 +46,7 @@ export default function SignUpPage() {
           return;
         }
 
-        if (!/^[a-zA-Z0-9_]+$/.test(cleanUsername)) {
+        if (!/^[a-z0-9_]+$/.test(cleanUsername)) {
           setMessage("Use only letters, numbers, and underscores.");
           return;
         }
@@ -297,6 +299,12 @@ export default function SignUpPage() {
           >
             Resend Confirmation Email
           </button>
+        ) : null}
+
+        {callbackError ? (
+          <div className="mt-4 rounded-2xl border border-red-700 bg-red-950 px-4 py-3 text-sm text-red-200">
+            Callback Error: {callbackError}
+          </div>
         ) : null}
 
         {message ? (

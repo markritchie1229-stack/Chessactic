@@ -6,17 +6,35 @@ export async function GET(request: Request) {
   const code = searchParams.get("code");
 
   if (!code) {
-    return NextResponse.redirect(new URL("/signup?error=missing_code", origin));
-  }
-
-  const supabase = await createClient();
-  const { error } = await supabase.auth.exchangeCodeForSession(code);
-
-  if (error) {
     return NextResponse.redirect(
-      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin),
+      new URL("/signup?callback_error=missing_code", origin)
     );
   }
 
-  return NextResponse.redirect(new URL("/account", origin));
+  try {
+    const supabase = await createClient();
+
+    const { error } = await supabase.auth.exchangeCodeForSession(code);
+
+    if (error) {
+      return NextResponse.redirect(
+        new URL(
+          `/signup?callback_error=${encodeURIComponent(error.message)}`,
+          origin
+        )
+      );
+    }
+
+    return NextResponse.redirect(new URL("/account", origin));
+  } catch (err) {
+    const message =
+      err instanceof Error ? err.message : "Unknown callback error";
+
+    return NextResponse.redirect(
+      new URL(
+        `/signup?callback_error=${encodeURIComponent(message)}`,
+        origin
+      )
+    );
+  }
 }
