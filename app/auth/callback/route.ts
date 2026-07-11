@@ -6,7 +6,8 @@ export async function GET(request: Request) {
   const code = searchParams.get("code");
   const next = searchParams.get("next");
 
-  const safeNext = next && next.startsWith("/") ? next : "/account";
+const safeNext =
+  next === "/reset-password" ? "/reset-password" : "/";
 
   if (!code) {
     return NextResponse.redirect(new URL("/signup?error=missing_code", origin));
