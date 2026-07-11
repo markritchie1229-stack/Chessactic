@@ -15,17 +15,25 @@ export default function AuthCallbackClient() {
     let active = true;
 
     const run = async () => {
+      const error = searchParams.get("error");
+      const errorDescription = searchParams.get("error_description");
       const code = searchParams.get("code");
+
+      if (error) {
+        setMessage(errorDescription ?? error);
+        return;
+      }
 
       if (!code) {
         setMessage("Missing authentication code.");
         return;
       }
 
-      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+      const { data, error: exchangeError } =
+        await supabase.auth.exchangeCodeForSession(code);
 
-      if (error) {
-        setMessage(error.message);
+      if (exchangeError) {
+        setMessage(exchangeError.message);
         return;
       }
 
@@ -48,9 +56,7 @@ export default function AuthCallbackClient() {
 
       if (profile?.account_status === "closed") {
         await supabase.auth.signOut({ scope: "global" });
-        if (active) {
-          setMessage(CLOSED_ACCOUNT_MESSAGE);
-        }
+        if (active) setMessage(CLOSED_ACCOUNT_MESSAGE);
         return;
       }
 
@@ -73,7 +79,7 @@ export default function AuthCallbackClient() {
         }
       }
 
-      router.replace("/");
+      router.replace("/account");
       router.refresh();
     };
 
