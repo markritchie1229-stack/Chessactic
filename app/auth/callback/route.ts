@@ -6,7 +6,7 @@ export async function GET(request: Request) {
   const code = searchParams.get("code");
 
   if (!code) {
-    return NextResponse.redirect(new URL("/auth/callback?error=missing_code", origin));
+    return NextResponse.redirect(new URL("/signup?error=missing_code", origin));
   }
 
   const supabase = await createClient();
@@ -14,7 +14,7 @@ export async function GET(request: Request) {
 
   if (error) {
     return NextResponse.redirect(
-      new URL(`/auth/callback?error=${encodeURIComponent(error.message)}`, origin),
+      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin)
     );
   }
 
