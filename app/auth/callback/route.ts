@@ -7,7 +7,7 @@ export async function GET(request: Request) {
 
   if (!code) {
     return NextResponse.redirect(
-      new URL("/signup?callback_error=missing_code", origin)
+      new URL("/signup?callback_error=Missing authentication code", origin)
     );
   }
 
