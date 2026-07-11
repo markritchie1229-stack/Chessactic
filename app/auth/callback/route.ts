@@ -10,18 +10,13 @@ export async function GET(request: Request) {
   }
 
   const supabase = await createClient();
-  const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+  const { error } = await supabase.auth.exchangeCodeForSession(code);
 
   if (error) {
     return NextResponse.redirect(
-      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin)
+      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin),
     );
   }
 
-  const user = data.session?.user;
-  if (!user) {
-    return NextResponse.redirect(new URL("/signup?error=user_missing", origin));
-  }
-
-  return NextResponse.redirect(new URL("/", origin));
+  return NextResponse.redirect(new URL("/account", origin));
 }
