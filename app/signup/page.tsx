@@ -26,7 +26,7 @@ export default function SignUpPage() {
 
     try {
       if (mode === "signup") {
-        const cleanUsername = username.trim();
+        const cleanUsername = username.trim().toLowerCase();
         const cleanEmail = email.trim().toLowerCase();
 
         if (!cleanUsername) {
