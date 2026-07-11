@@ -4,6 +4,9 @@ import { createClient } from "@/lib/supabase/server";
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
   const code = searchParams.get("code");
+  const next = searchParams.get("next");
+
+  const safeNext = next && next.startsWith("/") ? next : "/account";
 
   if (!code) {
     return NextResponse.redirect(new URL("/signup?error=missing_code", origin));
@@ -14,9 +17,9 @@ export async function GET(request: Request) {
 
   if (error) {
     return NextResponse.redirect(
-      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin),
+      new URL(`/signup?error=${encodeURIComponent(error.message)}`, origin)
     );
   }
 
-  return NextResponse.redirect(new URL("/account", origin));
+  return NextResponse.redirect(new URL(safeNext, origin));
 }

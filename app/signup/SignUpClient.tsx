@@ -19,6 +19,27 @@ export default function SignUpClient() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
+  const resolveEmailFromLoginIdentifier = async (rawLogin: string) => {
+    const trimmed = rawLogin.trim();
+
+    if (!trimmed) {
+      throw new Error("Enter your username or email first.");
+    }
+
+    if (trimmed.includes("@")) {
+      return trimmed.toLowerCase();
+    }
+
+    const { data, error } = await supabase.rpc("get_email_by_username", {
+      p_username: trimmed,
+    });
+
+    if (error) throw error;
+    if (!data) throw new Error("That username was not found.");
+
+    return (data as string).trim().toLowerCase();
+  };
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -75,7 +96,7 @@ export default function SignUpClient() {
         if (error) throw error;
 
         setMessage(
-          "Your account has been created! Check your email and click the confirmation link.",
+          "Your account has been created! Check your email and click the confirmation link."
         );
       } else {
         const rawLogin = loginIdentifier.trim();
@@ -124,12 +145,12 @@ export default function SignUpClient() {
           if (activityError) {
             console.warn(
               "Could not update login timestamps:",
-              activityError.message,
+              activityError.message
             );
           }
         }
 
-        router.push("/");
+        router.push("/account");
         router.refresh();
       }
     } catch (err: any) {
@@ -172,6 +193,27 @@ export default function SignUpClient() {
       setMessage("Confirmation email sent. Check your inbox.");
     } catch (err: any) {
       setMessage(err?.message ?? "Unable to resend confirmation email.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleForgotPassword = async () => {
+    setLoading(true);
+    setMessage("");
+
+    try {
+      const emailToUse = await resolveEmailFromLoginIdentifier(loginIdentifier);
+
+      const { error } = await supabase.auth.resetPasswordForEmail(emailToUse, {
+        redirectTo: `${window.location.origin}/auth/callback?next=/reset-password`,
+      });
+
+      if (error) throw error;
+
+      setMessage("Password reset email sent. Check your inbox.");
+    } catch (err: any) {
+      setMessage(err?.message ?? "Unable to send reset email.");
     } finally {
       setLoading(false);
     }
@@ -288,6 +330,17 @@ export default function SignUpClient() {
             className="mt-3 w-full rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm font-medium text-slate-100 transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:opacity-50"
           >
             Resend Confirmation Email
+          </button>
+        ) : null}
+
+        {mode === "login" ? (
+          <button
+            type="button"
+            onClick={handleForgotPassword}
+            disabled={loading || !loginIdentifier.trim()}
+            className="mt-3 w-full text-sm text-slate-400 underline underline-offset-4 hover:text-slate-200 disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Forgot password?
           </button>
         ) : null}
 
